@@ -73,14 +73,18 @@ bağ `evidence` bloğuyla kurulduğunda cevaplanacak.
 
 ---
 
-## D-05 · Yetim kaynaklar (AÇIK — muhtemelen zararsız)
+## D-05 · Yetim kaynaklar (AÇIK — muhtemelen zararsız, sayı azalıyor)
 
-Hiçbir araca bağlı olmayan 13 kaynak var:
+Hiçbir araca veya şanzıman kutusu kaydına bağlı olmayan 11 kaynak var:
 
-`andcetin_dct_tucson`, `andcetin_dq200`, `araclo_c5aircross`, `dhaber_qashqai13`,
-`dhaber_sportage_dct`, `erenservis_eat8`, `hech_koleos`, `kronikyorum_qashqai`,
-`mkt`, `motor1_psa_suv_eat`, `otomobilforum_sanziman`, `sikayetvar_qashqai`,
-`sikayetvar_tucson_dct`
+`araclo_c5aircross`, `dhaber_qashqai13`, `dhaber_sportage_dct`, `erenservis_eat8`,
+`hech_koleos`, `kronikyorum_qashqai`, `mkt`, `motor1_psa_suv_eat`,
+`otomobilforum_sanziman`, `sikayetvar_qashqai`, `sikayetvar_tucson_dct`
+
+Sayı 13'ten 11'e düştü: `andcetin_dq200` ve `andcetin_dct_tucson`, şanzıman kutusu
+kayıtları kurulurken `vag-dq200` ve `hyundai-7dct` kayıtlarına bağlandı. Bu, yetim
+kaynak sayısının yalnızca SUV/MPV genişlemesiyle değil, kutu ve motor kayıtları
+ilerledikçe de düşeceğini gösteriyor.
 
 Çoğu SUV ve MPV temizliğinden kalma kaynaklar (Tucson, Qashqai, Sportage, C5 Aircross,
 Grandland, Koleos). Bunlar gerçek araştırma çıktısı ve silinmediler. SUV ile MPV

@@ -65,10 +65,37 @@ Kalan 17 kutu eşiğin altında ve çoğu oldukça tutarlı: `mb-5g-tronic` 12 a
 2 puan, `vag-dq200` 8 araçta 3 puan, `toyota-multidrive` 4 araçta 0 puan yayılıyor.
 
 Bu, ilk teşhisin bir kısmını doğruluyor ama bir kısmını da düzeltiyor. Sorun sanıldığı
-kadar yaygın değil; üç kutuda yoğunlaşmış durumda. Yine de bu üç kutudaki farkların
-hiçbiri veride gerekçelendirilmemiş. `getrag-6dct450` örneğinde aynı donanım için 30
-puanlık bir fark var ve Volvo'nun 28 puanı ile Ford'un 58 puanı arasındaki ayrımı
-açıklayan tek bir cümle bile yok.
+kadar yaygın değil; üç kutuda yoğunlaşmış durumda.
+
+**Sorulması gereken bir sonraki soru şuydu: bu fark gerçek mi, yoksa hâlâ sezgisel bir
+hata mı?** Aynı fiziksel kutu farklı motorlarla eşleştiğinde gerçekten farklı
+davranabilir, çünkü şanzımanlar bir tork sınırına göre tasarlanır ve motorun torku bu
+sınıra ne kadar yakınsa aşınma o kadar erken başlar. Bu, sezgi değil bilinen bir
+mühendislik olgusu. Üç kutu tek tek araştırıldığında (bkz. `data/transmissions.json`
+içindeki `torque_sensitivity` alanları):
+
+- **`nissan-xtronic`** — fark gerçek ve tork kaynaklı. Bu kutu ailesi düşük torklu
+  benzinli motorlarla sorunsuz çalışıyor, ama yüksek torklu dizellerle eşleştiğinde
+  zincir kayması nedeniyle 60-100 bin km aralığında titreme bildiriliyor
+  ([go4trans.com](https://shop.go4trans.com/technical-transmission-general-articles/x-tronic-cvt-design-peculiarities-pros-and-cons-typical-repair-issues-and-useful-tips/)).
+  Puanı en düşük olan araç (Renault Latitude, 16 puan) tam olarak listedeki en yüksek
+  torklu üye. Fark artık gerekçeli.
+- **`getrag-6dct450`** — fark tork kaynaklı değil. Kutu 450 Nm'ye kadar tasarlanmış
+  ([Green Car Congress](https://www.greencarcongress.com/2012/02/volvo-20120201.html))
+  ve listedeki üç aracın torku da (270-340 Nm) bu sınırın oldukça altında. Şikayetler
+  markadan bağımsız ve genel (düşük hızda titreme, sert hızlanmada kavrama kayması),
+  bu da farkın kutunun kendisinden çok üç yılda bir gereken bakımın araç bazında
+  atlanmış olma ihtimaline işaret ediyor. Bu üç aracın bakım geçmişi ayrı ayrı
+  araştırılmadan fark kapatılmamalı.
+- **`psa-al4`** — fark ne torkla ne başka bir mühendislik sebebiyle açıklanabildi. Üç
+  aracın beygiri de birbirine çok yakın (110-120 bg). Bu, muhtemelen gerçek bir donanım
+  farkı değil, bizim puanlamamızdaki bir tutarsızlık; Citroen C4'ün 32 puanı ayrıca
+  kaynakla doğrulanmalı ya da diğer ikisiyle aynı seviyeye çekilmeli.
+
+Sonuç: donanım farkının **motora bağlı olarak gerçek olabileceği** doğrulandı, ama her
+puan farkı otomatik olarak meşru sayılamaz. Bu yüzden §3.2'deki formül, tork yakınlığını
+adı konmuş ve zorunlu kaynağa bağlı tek bir düzeltme türü olarak tanımlıyor —
+"motora göre değişebilir" diye genel bir mazeret değil.
 
 > Ölçüm henüz eksik: 154 aracın 97'si bir kutu kaydına bağlandı, 57'si bağlanmadan
 > kaldı. Bağlanmayanların `tag` alanında kutu adı açıkça yazmıyor (örneğin yalnızca
@@ -209,43 +236,41 @@ elle girilmiş değeri hata olarak yakalar.
 
 ---
 
-### 3.2 `trans` — Şanzıman · **kutu kaydına bağlanır**
+### 3.2 `trans` — Şanzıman · **kutu kaydına bağlanır** (yapı kuruldu)
 
 Bu kriter, proje boyunca en çok emek verilen ama aynı zamanda en tutarsız kalan
-kriterdir; §1.2'deki tablo bunu gösteriyor.
+kriterdi; §1.2'deki tablo bunu gösteriyordu. `data/transmissions.json`,
+`data/schema/transmission.schema.json` ve göç betiği (`scripts/migrations/`) artık
+kurulu; 154 aracın 97'si bir kutu kaydına bağlı. Kalan iş, kutulara `base_score`
+atamak.
 
-**Yapısal değişiklik — `data/transmissions.json`:**
-
-```json
-"6dct450": {
-  "id": "6dct450",
-  "names": ["Powershift (ıslak)", "Volvo Powershift", "Ford 6DCT450"],
-  "type": "Islak DCT",
-  "supplier": "Getrag",
-  "base_score": 58,
-  "known_issues": [
-    { "issue": "mekatronik yağ sızıntısı", "onset_km": 120000,
-      "severity": "orta", "sources": ["mondps"] }
-  ],
-  "maintenance": "3 yılda bir yağ değişimi şart",
-  "sources": ["mondps", "volvops"]
-}
-```
-
-Araç kaydı `specs.transmission_id: "6dct450"` der. `trans` puanı:
+Araç kaydı `specs.transmission_id: "getrag-6dct450"` der. `trans` puanı:
 
 ```
-trans = kutu.base_score + araç_bazlı_düzeltme
+trans = kutu.base_score + düzeltme
 ```
 
-`araç_bazlı_düzeltme` **yalnızca yazılı gerekçeyle** verilebilir (ör. "bu araçta
-kutu daha yüksek tork altında çalışıyor: −5"). Gerekçesiz düzeltme = denetim hatası.
+Düzeltme yalnızca iki adı konmuş türden birine girerse uygulanabilir; ikisi de yazılı
+gerekçe ister, boş bir "motora göre değişebilir" ifadesi gerekçe sayılmaz:
 
-**Etki:** Aynı kutu = aynı temel puan garantisi. §1.2'deki 28/50/58 üçlüsü ya
-gerekçelenir ya düzelir. Ayrıca kutu kodu bir kez araştırılır, 9 araçta tekrar
-araştırılmaz — araştırma emeği ~%60 düşer.
+- **Tork yakınlığı düzeltmesi.** Kutunun `torque_rating_nm` alanı doluysa ve aracın
+  motor torku bu sınıra yakınsa (kabaca sınırın %80'inden fazlaysa), düzeltme
+  aşağı yönde uygulanabilir. Bu, §1.2'de `nissan-xtronic` için doğrulanan gerçek bir
+  mühendislik etkisi — kutunun kendi `torque_sensitivity` alanında yazılı olmalı.
+- **Bakım geçmişi düzeltmesi.** Kutunun kendisi sağlam ama belirli bir uygulamada
+  bilinen bir bakım kalemi (ör. yağ değişiminin atlanma eğilimi) o araca özgü bir risk
+  yaratıyorsa. Bu, §1.2'de `getrag-6dct450` için henüz kapatılmamış açık soru.
 
-**Öncelik: en yüksek.** Hem en büyük tutarsızlık burada, hem en kolay düzeltilebilir.
+Bu ikisinin dışında kalan bir fark, düzeltme değil hata sayılır ve puan kutunun temel
+puanına çekilir. `psa-al4` örneği tam olarak bu durumda: ne tork ne bakım farkı
+bulunabildi, yani üç aracın puanı birbirine yakınsatılmalı.
+
+**Etki:** Aynı kutu = aynı temel puan, yalnızca adı konmuş ve kaynaklı iki düzeltme
+türüyle sapabilir. `scripts/consistency.py` bu sapmayı ölçüyor; kutu başına
+`base_score` atandıkça sayı azalacak.
+
+**Öncelik: en yüksek.** Kutu kodu bir kez araştırılır, aynı kutuyu paylaşan araçlarda
+tekrar araştırılmaz.
 
 ---
 

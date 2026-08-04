@@ -98,11 +98,13 @@
     "type": "TK",
     "supplier": "PSA / Renault",
     "gears": 4,
+    "torque_rating_nm": null,
+    "torque_sensitivity": null,
     "base_score": null,
     "maintenance": null,
     "known_issues": [],
     "sources": ["trbox"],
-    "note": "Selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme yaygın şikayetler."
+    "note": "Selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme yaygın şikayetler. UYARI: docs/PLAN.md §1.2'de bu kutu üç araçta (Citroen C4 32, Citroen Xsara 60, Peugeot 307 60) 28 puanlık bir fark gösteriyor, ama üç aracın da beygiri birbirine çok yakın (110-120 bg) ve araştırma torka dayalı bir açıklama bulamadı. Bu fark, getrag-6dct450 ve nissan-xtronic'in aksine gerçek bir mühendislik farkına dayanmıyor olabilir; C4'ün 32 puanının ayrıca kaynakla doğrulanması ya da diğer ikisiyle aynı seviyeye çekilmesi gerekiyor."
   },
   "mb-4g-tronic": {
     "id": "mb-4g-tronic",
@@ -191,11 +193,20 @@
     "type": "Islak DCT",
     "supplier": "Getrag",
     "gears": 6,
+    "torque_rating_nm": 450,
+    "torque_sensitivity": "Kutu 450 Nm'ye kadar tork için boyutlandırılmış. Listedeki üç araç da (Volvo S60 2.0T ~300 Nm, Ford Mondeo 2.0 TDCi ~340 Nm, Ford Focus 1.5 TDCi ~270 Nm) bu sınırın oldukça altında kalıyor, yani tork yakınlığı bu üçü arasındaki 30 puanlık farkı açıklamıyor. Şikayetlerin markadan bağımsız ve genel olması (düşük hızda titreme, sert hızlanmada kavrama kayması, trafikte aşırı ısınma), farkın kutunun kendisinden çok üç yılda bir gereken yağ/filtre bakımının atlanmış olma ihtimaline işaret ediyor; bu, araç bazında ayrıca araştırılmalı.",
     "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": ["mondps", "volvops"],
-    "note": "Ford Mondeo, Ford Focus dizel ve Volvo'da kullanılıyor. Kuru kavramalı DPS6 ile karıştırılmamalı. Bu kutu, docs/PLAN.md §1.2'deki en belirgin tutarsızlığın kaynağı: aynı kutu üç araçta 28, 50 ve 58 puan almış."
+    "maintenance": "3 yılda bir yağ ve filtre değişimi gerekiyor; bu bakım çoğu zaman atlanıyor ve erken aşınmaya yol açıyor.",
+    "known_issues": [
+      {
+        "issue": "Düşük hızda titreme, sert hızlanmada kavrama kayması, trafikte aşırı ısınma uyarısı, tam güç kaybı",
+        "onset_km": null,
+        "severity": "orta",
+        "sources": ["kugaownersclub_powershift_faults"]
+      }
+    ],
+    "sources": ["mondps", "volvops", "greencarcongress_powershift_torque", "kugaownersclub_powershift_faults"],
+    "note": "Ford Mondeo, Ford Focus dizel ve Volvo'da kullanılıyor. Kuru kavramalı DPS6 ile karıştırılmamalı. Bu kutu, docs/PLAN.md §1.2'deki tutarsızlığın kaynaklarından biri: aynı kutu üç araçta 28, 50 ve 58 puan almış. Araştırma, farkın tork yakınlığıyla açıklanamadığını gösterdi (bkz. torque_sensitivity); üç aracın da bakım geçmişi ayrı ayrı incelenmeden bu fark kapatılmamalı."
   },
   "ford-dps6": {
     "id": "ford-dps6",
@@ -318,15 +329,24 @@
   },
   "nissan-xtronic": {
     "id": "nissan-xtronic",
-    "names": ["X-Tronic", "Jatco CVT8", "Renault X-Tronic"],
+    "names": ["X-Tronic", "Jatco CVT8", "Jatco JF017E", "Renault X-Tronic"],
     "type": "CVT",
     "supplier": "Jatco",
     "gears": null,
+    "torque_rating_nm": 300,
+    "torque_sensitivity": "Bu aile düşük torklu benzinli motorlarla (Renault Fluence 1.6 NA ~148 Nm, Nissan Juke 1.6 turbo ~190 Nm) sorunsuz çalışıyor, ama yüksek torklu dizellerle (Renault Latitude 2.0 dCi ~320 Nm) eşleştiğinde zincir kayması nedeniyle 60-100 bin km aralığında titreme ve sarsıntı bildiriliyor. Bu, listedeki tork-bağımlı tutarsızlığın en net örneği: docs/PLAN.md §1.2'de aynı kutu ailesi 16, 45 ve 52 puan almış, ve 16 puanı alan tam olarak en yüksek torklu üye.",
     "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": ["technopat_clio_xtronic", "technicalparams_latitude", "namuwiki_sm5"],
-    "note": "Yağ bakımı ihmal edilirse kayış kayması ve sarsıntı riski var. Bazı platformlarda şanzıman soğutucusunun küçültüldüğü bildiriliyor."
+    "maintenance": "60.000-90.000 km'de yalnızca üreticinin belirttiği CVT yağıyla (standart ATF değil) yağ değişimi gerekiyor.",
+    "known_issues": [
+      {
+        "issue": "Yüksek torklu dizel eşleşmelerinde zincir kayması, titreme ve sarsıntı",
+        "onset_km": 80000,
+        "severity": "orta",
+        "sources": ["go4trans_xtronic_diesel_chain"]
+      }
+    ],
+    "sources": ["technopat_clio_xtronic", "technicalparams_latitude", "namuwiki_sm5", "go4trans_xtronic_diesel_chain"],
+    "note": "Yağ bakımı ihmal edilirse kayış kayması ve sarsıntı riski var. Bazı platformlarda şanzıman soğutucusunun küçültüldüğü bildiriliyor. Tork yakınlığı, bu ailedeki puan farkının önemli bir kısmını açıklıyor; bkz. torque_sensitivity."
   },
   "psa-etg": {
     "id": "psa-etg",

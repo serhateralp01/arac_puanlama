@@ -1,4 +1,49 @@
 {
+  "greencarcongress_powershift_torque": {
+    "id": "greencarcongress_powershift_torque",
+    "claim": "Ford/Getrag 6DCT450 (Volvo/Ford ıslak çift kavramalı Powershift) kutusunun 450 Nm'ye kadar tork için boyutlandırıldığı",
+    "publisher": "Green Car Congress",
+    "url": "https://www.greencarcongress.com/2012/02/volvo-20120201.html",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-04",
+    "language": "en",
+    "quotes": [
+      {
+        "text": "The version of Powershift that Volvo launched is dimensioned to handle torque levels up to 450 Nm.",
+        "supports": ["trans"],
+        "context": "Volvo'nun 6DCT450 kutusunu tanıttığı basın açıklamasının teknik özeti."
+      }
+    ]
+  },
+  "kugaownersclub_powershift_faults": {
+    "id": "kugaownersclub_powershift_faults",
+    "claim": "6DCT450 kutusunun markadan bağımsız olarak düşük hızda titreme, sert hızlanmada kavrama kayması, trafikte aşırı ısınma ve tam güç kaybı gibi ortak şikayetler taşıdığı",
+    "publisher": "Ford Kuga Owners Club forumu",
+    "url": "https://www.kugaownersclub.co.uk/threads/powershift-6dct450-mps-6-common-faults.15301/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-04",
+    "language": "en",
+    "quotes": []
+  },
+  "go4trans_xtronic_diesel_chain": {
+    "id": "go4trans_xtronic_diesel_chain",
+    "claim": "2.0 dCi dizel motorlarda kullanılan Jatco JF017E zincirli X-Tronic CVT'de 60-100 bin km aralığında zincir kaymasından kaynaklanan titreme ve sarsıntı bildirildiği",
+    "publisher": "go4trans.com (şanzıman teknik yayını)",
+    "url": "https://shop.go4trans.com/technical-transmission-general-articles/x-tronic-cvt-design-peculiarities-pros-and-cons-typical-repair-issues-and-useful-tips/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-04",
+    "language": "en",
+    "quotes": [
+      {
+        "text": "The 2.0 dCi uses the Jatco JF017E CVT with a chain drive... judder and shudder during acceleration, typically starting between 60,000 and 100,000 km, caused by wear in the CVT allowing the chain to slip.",
+        "supports": ["trans"],
+        "context": "Yüksek torklu dizel motorlarla eşleşen X-Tronic kutularının aşınma örüntüsü."
+      }
+    ]
+  },
   "e39": {
     "id": "e39",
     "claim": "BMW E39 alırken nelere dikkat edilmeli",

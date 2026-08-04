@@ -244,9 +244,17 @@ def main() -> int:
             rep.warn("data/cars", "yinelenen-ad", f"`{name}` {n} araçta aynı; ayırt edilemez")
 
     # --- kaynak bazlı ---
+    # Bir kaynak doğrudan bir araca değil, bir şanzıman kutusu kaydına da bağlı
+    # olabilir (ör. kutunun tork sınırını gösteren bir üretici belgesi). İkisi de
+    # geçerli bağlanma yollarıdır; yalnızca araç kullanımına bakmak gerçek referansı
+    # yetim gibi raporlardı.
     usage: Counter[str] = Counter()
     for _, car in cars:
         usage.update(car.get("sources", []))
+    for box in transmissions.values():
+        usage.update(box.get("sources", []))
+        for issue in box.get("known_issues", []):
+            usage.update(issue.get("sources", []))
 
     for sid, src in sources.items():
         for field in ("claim", "publisher", "url"):
