@@ -1,8 +1,8 @@
 # Faz 2 planı — tekrarlanabilirlik ve doğrulanabilirlik
 
-Bu belge **ne yapılacağını** tanımlar, henüz yapılanı değil. Faz 1'de veri koddan
-ayrıldı ve denetim hattı kuruldu; artık neyin eksik olduğunu sayabiliyoruz. Faz 2,
-o eksikleri kapatma planı.
+Bu belge yapılacak işi tanımlar, yapılmış olanı değil. Faz 1'de veri koddan ayrıldı ve
+denetim hattı kuruldu; bunun sonucunda neyin eksik olduğunu artık sayabiliyoruz. Faz 2,
+sayılabilir hale gelen o eksikleri kapatma planıdır.
 
 ---
 
@@ -14,9 +14,9 @@ testi geçmek:
 1. **Kör yeniden puanlama testi.** Rastgele seçilen 10 araç, yalnızca kayıtlı kanıta
    ve yazılı bantlara bakılarak sıfırdan yeniden puanlanır. Kriter başına sapma
    **≤ 10 puan** olmalı. Bugün bu test yapılamıyor çünkü bant yok.
-2. **Donanım tutarlılığı.** Aynı şanzıman kutusunu ve aynı motoru paylaşan araçlar
-   arasındaki `trans` / `motor` farkı, yazılı bir gerekçeye bağlı olmalı. Gerekçesiz
-   fark = hata.
+2. **Donanım tutarlılığı.** Aynı şanzıman kutusunu veya aynı motoru paylaşan araçlar
+   arasındaki puan farkı, yazılı bir gerekçeye bağlı olmalıdır. Gerekçesi yazılmamış bir
+   fark, tercih değil hata sayılır.
 3. **Kanıt izlenebilirliği.** Her `verified` araçta, her kriterin puanı için "hangi
    kaynağın hangi cümlesi" sorusunun cevabı veride bulunmalı.
 
@@ -26,15 +26,21 @@ testi geçmek:
 
 ### 1.1 Denetimin söylediği
 
-`scripts/validate.py` · 0 hata, 170 uyarı. Araç başına ortalama kaynak: **1.09**.
+`scripts/validate.py` şu an 0 hata ve 401 uyarı veriyor. Araç başına ortalama kaynak
+sayısı **1.09**, yani ortalama bir araç tek bir referansa dayanıyor.
 
 | Bulgu | Adet |
 |---|---:|
+| Gövde tipi doldurulmamış araç | 154 (hepsi) |
+| Dört kaynağa ulaşmadığı için doğrulanmış sayılamayan araç | 116 |
 | Hiç güven seviyesi atanmamış kaynak | 68 (hepsi) |
-| "Kaynaklı" ama tek kaynağa dayanan araç | 38 |
-| "Ön değerlendirme" ama kaynağı olan araç | 27 |
+| Hiçbir kaynağa bağlı olmayan araç | 37 |
 | Yazılı puan bandı olmayan kriter | 7 (hepsi) |
 | Tek kaynağın taşıdığı azami araç sayısı | 36 (`trbox`) |
+
+Doğrulama etiketi politikası değiştikten sonra 154 araçtan yalnızca biri `verified`
+kaldı. Bu, listenin bir gecede zayıflaması değil, önceki etiketlemenin fazla iyimser
+olduğunun ölçülmesidir.
 
 ### 1.2 Asıl kanıt: aynı donanım, farklı puan
 
@@ -78,9 +84,9 @@ Bunlar bütün kriterlere birden uygulanır.
 
 ### M-1 · Çapalı puan bantları (anchored rubrics)
 
-Her kriter için "şu kanıt varsa şu aralık" tanımı. Ölçme literatüründe *behaviorally
-anchored rating scale* denen yöntem: puan bir hisse değil, gözlemlenebilir bir
-duruma bağlanır.
+Her kriter için "şu kanıt varsa puan şu aralıkta olur" biçiminde bir tanım yazılır.
+Ölçme literatüründe bu yönteme *behaviorally anchored rating scale* deniyor ve özü
+şudur: puan bir hisse değil, gözlemlenebilir bir duruma bağlanır.
 
 Biçim (`data/criteria.json` → `bands`):
 
@@ -95,9 +101,10 @@ Biçim (`data/criteria.json` → `bands`):
 ]
 ```
 
-`example` alanı kritik: her bant **listedeki gerçek bir araca çapalanır**. Yeni bir
-araç puanlanırken "bu, X'ten iyi mi kötü mü" diye sorulur — mutlak yargı yerine
-karşılaştırma. İnsan yargısı karşılaştırmada mutlak ölçmeden çok daha tutarlıdır.
+Buradaki `example` alanı belirleyicidir, çünkü her bandı listedeki gerçek bir araca
+çapalar. Yeni bir araç puanlanırken sorulan soru "bu araç kaç puan hak ediyor" değil,
+"bu araç çapa aracından iyi mi kötü mü" olur. İnsan yargısı karşılaştırma yaparken,
+mutlak bir ölçü biçerken olduğundan çok daha tutarlı çalışır.
 
 ### M-2 · Kanıt seviyeleri (A/B/C)
 
@@ -115,8 +122,9 @@ kanıt ister.
 
 ### M-3 · Alıntı yakalama ve link çürümesine karşı arşiv
 
-Bugün kaynak = başlık + link. Link çürüyünce iddia dayanaksız kalıyor. Şema
-`quotes[]` alanını tanımlıyor; doldurulacak:
+Bugün bir kaynak yalnızca bir başlık ile bir bağlantıdan ibaret. Bağlantı çürüdüğünde
+iddiayı taşıyan hiçbir şey elde kalmıyor. Şema bunun için `quotes[]` alanını tanımlıyor
+ve bu alan doldurulacak:
 
 ```json
 "quotes": [{
@@ -133,9 +141,10 @@ eklenecek.
 
 ### M-4 · Çapa araç seti (calibration set)
 
-Her kriter için üç çapa araç seçilir: yüksek, orta, düşük. Bunlar dondurulur ve
-puanları yalnızca çok güçlü gerekçeyle değişir. Yeni her puan bu üçüne göre
-konumlandırılır. Sürüklenmeye (drift) karşı en pratik önlem.
+Her kriter için yüksek, orta ve düşük olmak üzere üç çapa araç seçilir. Bu araçların
+puanları dondurulur ve yalnızca çok güçlü bir gerekçeyle değiştirilir; verilen her yeni
+puan bu üçüne göre konumlandırılır. Zaman içindeki sürüklenmeye karşı elimizdeki en
+pratik önlem budur.
 
 ### M-5 · Duyarlılık ve sürüklenme testleri
 
@@ -197,7 +206,8 @@ elle girilmiş değeri hata olarak yakalar.
 
 ### 3.2 `trans` — Şanzıman · **kutu kaydına bağlanır**
 
-Projenin en çok emek verilen ama en tutarsız kriteri (§1.2).
+Bu kriter, proje boyunca en çok emek verilen ama aynı zamanda en tutarsız kalan
+kriterdir; §1.2'deki tablo bunu gösteriyor.
 
 **Yapısal değişiklik — `data/transmissions.json`:**
 
@@ -236,9 +246,10 @@ araştırılmaz — araştırma emeği ~%60 düşer.
 
 ### 3.3 `motor` — Motor Güveni · **bant + kanıt seviyesi**
 
-Formüle çevrilemez; ampirik risk değerlendirmesi. `transmissions.json` ile aynı
-mantıkta **`data/engines.json`** kurulur (N47, M57, EA888, 1.6 CDTI, OM611...) ve
-araçlar motor koduna referans verir.
+Bu kriter formüle çevrilemez, çünkü ölçtüğü şey ampirik bir risk değerlendirmesidir.
+Buna karşılık şanzımanda uygulanan yapısal çözümün aynısı burada da geçerli:
+`data/engines.json` kurulur, motor aileleri (N47, M57, EA888, 1.6 CDTI, OM611 ve
+diğerleri) bir kez değerlendirilir ve araçlar motor koduna referans verir.
 
 **Arıza taksonomisi** — her bilinen arıza için üç boyut:
 
@@ -315,21 +326,27 @@ edilip sapmalar gözden geçirilir.
 
 ---
 
-### 3.6 `fun` — Sürüş Keyfi · **formül + sınırlı düzeltme**
+### 3.6 `fun` — Sürüş Keyfi · **formüle bağlanır** (karar verildi)
 
-En öznel kriter, ama tamamen sezgiye bırakılması gerekmiyor:
+Bu kriterin elle verilen bir puan olmaktan çıkarılıp formüle bağlanmasına karar
+verildi; kararın gerekçesi `docs/ARCHITECTURE.md` içindeki MK-06 kaydında. Sürüş keyfi
+öznel bir kavramdır, ancak öznel olması ölçülemez olduğu anlamına gelmez. Bir aracı
+keyifli kılan şeylerin çoğu sayıdır: güç, tork, ağırlık, çekiş düzeni ve şanzımanın
+tepki hızı.
 
 ```
 temel = f(güç/ağırlık, tork/ağırlık, çekiş tipi, şanzıman tepkisi)
 fun   = temel + karakter_düzeltmesi   (± 15 puanla sınırlı, yazılı gerekçeli)
 ```
 
-`karakter_düzeltmesi` şu maddelerden birine dayanmak zorunda: arkadan itiş, sıralı
-altı silindir, doğal emiş yüksek devir karakteri, spor şasi kurulumu, direksiyon
-geri bildirimi. "Hoşuma gidiyor" gerekçe değil.
+`karakter_düzeltmesi` şu maddelerden en az birine dayanmak zorunda: arkadan itiş,
+sıralı altı silindir, doğal emişli yüksek devir karakteri, sportif şasi kurulumu veya
+direksiyonun geri bildirimi. "Hoşuma gidiyor" bir gerekçe sayılmaz ve denetim gerekçesi
+yazılmamış düzeltmeyi hata olarak raporlar.
 
-Ağırlık verisi (boş ağırlık) spec veritabanından gelir ve `specs.kerb_weight_kg`
-olarak veriye eklenir — şu an yok, eklenmesi gerekiyor.
+Formülün çalışabilmesi için araç kayıtlarına boş ağırlık ve tork alanlarının eklenmesi
+gerekiyor. Bu alanlar (`specs.kerb_weight_kg`, `specs.torque_nm`) şemaya eklendi ve
+doldurulmayı bekliyor.
 
 ---
 
@@ -413,14 +430,37 @@ uyarı veriyor; yapısal uyarı kalmadı.
 
 **Kabul ölçütü:** §1.2 tablosundaki her fark ya yazılı gerekçeye bağlı ya kapanmış.
 
-### Faz 2D — Kalan kanıt açığı
-11. 38 tek-kaynaklı "kaynaklı" aracı ikinci kaynağa bağla veya `partial`'a çek.
-12. `trbox` yoğunlaşmasını kır (36 → ≤12).
-13. `liq` sayım protokolünü bir kez çalıştır.
-14. 63 `preliminary` aracı 15-20'lik gruplar halinde derinleştir.
+### Faz 2D — Kapsamı genişletme
+11. Mevcut 154 aracın `specs.body_type` alanını doldur ve arayüze gövde filtresini ekle.
+12. SUV ve MPV araçları listeye ekle. Bu araçlar için yapılmış araştırmadan kalan 13
+    yetim kaynak (Tucson, Qashqai, Sportage, C5 Aircross, Grandland, Koleos) hazır
+    bekliyor ve doğrudan bağlanacak.
+13. Listeyi yeni segmentlere doğru genişlet. Genişleme sırasında her yeni araç, o
+    tarihte yürürlükte olan bantlara ve kaynak politikasına göre puanlanır; eski
+    araçlar için geriye dönük düzeltme ayrı bir iş kalemidir.
 
-**Kabul ölçütü:** araç başına ortalama kaynak ≥ 2.0; kör yeniden puanlama testi
-(§0.1) geçiyor.
+**Kabul ölçütü:** gövde filtresi çalışıyor ve hiçbir araç kapsam kuralı yüzünden
+listenin dışında değil.
+
+Bu faz bilinçli olarak formüllerden ve bileşen kayıtlarından **sonraya** bırakıldı.
+Liste, metodoloji oturmadan genişletilirse yeni araçlar da eski araçlarla aynı
+tutarsızlıkla puanlanır ve sorun büyüyerek tekrarlanır.
+
+### Faz 2E — Kalan kanıt açığı
+14. 116 `partial` aracı dört kaynağa çıkar.
+15. `trbox` yoğunlaşmasını kır; bu kaynağın taşıdığı araç sayısını 36'dan 12'nin
+    altına indir.
+16. `liq` sayım protokolünü bir kez çalıştır.
+17. 37 `preliminary` aracı 15-20'lik gruplar halinde derinleştir.
+
+**Kabul ölçütü:** araç başına ortalama kaynak sayısı 2.0'ın üstünde; kör yeniden
+puanlama testi (§0, madde 1) geçiyor.
+
+### Kullanıcı katkısı — fazlara paralel ilerler
+Kaynak önerisi kabul eden GitHub konu şablonu kuruldu ve bugün çalışıyor. Bu, MK-05
+kaydındaki üç katmanlı planın birinci katmanı. İkinci katman (site içi öneri formu) ve
+üçüncü katman (katkı sahibi kaydı) yukarıdaki fazlardan bağımsız olarak, kendi
+sıralarında ele alınacak. Katkı hacmi artmadan ikinci katmanı kurmak erken olur.
 
 ---
 
@@ -436,22 +476,35 @@ uyarı veriyor; yapısal uyarı kalmadı.
 
 ---
 
-## 7. Karar bekleyen sorular
+## 7. Verilen kararlar
 
-Bunlar teknik değil, sahibinin kararı:
+Bu bölümde daha önce karar bekleyen sorular listeleniyordu. Soruların hepsi
+cevaplandı ve kararların tam gerekçeleri `docs/ARCHITECTURE.md` içine taşındı. Aşağıda
+kararların özeti ve bu plana yansıması var.
 
-1. **Kapsam kuralı** (D-06): 110 bg / 1998 sınırının dışındaki 11 araç çıkarılsın mı,
-   yoksa kural mı gevşetilsin? Şu anki hali kuralı anlamsız kılıyor.
-2. **`fun` kriterinin ağırlığı:** Formüle çevrilince öznellik azalır ama kaybolmaz.
-   Kişisel bir zevk kriteri, kanıta dayalı bir sistemde ne kadar yer tutmalı?
-3. **Etiket mi politika mı:** 38 tek-kaynaklı araç `partial`'a mı çekilsin (dürüst
-   ama liste birden zayıf görünür), yoksa ikinci kaynak bulunana kadar `verified`
-   mı kalsın?
-4. **SUV kararı:** 13 yetim kaynak SUV araştırmasından kalma. SUV'lar kalıcı olarak
-   kapalı mı, yoksa ayrı bir liste olarak geri gelebilir mi?
-5. **Faz 2 nereden başlasın:** Öneri 2A → 2B (yapı + formüller); en hızlı görünür
-   kazanç orada. Alternatif, doğrudan 2D'ye geçip kalan 63 aracı araştırmak — ama o
-   zaman araştırma eski, tutarsız yöntemle yapılmış olur.
+**Kapsam sınırları kaldırıldı (MK-03).** "En az 110 beygir", "1998 ve sonrası" ve "SUV
+ile MPV hariç" kurallarının üçü de kaldırıldı. Veri kümesi olabildiğince geniş
+tutulacak, daraltma işi kullanıcının filtrelerine bırakılacak. Bu karar Faz 2D'yi
+doğurdu.
+
+**Doğrulama etiketi kaynak sayısından türetiliyor ve eşik dört (MK-04).** Tek kaynağa
+dayanan araçlar `partial` oldu; `verified` rozeti için dört bağımsız kaynak gerekiyor.
+Kural bütün veriye uygulandı ve `verified` araç sayısı 70'ten 1'e düştü.
+
+**Sürüş keyfi formüle bağlanacak (MK-06).** Güç, tork, ağırlık, çekiş düzeni ve
+şanzıman tepkisinden hesaplanan bir temel puan, gerekçesi yazılmak zorunda olan ve
+±15 puanla sınırlı bir karakter düzeltmesiyle birleşecek. Ayrıntısı §3.6'da.
+
+**Kullanıcı katkısı alınacak, ancak veriye doğrudan yazılmayacak (MK-05).** Kullanıcılar
+kaynak önerir, puanı bakımcı verir. Birinci katman olan GitHub konu şablonu kuruldu.
+
+**Veri yıldız şemalı bir veritabanına taşınmayacak (MK-02).** Yıldız şemanın modelleme
+disiplini benimseniyor, yani motor, şanzıman ve kaynak birer boyut kaydı haline
+geliyor; ancak depolama JSON dosyaları olarak kalıyor, çünkü `git diff` üzerinden
+inceleme bu projenin varlık sebebi.
+
+**Sıralama:** Faz 2A ve 2B önce yapılacak. Liste, metodoloji oturmadan
+genişletilmeyecek.
 
 ---
 

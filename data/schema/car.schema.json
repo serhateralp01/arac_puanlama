@@ -46,6 +46,30 @@
         "transmission_type": {
           "enum": ["TK", "Islak DCT", "Kuru DCT", "CVT", "Robot"],
           "description": "TK = tork konvertörü. Sınıflandırmanın gerekçesi docs/methodology.md içinde."
+        },
+        "body_type": {
+          "enum": ["Sedan", "Hatchback", "Station Wagon", "Coupe", "SUV", "MPV", "Cabrio", null],
+          "description": "Gövde tipi. Kapsam sınırı olarak değil, filtre olarak kullanılır; gerekçesi docs/ARCHITECTURE.md içindeki MK-03 kaydında. Henüz doldurulmadığı için null kabul ediliyor."
+        },
+        "kerb_weight_kg": {
+          "type": ["integer", "null"],
+          "description": "Boş ağırlık. Sürüş keyfi formülünün güç/ağırlık girdisi için gerekiyor (MK-06)."
+        },
+        "torque_nm": {
+          "type": ["integer", "null"],
+          "description": "Azami tork. Sürüş keyfi formülünün ikinci girdisi."
+        },
+        "fuel_consumption_l_100km": {
+          "type": ["number", "null"],
+          "description": "Karma çevrim yakıt tüketimi. Sahip olma maliyeti formülünün girdisi."
+        },
+        "engine_id": {
+          "type": ["string", "null"],
+          "description": "data/engines.json içindeki motor ailesi kimliği. Aynı motorun her araçta yeniden değerlendirilmesini engeller."
+        },
+        "transmission_id": {
+          "type": ["string", "null"],
+          "description": "data/transmissions.json içindeki şanzıman kutusu kimliği. Aynı kutunun farklı araçlarda farklı puan almasını engeller."
         }
       }
     },

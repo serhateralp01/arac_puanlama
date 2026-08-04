@@ -4,12 +4,15 @@
 İki tür bulgu üretir:
 
   HATA  — veri bozuk, sayfa üretilse bile yanlış olur. Çıkış kodu 1.
-  UYARI — veri geçerli ama metodoloji açısından zayıf (tek kaynağa dayanan
-          "kaynaklı" araç, hiçbir araca bağlı olmayan kaynak, aşırı yoğunlaşmış
-          kaynak gibi). Varsayılanda çıkış kodunu düşürmez; --strict ile düşürür.
+  UYARI — veri geçerli ama metodoloji açısından eksik. Örnek olarak, dört kaynağa
+          ulaşmadığı için henüz doğrulanmış sayılamayan araçlar, hiçbir araca
+          bağlı olmayan kaynaklar ve tek başına çok fazla aracı taşıyan kaynaklar
+          bu gruba girer. Uyarılar varsayılanda çıkış kodunu düşürmez, --strict
+          verildiğinde düşürür.
 
-Bu ayrım bilinçli: bugünkü veri onlarca uyarı üretiyor ve bunlar Faz 2'nin iş
-listesi. Hepsini hata saymak denetimi baştan işlevsiz kılardı.
+Bu ayrım bilinçli yapıldı. Bugünkü veri yüzlerce uyarı üretiyor ve bu uyarıların
+her biri Faz 2'nin iş listesindeki bir maddeye karşılık geliyor. Hepsini hata
+saymak, denetimi ilk günden işlevsiz hale getirirdi.
 
 Kullanım:
     python3 scripts/validate.py
@@ -33,12 +36,25 @@ DRIVETRAIN = {"Önden", "Arkadan", "Dört çeker"}
 TRANSMISSION = {"TK", "Islak DCT", "Kuru DCT", "CVT", "Robot"}
 VERIFICATION = {"verified", "partial", "preliminary"}
 
-# Politika eşikleri — metodoloji kararları, keyfi sayılar değil.
-# Gerekçeleri docs/methodology.md içinde.
-MIN_SOURCES_FOR_VERIFIED = 2  # "kaynaklı" demek için bağımsız iki kaynak
+# Politika eşikleri. Bunlar keyfi sayılar değil, gerekçeleri docs/ARCHITECTURE.md
+# içindeki MK-04 kaydında ve docs/methodology.md içinde yazılı.
+MIN_SOURCES_FOR_VERIFIED = 4  # "doğrulanmış" demek için dört bağımsız kaynak gerekiyor
+MIN_SOURCES_FOR_PARTIAL = 1   # en az bir kaynağı olan araç "kısmi kaynak" sayılır
 MAX_CARS_PER_SOURCE = 12      # tek kaynağın taşıyabileceği azami araç sayısı
-MIN_HP = 110                  # listenin kapsam kuralı
-MIN_YEAR = 1998
+
+
+def derive_verification(source_count: int) -> str:
+    """Doğrulama etiketi elle verilmez, kaynak sayısından hesaplanır.
+
+    Etiketi sayıdan türetmek, iyimser işaretlemeyi imkânsız kılıyor. Önceki
+    düzende etiket elle veriliyordu ve 70 araç "kaynaklı" görünürken bunların
+    38'i tek bir kaynağa dayanıyordu.
+    """
+    if source_count >= MIN_SOURCES_FOR_VERIFIED:
+        return "verified"
+    if source_count >= MIN_SOURCES_FOR_PARTIAL:
+        return "partial"
+    return "preliminary"
 
 
 class Report:
@@ -83,13 +99,17 @@ def check_car_shape(rep: Report, path: pathlib.Path, car: dict, scored: list[str
         if s.get(field) not in allowed:
             rep.error(where, "gecersiz-deger", f"specs.{field} = {s.get(field)!r}, izinli: {sorted(allowed)}")
 
+    # Beygir ve model yılı için alt sınır denetimi bilinçli olarak kaldırıldı.
+    # Kapsam sınırları artık veriden değil arayüzdeki filtrelerden geliyor;
+    # gerekçesi docs/ARCHITECTURE.md içindeki MK-03 kaydında.
     if not isinstance(s.get("hp"), int) or s["hp"] <= 0:
         rep.error(where, "gecersiz-deger", f"specs.hp = {s.get('hp')!r}")
-    elif s["hp"] < MIN_HP:
-        rep.warn(where, "kapsam-kurali", f"{s['hp']} bg, listenin {MIN_HP} bg alt sınırının altında")
 
     if not isinstance(s.get("displacement_l"), (int, float)) or not (0.5 < s["displacement_l"] < 8):
         rep.error(where, "gecersiz-deger", f"specs.displacement_l = {s.get('displacement_l')!r}")
+
+    if s.get("body_type") is None:
+        rep.warn(where, "govde-tipi-yok", "body_type alanı boş; gövde filtresi bu araçta çalışmayacak")
 
     if not re.fullmatch(r"\d{4}-\d{4}", car["years"]):
         rep.error(where, "yil-formati", f"years = {car['years']!r}, `YYYY-YYYY` bekleniyor")
@@ -97,8 +117,6 @@ def check_car_shape(rep: Report, path: pathlib.Path, car: dict, scored: list[str
         lo, hi = (int(x) for x in car["years"].split("-"))
         if lo > hi:
             rep.error(where, "yil-araligi", f"years = {car['years']}, başlangıç bitişten büyük")
-        if lo < MIN_YEAR:
-            rep.warn(where, "kapsam-kurali", f"model yılı {lo}, listenin {MIN_YEAR} alt sınırından eski")
 
     p = car["price_band_k_try"]
     if not (isinstance(p, list) and len(p) == 2 and all(isinstance(x, (int, float)) for x in p)):
@@ -131,18 +149,24 @@ def check_evidence_policy(rep: Report, path: pathlib.Path, car: dict, criteria: 
     where = path.name
     n_src = len(car.get("sources", []))
 
-    if car["verification"] == "verified" and n_src < MIN_SOURCES_FOR_VERIFIED:
-        rep.warn(
-            where, "tek-kaynak",
-            f"'kaynaklı' işaretli ama {n_src} kaynağa dayanıyor "
-            f"(en az {MIN_SOURCES_FOR_VERIFIED} bağımsız kaynak bekleniyor)",
+    # Doğrulama etiketi türetilmiş bir değerdir; elle değiştirilmiş olması veri
+    # hatasıdır, tercih değil.
+    expected = derive_verification(n_src)
+    if car["verification"] != expected:
+        rep.error(
+            where, "etiket-turetilmedi",
+            f"verification = {car['verification']!r} ama {n_src} kaynak için "
+            f"{expected!r} olmalı; etiket kaynak sayısından hesaplanır",
         )
-    if car["verification"] == "preliminary" and n_src > 0:
+
+    if car["verification"] == "partial":
         rep.warn(
-            where, "etiket-uyumsuz",
-            f"'ön değerlendirme' işaretli ama {n_src} kaynağa bağlanmış; "
-            "ya etiket ya kaynak yanlış",
+            where, "kaynak-yetersiz",
+            f"{n_src} kaynağa dayanıyor; 'doğrulanmış' olması için "
+            f"{MIN_SOURCES_FOR_VERIFIED - n_src} kaynak daha gerekiyor",
         )
+    elif car["verification"] == "preliminary":
+        rep.warn(where, "kaynaksiz", "hiç kaynağa bağlı değil, puanlar ön değerlendirme")
 
     thr = criteria["weak_threshold"]
     weak = [k for k, v in car["scores"].items() if v < thr]
@@ -234,8 +258,8 @@ def main() -> int:
     summary = {
         "arac": len(cars),
         "kaynak": len(sources),
-        "kaynakli": verif["verified"],
-        "kismen": verif["partial"],
+        "dogrulanmis": verif["verified"],
+        "kismi_kaynak": verif["partial"],
         "on_degerlendirme": verif["preliminary"],
         "arac_basina_ortalama_kaynak": round(
             sum(len(c.get("sources", [])) for _, c in cars) / max(len(cars), 1), 2

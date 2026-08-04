@@ -16,7 +16,7 @@
     500,
     750
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 74,
     "trans": 82,

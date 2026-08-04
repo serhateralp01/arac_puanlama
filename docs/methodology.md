@@ -7,21 +7,26 @@ bantları yazılı değil). Eksik olan yerler açıkça işaretlendi.
 
 ---
 
-## 1. Kapsam kuralları
+## 1. Kapsam
 
-Listeye giren araç şu üç şartı sağlar:
+Listeye girmek için yalnızca iki şart var: aracın **otomatik şanzımanla** satılmış
+olması ve **Türkiye ikinci el piyasasında bulunabilir** olması. Robotlu yarı otomatik
+kutular otomatik sayılıyor, manuel şanzımanlı araçlar listeye girmiyor.
 
-- **1998 ve sonrası** model yılı,
-- **en az 110 beygir**,
-- **otomatik şanzıman** (robotlu yarı otomatik dahil, manuel hariç),
-- Türkiye ikinci el piyasasında **bulunabilir** olması.
+Daha önce geçerli olan "en az 110 beygir", "1998 ve sonrası" ve "SUV ile MPV hariç"
+kuralları **kaldırıldı**. Bu kurallar, proje tek bir kişinin kendi alım kararı için
+tuttuğu bir araştırma dosyasıyken anlamlıydı. Proje bir karşılaştırma platformuna
+dönüştüğü anda anlamını yitirdiler, çünkü her kullanıcının bütçesi, önceliği ve gövde
+tercihi farklı. Veriden çıkarılan bir araç kimse için geri getirilemez; buna karşılık
+filtrelenen bir araç herkes için tek tıkla geri gelir.
 
-SUV ve MPV gövdeler bilinçli olarak dışarıda tutuluyor. Sedan, hatchback, station
-wagon ve coupe listeleniyor.
+Bunun sonucu olarak veri kümesi olabildiğince geniş tutuluyor ve daraltma işi tamamen
+kullanıcının elindeki filtrelere bırakılıyor. Kararın tam gerekçesi
+`docs/ARCHITECTURE.md` içindeki MK-03 kaydında yazılı.
 
-Kapsam kuralı ihlalleri `validate.py` tarafından uyarı olarak raporlanıyor; şu an
-11 araç sınırda veya dışında (ör. 90 bg Clio 4, 105 bg Elantra XD). Bunlar bilinçli
-istisnalar mı yoksa temizlenecek mi — Faz 2'de karara bağlanacak.
+Gövde tipi artık bir kapsam sınırı değil, bir filtre boyutu. Araç kayıtlarına
+`specs.body_type` alanı eklendi; alan henüz doldurulmadığı için gövde filtresi de
+henüz arayüzde yok. SUV ve MPV araçları listeye girdiğinde bu alan kullanılacak.
 
 ---
 
@@ -100,15 +105,32 @@ otomatik yakalıyor (`tag-tx-celiski` kuralı).
 
 ## 5. Doğrulama etiketleri
 
-| Etiket | Anlamı | Politika |
-|---|---|---|
-| `verified` | En az iki bağımsız kaynakla doğrulandı | `MIN_SOURCES_FOR_VERIFIED = 2` |
-| `partial` | Kaynak var ama Türkiye pazarına özel değil | — |
-| `preliminary` | Henüz araştırılmadı, ön puan | Kaynağı olmamalı |
+Her aracın adının yanında, o araç için ne kadar kanıt toplandığını gösteren bir rozet
+bulunuyor. Bu rozet elle verilmiyor; aracın bağlı olduğu bağımsız kaynak sayısından
+hesaplanıyor.
 
-**Bugünkü ihlal:** 38 araç `verified` işaretli olmasına rağmen tek kaynağa dayanıyor,
-27 araç `preliminary` olmasına rağmen kaynağı var. Etiketleme, politika yazılmadan
-önce yapıldığı için tutarsız. Faz 2'de ya etiketler ya politika düzeltilecek.
+| Kaynak sayısı | Etiket | Arayüzdeki karşılığı |
+|---:|---|---|
+| 4 ve üzeri | `verified` | doğrulanmış |
+| 1 – 3 | `partial` | kısmi kaynak |
+| 0 | `preliminary` | ön değerlendirme |
+
+Eşiğin dört seçilmesi bilinçli bir katılıktır. İki kaynak, ikisi de aynı forumdan veya
+birbirinin aynı iddiasını tekrarlayan ticari bloglardan geliyorsa gerçek bir doğrulama
+sağlamaz. Dört kaynak, kaynakların birbirinden bağımsız olma ihtimalini anlamlı ölçüde
+yükseltir.
+
+Etiketin sayıdan türetilmesi de bilinçli bir tercihtir. Önceki düzende etiket elle
+veriliyordu ve bunun sonucunda 70 araç "kaynaklı" görünürken bu araçların 38'i tek bir
+kaynağa dayanıyordu. Elle verilen etiket, bir ölçüm olmaktan çıkıp bir izlenim yönetimi
+aracına dönüşüyor. `scripts/validate.py` artık etiketin kaynak sayısıyla uyuşmadığı her
+durumu **hata** olarak raporluyor, uyarı olarak değil.
+
+**Bugünkü tablo, dürüstçe:** Kural uygulandığında 154 araçtan yalnızca biri
+`verified` kalıyor, 116 araç `partial`, 37 araç `preliminary` oluyor. Liste birdenbire
+çok daha az doğrulanmış görünüyor. Bu bir gerileme değil; önceki halin fazla iyimser
+olduğunun ölçülmesi ve yol haritasının hedefinin netleşmesi anlamına geliyor. Hedef
+artık açık: her aracı dört bağımsız kaynağa çıkarmak.
 
 ---
 

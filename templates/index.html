@@ -95,6 +95,7 @@
   td.name .tag{color:var(--faint);font-size:10.5px;font-family:var(--mono);margin-top:2px}
   .chip{font-family:var(--mono);font-size:8px;padding:1.5px 6px;border-radius:20px;font-weight:600}
   .chip.v{color:var(--sage);background:var(--sagebg)}
+  .chip.p{color:var(--amber);background:var(--amberbg)}
   .chip.a{color:var(--faint);background:var(--panel2)}
   .spec{font-family:var(--mono);font-size:11px;color:var(--dim);white-space:nowrap}
   .txbadge{display:inline-block;font-family:var(--mono);font-size:9.5px;padding:2px 7px;border-radius:5px;font-weight:600;white-space:nowrap}
@@ -176,7 +177,7 @@
 <body>
 <header><div class="wrap">
   <h1>Araç Puanlama Tablosu</h1>
-  <p class="sub">Bu tablo, 1998 ve sonrası, en az 110 beygirlik, otomatik vitesli ve Türkiye piyasasında bulunan <b>__CAR_COUNT__ araç, motor ve şanzıman kombinasyonunu</b> karşılaştırıyor. Yedi kriter üzerinden puanlanıyor ve bu puanlar ağırlıklarına göre tek bir toplam puana dönüşüyor; fiyat ise ayrı bir sekizinci kriter olarak otomatik hesaplanıyor. Puanlar sabit: elle değiştirilemiyor, ama fiyat aralıklarını ve ağırlıkları hâlâ siz düzenleyebiliyorsunuz. Sayfa açıldığında hiçbir filtre aktif değildir, bütün araçlar birlikte görünür; filtreler artık çoklu seçimli, yani aynı kategoride birden fazla seçeneği birlikte işaretleyebilirsiniz. Yeşil işaretli olmayan araçlar henüz derinlemesine araştırılmadı; bu araçların puanları ön değerlendirmedir ve sırayla derinleştirilecek.</p>
+  <p class="sub">Bu tablo, Türkiye ikinci el piyasasında bulunan <b>__CAR_COUNT__ araç, motor ve şanzıman kombinasyonunu</b> karşılaştırıyor. Her araç yedi kriter üzerinden puanlanıyor ve bu puanlar sizin belirlediğiniz ağırlıklara göre tek bir toplam puana dönüşüyor; fiyat ise sekizinci kriter olarak listenin tamamına göre otomatik hesaplanıyor. Puanları arayüzden değiştiremezsiniz, çünkü puanlar kayıtlı kanıta dayanıyor ve yalnızca gerekçesiyle birlikte veri dosyalarından değişiyor. Buna karşılık fiyat aralıklarını ve kriter ağırlıklarını istediğiniz gibi düzenleyebilirsiniz. Listeye hangi aracın gireceğini belirleyen bir alt sınır yok; veri kümesi olabildiğince geniş tutuluyor ve daraltma işini siz filtrelerle yapıyorsunuz. Sayfa açıldığında hiçbir filtre aktif değildir, bütün araçlar birlikte görünür.</p>
 </div></header>
 <div class="wrap">
 
@@ -221,7 +222,7 @@
 
 <section>
   <h2><span class="num">04</span>Kullanılan Kaynaklar</h2>
-  <p class="lede">Yeşil işaretli araçların puanları aşağıdaki kaynaklarla doğrulandı. İşaretsiz olanlar kendi teknik değerlendirmeme dayanıyor; uydurma kaynak eklemedim.</p>
+  <p class="lede">Aşağıdaki kaynaklar, listedeki araçların puanlarını destekleyen bütün referansları içeriyor. Bir aracın hangi kaynaklara dayandığını görmek için tablodaki satırını açın. Her aracın adının yanındaki rozet, o araç için ne kadar kanıt toplandığını söylüyor: <b>doğrulanmış</b> rozeti dört veya daha fazla bağımsız kaynağı olan araçlara veriliyor, <b>kısmi kaynak</b> rozeti bir ile üç arası kaynağı olanlara, <b>ön değerlendirme</b> rozeti ise henüz hiçbir kaynağa bağlanmamış olanlara. Rozet elle verilmiyor, kaynak sayısından hesaplanıyor. Hiçbir kaynak uydurulmadı; bir araç için kaynak bulunamadıysa o araç kaynaksız görünüyor.</p>
   <ul class="refs" id="refs"></ul>
   <div class="foot" id="foot"></div>
 </section>
@@ -497,7 +498,7 @@ function render(){renderHead();
   const txc='tx-'+c.tx.split(' ')[0];
   let cells='<td class="rank">'+gr+'</td>';
   cells+='<td class="cmpcell"><button class="cmpbtn'+(cmpSet.includes(c.id)?' on':'')+'" data-cmp="'+c.id+'" '+(cmpSet.length>=4&&!cmpSet.includes(c.id)?'disabled':'')+'>'+(cmpSet.includes(c.id)?'✓':'+')+'</button></td>';
-  cells+='<td class="name"><div class="nm">'+c.n+' <span class="chip '+(c.v===true||c.v==='p'?'v':'a')+'">'+(c.v===true?'kaynaklı':c.v==='p'?'kısmen':'değerlendirme')+'</span></div><div class="tag">'+c.tag+'</div></td>';
+  cells+='<td class="name"><div class="nm">'+c.n+' <span class="chip '+(c.v===true?'v':c.v==='p'?'p':'a')+'">'+(c.v===true?'doğrulanmış':c.v==='p'?'kısmi kaynak':'ön değerlendirme')+'</span></div><div class="tag">'+c.tag+'</div></td>';
   cells+='<td class="spec">'+c.y+'</td><td class="spec">'+c.hp+' bg</td><td class="spec">'+c.disp.toFixed(1)+'</td>';
   cells+='<td><span class="txbadge '+txc+'">'+c.tx+'</span></td>';
   cells+='<td class="pr"><input type="number" class="pin" data-id="'+c.id+'" data-pi="0" value="'+c.p[0]+'"><span class="dash">-</span><input type="number" class="pin" data-id="'+c.id+'" data-pi="1" value="'+c.p[1]+'"></td>';
@@ -607,7 +608,7 @@ renderCompare();
 const refUl=document.getElementById('refs');
 Object.keys(R).forEach(k=>{const li=document.createElement('li');
  li.innerHTML=R[k][0]+'. Kaynak: <a href="'+R[k][2]+'" target="_blank" rel="noopener">'+R[k][1]+'</a>';refUl.appendChild(li);});
-document.getElementById('foot').textContent=DB.build_stamp+' · Bu listede '+CARS.length+' otomatik vitesli araç var, hepsi 1998 ve sonrası modeller ve en az 110 beygir üretiyor. Puanlar mutlak değil, yalnızca bu liste içindeki araçların birbirine göre durumunu gösterir. Zayıf halka eşiği 35 olarak belirlendi.';
+document.getElementById('foot').textContent=DB.build_stamp+' · Bu listede '+CARS.length+' otomatik vitesli araç bulunuyor. Puanlar mutlak bir ölçü değildir; yalnızca bu liste içindeki araçların birbirine göre durumunu gösterir. Bir kriterde 35 altında kalan puan zayıf halka sayılır ve tabloda kırmızı işaretlenir.';
 </script>
 </body>
 </html>

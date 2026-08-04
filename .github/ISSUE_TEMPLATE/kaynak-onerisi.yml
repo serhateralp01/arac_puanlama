@@ -1,0 +1,93 @@
+name: Kaynak önerisi
+description: Bir aracın puanını destekleyen veya çürüten bir kaynak önerin.
+title: "[kaynak] "
+labels: ["kaynak-önerisi"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bu form, listedeki bir aracın puanını destekleyen veya çürüten bir kaynağı
+        bildirmek içindir. Önerdiğiniz kaynak doğrudan veriye yazılmaz; önce
+        incelenir, kaynak künyesine dönüştürülür ve ilgili aracın kanıt kaydına
+        bağlanır. Puanı siz vermezsiniz, kaynağı siz getirirsiniz — puan, yazılı
+        metodolojiye göre yeniden değerlendirilir.
+
+        Neden böyle çalıştığı `docs/ARCHITECTURE.md` içindeki MK-05 kaydında
+        anlatılıyor.
+
+  - type: input
+    id: car
+    attributes:
+      label: Hangi araç
+      description: Tablodaki adıyla yazın. Aracın kimliğini biliyorsanız onu da ekleyin.
+      placeholder: "Volvo S60 2.0 D (D3/D4)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: criterion
+    attributes:
+      label: Hangi kriteri ilgilendiriyor
+      options:
+        - Motor Güveni
+        - Şanzıman ve Otomatik Kutu
+        - Sürüş Keyfi ve Karakter
+        - Günlük Kullanım Rahatlığı
+        - Yaş, Gövde ve Elektrik Riski
+        - Sahip Olma Maliyeti
+        - Bulunabilirlik ve Satılabilirlik
+        - Teknik künye (şanzıman tipi, beygir, motor kodu gibi)
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Kaynağın bağlantısı
+      description: Doğrudan ilgili sayfaya, mümkünse ilgili konu başlığına bağlantı verin.
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: quote
+    attributes:
+      label: Kaynaktan birebir alıntı
+      description: >
+        Kaynağın hangi cümlesi iddiayı taşıyor? Özet değil, birebir alıntı yazın.
+        Bağlantı ileride çürürse elimizde kalacak tek şey bu alıntı olacak.
+      placeholder: "\"3'ten 4'e geçişte tekrarlayan bir ses var, bayi bunun kronik olduğunu söyledi.\""
+    validations:
+      required: true
+
+  - type: textarea
+    id: claim
+    attributes:
+      label: Bu kaynak neyi gösteriyor
+      description: >
+        Kaynağın desteklediği iddiayı bir iki tam cümleyle anlatın. Mevcut puanın
+        yüksek mi düşük mü kaldığını düşünüyorsanız onu da yazın.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kaynağın türü
+      description: Emin değilseniz en yakın seçeneği işaretleyin, inceleme sırasında düzeltilir.
+      options:
+        - Kurumsal veya sayısal veri (TÜV, ADAC, sahip anketi, resmi tarife)
+        - Bağımsız teknik analiz veya üretici dokümanı
+        - Çok sayıda bağımsız kullanıcının aynı şikayeti (Şikayetvar gibi)
+        - Tek bir kullanıcı deneyimi veya forum mesajı
+        - Ticari blog veya haber yazısı
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Onay
+      options:
+        - label: Bu kaynağı gerçekten açtım ve alıntıyı oradan aldım.
+          required: true
