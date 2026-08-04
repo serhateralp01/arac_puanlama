@@ -28,7 +28,8 @@
     "liq": 72
   },
   "sources": [
-    "trbox"
+    "trbox",
+    "slashgear_toyota_cvt_reliability"
   ],
   "note": "Geniş, konforlu ve son derece güvenilir bir aile sedanı. Otomatiği yine CVT; Toyota'nın bu kutusu sağlam kabul ediliyor. Sürüş keyfi düşük, buna karşılık uzun yol konforu ve arıza istatistikleri çok iyi.",
   "provenance": {

@@ -281,6 +281,17 @@ def main() -> int:
         for issue in box.get("known_issues", []):
             usage.update(issue.get("sources", []))
 
+    # Yoğunlaşma riski, bir kaynağın toplam kaç yerde geçtiği değil, kaç aracın
+    # BAŞKA HİÇBİR KAYNAĞI OLMADAN tek başına bu kaynağa dayandığıdır. Bir kaynak
+    # elli aracın notunda geçebilir ve zararsız olabilir, eğer o elli aracın hepsinin
+    # ikinci bağımsız bir kaynağı da varsa. Asıl risk şu: kaynak çürürse veya
+    # yanlış çıkarsa, hangi araçlar tamamen dayanaksız kalır?
+    sole_reliance: Counter[str] = Counter()
+    for _, car in cars:
+        car_sources = car.get("sources", [])
+        if len(car_sources) == 1:
+            sole_reliance[car_sources[0]] += 1
+
     for sid, src in sources.items():
         for field in ("claim", "publisher", "url"):
             if not src.get(field):
@@ -289,11 +300,12 @@ def main() -> int:
             rep.error("sources.json", "gecersiz-url", f"`{sid}` URL'i http ile başlamıyor")
         if usage[sid] == 0:
             rep.warn("sources.json", "yetim-kaynak", f"`{sid}` hiçbir araca bağlı değil")
-        elif usage[sid] > MAX_CARS_PER_SOURCE:
+        elif sole_reliance[sid] > MAX_CARS_PER_SOURCE:
             rep.warn(
                 "sources.json", "kaynak-yogunlasmasi",
-                f"`{sid}` tek başına {usage[sid]} aracı taşıyor "
-                f"(sınır {MAX_CARS_PER_SOURCE}); tek noktadan bağımlılık",
+                f"`{sid}` {sole_reliance[sid]} aracın TEK kaynağı "
+                f"(sınır {MAX_CARS_PER_SOURCE}); bu kaynak çürürse o araçlar "
+                "tamamen dayanaksız kalır",
             )
         if src.get("tier") is None:
             rep.warn("sources.json", "guven-seviyesi-yok", f"`{sid}` için tier atanmamış")

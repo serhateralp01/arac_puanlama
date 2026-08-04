@@ -28,7 +28,8 @@
     "liq": 80
   },
   "sources": [
-    "trbox"
+    "trbox",
+    "andcetin_dq200"
   ],
   "note": "Motoru ekonomik ve yaygın bir dizel ama otomatiği kuru kavramalı DQ200 kutusu. Bu kutu Türkiye trafiğinde kavrama aşınması ve mekatronik arızasıyla biliniyor. Araç geniş, ucuz ve kolay kullanılıyor; sorun tamamen şanzıman tarafında. Kavrama ve mekatronik geçmişi belgeli olmayan bir örneğe girmeyin.",
   "provenance": {

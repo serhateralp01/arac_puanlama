@@ -28,7 +28,9 @@
     "liq": 80
   },
   "sources": [
-    "trbox"
+    "trbox",
+    "technopat_clio_xtronic",
+    "namuwiki_sm5"
   ],
   "note": "Geniş, konforlu ve ucuz olmasıyla bilinen bir Türkiye klasiği. Ancak otomatiği X-Tronic CVT, yani Latitude ile aynı aileden ve yağ bakımı kritik. 110 beygirlik motoru da cansız kalıyor, bu yüzden alt sınırın altında olduğunu belirtiyorum. Konfor ve bütçe açısından mantıklı, keyif açısından değil.",
   "provenance": {

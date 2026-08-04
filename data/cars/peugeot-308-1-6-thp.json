@@ -28,7 +28,8 @@
     "liq": 64
   },
   "sources": [
-    "trbox"
+    "trbox",
+    "insigniateam_af40"
   ],
   "note": "Otomatiği Aisin yapımı tork konvertörlü kutu ve bu tarafı güvenli. Asıl sorun motorda: 1.6 THP motorun zincir, karbon birikmesi ve termostat konuları Türkiye'de iyi bilinen kronik kalemler. Sürmesi keyifli bir araç ama motor geçmişi çok önemli.",
   "provenance": {

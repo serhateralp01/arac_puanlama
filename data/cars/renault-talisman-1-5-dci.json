@@ -28,7 +28,9 @@
     "liq": 58
   },
   "sources": [
-    "trbox"
+    "trbox",
+    "sikayetvar_megane_edc",
+    "otopark_sanziman_rehberi"
   ],
   "note": "Laguna'nın halefi, büyük ve konforlu bir sedan; otomatiği EDC kuru kavramalı. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {

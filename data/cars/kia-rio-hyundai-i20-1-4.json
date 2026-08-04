@@ -17,7 +17,7 @@
     650,
     950
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 80,
     "trans": 78,
@@ -27,8 +27,10 @@
     "cost": 84,
     "liq": 76
   },
-  "sources": [],
-  "note": "Küçük gövdeleri sayesinde şehir içinde çok pratik ve park etmesi kolay. Tork konvertörlü otomatikleri sade ve sağlam, işletme maliyetleri düşük. Gücü sınırlı, uzun yolda ve tam yükte zorlanıyorlar.",
+  "sources": [
+    "motorbeam_i20_1_4_automatic"
+  ],
+  "note": "Küçük gövdeleri sayesinde şehir içinde çok pratik ve park etmesi kolay. Tork konvertörlü otomatikleri sade ve sağlam, işletme maliyetleri düşük. MotorBeam'in i20 1.4 otomatik testine göre 0-100 km/s hızlanma sınıfı için mütevazı (~12.8 saniye) ve yüksek hızda direksiyon hissiz kalıyor; araç heyecanlı sürüşten çok şehir içi kullanım için tasarlanmış. Uzun yolda ve tam yükte zorlanıyorlar.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

@@ -1,4 +1,59 @@
 {
+  "slashgear_toyota_cvt_reliability": {
+    "id": "slashgear_toyota_cvt_reliability",
+    "claim": "Toyota'nın CVT tasarımlarının piyasadaki en dayanıklı CVT'ler arasında sayıldığı; düzenli bakımla 200.000-250.000 mil arası sorunsuz kullanım bildiren sahip yorumlarının yaygın olduğu, yağ değişiminin zorlu koşullarda (durup kalkma trafiği, aşırı sıcaklık) 60.000 milde bir önerildiği",
+    "publisher": "SlashGear",
+    "url": "https://www.slashgear.com/1857785/toyota-cvt-transmissions-reliability/",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-04",
+    "language": "en",
+    "quotes": []
+  },
+  "whatcar_alfa156_reliability": {
+    "id": "whatcar_alfa156_reliability",
+    "claim": "Alfa Romeo 156'da süspansiyon ve aksların en zayıf nokta olduğu, ardından motor ve elektrik aksamının geldiği; erken üretim yıllarında yoğun elektrik arızaları ve yaygın pas noktaları (arka çamurluk, eşik, şasi, bagaj tabanı) bildirildiği",
+    "publisher": "What Car?",
+    "url": "https://www.whatcar.com/alfa-romeo/156/estate/used-review/n209/reliability",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-04",
+    "language": "en",
+    "quotes": []
+  },
+  "motorbeam_i20_1_4_automatic": {
+    "id": "motorbeam_i20_1_4_automatic",
+    "claim": "Hyundai i20 1.4 otomatiğin 0-100 km/s hızlanmasının sınıfı için mütevazı olduğu (~12.8 saniye), yüksek hızda direksiyonun hissiz kaldığı ve aracın heyecanlı sürüşten çok şehir içi kullanım için tasarlandığı",
+    "publisher": "MotorBeam",
+    "url": "https://www.motorbeam.com/hyundai-i20-1-4-litre-automatic-review/",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-04",
+    "language": "en",
+    "quotes": []
+  },
+  "techturkey_rover75_yardim": {
+    "id": "techturkey_rover75_yardim",
+    "claim": "Türkiye'de Rover 75 için yedek parça bulmanın uzman parçacılar üzerinden mümkün olduğu ama standart piyasaya göre daha pahalı olduğu, deneyimli usta bulmanın zor olduğu ve aracın yaşına bağlı mekanik sorunların satış sırasında ayrıca zorluk çıkardığı",
+    "publisher": "TechTurkey forumu",
+    "url": "https://www.techturkey.com/forum/arac_sorgulamalari/62400-rover_75_konusunda_yardim-2.html",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-04",
+    "language": "tr",
+    "quotes": []
+  },
+  "motorbiscuit_corolla_boring": {
+    "id": "motorbiscuit_corolla_boring",
+    "claim": "Toyota Corolla'nın hissiz direksiyonu ve sade kabiniyle 'sıkıcı' olarak tanınan, buna karşılık düzenli bakımla 300.000 milin üzerine çıkabilen, A noktasından B noktasına götüren en güvenilir araçlardan biri olarak değerlendirildiği",
+    "publisher": "MotorBiscuit",
+    "url": "https://www.motorbiscuit.com/is-the-toyota-corolla-still-as-boring-as-everyone-thinks/",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-04",
+    "language": "en",
+    "quotes": []
+  },
   "autodoc_s60_problems": {
     "id": "autodoc_s60_problems",
     "claim": "Volvo S60'ta Powershift (6DCT450/MPS6) kutusunun sarsıntı, gecikmeli vites geçişi ve kavrama aşınması gibi genel şikayetlerinin 60-100 bin km aralığında görüldüğü; bu şikayet paterni motor tipine (benzin T4/T5 veya dizel) göre ayrıştırılmıyor",

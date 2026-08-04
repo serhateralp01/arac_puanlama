@@ -45,18 +45,32 @@ Bunun sonucunda `verified` araç sayısı 70'ten **1**'e düştü. Bu düşüş 
 
 ---
 
-## D-03 · Tek kaynağa aşırı yoğunlaşma (AÇIK)
+## D-03 · Tek kaynağa aşırı yoğunlaşma (KISMEN KAPATILDI — ölçüt de düzeltildi)
 
-| Kaynak | Kaç aracı taşıyor |
-|---|---:|
-| `trbox` (araclo.com şanzıman rehberi) | **36** |
-| `om61x` (Wikipedia / cars-expert) | **13** |
+`trbox` (araclo.com şanzıman rehberi), listedeki 36 aracın notunda geçiyordu ve
+bunların 32'si bu kaynağa **tek başına** dayanıyordu — yani kaynak yanlış çıksa
+veya çürüse bu 32 araç bir anda dayanaksız kalacaktı.
 
-`trbox`, araclo.com üzerindeki tek bir blog yazısıdır ve listedeki araçların yaklaşık
-dörtte birinin şanzıman değerlendirmesini tek başına taşımaktadır. Bu yazıdaki bir
-hata ortaya çıkarsa ya da bağlantı çürürse 36 araç aynı anda dayanaksız kalır. Tek
-noktadan bağımlılık, kanıt zincirindeki en kırılgan noktadır ve bu bağımlılığın
-kırılması gerekiyor.
+İki şey yapıldı. Birincisi, denetimin ölçtüğü şey düzeltildi:
+`scripts/validate.py`'deki `kaynak-yogunlasmasi` kuralı artık bir kaynağın toplam
+kaç yerde geçtiğini değil, kaç aracın **başka hiçbir kaynağı olmadan** ona tek
+başına dayandığını sayıyor. Bir kaynağın elli aracın notunda geçmesi zararsız
+olabilir, eğer o elli aracın hepsinin ikinci bağımsız bir kaynağı da varsa; asıl
+risk tek başınalıktır.
+
+İkincisi, `trbox`'a tek başına dayanan 32 araçtan 22'sine ikinci bir kaynak
+eklendi. 18'i, zaten kutu kaydında (`data/transmissions.json`) doğrulanmış olan
+ama araç kaydına hiç bağlanmamış kaynaklar araç düzeyine taşınarak (yeni araştırma
+gerekmedi); 4'ü (Toyota Multidrive CVT ailesi) yeni bulunan bir kaynakla
+(SlashGear'ın Toyota CVT güvenilirlik derlemesi) kazanıldı. `trbox`'a tek başına
+dayanan araç sayısı 32'den **10**'a indi, sınırın (12) altına.
+
+Kalan 10 araç hâlâ tek başına `trbox`'a dayanıyor:
+`audi-a4-b9-2-0-tdi`, `citroen-c-elysee-peugeot-301-benzinli`, `citroen-c4-1-6-vti`,
+`ford-focus-3-1-6-ti-vct`, `mercedes-a-b-serisi`, `mitsubishi-lancer-1-6`,
+`peugeot-2008-208-1-6-e-hdi`, `peugeot-301-1-6-hdi`, `peugeot-308-1-6-bluehdi`,
+`toyota-corolla-e12-1-6-vvt-i`. Bunlar için kolay bir "zaten var olan kaynağı
+taşı" çözümü yok, gerçek yeni araştırma gerekiyor — issue #11'in kapsamında.
 
 ---
 
@@ -120,12 +134,23 @@ kendi sınırını çiziyor. Gerekçe `docs/ARCHITECTURE.md` içindeki MK-03 kay
 
 ---
 
-## D-07 · Kanıtsız zayıf halka (AÇIK)
+## D-07 · Kanıtsız zayıf halka (KAPATILDI)
 
-Dört araçta en az bir kriterde 35'in altında puan bulunuyor, ancak bu araçların hiç
-kaynağı yok. 35 altındaki bir puan, aracı tabloda kırmızı işaretlediği ve pratikte
-listeden elediği için en iddialı puan türüdür. Bir aracı eleyen puanın kanıtsız
-verilmesi kabul edilemez, bu yüzden bu dört araç araştırma sırasının başına alınacak.
+Dört araçta en az bir kriterde 35'in altında puan bulunuyordu, ancak bu araçların
+hiç kaynağı yoktu — Alfa Romeo 156 (`age`), Kia Rio / Hyundai i20 1.4 (`fun`),
+Rover 75 (`age`, `liq`), Toyota Corolla 1.6 2007-13 (`fun`). 35 altındaki bir puan
+aracı tabloda kırmızı işaretlediği ve pratikte listeden elediği için en iddialı
+puan türüdür.
+
+Dördü için de kaynak bulundu ve araç kaydına bağlandı: Alfa 156 için What Car?'ın
+güvenilirlik derlemesi, Kia Rio/i20 için MotorBeam'in performans testi, Rover 75
+için TechTurkey forumunun Türkiye'ye özel yedek parça tartışması, Corolla için
+MotorBiscuit'in "sıkıcı ama güvenilir" derlemesi.
+
+Bir not: Corolla'nın önceki metninde birebir bir forum alıntısı ("1960'ların
+ToyoGlide tasarımının güncellenmiş hali...") vardı ama bu alıntının gerçek kaynağı
+yeniden bulunamadı. Doğrulanamayan bir alıntıyı korumak yerine metinden çıkarıldı
+ve doğrulanabilir bir kaynakla değiştirildi.
 
 ---
 

@@ -28,7 +28,8 @@
     "liq": 66
   },
   "sources": [
-    "trbox"
+    "trbox",
+    "andcetin_dct_tucson"
   ],
   "note": "i30 ile aynı platform ve benzer motor-şanzıman ailesini paylaşıyor. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {

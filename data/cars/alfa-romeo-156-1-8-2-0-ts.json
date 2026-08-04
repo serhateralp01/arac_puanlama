@@ -17,7 +17,7 @@
     450,
     680
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 56,
     "trans": 66,
@@ -27,8 +27,10 @@
     "cost": 44,
     "liq": 40
   },
-  "sources": [],
-  "note": "159'dan önceki nesil, İtalyan tasarımının zirvelerinden; otomatiği tork konvertörlü ama Alfa'nın bilinen elektronik ve parça zorlukları burada da geçerli. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "sources": [
+    "whatcar_alfa156_reliability"
+  ],
+  "note": "159'dan önceki nesil, İtalyan tasarımının zirvelerinden; otomatiği tork konvertörlü ama Alfa'nın bilinen elektronik ve parça zorlukları burada da geçerli. What Car?'ın güvenilirlik derlemesine göre süspansiyon ve akslar 156'nın en zayıf noktası, ardından motor ve elektrik aksamı geliyor; erken üretim yıllarında yoğun elektrik arızaları ve arka çamurluk, eşik, şasi, bagaj tabanı gibi yaygın pas noktaları bildiriliyor.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

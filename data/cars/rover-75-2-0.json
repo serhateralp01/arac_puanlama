@@ -17,7 +17,7 @@
     420,
     620
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 56,
     "trans": 68,
@@ -27,8 +27,10 @@
     "cost": 42,
     "liq": 32
   },
-  "sources": [],
-  "note": "Klasik İngiliz tasarımlı bir sedan; ZF kaynaklı tork konvertörlü otomatiği idare eder. Türkiye'de neredeyse hiç usta ve parça ağı yok, sırf meraklısına. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "sources": [
+    "techturkey_rover75_yardim"
+  ],
+  "note": "Klasik İngiliz tasarımlı bir sedan; ZF kaynaklı tork konvertörlü otomatiği idare eder. TechTurkey forumundaki Türkiye'ye özel tartışmaya göre yedek parça uzman parçacılar üzerinden bulunabiliyor ama standart piyasaya göre daha pahalı, deneyimli usta bulmak zor ve aracın yaşına bağlı mekanik sorunlar satış sırasında ayrıca zorluk çıkarıyor. Türkiye'de neredeyse hiç yaygın usta ve parça ağı yok, sırf meraklısına.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

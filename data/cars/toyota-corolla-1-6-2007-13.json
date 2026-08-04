@@ -17,7 +17,7 @@
     650,
     950
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 90,
     "trans": 86,
@@ -27,8 +27,10 @@
     "cost": 90,
     "liq": 92
   },
-  "sources": [],
-  "note": "1ZR motoru ve eski usul 4 ileri tork konvertörlü otomatiğiyle bozulmayan bir araç. Bir uluslararası forum kullanıcısının esprili ama isabetli tanımıyla bu tip Toyota otomatikleri '1960'ların ToyoGlide tasarımının güncellenmiş hali, hâlâ kayış kullanan, 1910 Model T kadar basit' bir teknoloji — yani hiç iddialı değil ama tam da bu basitliği yüzünden neredeyse bozulmuyor. Sürüş keyfi çok düşük, arıza istatistikleri ve yedek parça bolluğu listenin zirvesinde.",
+  "sources": [
+    "motorbiscuit_corolla_boring"
+  ],
+  "note": "1ZR motoru ve eski usul 4 ileri tork konvertörlü otomatiğiyle bozulmayan bir araç. MotorBiscuit'in derlemesine göre Corolla, hissiz direksiyonu ve sade kabiniyle 'sıkıcı' olarak tanınıyor; buna karşılık düzenli bakımla 300.000 milin üzerine çıkabilen, A noktasından B noktasına götüren en güvenilir araçlardan biri olarak değerlendiriliyor. Sürüş keyfi çok düşük, arıza istatistikleri ve yedek parça bolluğu listenin zirvesinde.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

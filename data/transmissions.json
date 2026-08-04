@@ -473,7 +473,8 @@
     "maintenance": null,
     "known_issues": [],
     "sources": [
-      "trbox"
+      "trbox",
+      "slashgear_toyota_cvt_reliability"
     ],
     "note": "CVT ailesinin en dayanıklıları arasında sayılıyor. Sürüş hissi lastik gibi tarif ediliyor. [base_score gerekçesi: 65-84 (sağlam): kaynak CVT ailesinin en dayanıklıları arasında sayıyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
