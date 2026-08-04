@@ -175,6 +175,7 @@ def check_evidence_policy(
     """Puanın kanıtla ilişkisini denetler — projenin asıl derdi bu."""
     where = path.name
     n_src = len(car.get("sources", []))
+    crit_by_key = {c["key"]: c for c in criteria["criteria"]}
 
     # Doğrulama etiketi türetilmiş bir değerdir; elle değiştirilmiş olması veri
     # hatasıdır, tercih değil.
@@ -207,17 +208,22 @@ def check_evidence_policy(
     # Bir puan yalnızca C seviyesindeki kaynaklara dayanıyorsa uç bantlara çıkamaz.
     # Gerekçesi docs/PLAN.md M-2: uç puan iddialıdır, iddialı puan A veya B kanıt
     # ister. Tier'i olmayan (henüz atanmamış) kaynak bu kural için C sayılır, yani
-    # temkinli tarafta hata yapılır.
+    # temkinli tarafta hata yapılır. "Uç bant" artık keyfi bir sayı değil, kriterin
+    # kendi en üst ve en alt bandının sınırından okunuyor (bkz. §7 puan bantları).
     car_sources = car.get("sources", [])
     if car_sources:
         tiers = {sources[sid]["tier"] for sid in car_sources if sid in sources}
         only_c = tiers and tiers <= {"C", None}
         if only_c:
-            extreme = [k for k, v in car["scores"].items() if v >= 90 or v <= 30]
+            extreme = []
+            for k, v in car["scores"].items():
+                bands = crit_by_key[k]["bands"]
+                if bands and (v >= bands[0]["range"][0] or v <= bands[-1]["range"][1]):
+                    extreme.append(k)
             if extreme:
                 rep.warn(
                     where, "c-kaynakla-uc-puan",
-                    f"{sorted(extreme)} kriterlerinde 90 üzeri veya 30 altı puan var "
+                    f"{sorted(extreme)} kriterlerinde en üst veya en alt bant puanı var "
                     "ama bütün kaynaklar C seviyesinde; uç puan A veya B kanıt ister",
                 )
 
