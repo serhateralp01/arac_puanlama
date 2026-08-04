@@ -20,7 +20,7 @@
   "verification": "partial",
   "scores": {
     "motor": 68,
-    "trans": 74,
+    "trans": 58,
     "fun": 54,
     "comf": 83,
     "age": 54,
@@ -30,7 +30,7 @@
   "sources": [
     "trbox"
   ],
-  "note": "Hidropnömatik süspansiyonu sayesinde konforu bu listenin en iyilerinden. Otomatiği Aisin tork konvertörlü kutu, dizel motoru da sağlam. Buna karşılık süspansiyon sisteminin bakımı özel bilgi istiyor ve ustası her yerde bulunmuyor.",
+  "note": "Hidropnömatik süspansiyonu sayesinde konforu bu listenin en iyilerinden. Otomatiği Aisin AF40 tork konvertörlü kutu; bu ailenin bilinen zayıf noktası hidrolik beyin (valf gövdesi), belirtileri vuruntu, boşa düşme ve takılı kalma, yenileme maliyeti diğer markaların şanzıman arızalarına göre nispeten uygun (~5.000 TL). Buna karşılık süspansiyon sisteminin bakımı özel bilgi istiyor ve ustası her yerde bulunmuyor.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

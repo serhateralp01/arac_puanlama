@@ -298,6 +298,34 @@ def main() -> int:
         if src.get("tier") is None:
             rep.warn("sources.json", "guven-seviyesi-yok", f"`{sid}` için tier atanmamış")
 
+    # --- kutu.base_score + düzeltme formülünün fiilen uygulanması ---
+    # docs/PLAN.md §3.2: trans = kutu.base_score + düzeltme, düzeltme yalnızca iki
+    # adı konmuş türden (tork yakınlığı, bakım geçmişi) biriyse ve car.evidence.trans
+    # içinde gerekçesi yazılıysa uygulanabilir. Kayıtlı bir gerekçe olmadan büyük bir
+    # sapma, tam olarak projenin başlangıç teşhisindeki hatanın kendisidir.
+    TRANS_DEVIATION_LIMIT = 15
+    for path, car in cars:
+        box_id = car.get("specs", {}).get("transmission_id")
+        if not box_id or box_id not in transmissions:
+            continue
+        base = transmissions[box_id].get("base_score")
+        if base is None:
+            continue
+        actual = car.get("scores", {}).get("trans")
+        if actual is None:
+            continue
+        delta = actual - base
+        has_reasoning = bool(
+            car.get("evidence", {}).get("trans", {}).get("reasoning")
+        )
+        if abs(delta) > TRANS_DEVIATION_LIMIT and not has_reasoning:
+            rep.warn(
+                path.name, "duzeltme-gerekcesiz",
+                f"trans = {actual}, ama `{box_id}` kutusunun base_score'u {base} "
+                f"({delta:+d} fark); evidence.trans.reasoning boş, bu sapma "
+                "kayıtlı bir gerekçeye bağlı değil",
+            )
+
     # --- şanzıman kayıtları ---
     box_usage: Counter[str] = Counter()
     for _, car in cars:

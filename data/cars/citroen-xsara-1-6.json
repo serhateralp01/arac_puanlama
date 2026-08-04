@@ -20,7 +20,7 @@
   "verification": "preliminary",
   "scores": {
     "motor": 62,
-    "trans": 60,
+    "trans": 40,
     "fun": 48,
     "comf": 72,
     "age": 42,
@@ -28,7 +28,7 @@
     "liq": 66
   },
   "sources": [],
-  "note": "307 ile aynı AL4 otomatiği kullanıyor; çok ucuz ama şanzıman geçmişi mutlaka sorulmalı. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "note": "307 ile aynı AL4 otomatiği kullanıyor; bu ailenin selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme gibi yaygın şikayetleri var. Araç çok ucuz ama şanzıman geçmişi mutlaka sorulmalı.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

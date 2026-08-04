@@ -37,5 +37,17 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "trans": {
+      "band": "0-34",
+      "confidence": "orta",
+      "sources": [
+        "go4trans_xtronic_diesel_chain",
+        "namuwiki_sm5"
+      ],
+      "reasoning": "nissan-xtronic kutusunun base_score'u (48) düşük torklu uygulamalar için geçerli. Bu araç ailenin en yüksek torklu üyesi (~320 Nm dCi dizel) ve go4trans kaynağı, yüksek torklu dizel eşleşmelerde 60-100 bin km'de zincir kaymasından kaynaklanan titreme bildiriyor; namuwiki_sm5 ise bu platformda şanzıman soğutucusunun küçültüldüğünü, ısınma riskini artırdığını doğruluyor. Bu, tork yakınlığı düzeltmesidir (docs/PLAN.md §3.2); -32 puanlık fark kayıtlı kanıta dayanıyor, gerekçesiz değil.",
+      "assessed_at": "2026-08-04"
+    }
   }
 }

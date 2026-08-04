@@ -1,9 +1,12 @@
 {
   "_comment": "Şanzıman kutusu kayıtları. Araçlar specs.transmission_id ile buraya referans verir. Amaç, aynı kutunun her araçta yeniden değerlendirilmesini ve farklı puan almasını engellemek; gerekçesi docs/ARCHITECTURE.md MK-02 kaydında. base_score alanı henüz doldurulmadı, bu iş kutu bazlı araştırmayı gerektiriyor (issue #1).",
-
   "zf-5hp": {
     "id": "zf-5hp",
-    "names": ["ZF 5HP19", "ZF 5HP24", "ZF 5 ileri Tiptronic"],
+    "names": [
+      "ZF 5HP19",
+      "ZF 5HP24",
+      "ZF 5 ileri Tiptronic"
+    ],
     "type": "TK",
     "supplier": "ZF",
     "gears": 5,
@@ -14,7 +17,12 @@
   },
   "zf-6hp": {
     "id": "zf-6hp",
-    "names": ["ZF 6HP19", "ZF 6HP26", "ZF 6 ileri tork konvertörü", "ZF Tiptronic 6 ileri"],
+    "names": [
+      "ZF 6HP19",
+      "ZF 6HP26",
+      "ZF 6 ileri tork konvertörü",
+      "ZF Tiptronic 6 ileri"
+    ],
     "type": "TK",
     "supplier": "ZF",
     "gears": 6,
@@ -25,7 +33,9 @@
   },
   "gm-5l40e": {
     "id": "gm-5l40e",
-    "names": ["GM 5L40-E"],
+    "names": [
+      "GM 5L40-E"
+    ],
     "type": "TK",
     "supplier": "General Motors",
     "gears": 5,
@@ -36,79 +46,115 @@
   },
   "aisin-geartronic": {
     "id": "aisin-geartronic",
-    "names": ["Aisin Geartronic", "Volvo Geartronic"],
+    "names": [
+      "Aisin Geartronic",
+      "Volvo Geartronic"
+    ],
     "type": "TK",
     "supplier": "Aisin",
     "gears": null,
     "base_score": null,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["volvops"],
-    "note": "Volvo'nun sorunlu Powershift kutusuyla karıştırılmamalı. Hangi motorun hangi kutuyla geldiği volvops kaynağında ayrıştırılıyor. Vites sayısı model yılına göre değiştiği için boş bırakıldı."
+    "sources": [
+      "volvops"
+    ],
+    "note": "Volvo'nun sorunlu Powershift kutusuyla karıştırılmamalı. Hangi motorun hangi kutuyla geldiği volvops kaynağında ayrıştırılıyor. Vites sayısı model yılına göre değiştiği için boş bırakıldı. Kaynak yalnızca bu aracın bu kutuyu kullandığını doğruluyor, güvenilirlik hakkında bir şey söylemiyor; bu yüzden base_score boş bırakıldı."
   },
   "aisin-af40": {
     "id": "aisin-af40",
-    "names": ["Aisin AF40-6", "AF40"],
+    "names": [
+      "Aisin AF40-6",
+      "AF40"
+    ],
     "type": "TK",
     "supplier": "Aisin",
     "gears": 6,
-    "base_score": null,
+    "base_score": 58,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["insigniateam_af40"],
-    "note": "Bilinen zayıf noktası hidrolik beyin (valf gövdesi). Aisin Geartronic ve TF-80 ile aynı aileden olup olmadığı teyit edilmeli; eğer aynıysa bu kutuların puanlarının birbirine yakın olması gerekir."
+    "sources": [
+      "insigniateam_af40"
+    ],
+    "note": "Bilinen zayıf noktası hidrolik beyin (valf gövdesi). Aisin Geartronic ve TF-80 ile aynı aileden olup olmadığı teyit edilmeli; eğer aynıysa bu kutuların puanlarının birbirine yakın olması gerekir. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): hidrolik beyin arızası gerçek ve tekrarlayan ama ~5.000 TL ile nispeten uygun maliyetli, kutu genelde onarımla ayakta kalıyor.]"
   },
   "aisin-tf80": {
     "id": "aisin-tf80",
-    "names": ["Aisin TF-80SC", "Alfa Q-Tronic"],
+    "names": [
+      "Aisin TF-80SC",
+      "Alfa Q-Tronic"
+    ],
     "type": "TK",
     "supplier": "Aisin",
     "gears": 6,
     "base_score": null,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["alfa159"]
+    "sources": [
+      "alfa159"
+    ],
+    "note": "Kaynak yalnızca bu aracın bu kutuyu kullandığını doğruluyor, güvenilirlik hakkında bir şey söylemiyor; bu yüzden base_score boş bırakıldı."
   },
   "aisin-eat6": {
     "id": "aisin-eat6",
-    "names": ["EAT6", "Aisin AT6"],
+    "names": [
+      "EAT6",
+      "Aisin AT6"
+    ],
     "type": "TK",
     "supplier": "Aisin",
     "gears": 6,
-    "base_score": null,
+    "base_score": 72,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["trbox"],
-    "note": "Üretici ömür boyu yağ diyor, ancak altmış bin kilometrede bir yağ değişimi öneriliyor. Bu iddianın kaynağa bağlanması gerekiyor."
+    "sources": [
+      "trbox"
+    ],
+    "note": "Üretici ömür boyu yağ diyor, ancak altmış bin kilometrede bir yağ değişimi öneriliyor. Bu iddianın kaynağa bağlanması gerekiyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak açık bir arıza değil, atlanırsa soruna yol açabilecek düzenli bir yağ değişimi kalemi tarif ediyor.]"
   },
   "aisin-aw60t": {
     "id": "aisin-aw60t",
-    "names": ["Aisin AW60T", "Aisin 6 ileri"],
+    "names": [
+      "Aisin AW60T",
+      "Aisin 6 ileri"
+    ],
     "type": "TK",
     "supplier": "Aisin",
     "gears": 6,
     "base_score": null,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["wiki_fiat_tipo"]
+    "sources": [
+      "wiki_fiat_tipo"
+    ],
+    "note": "Kaynak yalnızca bu aracın bu kutuyu kullandığını doğruluyor, güvenilirlik hakkında bir şey söylemiyor; bu yüzden base_score boş bırakıldı."
   },
   "psa-al4": {
     "id": "psa-al4",
-    "names": ["AL4", "DPO"],
+    "names": [
+      "AL4",
+      "DPO"
+    ],
     "type": "TK",
     "supplier": "PSA / Renault",
     "gears": 4,
     "torque_rating_nm": null,
     "torque_sensitivity": null,
-    "base_score": null,
+    "base_score": 40,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["trbox"],
-    "note": "Selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme yaygın şikayetler. UYARI: docs/PLAN.md §1.2'de bu kutu üç araçta (Citroen C4 32, Citroen Xsara 60, Peugeot 307 60) 28 puanlık bir fark gösteriyor, ama üç aracın da beygiri birbirine çok yakın (110-120 bg) ve araştırma torka dayalı bir açıklama bulamadı. Bu fark, getrag-6dct450 ve nissan-xtronic'in aksine gerçek bir mühendislik farkına dayanmıyor olabilir; C4'ün 32 puanının ayrıca kaynakla doğrulanması ya da diğer ikisiyle aynı seviyeye çekilmesi gerekiyor."
+    "sources": [
+      "trbox"
+    ],
+    "note": "Selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme yaygın şikayetler. UYARI: docs/PLAN.md §1.2'de bu kutu üç araçta (Citroen C4 32, Citroen Xsara 60, Peugeot 307 60) 28 puanlık bir fark gösteriyor, ama üç aracın da beygiri birbirine çok yakın (110-120 bg) ve araştırma torka dayalı bir açıklama bulamadı. Bu fark, getrag-6dct450 ve nissan-xtronic'in aksine gerçek bir mühendislik farkına dayanmıyor olabilir; C4'ün 32 puanının ayrıca kaynakla doğrulanması ya da diğer ikisiyle aynı seviyeye çekilmesi gerekiyor. [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı): selenoid valf arızası kontrol ünitesi kaynaklı, yaygın şikayet olarak tarif ediliyor.]"
   },
   "mb-4g-tronic": {
     "id": "mb-4g-tronic",
-    "names": ["4G-Tronic", "722.4", "722.6"],
+    "names": [
+      "4G-Tronic",
+      "722.4",
+      "722.6"
+    ],
     "type": "TK",
     "supplier": "Mercedes-Benz",
     "gears": 4,
@@ -119,18 +165,25 @@
   },
   "mb-5g-tronic": {
     "id": "mb-5g-tronic",
-    "names": ["5G-Tronic", "722.6"],
+    "names": [
+      "5G-Tronic",
+      "722.6"
+    ],
     "type": "TK",
     "supplier": "Mercedes-Benz",
     "gears": 5,
     "base_score": null,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["om61x"]
+    "sources": [],
+    "note": "Kaynak yalnızca bu aracın bu kutuyu kullandığını doğruluyor, güvenilirlik hakkında bir şey söylemiyor; bu yüzden base_score boş bırakıldı."
   },
   "mb-7g-tronic": {
     "id": "mb-7g-tronic",
-    "names": ["7G-Tronic", "722.9"],
+    "names": [
+      "7G-Tronic",
+      "722.9"
+    ],
     "type": "TK",
     "supplier": "Mercedes-Benz",
     "gears": 7,
@@ -141,31 +194,49 @@
   },
   "vag-dq200": {
     "id": "vag-dq200",
-    "names": ["DQ200", "7 ileri kuru DSG", "0AM"],
+    "names": [
+      "DQ200",
+      "7 ileri kuru DSG",
+      "0AM"
+    ],
     "type": "Kuru DCT",
     "supplier": "Volkswagen Group",
     "gears": 7,
-    "base_score": null,
+    "base_score": 38,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["andcetin_dq200", "trbox"],
-    "note": "Türkiye trafiğinde kavrama aşınması ve mekatronik arızasıyla biliniyor. Düşük torklu VAG motorlarında kullanılıyor."
+    "sources": [
+      "andcetin_dq200",
+      "trbox"
+    ],
+    "note": "Türkiye trafiğinde kavrama aşınması ve mekatronik arızasıyla biliniyor. Düşük torklu VAG motorlarında kullanılıyor. [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı): kavrama aşınması ve mekatronik arızası, bu bandın tam tanımına karşılık geliyor.]"
   },
   "vag-dq250": {
     "id": "vag-dq250",
-    "names": ["DQ250", "6 ileri ıslak DSG", "02E"],
+    "names": [
+      "DQ250",
+      "6 ileri ıslak DSG",
+      "02E"
+    ],
     "type": "Islak DCT",
     "supplier": "Volkswagen Group",
     "gears": 6,
-    "base_score": null,
+    "base_score": 62,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["andcetin_dq200", "kroniksorunlar_superb"],
-    "note": "Kavramaları yağ içinde çalıştığı için DQ200'den belirgin biçimde güvenli. Düşük hızlarda sarsıntı ve geçişte gecikme şikayetleri yaygın."
+    "sources": [
+      "andcetin_dq200",
+      "kroniksorunlar_superb"
+    ],
+    "note": "Kavramaları yağ içinde çalıştığı için DQ200'den belirgin biçimde güvenli. Düşük hızlarda sarsıntı ve geçişte gecikme şikayetleri yaygın. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): ıslak kavrama DQ200'e göre belirgin biçimde güvenli, düşük hızda sarsıntı şikayeti var ama felaket değil.]"
   },
   "vag-s-tronic-islak": {
     "id": "vag-s-tronic-islak",
-    "names": ["S tronic (ıslak)", "DL501", "DQ381"],
+    "names": [
+      "S tronic (ıslak)",
+      "DL501",
+      "DQ381"
+    ],
     "type": "Islak DCT",
     "supplier": "Volkswagen Group",
     "gears": null,
@@ -177,187 +248,284 @@
   },
   "vag-multitronic": {
     "id": "vag-multitronic",
-    "names": ["Multitronic", "01J"],
+    "names": [
+      "Multitronic",
+      "01J"
+    ],
     "type": "CVT",
     "supplier": "Volkswagen Group / LuK",
     "gears": null,
-    "base_score": null,
+    "base_score": 28,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["multi", "carchecker_a6_27tdi"],
-    "note": "Yalnızca önden çekişli Audi modellerinde bulunuyor. Listedeki en zayıf otomatiklerden biri olarak değerlendiriliyor."
+    "sources": [
+      "multi",
+      "carchecker_a6_27tdi"
+    ],
+    "note": "Yalnızca önden çekişli Audi modellerinde bulunuyor. Listedeki en zayıf otomatiklerden biri olarak değerlendiriliyor. [base_score gerekçesi: 0-34 (düşük km'de felaket, çoklu kaynak): iki bağımsız B-tier kaynak 'yüksek arıza riski' ifadesinde birleşiyor.]"
   },
   "getrag-6dct450": {
     "id": "getrag-6dct450",
-    "names": ["6DCT450", "ıslak Powershift", "Volvo Powershift (ıslak)", "MPS6"],
+    "names": [
+      "6DCT450",
+      "ıslak Powershift",
+      "Volvo Powershift (ıslak)",
+      "MPS6"
+    ],
     "type": "Islak DCT",
     "supplier": "Getrag",
     "gears": 6,
     "torque_rating_nm": 450,
     "torque_sensitivity": "Kutu 450 Nm'ye kadar tork için boyutlandırılmış. Listedeki üç araç da (Volvo S60 2.0T ~300 Nm, Ford Mondeo 2.0 TDCi ~340 Nm, Ford Focus 1.5 TDCi ~270 Nm) bu sınırın oldukça altında kalıyor, yani tork yakınlığı bu üçü arasındaki 30 puanlık farkı açıklamıyor. Şikayetlerin markadan bağımsız ve genel olması (düşük hızda titreme, sert hızlanmada kavrama kayması, trafikte aşırı ısınma), farkın kutunun kendisinden çok üç yılda bir gereken yağ/filtre bakımının atlanmış olma ihtimaline işaret ediyor; bu, araç bazında ayrıca araştırılmalı.",
-    "base_score": null,
+    "base_score": 52,
     "maintenance": "3 yılda bir yağ ve filtre değişimi gerekiyor; bu bakım çoğu zaman atlanıyor ve erken aşınmaya yol açıyor.",
     "known_issues": [
       {
         "issue": "Düşük hızda titreme, sert hızlanmada kavrama kayması, trafikte aşırı ısınma uyarısı, tam güç kaybı",
         "onset_km": null,
         "severity": "orta",
-        "sources": ["kugaownersclub_powershift_faults"]
+        "sources": [
+          "kugaownersclub_powershift_faults"
+        ]
       }
     ],
-    "sources": ["mondps", "volvops", "greencarcongress_powershift_torque", "kugaownersclub_powershift_faults"],
-    "note": "Ford Mondeo, Ford Focus dizel ve Volvo'da kullanılıyor. Kuru kavramalı DPS6 ile karıştırılmamalı. Bu kutu, docs/PLAN.md §1.2'deki tutarsızlığın kaynaklarından biri: aynı kutu üç araçta 28, 50 ve 58 puan almış. Araştırma, farkın tork yakınlığıyla açıklanamadığını gösterdi (bkz. torque_sensitivity); üç aracın da bakım geçmişi ayrı ayrı incelenmeden bu fark kapatılmamalı."
+    "sources": [
+      "mondps",
+      "volvops",
+      "greencarcongress_powershift_torque",
+      "kugaownersclub_powershift_faults"
+    ],
+    "note": "Ford Mondeo, Ford Focus dizel ve Volvo'da kullanılıyor. Kuru kavramalı DPS6 ile karıştırılmamalı. Bu kutu, docs/PLAN.md §1.2'deki tutarsızlığın kaynaklarından biri: aynı kutu üç araçta 28, 50 ve 58 puan almış. Araştırma, farkın tork yakınlığıyla açıklanamadığını gösterdi (bkz. torque_sensitivity); üç aracın da bakım geçmişi ayrı ayrı incelenmeden bu fark kapatılmamalı. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): şikayetler markadan bağımsız ve genel; tam güç kaybı ciddi ama büyük ölçüde atlanan bakımla ilişkilendiriliyor, kutunun kendisi tasarım olarak yeterli tork payına sahip.]"
   },
   "ford-dps6": {
     "id": "ford-dps6",
-    "names": ["DPS6", "kuru Powershift"],
+    "names": [
+      "DPS6",
+      "kuru Powershift"
+    ],
     "type": "Kuru DCT",
     "supplier": "Getrag / Ford",
     "gears": 6,
-    "base_score": null,
+    "base_score": 36,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["trbox"],
-    "note": "Amerika'da toplu davalara konu oldu. Kalkışta titreme, vites geçişinde vuruntu ve şanzıman beyni arızası yaygın şikayetler."
+    "sources": [
+      "trbox"
+    ],
+    "note": "Amerika'da toplu davalara konu oldu. Kalkışta titreme, vites geçişinde vuruntu ve şanzıman beyni arızası yaygın şikayetler. [base_score gerekçesi: 35-49 sınırında tutuldu: kaynak toplu dava seviyesinde ciddi bir sorunu işaret ediyor ama tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi; M-2 kuralı gereği uç puan A/B kanıt ister.]"
   },
   "volvo-powershift-kuru": {
     "id": "volvo-powershift-kuru",
-    "names": ["Volvo Powershift (kuru)", "6DCT250"],
+    "names": [
+      "Volvo Powershift (kuru)",
+      "6DCT250"
+    ],
     "type": "Kuru DCT",
     "supplier": "Getrag",
     "gears": 6,
-    "base_score": null,
+    "base_score": 38,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["v40d2", "volvops"],
-    "note": "Volvo'nun 1.6 D2 ve bazı benzinli modellerinde kullanılan kuru kavramalı kutu. Aynı marka içindeki Aisin Geartronic ile karıştırılmamalı."
+    "sources": [
+      "v40d2",
+      "volvops"
+    ],
+    "note": "Volvo'nun 1.6 D2 ve bazı benzinli modellerinde kullanılan kuru kavramalı kutu. Aynı marka içindeki Aisin Geartronic ile karıştırılmamalı. [base_score gerekçesi: 35-49: kaynak Powershift ile partikül filtresi sorununu birlikte anıyor, gerçek şanzıman arızası mı yoksa DPF mi olduğu net değil; bu belirsizlik nedeniyle temkinli tarafta tutuldu, ayrıca araştırılmalı.]"
   },
   "renault-edc-kuru": {
     "id": "renault-edc-kuru",
-    "names": ["EDC (kuru)", "6 ileri kuru EDC", "Getrag 6DCT250"],
+    "names": [
+      "EDC (kuru)",
+      "6 ileri kuru EDC",
+      "Getrag 6DCT250"
+    ],
     "type": "Kuru DCT",
     "supplier": "Getrag / Renault",
     "gears": 6,
-    "base_score": null,
+    "base_score": 54,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["sikayetvar_megane_edc", "renaultfanclub_edc", "otopark_sanziman_rehberi"],
-    "note": "Renault'nun dCi dizel modellerinde kullanılan eski nesil kuru EDC. Şikayetvar'da 3'ten 4'e geçişte tekrarlayan ses ve bazı örneklerde kontrol ünitesi arızası bildiriliyor."
+    "sources": [
+      "sikayetvar_megane_edc",
+      "renaultfanclub_edc",
+      "otopark_sanziman_rehberi"
+    ],
+    "note": "Renault'nun dCi dizel modellerinde kullanılan eski nesil kuru EDC. Şikayetvar'da 3'ten 4'e geçişte tekrarlayan ses ve bazı örneklerde kontrol ünitesi arızası bildiriliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): tekrarlayan ses ve istisnai kontrol ünitesi arızası bildiriliyor, ama aynı kutuyla 257.000 km sorunsuz giden bir örnek de var.]"
   },
   "getrag-7dct300": {
     "id": "getrag-7dct300",
-    "names": ["Getrag 7DCT300", "7 ileri ıslak EDC"],
+    "names": [
+      "Getrag 7DCT300",
+      "7 ileri ıslak EDC"
+    ],
     "type": "Islak DCT",
     "supplier": "Getrag / Renault",
     "gears": 7,
-    "base_score": null,
+    "base_score": 70,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["otopark_1_3tce_islak"],
-    "note": "Renault'nun 1.2 ve 1.3 TCe motorlu güncel modellerinde kullanılan ıslak kavramalı EDC. Dizel dCi modellerdeki kuru EDC'den yapısal olarak farklı ve daha güvenilir."
+    "sources": [
+      "otopark_1_3tce_islak"
+    ],
+    "note": "Renault'nun 1.2 ve 1.3 TCe motorlu güncel modellerinde kullanılan ıslak kavramalı EDC. Dizel dCi modellerdeki kuru EDC'den yapısal olarak farklı ve daha güvenilir. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak bunu eski kuru EDC'den 'yapısal olarak daha güvenilir' diye tanımlıyor; olumlu ama tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
   },
   "hyundai-7dct": {
     "id": "hyundai-7dct",
-    "names": ["7DCT", "D7UF1", "D7UF2"],
+    "names": [
+      "7DCT",
+      "D7UF1",
+      "D7UF2"
+    ],
     "type": "Kuru DCT",
     "supplier": "Hyundai / Kia",
     "gears": 7,
-    "base_score": null,
+    "base_score": 46,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["andcetin_dct_tucson", "trbox"],
-    "note": "Elektrikli aktüatör kullandığı için tamiri diğer kuru çift kavramalılara göre daha kolay. Soğuk havada kalkışta titreme ve yoğun trafikte ısınma bildiriliyor."
+    "sources": [
+      "andcetin_dct_tucson",
+      "trbox"
+    ],
+    "note": "Elektrikli aktüatör kullandığı için tamiri diğer kuru çift kavramalılara göre daha kolay. Soğuk havada kalkışta titreme ve yoğun trafikte ısınma bildiriliyor. [base_score gerekçesi: 35-49 bandının üst sınırı: dry DCT olmasının getirdiği bilinen risk var ama elektrikli aktüatör sayesinde diğer kuru çift kavramalılara göre onarımı nispeten kolay, bu hafifletici bir etken.]"
   },
   "hyundai-6at": {
     "id": "hyundai-6at",
-    "names": ["Hyundai 6 ileri tork konvertörü", "A6GF1", "A6MF1"],
+    "names": [
+      "Hyundai 6 ileri tork konvertörü",
+      "A6GF1",
+      "A6MF1"
+    ],
     "type": "TK",
     "supplier": "Hyundai / Kia",
     "gears": 6,
-    "base_score": null,
+    "base_score": 78,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["hyundaiforums_auto"],
-    "note": "Lisanslı Mitsubishi tasarımına dayandığı ve uzun süredir güvenilir olduğu bildiriliyor. Sonraki nesillerde gelen 7DCT ile karıştırılmamalı."
+    "sources": [
+      "hyundaiforums_auto"
+    ],
+    "note": "Lisanslı Mitsubishi tasarımına dayandığı ve uzun süredir güvenilir olduğu bildiriliyor. Sonraki nesillerde gelen 7DCT ile karıştırılmamalı. [base_score gerekçesi: 65-84 (sağlam): kaynak açıkça 'on yılı aşkın süredir kırılmaz' diyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "mb-7g-dct": {
     "id": "mb-7g-dct",
-    "names": ["7G-DCT", "724.0"],
+    "names": [
+      "7G-DCT",
+      "724.0"
+    ],
     "type": "Kuru DCT",
     "supplier": "Mercedes-Benz / Getrag",
     "gears": 7,
-    "base_score": null,
+    "base_score": 42,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["trbox"],
-    "note": "Önden çekişli A ve B serisinde kullanılıyor. Arkadan itişli Mercedeslerdeki tork konvertörlü 7G-Tronic ile karıştırılmamalı."
+    "sources": [
+      "trbox"
+    ],
+    "note": "Önden çekişli A ve B serisinde kullanılıyor. Arkadan itişli Mercedeslerdeki tork konvertörlü 7G-Tronic ile karıştırılmamalı. [base_score gerekçesi: 35-49: box'a özgü bir arıza kaydı yok, yalnızca 'kuru DCT' tipi genel riskine dayanan temkinli bir varsayılan; box'a özel kanıt toplanınca güncellenmeli.]"
   },
   "fiat-c635-ddct": {
     "id": "fiat-c635-ddct",
-    "names": ["C635 DDCT", "Fiat DCT"],
+    "names": [
+      "C635 DDCT",
+      "Fiat DCT"
+    ],
     "type": "Kuru DCT",
     "supplier": "Fiat",
     "gears": 6,
-    "base_score": null,
+    "base_score": 62,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["egeadct", "trbox"],
-    "note": "Kuru kavramalı olmasına rağmen sınıfının dayanıklıları arasında sayılıyor. Şehir içinde kalkışta sarsıntı şikayetleri var."
+    "sources": [
+      "egeadct",
+      "trbox"
+    ],
+    "note": "Kuru kavramalı olmasına rağmen sınıfının dayanıklıları arasında sayılıyor. Şehir içinde kalkışta sarsıntı şikayetleri var. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): kaynak bunu kuru kavramalı olmasına rağmen sınıfının dayanıklıları arasında sayıyor, şehir içi kalkış sarsıntısı bildiriliyor ama felaket değil.]"
   },
   "alfa-tct": {
     "id": "alfa-tct",
-    "names": ["TCT", "Alfa TCT"],
+    "names": [
+      "TCT",
+      "Alfa TCT"
+    ],
     "type": "Kuru DCT",
     "supplier": "Fiat / Alfa Romeo",
     "gears": 6,
     "base_score": null,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["eksisozluk_sanziman_liste"]
+    "sources": [
+      "eksisozluk_sanziman_liste"
+    ],
+    "note": "Kaynak yalnızca bu aracın bu kutuyu kullandığını doğruluyor, güvenilirlik hakkında bir şey söylemiyor; bu yüzden base_score boş bırakıldı."
   },
   "toyota-multidrive": {
     "id": "toyota-multidrive",
-    "names": ["Multidrive S", "Toyota CVT", "K310"],
+    "names": [
+      "Multidrive S",
+      "Toyota CVT",
+      "K310"
+    ],
     "type": "CVT",
     "supplier": "Aisin / Toyota",
     "gears": null,
-    "base_score": null,
+    "base_score": 74,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["trbox"],
-    "note": "CVT ailesinin en dayanıklıları arasında sayılıyor. Sürüş hissi lastik gibi tarif ediliyor."
+    "sources": [
+      "trbox"
+    ],
+    "note": "CVT ailesinin en dayanıklıları arasında sayılıyor. Sürüş hissi lastik gibi tarif ediliyor. [base_score gerekçesi: 65-84 (sağlam): kaynak CVT ailesinin en dayanıklıları arasında sayıyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "nissan-xtronic": {
     "id": "nissan-xtronic",
-    "names": ["X-Tronic", "Jatco CVT8", "Jatco JF017E", "Renault X-Tronic"],
+    "names": [
+      "X-Tronic",
+      "Jatco CVT8",
+      "Jatco JF017E",
+      "Renault X-Tronic"
+    ],
     "type": "CVT",
     "supplier": "Jatco",
     "gears": null,
     "torque_rating_nm": 300,
     "torque_sensitivity": "Bu aile düşük torklu benzinli motorlarla (Renault Fluence 1.6 NA ~148 Nm, Nissan Juke 1.6 turbo ~190 Nm) sorunsuz çalışıyor, ama yüksek torklu dizellerle (Renault Latitude 2.0 dCi ~320 Nm) eşleştiğinde zincir kayması nedeniyle 60-100 bin km aralığında titreme ve sarsıntı bildiriliyor. Bu, listedeki tork-bağımlı tutarsızlığın en net örneği: docs/PLAN.md §1.2'de aynı kutu ailesi 16, 45 ve 52 puan almış, ve 16 puanı alan tam olarak en yüksek torklu üye.",
-    "base_score": null,
+    "base_score": 48,
     "maintenance": "60.000-90.000 km'de yalnızca üreticinin belirttiği CVT yağıyla (standart ATF değil) yağ değişimi gerekiyor.",
     "known_issues": [
       {
         "issue": "Yüksek torklu dizel eşleşmelerinde zincir kayması, titreme ve sarsıntı",
         "onset_km": 80000,
         "severity": "orta",
-        "sources": ["go4trans_xtronic_diesel_chain"]
+        "sources": [
+          "go4trans_xtronic_diesel_chain"
+        ]
       }
     ],
-    "sources": ["technopat_clio_xtronic", "technicalparams_latitude", "namuwiki_sm5", "go4trans_xtronic_diesel_chain"],
-    "note": "Yağ bakımı ihmal edilirse kayış kayması ve sarsıntı riski var. Bazı platformlarda şanzıman soğutucusunun küçültüldüğü bildiriliyor. Tork yakınlığı, bu ailedeki puan farkının önemli bir kısmını açıklıyor; bkz. torque_sensitivity."
+    "sources": [
+      "technopat_clio_xtronic",
+      "technicalparams_latitude",
+      "namuwiki_sm5",
+      "go4trans_xtronic_diesel_chain"
+    ],
+    "note": "Yağ bakımı ihmal edilirse kayış kayması ve sarsıntı riski var. Bazı platformlarda şanzıman soğutucusunun küçültüldüğü bildiriliyor. Tork yakınlığı, bu ailedeki puan farkının önemli bir kısmını açıklıyor; bkz. torque_sensitivity. [base_score gerekçesi: 35-49 (bilinen risk): bu, düşük torklu uygulamalar için temel puan; yüksek torklu dizel eşleşmelerinde torque_sensitivity alanındaki gerekçeyle aşağı yönde düzeltiliyor (bkz. docs/PLAN.md §1.2).]"
   },
   "psa-etg": {
     "id": "psa-etg",
-    "names": ["ETG", "ETG5", "ETG6", "MCP"],
+    "names": [
+      "ETG",
+      "ETG5",
+      "ETG6",
+      "MCP"
+    ],
     "type": "Robot",
     "supplier": "PSA",
     "gears": null,
-    "base_score": null,
+    "base_score": 38,
     "maintenance": null,
     "known_issues": [],
-    "sources": ["trbox"],
-    "note": "Gerçek bir otomatik değil, motorlu debriyajlı manuel şanzıman. Baskı balata aşınması ve vites robotu arızalarıyla biliniyor."
+    "sources": [
+      "trbox"
+    ],
+    "note": "Gerçek bir otomatik değil, motorlu debriyajlı manuel şanzıman. Baskı balata aşınması ve vites robotu arızalarıyla biliniyor. [base_score gerekçesi: 35-49 sınırında tutuldu: baskı balata aşınması ve vites robotu arızası bildiriliyor, Robot tipi yapısal olarak en yüksek risk kategorisi; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
   }
 }

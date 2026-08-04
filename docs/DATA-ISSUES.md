@@ -135,3 +135,25 @@ Aktarım dokümanında varsayılan ağırlık seti `motor:18, trans:13` diye ba�
 toplamı 96 ediyordu; çalışan HTML dosyasında ise set `motor:20, trans:15` diye
 başlıyor ve toplamı tam 100 ediyordu. Çalışan koddaki değerlerin doğru olduğu kabul
 edildi ve `data/criteria.json` dosyasına o set yazıldı.
+
+---
+
+## D-09 · Volvo S60 2.0T'nin şanzıman puanı gerekçesiz kalıyor (AÇIK)
+
+`getrag-6dct450` kutusuna `base_score = 52` atandıktan sonra
+(`scripts/validate.py`'nin `duzeltme-gerekcesiz` kuralı) bu kutuyu paylaşan üç
+araçtan ikisi (Ford Mondeo, Ford Focus) düzeltilmeden bu değere yakın kaldı, ama
+Volvo S60 2.0T'nin puanı (28) kutunun temel puanından 24 puan düşükte duruyor ve
+bu fark hiçbir kaynakla açıklanamıyor.
+
+Araştırma, bu farkın torkla açıklanamadığını gösterdi (üç aracın torku da kutunun
+450 Nm sınırının oldukça altında, bkz. `data/transmissions.json` →
+`getrag-6dct450.torque_sensitivity`). Geriye kalan olası açıklama, üç aracın bakım
+geçmişinin ayrı ayrı farklı olması — ama bu, araç bazında araştırılmadan varsayılamaz.
+
+Bilerek düzeltilmedi: puanı kutunun temel puanına çekmek, elimde gerçek bir kanıt
+olmadan "muhtemelen aynıdır" varsaymak olurdu; bu tam olarak projenin kaçınmaya
+çalıştığı sezgisel puanlama. Puan 28'de kalıyor ve `scripts/validate.py` bunu
+`duzeltme-gerekcesiz` uyarısıyla görünür tutuyor, ta ki ya (a) Volvo'ya özgü bir
+kanıt bulunup gerekçe `evidence.trans` bloğuna yazılana, ya da (b) kanıt yokluğu
+teyit edilip puan kutunun temel puanına çekilene kadar.

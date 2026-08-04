@@ -20,7 +20,7 @@
   "verification": "partial",
   "scores": {
     "motor": 70,
-    "trans": 74,
+    "trans": 58,
     "fun": 58,
     "comf": 83,
     "age": 62,
@@ -30,7 +30,7 @@
   "sources": [
     "trbox"
   ],
-  "note": "Geniş, konforlu ve uzun yolu iyi yapan bir araç. Otomatiği Aisin tork konvertörlü kutu ve sağlam tarafta. Dizel motoru torklu ve ekonomik; partikül filtresi ile enjeksiyon bakımını kontrol ettirin.",
+  "note": "Geniş, konforlu ve uzun yolu iyi yapan bir araç. Otomatiği Aisin AF40 tork konvertörlü kutu; bu ailenin bilinen zayıf noktası hidrolik beyin (valf gövdesi), yenileme maliyeti diğer markaların şanzıman arızalarına göre nispeten uygun (~5.000 TL). Dizel motoru torklu ve ekonomik; partikül filtresi ile enjeksiyon bakımını kontrol ettirin.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
