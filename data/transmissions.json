@@ -293,9 +293,10 @@
       "mondps",
       "volvops",
       "greencarcongress_powershift_torque",
-      "kugaownersclub_powershift_faults"
+      "kugaownersclub_powershift_faults",
+      "autodoc_s60_problems"
     ],
-    "note": "Ford Mondeo, Ford Focus dizel ve Volvo'da kullanılıyor. Kuru kavramalı DPS6 ile karıştırılmamalı. Bu kutu, docs/PLAN.md §1.2'deki tutarsızlığın kaynaklarından biri: aynı kutu üç araçta 28, 50 ve 58 puan almış. Araştırma, farkın tork yakınlığıyla açıklanamadığını gösterdi (bkz. torque_sensitivity); üç aracın da bakım geçmişi ayrı ayrı incelenmeden bu fark kapatılmamalı. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): şikayetler markadan bağımsız ve genel; tam güç kaybı ciddi ama büyük ölçüde atlanan bakımla ilişkilendiriliyor, kutunun kendisi tasarım olarak yeterli tork payına sahip.]"
+    "note": "Ford Mondeo, Ford Focus dizel ve Volvo'da kullanılıyor. Kuru kavramalı DPS6 ile karıştırılmamalı. Bu kutu, docs/PLAN.md §1.2'deki tutarsızlığın kaynaklarından biri: aynı kutu üç araçta 28, 50 ve 58 puan almış. Araştırma, farkın tork yakınlığıyla açıklanamadığını gösterdi (bkz. torque_sensitivity); Volvo'ya özgü ayrı bir kanıt arandı (benzin turbo/T5 uygulamasının dizelden daha ağır aşınabileceği ihtimali dahil); AutoDoc'un S60 sorun derlemesi de dahil hiçbir kaynak motor tipine göre bir ayrım yapmıyor, genel Powershift şikayet paterni (60-100 bin km'de sarsıntı, gecikmeli geçiş, kavrama aşınması) hem Ford hem Volvo uygulamalarında aynı şekilde tarif ediliyor. Bu yüzden Volvo S60 2.0T'nin puanı artık kutunun base_score'una çekildi; bkz. docs/DATA-ISSUES.md D-09. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): şikayetler markadan bağımsız ve genel; tam güç kaybı ciddi ama büyük ölçüde atlanan bakımla ilişkilendiriliyor, kutunun kendisi tasarım olarak yeterli tork payına sahip.]"
   },
   "ford-dps6": {
     "id": "ford-dps6",

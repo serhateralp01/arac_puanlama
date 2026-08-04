@@ -138,22 +138,21 @@ edildi ve `data/criteria.json` dosyasına o set yazıldı.
 
 ---
 
-## D-09 · Volvo S60 2.0T'nin şanzıman puanı gerekçesiz kalıyor (AÇIK)
+## D-09 · Volvo S60 2.0T'nin şanzıman puanı gerekçesiz kalıyordu (KAPATILDI)
 
-`getrag-6dct450` kutusuna `base_score = 52` atandıktan sonra
-(`scripts/validate.py`'nin `duzeltme-gerekcesiz` kuralı) bu kutuyu paylaşan üç
-araçtan ikisi (Ford Mondeo, Ford Focus) düzeltilmeden bu değere yakın kaldı, ama
-Volvo S60 2.0T'nin puanı (28) kutunun temel puanından 24 puan düşükte duruyor ve
-bu fark hiçbir kaynakla açıklanamıyor.
+`getrag-6dct450` kutusuna `base_score = 52` atandıktan sonra bu kutuyu paylaşan üç
+araçtan ikisi (Ford Mondeo, Ford Focus) bu değere yakın kalırken, Volvo S60 2.0T'nin
+puanı (28) kutunun temel puanından 24 puan düşükte duruyordu ve bu fark hiçbir
+kaynakla açıklanamıyordu.
 
-Araştırma, bu farkın torkla açıklanamadığını gösterdi (üç aracın torku da kutunun
-450 Nm sınırının oldukça altında, bkz. `data/transmissions.json` →
-`getrag-6dct450.torque_sensitivity`). Geriye kalan olası açıklama, üç aracın bakım
-geçmişinin ayrı ayrı farklı olması — ama bu, araç bazında araştırılmadan varsayılamaz.
+Torkla açıklanamadığı zaten biliniyordu (üç aracın torku da kutunun 450 Nm sınırının
+altında). Geriye kalan ihtimal, Volvo'nun benzin turbo (T5 sınıfı) uygulamasının
+dizel uygulamalardan daha ağır aşınması olabilirdi — bu ihtimal ayrıca araştırıldı.
+AutoDoc'un Volvo S60 sorun derlemesi dahil hiçbir kaynak, Powershift şikayet
+paternini (60-100 bin km'de sarsıntı, gecikmeli vites geçişi, kavrama aşınması)
+motor tipine göre ayrıştırmıyor; hem Ford hem Volvo uygulamalarında aynı şekilde
+tarif ediliyor.
 
-Bilerek düzeltilmedi: puanı kutunun temel puanına çekmek, elimde gerçek bir kanıt
-olmadan "muhtemelen aynıdır" varsaymak olurdu; bu tam olarak projenin kaçınmaya
-çalıştığı sezgisel puanlama. Puan 28'de kalıyor ve `scripts/validate.py` bunu
-`duzeltme-gerekcesiz` uyarısıyla görünür tutuyor, ta ki ya (a) Volvo'ya özgü bir
-kanıt bulunup gerekçe `evidence.trans` bloğuna yazılana, ya da (b) kanıt yokluğu
-teyit edilip puan kutunun temel puanına çekilene kadar.
+Kanıt yokluğu teyit edildikten sonra puan kutunun temel puanına (52) çekildi. Bu,
+tahmin değil, araştırmanın gerçekten yapılıp Volvo'ya özgü bir fark bulunamadığının
+kaydı.

@@ -1,4 +1,15 @@
 {
+  "autodoc_s60_problems": {
+    "id": "autodoc_s60_problems",
+    "claim": "Volvo S60'ta Powershift (6DCT450/MPS6) kutusunun sarsıntı, gecikmeli vites geçişi ve kavrama aşınması gibi genel şikayetlerinin 60-100 bin km aralığında görüldüğü; bu şikayet paterni motor tipine (benzin T4/T5 veya dizel) göre ayrıştırılmıyor",
+    "publisher": "AutoDoc Blog",
+    "url": "https://www.autodoc.co.uk/info/problems-with-the-volvo-s60",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-04",
+    "language": "en",
+    "quotes": []
+  },
   "greencarcongress_powershift_torque": {
     "id": "greencarcongress_powershift_torque",
     "claim": "Ford/Getrag 6DCT450 (Volvo/Ford ıslak çift kavramalı Powershift) kutusunun 450 Nm'ye kadar tork için boyutlandırıldığı",

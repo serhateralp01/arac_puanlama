@@ -465,20 +465,22 @@ uyarı veriyor; yapısal uyarı kalmadı.
    güvenilirlik hakkında hiçbir şey söylemeyen bir kaynaktan puan üretilmedi. Altı
    kutunun (`zf-5hp`, `zf-6hp`, `gm-5l40e`, `mb-4g-tronic`, `mb-7g-tronic`,
    `vag-s-tronic-islak`) hâlâ hiç kaynağı yok.
-9. **Yapı kuruldu, ilk tur tamamlandı.** `scripts/validate.py`'ye `duzeltme-gerekcesiz`
-   kuralı eklendi: bir aracın `trans` puanı, bağlı olduğu kutunun `base_score`'undan
-   15 puandan fazla sapıyorsa ve `evidence.trans.reasoning` boşsa hata değil uyarı
-   üretiyor. İlk çalıştırmada 9 araç yakalandı; yedisi kutunun kendi kanıtına göre
-   düzeltildi (ör. dört Aisin AF40 aracı 74'ten 58'e çekildi), biri (Renault Latitude)
-   `evidence.trans` bloğuyla gerekçelendirildi ve puanı korundu, biri (Volvo S60 2.0T)
-   kanıt bulunamadığı için bilerek açık bırakıldı ve `docs/DATA-ISSUES.md` D-09'a
-   taşındı.
+9. **Tamamlandı.** `scripts/validate.py`'ye `duzeltme-gerekcesiz` kuralı eklendi: bir
+   aracın `trans` puanı, bağlı olduğu kutunun `base_score`'undan 15 puandan fazla
+   sapıyorsa ve `evidence.trans.reasoning` boşsa hata değil uyarı üretiyor. İlk
+   çalıştırmada 9 araç yakalandı; yedisi kutunun kendi kanıtına göre düzeltildi (ör.
+   dört Aisin AF40 aracı 74'ten 58'e çekildi), biri (Renault Latitude)
+   `evidence.trans` bloğuyla gerekçelendirildi ve puanı korundu. Sonuncusu (Volvo S60
+   2.0T) önce açık bırakıldı, ardından Volvo'ya özgü bir kanıt aranıp bulunamadığı
+   teyit edildi ve puan kutunun temel puanına çekildi; bkz. `docs/DATA-ISSUES.md`
+   D-09.
 10. `data/engines.json` henüz kurulmadı.
 
-**Kabul ölçütü:** §1.2 tablosundaki her fark ya yazılı gerekçeye bağlı ya kapanmış.
-Bugünkü durum: `nissan-xtronic` gerekçeli (evidence.trans), `psa-al4` ailesi
-yakınsadı (yayılım 28'den 8'e düştü), `getrag-6dct450` ailesinde Mondeo ve Focus
-kutuya yakınsadı ama Volvo bilerek açık bırakıldı (D-09).
+**Kabul ölçütü — sağlandı.** §1.2 tablosundaki üç kutunun hepsi çözüldü:
+`nissan-xtronic` gerekçeli (evidence.trans), `psa-al4` ve `getrag-6dct450` aileleri
+tamamen kutuya yakınsadı (yayılımları sırasıyla 28→8 ve 30→8'e indi).
+`scripts/consistency.py` artık yalnızca `nissan-xtronic`'i işaretliyor, o da
+gerekçeli olduğu için beklenen bir durum.
 
 ### Faz 2D — Kapsamı genişletme
 11. Mevcut 154 aracın `specs.body_type` alanını doldur ve arayüze gövde filtresini ekle.

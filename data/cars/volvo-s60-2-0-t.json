@@ -20,7 +20,7 @@
   "verification": "partial",
   "scores": {
     "motor": 62,
-    "trans": 28,
+    "trans": 52,
     "fun": 80,
     "comf": 80,
     "age": 70,
@@ -29,9 +29,10 @@
   },
   "sources": [
     "s60t",
-    "volvops"
+    "volvops",
+    "autodoc_s60_problems"
   ],
-  "note": "203 beygirlik motoru keyifli bir araç ama otomatiği Powershift olduğu için şanzıman puanı listenin en altlarında kalıyor. Kutusunun faturalı biçimde yenilendiğini görmeden bu aracı almayın.",
+  "note": "203 beygirlik motoru keyifli bir araç. Otomatiği ıslak kavramalı Powershift (6DCT450/MPS6); bu kutu ailesinin genel zaafları (60-100 bin km'de sarsıntı, gecikmeli vites geçişi, kavrama aşınması) burada da geçerli, ama araştırma benzin turbo motorun dizel uygulamalara göre daha ağır aşındığına dair bir kanıt bulamadı — şikayet paterni motor tipine göre ayrışmıyor. Kutusunun faturalı biçimde yenilendiğini görmeden bu aracı almayın.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
