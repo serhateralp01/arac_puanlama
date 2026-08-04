@@ -11,7 +11,9 @@
     "quotes": [
       {
         "text": "The version of Powershift that Volvo launched is dimensioned to handle torque levels up to 450 Nm.",
-        "supports": ["trans"],
+        "supports": [
+          "trans"
+        ],
         "context": "Volvo'nun 6DCT450 kutusunu tanıttığı basın açıklamasının teknik özeti."
       }
     ]
@@ -39,7 +41,9 @@
     "quotes": [
       {
         "text": "The 2.0 dCi uses the Jatco JF017E CVT with a chain drive... judder and shudder during acceleration, typically starting between 60,000 and 100,000 km, caused by wear in the CVT allowing the chain to slip.",
-        "supports": ["trans"],
+        "supports": [
+          "trans"
+        ],
         "context": "Yüksek torklu dizel motorlarla eşleşen X-Tronic kutularının aşınma örüntüsü."
       }
     ]
@@ -50,7 +54,7 @@
     "publisher": "bmwtuning / bimmerfest",
     "url": "https://bmwtuning.co/e39-5-series-buyers-guide/",
     "type": "unknown",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -61,7 +65,7 @@
     "publisher": "bmwblog",
     "url": "https://www.bmwblog.com/2025/08/06/bmw-e39-5-series-buying-guide-2025/",
     "type": "trade-press",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -72,7 +76,7 @@
     "publisher": "bimmerfest",
     "url": "https://www.bimmerfest.com/threads/e39-what-is-best-year-engine-to-buy.652570/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -83,7 +87,7 @@
     "publisher": "mtautoparts",
     "url": "https://blog.mtautoparts.com/2026/05/bmw-engines-most-prone-to-timing-chain-failure.html",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -94,7 +98,7 @@
     "publisher": "autodoc / mtautoparts / pistonheads",
     "url": "https://www.autodoc.co.uk/info/bmw-e90-n47-timing-chain-failures",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -105,7 +109,7 @@
     "publisher": "bmwblog",
     "url": "https://www.bmwblog.com/2023/09/13/how-to-buy-a-used-bmw-e90-3-series/",
     "type": "trade-press",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -116,7 +120,7 @@
     "publisher": "bmwtuning / euroconnex",
     "url": "https://bmwtuning.co/bmw-e46-subframe-cracks/",
     "type": "unknown",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -127,7 +131,7 @@
     "publisher": "TÜV NORD",
     "url": "https://www.tuev-nord-group.com/en/fewer-defect-free-vehicles-at-tuev-nord-stations/",
     "type": "official-inspection-data",
-    "tier": null,
+    "tier": "A",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -138,7 +142,7 @@
     "publisher": "thecarlane / enginedna",
     "url": "https://thecarlane.com/ea111-engine-timing-chain-or-belt/",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -149,7 +153,7 @@
     "publisher": "Şikayetvar / vwturk",
     "url": "https://www.sikayetvar.com/audi/tfsi/yag",
     "type": "complaint-aggregator",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -160,7 +164,7 @@
     "publisher": "apexxengines",
     "url": "https://apexxengines.co.uk/audi-a4-2-0-tfsi-problems-2/",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -171,7 +175,7 @@
     "publisher": "CompleteCar / kroniksorunlar",
     "url": "https://kroniksorunlar.net/audi-a4-kronik-sorunlar-ve-kullanici-yorumlari",
     "type": "complaint-aggregator",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -182,7 +186,7 @@
     "publisher": "volvoforums",
     "url": "https://www.volvoforums.org.uk/forum/technical-topics/v40-xc-12-17-general/332871-powershift-geartronic-auto-transmission",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -193,7 +197,7 @@
     "publisher": "Auto Express",
     "url": "https://www.autoexpress.co.uk/volvo/s60/20623/2010-2018-saloon",
     "type": "trade-press",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -204,7 +208,7 @@
     "publisher": "auto-data",
     "url": "https://www.auto-data.net/en/volvo-s60-ii-2.0-t-203hp-powershift-56875",
     "type": "spec-database",
-    "tier": null,
+    "tier": "A",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -215,7 +219,7 @@
     "publisher": "volvov40club",
     "url": "https://www.volvov40club.com/threads/v40-gearbox-issues.36165/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -226,7 +230,7 @@
     "publisher": "clickmechanic",
     "url": "https://www.clickmechanic.com/blog/common-problems-with-the-ford-ecoboost-engine/",
     "type": "trade-press",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -237,7 +241,7 @@
     "publisher": "talkford / pistonheads",
     "url": "https://www.talkford.com/threads/how-to-recognize-a-powershift-gearbox-on-mk4-mondeo.390417/",
     "type": "unknown",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -248,7 +252,7 @@
     "publisher": "Wikipedia / cars-expert",
     "url": "https://cars-expert.com/mercedes-benz-e-class-w210-1995-2003-problems/",
     "type": "trade-press",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -259,7 +263,7 @@
     "publisher": "PistonHeads",
     "url": "https://www.pistonheads.com/gassing/topic.asp?h=0&f=96&t=437004",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -270,7 +274,7 @@
     "publisher": "MBClub",
     "url": "https://forums.mbclub.co.uk/threads/270-cdi-om612-hpfp-failure-opinions-w209-clk.296073/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -281,7 +285,7 @@
     "publisher": "OrbiMotors",
     "url": "https://orbimotors.com/news/m271-engine-reliability-and-most-common-problems/",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -292,7 +296,7 @@
     "publisher": "frysgarage / stargaragemansfield / astraowners",
     "url": "https://stargaragemansfield.co.uk/1-6-cdti-timing-chain-problems-vauxhall-opel-chevrolet/",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -303,7 +307,7 @@
     "publisher": "kesinkarar",
     "url": "https://www.kesinkarar.com/amp/otomobil/turkiyede-ortalama-2-el-otomobil-fiyatlari-belli-oldu-iste-sahibindenin-nisan-2026-verileri/622433",
     "type": "unknown",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -314,7 +318,7 @@
     "publisher": "cars-expert W211",
     "url": "https://cars-expert.com/mercedes-benz-e-class-w211-s211-2002-2009-problems/",
     "type": "trade-press",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -325,7 +329,7 @@
     "publisher": "CivicTR / ekşi sözlük",
     "url": "https://eksisozluk.com/honda-civic-fd6--5501686",
     "type": "crowd-wiki",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -336,7 +340,7 @@
     "publisher": "Technopat / araclo",
     "url": "https://www.technopat.net/sosyal/konu/fiat-egea-1-6-multijet-dct-kavrama-turu-nedir.3758926/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -347,7 +351,7 @@
     "publisher": "araclo şanzıman rehberi",
     "url": "https://www.araclo.com/blog/otomatik-sanziman-turleri-karsilastirmasi-tam-otomatik-cift-kavramali-ve-cvt-turkiyede-hangi-araclarda-bulunur",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -358,7 +362,7 @@
     "publisher": "Gökşen Oto / Wikipedia / otobilgisi",
     "url": "https://goksenoto.com/Alfa-159",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -369,7 +373,7 @@
     "publisher": "sikayetvar.com (çoklu konu başlığı)",
     "url": "https://www.sikayetvar.com/renault/megane/sanziman",
     "type": "complaint-aggregator",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -380,7 +384,7 @@
     "publisher": "renaultfanclub.com forum",
     "url": "https://www.renaultfanclub.com/threads/edc-sanziman-kavrama-omru.107922/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -391,7 +395,7 @@
     "publisher": "otosorular.com",
     "url": "https://otosorular.com/renault-megane-16-dci-alinir-mi-kronik-sorunlari",
     "type": "complaint-aggregator",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -402,7 +406,7 @@
     "publisher": "forum.donanimhaber.com",
     "url": "https://forum.donanimhaber.com/nissan-qashqai-1-3-un-performansi-hakikaten-cok-mu-iyi--147985981",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -413,7 +417,7 @@
     "publisher": "sikayetvar.com (çoklu konu başlığı)",
     "url": "https://www.sikayetvar.com/nissan/qashqai/sanziman",
     "type": "complaint-aggregator",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -424,7 +428,7 @@
     "publisher": "kronikyorum.com",
     "url": "https://kronikyorum.com/nissan-qashqai-13-dig-t-kullanici-yorumlari-arizalar",
     "type": "complaint-aggregator",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -435,7 +439,7 @@
     "publisher": "sikayetvar.com (çoklu konu başlığı)",
     "url": "https://www.sikayetvar.com/dct/tucson",
     "type": "complaint-aggregator",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -446,7 +450,7 @@
     "publisher": "andcetin.com",
     "url": "https://andcetin.com/hyundai-kia-dct-analizi-63/",
     "type": "independent-analyst",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -457,7 +461,7 @@
     "publisher": "forum.donanimhaber.com",
     "url": "https://forum.donanimhaber.com/2023-kia-sportagelarin-hepsi-dct-sanziman-kullanmiyor-mu--161388180",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -468,7 +472,7 @@
     "publisher": "tr.motor1.com",
     "url": "https://tr.motor1.com/reviews/410149/drag-3008-c5-aircross-grandlandx/",
     "type": "trade-press",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -479,7 +483,7 @@
     "publisher": "araclo.com",
     "url": "https://www.araclo.com/blog/citroen-c5-aircross-1.5-bluehdi-kronik-sorunlari-eksantrik-zinciri-gercegi-ve-kullanici-yorumlari-2026",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -490,7 +494,7 @@
     "publisher": "erenservis.net",
     "url": "https://www.erenservis.net/rehber/peugeot-eat8-sanziman-sorunlari/",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -501,7 +505,7 @@
     "publisher": "otopark.com forum",
     "url": "https://otopark.com/forum/threads/hangi-araclarda-hangi-sanziman-bulunuyor-genel-sanziman-bilgileri-dsg-zf-ve-getrag-hakkinda-her-sey.15814/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -512,7 +516,7 @@
     "publisher": "andcetin.com",
     "url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
     "type": "independent-analyst",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -523,7 +527,7 @@
     "publisher": "hech.com.tr",
     "url": "https://hech.com.tr/urun/renault-koleos-otomatik-sanziman-tamiri-arizasi-ve-sorunu/",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -534,7 +538,7 @@
     "publisher": "technopat.net",
     "url": "https://www.technopat.net/sosyal/konu/2020-clio-edc-sanziman-mi-x-tronic-sanziman-mi.931696/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -545,7 +549,7 @@
     "publisher": "otomobilforum.com",
     "url": "https://www.otomobilforum.com/konu/en-sorunsuz-otomatik-sanzimanlar-hangi-sanziman-daha-dayanikli.242/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -556,7 +560,7 @@
     "publisher": "insigniateam.com forum",
     "url": "https://www.insigniateam.com/forum/teknik-b%C3%B6l%C3%BCm/teknik-destek/594949-insignia-1-6-dizel-otomatik-%C5%9Fanz%C4%B1man-markas%C4%B1",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -567,7 +571,7 @@
     "publisher": "sikayetvar.com (çoklu konu başlığı)",
     "url": "https://www.sikayetvar.com/opel/insignia/kronik",
     "type": "complaint-aggregator",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -578,7 +582,7 @@
     "publisher": "kroniksorunlar.net",
     "url": "https://kroniksorunlar.net/skoda-superb-kronik-sorunlari-ve-kullanici-yorumlari",
     "type": "complaint-aggregator",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -589,7 +593,7 @@
     "publisher": "mbclubtr.com forum",
     "url": "https://mbclubtr.com/index.php?threads%2Fhangi-w203-tercih-edilmeli.51880%2F=",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -600,7 +604,7 @@
     "publisher": "technopat.net",
     "url": "https://www.technopat.net/sosyal/konu/hyundai-i30-1-6-crdi-alinir-mi.4014623/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -611,7 +615,7 @@
     "publisher": "seatclubturkey.com forum",
     "url": "http://www.seatclubturkey.com/archive/index.php/t-36350.html",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -622,7 +626,7 @@
     "publisher": "otopark.com forum",
     "url": "https://otopark.com/forum/threads/hangi-araclarda-hangi-sanziman-bulunuyor-genel-sanziman-bilgileri-dsg-zf-ve-getrag-hakkinda-her-sey.15814/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -633,7 +637,7 @@
     "publisher": "eksisozluk.com",
     "url": "https://eksisozluk.com/marka-ve-modele-gore-otomatik-sanziman-turleri--5545765",
     "type": "crowd-wiki",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -644,7 +648,7 @@
     "publisher": "otoclubturkiye.com / techturkey.com forum",
     "url": "http://www.techturkey.com/forum/sohbet/67371-ford_focus_otomatik_vites_sorgusu.html",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -655,7 +659,7 @@
     "publisher": "euroracingparts.fr",
     "url": "https://www.euroracingparts.fr/en/blogs/guide-dachat-pour-audi/acheter-une-audi-a6-c6-doccasion-notre-guide-fiabilite",
     "type": "trade-press",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -666,7 +670,7 @@
     "publisher": "carchecker.pro",
     "url": "https://www.carchecker.pro/reports/audi_a6_c6_2.7_tdi.html",
     "type": "trade-press",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -677,7 +681,7 @@
     "publisher": "enginefinder.co.za",
     "url": "https://www.enginefinder.co.za/blog/problems/mercedes-m111-engine-problems/",
     "type": "trade-press",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -688,7 +692,7 @@
     "publisher": "forums.mbclub.co.uk",
     "url": "https://forums.mbclub.co.uk/threads/common-faults-with-w208-clk-230k.48469/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -699,7 +703,7 @@
     "publisher": "cars-expert.com",
     "url": "https://cars-expert.com/mercedes-benz-clk-w209-coupe-c209-cabrio-a209-2002-2003-2004-2005-2006-2007-2008-2009-problems-review-faults-issues-weakness-reliability-information-buy-used-engines-petrol-gasoline-automatic-gearbox/",
     "type": "trade-press",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -710,7 +714,7 @@
     "publisher": "honda-tech.com",
     "url": "https://honda-tech.com/forums/honda-accord-crosstour-2003-2012-118/reliability-2-4l-automatic-2568351/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -721,7 +725,7 @@
     "publisher": "truedelta.com",
     "url": "https://www.truedelta.com/Honda-Accord-vs-Toyota-Corolla-reliability-comparison,108-266",
     "type": "owner-survey",
-    "tier": null,
+    "tier": "A",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -732,7 +736,7 @@
     "publisher": "hyundai-forums.com",
     "url": "https://www.hyundai-forums.com/threads/auto-transmission-other-drive-train-reliability.138658/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -743,7 +747,7 @@
     "publisher": "redriven.com",
     "url": "https://redriven.com/reviews/kia/cerato/used-kia-cerato-review/",
     "type": "forum",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -754,7 +758,7 @@
     "publisher": "en.wikipedia.org",
     "url": "https://en.wikipedia.org/wiki/Renault_Latitude",
     "type": "encyclopedia",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -765,7 +769,7 @@
     "publisher": "technicalparameters.eu",
     "url": "https://technicalparameters.eu/renault-latitude-faults/",
     "type": "trade-blog",
-    "tier": null,
+    "tier": "C",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -776,7 +780,7 @@
     "publisher": "en.namu.wiki",
     "url": "https://en.namu.wiki/w/%EB%A5%B4%EB%85%B8%EC%82%BC%EC%84%B1%20SM5/3%EC%84%B8%EB%8C%80",
     "type": "encyclopedia",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []
@@ -787,7 +791,7 @@
     "publisher": "en.wikipedia.org",
     "url": "https://en.wikipedia.org/wiki/Fiat_Tipo_(2015)",
     "type": "encyclopedia",
-    "tier": null,
+    "tier": "B",
     "accessed": null,
     "language": null,
     "quotes": []

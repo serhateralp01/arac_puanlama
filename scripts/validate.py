@@ -169,7 +169,9 @@ def check_car_shape(
         rep.warn(where, "gerekce-kisa", "note alanı gerekçe olarak fazla kısa")
 
 
-def check_evidence_policy(rep: Report, path: pathlib.Path, car: dict, criteria: dict) -> None:
+def check_evidence_policy(
+    rep: Report, path: pathlib.Path, car: dict, criteria: dict, sources: dict
+) -> None:
     """Puanın kanıtla ilişkisini denetler — projenin asıl derdi bu."""
     where = path.name
     n_src = len(car.get("sources", []))
@@ -202,6 +204,23 @@ def check_evidence_policy(rep: Report, path: pathlib.Path, car: dict, criteria: 
             "bir aracı eleyen puan kanıtsız verilmemeli",
         )
 
+    # Bir puan yalnızca C seviyesindeki kaynaklara dayanıyorsa uç bantlara çıkamaz.
+    # Gerekçesi docs/PLAN.md M-2: uç puan iddialıdır, iddialı puan A veya B kanıt
+    # ister. Tier'i olmayan (henüz atanmamış) kaynak bu kural için C sayılır, yani
+    # temkinli tarafta hata yapılır.
+    car_sources = car.get("sources", [])
+    if car_sources:
+        tiers = {sources[sid]["tier"] for sid in car_sources if sid in sources}
+        only_c = tiers and tiers <= {"C", None}
+        if only_c:
+            extreme = [k for k, v in car["scores"].items() if v >= 90 or v <= 30]
+            if extreme:
+                rep.warn(
+                    where, "c-kaynakla-uc-puan",
+                    f"{sorted(extreme)} kriterlerinde 90 üzeri veya 30 altı puan var "
+                    "ama bütün kaynaklar C seviyesinde; uç puan A veya B kanıt ister",
+                )
+
     # tag metni ile şanzıman tipinin çelişmesi — göç sırasında bulunan hata türü
     tag = car["tag"].lower()
     tx = car["specs"]["transmission_type"]
@@ -231,7 +250,7 @@ def main() -> int:
         if "name" in car:
             seen_names[car["name"]] += 1
         if all(f in car for f in ("scores", "sources", "verification", "tag", "specs")):
-            check_evidence_policy(rep, path, car, criteria)
+            check_evidence_policy(rep, path, car, criteria, sources)
         for sid in car.get("sources", []):
             if sid not in sources:
                 rep.error(path.name, "kayip-kaynak", f"`{sid}` data/sources.json içinde yok")
