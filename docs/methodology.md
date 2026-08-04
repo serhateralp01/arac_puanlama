@@ -149,26 +149,51 @@ araca özel gerekçe yazmıyor.
 
 ---
 
-## 7. Eksik olan: puan bantları
+## 7. Puan bantları
 
-**Bu bölüm henüz yazılmadı ve projenin en büyük metodolojik açığı.**
+Yedi kriterin yedisi de artık yazılı, çapalı bir bant tanımına sahip. Bantlar
+`data/criteria.json` içindeki her kriterin `bands` alanında tutuluyor; bu bölüm o
+verinin nasıl okunacağını ve neden bu biçimde kurulduğunu anlatıyor.
 
-Şu an puanlar sezgisel veriliyor ("bu bana 70 gibi geliyor"). Yazılı, tekrar
-uygulanabilir bir eşik seti yok; aynı kanıt farklı zamanlarda farklı puana yol
-açabilir. `validate.py` bunu `puan-bandi-yok` kuralıyla yedi kriterin hepsi için
-raporluyor.
+Her bant beş parçadan oluşuyor: bir puan aralığı, kısa bir ad, kanıtın hangi somut
+durumu göstermesi gerektiğini tanımlayan bir test cümlesi, listedeki gerçek bir araca
+işaret eden bir `example` ve gerekirse bir açıklama notu. `example` alanı belirleyici,
+çünkü her bandı soyut bir sayı aralığından çıkarıp listedeki gerçek bir araca çapalıyor.
+Yeni bir araç puanlanırken sorulan soru "bu araç kaç puan hak ediyor" değil, "bu araç
+çapa aracından iyi mi kötü mü" oluyor; insan yargısı karşılaştırma yaparken mutlak bir
+ölçü biçmekten çok daha tutarlı çalışıyor (`docs/PLAN.md` M-1).
 
-Hedeflenen biçim — her kriter için "şu kanıt varsa şu aralık":
+`trans` kriterinin bantları örnek olarak:
 
-> **`trans` için taslak:**
-> - **90–100** — İki bağımsız kaynakta kronik arıza kaydı yok, kutu tipi tork konvertörü.
-> - **70–89** — Bilinen ama yönetilebilir bakım kalemi var (ör. 60 bin km'de yağ değişimi şart).
-> - **50–69** — Tekrarlayan şikayet örüntüsü var ama felaket değil, tamiri makul maliyetli.
-> - **30–49** — Düşük kilometrede ağır arıza vakaları, birden fazla kaynakta doğrulanmış.
-> - **0–29** — Yapısal tasarım hatası, sınıfının en kötüsü, tamiri araç değerine yakın.
+| Aralık | Ad | Test |
+|---|---|---|
+| 85–100 | temiz | İki bağımsız kaynakta kronik arıza kaydı yok, kutu tipi tork konvertörü ya da düşük torkla eşleşen ıslak çift kavrama |
+| 65–84 | yönetilebilir bakım kalemi | Kutu sağlam ama düzenli bir bakım kalemi bildiriliyor (ör. periyodik yağ değişimi) |
+| 50–64 | tekrarlayan ama yönetilebilir şikayet | Tekrarlayan bir şikayet örüntüsü var ama felaket değil |
+| 35–49 | bilinen risk, kavrama/mekatronik odaklı | En az bir kaynak, düşük-orta kilometrede kavrama veya mekatronik arızasını doğruluyor |
+| 0–34 | düşük km'de felaket, çoklu kaynak | Birden fazla bağımsız kaynak, ağır ve pahalı bir arızayı doğruluyor |
 
-Bantlar `data/criteria.json` içindeki `bands` alanına yazılacak (şu an `null`) ve her
-araç kaydındaki opsiyonel `evidence` bloğunda hangi bandın hangi kaynakla uygulandığı
-tutulacak. Şema bu alanları şimdiden tanımlıyor.
+Kalan altı kriterin (`motor`, `fun`, `comf`, `age`, `cost`, `liq`) bantları aynı
+mantıkla `data/criteria.json` içinde tanımlı.
+
+**Boş kalan bantlar, bilerek doldurulmadı.** Bugünkü 154 araçlık listede beş bant
+(`comf` 35-49 ve 0-34, `age` 85-100, `cost` 0-34) için gerçek bir örnek yok — ne
+kaynaklı ne kaynaksız. Örneğin en düşük `comf` puanı bile 56, yani hiçbir araç
+"belirgin konfor zafiyeti" bandına düşmüyor. Bu, bandın yanlış tanımlandığı anlamına
+gelmiyor; listenin bugüne kadar hiç sert veya spartan bir araç içermediği anlamına
+geliyor. Bant tanımı, gerçek bir örnek bulunana kadar örneksiz kalıyor; mevcut
+puanlara uydurulmuyor. Bu, doğrudan bir metodoloji ilkesinin uygulanmasıdır: **bantlar
+önce yazılır, sonra puanlara bakılır; sapmalar puan düzeltilerek kapatılır, bant
+genişletilerek değil** (`docs/PLAN.md` §6).
+
+Bir istisna var: `liq` kriterinin 0-34 bandı, kaynaksız bir araca (`rover-75-2-0`)
+çapalandı. Bu araç için "Türkiye'de neredeyse hiç usta ve parça ağı yok" değerlendirmesi
+kaynakla doğrulanmadı, ama dilin kalibre edilmesi için gerçek bir örneğe ihtiyaç vardı.
+Bant kaynak bulunana kadar bu şekilde kalıyor, aracın kendi puanının doğruluğu ayrıca
+iddia edilmiyor.
+
+Bir sonraki adım, her araç kaydındaki opsiyonel `evidence` bloğunu doldurmak: hangi
+kriterin hangi banda göre, hangi kaynakla puanlandığı. Şema bu alanı şimdiden
+tanımlıyor (`data/schema/car.schema.json`).
 
 Ayrıntılı plan: [PLAN.md](PLAN.md).

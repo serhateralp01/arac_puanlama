@@ -438,10 +438,15 @@ Sıra rastgele değil: **önce yapıyı kur, sonra veriyi doldur.** Ters sırada
 doldurulan veri yapı değişince yeniden yazılır.
 
 ### Faz 2A — İskelet (veri girmeden)
-1. `transmissions.json` ve `engines.json` şemalarını ve boş kayıtlarını kur.
-2. Yedi kriterin puan bantlarını yaz, her banda çapa araç ata.
-3. Kaynak tier tanımlarını kesinleştir ve 68 kaynağa A/B/C ata.
-4. `consistency.py` ve yeni denetim kurallarını yaz.
+1. `transmissions.json` kuruldu (29 kutu, 97 araç bağlı). `engines.json` henüz kurulmadı.
+2. **Tamamlandı.** Yedi kriterin puan bantları yazıldı, her banda mümkün olan yerde
+   kaynaklı bir çapa araç atandı; beş bant için (comf 35-49/0-34, age 85-100, cost 0-34)
+   bugünkü veride gerçek örnek bulunmadığı için bilerek örneksiz bırakıldı
+   (`docs/methodology.md` §7).
+3. **Tamamlandı.** 68 kaynağa A/B/C tier atandı (3 A, 25 B, 40 C). C-kaynağa dayanan
+   puanın uç bantlara çıkamaması kuralı denetime eklendi.
+4. `consistency.py` yazıldı ve şanzıman kutularında çalıştırıldı; motor kayıtları
+   kurulduğunda aynı denetim `motor` puanı için de eklenecek.
 
 **Kabul ölçütü:** `validate.py --strict` yalnızca "veri henüz doldurulmadı" tipi
 uyarı veriyor; yapısal uyarı kalmadı.

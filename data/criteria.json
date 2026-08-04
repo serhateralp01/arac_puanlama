@@ -1,12 +1,45 @@
 {
-  "scored_order": ["motor", "trans", "fun", "comf", "age", "cost", "liq"],
-  "full_order": ["motor", "trans", "fun", "comf", "age", "cost", "liq", "price"],
+  "scored_order": [
+    "motor",
+    "trans",
+    "fun",
+    "comf",
+    "age",
+    "cost",
+    "liq"
+  ],
+  "full_order": [
+    "motor",
+    "trans",
+    "fun",
+    "comf",
+    "age",
+    "cost",
+    "liq",
+    "price"
+  ],
   "weak_threshold": 35,
   "total_color_bands": [
-    { "min": 72, "color": "var(--sage)", "label": "çok iyi" },
-    { "min": 64, "color": "#c9a34e", "label": "sağlam" },
-    { "min": 58, "color": "var(--amber)", "label": "orta" },
-    { "min": 0, "color": "var(--red)", "label": "riskli" }
+    {
+      "min": 72,
+      "color": "var(--sage)",
+      "label": "çok iyi"
+    },
+    {
+      "min": 64,
+      "color": "#c9a34e",
+      "label": "sağlam"
+    },
+    {
+      "min": 58,
+      "color": "var(--amber)",
+      "label": "orta"
+    },
+    {
+      "min": 0,
+      "color": "var(--red)",
+      "label": "riskli"
+    }
   ],
   "criteria": [
     {
@@ -17,7 +50,58 @@
       "definition": "Motorun mekanik olarak ne kadar sağlam olduğunu ölçer: ne sıklıkla ve ne kadar ağır arıza çıkarıyor, bilinen bir tasarım hatası var mı.",
       "includes": "Arızanın sıklığına ve ağırlığına, bakımsızlığa dayanma toleransına, blok, triger zinciri, turbo ve enjeksiyon tarafındaki bilinen risklere bakıyorum.",
       "excludes": "Motorun gücünü sürüş keyfi sütununda, şanzımanı kendi sütununda, yakıt ve parça fiyatını masraf sütununda değerlendiriyorum.",
-      "bands": null
+      "bands": [
+        {
+          "range": [
+            85,
+            100
+          ],
+          "name": "neredeyse arızasız",
+          "test": "Bağımsız kaynaklarda kronik arıza kaydı yok ve motor ailesi basit, düşük riskli bir tasarıma sahip (ör. turbosuz, dökme demir blok, uzun süredir kanıtlanmış).",
+          "example": "honda-civic-fd6-1-6",
+          "note": null
+        },
+        {
+          "range": [
+            65,
+            84
+          ],
+          "name": "sağlam, bilinen küçük bakım kalemi var",
+          "test": "En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+          "example": "mercedes-c220-cdi",
+          "note": null
+        },
+        {
+          "range": [
+            50,
+            64
+          ],
+          "name": "orta risk, izlenmesi gereken kalem var",
+          "test": "Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+          "example": "audi-a6-3-0-tdi-quattro",
+          "note": null
+        },
+        {
+          "range": [
+            35,
+            49
+          ],
+          "name": "yüksek risk, tanımlı bir tasarım hatası var",
+          "test": "En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+          "example": "bmw-e90-320d",
+          "note": null
+        },
+        {
+          "range": [
+            0,
+            34
+          ],
+          "name": "kumar",
+          "test": "Birden fazla kaynak, düşük kilometrede motoru komple bitirebilecek bir arıza örüntüsünü doğruluyor; belgeli bakım geçmişi olmadan almak risk kabul ediliyor.",
+          "example": "vw-golf-1-4-tsi",
+          "note": null
+        }
+      ]
     },
     {
       "key": "trans",
@@ -27,7 +111,58 @@
       "definition": "Otomatik şanzımanın hangi tipte olduğunu ve ne kadar sağlam olduğunu ölçer. Tork konvertörlü kutular en yüksek, kuru kavramalı ve robotlu kutular en düşük puanı alır.",
       "includes": "Kutunun tipine, arıza ve aşınma riskine, bozulduğunda tamirinin getirdiği yüke bakıyorum.",
       "excludes": "Motorun kendisini motor sütununda, vites geçişlerinin verdiği sürüş hissini sürüş keyfi sütununda değerlendiriyorum.",
-      "bands": null
+      "bands": [
+        {
+          "range": [
+            85,
+            100
+          ],
+          "name": "temiz",
+          "test": "İki bağımsız kaynakta kronik arıza kaydı yok ve kutu tipi tork konvertörü ya da düşük torkla eşleşen ıslak çift kavrama.",
+          "example": "volvo-s60-2-0-d-d3-d4",
+          "note": null
+        },
+        {
+          "range": [
+            65,
+            84
+          ],
+          "name": "yönetilebilir bakım kalemi",
+          "test": "Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+          "example": "peugeot-308-1-6-bluehdi",
+          "note": null
+        },
+        {
+          "range": [
+            50,
+            64
+          ],
+          "name": "tekrarlayan ama yönetilebilir şikayet",
+          "test": "Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+          "example": "ford-focus-3-1-5-tdci",
+          "note": null
+        },
+        {
+          "range": [
+            35,
+            49
+          ],
+          "name": "bilinen risk, kavrama/mekatronik odaklı",
+          "test": "En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+          "example": "vw-passat-b7-1-6-tdi",
+          "note": null
+        },
+        {
+          "range": [
+            0,
+            34
+          ],
+          "name": "düşük km'de felaket, çoklu kaynak",
+          "test": "Birden fazla bağımsız kaynak, düşük kilometrede ağır ve pahalı bir arızayı doğruluyor; kutu tipi (kuru DCT, eski CVT gibi) bu riski yapısal olarak taşıyor.",
+          "example": "renault-latitude-2-0-dci",
+          "note": null
+        }
+      ]
     },
     {
       "key": "fun",
@@ -37,7 +172,58 @@
       "definition": "Aracı sürmenin ne kadar zevkli olduğunu ölçer. Motorun gücü ve torku dahil performansla ilgili her şey burada değerlendirilir.",
       "includes": "Beygir ve tork hissine, şasi dengesine, direksiyonun geri bildirimine, çekiş tipine ve aracın karakterine bakıyorum.",
       "excludes": "Güvenilirliği motor, şanzıman ve yaş sütunlarında; içeride oturmanın rahatlığını konfor sütununda değerlendiriyorum.",
-      "bands": null
+      "bands": [
+        {
+          "range": [
+            85,
+            100
+          ],
+          "name": "belirgin karakter",
+          "test": "Güç/ağırlık oranı yüksek VEYA arkadan itiş/sıralı silindir gibi en az bir somut karakter unsuru var; bu unsur kaynakla veya teknik veriyle doğrulanabiliyor.",
+          "example": "bmw-e39-530d",
+          "note": null
+        },
+        {
+          "range": [
+            65,
+            84
+          ],
+          "name": "belirgin ama sınırlı keyif",
+          "test": "En az bir karakter unsuru var ama güç, ağırlık veya şanzıman tepkisi tarafından sınırlanıyor.",
+          "example": "alfa-giulietta-1-4-tb",
+          "note": null
+        },
+        {
+          "range": [
+            50,
+            64
+          ],
+          "name": "nötr",
+          "test": "Ne belirgin bir karakter unsuru ne de belirgin bir sıkıcılık var; ortalama güç, ortalama şasi tepkisi.",
+          "example": "ford-focus-3-1-5-tdci",
+          "note": null
+        },
+        {
+          "range": [
+            35,
+            49
+          ],
+          "name": "sönük",
+          "test": "Güç düşük veya şanzıman tepkisi donuk; karakteri belirleyen hiçbir unsur kaynakla doğrulanamıyor.",
+          "example": "fiat-egea-1-6-multijet",
+          "note": null
+        },
+        {
+          "range": [
+            0,
+            34
+          ],
+          "name": "sürüş keyfi öncelik değil",
+          "test": "Araç açıkça güvenilirlik ve pratiklik için tasarlanmış; güç düşük, şasi ayarı konfora göre yapılmış.",
+          "example": "fiat-egea-1-6-e-torq",
+          "note": null
+        }
+      ]
     },
     {
       "key": "comf",
@@ -47,7 +233,58 @@
       "definition": "Aracı sürmenin ne kadar kolay olduğu ile içinde vakit geçirmenin ne kadar rahat olduğunu birlikte ölçer. Önceki sürümde ayrı olan bu iki kriteri burada birleştirdim.",
       "includes": "Park ve manevra kolaylığına, görüş açısına, otomatiğin yumuşaklığına, yol konforuna, koltuklara, ses yalıtımına, iç hacme ve bagaja bakıyorum.",
       "excludes": "Sürüşün verdiği zevki sürüş keyfi sütununda değerlendiriyorum.",
-      "bands": null
+      "bands": [
+        {
+          "range": [
+            85,
+            100
+          ],
+          "name": "en üst düzey konfor",
+          "test": "Geniş iç hacim, yumuşak süspansiyon ve sessiz kabin en az bir kaynakla veya teknik veriyle doğrulanıyor.",
+          "example": "skoda-superb-1-6-tdi",
+          "note": null
+        },
+        {
+          "range": [
+            65,
+            84
+          ],
+          "name": "günlük kullanımda rahat",
+          "test": "Kabin ve sürüş konforu ortalamanın üzerinde; belirgin bir rahatsızlık kalemi bildirilmiyor.",
+          "example": "audi-a4-b6-1-8t-2-0",
+          "note": null
+        },
+        {
+          "range": [
+            50,
+            64
+          ],
+          "name": "ortalama, en az bir zayıf yön var",
+          "test": "Kabin veya sürüş konforunda en az bir somut eksik bildiriliyor (ör. dar arka koltuk, sert süspansiyon).",
+          "example": "mercedes-clk200-komp",
+          "note": null
+        },
+        {
+          "range": [
+            35,
+            49
+          ],
+          "name": "belirgin konfor zafiyeti",
+          "test": "Birden fazla konfor unsurunda (iç hacim, ses yalıtımı, sürüş yumuşaklığı) somut eksiklik bildiriliyor.",
+          "example": null,
+          "note": "Bugünkü 154 araçlık listede bu bandın altına düşen kaynaklı bir araç yok; en düşük comf puanı bile 56. Bu, bandın yanlış olduğu anlamına gelmiyor — listenin bugüne kadar hiç sert/spartan bir araç içermediği anlamına geliyor. Liste genişledikçe (ör. iki kişilik spor coupe, ticari kökenli binek) bu banda gerçek bir örnek düşmesi bekleniyor; düşene kadar bant tanımı kalıyor, geriye dönük daraltılmıyor."
+        },
+        {
+          "range": [
+            0,
+            34
+          ],
+          "name": "günlük kullanım için uygun değil",
+          "test": "Aracın tasarım amacı günlük konfor değil; bu açıkça beklenen ve kabul edilen bir durum (ör. iki koltuklu spor araç).",
+          "example": null,
+          "note": "Bugünkü listede örneği yok, aynı gerekçeyle 35-49 bandındaki not geçerli."
+        }
+      ]
     },
     {
       "key": "age",
@@ -57,7 +294,58 @@
       "definition": "Motordan bağımsız olarak aracın yaşından kaynaklanan riskleri ölçer. Araç ne kadar yeniyse puan o kadar yüksektir.",
       "includes": "Pas riskine, gövde ve süspansiyon burçlarının yorgunluğuna, elektrik ve elektronik arızalarına, kabin malzemelerinin yıpranmasına bakıyorum.",
       "excludes": "Motorun mekanik durumunu motor sütununda, şanzımanın durumunu şanzıman sütununda değerlendiriyorum.",
-      "bands": null
+      "bands": [
+        {
+          "range": [
+            85,
+            100
+          ],
+          "name": "güncel, düşük yaş riski",
+          "test": "Model yaşı düşük ve bilinen bir pas veya elektronik karmaşıklık riski bildirilmiyor.",
+          "example": null,
+          "note": "Bugünkü 154 araçlık listede bu banda giren bir araç yok; en yüksek age puanı 84 (Fiat Egea ailesi). Bu, tanımın hatalı olduğu anlamına gelmiyor — listenin henüz 2020 sonrası, gerçekten yeni bir araç içermediği anlamına geliyor. Liste genişledikçe bu banda gerçek bir örnek düşmesi bekleniyor."
+        },
+        {
+          "range": [
+            65,
+            84
+          ],
+          "name": "orta yaşlı, izole risk",
+          "test": "Araç birkaç yıllık ama tek bir izole risk kalemi dışında (ör. belirli bir yıl aralığında elektronik sorunu) genel olarak sağlam.",
+          "example": "ford-focus-3-1-5-tdci",
+          "note": null
+        },
+        {
+          "range": [
+            50,
+            64
+          ],
+          "name": "yaşlanmış, birden fazla izlenecek kalem",
+          "test": "Araç on yılı geçmiş ve pas, süspansiyon burcu yorgunluğu veya elektronik arıza kalemlerinden birden fazlası bildiriliyor.",
+          "example": "audi-a4-b8-2-0-tdi",
+          "note": null
+        },
+        {
+          "range": [
+            35,
+            49
+          ],
+          "name": "yüksek yaş riski",
+          "test": "Araç on beş yılı aşmış ve en az bir kaynak somut bir pas veya elektronik arıza örüntüsü bildiriyor.",
+          "example": "audi-a6-3-0-tdi-quattro",
+          "note": null
+        },
+        {
+          "range": [
+            0,
+            34
+          ],
+          "name": "yaşın kendisi başlı başına risk",
+          "test": "Araç yirmi yılı aşmış; kaynaklar pas veya elektronik arızayı istisna değil kural olarak tarif ediyor.",
+          "example": "bmw-e39-523i",
+          "note": null
+        }
+      ]
     },
     {
       "key": "cost",
@@ -67,7 +355,58 @@
       "definition": "Araca para harcadığınızda bunun ne kadar tutacağını ölçer. Önceki sürümde ayrı olan masraf ve parça erişimi kriterlerini burada birleştirdim.",
       "includes": "Yakıt tüketimine, vergilere, yedek parçanın fiyatına ve bulunabilirliğine, işçilik bedellerine bakıyorum.",
       "excludes": "Arızanın sıklığını motor, şanzıman ve yaş sütunlarında değerlendiriyorum.",
-      "bands": null
+      "bands": [
+        {
+          "range": [
+            85,
+            100
+          ],
+          "name": "en düşük işletme maliyeti",
+          "test": "Yakıt tüketimi düşük, MTV dilimi ucuz, yedek parça hem ucuz hem her yerde bulunuyor; bu üç unsur da kaynakla veya teknik veriyle doğrulanabiliyor.",
+          "example": "fiat-egea-1-6-multijet",
+          "note": null
+        },
+        {
+          "range": [
+            65,
+            84
+          ],
+          "name": "makul maliyet",
+          "test": "Yakıt ve vergi giderleri ortalamanın altında; yedek parça bulmak zor değil.",
+          "example": "audi-a4-b8-2-0-tdi",
+          "note": null
+        },
+        {
+          "range": [
+            50,
+            64
+          ],
+          "name": "ortalama maliyet",
+          "test": "Yakıt, vergi veya parça giderlerinden en az biri ortalamanın üzerinde ama toplamda dengeleniyor.",
+          "example": "audi-a6-2-0-tdi",
+          "note": null
+        },
+        {
+          "range": [
+            35,
+            49
+          ],
+          "name": "yüksek işletme maliyeti",
+          "test": "Yakıt tüketimi veya vergi dilimi belirgin biçimde yüksek, ya da yedek parça pahalı/az bulunuyor.",
+          "example": "alfa-giulietta-1-4-tb",
+          "note": null
+        },
+        {
+          "range": [
+            0,
+            34
+          ],
+          "name": "maliyet aracı fiilen sınırlıyor",
+          "test": "Yakıt, vergi ve parça giderlerinin en az ikisi birden yüksek; aracı günlük kullanmak pahalı.",
+          "example": null,
+          "note": "Bugünkü listede bu banda giren bir araç yok; en düşük cost puanı 42 (Rover 75 2.0 — Türkiye'de neredeyse hiç usta ve parça ağı olmayan bir marka). Liste genişledikçe bu banda gerçek bir örnek düşebilir."
+        }
+      ]
     },
     {
       "key": "liq",
@@ -77,7 +416,58 @@
       "definition": "Piyasada o araçtan bulmanın ne kadar kolay olduğunu ve satmak istediğinizde ne kadar çabuk alıcı bulacağınızı ölçer.",
       "includes": "İlan sayısına, araca olan talebe, satma kolaylığına ve değer kaybına direncine bakıyorum.",
       "excludes": "Yedek parça bulmayı sahip olma maliyeti sütununda değerlendiriyorum.",
-      "bands": null
+      "bands": [
+        {
+          "range": [
+            85,
+            100
+          ],
+          "name": "çok kolay bulunur ve satılır",
+          "test": "İlan sayısı listenin üst diliminde ve talep sürekli; araç günler içinde alıcı buluyor.",
+          "example": "fiat-egea-1-6-multijet",
+          "note": null
+        },
+        {
+          "range": [
+            65,
+            84
+          ],
+          "name": "kolay bulunur",
+          "test": "İlan sayısı ortalamanın üzerinde; alıcı bulmak birkaç haftadan uzun sürmüyor.",
+          "example": "bmw-e90-320d",
+          "note": null
+        },
+        {
+          "range": [
+            50,
+            64
+          ],
+          "name": "ortalama bulunabilirlik",
+          "test": "İlan sayısı ortalama; ne çok az ne çok fazla, alıcı bulmak makul sürede oluyor.",
+          "example": "audi-a4-b8-1-8-tfsi",
+          "note": null
+        },
+        {
+          "range": [
+            35,
+            49
+          ],
+          "name": "az bulunur",
+          "test": "İlan sayısı listenin alt diliminde; alıcı veya satıcı bulmak ortalamadan uzun sürüyor.",
+          "example": "audi-a6-3-0-tdi-quattro",
+          "note": null
+        },
+        {
+          "range": [
+            0,
+            34
+          ],
+          "name": "niş, sabırlı alıcı/satıcı gerektirir",
+          "test": "İlan sayısı çok düşük; marka veya model Türkiye'de sınırlı bir kitleye hitap ediyor.",
+          "example": "rover-75-2-0",
+          "note": "Bu örnek henüz hiçbir kaynağa dayanmıyor (ön değerlendirme); Türkiye'de neredeyse hiç usta ve parça ağı olmayan bir marka olduğu için düşük puan sezgisel olarak makul ama kaynakla doğrulanmadı. Kaynak bulunana kadar bu bandın dili bu örneğe göre kalibre edildi, doğruluğu iddia edilmiyor."
+        }
+      ]
     },
     {
       "key": "price",
@@ -91,9 +481,36 @@
     }
   ],
   "presets": {
-    "custom": { "motor": 20, "trans": 15, "fun": 16, "comf": 11, "age": 10, "cost": 12, "liq": 6, "price": 10 },
-    "enthusiast": { "motor": 17, "trans": 13, "fun": 30, "comf": 8, "age": 8, "cost": 8, "liq": 4, "price": 12 },
-    "family": { "motor": 20, "trans": 16, "fun": 6, "comf": 16, "age": 12, "cost": 12, "liq": 6, "price": 12 }
+    "custom": {
+      "motor": 20,
+      "trans": 15,
+      "fun": 16,
+      "comf": 11,
+      "age": 10,
+      "cost": 12,
+      "liq": 6,
+      "price": 10
+    },
+    "enthusiast": {
+      "motor": 17,
+      "trans": 13,
+      "fun": 30,
+      "comf": 8,
+      "age": 8,
+      "cost": 8,
+      "liq": 4,
+      "price": 12
+    },
+    "family": {
+      "motor": 20,
+      "trans": 16,
+      "fun": 6,
+      "comf": 16,
+      "age": 12,
+      "cost": 12,
+      "liq": 6,
+      "price": 12
+    }
   },
   "preset_labels": {
     "custom": "Dengeli set",
@@ -101,10 +518,30 @@
     "family": "Güvenilirlik öncelikli"
   },
   "transmission_types": {
-    "TK": { "label": "tork konvertörü", "clutch": "yok", "baseline_risk": "en düşük" },
-    "Islak DCT": { "label": "ıslak çift kavrama", "clutch": "yağ içinde", "baseline_risk": "düşük" },
-    "Kuru DCT": { "label": "kuru çift kavrama", "clutch": "kuru", "baseline_risk": "yüksek" },
-    "CVT": { "label": "kademesiz", "clutch": "kayış/kasnak", "baseline_risk": "markaya bağlı" },
-    "Robot": { "label": "robotlu yarı otomatik", "clutch": "tek, motorlu", "baseline_risk": "en yüksek" }
+    "TK": {
+      "label": "tork konvertörü",
+      "clutch": "yok",
+      "baseline_risk": "en düşük"
+    },
+    "Islak DCT": {
+      "label": "ıslak çift kavrama",
+      "clutch": "yağ içinde",
+      "baseline_risk": "düşük"
+    },
+    "Kuru DCT": {
+      "label": "kuru çift kavrama",
+      "clutch": "kuru",
+      "baseline_risk": "yüksek"
+    },
+    "CVT": {
+      "label": "kademesiz",
+      "clutch": "kayış/kasnak",
+      "baseline_risk": "markaya bağlı"
+    },
+    "Robot": {
+      "label": "robotlu yarı otomatik",
+      "clutch": "tek, motorlu",
+      "baseline_risk": "en yüksek"
+    }
   }
 }
