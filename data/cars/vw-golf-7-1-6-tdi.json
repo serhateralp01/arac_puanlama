@@ -1,0 +1,38 @@
+{
+  "id": "vw-golf-7-1-6-tdi",
+  "legacy_index": 68,
+  "name": "VW Golf 7 1.6 TDI",
+  "tag": "kuru DQ200 DSG · ~110 bg",
+  "brand_group": "VAG",
+  "years": "2013-2019",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    850,
+    1200
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 70,
+    "trans": 38,
+    "fun": 44,
+    "comf": 80,
+    "age": 78,
+    "cost": 87,
+    "liq": 86
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Golf 7 kalite ve kullanım açısından çok iyi bir araç, motoru da ekonomik. Ancak 1.6 dizel versiyonun otomatiği kuru kavramalı DQ200 kutusu ve Türkiye trafiğinde bu kutu risk taşıyor. Şanzıman geçmişi belgeli olmayan örnekten uzak durun.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

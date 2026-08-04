@@ -1,0 +1,38 @@
+{
+  "id": "megane-clio-1-3-tce",
+  "legacy_index": 42,
+  "name": "Megane/Clio 1.3 TCe",
+  "tag": "ıslak 7 ileri Getrag 7DCT300 EDC · ~140-160hp",
+  "brand_group": "Diğer",
+  "years": "2017-2022",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 1.3,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    900,
+    1300
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 62,
+    "trans": 64,
+    "fun": 52,
+    "comf": 75,
+    "age": 80,
+    "cost": 81,
+    "liq": 82
+  },
+  "sources": [
+    "otopark_1_3tce_islak"
+  ],
+  "note": "ÖNEMLİ DÜZELTME: Bu motor dizel Megane/Kadjar'daki eski kuru EDC'yi DEĞİL, Otopark forumunun teknik rehberine göre Renault'nun en yeni ve ıslak kavramalı 7 ileri Getrag 7DCT300 kodlu EDC'sini kullanıyor. Bu, aynı Renault ailesindeki dCi dizel modellerin kuru EDC'sinden yapısal olarak daha güvenilir bir kutu. Modern, ekonomik, düşük yaş riski taşıyan bir araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

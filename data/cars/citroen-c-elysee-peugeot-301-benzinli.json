@@ -1,0 +1,38 @@
+{
+  "id": "citroen-c-elysee-peugeot-301-benzinli",
+  "legacy_index": 100,
+  "name": "Citroen C-Elysee / Peugeot 301 benzinli",
+  "tag": "EAT6 Aisin tork konvertörü · ~115 bg",
+  "brand_group": "PSA",
+  "years": "2013-2020",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    820,
+    1150
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 74,
+    "trans": 80,
+    "fun": 38,
+    "comf": 80,
+    "age": 76,
+    "cost": 82,
+    "liq": 76
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Bu araçların bazı versiyonlarında robotlu kutu yerine Aisin yapımı EAT6 tork konvertörlü şanzıman bulunuyor ve bu, aynı gövdenin çok daha güvenli otomatik seçeneği. İlanı incelerken kutunun robotlu mu yoksa EAT6 mı olduğunu mutlaka teyit edin. Ucuz, geniş ve pratik bir aile aracı.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "renault-fluence-1-5-dci",
+  "legacy_index": 84,
+  "name": "Renault Fluence 1.5 dCi",
+  "tag": "EDC çift kavrama · ~110 bg",
+  "brand_group": "Egea/Fluence",
+  "years": "2013-2016",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 66,
+    "trans": 58,
+    "fun": 40,
+    "comf": 83,
+    "age": 68,
+    "cost": 87,
+    "liq": 76
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Fluence'in CVT'li benzinli versiyonuna göre şanzıman tarafı daha modern; EDC çift kavramalı kutu kullanıyor. Motoru çok ekonomik, kabini geniş. Sürüş keyfi düşük ama günlük kullanımda ucuz ve pratik bir araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

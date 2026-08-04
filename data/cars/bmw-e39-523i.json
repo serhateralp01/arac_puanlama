@@ -1,0 +1,40 @@
+{
+  "id": "bmw-e39-523i",
+  "legacy_index": 11,
+  "name": "BMW E39 523i",
+  "tag": "oto: ZF/GM 5 ileri · ~170hp",
+  "brand_group": "BMW",
+  "years": "1998-2000",
+  "specs": {
+    "hp": 170,
+    "displacement_l": 2.5,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    400,
+    580
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 72,
+    "trans": 68,
+    "fun": 70,
+    "comf": 68,
+    "age": 28,
+    "cost": 59,
+    "liq": 56
+  },
+  "sources": [
+    "e39",
+    "e39c",
+    "tuv"
+  ],
+  "note": "Benzinli E39’lar arasında en zayıf seçenek: eski M52 motoru ve düşük güç. Yine de arkadan itişli altı silindirli bir araç olması ve yedek parçasının bolluğu onu ayakta tutuyor. Sadece ucuza temiz bir kasa arıyorsanız değerlendirin.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

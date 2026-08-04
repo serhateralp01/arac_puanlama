@@ -1,0 +1,38 @@
+{
+  "id": "ford-focus-2-2-0",
+  "legacy_index": 57,
+  "name": "Ford Focus 2 2.0",
+  "tag": "oto: 4 ileri TK · ~145hp",
+  "brand_group": "Ford",
+  "years": "2005-2011",
+  "specs": {
+    "hp": 145,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    450,
+    700
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 82,
+    "fun": 52,
+    "comf": 72,
+    "age": 48,
+    "cost": 73,
+    "liq": 70
+  },
+  "sources": [
+    "focusclub_4ileri"
+  ],
+  "note": "Eski usul ama işe yarayan bir çözüm: turbosuz Duratec 2.0 motor ve 4 ileri tork konvertörlü otomatik. Türkçe forumlarda doğrudan kullanıcı teyidi net: 'şanzımanınız taş gibidir, 4 ileri oldukça sağlamdır' — Ford'un aynı dönemdeki CVT, ASM ve Jatco kaynaklı otomatiklerinden (bunlardan uzak durulması özellikle tavsiye ediliyor) tamamen farklı ve güvenilir bir kutu. Motor da dert çıkarmıyor. Ucuz, sağlam ve sıradan bir araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

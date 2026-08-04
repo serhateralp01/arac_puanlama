@@ -1,0 +1,36 @@
+{
+  "id": "kia-optima-1-7-crdi",
+  "legacy_index": 116,
+  "name": "Kia Optima 1.7 CRDi",
+  "tag": "6 ileri tork konvertörü · ~136hp",
+  "brand_group": "Japon",
+  "years": "2011-2015",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.7,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 76,
+    "trans": 80,
+    "fun": 58,
+    "comf": 81,
+    "age": 58,
+    "cost": 67,
+    "liq": 54
+  },
+  "sources": [],
+  "note": "Elantra ve i40 ile aynı motor ailesini paylaşan, daha büyük bir sedan; klasik tork konvertörlü otomatik kullanıyor. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

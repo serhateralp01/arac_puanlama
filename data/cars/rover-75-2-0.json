@@ -1,0 +1,36 @@
+{
+  "id": "rover-75-2-0",
+  "legacy_index": 150,
+  "name": "Rover 75 2.0",
+  "tag": "5 ileri tork konvertörü · ~150hp",
+  "brand_group": "Diğer",
+  "years": "1999-2005",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    420,
+    620
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 56,
+    "trans": 68,
+    "fun": 62,
+    "comf": 78,
+    "age": 30,
+    "cost": 42,
+    "liq": 32
+  },
+  "sources": [],
+  "note": "Klasik İngiliz tasarımlı bir sedan; ZF kaynaklı tork konvertörlü otomatiği idare eder. Türkiye'de neredeyse hiç usta ve parça ağı yok, sırf meraklısına. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

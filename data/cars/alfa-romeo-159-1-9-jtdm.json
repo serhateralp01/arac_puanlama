@@ -1,0 +1,38 @@
+{
+  "id": "alfa-romeo-159-1-9-jtdm",
+  "legacy_index": 63,
+  "name": "Alfa Romeo 159 1.9 JTDm",
+  "tag": "oto: Q-Tronic Aisin TF-80 TK · ~150hp",
+  "brand_group": "Diğer",
+  "years": "2006-2011",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 1.9,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    500,
+    760
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 70,
+    "trans": 76,
+    "fun": 66,
+    "comf": 67,
+    "age": 42,
+    "cost": 60,
+    "liq": 42
+  },
+  "sources": [
+    "alfa159"
+  ],
+  "note": "Beklenmedik bir avantajı var: 159’un otomatiği Giulietta’daki TCT kutusu değil, Aisin yapımı TF-80 tork konvertörlü kutu, yani Volvo Geartronic ile aynı aileden. 1.9 JTDm motoru 150 beygir ve 320 Nm üretiyor ve sağlam bir dizel. Dikkat edilmesi gerekenler: ağır burnu yüzünden ön takım aşınması, partikül filtresi, EGR ve volan, ayrıca usta bulmak yedek parça bulmaktan daha zor. Bu bütçedeki en karakterli mantıklı Alfa.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

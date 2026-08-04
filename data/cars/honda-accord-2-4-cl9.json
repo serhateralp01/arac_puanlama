@@ -1,0 +1,39 @@
+{
+  "id": "honda-accord-2-4-cl9",
+  "legacy_index": 51,
+  "name": "Honda Accord 2.4 (CL9)",
+  "tag": "oto: 5 ileri TK · ~190hp",
+  "brand_group": "Japon",
+  "years": "2003-2008",
+  "specs": {
+    "hp": 190,
+    "displacement_l": 2.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    500,
+    760
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 84,
+    "trans": 80,
+    "fun": 68,
+    "comf": 74,
+    "age": 45,
+    "cost": 63,
+    "liq": 54
+  },
+  "sources": [
+    "hondatech_k24",
+    "truedelta_accord"
+  ],
+  "note": "Yedinci nesil Accord (CL9/Euro kasası). Aynı K24 motor ve K-serisi otomatik ailesinden; Honda-Tech'teki tamirci teyidi ve TrueDelta verisi burada da geçerli — 4 silindirli K-serisi otomatikler V6'dan çok daha güvenilir. 190 beygirle listenin gizli eğlenceli araçlarından. Yaşı ilerledi, temiz örnek bulmak zorlaşıyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

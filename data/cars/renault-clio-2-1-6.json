@@ -1,0 +1,36 @@
+{
+  "id": "renault-clio-2-1-6",
+  "legacy_index": 144,
+  "name": "Renault Clio 2 1.6",
+  "tag": "4 ileri tork konvertörü / Proactive · ~107-110hp",
+  "brand_group": "Renault",
+  "years": "1998-2005",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    380,
+    560
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 64,
+    "trans": 64,
+    "fun": 44,
+    "comf": 65,
+    "age": 38,
+    "cost": 79,
+    "liq": 70
+  },
+  "sources": [],
+  "note": "Listenin en ucuz araçlarından; küçük gövdede basit bir tork konvertörlü otomatik. Yaşı çok ilerlemiş, elektrik/pas kontrolü şart. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

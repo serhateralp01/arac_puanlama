@@ -1,0 +1,38 @@
+{
+  "id": "audi-a6-2-0-tdi",
+  "legacy_index": 29,
+  "name": "Audi A6 2.0 TDI",
+  "tag": "2010 · oto: Multitronic CVT · ~170hp",
+  "brand_group": "VAG",
+  "years": "2008-2011",
+  "specs": {
+    "hp": 170,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT"
+  },
+  "price_band_k_try": [
+    700,
+    1050
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 52,
+    "trans": 22,
+    "fun": 52,
+    "comf": 80,
+    "age": 50,
+    "cost": 64,
+    "liq": 58
+  },
+  "sources": [
+    "multi"
+  ],
+  "note": "Motoru ekonomik ama önden çekişli olduğu için otomatiği Multitronic CVT; bu kutu listedeki en zayıf otomatiklerden biri. Ayrıca bu dönem common rail dizellerde yağ pompası tahrik riski var. Geniş ve konforlu olması şanzımanın getirdiği riski karşılamıyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

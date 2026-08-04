@@ -1,0 +1,39 @@
+{
+  "id": "ford-focus-3-1-5-tdci",
+  "legacy_index": 101,
+  "name": "Ford Focus 3 1.5 TDCi",
+  "tag": "ıslak Powershift 6DCT450",
+  "brand_group": "Ford",
+  "years": "2015-2018",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    820,
+    1150
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 74,
+    "trans": 58,
+    "fun": 50,
+    "comf": 80,
+    "age": 76,
+    "cost": 88,
+    "liq": 88
+  },
+  "sources": [
+    "mondps",
+    "trbox"
+  ],
+  "note": "Türkiye'de ikinci elde en çok satan otomatiklerden biri. Benzinli Focus'un aksine bu dizel versiyonda kuru DPS6 kutusu değil, ıslak kavramalı 6DCT450 Powershift bulunuyor; Volvo ve Mondeo'da da kullanılan bu kutu çok daha dayanıklı ve düzenli yağ değişimiyle uzun ömürlü çalışıyor. Motoru ekonomik, gövdesi geniş, ikinci elde satması çok kolay. Sadece hangi kutunun takılı olduğunu ilanda mutlaka teyit edin.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "mercedes-c200-komp",
+  "legacy_index": 33,
+  "name": "Mercedes C200 Komp.",
+  "tag": "W203 M111/M271 · 5G-Tronic · ~163-184hp",
+  "brand_group": "Mercedes",
+  "years": "2000-2007",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    420,
+    650
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 62,
+    "trans": 80,
+    "fun": 58,
+    "comf": 71,
+    "age": 46,
+    "cost": 75,
+    "liq": 70
+  },
+  "sources": [
+    "om61x",
+    "m271"
+  ],
+  "note": "2000-2002 arası M111 kompresörlü motorlar oldukça sağlam; 2003 sonrası M271 motorlarda zincir kontrolü şart. 5G-Tronic otomatiği güvenilir, araç bol bulunuyor, yedek parçası ucuz ve arkadan itişli konforlu bir gövdesi var.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

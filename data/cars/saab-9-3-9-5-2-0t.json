@@ -1,0 +1,36 @@
+{
+  "id": "saab-9-3-9-5-2-0t",
+  "legacy_index": 148,
+  "name": "Saab 9-3 / 9-5 2.0t",
+  "tag": "4/5 ileri tork konvertörü · ~150-170hp",
+  "brand_group": "Diğer",
+  "years": "1997-2003",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    480,
+    700
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 62,
+    "trans": 70,
+    "fun": 68,
+    "comf": 78,
+    "age": 36,
+    "cost": 47,
+    "liq": 36
+  },
+  "sources": [],
+  "note": "Niş ama karakterli bir İsveç sedanı; otomatiği tork konvertörlü. Türkiye'de yedek parça ve usta bulmak en zor markalardan. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

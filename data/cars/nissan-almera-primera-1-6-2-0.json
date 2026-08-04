@@ -1,0 +1,36 @@
+{
+  "id": "nissan-almera-primera-1-6-2-0",
+  "legacy_index": 142,
+  "name": "Nissan Almera / Primera 1.6/2.0",
+  "tag": "4 ileri tork konvertörü · ~99-140hp",
+  "brand_group": "Japon",
+  "years": "2000-2006",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    420,
+    620
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 76,
+    "trans": 74,
+    "fun": 44,
+    "comf": 76,
+    "age": 44,
+    "cost": 68,
+    "liq": 58
+  },
+  "sources": [],
+  "note": "Sade bir Japon sedan; klasik tork konvertörlü otomatiği bakımı düzenli yapıldığında dertsiz. Türkiye'de yedek parça ağı Toyota-Honda kadar geniş değil. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

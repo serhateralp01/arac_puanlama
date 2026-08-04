@@ -1,0 +1,38 @@
+{
+  "id": "volvo-s60-1-5-t3",
+  "legacy_index": 1,
+  "name": "Volvo S60 1.5 T3",
+  "tag": "oto: Aisin Geartronic · ~152hp",
+  "brand_group": "Volvo",
+  "years": "2015-2018",
+  "specs": {
+    "hp": 152,
+    "displacement_l": 1.5,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 72,
+    "trans": 80,
+    "fun": 52,
+    "comf": 78,
+    "age": 72,
+    "cost": 62,
+    "liq": 40
+  },
+  "sources": [
+    "volvops"
+  ],
+  "note": "VEA ailesinden 1.5 litrelik benzinli motor, Aisin Geartronic otomatikle geliyor. Yaklaşık 152 beygir üretiyor, torku ise orta seviyede kalıyor. Sade ve dert çıkarmayan bir benzinli arıyorsanız mantıklı bir tercih; ayrıca şanzımanı güvenli tarafta.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

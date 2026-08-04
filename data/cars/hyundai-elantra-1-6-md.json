@@ -1,0 +1,38 @@
+{
+  "id": "hyundai-elantra-1-6-md",
+  "legacy_index": 54,
+  "name": "Hyundai Elantra 1.6 (MD)",
+  "tag": "oto: 6 ileri TK · ~132hp",
+  "brand_group": "Japon",
+  "years": "2011-2015",
+  "specs": {
+    "hp": 132,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    700,
+    980
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 82,
+    "trans": 82,
+    "fun": 40,
+    "comf": 80,
+    "age": 68,
+    "cost": 86,
+    "liq": 84
+  },
+  "sources": [
+    "hyundaiforums_auto"
+  ],
+  "note": "2011 sonrası MD kasa; 1.6 MPI motoru ve Hyundai'nin kendi 6 ileri tork konvertörlü kutusu sade ve sağlam bir kombinasyon. Hyundai Forums'taki uzun tartışmada net bir teyit var: bu dönem Hyundai otomatikleri lisanslı Mitsubishi tasarımına dayanıyor ve 'on yılı aşkın süredir kırılmaz' olarak tanımlanıyor — nadir istisnalar (bazı eski Elantra'larda korozyon kaynaklı sensör arızaları) küçük ve yönetilebilir. Bu güvenilirlik, MD'den SONRAKİ nesillerde gelen 7 ileri DCT'ye değil, klasik tork konvertörlü bu nesle ait olduğu için ayrıca önemli. Ferah kabin, ucuz işletme maliyeti.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

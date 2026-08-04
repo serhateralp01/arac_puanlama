@@ -1,0 +1,38 @@
+{
+  "id": "peugeot-2008-208-1-6-e-hdi",
+  "legacy_index": 109,
+  "name": "Peugeot 2008 / 208 1.6 e-HDi",
+  "tag": "ETG robotlu yarı otomatik",
+  "brand_group": "PSA",
+  "years": "2013-2020",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Robot"
+  },
+  "price_band_k_try": [
+    700,
+    980
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 70,
+    "trans": 30,
+    "fun": 40,
+    "comf": 74,
+    "age": 74,
+    "cost": 86,
+    "liq": 74
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Motoru ekonomik ve gövdesi pratik ama otomatik dediğimiz kutu robotlu yarı otomatik; baskı balata aşınması ve vites robotu arızalarıyla biliniyor, vites geçişleri de belirgin şekilde sarsıntılı. Aynı markanın EAT6 kutulu modelleri şanzıman açısından çok daha iyi bir tercih.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "vw-golf-1-4-tsi",
+  "legacy_index": 27,
+  "name": "VW Golf 1.4 TSI",
+  "tag": "twincharger · oto: DQ200 KURU · ~122-160hp",
+  "brand_group": "VAG",
+  "years": "2008-2013",
+  "specs": {
+    "hp": 160,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    550,
+    850
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 25,
+    "trans": 35,
+    "fun": 60,
+    "comf": 74,
+    "age": 60,
+    "cost": 81,
+    "liq": 85
+  },
+  "sources": [
+    "vw14"
+  ],
+  "note": "Bu araçta iki risk üst üste biniyor. Motoru twincharger sistemli 1.4 TSI: triger zinciri gergisi arızası supapların zarar görmesine yol açabiliyor ve blok gömlekli olduğu için revizyon yerine komple blok değişimi gerekiyor. Otomatiği ise kuru kavramalı DQ200. Bol bulunması, ucuzluğu ve kullanım kolaylığı avantajı olsa da bu kombinasyon kumar sayılır. Zincir değişimi belgeli değilse almayın.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

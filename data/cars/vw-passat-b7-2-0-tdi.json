@@ -1,0 +1,36 @@
+{
+  "id": "vw-passat-b7-2-0-tdi",
+  "legacy_index": 66,
+  "name": "VW Passat B7 2.0 TDI",
+  "tag": "ıslak DQ250 DSG · ~140 bg",
+  "brand_group": "VAG",
+  "years": "2011-2015",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 62,
+    "trans": 70,
+    "fun": 52,
+    "comf": 83,
+    "age": 64,
+    "cost": 83,
+    "liq": 70
+  },
+  "sources": [],
+  "note": "Common rail dizel motoru makul, otomatiği ise ıslak kavramalı DQ250. Bu kombinasyon VAG grubunun otomatikleri arasında güvenli tarafta kalıyor. Çok geniş, konforlu ve uzun yol için ideal bir araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

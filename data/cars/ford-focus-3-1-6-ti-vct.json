@@ -1,0 +1,38 @@
+{
+  "id": "ford-focus-3-1-6-ti-vct",
+  "legacy_index": 56,
+  "name": "Ford Focus 3 1.6 Ti-VCT",
+  "tag": "oto: KURU Powershift DPS6 · ~125hp",
+  "brand_group": "Ford",
+  "years": "2012-2018",
+  "specs": {
+    "hp": 125,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    750,
+    1080
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 76,
+    "trans": 20,
+    "fun": 46,
+    "comf": 76,
+    "age": 66,
+    "cost": 81,
+    "liq": 80
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Turbosuz Ti-VCT motoru sorunsuz ama otomatiği kuru kavramalı DPS6 Powershift kutusu. Bu kutu Amerika’da milyarlarca dolarlık davalara konu oldu; kalkışta titreme, vites geçişinde vuruntu ve şanzıman beyni arızası yaygın şikayetler, kavrama kiti değişimi de yüksek bir masraf. Araç bol ve ucuz olsa da şanzıman puanı listenin en altında. Manuel Focus tamamen ayrı bir hikaye ama otomatik arıyorsanız bundan uzak durun.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "mercedes-w202-c200-c220",
+  "legacy_index": 137,
+  "name": "Mercedes W202 C200/C220",
+  "tag": "4G-Tronic tork konvertörü · ~136-150hp",
+  "brand_group": "Mercedes",
+  "years": "1993-2000",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    420,
+    650
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 72,
+    "trans": 78,
+    "fun": 58,
+    "comf": 72,
+    "age": 30,
+    "cost": 68,
+    "liq": 58
+  },
+  "sources": [
+    "om61x"
+  ],
+  "note": "W203'ten önceki nesil; klasik 4G-Tronic otomatiği tork konvertörlü ve sağlam. Bu yaştaki bir Mercedes için pas ve elektrik kontrolü şart. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "nissan-juke-1-6",
+  "legacy_index": 108,
+  "name": "Nissan Juke 1.6",
+  "tag": "X-Tronic CVT",
+  "brand_group": "Japon",
+  "years": "2011-2019",
+  "specs": {
+    "hp": 117,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT"
+  },
+  "price_band_k_try": [
+    750,
+    1050
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 70,
+    "trans": 45,
+    "fun": 48,
+    "comf": 74,
+    "age": 72,
+    "cost": 75,
+    "liq": 74
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Sıradışı tasarımıyla dikkat çekiyor ve şehir içinde kullanışlı. Otomatiği X-Tronic CVT ve bu kutu yağ bakımı ihmal edildiğinde sorun çıkarıyor. Arka koltuk ve bagaj dar, sürüş keyfi ise beklediğinizden düşük.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

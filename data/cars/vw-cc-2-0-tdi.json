@@ -1,0 +1,38 @@
+{
+  "id": "vw-cc-2-0-tdi",
+  "legacy_index": 25,
+  "name": "VW CC 2.0 TDI",
+  "tag": "oto: DSG DQ250 · ~140-170hp",
+  "brand_group": "VAG",
+  "years": "2009-2016",
+  "specs": {
+    "hp": 170,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    780,
+    1150
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 62,
+    "trans": 72,
+    "fun": 60,
+    "comf": 72,
+    "age": 56,
+    "cost": 78,
+    "liq": 54
+  },
+  "sources": [
+    "kroniksorunlar_superb"
+  ],
+  "note": "CC'nin en az kötü motoru. CR dizel makul, DQ250 ıslak DSG kutusu VAG ailesinin görece sağlam tarafında ama tamamen sorunsuz değil; aynı DSG ailesi genelinde düşük hızlarda sarsıntı ve gecikme şikayetleri yaygın. Şık ve konforlu bir araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "mitsubishi-lancer-1-6",
+  "legacy_index": 95,
+  "name": "Mitsubishi Lancer 1.6",
+  "tag": "CVT · ~117 bg",
+  "brand_group": "Japon",
+  "years": "2008-2015",
+  "specs": {
+    "hp": 117,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 78,
+    "trans": 60,
+    "fun": 50,
+    "comf": 78,
+    "age": 62,
+    "cost": 68,
+    "liq": 54
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Keskin tasarımı ve sağlam Japon mekaniğiyle biliniyor. Otomatiği CVT kutusu; bakımı düzenli yapıldığında sorun çıkarmıyor ama tork konvertörü kadar dayanıklı sayılmıyor. Türkiye'de yedek parça ve servis ağı dar.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

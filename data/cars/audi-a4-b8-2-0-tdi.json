@@ -1,0 +1,38 @@
+{
+  "id": "audi-a4-b8-2-0-tdi",
+  "legacy_index": 72,
+  "name": "Audi A4 B8 2.0 TDI",
+  "tag": "Multitronic CVT · ~143 bg",
+  "brand_group": "VAG",
+  "years": "2008-2015",
+  "specs": {
+    "hp": 143,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT"
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 62,
+    "trans": 22,
+    "fun": 54,
+    "comf": 78,
+    "age": 58,
+    "cost": 79,
+    "liq": 64
+  },
+  "sources": [
+    "multi"
+  ],
+  "note": "Motoru benzinli kardeşine göre çok daha temiz bir geçmişe sahip; yağ tüketimi sorunu yok. Fakat önden çekişli olduğu için otomatiği yine Multitronic CVT. Şanzıman bakımı belgeli değilse riskli. Quattro versiyonlarda bu kutu yerine S tronic kullanılıyor ve o çok daha güvenli.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

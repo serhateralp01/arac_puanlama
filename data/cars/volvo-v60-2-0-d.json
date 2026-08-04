@@ -1,0 +1,39 @@
+{
+  "id": "volvo-v60-2-0-d",
+  "legacy_index": 92,
+  "name": "Volvo V60 2.0 D",
+  "tag": "Aisin Geartronic · ~136-190 bg",
+  "brand_group": "Volvo",
+  "years": "2011-2018",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    850,
+    1200
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 90,
+    "fun": 68,
+    "comf": 86,
+    "age": 70,
+    "cost": 71,
+    "liq": 54
+  },
+  "sources": [
+    "volvod",
+    "volvops"
+  ],
+  "note": "S60'ın station wagon versiyonu; aynı sağlam dizel motoru ve Aisin Geartronic kutusunu kullanıyor. Bagaj hacmi ve günlük kullanılabilirlik açısından sedan versiyondan daha avantajlı. Powershift riski taşımıyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

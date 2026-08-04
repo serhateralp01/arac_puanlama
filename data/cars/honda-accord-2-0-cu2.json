@@ -1,0 +1,39 @@
+{
+  "id": "honda-accord-2-0-cu2",
+  "legacy_index": 50,
+  "name": "Honda Accord 2.0 (CU2)",
+  "tag": "oto: 5 ileri TK · ~156hp",
+  "brand_group": "Japon",
+  "years": "2008-2015",
+  "specs": {
+    "hp": 156,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 86,
+    "trans": 82,
+    "fun": 58,
+    "comf": 80,
+    "age": 58,
+    "cost": 68,
+    "liq": 60
+  },
+  "sources": [
+    "hondatech_k24",
+    "truedelta_accord"
+  ],
+  "note": "Sekizinci nesil Accord (uluslararası CU2/Euro kasası). Honda-Tech forumunda tecrübeli bir tamirci, 2003 sonrası K-serisi Honda otomatiklerinin 'bulletproof' (kırılmaz) olduğunu, geçmişteki otomatik şanzıman sorunlarının neredeyse tamamının eski V6 modellerle sınırlı kaldığını doğruluyor. TrueDelta'nın gerçek sahip verisi de bunu destekliyor: 2008-2012 kuşağı Accord'ların en güvenilir kuşaklarından biri, ortalamanın belirgin altında arıza oranına sahip. Oturaklı, kaliteli kabin, dengeli bir araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

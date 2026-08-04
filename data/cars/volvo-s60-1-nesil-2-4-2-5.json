@@ -1,0 +1,38 @@
+{
+  "id": "volvo-s60-1-nesil-2-4-2-5",
+  "legacy_index": 147,
+  "name": "Volvo S60 1. Nesil 2.4/2.5",
+  "tag": "Aisin tork konvertörü · ~140-200hp",
+  "brand_group": "Volvo",
+  "years": "1998-2005",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 2.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    500,
+    750
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 74,
+    "trans": 82,
+    "fun": 60,
+    "comf": 81,
+    "age": 42,
+    "cost": 58,
+    "liq": 50
+  },
+  "sources": [
+    "volvops"
+  ],
+  "note": "Şu an listedeki 2010 sonrası S60'tan önceki ilk nesil; aynı Aisin güvenilir kutuyu kullanıyor, çok daha ucuz ama çok daha yaşlı. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "bmw-e39-525i",
+  "legacy_index": 10,
+  "name": "BMW E39 525i",
+  "tag": "oto: ZF 5 ileri (TK) · ~192hp",
+  "brand_group": "BMW",
+  "years": "2000-2003",
+  "specs": {
+    "hp": 192,
+    "displacement_l": 2.5,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    420,
+    620
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 70,
+    "fun": 72,
+    "comf": 68,
+    "age": 32,
+    "cost": 59,
+    "liq": 56
+  },
+  "sources": [
+    "m54",
+    "e39c",
+    "tuv"
+  ],
+  "note": "E39’lar içinde en kolay bulunanı. M54 motoru güvenilir ama 192 beygir bu gövde için biraz yetersiz kalıyor. ZF otomatiği iyi çalışıyor. Yakıt gideri ve aracın yaşı puanını sınırlıyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

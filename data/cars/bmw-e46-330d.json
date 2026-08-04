@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e46-330d",
+  "legacy_index": 14,
+  "name": "BMW E46 330d",
+  "tag": "oto: ZF 5HP · ~184-204hp",
+  "brand_group": "BMW",
+  "years": "1999-2005",
+  "specs": {
+    "hp": 204,
+    "displacement_l": 3,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    500,
+    760
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 68,
+    "fun": 78,
+    "comf": 66,
+    "age": 36,
+    "cost": 66,
+    "liq": 36
+  },
+  "sources": [
+    "e46sub",
+    "m57"
+  ],
+  "note": "M57 dizel motoru sağlam ve torklu, yakıt tüketimi de iyi. Otomatiği ZF 5 ileri kutu. Yine arka aks taşıyıcısını ve aracın yaşını kontrol ettirmek gerekiyor. Sürüş keyfi ile ekonomi arasındaki dengeyi iyi kuruyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

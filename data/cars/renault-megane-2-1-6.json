@@ -1,0 +1,36 @@
+{
+  "id": "renault-megane-2-1-6",
+  "legacy_index": 153,
+  "name": "Renault Megane 2 1.6",
+  "tag": "4 ileri tork konvertörü",
+  "brand_group": "Renault",
+  "years": "2005-2012",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    620,
+    900
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 66,
+    "trans": 70,
+    "fun": 40,
+    "comf": 77,
+    "age": 52,
+    "cost": 80,
+    "liq": 64
+  },
+  "sources": [],
+  "note": "Eski usul 4 ileri tork konvertörlü otomatiğiyle sade bir çözüm sunuyor; kutu yavaş ama çift kavramalıların risklerini taşımıyor. Yedek parça ve servis ağı Türkiye'de çok güçlü. Elektrik aksamı ve yaş kaynaklı kalemler kontrol edilmeli.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

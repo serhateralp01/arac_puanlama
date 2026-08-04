@@ -1,0 +1,38 @@
+{
+  "id": "ford-mondeo-2-0-benzin",
+  "legacy_index": 45,
+  "name": "Ford Mondeo 2.0 (benzin)",
+  "tag": "NA · oto: Aisin TK · ~145hp",
+  "brand_group": "Ford",
+  "years": "2007-2014",
+  "specs": {
+    "hp": 145,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    480,
+    720
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 72,
+    "trans": 78,
+    "fun": 52,
+    "comf": 79,
+    "age": 56,
+    "cost": 61,
+    "liq": 48
+  },
+  "sources": [
+    "mondps"
+  ],
+  "note": "Turbosuz motoru ve Aisin yapımı tork konvertörlü otomatiğiyle sade ve sağlam bir kombinasyon. Ancak ağır gövdeye göre gücü yetersiz kalıyor ve yakıt tüketimi yüksek. Konforlu ve güvenilir ama hantal bir araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

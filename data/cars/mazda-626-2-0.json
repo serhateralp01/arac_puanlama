@@ -1,0 +1,36 @@
+{
+  "id": "mazda-626-2-0",
+  "legacy_index": 143,
+  "name": "Mazda 626 2.0",
+  "tag": "4 ileri tork konvertörü · ~115-131hp",
+  "brand_group": "Japon",
+  "years": "1997-2002",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    420,
+    600
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 78,
+    "trans": 76,
+    "fun": 52,
+    "comf": 77,
+    "age": 36,
+    "cost": 62,
+    "liq": 50
+  },
+  "sources": [],
+  "note": "Mazda 6'dan önceki nesil; sağlam bir Japon motoru ve basit otomatiği var. Yaşı ilerlemiş, yedek parça ağı dar. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

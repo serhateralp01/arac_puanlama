@@ -1,0 +1,36 @@
+{
+  "id": "bmw-e87-116i-118i",
+  "legacy_index": 73,
+  "name": "BMW E87 116i/118i",
+  "tag": "ZF/GM 6 ileri tork konvertörü · 116-143 bg",
+  "brand_group": "BMW",
+  "years": "2004-2011",
+  "specs": {
+    "hp": 143,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 58,
+    "trans": 74,
+    "fun": 64,
+    "comf": 74,
+    "age": 56,
+    "cost": 70,
+    "liq": 70
+  },
+  "sources": [],
+  "note": "Arkadan itişli olması bu segmentte onu özel kılıyor ve sürmesi keyifli. Ancak N43 ve N45 motorlarının enjektör ile zincir konuları var, kabin de dar. Otomatiği tork konvertörlü ve sağlam tarafta.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

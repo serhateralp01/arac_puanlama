@@ -1,0 +1,38 @@
+{
+  "id": "mercedes-a-b-serisi",
+  "legacy_index": 74,
+  "name": "Mercedes A/B Serisi",
+  "tag": "kuru 7G-DCT çift kavrama · ~122 bg",
+  "brand_group": "Mercedes",
+  "years": "2012-2018",
+  "specs": {
+    "hp": 122,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    900,
+    1250
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 64,
+    "trans": 45,
+    "fun": 50,
+    "comf": 81,
+    "age": 78,
+    "cost": 78,
+    "liq": 80
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Bu araçlarda 7G-DCT kutusu bulunuyor ve arkadan itişli Mercedeslerdeki tork konvertörlü 7G-Tronic ile karıştırılmamalı; bu kuru kavramalı bir çift kavrama kutusu. Yoğun trafikte kavrama ısınması riski var. Araç modern ve kullanımı kolay ama şanzıman tarafı C serisindeki kadar rahat değil.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

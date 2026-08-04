@@ -1,0 +1,38 @@
+{
+  "id": "skoda-octavia-1-6-tdi",
+  "legacy_index": 64,
+  "name": "Skoda Octavia 1.6 TDI",
+  "tag": "kuru DQ200 DSG · ~110 bg",
+  "brand_group": "VAG",
+  "years": "2013-2019",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 68,
+    "trans": 38,
+    "fun": 42,
+    "comf": 83,
+    "age": 72,
+    "cost": 85,
+    "liq": 80
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Motoru ekonomik ve yaygın bir dizel ama otomatiği kuru kavramalı DQ200 kutusu. Bu kutu Türkiye trafiğinde kavrama aşınması ve mekatronik arızasıyla biliniyor. Araç geniş, ucuz ve kolay kullanılıyor; sorun tamamen şanzıman tarafında. Kavrama ve mekatronik geçmişi belgeli olmayan bir örneğe girmeyin.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

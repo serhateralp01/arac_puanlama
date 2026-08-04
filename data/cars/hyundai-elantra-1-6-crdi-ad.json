@@ -1,0 +1,38 @@
+{
+  "id": "hyundai-elantra-1-6-crdi-ad",
+  "legacy_index": 113,
+  "name": "Hyundai Elantra 1.6 CRDi (AD)",
+  "tag": "7DCT kuru çift kavrama · ~136hp",
+  "brand_group": "Japon",
+  "years": "2016-2020",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    750,
+    1080
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 76,
+    "trans": 48,
+    "fun": 50,
+    "comf": 80,
+    "age": 76,
+    "cost": 75,
+    "liq": 74
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Eski MD kasadan farklı olarak bu nesil Elantra'da kuru kavramalı 7DCT kullanılıyor; elektrikli aktüatör sayesinde tamiri diğer kuru DCT'lere göre nispeten kolay ama yine de kuru kavrama riski taşıyor. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

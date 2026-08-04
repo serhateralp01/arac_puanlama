@@ -1,0 +1,38 @@
+{
+  "id": "seat-leon-1-6-tdi",
+  "legacy_index": 104,
+  "name": "Seat Leon 1.6 TDI",
+  "tag": "kuru DQ200 DSG",
+  "brand_group": "VAG",
+  "years": "2013-2019",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    780,
+    1100
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 68,
+    "trans": 38,
+    "fun": 54,
+    "comf": 79,
+    "age": 74,
+    "cost": 84,
+    "liq": 78
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Golf ile aynı platformu paylaşıyor, tasarımı daha sportif ve fiyatı daha uygun. Motoru ekonomik ama otomatiği yine kuru kavramalı DQ200. Şanzıman geçmişi belgeli olmayan bir örnekten uzak durun.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

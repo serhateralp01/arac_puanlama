@@ -1,0 +1,40 @@
+{
+  "id": "bmw-e39-530i",
+  "legacy_index": 7,
+  "name": "BMW E39 530i",
+  "tag": "oto: ZF 5 ileri (TK) · ~231hp",
+  "brand_group": "BMW",
+  "years": "2000-2003",
+  "specs": {
+    "hp": 231,
+    "displacement_l": 3,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    550,
+    800
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 70,
+    "fun": 86,
+    "comf": 66,
+    "age": 32,
+    "cost": 57,
+    "liq": 44
+  },
+  "sources": [
+    "m54",
+    "e39c",
+    "tuv"
+  ],
+  "note": "231 beygirlik M54 motoru, E39 ailesinin en güvenilir motoru kabul ediliyor ve Ward’s tarafından yılın en iyi motorları arasında seçilmişti. ZF otomatikle geliyor. Benzinli E39’lar içinde en dengeli tercih; puanını düşüren şey yüksek yakıt gideri ve aracın yaşı.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

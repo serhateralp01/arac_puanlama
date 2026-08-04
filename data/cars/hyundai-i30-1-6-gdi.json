@@ -1,0 +1,36 @@
+{
+  "id": "hyundai-i30-1-6-gdi",
+  "legacy_index": 41,
+  "name": "Hyundai i30 1.6 GDi",
+  "tag": "oto: tork konvertörü · ~135hp",
+  "brand_group": "Japon",
+  "years": "2011-2016",
+  "specs": {
+    "hp": 135,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    560,
+    860
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 72,
+    "trans": 70,
+    "fun": 42,
+    "comf": 74,
+    "age": 66,
+    "cost": 76,
+    "liq": 76
+  },
+  "sources": [],
+  "note": "Dizel kardeşinin benzinli versiyonu. Gamma motoru idare eder durumda, sadece karbon birikmesini takip etmek gerekiyor. Pratik ve dertsiz ama karakteri yok.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "kia-cerato-1-6-eski-nesil",
+  "legacy_index": 141,
+  "name": "Kia Cerato 1.6 (eski nesil)",
+  "tag": "4 ileri tork konvertörü · ~105-122hp",
+  "brand_group": "Japon",
+  "years": "2004-2009",
+  "specs": {
+    "hp": 105,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    450,
+    650
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 72,
+    "trans": 74,
+    "fun": 44,
+    "comf": 75,
+    "age": 46,
+    "cost": 74,
+    "liq": 66
+  },
+  "sources": [],
+  "note": "Şu an listede olan yeni nesil Cerato'dan daha eski ve daha ucuz; aynı sade tork konvertörlü kutu. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

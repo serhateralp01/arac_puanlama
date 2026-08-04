@@ -1,0 +1,38 @@
+{
+  "id": "vw-passat-b8-2-0-tdi",
+  "legacy_index": 117,
+  "name": "VW Passat B8 2.0 TDI",
+  "tag": "ıslak DQ250 DSG · ~150-190hp",
+  "brand_group": "VAG",
+  "years": "2014-2019",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    850,
+    1200
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 70,
+    "trans": 72,
+    "fun": 58,
+    "comf": 86,
+    "age": 74,
+    "cost": 75,
+    "liq": 66
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Passat'ın en yeni ve en modern kasası; DQ250 ıslak DSG'si diğer VW modelleriyle aynı görece güvenilir aile. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

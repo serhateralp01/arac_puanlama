@@ -1,0 +1,39 @@
+{
+  "id": "audi-a4-b8-2-0-tfsi-quattro",
+  "legacy_index": 123,
+  "name": "Audi A4 B8 2.0 TFSI quattro",
+  "tag": "ıslak S tronic DCT · ~211hp",
+  "brand_group": "VAG",
+  "years": "2008-2015",
+  "specs": {
+    "hp": 211,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Dört çeker",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    900,
+    1300
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 52,
+    "trans": 72,
+    "fun": 78,
+    "comf": 78,
+    "age": 60,
+    "cost": 61,
+    "liq": 54
+  },
+  "sources": [
+    "audchain",
+    "audioil"
+  ],
+  "note": "B8 A4'ün quattro versiyonu Multitronic'i tamamen atlayıp ıslak S tronic DCT kullanıyor; bu, benzinli B8 A4'ün şanzıman açısından en güvenli hali. Motor tarafında erken üretim yıllarında zincir gergisi riski hâlâ geçerli. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

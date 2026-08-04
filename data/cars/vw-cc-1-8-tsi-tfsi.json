@@ -1,0 +1,39 @@
+{
+  "id": "vw-cc-1-8-tsi-tfsi",
+  "legacy_index": 26,
+  "name": "VW CC 1.8 TSI/TFSI",
+  "tag": "oto: DSG DQ250 · ~160hp",
+  "brand_group": "VAG",
+  "years": "2009-2016",
+  "specs": {
+    "hp": 160,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    720,
+    1050
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 42,
+    "trans": 66,
+    "fun": 68,
+    "comf": 72,
+    "age": 56,
+    "cost": 70,
+    "liq": 50
+  },
+  "sources": [
+    "audioil",
+    "audchain"
+  ],
+  "note": "Görünüşü güzel ve sürmesi keyifli ama EA888 ikinci nesil motoru yağ tüketimi ve triger zinciri gergisi sorunlarını taşıyor. DQ250 ıslak kutusu idare eder durumda. Bu gövdeyi istiyorsanız benzinli yerine 2.0 dizel versiyonu tercih edin.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

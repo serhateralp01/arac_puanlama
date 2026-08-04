@@ -1,0 +1,38 @@
+{
+  "id": "kia-ceed-1-6-crdi",
+  "legacy_index": 115,
+  "name": "Kia Ceed 1.6 CRDi",
+  "tag": "kuru 7DCT çift kavrama · ~128-136hp",
+  "brand_group": "Japon",
+  "years": "2012-2018",
+  "specs": {
+    "hp": 128,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    700,
+    1020
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 76,
+    "trans": 50,
+    "fun": 52,
+    "comf": 78,
+    "age": 66,
+    "cost": 73,
+    "liq": 66
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "i30 ile aynı platform ve benzer motor-şanzıman ailesini paylaşıyor. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

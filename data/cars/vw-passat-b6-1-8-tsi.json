@@ -1,0 +1,36 @@
+{
+  "id": "vw-passat-b6-1-8-tsi",
+  "legacy_index": 67,
+  "name": "VW Passat B6 1.8 TSI",
+  "tag": "ıslak DQ250 DSG · ~160 bg",
+  "brand_group": "VAG",
+  "years": "2006-2010",
+  "specs": {
+    "hp": 160,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    620,
+    900
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 50,
+    "trans": 68,
+    "fun": 56,
+    "comf": 82,
+    "age": 54,
+    "cost": 74,
+    "liq": 66
+  },
+  "sources": [],
+  "note": "B6 kasa geniş ve konforlu ama 1.8 TSI motorun ilk versiyonları yağ tüketimi ve zincir gergisi açısından hassas. Islak DQ250 kutusu şanzıman tarafını kurtarıyor. Ucuz ama motor geçmişi araştırılmadan alınmamalı.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

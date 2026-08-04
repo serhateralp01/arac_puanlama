@@ -1,0 +1,110 @@
+{
+  "scored_order": ["motor", "trans", "fun", "comf", "age", "cost", "liq"],
+  "full_order": ["motor", "trans", "fun", "comf", "age", "cost", "liq", "price"],
+  "weak_threshold": 35,
+  "total_color_bands": [
+    { "min": 72, "color": "var(--sage)", "label": "çok iyi" },
+    { "min": 64, "color": "#c9a34e", "label": "sağlam" },
+    { "min": 58, "color": "var(--amber)", "label": "orta" },
+    { "min": 0, "color": "var(--red)", "label": "riskli" }
+  ],
+  "criteria": [
+    {
+      "key": "motor",
+      "title": "Motor Güveni",
+      "short": "Motor",
+      "auto": false,
+      "definition": "Motorun mekanik olarak ne kadar sağlam olduğunu ölçer: ne sıklıkla ve ne kadar ağır arıza çıkarıyor, bilinen bir tasarım hatası var mı.",
+      "includes": "Arızanın sıklığına ve ağırlığına, bakımsızlığa dayanma toleransına, blok, triger zinciri, turbo ve enjeksiyon tarafındaki bilinen risklere bakıyorum.",
+      "excludes": "Motorun gücünü sürüş keyfi sütununda, şanzımanı kendi sütununda, yakıt ve parça fiyatını masraf sütununda değerlendiriyorum.",
+      "bands": null
+    },
+    {
+      "key": "trans",
+      "title": "Şanzıman ve Otomatik Kutu",
+      "short": "Şanzıman",
+      "auto": false,
+      "definition": "Otomatik şanzımanın hangi tipte olduğunu ve ne kadar sağlam olduğunu ölçer. Tork konvertörlü kutular en yüksek, kuru kavramalı ve robotlu kutular en düşük puanı alır.",
+      "includes": "Kutunun tipine, arıza ve aşınma riskine, bozulduğunda tamirinin getirdiği yüke bakıyorum.",
+      "excludes": "Motorun kendisini motor sütununda, vites geçişlerinin verdiği sürüş hissini sürüş keyfi sütununda değerlendiriyorum.",
+      "bands": null
+    },
+    {
+      "key": "fun",
+      "title": "Sürüş Keyfi ve Karakter",
+      "short": "Keyif",
+      "auto": false,
+      "definition": "Aracı sürmenin ne kadar zevkli olduğunu ölçer. Motorun gücü ve torku dahil performansla ilgili her şey burada değerlendirilir.",
+      "includes": "Beygir ve tork hissine, şasi dengesine, direksiyonun geri bildirimine, çekiş tipine ve aracın karakterine bakıyorum.",
+      "excludes": "Güvenilirliği motor, şanzıman ve yaş sütunlarında; içeride oturmanın rahatlığını konfor sütununda değerlendiriyorum.",
+      "bands": null
+    },
+    {
+      "key": "comf",
+      "title": "Günlük Kullanım Rahatlığı",
+      "short": "Kullanım",
+      "auto": false,
+      "definition": "Aracı sürmenin ne kadar kolay olduğu ile içinde vakit geçirmenin ne kadar rahat olduğunu birlikte ölçer. Önceki sürümde ayrı olan bu iki kriteri burada birleştirdim.",
+      "includes": "Park ve manevra kolaylığına, görüş açısına, otomatiğin yumuşaklığına, yol konforuna, koltuklara, ses yalıtımına, iç hacme ve bagaja bakıyorum.",
+      "excludes": "Sürüşün verdiği zevki sürüş keyfi sütununda değerlendiriyorum.",
+      "bands": null
+    },
+    {
+      "key": "age",
+      "title": "Yaş, Gövde ve Elektrik Riski",
+      "short": "Yaş",
+      "auto": false,
+      "definition": "Motordan bağımsız olarak aracın yaşından kaynaklanan riskleri ölçer. Araç ne kadar yeniyse puan o kadar yüksektir.",
+      "includes": "Pas riskine, gövde ve süspansiyon burçlarının yorgunluğuna, elektrik ve elektronik arızalarına, kabin malzemelerinin yıpranmasına bakıyorum.",
+      "excludes": "Motorun mekanik durumunu motor sütununda, şanzımanın durumunu şanzıman sütununda değerlendiriyorum.",
+      "bands": null
+    },
+    {
+      "key": "cost",
+      "title": "Sahip Olma Maliyeti",
+      "short": "Maliyet",
+      "auto": false,
+      "definition": "Araca para harcadığınızda bunun ne kadar tutacağını ölçer. Önceki sürümde ayrı olan masraf ve parça erişimi kriterlerini burada birleştirdim.",
+      "includes": "Yakıt tüketimine, vergilere, yedek parçanın fiyatına ve bulunabilirliğine, işçilik bedellerine bakıyorum.",
+      "excludes": "Arızanın sıklığını motor, şanzıman ve yaş sütunlarında değerlendiriyorum.",
+      "bands": null
+    },
+    {
+      "key": "liq",
+      "title": "Bulunabilirlik ve Satılabilirlik",
+      "short": "Bulunur.",
+      "auto": false,
+      "definition": "Piyasada o araçtan bulmanın ne kadar kolay olduğunu ve satmak istediğinizde ne kadar çabuk alıcı bulacağınızı ölçer.",
+      "includes": "İlan sayısına, araca olan talebe, satma kolaylığına ve değer kaybına direncine bakıyorum.",
+      "excludes": "Yedek parça bulmayı sahip olma maliyeti sütununda değerlendiriyorum.",
+      "bands": null
+    },
+    {
+      "key": "price",
+      "title": "Fiyat Avantajı",
+      "short": "Fiyat",
+      "auto": true,
+      "definition": "Aracın tahmini fiyatını puana çevirir. Listedeki en ucuz araç 100, en pahalı araç 0 puan alır, diğerleri arasına orantılı yerleşir. Bu puan otomatik hesaplandığı için elle değiştirilemez.",
+      "includes": "Yalnızca aracın satın alma fiyatını dikkate alır ve listedeki bütün araçlara göre normalize edilir.",
+      "excludes": "Aracı kullanırken harcadığınız yakıt, vergi ve parça giderlerini sahip olma maliyeti sütununda değerlendiriyorum.",
+      "bands": null
+    }
+  ],
+  "presets": {
+    "custom": { "motor": 20, "trans": 15, "fun": 16, "comf": 11, "age": 10, "cost": 12, "liq": 6, "price": 10 },
+    "enthusiast": { "motor": 17, "trans": 13, "fun": 30, "comf": 8, "age": 8, "cost": 8, "liq": 4, "price": 12 },
+    "family": { "motor": 20, "trans": 16, "fun": 6, "comf": 16, "age": 12, "cost": 12, "liq": 6, "price": 12 }
+  },
+  "preset_labels": {
+    "custom": "Dengeli set",
+    "enthusiast": "Sürüş keyfi öncelikli",
+    "family": "Güvenilirlik öncelikli"
+  },
+  "transmission_types": {
+    "TK": { "label": "tork konvertörü", "clutch": "yok", "baseline_risk": "en düşük" },
+    "Islak DCT": { "label": "ıslak çift kavrama", "clutch": "yağ içinde", "baseline_risk": "düşük" },
+    "Kuru DCT": { "label": "kuru çift kavrama", "clutch": "kuru", "baseline_risk": "yüksek" },
+    "CVT": { "label": "kademesiz", "clutch": "kayış/kasnak", "baseline_risk": "markaya bağlı" },
+    "Robot": { "label": "robotlu yarı otomatik", "clutch": "tek, motorlu", "baseline_risk": "en yüksek" }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "hyundai-i30-1-6-crdi",
+  "legacy_index": 40,
+  "name": "Hyundai i30 1.6 CRDi",
+  "tag": "oto: tork konvertörü · ~110-128hp",
+  "brand_group": "Japon",
+  "years": "2007-2016",
+  "specs": {
+    "hp": 128,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    580,
+    900
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 80,
+    "trans": 72,
+    "fun": 32,
+    "comf": 76,
+    "age": 66,
+    "cost": 90,
+    "liq": 80
+  },
+  "sources": [
+    "i30_technopat",
+    "seatclub_i30"
+  ],
+  "note": "Güvenilirlik, ucuzluk ve kullanım kolaylığı açısından listenin en iyilerinden. Technopat ve Seat Club Turkey forumlarındaki kullanıcı deneyimleri bunu doğruluyor: 'Hyundailer pek sorun çıkarmaz' genel kanısı hakim, eski nesil 4 ileri klasik otomatik güvenilir bulunuyor. Sık dile getirilen tek şikayet yakıt tüketiminin beklenenden yüksek olması ve panoramik camlı modellerde yol sesi. Keyif dipte ama dert de dipte.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

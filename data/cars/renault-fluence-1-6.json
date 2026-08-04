@@ -1,0 +1,38 @@
+{
+  "id": "renault-fluence-1-6",
+  "legacy_index": 60,
+  "name": "Renault Fluence 1.6",
+  "tag": "oto: X-Tronic CVT · ~110hp (sınır altı)",
+  "brand_group": "Egea/Fluence",
+  "years": "2010-2016",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT"
+  },
+  "price_band_k_try": [
+    550,
+    800
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 70,
+    "trans": 52,
+    "fun": 26,
+    "comf": 81,
+    "age": 66,
+    "cost": 86,
+    "liq": 80
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Geniş, konforlu ve ucuz olmasıyla bilinen bir Türkiye klasiği. Ancak otomatiği X-Tronic CVT, yani Latitude ile aynı aileden ve yağ bakımı kritik. 110 beygirlik motoru da cansız kalıyor, bu yüzden alt sınırın altında olduğunu belirtiyorum. Konfor ve bütçe açısından mantıklı, keyif açısından değil.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

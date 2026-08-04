@@ -1,0 +1,38 @@
+{
+  "id": "renault-talisman-1-5-dci",
+  "legacy_index": 114,
+  "name": "Renault Talisman 1.5 dCi",
+  "tag": "EDC çift kavrama · ~110hp",
+  "brand_group": "Renault",
+  "years": "2016-2020",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    750,
+    1080
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 70,
+    "trans": 58,
+    "fun": 58,
+    "comf": 85,
+    "age": 76,
+    "cost": 69,
+    "liq": 58
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Laguna'nın halefi, büyük ve konforlu bir sedan; otomatiği EDC kuru kavramalı. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

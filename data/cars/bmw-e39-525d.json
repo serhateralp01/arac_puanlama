@@ -1,0 +1,40 @@
+{
+  "id": "bmw-e39-525d",
+  "legacy_index": 9,
+  "name": "BMW E39 525d",
+  "tag": "oto: ZF 5 ileri (TK) · ~163hp",
+  "brand_group": "BMW",
+  "years": "2000-2003",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 2.5,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    500,
+    750
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 70,
+    "fun": 76,
+    "comf": 68,
+    "age": 32,
+    "cost": 67,
+    "liq": 54
+  },
+  "sources": [
+    "e39",
+    "m57",
+    "tuv"
+  ],
+  "note": "530d ile aynı sağlam M57 ailesinden gelen 2.5 litrelik dizel; torku biraz daha az ama yakıt tüketimi daha iyi. ZF otomatikle geliyor. Aracın yaşı ve büyük gövdesi toplam puanı aşağı çekiyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/serhateralp01/arac_puanlama/data/schema/car.schema.json",
+  "title": "Araç kaydı",
+  "description": "data/cars/*.json içindeki tek bir araç-motor-şanzıman kombinasyonu. Dosya adı `id` ile aynı olmalı.",
+  "type": "object",
+  "required": [
+    "id", "name", "tag", "brand_group", "years", "specs",
+    "price_band_k_try", "verification", "scores", "sources", "note"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Dosya adıyla aynı olan kalıcı kimlik. Bir kez verildikten sonra değiştirilmez; değişirse git geçmişi kopar."
+    },
+    "legacy_index": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Göç öncesi tek dosyalık sürümdeki dizi sırası. Yalnızca çıktı sıralamasını korumak için var; yeni araçlarda gerekmez."
+    },
+    "name": { "type": "string", "minLength": 3 },
+    "tag": {
+      "type": "string",
+      "description": "Kısa teknik künye; şanzıman kodu ve güç aralığı gibi bilgiler."
+    },
+    "brand_group": {
+      "type": "string",
+      "description": "Filtreleme için marka grubu. Marka adıyla birebir aynı olmak zorunda değil (ör. VAG, Japon)."
+    },
+    "years": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{4}$",
+      "description": "Bu motor+şanzıman kombinasyonunun Türkiye'de bulunduğu model yılı aralığı."
+    },
+    "specs": {
+      "type": "object",
+      "required": ["hp", "displacement_l", "fuel", "drivetrain", "transmission_type"],
+      "additionalProperties": false,
+      "properties": {
+        "hp": { "type": "integer", "minimum": 1 },
+        "displacement_l": { "type": "number", "exclusiveMinimum": 0.5, "exclusiveMaximum": 8 },
+        "fuel": { "enum": ["Dizel", "Benzin"] },
+        "drivetrain": { "enum": ["Önden", "Arkadan", "Dört çeker"] },
+        "transmission_type": {
+          "enum": ["TK", "Islak DCT", "Kuru DCT", "CVT", "Robot"],
+          "description": "TK = tork konvertörü. Sınıflandırmanın gerekçesi docs/methodology.md içinde."
+        }
+      }
+    },
+    "price_band_k_try": {
+      "type": "array",
+      "items": { "type": "number", "minimum": 0 },
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "[alt, üst], bin TL. Görüş değil piyasa verisi olduğu için arayüzden düzenlenebilir tek alan."
+    },
+    "verification": {
+      "enum": ["verified", "partial", "preliminary"],
+      "description": "verified = en az iki bağımsız kaynakla doğrulandı; partial = kaynak var ama Türkiye pazarına özel değil; preliminary = henüz araştırılmadı, ön puan."
+    },
+    "scores": {
+      "type": "object",
+      "required": ["motor", "trans", "fun", "comf", "age", "cost", "liq"],
+      "additionalProperties": false,
+      "patternProperties": {
+        "^(motor|trans|fun|comf|age|cost|liq)$": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "description": "Fiyat puanı burada yok; listedeki bütün araçlara göre üretim sırasında hesaplanıyor."
+    },
+    "evidence": {
+      "type": "object",
+      "description": "Faz 2: kriter başına kanıt kaydı. Hangi kaynak hangi puana yol açtı, hangi bant uygulandı, güven ne.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "band": { "type": "string", "description": "docs/methodology.md içindeki bant adı" },
+          "confidence": { "enum": ["yüksek", "orta", "düşük"] },
+          "sources": { "type": "array", "items": { "type": "string" } },
+          "reasoning": { "type": "string" },
+          "assessed_at": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true,
+      "description": "data/sources.json anahtarları."
+    },
+    "note": { "type": "string", "minLength": 40 },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Kaydın nereden geldiği. Göç edilenlerde import betiğini gösterir."
+    }
+  }
+}

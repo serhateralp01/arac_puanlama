@@ -1,0 +1,40 @@
+{
+  "id": "bmw-e39-528i",
+  "legacy_index": 8,
+  "name": "BMW E39 528i",
+  "tag": "oto: GM/ZF 5 ileri · ~193hp",
+  "brand_group": "BMW",
+  "years": "1998-2000",
+  "specs": {
+    "hp": 193,
+    "displacement_l": 2.8,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    450,
+    650
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 66,
+    "fun": 82,
+    "comf": 66,
+    "age": 28,
+    "cost": 58,
+    "liq": 46
+  },
+  "sources": [
+    "e39c",
+    "e39",
+    "tuv"
+  ],
+  "note": "2.8 litrelik M52 motoru dökme demir bloklu ve oldukça sağlam; bakımı yapılmış örnekleri yüksek kilometrelere rahat çıkıyor. Otomatiği genellikle GM yapımı 5 ileri kutu, ZF’ye göre biraz daha hassas ve yağ bakımı önemli. Serinin en eski aracı olduğu için yaş kaynaklı risk en yüksek burada.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

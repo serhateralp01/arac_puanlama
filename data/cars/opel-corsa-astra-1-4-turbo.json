@@ -1,0 +1,38 @@
+{
+  "id": "opel-corsa-astra-1-4-turbo",
+  "legacy_index": 111,
+  "name": "Opel Corsa / Astra 1.4 Turbo",
+  "tag": "6 ileri tork konvertörü",
+  "brand_group": "Opel",
+  "years": "2014-2020",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    880,
+    1200
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 70,
+    "trans": 74,
+    "fun": 52,
+    "comf": 78,
+    "age": 78,
+    "cost": 76,
+    "liq": 72
+  },
+  "sources": [
+    "opel16"
+  ],
+  "note": "Honest John'a göre bu ailenin en güvenilir motoru 1.4 turbo benzinli ve 1.6 dizelden daha isabetli bir tercih. Tork konvertörlü otomatiğiyle şanzıman tarafında sürpriz yok. Modern, kullanımı kolay ve yedek parçası ucuz.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "peugeot-308-1-6-thp",
+  "legacy_index": 78,
+  "name": "Peugeot 308 1.6 THP",
+  "tag": "Aisin AF40 tork konvertörü · ~156 bg",
+  "brand_group": "PSA",
+  "years": "2009-2013",
+  "specs": {
+    "hp": 156,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 45,
+    "trans": 72,
+    "fun": 62,
+    "comf": 78,
+    "age": 60,
+    "cost": 70,
+    "liq": 64
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Otomatiği Aisin yapımı tork konvertörlü kutu ve bu tarafı güvenli. Asıl sorun motorda: 1.6 THP motorun zincir, karbon birikmesi ve termostat konuları Türkiye'de iyi bilinen kronik kalemler. Sürmesi keyifli bir araç ama motor geçmişi çok önemli.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

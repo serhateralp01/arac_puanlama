@@ -1,0 +1,38 @@
+{
+  "id": "opel-astra-1-6-cdti-2013",
+  "legacy_index": 23,
+  "name": "Opel Astra 1.6 CDTI (2013+)",
+  "tag": "whisper · oto: Aisin · ~136hp",
+  "brand_group": "Opel",
+  "years": "2013-2019",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    720,
+    1020
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 55,
+    "trans": 72,
+    "fun": 54,
+    "comf": 75,
+    "age": 66,
+    "cost": 81,
+    "liq": 68
+  },
+  "sources": [
+    "opel16"
+  ],
+  "note": "Insignia’daki 1.6 dizelin aynısı olduğu için zincir gergisi riski burada da geçerli; Aisin otomatiği ise sağlam. Yakıt tüketimi çok iyi ama zincir geçmişini mutlaka sorgulayın. Aynı kasada 1.4 turbo benzinli daha güvenli bir seçim.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

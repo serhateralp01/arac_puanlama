@@ -1,0 +1,39 @@
+{
+  "id": "mercedes-e220-cdi-w211",
+  "legacy_index": 75,
+  "name": "Mercedes E220 CDI (W211)",
+  "tag": "5G-Tronic tork konvertörü · ~150 bg",
+  "brand_group": "Mercedes",
+  "years": "2002-2009",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2.2,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    550,
+    800
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 72,
+    "trans": 80,
+    "fun": 58,
+    "comf": 78,
+    "age": 42,
+    "cost": 83,
+    "liq": 58
+  },
+  "sources": [
+    "om61x",
+    "w211"
+  ],
+  "note": "OM646 dizel motoru sağlam, 5G-Tronic otomatiği güvenilir ve konfor seviyesi yüksek. W211 kasada erken üretim yıllarında SBC fren ünitesi ve elektrik konuları öne çıkıyor, bunları mutlaka kontrol ettirin. Partikül filtresiz versiyonlar daha az dert çıkarıyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

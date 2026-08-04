@@ -1,0 +1,36 @@
+{
+  "id": "hyundai-elantra-xd-1-6-2-0",
+  "legacy_index": 140,
+  "name": "Hyundai Elantra XD 1.6/2.0",
+  "tag": "4 ileri tork konvertörü · ~105-137hp",
+  "brand_group": "Japon",
+  "years": "2000-2006",
+  "specs": {
+    "hp": 105,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    420,
+    620
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 74,
+    "trans": 74,
+    "fun": 42,
+    "comf": 76,
+    "age": 44,
+    "cost": 77,
+    "liq": 68
+  },
+  "sources": [],
+  "note": "MD kasadan önceki nesil; sade ve dayanıklı, otomatiği klasik tork konvertörlü. Fiyatı bu listenin en uygunlarından. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

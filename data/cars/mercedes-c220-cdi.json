@@ -1,0 +1,38 @@
+{
+  "id": "mercedes-c220-cdi",
+  "legacy_index": 31,
+  "name": "Mercedes C220 CDI",
+  "tag": "W203 OM611/646 · 5G-Tronic · ~143-170hp",
+  "brand_group": "Mercedes",
+  "years": "2001-2007",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2.2,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    450,
+    700
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 80,
+    "fun": 52,
+    "comf": 71,
+    "age": 46,
+    "cost": 86,
+    "liq": 68
+  },
+  "sources": [
+    "om61x"
+  ],
+  "note": "OM611 ve OM646 dizel motorları neredeyse kırılmaz kabul edilir, 5G-Tronic otomatiği de eski kuşak otomatiklerin en iyilerinden. Çok ekonomik, yedek parçası ucuz ve bol. Sürüş keyfi düşük; dert istemeyenler için akıllı bir dizel.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

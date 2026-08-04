@@ -1,0 +1,39 @@
+{
+  "id": "mercedes-clk200-komp",
+  "legacy_index": 39,
+  "name": "Mercedes CLK200 Komp.",
+  "tag": "W209 M111 · 5G · coupe · ~163hp",
+  "brand_group": "Mercedes",
+  "years": "1998-2003",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    430,
+    680
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 62,
+    "trans": 78,
+    "fun": 58,
+    "comf": 56,
+    "age": 42,
+    "cost": 70,
+    "liq": 46
+  },
+  "sources": [
+    "enginefinder_m111",
+    "mbclub_m111"
+  ],
+  "note": "CLK230'un düşük güçlü versiyonu (163 bg), aynı M111 Kompressor ailesinden (esas olarak W208 kasa). Aynı sağlamlık profili geçerli: düzenli bakımla 300.000 km üzeri ömür mümkün, süperşarj birimi kendisi nadiren sorun çıkarıyor. Mütevazı güç, niş bir tercih ama mekanik olarak güvenilir.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

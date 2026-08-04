@@ -1,0 +1,38 @@
+{
+  "id": "bmw-e36-320i-323i",
+  "legacy_index": 135,
+  "name": "BMW E36 320i/323i",
+  "tag": "ZF 4/5 ileri tork konvertörü · ~150-170hp",
+  "brand_group": "BMW",
+  "years": "1995-1999",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    450,
+    700
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 64,
+    "trans": 76,
+    "fun": 84,
+    "comf": 68,
+    "age": 32,
+    "cost": 63,
+    "liq": 58
+  },
+  "sources": [
+    "e39c"
+  ],
+  "note": "E39'dan önceki nesil; aynı RWD sıralı altı karakterini çok daha ucuza sunuyor. ZF otomatiği sağlam. Yaşı çok ilerlemiş, soğutma sistemi ve pas kontrolü E39'dan bile daha kritik. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

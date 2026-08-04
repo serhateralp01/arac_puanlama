@@ -1,0 +1,38 @@
+{
+  "id": "alfa-giulietta-1-4-tb",
+  "legacy_index": 43,
+  "name": "Alfa Giulietta 1.4 TB",
+  "tag": "oto: TCT çift kavrama · ~170hp",
+  "brand_group": "Diğer",
+  "years": "2010-2016",
+  "specs": {
+    "hp": 170,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 52,
+    "trans": 48,
+    "fun": 80,
+    "comf": 67,
+    "age": 60,
+    "cost": 43,
+    "liq": 42
+  },
+  "sources": [
+    "eksisozluk_sanziman_liste"
+  ],
+  "note": "Otomatiği TCT çift kavramalı kutu; Ekşi Sözlük'ün marka-model bazlı kapsamlı şanzıman rehberi de bunu doğruluyor. Karakteri ve tasarımı çok güçlü ama TCT'nin güvenilirlik kaygısı ve Alfa'nın Türkiye'de sınırlı parça/usta ağı toplam puanı düşürüyor. Servis geçmişi ve uzun test sürüşü olmadan almayın.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

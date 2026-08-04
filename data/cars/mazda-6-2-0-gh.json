@@ -1,0 +1,36 @@
+{
+  "id": "mazda-6-2-0-gh",
+  "legacy_index": 62,
+  "name": "Mazda 6 2.0 (GH)",
+  "tag": "oto: 5 ileri TK · ~147hp",
+  "brand_group": "Japon",
+  "years": "2008-2012",
+  "specs": {
+    "hp": 147,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    600,
+    860
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 82,
+    "trans": 80,
+    "fun": 54,
+    "comf": 76,
+    "age": 54,
+    "cost": 64,
+    "liq": 56
+  },
+  "sources": [],
+  "note": "Türkiye’de 2.5 litrelik versiyonu satılmadı ama 2.0 litrelik versiyonu bulunuyor. Turbosuz motoru ve 5 ileri tork konvertörlü otomatiği sağlam; sürüşü sınıf ortalamasının üzerinde. Yedek parça ve usta ağı Toyota ile Honda kadar güçlü değil, bulunabilirliği orta seviyede. Sessiz sedasız iyi bir araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "fiat-egea-1-6-multijet",
+  "legacy_index": 58,
+  "name": "Fiat Egea 1.6 Multijet",
+  "tag": "oto: KURU DCT · ~120hp",
+  "brand_group": "Egea/Fluence",
+  "years": "2016-2023",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 72,
+    "trans": 52,
+    "fun": 40,
+    "comf": 76,
+    "age": 84,
+    "cost": 92,
+    "liq": 92
+  },
+  "sources": [
+    "egeadct",
+    "trbox"
+  ],
+  "note": "Türkiye’nin en çok bulunan aracı. 1.6 dizel motoru sağlam, sadece partikül filtresi ve EGR bakımı düzenli yapılmalı. DCT kutusu kuru kavramalı olmasına rağmen bu sınıfın dayanıklıları arasında; yaklaşık 100 bin kilometrede kavrama değişimi istemiyor ve hem DQ200’den hem Ford’un kuru kutusundan belirgin biçimde iyi. Şehir içinde kalkışta sarsıntı şikayetleri var. Yeni, ucuz ve yedek parçası bol; sürüş keyfi ise düşük.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

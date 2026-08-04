@@ -1,0 +1,38 @@
+{
+  "id": "toyota-corolla-e12-1-6-vvt-i",
+  "legacy_index": 138,
+  "name": "Toyota Corolla E12 1.6 VVT-i",
+  "tag": "4 ileri tork konvertörü · ~110hp",
+  "brand_group": "Japon",
+  "years": "2002-2007",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    480,
+    700
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 88,
+    "trans": 74,
+    "fun": 34,
+    "comf": 74,
+    "age": 50,
+    "cost": 82,
+    "liq": 80
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "2007-13 nesilden önceki Corolla; aynı Toyota güvenilirliğini daha ucuza sunuyor. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "bmw-e39-530d",
+  "legacy_index": 6,
+  "name": "BMW E39 530d",
+  "tag": "oto: ZF 5 ileri (TK) · ~184-193hp",
+  "brand_group": "BMW",
+  "years": "1999-2003",
+  "specs": {
+    "hp": 193,
+    "displacement_l": 3,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    550,
+    850
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 70,
+    "fun": 86,
+    "comf": 66,
+    "age": 32,
+    "cost": 66,
+    "liq": 48
+  },
+  "sources": [
+    "e39",
+    "m57",
+    "e39c",
+    "tuv"
+  ],
+  "note": "M57 dizel motoru çok sağlam, torku bol ve araç arkadan itişli olduğu için sürmesi keyifli. Otomatiği ZF yapımı 5 ileri tork konvertörlü kutu; eski bir tasarım olsa da bakımı yapılmışsa sorun çıkarmıyor. Puanını aşağı çeken şey aracın yaşı ve büyük gövdesinin herkes için kolay kullanılmaması. Alacaksanız soğutma sistemi yenilenmiş bir örnek seçin.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "honda-civic-fd6-1-6",
+  "legacy_index": 48,
+  "name": "Honda Civic FD6 1.6",
+  "tag": "oto: 5 ileri TK · ~125hp",
+  "brand_group": "Japon",
+  "years": "2006-2011",
+  "specs": {
+    "hp": 125,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    600,
+    880
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 90,
+    "trans": 85,
+    "fun": 52,
+    "comf": 76,
+    "age": 55,
+    "cost": 86,
+    "liq": 92
+  },
+  "sources": [
+    "civic"
+  ],
+  "note": "Türkiye ikinci el piyasasının en güvenilir araçlarından. 1.6 litrelik i-VTEC motoru neredeyse bozulmuyor, otomatiği ise 5 ileri tork konvertörlü kutu ve kullanıcılar bu kutunun son derece sağlam olduğunu söylüyor. Devir yükseldikçe motor canlanıyor, bu da sürüşü eğlenceli kılıyor. Eksileri sert arka süspansiyonu, zayıf ses yalıtımı ve fren hissi ile artık yaşlanmış gövdesi. İkinci elde satması çok kolay.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

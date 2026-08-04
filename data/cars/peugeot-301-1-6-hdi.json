@@ -1,0 +1,38 @@
+{
+  "id": "peugeot-301-1-6-hdi",
+  "legacy_index": 77,
+  "name": "Peugeot 301 1.6 HDi",
+  "tag": "ETG robotlu yarı otomatik · ~92-115 bg",
+  "brand_group": "PSA",
+  "years": "2013-2020",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Robot"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 70,
+    "trans": 30,
+    "fun": 32,
+    "comf": 75,
+    "age": 74,
+    "cost": 87,
+    "liq": 80
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Motoru ve gövdesi sorun çıkarmıyor, işletme maliyeti de çok düşük. Ancak otomatik dediğimiz kutu aslında robotlu yarı otomatik; baskı balata aşınması ve vites robotu arızalarıyla biliniyor, vites geçişleri de sarsıntılı. Ucuz ve pratik ama sürüş konforu bu listede en düşüklerden.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

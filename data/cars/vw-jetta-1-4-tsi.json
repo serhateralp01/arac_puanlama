@@ -1,0 +1,39 @@
+{
+  "id": "vw-jetta-1-4-tsi",
+  "legacy_index": 61,
+  "name": "VW Jetta 1.4 TSI",
+  "tag": "oto: KURU DQ200 · ~122hp",
+  "brand_group": "VAG",
+  "years": "2011-2016",
+  "specs": {
+    "hp": 122,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    600,
+    900
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 52,
+    "trans": 35,
+    "fun": 44,
+    "comf": 78,
+    "age": 66,
+    "cost": 81,
+    "liq": 84
+  },
+  "sources": [
+    "vw14",
+    "trbox"
+  ],
+  "note": "Tek turbolu 1.4 TSI motoru twincharger versiyon kadar sorunlu değil ama yine EA111 ailesinin zincir riskini taşıyor; üstüne kuru kavramalı DQ200 otomatik ekleniyor. Bol bulunuyor, ucuz ve kullanımı kolay ama bu motor ile şanzıman birleşimi risk barındırıyor. Ancak zincir ve mekatronik geçmişi belgeliyse düşünülebilir.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

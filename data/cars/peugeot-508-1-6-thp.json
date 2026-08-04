@@ -1,0 +1,38 @@
+{
+  "id": "peugeot-508-1-6-thp",
+  "legacy_index": 124,
+  "name": "Peugeot 508 1.6 THP",
+  "tag": "Aisin AF40 tork konvertörü · ~156hp",
+  "brand_group": "PSA",
+  "years": "2011-2018",
+  "specs": {
+    "hp": 156,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 52,
+    "trans": 74,
+    "fun": 64,
+    "comf": 83,
+    "age": 60,
+    "cost": 68,
+    "liq": 58
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Dizel kardeşiyle aynı Aisin tork konvertörlü kutuyu kullanıyor; motor tarafında ise 1.6 THP'nin bilinen zincir ve karbon birikimi dertleri geçerli. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

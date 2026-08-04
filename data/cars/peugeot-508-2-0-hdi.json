@@ -1,0 +1,38 @@
+{
+  "id": "peugeot-508-2-0-hdi",
+  "legacy_index": 80,
+  "name": "Peugeot 508 2.0 HDi",
+  "tag": "Aisin AF40 tork konvertörü · ~140-163 bg",
+  "brand_group": "PSA",
+  "years": "2011-2018",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 70,
+    "trans": 74,
+    "fun": 58,
+    "comf": 83,
+    "age": 62,
+    "cost": 79,
+    "liq": 60
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Geniş, konforlu ve uzun yolu iyi yapan bir araç. Otomatiği Aisin tork konvertörlü kutu ve sağlam tarafta. Dizel motoru torklu ve ekonomik; partikül filtresi ile enjeksiyon bakımını kontrol ettirin.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "opel-vectra-b-1-6-1-8",
+  "legacy_index": 128,
+  "name": "Opel Vectra B 1.6/1.8",
+  "tag": "4 ileri tork konvertörü · ~100-125hp",
+  "brand_group": "Opel",
+  "years": "1995-2002",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    450,
+    650
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 64,
+    "trans": 66,
+    "fun": 52,
+    "comf": 77,
+    "age": 38,
+    "cost": 73,
+    "liq": 64
+  },
+  "sources": [],
+  "note": "Basit ve dayanıklı bir D segment sedan; klasik 4 ileri tork konvertörlü otomatiği güvenilir tarafta. Yaşı ilerlemiş, pas ve elektrik kontrolü şart. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

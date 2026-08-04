@@ -1,0 +1,38 @@
+{
+  "id": "audi-a4-b9-2-0-tdi",
+  "legacy_index": 118,
+  "name": "Audi A4 B9 2.0 TDI",
+  "tag": "ıslak S tronic / quattro Tiptronic · ~150-190hp",
+  "brand_group": "VAG",
+  "years": "2015-2019",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    950,
+    1350
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 74,
+    "trans": 74,
+    "fun": 62,
+    "comf": 83,
+    "age": 78,
+    "cost": 68,
+    "liq": 58
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "B8'den sonraki nesil; önden çekişte S tronic ıslak DCT, quattro'da ise klasik Tiptronic geliyor - B8'in Multitronic derdi tamamen ortadan kalkmış. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

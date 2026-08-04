@@ -1,0 +1,38 @@
+{
+  "id": "skoda-superb-1-6-tdi",
+  "legacy_index": 103,
+  "name": "Skoda Superb 1.6 TDI",
+  "tag": "kuru DQ200 DSG",
+  "brand_group": "VAG",
+  "years": "2013-2019",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    800,
+    1150
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 68,
+    "trans": 38,
+    "fun": 46,
+    "comf": 85,
+    "age": 72,
+    "cost": 85,
+    "liq": 78
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "İç hacmi ve bagajı sınıfının çok üzerinde, yakıt tüketimi de düşük. Fakat 1.6 dizel versiyonun otomatiği kuru kavramalı DQ200 kutusu. Aynı gövdenin 2.0 TDI versiyonu ıslak DQ250 kullanıyor ve şanzıman tarafında çok daha rahat bir tercih oluyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

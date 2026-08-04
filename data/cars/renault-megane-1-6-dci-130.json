@@ -1,0 +1,40 @@
+{
+  "id": "renault-megane-1-6-dci-130",
+  "legacy_index": 151,
+  "name": "Renault Megane 1.6 dCi 130",
+  "tag": "6 ileri KURU EDC · ~130hp",
+  "brand_group": "Renault",
+  "years": "2013-2020",
+  "specs": {
+    "hp": 130,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 70,
+    "trans": 44,
+    "fun": 54,
+    "comf": 80,
+    "age": 68,
+    "cost": 74,
+    "liq": 86
+  },
+  "sources": [
+    "sikayetvar_megane_edc",
+    "renaultfanclub_edc",
+    "otosorular_megane16dci"
+  ],
+  "note": "Bu tur araştırmanın en zengin veri kümesi bu araçta çıktı. Şikayetvar'da dört ayrı konu başlığında onlarca bağımsız şikayet var: EDC şanzımanda 3'ten 4'e geçerken tekrarlayan 'vuup' sesi (bir bayi yetkilisi bunun 'kronik bir sorun' olduğunu kabul etmiş), bazı örneklerde 80.000 km'de EDC beyni (kontrol ünitesi) arızası ve parça bulma zorluğu. Buna karşılık Renault Fan Club forumunda tam tersi bir deneyim de var: 1.6 dCi 130 Icon bir taksi olarak 257.000 km'ye kadar, sadece yağ değişimiyle ve hiç kavrama değişmeden kullanılmış. Kavrama değişimi gerekirse maliyeti yaklaşık 20.000 TL. Motor tarafında OtoSorular.com'daki kullanıcı yorumlarında şehir içi ağırlıklı kullanımda DPF sorunu öne çıkıyor. Sonuç: EDC iyi bakılırsa uzun ömürlü olabiliyor ama bakım geçmişi ve o rahatsız edici vites sesinin var olup olmadığı mutlaka test sürüşünde kontrol edilmeli.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

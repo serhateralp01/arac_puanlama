@@ -1,0 +1,38 @@
+{
+  "id": "volvo-s40-v50-2-0",
+  "legacy_index": 91,
+  "name": "Volvo S40 / V50 2.0",
+  "tag": "Aisin 5 ileri tork konvertörü · ~145 bg",
+  "brand_group": "Volvo",
+  "years": "2004-2012",
+  "specs": {
+    "hp": 145,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    550,
+    800
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 74,
+    "trans": 78,
+    "fun": 48,
+    "comf": 77,
+    "age": 52,
+    "cost": 61,
+    "liq": 50
+  },
+  "sources": [
+    "volvops"
+  ],
+  "note": "Volvo'nun küçük sedan ve station wagon ikilisi. Otomatiği Aisin tork konvertörlü kutu, yani Powershift riski taşımıyor. Güvenlik donanımı iyi, kabin kalitesi yüksek. Yedek parça ağı Alman markaları kadar geniş değil ve araç artık yaşlandı.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

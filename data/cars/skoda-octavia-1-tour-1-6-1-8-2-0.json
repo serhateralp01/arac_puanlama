@@ -1,0 +1,36 @@
+{
+  "id": "skoda-octavia-1-tour-1-6-1-8-2-0",
+  "legacy_index": 132,
+  "name": "Skoda Octavia 1 (Tour) 1.6/1.8/2.0",
+  "tag": "4 ileri Tiptronic · ~101-150hp",
+  "brand_group": "VAG",
+  "years": "1996-2010",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    480,
+    700
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 70,
+    "trans": 74,
+    "fun": 50,
+    "comf": 79,
+    "age": 48,
+    "cost": 75,
+    "liq": 70
+  },
+  "sources": [],
+  "note": "VW Golf 4 ile aynı platformu paylaşan, çok uzun süre üretilmiş dayanıklı bir sedan/hatchback; otomatiği klasik Tiptronic tork konvertörlü. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

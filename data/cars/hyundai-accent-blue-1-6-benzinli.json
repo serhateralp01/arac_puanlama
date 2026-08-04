@@ -1,0 +1,36 @@
+{
+  "id": "hyundai-accent-blue-1-6-benzinli",
+  "legacy_index": 106,
+  "name": "Hyundai Accent Blue 1.6 benzinli",
+  "tag": "6 ileri tork konvertörü",
+  "brand_group": "Japon",
+  "years": "2012-2018",
+  "specs": {
+    "hp": 123,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    700,
+    980
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 80,
+    "trans": 80,
+    "fun": 38,
+    "comf": 80,
+    "age": 74,
+    "cost": 82,
+    "liq": 84
+  },
+  "sources": [],
+  "note": "Dizel kardeşinin aksine bu versiyon çift kavrama değil, 6 ileri tork konvertörlü otomatik kullanıyor; bu da onu şanzıman tarafında çok daha güvenli yapıyor. Motoru sade ve dayanıklı, yedek parçası ucuz ve bol. Karakteri yok ama sorunu da yok.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ford-mondeo-1-5-ecoboost",
+  "legacy_index": 46,
+  "name": "Ford Mondeo 1.5 EcoBoost",
+  "tag": "oto: tork konvertörü · ~160hp",
+  "brand_group": "Ford",
+  "years": "2015-2019",
+  "specs": {
+    "hp": 160,
+    "displacement_l": 1.5,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    800,
+    1150
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 38,
+    "trans": 68,
+    "fun": 58,
+    "comf": 80,
+    "age": 70,
+    "cost": 72,
+    "liq": 60
+  },
+  "sources": [
+    "ford"
+  ],
+  "note": "Otomatiği tork konvertörlü ve sağlam ama motoru EcoBoost ailesinin soğutma ve silindir kapağı sızma riskini taşıyor. Konforlu ve kullanımı kolay bir araç olsa da motor tarafı risk barındırıyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

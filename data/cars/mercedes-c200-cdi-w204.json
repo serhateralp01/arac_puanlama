@@ -1,0 +1,38 @@
+{
+  "id": "mercedes-c200-cdi-w204",
+  "legacy_index": 121,
+  "name": "Mercedes C200 CDI (W204)",
+  "tag": "5G-Tronic tork konvertörü · ~136hp",
+  "brand_group": "Mercedes",
+  "years": "2007-2011",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 2.1,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    600,
+    880
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 76,
+    "trans": 80,
+    "fun": 54,
+    "comf": 77,
+    "age": 52,
+    "cost": 81,
+    "liq": 64
+  },
+  "sources": [
+    "om61x"
+  ],
+  "note": "W204'ün giriş seviyesi dizeli; aynı sağlam OM651 ailesi ve 5G-Tronic otomatiği. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

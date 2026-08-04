@@ -1,0 +1,38 @@
+{
+  "id": "toyota-auris-1-6",
+  "legacy_index": 85,
+  "name": "Toyota Auris 1.6",
+  "tag": "Multidrive CVT · ~132 bg",
+  "brand_group": "Japon",
+  "years": "2007-2018",
+  "specs": {
+    "hp": 132,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 88,
+    "trans": 70,
+    "fun": 38,
+    "comf": 79,
+    "age": 66,
+    "cost": 87,
+    "liq": 84
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Toyota'nın güvenilirliğini hatchback gövdede sunuyor. Otomatiği CVT; Toyota'nın CVT kutuları dayanıklılık açısından sınıfının en iyileri arasında sayılıyor ama sürüş hissi lastik gibi ve tork konvertörü kadar direkt değil. Motoru ve genel yapısı dert çıkarmıyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

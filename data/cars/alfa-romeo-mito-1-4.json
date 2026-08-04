@@ -1,0 +1,36 @@
+{
+  "id": "alfa-romeo-mito-1-4",
+  "legacy_index": 90,
+  "name": "Alfa Romeo MiTo 1.4",
+  "tag": "TCT çift kavrama · ~135-155 bg",
+  "brand_group": "Diğer",
+  "years": "2010-2016",
+  "specs": {
+    "hp": 135,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    600,
+    880
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 52,
+    "trans": 48,
+    "fun": 72,
+    "comf": 69,
+    "age": 64,
+    "cost": 47,
+    "liq": 42
+  },
+  "sources": [],
+  "note": "Küçük gövdesi ve canlı motoruyla keyifli bir araç, tasarımı da güçlü. Otomatiği TCT çift kavramalı kutu ve Giulietta'daki gibi güvenilirlik kaygısı taşıyor; ayrıca yokuşta geç vites değiştirme gibi yazılımsal davranış sorunları bildiriliyor. Türkiye'de parça ve usta bulmak zor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

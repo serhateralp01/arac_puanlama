@@ -1,0 +1,39 @@
+{
+  "id": "mercedes-e270-cdi",
+  "legacy_index": 36,
+  "name": "Mercedes E270 CDI",
+  "tag": "W210 OM612 · 5G-Tronic · ~170hp",
+  "brand_group": "Mercedes",
+  "years": "1999-2002",
+  "specs": {
+    "hp": 170,
+    "displacement_l": 2.7,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    430,
+    650
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 82,
+    "trans": 80,
+    "fun": 58,
+    "comf": 70,
+    "age": 26,
+    "cost": 75,
+    "liq": 48
+  },
+  "sources": [
+    "om61x",
+    "rust"
+  ],
+  "note": "OM612 motoru neredeyse ölümsüz, 5G-Tronic otomatiği sağlam, yakıt tüketimi iyi ve gövdesi geniş. Yine W210 paslanması ve yaş riski geçerli. Passız bir örnek bulursanız çok iyi bir araç olur ama bulmak kolay değil.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "audi-a4-b8-1-8-tfsi",
+  "legacy_index": 71,
+  "name": "Audi A4 B8 1.8 TFSI",
+  "tag": "Multitronic CVT · ~160 bg",
+  "brand_group": "VAG",
+  "years": "2008-2015",
+  "specs": {
+    "hp": 160,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT"
+  },
+  "price_band_k_try": [
+    700,
+    1050
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 45,
+    "trans": 22,
+    "fun": 54,
+    "comf": 77,
+    "age": 58,
+    "cost": 69,
+    "liq": 62
+  },
+  "sources": [
+    "audioil",
+    "multi"
+  ],
+  "note": "Bu araçta iki risk aynı anda bulunuyor. 2008 ile 2012 arası üretilen 1.8 TFSI motorlar yağ tüketimi sorunu yaşıyor; 2012 sonrasında bu sorun giderildi. Otomatiği ise önden çekişli olduğu için Multitronic CVT ve bu kutu listedeki en zayıf otomatiklerden. Almak isterseniz hem 2013 sonrası motor hem belgeli şanzıman bakımı arayın.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

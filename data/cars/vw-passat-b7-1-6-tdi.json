@@ -1,0 +1,38 @@
+{
+  "id": "vw-passat-b7-1-6-tdi",
+  "legacy_index": 102,
+  "name": "VW Passat B7 1.6 TDI",
+  "tag": "kuru DQ200 DSG",
+  "brand_group": "VAG",
+  "years": "2011-2015",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    850,
+    1200
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 68,
+    "trans": 38,
+    "fun": 48,
+    "comf": 83,
+    "age": 66,
+    "cost": 86,
+    "liq": 82
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Türkiye'de en çok satan otomatik sedanlardan biri; geniş, konforlu ve çok ekonomik. Ancak otomatiği kuru kavramalı DQ200 kutusu ve bu kutu Türkiye trafiğinde kavrama aşınması ile mekatronik arızasıyla biliniyor. Aynı kasada 2.0 TDI versiyonu ıslak DQ250 kullandığı için şanzıman açısından belirgin biçimde daha güvenli.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

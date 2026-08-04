@@ -1,0 +1,38 @@
+{
+  "id": "renault-megane-3-1-5-dci",
+  "legacy_index": 83,
+  "name": "Renault Megane 3 1.5 dCi",
+  "tag": "EDC çift kavrama · ~110 bg",
+  "brand_group": "Renault",
+  "years": "2012-2016",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    750,
+    1050
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 66,
+    "trans": 58,
+    "fun": 48,
+    "comf": 80,
+    "age": 70,
+    "cost": 87,
+    "liq": 76
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "1.5 dCi motoru çok ekonomik ve yaygın. Otomatiği EDC çift kavramalı kutu; kuru kavramalıların arasında orta seviyede duruyor, yağ bakımı ve yazılım güncellemesi önemli. Yedek parça ve servis ağı Türkiye'de çok güçlü.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

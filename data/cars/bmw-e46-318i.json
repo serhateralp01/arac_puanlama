@@ -1,0 +1,38 @@
+{
+  "id": "bmw-e46-318i",
+  "legacy_index": 136,
+  "name": "BMW E46 318i",
+  "tag": "ZF 4/5 ileri tork konvertörü · ~115-143hp",
+  "brand_group": "BMW",
+  "years": "2000-2005",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.9,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    420,
+    650
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 68,
+    "trans": 76,
+    "fun": 68,
+    "comf": 73,
+    "age": 40,
+    "cost": 70,
+    "liq": 66
+  },
+  "sources": [
+    "e46sub"
+  ],
+  "note": "E46 ailesinin en ucuz motoruyla ama aynı RWD şasi keyfiyle; subframe çatlağı kontrolü burada da geçerli. Diğer E46'lardan daha uygun fiyatlı bir giriş noktası. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

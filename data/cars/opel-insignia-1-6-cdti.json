@@ -1,0 +1,38 @@
+{
+  "id": "opel-insignia-1-6-cdti",
+  "legacy_index": 20,
+  "name": "Opel Insignia 1.6 CDTI",
+  "tag": "oto: Aisin · ~136hp",
+  "brand_group": "Opel",
+  "years": "2014-2017",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    700,
+    1050
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 58,
+    "trans": 72,
+    "fun": 56,
+    "comf": 81,
+    "age": 64,
+    "cost": 80,
+    "liq": 66
+  },
+  "sources": [
+    "opel16"
+  ],
+  "note": "Sessiz çalışmasıyla bilinen 1.6 dizel motorun ilk versiyonlarında zincir gergisi contasız üretildiği için, soğuk çalıştırmada zincir sesi ve zamanla zincir uzaması görülüyor; tamiri pahalı bir işlem. Sonradan düzeltildi. Aisin otomatiği sağlam olduğundan asıl bakılması gereken şey zincirin geçmişi.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

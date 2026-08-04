@@ -1,0 +1,38 @@
+{
+  "id": "peugeot-308-1-6-bluehdi",
+  "legacy_index": 79,
+  "name": "Peugeot 308 1.6 BlueHDi",
+  "tag": "EAT6 Aisin tork konvertörü · ~120 bg",
+  "brand_group": "PSA",
+  "years": "2014-2018",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    850,
+    1200
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 72,
+    "trans": 80,
+    "fun": 54,
+    "comf": 82,
+    "age": 76,
+    "cost": 85,
+    "liq": 74
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "EAT6 kutusu Aisin yapımı tork konvertörlü bir şanzıman ve düzenli yağ değişimiyle uzun ömürlü çalışıyor; üreticinin ömür boyu yağ ifadesine rağmen altmış bin kilometrede bir değiştirmek gerekiyor. Motoru ekonomik. Bu listedeki Fransız araçlar arasında şanzıman tarafı en güvenli olanlardan.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

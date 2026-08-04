@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e60-525d-530d",
+  "legacy_index": 98,
+  "name": "BMW E60 525d / 530d",
+  "tag": "ZF 6 ileri tork konvertörü · 177-231 bg",
+  "brand_group": "BMW",
+  "years": "2003-2010",
+  "specs": {
+    "hp": 197,
+    "displacement_l": 3,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    750,
+    1080
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 80,
+    "trans": 76,
+    "fun": 76,
+    "comf": 72,
+    "age": 42,
+    "cost": 70,
+    "liq": 54
+  },
+  "sources": [
+    "m57",
+    "tuv"
+  ],
+  "note": "E60 gövdesini M57 dizel motorun sağlamlığı ve torkuyla birleştiriyor; uzun yol için çok iyi bir araç. Otomatiği ZF 6 ileri kutu. Elektronik ve süspansiyon kalemleri yaşla birlikte masraf çıkarabiliyor, alım öncesi kapsamlı kontrol şart.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

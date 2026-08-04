@@ -1,0 +1,40 @@
+{
+  "id": "renault-latitude-2-0-dci",
+  "legacy_index": 47,
+  "name": "Renault Latitude 2.0 dCi",
+  "tag": "oto: X-Tronic CVT · ~150-175hp",
+  "brand_group": "Renault",
+  "years": "2011-2015",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT"
+  },
+  "price_band_k_try": [
+    550,
+    800
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 52,
+    "trans": 16,
+    "fun": 32,
+    "comf": 80,
+    "age": 56,
+    "cost": 63,
+    "liq": 38
+  },
+  "sources": [
+    "wiki_latitude",
+    "technicalparams_latitude",
+    "namuwiki_sm5"
+  ],
+  "note": "Renault-Nissan D platformunu (Nissan Altima/Teana/Maxima ile paylaşılan) kullanan, Kore'de Samsung SM5 adıyla üretilen bir araç. Wikipedia motor verisini doğruluyor: 150 beygir/320 Nm'lik dCi motor gerçekten X-Tronic CVT ile geliyor. TechnicalParameters.eu, CVT yağ bakımı ihmal edilirse kayış kayması ve sarsıntı riski olduğunu, 60.000 km'de yağ/filtre değişimi gerektiğini belirtiyor. Kore kaynaklı NamuWiki'nin teknik analizi ise daha kritik bir detay veriyor: bu platformdaki CVT'de maliyet düşürme amacıyla şanzıman soğutucusunun küçültüldüğü belirtiliyor — bu da ısınma riskini genel CVT ailesine göre daha yüksek kılabilir. Sürmesi sıkıcı, ucuz ve konforlu ama otomatik tarafı dikkatli bakım istiyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

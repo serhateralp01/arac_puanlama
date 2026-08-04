@@ -1,0 +1,38 @@
+{
+  "id": "bmw-e90-325i",
+  "legacy_index": 16,
+  "name": "BMW E90 325i",
+  "tag": "N52 · oto: ZF 6 ileri · ~218hp",
+  "brand_group": "BMW",
+  "years": "2005-2011",
+  "specs": {
+    "hp": 218,
+    "displacement_l": 2.5,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    800,
+    1150
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 78,
+    "trans": 76,
+    "fun": 78,
+    "comf": 71,
+    "age": 48,
+    "cost": 61,
+    "liq": 46
+  },
+  "sources": [
+    "e90"
+  ],
+  "note": "N52 altı silindirli motoru sağlam bir birim, sadece su pompası rutin bir değişim kalemi. ZF 6 ileri otomatikle geliyor. Arkadan itiş keyfini güvenilirlikle birleştiriyor. Direkt enjeksiyonlu N53 motorlu versiyonlardan uzak durun.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

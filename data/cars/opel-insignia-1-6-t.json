@@ -1,0 +1,38 @@
+{
+  "id": "opel-insignia-1-6-t",
+  "legacy_index": 21,
+  "name": "Opel Insignia 1.6 T",
+  "tag": "oto: Aisin · ~170hp",
+  "brand_group": "Opel",
+  "years": "2009-2017",
+  "specs": {
+    "hp": 170,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    620,
+    950
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 62,
+    "trans": 74,
+    "fun": 60,
+    "comf": 80,
+    "age": 62,
+    "cost": 71,
+    "liq": 64
+  },
+  "sources": [
+    "insigniateam_af40"
+  ],
+  "note": "Makul güçte bir benzinli turbo motor ile Aisin AF40 otomatik kutu. Aynı hidrolik beyin riski burada da geçerli ama arıza çıkarsa maliyeti yönetilebilir seviyede (~5.000 TL). Yakıt tüketimi orta seviyede. Geniş, kullanımı kolay, ucuz parça.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

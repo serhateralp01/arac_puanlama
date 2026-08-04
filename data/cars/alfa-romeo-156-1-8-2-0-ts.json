@@ -1,0 +1,36 @@
+{
+  "id": "alfa-romeo-156-1-8-2-0-ts",
+  "legacy_index": 149,
+  "name": "Alfa Romeo 156 1.8/2.0 TS",
+  "tag": "4 ileri tork konvertörü · ~140-155hp",
+  "brand_group": "Diğer",
+  "years": "1999-2005",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    450,
+    680
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 56,
+    "trans": 66,
+    "fun": 80,
+    "comf": 68,
+    "age": 32,
+    "cost": 44,
+    "liq": 40
+  },
+  "sources": [],
+  "note": "159'dan önceki nesil, İtalyan tasarımının zirvelerinden; otomatiği tork konvertörlü ama Alfa'nın bilinen elektronik ve parça zorlukları burada da geçerli. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

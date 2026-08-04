@@ -1,0 +1,36 @@
+{
+  "id": "skoda-octavia-1-8-tsi",
+  "legacy_index": 65,
+  "name": "Skoda Octavia 1.8 TSI",
+  "tag": "ıslak DQ250 DSG · ~160 bg",
+  "brand_group": "VAG",
+  "years": "2010-2016",
+  "specs": {
+    "hp": 160,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    750,
+    1050
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 56,
+    "trans": 70,
+    "fun": 58,
+    "comf": 82,
+    "age": 64,
+    "cost": 74,
+    "liq": 72
+  },
+  "sources": [],
+  "note": "Otomatiği ıslak kavramalı DQ250 olduğu için kuru kutulu kardeşlerinden belirgin biçimde güvenli. Motoru EA888 ailesinden geldiği için yağ tüketimi ve zincir gergisi konularını kontrol ettirmek gerekiyor. Geniş, hızlı ve pratik bir araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

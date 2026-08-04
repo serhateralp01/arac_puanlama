@@ -1,0 +1,38 @@
+{
+  "id": "fiat-egea-1-4-fire",
+  "legacy_index": 110,
+  "name": "Fiat Egea 1.4 Fire",
+  "tag": "6 ileri tork konvertörü",
+  "brand_group": "Egea/Fluence",
+  "years": "2016-2021",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    820,
+    1150
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 78,
+    "trans": 80,
+    "fun": 30,
+    "comf": 78,
+    "age": 82,
+    "cost": 88,
+    "liq": 90
+  },
+  "sources": [
+    "egeadct"
+  ],
+  "note": "Egea ailesinin çift kavrama taşımayan versiyonu; otomatiği Aisin yapımı tork konvertörlü kutu olduğu için dizel DCT versiyona göre şanzıman tarafı daha güvenli. Motoru basit ve dert çıkarmıyor, yedek parçası her yerde bulunuyor. Gücü mütevazı ve sürüş keyfi düşük.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

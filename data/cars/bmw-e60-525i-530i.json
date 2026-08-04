@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e60-525i-530i",
+  "legacy_index": 97,
+  "name": "BMW E60 525i / 530i",
+  "tag": "ZF 6 ileri tork konvertörü · 218-258 bg",
+  "brand_group": "BMW",
+  "years": "2003-2010",
+  "specs": {
+    "hp": 218,
+    "displacement_l": 2.5,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 72,
+    "trans": 76,
+    "fun": 80,
+    "comf": 72,
+    "age": 42,
+    "cost": 60,
+    "liq": 52
+  },
+  "sources": [
+    "m54",
+    "tuv"
+  ],
+  "note": "E39'un halefi; daha büyük, daha konforlu ve teknolojik olarak daha donanımlı. Otomatiği ZF 6 ileri tork konvertörlü kutu ve sağlam. Buna karşılık elektronik arıza yüzeyi geniş, yakıt ve vergi gideri yüksek, altı silindirli versiyonları Türkiye'de az bulunuyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

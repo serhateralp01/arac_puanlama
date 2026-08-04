@@ -1,0 +1,38 @@
+{
+  "id": "bmw-e90-318d",
+  "legacy_index": 119,
+  "name": "BMW E90 318d",
+  "tag": "ZF 6 ileri tork konvertörü · ~122-143hp",
+  "brand_group": "BMW",
+  "years": "2005-2011",
+  "specs": {
+    "hp": 122,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 52,
+    "trans": 78,
+    "fun": 54,
+    "comf": 76,
+    "age": 52,
+    "cost": 77,
+    "liq": 64
+  },
+  "sources": [
+    "e90n47"
+  ],
+  "note": "E90'ın en ekonomik dizeli; N47 motor ailesinin küçük versiyonu, aynı zincir riskini taşıyor. ZF otomatiği sağlam. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

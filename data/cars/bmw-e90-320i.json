@@ -1,0 +1,38 @@
+{
+  "id": "bmw-e90-320i",
+  "legacy_index": 18,
+  "name": "BMW E90 320i",
+  "tag": "N43 DI · oto: ZF 6 ileri · ~150-170hp",
+  "brand_group": "BMW",
+  "years": "2005-2011",
+  "specs": {
+    "hp": 156,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    720,
+    1000
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 52,
+    "trans": 74,
+    "fun": 60,
+    "comf": 72,
+    "age": 50,
+    "cost": 69,
+    "liq": 66
+  },
+  "sources": [
+    "e90"
+  ],
+  "note": "ZF 6 ileri otomatiği iyi ama N43 direkt enjeksiyonlu motoru sorunlu: pahalı piezo enjektörler, NOx sensörü, yağ basıncı problemleri ve aşınan denge mili öne çıkan şikayetler. Benzinli E90 arıyorsanız bunun yerine 325i tercih edin.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

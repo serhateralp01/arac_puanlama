@@ -1,0 +1,39 @@
+{
+  "id": "mercedes-c180-w204",
+  "legacy_index": 30,
+  "name": "Mercedes C180 (W204)",
+  "tag": "2009+ · oto: 7G/5G-Tronic · ~156hp",
+  "brand_group": "Mercedes",
+  "years": "2009-2014",
+  "specs": {
+    "hp": 156,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    850,
+    1250
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 66,
+    "trans": 80,
+    "fun": 58,
+    "comf": 82,
+    "age": 60,
+    "cost": 76,
+    "liq": 80
+  },
+  "sources": [
+    "m271",
+    "om61x"
+  ],
+  "note": "Otomatik vitesli premium bir araç arıyorsanız en mantıklı seçeneklerden biri. Arkadan itişli, oturaklı bir araç; 7G-Tronic ve 5G-Tronic kutuları sağlam, yedek parçası ve ustası çok yaygın, kullanımı da kolay. 2009 sonrası M271 motorlar daha iyi durumda, yine de zincir geçmişini sorun.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

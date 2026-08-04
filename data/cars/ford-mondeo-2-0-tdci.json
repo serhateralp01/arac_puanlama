@@ -1,0 +1,38 @@
+{
+  "id": "ford-mondeo-2-0-tdci",
+  "legacy_index": 44,
+  "name": "Ford Mondeo 2.0 TDCi",
+  "tag": "oto: ıslak Powershift (tek seçenek) · ~140-163hp",
+  "brand_group": "Ford",
+  "years": "2007-2014",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    600,
+    900
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 72,
+    "trans": 50,
+    "fun": 60,
+    "comf": 84,
+    "age": 60,
+    "cost": 78,
+    "liq": 58
+  },
+  "sources": [
+    "mondps"
+  ],
+  "note": "Otomatik versiyonunda tek seçenek ıslak kavramalı 6DCT450 Powershift kutusu. Bu kutu, Fiesta ve Focus’taki kuru kavramalı kutuyla aynı değil; Volvo’da da kullanılan daha dayanıklı bir birim ve üç yılda bir yağ değişimiyle sorunsuz gidiyor. Yine de tork konvertörlü bir kutu kadar rahat değil. Motoru sağlam, gövdesi çok konforlu.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

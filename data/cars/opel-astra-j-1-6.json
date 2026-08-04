@@ -1,0 +1,36 @@
+{
+  "id": "opel-astra-j-1-6",
+  "legacy_index": 94,
+  "name": "Opel Astra J 1.6",
+  "tag": "6 ileri tork konvertörü · ~115 bg",
+  "brand_group": "Opel",
+  "years": "2010-2015",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    600,
+    880
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 74,
+    "trans": 74,
+    "fun": 42,
+    "comf": 80,
+    "age": 62,
+    "cost": 78,
+    "liq": 68
+  },
+  "sources": [],
+  "note": "Sade ve dayanıklı bir benzinli motorla 6 ileri tork konvertörlü otomatiği bir araya getiriyor; şanzıman tarafında sürpriz yok. Yedek parçası ucuz ve bol. Motor gücü mütevazı, sürüş keyfi sınırlı ama güvenilir bir günlük araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

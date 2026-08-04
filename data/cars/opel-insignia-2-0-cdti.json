@@ -1,0 +1,39 @@
+{
+  "id": "opel-insignia-2-0-cdti",
+  "legacy_index": 19,
+  "name": "Opel Insignia 2.0 CDTI",
+  "tag": "oto: Aisin AF40 · ~130-160hp",
+  "brand_group": "Opel",
+  "years": "2009-2017",
+  "specs": {
+    "hp": 160,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    650,
+    1000
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 72,
+    "trans": 74,
+    "fun": 58,
+    "comf": 81,
+    "age": 60,
+    "cost": 77,
+    "liq": 62
+  },
+  "sources": [
+    "insigniateam_af40",
+    "sikayetvar_insignia"
+  ],
+  "note": "Sağlam bir dizel motorla Aisin AF40 tork konvertörlü otomatiği bir araya getiriyor; InsigniaTeam forumunun teknik teyidine göre çoğu model bu kutuyu kullanıyor (2015 sonrası bazı 1.6 dizellerde GM kaynaklı 6T45'e rastlanabiliyor, motor kodu kontrolü öneriliyor). AF40'ın bilinen zayıf noktası hidrolik beyin (valf gövdesi); belirtileri vuruntu, boşa düşme ve takılı kalma, yenileme maliyeti yaklaşık 5.000 TL ile diğer markaların şanzıman arızalarına göre nispeten uygun. Şikayetvar'da 1.6 CDTİ'de kronik turbo hortumu patlaması ayrı bir dikkat noktası. Geniş, ucuz parça, değer/lira yüksek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

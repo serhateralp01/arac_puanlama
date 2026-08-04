@@ -1,0 +1,38 @@
+{
+  "id": "toyota-corolla-1-6-2013",
+  "legacy_index": 53,
+  "name": "Toyota Corolla 1.6 (2013+)",
+  "tag": "oto: Multidrive CVT · ~132hp",
+  "brand_group": "Japon",
+  "years": "2013-2018",
+  "specs": {
+    "hp": 132,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT"
+  },
+  "price_band_k_try": [
+    900,
+    1300
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 88,
+    "trans": 70,
+    "fun": 34,
+    "comf": 80,
+    "age": 74,
+    "cost": 90,
+    "liq": 94
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Daha modern bir kasa ama otomatiği CVT. Toyota’nın CVT kutusu sınıfının sağlamlarından sayılıyor ve 200 bin kilometreyi aşan sorunsuz örnekleri var; yine de tork konvertörlü bir kutu kadar dayanıklı kabul edilmiyor ve sürüş hissi lastik gibi. İkinci elde satması listedeki en kolay araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

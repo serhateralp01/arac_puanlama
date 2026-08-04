@@ -1,0 +1,38 @@
+{
+  "id": "citroen-c5-2-0-hdi",
+  "legacy_index": 82,
+  "name": "Citroen C5 2.0 HDi",
+  "tag": "Aisin AF40 tork konvertörü · ~140-163 bg",
+  "brand_group": "PSA",
+  "years": "2008-2016",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    550,
+    820
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 68,
+    "trans": 74,
+    "fun": 54,
+    "comf": 83,
+    "age": 54,
+    "cost": 76,
+    "liq": 50
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Hidropnömatik süspansiyonu sayesinde konforu bu listenin en iyilerinden. Otomatiği Aisin tork konvertörlü kutu, dizel motoru da sağlam. Buna karşılık süspansiyon sisteminin bakımı özel bilgi istiyor ve ustası her yerde bulunmuyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

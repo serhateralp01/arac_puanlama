@@ -1,0 +1,275 @@
+#!/usr/bin/env python3
+"""validate.py — veri bütünlüğü ve kanıt politikası denetimi.
+
+İki tür bulgu üretir:
+
+  HATA  — veri bozuk, sayfa üretilse bile yanlış olur. Çıkış kodu 1.
+  UYARI — veri geçerli ama metodoloji açısından zayıf (tek kaynağa dayanan
+          "kaynaklı" araç, hiçbir araca bağlı olmayan kaynak, aşırı yoğunlaşmış
+          kaynak gibi). Varsayılanda çıkış kodunu düşürmez; --strict ile düşürür.
+
+Bu ayrım bilinçli: bugünkü veri onlarca uyarı üretiyor ve bunlar Faz 2'nin iş
+listesi. Hepsini hata saymak denetimi baştan işlevsiz kılardı.
+
+Kullanım:
+    python3 scripts/validate.py
+    python3 scripts/validate.py --strict     # uyarılar da başarısız sayılsın
+    python3 scripts/validate.py --json       # makine okunur çıktı
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import pathlib
+import re
+import sys
+from collections import Counter
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
+
+FUEL = {"Dizel", "Benzin"}
+DRIVETRAIN = {"Önden", "Arkadan", "Dört çeker"}
+TRANSMISSION = {"TK", "Islak DCT", "Kuru DCT", "CVT", "Robot"}
+VERIFICATION = {"verified", "partial", "preliminary"}
+
+# Politika eşikleri — metodoloji kararları, keyfi sayılar değil.
+# Gerekçeleri docs/methodology.md içinde.
+MIN_SOURCES_FOR_VERIFIED = 2  # "kaynaklı" demek için bağımsız iki kaynak
+MAX_CARS_PER_SOURCE = 12      # tek kaynağın taşıyabileceği azami araç sayısı
+MIN_HP = 110                  # listenin kapsam kuralı
+MIN_YEAR = 1998
+
+
+class Report:
+    def __init__(self) -> None:
+        self.errors: list[dict] = []
+        self.warnings: list[dict] = []
+
+    def error(self, where: str, rule: str, msg: str) -> None:
+        self.errors.append({"where": where, "rule": rule, "message": msg})
+
+    def warn(self, where: str, rule: str, msg: str) -> None:
+        self.warnings.append({"where": where, "rule": rule, "message": msg})
+
+
+def load() -> tuple[dict, list[tuple[pathlib.Path, dict]], dict]:
+    criteria = json.loads((DATA / "criteria.json").read_text(encoding="utf-8"))
+    sources = json.loads((DATA / "sources.json").read_text(encoding="utf-8"))
+    cars = [
+        (p, json.loads(p.read_text(encoding="utf-8")))
+        for p in sorted((DATA / "cars").glob("*.json"))
+    ]
+    return criteria, cars, sources
+
+
+def check_car_shape(rep: Report, path: pathlib.Path, car: dict, scored: list[str]) -> None:
+    where = path.name
+    required = [
+        "id", "name", "tag", "brand_group", "years", "specs",
+        "price_band_k_try", "verification", "scores", "sources", "note",
+    ]
+    for field in required:
+        if field not in car:
+            rep.error(where, "eksik-alan", f"`{field}` alanı yok")
+    if any(f not in car for f in required):
+        return
+
+    if car["id"] != path.stem:
+        rep.error(where, "id-dosya-adi", f"id `{car['id']}` dosya adıyla eşleşmiyor")
+
+    s = car["specs"]
+    for field, allowed in (("fuel", FUEL), ("drivetrain", DRIVETRAIN), ("transmission_type", TRANSMISSION)):
+        if s.get(field) not in allowed:
+            rep.error(where, "gecersiz-deger", f"specs.{field} = {s.get(field)!r}, izinli: {sorted(allowed)}")
+
+    if not isinstance(s.get("hp"), int) or s["hp"] <= 0:
+        rep.error(where, "gecersiz-deger", f"specs.hp = {s.get('hp')!r}")
+    elif s["hp"] < MIN_HP:
+        rep.warn(where, "kapsam-kurali", f"{s['hp']} bg, listenin {MIN_HP} bg alt sınırının altında")
+
+    if not isinstance(s.get("displacement_l"), (int, float)) or not (0.5 < s["displacement_l"] < 8):
+        rep.error(where, "gecersiz-deger", f"specs.displacement_l = {s.get('displacement_l')!r}")
+
+    if not re.fullmatch(r"\d{4}-\d{4}", car["years"]):
+        rep.error(where, "yil-formati", f"years = {car['years']!r}, `YYYY-YYYY` bekleniyor")
+    else:
+        lo, hi = (int(x) for x in car["years"].split("-"))
+        if lo > hi:
+            rep.error(where, "yil-araligi", f"years = {car['years']}, başlangıç bitişten büyük")
+        if lo < MIN_YEAR:
+            rep.warn(where, "kapsam-kurali", f"model yılı {lo}, listenin {MIN_YEAR} alt sınırından eski")
+
+    p = car["price_band_k_try"]
+    if not (isinstance(p, list) and len(p) == 2 and all(isinstance(x, (int, float)) for x in p)):
+        rep.error(where, "fiyat-bandi", f"price_band_k_try = {p!r}, [alt, üst] bekleniyor")
+    elif p[0] >= p[1]:
+        rep.error(where, "fiyat-bandi", f"alt sınır {p[0]} üst sınır {p[1]}'den küçük olmalı")
+    elif p[1] / p[0] > 2.2:
+        rep.warn(where, "fiyat-bandi", f"band çok geniş ({p[0]}-{p[1]}), fiyat puanını anlamsızlaştırır")
+
+    if car["verification"] not in VERIFICATION:
+        rep.error(where, "gecersiz-deger", f"verification = {car['verification']!r}")
+
+    scores = car["scores"]
+    missing = set(scored) - set(scores)
+    extra = set(scores) - set(scored)
+    if missing:
+        rep.error(where, "puan-eksik", f"puanı olmayan kriter: {sorted(missing)}")
+    if extra:
+        rep.error(where, "puan-fazla", f"tanımsız kriter puanı: {sorted(extra)}")
+    for k, v in scores.items():
+        if not isinstance(v, int) or not (0 <= v <= 100):
+            rep.error(where, "puan-araligi", f"scores.{k} = {v!r}, 0-100 arası tam sayı olmalı")
+
+    if not isinstance(car["note"], str) or len(car["note"]) < 40:
+        rep.warn(where, "gerekce-kisa", "note alanı gerekçe olarak fazla kısa")
+
+
+def check_evidence_policy(rep: Report, path: pathlib.Path, car: dict, criteria: dict) -> None:
+    """Puanın kanıtla ilişkisini denetler — projenin asıl derdi bu."""
+    where = path.name
+    n_src = len(car.get("sources", []))
+
+    if car["verification"] == "verified" and n_src < MIN_SOURCES_FOR_VERIFIED:
+        rep.warn(
+            where, "tek-kaynak",
+            f"'kaynaklı' işaretli ama {n_src} kaynağa dayanıyor "
+            f"(en az {MIN_SOURCES_FOR_VERIFIED} bağımsız kaynak bekleniyor)",
+        )
+    if car["verification"] == "preliminary" and n_src > 0:
+        rep.warn(
+            where, "etiket-uyumsuz",
+            f"'ön değerlendirme' işaretli ama {n_src} kaynağa bağlanmış; "
+            "ya etiket ya kaynak yanlış",
+        )
+
+    thr = criteria["weak_threshold"]
+    weak = [k for k, v in car["scores"].items() if v < thr]
+    if weak and n_src == 0:
+        rep.warn(
+            where, "kanitsiz-zayif-halka",
+            f"{sorted(weak)} kriterlerinde {thr} altı puan var ama hiç kaynak yok; "
+            "bir aracı eleyen puan kanıtsız verilmemeli",
+        )
+
+    # tag metni ile şanzıman tipinin çelişmesi — göç sırasında bulunan hata türü
+    tag = car["tag"].lower()
+    tx = car["specs"]["transmission_type"]
+    if "kuru" in tag and tx not in ("Kuru DCT", "Robot"):
+        rep.warn(where, "tag-tx-celiski", f"tag 'kuru' diyor ama transmission_type = {tx}")
+    if "ıslak" in tag and tx != "Islak DCT":
+        rep.warn(where, "tag-tx-celiski", f"tag 'ıslak' diyor ama transmission_type = {tx}")
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--strict", action="store_true", help="uyarılar da başarısızlık sayılsın")
+    ap.add_argument("--json", action="store_true", help="JSON çıktı ver")
+    args = ap.parse_args()
+
+    criteria, cars, sources = load()
+    rep = Report()
+    scored = criteria["scored_order"]
+
+    # --- araç bazlı ---
+    seen_ids: Counter[str] = Counter()
+    seen_names: Counter[str] = Counter()
+    for path, car in cars:
+        check_car_shape(rep, path, car, scored)
+        if "id" in car:
+            seen_ids[car["id"]] += 1
+        if "name" in car:
+            seen_names[car["name"]] += 1
+        if all(f in car for f in ("scores", "sources", "verification", "tag", "specs")):
+            check_evidence_policy(rep, path, car, criteria)
+        for sid in car.get("sources", []):
+            if sid not in sources:
+                rep.error(path.name, "kayip-kaynak", f"`{sid}` data/sources.json içinde yok")
+
+    for cid, n in seen_ids.items():
+        if n > 1:
+            rep.error("data/cars", "yinelenen-id", f"`{cid}` {n} kez geçiyor")
+    for name, n in seen_names.items():
+        if n > 1:
+            rep.warn("data/cars", "yinelenen-ad", f"`{name}` {n} araçta aynı; ayırt edilemez")
+
+    # --- kaynak bazlı ---
+    usage: Counter[str] = Counter()
+    for _, car in cars:
+        usage.update(car.get("sources", []))
+
+    for sid, src in sources.items():
+        for field in ("claim", "publisher", "url"):
+            if not src.get(field):
+                rep.error("sources.json", "eksik-alan", f"`{sid}`.{field} boş")
+        if not str(src.get("url", "")).startswith("http"):
+            rep.error("sources.json", "gecersiz-url", f"`{sid}` URL'i http ile başlamıyor")
+        if usage[sid] == 0:
+            rep.warn("sources.json", "yetim-kaynak", f"`{sid}` hiçbir araca bağlı değil")
+        elif usage[sid] > MAX_CARS_PER_SOURCE:
+            rep.warn(
+                "sources.json", "kaynak-yogunlasmasi",
+                f"`{sid}` tek başına {usage[sid]} aracı taşıyor "
+                f"(sınır {MAX_CARS_PER_SOURCE}); tek noktadan bağımlılık",
+            )
+        if src.get("tier") is None:
+            rep.warn("sources.json", "guven-seviyesi-yok", f"`{sid}` için tier atanmamış")
+
+    # --- ağırlık setleri ---
+    for name, preset in criteria["presets"].items():
+        missing = set(criteria["full_order"]) - set(preset)
+        if missing:
+            rep.error("criteria.json", "eksik-agirlik", f"`{name}` setinde {sorted(missing)} yok")
+        total = sum(preset.values())
+        if total != 100:
+            rep.warn("criteria.json", "agirlik-toplami", f"`{name}` seti toplamı {total}, 100 değil")
+
+    for c in criteria["criteria"]:
+        if not c.get("auto") and c.get("bands") is None:
+            rep.warn("criteria.json", "puan-bandi-yok", f"`{c['key']}` için puan bandı tanımlanmamış")
+
+    # --- özet ---
+    verif = Counter(car["verification"] for _, car in cars if "verification" in car)
+    summary = {
+        "arac": len(cars),
+        "kaynak": len(sources),
+        "kaynakli": verif["verified"],
+        "kismen": verif["partial"],
+        "on_degerlendirme": verif["preliminary"],
+        "arac_basina_ortalama_kaynak": round(
+            sum(len(c.get("sources", [])) for _, c in cars) / max(len(cars), 1), 2
+        ),
+        "yetim_kaynak": sum(1 for sid in sources if usage[sid] == 0),
+        "hata": len(rep.errors),
+        "uyari": len(rep.warnings),
+    }
+
+    if args.json:
+        print(json.dumps(
+            {"summary": summary, "errors": rep.errors, "warnings": rep.warnings},
+            ensure_ascii=False, indent=2,
+        ))
+    else:
+        for e in rep.errors:
+            print(f"HATA  [{e['rule']}] {e['where']}: {e['message']}")
+        by_rule = Counter(w["rule"] for w in rep.warnings)
+        for w in rep.warnings:
+            print(f"UYARI [{w['rule']}] {w['where']}: {w['message']}")
+        print("\n--- özet ---")
+        for k, v in summary.items():
+            print(f"{k:32} {v}")
+        if by_rule:
+            print("\nuyarılar kural bazında:")
+            for rule, n in by_rule.most_common():
+                print(f"  {rule:28} {n}")
+
+    if rep.errors:
+        return 1
+    if args.strict and rep.warnings:
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -1,0 +1,38 @@
+{
+  "id": "hyundai-accent-blue-1-6-crdi",
+  "legacy_index": 89,
+  "name": "Hyundai Accent Blue 1.6 CRDi",
+  "tag": "kuru 7DCT çift kavrama · ~128 bg",
+  "brand_group": "Japon",
+  "years": "2012-2018",
+  "specs": {
+    "hp": 128,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 76,
+    "trans": 48,
+    "fun": 44,
+    "comf": 79,
+    "age": 74,
+    "cost": 89,
+    "liq": 84
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Motoru ekonomik ve sağlam, araç da çok yaygın. Otomatiği Hyundai'nin kuru kavramalı 7 ileri çift kavrama kutusu; soğuk havada kalkışta titreme ve yoğun trafikte ısınma yaşanabiliyor, ancak elektrikli aktüatörler sayesinde tamiri diğer çift kavramalılara göre daha kolay. İşletme maliyeti çok düşük.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

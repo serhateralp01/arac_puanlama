@@ -1,0 +1,38 @@
+{
+  "id": "mercedes-c200-cdi-w203",
+  "legacy_index": 76,
+  "name": "Mercedes C200 CDI (W203)",
+  "tag": "5G-Tronic tork konvertörü · ~122 bg",
+  "brand_group": "Mercedes",
+  "years": "2001-2007",
+  "specs": {
+    "hp": 122,
+    "displacement_l": 2.2,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    500,
+    750
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 80,
+    "fun": 48,
+    "comf": 72,
+    "age": 46,
+    "cost": 89,
+    "liq": 68
+  },
+  "sources": [
+    "om61x"
+  ],
+  "note": "C220 CDI ile aynı sağlam OM611 ve OM646 ailesinden, sadece gücü daha düşük. 5G-Tronic otomatiği güvenilir, yakıt tüketimi çok iyi, yedek parçası ucuz ve bol. Sürüş keyfi düşük ama dert de çıkarmıyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

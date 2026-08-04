@@ -1,0 +1,36 @@
+{
+  "id": "peugeot-206-1-6",
+  "legacy_index": 125,
+  "name": "Peugeot 206 1.6",
+  "tag": "4 ileri tork konvertörü · ~110hp",
+  "brand_group": "PSA",
+  "years": "2001-2008",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    420,
+    620
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 62,
+    "trans": 68,
+    "fun": 50,
+    "comf": 69,
+    "age": 44,
+    "cost": 74,
+    "liq": 72
+  },
+  "sources": [],
+  "note": "Küçük ve pratik bir B segment aracı; eski usul 4 ileri tork konvertörlü otomatiği basit ve dayanıklı. Yaşı ilerlediği için pas ve elektrik kontrolü gerekiyor. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

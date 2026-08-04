@@ -1,0 +1,38 @@
+{
+  "id": "opel-astra-1-4-t-2013",
+  "legacy_index": 22,
+  "name": "Opel Astra 1.4 T (2013+)",
+  "tag": "A14NET · oto: Aisin · ~140hp",
+  "brand_group": "Opel",
+  "years": "2013-2019",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 66,
+    "trans": 72,
+    "fun": 56,
+    "comf": 76,
+    "age": 66,
+    "cost": 74,
+    "liq": 70
+  },
+  "sources": [
+    "opel16"
+  ],
+  "note": "Honest John’a göre bu serinin en güvenilir motoru; 1.6 dizelden daha isabetli bir tercih. Hafif turbo benzinli motoru Aisin otomatikle çalışıyor. Astra almak istiyorsanız akıllı seçenek bu.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

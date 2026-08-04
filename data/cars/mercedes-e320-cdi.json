@@ -1,0 +1,39 @@
+{
+  "id": "mercedes-e320-cdi",
+  "legacy_index": 35,
+  "name": "Mercedes E320 CDI",
+  "tag": "W210 OM613 470Nm · 5G · ~197hp",
+  "brand_group": "Mercedes",
+  "years": "1999-2002",
+  "specs": {
+    "hp": 197,
+    "displacement_l": 3.2,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    480,
+    720
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 82,
+    "trans": 80,
+    "fun": 78,
+    "comf": 70,
+    "age": 26,
+    "cost": 64,
+    "liq": 40
+  },
+  "sources": [
+    "om61x",
+    "rust"
+  ],
+  "note": "470 Nm torkuyla uzun yolu yutan bir araç. OM613 motoru sağlam, 5G-Tronic otomatiği güvenilir ve konforu bu listenin en iyilerinden. Ancak W210 gövdesinin paslanma sorunu ve aracın yaşı puanı ciddi biçimde aşağı çekiyor; passız ve altı silindirli temiz bir örnek bulmak artık çok zor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

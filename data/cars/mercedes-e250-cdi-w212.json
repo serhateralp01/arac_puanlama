@@ -1,0 +1,38 @@
+{
+  "id": "mercedes-e250-cdi-w212",
+  "legacy_index": 99,
+  "name": "Mercedes E250 CDI (W212)",
+  "tag": "7G-Tronic tork konvertörü · ~204 bg",
+  "brand_group": "Mercedes",
+  "years": "2009-2016",
+  "specs": {
+    "hp": 204,
+    "displacement_l": 2.1,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    900,
+    1250
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 74,
+    "trans": 82,
+    "fun": 64,
+    "comf": 83,
+    "age": 68,
+    "cost": 77,
+    "liq": 62
+  },
+  "sources": [
+    "om61x"
+  ],
+  "note": "Modern, çok konforlu ve güçlü bir dizel sedan. Otomatiği 7G-Tronic tork konvertörlü kutu ve arkadan itişli Mercedeslerde bu kutu güvenilir kabul ediliyor. Bütçenin üzerinde kalıyor ama uzun yol konforu ve donanımı listenin en iyilerinden.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

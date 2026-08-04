@@ -1,0 +1,36 @@
+{
+  "id": "opel-vectra-c-1-8-2-0",
+  "legacy_index": 129,
+  "name": "Opel Vectra C 1.8/2.0",
+  "tag": "4/5 ileri tork konvertörü · ~122-155hp",
+  "brand_group": "Opel",
+  "years": "2002-2008",
+  "specs": {
+    "hp": 122,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    500,
+    750
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 66,
+    "trans": 70,
+    "fun": 56,
+    "comf": 80,
+    "age": 48,
+    "cost": 71,
+    "liq": 66
+  },
+  "sources": [],
+  "note": "Vectra B'nin daha modern ve daha konforlu hali; otomatiği yine tork konvertörlü. Geniş, ucuz, ucuz parça. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

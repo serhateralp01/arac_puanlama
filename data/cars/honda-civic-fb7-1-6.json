@@ -1,0 +1,38 @@
+{
+  "id": "honda-civic-fb7-1-6",
+  "legacy_index": 49,
+  "name": "Honda Civic FB7 1.6",
+  "tag": "oto: 5 ileri TK · ~125hp",
+  "brand_group": "Japon",
+  "years": "2012-2016",
+  "specs": {
+    "hp": 125,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    850,
+    1150
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 88,
+    "trans": 84,
+    "fun": 48,
+    "comf": 79,
+    "age": 64,
+    "cost": 84,
+    "liq": 90
+  },
+  "sources": [
+    "civic"
+  ],
+  "note": "FD6’nın daha modern ve daha konforlu halefi. Aynı sağlam 1.6 motoru ve 5 ileri tork konvertörlü otomatiği kullanıyor; Civic’lerde CVT kutu ancak 2016 model FC5 ile geldi. Daha yumuşak bir araç ama karakteri FD6 kadar belirgin değil. Bin ve unut diyebileceğiniz bir paket.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

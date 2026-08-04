@@ -1,0 +1,36 @@
+{
+  "id": "toyota-corolla-1-6-2007-13",
+  "legacy_index": 52,
+  "name": "Toyota Corolla 1.6 (2007-13)",
+  "tag": "oto: 4 ileri TK · ~124hp",
+  "brand_group": "Japon",
+  "years": "2007-2013",
+  "specs": {
+    "hp": 124,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 90,
+    "trans": 86,
+    "fun": 32,
+    "comf": 77,
+    "age": 56,
+    "cost": 90,
+    "liq": 92
+  },
+  "sources": [],
+  "note": "1ZR motoru ve eski usul 4 ileri tork konvertörlü otomatiğiyle bozulmayan bir araç. Bir uluslararası forum kullanıcısının esprili ama isabetli tanımıyla bu tip Toyota otomatikleri '1960'ların ToyoGlide tasarımının güncellenmiş hali, hâlâ kayış kullanan, 1910 Model T kadar basit' bir teknoloji — yani hiç iddialı değil ama tam da bu basitliği yüzünden neredeyse bozulmuyor. Sürüş keyfi çok düşük, arıza istatistikleri ve yedek parça bolluğu listenin zirvesinde.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

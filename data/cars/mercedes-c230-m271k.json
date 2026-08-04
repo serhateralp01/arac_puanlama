@@ -1,0 +1,38 @@
+{
+  "id": "mercedes-c230-m271k",
+  "legacy_index": 34,
+  "name": "Mercedes C230 (M271K)",
+  "tag": "W203 2004-05 · 5G-Tronic · ~192hp",
+  "brand_group": "Mercedes",
+  "years": "2004-2007",
+  "specs": {
+    "hp": 192,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    470,
+    700
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 52,
+    "trans": 80,
+    "fun": 60,
+    "comf": 71,
+    "age": 46,
+    "cost": 72,
+    "liq": 64
+  },
+  "sources": [
+    "mbclub_m271"
+  ],
+  "note": "189 beygirle çevik bir araç ve arkadan itiş keyfi var. Mercedes Benz Club Türkiye forumunda M271 triger zincir seti değişimi hâlâ güncel ve aktif bir başlık; bu, zincir riskinin teorik değil süregelen bir konu olduğunu gösteriyor. Zincir geçmişi belgeli değilse ciddi bir risk kalemi. Yedek parça bol, 5G-Tronic otomatiği kendisi sağlam.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "peugeot-406-1-8-2-0",
+  "legacy_index": 145,
+  "name": "Peugeot 406 1.8/2.0",
+  "tag": "4 ileri tork konvertörü · ~110-135hp",
+  "brand_group": "PSA",
+  "years": "1995-2004",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    420,
+    620
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 64,
+    "trans": 68,
+    "fun": 54,
+    "comf": 82,
+    "age": 38,
+    "cost": 68,
+    "liq": 58
+  },
+  "sources": [],
+  "note": "Dönemin en konforlu D segment sedanlarından; otomatiği klasik tork konvertörlü. Yaşı ilerlemiş ama gövdesi hâlâ geniş ve rahat. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

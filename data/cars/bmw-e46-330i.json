@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e46-330i",
+  "legacy_index": 12,
+  "name": "BMW E46 330i",
+  "tag": "oto: ZF 5HP / GM 5L40E · ~231hp",
+  "brand_group": "BMW",
+  "years": "2000-2005",
+  "specs": {
+    "hp": 231,
+    "displacement_l": 3,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    500,
+    750
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 78,
+    "trans": 67,
+    "fun": 80,
+    "comf": 66,
+    "age": 35,
+    "cost": 58,
+    "liq": 38
+  },
+  "sources": [
+    "e46sub",
+    "m54"
+  ],
+  "note": "3 litrelik M54 motoruyla çevik ve keyifli bir araç. Otomatiği ZF ya da GM yapımı olabiliyor; GM’li olanlarda yağ bakımı daha kritik. Bütün E46’larda görülen arka aks taşıyıcısı çatlağı riski burada da geçerli, güçlü motorlu versiyonlarda daha sık görülüyor. Almadan önce mutlaka bu bölgeyi kontrol ettirin.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

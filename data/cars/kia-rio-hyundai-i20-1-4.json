@@ -1,0 +1,36 @@
+{
+  "id": "kia-rio-hyundai-i20-1-4",
+  "legacy_index": 107,
+  "name": "Kia Rio / Hyundai i20 1.4",
+  "tag": "4-6 ileri tork konvertörü",
+  "brand_group": "Japon",
+  "years": "2010-2017",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 80,
+    "trans": 78,
+    "fun": 34,
+    "comf": 76,
+    "age": 70,
+    "cost": 84,
+    "liq": 76
+  },
+  "sources": [],
+  "note": "Küçük gövdeleri sayesinde şehir içinde çok pratik ve park etmesi kolay. Tork konvertörlü otomatikleri sade ve sağlam, işletme maliyetleri düşük. Gücü sınırlı, uzun yolda ve tam yükte zorlanıyorlar.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

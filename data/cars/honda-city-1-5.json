@@ -1,0 +1,38 @@
+{
+  "id": "honda-city-1-5",
+  "legacy_index": 87,
+  "name": "Honda City 1.5",
+  "tag": "5 ileri tork konvertörü · ~120 bg",
+  "brand_group": "Japon",
+  "years": "2009-2014",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.5,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    500,
+    760
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 88,
+    "trans": 82,
+    "fun": 40,
+    "comf": 79,
+    "age": 58,
+    "cost": 84,
+    "liq": 72
+  },
+  "sources": [
+    "civic"
+  ],
+  "note": "Civic'in daha küçük ve daha ucuz kardeşi. Aynı Honda güvenilirliğini ve tork konvertörlü otomatiğini sunuyor, işletme maliyeti de düşük. Kabin malzemeleri sade, sürüş keyfi sınırlı ama bozulmayan bir araç arıyorsanız listenin en ucuz güvenli seçeneklerinden.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

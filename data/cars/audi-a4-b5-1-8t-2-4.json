@@ -1,0 +1,36 @@
+{
+  "id": "audi-a4-b5-1-8t-2-4",
+  "legacy_index": 133,
+  "name": "Audi A4 B5 1.8T / 2.4",
+  "tag": "ZF 5 ileri Tiptronic · ~150-165hp",
+  "brand_group": "VAG",
+  "years": "1994-2001",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    500,
+    750
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 68,
+    "trans": 80,
+    "fun": 66,
+    "comf": 78,
+    "age": 40,
+    "cost": 66,
+    "liq": 62
+  },
+  "sources": [],
+  "note": "B8'den önceki, Multitronic derdi olmayan klasik bir A4; ZF Tiptronic otomatiği tork konvertörlü ve sağlam. Yaşı çok ilerlemiş durumda. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

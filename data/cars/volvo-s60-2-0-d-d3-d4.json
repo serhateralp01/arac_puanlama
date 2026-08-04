@@ -1,0 +1,39 @@
+{
+  "id": "volvo-s60-2-0-d-d3-d4",
+  "legacy_index": 0,
+  "name": "Volvo S60 2.0 D (D3/D4)",
+  "tag": "oto: Aisin Geartronic · ~150-190hp",
+  "brand_group": "Volvo",
+  "years": "2010-2018",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    700,
+    1150
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 90,
+    "fun": 70,
+    "comf": 82,
+    "age": 70,
+    "cost": 69,
+    "liq": 50
+  },
+  "sources": [
+    "volvod",
+    "volvops"
+  ],
+  "note": "Bu aracın otomatiği Aisin yapımı Geartronic kutusudur, yani Volvo’nun sorunlu Powershift kutusu değildir. Sağlam bir dizel motorla güvenilir bir tork konvertörünü bir araya getirdiği, bol torku ve kolay kullanımı olduğu için otomatik vitesliler arasında listenin en dengeli aracı. Tek zorluğu, piyasadaki Volvo’ların çoğu 1.6 dizel olduğu için temiz bir örneğini bulmanın zaman almasıdır.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

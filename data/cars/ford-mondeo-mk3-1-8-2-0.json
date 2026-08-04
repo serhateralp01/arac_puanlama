@@ -1,0 +1,36 @@
+{
+  "id": "ford-mondeo-mk3-1-8-2-0",
+  "legacy_index": 130,
+  "name": "Ford Mondeo Mk3 1.8/2.0",
+  "tag": "4 ileri tork konvertörü · ~115-145hp",
+  "brand_group": "Ford",
+  "years": "2000-2007",
+  "specs": {
+    "hp": 125,
+    "displacement_l": 2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    480,
+    700
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 68,
+    "trans": 72,
+    "fun": 58,
+    "comf": 79,
+    "age": 46,
+    "cost": 70,
+    "liq": 66
+  },
+  "sources": [],
+  "note": "Mk4'ten önceki nesil; aynı sağlam yol tutuşu daha ucuza sunuyor. Otomatiği klasik tork konvertörlü, dertsiz. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

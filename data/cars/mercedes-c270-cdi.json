@@ -1,0 +1,38 @@
+{
+  "id": "mercedes-c270-cdi",
+  "legacy_index": 32,
+  "name": "Mercedes C270 CDI",
+  "tag": "W203 OM612 · 5G-Tronic · ~170hp",
+  "brand_group": "Mercedes",
+  "years": "2001-2005",
+  "specs": {
+    "hp": 170,
+    "displacement_l": 2.7,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    480,
+    720
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 80,
+    "fun": 60,
+    "comf": 69,
+    "age": 46,
+    "cost": 80,
+    "liq": 58
+  },
+  "sources": [
+    "om61x"
+  ],
+  "note": "C220’nin daha torklu beş silindirli kardeşi. OM612 motoru sağlam, 5G-Tronic otomatiği güvenilir. W203 gövdesi W210’a göre pasa daha dayanıklı. Dengeli ve dert çıkarmayan bir dizel.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

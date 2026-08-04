@@ -1,0 +1,38 @@
+{
+  "id": "kia-cerato-1-6",
+  "legacy_index": 55,
+  "name": "Kia Cerato 1.6",
+  "tag": "oto: 6 ileri TK · ~130hp",
+  "brand_group": "Japon",
+  "years": "2013-2018",
+  "specs": {
+    "hp": 130,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    650,
+    920
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 82,
+    "trans": 82,
+    "fun": 40,
+    "comf": 79,
+    "age": 68,
+    "cost": 84,
+    "liq": 78
+  },
+  "sources": [
+    "redriven_cerato"
+  ],
+  "note": "Elantra'nın kardeş platformu, aynı motor+6 ileri tork konvertörlü otomatik ailesini paylaşıyor. ReDriven'ın Avustralya pazarı incelemesi net bir ayrım yapıyor: sadece GT donanımının 7 ileri DCT'si eleştiri alıyor, benim listemdeki gibi normal donanımlardaki tork konvertörlü otomatik ve doğal emişli motor genel olarak güvenilir bulunuyor. Ucuz, kolay, dertsiz.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

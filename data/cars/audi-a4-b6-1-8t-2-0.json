@@ -1,0 +1,38 @@
+{
+  "id": "audi-a4-b6-1-8t-2-0",
+  "legacy_index": 134,
+  "name": "Audi A4 B6 1.8T / 2.0",
+  "tag": "Multitronic CVT veya Tiptronic · ~130-163hp",
+  "brand_group": "VAG",
+  "years": "2001-2004",
+  "specs": {
+    "hp": 130,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT"
+  },
+  "price_band_k_try": [
+    550,
+    800
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 64,
+    "trans": 42,
+    "fun": 66,
+    "comf": 78,
+    "age": 44,
+    "cost": 65,
+    "liq": 60
+  },
+  "sources": [
+    "multi"
+  ],
+  "note": "B5 ile B8 arasındaki geçiş nesli; donanıma göre erken Multitronic CVT ya da klasik Tiptronic gelebiliyor, ilanda hangisi olduğu mutlaka teyit edilmeli. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "fiat-egea-1-6-e-torq",
+  "legacy_index": 59,
+  "name": "Fiat Egea 1.6 E-torQ",
+  "tag": "oto: Aisin 6 TK · ~110hp (sınır altı)",
+  "brand_group": "Egea/Fluence",
+  "years": "2015-2020",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    700,
+    950
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 78,
+    "trans": 80,
+    "fun": 28,
+    "comf": 77,
+    "age": 84,
+    "cost": 90,
+    "liq": 92
+  },
+  "sources": [
+    "wiki_fiat_tipo"
+  ],
+  "note": "Benzinli Egea otomatiği gerçekten Aisin yapımı AW60T 6 ileri tork konvertörlü kutu — Wikipedia'nın Fiat Tipo/Egea teknik verisi bunu doğruluyor; çift kavramalı DCT sadece dizel Multijet motorlarında kullanılıyor, E.torQ benzinlide değil. E.torQ motorunun kendisi 2010'dan beri üretimde olan, dökme demir bloklu, zincirli, basit ve olgun bir tasarım (Jeep Renegade ve Fiat 500X ile paylaşılıyor). Motor basit ve dert çıkarmıyor ama 110 beygirle cansız kalıyor. Hiç uğraşmak istemeyenler için uygun.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "skoda-superb-2-0-tdi",
+  "legacy_index": 24,
+  "name": "Skoda Superb 2.0 TDI",
+  "tag": "oto: DSG DQ250 (ıslak) · ~140-170hp",
+  "brand_group": "VAG",
+  "years": "2009-2015",
+  "specs": {
+    "hp": 170,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    600,
+    950
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 55,
+    "trans": 72,
+    "fun": 52,
+    "comf": 85,
+    "age": 60,
+    "cost": 78,
+    "liq": 64
+  },
+  "sources": [
+    "kroniksorunlar_superb"
+  ],
+  "note": "Çok geniş, konforlu ve ekonomik bir araç. Otomatiği DQ250 ıslak DSG; KronikSorunlar.net'in derlemesine göre bu ailede TSI motorlarda zincir gerginliği, DSG'de ise düşük hızlarda sarsıntı ve geçişte gecikme sık rapor ediliyor. 2008-2010 arası common rail dizellerde ayrıca yağ pompası tahrik riski var, geçmişine bakın.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

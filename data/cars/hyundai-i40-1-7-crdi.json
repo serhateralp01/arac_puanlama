@@ -1,0 +1,36 @@
+{
+  "id": "hyundai-i40-1-7-crdi",
+  "legacy_index": 112,
+  "name": "Hyundai i40 1.7 CRDi",
+  "tag": "6 ileri tork konvertörü · ~115-136hp",
+  "brand_group": "Japon",
+  "years": "2011-2019",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.7,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    550,
+    820
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 76,
+    "trans": 80,
+    "fun": 52,
+    "comf": 83,
+    "age": 60,
+    "cost": 72,
+    "liq": 58
+  },
+  "sources": [],
+  "note": "Mondeo ve Insignia sınıfına yakın geniş bir aile sedanı; otomatiği kendi 6 ileri tork konvertörü, sade ve sağlam. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

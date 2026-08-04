@@ -1,0 +1,39 @@
+{
+  "id": "volvo-s60-1-6-d2",
+  "legacy_index": 2,
+  "name": "Volvo S60 1.6 D2",
+  "tag": "oto: Powershift · ~115hp",
+  "brand_group": "Volvo",
+  "years": "2011-2015",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 45,
+    "trans": 28,
+    "fun": 50,
+    "comf": 78,
+    "age": 70,
+    "cost": 71,
+    "liq": 72
+  },
+  "sources": [
+    "v40d2",
+    "volvops"
+  ],
+  "note": "Bu araçta PSA kaynaklı 1.6 dizel motor, Powershift otomatik kutu ve partikül filtresi bir arada bulunuyor. Piyasada en çok bulunan Volvo bu olsa da, otomatik Volvo’lar arasında en riskli kombinasyon da yine bu. Almanızı önermiyorum.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

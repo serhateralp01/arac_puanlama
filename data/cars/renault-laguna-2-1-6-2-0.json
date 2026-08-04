@@ -1,0 +1,36 @@
+{
+  "id": "renault-laguna-2-1-6-2-0",
+  "legacy_index": 131,
+  "name": "Renault Laguna 2 1.6/2.0",
+  "tag": "4 ileri tork konvertörü · ~110-140hp",
+  "brand_group": "Renault",
+  "years": "2001-2007",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    450,
+    650
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 62,
+    "trans": 66,
+    "fun": 50,
+    "comf": 80,
+    "age": 44,
+    "cost": 69,
+    "liq": 60
+  },
+  "sources": [],
+  "note": "Geniş ve konforlu bir D segment sedan; otomatiği basit tork konvertörlü. Yaşı nedeniyle elektronik aksam (o dönem Renault'un bilinen zayıf noktası) kontrol edilmeli. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

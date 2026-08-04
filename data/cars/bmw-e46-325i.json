@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e46-325i",
+  "legacy_index": 13,
+  "name": "BMW E46 325i",
+  "tag": "oto: ZF 5HP / GM 5L40E · ~192hp",
+  "brand_group": "BMW",
+  "years": "2000-2005",
+  "specs": {
+    "hp": 192,
+    "displacement_l": 2.5,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    450,
+    680
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 80,
+    "trans": 67,
+    "fun": 76,
+    "comf": 66,
+    "age": 36,
+    "cost": 61,
+    "liq": 44
+  },
+  "sources": [
+    "e46sub",
+    "m54"
+  ],
+  "note": "2.5 litrelik M54 motorlu bu versiyon, arka aks taşıyıcısı açısından E46 ailesinin en güvenli üyesi kabul ediliyor. ZF ya da GM otomatikle geliyor. Dengeli, kullanımı kolay, arkadan itişli bir araç.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "audi-a3-8p-2-0-tdi",
+  "legacy_index": 70,
+  "name": "Audi A3 8P 2.0 TDI",
+  "tag": "ıslak DQ250 S tronic · ~140 bg",
+  "brand_group": "VAG",
+  "years": "2004-2012",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 62,
+    "trans": 70,
+    "fun": 58,
+    "comf": 77,
+    "age": 58,
+    "cost": 80,
+    "liq": 68
+  },
+  "sources": [],
+  "note": "Otomatiği ıslak kavramalı DQ250 olduğu için VAG grubunun güvenli kutularından birini kullanıyor. Dizel motoru torklu ve ekonomik. Araç artık yaşlandı, elektrik ve süspansiyon kalemlerini kontrol ettirin.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "mercedes-clk230-komp",
+  "legacy_index": 38,
+  "name": "Mercedes CLK230 Komp.",
+  "tag": "W209 M111 · 5G · coupe · ~197hp",
+  "brand_group": "Mercedes",
+  "years": "1998-2003",
+  "specs": {
+    "hp": 197,
+    "displacement_l": 2.3,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    480,
+    760
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 62,
+    "trans": 78,
+    "fun": 76,
+    "comf": 56,
+    "age": 42,
+    "cost": 68,
+    "liq": 46
+  },
+  "sources": [
+    "enginefinder_m111",
+    "mbclub_m111",
+    "carsexpert_clk_w209"
+  ],
+  "note": "Süperşarjlı 2.3 litrelik M111 motoru (esas olarak W208 kasa, 1998-2003), ~1350 kiloluk gövdesi ve arkadan itişiyle listedeki tek gerçek spor coupe karakterine sahip araç. Uluslararası kaynaklar M111'i net biçimde olumlu değerlendiriyor: EngineFinder 'düzenli bakımla 300.000 km üzeri ömür' diyor, MBClub UK forumunda süperşarjın kendisinin çok dayanıklı olduğu (200.000 mil üzeri örnekler) ve zincir gerginliğinin 100-200 bin km aralığında normal bir bakım kalemi olduğu belirtiliyor. Bilinen zayıf noktalar: supap kapağı contası, yağ karteri contası — küçük ve yönetilebilir kalemler.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "volvo-s80-2-0-d",
+  "legacy_index": 93,
+  "name": "Volvo S80 2.0 D",
+  "tag": "Aisin Geartronic · ~136-181 bg",
+  "brand_group": "Volvo",
+  "years": "2010-2016",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 2,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 78,
+    "trans": 88,
+    "fun": 60,
+    "comf": 85,
+    "age": 58,
+    "cost": 69,
+    "liq": 46
+  },
+  "sources": [
+    "volvod",
+    "volvops"
+  ],
+  "note": "Volvo'nun büyük sedanı; konforu bu listenin en iyilerinden. Sağlam dizel motoru ve Aisin Geartronic kutusunu kullanıyor. Daha az bulunuyor ve büyük gövdesi şehir içinde biraz yorabiliyor, ama uzun yol için çok rahat.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

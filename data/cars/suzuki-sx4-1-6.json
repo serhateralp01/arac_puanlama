@@ -1,0 +1,36 @@
+{
+  "id": "suzuki-sx4-1-6",
+  "legacy_index": 96,
+  "name": "Suzuki SX4 1.6",
+  "tag": "4 ileri tork konvertörü · ~120 bg",
+  "brand_group": "Japon",
+  "years": "2007-2014",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    600,
+    880
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 80,
+    "trans": 74,
+    "fun": 44,
+    "comf": 77,
+    "age": 58,
+    "cost": 68,
+    "liq": 52
+  },
+  "sources": [],
+  "note": "Basit, sağlam ve az dert çıkaran bir araç; eski usul 4 ileri tork konvertörlü otomatiği yavaş ama dayanıklı. Yüksek gövdesi pratiklik sağlıyor. Türkiye'de yedek parça ve usta ağı sınırlı, ikinci elde de az bulunuyor.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

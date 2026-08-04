@@ -1,0 +1,36 @@
+{
+  "id": "citroen-c5-1-nesil-1-8-2-0",
+  "legacy_index": 146,
+  "name": "Citroen C5 1. Nesil 1.8/2.0",
+  "tag": "4 ileri tork konvertörü · ~110-140hp",
+  "brand_group": "PSA",
+  "years": "2001-2004",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    450,
+    650
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 64,
+    "trans": 68,
+    "fun": 54,
+    "comf": 84,
+    "age": 40,
+    "cost": 62,
+    "liq": 50
+  },
+  "sources": [],
+  "note": "Hidropnömatik süspansiyonun ilk nesli; otomatiği tork konvertörlü ama süspansiyon bakımı özel bilgi istiyor. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "toyota-avensis-1-8",
+  "legacy_index": 86,
+  "name": "Toyota Avensis 1.8",
+  "tag": "Multidrive CVT · ~147 bg",
+  "brand_group": "Japon",
+  "years": "2009-2018",
+  "specs": {
+    "hp": 147,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT"
+  },
+  "price_band_k_try": [
+    800,
+    1150
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 88,
+    "trans": 70,
+    "fun": 40,
+    "comf": 86,
+    "age": 68,
+    "cost": 81,
+    "liq": 72
+  },
+  "sources": [
+    "trbox"
+  ],
+  "note": "Geniş, konforlu ve son derece güvenilir bir aile sedanı. Otomatiği yine CVT; Toyota'nın bu kutusu sağlam kabul ediliyor. Sürüş keyfi düşük, buna karşılık uzun yol konforu ve arıza istatistikleri çok iyi.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

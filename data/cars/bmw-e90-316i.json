@@ -1,0 +1,36 @@
+{
+  "id": "bmw-e90-316i",
+  "legacy_index": 120,
+  "name": "BMW E90 316i",
+  "tag": "ZF 6 ileri tork konvertörü · ~122hp",
+  "brand_group": "BMW",
+  "years": "2005-2011",
+  "specs": {
+    "hp": 122,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "preliminary",
+  "scores": {
+    "motor": 70,
+    "trans": 78,
+    "fun": 58,
+    "comf": 76,
+    "age": 50,
+    "cost": 65,
+    "liq": 58
+  },
+  "sources": [],
+  "note": "E90 ailesinin en mütevazı benzinlisi; N43 değil daha basit bir motor kullanıyor olabilir, yıl bazında teyit gerekiyor. ZF otomatiği sağlam. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}

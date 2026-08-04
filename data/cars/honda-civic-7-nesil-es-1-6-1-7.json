@@ -1,0 +1,38 @@
+{
+  "id": "honda-civic-7-nesil-es-1-6-1-7",
+  "legacy_index": 139,
+  "name": "Honda Civic 7. Nesil (ES) 1.6/1.7",
+  "tag": "4/5 ileri tork konvertörü · ~110-125hp",
+  "brand_group": "Japon",
+  "years": "2001-2005",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK"
+  },
+  "price_band_k_try": [
+    450,
+    680
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 86,
+    "trans": 82,
+    "fun": 50,
+    "comf": 73,
+    "age": 42,
+    "cost": 82,
+    "liq": 78
+  },
+  "sources": [
+    "civic"
+  ],
+  "note": "FD6'dan önceki nesil; aynı Honda güvenilirlik ününü ve tork konvertörlü otomatiği daha erişilebilir fiyata sunuyor. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "provenance": {
+    "imported_from": "legacy/arac-puanlama-v1.html",
+    "imported_at": "2026-08-04",
+    "method": "scripts/import_legacy.js"
+  }
+}
