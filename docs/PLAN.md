@@ -44,31 +44,36 @@ olduğunun ölçülmesidir.
 
 ### 1.2 Asıl kanıt: aynı donanım, farklı puan
 
-Denetim uyarılarından daha ağır bir bulgu var. Veriye kutu ailesi bazında bakınca
-**aynı şanzımanın farklı araçlarda farklı puan aldığı ve bu farkın hiçbir yerde
-gerekçelendirilmediği** görülüyor:
+Denetim uyarılarından daha ağır bir bulgu var: aynı şanzıman kutusu farklı araçlarda
+farklı puan alıyor ve bu farkın gerekçesi hiçbir yerde yazılı değil.
 
-| Kutu | Araç | `trans` |
-|---|---|---:|
-| Islak 6DCT450 (Ford/Volvo Powershift) | Volvo S60 2.0 T | **28** |
-| Islak 6DCT450 (aynı kutu) | Ford Mondeo 2.0 TDCi | **50** |
-| Islak 6DCT450 (aynı kutu) | Ford Focus 3 1.5 TDCi | **58** |
-| Aisin TK | Volvo S60 2.0 D | **90** |
-| Aisin AF40 (TK) | Opel Insignia 2.0 CDTI | **74** |
-| Aisin AF40 (TK) | Peugeot 308 1.6 THP | **72** |
-| Kuru DQ200 | VW Golf 1.4 TSI | **35** |
-| Kuru DQ200 | VW Passat B7 1.6 TDI | **38** |
-| Islak DQ250 | VW CC 1.8 TSI | **66** |
-| Islak DQ250 | VW Passat B8 2.0 TDI | **72** |
+Bu bulgu ilk olarak araç notları üzerinde metin aramasıyla tahmin edilmişti. Kutu
+kodları veriye alanlaştırıldıktan sonra (`data/transmissions.json` ve araç kayıtlarındaki
+`specs.transmission_id`) artık tahmin değil ölçüm var. `scripts/consistency.py`, aynı
+kutuyu paylaşan araçların `trans` puanları arasındaki yayılımı hesaplıyor.
 
-Bunların bir kısmı savunulabilir (AF40'ın hidrolik beyin zaafı Volvo'nun Aisin
-kutusunda yok; Volvo Powershift örneklerinin bakım geçmişi daha kötü olabilir).
-Ama **hiçbiri veride yazmıyor.** 28 ile 58 arasındaki 30 puanlık fark, aynı donanım
-için, gerekçesiz duruyor. Bu, sezgisel puanlamanın doğrudan izi.
+**Ölçüm, tahminden daha ılımlı ve daha kesin bir tablo çıkardı.** Birden fazla araç
+paylaşan 20 kutunun yalnızca üçünde 15 puanı aşan yayılım var:
 
-> Not: yukarıdaki eşleştirme araç notlarındaki metin aramasıyla yapıldı, dolayısıyla
-> tam bir envanter değil. Kutu kodları veriye alanlaştırılana kadar (bkz. 3.2) kesin
-> ölçüm mümkün değil — ki bu da zaten yapılacaklardan biri.
+| Kutu | Araç sayısı | Yayılım | Aralık |
+|---|---:|---:|---|
+| `nissan-xtronic` | 3 | **36** | Latitude 16 · Juke 45 · Fluence 52 |
+| `getrag-6dct450` | 3 | **30** | Volvo S60 2.0 T 28 · Mondeo 50 · Focus 58 |
+| `psa-al4` | 3 | **28** | C4 32 · Xsara 60 · 307 60 |
+
+Kalan 17 kutu eşiğin altında ve çoğu oldukça tutarlı: `mb-5g-tronic` 12 araçta yalnızca
+2 puan, `vag-dq200` 8 araçta 3 puan, `toyota-multidrive` 4 araçta 0 puan yayılıyor.
+
+Bu, ilk teşhisin bir kısmını doğruluyor ama bir kısmını da düzeltiyor. Sorun sanıldığı
+kadar yaygın değil; üç kutuda yoğunlaşmış durumda. Yine de bu üç kutudaki farkların
+hiçbiri veride gerekçelendirilmemiş. `getrag-6dct450` örneğinde aynı donanım için 30
+puanlık bir fark var ve Volvo'nun 28 puanı ile Ford'un 58 puanı arasındaki ayrımı
+açıklayan tek bir cümle bile yok.
+
+> Ölçüm henüz eksik: 154 aracın 97'si bir kutu kaydına bağlandı, 57'si bağlanmadan
+> kaldı. Bağlanmayanların `tag` alanında kutu adı açıkça yazmıyor (örneğin yalnızca
+> "4 ileri tork konvertörü" deniyor) ya da birden fazla ihtimal belirtiliyor (örneğin
+> "ZF 5HP / GM 5L40E"). Bu araçların kutusu kaynağa dayalı araştırmayla belirlenecek.
 
 ### 1.3 Kök neden
 

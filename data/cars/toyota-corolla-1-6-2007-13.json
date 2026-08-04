@@ -10,7 +10,8 @@
     "displacement_l": 1.6,
     "fuel": "Benzin",
     "drivetrain": "Önden",
-    "transmission_type": "TK"
+    "transmission_type": "TK",
+    "transmission_id": null
   },
   "price_band_k_try": [
     650,

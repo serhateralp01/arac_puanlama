@@ -20,16 +20,19 @@ kaynaklar yalnızca birer bağlantı olarak duruyordu.
 Bu depo, veriyi koddan ayırarak her iki sorunu da çözmeyi hedefliyor:
 
 ```
-data/cars/*.json        her araç kendi dosyasında
-data/sources.json       kaynak künyeleri: hangi iddiayı, hangi yayıncı, hangi bağlantı
-data/criteria.json      kriter tanımları, ağırlık setleri, eşikler
-data/schema/*.json      JSON Schema; hem editör desteği hem veri sözleşmesi
-templates/index.html    sayfanın iskeleti, veri yerine yer tutucu içerir
-scripts/build.py        veri ile şablonu birleştirip HTML üretir
-scripts/validate.py     veri bütünlüğünü ve kanıt politikasını denetler
-scripts/smoke_test.js   üretilen sayfayı gerçek bir tarayıcıda çalıştırıp doğrular
-legacy/                 göç öncesi tek dosyalık sürüm, referans olarak duruyor
-docs/                   mimari kararlar, metodoloji, bilinen sorunlar, yol haritası
+data/cars/*.json         her araç kendi dosyasında
+data/sources.json        kaynak künyeleri: hangi iddiayı, hangi yayıncı, hangi bağlantı
+data/transmissions.json  şanzıman kutusu kayıtları; araçlar buraya kimlikle bağlanır
+data/criteria.json       kriter tanımları, ağırlık setleri, eşikler
+data/schema/*.json       JSON Schema; hem editör desteği hem veri sözleşmesi
+templates/index.html     sayfanın iskeleti, veri yerine yer tutucu içerir
+scripts/build.py         veri ile şablonu birleştirip HTML üretir
+scripts/validate.py      veri bütünlüğünü ve kanıt politikasını denetler
+scripts/consistency.py   aynı donanımı paylaşan araçların puan tutarlılığını ölçer
+scripts/smoke_test.js    üretilen sayfayı gerçek bir tarayıcıda çalıştırıp doğrular
+scripts/migrations/      tek seferlik göç betikleri, kayıt için saklanıyor
+legacy/                  göç öncesi tek dosyalık sürüm, referans olarak duruyor
+docs/                    mimari kararlar, metodoloji, bilinen sorunlar, yol haritası
 ```
 
 Bu ayrımın kazancı şudur: bir puan değiştiğinde `git diff` artık hem eski değeri, hem
@@ -45,6 +48,7 @@ python3 scripts/build.py             # veriden HTML üret
 python3 scripts/build.py --check     # üretilmiş dosya veriyle uyumlu mu, yazmadan söyle
 python3 scripts/validate.py          # veriyi denetle
 python3 scripts/validate.py --strict # uyarılar da başarısızlık sayılsın
+python3 scripts/consistency.py       # aynı kutuyu paylaşan araçlarda puan yayılımı
 ```
 
 Tarayıcı testi yalnızca geliştirme sırasında gerekir ve Playwright ister:
@@ -99,7 +103,7 @@ kaydında yazılı.
 
 ## Denetimin bugünkü durumu
 
-`scripts/validate.py` şu an **0 hata, 401 uyarı** veriyor. Uyarılar bilinçli olarak
+`scripts/validate.py` şu an **0 hata, 495 uyarı** veriyor. Uyarılar bilinçli olarak
 başarısızlık sayılmıyor; her biri yol haritasındaki bir maddeye karşılık geliyor.
 
 | Kural | Adet | Ne anlama geliyor |
@@ -107,11 +111,15 @@ başarısızlık sayılmıyor; her biri yol haritasındaki bir maddeye karşıl�
 | `govde-tipi-yok` | 154 | Gövde tipi alanı henüz doldurulmadı, gövde filtresi bu yüzden yok |
 | `kaynak-yetersiz` | 116 | Araç bir ile üç arası kaynağa dayanıyor, dörde çıkması gerekiyor |
 | `guven-seviyesi-yok` | 68 | Hiçbir kaynağa A, B veya C güven seviyesi atanmadı |
+| `kutu-kaydi-yok` | 57 | Aracın şanzıman kutusu henüz bir kayda bağlanmadı |
 | `kaynaksiz` | 37 | Araç hiçbir kaynağa bağlı değil |
+| `kutu-temel-puani-yok` | 29 | Şanzıman kutusunun temel puanı yok, puan hâlâ araç bazında veriliyor |
 | `yetim-kaynak` | 13 | Kaynak hiçbir araca bağlı değil, çoğu SUV araştırmasından kalma |
 | `puan-bandi-yok` | 7 | Hiçbir kriterin yazılı puan bandı yok |
+| `kutu-kaynaksiz` | 6 | Şanzıman kutusu kaydı hiçbir kaynağa dayanmıyor |
 | `kanitsiz-zayif-halka` | 4 | Aracı eleyen 35 altı puan var ama kaynak yok |
 | `kaynak-yogunlasmasi` | 2 | Tek bir kaynak 12'den fazla aracı taşıyor |
+| `yetim-kutu` | 2 | Kutu kaydı hiçbir araca bağlı değil |
 
 Araç başına ortalama kaynak sayısı **1.09**. Bu sayıyı 2.0'ın üstüne çıkarmak yol
 haritasının ana hedefi.

@@ -10,7 +10,8 @@
     "displacement_l": 2,
     "fuel": "Dizel",
     "drivetrain": "Önden",
-    "transmission_type": "CVT"
+    "transmission_type": "CVT",
+    "transmission_id": "vag-multitronic"
   },
   "price_band_k_try": [
     750,

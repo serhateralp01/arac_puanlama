@@ -10,7 +10,8 @@
     "displacement_l": 1.6,
     "fuel": "Dizel",
     "drivetrain": "Önden",
-    "transmission_type": "Kuru DCT"
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200"
   },
   "price_band_k_try": [
     780,

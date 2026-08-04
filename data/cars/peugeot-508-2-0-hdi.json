@@ -10,7 +10,8 @@
     "displacement_l": 2,
     "fuel": "Dizel",
     "drivetrain": "Önden",
-    "transmission_type": "TK"
+    "transmission_type": "TK",
+    "transmission_id": "aisin-af40"
   },
   "price_band_k_try": [
     750,

@@ -10,7 +10,8 @@
     "displacement_l": 1.9,
     "fuel": "Dizel",
     "drivetrain": "Önden",
-    "transmission_type": "TK"
+    "transmission_type": "TK",
+    "transmission_id": "aisin-tf80"
   },
   "price_band_k_try": [
     500,

@@ -10,7 +10,8 @@
     "displacement_l": 1.6,
     "fuel": "Benzin",
     "drivetrain": "Önden",
-    "transmission_type": "CVT"
+    "transmission_type": "CVT",
+    "transmission_id": "toyota-multidrive"
   },
   "price_band_k_try": [
     900,

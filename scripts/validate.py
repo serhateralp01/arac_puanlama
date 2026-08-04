@@ -69,17 +69,24 @@ class Report:
         self.warnings.append({"where": where, "rule": rule, "message": msg})
 
 
-def load() -> tuple[dict, list[tuple[pathlib.Path, dict]], dict]:
+def load() -> tuple[dict, list[tuple[pathlib.Path, dict]], dict, dict]:
     criteria = json.loads((DATA / "criteria.json").read_text(encoding="utf-8"))
     sources = json.loads((DATA / "sources.json").read_text(encoding="utf-8"))
+    transmissions = {
+        k: v
+        for k, v in json.loads((DATA / "transmissions.json").read_text(encoding="utf-8")).items()
+        if not k.startswith("_")
+    }
     cars = [
         (p, json.loads(p.read_text(encoding="utf-8")))
         for p in sorted((DATA / "cars").glob("*.json"))
     ]
-    return criteria, cars, sources
+    return criteria, cars, sources, transmissions
 
 
-def check_car_shape(rep: Report, path: pathlib.Path, car: dict, scored: list[str]) -> None:
+def check_car_shape(
+    rep: Report, path: pathlib.Path, car: dict, scored: list[str], transmissions: dict
+) -> None:
     where = path.name
     required = [
         "id", "name", "tag", "brand_group", "years", "specs",
@@ -110,6 +117,24 @@ def check_car_shape(rep: Report, path: pathlib.Path, car: dict, scored: list[str
 
     if s.get("body_type") is None:
         rep.warn(where, "govde-tipi-yok", "body_type alanı boş; gövde filtresi bu araçta çalışmayacak")
+
+    box_id = s.get("transmission_id")
+    if box_id is None:
+        rep.warn(
+            where, "kutu-kaydi-yok",
+            "transmission_id boş; bu araç şanzıman tutarlılık denetiminin dışında kalıyor",
+        )
+    elif box_id not in transmissions:
+        rep.error(
+            where, "kayip-kutu-kaydi",
+            f"`{box_id}` data/transmissions.json içinde yok",
+        )
+    elif transmissions[box_id]["type"] != s["transmission_type"]:
+        rep.error(
+            where, "kutu-tipi-celiski",
+            f"araç `{s['transmission_type']}` diyor ama `{box_id}` kaydı "
+            f"`{transmissions[box_id]['type']}` diyor",
+        )
 
     if not re.fullmatch(r"\d{4}-\d{4}", car["years"]):
         rep.error(where, "yil-formati", f"years = {car['years']!r}, `YYYY-YYYY` bekleniyor")
@@ -192,7 +217,7 @@ def main() -> int:
     ap.add_argument("--json", action="store_true", help="JSON çıktı ver")
     args = ap.parse_args()
 
-    criteria, cars, sources = load()
+    criteria, cars, sources, transmissions = load()
     rep = Report()
     scored = criteria["scored_order"]
 
@@ -200,7 +225,7 @@ def main() -> int:
     seen_ids: Counter[str] = Counter()
     seen_names: Counter[str] = Counter()
     for path, car in cars:
-        check_car_shape(rep, path, car, scored)
+        check_car_shape(rep, path, car, scored, transmissions)
         if "id" in car:
             seen_ids[car["id"]] += 1
         if "name" in car:
@@ -239,6 +264,30 @@ def main() -> int:
             )
         if src.get("tier") is None:
             rep.warn("sources.json", "guven-seviyesi-yok", f"`{sid}` için tier atanmamış")
+
+    # --- şanzıman kayıtları ---
+    box_usage: Counter[str] = Counter()
+    for _, car in cars:
+        bid = car.get("specs", {}).get("transmission_id")
+        if bid:
+            box_usage[bid] += 1
+
+    for bid, box in transmissions.items():
+        if box.get("base_score") is None:
+            rep.warn(
+                "transmissions.json", "kutu-temel-puani-yok",
+                f"`{bid}` için base_score atanmamış; puan hâlâ araç bazında veriliyor",
+            )
+        if not box.get("sources"):
+            rep.warn("transmissions.json", "kutu-kaynaksiz", f"`{bid}` hiç kaynağa dayanmıyor")
+        for sid in box.get("sources", []):
+            if sid not in sources:
+                rep.error(
+                    "transmissions.json", "kayip-kaynak",
+                    f"`{bid}` kaydındaki `{sid}` data/sources.json içinde yok",
+                )
+        if box_usage[bid] == 0:
+            rep.warn("transmissions.json", "yetim-kutu", f"`{bid}` hiçbir araca bağlı değil")
 
     # --- ağırlık setleri ---
     for name, preset in criteria["presets"].items():

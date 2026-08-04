@@ -10,7 +10,8 @@
     "displacement_l": 1.3,
     "fuel": "Benzin",
     "drivetrain": "Önden",
-    "transmission_type": "Islak DCT"
+    "transmission_type": "Islak DCT",
+    "transmission_id": "getrag-7dct300"
   },
   "price_band_k_try": [
     900,

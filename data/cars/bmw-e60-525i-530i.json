@@ -10,7 +10,8 @@
     "displacement_l": 2.5,
     "fuel": "Benzin",
     "drivetrain": "Arkadan",
-    "transmission_type": "TK"
+    "transmission_type": "TK",
+    "transmission_id": "zf-6hp"
   },
   "price_band_k_try": [
     650,

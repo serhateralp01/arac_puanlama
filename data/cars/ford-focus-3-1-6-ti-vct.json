@@ -10,7 +10,8 @@
     "displacement_l": 1.6,
     "fuel": "Benzin",
     "drivetrain": "Önden",
-    "transmission_type": "Kuru DCT"
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "ford-dps6"
   },
   "price_band_k_try": [
     750,

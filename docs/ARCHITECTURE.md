@@ -19,9 +19,17 @@ izlenebilmesidir. Bu izlenebilirliği sağlayan şey git geçmişidir: bir puan 
 gösterir. Veri bir veritabanına taşınırsa bu iz kaybolur. Türetilmiş çıktılar
 kaybolduğunda ise hiçbir şey kaybolmaz, çünkü yeniden üretilebilirler.
 
-**Sonucu:** Hiçbir betik `data/` dosyalarını okuyup değiştirmez; yalnızca okur. Veriyi
-değiştiren tek şey insan eliyle yapılan ve gerekçesi commit mesajında bulunan
-düzenlemedir.
+**Sonucu:** Normal çalışma akışındaki hiçbir betik `data/` dosyalarını değiştirmez;
+yalnızca okur. `build.py` ve `validate.py` bu kurala tabidir ve veriye asla yazmaz.
+
+**Tek istisna, göç betikleridir.** Yapısal bir değişiklik 154 dosyaya birden
+uygulanacaksa, bu iş elle yapılamaz. Böyle durumlarda `scripts/migrations/` altına
+tarihli ve tek seferlik bir betik yazılır, insan tarafından bilerek çalıştırılır ve
+ürettiği fark `git diff` üzerinden gözden geçirilir. Betiğin kendisi de depoda kalır,
+çünkü değişikliğin nasıl yapıldığı da değişikliğin kendisi kadar kayda değerdir.
+
+İstisnanın sınırı nettir: göç betiği kendiliğinden, bir derleme veya denetim adımının
+parçası olarak çalışmaz. Bir kez çalışır, sonucu incelenir ve commit edilir.
 
 ---
 

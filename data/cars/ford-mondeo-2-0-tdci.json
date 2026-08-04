@@ -10,7 +10,8 @@
     "displacement_l": 2,
     "fuel": "Dizel",
     "drivetrain": "Önden",
-    "transmission_type": "Islak DCT"
+    "transmission_type": "Islak DCT",
+    "transmission_id": "getrag-6dct450"
   },
   "price_band_k_try": [
     600,

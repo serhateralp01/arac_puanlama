@@ -10,7 +10,8 @@
     "displacement_l": 2.1,
     "fuel": "Dizel",
     "drivetrain": "Arkadan",
-    "transmission_type": "TK"
+    "transmission_type": "TK",
+    "transmission_id": "mb-5g-tronic"
   },
   "price_band_k_try": [
     600,
