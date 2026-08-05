@@ -14,11 +14,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "156'nın çift bujili benzinli ailesi. Değişken supap zamanlaması ve çift ateşleme kullanıyor."
+    "base_score": 46,
+    "maintenance": "Triger kayışı ve gergisi 36.000 milde değiştirilmeli (fabrika aralığının yarısı).",
+    "known_issues": [
+      {
+        "issue": "Triger kayışı/gergisinin garanti kapsamında sık arızalanması nedeniyle değişim aralığının yarıya indirilmesi",
+        "onset_km": 58000,
+        "frequency": "sık",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginecrux_alfa_twinspark"
+        ]
+      },
+      {
+        "issue": "Kam mili kapağı contasından yağ sızıntısı, rölanti düşüşüyle stop etme",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "enginecrux_alfa_twinspark"
+        ]
+      }
+    ],
+    "sources": [
+      "enginecrux_alfa_twinspark"
+    ],
+    "note": "156'nın çift bujili benzinli ailesi. Değişken supap zamanlaması ve çift ateşleme kullanıyor. [base_score gerekçesi: 35-49 (bilinen risk): karışık bir üne sahip, kayış/gergi arızası garanti kapsamında sık görülecek kadar ciddiydi; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
   },
   "bmw-m43": {
     "id": "bmw-m43",
@@ -1240,11 +1261,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
+    "base_score": 70,
     "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Mazda 626'nın 2.0 benzinlisi."
+    "known_issues": [
+      {
+        "issue": "Supap kapağı/karter contasından yağ sızıntısı, termostat/su pompası kaynaklı aşırı ısınma",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_mazda_fs"
+        ]
+      }
+    ],
+    "sources": [
+      "engineexplained_mazda_fs"
+    ],
+    "note": "Mazda 626'nın 2.0 benzinlisi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): 'güvenilir, 200.000 mili aşabiliyor' diyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "mazda-lf": {
     "id": "mazda-lf",
@@ -1260,11 +1293,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Mazda 6 GH'nin 2.0 benzinlisi."
+    "base_score": 68,
+    "maintenance": "Termostat ~60.000 milde kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "100.000 mil sonrası supap keçesi aşınması ve biyel kolu yatağı kaynaklı yağ tüketimi",
+        "onset_km": 160000,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "myenginespecs_mazda_lf"
+        ]
+      }
+    ],
+    "sources": [
+      "myenginespecs_mazda_lf"
+    ],
+    "note": "Mazda 6 GH'nin 2.0 benzinlisi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: 'oldukça güvenilir ve dayanıklı' ama biyel kolu yatağı kaynaklı yağ tüketimi motor tipi için normalden ağır bir kalem; tek kaynağa (C) dayanıyor.]"
   },
   "mb-m111": {
     "id": "mb-m111",
@@ -1569,11 +1614,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Lancer'ın 1.6 benzinlisi."
+    "base_score": 58,
+    "maintenance": "Yağ seviyesi sık kontrol edilmeli; hidrolik iticisi olmadığı için periyodik supap ayarı gerekiyor.",
+    "known_issues": [
+      {
+        "issue": "Segman/keçe aşınması kaynaklı yağ yakma; yağ açlığı biyel kolu ve piston grubu ömrünü kısaltıyor",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "büyük onarım",
+        "sources": [
+          "mymotorlist_4a92_oilstarvation"
+        ]
+      },
+      {
+        "issue": "100.000 km sonrası krank keçesi sızıntısı ve triger zinciri uzaması",
+        "onset_km": 100000,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "mymotorlist_4a92_oilstarvation"
+        ]
+      }
+    ],
+    "sources": [
+      "mymotorlist_4a92_oilstarvation"
+    ],
+    "note": "Lancer'ın 1.6 benzinlisi. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının altında: yağ açlığının biyel kolu/piston grubunu etkileyebilmesi gerçek bir yapısal risk; tek kaynağa (C) dayanıyor.]"
   },
   "nissan-hr16de": {
     "id": "nissan-hr16de",
@@ -1588,11 +1654,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Juke'un 1.6 atmosferik benzinlisi; Renault ile ortak geliştirilen aile."
+    "base_score": 58,
+    "maintenance": "Yağ seviyesi erken kilometrelerden itibaren kontrol edilmeli; olağandışı ses varsa triger zinciri gergisi önleyici değiştirilmeli.",
+    "known_issues": [
+      {
+        "issue": "20-30 bin mil gibi erken kilometrede yağ tüketimi",
+        "onset_km": 40000,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_hr16de"
+        ]
+      }
+    ],
+    "sources": [
+      "engineexplained_hr16de"
+    ],
+    "note": "Juke'un 1.6 atmosferik benzinlisi; Renault ile ortak geliştirilen aile. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): genel olarak güvenilir ama yağ tüketiminin alışılmadık derecede erken başlaması dikkat çekici; tek kaynağa (C) dayanıyor.]"
   },
   "nissan-qg16": {
     "id": "nissan-qg16",
@@ -1607,11 +1685,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Almera ve Primera'nın benzinli ailesi."
+    "base_score": 68,
+    "maintenance": "QG18 sürümünde yağ tüketimi izlenmeli; triger zinciri ~100.000 milde kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "QG18DE'de bilinen yağ tüketimi eğilimi (~1500 milde 1 quart)",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "enginecrux_qg18de"
+        ]
+      }
+    ],
+    "sources": [
+      "enginecrux_qg18de"
+    ],
+    "note": "Almera ve Primera'nın benzinli ailesi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: 'sade, ciddi arızası yok, 200.000 mili aşabiliyor' diyor; tek kaynağa (C) dayanıyor.]"
   },
   "psa-dv6": {
     "id": "psa-dv6",
@@ -1749,9 +1839,21 @@
     "aspiration": "Atmosferik",
     "base_score": 68,
     "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "C5 birinci nesil ve 406'daki 1.8/2.0 atmosferik benzinli aile. TU ailesiyle aynı dönemin sade, döküm demir bloklu PSA motoru; sivil kullanımdaki güvenilirliğine dair motora özgü bağımsız bir kaynak bulunamadı, motorspor uygulamalarında dayanıklılığı belgeleniyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında, temkinli: aynı neslin TU5 ailesine yakın bir profil varsayıldı ama motora özgü kaynak eksikliği nedeniyle TU5'in altında tutuldu. Kaynak eklenene kadar bu puan temkinli bir varsayımdır.]"
+    "known_issues": [
+      {
+        "issue": "Kam mili keçesi veya karter contasından yağ sızıntısı",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "bakım kalemi",
+        "sources": [
+          "enginecrux_xu10j2"
+        ]
+      }
+    ],
+    "sources": [
+      "enginecrux_xu10j2"
+    ],
+    "note": "C5 birinci nesil ve 406'daki 1.8/2.0 atmosferik benzinli aile. TU ailesiyle aynı dönemin sade, döküm demir bloklu PSA motoru. Gerçek kullanımda 268.000 km'yi sorunsuz aşan örnekler bildiriliyor; en sık şikayet yağ sızıntısı gibi küçük bir bakım kalemi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: 'genel olarak sağlam' ama tek kaynağa (C) dayanıyor ve TU5 ailesi kadar geniş bir doğrulama yok.]"
   },
   "renault-h5ht": {
     "id": "renault-h5ht",
@@ -1950,11 +2052,24 @@
     ],
     "cylinders": 6,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Rover 75'in V6 benzinlisi."
+    "base_score": 44,
+    "maintenance": "Silindir kapağı contası yüksek kilometrede ve sıcak havada izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Silindir kapağının arka tarafında conta arızası, yüksek kilometrede ve sıcak iklimde daha sık",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "büyük onarım",
+        "sources": [
+          "roverkseries_kv6_headgasket"
+        ]
+      }
+    ],
+    "sources": [
+      "roverkseries_kv6_headgasket"
+    ],
+    "note": "Rover 75'in V6 benzinlisi. [base_score gerekçesi: 35-49 (bilinen risk): conta arızası iyi belgelenmiş ve tekrarlayan bir sorun; kaynak B seviyesinde (bağımsız teknik analiz) olduğu için bandın üst sınırında tutuldu, 2001 revizyonu sonrası iyileşme not edildi.]",
+    "revision_sensitivity": "2001 ortasında conta ve soğutma sıvısı kanalı tasarımı revize edildi; 1996-1998 el işçiliğiyle üretilen en erken motorlarda ayrıca silindir gömleği yüksekliği tutarsızlığı vardı. Listedeki Rover 75 2.0 (1999-2005 üretim) bu revizyonun hem öncesini hem sonrasını kapsıyor."
   },
   "saab-b2x5": {
     "id": "saab-b2x5",
@@ -1971,11 +2086,33 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Saab 9-3 ve 9-5'in turbo benzinli ailesi."
+    "base_score": 48,
+    "maintenance": "Sentetik yağ ve düzenli değişim şart; 1999-2004 model motorlarda PCV/VKG revizyon kiti düşünülmeli.",
+    "known_issues": [
+      {
+        "issue": "Sorunlu PCV sistemi yağın çökelip vernik oluşturması, yağ pompası emiş süzgecinin tıkanması",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginedna_saab_b235"
+        ]
+      },
+      {
+        "issue": "Hafif piston/segman aşınması, B235R'de aşırı yüklenip parçalanma riski",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginedna_saab_b235"
+        ]
+      }
+    ],
+    "sources": [
+      "enginedna_saab_b235"
+    ],
+    "note": "Saab 9-3 ve 9-5'in turbo benzinli ailesi. [base_score gerekçesi: 35-49 (bilinen risk): PCV sisteminin 4 yılda 6 kez yeniden tasarlanması sorunun ne kadar kalıcı olduğunu gösteriyor; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]",
+    "revision_sensitivity": "1999-2004 model motorlar için 2006'da bir PCV/VKG revizyon kiti piyasaya sürüldü; bu kitle onarılmış motorlar sorunun büyük kısmını gideriyor."
   },
   "suzuki-m16a": {
     "id": "suzuki-m16a",
@@ -1990,11 +2127,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "SX4'ün 1.6 benzinlisi."
+    "base_score": 66,
+    "maintenance": "Yağ seviyesi sık kontrol edilmeli (görünür sızıntı olmadan tüketilebiliyor); triger zinciri 100-140 bin km'de izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Görünür sızıntı olmadan yağ tüketimi; fark edilmezse motor kilitlenmesine yol açabiliyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "myenginespecs_m16a"
+        ]
+      }
+    ],
+    "sources": [
+      "myenginespecs_m16a"
+    ],
+    "note": "SX4'ün 1.6 benzinlisi. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının üst sınırında: pratik ömür 300-400 bin km gibi güçlü ama sessiz yağ tüketimi riski gerçek ve fark edilmezse ciddi sonuç doğurabiliyor; tek kaynağa (C) dayanıyor.]"
   },
   "toyota-zr": {
     "id": "toyota-zr",
@@ -2245,11 +2394,13 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
+    "base_score": 76,
+    "maintenance": "AdBlue sistemi ve yağ pompası kayışı periyodik kontrol edilmeli.",
     "known_issues": [],
-    "sources": [],
-    "note": "EA189'un halefi, emisyon donanımı baştan yeniden tasarlanmış aile."
+    "sources": [
+      "torquecars_ea288_avoid_problems"
+    ],
+    "note": "EA189'un halefi, emisyon donanımı baştan yeniden tasarlanmış aile. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: kaynak 'VAG'ın en temiz ve verimli dizellerinden biri, belirgin bir evrimsel sıçrama' diyor, EA189'un temel sorunları büyük ölçüde çözülmüş; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "vag-ea827": {
     "id": "vag-ea827",
@@ -2375,11 +2526,11 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": 66,
+    "base_score": null,
     "maintenance": null,
     "known_issues": [],
     "sources": [],
-    "note": "S40 ve V50'nin 2.0 atmosferik benzinlisi. Not: motor kod araştırması, B4204S kodunun esas olarak 1995-1999 üretilen ilk nesil S40/V40'a ait olduğunu gösterdi; listedeki araç 2004-2012 üretim ikinci nesil S40/V50 gövdesini kapsıyor ve bu nesil muhtemelen farklı bir motor kodu (Ford Focus tabanlı P1 platformunun kendi 2.0 ailesi) kullanıyor. Kod eşlemesi bu yüzden düşük güvenle yapıldı ve doğrulanması gerekiyor; bulunan tek veri noktası (bir sahibin ~250.000 km sorunsuz kullanımı) olumlu ama motora özgü bağımsız bir kaynakla desteklenmedi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında, temkinli: kod eşlemesi belirsizliği nedeniyle kaynak eklenmedi, yalnızca aynı dönemin atmosferik Volvo motorlarının genel profiline dayanan bir varsayım.]"
+    "note": "S40 ve V50'nin 2.0 atmosferik benzinlisi. Motor kodu araştırması, B4204S kodunun esas olarak 1995-1999 üretilen ilk nesil S40/V40'a ait olduğunu gösterdi; listedeki araç 2004-2012 üretim ikinci nesil S40/V50 gövdesini kapsıyor ve bu nesil muhtemelen farklı bir motor kodu (Ford Focus tabanlı P1 platformunun kendi 2.0 ailesi) kullanıyor. Kod eşlemesi bu yüzden düşük güvenle yapıldı; base_score, doğru motor kodu ve gerçek bir güvenilirlik kaynağı bulunana kadar bilinçli olarak boş bırakıldı — kaynaksız bir puan üretmek, bu projenin izlediği kuralın (data/ katmanı yalnızca kanıtlanmış olguyu tutar) tam tersi olurdu."
   },
   "volvo-b4204t-gtdi": {
     "id": "volvo-b4204t-gtdi",

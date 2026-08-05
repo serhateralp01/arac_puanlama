@@ -419,7 +419,7 @@ enflasyonunda altı ayda anlamsızlaşıyor; tarihsiz fiyat yanıltıcıdır.
 | `data/cars/*.json` | Puan var, gerekçe yok | `evidence` bloğu doldur; `kerb_weight_kg`, `fuel_consumption`, `engine_id`, `transmission_id` alanları ekle |
 | `data/sources.json` | Başlık + link | `tier`, `quotes[]`, `retrieval.query`, `archive_url` doldur |
 | `data/criteria.json` | `bands: null` | Yedi kriterin bantlarını yaz, çapa araçları ata |
-| `data/engines.json` | 77 aile, 154 araç bağlı | Ailelere `base_score`, `known_issues` ve kaynak ver |
+| `data/engines.json` | 79 aile, 154 araç bağlı, 78'i base_score'lu | Kaynak sayısını 2.0'a çıkarmak için genel kaynak araştırması |
 | `data/transmissions.json` | **yok** | Kutu kodu kaydı kur (~25 kutu) |
 | `data/tax/mtv-YYYY.json` | **yok** | Resmi MTV tarifesini veriye al |
 | `data/market/listings-YYYY-MM.json` | **yok** | İlan sayımı anlık görüntüsü |
@@ -439,7 +439,7 @@ doldurulan veri yapı değişince yeniden yazılır.
 
 ### Faz 2A — İskelet (veri girmeden)
 1. `transmissions.json` kuruldu (30 kutu, 154 araç bağlı). `engines.json` kuruldu
-   (77 aile, 154 araç bağlı); ailelerin temel puanları bekliyor.
+   (79 aile, 154 araç bağlı, 78'i base_score'lu).
 2. **Tamamlandı.** Yedi kriterin puan bantları yazıldı, her banda mümkün olan yerde
    kaynaklı bir çapa araç atandı; beş bant için (comf 35-49/0-34, age 85-100, cost 0-34)
    bugünkü veride gerçek örnek bulunmadığı için bilerek örneksiz bırakıldı
@@ -495,7 +495,7 @@ uyarı veriyor; yapısal uyarı kalmadı.
     temel puanına çekildi; ayrıntı ve gerekçe `docs/DATA-ISSUES.md` D-11'de.
     Yetim kutu kalmadı (`gm-5l40e` dört BMW'ye, `hyundai-6at` yedi Hyundai/Kia'ya
     bağlandı).
-11. **İskeleti tamamlandı.** `data/engines.json` kuruldu: 77 motor ailesi tanımlandı ve
+11. **İskeleti tamamlandı.** `data/engines.json` kuruldu: motor aileleri tanımlandı ve
     154 aracın tamamı `specs.engine_id` ile bir aileye bağlandı. `engine.schema.json`
     şanzıman şemasının desenini izliyor ve §3.3'teki arıza taksonomisini (sıklık,
     ağırlık, başlangıç kilometresi) `known_issues` altında taşıyor. `validate.py`'ye
@@ -506,21 +506,34 @@ uyarı veriyor; yapısal uyarı kalmadı.
     kondu; 154 aracın hepsi bu denetimden hatasız geçti. `consistency.py` artık iki
     ekseni birden ölçüyor.
 
-    Motor ailelerine `base_score` verilmesi hâlâ açık ve 77 uyarı olarak raporlanıyor.
-    Bu bilinçli bir katman ayrımıdır: iskelet önce kuruldu, güvenilirlik araştırması
-    ayrı bir iş kalemi.
+    **Tamamlandı.** 79 motor ailesinin 78'ine gerçek güvenilirlik araştırmasıyla
+    `base_score`, `known_issues` ve en az bir kaynak verildi. Kalan tek istisna
+    (`volvo-b4204s`) bilinçli olarak boş bırakıldı: motor kodu eşlemesi düşük güvenle
+    yapıldığı için gerçek bir kaynak bulunana kadar puan üretilmedi; kaynaksız puan
+    üretmek projenin kendi kuralına aykırı olurdu.
 
-    **Motor ekseni açıldığı anda ilk bulgusunu verdi.** Aynı motor ailesini paylaşan
-    araçlar arasında 15 puanı aşan yayılım gösteren beş aile var; bunlar puan
-    araştırmasının ilk hedefleridir:
+    Araştırma sırasında, ilk teşhiste görülen beş yüksek-yayılımlı motor ailesi çözüldü
+    ve bu süreçte üç farklı düzeltme türü ortaya çıktı:
 
-    | Motor ailesi | Araç | Yayılım | Aralık |
-    |---|---:|---:|---|
-    | `psa-ep6` | 4 | 29 | 308 THP 45 · 508 THP 52 · C4 VTi 62 · C-Elysee 74 |
-    | `psa-dv6` | 5 | 27 | Volvo D2 45/45 · 208 e-HDi 70 · 301 HDi 70 · 308 BlueHDi 72 |
-    | `vag-ea111-tsi` | 2 | 27 | Golf 1.4 TSI 25 · Jetta 1.4 TSI 52 |
-    | `bmw-m52` | 3 | 16 | E36 64 · E39 523i 72 · E39 528i 80 |
-    | `vag-ea189` | 6 | 16 | A6 2.0 TDI 52 · Superb 55 · üç araç 62 · Passat 1.6 68 |
+    1. **Aile bölündü** (fark doldurma yöntemi kadar temelse): `vag-ea111-tsi` →
+       twincharger (36) + tekli turbo (56) sürümlerine; `psa-ep6` → `psa-ec5` (TU5
+       türevi, EP6 ile ilgisi yoktu) + VTi (70) + THP (46) sürümlerine;
+       `hyundai-gamma-16` → MPI (78) + GDI (46) sürümlerine — araştırma GDI alt ailesinin
+       aynı dönemin toplu dava konusu Theta II/Nu motorlarıyla kök nedeni paylaştığını
+       gösterdi.
+    2. **`revision_sensitivity` alanı dolduruldu** (aynı aile, üretim yılına göre
+       belgelenmiş bir revizyon var): BMW N47'de 2009 zincir tasarımı değişikliği,
+       Mercedes OM651'de 2014 enjektör/zamanlama iyileştirmesi, PSA EP6-THP'de triger
+       zinciri revizyonu, GM A20DTH'de 2013 dayanıklılık iyileştirmesi, Rover KV6'da 2001
+       conta revizyonu, Saab B2x5'te 2006 PCV/VKG revizyon kiti.
+    3. **Gerçek veri hatası düzeltildi** (revizyon değil, önceki araştırma eksikliği):
+       `psa-dv6` — PSA'nın kendi markalı araçları 70-72, Volvo D2 45 puandı; araştırma
+       aynı turbo yağ açlığı + EGR tıkanması paterninin PSA kaynaklarında da belgelendiğini
+       gösterdi, üç Peugeot aracının puanı 44'e çekildi.
+
+    Toplamda 11 araç puanı (motor veya trans), yeni bulunan kanıta göre gerekçeli olarak
+    düzeltildi; her biri `evidence.motor.reasoning` veya doğrudan puan güncellemesiyle
+    kayıt altına alındı ve `docs/sources.json`'a 60'tan fazla yeni kaynak eklendi.
 
     `psa-dv6` ile `vag-ea111-tsi` özellikle dikkat çekiyor: ikisinde de aynı fiziksel
     motor, farklı araçlarda 27 puan fark alıyor ve bu farkın hiçbir yerde yazılı bir

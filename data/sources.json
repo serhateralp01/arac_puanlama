@@ -2104,5 +2104,126 @@
     "accessed": "2026-08-05",
     "language": "en",
     "quotes": []
+  },
+  "torquecars_ea288_avoid_problems": {
+    "id": "torquecars_ea288_avoid_problems",
+    "claim": "VW EA288'in EA189'a göre büyük bir yeniden tasarım olduğu, modüler ortak rail sistemi ve gözden geçirilmiş DPF/EGR mimarisiyle geldiği; VAG'ın en temiz ve verimli dizel motorlarından biri sayıldığı, dayanıklılık açısından belirgin bir evrimsel sıçrama olduğu, AdBlue sistemi karmaşıklığı ve bazı yağ pompası kayışı endişeleri dışında EA189'un temel sorunlarının büyük ölçüde çözüldüğü",
+    "publisher": "TorqueCars",
+    "url": "https://www.torquecars.com/volkswagen/2-0-tdi-ea288-revision-problems.php",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecrux_alfa_twinspark": {
+    "id": "enginecrux_alfa_twinspark",
+    "claim": "Alfa Romeo Twin Spark motorlarının güvenilirlik konusunda karışık bir üne sahip olduğu; triger kayışı ve gergisinin garanti kapsamında sık arızalanması nedeniyle Alfa'nın değişim aralığını 36.000 mile yarı yarıya indirdiği, kam mili kapağı contasından yağ sızıntısı, rölanti düşüşüyle motor stop etmesi ve motor sıcakken duyulan vuruntu sesi bildirildiği",
+    "publisher": "EngineCrux",
+    "url": "https://enginecrux.com/alfa-romeo-twin-spark-1-8-ts-specs-problems-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_mazda_fs": {
+    "id": "engineexplained_mazda_fs",
+    "claim": "Mazda FS-DE 2.0'ın düzenli bakımla 200.000 mili aşabilen güvenilir bir motor sayıldığı; bilinen sorunların supap kapağı/karter contasından yağ sızıntısı, piston segmanı/supap keçesi aşınmasına bağlı yağ tüketimi ve termostat/su pompası kaynaklı aşırı ısınma olduğu",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/review-of-mazda-fs-de-2-0-l-engine/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "myenginespecs_mazda_lf": {
+    "id": "myenginespecs_mazda_lf",
+    "claim": "Mazda LF-VE 2.0'ın oldukça güvenilir ve dayanıklı sayıldığı; 100.000 milden sonra supap keçesi aşınması ve biyel kolu yatağı kaynaklı yağ tüketiminin bilinen sorun olduğu, termostatın ~60.000 milde arızalanabildiği, değişken emme manifoldu valflerinin 3.000 devir üstünde açılmayabildiği",
+    "publisher": "MyEngineSpecs",
+    "url": "https://myenginespecs.com/mazda/understanding-mazda-lf-engine-problems-and-solutions/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "mymotorlist_4a92_oilstarvation": {
+    "id": "mymotorlist_4a92_oilstarvation",
+    "claim": "Mitsubishi 4A92'de segman/kapak aşınması kaynaklı yağ yakma şikayetinin en sık bildirilen sorun olduğu, yağ açlığının biyel kolu ve piston grubunun ömrünü ciddi biçimde kısalttığı; 100.000 km sonrası krank keçesi sızıntısı ve triger zinciri uzaması görüldüğü, hidrolik supap iticisi olmadığı için periyodik supap ayarı gerektiği",
+    "publisher": "MyMotorList",
+    "url": "https://mymotorlist.com/engines/mitsubishi/4a92/",
+    "type": "spec-database",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_hr16de": {
+    "id": "engineexplained_hr16de",
+    "claim": "Nissan HR16DE'nin düzenli bakımla genel olarak güvenilir kabul edildiği; buna karşılık 20-30 bin mil gibi erken bir kilometrede bile yağ tüketimi bildirildiği, triger zinciri uzaması ve zayıf faz ayarlayıcı için önleyici gergi değişimi öneren bir servis bülteni yayınlandığı",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/nissan-hr16de-1-6-l-engine-review/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecrux_qg18de": {
+    "id": "enginecrux_qg18de",
+    "claim": "Nissan QG16DE/QG18DE'nin sade, yüksek teknolojisiz bir tasarıma sahip olduğu ve tam da bu yüzden uzun kilometreyi sorunsuz kaldırdığı, ciddi bir arızası olmadığı, düzenli bakımla 200.000 mili aşabildiği; QG18DE'ye özgü bir yağ tüketimi eğiliminin (yaklaşık 1500 milde 1 quart) bilindiği, 100.000 milde triger zinciri değişimi gerekebildiği",
+    "publisher": "EngineCrux",
+    "url": "https://enginecrux.com/nissan-qg18de-engine-overview-specs-and-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "roverkseries_kv6_headgasket": {
+    "id": "roverkseries_kv6_headgasket",
+    "claim": "Rover KV6 2.0/2.5 V6'nın en bilinen arızasının silindir kapağının arka tarafındaki conta arızası olduğu, yüksek kilometrede ve sıcak iklimde daha sık görüldüğü; 1996-1998 arası el işçiliğiyle üretilen erken motorlarda silindir gömleği yüksekliğinin tutarsız olduğu, 2001 ortasında conta ve soğutma sıvısı kanalı tasarımının revize edildiği ve sonraki üretimde sorunun büyük ölçüde azaldığı",
+    "publisher": "RoverKSeries",
+    "url": "http://www.roverkseries.com/kv6-engine/rover-2-0-2-5-petrol-k-v6-head-gasket-replacement",
+    "type": "independent-analyst",
+    "tier": "B",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginedna_saab_b235": {
+    "id": "enginedna_saab_b235",
+    "claim": "Saab B205/B235'te hafifletilmiş piston ve segmanların blowby'yi artırdığı, senkronize fabrika sentetik yağ zorunluluğu olmaması ve sorunlu PCV sisteminin (4 yılda 6 kez yeniden tasarlandı) yağın çökelip karterde vernik tabakası oluşturmasına, bunun da yağ pompası emiş süzgecini tıkamasına yol açtığı; 1999-2004 model motorlar için 2006'da bir revizyon kiti (hortum, yağ tuzağı, valf, dolum ağzı) piyasaya sürüldüğü, B235R'de pistonların aşırı yüklenip parçalanabildiği",
+    "publisher": "EngineDNA",
+    "url": "https://www.enginedna.com/saab-2-3t-b235-engine/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "myenginespecs_m16a": {
+    "id": "myenginespecs_m16a",
+    "claim": "Suzuki M16A'nın pratikte 300-400 bin km ömür sunduğu, sorunsuz çalışma ve iyi yakıt verimliliğiyle bilindiği; buna karşılık zamanla yüksek yağ tüketimi geliştirdiği (görünür sızıntı olmadan, fark edilmezse motor kilitlenmesine yol açabiliyor), 100-140 bin km'de triger zinciri aşınması ve VVT'den yüksek kilometrede yağ sızıntısı bildirildiği",
+    "publisher": "MyEngineSpecs",
+    "url": "https://myenginespecs.com/suzuki/suzuki-m16a-engine-1-6l/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecrux_xu10j2": {
+    "id": "enginecrux_xu10j2",
+    "claim": "Citroen/Peugeot XU10J2 2.0 16v motorunun genel olarak sağlam kabul edildiği, en sık bildirilen sorunun kam mili keçesi veya karter contasından kaynaklanan yağ sızıntısı olduğu; gerçek kullanımda 166.500 mil (yaklaşık 268.000 km) kat eden bir Peugeot 406 örneğinin hâlâ düzgün çalıştığının bildirildiği",
+    "publisher": "EngineCrux",
+    "url": "https://enginecrux.com/overview-and-specs-of-the-xu10j2-2-0-engine/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
   }
 }

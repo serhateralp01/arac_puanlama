@@ -19,9 +19,9 @@
     700,
     1000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
-    "motor": 78,
+    "motor": 58,
     "trans": 38,
     "fun": 50,
     "comf": 78,
@@ -32,9 +32,10 @@
   "sources": [
     "trbox",
     "autodoc_lancer_cvt",
-    "youcanic_mitsubishi_cvt"
+    "youcanic_mitsubishi_cvt",
+    "mymotorlist_4a92_oilstarvation"
   ],
-  "note": "Lancer'ın gövdesi ve motoru sorun çıkarmıyor ama otomatiği CVT ve bu kutu aracın en zayıf halkası: V kayışı ile kasnaklarda erken aşınma yaygın bir arıza ve belirtiler 80.000 km gibi düşük bir kilometrede başlayabiliyor. 2016'da Mitsubishi, gecikmeli hızlanma sorunu nedeniyle 80.000'den fazla Outlander ve Lancer'ı CVT arızası yüzünden geri çağırdı; yani bu, kullanıcı şikayeti değil üreticinin kendi kabul ettiği bir kusur. Toyota'nın CVT'siyle aynı kefeye konmamalı.",
+  "note": "Lancer'ın gövdesi sorun çıkarmıyor ama iki cephede dikkatli olun. Otomatiği CVT ve bu kutu aracın en zayıf halkası: V kayışı ile kasnaklarda erken aşınma yaygın bir arıza ve belirtiler 80.000 km gibi düşük bir kilometrede başlayabiliyor. 2016'da Mitsubishi, gecikmeli hızlanma sorunu nedeniyle 80.000'den fazla Outlander ve Lancer'ı CVT arızası yüzünden geri çağırdı; yani bu, kullanıcı şikayeti değil üreticinin kendi kabul ettiği bir kusur. Toyota'nın CVT'siyle aynı kefeye konmamalı. Motor tarafında ise 4A92 ailesinde segman/keçe aşınmasına bağlı yağ yakma bildiriliyor; yağ açlığı biyel kolu ve piston grubunun ömrünü kısaltabiliyor, bu yüzden yağ seviyesi sık kontrol edilmeli.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
