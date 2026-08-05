@@ -521,6 +521,25 @@ gerekçeli olduğu için beklenen bir durum.
 kuralı yüzünden listenin dışında değil. SUV ve MPV araçların listeye eklenmesi (madde
 12) ile listenin yeni segmentlere genişletilmesi (madde 13) hâlâ açık.
 
+### Faz 2F — Çok ekranlı arayüz ve giriş akışı (plan dışı, araya girdi)
+
+Liste büyüdükçe tek uzun sayfa yetersiz kalmaya başladı. Bu, plandaki fazlardan
+biri değildi ama proje ticari bir ürün olarak düşünülmeye başlandığı için öne
+alındı. **Tamamlandı:**
+
+- `templates/index.html` bir kabuğa, ortak bir stil dosyasına, ekran parçalarına
+  (`templates/screens/*.html`) ve davranış parçalarına (`templates/app/*.js`) bölündü.
+  Çıktı yine tek bir `arac-puanlama.html`; gerekçesi `docs/ARCHITECTURE.md` MK-07.
+- Araç listesi, kıyaslama, kriterler ve kaynaklar ayrı ekranlara ayrıldı; aralarında
+  `#liste`, `#kiyaslama` gibi yollarla, sayfa yeniden yüklenmeden geçiliyor. Kıyaslama
+  sepeti ekran değiştikçe sıfırlanmıyor.
+- Sade, ticari olmayan üç adımlık bir giriş akışı eklendi: bilgi asimetrisi sorunu,
+  kanıta dayalı puanlama yaklaşımı, platformun ne olmadığı. İlk ziyarette otomatik
+  açılıyor, sonrasında yalnızca üst menüden ("Bu nedir?") erişiliyor.
+- `scripts/smoke_test.js`'ye giriş ekranının ilk ziyarette açıldığını, tepsi
+  düğmesinin kıyaslama ekranına götürdüğünü ve sepetin ekran değişince korunduğunu
+  doğrulayan kontroller eklendi (16/16 geçiyor).
+
 Bu faz bilinçli olarak formüllerden ve bileşen kayıtlarından **sonraya** bırakıldı.
 Liste, metodoloji oturmadan genişletilirse yeni araçlar da eski araçlarla aynı
 tutarsızlıkla puanlanır ve sorun büyüyerek tekrarlanır.

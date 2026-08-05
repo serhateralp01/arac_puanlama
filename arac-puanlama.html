@@ -197,6 +197,22 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 
 .screenhead{padding:34px 0 0}
 .screenhead h2{margin-bottom:10px}
+
+/* ---------- giriş (onboarding) ---------- */
+.onboard{max-width:640px;margin:26px auto 0;padding-bottom:20px}
+.obar{display:flex;align-items:center;justify-content:space-between;margin-bottom:36px}
+.odots{display:flex;gap:7px}
+.odots .d{width:7px;height:7px;border-radius:50%;background:var(--line2)}
+.odots .d.on{background:var(--sage);width:18px;border-radius:5px;transition:.2s}
+.opanel{display:none;min-height:260px}
+.opanel.on{display:block;animation:ofade .25s ease}
+@keyframes ofade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.opanel h2{font-family:var(--disp);font-weight:600;font-size:clamp(22px,3vw,28px);letter-spacing:-.01em;margin-bottom:18px;line-height:1.22}
+.opanel p{color:var(--dim);font-size:14.5px;line-height:1.68;margin-bottom:14px;max-width:580px}
+.opanel p:last-of-type{margin-bottom:0}
+.onext{margin-top:26px}
+.onext .btn{background:var(--sage);color:#fff;border-color:var(--sage);padding:10px 22px}
+.ofoot{display:flex;justify-content:space-between;margin-top:34px;padding-top:18px;border-top:1px solid var(--line)}
 </style>
 </head>
 <body>
@@ -215,11 +231,50 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 <div class="wrap">
 <!-- ==== 10-giris.html ==== -->
 <section class="screen" data-screen="giris">
-  <div class="screenhead">
-    <h2>Bu nedir?</h2>
-    <p class="lede">Bu bölüm bir sonraki katmanda gerçek giriş akışıyla değiştirilecek. Şimdilik yalnızca yönlendirmenin çalıştığını gösteriyor.</p>
+  <div class="onboard">
+    <div class="obar">
+      <div class="odots" id="odots"></div>
+      <button class="btn ghost small" id="oskip">Geç, doğrudan listeye git</button>
+    </div>
+
+    <div class="opanel on" data-step="1">
+      <h2>Türkiye'de araç almanın asıl zorluğu bilgi eksikliği değil</h2>
+      <p>Hangi motorun kaç kilometrede hangi arızayı verdiğini, hangi şanzımanın gerçekten dert çıkardığını
+      birileri biliyor — sanayideki ustalar, teknik servisler, uzun yıllardır o markayla uğraşan
+      esnaf. Bu bilgi gerçek ve doğru olabilir, ama alıcıya çoğu zaman elenmiş, çıkarına göre
+      şekillenmiş ya da hiç ulaşmamış halde gelir. Aracı almadan önce siz bir tek satışçının,
+      bir tek ekspertizcinin sözüne güvenmek zorunda kalırsınız; oysa o sözün arkasında hangi
+      kanıt olduğunu göremezsiniz.</p>
+      <p>Bu site, işte tam olarak o görünmeyeni görünür kılmak için var.</p>
+    </div>
+
+    <div class="opanel" data-step="2">
+      <h2>Puan bir görüş değil, kayıtlı kanıttır</h2>
+      <p>Her motor ve şanzıman kombinasyonu, teknik bilgisi yüksek ve arabalarla gerçekten
+      ilgilenen insanların deneyimi kayıtlı kaynaklarla (teknik servis kayıtları, üretici
+      bültenleri, bağımsız güvenilirlik anketleri, sayılmış kullanıcı şikayetleri) birleştirilerek
+      puanlanıyor. Bir puanın nereden geldiğini her zaman görebilirsiniz; kaynak yoksa araç
+      "kaynaksız" olarak işaretlenir, kaynak uydurulmaz.</p>
+      <p>Bu, elektronik tablo hevesiyle değil, gerçekten arabalara ve veriye meraklı birinin
+      elinden çıktı — amaç bu merakı, aracını gerçekten anlamak isteyen herkesle paylaşmak.</p>
+    </div>
+
+    <div class="opanel" data-step="3">
+      <h2>Bu bir satış platformu değil</h2>
+      <p>Hiçbir araç satmıyoruz, hiçbir galeriyle veya markayla iş birliğimiz yok, komisyon
+      almıyoruz. Amacımız kararı sizin yerinize vermek değil, kararı sağlam bir zeminde
+      vermenizi sağlamak. Motor güveni, şanzıman sağlamlığı, sürüş keyfi, günlük kullanım,
+      yaş riski, sahip olma maliyeti ve bulunabilirlik olmak üzere yedi kriter üzerinden
+      istediğiniz aracı karşılaştırabilir, kriterlerin ağırlığını kendi önceliklerinize göre
+      değiştirebilir, en fazla dört aracı yan yana kıyaslayabilirsiniz.</p>
+      <div class="onext"><button class="btn" id="oenter">Araç listesine geç</button></div>
+    </div>
+
+    <div class="ofoot">
+      <button class="btn ghost small" id="oprev">Geri</button>
+      <button class="btn small" id="onext">İleri</button>
+    </div>
   </div>
-  <div class="note"><a href="#liste" style="color:var(--blue)">Araç listesine geç</a></div>
 </section>
 <!-- ==== 20-kriterler.html ==== -->
 <section class="screen" data-screen="kriterler">
@@ -378,6 +433,31 @@ function startRouter(){
 function markOnboardingSeen(){
  try{localStorage.setItem(ONBOARD_KEY,'1');}catch(e){}
 }
+/* ==== 15-giris.js ==== */
+/* ---------- giriş (onboarding) adımları ---------- */
+/* Giriş ekranının kendi içinde üç adımı var; bunlar ayrı rota değil, aynı
+   #giris ekranının alt durumu. Adımlar arasında geçiş, ekranlar arasındaki
+   geçişle aynı mantığı taşıyor: hiçbir şey yeniden yüklenmiyor. */
+(function(){
+ const panels=()=>Array.from(document.querySelectorAll('.opanel'));
+ const dotsWrap=document.getElementById('odots');
+ const N=document.querySelectorAll('.opanel').length;
+ let step=1;
+
+ for(let i=1;i<=N;i++){const d=document.createElement('span');d.className='d'+(i===1?' on':'');dotsWrap.appendChild(d);}
+
+ function render(){
+  panels().forEach(p=>p.classList.toggle('on',+p.dataset.step===step));
+  dotsWrap.querySelectorAll('.d').forEach((d,i)=>d.classList.toggle('on',i+1===step));
+  document.getElementById('oprev').style.visibility=step===1?'hidden':'visible';
+  document.getElementById('onext').style.visibility=step===N?'hidden':'visible';
+ }
+ document.getElementById('onext').onclick=()=>{if(step<N){step++;render();}};
+ document.getElementById('oprev').onclick=()=>{if(step>1){step--;render();}};
+ document.getElementById('oskip').onclick=()=>{markOnboardingSeen();goTo('liste');};
+ document.getElementById('oenter').onclick=()=>{markOnboardingSeen();goTo('liste');};
+ render();
+})();
 /* ==== 20-agirliklar.js ==== */
 /* ---------- ağırlık arayüzü ---------- */
 /* Hazır ağırlık setleri iki ekranda birden duruyor: liste ekranında hızlı

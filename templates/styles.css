@@ -180,3 +180,19 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 
 .screenhead{padding:34px 0 0}
 .screenhead h2{margin-bottom:10px}
+
+/* ---------- giriş (onboarding) ---------- */
+.onboard{max-width:640px;margin:26px auto 0;padding-bottom:20px}
+.obar{display:flex;align-items:center;justify-content:space-between;margin-bottom:36px}
+.odots{display:flex;gap:7px}
+.odots .d{width:7px;height:7px;border-radius:50%;background:var(--line2)}
+.odots .d.on{background:var(--sage);width:18px;border-radius:5px;transition:.2s}
+.opanel{display:none;min-height:260px}
+.opanel.on{display:block;animation:ofade .25s ease}
+@keyframes ofade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.opanel h2{font-family:var(--disp);font-weight:600;font-size:clamp(22px,3vw,28px);letter-spacing:-.01em;margin-bottom:18px;line-height:1.22}
+.opanel p{color:var(--dim);font-size:14.5px;line-height:1.68;margin-bottom:14px;max-width:580px}
+.opanel p:last-of-type{margin-bottom:0}
+.onext{margin-top:26px}
+.onext .btn{background:var(--sage);color:#fff;border-color:var(--sage);padding:10px 22px}
+.ofoot{display:flex;justify-content:space-between;margin-top:34px;padding-top:18px;border-top:1px solid var(--line)}
