@@ -71,7 +71,18 @@ async function dumpDebug(label) {
   });
 
   try {
+    // Tarayıcı bağlamı her çalıştırmada sıfırdan açıldığı için localStorage boş;
+    // yani bu, siteye ilk gelen kullanıcının gördüğü durum. Giriş ekranının
+    // otomatik açılması bekleniyor.
     await page.goto(FILE);
+    await page.waitForSelector('.screen[data-screen="giris"].on');
+    const girisOk = await page.locator('[data-screen="giris"]').isVisible();
+    const listeGizli = !(await page.locator('[data-screen="liste"]').isVisible());
+    check('ilk ziyarette giriş ekranı açılıyor', girisOk && listeGizli);
+    if (!(girisOk && listeGizli)) await dumpDebug('giris-acilmadi');
+
+    // Bundan sonrası liste ekranında geçiyor.
+    await page.goto(FILE + '#liste');
     await page.waitForSelector('#body tr.main');
     if (ALWAYS_SCREENSHOT) await dumpDebug('01-yuklendi');
 
@@ -134,16 +145,42 @@ async function dumpDebug(label) {
     check('kıyaslama alanı doluyor', cmpCardOk);
     if (!trayOk || !cmpCardOk) await dumpDebug('kiyaslama-bozuk');
 
-    // Ağırlık değişimi toplam puanı değiştirmeli.
-    const before = await page.locator('#body tr.main td.tot').first().innerText();
-    await page.fill('#rubric input[data-wk="fun"]', '55');
-    await page.waitForTimeout(250);
-    const after = await page.locator('#body tr.main td.tot').first().innerText();
-    check('ağırlık değişimi puanı etkiliyor', before !== after, `${before} → ${after}`);
-
-    // Zayıf halka işaretlemesi
+    // Zayıf halka işaretlemesi (liste ekranındayken bakılıyor)
     const weak = await page.locator('#body td.sc.weak').count();
     check('zayıf halka hücreleri işaretli', weak > 0, `${weak} hücre`);
+
+    // Tepsideki düğme kıyaslama ekranına götürmeli.
+    await page.click('#trayGo');
+    await page.waitForTimeout(250);
+    const onCmpScreen = await page.locator('[data-screen="kiyaslama"]').isVisible();
+    check('tepsi düğmesi kıyaslama ekranına götürüyor', onCmpScreen);
+    if (!onCmpScreen) await dumpDebug('tepsi-yonlendirmedi');
+
+    // MK-07'nin asıl sözü: ekran değiştirmek sepeti sıfırlamamalı. Listeye
+    // dönüp ikinci bir araç ekleniyor, sonra kıyaslamaya geri dönülüyor;
+    // ilk araç hâlâ orada olmalı.
+    await page.click('.nav a[data-route="liste"]');
+    await page.waitForTimeout(200);
+    await page.locator('.cmpbtn').nth(1).click();
+    await page.waitForTimeout(200);
+    await page.click('.nav a[data-route="kiyaslama"]');
+    await page.waitForTimeout(250);
+    const kept = await page.locator('#cmpArea .cmpcard').count();
+    check('sepet ekran değişince korunuyor', kept === 2, `${kept} araç`);
+    if (kept !== 2) await dumpDebug('sepet-sifirlandi');
+
+    // Ağırlık değişimi toplam puanı değiştirmeli (kriterler ekranında).
+    await page.click('.nav a[data-route="liste"]');
+    await page.waitForTimeout(200);
+    const before = await page.locator('#body tr.main td.tot').first().innerText();
+    await page.click('.nav a[data-route="kriterler"]');
+    await page.waitForTimeout(200);
+    await page.fill('#rubric input[data-wk="fun"]', '55');
+    await page.waitForTimeout(250);
+    await page.click('.nav a[data-route="liste"]');
+    await page.waitForTimeout(200);
+    const after = await page.locator('#body tr.main td.tot').first().innerText();
+    check('ağırlık değişimi puanı etkiliyor', before !== after, `${before} → ${after}`);
 
     if (ALWAYS_SCREENSHOT) await dumpDebug('02-tum-kontroller-sonrasi');
   } catch (e) {

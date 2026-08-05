@@ -3,7 +3,10 @@
 Türkiye ikinci el piyasasındaki otomatik vitesli araçları yedi kriter üzerinden
 puanlayan ve kullanıcının kendi belirlediği ağırlıklara göre sıralayan bir
 karşılaştırma platformu. Çıktı, hiçbir sunucuya veya bağımlılığa ihtiyaç duymadan
-tarayıcıda açılan tek bir dosyadır: `arac-puanlama.html`.
+tarayıcıda açılan tek bir dosyadır: `arac-puanlama.html`. Dosya tek olsa da uygulama
+tek sayfa değildir; araç listesi, kıyaslama, kriterler ve kaynaklar kendi ekranlarında
+durur ve aralarında `#liste`, `#kiyaslama` gibi adres çubuğu yollarıyla geçilir. Bu
+ayrımın gerekçesi `docs/ARCHITECTURE.md` MK-07 kaydında.
 
 Şu an listede **154 araç, motor ve şanzıman kombinasyonu** bulunuyor ve liste
 genişletiliyor. Listeye girmek için tek şart aracın otomatik şanzımanla satılmış ve
@@ -25,8 +28,11 @@ data/sources.json        kaynak künyeleri: hangi iddiayı, hangi yayıncı, han
 data/transmissions.json  şanzıman kutusu kayıtları; araçlar buraya kimlikle bağlanır
 data/criteria.json       kriter tanımları, ağırlık setleri, eşikler
 data/schema/*.json       JSON Schema; hem editör desteği hem veri sözleşmesi
-templates/index.html     sayfanın iskeleti, veri yerine yer tutucu içerir
-scripts/build.py         veri ile şablonu birleştirip HTML üretir
+templates/index.html     sayfanın kabuğu: <head>, üst menü, script/style yer tutucuları
+templates/styles.css     bütün ekranların ortak stil dosyası
+templates/screens/*.html ekran parçaları (giriş, kriterler, liste, kıyaslama, kaynaklar)
+templates/app/*.js       davranış parçaları; dosya adındaki sayı yükleme sırasını belirler
+scripts/build.py         veriyi ve şablon parçalarını birleştirip tek HTML üretir
 scripts/validate.py      veri bütünlüğünü ve kanıt politikasını denetler
 scripts/consistency.py   aynı donanımı paylaşan araçların puan tutarlılığını ölçer
 scripts/smoke_test.js    üretilen sayfayı gerçek bir tarayıcıda çalıştırıp doğrular

@@ -1,0 +1,82 @@
+/* ---------- table render ---------- */
+let sortKey='tot',sortDir=-1;
+const head=document.getElementById('head');
+function renderHead(){head.innerHTML='';
+ const cols=[{k:'rank',l:'#'},{k:'cmp',l:''},{k:'name',l:'Araç',lft:1},{k:'year',l:'Model Yılı'},{k:'hp',l:'Beygir'},{k:'disp',l:'Hacim'},{k:'tx',l:'Şanzıman Tipi'},{k:'pband',l:'Tahmini Fiyat'}];
+ CRIT.forEach(c=>cols.push({k:c.k,l:HEAD[c.k]}));cols.push({k:'tot',l:'Toplam'});cols.push({k:'norm',l:'Normalize'});cols.push({k:'tg',l:''});
+ cols.forEach(c=>{const th=document.createElement('th');if(c.lft)th.className='lft';th.dataset.k=c.k;
+  const cc=CRIT.find(x=>x.k===c.k);
+  th.innerHTML=c.k==='tot'?c.l+'<span class="ww">/100</span>':c.k==='norm'?c.l+'<span class="ww">en iyi 100</span>':c.k==='pband'?c.l+'<span class="ww">bin TL</span>':cc?c.l+' ?<span class="ww">ağırlık '+W[c.k]+'</span>':c.l;
+  if(cc)th.title=cc.t+'\n\n'+cc.d+'\n\n'+cc.inc+'\n'+cc.exc;
+  if(c.k!=='tg'&&c.k!=='rank'&&c.k!=='cmp')th.classList.toggle('sorted',c.k===sortKey);
+  head.appendChild(th);});
+ head.querySelectorAll('th').forEach(th=>{const k=th.dataset.k;if(k==='tg'||k==='rank'||k==='cmp')return;
+  th.onclick=()=>{if(sortKey===k)sortDir*=-1;else{sortKey=k;sortDir=(k==='name'||k==='tx')?1:-1;}render();};});}
+const body=document.getElementById('body');
+let visible=[];
+function render(){renderHead();
+ let list=CARS.filter(pass);
+ list.sort((a,b)=>{let av,bv;
+  if(sortKey==='tot'||sortKey==='rank'){av=total(a);bv=total(b);}
+  else if(sortKey==='norm'){av=normOf(a);bv=normOf(b);}
+  else if(sortKey==='name'){return sortDir*a.n.localeCompare(b.n,'tr');}
+  else if(sortKey==='tx'){return sortDir*a.tx.localeCompare(b.tx,'tr');}
+  else if(sortKey==='pband'){av=a.p[0];bv=b.p[0];}
+  else if(sortKey==='year'){av=parseInt(a.y);bv=parseInt(b.y);}
+  else if(sortKey==='hp'){av=a.hp;bv=b.hp;}
+  else if(sortKey==='disp'){av=a.disp;bv=b.disp;}
+  else{av=a.S[sortKey];bv=b.S[sortKey];}
+  return sortDir*(av-bv);});
+ const ranked=[...CARS].sort((a,b)=>total(b)-total(a));
+ visible=list;body.innerHTML='';
+ document.getElementById('count').innerHTML='Filtrelere uyan <b>'+list.length+'</b> araç gösteriliyor. Listede toplam '+CARS.length+' araç var.';
+ list.forEach(c=>{const gr=ranked.indexOf(c)+1,tt=total(c),nrm=normOf(c);
+  const tr=document.createElement('tr');tr.className='main'+(cmpSet.includes(c.id)?' cmp':'');tr.dataset.id=c.id;
+  const txc='tx-'+c.tx.split(' ')[0];
+  let cells='<td class="rank">'+gr+'</td>';
+  cells+='<td class="cmpcell"><button class="cmpbtn'+(cmpSet.includes(c.id)?' on':'')+'" data-cmp="'+c.id+'" '+(cmpSet.length>=4&&!cmpSet.includes(c.id)?'disabled':'')+'>'+(cmpSet.includes(c.id)?'✓':'+')+'</button></td>';
+  cells+='<td class="name"><div class="nm">'+c.n+' <span class="chip '+(c.v===true?'v':c.v==='p'?'p':'a')+'">'+(c.v===true?'doğrulanmış':c.v==='p'?'kısmi kaynak':'ön değerlendirme')+'</span></div><div class="tag">'+c.tag+'</div></td>';
+  cells+='<td class="spec">'+c.y+'</td><td class="spec">'+c.hp+' bg</td><td class="spec">'+c.disp.toFixed(1)+'</td>';
+  cells+='<td><span class="txbadge '+txc+'">'+c.tx+'</span></td>';
+  cells+='<td class="pr"><input type="number" class="pin" data-id="'+c.id+'" data-pi="0" value="'+c.p[0]+'"><span class="dash">-</span><input type="number" class="pin" data-id="'+c.id+'" data-pi="1" value="'+c.p[1]+'"></td>';
+  ORDER.forEach(k=>{
+   const v=c.S[k]; const weak=(k!=='price'&&v<WEAK_THR);
+   cells+='<td class="sc'+(weak?' weak':(k==='price'?' psc':''))+'">'+v+'</td>';
+  });
+  cells+='<td class="tot" style="color:'+colorFor(tt)+'">'+tt.toFixed(1)+'</td>';
+  cells+='<td class="norm">'+nrm.toFixed(0)+'</td>';
+  cells+='<td class="toggle">+</td>';
+  tr.innerHTML=cells;
+  const det=document.createElement('tr');det.className='detail';
+  const src=c.r&&c.r.length?'Kaynak: '+c.r.map(x=>'<a href="'+R[x][2]+'" target="_blank" rel="noopener">'+R[x][1]+'</a>').join(' &middot; '):'Bu puanlar kendi teknik değerlendirmeme dayanıyor.';
+  const weaks=weakOnes(c);
+  let weakHtml='';
+  if(weaks.length){weakHtml='<div class="weaklist">';weaks.forEach(w=>{weakHtml+='<div class="weakitem"><b>'+HEAD[w.k]+' ('+w.v+'/100):</b> '+weakReason(c,w.k)+'</div>';});weakHtml+='</div>';}
+  det.innerHTML='<td colspan="'+(ORDER.length+8)+'"><div class="det"><div class="det-grid"><div><div class="lead">'+c.note+'</div>'+weakHtml+'<div class="src">'+src+'</div></div><div class="radarwrap">'+radarSVG([c])+'</div></div></div></td>';
+  body.appendChild(tr);body.appendChild(det);
+  const tg=()=>{const o=tr.classList.toggle('open');det.classList.toggle('open',o);tr.querySelector('.toggle').textContent=o?'−':'+';};
+  tr.querySelector('.name').onclick=tg;tr.querySelector('.toggle').onclick=tg;
+  tr.querySelector('[data-cmp]').onclick=(e)=>{e.stopPropagation();toggleCmp(c.id);};
+ });
+ updateSum();
+}
+function renderRows_softUpdate(){
+ document.querySelectorAll('#body tr.main').forEach(tr=>{
+  const id=+tr.dataset.id; const inCmp=cmpSet.includes(id);
+  tr.classList.toggle('cmp',inCmp);
+  const btn=tr.querySelector('[data-cmp]');
+  if(btn){btn.classList.toggle('on',inCmp);btn.textContent=inCmp?'✓':'+';btn.disabled=(cmpSet.length>=4&&!inCmp);}
+ });
+}
+/* Price inputs commit only on 'change' (blur) or Enter — not on every keystroke,
+   so the table doesn't re-render (and steal focus) while the user is still typing. */
+body.addEventListener('change',e=>{
+ const pi=e.target.dataset.pi;
+ if(pi===undefined)return;
+ const id=+e.target.dataset.id;CARS[id].p[+pi]=Math.max(0,+e.target.value||0);recalcPrice();
+ render();renderCompare();
+});
+body.addEventListener('keydown',e=>{
+ if(e.key==='Enter'&&e.target.classList&&e.target.classList.contains('pin')){e.target.blur();}
+});
+function recalcAll(){renderHead();render();updateSum();renderCompare();}

@@ -1,0 +1,28 @@
+<section class="screen" data-screen="liste">
+  <div class="screenhead">
+    <h2>Araç Listesi</h2>
+    <p class="lede">Bu tablo, Türkiye ikinci el piyasasında bulunan <b>__CAR_COUNT__ araç, motor ve şanzıman kombinasyonunu</b> karşılaştırıyor. Arama kutusuna model adı, yakıt tipi, motor hacmi veya marka yazabilirsiniz. Her filtre kategorisinde birden fazla seçeneği aynı anda işaretleyebilirsiniz; örneğin şanzıman filtresinde hem "Islak DCT" hem "Kuru DCT" seçerseniz ikisine de sahip araçlar birlikte listelenir. Filtreler birbirine bağlı çalışıyor: bir kategoriyi daralttığınızda diğer kategorilerdeki seçenekler yalnızca o daralmış listede gerçekten bulunan değerleri gösterir. Sayfa açıldığında hiçbir filtre aktif değildir, yani bütün araçlar görünür. Bir aracı kıyaslamaya eklemek için satırın solundaki artı işaretine tıklayın.</p>
+  </div>
+
+  <div class="presetrow" id="presets"></div>
+  <div id="sumbox" class="sumbox"></div>
+
+  <div class="searchbar"><span class="ic">&#128269;</span><input type="text" id="search" placeholder="model, marka, yakıt, hacim ara..."><span class="clr" id="searchclr">temizle</span></div>
+  <div id="filters"></div>
+  <div class="count" id="count"></div>
+  <div class="tablewrap"><div class="scroll"><table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table></div></div>
+  <div class="legend">
+    <span><span class="sw" style="background:var(--sage)"></span>72 ve üzeri: çok iyi</span>
+    <span><span class="sw" style="background:#c9a34e"></span>64-71: sağlam</span>
+    <span><span class="sw" style="background:var(--amber)"></span>58-63: orta</span>
+    <span><span class="sw" style="background:var(--red)"></span>58 altı: riskli</span>
+    <span><span class="sw" style="background:var(--redbg);border:1px solid var(--red)"></span>tek hücre kırmızı: 35 altı, zayıf halka</span>
+    <span><span class="txbadge tx-TK">TK</span> tork konvertörü</span>
+    <span><span class="txbadge tx-Islak">Islak DCT</span> ıslak çift kavrama</span>
+    <span><span class="txbadge tx-Kuru">Kuru DCT</span> kuru çift kavrama</span>
+    <span><span class="txbadge tx-CVT">CVT</span> kademesiz</span>
+    <span><span class="txbadge tx-Robot">Robot</span> robotlu yarı otomatik</span>
+  </div>
+  <div class="note">Fiyat sütunundaki rakamlar bin TL cinsinden yaklaşık değerlerdir ve ikinci el piyasa ortalamalarına dayanır; tek tek ilanlardan alınmadıkları için yalnızca fikir vermek içindir ve satın almadan önce sahibinden.com ile arabam.com üzerinden doğrulanmalıdır. Bu rakamları değiştirebilirsiniz; değiştirdiğinizde fiyat puanı ve toplam puan anında yeniden hesaplanır. Sağdaki iki sütundan ilki ham toplam puanı, ikincisi ise listenin en iyisine 100 ve en kötüsüne 0 verilerek yeniden ölçeklenmiş normalize puanı gösterir.</div>
+  <div class="toolbar" style="margin-top:14px"><button class="btn" id="exportBtn">Filtrelenmiş listeyi indir (CSV)</button></div>
+</section>

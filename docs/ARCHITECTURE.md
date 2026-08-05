@@ -178,3 +178,53 @@ girdiye her zaman aynı çıktıyı verir.
 **Formülün taslağı** `docs/PLAN.md` içindeki 3.6 numaralı bölümde. Uygulanabilmesi için
 araç kayıtlarına boş ağırlık ve tork alanlarının eklenmesi gerekiyor; bu alanlar şemaya
 eklendi ve doldurulmayı bekliyor.
+
+---
+
+## MK-07 · Çıktı tek dosya kalır, kaynak ekranlara bölünür
+
+**Karar:** Uygulama tek bir uzun sayfa olmaktan çıkıp birden fazla ekrana ayrılır.
+Buna karşılık üretilen çıktı **tek bir HTML dosyası olmaya devam eder**; ekranlar
+adres çubuğundaki `#giris`, `#liste`, `#kiyaslama`, `#kaynaklar` gibi yol
+adlarıyla ayrılır ve aralarında geçiş sayfayı yeniden yüklemeden yapılır.
+Modülerlik çıktıda değil **kaynakta** kurulur: `templates/` klasörü ekran başına
+bir parçaya bölünür ve `scripts/build.py` bunları birleştirir.
+
+**Gerekçe:** Bu karar üç ölçüte göre alındı — sayfanın hafif kalması, modülerlik
+ve gelecekteki eklemelerin kolay olması. Bu üç ölçüt, "çıktı" ile "kaynak"
+ayrımı yapılmadığında birbiriyle çelişiyor gibi görünüyor; ayrım yapıldığında
+çelişki ortadan kalkıyor.
+
+**Hafiflik, çıktının tek dosya olmasını gerektiriyor.** Ayrı HTML dosyaları
+üretmenin bedeli, veri yükünün her dosyada tekrarlanmasıdır. Bugün bu yük 154
+araç için yaklaşık 160 KB; dört ekran için dört kopya demek. Asıl sorun bugünkü
+sayı değil, MK-02'de kayıtlı olan büyüme beklentisidir: liste binlere çıkacak.
+Kopyalanan bir veri yükü, liste büyüdükçe doğrusal olarak kötüleşir. Tek yük,
+kaç ekran eklenirse eklensin sabit kalır.
+
+**Modülerlik, kaynağın bölünmesini gerektiriyor.** Bugünkü `templates/index.html`
+620 satır ve içinde yapı, biçim ve davranış iç içe duruyor. Yeni bir ekran
+eklemek bu dosyayı büyütmek anlamına geliyor ve bu, CLAUDE.md'deki "bir dosyanın
+başka bir katmanın işini yapmaya başlaması, bölünmesi gerektiğinin işaretidir"
+kuralına takılıyor. Çözüm, çıktıyı bölmek değil kaynağı bölmektir: her ekran
+kendi parçasında durur, adından ne olduğu anlaşılır, `build.py` birleştirir.
+Yeni ekran eklemek artık yeni bir parça dosyası açıp yolu kaydetmek demektir.
+
+**Kıyaslama sepetinin korunması bu kararla kendiliğinden çözülüyor.** Ekranlar
+aynı JavaScript bağlamını paylaştığı için, kullanıcı listeye gidip geri
+döndüğünde sepet yerinde durur; bunun için tarayıcı deposuna yazmak gerekmez.
+Ayrı dosyalar seçilseydi sepetin `sessionStorage` üzerinden taşınması
+gerekecekti ve bu, bellekte tutulan bir durumun diske yazılması demek olurdu —
+hem daha kırılgan, hem de kullanıcının tarayıcı ayarlarına bağımlı.
+
+**Uzun dönem karşılığı:** Bu karar bir sunucuya geçişi engellemiyor, tam tersine
+ona hazırlıyor. `#liste` ve `#kiyaslama` gibi yol adları, bir gün gerçek sunucu
+adreslerine (`/liste`, `/kiyaslama`) birebir çevrilebilecek biçimde seçildi.
+O gün geldiğinde değişmesi gereken tek şey yönlendiricinin yol okuma biçimidir;
+ekran parçaları, veri katmanı ve puanlama mantığı olduğu gibi kalır.
+
+**Kabul edilen bedel:** Tek dosya olduğu için bir ekrana doğrudan bağlantı
+verildiğinde tarayıcı yine bütün veriyi indirir. Bu, veri yükü birkaç megabayta
+çıkana kadar katlanılabilir bir bedeldir; o eşiğe yaklaşıldığında doğru çözüm
+dosyayı bölmek değil, veriyi ayrı bir dosyadan istek üzerine yüklemektir ve bu
+değişiklik ekran yapısına dokunmadan yapılabilir.

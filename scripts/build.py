@@ -18,7 +18,11 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-TEMPLATE = ROOT / "templates" / "index.html"
+TEMPLATES = ROOT / "templates"
+TEMPLATE = TEMPLATES / "index.html"
+STYLES = TEMPLATES / "styles.css"
+SCREENS = TEMPLATES / "screens"
+APP = TEMPLATES / "app"
 OUTPUT = ROOT / "arac-puanlama.html"
 
 
@@ -116,6 +120,37 @@ def to_runtime_db(criteria: dict, cars: list[dict], sources: dict) -> dict:
     }
 
 
+def concat_parts(folder: pathlib.Path, suffix: str) -> str:
+    """Bir klasördeki parçaları dosya adına göre sırayla birleştirir.
+
+    Dosya adlarının başındaki sayı yükleme sırasını belirler (00-, 10-, 20- ...).
+    Sıra önemlidir: betikler ortak bir kapsamı paylaştığı için bir parça,
+    kendinden önce tanımlanmış olana güvenebilir. Yeni bir ekran veya davranış
+    eklemek, doğru numarayla yeni bir dosya açmaktan ibarettir; gerekçesi
+    docs/ARCHITECTURE.md MK-07 kaydında.
+    """
+    parts = sorted(folder.glob(f"*{suffix}"))
+    if not parts:
+        raise SystemExit(f"{folder.relative_to(ROOT)} içinde {suffix} parçası yok.")
+    chunks = []
+    for p in parts:
+        chunks.append(f"/* ==== {p.name} ==== */")
+        chunks.append(p.read_text(encoding="utf-8").rstrip())
+    return "\n".join(chunks)
+
+
+def concat_screens() -> str:
+    """Ekran parçalarını sırayla birleştirir; HTML olduğu için yorum biçimi ayrı."""
+    parts = sorted(SCREENS.glob("*.html"))
+    if not parts:
+        raise SystemExit("templates/screens/ içinde ekran parçası yok.")
+    chunks = []
+    for p in parts:
+        chunks.append(f"<!-- ==== {p.name} ==== -->")
+        chunks.append(p.read_text(encoding="utf-8").rstrip())
+    return "\n".join(chunks)
+
+
 def render() -> str:
     criteria, cars, sources = load_data()
     stamp = f"veri damgası {data_fingerprint(criteria, cars, sources)}"
@@ -128,7 +163,11 @@ def render() -> str:
     # </script> dizisi JSON içinde geçerse betiği erkenden kapatır.
     payload = payload.replace("</", "<\\/")
 
-    html = template.replace("/*__DB__*/null", payload)
+    app_js = concat_parts(APP, ".js").replace("/*__DB__*/null", payload)
+
+    html = template.replace("/*__STYLES__*/", STYLES.read_text(encoding="utf-8").rstrip())
+    html = html.replace("<!--__SCREENS__-->", concat_screens())
+    html = html.replace("/*__APP__*/", app_js)
     html = html.replace("__CAR_COUNT__", str(len(cars)))
     html = html.replace("__BUILD_STAMP__", stamp)
     return html
