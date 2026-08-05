@@ -1785,5 +1785,115 @@
     "accessed": "2026-08-05",
     "language": "en",
     "quotes": []
+  },
+  "reliability_autos_duratec_he": {
+    "id": "reliability_autos_duratec_he",
+    "claim": "Ford Duratec HE 2.0'ın Duratec ailesinin en iyisi sayıldığı, tipik motor ömrünün ~220.000 mil olduğu, bazı örneklerin 350.000 mili aştığı; bilinen sorunların kam mili keçesi sızıntısı, bazı durumlarda piston segmanı değişimi gerektiren yağ tüketimi ve supap kapağı/karter contası sızıntıları olduğu, hidrolik supap iticisi olmadığı için 60.000 milde bir supap ayarı gerektiği",
+    "publisher": "Reliability.autos",
+    "url": "https://reliability.autos/ford-duratec-2-0-he-engine-history-reliability-specs-and-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_sigma_tivct": {
+    "id": "engineexplained_sigma_tivct",
+    "claim": "Ford 1.6 Ti-VCT (Sigma) motorunun oldukça güvenilir kabul edildiği; triger kayış gergisi arızasının en önemli risk olduğu (100.000 milde kayış değişimi öneriliyor), krank keçelerinden 100 bin km sonrası sızıntı ve yakıt pompasının 200 bin km civarı değişim gerektirebildiği, yenilenmiş (restyle) sürümlerde sorunların neredeyse kalmadığı",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/ford-focus-1-6-ti-vct-engine-problems-review/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "fordmasterx_ecoboost_wetbelt": {
+    "id": "fordmasterx_ecoboost_wetbelt",
+    "claim": "Ford 1.5 EcoBoost'ın yağ içinde çalışan bir triger kayışı ('ıslak kayış') kullandığı, yağ kalitesi korunmazsa kayışın erken bozulup zamanlama sorununa veya felaket boyutunda motor arızasına yol açabildiği; ayrıca soğuk iklimde ve kısa mesafe kullanımda yakıtın yağa karışması (yağ seyrelmesi) bildirildiği",
+    "publisher": "Ford Master X",
+    "url": "https://fordmasterx.com/ford-ecoboost-wet-belt-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginedna_duratorq_20": {
+    "id": "enginedna_duratorq_20",
+    "claim": "Ford Mondeo/Focus 2.0 TDCi (Duratorq) motorunun dayanıklı kabul edildiği ve düzenli bakımla 200.000 km'yi rahatlıkla aştığı; kısa mesafe kullanımda DPF tıkanması ve EGR valfi sorununun en sık bildirilen arıza olduğu, yüksek kilometrede çift kütleli volan/debriyaj aşınması ve enjektör sızıntısı da görülebildiği",
+    "publisher": "EngineDNA",
+    "url": "https://www.enginedna.com/ford-mondeo-focus-2-0-tdci-engine-problems-and-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "stargarage_a16dth_chain": {
+    "id": "stargarage_a16dth_chain",
+    "claim": "Opel/Vauxhall 1.6 CDTI (whisper) motorlarında triger zinciri gergisinin contasız üretildiği için motor kapatıldığında yağın boşaldığı, yeniden çalıştırmada yağ basıncı oluşana kadar zincirin takırdadığı ve bunun zamanla erken aşınmaya yol açtığı; sorunun kritik noktasının ~100.000 km olduğu, ilerlemiş vakalarda motorun tamamen arızalanabildiği",
+    "publisher": "Star Garage Mansfield",
+    "url": "https://stargaragemansfield.co.uk/1-6-cdti-timing-chain-problems-vauxhall-opel-chevrolet/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "cherishyourcar_a14net": {
+    "id": "cherishyourcar_a14net",
+    "claim": "GM'in A14NET 1.4 turbo motorunda krank kutusu havalandırma (PCV) arızasının yaygın olduğu, turbo wastegate kapağının ısı stresiyle çatlayabildiği, plastik triger zinciri kılavuzlarının kırılgan olduğu, termostat gövdesinin plastik olup zamanla çatladığı; buna karşılık motorun tahmini ömrünün 270.000-450.000 km olduğu",
+    "publisher": "Cherish Your Car",
+    "url": "https://www.cherishyourcar.com/1-4-ecotec-engine-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecrux_a16let": {
+    "id": "enginecrux_a16let",
+    "claim": "Opel A16LET 1.6 turbo motorunda ortalamanın üzerinde yağ tüketimi, turbo besleme borusunun kırılganlığı ve yağ açlığı/kirliliği kaynaklı turbo arızasının bilinen sorunlar olduğu; halef 1.6 SIDI (A16XHT) motorunda 170-180 bg sürümlerde nadir ama felaket boyutunda 4. piston arızası bildirildiği",
+    "publisher": "EngineCrux",
+    "url": "https://enginecrux.com/a16let-engine-overview-specs-and-reliability-issues/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "carinterior_a20dth": {
+    "id": "carinterior_a20dth",
+    "claim": "Opel Insignia 2.0 CDTI'de (A20DTH) turbo yatak/keçe aşınmasının 100-150 bin km'de tipik arıza verdiği, yüksek basınç pompası ve enjektör tıkanmasının sorun çıkarabildiği; 2013 sonrası üretilen sürümlerin erken varyantlara göre dayanıklılığının arttığı, kısa mesafe kullanımda DPF sorununun görülebildiği",
+    "publisher": "CarInterior",
+    "url": "https://carinterior.alibaba.com/buyingguides/insignia-2.0-cdti-reliability-real-world-use",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "engine_specs_z18xer": {
+    "id": "engine_specs_z18xer",
+    "claim": "Opel Z18XE/Z18XER 1.8 motorunun eski X18XE1'e göre teknik olarak benzer sorunlar taşıdığı (rölanti dalgalanması, ECU arızaları), triger kayışının interference motor olduğu için 60.000 km'de değiştirilmesi gerektiği; daha yeni Z18XER varyantının 150 bin km üstünde triger zinciri uzayabilse de genel olarak 'kabul edilebilir' bir güvenilirlik notu aldığı (72/100)",
+    "publisher": "Engine Specs / EngineScope",
+    "url": "https://enginescope.gr/engine/opel-18-ecotec/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "gmauthority_family1_phaser": {
+    "id": "gmauthority_family1_phaser",
+    "claim": "GM Family 1 A16XER 1.6 motorunda faz ayarlayıcıların 100.000 km sonrası takırdayabildiği, yağ soğutucusu contasının bozulup yağın soğutma sıvısına karışabildiği; hidrolik supap iticisi olmadığı için 80-90 bin km'de bir supap ayarı gerektiği, buna karşılık 250.000 km üstü kullanım için tasarlandığı",
+    "publisher": "GM Authority",
+    "url": "https://gmauthority.com/blog/topic/opel-vauxhall-astra-j-transmission-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
   }
 }

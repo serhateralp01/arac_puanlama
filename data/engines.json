@@ -481,11 +481,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Focus ve Mondeo'daki atmosferik benzinli aile; Mazda ile ortak kökenli."
+    "base_score": 70,
+    "maintenance": "Hidrolik supap iticisi olmadığı için 60.000 milde bir supap ayarı gerekiyor.",
+    "known_issues": [
+      {
+        "issue": "Kam mili keçesi sızıntısı, bazı örneklerde piston segmanı değişimi gerektiren yağ tüketimi",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "reliability_autos_duratec_he"
+        ]
+      }
+    ],
+    "sources": [
+      "reliability_autos_duratec_he"
+    ],
+    "note": "Focus ve Mondeo'daki atmosferik benzinli aile; Mazda ile ortak kökenli. Duratec ailesinin en iyisi sayılıyor, tipik ömür ~220.000 mil, bazı örnekler 350.000 mili aşıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): güçlü dayanıklılık ünü, bilinen sorunlar planlanabilir; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "ford-duratorq-15": {
     "id": "ford-duratorq-15",
@@ -500,11 +512,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
+    "base_score": 62,
     "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Focus 3'ün 1.5 dizeli; PSA ile ortak geliştirilen ailenin küçük hacimli üyesi."
+    "known_issues": [
+      {
+        "issue": "Arızalı purge valf, en sık bildirilen sorun",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "enginedna_duratorq_20"
+        ]
+      }
+    ],
+    "sources": [
+      "enginedna_duratorq_20"
+    ],
+    "note": "Focus 3'ün 1.5 dizeli; PSA ile ortak geliştirilen ailenin küçük hacimli üyesi. Motora özgü ayrıntılı bir araştırma kaynağı bulunamadı; aynı Duratorq ailesinin genel profiline dayanarak temkinli bir puan verildi. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): ailenin genel eğilimi olumlu, motora özgü bilinen tek sorun (purge valf) küçük; motora özgü kaynak eksikliği nedeniyle 2.0 TDCi'nin altında tutuldu.]"
   },
   "ford-duratorq-20": {
     "id": "ford-duratorq-20",
@@ -520,11 +544,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Mondeo'nun 2.0 dizeli; PSA ile ortak geliştirilen aile."
+    "base_score": 64,
+    "maintenance": "Kısa mesafe kullanımda DPF ve EGR daha sık kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Kısa mesafe kullanımda DPF tıkanması ve EGR valfi sorunu; en sık bildirilen arıza",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "enginedna_duratorq_20"
+        ]
+      },
+      {
+        "issue": "Yüksek kilometrede çift kütleli volan/debriyaj aşınması, enjektör sızıntısı",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "enginedna_duratorq_20"
+        ]
+      }
+    ],
+    "sources": [
+      "enginedna_duratorq_20"
+    ],
+    "note": "Mondeo'nun 2.0 dizeli; PSA ile ortak geliştirilen aile. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının üst sınırında: 'dayanıklı, 200.000 km'yi rahatlıkla aşıyor' ama DPF/EGR kısa mesafede sık sorun çıkarıyor; tek kaynağa (C) dayanıyor.]"
   },
   "ford-ecoboost-15": {
     "id": "ford-ecoboost-15",
@@ -539,11 +584,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Mondeo'nun 1.5 turbo benzinlisi; Ford'un küçültülmüş hacim stratejisinin ürünü."
+    "base_score": 42,
+    "maintenance": "Yağ kalitesi ve değişim aralığına sıkı uyulmalı; 'ıslak' triger kayışı yağ kalitesine karşı toleranssız.",
+    "known_issues": [
+      {
+        "issue": "Yağ içinde çalışan triger kayışının erken bozulup zamanlama sorununa veya motor arızasına yol açması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "fordmasterx_ecoboost_wetbelt"
+        ]
+      },
+      {
+        "issue": "Soğuk iklim ve kısa mesafede yakıtın yağa karışması (yağ seyrelmesi)",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "fordmasterx_ecoboost_wetbelt"
+        ]
+      }
+    ],
+    "sources": [
+      "fordmasterx_ecoboost_wetbelt"
+    ],
+    "note": "Mondeo'nun 1.5 turbo benzinlisi; Ford'un küçültülmüş hacim stratejisinin ürünü. 'Islak' (yağ içinde çalışan) triger kayışı kullanıyor; bu tasarım sektör genelinde (PSA PureTech, bazı VAG motorları dahil) tartışmalı, çünkü kayış yağ kalitesi düşerse beklenenden çok daha erken bozulabiliyor. [base_score gerekçesi: 35-49 (bilinen risk): ıslak kayış tasarımı yapısal bir risk taşıyor ve felaket boyutunda arızaya yol açabiliyor; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
   },
   "ford-sigma-tivct": {
     "id": "ford-sigma-tivct",
@@ -559,11 +625,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Focus 3'ün 1.6 atmosferik benzinlisi."
+    "base_score": 70,
+    "maintenance": "Triger kayışı 100.000 milde değiştirilmeli.",
+    "known_issues": [
+      {
+        "issue": "Triger kayış gergisi arızası; atlanırsa ağır motor hasarına yol açabiliyor",
+        "onset_km": 160000,
+        "frequency": "seyrek",
+        "severity": "büyük onarım",
+        "sources": [
+          "engineexplained_sigma_tivct"
+        ]
+      }
+    ],
+    "sources": [
+      "engineexplained_sigma_tivct"
+    ],
+    "note": "Focus 3'ün 1.6 atmosferik benzinlisi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): 'oldukça güvenilir' kabul ediliyor, kayış gergisi arızası nadir ama ciddi; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "gm-a14net": {
     "id": "gm-a14net",
@@ -579,11 +657,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Astra ve Corsa'daki 1.4 turbo benzinli."
+    "base_score": 58,
+    "maintenance": "Krank kutusu havalandırma sistemi ve plastik termostat gövdesi periyodik kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Krank kutusu havalandırma (PCV) arızası, yaygın",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "cherishyourcar_a14net"
+        ]
+      },
+      {
+        "issue": "Plastik triger zinciri kılavuzlarının kırılganlığı, plastik termostat gövdesinin çatlaması",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "cherishyourcar_a14net"
+        ]
+      }
+    ],
+    "sources": [
+      "cherishyourcar_a14net"
+    ],
+    "note": "Astra ve Corsa'daki 1.4 turbo benzinli. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): birden fazla küçük/orta bakım kalemi bildiriliyor ama tahmini ömür 270-450 bin km gibi güçlü; tek kaynağa (C) dayanıyor.]"
   },
   "gm-a16dth": {
     "id": "gm-a16dth",
@@ -600,11 +699,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Astra ve Insignia'daki 1.6 dizel; sessiz çalışmasıyla tanıtıldığı için 'whisper diesel' deniyor. Erken sürümlerde zincir gergisi contasız üretildiği için zincir uzaması bildiriliyor."
+    "base_score": 44,
+    "maintenance": "Soğuk kalkışta zincir sesi erken fark edilmeli; 40.000 km'de bir kontrol öneriliyor.",
+    "known_issues": [
+      {
+        "issue": "Contasız triger zinciri gergisi nedeniyle soğuk kalkışta yağ basıncı gecikmesi, zamanla zincir aşınması; ilerlemiş vakalarda motor arızası",
+        "onset_km": 100000,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "stargarage_a16dth_chain"
+        ]
+      }
+    ],
+    "sources": [
+      "stargarage_a16dth_chain"
+    ],
+    "note": "Astra ve Insignia'daki 1.6 dizel; sessiz çalışmasıyla tanıtıldığı için 'whisper diesel' deniyor. Erken sürümlerde zincir gergisi contasız üretildiği için zincir uzaması bildiriliyor. [base_score gerekçesi: 35-49 (bilinen risk): zincir sorunu yaygın ve büyük onarıma kadar gidebiliyor; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
   },
   "gm-a16let": {
     "id": "gm-a16let",
@@ -619,11 +730,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Insignia'nın 1.6 turbo benzinlisi."
+    "base_score": 48,
+    "maintenance": "Turbo besleme borusu ve yağ seviyesi düzenli kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Ortalamanın üzerinde yağ tüketimi, turbo besleme borusu kırılganlığı, yağ açlığı/kirliliği kaynaklı turbo arızası",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginecrux_a16let"
+        ]
+      },
+      {
+        "issue": "Halef 1.6 SIDI'de (170-180 bg) nadir ama felaket boyutunda 4. piston arızası",
+        "onset_km": null,
+        "frequency": "nadir",
+        "severity": "motor ölür",
+        "sources": [
+          "enginecrux_a16let"
+        ]
+      }
+    ],
+    "sources": [
+      "enginecrux_a16let"
+    ],
+    "note": "Insignia'nın 1.6 turbo benzinlisi. [base_score gerekçesi: 35-49 (bilinen risk) bandının üst sınırında: yağ tüketimi ve turbo arızası riski gerçek; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
   },
   "gm-a20dth": {
     "id": "gm-a20dth",
@@ -638,11 +770,33 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Insignia'nın 2.0 dizeli."
+    "base_score": 58,
+    "maintenance": "Turbo yatak/keçe durumu 100-150 bin km'de kontrol edilmeli; kısa mesafe kullanımda DPF izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Turbo yatak/keçe aşınması, tipik olarak 100-150 bin km'de",
+        "onset_km": 125000,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "carinterior_a20dth"
+        ]
+      },
+      {
+        "issue": "Yüksek basınç pompası ve enjektör tıkanması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "carinterior_a20dth"
+        ]
+      }
+    ],
+    "sources": [
+      "carinterior_a20dth"
+    ],
+    "note": "Insignia'nın 2.0 dizeli. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): turbo ve enjektör sorunları gerçek ama planlanabilir, 2013 sonrası iyileşme belgeleniyor; tek kaynağa (C) dayanıyor.]",
+    "revision_sensitivity": "2013 sonrası üretilen A20DTH sürümleri erken varyantlara göre daha dayanıklı kabul ediliyor. Listedeki Opel Insignia 2.0 CDTI (2009-2017 üretim) bu geçişin hem öncesini hem sonrasını kapsıyor."
   },
   "gm-ecotec-18": {
     "id": "gm-ecotec-18",
@@ -658,11 +812,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Vectra B ve C'deki 1.6/1.8 atmosferik benzinli aile."
+    "base_score": 54,
+    "maintenance": "Triger kayışı (interference motor) 60.000 km'de değiştirilmeli.",
+    "known_issues": [
+      {
+        "issue": "Eski X18XE1'de rölanti dalgalanması ve ECU arızaları; Z18XE'de aynı sorunlar ve triger kayışı atlanırsa supap bükülmesi",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "engine_specs_z18xer"
+        ]
+      }
+    ],
+    "sources": [
+      "engine_specs_z18xer"
+    ],
+    "note": "Vectra B ve C'deki 1.6/1.8 atmosferik benzinli aile. Daha yeni Z18XER varyantı 72/100 'kabul edilebilir' notu alıyor; listedeki Vectra B (1995-2002) eski X18XE1/Z18XE dönemine, Vectra C (2002-2008) kısmen daha yeni döneme giriyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının alt yarısı: eski varyantların sorunları daha belirgin; tek kaynağa (C) dayanıyor.]"
   },
   "gm-family1-16": {
     "id": "gm-family1-16",
@@ -679,11 +845,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Astra J ve Cruze'daki 1.6 atmosferik benzinli; GM'in Family 1 ailesinden."
+    "base_score": 62,
+    "maintenance": "Hidrolik supap iticisi olmadığı için 80-90 bin km'de bir supap ayarı gerekiyor.",
+    "known_issues": [
+      {
+        "issue": "Faz ayarlayıcıların 100.000 km sonrası takırdaması",
+        "onset_km": 100000,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "gmauthority_family1_phaser"
+        ]
+      },
+      {
+        "issue": "Yağ soğutucusu contasının bozulup yağın soğutma sıvısına karışması",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "gmauthority_family1_phaser"
+        ]
+      }
+    ],
+    "sources": [
+      "gmauthority_family1_phaser"
+    ],
+    "note": "Astra J ve Cruze'daki 1.6 atmosferik benzinli; GM'in Family 1 ailesinden. 250.000 km üstü kullanım için tasarlandığı belirtiliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının üst sınırında: bilinen sorunlar planlanabilir bakım kalemleri, uzun ömür potansiyeli var; tek kaynağa (C) dayanıyor.]"
   },
   "honda-d16-d17": {
     "id": "honda-d16-d17",
