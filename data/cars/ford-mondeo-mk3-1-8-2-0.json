@@ -11,25 +11,28 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "ford-cd4e",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     480,
     700
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 68,
-    "trans": 72,
+    "trans": 42,
     "fun": 58,
     "comf": 79,
     "age": 46,
     "cost": 70,
     "liq": 66
   },
-  "sources": [],
-  "note": "Mk4'ten önceki nesil; aynı sağlam yol tutuşu daha ucuza sunuyor. Otomatiği klasik tork konvertörlü, dertsiz. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "sources": [
+    "wiki_ford_cd4e",
+    "talkford_cd4e_reliability"
+  ],
+  "note": "Mk4'ten önceki nesil; aynı sağlam yol tutuşu daha ucuza sunuyor. Otomatiği klasik tork konvertörlü ama 'dertsiz' değil: kutu Ford'un CD4E'si ve valf gövdesi aşındığında yüksek basınç ile sert vites geçişi başlıyor, kutu 120.000 km sonrasında herhangi bir noktada arızalanabiliyor; ayrıca ana pompa tahrikinin sıyrılıp aracı hareketsiz bırakabildiği bildiriliyor. Bu aracı alacaksanız şanzıman geçmişi fiyattan daha önemli.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

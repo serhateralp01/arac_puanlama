@@ -11,14 +11,14 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "jatco-re4f0x",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     420,
     620
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 76,
     "trans": 74,
@@ -28,7 +28,10 @@
     "cost": 68,
     "liq": 58
   },
-  "sources": [],
+  "sources": [
+    "go4trans_re4f03a",
+    "transmissiondigest_re4f04b"
+  ],
   "note": "Sade bir Japon sedan; klasik tork konvertörlü otomatiği bakımı düzenli yapıldığında dertsiz. Türkiye'de yedek parça ağı Toyota-Honda kadar geniş değil. Ön değerlendirme, batch aşamasında derinleştirilecek.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

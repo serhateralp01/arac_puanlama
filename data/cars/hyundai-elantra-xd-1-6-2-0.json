@@ -11,14 +11,14 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "hyundai-a4af3",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     420,
     620
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 74,
     "trans": 74,
@@ -28,7 +28,10 @@
     "cost": 77,
     "liq": 68
   },
-  "sources": [],
+  "sources": [
+    "go4trans_a4af3",
+    "elantraxd_forum_a4af3"
+  ],
   "note": "MD kasadan önceki nesil; sade ve dayanıklı, otomatiği klasik tork konvertörlü. Fiyatı bu listenin en uygunlarından. Ön değerlendirme, batch aşamasında derinleştirilecek.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

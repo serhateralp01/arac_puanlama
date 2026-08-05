@@ -11,7 +11,7 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "jatco-jf506e",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
@@ -21,7 +21,7 @@
   "verification": "partial",
   "scores": {
     "motor": 56,
-    "trans": 68,
+    "trans": 44,
     "fun": 62,
     "comf": 78,
     "age": 30,
@@ -29,9 +29,11 @@
     "liq": 32
   },
   "sources": [
-    "techturkey_rover75_yardim"
+    "techturkey_rover75_yardim",
+    "mgrover_rover75_jatco",
+    "honestjohn_rover75_auto"
   ],
-  "note": "Klasik İngiliz tasarımlı bir sedan; ZF kaynaklı tork konvertörlü otomatiği idare eder. TechTurkey forumundaki Türkiye'ye özel tartışmaya göre yedek parça uzman parçacılar üzerinden bulunabiliyor ama standart piyasaya göre daha pahalı, deneyimli usta bulmak zor ve aracın yaşına bağlı mekanik sorunlar satış sırasında ayrıca zorluk çıkarıyor. Türkiye'de neredeyse hiç yaygın usta ve parça ağı yok, sırf meraklısına.",
+  "note": "Kabin kalitesi ve yol konforu fiyatının çok üstünde, ama otomatiği ciddi bir risk: kutu Jatco JF506E ve Land Rover Freelander ile Jaguar X-Type'ın da paylaştığı bu kutuda sarsıntılı vites geçişi, sensör kaynaklı arıza kodları, geri vites arızası ve bazı örneklerde tüm vitelerde güç kaybı bildiriliyor. Markanın Türkiye'deki yedek parça ve usta ağının zaten dar olması, bir arıza durumunda çözümü ayrıca zorlaştırıyor.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

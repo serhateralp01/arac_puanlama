@@ -11,7 +11,7 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "alfa-q-system",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
@@ -29,7 +29,8 @@
     "liq": 40
   },
   "sources": [
-    "whatcar_alfa156_reliability"
+    "whatcar_alfa156_reliability",
+    "alfabb_156_qsystem"
   ],
   "note": "159'dan önceki nesil, İtalyan tasarımının zirvelerinden; otomatiği tork konvertörlü ama Alfa'nın bilinen elektronik ve parça zorlukları burada da geçerli. What Car?'ın güvenilirlik derlemesine göre süspansiyon ve akslar 156'nın en zayıf noktası, ardından motor ve elektrik aksamı geliyor; erken üretim yıllarında yoğun elektrik arızaları ve arka çamurluk, eşik, şasi, bagaj tabanı gibi yaygın pas noktaları bildiriliyor.",
   "provenance": {

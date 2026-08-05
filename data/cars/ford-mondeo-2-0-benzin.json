@@ -11,7 +11,7 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "aisin-awf21",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
@@ -29,7 +29,9 @@
     "liq": 48
   },
   "sources": [
-    "mondps"
+    "mondps",
+    "fordwiki_awf21",
+    "whocanfixmycar_mondeo_whatcar"
   ],
   "note": "Turbosuz motoru ve Aisin yapımı tork konvertörlü otomatiğiyle sade ve sağlam bir kombinasyon. Ancak ağır gövdeye göre gücü yetersiz kalıyor ve yakıt tüketimi yüksek. Konforlu ve güvenilir ama hantal bir araç.",
   "provenance": {

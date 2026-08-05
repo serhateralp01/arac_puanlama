@@ -11,14 +11,14 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "hyundai-a4af3",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     450,
     650
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 72,
     "trans": 74,
@@ -28,7 +28,9 @@
     "cost": 74,
     "liq": 66
   },
-  "sources": [],
+  "sources": [
+    "go4trans_a4af3"
+  ],
   "note": "Şu an listede olan yeni nesil Cerato'dan daha eski ve daha ucuz; aynı sade tork konvertörlü kutu. Ön değerlendirme, batch aşamasında derinleştirilecek.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

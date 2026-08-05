@@ -11,25 +11,28 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "aisin-aw55",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     480,
     700
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 62,
-    "trans": 70,
+    "trans": 46,
     "fun": 68,
     "comf": 78,
     "age": 36,
     "cost": 47,
     "liq": 36
   },
-  "sources": [],
-  "note": "Niş ama karakterli bir İsveç sedanı; otomatiği tork konvertörlü. Türkiye'de yedek parça ve usta bulmak en zor markalardan. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "sources": [
+    "eeuroparts_volvo_aw55_servo",
+    "youcanic_opel_aw55"
+  ],
+  "note": "Niş ama karakterli bir İsveç sedanı. Otomatiği Aisin'in AW55 kutusu ve bu kutu, Aisin'in sonraki TF-80SC'sinin selefi olarak belirgin biçimde daha sorunlu; düşük kilometrede ortaya çıkan yapısal bir kusur taşıdığı anlaşılmış. Türkiye'de yedek parça ve usta bulmak en zor markalardan olduğu için bu risk pratikte daha da ağırlaşıyor.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

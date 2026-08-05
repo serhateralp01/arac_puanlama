@@ -11,14 +11,14 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "gm-aisin-af17",
     "body_type": "Hatchback"
   },
   "price_band_k_try": [
     600,
     880
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 74,
     "trans": 74,
@@ -28,7 +28,9 @@
     "cost": 78,
     "liq": 68
   },
-  "sources": [],
+  "sources": [
+    "autodoc_astra_j_problems"
+  ],
   "note": "Sade ve dayanıklı bir benzinli motorla 6 ileri tork konvertörlü otomatiği bir araya getiriyor; şanzıman tarafında sürpriz yok. Yedek parçası ucuz ve bol. Motor gücü mütevazı, sürüş keyfi sınırlı ama güvenilir bir günlük araç.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

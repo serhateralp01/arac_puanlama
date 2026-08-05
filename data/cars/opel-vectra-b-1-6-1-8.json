@@ -11,14 +11,14 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "gm-4t65e",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     450,
     650
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 64,
     "trans": 66,
@@ -28,7 +28,9 @@
     "cost": 73,
     "liq": 64
   },
-  "sources": [],
+  "sources": [
+    "transmissionanswers_4t65e"
+  ],
   "note": "Basit ve dayanıklı bir D segment sedan; klasik 4 ileri tork konvertörlü otomatiği güvenilir tarafta. Yaşı ilerlemiş, pas ve elektrik kontrolü şart. Ön değerlendirme, batch aşamasında derinleştirilecek.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

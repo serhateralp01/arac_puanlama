@@ -11,25 +11,28 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "ford-cd4e",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     420,
     600
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 78,
-    "trans": 76,
+    "trans": 42,
     "fun": 52,
     "comf": 77,
     "age": 36,
     "cost": 62,
     "liq": 50
   },
-  "sources": [],
-  "note": "Mazda 6'dan önceki nesil; sağlam bir Japon motoru ve basit otomatiği var. Yaşı ilerlemiş, yedek parça ağı dar. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "sources": [
+    "carproblemzoo_mazda626",
+    "motorverso_mazda_transmission"
+  ],
+  "note": "Mazda 6'dan önceki nesil; motoru sağlam bir Japon motoru ama otomatiği bu aracın en zayıf noktası. Kutu, Ford ile ortak CD4E ve bir şikayet veritabanında Mazda 626 için 545 ayrı otomatik şanzıman arıza kaydı bulunuyor — bu, tekil bir anekdot değil sayılmış bir örüntü. Zamansız vites geçişleri ve gecikmeli kickdown en sık bildirilen belirtiler. Yaşı ilerlemiş, yedek parça ağı dar.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

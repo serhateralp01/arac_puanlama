@@ -482,7 +482,19 @@ uyarı veriyor; yapısal uyarı kalmadı.
    2.0T) önce açık bırakıldı, ardından Volvo'ya özgü bir kanıt aranıp bulunamadığı
    teyit edildi ve puan kutunun temel puanına çekildi; bkz. `docs/DATA-ISSUES.md`
    D-09.
-10. `data/engines.json` henüz kurulmadı.
+10. **Tamamlandı.** Kutu kaydına bağlı olmayan 57 araçtan 56'sı bağlandı. Bunun için
+    15 yeni kutu kaydı kuruldu (`zf-4hp`, `gm-aisin-af17`, `gm-4t65e`,
+    `honda-4at-5at`, `hyundai-a4af3`, `jatco-re4f0x`, `jatco-jf506e`, `ford-cd4e`,
+    `ford-4f27e`, `aisin-awf21`, `mitsubishi-invecs-cvt`, `suzuki-4at`, `toyota-4at`,
+    `alfa-q-system`, `aisin-aw55`) ve her biri kendi güvenilirlik araştırmasıyla
+    birlikte geldi. Bağlanamayan tek araç `skoda-octavia-1-tour-1-6-1-8-2-0`: VAG'ın
+    01N/01V kodlu 4 ileri Tiptronic kutusu için güvenilirlik hakkında bir şey söyleyen
+    kaynak bulunamadı ve kaynaksız bir kutu kaydı açmak yerine bağlanmadan bırakıldı.
+    Bu bağlama işi 22 araçta gerekçesiz puan sapması ortaya çıkardı ve hepsi kutunun
+    temel puanına çekildi; ayrıntı ve gerekçe `docs/DATA-ISSUES.md` D-11'de.
+    Yetim kutu kalmadı (`gm-5l40e` dört BMW'ye, `hyundai-6at` yedi Hyundai/Kia'ya
+    bağlandı).
+11. `data/engines.json` henüz kurulmadı.
 
 **Kabul ölçütü — sağlandı.** §1.2 tablosundaki üç kutunun hepsi çözüldü:
 `nissan-xtronic` gerekçeli (evidence.trans), `psa-al4` ve `getrag-6dct450` aileleri

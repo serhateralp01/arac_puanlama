@@ -11,7 +11,7 @@
     "fuel": "Benzin",
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "zf-4hp",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
@@ -21,7 +21,7 @@
   "verification": "partial",
   "scores": {
     "motor": 68,
-    "trans": 76,
+    "trans": 58,
     "fun": 68,
     "comf": 73,
     "age": 40,
@@ -29,9 +29,10 @@
     "liq": 66
   },
   "sources": [
-    "e46sub"
+    "e46sub",
+    "bavauto_zf4hp"
   ],
-  "note": "E46 ailesinin en ucuz motoruyla ama aynı RWD şasi keyfiyle; subframe çatlağı kontrolü burada da geçerli. Diğer E46'lardan daha uygun fiyatlı bir giriş noktası. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "note": "E46 ailesinin en ucuz motoruyla ama aynı RWD şasi keyfiyle; subframe çatlağı kontrolü burada da geçerli. Otomatiği ZF'nin 4 ileri kutusu; tasarım olarak sağlam sayılsa da BMW uygulamalarında aşırı ısınmaya bağlı erken arıza eğilimi bildiriliyor. Diğer E46'lardan daha uygun fiyatlı bir giriş noktası.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

@@ -11,25 +11,28 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "ford-4f27e",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     600,
     860
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 82,
-    "trans": 80,
+    "trans": 72,
     "fun": 54,
     "comf": 76,
     "age": 54,
     "cost": 64,
     "liq": 56
   },
-  "sources": [],
-  "note": "Türkiye’de 2.5 litrelik versiyonu satılmadı ama 2.0 litrelik versiyonu bulunuyor. Turbosuz motoru ve 5 ileri tork konvertörlü otomatiği sağlam; sürüşü sınıf ortalamasının üzerinde. Yedek parça ve usta ağı Toyota ile Honda kadar güçlü değil, bulunabilirliği orta seviyede. Sessiz sedasız iyi bir araç.",
+  "sources": [
+    "focusfanatics_mk2_auto",
+    "motorverso_mazda_transmission"
+  ],
+  "note": "Türkiye'de 2.5 litrelik versiyonu satılmadı ama 2.0 litrelik versiyonu bulunuyor. Turbosuz motoru sağlam; otomatiği Ford ile ortak geliştirilen 4F27E kutusu ve bu kutu, Mazda'nın 2000'lerin başındaki sorunlu CD4E'sinin halefi olarak belirgin biçimde daha iyi kabul ediliyor. Sürüşü sınıf ortalamasının üzerinde. Yedek parça ve usta ağı Toyota ile Honda kadar güçlü değil, bulunabilirliği orta seviyede. Sessiz sedasız iyi bir araç.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

@@ -11,25 +11,28 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "psa-al4",
     "body_type": "Hatchback"
   },
   "price_band_k_try": [
     380,
     560
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 64,
-    "trans": 64,
+    "trans": 40,
     "fun": 44,
     "comf": 65,
     "age": 38,
     "cost": 79,
     "liq": 70
   },
-  "sources": [],
-  "note": "Listenin en ucuz araçlarından; küçük gövdede basit bir tork konvertörlü otomatik. Yaşı çok ilerlemiş, elektrik/pas kontrolü şart. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "sources": [
+    "trbox",
+    "go4trans_dp0"
+  ],
+  "note": "Küçük gövdesi şehir içinde pratik, yedek parça ve servis ağı Türkiye'de çok güçlü. Otomatiği ise PSA ile ortak AL4/DPO kutusu (Renault'da DPO adıyla geçiyor) ve selenoid valf arızası, aşırı ısınma ile vites geçişlerinde vuruntu bu ailenin yaygın şikayetleri.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

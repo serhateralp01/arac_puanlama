@@ -11,25 +11,28 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "psa-al4",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     450,
     650
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 62,
-    "trans": 66,
+    "trans": 40,
     "fun": 50,
     "comf": 80,
     "age": 44,
     "cost": 69,
     "liq": 60
   },
-  "sources": [],
-  "note": "Geniş ve konforlu bir D segment sedan; otomatiği basit tork konvertörlü. Yaşı nedeniyle elektronik aksam (o dönem Renault'un bilinen zayıf noktası) kontrol edilmeli. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "sources": [
+    "trbox",
+    "go4trans_dp0"
+  ],
+  "note": "Geniş ve konforlu bir D segment sedan. Otomatiği PSA ile ortak AL4/DPO kutusu ve selenoid valf arızası ile aşırı ısınma bu ailenin bilinen sorunları. Yaşı nedeniyle elektronik aksam (o dönem Renault'un bilinen zayıf noktası) ayrıca kontrol edilmeli.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

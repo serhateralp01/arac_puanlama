@@ -158,10 +158,11 @@
     "torque_rating_nm": null,
     "torque_sensitivity": null,
     "base_score": 40,
-    "maintenance": null,
+    "maintenance": "Valf gövdesi aşırı ısınmaya ve kirli ATF'ye çok duyarlı; düzenli yağ değişimi ve soğutmanın kontrolü kutunun ömrünü belirliyor.",
     "known_issues": [],
     "sources": [
-      "trbox"
+      "trbox",
+      "go4trans_dp0"
     ],
     "note": "Selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme yaygın şikayetler. UYARI: docs/PLAN.md §1.2'de bu kutu üç araçta (Citroen C4 32, Citroen Xsara 60, Peugeot 307 60) 28 puanlık bir fark gösteriyor, ama üç aracın da beygiri birbirine çok yakın (110-120 bg) ve araştırma torka dayalı bir açıklama bulamadı. Bu fark, getrag-6dct450 ve nissan-xtronic'in aksine gerçek bir mühendislik farkına dayanmıyor olabilir; C4'ün 32 puanının ayrıca kaynakla doğrulanması ya da diğer ikisiyle aynı seviyeye çekilmesi gerekiyor. [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı): selenoid valf arızası kontrol ünitesi kaynaklı, yaygın şikayet olarak tarif ediliyor.]"
   },
@@ -560,5 +561,299 @@
       "trbox"
     ],
     "note": "Gerçek bir otomatik değil, motorlu debriyajlı manuel şanzıman. Baskı balata aşınması ve vites robotu arızalarıyla biliniyor. [base_score gerekçesi: 35-49 sınırında tutuldu: baskı balata aşınması ve vites robotu arızası bildiriliyor, Robot tipi yapısal olarak en yüksek risk kategorisi; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
+  },
+  "zf-4hp": {
+    "id": "zf-4hp",
+    "names": [
+      "ZF 4HP20",
+      "ZF 4HP22",
+      "ZF 4HP24",
+      "ZF 4 ileri tork konvertörü"
+    ],
+    "type": "TK",
+    "supplier": "ZF",
+    "gears": 4,
+    "base_score": 58,
+    "maintenance": "Aşırı ısınmadan kaçınmak kutunun ömrünü belirleyen ana etken; soğutma sistemi düzenli kontrol edilmeli.",
+    "known_issues": [],
+    "sources": [
+      "bavauto_zf4hp",
+      "bimmerfest_e46_4hp_reliability"
+    ],
+    "note": "BMW E36 ve E46'nın düşük beygirli benzinli versiyonlarında ve bazı PSA modellerinde kullanılan 4 ileri kutu. Tasarım olarak sağlam sayılıyor ama BMW uygulamalarında düzenli bakıma rağmen erken arızalanma eğilimi bildiriliyor; en sık neden aşırı ısınma. Aynı üreticinin 5 ileri kutusundan (zf-5hp) daha düşük puan alıyor, çünkü zf-5hp'de böyle bir marka-özel erken arıza örüntüsü yok. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): kaynaklar erken arıza eğilimini doğruluyor ama bunu aşırı ısınma gibi önlenebilir bir nedene bağlıyor, yapısal bir kusura değil.]"
+  },
+  "gm-aisin-af17": {
+    "id": "gm-aisin-af17",
+    "names": [
+      "AF17",
+      "AW6041SN",
+      "GM 6T30",
+      "GM/Aisin 6 ileri"
+    ],
+    "type": "TK",
+    "supplier": "Aisin / General Motors",
+    "gears": 6,
+    "base_score": 68,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [
+      "autodoc_astra_j_problems",
+      "asrgearbox_tf80"
+    ],
+    "note": "Opel Astra J, Insignia, Corsa ve Chevrolet Cruze gibi GM modellerinde kullanılan 6 ileri tork konvertörlü kutu. Astra J'nin bütün şanzıman seçenekleri arasında güvenilirlik lideri olarak anılıyor; Aisin 6 ileri ailesinin genel zayıf noktası olan valf gövdesi ve yağ kalitesine duyarlılık burada da geçerli. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak bu kutuyu kendi ailesinde güvenilirlik lideri olarak tanımlıyor, bilinen sorunlar bakıma bağlı.]"
+  },
+  "gm-4t65e": {
+    "id": "gm-4t65e",
+    "names": [
+      "GM 4T65-E",
+      "GM 4T45-E",
+      "GM 4 ileri otomatik"
+    ],
+    "type": "TK",
+    "supplier": "General Motors",
+    "gears": 4,
+    "base_score": 54,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [
+      "transmissionanswers_4t65e",
+      "youcanic_opel_aw55"
+    ],
+    "note": "Opel Vectra B ve C gibi eski GM modellerinde kullanılan 4 ileri kutu. Genel olarak güvenilir kabul ediliyor ama yüksek kilometrede kayma, sert vites geçişi ve aşınmış kavrama pistonu bildiriliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): kaynaklarda tekrarlayan bir şikayet örüntüsü var ama kutu genelde ayakta kalıyor.]"
+  },
+  "honda-4at-5at": {
+    "id": "honda-4at-5at",
+    "names": [
+      "Honda 4 ileri otomatik",
+      "Honda 5 ileri otomatik",
+      "MCTA",
+      "BAYA"
+    ],
+    "type": "TK",
+    "supplier": "Honda",
+    "gears": null,
+    "base_score": 78,
+    "maintenance": "Honda'nın kendi ATF-Z1/DW-1 yağıyla düzenli değişim gerekiyor; genel ATF kullanımı sorun çıkarıyor.",
+    "known_issues": [],
+    "sources": [
+      "hondatech_k24",
+      "truedelta_accord",
+      "civic"
+    ],
+    "note": "Honda Civic ve Accord'un tork konvertörlü otomatikleri. Vites sayısı modele göre değiştiği (Civic'te 4-5, Accord'da 5) için boş bırakıldı. Düzenli bakımla sağlam bir geçmişe sahip oldukları, 150.000 milin üstüne sorunsuz çıkabildikleri bildiriliyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynaklar bu kutuları güvenilir olarak tanımlıyor, tek şart Honda'nın kendi yağıyla düzenli bakım.]"
+  },
+  "hyundai-a4af3": {
+    "id": "hyundai-a4af3",
+    "names": [
+      "A4AF3",
+      "A4BF3",
+      "Hyundai-Kia 4 ileri otomatik"
+    ],
+    "type": "TK",
+    "supplier": "Hyundai / Kia (Mitsubishi lisansı)",
+    "gears": 4,
+    "base_score": 72,
+    "maintenance": "Kirli ATF solenoid valfini aşındırdığı için düzenli yağ değişimi önemli.",
+    "known_issues": [],
+    "sources": [
+      "go4trans_a4af3",
+      "elantraxd_forum_a4af3"
+    ],
+    "note": "Hyundai Elantra XD (2000-2006) ve Kia Cerato LD (2003-2007) gibi eski nesil Hyundai-Kia modellerinde kullanılan, Mitsubishi ile ortak geliştirilmiş 4 ileri kutu. Kirli şanzıman yağıyla bile uzun süre çalışabildiği, bilinen tek zayıf noktasının kirli ATF'nin aşındırdığı solenoid valfi olduğu bildiriliyor. Sonraki nesilde gelen hyundai-6at ile karıştırılmamalı. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak kutuyu 'çok güvenilir' diye tanımlıyor ve tek zayıf noktayı bir bakım kalemine bağlıyor.]"
+  },
+  "jatco-re4f0x": {
+    "id": "jatco-re4f0x",
+    "names": [
+      "RE4F03A",
+      "RE4F04A",
+      "Jatco 4 ileri otomatik"
+    ],
+    "type": "TK",
+    "supplier": "Jatco / Nissan",
+    "gears": 4,
+    "base_score": 68,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [
+      "go4trans_re4f03a",
+      "transmissiondigest_re4f04b"
+    ],
+    "note": "Nissan Almera ve Primera gibi düşük torklu modellerde kullanılan 4 ileri kutu. Sektörde dayanıklılık/maliyet dengesi açısından Jatco'nun başarılı kutularından sayılıyor. Yüksek torklu motorlarla eşleştirildiğinde kilitleme mekanizmasının aşırı yıprandığı bildiriliyor, ama listedeki uygulamalar (1.6-2.0 benzinli) bu sınırın altında kalıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynaklar kutuyu güvenilir olarak niteliyor, bilinen risk yalnızca listedeki araçları kapsamayan yüksek tork eşleşmelerinde.]"
+  },
+  "jatco-jf506e": {
+    "id": "jatco-jf506e",
+    "names": [
+      "Jatco JF506E",
+      "5 ileri Jatco"
+    ],
+    "type": "TK",
+    "supplier": "Jatco",
+    "gears": 5,
+    "base_score": 44,
+    "maintenance": "Üretici ömür boyu yağ dese de 145-160 bin km'de yağ değişimi öneriliyor; yalnızca kutunun kendi katkı paketini taşıyan yağ kullanılmalı.",
+    "known_issues": [],
+    "sources": [
+      "mgrover_rover75_jatco",
+      "honestjohn_rover75_auto"
+    ],
+    "note": "Rover 75, Land Rover Freelander ve Jaguar X-Type'ın paylaştığı 5 ileri kutu. Sarsıntılı vites geçişi, sensör kaynaklı arıza kodları, geri vites arızası ve bazı örneklerde tüm vitelerde güç kaybı bildiriliyor. Bu araçların Türkiye'de zaten sınırlı olan servis ağı, arıza durumunda çözümü ayrıca zorlaştırıyor. [base_score gerekçesi: 35-49 (bilinen risk): iki kaynak da tekrarlayan ve ciddi (tam güç kaybına varabilen) arızaları doğruluyor.]"
+  },
+  "ford-cd4e": {
+    "id": "ford-cd4e",
+    "names": [
+      "CD4E",
+      "Ford 4 ileri otomatik"
+    ],
+    "type": "TK",
+    "supplier": "Ford / Mazda",
+    "gears": 4,
+    "base_score": 42,
+    "maintenance": "48.000 km'de bir yağ değişimi öneriliyor; valf gövdesinin durumu kutunun ömrünü belirleyen ana etken.",
+    "known_issues": [],
+    "sources": [
+      "wiki_ford_cd4e",
+      "talkford_cd4e_reliability",
+      "carproblemzoo_mazda626"
+    ],
+    "note": "Ford Mondeo Mk1-Mk3'ün dört silindirli otomatiklerinde ve Mazda 626'da kullanılan 4 ileri kutu. Valf gövdesi sağlam kaldığı sürece çalışıyor, ama aşınmış valf gövdesi yüksek basınca ve sert vites geçişine yol açıyor ve kutu 120.000 km sonrasında herhangi bir noktada arızalanabiliyor; ayrıca ana pompa tahrikinin sıyrılıp aracı hareketsiz bırakabildiği bildiriliyor. Bir şikayet veritabanında Mazda 626 için 545 ayrı otomatik şanzıman arıza kaydı bulunuyor. [base_score gerekçesi: 35-49 (bilinen risk): üç kaynak da ciddi ve tekrarlayan arızaları doğruluyor; sayılmış şikayet kaydı (545) bunu tekil anekdot olmaktan çıkarıyor.]"
+  },
+  "ford-4f27e": {
+    "id": "ford-4f27e",
+    "names": [
+      "4F27E",
+      "FNR5",
+      "Ford/Mazda 4-5 ileri otomatik"
+    ],
+    "type": "TK",
+    "supplier": "Ford / Mazda",
+    "gears": 4,
+    "base_score": 72,
+    "maintenance": "48.000 km'de bir yağ değişimi öneriliyor.",
+    "known_issues": [],
+    "sources": [
+      "focusfanatics_mk2_auto",
+      "focusclub_4ileri"
+    ],
+    "note": "İkinci nesil Ford Focus'un ve Mazda 6 GH'nin otomatiğinde kullanılan, CD4E'nin halefi olan kutu. İki bağımsız kaynak da olumlu: İngilizce forum kaynağı bunu açıkça CD4E'den daha iyi diye tanımlıyor (240.000 km'ye kadar sorunsuz, 160.000 km'den sonra vites uğultusu duyulabiliyor ama kutu çalışmaya devam ediyor), Türkçe forum kaynağı ise doğrudan 'şanzımanınız taş gibidir, 4 ileri oldukça sağlamdır' diyor ve bu kutuyu Ford'un aynı dönemdeki CVT, ASM ve Jatco kaynaklı otomatiklerinden ayırıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): iki bağımsız kaynak da olumlu ve tek bildirilen kusur (uğultu) işlevi bozmuyor; ikisi de C seviyesinde olduğu için 85 üstüne çıkarılmadı.]"
+  },
+  "aisin-awf21": {
+    "id": "aisin-awf21",
+    "names": [
+      "AWF21",
+      "AW TF-81SC",
+      "Aisin 6 ileri (Ford)"
+    ],
+    "type": "TK",
+    "supplier": "Aisin",
+    "gears": 6,
+    "base_score": 72,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [
+      "fordwiki_awf21",
+      "whocanfixmycar_mondeo_whatcar"
+    ],
+    "note": "Ford Mondeo Mk4 ve Mk5'in EcoBoost olmayan benzinli ve 2.0 TDCi versiyonlarında kullanılan Aisin kaynaklı 6 ileri tork konvertörlü kutu. Ford'un sorunlu Powershift kutusuyla karıştırılmamalı; What Car?'ın 2023 güvenilirlik anketinde Mondeo'nun segmentinin en güvenilir kullanılmış aracı seçilmesinin arkasında büyük ölçüde bu tork konvertörlü versiyonlar var, bildirilen sorunlar Powershift donanımlı örneklerde yoğunlaşıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): B seviyesinde bir anket kaynağı olumlu tabloyu destekliyor, ama kutuya özgü ayrıntılı bir arıza analizi bulunamadığı için üst banda çıkarılmadı.]"
+  },
+  "mitsubishi-invecs-cvt": {
+    "id": "mitsubishi-invecs-cvt",
+    "names": [
+      "INVECS-III",
+      "Mitsubishi CVT",
+      "Jatco JF011E"
+    ],
+    "type": "CVT",
+    "supplier": "Jatco / Mitsubishi",
+    "gears": null,
+    "base_score": 38,
+    "maintenance": "Özel CVT yağı gerekiyor; 30-40 bin km'de kontrol, 60.000 km'de yağ değişimi öneriliyor.",
+    "known_issues": [
+      {
+        "issue": "V kayışı ve kasnaklarda erken aşınma; sarsıntılı hızlanma, titreşim ve vites geçişinde metalik ses",
+        "onset_km": 80000,
+        "severity": "yüksek",
+        "sources": [
+          "autodoc_lancer_cvt"
+        ]
+      }
+    ],
+    "sources": [
+      "autodoc_lancer_cvt",
+      "youcanic_mitsubishi_cvt"
+    ],
+    "note": "Mitsubishi Lancer'ın CVT kutusu. V kayışı ve kasnaklarda erken aşınma yaygın bir arıza; belirtiler 80.000 km gibi düşük bir kilometrede başlayabiliyor. 2016'da Mitsubishi, gecikmeli hızlanma sorunu nedeniyle 80.000'den fazla Outlander ve Lancer'ı CVT arızası yüzünden geri çağırdı — bu, tekil bir kullanıcı şikayeti değil üreticinin kendi kabul ettiği bir kusur. Toyota'nın Multidrive CVT'siyle (74 puan) arasındaki fark buradan geliyor. [base_score gerekçesi: 35-49 (bilinen risk): üretici geri çağırması ve düşük kilometrede başlayan aşınma örüntüsü belgelenmiş; geri çağırma kaydı olduğu için autodoc kaynağı B seviyesinde sayıldı.]"
+  },
+  "suzuki-4at": {
+    "id": "suzuki-4at",
+    "names": [
+      "Suzuki 4 ileri otomatik",
+      "Aisin AW60-40LE"
+    ],
+    "type": "TK",
+    "supplier": "Aisin / Suzuki",
+    "gears": 4,
+    "base_score": 74,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [
+      "truedelta_suzuki_sx4",
+      "suzukiforums_sx4_4at"
+    ],
+    "note": "Suzuki SX4'ün 2010 öncesi versiyonlarında kullanılan 4 ileri kutu. TrueDelta'nın sahip anketinde sahiplerin çoğu 93.000 km'ye kadar sorun bildirmiyor. Suzuki'nin 2010'dan sonra geçtiği CVT ile karıştırılmamalı; o kutu 60.000 km'den sonra aşınma belirtileri gösteriyor ve belirgin biçimde daha az güvenilir. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): TrueDelta A seviyesinde bir sahip anketi ve olumlu; kutuya özgü hiçbir arıza örüntüsü bulunamadı, ama örneklem küçük olduğu için 85 üstüne çıkarılmadı.]"
+  },
+  "toyota-4at": {
+    "id": "toyota-4at",
+    "names": [
+      "Toyota 4 ileri otomatik",
+      "A245E",
+      "U340E"
+    ],
+    "type": "TK",
+    "supplier": "Aisin / Toyota",
+    "gears": 4,
+    "base_score": 80,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [
+      "hiver_corolla_e120_reliability",
+      "motorbiscuit_corolla_boring"
+    ],
+    "note": "Toyota Corolla E12 ve 2007-13 nesillerinde kullanılan 4 ileri tork konvertörlü kutu. Kaynak bu neslin otomatiklerini 'mükemmel' diye niteliyor ve gerçek arızaların çok seyrek olduğunu söylüyor; 150.000 km sonrasında aşınma belirtileri için kontrol öneriliyor ama bu bir arıza örüntüsü değil, yaşa bağlı normal bir kontrol kalemi. Toyota'nın Multidrive CVT'siyle (74 puan) karıştırılmamalı — bu kutu ondan daha basit ve daha dayanıklı. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak son derece olumlu ama iki kaynak da C seviyesinde; M-2 kuralı gereği C kaynağa dayanan puan 85 üstü uç banda çıkamıyor.]"
+  },
+  "alfa-q-system": {
+    "id": "alfa-q-system",
+    "names": [
+      "Q-System",
+      "Alfa 4 ileri otomatik"
+    ],
+    "type": "TK",
+    "supplier": "Alfa Romeo",
+    "gears": 4,
+    "base_score": 62,
+    "maintenance": "Alfa'nın kendi belirttiği şanzıman yağı kullanılmalı; yanlış yağ arıza lambası yakıyor.",
+    "known_issues": [],
+    "sources": [
+      "alfabb_156_qsystem"
+    ],
+    "note": "Alfa Romeo 156'nın 4 ileri tork konvertörlü otomatiği. Aynı araçta sunulan Selespeed yarı otomatiğine göre belirgin biçimde daha güvenilir kabul ediliyor; doğru yağ ve düzenli bakımla genel olarak sorunsuz çalışıyor. Buna karşılık dört ileri olması ve manuel kontrolü tam sağlayamaması nedeniyle sürüş açısından eleştiriliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): kaynak olumlu ama bu olumluluğu esas olarak Selespeed'e kıyasla kuruyor; tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
+  },
+  "aisin-aw55": {
+    "id": "aisin-aw55",
+    "names": [
+      "AW55-50SN",
+      "AW55-51SN",
+      "Aisin 5 ileri"
+    ],
+    "type": "TK",
+    "supplier": "Aisin",
+    "gears": 5,
+    "base_score": 46,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [
+      "eeuroparts_volvo_aw55_servo",
+      "youcanic_opel_aw55"
+    ],
+    "note": "Volvo S40/V50/S60 birinci nesil, Opel Vectra C ve Saab gibi modellerde kullanılan 5 ileri kutu. Aisin'in sonraki TF-80SC kutusunun selefi ve ondan belirgin biçimde daha sorunlu: 50.000 milin altında garanti kapsamına giren arızalar yaygınlaşmış ve kutunun yapısal bir kusur taşıdığı anlaşılmış; Opel uygulamalarında da vites sertliği (shift flare) şikayeti yaygın. Bu kutu, Volvo'daki daha yeni ve güvenilir aisin-geartronic (78 puan) ile karıştırılmamalı. [base_score gerekçesi: 35-49 (bilinen risk): iki bağımsız kaynak düşük kilometrede ortaya çıkan yapısal bir kusuru doğruluyor.]"
   }
 }

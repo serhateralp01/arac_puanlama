@@ -11,7 +11,7 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "hyundai-a4af3",
     "body_type": null
   },
   "price_band_k_try": [
@@ -29,7 +29,8 @@
     "liq": 76
   },
   "sources": [
-    "motorbeam_i20_1_4_automatic"
+    "motorbeam_i20_1_4_automatic",
+    "go4trans_a4af3"
   ],
   "note": "Küçük gövdeleri sayesinde şehir içinde çok pratik ve park etmesi kolay. Tork konvertörlü otomatikleri sade ve sağlam, işletme maliyetleri düşük. MotorBeam'in i20 1.4 otomatik testine göre 0-100 km/s hızlanma sınıfı için mütevazı (~12.8 saniye) ve yüksek hızda direksiyon hissiz kalıyor; araç heyecanlı sürüşten çok şehir içi kullanım için tasarlanmış. Uzun yolda ve tam yükte zorlanıyorlar.",
   "provenance": {

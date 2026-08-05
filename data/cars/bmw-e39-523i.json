@@ -11,17 +11,17 @@
     "fuel": "Benzin",
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "gm-5l40e",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     400,
     580
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
-    "trans": 68,
+    "trans": 40,
     "fun": 70,
     "comf": 68,
     "age": 28,
@@ -31,9 +31,11 @@
   "sources": [
     "e39",
     "e39c",
-    "tuv"
+    "tuv",
+    "axleaddict_gm5l40e",
+    "solsticeforum_gm5l40e"
   ],
-  "note": "Benzinli E39’lar arasında en zayıf seçenek: eski M52 motoru ve düşük güç. Yine de arkadan itişli altı silindirli bir araç olması ve yedek parçasının bolluğu onu ayakta tutuyor. Sadece ucuza temiz bir kasa arıyorsanız değerlendirin.",
+  "note": "Benzinli E39'lar arasında en zayıf seçenek: eski M52 motoru ve düşük güç. Otomatiği GM yapımı 5L40-E kutusu ve bu, ZF'li kardeşlerine göre belirgin bir dezavantaj: akümülatör yayı kırılması, kilitleme solenoidi arızası (tam güç kaybına yol açabilen) ve çıkış mili aşınması bu kutuda belgelenmiş, tekrarlayan arızalar. Yine de arkadan itişli altı silindirli bir araç olması ve yedek parçasının bolluğu onu ayakta tutuyor.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

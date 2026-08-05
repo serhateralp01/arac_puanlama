@@ -11,7 +11,7 @@
     "fuel": "Benzin",
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "zf-4hp",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
@@ -21,7 +21,7 @@
   "verification": "partial",
   "scores": {
     "motor": 64,
-    "trans": 76,
+    "trans": 58,
     "fun": 84,
     "comf": 68,
     "age": 32,
@@ -29,9 +29,10 @@
     "liq": 58
   },
   "sources": [
-    "e39c"
+    "e39c",
+    "bavauto_zf4hp"
   ],
-  "note": "E39'dan önceki nesil; aynı RWD sıralı altı karakterini çok daha ucuza sunuyor. ZF otomatiği sağlam. Yaşı çok ilerlemiş, soğutma sistemi ve pas kontrolü E39'dan bile daha kritik. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "note": "E39'dan önceki nesil; aynı RWD sıralı altı karakterini çok daha ucuza sunuyor. Otomatiği ZF'nin 4 ileri kutusu; bu kutu tasarım olarak sağlam sayılsa da BMW uygulamalarında düzenli bakıma rağmen erken arızalanma eğilimi bildiriliyor ve en sık neden aşırı ısınma, yani soğutma sisteminin durumu doğrudan şanzımanın ömrünü belirliyor. Yaşı çok ilerlemiş, soğutma sistemi ve pas kontrolü E39'dan bile daha kritik.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

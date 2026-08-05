@@ -11,25 +11,28 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "psa-al4",
     "body_type": "Hatchback"
   },
   "price_band_k_try": [
     620,
     900
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 66,
-    "trans": 70,
+    "trans": 40,
     "fun": 40,
     "comf": 77,
     "age": 52,
     "cost": 80,
     "liq": 64
   },
-  "sources": [],
-  "note": "Eski usul 4 ileri tork konvertörlü otomatiğiyle sade bir çözüm sunuyor; kutu yavaş ama çift kavramalıların risklerini taşımıyor. Yedek parça ve servis ağı Türkiye'de çok güçlü. Elektrik aksamı ve yaş kaynaklı kalemler kontrol edilmeli.",
+  "sources": [
+    "trbox",
+    "go4trans_dp0"
+  ],
+  "note": "Eski usul 4 ileri tork konvertörlü otomatiğiyle sade bir çözüm sunuyor ve çift kavramalıların risklerini taşımıyor, ama kendi riskleri var: kutu PSA ile ortak AL4/DPO ailesinden ve selenoid valf arızası, aşırı ısınma ile vites geçişlerinde vuruntu bu ailede yaygın. Yedek parça ve servis ağı Türkiye'de çok güçlü, elektrik aksamı ve yaş kaynaklı kalemler kontrol edilmeli.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

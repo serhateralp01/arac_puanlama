@@ -11,17 +11,17 @@
     "fuel": "Benzin",
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "gm-5l40e",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     450,
     680
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
-    "trans": 67,
+    "trans": 40,
     "fun": 76,
     "comf": 66,
     "age": 36,
@@ -30,9 +30,11 @@
   },
   "sources": [
     "e46sub",
-    "m54"
+    "m54",
+    "axleaddict_gm5l40e",
+    "solsticeforum_gm5l40e"
   ],
-  "note": "2.5 litrelik M54 motorlu bu versiyon, arka aks taşıyıcısı açısından E46 ailesinin en güvenli üyesi kabul ediliyor. ZF ya da GM otomatikle geliyor. Dengeli, kullanımı kolay, arkadan itişli bir araç.",
+  "note": "2.5 litrelik M54 motorlu bu versiyon, arka aks taşıyıcısı açısından E46 ailesinin en güvenli üyesi kabul ediliyor. Otomatiği ZF ya da GM yapımı olabiliyor; puan, ikisinden zayıf olan GM 5L40-E'ye göre verildi çünkü ilanda hangisinin bulunduğu çoğu zaman yazmıyor ve alıcı kötü ihtimale göre hazırlanmalı. GM'li olanlarda kilitleme solenoidi ve çıkış mili aşınması belgelenmiş arızalar.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

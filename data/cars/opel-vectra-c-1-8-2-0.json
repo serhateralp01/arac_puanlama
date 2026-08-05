@@ -11,25 +11,28 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "aisin-aw55",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
     500,
     750
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 66,
-    "trans": 70,
+    "trans": 46,
     "fun": 56,
     "comf": 80,
     "age": 48,
     "cost": 71,
     "liq": 66
   },
-  "sources": [],
-  "note": "Vectra B'nin daha modern ve daha konforlu hali; otomatiği yine tork konvertörlü. Geniş, ucuz, ucuz parça. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "sources": [
+    "eeuroparts_volvo_aw55_servo",
+    "youcanic_opel_aw55"
+  ],
+  "note": "Geniş ve ucuz bir D segment sedan. Otomatiği Aisin'in AW55 kutusu ve bu, Aisin'in sonraki TF-80SC kutusunun selefi olarak belirgin biçimde daha sorunlu: düşük kilometrede ortaya çıkan yapısal bir kusur taşıdığı anlaşılmış ve Opel uygulamalarında vites sertliği (shift flare) şikayeti yaygın. Volvo'daki daha yeni Geartronic ile karıştırılmamalı.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

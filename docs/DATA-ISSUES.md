@@ -65,12 +65,24 @@ gerekmedi); 4'ü (Toyota Multidrive CVT ailesi) yeni bulunan bir kaynakla
 (SlashGear'ın Toyota CVT güvenilirlik derlemesi) kazanıldı. `trbox`'a tek başına
 dayanan araç sayısı 32'den **10**'a indi, sınırın (12) altına.
 
-Kalan 10 araç hâlâ tek başına `trbox`'a dayanıyor:
+Kalan 10 araç bir süre daha tek başına `trbox`'a dayandı:
 `audi-a4-b9-2-0-tdi`, `citroen-c-elysee-peugeot-301-benzinli`, `citroen-c4-1-6-vti`,
 `ford-focus-3-1-6-ti-vct`, `mercedes-a-b-serisi`, `mitsubishi-lancer-1-6`,
 `peugeot-2008-208-1-6-e-hdi`, `peugeot-301-1-6-hdi`, `peugeot-308-1-6-bluehdi`,
-`toyota-corolla-e12-1-6-vvt-i`. Bunlar için kolay bir "zaten var olan kaynağı
-taşı" çözümü yok, gerçek yeni araştırma gerekiyor — issue #11'in kapsamında.
+`toyota-corolla-e12-1-6-vvt-i`.
+
+Bu kalıntı, kutu kayıtları tamamlanırken kendiliğinden büyük ölçüde çözüldü.
+`psa-al4` kutusuna ikinci bağımsız bir kaynak (`go4trans_dp0`, DP0/AL4'ün valf
+gövdesi ve aşırı ısınma sorunlarını anlatan teknik künye) bulunduğunda bu kaynak
+hem kutuya hem de kutuya bağlı bütün araçlara eklendi; `mitsubishi-lancer-1-6` ve
+`toyota-corolla-e12-1-6-vvt-i` ise kendi kutularının araştırmasından gelen
+kaynaklarla ikinci referansına kavuştu. Denetimdeki `kaynak-yogunlasmasi` kuralı
+artık hiçbir kaynağı işaretlemiyor.
+
+Buradan çıkan genel ders şu: kaynak yoğunlaşması doğrudan saldırılması gereken
+ayrı bir iş kalemi değil, bileşen kayıtları (kutu, motor) tamamlandıkça kendiliğinden
+çözülen bir yan üründür. Bir kutu araştırıldığında bulunan kaynak, o kutuyu paylaşan
+bütün araçlara aynı anda ikinci referans sağlıyor.
 
 ---
 
@@ -203,3 +215,37 @@ Diğer karma kayıtlarda (`nissan-almera-primera-1-6-2-0`, `saab-9-3-9-5-2-0t`,
 `megane-clio-1-3-tce`, `opel-corsa-astra-1-4-turbo`) birleşen modellerin gövde tipi
 aynı olduğu ya da kaydın kendi notu tek bir gövdeyi ("Japon sedan", "İsveç sedanı" gibi)
 açıkça işaret ettiği için tek bir değer atanabildi.
+
+---
+
+## D-11 · "Tork konvertörü demek güvenli demek" varsayımı 22 araçta puan şişirmişti (KAPATILDI)
+
+57 araç bir şanzıman kutusu kaydına bağlandığında ve o kutular tek tek araştırıldığında,
+22 araçta puanın kutunun temel puanından 15'ten fazla saptığı ortaya çıktı. Sapmanın
+yönü her seferinde aynıydı: araç puanı kutunun puanından **yüksekti**.
+
+Sebep tek bir örtük varsayımdı. Bu araçların notları "otomatiği tork konvertörlü,
+dertsiz" ya da "ZF otomatiği sağlam" gibi ifadeler taşıyordu; yani kutu tipi (tork
+konvertörü) tek başına bir güvenilirlik kanıtı sayılmıştı. Kutu araştırması bu
+varsayımı kısmen çürüttü — tork konvertörlü olmak çift kavramalı olmaya göre bir
+avantaj, ama kutunun kendi arıza geçmişinin yerine geçmiyor:
+
+| Kutu | Bulgu | Etkilenen araç |
+|---|---|---:|
+| `gm-5l40e` | Kilitleme solenoidi arızası tam güç kaybına yol açabiliyor | 4 |
+| `psa-al4` | Selenoid valf arızası, aşırı ısınma, valf gövdesi hassasiyeti | 6 |
+| `aisin-aw55` | 50.000 milin altında yaygınlaşan, yapısal kusur teşhisi konmuş arızalar | 4 |
+| `ford-cd4e` | Sayılmış 545 şikayet kaydı, ana pompa tahriki sıyrılması | 2 |
+| `zf-4hp` | BMW uygulamalarında bakıma rağmen erken arıza eğilimi | 2 |
+| `jatco-jf506e` | Tüm vitelerde güç kaybına varabilen arızalar | 1 |
+| `mitsubishi-invecs-cvt` | Üreticinin kendi geri çağırmasına konu olan CVT kusuru | 1 |
+| `ford-4f27e` | Kutuya özgü kanıt olumluydu, sapma yine de kapatıldı | 2 |
+
+Yirmi iki aracın hiçbirinde şanzımana özgü, kutunun bulgusunu geçersiz kılan bir kanıt
+yoktu; tek istisna Ford Focus 2'nin Türkçe forum kaynağıydı ve o kaynak da kutunun
+kendisi hakkında konuştuğu için araç düzeyinde bir istisna yazmak yerine kutunun temel
+puanına taşındı (62'den 72'ye). Bu, `docs/PLAN.md` §6'daki kuralın uygulanmasıdır:
+sapmalar puan düzeltilerek kapatılır, bant genişletilerek değil.
+
+Değişimin büyüklüğü kayda değer — Volvo S60 birinci nesil 82'den 46'ya, Mondeo Mk3
+72'den 42'ye indi. Bu bir kayıp değil, daha önce ölçülmemiş bir riskin ölçülmesidir.

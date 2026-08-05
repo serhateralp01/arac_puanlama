@@ -11,7 +11,7 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "CVT",
-    "transmission_id": null,
+    "transmission_id": "mitsubishi-invecs-cvt",
     "body_type": "Sedan"
   },
   "price_band_k_try": [
@@ -21,7 +21,7 @@
   "verification": "partial",
   "scores": {
     "motor": 78,
-    "trans": 60,
+    "trans": 38,
     "fun": 50,
     "comf": 78,
     "age": 62,
@@ -29,9 +29,11 @@
     "liq": 54
   },
   "sources": [
-    "trbox"
+    "trbox",
+    "autodoc_lancer_cvt",
+    "youcanic_mitsubishi_cvt"
   ],
-  "note": "Keskin tasarımı ve sağlam Japon mekaniğiyle biliniyor. Otomatiği CVT kutusu; bakımı düzenli yapıldığında sorun çıkarmıyor ama tork konvertörü kadar dayanıklı sayılmıyor. Türkiye'de yedek parça ve servis ağı dar.",
+  "note": "Lancer'ın gövdesi ve motoru sorun çıkarmıyor ama otomatiği CVT ve bu kutu aracın en zayıf halkası: V kayışı ile kasnaklarda erken aşınma yaygın bir arıza ve belirtiler 80.000 km gibi düşük bir kilometrede başlayabiliyor. 2016'da Mitsubishi, gecikmeli hızlanma sorunu nedeniyle 80.000'den fazla Outlander ve Lancer'ı CVT arızası yüzünden geri çağırdı; yani bu, kullanıcı şikayeti değil üreticinin kendi kabul ettiği bir kusur. Toyota'nın CVT'siyle aynı kefeye konmamalı.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

@@ -11,25 +11,28 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
+    "transmission_id": "psa-al4",
     "body_type": "Hatchback"
   },
   "price_band_k_try": [
     420,
     620
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 62,
-    "trans": 68,
+    "trans": 40,
     "fun": 50,
     "comf": 69,
     "age": 44,
     "cost": 74,
     "liq": 72
   },
-  "sources": [],
-  "note": "Küçük ve pratik bir B segment aracı; eski usul 4 ileri tork konvertörlü otomatiği basit ve dayanıklı. Yaşı ilerlediği için pas ve elektrik kontrolü gerekiyor. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "sources": [
+    "trbox",
+    "go4trans_dp0"
+  ],
+  "note": "Küçük, ucuz ve yedek parçası her yerde bulunan bir araç. Otomatiği PSA'nın AL4/DPO kutusu ve asıl risk burada: selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme bu ailenin yaygın şikayetleri.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
