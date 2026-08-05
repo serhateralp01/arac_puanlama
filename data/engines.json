@@ -78,11 +78,34 @@
     ],
     "cylinders": 6,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "E36 ve erken E39'daki sıralı altı silindirli benzinli aile."
+    "base_score": 58,
+    "maintenance": "VANOS ve soğutma sisteminin (su pompası, termostat) periyodik kontrolü öneriliyor.",
+    "known_issues": [
+      {
+        "issue": "1998 öncesi Nikasil kaplı silindir gömleğinin yüksek kükürtlü yakıtla korozyona uğrayıp sıkıştırma kaybına yol açması",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "motor ölür",
+        "sources": [
+          "torquecars_nikasil"
+        ]
+      },
+      {
+        "issue": "VANOS sisteminde takırdama ve performans kaybına yol açan aşınma",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "enginedna_m52"
+        ]
+      }
+    ],
+    "sources": [
+      "torquecars_nikasil",
+      "enginedna_m52"
+    ],
+    "note": "E36 ve erken E39'daki sıralı altı silindirli benzinli aile. Nikasil sorunu üretim yılına göre keskin biçimde ayrışıyor; ayrıntı revision_sensitivity alanında. VANOS aşınması ve soğutma sistemi arızaları yıldan bağımsız, ailenin genel bakım kalemleri. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): Nikasil riski gerçek ama yalnızca belirli üretim yıllarını etkiliyor ve motoru anında bitirmiyor, VANOS/soğutma kalemleri planlanabilir; iki kaynak da C seviyesinde olduğu için üst banda çıkarılmadı.]",
+    "revision_sensitivity": "1998'e kadar üretilen M52'ler Nikasil kaplı silindir gömleği kullanıyor ve bu gömlek yüksek kükürtlü yakıtla korozyona uğrayabiliyor; 1998'de tanıtılan M52TU döküm demir gömleğe geçerek bu sorunu tamamen ortadan kaldırdı. Listedeki BMW E36 320i/323i (1995-1999 üretim) bu riski taşıyan dönemin ortasında kalıyor; BMW E39 523i ve 528i (1998-2000 üretim) ise M52TU'nun devreye girdiği döneme denk geliyor ve bu yüzden Nikasil riskini büyük ölçüde taşımıyor. E39 528i'nin puanının base_score'dan belirgin yüksek olması bu revizyon farkına dayanıyor, gerekçesiz bir sapma değil."
   },
   "bmw-m54": {
     "id": "bmw-m54",
@@ -979,11 +1002,34 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "PSA'nın 1.6 dizel ailesi. Ford ve Volvo'ya da veriliyor; Volvo'nun 1.6 D2 motoru bu ailenin bir üyesidir. Turbo yağlama kanalı tıkanması ve partikül filtresi kalemleriyle anılıyor."
+    "base_score": 44,
+    "maintenance": "Yağ değişim aralığının aşılmaması ve enjektör keçelerinin erken kontrolü kritik; EGR ve DPF şehir içi kısa mesafe kullanımda daha sık tıkanıyor.",
+    "known_issues": [
+      {
+        "issue": "EGR'de sertleşen karbon/yağ buharı tortusu; bu tortu turbo yağ besleme hattını da tıkayıp turbo yatağını yağsız bırakabiliyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "propeugeotspares_16hdi_egr"
+        ]
+      },
+      {
+        "issue": "Enjektör keçesi sızıntısı erken yakalanmazsa yağ hatlarını tıkayıp erken turbo arızasına yol açıyor",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "büyük onarım",
+        "sources": [
+          "au7o_peugeot308_known_issues"
+        ]
+      }
+    ],
+    "sources": [
+      "au7o_peugeot308_known_issues",
+      "propeugeotspares_16hdi_egr"
+    ],
+    "note": "PSA'nın 1.6 dizel ailesi; Ford ve Volvo'ya da veriliyor, Volvo'nun 1.6 D2 motoru bu ailenin bir üyesi. Bu kayıt önceden PSA'nın kendi markalı araçlarında (208/301/308) 70-72, Volvo D2'de 45 puan gibi gerekçesiz bir ayrım taşıyordu. Araştırma, aynı turbo yağ açlığı ve EGR tıkanması paterninin hem PSA'nın kendi kaynaklarında hem Volvo forumlarında bağımsız olarak belgelendiğini gösterdi; yani fark markadan değil, önceki puanlamanın PSA uygulamalarını yeterince araştırmamış olmasından kaynaklanıyordu. Bu yüzden bütün aile tek bir base_score'a çekildi. [base_score gerekçesi: 35-49 (bilinen risk): turbo yağ açlığı ve EGR tıkanması gerçek ve tekrarlayan bir arıza zinciri, büyük onarım gerektiriyor; buna karşılık düzenli bakım ve otoyol ağırlıklı kullanımla motorun uzun ömürlü olabildiği de belgelendiği için 0-34 bandına düşürülmedi.]",
+    "revision_sensitivity": null
   },
   "psa-dw10": {
     "id": "psa-dw10",
@@ -1004,27 +1050,6 @@
     "known_issues": [],
     "sources": [],
     "note": "PSA'nın 2.0 dizel ailesi; C5 ve 508'de kullanılıyor."
-  },
-  "psa-ep6": {
-    "id": "psa-ep6",
-    "names": [
-      "EP6",
-      "1.6 VTi",
-      "1.6 THP",
-      "Prince"
-    ],
-    "supplier": "BMW / PSA",
-    "fuel": "Benzin",
-    "displacements_l": [
-      1.6
-    ],
-    "cylinders": 4,
-    "aspiration": null,
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "BMW ile ortak geliştirilen 1.6 benzinli aile. Atmosferik (VTi) ve turbo (THP) sürümleri var; turbo sürümde triger zinciri, karbon birikmesi ve termostat kalemleri Türkiye'de iyi biliniyor."
   },
   "psa-tu5": {
     "id": "psa-tu5",
@@ -1266,27 +1291,6 @@
     "sources": [],
     "note": "Corolla E12'nin 1.6 VVT-i motoru; ZR ailesinden önceki nesil."
   },
-  "vag-ea111-tsi": {
-    "id": "vag-ea111-tsi",
-    "names": [
-      "EA111 TSI",
-      "1.4 TSI twincharger",
-      "CAVD",
-      "CAXA"
-    ],
-    "supplier": "Volkswagen Group",
-    "fuel": "Benzin",
-    "displacements_l": [
-      1.4
-    ],
-    "cylinders": 4,
-    "aspiration": "Turbo + kompresör",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Golf ve Jetta'daki 1.4 TSI. Yüksek güçlü sürümleri hem turbo hem kompresör kullanıyor."
-  },
   "vag-ea113-18t": {
     "id": "vag-ea113-18t",
     "names": [
@@ -1348,11 +1352,43 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Common rail 2.0/1.6 TDI. Emisyon yazılımı skandalına (dieselgate) konu olan aile; yazılım güncellemesi sonrası davranış değişikliği tartışması var."
+    "base_score": 58,
+    "maintenance": "1.6 TDI'de triger kayışı/zinciri 80-100 bin milde değiştirilmeli; 2.0 TDI 170 PS sürümlerinde zincir sesi 150-200 bin km civarında izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "2.0 TDI 170 PS'de triger zinciri uzaması, 150-200 bin km'de karakteristik tıkırtı",
+        "onset_km": 150000,
+        "frequency": "sık",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginefinders_20tdi_ea189"
+        ]
+      },
+      {
+        "issue": "Erken üretim örneklerinde enjektör erken aşınması; yedek parça bulmak zorlaşıyor",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "enginefinders_20tdi_ea189"
+        ]
+      },
+      {
+        "issue": "1.6 TDI'de DPF'nin şehir içi kısa mesafe kullanıma hassasiyeti",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "carchecker_golf6_16tdi"
+        ]
+      }
+    ],
+    "sources": [
+      "enginefinders_20tdi_ea189",
+      "carchecker_golf6_16tdi"
+    ],
+    "note": "Common rail 2.0/1.6 TDI. Emisyon yazılımı skandalına (dieselgate) konu olan aile; yazılım güncellemesi sonrası davranış değişikliği tartışması var. 1.6 ve 2.0 sürümleri farklı motor kodları taşısa da (CAYC/CFFB vb.) bildirilen risk profili kapsam ve ağırlık olarak yakın: 2.0'da triger zinciri ve enjektör aşınması, 1.6'da DPF hassasiyeti ve kayış/zincir bakım takvimi öne çıkıyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının alt sınırında: birden fazla belgelenmiş, tekrarlayan arıza kalemi var ama bunların hepsi planlanabilir bakımla yönetiliyor; iki kaynak da C seviyesinde olduğu için üst banda çıkarılmadı.]",
+    "revision_sensitivity": null
   },
   "vag-ea211": {
     "id": "vag-ea211",
@@ -1567,5 +1603,185 @@
     "known_issues": [],
     "sources": [],
     "note": "Volvo'nun Drive-E (VEA) benzinli ailesinin 1.5 turbo üyesi."
+  },
+  "vag-ea111-tsi-tc": {
+    "id": "vag-ea111-tsi-tc",
+    "names": [
+      "EA111 TSI twincharger",
+      "1.4 TSI 122/160/170 twincharger",
+      "CAVD",
+      "CAVE",
+      "BMY"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.4
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo + kompresör",
+    "base_score": 36,
+    "maintenance": "Triger zinciri gergisi yağ basıncına bağımlı; soğuk kalkışlarda basınç oluşana kadar zincir gevşek kalıyor ve bu, zamanla dişten atlamaya kadar gidebiliyor.",
+    "known_issues": [
+      {
+        "issue": "Triger zinciri gergisinin soğuk kalkışta yağ basıncı gecikmesi nedeniyle zincirin uzaması, ağır vakalarda dişten atlaması",
+        "onset_km": 40000,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "autoscore_ea111_twincharger"
+        ]
+      },
+      {
+        "issue": "Yüksek yükte erken ateşleme (süper vuruntu) nedeniyle piston segman yatağı çatlaması, ani sıkıştırma kaybı ve yüksek yağ tüketimi",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "motor ölür",
+        "sources": [
+          "autoscore_ea111_twincharger"
+        ]
+      }
+    ],
+    "sources": [
+      "autoscore_ea111_twincharger",
+      "enginecrux_ea111_vs_ea211"
+    ],
+    "revision_sensitivity": null,
+    "note": "Golf'ün 122-170 beygirlik 1.4 TSI'ı; hem turbo hem kompresör kullanan karmaşık doldurma sistemi VW'nin en sorunlu modern motorlarından biri olarak anılmasına yol açıyor. Bu kayıt önceden Jetta'nın tekli turbolu 1.4 TSI'ıyla aynı ailede tutuluyordu; bu, aralarındaki 27 puanlık farkı gerekçesiz bırakan bir hataydı. İkisi aslında farklı doldurma yöntemine sahip farklı motorlar olduğu için aile ikiye bölündü; bkz. docs/ARCHITECTURE.md MK-08. [base_score gerekçesi: 35-49 (bilinen risk) bandının alt sınırında: kanıt 'motor ölür' seviyesinde iki ayrı arıza türü gösteriyor ama iki kaynak da C seviyesinde olduğu için M-2 kuralı gereği 0-34 bandına düşürülmedi.]"
+  },
+  "vag-ea111-tsi-turbo": {
+    "id": "vag-ea111-tsi-turbo",
+    "names": [
+      "EA111 TSI",
+      "1.4 TSI 122 tekli turbo",
+      "CAXA",
+      "CTHD"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.4
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 56,
+    "maintenance": "Triger zinciri ve gergi sesi 40-100 bin km aralığında görülebiliyor; erken fark edilirse değişimi planlanabilir bir kalem.",
+    "known_issues": [
+      {
+        "issue": "Triger zinciri ve gergi sesi, ilerlerse zincir/gergi değişimi gerektiriyor",
+        "onset_km": 40000,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "enginecrux_ea111_vs_ea211"
+        ]
+      }
+    ],
+    "sources": [
+      "enginecrux_ea111_vs_ea211"
+    ],
+    "revision_sensitivity": null,
+    "note": "Jetta'nın 122 beygirlik 1.4 TSI'ı; kompresörü olmayan, tekli turbolu sadeleştirilmiş sürüm. Twincharger'a göre belirgin biçimde daha güvenilir kabul ediliyor ve düzenli bakımla 300.000 km'ye kadar sorunsuz gidebildiği bildiriliyor; buna karşılık aynı ailenin ortak zaafı olan triger zinciri/gergi sesi bu sürümde de görülüyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): zincir/gergi sorunu gerçek ve tekrarlayan ama motoru bitiren bir arıza değil; tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
+  },
+  "psa-ec5": {
+    "id": "psa-ec5",
+    "names": [
+      "EC5",
+      "EC5PG",
+      "EC5F",
+      "1.6 VTi 115"
+    ],
+    "supplier": "PSA",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": 68,
+    "maintenance": null,
+    "known_issues": [
+      {
+        "issue": "Yakıt deposuna kirletici karışırsa erken arızalanabilen katalitik konvertör",
+        "onset_km": 100000,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "docteurmoteurs_ec5"
+        ]
+      }
+    ],
+    "sources": [
+      "docteurmoteurs_ec5"
+    ],
+    "revision_sensitivity": null,
+    "note": "C-Elysee ve 301'in 1.6 VTi'ı; PSA'nın eski TU5JP4 ailesinin modernize edilmiş hali, BMW/PSA ortak üretimi EP6 ile ilgisi yok. Bu araç önceden EP6 ailesinde tutuluyordu; bu, hem turbo hem doldurma yöntemi bakımından yanlış bir eşlemeydi ve ailenin geri kalanıyla arasındaki 22 puanlık farkın gerçek nedeniydi. Basit, atmosferik, direkt enjeksiyonsuz bir motor olduğu için TU5 ailesine yakın bir profil taşıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): bildirilen tek sorun münferit ve önlenebilir (yakıt kirliliği kaynaklı); tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
+  },
+  "psa-ep6-vti": {
+    "id": "psa-ep6-vti",
+    "names": [
+      "EP6",
+      "EP6C",
+      "1.6 VTi (atmosferik)",
+      "Prince (NA)"
+    ],
+    "supplier": "BMW / PSA",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": 70,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [
+      "peugeotengine_psa_honest"
+    ],
+    "revision_sensitivity": null,
+    "note": "BMW ile ortak geliştirilen EP6 ailesinin atmosferik (VTi) sürümü; C4 1.6 VTi'da kullanılıyor. Turbo olmadığı ve direkt enjeksiyon taşımadığı için ailenin THP sürümünü rahatsız eden triger zinciri ve karbon birikimi sorunlarından büyük ölçüde bağışık. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak atmosferik PSA motorlarını 'son derece güvenilir' diye tanımlıyor (B seviyesi), ama motora özgü bir ikinci kaynak olmadığı için 85 üstüne çıkarılmadı.]"
+  },
+  "psa-ep6-thp": {
+    "id": "psa-ep6-thp",
+    "names": [
+      "EP6DT",
+      "EP6CDT",
+      "1.6 THP",
+      "Prince (turbo)"
+    ],
+    "supplier": "BMW / PSA",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 46,
+    "maintenance": "Triger zinciri durumu düzenli kontrol edilmeli; 2016 öncesi üretilen kutularda 60.000 km'de ilk uzama belirtileri görülebiliyor.",
+    "known_issues": [
+      {
+        "issue": "Triger zincirinin erken uzaması; 2016 öncesi üretimde 100.000 km'ye nadiren ulaşıyor, ilk belirtiler ~60.000 km'de",
+        "onset_km": 60000,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginescope_ep6_thp"
+        ]
+      },
+      {
+        "issue": "Direkt enjeksiyon nedeniyle emme supaplarında karbon birikimi",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "enginescope_ep6_thp"
+        ]
+      }
+    ],
+    "sources": [
+      "enginescope_ep6_thp"
+    ],
+    "revision_sensitivity": "PSA, triger zinciri tasarımını sonradan gözden geçirdi. 2006-2011 arası üretilen ilk nesil THP'ler zincir uzamasını en ağır yaşayan grup; 2016 sonrası üretilen örnekler daha güvenilir kabul ediliyor. Listedeki Peugeot 308 1.6 THP (2009-2013 üretim) bu yüzden ilk nesil riskini tam taşırken, Peugeot 508 1.6 THP (2011-2018) üretim aralığının bir kısmıyla revize dönemine giriyor; 508'in trans puanının 308'den yüksek olması bu revizyonla açıklanabilir, ayrı bir tutarsızlık değil.",
+    "note": "308 THP ve 508 THP'nin kullandığı turbo, direkt enjeksiyonlu EP6 sürümü. Triger zinciri uzaması ailenin en bilinen zaafı; PSA bunu sonradan revize etti (bkz. revision_sensitivity). [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı bandının motor karşılığı): zincir sorunu yaygın ve büyük onarım gerektiriyor; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
   }
 }

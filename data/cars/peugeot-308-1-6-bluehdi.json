@@ -21,7 +21,7 @@
   ],
   "verification": "partial",
   "scores": {
-    "motor": 72,
+    "motor": 44,
     "trans": 80,
     "fun": 54,
     "comf": 82,
@@ -30,9 +30,11 @@
     "liq": 74
   },
   "sources": [
-    "trbox"
+    "trbox",
+    "propeugeotspares_16hdi_egr",
+    "au7o_peugeot308_known_issues"
   ],
-  "note": "EAT6 kutusu Aisin yapımı tork konvertörlü bir şanzıman ve düzenli yağ değişimiyle uzun ömürlü çalışıyor; üreticinin ömür boyu yağ ifadesine rağmen altmış bin kilometrede bir değiştirmek gerekiyor. Motoru ekonomik. Bu listedeki Fransız araçlar arasında şanzıman tarafı en güvenli olanlardan.",
+  "note": "EAT6 Aisin tork konvertörlü otomatiği sağlam ve bu tarafı güvenli. Motor tarafında ise 1.6 HDi/BlueHDi ailesinin EGR'de biriken tortunun turbo yağ hattını tıkayıp erken turbo arızasına yol açması bilinen bir risk; enjektör keçesi sızıntısı erken yakalanmazsa aynı sonuca gidiyor. Şehir içi kısa mesafe kullanımda 80-150 bin km arasında büyük bakım işleri görülebiliyor, otoyol ağırlıklı kullanımda motor 250.000 km'yi sorunsuz aşabiliyor.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

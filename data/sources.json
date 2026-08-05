@@ -1367,5 +1367,126 @@
     "accessed": "2026-08-05",
     "language": "en",
     "quotes": []
+  },
+  "autoscore_ea111_twincharger": {
+    "id": "autoscore_ea111_twincharger",
+    "claim": "EA111 1.4 TSI twincharger (turbo+kompresör) motorunun modern VW motorları arasında en güvenilmez olanlardan biri sayıldığı (risk skoru 8,5/10); triger zinciri gerginin yağ basıncına bağımlı olması nedeniyle soğuk kalkışlarda zincirin atlayabildiği, ayrıca yüksek yükte 3. silindirde erken ateşleme (süper vuruntu) nedeniyle piston segman yatağının çatlayıp ani sıkıştırma kaybına ve yüksek yağ tüketimine yol açabildiği",
+    "publisher": "Autoscore",
+    "url": "https://autoscore.pro/engine/1.4-tsi-twincharged-ea111",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecrux_ea111_vs_ea211": {
+    "id": "enginecrux_ea111_vs_ea211",
+    "claim": "EA111 ailesinde triger zinciri ve gergi sesinin yaygın bir sorun olduğu, 40-100 bin km aralığında ortaya çıktığı; CAXA kodlu tekli turbolu 122 beygirlik sürümün kompresörlü sürüme göre daha sade ve daha güvenilir olduğu, düzenli bakımla 300.000 km'ye kadar sorunsuz gidebildiği",
+    "publisher": "EngineCrux",
+    "url": "https://enginecrux.com/vw-1-4-tsi-engine-problems-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "docteurmoteurs_ec5": {
+    "id": "docteurmoteurs_ec5",
+    "claim": "PSA'nın EC5 1.6 motorunun TU5JP4'ün modernize edilmiş bir hali olduğu, Brezilya ve Çin'de üretildiği; bilinen zayıf noktasının yakıt deposuna kirletici karışırsa 100-150 bin km'de arızalanabilen katalitik konvertör olduğu",
+    "publisher": "Docteur Moteurs",
+    "url": "https://docteurmoteurs.com/moteur-citroen-peugeot-ec5-1-6/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "fr",
+    "quotes": []
+  },
+  "peugeotengine_psa_honest": {
+    "id": "peugeotengine_psa_honest",
+    "claim": "2000'li yılların eski atmosferik PSA benzinli motorlarının son derece güvenilir olduğu, turbo arızası ve karmaşık direkt enjeksiyon sistemi taşımadıkları için EP6 THP gibi turbo sürümlere göre belirgin biçimde daha sağlam kabul edildiği",
+    "publisher": "Peugeot Engine Specialists",
+    "url": "https://peugeotengine.co.uk/news/are-psa-engines-any-good/",
+    "type": "independent-analyst",
+    "tier": "B",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginescope_ep6_thp": {
+    "id": "enginescope_ep6_thp",
+    "claim": "EP6 THP turbo motorlarda 2016 öncesi üretilen örneklerde triger zincirinin nadiren 100.000 km'ye ulaştığı, ilk uzama belirtilerinin yaklaşık 60.000 km'de görüldüğü; 2006-2011 arası üretilen ilk nesil sürümlerin bu sorunu en ağır yaşayan grup olduğu ve PSA'nın tasarımı sonradan gözden geçirdiği, ayrıca direkt enjeksiyon nedeniyle emme supaplarında karbon birikimi bildirildiği",
+    "publisher": "EngineScope",
+    "url": "https://enginescope.gr/engine/psa-ep6/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "propeugeotspares_16hdi_egr": {
+    "id": "propeugeotspares_16hdi_egr",
+    "claim": "PSA'nın 1.6 HDi (DV6) motorunda EGR sisteminin bilinen zayıf nokta olduğu; karbon ve krank kutusu buharının sertleşmiş tortular oluşturarak EGR valfini sıkıştırdığı ve soğutucu kanallarını tıkadığı, bu tortuların turbo yağ besleme hattını da tıkayarak turbo yatağını yağsız bırakabildiği",
+    "publisher": "Pro Peugeot Spares (South Africa)",
+    "url": "https://www.propeugeotspares.co.za/blog/peugeot-16-hdi-dpf-egr-guide/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "au7o_peugeot308_known_issues": {
+    "id": "au7o_peugeot308_known_issues",
+    "claim": "Peugeot 308'in 1.6 HDi motorunda enjektör keçesi sızıntısının erken yakalanmazsa pişmiş yağ tortusuyla bütün yağ besleme hatlarını tıkayıp erken turbo arızasına yol açtığı; şehir içi kullanılan araçlarda 80.000-150.000 km arasında büyük bakım işleri görüldüğü, buna karşılık düzenli bakım ve otoyol kullanımıyla motorun 250.000 km'yi sorunsuz aşabildiği",
+    "publisher": "Au7o",
+    "url": "https://au7o.io/known-issues/peugeot-308",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "torquecars_nikasil": {
+    "id": "torquecars_nikasil",
+    "claim": "BMW M50/M52 motorlarında 1998 öncesi kullanılan Nikasil kaplı silindir gömleklerinin, yüksek kükürtlü yakıtla temas ettiğinde korozyona uğrayıp sıkıştırma kaybına ve motor arızasına yol açtığı; BMW'nin bu sorunu M52TU ile döküm demir gömleğe geçerek çözdüğü, M52TU'nun bu sorundan etkilenmediği",
+    "publisher": "TorqueCars",
+    "url": "https://www.torquecars.com/bmw/nikasil-issue.php",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginedna_m52": {
+    "id": "enginedna_m52",
+    "claim": "M52 ailesinde Nikasil dışında bilinen sorunların soğutma sistemi arızaları (su pompası, termostat, radyatör) ve VANOS sisteminin takırdama sesi ve performans kaybıyla kendini gösteren aşınması olduğu",
+    "publisher": "EngineDNA",
+    "url": "https://www.enginedna.com/bmw-m52-engine-reliability-and-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginefinders_20tdi_ea189": {
+    "id": "enginefinders_20tdi_ea189",
+    "claim": "EA189 2.0 TDI'de 170 PS sürümlerinde triger zincirinin uzayıp 150-200 bin km'de karakteristik bir tıkırtı sesine yol açtığı, ayrıca özellikle erken üretim örneklerinde enjektörlerin erken aşındığı",
+    "publisher": "Engine Finders",
+    "url": "https://enginefinders.co.uk/blog/vw-2-0-tdi-engine-problems-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "carchecker_golf6_16tdi": {
+    "id": "carchecker_golf6_16tdi",
+    "claim": "EA189 1.6 TDI'de triger kayışı/zincirinin 80-100 bin milde değiştirilmesi gerektiği, atlanırsa ağır iç hasara yol açtığı; ayrıca 1.6 TDI'nin İngiltere'deki şehir içi kısa mesafe kullanımında DPF hassasiyeti nedeniyle dur-kalk trafiğine daha az uygun olduğu",
+    "publisher": "CarChecker",
+    "url": "https://www.carchecker.pro/reports/vw_golf_mk6_1.6_tdi.html",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
   }
 }

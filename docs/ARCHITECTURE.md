@@ -228,3 +228,42 @@ verildiğinde tarayıcı yine bütün veriyi indirir. Bu, veri yükü birkaç me
 çıkana kadar katlanılabilir bir bedeldir; o eşiğe yaklaşıldığında doğru çözüm
 dosyayı bölmek değil, veriyi ayrı bir dosyadan istek üzerine yüklemektir ve bu
 değişiklik ekran yapısına dokunmadan yapılabilir.
+
+---
+
+## MK-08 · Bileşen revizyonu, motor/kutu ailesinin gizli bir boyutudur
+
+**Karar:** `engine.schema.json` ve `transmission.schema.json`'a `revision_sensitivity`
+alanı eklendi. Bu alan, aynı ailenin üretim yılları arasında geçirdiği ve
+güvenilirliği gerçekten değiştiren bir revizyonu kaydetmek için var; `torque_sensitivity`
+alanının zaman eksenindeki karşılığı.
+
+**Gerekçe:** Aynı motor kodu veya aynı şanzıman adı, farklı üretim yıllarında farklı bir
+mühendislik olabilir. Üretici aynı ismi korurken kaputun altındaki parçayı değiştirebilir
+— bir turbo/kompresör kombinasyonundan tekli turboya geçebilir, bir triger zinciri
+gergisini yeniden tasarlayabilir, bir yazılım güncellemesiyle vites geçiş mantığını
+değiştirebilir. Bu, motor kayıtları kurulurken ilk günden karşılaşılan gerçek bir örnekle
+doğrulandı: `vag-ea111-tsi` kaydı başlangıçta VW Golf'ün turbo+kompresör ("twincharger")
+1.4 TSI motoruyla VW Jetta'nın daha sonraki, tekli turbolu 1.4 TSI motorunu tek bir
+ailede birleştirmişti. Bunlar aynı aile değil; ikisi arasındaki 27 puanlık yayılım
+donanım farkının kendisiydi, gerekçesiz bir tutarsızlık değil.
+
+**Kural şu şekilde işliyor:**
+
+1. Revizyon farkı doldurma yöntemini değiştirecek kadar büyükse (turbo mu kompresör mü,
+   ıslak mı kuru mü), çözüm bu alanı doldurmak değil, **aileyi ikiye bölmektir**. Kimlikler
+   kalıcı olduğu için (CLAUDE.md §4) bu bölünme mümkün olduğunca erken yapılmalı; bir
+   aile onlarca araca bağlandıktan sonra bölünmesi çok daha pahalıya mal olur.
+2. Revizyon farkı bu kadar keskin değilse ama yine de belgelenmiş bir güvenilirlik
+   etkisi varsa (ör. "2013 öncesi üretilen kutularda X sorunu vardı, sonra düzeltildi"),
+   fark `revision_sensitivity` alanına kaynağıyla birlikte yazılır ve araç bazındaki
+   sapma `evidence.motor.reasoning` veya `evidence.trans.reasoning` ile gerekçelenir.
+3. Ne "motora göre değişebilir" ne de "yıllara göre değişebilir" tek başına bir gerekçe
+   sayılır. İkisi de somut kaynağa bağlanmak zorunda; aksi hâlde `scripts/validate.py`
+   içindeki `motor-duzeltme-gerekcesiz` / `duzeltme-gerekcesiz` kuralları bunu yakalar.
+
+**Uygulama notu:** `data/engines.json` içinde büyük, gerekçesiz yayılım gösteren aileler
+(`psa-ep6`, `psa-dv6`, `bmw-m52`, `vag-ea189`, eski `vag-ea111-tsi`) `base_score`
+araştırması sırasında önce bu mercekten inceleniyor: fark gerçek bir revizyona mı
+dayanıyor, yoksa güç/donanım seviyesine mi, yoksa hâlâ açıklanamayan bir tutarsızlığa mı?
+Üçü de farklı bir düzeltme gerektiriyor ve hiçbiri otomatik olarak varsayılmıyor.

@@ -41,5 +41,15 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "50-64 (tekrarlayan ama yönetilebilir şikayet) — ailenin base_score'u; bu araç için üst yönde düzeltme uygulandı",
+      "confidence": "düşük",
+      "sources": [
+        "torquecars_nikasil"
+      ],
+      "reasoning": "Bu araç 1998-2000 arası üretildi, yani BMW'nin Nikasil sorununu çözdüğü M52TU dönemine denk geliyor (bkz. data/engines.json bmw-m52.revision_sensitivity). Ailenin en ciddi arıza riski bu araçta büyük ölçüde geçerli değil, bu yüzden puan base_score'un (58) üstünde tutuldu."
+    }
   }
 }

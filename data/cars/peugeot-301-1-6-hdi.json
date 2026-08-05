@@ -21,7 +21,7 @@
   ],
   "verification": "partial",
   "scores": {
-    "motor": 70,
+    "motor": 44,
     "trans": 30,
     "fun": 32,
     "comf": 75,
@@ -30,9 +30,11 @@
     "liq": 80
   },
   "sources": [
-    "trbox"
+    "trbox",
+    "propeugeotspares_16hdi_egr",
+    "au7o_peugeot308_known_issues"
   ],
-  "note": "Motoru ve gövdesi sorun çıkarmıyor, işletme maliyeti de çok düşük. Ancak otomatik dediğimiz kutu aslında robotlu yarı otomatik; baskı balata aşınması ve vites robotu arızalarıyla biliniyor, vites geçişleri de sarsıntılı. Ucuz ve pratik ama sürüş konforu bu listede en düşüklerden.",
+  "note": "ETG robotlu yarı otomatik · ~92-115 bg kutu tarafında baskı balata aşınması ve vites robotu arızasıyla biliniyor. Motor tarafında ise 1.6 HDi ailesinin bilinen zaafı geçerli: EGR'de biriken tortu turbo yağ hattını tıkayıp erken turbo arızasına yol açabiliyor; bu, PSA'nın kendi araçlarında da aynı motoru kullanan Volvo D2'de de bağımsız olarak belgelendi. Yağ değişim aralığına sadık kalmak kritik.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
