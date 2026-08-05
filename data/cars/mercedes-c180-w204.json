@@ -18,10 +18,10 @@
     850,
     1250
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 66,
-    "trans": 80,
+    "trans": 44,
     "fun": 58,
     "comf": 82,
     "age": 60,
@@ -30,9 +30,11 @@
   },
   "sources": [
     "m271",
-    "om61x"
+    "om61x",
+    "carcomplaints_722_9_lawsuit",
+    "mercedesmedic_722_9"
   ],
-  "note": "Otomatik vitesli premium bir araç arıyorsanız en mantıklı seçeneklerden biri. Arkadan itişli, oturaklı bir araç; 7G-Tronic ve 5G-Tronic kutuları sağlam, yedek parçası ve ustası çok yaygın, kullanımı da kolay. 2009 sonrası M271 motorlar daha iyi durumda, yine de zincir geçmişini sorun.",
+  "note": "Otomatik vitesli premium bir araç arıyorsanız gövde ve konfor açısından mantıklı seçeneklerden biri, ama şanzıman tarafında dikkatli olun: bu araçta bulunan 7G-Tronic kutusuna (722.9) karşı ABD'de valf gövdesi ve kontrol kartı tasarım kusuru iddiasıyla toplu dava açıldı; arıza aracı 2. viteste sıkışmış halde bırakabiliyor. Arkadan itişli, oturaklı bir araç; yedek parçası ve ustası çok yaygın, kullanımı da kolay. 2009 sonrası M271 motorlar daha iyi durumda, yine de zincir geçmişini sorun.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

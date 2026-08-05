@@ -10,10 +10,14 @@
     "type": "TK",
     "supplier": "ZF",
     "gears": 5,
-    "base_score": null,
+    "base_score": 70,
     "maintenance": null,
     "known_issues": [],
-    "sources": []
+    "sources": [
+      "bimmerfest_zf5hp19",
+      "transmissionrepairguide_zf5hp19"
+    ],
+    "note": "BMW E36/E39/E46 ve Audi A4 B5'te kullanılan klasik 5 ileri tork konvertörlü kutu. Düzenli bakımla (30-60 bin milde yağ değişimi) sağlam kalıyor; ihmal edilirse sıcakken 3./4. viteste kayma ve geri vites tamburunda çatlak görülüyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kutu yapısal olarak sağlam, bilinen sorunlar bakım atlanmadığı sürece ortaya çıkmıyor.]"
   },
   "zf-6hp": {
     "id": "zf-6hp",
@@ -26,10 +30,14 @@
     "type": "TK",
     "supplier": "ZF",
     "gears": 6,
-    "base_score": null,
+    "base_score": 68,
     "maintenance": null,
     "known_issues": [],
-    "sources": []
+    "sources": [
+      "atstservices_zf6hp",
+      "transmissionrepairguide_zf6hp26"
+    ],
+    "note": "BMW E60/E87/E90/E91 ve Audi A6'da kullanılan 6 ileri tork konvertörlü kutu. Solenoid arızaları ve valf gövdesi aşınması biliniyor, ama bunlar büyük ölçüde bakımsızlığa (150-200 bin km üstü yağ değişimi atlanması) bağlı; genel değerlendirme düzenli bakımla 100 bin milin üstünde sorunsuz gidebildiği yönünde. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): valf gövdesi yağ kalitesine duyarlı ama bu bir bakım kalemi, yapısal bir kusur değil; zf-5hp ile aynı aileden olduğu için yakın puanlandı.]"
   },
   "gm-5l40e": {
     "id": "gm-5l40e",
@@ -39,10 +47,14 @@
     "type": "TK",
     "supplier": "General Motors",
     "gears": 5,
-    "base_score": null,
+    "base_score": 40,
     "maintenance": null,
     "known_issues": [],
-    "sources": []
+    "sources": [
+      "axleaddict_gm5l40e",
+      "solsticeforum_gm5l40e"
+    ],
+    "note": "BMW E39/E46'da ZF 5HP'ye alternatif olarak kullanılan GM kaynaklı 5 ileri kutu. Akümülatör yayı kırılması, kilitleme solenoidi arızası (bazen tam güç kaybına yol açan) ve çıkış mili aşınması gibi tekrarlayan, belgelenmiş arıza noktaları var; ZF muadiline göre daha az güvenilir kabul ediliyor. [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı): kilitleme solenoidi arızası tork konvertörünü etkileyip sürüşü tamamen kesebiliyor, bu düşük-orta km'de görülen gerçek bir risk.]"
   },
   "aisin-geartronic": {
     "id": "aisin-geartronic",
@@ -53,13 +65,16 @@
     "type": "TK",
     "supplier": "Aisin",
     "gears": null,
-    "base_score": null,
+    "base_score": 78,
     "maintenance": null,
     "known_issues": [],
     "sources": [
-      "volvops"
+      "volvod",
+      "volvops",
+      "volvoclub_geartronic_reliability",
+      "volvoforums_tf71sc_behavior"
     ],
-    "note": "Volvo'nun sorunlu Powershift kutusuyla karıştırılmamalı. Hangi motorun hangi kutuyla geldiği volvops kaynağında ayrıştırılıyor. Vites sayısı model yılına göre değiştiği için boş bırakıldı. Kaynak yalnızca bu aracın bu kutuyu kullandığını doğruluyor, güvenilirlik hakkında bir şey söylemiyor; bu yüzden base_score boş bırakıldı."
+    "note": "Volvo'nun sorunlu Powershift kutusuyla karıştırılmamalı. Hangi motorun hangi kutuyla geldiği volvops kaynağında ayrıştırılıyor. Vites sayısı model yılına göre değiştiği için boş bırakıldı. Aisin'in hidrodinamik tork konvertörü tasarımı, Volvo'nun otomatikleri arasında en güvenilir kabul ediliyor ve çift kavramalı Powershift'e göre şehir trafiğine belirgin biçimde daha toleranslı. Buna karşılık yağ soğutucusu sızıntısı ve 100.000 km üstünde ısı eşanjörü bakımı gibi düzenli bakım kalemleri de belgeleniyor; bu yüzden 'temiz' üst bandına değil 'yönetilebilir bakım kalemi' bandına yerleştirildi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): genel itibar çok güçlü ama iki kaynakta da bakıma bağlı, tekrarlayan sorun kaydı var; M-1 bandı 'iki bağımsız kaynakta kronik arıza kaydı yok' şartını tam karşılamıyor.]"
   },
   "aisin-af40": {
     "id": "aisin-af40",
@@ -87,13 +102,14 @@
     "type": "TK",
     "supplier": "Aisin",
     "gears": 6,
-    "base_score": null,
+    "base_score": 58,
     "maintenance": null,
     "known_issues": [],
     "sources": [
-      "alfa159"
+      "alfa159",
+      "asrgearbox_tf80"
     ],
-    "note": "Kaynak yalnızca bu aracın bu kutuyu kullandığını doğruluyor, güvenilirlik hakkında bir şey söylemiyor; bu yüzden base_score boş bırakıldı."
+    "note": "Alfa 159/Brera, Volvo, Saab, Citroen, Renault ve Fiat'ta ortak kullanılan 6 ileri kutu. İlk yıllarında sürtünme plakası sorunu, ayrıca küçük ısı eşanjörünün 100.000 km'den önce tıkanıp aşırı ısınmaya ve kavrama yanmasına yol açtığı bildiriliyor; 2010 öncesi üretilen örneklerden kaçınılması öneriliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): ısı eşanjörü tıkanması gerçek ve tekrarlayan bir arıza örüntüsü ama kutu genelde onarımla ayakta kalıyor; 2010 sonrası üretim için tablo daha olumlu, bu araç (2005-2011 üretim) bu ayrımın ortasında kaldığı için orta bantta tutuldu.]"
   },
   "aisin-eat6": {
     "id": "aisin-eat6",
@@ -121,13 +137,14 @@
     "type": "TK",
     "supplier": "Aisin",
     "gears": 6,
-    "base_score": null,
+    "base_score": 70,
     "maintenance": null,
     "known_issues": [],
     "sources": [
-      "wiki_fiat_tipo"
+      "wiki_fiat_tipo",
+      "fiatforum_aw60t"
     ],
-    "note": "Kaynak yalnızca bu aracın bu kutuyu kullandığını doğruluyor, güvenilirlik hakkında bir şey söylemiyor; bu yüzden base_score boş bırakıldı."
+    "note": "Fiat Egea/Tipo 1.6 E.torQ'nun kullandığı 6 ileri tork konvertörlü kutu. Sürüş kalitesi genelde tutarlı, bazı örneklerde vites sertliği bildiriliyor; kutuyu sağlam tutmanın anahtarının düzenli ATF değişimi olduğu vurgulanıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): genel tablo olumlu, bildirilen sorunlar münferit ve bakıma bağlı.]"
   },
   "psa-al4": {
     "id": "psa-al4",
@@ -158,10 +175,13 @@
     "type": "TK",
     "supplier": "Mercedes-Benz",
     "gears": 4,
-    "base_score": null,
+    "base_score": 78,
     "maintenance": null,
     "known_issues": [],
-    "sources": []
+    "sources": [
+      "gearboxlist_722_3"
+    ],
+    "note": "W202 C-Class'ta kullanılan basit 4 ileri tork konvertörlü kutu (722.3). Elektronik kontrolün az olduğu, hidrolik açıdan sade tasarımı sayesinde markanın en dayanıklı otomatiklerinden sayılıyor; yüksek kilometrede valf gövdesinin kavrama artığıyla tıkanabildiği ama bunun basit bir yıkamayla giderilebildiği bildiriliyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı, ama tarif edilen sorunlar münferit ve düşük ağırlıklı.]"
   },
   "mb-5g-tronic": {
     "id": "mb-5g-tronic",
@@ -172,11 +192,13 @@
     "type": "TK",
     "supplier": "Mercedes-Benz",
     "gears": 5,
-    "base_score": null,
+    "base_score": 80,
     "maintenance": null,
     "known_issues": [],
-    "sources": [],
-    "note": "Kaynak yalnızca bu aracın bu kutuyu kullandığını doğruluyor, güvenilirlik hakkında bir şey söylemiyor; bu yüzden base_score boş bırakıldı."
+    "sources": [
+      "minhsautocare_722_6"
+    ],
+    "note": "Geniş bir Mercedes yelpazesinde (1996-2010+) kullanılan, genel olarak güvenilir kabul edilen 5 ileri kutu (722.6). Bilinen sorunlar valf gövdesi devre kartı (conductor plate) arızası ve yağ eksikliği/basınç kaynaklı 5. vites arızasıyla sınırlı. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı, kaynağın kendisi 'genel olarak güvenilir' diyor.]"
   },
   "mb-7g-tronic": {
     "id": "mb-7g-tronic",
@@ -187,10 +209,14 @@
     "type": "TK",
     "supplier": "Mercedes-Benz",
     "gears": 7,
-    "base_score": null,
+    "base_score": 44,
     "maintenance": null,
     "known_issues": [],
-    "sources": []
+    "sources": [
+      "carcomplaints_722_9_lawsuit",
+      "mercedesmedic_722_9"
+    ],
+    "note": "Bu kutuya (722.9) karşı ABD'de toplu dava açıldı; iddia, valf gövdesi ve conductor plate (kontrol kartı) tasarım kusurlarının kutuyu erken arızalandırdığı ve aracı 2. viteste sıkışmış halde bırakabildiği yönünde; üreticinin bu paterni servis bültenleriyle önceden bildiği iddia ediliyor. Arızanın kök nedeni, giriş milinin dönüş hızını doğru izleyemeyen bozuk bir kontrol kartı. [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı): mekatronik/kontrol kartı arızası belgelenmiş ve toplu dava seviyesinde ciddi; carcomplaints kaynağı davayı ve TSB'leri aktardığı için B seviyesinde sayıldı, ama tek kaynak olduğu için 35-49 sınırında tutuldu.]"
   },
   "vag-dq200": {
     "id": "vag-dq200",
@@ -240,11 +266,14 @@
     "type": "Islak DCT",
     "supplier": "Volkswagen Group",
     "gears": null,
-    "base_score": null,
+    "base_score": 68,
     "maintenance": null,
     "known_issues": [],
-    "sources": [],
-    "note": "Audi quattro ve yeni nesil önden çekiş modellerinde Multitronic yerine kullanılıyor. Hangi araçta tam olarak hangi kodun (DL501 mi DQ381 mi) bulunduğu teyit edilmeli."
+    "sources": [
+      "ecotorque_dl501",
+      "audiworld_dl501_110k"
+    ],
+    "note": "Audi quattro ve yeni nesil önden çekiş modellerinde Multitronic yerine kullanılıyor. Hangi araçta tam olarak hangi kodun (DL501 mi DQ381 mi) bulunduğu teyit edilmeli. Kavrama aşınması, çift kütleli volan arızası ve mekatronik devre kartı arızaları bildiriliyor; bu sorunların çoğu 2011 öncesi üretilen örneklerde görülüyor, sonraki yıllar için tablo daha olumlu. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): ıslak kavramalı olması DQ200 gibi kuru kutulara göre yapısal avantaj sağlıyor; bildirilen sorunlar büyük ölçüde eski üretim yıllarına özgü.]"
   },
   "vag-multitronic": {
     "id": "vag-multitronic",
@@ -451,13 +480,15 @@
     "type": "Kuru DCT",
     "supplier": "Fiat / Alfa Romeo",
     "gears": 6,
-    "base_score": null,
+    "base_score": 46,
     "maintenance": null,
     "known_issues": [],
     "sources": [
-      "eksisozluk_sanziman_liste"
+      "eksisozluk_sanziman_liste",
+      "autodoc_giulietta_problems",
+      "autodoc_mito_problems"
     ],
-    "note": "Kaynak yalnızca bu aracın bu kutuyu kullandığını doğruluyor, güvenilirlik hakkında bir şey söylemiyor; bu yüzden base_score boş bırakıldı."
+    "note": "Giulietta ve MiTo'da 40.000-60.000 km gibi erken bir kilometrede vites geçiş sorunları veya viteste takılı kalma bildiriliyor; yoğun trafikte aşırı ısınıp acil durum moduna geçebiliyor. Ortalama servis ömrü 120.000-150.000 km olarak tarif ediliyor, yoğun şehir kullanımında daha kısa. Buna karşılık ıslak kavramalı olduğu için DSG ve Powershift gibi kuru kavramalı rakiplerine göre daha güvenilir kabul ediliyor. [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı): erken kilometrede tekrarlayan vites sorunu belgelenmiş; ıslak kavrama avantajı bandın üst sınırında tutulmasını sağladı.]"
   },
   "toyota-multidrive": {
     "id": "toyota-multidrive",

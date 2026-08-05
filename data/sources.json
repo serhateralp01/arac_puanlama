@@ -861,5 +861,203 @@
     "accessed": null,
     "language": null,
     "quotes": []
+  },
+  "bimmerfest_zf5hp19": {
+    "id": "bimmerfest_zf5hp19",
+    "claim": "ZF 5HP19/5HP24 kutusunun düzenli bakımla (30-60 bin milde yağ değişimi) sağlam kaldığı, ihmal edilirse sıcakken 3./4. viteste kayma ve geri vites tamburunda çatlak görülebildiği",
+    "publisher": "Bimmerfest BMW Forums",
+    "url": "https://www.bimmerfest.com/threads/how-common-are-zf-5hp19-problems.1215049/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "transmissionrepairguide_zf5hp19": {
+    "id": "transmissionrepairguide_zf5hp19",
+    "claim": "ZF 5HP19/5HP24 için bilinen arıza türlerinin geri vites kayması ve gecikmeli kavrama olduğu, 60 bin milde yağ değişiminin şiddetle önerildiği",
+    "publisher": "Transmission Repair Cost Guide",
+    "url": "https://www.transmissionrepaircostguide.com/zf5hp19/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "atstservices_zf6hp": {
+    "id": "atstservices_zf6hp",
+    "claim": "ZF 6HP19/26 kutusunun solenoid arızaları, valf gövdesi aşınması (150-200 bin km üstü bakımsız kullanımda) ve ısı eşanjörü sızıntısı gibi bilinen ama düzenli bakımla yönetilebilir sorunları olduğu",
+    "publisher": "ATS Transmission Services",
+    "url": "https://atstservices.com/en/blog/zf-6hp-common-failures-diagnosis",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "transmissionrepairguide_zf6hp26": {
+    "id": "transmissionrepairguide_zf6hp26",
+    "claim": "ZF 6HP26'nın genel olarak güvenilir kabul edildiği, düzenli bakımla 100.000 milin üstünde sorunsuz gidebildiği, ancak 100.000 mile ulaşan kutuların yaklaşık %15-20'sinde belirgin sorun bildirildiği",
+    "publisher": "Transmission Repair Cost Guide",
+    "url": "https://www.transmissionrepaircostguide.com/zf-6hp26/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "axleaddict_gm5l40e": {
+    "id": "axleaddict_gm5l40e",
+    "claim": "GM 5L40-E kutusunda akümülatör yayı kırılması, kilitleme solenoidi arızası (tam güç kaybına yol açabilen), çıkış mili aşınması ve pompa aşınması gibi belgelenmiş, tekrarlayan arıza noktaları olduğu",
+    "publisher": "AxleAddict",
+    "url": "https://axleaddict.com/repair-maintenance/gm-5l40e-transmission-issues-solutions",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "solsticeforum_gm5l40e": {
+    "id": "solsticeforum_gm5l40e",
+    "claim": "GM 5L40-E kutusunun sarsıntı, kayma ve sert vites geçişleriyle bilindiği, yaş ve ihmal edilen bakımın bu kutularda özellikle sorun yarattığı",
+    "publisher": "Pontiac Solstice Forum",
+    "url": "https://www.solsticeforum.com/threads/the-gm-5l40-e-automatic-transmission-common-problems-update-8-31-23.168489/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "volvoclub_geartronic_reliability": {
+    "id": "volvoclub_geartronic_reliability",
+    "claim": "Aisin yapımı Geartronic'in (TF-71SC/TF-80SC/TG-81SC) Volvo'nun en güvenilir otomatik kutuları arasında sayıldığı, hidrodinamik tork konvertörü tasarımının çift kavramalı Powershift'e göre şehir trafiği ve duraklama-kalkma kullanımına çok daha toleranslı olduğu",
+    "publisher": "Volvo Club CZ",
+    "url": "https://en.volvo-club.cz/article/most-reliable-automatic-transmissions-in-volvo-90",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "volvoforums_tf71sc_behavior": {
+    "id": "volvoforums_tf71sc_behavior",
+    "claim": "Aisin TF-71SC'de yağ soğutucusundan sızıntı ve inişte 2./3. vites arasında tereddüt gibi bakıma bağlı sorunlar bildirildiği; 100.000 km üstünde küçük ısı eşanjörünün güncellenmesinin önerildiği, önceki TF-70SC'ye göre zayıf noktaların giderildiği",
+    "publisher": "Volvo Owners Club Forum",
+    "url": "https://www.volvoforums.org.uk/forum/technical-topics/s60-v60-11-18-xc60-09-17-general/318984-aisin-tf-71sc-geartronic-behavior",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "asrgearbox_tf80": {
+    "id": "asrgearbox_tf80",
+    "claim": "Aisin TF-80SC'nin ilk yıllarında sürtünme plakalarının gevşeyip pompayı etkileyebildiği, küçük ısı eşanjörünün 100.000 km'den önce tıkanarak aşırı ısınmaya ve sürtünme kavramalarının yanmasına yol açabildiği; 2010 öncesi üretilen kutulardan kaçınılması, sonrasının oldukça güvenilir sayıldığı",
+    "publisher": "ASR Gearbox Repairs",
+    "url": "https://www.asrgearboxrepairs.co.uk/aisin-tf-80-6-speed-older-psavolvo-models/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "fiatforum_aw60t": {
+    "id": "fiatforum_aw60t",
+    "claim": "Fiat Tipo/Egea 1.6 E.torQ'nun Aisin AW60T 6 ileri otomatiğiyle geldiği; sürüş kalitesinin genelde tutarlı olduğu ama bazı örneklerde vites sertliği bildirildiği, kutuyu sağlam tutmanın anahtarının düzenli ATF değişimi olduğu",
+    "publisher": "The FIAT Forum",
+    "url": "https://www.fiatforum.com/threads/gearbox.448671/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "gearboxlist_722_3": {
+    "id": "gearboxlist_722_3",
+    "claim": "Mercedes 722.3 (4G-Tronic) kutusunun basit hidrolik tasarımı sayesinde markanın en dayanıklı otomatiklerinden sayıldığı, yüksek kilometrede valf gövdesinin kavrama artığıyla tıkanabildiği ama bunun basit bir yıkamayla giderilebildiği",
+    "publisher": "GearboxList",
+    "url": "https://gearboxlist.com/mercedes/722-3/",
+    "type": "spec-database",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "minhsautocare_722_6": {
+    "id": "minhsautocare_722_6",
+    "claim": "Mercedes 722.6 (5G-Tronic) kutusunun genel olarak güvenilir sayıldığı, bilinen sorunların conductor plate (valf gövdesi devre kartı) arızası ve yağ eksikliği/basınç sorunlarından kaynaklanan 5. vites arızası olduğu",
+    "publisher": "Minh's Auto Care",
+    "url": "https://www.minhsautocare.com/blog/mercedes-722-6-transmission-problems---repair",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "carcomplaints_722_9_lawsuit": {
+    "id": "carcomplaints_722_9_lawsuit",
+    "claim": "Mercedes 722.9 (7G-Tronic) kutusuna karşı açılan toplu davanın, valf gövdesi ve conductor plate (kontrol kartı) tasarım kusurları nedeniyle kutunun erken arızalandığını iddia ettiği; arızanın aracı 2. viteste sıkışmış halde bırakabildiği ve üreticinin bu sorunu servis bültenleriyle önceden bildiği",
+    "publisher": "CarComplaints.com",
+    "url": "https://www.carcomplaints.com/news/2018/mercedes-7229-7g-tronic-transmission-problems-lawsuit.shtml",
+    "type": "complaint-aggregator",
+    "tier": "B",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "mercedesmedic_722_9": {
+    "id": "mercedesmedic_722_9",
+    "claim": "Mercedes 722.9 kutusundaki arızaların kök nedeninin genellikle conductor plate (kontrol kartı) bozulması olduğu, bu durumun giriş milinin dönüş hızını doğru izlemeyi engelleyip tork konvertörü kaymasını tespit edemez hale getirdiği",
+    "publisher": "MB Medic",
+    "url": "https://www.mercedesmedic.com/722-9-7g-tronic-automatic-transmission-problems-solutions/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "ecotorque_dl501": {
+    "id": "ecotorque_dl501",
+    "claim": "Audi DL501 (0B5) ıslak S tronic kutusunda kavrama aşınması, çift kütleli volan arızası ve mekatronik devre kartı arızalarının görülebildiği; kavrama kaynaklı sorunların çoğunlukla 2011 öncesi üretilen örneklerde bildirildiği, bakımı yapılırsa kutunun genelde güvenilir kaldığı",
+    "publisher": "Eco Torque",
+    "url": "https://eco-torque.co.uk/blogs/news/audi-0b5-dl501-dsg-s-tronic-gearbox-common-problems-fixes",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "audiworld_dl501_110k": {
+    "id": "audiworld_dl501_110k",
+    "claim": "Bir A5/S5 sahibinin DL501 S tronic kutusunda yaklaşık 183.000 km'de (110.000 mil) sorun yaşadığını bildirdiği",
+    "publisher": "AudiWorld Forums",
+    "url": "https://www.audiworld.com/forums/audi-a5-s5-rs-5-219/audi-s-tronic-0b5-dl501-problems-just-110k-183k-kilometers-miles-3061528/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "autodoc_giulietta_problems": {
+    "id": "autodoc_giulietta_problems",
+    "claim": "Alfa Romeo Giulietta'nın TCT çift kavramalı kutusunda 40.000-60.000 km gibi erken bir kilometrede vites geçiş sorunları veya viteste takılı kalma görülebildiği",
+    "publisher": "AutoDoc Blog",
+    "url": "https://www.autodoc.co.uk/info/problems-with-the-alfa-romeo-giulietta",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "autodoc_mito_problems": {
+    "id": "autodoc_mito_problems",
+    "claim": "Alfa Romeo MiTo'nun TCT kutusunda özellikle 2009-2010 model yıllarında sarsıntılı vites geçişi, kalkışta gecikme ve alışılmadık seslerin sık görülen arızalar arasında olduğu, kutunun yoğun trafikte aşırı ısınıp acil durum moduna geçebildiği",
+    "publisher": "AutoDoc Blog",
+    "url": "https://www.autodoc.co.uk/info/problems-with-the-alfa-romeo-mito",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
   }
 }

@@ -459,12 +459,20 @@ uyarı veriyor; yapısal uyarı kalmadı.
 **Kabul ölçütü:** üç kriter formülden geliyor; elle girilen değer denetimde hata.
 
 ### Faz 2C — Kutu ve motor kayıtları
-8. **Kısmen tamamlandı.** 23 kaynaklı kutudan 18'ine `base_score` atandı; kalan
-   beşi (`aisin-geartronic`, `aisin-tf80`, `aisin-aw60t`, `mb-5g-tronic`, `alfa-tct`)
-   yalnızca sınıflandırma sağlayan kaynaklara dayandığı için bilerek boş bırakıldı —
-   güvenilirlik hakkında hiçbir şey söylemeyen bir kaynaktan puan üretilmedi. Altı
-   kutunun (`zf-5hp`, `zf-6hp`, `gm-5l40e`, `mb-4g-tronic`, `mb-7g-tronic`,
-   `vag-s-tronic-islak`) hâlâ hiç kaynağı yok.
+8. **Tamamlandı.** 29 kutunun tamamına `base_score` ve en az bir güvenilirlik
+   kaynağı atandı. Daha önce yalnızca sınıflandırma sağlayan (hangi araç hangi
+   kutuyu kullanıyor bilgisini veren ama güvenilirlik hakkında bir şey söylemeyen)
+   kaynağa dayandığı için boş bırakılan beş kutuya (`aisin-geartronic`,
+   `aisin-tf80`, `aisin-aw60t`, `mb-5g-tronic`, `alfa-tct`) ve hiç kaynağı olmayan
+   altı kutuya (`zf-5hp`, `zf-6hp`, `gm-5l40e`, `mb-4g-tronic`, `mb-7g-tronic`,
+   `vag-s-tronic-islak`) gerçek güvenilirlik araştırmasıyla kaynak ve puan
+   verildi. Bu araştırma dört aracı `duzeltme-gerekcesiz` denetimine takıldı;
+   üçü (`mercedes-c180-w204`, `mercedes-c250-cdi-w204`, `mercedes-e250-cdi-w212`)
+   `mb-7g-tronic` kutusuna karşı ABD'de açılan toplu davanın ortaya çıkardığı
+   gerçek bir mekatronik arıza kaydı yüzünden 80-82'den 44'e çekildi; biri
+   (`alfa-romeo-159-1-9-jtdm`) `aisin-tf80`'in 2010 öncesi/sonrası üretim
+   ayrımı nedeniyle 76'dan 58'e çekildi. `mercedes-c180-w204` bu düzeltmeyle
+   birlikte dört kaynağa ulaşıp `verified` oldu.
 9. **Tamamlandı.** `scripts/validate.py`'ye `duzeltme-gerekcesiz` kuralı eklendi: bir
    aracın `trans` puanı, bağlı olduğu kutunun `base_score`'undan 15 puandan fazla
    sapıyorsa ve `evidence.trans.reasoning` boşsa hata değil uyarı üretiyor. İlk

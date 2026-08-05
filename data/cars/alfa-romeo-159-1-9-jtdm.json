@@ -21,7 +21,7 @@
   "verification": "partial",
   "scores": {
     "motor": 70,
-    "trans": 76,
+    "trans": 58,
     "fun": 66,
     "comf": 67,
     "age": 42,
@@ -29,9 +29,10 @@
     "liq": 42
   },
   "sources": [
-    "alfa159"
+    "alfa159",
+    "asrgearbox_tf80"
   ],
-  "note": "Beklenmedik bir avantajı var: 159’un otomatiği Giulietta’daki TCT kutusu değil, Aisin yapımı TF-80 tork konvertörlü kutu, yani Volvo Geartronic ile aynı aileden. 1.9 JTDm motoru 150 beygir ve 320 Nm üretiyor ve sağlam bir dizel. Dikkat edilmesi gerekenler: ağır burnu yüzünden ön takım aşınması, partikül filtresi, EGR ve volan, ayrıca usta bulmak yedek parça bulmaktan daha zor. Bu bütçedeki en karakterli mantıklı Alfa.",
+  "note": "Beklenmedik bir avantajı var: 159’un otomatiği Giulietta’daki TCT kutusu değil, Aisin yapımı TF-80 tork konvertörlü kutu. Bu kutu tork konvertörlü olduğu için TCT'ye göre yapısal olarak daha sağlam olsa da kendi bilinen sorunları var: ilk üretim yıllarında sürtünme plakası sorunu ve küçük ısı eşanjörünün 100.000 km öncesinde tıkanıp aşırı ısınmaya yol açması. 159 üretim aralığı (2005-2011) bu kutunun daha sorunlu kabul edilen 2010 öncesi ve daha güvenilir 2010 sonrası dönemine yayıldığı için puan ortada tutuldu. 1.9 JTDm motoru 150 beygir ve 320 Nm üretiyor ve sağlam bir dizel. Dikkat edilmesi gerekenler: ağır burnu yüzünden ön takım aşınması, partikül filtresi, EGR ve volan, ayrıca usta bulmak yedek parça bulmaktan daha zor. Bu bütçedeki en karakterli mantıklı Alfa.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
