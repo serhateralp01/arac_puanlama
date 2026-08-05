@@ -1642,5 +1642,148 @@
     "accessed": "2026-08-05",
     "language": "en",
     "quotes": []
+  },
+  "enginescope_ea888_gen": {
+    "id": "enginescope_ea888_gen",
+    "claim": "EA888'in Gen1/Gen2 (2006-2015 civarı) sürümlerinin dengesiz uzun ömür, yüksek yağ tüketimi ve triger zinciri gergisi arızasıyla kötü bir üne sahip olduğu; bu sorunların Gen3'te (2012 sonrası) büyük ölçüde azaldığı ve düzenli bakımla 150-200 bin mili rahatça aşabildiği",
+    "publisher": "EngineScope",
+    "url": "https://enginescope.gr/blog/ea888-gen1-vs-gen3-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "oreateai_ea111_vs_ea211": {
+    "id": "oreateai_ea111_vs_ea211",
+    "claim": "EA211'in triger kayışı kullandığı (zincir değil), bunun 5 yılda/90.000 km'de bir değişim gerektirdiği ama EA111'in zincir gergisinin soğuk kalkışta yağ basıncı olmadığı için zayıf nokta olduğu; EA211'in EA111'e göre belirgin biçimde daha güvenilir ve sağlam kabul edildiği, EA111'in karmaşıklıkla sonuç almaya çalışırken EA211'in karmaşıklığı geri çekip kontrole odaklandığı",
+    "publisher": "Oreate AI Blog",
+    "url": "https://www.oreateai.com/blog/ea111-vs-ea211-unpacking-the-differences-in-vws-popular-14-tsi-engines/51c3d0b16cd8c20c339e6319be5ef860",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_ea113_agu": {
+    "id": "engineexplained_ea113_agu",
+    "claim": "VW/Audi 1.8T 20v (EA113) motorunun 1994-2010 arası üretilen en popüler ve güvenilir motorlardan biri sayıldığı; ateşleme bobini arızalarının bilinen bir sorun olduğu ama Audi'nin bunun için geri çağırma ve servis bülteni yayınladığı, bu yüzden çoğu aracın düzeltilmiş olduğu",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/volkswagen-ea113-1-8-turbo-agu-review/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginefinders_ea188_pd": {
+    "id": "enginefinders_ea188_pd",
+    "claim": "EA188 (pumpe düse) 2.0 TDI'de kam milinin enjektörleri tahrik ettiği için kam palet ve hidrolik iticiler üzerinde ciddi yük oluştuğu, VW 505.01 spesifikasyonu dışında yağ kullanılırsa aşınmanın hızlandığı; enjektörlerin ~150.000 milde sorun çıkarmaya başladığı, buna karşılık titiz bakımla motorun 200.000 mili rahatça aşabildiği",
+    "publisher": "Engine Finders",
+    "url": "https://enginefinders.co.uk/blog/vw-2-0-tdi-engine-problems-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "curbsideclassic_ea827": {
+    "id": "curbsideclassic_ea827",
+    "claim": "VAG'ın EA827 ailesinin basitliği, göreceli güvenilirliği ve düşük bakım maliyetiyle bilindiği, Audi 80'den başlayıp Golf, Passat ve Octavia'ya kadar geniş bir yelpazede kullanıldığı; 1988 civarı erken 2.0 16v sürümlerinde aşırı aşınma ve yüksek yağ tüketimi bildirildiği, triger kayışının ~60.000 km'de değiştirilmesi gerektiği, atlanırsa (interference motor) supapların bükülebileceği",
+    "publisher": "Curbside Classic",
+    "url": "https://www.curbsideclassic.com/blog/engines/engine-history-audis-ea827-engine-the-inline-four-that-could/",
+    "type": "independent-analyst",
+    "tier": "B",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "darkside_v6tdi_swirlflap": {
+    "id": "darkside_v6tdi_swirlflap",
+    "claim": "Audi 3.0 V6 TDI (BMK/ASB) motorlarında emme manifoldundaki değişken swirl flap mekanizmasının zamanla kirlenip boşluk yapıp kırıldığı; asıl arızanın aktüatör kolu olduğu ve revize edilmiş parçalarla değiştirildiğinde genelde başka sorun çıkarmadığı",
+    "publisher": "Darkside Developments",
+    "url": "https://www.darksidedevelopments.co.uk/products/swirl-flap-repair-for-2-7-3-0-tdi-inlet-intake-manifold.html",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginescope_tu5": {
+    "id": "enginescope_tu5",
+    "claim": "PSA TU5JP4 1.6 16v motorunun güvenilirlik skorunun 78/100 ('al') olduğu, basit ve motorsporda kanıtlanmış bir tasarım olduğu; triger kayışının (interference motor) kritik bir bakım kalemi olduğu, yüksek kilometrede supap kapağı ve karter contası sızıntısı görüldüğü",
+    "publisher": "EngineScope",
+    "url": "https://enginescope.gr/engine/psa-tu5-16/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_dw10": {
+    "id": "engineexplained_dw10",
+    "claim": "PSA DW10BTED4 2.0 HDi'nin PSA'nın en sağlam dizel motorlarından biri sayıldığı, filo kullanımında 300.000 km'yi aşan örneklerin yaygın olduğu, Ford (Duratorq) ve Volvo'ya (D3/D4 2.0D) da verildiği; küçük 1.6 HDi'yi rahatsız eden enjektör keçesi-turbo yağ hattı arıza zincirini taşımadığı, buna karşılık turbo kanatçık sıkışması, kısa mesafede DPF tıkanması ve EGR karbon birikiminin bilinen sorunlar olduğu",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/citroen-dw10bted4-2-0-hdi-engine-review/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "bigskies_k4m": {
+    "id": "bigskies_k4m",
+    "claim": "Renault K4M 1.6 16v motorunun genel olarak güvenilir kabul edildiği, bilinen arızaların ateşleme bobinleri (ucuz ve kolay değişim), faz ayarlayıcı solenoidi, termostat/conta ve krank sensörüyle sınırlı olduğu, yakıt kalitesine duyarlı çalıştığı",
+    "publisher": "Big Skies Blog",
+    "url": "https://big-skies.co.uk/projects/cars/living-with-the-renault-k4m-1-6vvt/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "cararac_k9k": {
+    "id": "cararac_k9k",
+    "claim": "Renault K9K 1.5 dCi'nin uzun süredir kullanılan güvenilir bir dizel olduğu; en ciddi sorunun 150 bin km üstünde görülen biyel kolu yatağı çatlaması olduğu, 90 bg sürümde yağ pompasının zayıf nokta olduğu, yüksek kilometrede enjektör aşınmasının sert çalışma ve dumana yol açabildiği (orta olasılık, ~140 bin km), ortalama motor ömrünün 150.000 milin üzerinde olduğu",
+    "publisher": "CarArac",
+    "url": "https://cararac.com/blog/renault-1-5-dci-engine-is-the-k9k-engine-efficient-or-problematic.html",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "vehiclewise_r9m": {
+    "id": "vehiclewise_r9m",
+    "claim": "Renault R9M 1.6 dCi 130'da en sık servis nedeninin piezo enjektörler ve hızla kirlenen EGR valfi/partikül filtresi olduğu; bir güvenilirlik veritabanında bildirilen sorunların tamamının egzoz (EGR/DPF) sistemiyle ilgili olduğu, silindir kapağı contasında da zaman zaman sorun görüldüğü",
+    "publisher": "VehicleWise",
+    "url": "https://vehiclewise.co.uk/blogs/audi-diesel-injectors/r9m-engine-problems",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "motoranimal_m9r": {
+    "id": "motoranimal_m9r",
+    "claim": "Renault-Nissan M9R 2.0 dCi'nin önceki Renault dizellerine göre daha güvenilir kabul edildiği; 100.000 milde triger zinciri bakımı gerekebildiği (bazı örneklerde 350-400 bin km'ye kadar dayandığı), bazı örneklerde krank mili ana yatağı değişimi gerektiği, soğuk kalkışta veya klima açıkken öngörülemeyen rölanti sorunları bildirildiği",
+    "publisher": "MotorAnimal",
+    "url": "https://motoranimal.com/renault-nissan-m9r-engine-2-0-dci-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "uscarsnew_h5ht": {
+    "id": "uscarsnew_h5ht",
+    "claim": "Renault-Mercedes ortak üretimi 1.3 TCe (H5Ht/M282) motorunun güvenilirlik açısından ortalamanın üzerinde not aldığı, 150.000 km'yi büyük sorun olmadan aşan örneklerin yaygın olduğu; bazı örneklerde arızalı piston/segman kaynaklı erken yağ tüketimi bildirildiği, direkt enjeksiyonlu motorlarda yaygın olan karbon birikiminin bu motoru da etkilediği",
+    "publisher": "USCarsNew",
+    "url": "https://uscarsnew.com/renault-1-3-tce-h5ht-engine/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
   }
 }

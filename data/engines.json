@@ -1316,11 +1316,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "PSA'nın 2.0 dizel ailesi; C5 ve 508'de kullanılıyor."
+    "base_score": 76,
+    "maintenance": "Kısa mesafe kullanımda DPF ve EGR daha sık kontrol edilmeli; turbo kanatçık sıkışmasına dikkat edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Turbo kanatçık (VNT) sıkışması",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_dw10"
+        ]
+      },
+      {
+        "issue": "Kısa mesafe kullanımda DPF tıkanması ve EGR karbon birikimi",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_dw10"
+        ]
+      }
+    ],
+    "sources": [
+      "engineexplained_dw10"
+    ],
+    "note": "PSA'nın 2.0 dizel ailesi; C5 ve 508'de kullanılıyor. Ford ve Volvo'ya da veriliyor (Duratorq, D3/D4). Küçük kardeşi 1.6 HDi'yi (psa-dv6) rahatsız eden enjektör keçesi-turbo yağ hattı arıza zincirini taşımıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: kaynak 'PSA'nın en sağmam dizellerinden biri' ve '300.000 km filoda yaygın' diyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "psa-tu5": {
     "id": "psa-tu5",
@@ -1336,11 +1357,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Xsara, 206 ve 307'deki 1.6 atmosferik benzinli; PSA'nın uzun ömürlü TU ailesinden."
+    "base_score": 74,
+    "maintenance": "Triger kayışı zamanında değiştirilmeli (interference motor); yüksek kilometrede supap kapağı/karter contası sızıntısı görülebiliyor.",
+    "known_issues": [
+      {
+        "issue": "Yüksek kilometrede supap kapağı ve karter contası sızıntısı",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "bakım kalemi",
+        "sources": [
+          "enginescope_tu5"
+        ]
+      }
+    ],
+    "sources": [
+      "enginescope_tu5"
+    ],
+    "note": "Xsara, 206 ve 307'deki 1.6 atmosferik benzinli; PSA'nın uzun ömürlü TU ailesinden. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak 78/100 'al' notu veriyor, basit ve motorsporda kanıtlanmış; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "psa-xu": {
     "id": "psa-xu",
@@ -1358,11 +1391,11 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
+    "base_score": 68,
     "maintenance": null,
     "known_issues": [],
     "sources": [],
-    "note": "C5 birinci nesil ve 406'daki 1.8/2.0 atmosferik benzinli aile."
+    "note": "C5 birinci nesil ve 406'daki 1.8/2.0 atmosferik benzinli aile. TU ailesiyle aynı dönemin sade, döküm demir bloklu PSA motoru; sivil kullanımdaki güvenilirliğine dair motora özgü bağımsız bir kaynak bulunamadı, motorspor uygulamalarında dayanıklılığı belgeleniyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında, temkinli: aynı neslin TU5 ailesine yakın bir profil varsayıldı ama motora özgü kaynak eksikliği nedeniyle TU5'in altında tutuldu. Kaynak eklenene kadar bu puan temkinli bir varsayımdır.]"
   },
   "renault-h5ht": {
     "id": "renault-h5ht",
@@ -1378,11 +1411,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
+    "base_score": 68,
     "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Renault ve Mercedes'in ortak geliştirdiği 1.3 turbo benzinli."
+    "known_issues": [
+      {
+        "issue": "Bazı örneklerde arızalı piston/segman kaynaklı erken yağ tüketimi",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "uscarsnew_h5ht"
+        ]
+      }
+    ],
+    "sources": [
+      "uscarsnew_h5ht"
+    ],
+    "note": "Renault ve Mercedes'in ortak geliştirdiği 1.3 turbo benzinli. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: kaynak 'ortalamanın üzerinde' ve 'büyük tasarım kusuru yok' diyor; tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
   },
   "renault-k4m": {
     "id": "renault-k4m",
@@ -1397,11 +1442,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Renault'nun 1.6 atmosferik benzinli ailesi; Clio, Megane, Laguna ve Fluence'ta yaygın."
+    "base_score": 68,
+    "maintenance": "Yakıt kalitesine duyarlı; ateşleme bobinleri, faz ayarlayıcı solenoidi ve termostat periyodik kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Ateşleme bobini, faz ayarlayıcı solenoidi, termostat/conta ve krank sensörü arızaları",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "bakım kalemi",
+        "sources": [
+          "bigskies_k4m"
+        ]
+      }
+    ],
+    "sources": [
+      "bigskies_k4m"
+    ],
+    "note": "Renault'nun 1.6 atmosferik benzinli ailesi; Clio, Megane, Laguna ve Fluence'ta yaygın. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: 'genel olarak güvenilir' ama birden fazla küçük bakım kalemi var; tek kaynağa (C) dayanıyor.]"
   },
   "renault-k9k": {
     "id": "renault-k9k",
@@ -1416,11 +1473,41 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Renault'nun çok yaygın 1.5 dizeli. Türkiye'de yedek parça ve usta ağı en geniş dizel ailelerden biri."
+    "base_score": 58,
+    "maintenance": "90 bg sürümde yağ pompası, yüksek kilometrede enjektör durumu izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "150 bin km üstünde biyel kolu yatağı çatlaması; ailenin en ciddi arızası",
+        "onset_km": 150000,
+        "frequency": "seyrek",
+        "severity": "motor ölür",
+        "sources": [
+          "cararac_k9k"
+        ]
+      },
+      {
+        "issue": "90 bg sürümde yağ pompası zayıf nokta",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "cararac_k9k"
+        ]
+      },
+      {
+        "issue": "Yüksek kilometrede enjektör aşınması, sert çalışma ve duman",
+        "onset_km": 140000,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "cararac_k9k"
+        ]
+      }
+    ],
+    "sources": [
+      "cararac_k9k"
+    ],
+    "note": "Renault'nun çok yaygın 1.5 dizeli. Türkiye'de yedek parça ve usta ağı en geniş dizel ailelerden biri. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): 'uzun süredir kullanılan güvenilir' ama biyel kolu yatağı çatlaması gerçek ve ciddi (seyrek de olsa); tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
   },
   "renault-m9r": {
     "id": "renault-m9r",
@@ -1435,11 +1522,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Latitude'un 2.0 dizeli; Nissan ile ortak kullanılan aile."
+    "base_score": 54,
+    "maintenance": "Triger zinciri 100 bin milde kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Bazı örneklerde krank mili ana yatağı değişimi gerekmesi",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "büyük onarım",
+        "sources": [
+          "motoranimal_m9r"
+        ]
+      },
+      {
+        "issue": "Triger zinciri bakımının 100 bin milde gerekebilmesi (bazı örnekler 350-400 bin km'ye dayanıyor)",
+        "onset_km": 160000,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "motoranimal_m9r"
+        ]
+      }
+    ],
+    "sources": [
+      "motoranimal_m9r"
+    ],
+    "note": "Latitude'un 2.0 dizeli; Nissan ile ortak kullanılan aile. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının alt sınırında: 'önceki Renault dizellerine göre daha güvenilir' ama krank mili yatağı arızası gerçek bir risk; tek kaynağa (C) dayanıyor.]"
   },
   "renault-r9m": {
     "id": "renault-r9m",
@@ -1455,11 +1563,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Megane'ın 130 beygirlik 1.6 dizeli; K9K'nın üstünde konumlanan daha güçlü aile."
+    "base_score": 56,
+    "maintenance": "EGR valfi ve partikül filtresi düzenli kontrol edilmeli; piezo enjektörler kirlenmeye duyarlı.",
+    "known_issues": [
+      {
+        "issue": "EGR valfi ve partikül filtresinin hızla kirlenmesi; piezo enjektör sorunları",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "vehiclewise_r9m"
+        ]
+      }
+    ],
+    "sources": [
+      "vehiclewise_r9m"
+    ],
+    "note": "Megane'ın 130 beygirlik 1.6 dizeli; K9K'nın üstünde konumlanan daha güçlü aile. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): bildirilen sorunların büyük kısmı egzoz sistemiyle (EGR/DPF) ilgili, motoru bitiren değil; tek kaynağa (C) dayanıyor.]"
   },
   "rover-kv6": {
     "id": "rover-kv6",
@@ -1578,11 +1698,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "A4 B5 ve B6'daki 20 supaplı 1.8 turbo. Bu kayıt aracın kanonik 1.8T değerine göre atandı; aynı gövdelerde satılan 2.0 ve 2.4 atmosferik seçenekler ayrı ailelerdir ve listede kendi kayıtları yoktur."
+    "base_score": 76,
+    "maintenance": "Ateşleme bobinleri arızalanırsa (çoğu araçta geri çağırmayla düzeltildi) düzensiz rölanti veya güç kaybı belirtisi verir.",
+    "known_issues": [
+      {
+        "issue": "Ateşleme bobini arızası; Audi geri çağırma ve servis bülteniyle çoğu aracı düzeltti",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "bakım kalemi",
+        "sources": [
+          "engineexplained_ea113_agu"
+        ]
+      }
+    ],
+    "sources": [
+      "engineexplained_ea113_agu"
+    ],
+    "note": "A4 B5 ve B6'daki 20 supaplı 1.8 turbo. Bu kayıt aracın kanonik 1.8T değerine göre atandı; aynı gövdelerde satılan 2.0 ve 2.4 atmosferik seçenekler ayrı ailelerdir ve listede kendi kayıtları yoktur. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: kaynak 'en güvenilir motorlardan biri' diyor, bilinen sorun geri çağırmayla çözülmüş; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "vag-ea188-pd": {
     "id": "vag-ea188-pd",
@@ -1600,11 +1732,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Pompa enjektörlü (pumpe düse) 2.0 TDI. Kam mili ve enjektör iticisi aşınmasıyla anılıyor."
+    "base_score": 54,
+    "maintenance": "Yalnızca VW 505.01 spesifikasyonuna uygun yağ kullanılmalı; 10.000 mil/12 ayda bir yağ değişimi şart.",
+    "known_issues": [
+      {
+        "issue": "Kam mili ve hidrolik itici aşınması, özellikle spesifikasyon dışı yağ kullanılırsa hızlanıyor",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginefinders_ea188_pd"
+        ]
+      },
+      {
+        "issue": "Enjektörlerin ~150.000 milde sorun çıkarmaya başlaması",
+        "onset_km": 150000,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "enginefinders_ea188_pd"
+        ]
+      }
+    ],
+    "sources": [
+      "enginefinders_ea188_pd"
+    ],
+    "note": "Pompa enjektörlü (pumpe düse) 2.0 TDI. Kam mili ve enjektör iticisi aşınmasıyla anılıyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının alt sınırında: kam mili aşınması gerçek bir yapısal zayıflık ve yanlış yağ kullanımına karşı toleranssız; titiz bakımla 200.000 mili aşabiliyor. Tek kaynağa (C) dayanıyor.]"
   },
   "vag-ea189": {
     "id": "vag-ea189",
@@ -1677,11 +1830,13 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
+    "base_score": 72,
+    "maintenance": "Triger kayışı 5 yılda/90.000 km'de bir değiştirilmeli.",
     "known_issues": [],
-    "sources": [],
-    "note": "EA111'in halefi; triger kayışa dönmüş ve önceki neslin zincir sorunlarını geride bırakmış sayılıyor."
+    "sources": [
+      "oreateai_ea111_vs_ea211"
+    ],
+    "note": "EA111'in halefi; triger kayışa dönmüş ve önceki neslin zincir sorunlarını geride bırakmış sayılıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak EA111'e göre 'belirgin biçimde daha güvenilir ve sağlam' diyor, kayış değişimi planlanabilir bir kalem; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "vag-ea288": {
     "id": "vag-ea288",
@@ -1721,11 +1876,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Octavia 1 (Tour) gövdesindeki atmosferik benzinli aile. Kayıt 1.6/1.8/2.0 seçeneklerini birlikte tutuyor; kanonik değer 1.6."
+    "base_score": 74,
+    "maintenance": "Triger kayışı ~60.000 km'de değiştirilmeli; atlanırsa (interference motor) supaplar bükülebiliyor.",
+    "known_issues": [
+      {
+        "issue": "Erken (1988 civarı) 2.0 16v sürümlerinde aşırı aşınma ve yüksek yağ tüketimi",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "curbsideclassic_ea827"
+        ]
+      }
+    ],
+    "sources": [
+      "curbsideclassic_ea827"
+    ],
+    "note": "Octavia 1 (Tour) gövdesindeki atmosferik benzinli aile. Kayıt 1.6/1.8/2.0 seçeneklerini birlikte tutuyor; kanonik değer 1.6. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak B seviyesinde (bağımsız teknik analiz) 'basitlik, göreceli güvenilirlik ve düşük bakım maliyeti' diyor; triger kayışı atlanırsa ciddi hasar riski bandın üst sınırına çıkmasını engelledi.]"
   },
   "vag-ea888": {
     "id": "vag-ea888",
@@ -1744,11 +1911,33 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "VAG'ın yaygın 1.8/2.0 turbo benzinli ailesi. İlk iki neslinde yağ tüketimi ve triger zinciri gergisi kalemleri biliniyor."
+    "base_score": 46,
+    "maintenance": "Yağ seviyesi sık kontrol edilmeli (Gen1/2'de tüketim yüksek olabiliyor); triger zinciri gergisi izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Gen1/Gen2 sürümlerinde triger zinciri gergisi arızası ve zincir uzaması",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginescope_ea888_gen"
+        ]
+      },
+      {
+        "issue": "Yüksek yağ tüketimi",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "enginescope_ea888_gen"
+        ]
+      }
+    ],
+    "sources": [
+      "enginescope_ea888_gen"
+    ],
+    "note": "VAG'ın yaygın 1.8/2.0 turbo benzinli ailesi. İlk iki neslinde yağ tüketimi ve triger zinciri gergisi kalemleri biliniyor. [base_score gerekçesi: 35-49 (bilinen risk) bandının üst sınırında: sorunlar gerçek ve tekrarlayan ama motoru anında bitirmiyor, Gen3'te büyük ölçüde çözüldüğü belgeleniyor; tek kaynağa (C) dayandığı için 0-34'e düşürülmedi.]",
+    "revision_sensitivity": "Gen1 (2006-2009) ve Gen2 (2008-2015) kötü bir üne sahip; Gen3 (2012 sonrası) bu sorunları büyük ölçüde çözdü. Listedeki bütün EA888 araçları (A4 B8, Octavia, CC, Passat B6) üretim yılları itibarıyla Gen1/Gen2 dönemine giriyor, Gen3'e net biçimde geçen bir örnek yok."
   },
   "vag-v6-tdi": {
     "id": "vag-v6-tdi",
@@ -1765,11 +1954,23 @@
     ],
     "cylinders": 6,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "A6'daki 3.0 V6 dizel. Yüksek tork üretiyor ve zincir tahriki motorun arka tarafında konumlanıyor."
+    "base_score": 66,
+    "maintenance": "Swirl flap aktüatör kolu revize edilmiş parçayla değiştirilmeli.",
+    "known_issues": [
+      {
+        "issue": "Emme manifoldu swirl flap aktüatör kolunun kirlenip boşluk yapması ve kırılması",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "darkside_v6tdi_swirlflap"
+        ]
+      }
+    ],
+    "sources": [
+      "darkside_v6tdi_swirlflap"
+    ],
+    "note": "A6'daki 3.0 V6 dizel. Yüksek tork üretiyor ve zincir tahriki motorun arka tarafında konumlanıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının alt sınırında: swirl flap sorunu gerçek ve tekrarlayan ama revize parçayla kalıcı çözülüyor; tek kaynağa (C) dayanıyor.]"
   },
   "volvo-b4204s": {
     "id": "volvo-b4204s",
