@@ -13,15 +13,15 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
     "body_type": "Hatchback",
-    "engine_id": "hyundai-gamma-16"
+    "engine_id": "hyundai-gamma16-gdi"
   },
   "price_band_k_try": [
     560,
     860
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
-    "motor": 72,
+    "motor": 46,
     "trans": 70,
     "fun": 42,
     "comf": 74,
@@ -29,8 +29,10 @@
     "cost": 76,
     "liq": 76
   },
-  "sources": [],
-  "note": "Dizel kardeşinin benzinli versiyonu. Gamma motoru idare eder durumda, sadece karbon birikmesini takip etmek gerekiyor. Pratik ve dertsiz ama karakteri yok.",
+  "sources": [
+    "uscarsnew_gamma_mpi_gdi"
+  ],
+  "note": "Dizel kardeşinin benzinli versiyonu. Bu motor Gamma ailesinin doğrudan enjeksiyonlu (GDI) sürümü; emme supaplarında karbon birikimi tipik bir doğrudan enjeksiyon sorunu olarak takip edilmeli. Daha önemlisi, bu GDI alt ailesinin aynı dönemin toplu dava konusu Theta II ve Nu GDI motorlarıyla aynı kök nedenli güvenilirlik riskini paylaştığı bildiriliyor; aynı gövdenin çok noktalı enjeksiyonlu (MPI) kardeşlerine göre belirgin biçimde daha temkinli değerlendirilmeli. Pratik ve dertsiz görünse de karakteri yok.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

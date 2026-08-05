@@ -1895,5 +1895,104 @@
     "accessed": "2026-08-05",
     "language": "en",
     "quotes": []
+  },
+  "drifted_d16": {
+    "id": "drifted_d16",
+    "claim": "Honda D16 SOHC motorunun onlarca yıllık güvenilirlik ünü kazandığı, temel bakımla 200.000-300.000 mili aşabildiği; bilinen sorunların kirli gaz kelebeği/rölanti valfinden kaynaklanan rölanti dalgalanması, distribütör arızası ve 60-90 bin milde değiştirilmesi gereken triger kayışı olduğu, kayış atlanırsa uyarı vermeden koptuğu",
+    "publisher": "Drifted",
+    "url": "https://www.drifted.com/d16-engine/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "slashgear_k20": {
+    "id": "slashgear_k20",
+    "claim": "Honda K20'nin Honda'nın en güvenilir motorlarından biri sayıldığı, düzenli bakımla 300.000 km'yi aşan örneklerin çok olduğu; bilinen sorunların yüksek kilometrede veya performans kam mili kullanılan motorlarda görülen triger zinciri gergisi arızası, gaz kelebeği pozisyon sensörü ve değişken kam solenoidi olduğu",
+    "publisher": "SlashGear",
+    "url": "https://www.slashgear.com/1705859/honda-k20-engine-reliability-what-owners-say/",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "8020automotive_k24": {
+    "id": "8020automotive_k24",
+    "claim": "Honda K24'ün son derece güvenilir olduğu, 300.000 mili aşan örneklerin çok olduğu; 2008-2013 Accord'da yağ tüketimi sorununun tek büyük güvenilirlik kaygısı olduğu ve bu sorun için Honda'nın dava sonucu genişletilmiş garanti ve ücretsiz piston segmanı değişimi sağladığı, triger zinciri gergisinin TSB ile yeniden tasarlandığı",
+    "publisher": "8020 Automotive",
+    "url": "https://8020automotive.com/the-3-most-common-honda-k24-engine-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_l15a": {
+    "id": "engineexplained_l15a",
+    "claim": "Honda L15A'nın dayanıklılık ve düşük bakım maliyetiyle bilindiği, yüzbinlerce mili sorunsuz aşabildiği; bilinen sorunların VTEC sistemi arızası, bazı eski örneklerde yüksek yağ tüketimi, triger zinciri gergisi arızası ve tıkalı yakıt enjektörleri olduğu",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/honda-l15a-1-5l-engine-review-and-insights/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "uscarsnew_gamma_mpi_gdi": {
+    "id": "uscarsnew_gamma_mpi_gdi",
+    "claim": "Hyundai/Kia Gamma 1.6 ailesinde 2010 sonrası GDI (doğrudan enjeksiyon) sürümlerinin (G4FD/G4FG) emme supaplarında karbon birikimine yatkın olduğu; ailenin güvenilirlik sorununun büyük ölçüde GDI alt ailesinde yoğunlaştığı, aynı dönemin GDI motorlarının (Theta II 2.0/2.4, Nu 2.0) toplu dava konusu biyel kolu yatağı sorunuyla aynı kök nedeni paylaştığı, buna karşılık aynı dönemin MPI (çok noktalı enjeksiyon) sürümlerinin 80+/100 puan aldığı ve 2019 öncesi GDI motorlarından kaçınılması, MPI sürümlerinin sorunsuz olduğu tavsiyesi",
+    "publisher": "USCarsNew / EngineScope",
+    "url": "https://uscarsnew.com/hyundai-kia-1-6l-engine-gamma-mpi-gdi-t-gdi/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_g4fa": {
+    "id": "engineexplained_g4fa",
+    "claim": "Kia/Hyundai G4FA (Gamma 1.4 MPI) motorunun güvenilirlik notunun 80/100 olduğu; bazı örneklerde piston segmanı/supap keçesi aşınmasına bağlı yüksek yağ tüketimi ve triger zinciri gergisi aşınması bildirildiği, buna karşılık silindir bloğunun tamir edilebilir olmadığı ve üreticinin yalnızca 100.000 mil motor garantisi verdiği, bunun modern standartlara göre zayıf sayıldığı",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/kia-g4fa-1-4-l-engine-review-and-insights/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_g4ed": {
+    "id": "engineexplained_g4ed",
+    "claim": "Hyundai G4ED (Beta ailesi 1.6) motorunun genel olarak güvenilir kabul edildiği, performans/verim/güvenilirlik dengesiyle bilindiği",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/hyundai-g4ed-1-6-l-engine-review/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "autozilla_d4fd": {
+    "id": "autozilla_d4fd",
+    "claim": "Hyundai/Kia D4FD 1.7 CRDi'nin VM Motori lisansıyla üretilen genel olarak çok güvenilir bir motor olduğu; emme manifoldunun swirl flap'ları nedeniyle 50.000 km'de bir temizlik gerektirdiği, partikül filtresinin ~150.000 km'den itibaren huysuzlaşmaya başladığı",
+    "publisher": "Autozilla",
+    "url": "https://autozilla.co.uk/hyundai/1-7-crdi-engine-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginedna_d4fb": {
+    "id": "enginedna_d4fb",
+    "claim": "Hyundai/Kia D4FB 1.6 CRDi'nin uzun ömrü ve sade tasarımıyla güvenilirlik ve bakım kolaylığı ünü kazandığı; ana risklerin DPF'nin kısa mesafede tıkanması, EGR karbon birikimi ve zamanla turbo aşınması olduğu, yakıt rampasındaki basınç regülatörü arızalanırsa motorun çok kötü çalışmaya başladığı",
+    "publisher": "EngineDNA",
+    "url": "https://www.enginedna.com/kia-and-hyundai-1-6-crdi-d4fb-engine/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
   }
 }
