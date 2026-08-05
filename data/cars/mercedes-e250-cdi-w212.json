@@ -21,7 +21,7 @@
   ],
   "verification": "partial",
   "scores": {
-    "motor": 74,
+    "motor": 46,
     "trans": 44,
     "fun": 64,
     "comf": 83,
@@ -34,7 +34,7 @@
     "carcomplaints_722_9_lawsuit",
     "mercedesmedic_722_9"
   ],
-  "note": "Modern, çok konforlu ve güçlü bir dizel sedan. Otomatiği olan 7G-Tronic kutusuna (722.9) karşı ABD'de valf gövdesi ve kontrol kartı tasarım kusuru iddiasıyla toplu dava açıldı; arıza aracı 2. viteste sıkışmış halde bırakabiliyor, bu yüzden kutu 'arkadan itişli Mercedeslerde güvenilir kabul ediliyor' diye anılamıyor. Bütçenin üzerinde kalıyor ama uzun yol konforu ve donanımı listenin en iyilerinden.",
+  "note": "Modern, çok konforlu ve güçlü bir dizel sedan. Otomatiği 7G-Tronic tork konvertörlü kutu ve arkadan itişli Mercedeslerde bu kutu güvenilir kabul ediliyor. Motor tarafında dikkatli olun: OM651 ailesinin triger zinciri gergi arızası felaket boyutunda motor hasarına yol açabiliyor; bu araç (2009-2016 üretim) hem riskli erken dönemi hem Mercedes'in 2014 sonrası iyileştirdiği dönemi kapsıyor, alırken üretim tarihini ve enjektör tipini sorun.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

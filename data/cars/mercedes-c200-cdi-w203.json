@@ -21,7 +21,7 @@
   ],
   "verification": "partial",
   "scores": {
-    "motor": 80,
+    "motor": 60,
     "trans": 80,
     "fun": 48,
     "comf": 72,
@@ -32,7 +32,7 @@
   "sources": [
     "om61x"
   ],
-  "note": "C220 CDI ile aynı sağlam OM611 ve OM646 ailesinden, sadece gücü daha düşük. 5G-Tronic otomatiği güvenilir, yakıt tüketimi çok iyi, yedek parçası ucuz ve bol. Sürüş keyfi düşük ama dert de çıkarmıyor.",
+  "note": "Sessiz çalışmasıyla bilinen 5G-Tronic otomatiği sağlam. Motor tarafında ise OM611 ailesinin bilinen zaafı geçerli: enjektör altı ateşe dayanıklı contalar zamanında değiştirilmezse enjektörler tıkanabiliyor. Bu, W203'ün ilk common rail dizel motoru; halefi OM646 aynı sorunu devraldı.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

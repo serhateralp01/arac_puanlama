@@ -21,7 +21,7 @@
   ],
   "verification": "partial",
   "scores": {
-    "motor": 76,
+    "motor": 46,
     "trans": 80,
     "fun": 54,
     "comf": 77,
@@ -32,7 +32,7 @@
   "sources": [
     "om61x"
   ],
-  "note": "W204'ün giriş seviyesi dizeli; aynı sağlam OM651 ailesi ve 5G-Tronic otomatiği. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
+  "note": "5G-Tronic otomatiği sağlam. Motor tarafında dikkatli olun: OM651 ailesinin triger zinciri hızla uzayıp karakteristik bir tıkırtı sesi çıkarabiliyor, gergi arızası felaket boyutunda motor hasarına yol açabiliyor. Bu araç (2007-2011 üretim) Mercedes'in enjektör ve zamanlama bileşenlerini iyileştirdiği 2014 sonrası döneme değil, riskin en yüksek olduğu erken üretim dönemine giriyor.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

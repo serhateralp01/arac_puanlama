@@ -34,11 +34,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "E46 318i'nin erken sürümlerindeki 1.9 litrelik dört silindirli. Kayıt aracın kanonik 1.9/115 bg değerine göre atandı; aynı kasada 2001 sonrası satılan N42 2.0 ayrı bir ailedir."
+    "base_score": 68,
+    "maintenance": "DISA valfi ve supap kapağı contası periyodik kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "DISA valfi arızası (değişken emme manifoldu kontrolü)",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_m43"
+        ]
+      },
+      {
+        "issue": "Yüksek kilometrede kafa çatlağı bildirimi",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "büyük onarım",
+        "sources": [
+          "engineexplained_m43"
+        ]
+      }
+    ],
+    "sources": [
+      "engineexplained_m43"
+    ],
+    "note": "E46 318i'nin erken sürümlerindeki 1.9 litrelik dört silindirli. Kayıt aracın kanonik 1.9/115 bg değerine göre atandı; aynı kasada 2001 sonrası satılan N42 2.0 ayrı bir ailedir. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): 'dayanıklı' kabul ediliyor, bilinen sorunlar (DISA, conta) planlanabilir; yüksek km'de kafa çatlağı bildirimi bandın üst sınırına çıkmasını engelledi.]"
   },
   "bmw-m47": {
     "id": "bmw-m47",
@@ -54,11 +75,13 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
+    "base_score": 64,
     "maintenance": null,
     "known_issues": [],
-    "sources": [],
-    "note": "E90 318d'nin erken sürümlerindeki 2.0 dizel. Kayıt aracın kanonik 122 bg değerine göre atandı; aynı kasada 2007 sonrası gelen N47 ayrı bir ailedir ve kendi kaydı var."
+    "sources": [
+      "alpincars_m47_vs_n47"
+    ],
+    "note": "E90 318d'nin erken sürümlerindeki 2.0 dizel. Kayıt aracın kanonik 122 bg değerine göre atandı; aynı kasada 2007 sonrası gelen N47 ayrı bir ailedir. Ön taraflı, daha sade triger zinciri tasarımı sayesinde halefi N47'ye göre belirgin biçimde daha güvenilir kabul ediliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının üst sınırında: kaynak N47'ye kıyasla olumlu ama motora özgü ayrıntılı bir arıza listesi bulunamadı, tek kaynağa (C) dayanıyor.]"
   },
   "bmw-m52": {
     "id": "bmw-m52",
@@ -122,11 +145,32 @@
     ],
     "cylinders": 6,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "M52'nin halefi; E39, E46 ve erken E60'ta kullanılan sıralı altı silindirli."
+    "base_score": 78,
+    "maintenance": "Soğutma sistemi (genleşme tankı, su pompası çarkı) ve VANOS keçeleri 80-100 bin milde kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Genleşme tankı çatlaması ve su pompası çarkı arızası",
+        "onset_km": 130000,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_m54"
+        ]
+      },
+      {
+        "issue": "VANOS keçe aşınması, tork ve verim kaybına yol açıyor",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "bakım kalemi",
+        "sources": [
+          "engineexplained_m54"
+        ]
+      }
+    ],
+    "sources": [
+      "engineexplained_m54"
+    ],
+    "note": "M52'nin halefi; E39, E46 ve erken E60'ta kullanılan sıralı altı silindirli benzinli. Nikasil sorunu yok (döküm demir gömlek). [base_score gerekçesi: 65-84 üst yarısı: kaynak açıkça 'BMW'nin en güvenilir üretim motorlarından biri' diyor, sorunlar yaşlanan yardımcı parçalarla sınırlı; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "bmw-m57": {
     "id": "bmw-m57",
@@ -144,11 +188,34 @@
     ],
     "cylinders": 6,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "BMW'nin sıralı altı silindirli dizel ailesi; E39 525d/530d'den E90 330d'ye kadar geniş kullanım."
+    "base_score": 72,
+    "maintenance": "Swirl flap aktüatörlerinin erken sökülüp kapatılması (veya flapsız manifoldla değişimi) önerilir; EGR soğutucusu kurum birikimine karşı izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Swirl flap aktüatör arızası ve kanadın kopup silindire girmesi",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "motor ölür",
+        "sources": [
+          "drivingline_m57_unkillable",
+          "autoclassmagazine_m57_swirlflap"
+        ]
+      },
+      {
+        "issue": "EGR soğutucusunun kurumla tıkanması, DPF ile birlikte kısa mesafede acil durum moduna yol açması",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "autoclassmagazine_m57_swirlflap"
+        ]
+      }
+    ],
+    "sources": [
+      "drivingline_m57_unkillable",
+      "autoclassmagazine_m57_swirlflap"
+    ],
+    "note": "BMW'nin sıralı altı silindirli dizel ailesi; E39 525d/530d'den E90 330d'ye kadar geniş kullanım. 'Öldürülemez dizel' olarak anılacak kadar güçlü bir dayanıklılık ünü var, düzenli bakımla 300.000 mili aşabiliyor. Buna karşılık erken üretim motorlarındaki swirl flap aktüatörü arızalanıp koparsa silindire girip ağır iç hasara yol açabiliyor; bu risk önlenebilir (flapların sökülmesi) ama ihmal edilirse motoru bitirebilir. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): genel itibar çok güçlü, swirl flap riski gerçek ama önlenebilir ve nadir; iki kaynak da C seviyesinde olduğu için 85 üstüne çıkarılmadı.]"
   },
   "bmw-n43": {
     "id": "bmw-n43",
@@ -164,11 +231,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Doğrudan enjeksiyonlu dört silindirli benzinli. Enjektör ve NOx sensörü kalemleriyle anılıyor."
+    "base_score": 44,
+    "maintenance": "Triger zinciri kılavuzlarının durumu izlenmeli; kılavuz parçalanması yağ emiş süzgecini tıkayabiliyor.",
+    "known_issues": [
+      {
+        "issue": "Plastik triger zinciri kılavuzlarının parçalanıp yağ emiş süzgecini tıkaması; bu ailenin en sık motor bitiren arızası",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "motor ölür",
+        "sources": [
+          "unixnerd_n43_n45_n46"
+        ]
+      }
+    ],
+    "sources": [
+      "unixnerd_n43_n45_n46"
+    ],
+    "note": "Doğrudan enjeksiyonlu dört silindirli benzinli. N45/N46'ya göre belirgin biçimde daha az güvenilir kabul ediliyor; asıl risk zincirin kendisi değil, parçalanan plastik kılavuzların yağ emiş süzgecini tıkaması. [base_score gerekçesi: 35-49 (bilinen risk): kaynak bunu ailenin 'en büyük katili' olarak tanımlıyor; B seviyesinde bağımsız teknik analiz olduğu için bandın ortasında tutuldu, tek kaynak olduğu için 0-34'e düşürülmedi.]"
   },
   "bmw-n47": {
     "id": "bmw-n47",
@@ -183,11 +262,28 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "M47'nin halefi 2.0 dizel. Triger zincirinin motorun arka tarafında (volan tarafı) konumlanması nedeniyle zincir uzaması bu ailenin bilinen kalemidir; onarım motorun sökülmesini gerektirdiği için pahalıdır."
+    "base_score": 38,
+    "maintenance": "Triger zinciri sesi erken fark edilmeli; zincir motorun arka (şanzıman) tarafında olduğu için değişim motorun sökülmesini gerektiriyor.",
+    "known_issues": [
+      {
+        "issue": "Triger zincirinin zamanla uzayıp kopması; zincir motorun arka tarafında olduğu için onarım motor sökümü gerektiriyor",
+        "onset_km": 80000,
+        "frequency": "yaygın",
+        "severity": "motor ölür",
+        "sources": [
+          "absolutebm_n47_chain",
+          "pistonheads_n47_chain",
+          "alpincars_m47_vs_n47"
+        ]
+      }
+    ],
+    "sources": [
+      "absolutebm_n47_chain",
+      "pistonheads_n47_chain",
+      "alpincars_m47_vs_n47"
+    ],
+    "note": "M47'nin halefi 2.0 dizel. Triger zincirinin motorun arka tarafında (volan tarafı) konumlanması nedeniyle zincir uzaması bu ailenin en bilinen ve en pahalı kalemidir; onarım motorun sökülmesini gerektirir. [base_score gerekçesi: 35-49 (bilinen risk) bandının alt sınırında: üç bağımsız kaynak (iki forum/blog + bir karşılaştırma sitesi) aynı arıza örüntüsünde birleşiyor, bu M-2'deki 'çoklu bağımsız kullanıcı örüntüsü' tanımına yaklaşıyor; yine de hiçbiri A/B seviyesinde kurumsal veri olmadığı için 0-34 bandına düşürülmedi.]",
+    "revision_sensitivity": "2009 ortasında zincir tasarımında yapılan değişiklik arıza olasılığını azalttı ama tamamen ortadan kaldırmadı; sorunlar 2011'e kadar yoğun bildirilmeye devam etti. Listedeki BMW E90 320d (2005-2011 üretim) bu revizyonun öncesini ve sonrasını birlikte kapsıyor."
   },
   "bmw-n4x": {
     "id": "bmw-n4x",
@@ -205,11 +301,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "E87 ve E90'daki Valvetronic dört silindirli benzinli aile. N42, N45 ve N46 aynı temel tasarımın sürümleri olduğu için tek kayıtta toplandı."
+    "base_score": 58,
+    "maintenance": "Triger zinciri gevşemesi ve VANOS erken belirtileri izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Triger zinciri gevşemesi ve buna bağlı yağ açlığı riski",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "unixnerd_n43_n45_n46"
+        ]
+      },
+      {
+        "issue": "VANOS ve Valvetronic (değişken supap kontrolü) sistemlerinde aşınma",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "unixnerd_n43_n45_n46"
+        ]
+      }
+    ],
+    "sources": [
+      "unixnerd_n43_n45_n46"
+    ],
+    "note": "E87 ve E90'daki Valvetronic dört silindirli benzinli aile. N42, N45 ve N46 aynı temel tasarımın sürümleri olduğu için tek kayıtta toplandı; N43'ten (ayrı kayıt) belirgin biçimde daha güvenilir kabul ediliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): zincir gevşemesi ve VANOS/Valvetronic aşınması gerçek ve tekrarlayan ama motoru genelde bitirmiyor; kaynak B seviyesinde (bağımsız teknik analiz) olduğu için bandın üst sınırında tutuldu.]"
   },
   "bmw-n52": {
     "id": "bmw-n52",
@@ -225,11 +342,32 @@
     ],
     "cylinders": 6,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Magnezyum-alüminyum bloklu sıralı altı silindirli; BMW'nin son atmosferik altılarından."
+    "base_score": 66,
+    "maintenance": "Elektrikli su pompası 60-100 bin mil aralığında kontrol edilmeli; plastik gövde zamanla çatlayıp korozyona uğrayabiliyor.",
+    "known_issues": [
+      {
+        "issue": "Elektrikli su pompası arızası (plastik gövde çatlaması/korozyonu)",
+        "onset_km": 100000,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "globalvillage_n52_waterpump"
+        ]
+      },
+      {
+        "issue": "Supap kapağı contasından yağ sızıntısı",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "bakım kalemi",
+        "sources": [
+          "globalvillage_n52_waterpump"
+        ]
+      }
+    ],
+    "sources": [
+      "globalvillage_n52_waterpump"
+    ],
+    "note": "Magnezyum-alüminyum bloklu sıralı altı silindirli; BMW'nin son atmosferik altılarından, turbolu haleflerine (N54/N55) göre belirgin biçimde daha güvenilir kabul ediliyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): su pompası arızası gerçek ve nispeten erken (60-100 bin mil) ama motoru bitirmiyor, planlanabilir; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "fca-etorq-16": {
     "id": "fca-etorq-16",
@@ -788,11 +926,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Kompresör",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "W202, W203 ve W209'daki kompresörlü dört silindirli benzinli. Kayıt hem atmosferik hem kompresörlü sürümleri kapsıyor."
+    "base_score": 66,
+    "maintenance": "5W-40 sentetik yağla 10-12 bin km'de bir yağ değişimi öneriliyor; kompresörlü sürümlerde bu aralık kısaltılmalı.",
+    "known_issues": [
+      {
+        "issue": "Silindir kapağı contasının 75-150 bin km'de gözeneklenip sızdırmaya başlaması",
+        "onset_km": 75000,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "enginefinder_za_m111"
+        ]
+      },
+      {
+        "issue": "Kompresörlü sürümde manyetik kavrama ve K40 rölesi arızası (dolgu basıncı kaybı)",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "enginefinder_za_m111"
+        ]
+      }
+    ],
+    "sources": [
+      "enginefinder_za_m111"
+    ],
+    "note": "W202, W203 ve W209'daki kompresörlü dört silindirli benzinli. Kayıt hem atmosferik hem kompresörlü sürümleri kapsıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak 'düzenli bakımla 300.000 km'yi rahatlıkla aşabilir' diyor, kapak contası sorunu gerçek ama planlanabilir; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "mb-m270": {
     "id": "mb-m270",
@@ -807,11 +966,41 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "A ve B Serisi'ndeki 1.6 turbo benzinli."
+    "base_score": 56,
+    "maintenance": "Triger zinciri (~80 bin mil ömür), kam mili ayarlayıcıları, karbon birikimi ve turbo wastegate aktüatörü periyodik takip edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Triger zincirinin yaklaşık 80.000 mil gibi kısa bir ömre sahip olması, gergi gece basınç kaybıyla soğuk kalkışta tıkırtı sesi",
+        "onset_km": 100000,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "mercedesassistance_m270"
+        ]
+      },
+      {
+        "issue": "Direkt enjeksiyon nedeniyle emme supaplarında karbon birikimi",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "mercedesassistance_m270"
+        ]
+      },
+      {
+        "issue": "Turbo wastegate aktüatörünün karbonla sıkışması, özellikle kısa mesafe kullanımda",
+        "onset_km": 120000,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "mercedesassistance_m270"
+        ]
+      }
+    ],
+    "sources": [
+      "mercedesassistance_m270"
+    ],
+    "note": "A ve B Serisi'ndeki 1.6 turbo benzinli. Genel olarak güvenilir kabul ediliyor ve 200.000 km'ye ulaşan örnekler yaygın, ama triger zinciri, kam mili ayarlayıcısı, karbon birikimi ve wastegate gibi birden fazla öngörülebilir zayıf nokta taşıyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): dört ayrı bilinen sorun kalemi var ama hepsi planlanabilir bakımla yönetiliyor; tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
   },
   "mb-m271": {
     "id": "mb-m271",
@@ -828,11 +1017,24 @@
     ],
     "cylinders": 4,
     "aspiration": "Kompresör",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "M111'in halefi. Erken sürümlerinde triger zinciri ve dengeleme mili dişlisi aşınması biliniyor; M271 EVO'da turbo besleme kullanılıyor."
+    "base_score": 64,
+    "maintenance": "Yağ değişimi 5.000-7.500 mil / 8-12 ayda bir yapılmalı (fabrika servis göstergesine güvenilmemeli); triger zinciri 60-100 bin milde kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "İhmal edilen yağ değişimi nedeniyle triger zinciri ve kılavuz aşınması",
+        "onset_km": 80000,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "mercedesassistance_m270"
+        ]
+      }
+    ],
+    "sources": [
+      "mercedesassistance_m270"
+    ],
+    "note": "M111'in halefi. Erken sürümlerinde triger zinciri ve dengeleme mili dişlisi aşınması biliniyor; M271 EVO'da turbo besleme kullanılıyor. Düzenli bakımla 200.000 km'nin üstüne çıkabiliyor ama ihmal edilen yağ değişimi zincir aşınmasını hızlandırıyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının üst sınırında: zincir aşınması gerçek ve bakıma sıkı bağlı; tek kaynağa (C) dayanıyor.]",
+    "revision_sensitivity": "2009'da kompresör (Eaton M65) yerine turbo (IHI Al 0065/0066) doldurmaya geçildi. Listedeki mercedes-c200-komp (2000-2007) ve mercedes-c230-m271k (2004-2007, adında 'K' kompresörü belirtiyor) bu geçişten önceki döneme ait; mercedes-c180-w204 (2009-2014) geçiş sonrası üretime denk geliyor."
   },
   "mb-om611": {
     "id": "mb-om611",
@@ -847,11 +1049,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "W203 C200 CDI'ın erken 2.2 dizeli; Mercedes'in ilk common rail dört silindirli ailesi."
+    "base_score": 60,
+    "maintenance": "Enjektör altındaki ateşe dayanıklı contalar zamanında değiştirilmeli, aksi halde enjektörler tıkanıyor.",
+    "known_issues": [
+      {
+        "issue": "Enjektör altı ateşe dayanıklı conta değişimi ihmal edilirse enjektörlerin tıkanması",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "apexautoparts_om646"
+        ]
+      }
+    ],
+    "sources": [
+      "apexautoparts_om646"
+    ],
+    "note": "W203 C200 CDI'ın erken 2.2 dizeli; Mercedes'in ilk common rail dört silindirli ailesi. Halefi OM646'nın devraldığı enjektör conta sorununun kaynağı bu aile. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): tek kaynağa (C) dayanıyor, motora özgü ayrıntılı veri sınırlı; halefiyle aynı bantta tutuldu.]"
   },
   "mb-om612": {
     "id": "mb-om612",
@@ -866,11 +1080,23 @@
     ],
     "cylinders": 5,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "2.7 litrelik beş silindirli dizel. W203, W209 ve W210'da kullanılıyor; dayanıklılığıyla anılan bir aile."
+    "base_score": 74,
+    "maintenance": "Enjektör altı contalar ve kam mili aşınması periyodik kontrol edilmeli; triger zinciri 200-250 bin km ömür veriyor.",
+    "known_issues": [
+      {
+        "issue": "Kam mili aşınması, enjektör/turbo basınç sensörü kablo tesisatının yanması",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "enginecrux_om612"
+        ]
+      }
+    ],
+    "sources": [
+      "enginecrux_om612"
+    ],
+    "note": "2.7 litrelik beş silindirli dizel. W203, W209 ve W210'da kullanılıyor; dayanıklılığıyla anılan bir aile. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak 'sağlam ve güvenilir... dayanıklılık ve verimlilikle anılıyor' diyor, triger zinciri ömrü uzun (200-250 bin km); tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "mb-om613": {
     "id": "mb-om613",
@@ -885,11 +1111,13 @@
     ],
     "cylinders": 6,
     "aspiration": "Turbo",
-    "base_score": null,
+    "base_score": 68,
     "maintenance": null,
     "known_issues": [],
-    "sources": [],
-    "note": "3.2 litrelik sıralı altı silindirli dizel; W210 E320 CDI'ın motoru, 470 Nm tork üretiyor."
+    "sources": [
+      "enginecrux_om612"
+    ],
+    "note": "3.2 litrelik sıralı altı silindirli dizel; W210 E320 CDI'ın motoru, 470 Nm tork üretiyor. Aynı OM61x ailesinin büyük hacimli üyesi olarak OM612 ile benzer bir bakım profili taşıdığı varsayılıyor; motora özgü ayrı bir araştırma yapılmadı. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): OM612'nin genel aile itibarına dayanarak temkinli tarafta, tek araçlık kullanım ve motora özgü kaynak eksikliği nedeniyle OM612'nin altında tutuldu.]"
   },
   "mb-om646": {
     "id": "mb-om646",
@@ -904,11 +1132,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "OM611'in halefi 2.2 dizel; W203 geç dönem ve W211'de yaygın."
+    "base_score": 60,
+    "maintenance": "Enjektör altı contalar zamanında değiştirilmeli; plastik swirl flap'ların durumu izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "OM611'den devralınan enjektör altı conta sorunu, zamanında değiştirilmezse enjektör tıkanması",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "apexautoparts_om646"
+        ]
+      },
+      {
+        "issue": "Plastik swirl flap'ların kırılıp silindire düşmesi, ciddi motor hasarına yol açabiliyor",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "motor ölür",
+        "sources": [
+          "apexautoparts_om646"
+        ]
+      }
+    ],
+    "sources": [
+      "apexautoparts_om646"
+    ],
+    "note": "OM611'in halefi 2.2 dizel; W203 geç dönem ve W211'de yaygın. Triger zinciri motorun önünde. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): enjektör conta sorunu devralınmış ve bilinen, swirl flap riski seyrek ama ciddi; tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
   },
   "mb-om651": {
     "id": "mb-om651",
@@ -923,11 +1172,33 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "W204 ve W212'deki 2.1 dizel. Erken üretim yıllarında enjektör ve zincir kalemleriyle anılıyor."
+    "base_score": 46,
+    "maintenance": "2012 sonu/2013 başına kadar üretilen motorlarda piezo enjektör riski var; triger zinciri gergisi periyodik kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Triger zincirinin hızla uzayıp karakteristik tıkırtı sesi çıkarması; gergi arızası felaket boyutunda motor hasarına yol açabiliyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "motor ölür",
+        "sources": [
+          "enginefinders_om651"
+        ]
+      },
+      {
+        "issue": "2012 sonu/2013 başına kadar kullanılan piezo enjektörlerin arızalı olması; Bosch solenoide geçilince güvenilirlik arttı",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginefinders_om651"
+        ]
+      }
+    ],
+    "sources": [
+      "enginefinders_om651"
+    ],
+    "note": "W204 ve W212'deki 2.1 dizel. Erken üretim yıllarında enjektör ve zincir kalemleriyle anılıyor. [base_score gerekçesi: 35-49 (bilinen risk): kaynak erken modeller için 'ciddi risk' diyor, triger zinciri gergi arızası felaket boyutunda olabiliyor; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]",
+    "revision_sensitivity": "2008-2013 arası üretilen erken modeller ciddi risk taşıyor; 2014 sonrası güncellenmiş enjektör ve zamanlama bileşenleriyle üretilen motorlar belirgin biçimde daha güvenilir. Listedeki mercedes-c200-cdi-w204 (2007-2011) ve mercedes-c250-cdi-w204 (2009-2014) neredeyse tamamen riskli dönemde üretildi; mercedes-e250-cdi-w212 (2009-2016) üretiminin bir kısmıyla güvenli döneme giriyor."
   },
   "mitsubishi-4a92": {
     "id": "mitsubishi-4a92",

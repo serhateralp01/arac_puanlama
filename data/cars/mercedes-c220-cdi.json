@@ -21,7 +21,7 @@
   ],
   "verification": "partial",
   "scores": {
-    "motor": 80,
+    "motor": 60,
     "trans": 80,
     "fun": 52,
     "comf": 71,
@@ -32,7 +32,7 @@
   "sources": [
     "om61x"
   ],
-  "note": "OM611 ve OM646 dizel motorları neredeyse kırılmaz kabul edilir, 5G-Tronic otomatiği de eski kuşak otomatiklerin en iyilerinden. Çok ekonomik, yedek parçası ucuz ve bol. Sürüş keyfi düşük; dert istemeyenler için akıllı bir dizel.",
+  "note": "5G-Tronic otomatiği sağlam, torku yüksek. Motor tarafında OM611/OM646 ailesinin bilinen zaafı geçerli: enjektör altı ateşe dayanıklı contalar zamanında değiştirilmezse enjektörler tıkanabiliyor; OM646 sürümünde ayrıca plastik swirl flap'ların kırılıp silindire düşme riski var.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

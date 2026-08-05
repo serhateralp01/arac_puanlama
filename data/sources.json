@@ -1488,5 +1488,159 @@
     "accessed": "2026-08-05",
     "language": "en",
     "quotes": []
+  },
+  "engineexplained_m54": {
+    "id": "engineexplained_m54",
+    "claim": "BMW M54'ün BMW'nin en güvenilir üretim motorlarından biri sayıldığı, düzenli bakımla 200.000 mili rahatlıkla aştığı; bilinen sorunların soğutma sistemi (genleşme tankı çatlaması, su pompası çarkı), VANOS keçe aşınması ve CCV valfi çatlaması gibi yaşlanan yardımcı parçalardan kaynaklandığı, temel motor mimarisinin sağlam olduğu",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/bmw-m54-engine-problems-a-comprehensive-review/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "drivingline_m57_unkillable": {
+    "id": "drivingline_m57_unkillable",
+    "claim": "BMW M57'nin 'öldürülemez dizel' olarak anıldığı, düzenli bakımla 300.000 mili aşabildiği; buna karşılık erken üretim motorlarındaki elektronik kontrollü emme manifoldu 'swirl flap' aktüatörünün arızalanıp kanadın koptuğu ve silindire girerek ağır iç hasara yol açabildiği, bu riskin kanatların sökülüp kapatılmasıyla (ECU yeniden programlama gerektirir) önlenebildiği",
+    "publisher": "DrivingLine",
+    "url": "https://www.drivingline.com/articles/unkillable-diesels-bmw-s-m57-i-6/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "autoclassmagazine_m57_swirlflap": {
+    "id": "autoclassmagazine_m57_swirlflap",
+    "claim": "M57 ve M57TU motorlarında swirl flap sorununun bilinen bir risk olduğu, EGR soğutucusunun kurumla tıkanabildiği ve DPF ile birleştiğinde kısa mesafe kullanımda eksik rejenerasyon nedeniyle acil durum moduna yol açabildiği",
+    "publisher": "AutoClass Magazine",
+    "url": "https://www.autoclassmagazine.com/web/bmw-m57-diesel-reliability-what-owners-should-know-before-deleting-swirl-flaps/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_m43": {
+    "id": "engineexplained_m43",
+    "claim": "BMW M43'ün düzenli bakımla 200.000 km'yi minimal büyük onarımla aşabilen dayanıklı bir motor sayıldığı; bilinen zayıf noktaların supap kapağı contası sızıntısı, değişken emme manifoldunu kontrol eden DISA valfi arızası ve yüksek kilometrede görülebilen kafa çatlağı olduğu",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/bmw-m43-engine-problems-a-comprehensive-review/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "alpincars_m47_vs_n47": {
+    "id": "alpincars_m47_vs_n47",
+    "claim": "BMW M47'nin daha eski nesil, daha sade ve ön taraflı triger zincirine sahip olduğu için N47'ye göre belirgin biçimde daha güvenilir kabul edildiği; N47'nin ise şanzıman tarafına (arkaya) yerleştirilmiş triger zincirinin zamanla uzayıp koptuğu, değişiminin motorun sökülmesini gerektirdiği için çok pahalı olduğu",
+    "publisher": "AlpinCars",
+    "url": "https://alpincars.com/en/blog/post/bmw-m47-or-n47.html",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "absolutebm_n47_chain": {
+    "id": "absolutebm_n47_chain",
+    "claim": "BMW N47'de triger zinciri arızalarının 2011'e kadar yoğun biçimde bildirildiği, 2009 ortasında zincir tasarımında yapılan değişikliğin arıza olasılığını azalttığı ama tamamen ortadan kaldırmadığı; arızanın genelde 80.000-150.000 km aralığında ortaya çıktığı",
+    "publisher": "Absolute BM",
+    "url": "https://absolutebm.co.uk/bmw-n47-timing-chain/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "pistonheads_n47_chain": {
+    "id": "pistonheads_n47_chain",
+    "claim": "N47 triger zinciri arızasının BMW forumlarında yaygın ve tekrarlayan bir şikayet örüntüsü olarak bağımsız biçimde bildirildiği",
+    "publisher": "PistonHeads Forum",
+    "url": "https://www.pistonheads.com/gassing/topic.asp?h=0&f=72&t=1620367",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "unixnerd_n43_n45_n46": {
+    "id": "unixnerd_n43_n45_n46",
+    "claim": "N43'ün triger zincirinin kendisinden çok plastik zincir kılavuzlarının parçalanmasıyla bilindiği, kılavuz parçalarının yağ emiş süzgecini tıkayarak motoru bitirebildiği; N45 ve N46'nın N43'e göre 'belirgin biçimde daha güvenilir' kabul edildiği, ama bunların da zincir gevşemesi ve VANOS sorunları taşıdığı",
+    "publisher": "The UnixNerd's Domain",
+    "url": "https://www.unixnerd.co.uk/n46.html",
+    "type": "independent-analyst",
+    "tier": "B",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "globalvillage_n52_waterpump": {
+    "id": "globalvillage_n52_waterpump",
+    "claim": "BMW N52'nin elektrikli su pompasının 60.000-100.000 mil aralığında sıkça arızalandığı, plastik gövdenin zamanla çatlayıp korozyona uğradığı; buna karşılık N52'nin turbolu haleflerine (N54/N55) göre belirgin biçimde daha güvenilir kabul edildiği ve düzenli bakımla 200.000 mili aşabildiği",
+    "publisher": "Global Village Space",
+    "url": "https://www.globalvillagespace.com/tech/bmw-n52-engine-years-to-avoid-and-common-issues-explained/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "apexautoparts_om646": {
+    "id": "apexautoparts_om646",
+    "claim": "Mercedes OM646'nın önceki OM611'den devraldığı, enjektör altındaki ateşe dayanıklı contaların zamanında değiştirilmezse enjektörlerin tıkanmasına ve pahalı onarımlara yol açtığı; plastik emme manifoldu kanatlarının (swirl flap) zamanla kırılıp silindire düşerse ciddi motor hasarına neden olabildiği",
+    "publisher": "Apex Auto Parts",
+    "url": "https://www.apexautoparts.co.uk/blog/om646-engine-review-reliability-common-problems",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecrux_om612": {
+    "id": "enginecrux_om612",
+    "claim": "Mercedes OM612 beş silindirli dizelinin sağlam ve güvenilir kabul edildiği, dayanıklılık ve verimlilikle anıldığı; bilinen sorunların kam mili aşınması, enjektör ve turbo basınç sensörü kablo tesisatının yanması ve ateşe dayanıklı conta değiştirilmezse enjektörlerin kokleşmesi olduğu, triger zincirinin 200-250 bin km ömür verdiği",
+    "publisher": "EngineCrux",
+    "url": "https://enginecrux.com/mercedes-om612-engine-specs-reliability-and-issues/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginefinders_om651": {
+    "id": "enginefinders_om651",
+    "claim": "Mercedes OM651'de 2008-2013 arası üretilen erken modellerin ciddi risk taşıdığı, 2014 sonrası güncellenmiş enjektör ve zamanlama bileşenleriyle üretilen motorların belirgin biçimde daha güvenilir olduğu; triger zincirinin hızla uzayıp karakteristik bir tıkırtı sesi çıkardığı, gergi arızasının felaket boyutunda motor hasarına yol açabildiği, 2012 sonu/2013 başına kadar kullanılan piezo enjektörlerin sorunlu olduğu ve Bosch solenoid enjektöre geçilince güvenilirliğin arttığı",
+    "publisher": "Engine Finders",
+    "url": "https://enginefinders.co.uk/blog/mercedes-om651-engine-problems-fault-guide/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginefinder_za_m111": {
+    "id": "enginefinder_za_m111",
+    "claim": "Mercedes M111'in düzenli bakımla 300.000 km'yi rahatlıkla aşabilen güvenilir bir motor olduğu; bilinen zaafının 75-150 bin km aralığında gözeneklenip sızdırmaya başlayan silindir kapağı contası olduğu, kompresörlü sürümlerde manyetik kavrama ve K40 rölesinin de zayıf nokta olduğu",
+    "publisher": "EngineFinder ZA",
+    "url": "https://www.enginefinder.co.za/blog/problems/mercedes-m111-engine-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "mercedesassistance_m270": {
+    "id": "mercedesassistance_m270",
+    "claim": "Mercedes M270'in genel olarak güvenilir kabul edildiği, 200.000 km'yi bulan örneklerin yaygın olduğu; buna karşılık triger zincirinin yaklaşık 80.000 mil gibi kısa bir ömre sahip olduğu, kam mili ayarlayıcılarının 60-70 bin milde aşınma sesi verdiği, direkt enjeksiyon nedeniyle emme supaplarında karbon biriktiği ve turbo wastegate aktüatörünün 100-140 bin km'de karbonla sıkışabildiği",
+    "publisher": "Mercedes Assistance",
+    "url": "https://en.mercedesassistance.com/m270-mercedes/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
   }
 }

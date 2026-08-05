@@ -21,7 +21,7 @@
   ],
   "verification": "partial",
   "scores": {
-    "motor": 74,
+    "motor": 46,
     "trans": 44,
     "fun": 68,
     "comf": 77,
@@ -34,7 +34,7 @@
     "carcomplaints_722_9_lawsuit",
     "mercedesmedic_722_9"
   ],
-  "note": "W204'ün en güçlü dört silindirli dizeli, torku yüksek. Ancak otomatiği olan 7G-Tronic kutusuna (722.9) karşı ABD'de valf gövdesi ve kontrol kartı tasarım kusuru iddiasıyla toplu dava açıldı; arıza aracı 2. viteste sıkışmış halde bırakabiliyor, kök neden genelde bozulan kontrol kartının giriş mili dönüş hızını doğru izleyememesi. Bu, önceki notta 'sağlam' diye özetlenen değerlendirmeyi düzeltiyor.",
+  "note": "W204'ün en güçlü dört silindirli dizeli; 7G-Tronic otomatiği sağlam, torku yüksek. Motor tarafında OM651 ailesinin triger zinciri hızla uzayıp karakteristik bir tıkırtı sesi çıkarabiliyor, gergi arızası felaket boyutunda motor hasarına yol açabiliyor. Bu araç (2009-2014 üretim) büyük ölçüde riskin yüksek olduğu erken üretim dönemine denk geliyor.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
