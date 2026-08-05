@@ -11,7 +11,8 @@
     "fuel": "Benzin",
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
-    "transmission_id": "zf-6hp"
+    "transmission_id": "zf-6hp",
+    "body_type": "Sedan"
   },
   "price_band_k_try": [
     650,

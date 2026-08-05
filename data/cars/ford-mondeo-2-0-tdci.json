@@ -11,7 +11,8 @@
     "fuel": "Dizel",
     "drivetrain": "Önden",
     "transmission_type": "Islak DCT",
-    "transmission_id": "getrag-6dct450"
+    "transmission_id": "getrag-6dct450",
+    "body_type": "Sedan"
   },
   "price_band_k_try": [
     600,

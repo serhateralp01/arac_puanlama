@@ -11,7 +11,8 @@
     "fuel": "Dizel",
     "drivetrain": "Önden",
     "transmission_type": "Kuru DCT",
-    "transmission_id": "vag-dq200"
+    "transmission_id": "vag-dq200",
+    "body_type": "Sedan"
   },
   "price_band_k_try": [
     800,

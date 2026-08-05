@@ -11,7 +11,8 @@
     "fuel": "Dizel",
     "drivetrain": "Önden",
     "transmission_type": "Robot",
-    "transmission_id": "psa-etg"
+    "transmission_id": "psa-etg",
+    "body_type": null
   },
   "price_band_k_try": [
     700,

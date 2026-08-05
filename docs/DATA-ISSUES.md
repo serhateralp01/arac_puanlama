@@ -181,3 +181,25 @@ tarif ediliyor.
 Kanıt yokluğu teyit edildikten sonra puan kutunun temel puanına (52) çekildi. Bu,
 tahmin değil, araştırmanın gerçekten yapılıp Volvo'ya özgü bir fark bulunamadığının
 kaydı.
+
+---
+
+## D-10 · Gövde tipi doldurulurken dört karma model kaydı bilinçli boş bırakıldı (KAPATILDI)
+
+154 aracın 150'sine `specs.body_type` atandı. Kalan dört kayıt, tek bir dosyada iki
+farklı model birleştirdiği ve bu iki modelin gövde tipi birbirinden farklı olduğu için
+`null` bırakıldı; tek bir değer zorlamak, filtrenin araçlardan birini yanlış
+sınıflandırması anlamına gelirdi:
+
+- **`kia-rio-hyundai-i20-1-4`** — Kia Rio Türkiye'de esas olarak sedan, Hyundai i20 ise
+  yalnızca hatchback olarak satıldı.
+- **`mercedes-a-b-serisi`** — A Serisi hatchback, B Serisi ise MPV (kompakt minivan)
+  gövdeli.
+- **`peugeot-2008-208-1-6-e-hdi`** — 2008 bir SUV/crossover, 208 ise hatchback.
+- **`volvo-s40-v50-2-0`** — kaydın kendi notu da bunu "küçük sedan ve station wagon
+  ikilisi" diye tanımlıyor; S40 sedan, V50 station wagon.
+
+Diğer karma kayıtlarda (`nissan-almera-primera-1-6-2-0`, `saab-9-3-9-5-2-0t`,
+`megane-clio-1-3-tce`, `opel-corsa-astra-1-4-turbo`) birleşen modellerin gövde tipi
+aynı olduğu ya da kaydın kendi notu tek bir gövdeyi ("Japon sedan", "İsveç sedanı" gibi)
+açıkça işaret ettiği için tek bir değer atanabildi.

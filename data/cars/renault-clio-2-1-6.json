@@ -11,7 +11,8 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null
+    "transmission_id": null,
+    "body_type": "Hatchback"
   },
   "price_band_k_try": [
     380,
