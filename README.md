@@ -140,8 +140,9 @@ yazılı metodolojiye göre yeniden değerlendirilir. Bunun neden böyle çalı�
 
 - [CLAUDE.md](CLAUDE.md) — depoda çalışma kuralları: yazı dili, katmanlı inşa, modülerlik
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — geri alınması pahalı kararlar ve gerekçeleri
+- **[docs/ROADMAP.md](docs/ROADMAP.md) — sıradaki işler. Yeni bir oturuma başlarken önce buraya bakın.**
 - [docs/methodology.md](docs/methodology.md) — kriterler, puan hesabı, şanzıman sınıflandırması
-- [docs/PLAN.md](docs/PLAN.md) — yol haritası ve kriter bazlı teknikler
+- [docs/PLAN.md](docs/PLAN.md) — Faz 2 planı ve kriter bazlı teknikler; büyük ölçüde tamamlandı
 - [docs/DATA-ISSUES.md](docs/DATA-ISSUES.md) — bilinen veri sorunları ve verilen kararlar
 
 ## Sorumluluk reddi

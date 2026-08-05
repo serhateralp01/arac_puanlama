@@ -114,8 +114,14 @@ Büyük bir iş verildiğinde, iş önce anlamlı ve kendi başına değerli par
 Her parça bitirilir, doğrulanır ve kaydedilir; sonra bir sonrakine geçilir.
 
 Bir oturumda her şeyi bitirmek, yarısı çalışan bir depo bırakmaktan daha az değerlidir.
-Hangi adımda olunduğu ve sıradaki adımın ne olduğu her zaman `docs/PLAN.md` içinden
-okunabilir olmalıdır.
+Hangi adımda olunduğu ve sıradaki adımın ne olduğu her zaman belgelerden okunabilir
+olmalıdır: **sıradaki işler `docs/ROADMAP.md` içinde**, bugüne kadar yapılanların
+gerekçesi `docs/PLAN.md` ve `docs/ARCHITECTURE.md` içinde durur.
+
+**Yeni bir oturuma başlarken ilk iş `docs/ROADMAP.md` okumaktır.** Bir sohbetin bağlam
+penceresi dolduğunda iş yarıda kalıyor; o belge, işi hiç konuşmamış birinin doğru
+şekilde devam edebilmesi için var. Bir maddeye başlarken durumu güncellenir, bitince ne
+yapıldığı iki cümleyle yazılır. Belge güncellenmezse ilk işlevini kaybeder.
 
 ---
 
