@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "TK",
     "transmission_id": "aisin-geartronic",
-    "body_type": "Hatchback"
+    "body_type": "Hatchback",
+    "engine_id": "volvo-vea-benzin"
   },
   "price_band_k_try": [
     780,

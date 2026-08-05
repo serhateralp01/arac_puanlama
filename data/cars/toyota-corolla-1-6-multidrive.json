@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "CVT",
     "transmission_id": "toyota-multidrive",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "toyota-zr"
   },
   "price_band_k_try": [
     880,

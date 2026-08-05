@@ -12,7 +12,8 @@
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
     "transmission_id": "zf-6hp",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "bmw-n47"
   },
   "price_band_k_try": [
     780,

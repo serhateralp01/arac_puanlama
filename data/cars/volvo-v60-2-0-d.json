@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "TK",
     "transmission_id": "aisin-geartronic",
-    "body_type": "Station Wagon"
+    "body_type": "Station Wagon",
+    "engine_id": "volvo-d-20"
   },
   "price_band_k_try": [
     850,

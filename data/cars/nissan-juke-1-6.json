@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "CVT",
     "transmission_id": "nissan-xtronic",
-    "body_type": "SUV"
+    "body_type": "SUV",
+    "engine_id": "nissan-hr16de"
   },
   "price_band_k_try": [
     750,

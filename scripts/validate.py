@@ -69,23 +69,30 @@ class Report:
         self.warnings.append({"where": where, "rule": rule, "message": msg})
 
 
-def load() -> tuple[dict, list[tuple[pathlib.Path, dict]], dict, dict]:
+def load() -> tuple[dict, list[tuple[pathlib.Path, dict]], dict, dict, dict]:
     criteria = json.loads((DATA / "criteria.json").read_text(encoding="utf-8"))
     sources = json.loads((DATA / "sources.json").read_text(encoding="utf-8"))
-    transmissions = {
-        k: v
-        for k, v in json.loads((DATA / "transmissions.json").read_text(encoding="utf-8")).items()
-        if not k.startswith("_")
-    }
+
+    def dimension(name: str) -> dict:
+        """Boyut kaydı dosyalarını okur; `_` ile başlayan açıklama anahtarlarını atar."""
+        return {
+            k: v
+            for k, v in json.loads((DATA / name).read_text(encoding="utf-8")).items()
+            if not k.startswith("_")
+        }
+
+    transmissions = dimension("transmissions.json")
+    engines = dimension("engines.json")
     cars = [
         (p, json.loads(p.read_text(encoding="utf-8")))
         for p in sorted((DATA / "cars").glob("*.json"))
     ]
-    return criteria, cars, sources, transmissions
+    return criteria, cars, sources, transmissions, engines
 
 
 def check_car_shape(
-    rep: Report, path: pathlib.Path, car: dict, scored: list[str], transmissions: dict
+    rep: Report, path: pathlib.Path, car: dict, scored: list[str],
+    transmissions: dict, engines: dict,
 ) -> None:
     where = path.name
     required = [
@@ -135,6 +142,34 @@ def check_car_shape(
             f"araç `{s['transmission_type']}` diyor ama `{box_id}` kaydı "
             f"`{transmissions[box_id]['type']}` diyor",
         )
+
+    # Motor ekseni, şanzıman ekseniyle birebir aynı deseni izliyor: araç aileye
+    # kimlikle bağlanıyor, aile kaydı bir kez değerlendiriliyor. Yakıt ve hacim
+    # çelişkisi, yanlış aileye bağlanmış bir aracı yakalamanın en pratik yolu.
+    eng_id = s.get("engine_id")
+    if eng_id is None:
+        rep.warn(
+            where, "motor-kaydi-yok",
+            "engine_id boş; bu araç motor tutarlılık denetiminin dışında kalıyor",
+        )
+    elif eng_id not in engines:
+        rep.error(
+            where, "kayip-motor-kaydi",
+            f"`{eng_id}` data/engines.json içinde yok",
+        )
+    else:
+        eng = engines[eng_id]
+        if eng["fuel"] != s["fuel"]:
+            rep.error(
+                where, "motor-yakit-celiski",
+                f"araç `{s['fuel']}` diyor ama `{eng_id}` kaydı `{eng['fuel']}` diyor",
+            )
+        if s["displacement_l"] not in eng["displacements_l"]:
+            rep.error(
+                where, "motor-hacim-celiski",
+                f"araç {s['displacement_l']} L diyor ama `{eng_id}` kaydı yalnızca "
+                f"{eng['displacements_l']} hacimlerini tanıyor",
+            )
 
     if not re.fullmatch(r"\d{4}-\d{4}", car["years"]):
         rep.error(where, "yil-formati", f"years = {car['years']!r}, `YYYY-YYYY` bekleniyor")
@@ -242,7 +277,7 @@ def main() -> int:
     ap.add_argument("--json", action="store_true", help="JSON çıktı ver")
     args = ap.parse_args()
 
-    criteria, cars, sources, transmissions = load()
+    criteria, cars, sources, transmissions, engines = load()
     rep = Report()
     scored = criteria["scored_order"]
 
@@ -250,7 +285,7 @@ def main() -> int:
     seen_ids: Counter[str] = Counter()
     seen_names: Counter[str] = Counter()
     for path, car in cars:
-        check_car_shape(rep, path, car, scored, transmissions)
+        check_car_shape(rep, path, car, scored, transmissions, engines)
         if "id" in car:
             seen_ids[car["id"]] += 1
         if "name" in car:
@@ -279,6 +314,10 @@ def main() -> int:
     for box in transmissions.values():
         usage.update(box.get("sources", []))
         for issue in box.get("known_issues", []):
+            usage.update(issue.get("sources", []))
+    for eng in engines.values():
+        usage.update(eng.get("sources", []))
+        for issue in eng.get("known_issues", []):
             usage.update(issue.get("sources", []))
 
     # Yoğunlaşma riski, bir kaynağın toplam kaç yerde geçtiği değil, kaç aracın
@@ -338,6 +377,30 @@ def main() -> int:
                 "kayıtlı bir gerekçeye bağlı değil",
             )
 
+    # Aynı gerekçe motor ekseni için de geçerli: motor puanı, bağlı olduğu ailenin
+    # base_score'undan büyük ölçüde sapıyorsa bu sapmanın evidence.motor.reasoning
+    # içinde yazılı bir gerekçesi olmalıdır. Motor ailelerine base_score atanana
+    # kadar bu denetim sessizdir.
+    for path, car in cars:
+        eng_id = car.get("specs", {}).get("engine_id")
+        if not eng_id or eng_id not in engines:
+            continue
+        base = engines[eng_id].get("base_score")
+        if base is None:
+            continue
+        actual = car.get("scores", {}).get("motor")
+        if actual is None:
+            continue
+        delta = actual - base
+        has_reasoning = bool(car.get("evidence", {}).get("motor", {}).get("reasoning"))
+        if abs(delta) > TRANS_DEVIATION_LIMIT and not has_reasoning:
+            rep.warn(
+                path.name, "motor-duzeltme-gerekcesiz",
+                f"motor = {actual}, ama `{eng_id}` ailesinin base_score'u {base} "
+                f"({delta:+d} fark); evidence.motor.reasoning boş, bu sapma "
+                "kayıtlı bir gerekçeye bağlı değil",
+            )
+
     # --- şanzıman kayıtları ---
     box_usage: Counter[str] = Counter()
     for _, car in cars:
@@ -361,6 +424,38 @@ def main() -> int:
                 )
         if box_usage[bid] == 0:
             rep.warn("transmissions.json", "yetim-kutu", f"`{bid}` hiçbir araca bağlı değil")
+
+    # --- motor kayıtları ---
+    # Şanzıman kutularıyla aynı denetim seti. Tek fark: kaynaksızlık yalnızca
+    # base_score atanmış motorlarda uyarı üretiyor. Henüz araştırılmamış bir
+    # motorun hem puanı hem kaynağı yoktur; bunu iki ayrı uyarıyla bildirmek
+    # aynı boşluğu iki kez saymak olurdu. Asıl kural şudur: puan verilmişse
+    # arkasında kaynak olmak zorundadır.
+    engine_usage: Counter[str] = Counter()
+    for _, car in cars:
+        eid = car.get("specs", {}).get("engine_id")
+        if eid:
+            engine_usage[eid] += 1
+
+    for eid, eng in engines.items():
+        if eng.get("base_score") is None:
+            rep.warn(
+                "engines.json", "motor-temel-puani-yok",
+                f"`{eid}` için base_score atanmamış; puan hâlâ araç bazında veriliyor",
+            )
+        elif not eng.get("sources"):
+            rep.warn(
+                "engines.json", "motor-kaynaksiz",
+                f"`{eid}` base_score taşıyor ama hiç kaynağa dayanmıyor",
+            )
+        for sid in eng.get("sources", []):
+            if sid not in sources:
+                rep.error(
+                    "engines.json", "kayip-kaynak",
+                    f"`{eid}` kaydındaki `{sid}` data/sources.json içinde yok",
+                )
+        if engine_usage[eid] == 0:
+            rep.warn("engines.json", "yetim-motor", f"`{eid}` hiçbir araca bağlı değil")
 
     # --- ağırlık setleri ---
     for name, preset in criteria["presets"].items():

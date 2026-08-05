@@ -12,7 +12,8 @@
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
     "transmission_id": "mb-4g-tronic",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "mb-m111"
   },
   "price_band_k_try": [
     420,

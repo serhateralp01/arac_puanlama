@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/serhateralp01/arac_puanlama/data/schema/engine.schema.json",
+  "title": "Motor ailesi kaydı",
+  "description": "data/engines.json içindeki bir kayıt. Araçlar specs.engine_id ile buraya referans verir. Amaç, aynı motor ailesinin her araçta yeniden ve elle değerlendirilmesini engellemek; gerekçesi docs/ARCHITECTURE.md MK-02 kaydında, şanzıman kutularıyla birebir aynı desen.",
+  "type": "object",
+  "required": ["id", "names", "fuel", "displacements_l", "base_score", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "names": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Bu motor ailesinin bilinen bütün kod adları ve ticari adları. Araçların tag alanını bu aileye eşlerken kullanılıyor."
+    },
+    "supplier": { "type": "string" },
+    "fuel": {
+      "enum": ["Dizel", "Benzin"],
+      "description": "Araç kaydındaki specs.fuel ile eşleşmek zorunda; eşleşmezse validate.py hata verir."
+    },
+    "displacements_l": {
+      "type": "array",
+      "items": { "type": "number", "exclusiveMinimum": 0.5, "exclusiveMaximum": 8 },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Bu ailenin listede geçen silindir hacimleri. Bir aracın hacmi bu listede yoksa validate.py hata verir; bu, yanlış aileye bağlanmış bir aracı yakalamanın en pratik yolu."
+    },
+    "cylinders": { "type": ["integer", "null"], "minimum": 2, "maximum": 12 },
+    "aspiration": {
+      "enum": ["Atmosferik", "Turbo", "Kompresör", "Turbo + kompresör", null],
+      "description": "Doldurma biçimi. Turbo motorlar aynı hacimdeki atmosferiklere göre farklı aşınma paterni gösterdiği için ayrı tutuluyor."
+    },
+    "base_score": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Motor ailesinin kendi başına, ortalama bir uygulamada aldığı temel puan. null ise puan hâlâ araç bazında elle veriliyor demektir (henüz araştırılmamış)."
+    },
+    "maintenance": { "type": ["string", "null"] },
+    "known_issues": {
+      "type": "array",
+      "description": "docs/PLAN.md §3.3'teki arıza taksonomisi: her arıza sıklık, ağırlık ve başlangıç kilometresi boyutlarıyla kaydedilir.",
+      "items": {
+        "type": "object",
+        "required": ["issue"],
+        "additionalProperties": false,
+        "properties": {
+          "issue": { "type": "string" },
+          "onset_km": { "type": ["integer", "null"] },
+          "frequency": { "enum": ["yaygın", "sık", "seyrek", "nadir", null] },
+          "severity": { "enum": ["motor ölür", "büyük onarım", "orta", "bakım kalemi", null] },
+          "sources": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "data/sources.json anahtarları. base_score atanmış bir motorun en az bir kaynağa dayanması bekleniyor."
+    },
+    "note": { "type": ["string", "null"] }
+  }
+}

@@ -11,25 +11,29 @@
     "fuel": "Benzin",
     "drivetrain": "Önden",
     "transmission_type": "TK",
-    "transmission_id": null,
-    "body_type": "Hatchback"
+    "transmission_id": "vag-01m",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea827"
   },
   "price_band_k_try": [
     480,
     700
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 70,
-    "trans": 74,
+    "trans": 66,
     "fun": 50,
     "comf": 79,
     "age": 48,
     "cost": 75,
     "liq": 70
   },
-  "sources": [],
-  "note": "VW Golf 4 ile aynı platformu paylaşan, çok uzun süre üretilmiş dayanıklı bir sedan/hatchback; otomatiği klasik Tiptronic tork konvertörlü. Ön değerlendirme, batch aşamasında derinleştirilecek.",
+  "sources": [
+    "gearboxlist_01m",
+    "go4trans_01m"
+  ],
+  "note": "VW Golf 4 ile aynı platformu paylaşan, çok uzun süre üretilmiş dayanıklı bir sedan/hatchback. Otomatiği VAG'ın 01M kodlu dört ileri tork konvertörlü kutusu; kaynaklar bu kutuyu genel olarak güvenilir buluyor ve arızaların yüksek kilometrede başladığını söylüyor. Buna karşılık kutunun elektrik tarafı (selenoid kablo tesisatı, hız sensörleri) ve lastik kaplı pistonları yaşa bağlı olarak yıpranıyor; bu bileşenler için verilen 8-10 yıllık ömür, bugün yoldaki bütün örneklerin çok gerisinde kaldı. Yani bu araçta şanzımanın durumu üretim kalitesinden çok o örneğe kadar yapılmış bakımın kaydına bağlı; alırken kutunun elden geçirilip geçirilmediğini sorun.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

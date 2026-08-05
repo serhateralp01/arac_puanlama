@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "Islak DCT",
     "transmission_id": "getrag-7dct300",
-    "body_type": "Hatchback"
+    "body_type": "Hatchback",
+    "engine_id": "renault-h5ht"
   },
   "price_band_k_try": [
     900,

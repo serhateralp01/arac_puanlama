@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "TK",
     "transmission_id": "ford-4f27e",
-    "body_type": "Hatchback"
+    "body_type": "Hatchback",
+    "engine_id": "ford-duratec-he"
   },
   "price_band_k_try": [
     450,

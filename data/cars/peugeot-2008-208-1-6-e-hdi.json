@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "Robot",
     "transmission_id": "psa-etg",
-    "body_type": null
+    "body_type": null,
+    "engine_id": "psa-dv6"
   },
   "price_band_k_try": [
     700,

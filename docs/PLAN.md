@@ -419,7 +419,7 @@ enflasyonunda altı ayda anlamsızlaşıyor; tarihsiz fiyat yanıltıcıdır.
 | `data/cars/*.json` | Puan var, gerekçe yok | `evidence` bloğu doldur; `kerb_weight_kg`, `fuel_consumption`, `engine_id`, `transmission_id` alanları ekle |
 | `data/sources.json` | Başlık + link | `tier`, `quotes[]`, `retrieval.query`, `archive_url` doldur |
 | `data/criteria.json` | `bands: null` | Yedi kriterin bantlarını yaz, çapa araçları ata |
-| `data/engines.json` | **yok** | Motor kodu kaydı kur (~35 motor ailesi) |
+| `data/engines.json` | 77 aile, 154 araç bağlı | Ailelere `base_score`, `known_issues` ve kaynak ver |
 | `data/transmissions.json` | **yok** | Kutu kodu kaydı kur (~25 kutu) |
 | `data/tax/mtv-YYYY.json` | **yok** | Resmi MTV tarifesini veriye al |
 | `data/market/listings-YYYY-MM.json` | **yok** | İlan sayımı anlık görüntüsü |
@@ -438,7 +438,8 @@ Sıra rastgele değil: **önce yapıyı kur, sonra veriyi doldur.** Ters sırada
 doldurulan veri yapı değişince yeniden yazılır.
 
 ### Faz 2A — İskelet (veri girmeden)
-1. `transmissions.json` kuruldu (29 kutu, 97 araç bağlı). `engines.json` henüz kurulmadı.
+1. `transmissions.json` kuruldu (30 kutu, 154 araç bağlı). `engines.json` kuruldu
+   (77 aile, 154 araç bağlı); ailelerin temel puanları bekliyor.
 2. **Tamamlandı.** Yedi kriterin puan bantları yazıldı, her banda mümkün olan yerde
    kaynaklı bir çapa araç atandı; beş bant için (comf 35-49/0-34, age 85-100, cost 0-34)
    bugünkü veride gerçek örnek bulunmadığı için bilerek örneksiz bırakıldı
@@ -494,7 +495,36 @@ uyarı veriyor; yapısal uyarı kalmadı.
     temel puanına çekildi; ayrıntı ve gerekçe `docs/DATA-ISSUES.md` D-11'de.
     Yetim kutu kalmadı (`gm-5l40e` dört BMW'ye, `hyundai-6at` yedi Hyundai/Kia'ya
     bağlandı).
-11. `data/engines.json` henüz kurulmadı.
+11. **İskeleti tamamlandı.** `data/engines.json` kuruldu: 77 motor ailesi tanımlandı ve
+    154 aracın tamamı `specs.engine_id` ile bir aileye bağlandı. `engine.schema.json`
+    şanzıman şemasının desenini izliyor ve §3.3'teki arıza taksonomisini (sıklık,
+    ağırlık, başlangıç kilometresi) `known_issues` altında taşıyor. `validate.py`'ye
+    motor ekseninin denetimleri eklendi: `kayip-motor-kaydi`, `motor-yakit-celiski`,
+    `motor-hacim-celiski` (hata); `motor-kaydi-yok`, `motor-temel-puani-yok`,
+    `motor-kaynaksiz`, `yetim-motor`, `motor-duzeltme-gerekcesiz` (uyarı). Yakıt ve
+    hacim çelişkisi denetimleri, yanlış aileye bağlanmış bir aracı yakalamak için
+    kondu; 154 aracın hepsi bu denetimden hatasız geçti. `consistency.py` artık iki
+    ekseni birden ölçüyor.
+
+    Motor ailelerine `base_score` verilmesi hâlâ açık ve 77 uyarı olarak raporlanıyor.
+    Bu bilinçli bir katman ayrımıdır: iskelet önce kuruldu, güvenilirlik araştırması
+    ayrı bir iş kalemi.
+
+    **Motor ekseni açıldığı anda ilk bulgusunu verdi.** Aynı motor ailesini paylaşan
+    araçlar arasında 15 puanı aşan yayılım gösteren beş aile var; bunlar puan
+    araştırmasının ilk hedefleridir:
+
+    | Motor ailesi | Araç | Yayılım | Aralık |
+    |---|---:|---:|---|
+    | `psa-ep6` | 4 | 29 | 308 THP 45 · 508 THP 52 · C4 VTi 62 · C-Elysee 74 |
+    | `psa-dv6` | 5 | 27 | Volvo D2 45/45 · 208 e-HDi 70 · 301 HDi 70 · 308 BlueHDi 72 |
+    | `vag-ea111-tsi` | 2 | 27 | Golf 1.4 TSI 25 · Jetta 1.4 TSI 52 |
+    | `bmw-m52` | 3 | 16 | E36 64 · E39 523i 72 · E39 528i 80 |
+    | `vag-ea189` | 6 | 16 | A6 2.0 TDI 52 · Superb 55 · üç araç 62 · Passat 1.6 68 |
+
+    `psa-dv6` ile `vag-ea111-tsi` özellikle dikkat çekiyor: ikisinde de aynı fiziksel
+    motor, farklı araçlarda 27 puan fark alıyor ve bu farkın hiçbir yerde yazılı bir
+    gerekçesi yok. Bu, §1.3'teki kök nedenin motor tarafındaki birebir karşılığıdır.
 
 **Kabul ölçütü — sağlandı.** §1.2 tablosundaki üç kutunun hepsi çözüldü:
 `nissan-xtronic` gerekçeli (evidence.trans), `psa-al4` ve `getrag-6dct450` aileleri

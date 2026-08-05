@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "CVT",
     "transmission_id": "vag-multitronic",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "vag-ea189"
   },
   "price_band_k_try": [
     750,

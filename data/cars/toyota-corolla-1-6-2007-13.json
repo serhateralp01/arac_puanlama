@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "TK",
     "transmission_id": "toyota-4at",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "toyota-zr"
   },
   "price_band_k_try": [
     650,

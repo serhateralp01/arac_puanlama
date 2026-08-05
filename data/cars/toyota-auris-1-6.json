@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "CVT",
     "transmission_id": "toyota-multidrive",
-    "body_type": "Hatchback"
+    "body_type": "Hatchback",
+    "engine_id": "toyota-zr"
   },
   "price_band_k_try": [
     700,

@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "Islak DCT",
     "transmission_id": "getrag-6dct450",
-    "body_type": "Hatchback"
+    "body_type": "Hatchback",
+    "engine_id": "ford-duratorq-15"
   },
   "price_band_k_try": [
     820,

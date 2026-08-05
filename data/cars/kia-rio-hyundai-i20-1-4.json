@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "TK",
     "transmission_id": "hyundai-a4af3",
-    "body_type": null
+    "body_type": null,
+    "engine_id": "hyundai-gamma-14"
   },
   "price_band_k_try": [
     650,

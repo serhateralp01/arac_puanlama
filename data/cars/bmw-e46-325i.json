@@ -12,7 +12,8 @@
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
     "transmission_id": "gm-5l40e",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "bmw-m54"
   },
   "price_band_k_try": [
     450,

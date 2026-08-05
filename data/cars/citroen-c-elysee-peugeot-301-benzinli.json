@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "TK",
     "transmission_id": "aisin-eat6",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "psa-ep6"
   },
   "price_band_k_try": [
     820,

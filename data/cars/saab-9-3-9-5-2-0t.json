@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "TK",
     "transmission_id": "aisin-aw55",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "saab-b2x5"
   },
   "price_band_k_try": [
     480,

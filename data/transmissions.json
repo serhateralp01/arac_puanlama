@@ -855,5 +855,42 @@
       "youcanic_opel_aw55"
     ],
     "note": "Volvo S40/V50/S60 birinci nesil, Opel Vectra C ve Saab gibi modellerde kullanılan 5 ileri kutu. Aisin'in sonraki TF-80SC kutusunun selefi ve ondan belirgin biçimde daha sorunlu: 50.000 milin altında garanti kapsamına giren arızalar yaygınlaşmış ve kutunun yapısal bir kusur taşıdığı anlaşılmış; Opel uygulamalarında da vites sertliği (shift flare) şikayeti yaygın. Bu kutu, Volvo'daki daha yeni ve güvenilir aisin-geartronic (78 puan) ile karıştırılmamalı. [base_score gerekçesi: 35-49 (bilinen risk): iki bağımsız kaynak düşük kilometrede ortaya çıkan yapısal bir kusuru doğruluyor.]"
+  },
+  "vag-01m": {
+    "id": "vag-01m",
+    "names": [
+      "01M",
+      "01N",
+      "4 ileri Tiptronic",
+      "AG4"
+    ],
+    "type": "TK",
+    "supplier": "Volkswagen Group",
+    "gears": 4,
+    "base_score": 66,
+    "maintenance": "Aşırı ısınmaya karşı hassas olduğu için yağ ve soğutma durumunun düzenli kontrolü öneriliyor.",
+    "known_issues": [
+      {
+        "issue": "Selenoid kablo tesisatı ve hız sensörü arızası; selenoidlerin kirlenerek tıkanması",
+        "onset_km": null,
+        "severity": "orta",
+        "sources": [
+          "gearboxlist_01m"
+        ]
+      },
+      {
+        "issue": "Lastik kaplı pistonların sertleşmesi ve basınca dayanamaması; aşırı ısınmada erimesi",
+        "onset_km": null,
+        "severity": "orta",
+        "sources": [
+          "go4trans_01m"
+        ]
+      }
+    ],
+    "sources": [
+      "gearboxlist_01m",
+      "go4trans_01m"
+    ],
+    "note": "Golf 4 ve Octavia 1 (Tour) kuşağının dört ileri tork konvertörlü otomatiği; 2006'ya kadar üretildi. Genel değerlendirme güvenilir yönde ve arızalar yüksek kilometrede başlıyor, ancak elektrik tarafı (selenoid tesisatı, hız sensörleri) ile lastik kaplı pistonlar yaşa bağlı olarak yıpranıyor; kaynaklar bu bileşenler için 8-10 yıllık bir ömür veriyor, yani bugün yoldaki bütün örnekler o sınırın çok üstünde. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kutu yapısal olarak sağlam ve kaynaklar 'güvenilir' diyor, sorunlar planlanabilir bileşen yenileme kalemleri; iki kaynak da C seviyesinde olduğu için bandın alt yarısında tutuldu.]"
   }
 }

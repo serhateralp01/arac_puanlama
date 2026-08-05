@@ -26,6 +26,7 @@ Bu depo, veriyi koddan ayırarak her iki sorunu da çözmeyi hedefliyor:
 data/cars/*.json         her araç kendi dosyasında
 data/sources.json        kaynak künyeleri: hangi iddiayı, hangi yayıncı, hangi bağlantı
 data/transmissions.json  şanzıman kutusu kayıtları; araçlar buraya kimlikle bağlanır
+data/engines.json        motor ailesi kayıtları; aynı desen, araçlar engine_id ile bağlanır
 data/criteria.json       kriter tanımları, ağırlık setleri, eşikler
 data/schema/*.json       JSON Schema; hem editör desteği hem veri sözleşmesi
 templates/index.html     sayfanın kabuğu: <head>, üst menü, script/style yer tutucuları
@@ -54,7 +55,7 @@ python3 scripts/build.py             # veriden HTML üret
 python3 scripts/build.py --check     # üretilmiş dosya veriyle uyumlu mu, yazmadan söyle
 python3 scripts/validate.py          # veriyi denetle
 python3 scripts/validate.py --strict # uyarılar da başarısızlık sayılsın
-python3 scripts/consistency.py       # aynı kutuyu paylaşan araçlarda puan yayılımı
+python3 scripts/consistency.py       # aynı kutuyu/motoru paylaşan araçlarda puan yayılımı
 ```
 
 Tarayıcı testi yalnızca geliştirme sırasında gerekir ve Playwright ister:
@@ -98,37 +99,33 @@ hesaplanır.
 
 | Kaynak sayısı | Rozet | Bugünkü sayı |
 |---:|---|---:|
-| 4 ve üzeri | doğrulanmış | 1 |
-| 1 – 3 | kısmi kaynak | 116 |
-| 0 | ön değerlendirme | 37 |
+| 4 ve üzeri | doğrulanmış | 6 |
+| 1 – 3 | kısmi kaynak | 133 |
+| 0 | ön değerlendirme | 15 |
 
-Yalnızca bir aracın doğrulanmış sayılması, listenin zayıf olduğu anlamına gelmiyor;
+Doğrulanmış araç sayısının düşük olması, listenin zayıf olduğu anlamına gelmiyor;
 önceki elle verilen etiketlerin fazla iyimser olduğu anlamına geliyor. Hedef, her aracı
 dört bağımsız kaynağa çıkarmak. Gerekçesi `docs/ARCHITECTURE.md` içindeki MK-04
 kaydında yazılı.
 
 ## Denetimin bugünkü durumu
 
-`scripts/validate.py` şu an **0 hata, 495 uyarı** veriyor. Uyarılar bilinçli olarak
+`scripts/validate.py` şu an **0 hata, 260 uyarı** veriyor. Uyarılar bilinçli olarak
 başarısızlık sayılmıyor; her biri yol haritasındaki bir maddeye karşılık geliyor.
 
 | Kural | Adet | Ne anlama geliyor |
 |---|---:|---|
-| `govde-tipi-yok` | 154 | Gövde tipi alanı henüz doldurulmadı, gövde filtresi bu yüzden yok |
-| `kaynak-yetersiz` | 116 | Araç bir ile üç arası kaynağa dayanıyor, dörde çıkması gerekiyor |
-| `guven-seviyesi-yok` | 68 | Hiçbir kaynağa A, B veya C güven seviyesi atanmadı |
-| `kutu-kaydi-yok` | 57 | Aracın şanzıman kutusu henüz bir kayda bağlanmadı |
-| `kaynaksiz` | 37 | Araç hiçbir kaynağa bağlı değil |
-| `kutu-temel-puani-yok` | 29 | Şanzıman kutusunun temel puanı yok, puan hâlâ araç bazında veriliyor |
-| `yetim-kaynak` | 13 | Kaynak hiçbir araca bağlı değil, çoğu SUV araştırmasından kalma |
-| `puan-bandi-yok` | 7 | Hiçbir kriterin yazılı puan bandı yok |
-| `kutu-kaynaksiz` | 6 | Şanzıman kutusu kaydı hiçbir kaynağa dayanmıyor |
-| `kanitsiz-zayif-halka` | 4 | Aracı eleyen 35 altı puan var ama kaynak yok |
-| `kaynak-yogunlasmasi` | 2 | Tek bir kaynak 12'den fazla aracı taşıyor |
-| `yetim-kutu` | 2 | Kutu kaydı hiçbir araca bağlı değil |
+| `kaynak-yetersiz` | 133 | Araç bir ile üç arası kaynağa dayanıyor, dörde çıkması gerekiyor |
+| `motor-temel-puani-yok` | 77 | Motor ailesinin temel puanı yok, puan hâlâ araç bazında veriliyor |
+| `c-kaynakla-uc-puan` | 20 | Uç bantta puan var ama bütün kaynaklar C seviyesinde |
+| `kaynaksiz` | 15 | Araç hiçbir kaynağa bağlı değil |
+| `yetim-kaynak` | 11 | Kaynak hiçbir araca bağlı değil, çoğu SUV araştırmasından kalma |
+| `govde-tipi-yok` | 4 | Karma model kaydı olduğu için tek gövde tipine zorlanamıyor (D-10) |
 
-Araç başına ortalama kaynak sayısı **1.09**. Bu sayıyı 2.0'ın üstüne çıkarmak yol
-haritasının ana hedefi.
+Araç başına ortalama kaynak sayısı **1.72**. Bu sayıyı 2.0'ın üstüne çıkarmak yol
+haritasının ana hedefi. Şanzıman ekseni tamamlandı: 154 aracın tamamı bir kutu
+kaydına bağlı ve 30 kutunun hepsinin temel puanı var. Motor ekseninin iskeleti
+kuruldu (77 aile, 154 araç bağlı); sıradaki iş bu ailelere temel puan vermek.
 
 ## Katkı
 

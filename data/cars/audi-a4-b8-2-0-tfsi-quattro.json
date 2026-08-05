@@ -12,7 +12,8 @@
     "drivetrain": "Dört çeker",
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-s-tronic-islak",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "vag-ea888"
   },
   "price_band_k_try": [
     900,

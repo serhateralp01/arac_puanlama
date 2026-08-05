@@ -1,0 +1,1571 @@
+{
+  "_comment": "Motor ailesi kayıtları. Araçlar specs.engine_id ile buraya referans verir. Amaç, aynı motorun her araçta yeniden ve elle değerlendirilmesini engellemek; gerekçesi docs/ARCHITECTURE.md MK-02 kaydında, şanzıman kutularıyla birebir aynı desen. base_score alanı bu katmanda bilinçli olarak boş bırakıldı: iskelet önce kuruluyor, güvenilirlik araştırması ayrı bir iş kalemi (docs/PLAN.md Faz 2C madde 10). displacements_l listesi araç kayıtlarından türetildi; bir aracın hacmi bu listede yoksa scripts/validate.py hata verir ve bu, yanlış aileye bağlanmış aracı yakalar.",
+  "alfa-twinspark": {
+    "id": "alfa-twinspark",
+    "names": [
+      "Twin Spark",
+      "AR32310",
+      "AR32205"
+    ],
+    "supplier": "Alfa Romeo",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.8
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "156'nın çift bujili benzinli ailesi. Değişken supap zamanlaması ve çift ateşleme kullanıyor."
+  },
+  "bmw-m43": {
+    "id": "bmw-m43",
+    "names": [
+      "M43",
+      "M43B19",
+      "M43TU"
+    ],
+    "supplier": "BMW",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.9
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "E46 318i'nin erken sürümlerindeki 1.9 litrelik dört silindirli. Kayıt aracın kanonik 1.9/115 bg değerine göre atandı; aynı kasada 2001 sonrası satılan N42 2.0 ayrı bir ailedir."
+  },
+  "bmw-m47": {
+    "id": "bmw-m47",
+    "names": [
+      "M47",
+      "M47TU",
+      "M47TU2"
+    ],
+    "supplier": "BMW",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "E90 318d'nin erken sürümlerindeki 2.0 dizel. Kayıt aracın kanonik 122 bg değerine göre atandı; aynı kasada 2007 sonrası gelen N47 ayrı bir ailedir ve kendi kaydı var."
+  },
+  "bmw-m52": {
+    "id": "bmw-m52",
+    "names": [
+      "M52",
+      "M52B20",
+      "M52B25",
+      "M52B28",
+      "M52TU"
+    ],
+    "supplier": "BMW",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2,
+      2.5,
+      2.8
+    ],
+    "cylinders": 6,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "E36 ve erken E39'daki sıralı altı silindirli benzinli aile."
+  },
+  "bmw-m54": {
+    "id": "bmw-m54",
+    "names": [
+      "M54",
+      "M54B25",
+      "M54B30"
+    ],
+    "supplier": "BMW",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2.5,
+      3
+    ],
+    "cylinders": 6,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "M52'nin halefi; E39, E46 ve erken E60'ta kullanılan sıralı altı silindirli."
+  },
+  "bmw-m57": {
+    "id": "bmw-m57",
+    "names": [
+      "M57",
+      "M57D25",
+      "M57D30",
+      "M57TU"
+    ],
+    "supplier": "BMW",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2.5,
+      3
+    ],
+    "cylinders": 6,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "BMW'nin sıralı altı silindirli dizel ailesi; E39 525d/530d'den E90 330d'ye kadar geniş kullanım."
+  },
+  "bmw-n43": {
+    "id": "bmw-n43",
+    "names": [
+      "N43",
+      "N43B20",
+      "N43B16"
+    ],
+    "supplier": "BMW",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Doğrudan enjeksiyonlu dört silindirli benzinli. Enjektör ve NOx sensörü kalemleriyle anılıyor."
+  },
+  "bmw-n47": {
+    "id": "bmw-n47",
+    "names": [
+      "N47",
+      "N47D20"
+    ],
+    "supplier": "BMW",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "M47'nin halefi 2.0 dizel. Triger zincirinin motorun arka tarafında (volan tarafı) konumlanması nedeniyle zincir uzaması bu ailenin bilinen kalemidir; onarım motorun sökülmesini gerektirdiği için pahalıdır."
+  },
+  "bmw-n4x": {
+    "id": "bmw-n4x",
+    "names": [
+      "N42",
+      "N45",
+      "N46",
+      "Valvetronic 4 silindir"
+    ],
+    "supplier": "BMW",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.8,
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "E87 ve E90'daki Valvetronic dört silindirli benzinli aile. N42, N45 ve N46 aynı temel tasarımın sürümleri olduğu için tek kayıtta toplandı."
+  },
+  "bmw-n52": {
+    "id": "bmw-n52",
+    "names": [
+      "N52",
+      "N52B25",
+      "N52B30"
+    ],
+    "supplier": "BMW",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2.5
+    ],
+    "cylinders": 6,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Magnezyum-alüminyum bloklu sıralı altı silindirli; BMW'nin son atmosferik altılarından."
+  },
+  "fca-etorq-16": {
+    "id": "fca-etorq-16",
+    "names": [
+      "E.torQ",
+      "1.6 E.torQ"
+    ],
+    "supplier": "Fiat",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Fiat'ın Egea'da kullandığı 1.6 atmosferik benzinli."
+  },
+  "fca-fire-14": {
+    "id": "fca-fire-14",
+    "names": [
+      "FIRE",
+      "1.4 Fire",
+      "843A1000"
+    ],
+    "supplier": "Fiat",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.4
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Fiat'ın uzun ömürlü küçük benzinli ailesi; Egea'nın giriş motoru."
+  },
+  "fca-jtd-19": {
+    "id": "fca-jtd-19",
+    "names": [
+      "1.9 JTDm",
+      "939A2000"
+    ],
+    "supplier": "Fiat / Alfa Romeo",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.9
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Alfa 159'un 150 beygirlik dizeli; Fiat'ın JTD common rail ailesinden."
+  },
+  "fca-multiair-14": {
+    "id": "fca-multiair-14",
+    "names": [
+      "MultiAir",
+      "1.4 TB MultiAir",
+      "940A2000"
+    ],
+    "supplier": "Fiat / Alfa Romeo",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.4
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Giulietta ve MiTo'da kullanılan elektrohidrolik supap kontrollü 1.4 turbo."
+  },
+  "fca-multijet-16": {
+    "id": "fca-multijet-16",
+    "names": [
+      "1.6 MultiJet",
+      "MultiJet II",
+      "55260384"
+    ],
+    "supplier": "Fiat",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Egea'nın 1.6 dizeli; Fiat'ın ikinci nesil MultiJet common rail ailesinden."
+  },
+  "ford-duratec-he": {
+    "id": "ford-duratec-he",
+    "names": [
+      "Duratec HE",
+      "2.0 Duratec",
+      "1.8 Duratec"
+    ],
+    "supplier": "Ford",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Focus ve Mondeo'daki atmosferik benzinli aile; Mazda ile ortak kökenli."
+  },
+  "ford-duratorq-15": {
+    "id": "ford-duratorq-15",
+    "names": [
+      "1.5 TDCi",
+      "Duratorq 1.5"
+    ],
+    "supplier": "Ford / PSA",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.5
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Focus 3'ün 1.5 dizeli; PSA ile ortak geliştirilen ailenin küçük hacimli üyesi."
+  },
+  "ford-duratorq-20": {
+    "id": "ford-duratorq-20",
+    "names": [
+      "Duratorq TDCi",
+      "2.0 TDCi",
+      "DW10"
+    ],
+    "supplier": "Ford / PSA",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Mondeo'nun 2.0 dizeli; PSA ile ortak geliştirilen aile."
+  },
+  "ford-ecoboost-15": {
+    "id": "ford-ecoboost-15",
+    "names": [
+      "EcoBoost",
+      "1.5 EcoBoost"
+    ],
+    "supplier": "Ford",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.5
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Mondeo'nun 1.5 turbo benzinlisi; Ford'un küçültülmüş hacim stratejisinin ürünü."
+  },
+  "ford-sigma-tivct": {
+    "id": "ford-sigma-tivct",
+    "names": [
+      "Sigma",
+      "1.6 Ti-VCT",
+      "Duratec Ti-VCT"
+    ],
+    "supplier": "Ford",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Focus 3'ün 1.6 atmosferik benzinlisi."
+  },
+  "gm-a14net": {
+    "id": "gm-a14net",
+    "names": [
+      "A14NET",
+      "B14NET",
+      "1.4 Turbo"
+    ],
+    "supplier": "General Motors",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.4
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Astra ve Corsa'daki 1.4 turbo benzinli."
+  },
+  "gm-a16dth": {
+    "id": "gm-a16dth",
+    "names": [
+      "A16DTH",
+      "B16DTH",
+      "1.6 CDTI",
+      "whisper diesel"
+    ],
+    "supplier": "General Motors",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Astra ve Insignia'daki 1.6 dizel; sessiz çalışmasıyla tanıtıldığı için 'whisper diesel' deniyor. Erken sürümlerde zincir gergisi contasız üretildiği için zincir uzaması bildiriliyor."
+  },
+  "gm-a16let": {
+    "id": "gm-a16let",
+    "names": [
+      "A16LET",
+      "1.6 Turbo"
+    ],
+    "supplier": "General Motors",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Insignia'nın 1.6 turbo benzinlisi."
+  },
+  "gm-a20dth": {
+    "id": "gm-a20dth",
+    "names": [
+      "A20DTH",
+      "2.0 CDTI"
+    ],
+    "supplier": "General Motors",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Insignia'nın 2.0 dizeli."
+  },
+  "gm-ecotec-18": {
+    "id": "gm-ecotec-18",
+    "names": [
+      "X18XE",
+      "Z18XE",
+      "1.8 Ecotec"
+    ],
+    "supplier": "General Motors",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.8
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Vectra B ve C'deki 1.6/1.8 atmosferik benzinli aile."
+  },
+  "gm-family1-16": {
+    "id": "gm-family1-16",
+    "names": [
+      "A16XER",
+      "F16D3",
+      "Family 1",
+      "1.6 Ecotec"
+    ],
+    "supplier": "General Motors",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Astra J ve Cruze'daki 1.6 atmosferik benzinli; GM'in Family 1 ailesinden."
+  },
+  "honda-d16-d17": {
+    "id": "honda-d16-d17",
+    "names": [
+      "D16",
+      "D17A",
+      "1.6 VTEC",
+      "1.7 VTEC"
+    ],
+    "supplier": "Honda",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Yedinci nesil Civic'in benzinli ailesi."
+  },
+  "honda-k20-k24": {
+    "id": "honda-k20-k24",
+    "names": [
+      "K20",
+      "K24",
+      "2.0 i-VTEC",
+      "2.4 i-VTEC"
+    ],
+    "supplier": "Honda",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2,
+      2.4
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Accord'un benzinli ailesi."
+  },
+  "honda-l15": {
+    "id": "honda-l15",
+    "names": [
+      "L15A",
+      "1.5 i-VTEC"
+    ],
+    "supplier": "Honda",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.5
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "City'nin 1.5 benzinlisi."
+  },
+  "honda-r16": {
+    "id": "honda-r16",
+    "names": [
+      "R16A",
+      "R18A",
+      "1.6 i-VTEC"
+    ],
+    "supplier": "Honda",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "FD6 ve FB7 Civic'in 1.6 i-VTEC motoru. Türkiye ikinci el piyasasında dayanıklılığıyla anılan bir aile."
+  },
+  "hyundai-beta-16": {
+    "id": "hyundai-beta-16",
+    "names": [
+      "Beta II",
+      "G4ED",
+      "G4GC",
+      "1.6 16v"
+    ],
+    "supplier": "Hyundai / Kia",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Elantra XD ve eski nesil Cerato'nun benzinli ailesi."
+  },
+  "hyundai-gamma-14": {
+    "id": "hyundai-gamma-14",
+    "names": [
+      "Gamma",
+      "G4FA",
+      "1.4 MPi"
+    ],
+    "supplier": "Hyundai / Kia",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.4
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Rio ve i20'nin 1.4 benzinlisi."
+  },
+  "hyundai-gamma-16": {
+    "id": "hyundai-gamma-16",
+    "names": [
+      "Gamma",
+      "G4FC",
+      "G4FD",
+      "G4FG",
+      "1.6 MPi",
+      "1.6 GDi"
+    ],
+    "supplier": "Hyundai / Kia",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Hyundai ve Kia'nın çok yaygın 1.6 benzinli ailesi. Doğrudan enjeksiyonlu (GDi) sürümlerinde karbon birikmesi ayrı bir kalem."
+  },
+  "hyundai-u2-16": {
+    "id": "hyundai-u2-16",
+    "names": [
+      "U2",
+      "D4FB",
+      "1.6 CRDi"
+    ],
+    "supplier": "Hyundai / Kia",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Hyundai ve Kia'nın 1.6 dizel ailesi; Accent Blue, Elantra, i30 ve Ceed'de kullanılıyor."
+  },
+  "hyundai-u2-17": {
+    "id": "hyundai-u2-17",
+    "names": [
+      "U2",
+      "D4FD",
+      "1.7 CRDi"
+    ],
+    "supplier": "Hyundai / Kia",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.7
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "i40 ve Optima'daki 1.7 dizel; U2 ailesinin büyük hacimli üyesi."
+  },
+  "mazda-fs": {
+    "id": "mazda-fs",
+    "names": [
+      "FS-DE",
+      "2.0 16v"
+    ],
+    "supplier": "Mazda",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Mazda 626'nın 2.0 benzinlisi."
+  },
+  "mazda-lf": {
+    "id": "mazda-lf",
+    "names": [
+      "LF-DE",
+      "LF-VE",
+      "MZR 2.0"
+    ],
+    "supplier": "Mazda",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Mazda 6 GH'nin 2.0 benzinlisi."
+  },
+  "mb-m111": {
+    "id": "mb-m111",
+    "names": [
+      "M111",
+      "M111 Kompressor",
+      "M111.955"
+    ],
+    "supplier": "Mercedes-Benz",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.8,
+      2,
+      2.3
+    ],
+    "cylinders": 4,
+    "aspiration": "Kompresör",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "W202, W203 ve W209'daki kompresörlü dört silindirli benzinli. Kayıt hem atmosferik hem kompresörlü sürümleri kapsıyor."
+  },
+  "mb-m270": {
+    "id": "mb-m270",
+    "names": [
+      "M270",
+      "M270 DE16 AL"
+    ],
+    "supplier": "Mercedes-Benz",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "A ve B Serisi'ndeki 1.6 turbo benzinli."
+  },
+  "mb-m271": {
+    "id": "mb-m271",
+    "names": [
+      "M271",
+      "M271 Kompressor",
+      "M271 EVO",
+      "M271.940"
+    ],
+    "supplier": "Mercedes-Benz",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.8
+    ],
+    "cylinders": 4,
+    "aspiration": "Kompresör",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "M111'in halefi. Erken sürümlerinde triger zinciri ve dengeleme mili dişlisi aşınması biliniyor; M271 EVO'da turbo besleme kullanılıyor."
+  },
+  "mb-om611": {
+    "id": "mb-om611",
+    "names": [
+      "OM611",
+      "OM611 DE22 LA"
+    ],
+    "supplier": "Mercedes-Benz",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2.2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "W203 C200 CDI'ın erken 2.2 dizeli; Mercedes'in ilk common rail dört silindirli ailesi."
+  },
+  "mb-om612": {
+    "id": "mb-om612",
+    "names": [
+      "OM612",
+      "OM612 DE27 LA"
+    ],
+    "supplier": "Mercedes-Benz",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2.7
+    ],
+    "cylinders": 5,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "2.7 litrelik beş silindirli dizel. W203, W209 ve W210'da kullanılıyor; dayanıklılığıyla anılan bir aile."
+  },
+  "mb-om613": {
+    "id": "mb-om613",
+    "names": [
+      "OM613",
+      "OM613 DE32 LA"
+    ],
+    "supplier": "Mercedes-Benz",
+    "fuel": "Dizel",
+    "displacements_l": [
+      3.2
+    ],
+    "cylinders": 6,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "3.2 litrelik sıralı altı silindirli dizel; W210 E320 CDI'ın motoru, 470 Nm tork üretiyor."
+  },
+  "mb-om646": {
+    "id": "mb-om646",
+    "names": [
+      "OM646",
+      "OM646 DE22 LA"
+    ],
+    "supplier": "Mercedes-Benz",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2.2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "OM611'in halefi 2.2 dizel; W203 geç dönem ve W211'de yaygın."
+  },
+  "mb-om651": {
+    "id": "mb-om651",
+    "names": [
+      "OM651",
+      "OM651 DE22 LA"
+    ],
+    "supplier": "Mercedes-Benz",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2.1
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "W204 ve W212'deki 2.1 dizel. Erken üretim yıllarında enjektör ve zincir kalemleriyle anılıyor."
+  },
+  "mitsubishi-4a92": {
+    "id": "mitsubishi-4a92",
+    "names": [
+      "4A92",
+      "1.6 MIVEC"
+    ],
+    "supplier": "Mitsubishi",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Lancer'ın 1.6 benzinlisi."
+  },
+  "nissan-hr16de": {
+    "id": "nissan-hr16de",
+    "names": [
+      "HR16DE",
+      "1.6 16v"
+    ],
+    "supplier": "Nissan / Renault",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Juke'un 1.6 atmosferik benzinlisi; Renault ile ortak geliştirilen aile."
+  },
+  "nissan-qg16": {
+    "id": "nissan-qg16",
+    "names": [
+      "QG16DE",
+      "QG18DE"
+    ],
+    "supplier": "Nissan",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Almera ve Primera'nın benzinli ailesi."
+  },
+  "psa-dv6": {
+    "id": "psa-dv6",
+    "names": [
+      "DV6",
+      "1.6 HDi",
+      "1.6 e-HDi",
+      "1.6 BlueHDi",
+      "Volvo D2"
+    ],
+    "supplier": "PSA",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "PSA'nın 1.6 dizel ailesi. Ford ve Volvo'ya da veriliyor; Volvo'nun 1.6 D2 motoru bu ailenin bir üyesidir. Turbo yağlama kanalı tıkanması ve partikül filtresi kalemleriyle anılıyor."
+  },
+  "psa-dw10": {
+    "id": "psa-dw10",
+    "names": [
+      "DW10",
+      "2.0 HDi",
+      "DW10BTED4"
+    ],
+    "supplier": "PSA",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "PSA'nın 2.0 dizel ailesi; C5 ve 508'de kullanılıyor."
+  },
+  "psa-ep6": {
+    "id": "psa-ep6",
+    "names": [
+      "EP6",
+      "1.6 VTi",
+      "1.6 THP",
+      "Prince"
+    ],
+    "supplier": "BMW / PSA",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": null,
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "BMW ile ortak geliştirilen 1.6 benzinli aile. Atmosferik (VTi) ve turbo (THP) sürümleri var; turbo sürümde triger zinciri, karbon birikmesi ve termostat kalemleri Türkiye'de iyi biliniyor."
+  },
+  "psa-tu5": {
+    "id": "psa-tu5",
+    "names": [
+      "TU5",
+      "TU5JP4",
+      "1.6 16v"
+    ],
+    "supplier": "PSA",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Xsara, 206 ve 307'deki 1.6 atmosferik benzinli; PSA'nın uzun ömürlü TU ailesinden."
+  },
+  "psa-xu": {
+    "id": "psa-xu",
+    "names": [
+      "XU",
+      "XU7",
+      "XU10",
+      "1.8 16v",
+      "2.0 16v"
+    ],
+    "supplier": "PSA",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.8
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "C5 birinci nesil ve 406'daki 1.8/2.0 atmosferik benzinli aile."
+  },
+  "renault-h5ht": {
+    "id": "renault-h5ht",
+    "names": [
+      "H5Ht",
+      "1.3 TCe",
+      "M282"
+    ],
+    "supplier": "Renault / Mercedes-Benz",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.3
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Renault ve Mercedes'in ortak geliştirdiği 1.3 turbo benzinli."
+  },
+  "renault-k4m": {
+    "id": "renault-k4m",
+    "names": [
+      "K4M",
+      "1.6 16v"
+    ],
+    "supplier": "Renault",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Renault'nun 1.6 atmosferik benzinli ailesi; Clio, Megane, Laguna ve Fluence'ta yaygın."
+  },
+  "renault-k9k": {
+    "id": "renault-k9k",
+    "names": [
+      "K9K",
+      "1.5 dCi"
+    ],
+    "supplier": "Renault",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.5
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Renault'nun çok yaygın 1.5 dizeli. Türkiye'de yedek parça ve usta ağı en geniş dizel ailelerden biri."
+  },
+  "renault-m9r": {
+    "id": "renault-m9r",
+    "names": [
+      "M9R",
+      "2.0 dCi"
+    ],
+    "supplier": "Renault",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Latitude'un 2.0 dizeli; Nissan ile ortak kullanılan aile."
+  },
+  "renault-r9m": {
+    "id": "renault-r9m",
+    "names": [
+      "R9M",
+      "1.6 dCi",
+      "Energy dCi 130"
+    ],
+    "supplier": "Renault",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Megane'ın 130 beygirlik 1.6 dizeli; K9K'nın üstünde konumlanan daha güçlü aile."
+  },
+  "rover-kv6": {
+    "id": "rover-kv6",
+    "names": [
+      "KV6",
+      "2.0 V6"
+    ],
+    "supplier": "Rover",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 6,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Rover 75'in V6 benzinlisi."
+  },
+  "saab-b2x5": {
+    "id": "saab-b2x5",
+    "names": [
+      "B205",
+      "B235",
+      "2.0t",
+      "2.3t"
+    ],
+    "supplier": "Saab",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Saab 9-3 ve 9-5'in turbo benzinli ailesi."
+  },
+  "suzuki-m16a": {
+    "id": "suzuki-m16a",
+    "names": [
+      "M16A",
+      "1.6 VVT"
+    ],
+    "supplier": "Suzuki",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "SX4'ün 1.6 benzinlisi."
+  },
+  "toyota-zr": {
+    "id": "toyota-zr",
+    "names": [
+      "1ZR-FE",
+      "1ZR-FAE",
+      "2ZR-FAE",
+      "Valvematic"
+    ],
+    "supplier": "Toyota",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6,
+      1.8
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Auris, Avensis ve Corolla'nın 1.6/1.8 benzinli ailesi. Toyota'nın dayanıklılık ünü büyük ölçüde bu tip atmosferik ailelere dayanıyor."
+  },
+  "toyota-zz": {
+    "id": "toyota-zz",
+    "names": [
+      "3ZZ-FE",
+      "1ZZ-FE",
+      "1.6 VVT-i"
+    ],
+    "supplier": "Toyota",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Corolla E12'nin 1.6 VVT-i motoru; ZR ailesinden önceki nesil."
+  },
+  "vag-ea111-tsi": {
+    "id": "vag-ea111-tsi",
+    "names": [
+      "EA111 TSI",
+      "1.4 TSI twincharger",
+      "CAVD",
+      "CAXA"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.4
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo + kompresör",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Golf ve Jetta'daki 1.4 TSI. Yüksek güçlü sürümleri hem turbo hem kompresör kullanıyor."
+  },
+  "vag-ea113-18t": {
+    "id": "vag-ea113-18t",
+    "names": [
+      "EA113 1.8T",
+      "1.8T 20v",
+      "AEB",
+      "AGU",
+      "BEX"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.8
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "A4 B5 ve B6'daki 20 supaplı 1.8 turbo. Bu kayıt aracın kanonik 1.8T değerine göre atandı; aynı gövdelerde satılan 2.0 ve 2.4 atmosferik seçenekler ayrı ailelerdir ve listede kendi kayıtları yoktur."
+  },
+  "vag-ea188-pd": {
+    "id": "vag-ea188-pd",
+    "names": [
+      "EA188",
+      "2.0 TDI PD",
+      "pumpe düse",
+      "BKD",
+      "BMM"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Pompa enjektörlü (pumpe düse) 2.0 TDI. Kam mili ve enjektör iticisi aşınmasıyla anılıyor."
+  },
+  "vag-ea189": {
+    "id": "vag-ea189",
+    "names": [
+      "EA189",
+      "1.6 TDI CR",
+      "2.0 TDI CR",
+      "CAYC",
+      "CFFB"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.6,
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Common rail 2.0/1.6 TDI. Emisyon yazılımı skandalına (dieselgate) konu olan aile; yazılım güncellemesi sonrası davranış değişikliği tartışması var."
+  },
+  "vag-ea211": {
+    "id": "vag-ea211",
+    "names": [
+      "EA211",
+      "1.2 TSI",
+      "1.4 TSI",
+      "CJZA",
+      "CXSA"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.4
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "EA111'in halefi; triger kayışa dönmüş ve önceki neslin zincir sorunlarını geride bırakmış sayılıyor."
+  },
+  "vag-ea288": {
+    "id": "vag-ea288",
+    "names": [
+      "EA288",
+      "1.6 TDI",
+      "2.0 TDI",
+      "CRKB",
+      "DFGA"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.6,
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "EA189'un halefi, emisyon donanımı baştan yeniden tasarlanmış aile."
+  },
+  "vag-ea827": {
+    "id": "vag-ea827",
+    "names": [
+      "EA827",
+      "AEE",
+      "AKL",
+      "APF"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Octavia 1 (Tour) gövdesindeki atmosferik benzinli aile. Kayıt 1.6/1.8/2.0 seçeneklerini birlikte tutuyor; kanonik değer 1.6."
+  },
+  "vag-ea888": {
+    "id": "vag-ea888",
+    "names": [
+      "EA888",
+      "1.8 TSI",
+      "2.0 TFSI",
+      "CDAB",
+      "CDNC"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.8,
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "VAG'ın yaygın 1.8/2.0 turbo benzinli ailesi. İlk iki neslinde yağ tüketimi ve triger zinciri gergisi kalemleri biliniyor."
+  },
+  "vag-v6-tdi": {
+    "id": "vag-v6-tdi",
+    "names": [
+      "3.0 V6 TDI",
+      "BMK",
+      "ASB",
+      "CDYA"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Dizel",
+    "displacements_l": [
+      3
+    ],
+    "cylinders": 6,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "A6'daki 3.0 V6 dizel. Yüksek tork üretiyor ve zincir tahriki motorun arka tarafında konumlanıyor."
+  },
+  "volvo-b4204s": {
+    "id": "volvo-b4204s",
+    "names": [
+      "B4204S",
+      "2.0 16v"
+    ],
+    "supplier": "Volvo",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "S40 ve V50'nin 2.0 atmosferik benzinlisi."
+  },
+  "volvo-b4204t-gtdi": {
+    "id": "volvo-b4204t-gtdi",
+    "names": [
+      "B4204T",
+      "GTDi",
+      "T5",
+      "2.0 T"
+    ],
+    "supplier": "Volvo",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "S60'ın 2.0 turbo benzinlisi; Ford ile ortak kökenli EcoBoost tabanlı aile."
+  },
+  "volvo-b5254": {
+    "id": "volvo-b5254",
+    "names": [
+      "B5244S",
+      "B5254T",
+      "2.4 20v",
+      "2.5T"
+    ],
+    "supplier": "Volvo",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2.4
+    ],
+    "cylinders": 5,
+    "aspiration": null,
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Birinci nesil S60'ın beş silindirli benzinli ailesi; hem atmosferik hem turbo sürümleri var."
+  },
+  "volvo-d-20": {
+    "id": "volvo-d-20",
+    "names": [
+      "D5204T",
+      "D4204T",
+      "D3",
+      "D4",
+      "2.0 D"
+    ],
+    "supplier": "Volvo",
+    "fuel": "Dizel",
+    "displacements_l": [
+      2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Volvo'nun 2.0 dizel ailesi; erken sürümleri Ford kökenli, sonrakiler Volvo'nun kendi VEA ailesinden."
+  },
+  "volvo-vea-benzin": {
+    "id": "volvo-vea-benzin",
+    "names": [
+      "VEA",
+      "Drive-E",
+      "B4154T",
+      "T3"
+    ],
+    "supplier": "Volvo",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.5
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": null,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [],
+    "note": "Volvo'nun Drive-E (VEA) benzinli ailesinin 1.5 turbo üyesi."
+  }
+}

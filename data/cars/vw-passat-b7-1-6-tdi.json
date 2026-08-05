@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "vag-ea189"
   },
   "price_band_k_try": [
     850,

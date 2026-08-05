@@ -1345,5 +1345,27 @@
     "accessed": "2026-08-05",
     "language": "en",
     "quotes": []
+  },
+  "gearboxlist_01m": {
+    "id": "gearboxlist_01m",
+    "claim": "VAG 01M dört ileri otomatiğinin genel olarak güvenilir sayıldığı ve arızaların yüksek kilometrede başladığı; başlıca sorunların selenoid kablo tesisatı, hız sensörleri ve kirlenerek tıkanan selenoidler olduğu, kutunun aşırı ısınmaya karşı hassas olduğu ve elektrik bileşenlerinin ortalama ömrünün 8-10 yıl kabul edildiği",
+    "publisher": "GearboxList",
+    "url": "https://gearboxlist.com/volkswagen/01m/",
+    "type": "spec-database",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "go4trans_01m": {
+    "id": "go4trans_01m",
+    "claim": "VAG 01M kutusunda lastik kaplı pistonların sertleşip basınca dayanamadığı, özellikle kışın ve aşırı ısınmış kutularda bu pistonların takım halinde değiştirilmesi gerektiği",
+    "publisher": "Go4Trans",
+    "url": "https://shop.go4trans.com/transmissions-info/01m/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
   }
 }

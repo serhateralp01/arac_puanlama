@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "hyundai-u2-17"
   },
   "price_band_k_try": [
     650,

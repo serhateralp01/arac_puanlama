@@ -12,7 +12,8 @@
     "drivetrain": "Önden",
     "transmission_type": "TK",
     "transmission_id": "aisin-tf80",
-    "body_type": "Sedan"
+    "body_type": "Sedan",
+    "engine_id": "fca-jtd-19"
   },
   "price_band_k_try": [
     500,
