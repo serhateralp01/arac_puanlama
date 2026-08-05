@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""build.py — data/ + templates/ → arac-puanlama.html
+"""build.py — data/ + templates/ → index.html
 
 Tek dosyalık aracı veriden üretir. Harici bağımlılık yok, standart kütüphane yeter.
 Elle düzenlenen tek şey data/ ve templates/; kök dizindeki HTML çıktıdır.
@@ -23,7 +23,9 @@ TEMPLATE = TEMPLATES / "index.html"
 STYLES = TEMPLATES / "styles.css"
 SCREENS = TEMPLATES / "screens"
 APP = TEMPLATES / "app"
-OUTPUT = ROOT / "arac-puanlama.html"
+# GitHub Pages kök adreste index.html arar; başka bir ad verilirse depo özetini
+# (README) gösterir. Çıktının adı bu yüzden index.html.
+OUTPUT = ROOT / "index.html"
 
 
 def load_data() -> tuple[dict, list[dict], dict]:
@@ -187,11 +189,11 @@ def main() -> int:
         current = OUTPUT.read_text(encoding="utf-8") if OUTPUT.exists() else ""
         if current != html:
             print(
-                "arac-puanlama.html veriyle uyumsuz. `python3 scripts/build.py` çalıştırın.",
+                "index.html veriyle uyumsuz. `python3 scripts/build.py` çalıştırın.",
                 file=sys.stderr,
             )
             return 1
-        print("arac-puanlama.html güncel.")
+        print("index.html güncel.")
         return 0
 
     OUTPUT.write_text(html, encoding="utf-8")

@@ -23,8 +23,9 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
 | Şanzıman kutusu kayıtları | 30 kutu, hepsi temel puanlı ve kaynaklı |
 | Motor ailesi kayıtları | 79 aile, 78'i temel puanlı ve kaynaklı |
-| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 18/18 duman testi |
-| Çok ekranlı arayüz + giriş akışı + metodoloji sayfası | Çalışıyor |
+| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 20/20 duman testi |
+| Çok ekranlı arayüz + giriş akışı + metodoloji + kaynak öner ekranı | Çalışıyor |
+| GitHub Pages yayını | Çıktı `index.html` olarak üretiliyor, kök adres siteyi açıyor |
 | **Kaynak derinliği** | **Zayıf — asıl açık burada** |
 | **Araç kapsamı** | **Dar — modern kuşak ve gövde çeşitliliği eksik** |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
@@ -176,6 +177,17 @@ Aşağıdaki adımların hepsi ücretsizdir ve sunucu gerektirmez.
    projenin paylaşılabilir bir adrese kavuşması demek.
 4. Adresi ve seçilen servisin uç noktasını bakımcıya (yani bu depoda çalışan kişiye)
    ilet; form ve iletişim bölümü ona göre yazılır.
+
+### Depoda bugün yapılanlar
+
+- `#katki` ekranı kuruldu ve üst menüye "Kaynak öner" olarak eklendi. Ekran, ne tür bir
+  kaynağın işe yaradığını, önerinin hangi aşamalardan geçtiğini ve neden doğrudan veriye
+  yazılmadığını anlatıyor.
+- GitHub konu şablonuna doğrudan bağlantı verildi; bu yol **bugün çalışıyor** ve e-posta
+  adresi beklemiyor.
+- E-posta seçeneği için ekranda yeri hazır (`#ktMailOpt`); adres ve FormSubmit uç noktası
+  geldiğinde yalnızca o bölüm doldurulacak, ekranın geri kalanı değişmeyecek.
+- `smoke_test.js` bağlantının doğru depoyu ve doğru şablonu gösterdiğini denetliyor.
 
 ### Depoda yapılacaklar (adres geldikten sonra)
 
@@ -339,5 +351,5 @@ Bu maddelerin hiçbiri aşağıdakileri esnetmez. Hepsinin gerekçesi `CLAUDE.md
   kalmış bir yenileme yüzünden bugün çalışan sayfa bozulmaz.
 - Her commit sonrası `python3 scripts/validate.py` hatasız, `node scripts/smoke_test.js`
   tam geçmelidir.
-- `arac-puanlama.html` üretilmiş dosyadır, elle düzenlenmez.
+- `index.html` üretilmiş dosyadır, elle düzenlenmez.
 - Kimlikler kalıcıdır; bir araç, motor veya kutu kimliği verildikten sonra değişmez.

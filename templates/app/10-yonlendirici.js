@@ -4,7 +4,7 @@
    değişiyor; bu yüzden ekran değiştirmek hiçbir durumu sıfırlamıyor. Yol
    adları bir gün gerçek sunucu adreslerine ("/liste") birebir çevrilebilsin
    diye seçildi; gerekçesi docs/ARCHITECTURE.md MK-07 kaydında. */
-const ROUTES=['giris','kriterler','liste','kiyaslama','metodoloji','kaynaklar'];
+const ROUTES=['giris','kriterler','liste','kiyaslama','metodoloji','katki','kaynaklar'];
 const DEFAULT_ROUTE='liste';
 const ONBOARD_KEY='arac_puan_giris_gorundu';
 

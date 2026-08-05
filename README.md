@@ -3,7 +3,7 @@
 Türkiye ikinci el piyasasındaki otomatik vitesli araçları yedi kriter üzerinden
 puanlayan ve kullanıcının kendi belirlediği ağırlıklara göre sıralayan bir
 karşılaştırma platformu. Çıktı, hiçbir sunucuya veya bağımlılığa ihtiyaç duymadan
-tarayıcıda açılan tek bir dosyadır: `arac-puanlama.html`. Dosya tek olsa da uygulama
+tarayıcıda açılan tek bir dosyadır: `index.html`. Dosya tek olsa da uygulama
 tek sayfa değildir; araç listesi, kıyaslama, kriterler ve kaynaklar kendi ekranlarında
 durur ve aralarında `#liste`, `#kiyaslama` gibi adres çubuğu yollarıyla geçilir. Bu
 ayrımın gerekçesi `docs/ARCHITECTURE.md` MK-07 kaydında.
@@ -64,7 +64,7 @@ Tarayıcı testi yalnızca geliştirme sırasında gerekir ve Playwright ister:
 npm install playwright && node scripts/smoke_test.js
 ```
 
-`arac-puanlama.html` üretilmiş bir dosyadır ve elle düzenlenmez. Bir şeyi değiştirmek
+`index.html` üretilmiş bir dosyadır ve elle düzenlenmez. Bir şeyi değiştirmek
 için `data/` veya `templates/` içinde düzenleme yapılır, ardından `build.py`
 çalıştırılır.
 

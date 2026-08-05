@@ -127,7 +127,7 @@ yapıldığı iki cümleyle yazılır. Belge güncellenmezse ilk işlevini kaybe
 
 ## 6. Depoyla çalışırken
 
-- `arac-puanlama.html` üretilmiş bir dosyadır ve elle düzenlenmez. Değişiklik `data/`
+- `index.html` üretilmiş bir dosyadır ve elle düzenlenmez. Değişiklik `data/`
   veya `templates/` içinde yapılır, ardından `python3 scripts/build.py` çalıştırılır.
 - Veriyi değiştiren her commit'ten önce `python3 scripts/validate.py` çalıştırılır.
 - Puanlar arayüzden düzenlenemez; yalnızca veri dosyalarından, gerekçesiyle birlikte

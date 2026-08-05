@@ -233,6 +233,27 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .methrow .mid{flex:1 1 200px;color:var(--dim);min-width:0}
 .methrow .ex{flex:1 1 200px;color:var(--faint);font-size:11.5px;min-width:0}
 .methformula{white-space:pre-wrap;word-wrap:break-word}
+
+/* ---------- kaynak öner (katkı) ---------- */
+.ktgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px;margin-bottom:16px}
+.ktcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px;min-width:0}
+.ktcard h3{font-family:var(--disp);font-weight:600;font-size:17px;margin-bottom:10px}
+.ktcard p{color:var(--dim);font-size:13px;line-height:1.62;margin-bottom:10px}
+.ktcard p:last-child{margin-bottom:0}
+.ktlist,.ktsteps{margin:0 0 4px 0;padding-left:18px;color:var(--dim);font-size:13px;line-height:1.6}
+.ktlist li,.ktsteps li{margin-bottom:6px}
+.ktlist{list-style:none;padding-left:14px}
+.ktlist li{position:relative}
+.ktlist li::before{content:"\2022";position:absolute;left:-14px;color:var(--sage)}
+.ktsteps li b{color:var(--ink)}
+.ktsend{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+.ktsend h3{font-family:var(--disp);font-weight:600;font-size:17px;margin-bottom:14px}
+.ktoptions{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.ktopt{border:1px solid var(--line);border-radius:12px;padding:16px 18px;background:var(--panel2);min-width:0}
+.ktopt-h{font-weight:700;font-size:13.5px;margin-bottom:8px}
+.ktopt p{color:var(--dim);font-size:12.6px;line-height:1.6;margin-bottom:12px}
+.ktbtn{display:inline-block;text-decoration:none;background:var(--sage);color:#fff;border-color:var(--sage)}
+.ktbtn:hover{color:#fff;opacity:.9}
 </style>
 </head>
 <body>
@@ -245,6 +266,7 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
     <a href="#kriterler" data-route="kriterler">Kriterler</a>
     <a href="#metodoloji" data-route="metodoloji">Nasıl puanlıyoruz</a>
     <a href="#kaynaklar" data-route="kaynaklar">Kaynaklar</a>
+    <a href="#katki" data-route="katki">Kaynak öner</a>
     <a href="#giris" data-route="giris">Bu nedir?</a>
   </div>
 </div></nav>
@@ -408,6 +430,58 @@ fiyat = 100 × (en_pahalı − aracın_fiyatı) / (en_pahalı − en_ucuz)</pre>
     <code>docs/methodology.md</code>, <code>docs/PLAN.md</code> ve <code>docs/ARCHITECTURE.md</code> dosyalarında; her mimari karar orada gerekçesiyle birlikte yazılı duruyor.
   </div>
 </section>
+<!-- ==== 47-katki.html ==== -->
+<section class="screen" data-screen="katki">
+  <div class="screenhead">
+    <h2>Kaynak Öner</h2>
+    <p class="lede">Bir aracın puanını destekleyen ya da çürüten bir kaynağınız varsa gönderin. Kaynağı siz getirirsiniz, puanı metodoloji verir: öneriniz doğrudan veriye yazılmaz, incelenir ve kabul edilirse ilgili aracın kanıt kaydına bağlanır. Bu ayrımın gerekçesi belgelerdeki MK-05 kaydında duruyor.</p>
+  </div>
+
+  <div class="ktgrid">
+    <div class="ktcard">
+      <h3>Ne işe yarar bir kaynak</h3>
+      <p>En değerli öneri, bir iddiayı <b>somut biçimde</b> destekleyen kaynaktır. "Bu araç iyidir" diyen bir yazı işe yaramaz; "bu motorda triger zinciri 100 bin kilometrede uzuyor" diyen ve bunu gözleme ya da ölçüme dayandıran bir yazı işe yarar.</p>
+      <p>Özellikle aradıklarımız:</p>
+      <ul class="ktlist">
+        <li>Belirli bir motor veya şanzıman kodunda tekrarlayan arıza örüntüsü</li>
+        <li>Türkiye'ye özgü bilgi: parça fiyatı, usta bulunabilirliği, ikinci el davranışı</li>
+        <li>Uzun süreli sahiplik deneyimi; kaç kilometrede ne değişti</li>
+        <li>Üretici servis bülteni, geri çağırma kaydı, kurumsal güvenilirlik istatistiği</li>
+        <li>Bizim yanlış yazdığımız bir teknik bilgi — şanzıman tipi eşlemesi birkaç kez yanlış çıktı ve düzeltildi</li>
+      </ul>
+    </div>
+
+    <div class="ktcard">
+      <h3>Öneriniz ne oluyor</h3>
+      <ol class="ktsteps">
+        <li><b>İnceleme.</b> Kaynağın gerçekten iddiayı destekleyip desteklemediğine bakılır.</li>
+        <li><b>Güven seviyesi.</b> Kaynağa A, B veya C seviyesi verilir. Bu seviye, hangi puanın verilebileceğini sınırlar; tek bir forum mesajı bir aracı listeden eleyemez.</li>
+        <li><b>Bağlanma.</b> Kabul edilen kaynak künyeye dönüştürülür ve aracın kaydına bağlanır. Araç dört bağımsız kaynağa ulaşırsa rozeti "doğrulanmış" olur.</li>
+        <li><b>Puanın yeniden değerlendirilmesi.</b> Yeni kanıt puanı değiştiriyorsa puan yazılı bantlara göre güncellenir ve gerekçesi kayda geçer.</li>
+      </ol>
+      <p>Reddedilen öneriler de kayda geçer, böylece aynı kaynak tekrar tekrar değerlendirilmez. <a href="#metodoloji">Nasıl puanladığımızı</a> ayrıntılı okuyabilirsiniz.</p>
+    </div>
+  </div>
+
+  <div class="ktsend">
+    <h3>Göndermek için</h3>
+    <div class="ktoptions">
+      <div class="ktopt">
+        <div class="ktopt-h">GitHub üzerinden</div>
+        <p>Hazır form bütün alanları soruyor ve öneriniz herkese açık biçimde izlenebilir oluyor. GitHub hesabı gerekiyor.</p>
+        <a class="btn ktbtn" id="ktIssueLink" href="https://github.com/serhateralp01/arac_puanlama/issues/new?template=kaynak-onerisi.yml" target="_blank" rel="noopener">Kaynak önerisi formunu aç</a>
+      </div>
+      <div class="ktopt" id="ktMailOpt">
+        <div class="ktopt-h">E-posta ile</div>
+        <p id="ktMailText">Site içi form ve e-posta adresi hazırlanıyor. Hazır olduğunda bu bölümde, hangi araç için öneri verdiğinizi otomatik taşıyan bir form bulacaksınız; GitHub hesabı gerekmeyecek.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">
+    Öneri gönderirken kaynağın bağlantısını ve mümkünse kaynaktan <b>birebir alıntıyı</b> da yazın. Bağlantılar zamanla çürüyor; alıntı elimizde kalırsa iddia ayakta kalır. Bu yüzden kayıtlarımızda her kaynağın yanında hangi cümlenin hangi puanı taşıdığı da saklanıyor.
+  </div>
+</section>
 <!-- ==== 50-kaynaklar.html ==== -->
 <section class="screen" data-screen="kaynaklar">
   <div class="screenhead">
@@ -475,7 +549,7 @@ function weakReason(c,k){
    değişiyor; bu yüzden ekran değiştirmek hiçbir durumu sıfırlamıyor. Yol
    adları bir gün gerçek sunucu adreslerine ("/liste") birebir çevrilebilsin
    diye seçildi; gerekçesi docs/ARCHITECTURE.md MK-07 kaydında. */
-const ROUTES=['giris','kriterler','liste','kiyaslama','metodoloji','kaynaklar'];
+const ROUTES=['giris','kriterler','liste','kiyaslama','metodoloji','katki','kaynaklar'];
 const DEFAULT_ROUTE='liste';
 const ONBOARD_KEY='arac_puan_giris_gorundu';
 

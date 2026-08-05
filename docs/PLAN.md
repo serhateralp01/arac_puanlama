@@ -572,7 +572,7 @@ alındı. **Tamamlandı:**
 
 - `templates/index.html` bir kabuğa, ortak bir stil dosyasına, ekran parçalarına
   (`templates/screens/*.html`) ve davranış parçalarına (`templates/app/*.js`) bölündü.
-  Çıktı yine tek bir `arac-puanlama.html`; gerekçesi `docs/ARCHITECTURE.md` MK-07.
+  Çıktı yine tek bir `index.html`; gerekçesi `docs/ARCHITECTURE.md` MK-07.
 - Araç listesi, kıyaslama, kriterler ve kaynaklar ayrı ekranlara ayrıldı; aralarında
   `#liste`, `#kiyaslama` gibi yollarla, sayfa yeniden yüklenmeden geçiliyor. Kıyaslama
   sepeti ekran değiştikçe sıfırlanmıyor.

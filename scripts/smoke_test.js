@@ -20,7 +20,7 @@ const path = require('path');
 const { chromium } = require('playwright');
 
 const ROOT = path.resolve(__dirname, '..');
-const FILE = 'file://' + path.join(ROOT, 'arac-puanlama.html');
+const FILE = 'file://' + path.join(ROOT, 'index.html');
 const DEBUG_DIR = path.join(ROOT, 'scripts', '.smoke-debug');
 const ALWAYS_SCREENSHOT = process.argv.includes('--debug');
 
@@ -107,6 +107,16 @@ async function dumpDebug(label) {
     check('metodoloji istatistikleri doluyor', methStats === 5, `${methStats} kutu`);
     const methWidth = await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2);
     check('metodoloji ekranında yatay taşma yok', methWidth);
+    // Kaynak öner ekranı: GitHub form bağlantısı doğru depoyu göstermeli.
+    await page.click('.nav a[data-route="katki"]');
+    await page.waitForTimeout(200);
+    const issueHref = await page.getAttribute('#ktIssueLink', 'href');
+    const issueOk = issueHref.includes('serhateralp01/arac_puanlama')
+      && issueHref.includes('kaynak-onerisi.yml');
+    check('kaynak öner formu bağlantısı doğru', issueOk, issueHref);
+    const ktWidth = await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2);
+    check('kaynak öner ekranında yatay taşma yok', ktWidth);
+
     await page.click('.nav a[data-route="liste"]');
     await page.waitForTimeout(150);
 
