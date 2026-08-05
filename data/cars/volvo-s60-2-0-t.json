@@ -19,9 +19,9 @@
     700,
     1050
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
-    "motor": 62,
+    "motor": 44,
     "trans": 52,
     "fun": 80,
     "comf": 80,
@@ -32,9 +32,10 @@
   "sources": [
     "s60t",
     "volvops",
-    "autodoc_s60_problems"
+    "autodoc_s60_problems",
+    "enginecrux_b4204t"
   ],
-  "note": "203 beygirlik motoru keyifli bir araç. Otomatiği ıslak kavramalı Powershift (6DCT450/MPS6); bu kutu ailesinin genel zaafları (60-100 bin km'de sarsıntı, gecikmeli vites geçişi, kavrama aşınması) burada da geçerli, ama araştırma benzin turbo motorun dizel uygulamalara göre daha ağır aşındığına dair bir kanıt bulamadı — şikayet paterni motor tipine göre ayrışmıyor. Kutusunun faturalı biçimde yenilendiğini görmeden bu aracı almayın.",
+  "note": "203 beygirlik motoru keyifli bir araç ama iki cephede de dikkatli olun. Otomatiği ıslak kavramalı Powershift (6DCT450/MPS6); bu kutu ailesinin genel zaafları (60-100 bin km'de sarsıntı, gecikmeli vites geçişi, kavrama aşınması) burada da geçerli, ama araştırma benzin turbo motorun dizel uygulamalara göre daha ağır aşındığına dair bir kanıt bulamadı — şikayet paterni motor tipine göre ayrışmıyor. Motor tarafında ise bu turbo aile (B4204T/GTDi) vuruntu kaynaklı piston hasarı ve 2014 sonrası üretimde belgelenmiş bir piston segmanı kusuruyla anılıyor; Consumer Reports kullanıcı bildirimlerinde bu yüzden motor revizyonu gerektiren vakalar var. Kutusunun faturalı biçimde yenilendiğini ve motorun yağ tüketim geçmişini görmeden bu aracı almayın.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

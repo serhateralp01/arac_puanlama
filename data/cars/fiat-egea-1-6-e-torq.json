@@ -21,7 +21,7 @@
   ],
   "verification": "partial",
   "scores": {
-    "motor": 78,
+    "motor": 60,
     "trans": 80,
     "fun": 28,
     "comf": 77,
@@ -30,9 +30,10 @@
     "liq": 92
   },
   "sources": [
-    "wiki_fiat_tipo"
+    "wiki_fiat_tipo",
+    "enginescope_etorq_caution"
   ],
-  "note": "Benzinli Egea otomatiği gerçekten Aisin yapımı AW60T 6 ileri tork konvertörlü kutu — Wikipedia'nın Fiat Tipo/Egea teknik verisi bunu doğruluyor; çift kavramalı DCT sadece dizel Multijet motorlarında kullanılıyor, E.torQ benzinlide değil. E.torQ motorunun kendisi 2010'dan beri üretimde olan, dökme demir bloklu, zincirli, basit ve olgun bir tasarım (Jeep Renegade ve Fiat 500X ile paylaşılıyor). Motor basit ve dert çıkarmıyor ama 110 beygirle cansız kalıyor. Hiç uğraşmak istemeyenler için uygun.",
+  "note": "Benzinli Egea otomatiği gerçekten Aisin yapımı AW60T 6 ileri tork konvertörlü kutu — Wikipedia'nın Fiat Tipo/Egea teknik verisi bunu doğruluyor; çift kavramalı DCT sadece dizel Multijet motorlarında kullanılıyor, E.torQ benzinlide değil. E.torQ motorunun kendisi 2010'dan beri üretimde olan, dökme demir bloklu, zincirli, basit bir tasarım (Jeep Renegade ve Fiat 500X ile paylaşılıyor), ama FIRE ailesi kadar temiz değil: bağımsız bir güvenilirlik değerlendirmesi 66/100 'dikkat' notu veriyor ve yüksek kilometrede yağ tüketimi ile silindir kapağı contası endişesine işaret ediyor. 110 beygirle zaten cansız kalan bir motor; hiç uğraşmak istemeyenler için FIRE daha güvenli bir tercih.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",

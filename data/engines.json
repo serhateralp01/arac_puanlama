@@ -382,11 +382,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Fiat'ın Egea'da kullandığı 1.6 atmosferik benzinli."
+    "base_score": 60,
+    "maintenance": "Yağ tüketimi ve silindir kapağı contası yüksek kilometrede izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Yüksek kilometrede yağ tüketimi ve silindir kapağı contası endişesi",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "enginescope_etorq_caution"
+        ]
+      }
+    ],
+    "sources": [
+      "enginescope_etorq_caution"
+    ],
+    "note": "Fiat'ın Egea'da kullandığı 1.6 atmosferik benzinli. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): kaynak 66/100 'dikkat' notu veriyor, yağ tüketimi ve conta riski FIRE ailesine göre daha belirgin; tek kaynağa (C) dayanıyor.]"
   },
   "fca-fire-14": {
     "id": "fca-fire-14",
@@ -402,11 +414,13 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
+    "base_score": 76,
     "maintenance": null,
     "known_issues": [],
-    "sources": [],
-    "note": "Fiat'ın uzun ömürlü küçük benzinli ailesi; Egea'nın giriş motoru."
+    "sources": [
+      "drivisual_fire14_taxi"
+    ],
+    "note": "Fiat'ın uzun ömürlü küçük benzinli ailesi; Egea'nın giriş motoru. İstanbul taksilerinin büyük çoğunluğu Egea ve bunların önemli bir kısmı bu motoru kullanıyor — güçlü bir Türkiye içi dayanıklılık kanıtı. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: turbo veya karmaşık parça yok, gerçek dünya taksi kullanımı dayanıklılığı destekliyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "fca-jtd-19": {
     "id": "fca-jtd-19",
@@ -421,11 +435,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Alfa 159'un 150 beygirlik dizeli; Fiat'ın JTD common rail ailesinden."
+    "base_score": 58,
+    "maintenance": "Su pompası triger kayışıyla birlikte 4 yılda bir değiştirilmeli; atlanırsa pompa arızası kayışı fırlatıp motoru bitirebiliyor.",
+    "known_issues": [
+      {
+        "issue": "Su pompası arızası triger kayışını fırlatıp motoru tamamen bitirebiliyor",
+        "onset_km": 64000,
+        "frequency": "seyrek",
+        "severity": "motor ölür",
+        "sources": [
+          "alfaowner_jtdm_waterpump"
+        ]
+      },
+      {
+        "issue": "Enjektör tıkanması, EGR valfi arızası, marş motoru yavaşlaması",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "alfaowner_jtdm_waterpump"
+        ]
+      }
+    ],
+    "sources": [
+      "alfaowner_jtdm_waterpump"
+    ],
+    "note": "Alfa 159'un 150 beygirlik dizeli; Fiat'ın JTD common rail ailesinden. 159 üzerindeki en güvenilir motorlardan biri sayılıyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının üst sınırında: genel itibar güçlü ama su pompası kaynaklı motor bitirme riski gerçek (önlenebilir); tek kaynağa (C, forum) dayanıyor.]"
   },
   "fca-multiair-14": {
     "id": "fca-multiair-14",
@@ -441,11 +476,33 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Giulietta ve MiTo'da kullanılan elektrohidrolik supap kontrollü 1.4 turbo."
+    "base_score": 54,
+    "maintenance": "Fiat spesifikasyonuna uygun yağ ve zamanında değişim MultiAir modülü ömrü için kritik.",
+    "known_issues": [
+      {
+        "issue": "Triger zinciri gergisinin erken aşınması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "enginecrux_multiair_giulietta"
+        ]
+      },
+      {
+        "issue": "MultiAir modülü arızası (özellikle ilk nesil, yanlış yağ kullanımında), silindir yanlış ateşlemesi",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginecrux_multiair_giulietta"
+        ]
+      }
+    ],
+    "sources": [
+      "enginecrux_multiair_giulietta"
+    ],
+    "note": "Giulietta ve MiTo'da kullanılan elektrohidrolik supap kontrollü 1.4 turbo. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): elektrohidrolik sistem yağ kalitesine duyarlı ve gerçek arıza riski taşıyor; düzenli bakımla 200.000 km'yi aşabiliyor. Tek kaynağa (C) dayanıyor.]",
+    "revision_sensitivity": "MultiAir 2 sürümünde sorunlar büyük ölçüde azaldı; MultiAir 1 arızaları Giulietta'ya göre bazı MiTo örneklerinde daha sık bildiriliyor."
   },
   "fca-multijet-16": {
     "id": "fca-multijet-16",
@@ -461,11 +518,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Egea'nın 1.6 dizeli; Fiat'ın ikinci nesil MultiJet common rail ailesinden."
+    "base_score": 64,
+    "maintenance": "Kısa mesafe kullanımda DPF, çift kütleli volan ve elektrik aksamı periyodik kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Kısa mesafe şehir içi kullanımda DPF'nin kurumu yakamaması",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "gaga_tipo_multijet"
+        ]
+      }
+    ],
+    "sources": [
+      "gaga_tipo_multijet"
+    ],
+    "note": "Egea'nın 1.6 dizeli; Fiat'ın ikinci nesil MultiJet common rail ailesinden. Sorunlar büyük ölçüde çevresel bileşenlerde (DPF, çift kütleli volan, amortisör, elektrik) toplanıyor; bunlar zamanında bakım görürse motor 200.000 km'yi aşarak iyi hizmet veriyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: motorun kendisi sağlam, çevresel bileşenler kısa mesafe kullanımda sorun çıkarabiliyor; tek kaynağa (C) dayanıyor.]"
   },
   "ford-duratec-he": {
     "id": "ford-duratec-he",
@@ -1943,11 +2012,33 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Auris, Avensis ve Corolla'nın 1.6/1.8 benzinli ailesi. Toyota'nın dayanıklılık ünü büyük ölçüde bu tip atmosferik ailelere dayanıyor."
+    "base_score": 76,
+    "maintenance": "1ZR-FAE'de su pompası 50-80 bin km civarı sızdırmaya başlayabiliyor; Valvematic aktüatörü karbon birikimine karşı izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "2014 ve bazı erken 2015 modellerinde Valvematic aktüatörünün karbon birikimiyle sıkışması, güç kaybı veya çalışmama",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "büyük onarım",
+        "sources": [
+          "homeofengines_1zr"
+        ]
+      },
+      {
+        "issue": "1ZR-FAE'de su pompasının erken (50-80 bin km) sızdırması veya gürültü yapması",
+        "onset_km": 65000,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "homeofengines_1zr"
+        ]
+      }
+    ],
+    "sources": [
+      "homeofengines_1zr"
+    ],
+    "note": "Auris, Avensis ve Corolla'nın 1.6/1.8 benzinli ailesi. Toyota'nın dayanıklılık ünü büyük ölçüde bu tip atmosferik ailelere dayanıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: 'uzunluk, sorunsuz çalışma, düşük arıza sıklığı' ile anılıyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]",
+    "revision_sensitivity": "Valvematic aktüatör sıkışması esas olarak 2014 ve erken 2015 üretimini etkiliyor; Toyota bunu 2015 sonu/2016 başında revize etti. Listedeki araçların çoğu bu dar riskli pencerenin dışında veya büyük ölçüde dışında kalıyor."
   },
   "toyota-zz": {
     "id": "toyota-zz",
@@ -1963,11 +2054,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Corolla E12'nin 1.6 VVT-i motoru; ZR ailesinden önceki nesil."
+    "base_score": 58,
+    "maintenance": "Yağ değişim aralığına sıkı uyulmalı (3.000 mil); PCV sisteminin tıkanmaması sorunu büyük ölçüde önlüyor.",
+    "known_issues": [
+      {
+        "issue": "2005 (1ZZ) / 2002 (3ZZ) öncesi üretimde yaygın yüksek yağ tüketimi (piston segmanı, supap keçesi, ince silindir gömleği aşınması)",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_1zzfe"
+        ]
+      }
+    ],
+    "sources": [
+      "engineexplained_1zzfe"
+    ],
+    "note": "Corolla E12'nin 1.6 VVT-i motoru; ZR ailesinden önceki nesil. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): erken üretim yılları için yüksek yağ tüketimi gerçek ve yaygın bir sorun; buna karşılık düzenli yağ değişimiyle büyük ölçüde önlenebiliyor ve bazı örnekler 400.000 mile kadar sorunsuz gidiyor. Tek kaynağa (C) dayanıyor.]"
   },
   "vag-ea113-18t": {
     "id": "vag-ea113-18t",
@@ -2272,11 +2375,11 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
+    "base_score": 66,
     "maintenance": null,
     "known_issues": [],
     "sources": [],
-    "note": "S40 ve V50'nin 2.0 atmosferik benzinlisi."
+    "note": "S40 ve V50'nin 2.0 atmosferik benzinlisi. Not: motor kod araştırması, B4204S kodunun esas olarak 1995-1999 üretilen ilk nesil S40/V40'a ait olduğunu gösterdi; listedeki araç 2004-2012 üretim ikinci nesil S40/V50 gövdesini kapsıyor ve bu nesil muhtemelen farklı bir motor kodu (Ford Focus tabanlı P1 platformunun kendi 2.0 ailesi) kullanıyor. Kod eşlemesi bu yüzden düşük güvenle yapıldı ve doğrulanması gerekiyor; bulunan tek veri noktası (bir sahibin ~250.000 km sorunsuz kullanımı) olumlu ama motora özgü bağımsız bir kaynakla desteklenmedi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında, temkinli: kod eşlemesi belirsizliği nedeniyle kaynak eklenmedi, yalnızca aynı dönemin atmosferik Volvo motorlarının genel profiline dayanan bir varsayım.]"
   },
   "volvo-b4204t-gtdi": {
     "id": "volvo-b4204t-gtdi",
@@ -2293,11 +2396,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "S60'ın 2.0 turbo benzinlisi; Ford ile ortak kökenli EcoBoost tabanlı aile."
+    "base_score": 44,
+    "maintenance": "Doğru yağ spesifikasyonu kritik; faz ayarlayıcılar yanlış yağda 100.000 km'ye inebiliyor, bu km'de supap ayarı da gerekiyor.",
+    "known_issues": [
+      {
+        "issue": "Vuruntu (detonasyon) kaynaklı piston hasarı; egzoz manifoldu çatlayıp türbini bozabiliyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "motor ölür",
+        "sources": [
+          "enginecrux_b4204t"
+        ]
+      },
+      {
+        "issue": "2014 sonrası üretimde bilinen piston segmanı kusuru, Consumer Reports'ta motor revizyonu vakaları",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginecrux_b4204t"
+        ]
+      }
+    ],
+    "sources": [
+      "enginecrux_b4204t"
+    ],
+    "note": "S60'ın 2.0 turbo benzinlisi; Ford ile ortak kökenli EcoBoost tabanlı aile. [base_score gerekçesi: 35-49 (bilinen risk): vuruntu kaynaklı piston hasarı ve belgelenmiş piston segmanı kusuru ciddi ve tekrarlayan; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
   },
   "volvo-b5254": {
     "id": "volvo-b5254",
@@ -2314,11 +2438,13 @@
     ],
     "cylinders": 5,
     "aspiration": null,
-    "base_score": null,
-    "maintenance": null,
+    "base_score": 66,
+    "maintenance": "Doğru yağ ve temiz yakıtla düzenli bakım kritik.",
     "known_issues": [],
-    "sources": [],
-    "note": "Birinci nesil S60'ın beş silindirli benzinli ailesi; hem atmosferik hem turbo sürümleri var."
+    "sources": [
+      "engineexplained_d5244t"
+    ],
+    "note": "Birinci nesil S60'ın beş silindirli benzinli ailesi; hem atmosferik hem turbo sürümleri var. Motora özgü ayrıntılı bir kaynak bulunamadı; aynı dönemin Volvo beş silindirli dizel ailesinin (D5/D5244T) 'basitlik ve güvenilirlikle biliniyor, doğru bakımla uzun kilometreyi kaldırıyor' genel profiline dayanarak temkinli bir puan verildi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: motora özgü kaynak eksikliği nedeniyle temkinli.]"
   },
   "volvo-d-20": {
     "id": "volvo-d-20",
@@ -2336,11 +2462,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Volvo'nun 2.0 dizel ailesi; erken sürümleri Ford kökenli, sonrakiler Volvo'nun kendi VEA ailesinden."
+    "base_score": 70,
+    "maintenance": "Doğru yağ ve temiz yakıtla bakım kritik; hidrolik itici düşük kaliteli yağa toleranssız (100.000 km'de takırdayabiliyor).",
+    "known_issues": [
+      {
+        "issue": "Enjektör arızası, EGR valfi karbon tıkanması, turbo gecikmesi/arızası",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_d5244t"
+        ]
+      },
+      {
+        "issue": "Düşük kaliteli yağa toleranssız hidrolik itici, 100.000 km'de takırdayabiliyor",
+        "onset_km": 100000,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_d5244t"
+        ]
+      }
+    ],
+    "sources": [
+      "engineexplained_d5244t"
+    ],
+    "note": "Volvo'nun 2.0 dizel ailesi; erken sürümleri Ford kökenli, sonrakiler Volvo'nun kendi VEA ailesinden. Aynı ailenin 2.4/beş silindirli üyesi (D5244T) 'serideki en güvenilirlerden biri' sayılıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: güçlü temel tasarım, bilinen sorunlar planlanabilir bakım kalemleri; tek kaynağa (C) dayanıyor.]"
   },
   "volvo-vea-benzin": {
     "id": "volvo-vea-benzin",
@@ -2357,11 +2504,32 @@
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
-    "base_score": null,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "Volvo'nun Drive-E (VEA) benzinli ailesinin 1.5 turbo üyesi."
+    "base_score": 60,
+    "maintenance": "Triger kayışı zamanında değiştirilmeli (interference motor); yüksek kilometrede yağ tüketimi izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Bazı örneklerde triger kayışının kopup motoru tamamen bitirmesi",
+        "onset_km": null,
+        "frequency": "nadir",
+        "severity": "motor ölür",
+        "sources": [
+          "volvoforums_vea_reports"
+        ]
+      },
+      {
+        "issue": "Piston segmanı/silindir kapağı kaynaklı aşırı yağ yakma, bazı örneklerde ~95.000 milde motor revizyonu gerektirmesi",
+        "onset_km": 95000,
+        "frequency": "seyrek",
+        "severity": "büyük onarım",
+        "sources": [
+          "volvoforums_vea_reports"
+        ]
+      }
+    ],
+    "sources": [
+      "volvoforums_vea_reports"
+    ],
+    "note": "Volvo'nun Drive-E (VEA) benzinli ailesinin 1.5 turbo üyesi. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): forum kaynaklı bağımsız bildirimler gerçek ama sayıca sınırlı ve tek kaynağa (C, forum) dayanıyor; daha güçlü kanıt gelene kadar orta bantta tutuldu.]"
   },
   "vag-ea111-tsi-tc": {
     "id": "vag-ea111-tsi-tc",

@@ -1994,5 +1994,115 @@
     "accessed": "2026-08-05",
     "language": "en",
     "quotes": []
+  },
+  "engineexplained_1zzfe": {
+    "id": "engineexplained_1zzfe",
+    "claim": "Toyota 1ZZ-FE/3ZZ-FE motorlarında 2005 (1ZZ) ve 2002 (3ZZ) öncesi üretilen örneklerde yaygın bir yüksek yağ tüketimi sorunu bildirildiği; nedeninin piston segmanı aşınması, supap keçesi bozulması ve ince silindir gömleklerinin zamanla deforme olması olduğu, düzenli (3.000 milde bir) yağ değişimiyle sorunun büyük ölçüde önlenebildiği, bazı örneklerin 400.000 mile kadar sorunsuz gittiği",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/1zz-fe-toyota-engine-problems-review-and-insights/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "homeofengines_1zr": {
+    "id": "homeofengines_1zr",
+    "claim": "Toyota 1ZR/2ZR (Valvematic) motorlarının uzun ömür, sorunsuz çalışma ve düşük arıza sıklığıyla bilindiği, 250.000-300.000 km'yi minimal sorunla aşan örneklerin yaygın olduğu; buna karşılık 2014 ve bazı erken 2015 modellerinde Valvematic aktüatörünün emme manifoldundaki karbon birikimi nedeniyle sıkışabildiği, bu durumun güç kaybına hatta motorun çalışmamasına yol açabildiği, Toyota'nın bunu 2015 sonu/2016 başında revize ettiği ve sonraki araçların bu sorundan büyük ölçüde etkilenmediği",
+    "publisher": "Home of Engines",
+    "url": "https://homeofengines.co.za/1zr-engine-explained-why-its-one-of-toyotas-most-balanced-powerplants/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "alfaowner_jtdm_waterpump": {
+    "id": "alfaowner_jtdm_waterpump",
+    "claim": "Alfa 159'un 1.9 JTDm dizelinin 159 üzerindeki en güvenilir motorlardan biri sayıldığı; buna karşılık triger kayışının su pompasını da tahrik ettiği, su pompası arızasının kayışı fırlatıp 40.000 mil gibi erken bir noktada motoru tamamen bitirebildiği (bu yüzden su pompasının kayışla birlikte 4 yılda bir değiştirilmesi öneriliyor), enjektör tıkanması, EGR valfi arızası ve marş motorunun yavaşlaması gibi bilinen sorunlar olduğu",
+    "publisher": "AlfaOwner Forum",
+    "url": "https://www.alfaowner.com/threads/potential-problems-with-159-1-9jtdm.205580/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecrux_multiair_giulietta": {
+    "id": "enginecrux_multiair_giulietta",
+    "claim": "Fiat/Alfa MultiAir 1.4 motorunda triger zinciri gergisinin erken aşınabildiği, MultiAir modülünün (özellikle ilk nesil, yanlış yağ spesifikasyonu kullanılırsa) arızalanıp silindir yanlış ateşlemesine yol açabildiği; MultiAir 1 arızalarının Giulietta'ya göre bazı MiTo örneklerinde daha sık görüldüğü, düzenli ve spesifikasyona uygun yağ bakımıyla motorun 200.000 km'yi aşabildiği, MultiAir 2 sürümünde sorunların büyük ölçüde azaldığı",
+    "publisher": "EngineCrux",
+    "url": "https://enginecrux.com/alfa-romeo-1-4-multiair-engine-specs-issues-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "drivisual_fire14_taxi": {
+    "id": "drivisual_fire14_taxi",
+    "claim": "Fiat Tipo/Egea'nın 1.4 FIRE motorunun güvenilir bir giriş seviyesi motor olduğu, turbo ve karmaşık parça taşımadığı için pahalı arıza riskinin düşük olduğu; İstanbul'daki taksilerin büyük çoğunluğunun Egea olduğu ve bunların önemli bir kısmının 1.4 FIRE motoruna sahip olduğu, bunun uzun vadeli dayanıklılığa işaret ettiği",
+    "publisher": "Drivisual",
+    "url": "https://www.drivisual.tv/en/reviews/fiat-tipo-1-4-fire-in-depth-review-real-world-fuel-economy-performance-and-common-issues",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginescope_etorq_caution": {
+    "id": "enginescope_etorq_caution",
+    "claim": "Fiat 1.6 E.torQ motorunun güvenilirlik notunun 66/100 ('dikkat') olduğu, yüksek kilometrede yağ tüketimi ve silindir kapağı contası endişelerinin bilinen sorunlar arasında olduğu",
+    "publisher": "EngineScope",
+    "url": "https://enginescope.gr/engine/fiat-16-etorq/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "gaga_tipo_multijet": {
+    "id": "gaga_tipo_multijet",
+    "claim": "Fiat Tipo/Egea 1.6 Multijet'te sorunların çoğunlukla çevresel bileşenlerde (DPF, çift kütleli volan, amortisör, elektrik) toplandığı; bu kalemler zamanında bakım/değişim görürse motorun 200.000 km'yi aşarak iyi hizmet verdiği, kısa mesafe şehir içi kullanımda DPF'nin kurumu yakamadığı",
+    "publisher": "Auto Gas Gaga",
+    "url": "https://gaga.ba/en/najcesci-kvarovi/fiat-tipo-1-6-multijet",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "volvoforums_vea_reports": {
+    "id": "volvoforums_vea_reports",
+    "claim": "Volvo VEA Drive-E motorlarının interference (çakışan) tasarımda olduğu, triger kayışının koptuğu durumlarda motorun tamamen bitebildiği; bazı sahiplerin ~95.000 milde aşırı yağ yakma bildirdiği ve bayinin motor revizyonu gerektiğine karar verdiği, piston segmanı ve silindir kapağından kaynaklı yağ yakma vakalarının forumlarda bağımsız olarak bildirildiği",
+    "publisher": "Volvo Owners Club Forum",
+    "url": "https://www.pistonheads.com/gassing/topic.asp?h=0&f=156&t=1973816",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecrux_b4204t": {
+    "id": "enginecrux_b4204t",
+    "claim": "Volvo B4204T (2.0 GTDi/Drive-E) motorunda vuruntu (detonasyon) kaynaklı piston hasarının en bilinen arıza olduğu, egzoz manifoldunun çatlayıp parçalarının türbini bozabildiği, direkt enjeksiyon nozullarının kötü yakıtla hızla kirlendiği; 2014 sonrası üretilen sürümde bilinen bir piston segmanı kusuru olduğu, Consumer Reports kullanıcı bildirimlerinde segman arızası nedeniyle motor revizyonu gerektiği vakaların rapor edildiği",
+    "publisher": "EngineCrux",
+    "url": "https://enginecrux.com/volvo-b4204t-2-0l-engine-specs-problems-and-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_d5244t": {
+    "id": "engineexplained_d5244t",
+    "claim": "Volvo D5/D3/D4 dizel ailesinin basitlik ve güvenilirlikle bilindiği, silindir bloğu ve krank milinin doğru yağ, temiz yakıt ve düzenli bakımla uzun kilometreleri kaldırabildiği; bilinen sorunların enjektör arızası, EGR valfi karbon tıkanması, turbo gecikmesi/arızası ve düşük kaliteli yağa toleranssız hidrolik itici (100.000 km'de takırdayabiliyor) olduğu",
+    "publisher": "Engine Explained",
+    "url": "https://www.engineexplained.com/volvo-d5244t4-2-4-l-engine-review/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-05",
+    "language": "en",
+    "quotes": []
   }
 }
