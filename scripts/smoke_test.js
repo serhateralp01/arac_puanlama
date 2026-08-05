@@ -100,6 +100,16 @@ async function dumpDebug(label) {
     const refs = await page.locator('#refs li').count();
     check('kaynak listesi dolu', refs > 40, `${refs} kaynak`);
 
+    // Metodoloji ekranı: canlı istatistikler DB'den hesaplanıyor, elle yazılmıyor.
+    await page.click('.nav a[data-route="metodoloji"]');
+    await page.waitForTimeout(200);
+    const methStats = await page.locator('#methStats .methstat').count();
+    check('metodoloji istatistikleri doluyor', methStats === 5, `${methStats} kutu`);
+    const methWidth = await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2);
+    check('metodoloji ekranında yatay taşma yok', methWidth);
+    await page.click('.nav a[data-route="liste"]');
+    await page.waitForTimeout(150);
+
     // Sıralama: ilk satır en yüksek toplam puana sahip olmalı.
     const totals = await page.$$eval('#body tr.main td.tot', (tds) =>
       tds.map((td) => parseFloat(td.textContent))

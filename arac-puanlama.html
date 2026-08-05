@@ -213,6 +213,26 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .onext{margin-top:26px}
 .onext .btn{background:var(--sage);color:#fff;border-color:var(--sage);padding:10px 22px}
 .ofoot{display:flex;justify-content:space-between;margin-top:34px;padding-top:18px;border-top:1px solid var(--line)}
+
+/* ---------- metodoloji ---------- */
+.methstats{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 28px}
+.methstat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 18px;min-width:150px}
+.methstat b{display:block;font-family:var(--disp);font-size:22px;font-weight:600;color:var(--sage)}
+.methstat span{font-family:var(--mono);font-size:10.5px;color:var(--dim);text-transform:uppercase;letter-spacing:.04em}
+.methgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:16px}
+.methcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px;min-width:0}
+.methcard h3{font-family:var(--disp);font-weight:600;font-size:17px;margin-bottom:10px;letter-spacing:-.005em}
+.methcard p{color:var(--dim);font-size:13px;line-height:1.62;margin-bottom:10px}
+.methcard p:last-child{margin-bottom:0}
+.methcard code{font-family:var(--mono);font-size:11.5px;background:var(--panel2);padding:1px 5px;border-radius:4px;color:var(--ink)}
+.methformula{font-family:var(--mono);font-size:11.5px;line-height:1.7;background:var(--panel2);border-radius:10px;padding:12px 14px;margin-bottom:10px;overflow-x:auto;color:var(--ink)}
+.methtiers{width:100%;margin-bottom:10px;font-size:12.5px}
+.methrow{display:flex;flex-wrap:wrap;gap:4px 14px;padding:8px 0;border-bottom:1px solid var(--line)}
+.methrow:last-child{border-bottom:none}
+.methrow .tt{font-family:var(--mono);font-weight:700;color:var(--sage);flex:0 0 28px}
+.methrow .mid{flex:1 1 200px;color:var(--dim);min-width:0}
+.methrow .ex{flex:1 1 200px;color:var(--faint);font-size:11.5px;min-width:0}
+.methformula{white-space:pre-wrap;word-wrap:break-word}
 </style>
 </head>
 <body>
@@ -223,6 +243,7 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
     <a href="#liste" data-route="liste">Araç listesi</a>
     <a href="#kiyaslama" data-route="kiyaslama">Kıyaslama<span class="cnt" id="navCmpCount"></span></a>
     <a href="#kriterler" data-route="kriterler">Kriterler</a>
+    <a href="#metodoloji" data-route="metodoloji">Nasıl puanlıyoruz</a>
     <a href="#kaynaklar" data-route="kaynaklar">Kaynaklar</a>
     <a href="#giris" data-route="giris">Bu nedir?</a>
   </div>
@@ -324,6 +345,69 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
   <div id="cmpEmpty" class="cmpempty">Henüz kıyaslamaya araç eklemediniz. <a href="#liste" style="color:var(--blue)">Araç listesine gidip</a> bir aracın solundaki artı işaretine tıklayın.</div>
   <div id="cmpArea" class="cmpsection"></div>
 </section>
+<!-- ==== 45-metodoloji.html ==== -->
+<section class="screen" data-screen="metodoloji">
+  <div class="screenhead">
+    <h2>Nasıl Puanlıyoruz</h2>
+    <p class="lede">Bu sayfa, toplam puanın hangi hesaptan çıktığını ve bir puanın arkasında hangi kanıt kuralının durduğunu anlatıyor. Amaç aynı kanıtın her zaman aynı puanı üretmesi; bir puan bir hisse değil, kayıtlı bir kararın sonucu.</p>
+  </div>
+
+  <div id="methStats" class="methstats"></div>
+
+  <div class="methgrid">
+    <div class="methcard">
+      <h3>1. Toplam puan nasıl hesaplanıyor</h3>
+      <p>Yedi kriter (motor, şanzıman, sürüş keyfi, günlük kullanım, yaş/gövde/elektrik riski, sahip olma maliyeti, bulunabilirlik) artı otomatik hesaplanan fiyat puanı, sizin belirlediğiniz ağırlıklarla ağırlıklı ortalamaya giriyor:</p>
+      <pre class="methformula">toplam = Σ(kriter_puanı × ağırlık) / Σ(ağırlıklar)
+normalize = listedeki en yükseğe 100, en düşüğe 0 verilerek yeniden ölçekleme
+fiyat = 100 × (en_pahalı − aracın_fiyatı) / (en_pahalı − en_ucuz)</pre>
+      <p>Ağırlıklar toplamı 100'ü tutmasa da hesap yine normalize ediliyor; arayüz yalnızca uyarıyor, engellemiyor. Normalize sütunun varlık sebebi şu: ham toplamlar dar bir bantta (yaklaşık 52-75) toplanıyor ve aradaki gerçek fark gözle görülmüyor; normalize sütun bu farkı büyütüyor. Ağırlıkları <a href="#kriterler">kriterler ekranından</a> kendiniz değiştirebilirsiniz.</p>
+    </div>
+
+    <div class="methcard">
+      <h3>2. Puan bir hisse değil, çapalı bir banda bağlı</h3>
+      <p>Her kriter için "şu kanıt varsa puan şu aralıkta olur" biçiminde yazılı bir bant tanımı var. Örneğin şanzıman kriterinde "85-100: iki bağımsız kaynakta kronik arıza kaydı yok" ya da "35-49: en az bir kaynak, düşük-orta kilometrede kavrama veya mekatronik arızası doğruluyor" gibi. Her bandın listede gerçek bir araca çapalanmış bir örneği var; yeni bir araç puanlanırken sorulan soru "kaç puan hak ediyor" değil, "çapa araçtan iyi mi kötü mü" oluyor. Bu yöntemin literatürdeki adı <i>behaviorally anchored rating scale</i>: insan yargısı, mutlak bir sayı üretirken değil karşılaştırma yaparken çok daha tutarlı çalışıyor.</p>
+    </div>
+
+    <div class="methcard">
+      <h3>3. Kanıt üç seviyede sınıflanıyor</h3>
+      <p>Her kaynağa A, B veya C güven seviyesi veriliyor ve bu seviye hangi puanın verilebileceğini sınırlıyor.</p>
+      <div class="methtiers">
+        <div class="methrow"><span class="tt">A</span><span class="mid">Sayısal, kurumsal, örneklem tabanlı veri</span><span class="ex">TÜV Report, ADAC Pannenstatistik, resmi vergi tarifesi</span></div>
+        <div class="methrow"><span class="tt">B</span><span class="mid">Bağımsız teknik analiz veya çok sayıda bağımsız kullanıcının aynı örüntüyü bildirmesi</span><span class="ex">Bağımsız servis analizleri, onlarca ayrı şikayet başlığı</span></div>
+        <div class="methrow"><span class="tt">C</span><span class="mid">Tekil anekdot, tek forum mesajı, ticari blog</span><span class="ex">"257 bin km sorunsuz gitti" tipi tek beyan</span></div>
+      </div>
+      <p><b>Kural:</b> Bir puan yalnızca C seviyesi kaynaklara dayanıyorsa üst banda (90 ve üstü) veya alt banda (34 ve altı) çıkamaz, orta bantta kalır. İddialı bir puan iddialı kanıt ister.</p>
+    </div>
+
+    <div class="methcard">
+      <h3>4. Doğrulama rozeti kaynak sayısından hesaplanıyor</h3>
+      <p>Bir aracın adının yanındaki rozet elle verilmiyor; bağlı olduğu bağımsız kaynak sayısından türetiliyor.</p>
+      <div class="methtiers">
+        <div class="methrow"><span class="tt">4+</span><span class="mid">doğrulanmış</span><span class="ex">dört veya daha fazla bağımsız kaynak</span></div>
+        <div class="methrow"><span class="tt">1-3</span><span class="mid">kısmi kaynak</span><span class="ex">en az bir, dörtten az kaynak</span></div>
+        <div class="methrow"><span class="tt">0</span><span class="mid">ön değerlendirme</span><span class="ex">henüz hiç kaynağa bağlanmadı</span></div>
+      </div>
+      <p>Dört eşiğinin seçilmesi bilinçli bir katılık: iki kaynak, ikisi de aynı forumdan geliyorsa gerçek bir doğrulama sağlamaz. Bu kuralın uygulanması listenin "doğrulanmış" görünen araç sayısını bir anda düşürdü — bu bir gerileme değil, önceki elle verilen etiketin fazla iyimser olduğunun ölçülmesiydi.</p>
+    </div>
+
+    <div class="methcard">
+      <h3>5. Aynı motor, aynı şanzıman — bir kez değerlendirilir</h3>
+      <p>Puanlar araç seviyesinde görünse de kanıtın çoğu bileşen seviyesinde: bir motor kodu veya bir şanzıman kutusu, onu kullanan her araçta yeniden ve elden değerlendirilirse tutarsızlık kaçınılmaz olur. Bu yüzden her motor ailesi (<code>data/engines.json</code>) ve her şanzıman kutusu (<code>data/transmissions.json</code>) yalnızca bir kez araştırılıyor ve o araştırmanın sonucu (temel puan, bilinen arızalar, kaynaklar) o bileşeni kullanan bütün araçlara aynı şekilde uygulanıyor. Bir aracın puanı bu temel puandan büyük ölçüde sapıyorsa, sapmanın kayıtlı ve kaynaklı bir gerekçesi olmak zorunda — aksi hâlde bu bizim denetim betiğimizde otomatik olarak yakalanan bir hata sayılıyor.</p>
+      <p>Aynı fiziksel bileşen bazen gerçekten farklı davranır: bir şanzıman motorun torkuna yakın çalışıyorsa daha erken aşınabilir, bir motor kodu üretim yılına göre revizyon geçirmiş olabilir (ör. bir contanın yeniden tasarlanması). Bu tür farklar da kayıt altına alınıyor, ama yalnızca somut bir kanıtla — "motora göre değişebilir" gibi genel bir mazeret asla tek başına gerekçe sayılmıyor.</p>
+    </div>
+
+    <div class="methcard">
+      <h3>6. Zayıf halka: 35 altı puan kırmızı işaretlenir</h3>
+      <p>Herhangi bir kriterde puan 35'in altındaysa hücre kırmızı gösterilir ve detay panelinde nedeni açıklanır. Bu eşik keyfi seçilmedi: 30'da yalnızca birkaç araçta, 40'ta listenin üçte birinde en az bir kırmızı hücre çıkıyordu; 40 çok gevşek olduğu için uyarı anlamını yitiriyordu. 35'te makul bir denge kuruluyor — aracı gerçekten eleyecek kadar ciddi ama sıradanlaştırmayacak kadar seyrek.</p>
+    </div>
+  </div>
+
+  <div class="note">
+    Bu sayfa özetin özeti. Kriter tanımları, ağırlık setleri, şanzıman sınıflandırmasının neden birkaç kez yanlış çıkıp düzeltildiği ve bant tablolarının tamamı gibi ayrıntılar depodaki
+    <code>docs/methodology.md</code>, <code>docs/PLAN.md</code> ve <code>docs/ARCHITECTURE.md</code> dosyalarında; her mimari karar orada gerekçesiyle birlikte yazılı duruyor.
+  </div>
+</section>
 <!-- ==== 50-kaynaklar.html ==== -->
 <section class="screen" data-screen="kaynaklar">
   <div class="screenhead">
@@ -391,7 +475,7 @@ function weakReason(c,k){
    değişiyor; bu yüzden ekran değiştirmek hiçbir durumu sıfırlamıyor. Yol
    adları bir gün gerçek sunucu adreslerine ("/liste") birebir çevrilebilsin
    diye seçildi; gerekçesi docs/ARCHITECTURE.md MK-07 kaydında. */
-const ROUTES=['giris','kriterler','liste','kiyaslama','kaynaklar'];
+const ROUTES=['giris','kriterler','liste','kiyaslama','metodoloji','kaynaklar'];
 const DEFAULT_ROUTE='liste';
 const ONBOARD_KEY='arac_puan_giris_gorundu';
 
@@ -634,6 +718,27 @@ function renderTray(){
 }
 document.getElementById('trayClear').onclick=()=>{cmpSet=[];renderTray();renderRows_softUpdate();renderCompare();};
 document.getElementById('trayGo').onclick=()=>goTo('kiyaslama');
+/* ==== 48-metodoloji.js ==== */
+/* ---------- metodoloji ekranı: canlı istatistikler ---------- */
+/* Metodoloji sayfasındaki sayılar veriden hesaplanıyor, elle yazılmıyor;
+   böylece veri değiştikçe sayfa da otomatik güncel kalıyor. */
+(function(){
+ const box=document.getElementById('methStats');
+ if(!box)return;
+ const total=CARS.length;
+ const verified=CARS.filter(c=>c.v===true).length;
+ const partial=CARS.filter(c=>c.v==='p').length;
+ const avgSources=(CARS.reduce((sum,c)=>sum+(c.r?c.r.length:0),0)/total).toFixed(2);
+ const sourceCount=Object.keys(R).length;
+ const stats=[
+  [total, 'araç'],
+  [sourceCount, 'kaynak'],
+  [verified, 'doğrulanmış araç'],
+  [partial, 'kısmi kaynaklı araç'],
+  [avgSources, 'araç başına ortalama kaynak'],
+ ];
+ box.innerHTML=stats.map(([v,l])=>'<div class="methstat"><b>'+v+'</b><span>'+l+'</span></div>').join('');
+})();
 /* ==== 50-radar.js ==== */
 /* ---------- radar chart (pure SVG) ---------- */
 const RADAR_KEYS=['motor','trans','fun','comf','age','cost','liq'];

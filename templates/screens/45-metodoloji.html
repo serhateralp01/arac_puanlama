@@ -1,0 +1,62 @@
+<section class="screen" data-screen="metodoloji">
+  <div class="screenhead">
+    <h2>Nasıl Puanlıyoruz</h2>
+    <p class="lede">Bu sayfa, toplam puanın hangi hesaptan çıktığını ve bir puanın arkasında hangi kanıt kuralının durduğunu anlatıyor. Amaç aynı kanıtın her zaman aynı puanı üretmesi; bir puan bir hisse değil, kayıtlı bir kararın sonucu.</p>
+  </div>
+
+  <div id="methStats" class="methstats"></div>
+
+  <div class="methgrid">
+    <div class="methcard">
+      <h3>1. Toplam puan nasıl hesaplanıyor</h3>
+      <p>Yedi kriter (motor, şanzıman, sürüş keyfi, günlük kullanım, yaş/gövde/elektrik riski, sahip olma maliyeti, bulunabilirlik) artı otomatik hesaplanan fiyat puanı, sizin belirlediğiniz ağırlıklarla ağırlıklı ortalamaya giriyor:</p>
+      <pre class="methformula">toplam = Σ(kriter_puanı × ağırlık) / Σ(ağırlıklar)
+normalize = listedeki en yükseğe 100, en düşüğe 0 verilerek yeniden ölçekleme
+fiyat = 100 × (en_pahalı − aracın_fiyatı) / (en_pahalı − en_ucuz)</pre>
+      <p>Ağırlıklar toplamı 100'ü tutmasa da hesap yine normalize ediliyor; arayüz yalnızca uyarıyor, engellemiyor. Normalize sütunun varlık sebebi şu: ham toplamlar dar bir bantta (yaklaşık 52-75) toplanıyor ve aradaki gerçek fark gözle görülmüyor; normalize sütun bu farkı büyütüyor. Ağırlıkları <a href="#kriterler">kriterler ekranından</a> kendiniz değiştirebilirsiniz.</p>
+    </div>
+
+    <div class="methcard">
+      <h3>2. Puan bir hisse değil, çapalı bir banda bağlı</h3>
+      <p>Her kriter için "şu kanıt varsa puan şu aralıkta olur" biçiminde yazılı bir bant tanımı var. Örneğin şanzıman kriterinde "85-100: iki bağımsız kaynakta kronik arıza kaydı yok" ya da "35-49: en az bir kaynak, düşük-orta kilometrede kavrama veya mekatronik arızası doğruluyor" gibi. Her bandın listede gerçek bir araca çapalanmış bir örneği var; yeni bir araç puanlanırken sorulan soru "kaç puan hak ediyor" değil, "çapa araçtan iyi mi kötü mü" oluyor. Bu yöntemin literatürdeki adı <i>behaviorally anchored rating scale</i>: insan yargısı, mutlak bir sayı üretirken değil karşılaştırma yaparken çok daha tutarlı çalışıyor.</p>
+    </div>
+
+    <div class="methcard">
+      <h3>3. Kanıt üç seviyede sınıflanıyor</h3>
+      <p>Her kaynağa A, B veya C güven seviyesi veriliyor ve bu seviye hangi puanın verilebileceğini sınırlıyor.</p>
+      <div class="methtiers">
+        <div class="methrow"><span class="tt">A</span><span class="mid">Sayısal, kurumsal, örneklem tabanlı veri</span><span class="ex">TÜV Report, ADAC Pannenstatistik, resmi vergi tarifesi</span></div>
+        <div class="methrow"><span class="tt">B</span><span class="mid">Bağımsız teknik analiz veya çok sayıda bağımsız kullanıcının aynı örüntüyü bildirmesi</span><span class="ex">Bağımsız servis analizleri, onlarca ayrı şikayet başlığı</span></div>
+        <div class="methrow"><span class="tt">C</span><span class="mid">Tekil anekdot, tek forum mesajı, ticari blog</span><span class="ex">"257 bin km sorunsuz gitti" tipi tek beyan</span></div>
+      </div>
+      <p><b>Kural:</b> Bir puan yalnızca C seviyesi kaynaklara dayanıyorsa üst banda (90 ve üstü) veya alt banda (34 ve altı) çıkamaz, orta bantta kalır. İddialı bir puan iddialı kanıt ister.</p>
+    </div>
+
+    <div class="methcard">
+      <h3>4. Doğrulama rozeti kaynak sayısından hesaplanıyor</h3>
+      <p>Bir aracın adının yanındaki rozet elle verilmiyor; bağlı olduğu bağımsız kaynak sayısından türetiliyor.</p>
+      <div class="methtiers">
+        <div class="methrow"><span class="tt">4+</span><span class="mid">doğrulanmış</span><span class="ex">dört veya daha fazla bağımsız kaynak</span></div>
+        <div class="methrow"><span class="tt">1-3</span><span class="mid">kısmi kaynak</span><span class="ex">en az bir, dörtten az kaynak</span></div>
+        <div class="methrow"><span class="tt">0</span><span class="mid">ön değerlendirme</span><span class="ex">henüz hiç kaynağa bağlanmadı</span></div>
+      </div>
+      <p>Dört eşiğinin seçilmesi bilinçli bir katılık: iki kaynak, ikisi de aynı forumdan geliyorsa gerçek bir doğrulama sağlamaz. Bu kuralın uygulanması listenin "doğrulanmış" görünen araç sayısını bir anda düşürdü — bu bir gerileme değil, önceki elle verilen etiketin fazla iyimser olduğunun ölçülmesiydi.</p>
+    </div>
+
+    <div class="methcard">
+      <h3>5. Aynı motor, aynı şanzıman — bir kez değerlendirilir</h3>
+      <p>Puanlar araç seviyesinde görünse de kanıtın çoğu bileşen seviyesinde: bir motor kodu veya bir şanzıman kutusu, onu kullanan her araçta yeniden ve elden değerlendirilirse tutarsızlık kaçınılmaz olur. Bu yüzden her motor ailesi (<code>data/engines.json</code>) ve her şanzıman kutusu (<code>data/transmissions.json</code>) yalnızca bir kez araştırılıyor ve o araştırmanın sonucu (temel puan, bilinen arızalar, kaynaklar) o bileşeni kullanan bütün araçlara aynı şekilde uygulanıyor. Bir aracın puanı bu temel puandan büyük ölçüde sapıyorsa, sapmanın kayıtlı ve kaynaklı bir gerekçesi olmak zorunda — aksi hâlde bu bizim denetim betiğimizde otomatik olarak yakalanan bir hata sayılıyor.</p>
+      <p>Aynı fiziksel bileşen bazen gerçekten farklı davranır: bir şanzıman motorun torkuna yakın çalışıyorsa daha erken aşınabilir, bir motor kodu üretim yılına göre revizyon geçirmiş olabilir (ör. bir contanın yeniden tasarlanması). Bu tür farklar da kayıt altına alınıyor, ama yalnızca somut bir kanıtla — "motora göre değişebilir" gibi genel bir mazeret asla tek başına gerekçe sayılmıyor.</p>
+    </div>
+
+    <div class="methcard">
+      <h3>6. Zayıf halka: 35 altı puan kırmızı işaretlenir</h3>
+      <p>Herhangi bir kriterde puan 35'in altındaysa hücre kırmızı gösterilir ve detay panelinde nedeni açıklanır. Bu eşik keyfi seçilmedi: 30'da yalnızca birkaç araçta, 40'ta listenin üçte birinde en az bir kırmızı hücre çıkıyordu; 40 çok gevşek olduğu için uyarı anlamını yitiriyordu. 35'te makul bir denge kuruluyor — aracı gerçekten eleyecek kadar ciddi ama sıradanlaştırmayacak kadar seyrek.</p>
+    </div>
+  </div>
+
+  <div class="note">
+    Bu sayfa özetin özeti. Kriter tanımları, ağırlık setleri, şanzıman sınıflandırmasının neden birkaç kez yanlış çıkıp düzeltildiği ve bant tablolarının tamamı gibi ayrıntılar depodaki
+    <code>docs/methodology.md</code>, <code>docs/PLAN.md</code> ve <code>docs/ARCHITECTURE.md</code> dosyalarında; her mimari karar orada gerekçesiyle birlikte yazılı duruyor.
+  </div>
+</section>

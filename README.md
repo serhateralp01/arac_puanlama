@@ -31,7 +31,7 @@ data/criteria.json       kriter tanımları, ağırlık setleri, eşikler
 data/schema/*.json       JSON Schema; hem editör desteği hem veri sözleşmesi
 templates/index.html     sayfanın kabuğu: <head>, üst menü, script/style yer tutucuları
 templates/styles.css     bütün ekranların ortak stil dosyası
-templates/screens/*.html ekran parçaları (giriş, kriterler, liste, kıyaslama, kaynaklar)
+templates/screens/*.html ekran parçaları (giriş, kriterler, liste, kıyaslama, metodoloji, kaynaklar)
 templates/app/*.js       davranış parçaları; dosya adındaki sayı yükleme sırasını belirler
 scripts/build.py         veriyi ve şablon parçalarını birleştirip tek HTML üretir
 scripts/validate.py      veri bütünlüğünü ve kanıt politikasını denetler
