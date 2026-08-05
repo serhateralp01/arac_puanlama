@@ -84,6 +84,7 @@ def to_runtime_db(criteria: dict, cars: list[dict], sources: dict) -> dict:
                 "tx": s["transmission_type"],
                 "fuel": s["fuel"],
                 "drv": s["drivetrain"],
+                "body": s.get("body_type"),
                 "g": car["brand_group"],
                 "v": verif_map[car["verification"]],
                 "r": car["sources"],

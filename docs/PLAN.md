@@ -503,7 +503,13 @@ tamamen kutuya yakınsadı (yayılımları sırasıyla 28→8 ve 30→8'e indi).
 gerekçeli olduğu için beklenen bir durum.
 
 ### Faz 2D — Kapsamı genişletme
-11. Mevcut 154 aracın `specs.body_type` alanını doldur ve arayüze gövde filtresini ekle.
+11. **Tamamlandı.** 154 aracın 150'sine `specs.body_type` atandı ve arayüze gövde
+    filtresi eklendi. Dört karma model kaydı (Rio/i20, A/B Serisi, 2008/208,
+    S40/V50) birleştirdikleri iki modelin gövdesi farklı olduğu için bilerek boş
+    bırakıldı; gerekçesi `docs/DATA-ISSUES.md` D-10'da. Filtre diğer filtrelerle
+    aynı çok seçimli mantığı kullanıyor (kategori içinde VEYA, kategoriler arasında
+    VE) ve `scripts/smoke_test.js` artık bu filtreyi de gerçek tarayıcıda
+    doğruluyor.
 12. SUV ve MPV araçları listeye ekle. Bu araçlar için yapılmış araştırmadan kalan 13
     yetim kaynak (Tucson, Qashqai, Sportage, C5 Aircross, Grandland, Koleos) hazır
     bekliyor ve doğrudan bağlanacak.
@@ -511,8 +517,9 @@ gerekçeli olduğu için beklenen bir durum.
     tarihte yürürlükte olan bantlara ve kaynak politikasına göre puanlanır; eski
     araçlar için geriye dönük düzeltme ayrı bir iş kalemidir.
 
-**Kabul ölçütü:** gövde filtresi çalışıyor ve hiçbir araç kapsam kuralı yüzünden
-listenin dışında değil.
+**Kabul ölçütü — kısmen sağlandı.** Gövde filtresi çalışıyor ve hiçbir araç kapsam
+kuralı yüzünden listenin dışında değil. SUV ve MPV araçların listeye eklenmesi (madde
+12) ile listenin yeni segmentlere genişletilmesi (madde 13) hâlâ açık.
 
 Bu faz bilinçli olarak formüllerden ve bileşen kayıtlarından **sonraya** bırakıldı.
 Liste, metodoloji oturmadan genişletilirse yeni araçlar da eski araçlarla aynı

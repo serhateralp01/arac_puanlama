@@ -105,6 +105,18 @@ async function dumpDebug(label) {
     await page.locator('.fgroup').first().getByRole('button', { name: 'Hepsi' }).click();
     await page.waitForTimeout(150);
 
+    // Gövde filtresi: "Sedan" seçilince liste daralmalı. Bu filtre yalnızca
+    // specs.body_type dolu olduğunda çalışır, o yüzden verinin de kontrolü sayılır.
+    const bodyGroup = page.locator('.fgroup').filter({ hasText: 'Gövde' });
+    await bodyGroup.getByRole('button', { name: 'Sedan', exact: true }).click();
+    await page.waitForTimeout(150);
+    const bodyFiltered = await page.locator('#body tr.main').count();
+    const bodyOk = bodyFiltered > 0 && bodyFiltered < rows;
+    check('gövde filtresi daraltıyor', bodyOk, `Sedan → ${bodyFiltered} satır`);
+    if (!bodyOk) await dumpDebug('govde-filtresi-daraltmadi');
+    await bodyGroup.getByRole('button', { name: 'Hepsi' }).click();
+    await page.waitForTimeout(150);
+
     // Arama
     await page.fill('#search', 'volvo');
     await page.waitForTimeout(200);

@@ -312,10 +312,15 @@ function updateSum(){const s=sumW(),b=document.getElementById('sumbox'),ok=(s===
 
 /* ---------- dynamic (faceted) MULTI-SELECT filters ---------- */
 /* Each filter category holds a Set of selected values. Empty set = no restriction ("Hepsi"). */
-const F={tx:new Set(),fuel:new Set(),disp:new Set(),hp:new Set(),drv:new Set(),budget:new Set(),brand:new Set()};
+const F={tx:new Set(),fuel:new Set(),disp:new Set(),hp:new Set(),drv:new Set(),body:new Set(),budget:new Set(),brand:new Set()};
 let searchTerm='';
+/* Gövde tipi dört karma model kaydında boş; o kayıtlar birleştirdikleri iki modelin
+   gövdesi farklı olduğu için tek bir değere zorlanamıyor (bkz. docs/DATA-ISSUES.md
+   D-10). Boş değer seçenek listesine girmiyor, dolayısıyla bir gövde seçildiğinde bu
+   araçlar listeden düşüyor; "Hepsi" seçiliyken görünmeye devam ediyorlar. */
 const FDEF=[
  {k:'tx',label:'Şanzıman',opts:()=>[...new Set(CARS.map(c=>c.tx))].sort(),val:c=>c.tx},
+ {k:'body',label:'Gövde',opts:()=>[...new Set(CARS.map(c=>c.body).filter(Boolean))].sort(),val:c=>c.body},
  {k:'fuel',label:'Yakıt',opts:()=>[...new Set(CARS.map(c=>c.fuel))].sort(),val:c=>c.fuel},
  {k:'drv',label:'Çekiş',opts:()=>[...new Set(CARS.map(c=>c.drv))].sort(),val:c=>c.drv},
  {k:'brand',label:'Marka grubu',opts:()=>[...new Set(CARS.map(c=>c.g))].sort(),val:c=>c.g},
@@ -345,12 +350,13 @@ function matchesFilter(c,skip){
  if(!directPass(c,'tx',x=>x.tx,skip))return false;
  if(!directPass(c,'fuel',x=>x.fuel,skip))return false;
  if(!directPass(c,'drv',x=>x.drv,skip))return false;
+ if(!directPass(c,'body',x=>x.body,skip))return false;
  if(!directPass(c,'brand',x=>x.g,skip))return false;
  if(!bucketPass(c,'disp',skip))return false;
  if(!bucketPass(c,'hp',skip))return false;
  if(!bucketPass(c,'budget',skip))return false;
  if(searchTerm){
-   const hay=(c.n+' '+c.tag+' '+c.g+' '+c.fuel+' '+c.tx+' '+c.drv+' '+c.y+' '+c.hp+' '+c.disp).toLowerCase();
+   const hay=(c.n+' '+c.tag+' '+c.g+' '+c.fuel+' '+c.tx+' '+c.drv+' '+(c.body||'')+' '+c.y+' '+c.hp+' '+c.disp).toLowerCase();
    if(hay.indexOf(searchTerm)===-1)return false;
  }
  return true;
