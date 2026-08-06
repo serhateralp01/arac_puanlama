@@ -13,7 +13,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "getrag-6dct450",
     "body_type": "Sedan",
-    "engine_id": "ford-duratorq-20"
+    "engine_id": "ford-duratorq-20",
+    "lpg_common": null
   },
   "price_band_k_try": [
     600,

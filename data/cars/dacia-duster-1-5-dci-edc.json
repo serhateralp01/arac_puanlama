@@ -2,7 +2,7 @@
   "id": "dacia-duster-1-5-dci-edc",
   "name": "Dacia Duster 1.5 dCi EDC",
   "tag": "oto: 6 ileri kuru EDC · 115hp",
-  "brand_group": "Diğer",
+  "brand_group": "Dacia",
   "years": "2018-2021",
   "specs": {
     "hp": 115,
@@ -12,7 +12,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "renault-edc-kuru",
     "body_type": "SUV",
-    "engine_id": "renault-k9k"
+    "engine_id": "renault-k9k",
+    "lpg_common": null
   },
   "price_band_k_try": [
     650,

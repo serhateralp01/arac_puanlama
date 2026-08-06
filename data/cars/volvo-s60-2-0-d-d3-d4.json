@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-geartronic",
     "body_type": "Sedan",
-    "engine_id": "volvo-d-20"
+    "engine_id": "volvo-d-20",
+    "lpg_common": null
   },
   "price_band_k_try": [
     700,

@@ -13,7 +13,8 @@
     "transmission_type": "CVT",
     "transmission_id": "nissan-xtronic",
     "body_type": "Sedan",
-    "engine_id": "renault-m9r"
+    "engine_id": "renault-m9r",
+    "lpg_common": null
   },
   "price_band_k_try": [
     550,

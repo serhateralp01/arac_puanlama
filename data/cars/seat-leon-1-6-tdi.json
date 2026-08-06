@@ -3,7 +3,7 @@
   "legacy_index": 104,
   "name": "Seat Leon 1.6 TDI",
   "tag": "kuru DQ200 DSG",
-  "brand_group": "VAG",
+  "brand_group": "Seat",
   "years": "2013-2019",
   "specs": {
     "hp": 115,
@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea288"
+    "engine_id": "vag-ea288",
+    "lpg_common": null
   },
   "price_band_k_try": [
     780,

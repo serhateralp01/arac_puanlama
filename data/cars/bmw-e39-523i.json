@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "gm-5l40e",
     "body_type": "Sedan",
-    "engine_id": "bmw-m52"
+    "engine_id": "bmw-m52",
+    "lpg_common": true
   },
   "price_band_k_try": [
     400,

@@ -3,7 +3,7 @@
   "legacy_index": 87,
   "name": "Honda City 1.5",
   "tag": "5 ileri tork konvertörü · ~120 bg",
-  "brand_group": "Japon",
+  "brand_group": "Honda",
   "years": "2009-2014",
   "specs": {
     "hp": 120,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "honda-4at-5at",
     "body_type": "Sedan",
-    "engine_id": "honda-l15"
+    "engine_id": "honda-l15",
+    "lpg_common": true
   },
   "price_band_k_try": [
     500,

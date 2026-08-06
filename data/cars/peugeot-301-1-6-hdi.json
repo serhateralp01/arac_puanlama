@@ -3,7 +3,7 @@
   "legacy_index": 77,
   "name": "Peugeot 301 1.6 HDi",
   "tag": "ETG robotlu yarı otomatik · ~92-115 bg",
-  "brand_group": "PSA",
+  "brand_group": "Peugeot",
   "years": "2013-2020",
   "specs": {
     "hp": 115,
@@ -13,7 +13,8 @@
     "transmission_type": "Robot",
     "transmission_id": "psa-etg",
     "body_type": "Sedan",
-    "engine_id": "psa-dv6"
+    "engine_id": "psa-dv6",
+    "lpg_common": null
   },
   "price_band_k_try": [
     650,

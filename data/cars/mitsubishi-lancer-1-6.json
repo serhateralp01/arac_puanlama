@@ -3,7 +3,7 @@
   "legacy_index": 95,
   "name": "Mitsubishi Lancer 1.6",
   "tag": "CVT · ~117 bg",
-  "brand_group": "Japon",
+  "brand_group": "Mitsubishi",
   "years": "2008-2015",
   "specs": {
     "hp": 117,
@@ -13,7 +13,8 @@
     "transmission_type": "CVT",
     "transmission_id": "mitsubishi-invecs-cvt",
     "body_type": "Sedan",
-    "engine_id": "mitsubishi-4a92"
+    "engine_id": "mitsubishi-4a92",
+    "lpg_common": true
   },
   "price_band_k_try": [
     700,

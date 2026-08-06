@@ -3,7 +3,7 @@
   "legacy_index": 31,
   "name": "Mercedes C220 CDI",
   "tag": "W203 OM611/646 · 5G-Tronic · ~143-170hp",
-  "brand_group": "Mercedes",
+  "brand_group": "Mercedes-Benz",
   "years": "2001-2007",
   "specs": {
     "hp": 150,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-5g-tronic",
     "body_type": "Sedan",
-    "engine_id": "mb-om646"
+    "engine_id": "mb-om646",
+    "lpg_common": null
   },
   "price_band_k_try": [
     450,

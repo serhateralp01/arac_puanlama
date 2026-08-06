@@ -2,7 +2,7 @@
   "id": "jeep-renegade-1-6-multijet-ddct",
   "name": "Jeep Renegade 1.6 Multijet DDCT",
   "tag": "oto: 6 ileri kuru DDCT · 120hp",
-  "brand_group": "Diğer",
+  "brand_group": "Jeep",
   "years": "2016-2020",
   "specs": {
     "hp": 120,
@@ -12,7 +12,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "fiat-c635-ddct",
     "body_type": "SUV",
-    "engine_id": "fca-multijet-16"
+    "engine_id": "fca-multijet-16",
+    "lpg_common": null
   },
   "price_band_k_try": [
     950,

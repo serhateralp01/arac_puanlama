@@ -3,7 +3,7 @@
   "legacy_index": 117,
   "name": "VW Passat B8 2.0 TDI",
   "tag": "ıslak DQ250 DSG · ~150-190hp",
-  "brand_group": "VAG",
+  "brand_group": "Volkswagen",
   "years": "2014-2019",
   "specs": {
     "hp": 150,
@@ -13,7 +13,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-dq250",
     "body_type": "Sedan",
-    "engine_id": "vag-ea288"
+    "engine_id": "vag-ea288",
+    "lpg_common": null
   },
   "price_band_k_try": [
     850,

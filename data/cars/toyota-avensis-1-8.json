@@ -3,7 +3,7 @@
   "legacy_index": 86,
   "name": "Toyota Avensis 1.8",
   "tag": "Multidrive CVT · ~147 bg",
-  "brand_group": "Japon",
+  "brand_group": "Toyota",
   "years": "2009-2018",
   "specs": {
     "hp": 147,
@@ -13,7 +13,8 @@
     "transmission_type": "CVT",
     "transmission_id": "toyota-multidrive",
     "body_type": "Sedan",
-    "engine_id": "toyota-zr"
+    "engine_id": "toyota-zr",
+    "lpg_common": true
   },
   "price_band_k_try": [
     800,

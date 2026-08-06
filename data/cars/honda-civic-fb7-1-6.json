@@ -3,7 +3,7 @@
   "legacy_index": 49,
   "name": "Honda Civic FB7 1.6",
   "tag": "oto: 5 ileri TK · ~125hp",
-  "brand_group": "Japon",
+  "brand_group": "Honda",
   "years": "2012-2016",
   "specs": {
     "hp": 125,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "honda-4at-5at",
     "body_type": "Sedan",
-    "engine_id": "honda-r16"
+    "engine_id": "honda-r16",
+    "lpg_common": true
   },
   "price_band_k_try": [
     850,

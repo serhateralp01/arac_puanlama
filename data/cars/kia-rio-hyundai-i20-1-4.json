@@ -3,7 +3,7 @@
   "legacy_index": 107,
   "name": "Kia Rio / Hyundai i20 1.4",
   "tag": "4-6 ileri tork konvertörü",
-  "brand_group": "Japon",
+  "brand_group": "Kia / Hyundai",
   "years": "2010-2017",
   "specs": {
     "hp": 110,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-a4af3",
     "body_type": null,
-    "engine_id": "hyundai-gamma-14"
+    "engine_id": "hyundai-gamma-14",
+    "lpg_common": true
   },
   "price_band_k_try": [
     650,

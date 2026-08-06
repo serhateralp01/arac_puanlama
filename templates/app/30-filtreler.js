@@ -1,6 +1,6 @@
 /* ---------- dynamic (faceted) MULTI-SELECT filters ---------- */
 /* Each filter category holds a Set of selected values. Empty set = no restriction ("Hepsi"). */
-const F={tx:new Set(),fuel:new Set(),disp:new Set(),hp:new Set(),drv:new Set(),body:new Set(),budget:new Set(),brand:new Set()};
+const F={tx:new Set(),fuel:new Set(),disp:new Set(),hp:new Set(),drv:new Set(),body:new Set(),budget:new Set(),brand:new Set(),lpg:new Set()};
 let searchTerm='';
 /* Gövde tipi dört karma model kaydında boş; o kayıtlar birleştirdikleri iki modelin
    gövdesi farklı olduğu için tek bir değere zorlanamıyor (bkz. docs/DATA-ISSUES.md
@@ -16,7 +16,13 @@ const FDEF=[
 const DISP_BUCKETS=[['s','1.6 ve altı',c=>c.disp<=1.6],['m','1.7 - 2.0',c=>c.disp>1.6&&c.disp<=2.0],['l','2.0 üstü',c=>c.disp>2.0]];
 const HP_BUCKETS=[['a','110 - 130',c=>c.hp>=110&&c.hp<=130],['b','131 - 160',c=>c.hp>=131&&c.hp<=160],['c','161 - 200',c=>c.hp>=161&&c.hp<=200],['d','200 üstü',c=>c.hp>200]];
 const BUDGET_BUCKETS=[['600','600 bin altına giren',c=>c.p[0]<=600],['700','700 bin altına giren',c=>c.p[0]<=700],['800','800 bin altına giren',c=>c.p[0]<=800],['1000','1 milyon altına giren',c=>c.p[0]<=1000]];
-const BUCKET_DEFS={disp:DISP_BUCKETS,hp:HP_BUCKETS,budget:BUDGET_BUCKETS};
+/* LPG dönüşüm sıklığı motor bazında biliniyor (bkz. scripts/build.py'nin
+   specs.lpg_common'dan aktardığı c.lpg); dizel araçlarda ve henüz
+   değerlendirilmemiş motorlarda null. "Hepsi" seçiliyken bu araçlar da
+   görünmeye devam ediyor, ama bir LPG bucket'ı seçildiğinde diğer null-body_type
+   davranışıyla aynı mantıkla listeden düşüyorlar (bkz. D-10 notu yukarıda). */
+const LPG_BUCKETS=[['yaygin','LPG dönüşümü yaygın',c=>c.lpg===true],['nadir','LPG dönüşümü nadir/yok',c=>c.lpg===false]];
+const BUCKET_DEFS={disp:DISP_BUCKETS,hp:HP_BUCKETS,budget:BUDGET_BUCKETS,lpg:LPG_BUCKETS};
 
 /* direct-equality categories: pass if set empty OR car's value is in the set (OR within category) */
 function directPass(c,key,valFn,skip){
@@ -43,6 +49,7 @@ function matchesFilter(c,skip){
  if(!bucketPass(c,'disp',skip))return false;
  if(!bucketPass(c,'hp',skip))return false;
  if(!bucketPass(c,'budget',skip))return false;
+ if(!bucketPass(c,'lpg',skip))return false;
  if(searchTerm){
    const hay=(c.n+' '+c.tag+' '+c.g+' '+c.fuel+' '+c.tx+' '+c.drv+' '+(c.body||'')+' '+c.y+' '+c.hp+' '+c.disp).toLowerCase();
    if(hay.indexOf(searchTerm)===-1)return false;
@@ -96,6 +103,13 @@ function renderFilters(){
   const b=document.createElement('button');b.className='btn'+(F.budget.has(v)?' on':'')+(has?'':' disabled');b.textContent=t;
   if(has)b.onclick=()=>toggleSetVal('budget',v);gb.appendChild(b);});
  fWrap.appendChild(gb);
+ // LPG dönüşüm sıklığı bucket grubu
+ const gl=document.createElement('div');gl.className='fgroup';gl.innerHTML='<span class="flabel">LPG</span>';
+ const al=document.createElement('button');al.className='btn'+(F.lpg.size===0?' on':'');al.textContent='Hepsi';al.onclick=()=>clearSet('lpg');gl.appendChild(al);
+ LPG_BUCKETS.forEach(([v,t,fn])=>{const has=CARS.some(c=>matchesFilter(c,'lpg')&&fn(c));
+  const b=document.createElement('button');b.className='btn'+(F.lpg.has(v)?' on':'')+(has?'':' disabled');b.textContent=t;
+  if(has)b.onclick=()=>toggleSetVal('lpg',v);gl.appendChild(b);});
+ fWrap.appendChild(gl);
  updateFilterBadge();
 }
 

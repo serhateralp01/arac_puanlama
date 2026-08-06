@@ -3,7 +3,7 @@
   "legacy_index": 122,
   "name": "Mercedes C250 CDI (W204)",
   "tag": "7G-Tronic tork konvertörü · ~204hp",
-  "brand_group": "Mercedes",
+  "brand_group": "Mercedes-Benz",
   "years": "2009-2014",
   "specs": {
     "hp": 204,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-7g-tronic",
     "body_type": "Sedan",
-    "engine_id": "mb-om651"
+    "engine_id": "mb-om651",
+    "lpg_common": null
   },
   "price_band_k_try": [
     750,

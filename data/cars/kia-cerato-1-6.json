@@ -3,7 +3,7 @@
   "legacy_index": 55,
   "name": "Kia Cerato 1.6",
   "tag": "oto: 6 ileri TK · ~130hp",
-  "brand_group": "Japon",
+  "brand_group": "Kia",
   "years": "2013-2018",
   "specs": {
     "hp": 130,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
     "body_type": "Sedan",
-    "engine_id": "hyundai-gamma16-mpi"
+    "engine_id": "hyundai-gamma16-mpi",
+    "lpg_common": true
   },
   "price_band_k_try": [
     650,

@@ -3,7 +3,7 @@
   "legacy_index": 124,
   "name": "Peugeot 508 1.6 THP",
   "tag": "Aisin AF40 tork konvertörü · ~156hp",
-  "brand_group": "PSA",
+  "brand_group": "Peugeot",
   "years": "2011-2018",
   "specs": {
     "hp": 156,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-af40",
     "body_type": "Sedan",
-    "engine_id": "psa-ep6-thp"
+    "engine_id": "psa-ep6-thp",
+    "lpg_common": false
   },
   "price_band_k_try": [
     700,

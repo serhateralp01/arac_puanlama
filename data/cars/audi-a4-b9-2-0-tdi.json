@@ -3,7 +3,7 @@
   "legacy_index": 118,
   "name": "Audi A4 B9 2.0 TDI",
   "tag": "ıslak S tronic / quattro Tiptronic · ~150-190hp",
-  "brand_group": "VAG",
+  "brand_group": "Audi",
   "years": "2015-2019",
   "specs": {
     "hp": 150,
@@ -13,7 +13,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-s-tronic-islak",
     "body_type": "Sedan",
-    "engine_id": "vag-ea288"
+    "engine_id": "vag-ea288",
+    "lpg_common": null
   },
   "price_band_k_try": [
     950,

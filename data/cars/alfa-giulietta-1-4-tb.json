@@ -3,7 +3,7 @@
   "legacy_index": 43,
   "name": "Alfa Giulietta 1.4 TB",
   "tag": "oto: TCT çift kavrama · ~170hp",
-  "brand_group": "Diğer",
+  "brand_group": "Alfa Romeo",
   "years": "2010-2016",
   "specs": {
     "hp": 170,
@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "alfa-tct",
     "body_type": "Hatchback",
-    "engine_id": "fca-multiair-14"
+    "engine_id": "fca-multiair-14",
+    "lpg_common": false
   },
   "price_band_k_try": [
     700,

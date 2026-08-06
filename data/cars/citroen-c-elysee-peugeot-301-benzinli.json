@@ -3,7 +3,7 @@
   "legacy_index": 100,
   "name": "Citroen C-Elysee / Peugeot 301 benzinli",
   "tag": "EAT6 Aisin tork konvertörü · ~115 bg",
-  "brand_group": "PSA",
+  "brand_group": "Citroën / Peugeot",
   "years": "2013-2020",
   "specs": {
     "hp": 115,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-eat6",
     "body_type": "Sedan",
-    "engine_id": "psa-ec5"
+    "engine_id": "psa-ec5",
+    "lpg_common": true
   },
   "price_band_k_try": [
     820,

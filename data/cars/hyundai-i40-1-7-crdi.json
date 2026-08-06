@@ -3,7 +3,7 @@
   "legacy_index": 112,
   "name": "Hyundai i40 1.7 CRDi",
   "tag": "6 ileri tork konvertörü · ~115-136hp",
-  "brand_group": "Japon",
+  "brand_group": "Hyundai",
   "years": "2011-2019",
   "specs": {
     "hp": 115,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
     "body_type": "Sedan",
-    "engine_id": "hyundai-u2-17"
+    "engine_id": "hyundai-u2-17",
+    "lpg_common": null
   },
   "price_band_k_try": [
     550,

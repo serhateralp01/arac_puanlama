@@ -3,7 +3,7 @@
   "legacy_index": 140,
   "name": "Hyundai Elantra XD 1.6/2.0",
   "tag": "4 ileri tork konvertörü · ~105-137hp",
-  "brand_group": "Japon",
+  "brand_group": "Hyundai",
   "years": "2000-2006",
   "specs": {
     "hp": 105,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-a4af3",
     "body_type": "Sedan",
-    "engine_id": "hyundai-beta-16"
+    "engine_id": "hyundai-beta-16",
+    "lpg_common": true
   },
   "price_band_k_try": [
     420,

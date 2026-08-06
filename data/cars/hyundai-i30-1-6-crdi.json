@@ -3,7 +3,7 @@
   "legacy_index": 40,
   "name": "Hyundai i30 1.6 CRDi",
   "tag": "oto: tork konvertörü · ~110-128hp",
-  "brand_group": "Japon",
+  "brand_group": "Hyundai",
   "years": "2007-2016",
   "specs": {
     "hp": 128,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
     "body_type": "Hatchback",
-    "engine_id": "hyundai-u2-16"
+    "engine_id": "hyundai-u2-16",
+    "lpg_common": null
   },
   "price_band_k_try": [
     580,

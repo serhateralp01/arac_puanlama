@@ -3,7 +3,7 @@
   "legacy_index": 103,
   "name": "Skoda Superb 1.6 TDI",
   "tag": "kuru DQ200 DSG",
-  "brand_group": "VAG",
+  "brand_group": "Skoda",
   "years": "2013-2019",
   "specs": {
     "hp": 120,
@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "Sedan",
-    "engine_id": "vag-ea288"
+    "engine_id": "vag-ea288",
+    "lpg_common": null
   },
   "price_band_k_try": [
     800,

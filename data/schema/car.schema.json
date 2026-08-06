@@ -27,7 +27,7 @@
     },
     "brand_group": {
       "type": "string",
-      "description": "Filtreleme için marka grubu. Marka adıyla birebir aynı olmak zorunda değil (ör. VAG, Japon)."
+      "description": "Aracın gerçek üretici markası (ör. Volkswagen, Toyota, BMW). Uydurma bir üst grup adı olamaz — 'VAG', 'Japon' gibi gevşek gruplamalar reddedilir; gerekçesi docs/ARCHITECTURE.md MK-10 kaydında. Tek istisna: kaydın kendisi gerçekten iki farklı markanın paylaştığı, rebadge edilmiş ikiz bir modeli temsil ediyorsa (ör. 'Citroën / Peugeot', 'Kia / Hyundai') iki gerçek marka adı ' / ' ile yazılabilir; üçüncü bir uydurma isim asla kullanılmaz."
     },
     "years": {
       "type": "string",
@@ -70,6 +70,10 @@
         "transmission_id": {
           "type": ["string", "null"],
           "description": "data/transmissions.json içindeki şanzıman kutusu kimliği. Aynı kutunun farklı araçlarda farklı puan almasını engeller."
+        },
+        "lpg_common": {
+          "type": ["boolean", "null"],
+          "description": "Bu motorun Türkiye ikinci el piyasasında LPG dönüşümlü satılmasının yaygın olup olmadığı. Fabrika çıkışı bir bilgi değil, ikinci el piyasasındaki dönüşüm alışkanlığını yansıtır; kullanıcı LPG dönüşümlü araçları filtreden eleyebilsin diye eklendi (bkz. docs/ARCHITECTURE.md MK-10). Atmosferik, port enjeksiyonlu benzinli motorlarda genelde true; turbo veya direkt enjeksiyonlu (GDI/TSI/TFSI/THP) motorlarda ve bütün dizel motorlarda false/null. null = henüz değerlendirilmedi ya da dizel (LPG kavramı uygulanmıyor)."
         }
       }
     },

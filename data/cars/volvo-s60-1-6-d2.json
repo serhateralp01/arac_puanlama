@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "volvo-powershift-kuru",
     "body_type": "Sedan",
-    "engine_id": "psa-dv6"
+    "engine_id": "psa-dv6",
+    "lpg_common": null
   },
   "price_band_k_try": [
     650,

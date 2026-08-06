@@ -3,7 +3,7 @@
   "legacy_index": 110,
   "name": "Fiat Egea 1.4 Fire",
   "tag": "6 ileri tork konvertörü",
-  "brand_group": "Egea/Fluence",
+  "brand_group": "Fiat",
   "years": "2016-2021",
   "specs": {
     "hp": 110,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-aw60t",
     "body_type": "Sedan",
-    "engine_id": "fca-fire-14"
+    "engine_id": "fca-fire-14",
+    "lpg_common": true
   },
   "price_band_k_try": [
     820,

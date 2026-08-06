@@ -3,7 +3,7 @@
   "legacy_index": 62,
   "name": "Mazda 6 2.0 (GH)",
   "tag": "oto: 5 ileri TK · ~147hp",
-  "brand_group": "Japon",
+  "brand_group": "Mazda",
   "years": "2008-2012",
   "specs": {
     "hp": 147,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "ford-4f27e",
     "body_type": "Sedan",
-    "engine_id": "mazda-lf"
+    "engine_id": "mazda-lf",
+    "lpg_common": true
   },
   "price_band_k_try": [
     600,

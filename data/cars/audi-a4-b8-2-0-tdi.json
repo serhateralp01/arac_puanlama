@@ -3,7 +3,7 @@
   "legacy_index": 72,
   "name": "Audi A4 B8 2.0 TDI",
   "tag": "Multitronic CVT · ~143 bg",
-  "brand_group": "VAG",
+  "brand_group": "Audi",
   "years": "2008-2015",
   "specs": {
     "hp": 143,
@@ -13,7 +13,8 @@
     "transmission_type": "CVT",
     "transmission_id": "vag-multitronic",
     "body_type": "Sedan",
-    "engine_id": "vag-ea189"
+    "engine_id": "vag-ea189",
+    "lpg_common": null
   },
   "price_band_k_try": [
     750,

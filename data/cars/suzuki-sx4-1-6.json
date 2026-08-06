@@ -3,7 +3,7 @@
   "legacy_index": 96,
   "name": "Suzuki SX4 1.6",
   "tag": "4 ileri tork konvertörü · ~120 bg",
-  "brand_group": "Japon",
+  "brand_group": "Suzuki",
   "years": "2007-2014",
   "specs": {
     "hp": 120,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "suzuki-4at",
     "body_type": "Hatchback",
-    "engine_id": "suzuki-m16a"
+    "engine_id": "suzuki-m16a",
+    "lpg_common": true
   },
   "price_band_k_try": [
     600,

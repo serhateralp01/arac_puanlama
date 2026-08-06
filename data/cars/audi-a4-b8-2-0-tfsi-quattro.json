@@ -3,7 +3,7 @@
   "legacy_index": 123,
   "name": "Audi A4 B8 2.0 TFSI quattro",
   "tag": "ıslak S tronic DCT · ~211hp",
-  "brand_group": "VAG",
+  "brand_group": "Audi",
   "years": "2008-2015",
   "specs": {
     "hp": 211,
@@ -13,7 +13,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-s-tronic-islak",
     "body_type": "Sedan",
-    "engine_id": "vag-ea888"
+    "engine_id": "vag-ea888",
+    "lpg_common": false
   },
   "price_band_k_try": [
     900,

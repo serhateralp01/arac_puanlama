@@ -13,7 +13,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "getrag-6dct450",
     "body_type": "Sedan",
-    "engine_id": "volvo-b4204t-gtdi"
+    "engine_id": "volvo-b4204t-gtdi",
+    "lpg_common": false
   },
   "price_band_k_try": [
     700,

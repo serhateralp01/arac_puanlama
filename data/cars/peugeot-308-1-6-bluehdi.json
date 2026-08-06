@@ -3,7 +3,7 @@
   "legacy_index": 79,
   "name": "Peugeot 308 1.6 BlueHDi",
   "tag": "EAT6 Aisin tork konvertörü · ~120 bg",
-  "brand_group": "PSA",
+  "brand_group": "Peugeot",
   "years": "2014-2018",
   "specs": {
     "hp": 120,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-eat6",
     "body_type": "Hatchback",
-    "engine_id": "psa-dv6"
+    "engine_id": "psa-dv6",
+    "lpg_common": null
   },
   "price_band_k_try": [
     850,

@@ -3,7 +3,7 @@
   "legacy_index": 139,
   "name": "Honda Civic 7. Nesil (ES) 1.6/1.7",
   "tag": "4/5 ileri tork konvertörü · ~110-125hp",
-  "brand_group": "Japon",
+  "brand_group": "Honda",
   "years": "2001-2005",
   "specs": {
     "hp": 110,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "honda-4at-5at",
     "body_type": "Sedan",
-    "engine_id": "honda-d16-d17"
+    "engine_id": "honda-d16-d17",
+    "lpg_common": true
   },
   "price_band_k_try": [
     450,

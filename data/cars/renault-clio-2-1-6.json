@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "psa-al4",
     "body_type": "Hatchback",
-    "engine_id": "renault-k4m"
+    "engine_id": "renault-k4m",
+    "lpg_common": true
   },
   "price_band_k_try": [
     380,

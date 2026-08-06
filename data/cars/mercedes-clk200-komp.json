@@ -3,7 +3,7 @@
   "legacy_index": 39,
   "name": "Mercedes CLK200 Komp.",
   "tag": "W209 M111 · 5G · coupe · ~163hp",
-  "brand_group": "Mercedes",
+  "brand_group": "Mercedes-Benz",
   "years": "1998-2003",
   "specs": {
     "hp": 163,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-5g-tronic",
     "body_type": "Coupe",
-    "engine_id": "mb-m111"
+    "engine_id": "mb-m111",
+    "lpg_common": false
   },
   "price_band_k_try": [
     430,

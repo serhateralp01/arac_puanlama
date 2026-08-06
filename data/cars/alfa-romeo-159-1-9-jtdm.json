@@ -3,7 +3,7 @@
   "legacy_index": 63,
   "name": "Alfa Romeo 159 1.9 JTDm",
   "tag": "oto: Q-Tronic Aisin TF-80 TK · ~150hp",
-  "brand_group": "Diğer",
+  "brand_group": "Alfa Romeo",
   "years": "2006-2011",
   "specs": {
     "hp": 150,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-tf80",
     "body_type": "Sedan",
-    "engine_id": "fca-jtd-19"
+    "engine_id": "fca-jtd-19",
+    "lpg_common": null
   },
   "price_band_k_try": [
     500,

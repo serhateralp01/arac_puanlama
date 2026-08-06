@@ -3,7 +3,7 @@
   "legacy_index": 58,
   "name": "Fiat Egea 1.6 Multijet",
   "tag": "oto: KURU DCT · ~120hp",
-  "brand_group": "Egea/Fluence",
+  "brand_group": "Fiat",
   "years": "2016-2023",
   "specs": {
     "hp": 120,
@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "fiat-c635-ddct",
     "body_type": "Sedan",
-    "engine_id": "fca-multijet-16"
+    "engine_id": "fca-multijet-16",
+    "lpg_common": null
   },
   "price_band_k_try": [
     750,

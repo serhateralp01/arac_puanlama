@@ -3,7 +3,7 @@
   "legacy_index": 84,
   "name": "Renault Fluence 1.5 dCi",
   "tag": "EDC çift kavrama · ~110 bg",
-  "brand_group": "Egea/Fluence",
+  "brand_group": "Renault",
   "years": "2013-2016",
   "specs": {
     "hp": 110,
@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "renault-edc-kuru",
     "body_type": "Sedan",
-    "engine_id": "renault-k9k"
+    "engine_id": "renault-k9k",
+    "lpg_common": null
   },
   "price_band_k_try": [
     650,

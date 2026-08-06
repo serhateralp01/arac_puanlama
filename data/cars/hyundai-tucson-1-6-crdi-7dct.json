@@ -2,7 +2,7 @@
   "id": "hyundai-tucson-1-6-crdi-7dct",
   "name": "Hyundai Tucson 1.6 CRDi 7DCT",
   "tag": "oto: 7 ileri kuru DCT · 136hp",
-  "brand_group": "Japon",
+  "brand_group": "Hyundai",
   "years": "2016-2020",
   "specs": {
     "hp": 136,
@@ -12,7 +12,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "hyundai-7dct",
     "body_type": "SUV",
-    "engine_id": "hyundai-u2-16"
+    "engine_id": "hyundai-u2-16",
+    "lpg_common": null
   },
   "price_band_k_try": [
     1000,

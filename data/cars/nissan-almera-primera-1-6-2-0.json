@@ -3,7 +3,7 @@
   "legacy_index": 142,
   "name": "Nissan Almera / Primera 1.6/2.0",
   "tag": "4 ileri tork konvertörü · ~99-140hp",
-  "brand_group": "Japon",
+  "brand_group": "Nissan",
   "years": "2000-2006",
   "specs": {
     "hp": 110,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "jatco-re4f0x",
     "body_type": "Sedan",
-    "engine_id": "nissan-qg16"
+    "engine_id": "nissan-qg16",
+    "lpg_common": true
   },
   "price_band_k_try": [
     420,

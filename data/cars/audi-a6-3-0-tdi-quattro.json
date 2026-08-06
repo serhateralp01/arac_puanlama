@@ -3,7 +3,7 @@
   "legacy_index": 28,
   "name": "Audi A6 3.0 TDI quattro",
   "tag": "2006 · oto: ZF tiptronic · ~225hp",
-  "brand_group": "VAG",
+  "brand_group": "Audi",
   "years": "2005-2011",
   "specs": {
     "hp": 225,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "zf-6hp",
     "body_type": "Sedan",
-    "engine_id": "vag-v6-tdi"
+    "engine_id": "vag-v6-tdi",
+    "lpg_common": null
   },
   "price_band_k_try": [
     650,

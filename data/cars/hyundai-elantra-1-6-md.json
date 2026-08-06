@@ -3,7 +3,7 @@
   "legacy_index": 54,
   "name": "Hyundai Elantra 1.6 (MD)",
   "tag": "oto: 6 ileri TK · ~132hp",
-  "brand_group": "Japon",
+  "brand_group": "Hyundai",
   "years": "2011-2015",
   "specs": {
     "hp": 132,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
     "body_type": "Sedan",
-    "engine_id": "hyundai-gamma16-mpi"
+    "engine_id": "hyundai-gamma16-mpi",
+    "lpg_common": true
   },
   "price_band_k_try": [
     700,

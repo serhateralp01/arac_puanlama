@@ -3,7 +3,7 @@
   "legacy_index": 80,
   "name": "Peugeot 508 2.0 HDi",
   "tag": "Aisin AF40 tork konvertörü · ~140-163 bg",
-  "brand_group": "PSA",
+  "brand_group": "Peugeot",
   "years": "2011-2018",
   "specs": {
     "hp": 163,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-af40",
     "body_type": "Sedan",
-    "engine_id": "psa-dw10"
+    "engine_id": "psa-dw10",
+    "lpg_common": null
   },
   "price_band_k_try": [
     750,

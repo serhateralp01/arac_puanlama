@@ -3,7 +3,7 @@
   "legacy_index": 70,
   "name": "Audi A3 8P 2.0 TDI",
   "tag": "ıslak DQ250 S tronic · ~140 bg",
-  "brand_group": "VAG",
+  "brand_group": "Audi",
   "years": "2004-2012",
   "specs": {
     "hp": 140,
@@ -13,7 +13,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-dq250",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea188-pd"
+    "engine_id": "vag-ea188-pd",
+    "lpg_common": null
   },
   "price_band_k_try": [
     650,

@@ -3,7 +3,7 @@
   "legacy_index": 116,
   "name": "Kia Optima 1.7 CRDi",
   "tag": "6 ileri tork konvertörü · ~136hp",
-  "brand_group": "Japon",
+  "brand_group": "Kia",
   "years": "2011-2015",
   "specs": {
     "hp": 136,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
     "body_type": "Sedan",
-    "engine_id": "hyundai-u2-17"
+    "engine_id": "hyundai-u2-17",
+    "lpg_common": null
   },
   "price_band_k_try": [
     650,

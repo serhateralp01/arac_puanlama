@@ -3,7 +3,7 @@
   "legacy_index": 78,
   "name": "Peugeot 308 1.6 THP",
   "tag": "Aisin AF40 tork konvertörü · ~156 bg",
-  "brand_group": "PSA",
+  "brand_group": "Peugeot",
   "years": "2009-2013",
   "specs": {
     "hp": 156,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-af40",
     "body_type": "Hatchback",
-    "engine_id": "psa-ep6-thp"
+    "engine_id": "psa-ep6-thp",
+    "lpg_common": false
   },
   "price_band_k_try": [
     700,

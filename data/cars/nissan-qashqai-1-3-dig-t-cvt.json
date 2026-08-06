@@ -2,7 +2,7 @@
   "id": "nissan-qashqai-1-3-dig-t-cvt",
   "name": "Nissan Qashqai 1.3 DIG-T CVT",
   "tag": "oto: X-Tronic CVT · ~140hp",
-  "brand_group": "Japon",
+  "brand_group": "Nissan",
   "years": "2017-2021",
   "specs": {
     "hp": 140,
@@ -12,7 +12,8 @@
     "transmission_type": "CVT",
     "transmission_id": "nissan-xtronic",
     "body_type": "SUV",
-    "engine_id": "renault-h5ht"
+    "engine_id": "renault-h5ht",
+    "lpg_common": false
   },
   "price_band_k_try": [
     900,

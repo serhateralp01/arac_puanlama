@@ -3,7 +3,7 @@
   "legacy_index": 90,
   "name": "Alfa Romeo MiTo 1.4",
   "tag": "TCT çift kavrama · ~135-155 bg",
-  "brand_group": "Diğer",
+  "brand_group": "Alfa Romeo",
   "years": "2010-2016",
   "specs": {
     "hp": 135,
@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "alfa-tct",
     "body_type": "Hatchback",
-    "engine_id": "fca-multiair-14"
+    "engine_id": "fca-multiair-14",
+    "lpg_common": false
   },
   "price_band_k_try": [
     600,

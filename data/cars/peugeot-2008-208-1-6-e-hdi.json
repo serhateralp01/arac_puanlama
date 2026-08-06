@@ -3,7 +3,7 @@
   "legacy_index": 109,
   "name": "Peugeot 2008 / 208 1.6 e-HDi",
   "tag": "ETG robotlu yarı otomatik",
-  "brand_group": "PSA",
+  "brand_group": "Peugeot",
   "years": "2013-2020",
   "specs": {
     "hp": 115,
@@ -13,7 +13,8 @@
     "transmission_type": "Robot",
     "transmission_id": "psa-etg",
     "body_type": null,
-    "engine_id": "psa-dv6"
+    "engine_id": "psa-dv6",
+    "lpg_common": null
   },
   "price_band_k_try": [
     700,

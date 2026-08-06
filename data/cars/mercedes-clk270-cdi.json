@@ -3,7 +3,7 @@
   "legacy_index": 37,
   "name": "Mercedes CLK270 CDI",
   "tag": "W209 OM612 · 5G · coupe · ~170hp",
-  "brand_group": "Mercedes",
+  "brand_group": "Mercedes-Benz",
   "years": "2002-2009",
   "specs": {
     "hp": 170,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-5g-tronic",
     "body_type": "Coupe",
-    "engine_id": "mb-om612"
+    "engine_id": "mb-om612",
+    "lpg_common": null
   },
   "price_band_k_try": [
     500,

@@ -3,7 +3,7 @@
   "legacy_index": 33,
   "name": "Mercedes C200 Komp.",
   "tag": "W203 M111/M271 · 5G-Tronic · ~163-184hp",
-  "brand_group": "Mercedes",
+  "brand_group": "Mercedes-Benz",
   "years": "2000-2007",
   "specs": {
     "hp": 163,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-5g-tronic",
     "body_type": "Sedan",
-    "engine_id": "mb-m271"
+    "engine_id": "mb-m271",
+    "lpg_common": false
   },
   "price_band_k_try": [
     420,

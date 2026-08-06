@@ -3,7 +3,7 @@
   "legacy_index": 134,
   "name": "Audi A4 B6 1.8T / 2.0",
   "tag": "Multitronic CVT veya Tiptronic · ~130-163hp",
-  "brand_group": "VAG",
+  "brand_group": "Audi",
   "years": "2001-2004",
   "specs": {
     "hp": 130,
@@ -13,7 +13,8 @@
     "transmission_type": "CVT",
     "transmission_id": "vag-multitronic",
     "body_type": "Sedan",
-    "engine_id": "vag-ea113-18t"
+    "engine_id": "vag-ea113-18t",
+    "lpg_common": false
   },
   "price_band_k_try": [
     550,

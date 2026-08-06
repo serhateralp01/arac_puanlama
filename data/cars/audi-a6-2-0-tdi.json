@@ -3,7 +3,7 @@
   "legacy_index": 29,
   "name": "Audi A6 2.0 TDI",
   "tag": "2010 · oto: Multitronic CVT · ~170hp",
-  "brand_group": "VAG",
+  "brand_group": "Audi",
   "years": "2008-2011",
   "specs": {
     "hp": 170,
@@ -13,7 +13,8 @@
     "transmission_type": "CVT",
     "transmission_id": "vag-multitronic",
     "body_type": "Sedan",
-    "engine_id": "vag-ea189"
+    "engine_id": "vag-ea189",
+    "lpg_common": null
   },
   "price_band_k_try": [
     700,

@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-aw55",
     "body_type": "Sedan",
-    "engine_id": "volvo-b5254"
+    "engine_id": "volvo-b5254",
+    "lpg_common": false
   },
   "price_band_k_try": [
     500,

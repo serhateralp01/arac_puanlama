@@ -3,7 +3,7 @@
   "legacy_index": 132,
   "name": "Skoda Octavia 1 (Tour) 1.6/1.8/2.0",
   "tag": "4 ileri Tiptronic · ~101-150hp",
-  "brand_group": "VAG",
+  "brand_group": "Skoda",
   "years": "1996-2010",
   "specs": {
     "hp": 115,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "vag-01m",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea827"
+    "engine_id": "vag-ea827",
+    "lpg_common": true
   },
   "price_band_k_try": [
     480,

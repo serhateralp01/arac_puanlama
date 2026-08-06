@@ -3,7 +3,7 @@
   "legacy_index": 30,
   "name": "Mercedes C180 (W204)",
   "tag": "2009+ · oto: 7G/5G-Tronic · ~156hp",
-  "brand_group": "Mercedes",
+  "brand_group": "Mercedes-Benz",
   "years": "2009-2014",
   "specs": {
     "hp": 156,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-7g-tronic",
     "body_type": "Sedan",
-    "engine_id": "mb-m271"
+    "engine_id": "mb-m271",
+    "lpg_common": false
   },
   "price_band_k_try": [
     850,

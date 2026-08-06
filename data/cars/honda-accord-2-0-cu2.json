@@ -3,7 +3,7 @@
   "legacy_index": 50,
   "name": "Honda Accord 2.0 (CU2)",
   "tag": "oto: 5 ileri TK · ~156hp",
-  "brand_group": "Japon",
+  "brand_group": "Honda",
   "years": "2008-2015",
   "specs": {
     "hp": 156,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "honda-4at-5at",
     "body_type": "Sedan",
-    "engine_id": "honda-k20-k24"
+    "engine_id": "honda-k20-k24",
+    "lpg_common": true
   },
   "price_band_k_try": [
     700,

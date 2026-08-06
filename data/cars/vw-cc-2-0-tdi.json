@@ -3,7 +3,7 @@
   "legacy_index": 25,
   "name": "VW CC 2.0 TDI",
   "tag": "oto: DSG DQ250 · ~140-170hp",
-  "brand_group": "VAG",
+  "brand_group": "Volkswagen",
   "years": "2009-2016",
   "specs": {
     "hp": 170,
@@ -13,7 +13,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-dq250",
     "body_type": "Sedan",
-    "engine_id": "vag-ea189"
+    "engine_id": "vag-ea189",
+    "lpg_common": null
   },
   "price_band_k_try": [
     780,

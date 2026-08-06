@@ -3,7 +3,7 @@
   "legacy_index": 60,
   "name": "Renault Fluence 1.6",
   "tag": "oto: X-Tronic CVT · ~110hp (sınır altı)",
-  "brand_group": "Egea/Fluence",
+  "brand_group": "Renault",
   "years": "2010-2016",
   "specs": {
     "hp": 110,
@@ -13,7 +13,8 @@
     "transmission_type": "CVT",
     "transmission_id": "nissan-xtronic",
     "body_type": "Sedan",
-    "engine_id": "renault-k4m"
+    "engine_id": "renault-k4m",
+    "lpg_common": true
   },
   "price_band_k_try": [
     550,

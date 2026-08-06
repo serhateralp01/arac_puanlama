@@ -2,7 +2,7 @@
   "id": "vw-tiguan-1-4-tsi-dsg",
   "name": "VW Tiguan 1.4 TSI DSG",
   "tag": "oto: 6 ileri ıslak DSG · ~150hp",
-  "brand_group": "VAG",
+  "brand_group": "Volkswagen",
   "years": "2016-2020",
   "specs": {
     "hp": 150,
@@ -12,7 +12,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-dq250",
     "body_type": "SUV",
-    "engine_id": "vag-ea211"
+    "engine_id": "vag-ea211",
+    "lpg_common": false
   },
   "price_band_k_try": [
     1150,

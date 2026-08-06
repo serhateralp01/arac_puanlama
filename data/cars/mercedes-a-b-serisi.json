@@ -3,7 +3,7 @@
   "legacy_index": 74,
   "name": "Mercedes A/B Serisi",
   "tag": "kuru 7G-DCT çift kavrama · ~122 bg",
-  "brand_group": "Mercedes",
+  "brand_group": "Mercedes-Benz",
   "years": "2012-2018",
   "specs": {
     "hp": 122,
@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "mb-7g-dct",
     "body_type": null,
-    "engine_id": "mb-m270"
+    "engine_id": "mb-m270",
+    "lpg_common": false
   },
   "price_band_k_try": [
     900,

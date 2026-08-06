@@ -3,7 +3,7 @@
   "legacy_index": 89,
   "name": "Hyundai Accent Blue 1.6 CRDi",
   "tag": "kuru 7DCT çift kavrama · ~128 bg",
-  "brand_group": "Japon",
+  "brand_group": "Hyundai",
   "years": "2012-2018",
   "specs": {
     "hp": 128,
@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "hyundai-7dct",
     "body_type": "Sedan",
-    "engine_id": "hyundai-u2-16"
+    "engine_id": "hyundai-u2-16",
+    "lpg_common": null
   },
   "price_band_k_try": [
     700,

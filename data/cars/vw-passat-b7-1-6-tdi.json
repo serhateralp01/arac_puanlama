@@ -3,7 +3,7 @@
   "legacy_index": 102,
   "name": "VW Passat B7 1.6 TDI",
   "tag": "kuru DQ200 DSG",
-  "brand_group": "VAG",
+  "brand_group": "Volkswagen",
   "years": "2011-2015",
   "specs": {
     "hp": 120,
@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "Sedan",
-    "engine_id": "vag-ea189"
+    "engine_id": "vag-ea189",
+    "lpg_common": null
   },
   "price_band_k_try": [
     850,

@@ -297,3 +297,53 @@ için uçtan uca çalıştırıldı (bkz. `data/queue/README.md`, `docs/ROADMAP.
 her biri için gerçek bir kaynak arandı, tier'ı ve hangi kriteri desteklediği
 belirlendi, kabul edilenler `data/sources.json`'a ve araç kayıtlarına işlendi. Bu ilk
 tur, kuyruğun yalnızca kağıt üzerinde değil gerçek veri üzerinde çalıştığının kanıtı.
+
+---
+
+## MK-10 · `brand_group` gerçek markadır, uydurma üst grup değildir
+
+**Karar:** `specs.brand_group` (araç şemasında üst seviyede duran alan) artık her zaman
+aracın gerçek üretici markasına eşit — "Volkswagen", "Toyota", "BMW" gibi. Önceki
+"VAG", "Japon", "Egea/Fluence", "Diğer" gibi gevşek gruplamalar tamamen kaldırıldı;
+160 araç kaydının 105'inin `brand_group` alanı 2026-08-06'da düzeltildi.
+
+**Gerekçe.** Bu alan filtrede "Marka grubu" olarak görünüyor ve kullanıcı bir markayı
+aradığında onu bulabilmesi gerekiyor. "Egea/Fluence" gibi bir etiket hem yanlış (iki
+farklı üreticinin iki farklı modelini birleştiriyor, gerçek bir üst kategori değil) hem
+kullanışsız (kullanıcı "Fiat" ya da "Renault" arıyor, "Egea/Fluence" aramıyor). "Japon"
+etiketi de yanlıştı: Hyundai ve Kia Kore menşeli, aynı kovaya konmaları coğrafi bir
+yanlışlıktan başka bir şey değildi. Eski tasarımın gerekçesi "filtre menüsü çok
+uzamasın" idi, ama filtre menüsünün doğruluğu kullanışlılığından önce gelir; menü artık
+11 yerine 29 gerçek marka gösteriyor ve bu, arayüzün amacına daha uygun.
+
+**İstisna.** İki kayıt gerçekten iki farklı markanın rebadge edilmiş (aynı platformu
+paylaşan, yalnızca farklı logoyla satılan) ikiz modelini temsil ediyor:
+`citroen-c-elysee-peugeot-301-benzinli` ("Citroën / Peugeot") ve
+`kia-rio-hyundai-i20-1-4` ("Kia / Hyundai"). Bu iki kayıtta iki gerçek marka adı
+` / ` ile yan yana yazılıyor; üçüncü, uydurma bir isim (eskisi gibi) asla kullanılmıyor.
+Bu istisna `data/schema/car.schema.json`'da açıkça belgelendi.
+
+---
+
+## MK-11 · LPG dönüşüm sıklığı, motor bazlı bir filtre alanı olarak eklendi
+
+**Karar:** `specs.lpg_common` (boolean veya null) eklendi: bu motorun Türkiye ikinci el
+piyasasında LPG dönüşümlü satılmasının yaygın olup olmadığını gösteriyor. Liste
+ekranına yeni bir filtre grubu ("LPG") eklendi.
+
+**Gerekçe.** Kullanıcının açık talebi: LPG dönüşümlü araçları filtreden eleyebilmek
+istiyor. Bu, fabrika çıkışı bir `fuel` değeri değil — LPG bir sonradan dönüşüm, aracın
+orijinal yakıt tipi (`Dizel`/`Benzin`) değişmiyor. Bu yüzden `fuel` enum'unu genişletmek
+yanlış model olurdu (`Dizel`/`Benzin`/`LPG` üç değerli bir alan, "bu araç LPG'li mi"
+sorusuna değil "bu araç LPG'ye dönüştürülmesi yaygın mı" sorusuna cevap vermeli); ayrı
+bir alan açmak `data/`'nın "sunumdan bağımsız kalır" ilkesine de uygun (CLAUDE.md §4).
+
+**Nasıl dolduruluyor.** Elle değil, motorun `data/engines.json`'daki `aspiration`
+alanından türetiliyor: atmosferik, port enjeksiyonlu benzinli motorlar Türkiye'de
+yaygın biçimde LPG'ye dönüştürülüyor (`true`); turbo, kompresörlü veya direkt
+enjeksiyonlu (GDI/TSI/TFSI/THP/EcoBoost/MultiAir) motorlar teknik olarak zor veya riskli
+kabul edildiği için yaygın değil (`false`). Dizel araçlarda alan `null` — LPG kavramı
+dizelde uygulanmıyor. Bu, kaynaklı bir iddia değil, motorun doldurma biçiminden
+çıkarılan mekanik bir çıkarım; ileride araca özgü gerçek bir kaynak bulunursa
+(ör. "bu motor LPG'ye dönüştürüldüğünde turbo arızası yaygınlaşıyor" gibi) değer
+güncellenebilir ve kaynağı `evidence` alanına yazılabilir.

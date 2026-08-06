@@ -3,7 +3,7 @@
   "legacy_index": 126,
   "name": "Peugeot 307 1.6",
   "tag": "AL4 4 ileri tork konvertörü · ~110hp",
-  "brand_group": "PSA",
+  "brand_group": "Peugeot",
   "years": "2001-2008",
   "specs": {
     "hp": 110,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "psa-al4",
     "body_type": "Hatchback",
-    "engine_id": "psa-tu5"
+    "engine_id": "psa-tu5",
+    "lpg_common": true
   },
   "price_band_k_try": [
     480,

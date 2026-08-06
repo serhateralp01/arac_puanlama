@@ -3,7 +3,7 @@
   "legacy_index": 76,
   "name": "Mercedes C200 CDI (W203)",
   "tag": "5G-Tronic tork konvertörü · ~122 bg",
-  "brand_group": "Mercedes",
+  "brand_group": "Mercedes-Benz",
   "years": "2001-2007",
   "specs": {
     "hp": 122,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-5g-tronic",
     "body_type": "Sedan",
-    "engine_id": "mb-om611"
+    "engine_id": "mb-om611",
+    "lpg_common": null
   },
   "price_band_k_try": [
     500,

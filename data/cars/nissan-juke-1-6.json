@@ -3,7 +3,7 @@
   "legacy_index": 108,
   "name": "Nissan Juke 1.6",
   "tag": "X-Tronic CVT",
-  "brand_group": "Japon",
+  "brand_group": "Nissan",
   "years": "2011-2019",
   "specs": {
     "hp": 117,
@@ -13,7 +13,8 @@
     "transmission_type": "CVT",
     "transmission_id": "nissan-xtronic",
     "body_type": "SUV",
-    "engine_id": "nissan-hr16de"
+    "engine_id": "nissan-hr16de",
+    "lpg_common": true
   },
   "price_band_k_try": [
     750,

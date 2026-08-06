@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "ford-dps6",
     "body_type": "Hatchback",
-    "engine_id": "ford-sigma-tivct"
+    "engine_id": "ford-sigma-tivct",
+    "lpg_common": true
   },
   "price_band_k_try": [
     750,

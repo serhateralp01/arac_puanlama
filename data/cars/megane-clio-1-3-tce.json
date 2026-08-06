@@ -3,7 +3,7 @@
   "legacy_index": 42,
   "name": "Megane/Clio 1.3 TCe",
   "tag": "ıslak 7 ileri Getrag 7DCT300 EDC · ~140-160hp",
-  "brand_group": "Diğer",
+  "brand_group": "Renault",
   "years": "2017-2022",
   "specs": {
     "hp": 140,
@@ -13,7 +13,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "getrag-7dct300",
     "body_type": "Hatchback",
-    "engine_id": "renault-h5ht"
+    "engine_id": "renault-h5ht",
+    "lpg_common": false
   },
   "price_band_k_try": [
     900,

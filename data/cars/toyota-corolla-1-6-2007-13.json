@@ -3,7 +3,7 @@
   "legacy_index": 52,
   "name": "Toyota Corolla 1.6 (2007-13)",
   "tag": "oto: 4 ileri TK · ~124hp",
-  "brand_group": "Japon",
+  "brand_group": "Toyota",
   "years": "2007-2013",
   "specs": {
     "hp": 124,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "toyota-4at",
     "body_type": "Sedan",
-    "engine_id": "toyota-zr"
+    "engine_id": "toyota-zr",
+    "lpg_common": true
   },
   "price_band_k_try": [
     650,

@@ -3,7 +3,7 @@
   "legacy_index": 133,
   "name": "Audi A4 B5 1.8T / 2.4",
   "tag": "ZF 5 ileri Tiptronic · ~150-165hp",
-  "brand_group": "VAG",
+  "brand_group": "Audi",
   "years": "1994-2001",
   "specs": {
     "hp": 150,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "zf-5hp",
     "body_type": "Sedan",
-    "engine_id": "vag-ea113-18t"
+    "engine_id": "vag-ea113-18t",
+    "lpg_common": false
   },
   "price_band_k_try": [
     500,

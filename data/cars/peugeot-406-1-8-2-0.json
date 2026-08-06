@@ -3,7 +3,7 @@
   "legacy_index": 145,
   "name": "Peugeot 406 1.8/2.0",
   "tag": "4 ileri tork konvertörü · ~110-135hp",
-  "brand_group": "PSA",
+  "brand_group": "Peugeot",
   "years": "1995-2004",
   "specs": {
     "hp": 110,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "psa-al4",
     "body_type": "Sedan",
-    "engine_id": "psa-xu"
+    "engine_id": "psa-xu",
+    "lpg_common": true
   },
   "price_band_k_try": [
     420,

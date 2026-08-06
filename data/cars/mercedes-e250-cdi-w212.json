@@ -3,7 +3,7 @@
   "legacy_index": 99,
   "name": "Mercedes E250 CDI (W212)",
   "tag": "7G-Tronic tork konvertörü · ~204 bg",
-  "brand_group": "Mercedes",
+  "brand_group": "Mercedes-Benz",
   "years": "2009-2016",
   "specs": {
     "hp": 204,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-7g-tronic",
     "body_type": "Sedan",
-    "engine_id": "mb-om651"
+    "engine_id": "mb-om651",
+    "lpg_common": null
   },
   "price_band_k_try": [
     900,

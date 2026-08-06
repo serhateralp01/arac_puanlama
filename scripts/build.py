@@ -119,6 +119,7 @@ def to_runtime_db(
                 "fuel": s["fuel"],
                 "drv": s["drivetrain"],
                 "body": s.get("body_type"),
+                "lpg": s.get("lpg_common"),
                 "g": car["brand_group"],
                 "v": verif_map[car["verification"]],
                 "r": car["sources"],

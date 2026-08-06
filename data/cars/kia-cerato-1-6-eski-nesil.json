@@ -3,7 +3,7 @@
   "legacy_index": 141,
   "name": "Kia Cerato 1.6 (eski nesil)",
   "tag": "4 ileri tork konvertörü · ~105-122hp",
-  "brand_group": "Japon",
+  "brand_group": "Kia",
   "years": "2004-2009",
   "specs": {
     "hp": 105,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-a4af3",
     "body_type": "Sedan",
-    "engine_id": "hyundai-beta-16"
+    "engine_id": "hyundai-beta-16",
+    "lpg_common": true
   },
   "price_band_k_try": [
     450,

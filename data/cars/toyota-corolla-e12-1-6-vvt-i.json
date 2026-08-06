@@ -3,7 +3,7 @@
   "legacy_index": 138,
   "name": "Toyota Corolla E12 1.6 VVT-i",
   "tag": "4 ileri tork konvertörü · ~110hp",
-  "brand_group": "Japon",
+  "brand_group": "Toyota",
   "years": "2002-2007",
   "specs": {
     "hp": 110,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "toyota-4at",
     "body_type": "Sedan",
-    "engine_id": "toyota-zz"
+    "engine_id": "toyota-zz",
+    "lpg_common": true
   },
   "price_band_k_try": [
     480,

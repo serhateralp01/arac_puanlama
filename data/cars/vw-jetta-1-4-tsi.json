@@ -3,7 +3,7 @@
   "legacy_index": 61,
   "name": "VW Jetta 1.4 TSI",
   "tag": "oto: KURU DQ200 · ~122hp",
-  "brand_group": "VAG",
+  "brand_group": "Volkswagen",
   "years": "2011-2016",
   "specs": {
     "hp": 122,
@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "Sedan",
-    "engine_id": "vag-ea111-tsi-turbo"
+    "engine_id": "vag-ea111-tsi-turbo",
+    "lpg_common": false
   },
   "price_band_k_try": [
     600,

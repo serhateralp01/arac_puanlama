@@ -3,7 +3,7 @@
   "legacy_index": 65,
   "name": "Skoda Octavia 1.8 TSI",
   "tag": "ıslak DQ250 DSG · ~160 bg",
-  "brand_group": "VAG",
+  "brand_group": "Skoda",
   "years": "2010-2016",
   "specs": {
     "hp": 160,
@@ -13,7 +13,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-dq250",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea888"
+    "engine_id": "vag-ea888",
+    "lpg_common": false
   },
   "price_band_k_try": [
     750,

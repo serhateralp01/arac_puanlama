@@ -3,7 +3,7 @@
   "legacy_index": 32,
   "name": "Mercedes C270 CDI",
   "tag": "W203 OM612 · 5G-Tronic · ~170hp",
-  "brand_group": "Mercedes",
+  "brand_group": "Mercedes-Benz",
   "years": "2001-2005",
   "specs": {
     "hp": 170,
@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-5g-tronic",
     "body_type": "Sedan",
-    "engine_id": "mb-om612"
+    "engine_id": "mb-om612",
+    "lpg_common": null
   },
   "price_band_k_try": [
     480,
