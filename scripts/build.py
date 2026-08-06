@@ -28,9 +28,11 @@ APP = TEMPLATES / "app"
 OUTPUT = ROOT / "index.html"
 
 
-def load_data() -> tuple[dict, list[dict], dict]:
+def load_data() -> tuple[dict, list[dict], dict, dict, dict]:
     criteria = json.loads((DATA / "criteria.json").read_text(encoding="utf-8"))
     sources = json.loads((DATA / "sources.json").read_text(encoding="utf-8"))
+    engines = json.loads((DATA / "engines.json").read_text(encoding="utf-8"))
+    transmissions = json.loads((DATA / "transmissions.json").read_text(encoding="utf-8"))
     cars = [
         json.loads(p.read_text(encoding="utf-8"))
         for p in sorted((DATA / "cars").glob("*.json"))
@@ -38,24 +40,50 @@ def load_data() -> tuple[dict, list[dict], dict]:
     # Tarayıcıdaki sıralama, göç öncesi listeyle aynı kalsın diye legacy_index'e
     # göre diziliyor; yeni araçlarda bu alan yoksa dosya adı sırası geçerli.
     cars.sort(key=lambda c: (c.get("legacy_index", 10**6), c["id"]))
-    return criteria, cars, sources
+    return criteria, cars, sources, engines, transmissions
 
 
-def data_fingerprint(criteria: dict, cars: list[dict], sources: dict) -> str:
+def data_fingerprint(
+    criteria: dict, cars: list[dict], sources: dict, engines: dict, transmissions: dict
+) -> str:
     """Veri klasörünün içeriğine bağlı, oluşturma zamanından bağımsız damga.
 
     Zaman damgası kullanmıyoruz: aynı veriden her zaman aynı HTML çıksın ki
     `--check` gürültüsüz çalışsın ve git diff yalnızca gerçek değişimi göstersin.
     """
     blob = json.dumps(
-        {"criteria": criteria, "cars": cars, "sources": sources},
+        {
+            "criteria": criteria,
+            "cars": cars,
+            "sources": sources,
+            "engines": engines,
+            "transmissions": transmissions,
+        },
         ensure_ascii=False,
         sort_keys=True,
     ).encode("utf-8")
     return hashlib.sha256(blob).hexdigest()[:12]
 
 
-def to_runtime_db(criteria: dict, cars: list[dict], sources: dict) -> dict:
+def riskiest(components: dict, n: int = 5) -> list[dict]:
+    """En düşük base_score'a sahip ilk n bileşeni döndürür.
+
+    Ana ekranın "hangi motor/şanzıman beni yakar" bulgusu buradan besleniyor
+    (Y-07). base_score'u henüz atanmamış bileşenler (araştırma yapılmamış)
+    listeye girmiyor; boş bir alanı "en riskli" diye göstermek yanlış olurdu.
+    """
+    scored = [
+        {"id": c["id"], "name": c["names"][0], "score": c["base_score"]}
+        for key, c in components.items()
+        if key != "_comment" and c.get("base_score") is not None
+    ]
+    scored.sort(key=lambda c: c["score"])
+    return scored[:n]
+
+
+def to_runtime_db(
+    criteria: dict, cars: list[dict], sources: dict, engines: dict, transmissions: dict
+) -> dict:
     """Zengin JSON şemasını tarayıcı kodunun beklediği sade şekle indirger.
 
     Arayüz kodu göçten beri değişmedi; dönüşüm burada yapılıyor ki veri
@@ -118,6 +146,12 @@ def to_runtime_db(criteria: dict, cars: list[dict], sources: dict) -> dict:
         "weak_threshold": criteria["weak_threshold"],
         "presets": criteria["presets"],
         "preset_labels": criteria["preset_labels"],
+        # Ana ekranın (#ana, Y-07) veri kapsamı özeti ve "hangi bileşen beni
+        # yakar" bulgusu için: elle yazılmasın diye burada, veriden hesaplanıyor.
+        "engine_count": len([k for k in engines if k != "_comment"]),
+        "transmission_count": len([k for k in transmissions if k != "_comment"]),
+        "riskiest_engines": riskiest(engines),
+        "riskiest_transmissions": riskiest(transmissions),
         "build_stamp": "",  # render() dolduruyor
     }
 
@@ -154,10 +188,10 @@ def concat_screens() -> str:
 
 
 def render() -> str:
-    criteria, cars, sources = load_data()
-    stamp = f"veri damgası {data_fingerprint(criteria, cars, sources)}"
+    criteria, cars, sources, engines, transmissions = load_data()
+    stamp = f"veri damgası {data_fingerprint(criteria, cars, sources, engines, transmissions)}"
 
-    db = to_runtime_db(criteria, cars, sources)
+    db = to_runtime_db(criteria, cars, sources, engines, transmissions)
     db["build_stamp"] = stamp
 
     template = TEMPLATE.read_text(encoding="utf-8")

@@ -282,6 +282,28 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
    araç kutusunu kısa süreliğine vurgulamak için (Y-04) */
 #ktCar.prefilled{border-color:var(--sage);box-shadow:0 0 0 3px var(--sagebg);transition:box-shadow .2s,border-color .2s}
 
+/* ---------- ana ekran (Y-07) ---------- */
+.anagrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:6px}
+@media(max-width:900px){.anagrid{grid-template-columns:1fr}}
+.anacard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px;min-width:0}
+.anacard-wide{grid-column:1/-1}
+.anacard h3{font-family:var(--disp);font-weight:600;font-size:16px;margin-bottom:8px}
+.anacard h4{font-family:var(--body);font-weight:600;font-size:12.5px;color:var(--dim);margin-bottom:8px;text-transform:uppercase;letter-spacing:.03em}
+.anacard p{color:var(--dim);font-size:12.8px;line-height:1.6;margin-bottom:12px}
+.anapaths{display:flex;flex-direction:column;gap:8px}
+.anapathbtn{display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:left;width:100%;border-radius:11px;padding:11px 14px}
+.anapathbtn .apt{font-family:var(--body);font-weight:600;font-size:13px;color:var(--ink)}
+.anapathbtn:hover .apt{color:var(--sage)}
+.anapathbtn .apd{font-family:var(--body);font-weight:400;font-size:11.5px;color:var(--dim)}
+.analist{list-style:none;margin:0;padding:0}
+.analist li{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:12.8px}
+.analist li:last-child{border-bottom:none}
+.analist .an{font-family:var(--body);color:var(--ink)}
+.analist .av{font-family:var(--mono);font-weight:600;color:var(--sage)}
+.analist .av.risky{color:var(--red)}
+.anarisk-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media(max-width:560px){.anarisk-grid{grid-template-columns:1fr}}
+
 /* ---------- iletişim ---------- */
 .ilwrap{display:grid;grid-template-columns:1fr 1.35fr;gap:16px;align-items:start}
 @media(max-width:900px){.ilwrap{grid-template-columns:1fr}}

@@ -8,6 +8,7 @@ renderFilters();
 render();
 renderTray();
 renderCompare();
+renderAna();
 
 const refUl=document.getElementById('refs');
 Object.keys(R).forEach(k=>{const li=document.createElement('li');

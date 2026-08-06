@@ -1,0 +1,37 @@
+<section class="screen" data-screen="ana">
+  <div class="screenhead">
+    <h2>Nereden Başlamalı</h2>
+    <p class="lede">Giriş akışından sonra kullanıcı doğrudan __CAR_COUNT__ satırlık tabloya düşmesin diye bu ekran araya girdi. Aşağıdaki sayılar veriden hesaplanıyor, elle yazılmıyor; siz bu sayfayı her açtığınızda o anki veri durumunu görürsünüz.</p>
+  </div>
+
+  <div id="anaStats" class="methstats"></div>
+
+  <div class="anagrid">
+    <div class="anacard">
+      <h3>Hazır giriş yolları</h3>
+      <p>Üçü de sizi araç listesine götürür; farkları hangi ağırlık setinin uygulandığı ve listenin nasıl sıralandığıdır. Listeye vardığınızda ağırlıkları kendiniz de değiştirebilirsiniz.</p>
+      <div class="anapaths" id="anaPaths"></div>
+    </div>
+
+    <div class="anacard">
+      <h3>En yüksek puanlı beş araç</h3>
+      <p>Şu anki ağırlık ayarına göre hesaplanan toplam puana göre sıralanıyor. Ayarı değiştirmek isterseniz <a href="#kriterler">kriterler ekranından</a> yapabilirsiniz.</p>
+      <ol class="analist" id="anaTop"></ol>
+    </div>
+
+    <div class="anacard anacard-wide">
+      <h3>Hangi motor ve şanzıman beni yakar</h3>
+      <p>Kullanıcının asıl aradığı bilgi genelde bu: hangi bileşen listede en düşük temel puana sahip. Bu puanlar araç bazında değil, motor ailesi veya şanzıman kutusu bazında araştırılıyor; aynı bileşeni paylaşan her araca aynı şekilde uygulanıyor. Ayrıntı için <a href="#metodoloji">nasıl puanladığımızı</a> okuyun.</p>
+      <div class="anarisk-grid">
+        <div>
+          <h4>En riskli motor aileleri</h4>
+          <ol class="analist" id="anaRiskEngine"></ol>
+        </div>
+        <div>
+          <h4>En riskli şanzıman kutuları</h4>
+          <ol class="analist" id="anaRiskTrans"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

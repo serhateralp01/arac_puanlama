@@ -18,7 +18,10 @@
  }
  document.getElementById('onext').onclick=()=>{if(step<N){step++;render();}};
  document.getElementById('oprev').onclick=()=>{if(step>1){step--;render();}};
- document.getElementById('oskip').onclick=()=>{markOnboardingSeen();goTo('liste');};
- document.getElementById('oenter').onclick=()=>{markOnboardingSeen();goTo('liste');};
+ /* Giriş bittiğinde artık doğrudan tabloya değil, ana ekrana gidiliyor
+    (Y-07); DEFAULT_ROUTE de aynı hedefi gösteriyor, bu yüzden ikisi burada
+    birbirinden kopmuyor. */
+ document.getElementById('oskip').onclick=()=>{markOnboardingSeen();goTo('ana');};
+ document.getElementById('oenter').onclick=()=>{markOnboardingSeen();goTo('ana');};
  render();
 })();

@@ -16,22 +16,26 @@ ister; güncellenmezse ilk işlevini kaybeder.
 
 ---
 
-## Durum özeti (son güncelleme: 2026-08-05)
+## Durum özeti (son güncelleme: 2026-08-06)
 
 | Katman | Durum |
 |---|---|
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
-| Şanzıman kutusu kayıtları | 30 kutu, hepsi temel puanlı ve kaynaklı |
-| Motor ailesi kayıtları | 79 aile, 78'i temel puanlı ve kaynaklı |
-| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 20/20 duman testi |
-| Çok ekranlı arayüz + giriş akışı + metodoloji + kaynak öner ekranı | Çalışıyor |
+| Şanzıman kutusu kayıtları | 45 kutu (`data/transmissions.json`), çoğu temel puanlı ve kaynaklı |
+| Motor ailesi kayıtları | 81 aile (`data/engines.json`), çoğu temel puanlı ve kaynaklı |
+| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 37/37 duman testi |
+| Çok ekranlı arayüz: ana ekran, giriş akışı, liste, metodoloji, kaynak öner, iletişim | Çalışıyor |
 | GitHub Pages yayını | Çıktı `index.html` olarak üretiliyor, kök adres siteyi açıyor |
+| Liste ekranı denetim çubuğu (Y-05) | Tamamlandı: ağırlık/arama/filtre tablonun üstünde, filtre paneli katlanabilir |
+| Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
+| Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | **Kaynak derinliği** | **Zayıf — asıl açık burada** |
 | **Araç kapsamı** | **Dar — modern kuşak ve gövde çeşitliliği eksik** |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 
-Denetimin bugünkü çıktısı: **0 hata, 183 uyarı**. Uyarıların ezici çoğunluğu (132) tek
-bir kalemden geliyor: araçların dört bağımsız kaynağa ulaşmamış olması.
+Denetimin bugünkü çıktısı: **0 hata, 182 uyarı**. Uyarıların ezici çoğunluğu (132) tek
+bir kalemden geliyor: araçların dört bağımsız kaynağa ulaşmamış olması. Bu, sırada
+duran Y-01/Y-02/Y-03'ün asıl gerekçesi.
 
 ---
 
@@ -274,29 +278,44 @@ açıklayabiliyor.
 
 ---
 
-## Y-07 · Ana giriş ekranı (onboarding sonrası)
+## Y-07 · Ana giriş ekranı (onboarding sonrası) — **bitti**
 
-**Öncelik: orta.**
+**Sorun neydi.** Giriş akışı bittikten sonra kullanıcı doğrudan 154 satırlık tabloya
+düşüyordu. Tablo güçlü ama karşılama ekranı değil; nereden başlayacağını söylemiyordu.
 
-**Sorun.** Giriş akışı bittikten sonra kullanıcı doğrudan 154 satırlık tabloya
-düşüyor. Tablo güçlü ama karşılama ekranı değil; nereden başlayacağını söylemiyor.
+**Ne yapıldı.** `#liste` ile `#giris` arasına bir ana ekran (`#ana`,
+`templates/screens/25-ana.html`) girdi ve varsayılan rota o oldu
+(`templates/app/10-yonlendirici.js` içindeki `DEFAULT_ROUTE`). Giriş akışındaki
+"Geç" ve "Araç listesine geç" düğmeleri de artık doğrudan tabloya değil ana ekrana
+götürüyor (`templates/app/15-giris.js`); ikisinin aynı hedefi göstermesi bilinçli,
+aksi hâlde giriş akışı kendi varsayılanından kopardı.
 
-**Kapsam.** `#liste` ile `#giris` arasına bir ana ekran (`#ana`) girer ve varsayılan
-rota o olur. İçeriği veriden hesaplanır, elle yazılmaz:
+İçeriğin tamamı veriden hesaplanıyor, elle yazılmıyor (`templates/app/22-ana.js`,
+`renderAna`), ve ekrana her dönüşte yeniden hesaplanıyor ki kriterler ekranında
+ağırlık değiştirilip geri dönüldüğünde eski bir sonuç görünmesin:
 
-- Veri kapsamının durumu: kaç araç, kaç kaynak, kaç motor ailesi, kaç şanzıman kutusu,
-  araç başına ortalama kaynak. (`#metodoloji` ekranındaki gösterge bloğu bunun ilk
-  hali; genişletilerek taşınabilir.)
-- Hazır giriş yolları: "güvenilirlik öncelikli ilk on", "bütçeye göre başla",
-  "sürüş keyfi öncelikli ilk on". Her biri ilgili ağırlık setini uygulayıp listeye
-  götürür.
-- Öne çıkan bulgular: en yüksek puanlı araçlar ve — daha önemlisi — **en riskli
-  bileşenler.** Kullanıcının asıl aradığı bilgi "hangi motor/şanzıman beni yakar"
-  sorusunun cevabı; bu, temel puanı en düşük motor ve kutu kayıtlarından doğrudan
-  üretilebilir.
+- **Veri kapsamı özeti:** kaç araç, kaç motor ailesi, kaç şanzıman kutusu, kaç kaynak,
+  araç başına ortalama kaynak. Motor ailesi ve şanzıman kutusu sayıları yeni:
+  `scripts/build.py` artık `data/engines.json` ve `data/transmissions.json`'ı da
+  okuyup üretilen veri tabanına (`DB`) gömüyor; önceden yalnızca `#metodoloji`
+  ekranındaki beş göstergeye sahiptik, ana ekran bu ikisini ekleyerek yediye çıkardı.
+- **Hazır giriş yolları:** "güvenilirlik öncelikli ilk on" ilgili ağırlık setini
+  uygulayıp listeyi toplam puana göre azalan sıralar; "bütçeye göre başla" ağırlıkları
+  değiştirmeden listeyi en ucuzdan başlatır; "sürüş keyfi öncelikli ilk on" ilgili
+  ağırlık setini uygular. Üçü de listeye götürür.
+- **Öne çıkan bulgular:** en yüksek puanlı beş araç (şu anki ağırlığa göre) ve — daha
+  önemlisi — **en riskli beş motor ailesi ile en riskli beş şanzıman kutusu.**
+  Kullanıcının asıl aradığı bilgi "hangi motor/şanzıman beni yakar" sorusunun cevabı;
+  bu liste araç kaydından değil, temel puanı en düşük motor ve kutu kayıtlarından
+  doğrudan üretiliyor (`scripts/build.py` içindeki `riskiest()`). Henüz temel puanı
+  atanmamış bileşenler bu listeye girmiyor; boş bir alanı "en riskli" diye göstermek
+  yanlış olurdu.
 
-**Dikkat.** Varsayılan rota değişince `templates/app/10-yonlendirici.js` içindeki
-`DEFAULT_ROUTE` ve `smoke_test.js`'in ilk ziyaret kontrolü birlikte güncellenmeli.
+`smoke_test.js` dokuz yeni kontrol kazandı: onboarding sonrası ana ekrana gidiliyor
+mu, beş istatistik kutusu doluyor mu, üç hazır giriş yolu doluyor mu, en yüksek
+puanlı beş satır doluyor mu, riskli motor/şanzıman listeleri beşer satır doluyor mu,
+ana ekranda yatay taşma var mı, hazır giriş yolu listeye götürüyor mu, ikinci
+ziyarette hash olmadan doğrudan ana ekrana düşülüyor mu.
 
 ---
 
@@ -342,16 +361,19 @@ gerekmiyor.
 
 ## Sıralama önerisi
 
-Maddeler birbirine bağımlı; şu sıra hem riski hem tekrarı azaltır:
+Maddeler birbirine bağımlı; şu sıra hem riski hem tekrarı azaltır. **Y-04, Y-05 ve
+Y-07 bitti** (aşağıda işaretli); geri kalanlar için sıra hâlâ geçerli.
 
 1. **Y-03** (araştırma hattı) — çünkü Y-01 ve Y-02'nin ikisi de buna dayanıyor.
+   **Sıradaki iş budur.**
 2. **Y-02** (kaynaksız araçları kapat) — hattın ilk gerçek yükü, aynı zamanda testi.
 3. **Y-01** (listeyi genişlet) — hat çalışır durumdayken yeni araç eklemek çok daha ucuz.
-4. **Y-05 + Y-06** (yerleşim ve şeffaflık) — küçük, bağımsız, günlük kullanımı hemen
-   iyileştiriyor.
-5. **Y-04** (form) — kullanıcının e-posta adresini kurmasını bekliyor, o yüzden dışarıya
-   bağımlı; hazır olunca araya girebilir.
-6. **Y-07 + Y-09** (ana ekran ve tema) — birlikte yapılması gereken görsel iş.
+4. ~~**Y-05 + Y-06** (yerleşim ve şeffaflık)~~ — **Y-05 bitti.** Y-06 (puanlama
+   şeffaflığı) hâlâ sırada, küçük ve bağımsız.
+5. ~~**Y-04** (form)~~ — **arayüz kısmı bitti;** gönderim uç noktası ve iletişim
+   adresi tanımlanmayı bekliyor, bu adım depo sahibine ait.
+6. ~~**Y-07**~~ + **Y-09** (ana ekran ve tema) — **Y-07 bitti.** Y-09 (koyu tema) hâlâ
+   sırada.
 7. **Y-08** (hikayeler) — sürekli ve parça parça ilerleyebilecek, aceleye gelmeyen iş.
 
 ---

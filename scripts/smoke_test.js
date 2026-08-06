@@ -81,6 +81,46 @@ async function dumpDebug(label) {
     check('ilk ziyarette giriş ekranı açılıyor', girisOk && listeGizli);
     if (!(girisOk && listeGizli)) await dumpDebug('giris-acilmadi');
 
+    // Giriş akışı bitince ana ekrana gidilmeli (Y-07), doğrudan tabloya değil.
+    await page.click('#oskip');
+    await page.waitForTimeout(200);
+    const onAnaAfterOnboard = await page.locator('[data-screen="ana"]').isVisible();
+    check('giriş sonrası ana ekrana gidiliyor', onAnaAfterOnboard);
+    if (!onAnaAfterOnboard) await dumpDebug('giris-sonrasi-ana-degil');
+
+    // Ana ekranın içeriği veriden hesaplanıyor; elle yazılmadığı için beş
+    // istatistik kutusu, üç hazır giriş yolu, beş üst sıra ve beş+beş riskli
+    // bileşen bekleniyor.
+    const anaStats = await page.locator('#anaStats .methstat').count();
+    check('ana ekran istatistikleri doluyor', anaStats === 5, `${anaStats} kutu`);
+    const anaPaths = await page.locator('.anapathbtn').count();
+    check('ana ekran hazır giriş yolları doluyor', anaPaths === 3, `${anaPaths} yol`);
+    const anaTop = await page.locator('#anaTop li').count();
+    check('ana ekran en yüksek puanlı liste doluyor', anaTop === 5, `${anaTop} satır`);
+    const anaRiskEngine = await page.locator('#anaRiskEngine li').count();
+    const anaRiskTrans = await page.locator('#anaRiskTrans li').count();
+    check(
+      'ana ekran riskli bileşen listeleri doluyor',
+      anaRiskEngine === 5 && anaRiskTrans === 5,
+      `motor=${anaRiskEngine} şanzıman=${anaRiskTrans}`
+    );
+    const anaWidth = await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2);
+    check('ana ekranda yatay taşma yok', anaWidth);
+
+    // Hazır giriş yollarından biri: tıklanınca ilgili ağırlık seti uygulanıp
+    // listeye götürmeli.
+    await page.locator('.anapathbtn').first().click();
+    await page.waitForTimeout(200);
+    const onListeAfterPath = await page.locator('[data-screen="liste"]').isVisible();
+    check('hazır giriş yolu listeye götürüyor', onListeAfterPath);
+
+    // Onboarding artık görüldü sayıldığı için hash'siz bir sonraki ziyaret de
+    // doğrudan ana ekrana düşmeli, tekrar giriş akışına değil.
+    await page.goto(FILE);
+    await page.waitForTimeout(200);
+    const directToAna = await page.locator('[data-screen="ana"]').isVisible();
+    check('tekrar ziyarette hash yokken doğrudan ana ekrana gidiliyor', directToAna);
+
     // Bundan sonrası liste ekranında geçiyor.
     await page.goto(FILE + '#liste');
     await page.waitForSelector('#body tr.main');
