@@ -96,9 +96,52 @@ function renderFilters(){
   const b=document.createElement('button');b.className='btn'+(F.budget.has(v)?' on':'')+(has?'':' disabled');b.textContent=t;
   if(has)b.onclick=()=>toggleSetVal('budget',v);gb.appendChild(b);});
  fWrap.appendChild(gb);
+ updateFilterBadge();
 }
 
 /* search */
 const searchInp=document.getElementById('search'), searchClr=document.getElementById('searchclr');
 searchInp.addEventListener('input',()=>{searchTerm=searchInp.value.trim().toLowerCase();searchClr.style.display=searchTerm?'block':'none';renderFilters();render();});
 searchClr.onclick=()=>{searchInp.value='';searchTerm='';searchClr.style.display='none';renderFilters();render();};
+
+/* ---------- katlanabilir filtre paneli (Y-05) ---------- */
+/* Sekiz filtre grubu alt alta dizildiğinde tabloyu ekranın çok aşağısına
+   itiyordu. Gruplar artık katlanabilir bir panelde duruyor ve panelin açık mı
+   kapalı mı olduğu tarayıcıda saklanıyor: kullanıcı paneli bir kez açtıysa
+   sonraki ziyaretinde açık bulur, kapattıysa kapalı. İlk ziyarette kapalı
+   başlar, çünkü ilk gelen kullanıcının önce tabloyu görmesi gerekiyor.
+
+   Panel kapalıyken hangi filtrelerin aktif olduğu görünmez olmasın diye düğmenin
+   üstünde seçili filtre sayısını gösteren bir rozet duruyor; "temizle" düğmesi de
+   panel kapalıyken erişilebilir kalıyor. */
+const FILTER_PANEL_KEY='arac_puan_filtre_paneli';
+const filtPanel=document.getElementById('filterpanel');
+const filtToggle=document.getElementById('filttoggle');
+const filtBadge=document.getElementById('filtbadge');
+const filtClear=document.getElementById('filtclear');
+
+function activeFilterCount(){let n=0;Object.keys(F).forEach(k=>n+=F[k].size);return n;}
+function updateFilterBadge(){
+ const n=activeFilterCount();
+ if(filtBadge)filtBadge.textContent=n?String(n):'';
+ if(filtToggle)filtToggle.classList.toggle('on',n>0);
+ if(filtClear)filtClear.classList.toggle('disabled',n===0);
+}
+function setFilterPanel(open){
+ if(!filtPanel)return;
+ filtPanel.classList.toggle('open',open);
+ if(filtToggle)filtToggle.setAttribute('aria-expanded',open?'true':'false');
+ try{localStorage.setItem(FILTER_PANEL_KEY,open?'1':'0');}catch(e){}
+}
+function clearAllFilters(){
+ Object.keys(F).forEach(k=>{F[k]=new Set();});
+ renderFilters();render();
+}
+if(filtToggle)filtToggle.onclick=()=>setFilterPanel(!filtPanel.classList.contains('open'));
+if(filtClear)filtClear.onclick=()=>clearAllFilters();
+(function(){
+ let open=false;
+ try{open=localStorage.getItem(FILTER_PANEL_KEY)==='1';}catch(e){open=false;}
+ if(filtPanel)filtPanel.classList.toggle('open',open);
+ if(filtToggle)filtToggle.setAttribute('aria-expanded',open?'true':'false');
+})();

@@ -133,14 +133,35 @@ async function dumpDebug(label) {
     const sorted = totals.every((v, i) => i === 0 || totals[i - 1] >= v);
     check('varsayılan sıralama toplam puana göre azalan', sorted);
 
+    // Filtre paneli (Y-05): tercihi saklanıyor ama kayıt yokken kapalı başlıyor,
+    // çünkü ilk gelen kullanıcının önce tabloyu görmesi gerekiyor.
+    const panelClosed = !(await page.locator('#filterpanel').isVisible());
+    check('filtre paneli ilk ziyarette kapalı', panelClosed);
+    if (!panelClosed) await dumpDebug('filtre-paneli-kapali-degil');
+    await page.click('#filttoggle');
+    await page.waitForTimeout(150);
+    const panelOpen = await page.locator('#filterpanel.open').isVisible();
+    check('filtre düğmesi paneli açıyor', panelOpen);
+    if (!panelOpen) await dumpDebug('filtre-paneli-acilmadi');
+
     // Filtre: "Robot" şanzıman seçilince liste daralmalı.
     await page.getByRole('button', { name: 'Robot', exact: true }).click();
     await page.waitForTimeout(150);
     const filtered = await page.locator('#body tr.main').count();
     check('şanzıman filtresi daraltıyor', filtered > 0 && filtered < rows, `${filtered} satır`);
     if (!(filtered > 0 && filtered < rows)) await dumpDebug('filtre-daraltmadi');
-    await page.locator('.fgroup').first().getByRole('button', { name: 'Hepsi' }).click();
+
+    // Panel kapalıyken hangi filtrelerin açık olduğu görünmez olmasın diye
+    // düğmenin üstündeki rozet seçili filtre sayısını sayıyor.
+    const badge = await page.locator('#filtbadge').innerText();
+    check('filtre rozeti seçili filtre sayısını gösteriyor', badge.trim() === '1', `rozet "${badge.trim()}"`);
+
+    // "Filtreleri temizle" bütün kategorileri birden sıfırlamalı.
+    await page.click('#filtclear');
     await page.waitForTimeout(150);
+    const cleared = await page.locator('#body tr.main').count();
+    check('filtreleri temizle düğmesi listeyi geri getiriyor', cleared === rows, `${cleared} satır`);
+    if (cleared !== rows) await dumpDebug('filtre-temizlenmedi');
 
     // Gövde filtresi: "Sedan" seçilince liste daralmalı. Bu filtre yalnızca
     // specs.body_type dolu olduğunda çalışır, o yüzden verinin de kontrolü sayılır.

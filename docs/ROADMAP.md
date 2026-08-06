@@ -194,23 +194,32 @@ Bu adımlar depo sahibine ait ve hepsi ücretsizdir.
 
 ---
 
-## Y-05 · Kriter panelini tablonun hemen üstüne al, yatay yerleşim
+## Y-05 · Kriter panelini tablonun hemen üstüne al, yatay yerleşim — **bitti**
 
-**Öncelik: orta. Küçük ama günlük kullanımı doğrudan etkileyen bir iş.**
+**Sorun neydi.** Liste ekranında hazır ayar düğmeleri, ağırlık toplamı kutusu, arama
+kutusu ve sekiz satırlık filtre grubu üst üste diziliyordu; tablo ekranın çok aşağısına
+kayıyor ve kullanıcı asıl işi (tabloyu okumak) için her seferinde kaydırmak zorunda
+kalıyordu.
 
-**Sorun.** Liste ekranında hazır ayar düğmeleri, ağırlık toplamı kutusu, arama kutusu ve
-sekiz satırlık filtre grubu üst üste diziliyor; tablo ekranın çok aşağısına kayıyor.
-Kullanıcı asıl işi (tabloyu okumak) için her seferinde kaydırmak zorunda kalıyor.
+**Ne yapıldı.** Hazır ayarlar, ağırlık toplamı kutusu, arama kutusu, filtre düğmesi ve
+"kaç araç gösteriliyor" sayacı tablonun hemen üstünde tek bir denetim çubuğunda
+(`.ctrlbar`) yatay olarak toplandı; sekiz filtre grubu ise katlanabilir bir panele
+(`#filterpanel`) alındı. Ağırlık değişiminin tabloyu anında etkilemesi korundu, çünkü
+hazır ayar düğmeleri eskisi gibi aynı `W` nesnesini düzenleyip `recalcAll` çağırıyor.
 
-**Kapsam.** Ağırlık ayarları ve filtreler tablonun hemen üstünde, yatayda ve mümkün
-olduğunca tek satırda toplanmalı. Yer kazanmak için filtre grupları katlanabilir bir
-panele alınabilir; ama **varsayılan olarak açık mı kapalı mı olacağı bir tercih
-sorusudur ve kullanıcıya sorulmalıdır.** Ağırlık değişiminin tabloyu anında etkilemesi
-korunmalı — bugün çalışan bu davranış bozulursa yerleşim kazancı anlamsızlaşır.
+**Panelin varsayılanı sorulmuştu, cevap şu oldu:** panel **ilk ziyarette kapalı**
+geliyor, ama kullanıcının açık/kapalı tercihi `localStorage` içinde
+(`arac_puan_filtre_paneli`) saklanıyor ve sonraki ziyarette bıraktığı gibi açılıyor. İlk
+ziyaretin kapalı olması bilinçli: siteye ilk gelen kullanıcının önce tabloyu görmesi
+gerekiyor, filtreyi ancak listeyi gördükten sonra arıyor.
 
-**Dikkat.** `templates/screens/30-liste.html` ve `templates/styles.css` değişecek.
-`smoke_test.js` içindeki `#sumbox`, `#search`, `.fgroup` seçicileri bu düzenlemeden
-etkilenir; testler birlikte güncellenmeli.
+Panel kapalıyken hangi filtrelerin açık olduğunun görünmez kalması yeni bir sorun
+yaratırdı; bunu önlemek için düğmenin üstüne seçili filtre sayısını gösteren bir rozet
+ve yanına panel kapalıyken de erişilebilen bir "Filtreleri temizle" düğmesi kondu.
+
+`smoke_test.js` dört yeni kontrol kazandı: panel ilk ziyarette kapalı mı, düğme paneli
+açıyor mu, rozet seçili filtre sayısını doğru sayıyor mu, "temizle" bütün kategorileri
+birden sıfırlıyor mu.
 
 ---
 

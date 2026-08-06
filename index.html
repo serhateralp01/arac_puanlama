@@ -143,6 +143,30 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 
 .count{font-family:var(--mono);font-size:12px;color:var(--dim);margin:2px 0 10px}
 .count b{color:var(--sage);font-weight:600}
+
+/* ---------- liste denetim çubuğu (Y-05) ---------- */
+/* Hazır ayarlar, ağırlık toplamı, arama ve filtreler tablonun hemen üstünde tek
+   bir kutuda toplanıyor. Her satır kendi içinde yatayda akıyor ve dar ekranda
+   sarıyor; filtre grupları ise ayrı bir katlanabilir panelde. */
+.ctrlbar{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:9px 12px;margin-bottom:12px;box-shadow:0 1px 2px rgba(60,55,40,.04)}
+.ctrlrow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;width:100%}
+.ctrlrow+.ctrlrow{margin-top:8px;padding-top:8px;border-top:1px solid var(--line)}
+.ctrlbar .presetrow{margin-bottom:0;flex:1 1 auto}
+.ctrlbar .searchbar{margin-bottom:0;flex:0 1 300px;min-width:180px}
+.ctrlbar .searchbar input{padding:8px 15px 8px 34px;font-size:13px}
+.ctrlbar .searchbar .ic{left:12px;font-size:12.5px}
+.ctrlbar .sumbox{margin:0;padding:6px 13px;font-size:11.5px}
+.ctrlbar .sumbox b{font-size:15px}
+.ctrlbar .count{margin:0 0 0 auto;text-align:right}
+.filttoggle{display:inline-flex;align-items:center;gap:7px}
+.filttoggle[aria-expanded="true"]{border-color:var(--sage);color:var(--sage)}
+.filttoggle .fbadge{font-family:var(--mono);font-size:10px;font-weight:600;line-height:1;padding:2px 6px;border-radius:10px;background:var(--panel2);color:var(--dim)}
+.filttoggle .fbadge:empty{display:none}
+.filttoggle.on .fbadge{background:rgba(255,255,255,.24);color:#fff}
+.filterpanel{display:none;margin-top:9px;padding-top:9px;border-top:1px solid var(--line)}
+.filterpanel.open{display:block}
+.filterpanel .fgroup:last-child{margin-bottom:0}
+@media(max-width:640px){.ctrlbar .count{margin-left:0;text-align:left;width:100%}}
 .legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
 .legend .sw{display:inline-block;width:13px;height:10px;border-radius:3px;vertical-align:middle;margin-right:5px}
 
@@ -348,15 +372,31 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 <section class="screen" data-screen="liste">
   <div class="screenhead">
     <h2>Araç Listesi</h2>
-    <p class="lede">Bu tablo, Türkiye ikinci el piyasasında bulunan <b>154 araç, motor ve şanzıman kombinasyonunu</b> karşılaştırıyor. Arama kutusuna model adı, yakıt tipi, motor hacmi veya marka yazabilirsiniz. Her filtre kategorisinde birden fazla seçeneği aynı anda işaretleyebilirsiniz; örneğin şanzıman filtresinde hem "Islak DCT" hem "Kuru DCT" seçerseniz ikisine de sahip araçlar birlikte listelenir. Filtreler birbirine bağlı çalışıyor: bir kategoriyi daralttığınızda diğer kategorilerdeki seçenekler yalnızca o daralmış listede gerçekten bulunan değerleri gösterir. Sayfa açıldığında hiçbir filtre aktif değildir, yani bütün araçlar görünür. Bir aracı kıyaslamaya eklemek için satırın solundaki artı işaretine tıklayın.</p>
+    <p class="lede">Bu tablo, Türkiye ikinci el piyasasında bulunan <b>154 araç, motor ve şanzıman kombinasyonunu</b> karşılaştırıyor. Tablonun hemen üstündeki çubuk iki işi bir arada yapıyor: soldaki hazır ayarlar kriterlerin ağırlığını değiştirir ve puanlar anında yeniden hesaplanır, sağdaki arama kutusu ile "Filtreler" düğmesi ise listeyi daraltır. Filtre paneli yer kaplamasın diye katlanmış duruyor; düğmeye bastığınızda açılır ve bir sonraki ziyaretinizde onu bıraktığınız durumda bulursunuz. Arama kutusuna model adı, yakıt tipi, motor hacmi veya marka yazabilirsiniz. Her filtre kategorisinde birden fazla seçeneği aynı anda işaretleyebilirsiniz; örneğin şanzıman filtresinde hem "Islak DCT" hem "Kuru DCT" seçerseniz ikisine de sahip araçlar birlikte listelenir. Filtreler birbirine bağlı çalışıyor: bir kategoriyi daralttığınızda diğer kategorilerdeki seçenekler yalnızca o daralmış listede gerçekten bulunan değerleri gösterir. Sayfa açıldığında hiçbir filtre aktif değildir, yani bütün araçlar görünür. Bir aracı kıyaslamaya eklemek için satırın solundaki artı işaretine tıklayın.</p>
   </div>
 
-  <div class="presetrow" id="presets"></div>
-  <div id="sumbox" class="sumbox"></div>
+  <!-- Denetim çubuğu tablonun hemen üstünde duruyor (Y-05). Ağırlık ayarları ve
+       filtreler eskiden alt alta diziliyor ve tabloyu ekranın çok aşağısına
+       itiyordu; burada yatayda toplandılar, filtre grupları ise katlanabilir
+       bir panele alındı. -->
+  <div class="ctrlbar">
+    <div class="ctrlrow">
+      <div class="presetrow" id="presets"></div>
+      <div id="sumbox" class="sumbox"></div>
+    </div>
 
-  <div class="searchbar"><span class="ic">&#128269;</span><input type="text" id="search" placeholder="model, marka, yakıt, hacim ara..."><span class="clr" id="searchclr">temizle</span></div>
-  <div id="filters"></div>
-  <div class="count" id="count"></div>
+    <div class="ctrlrow">
+      <div class="searchbar"><span class="ic">&#128269;</span><input type="text" id="search" placeholder="model, marka, yakıt, hacim ara..."><span class="clr" id="searchclr">temizle</span></div>
+      <button type="button" class="btn filttoggle" id="filttoggle" aria-expanded="false" aria-controls="filterpanel">Filtreler<span class="fbadge" id="filtbadge"></span></button>
+      <button type="button" class="btn ghost small" id="filtclear">Filtreleri temizle</button>
+      <div class="count" id="count"></div>
+    </div>
+
+    <div class="filterpanel" id="filterpanel">
+      <div id="filters"></div>
+    </div>
+  </div>
+
   <div class="tablewrap"><div class="scroll"><table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table></div></div>
   <div class="legend">
     <span><span class="sw" style="background:var(--sage)"></span>72 ve üzeri: çok iyi</span>
@@ -811,12 +851,55 @@ function renderFilters(){
   const b=document.createElement('button');b.className='btn'+(F.budget.has(v)?' on':'')+(has?'':' disabled');b.textContent=t;
   if(has)b.onclick=()=>toggleSetVal('budget',v);gb.appendChild(b);});
  fWrap.appendChild(gb);
+ updateFilterBadge();
 }
 
 /* search */
 const searchInp=document.getElementById('search'), searchClr=document.getElementById('searchclr');
 searchInp.addEventListener('input',()=>{searchTerm=searchInp.value.trim().toLowerCase();searchClr.style.display=searchTerm?'block':'none';renderFilters();render();});
 searchClr.onclick=()=>{searchInp.value='';searchTerm='';searchClr.style.display='none';renderFilters();render();};
+
+/* ---------- katlanabilir filtre paneli (Y-05) ---------- */
+/* Sekiz filtre grubu alt alta dizildiğinde tabloyu ekranın çok aşağısına
+   itiyordu. Gruplar artık katlanabilir bir panelde duruyor ve panelin açık mı
+   kapalı mı olduğu tarayıcıda saklanıyor: kullanıcı paneli bir kez açtıysa
+   sonraki ziyaretinde açık bulur, kapattıysa kapalı. İlk ziyarette kapalı
+   başlar, çünkü ilk gelen kullanıcının önce tabloyu görmesi gerekiyor.
+
+   Panel kapalıyken hangi filtrelerin aktif olduğu görünmez olmasın diye düğmenin
+   üstünde seçili filtre sayısını gösteren bir rozet duruyor; "temizle" düğmesi de
+   panel kapalıyken erişilebilir kalıyor. */
+const FILTER_PANEL_KEY='arac_puan_filtre_paneli';
+const filtPanel=document.getElementById('filterpanel');
+const filtToggle=document.getElementById('filttoggle');
+const filtBadge=document.getElementById('filtbadge');
+const filtClear=document.getElementById('filtclear');
+
+function activeFilterCount(){let n=0;Object.keys(F).forEach(k=>n+=F[k].size);return n;}
+function updateFilterBadge(){
+ const n=activeFilterCount();
+ if(filtBadge)filtBadge.textContent=n?String(n):'';
+ if(filtToggle)filtToggle.classList.toggle('on',n>0);
+ if(filtClear)filtClear.classList.toggle('disabled',n===0);
+}
+function setFilterPanel(open){
+ if(!filtPanel)return;
+ filtPanel.classList.toggle('open',open);
+ if(filtToggle)filtToggle.setAttribute('aria-expanded',open?'true':'false');
+ try{localStorage.setItem(FILTER_PANEL_KEY,open?'1':'0');}catch(e){}
+}
+function clearAllFilters(){
+ Object.keys(F).forEach(k=>{F[k]=new Set();});
+ renderFilters();render();
+}
+if(filtToggle)filtToggle.onclick=()=>setFilterPanel(!filtPanel.classList.contains('open'));
+if(filtClear)filtClear.onclick=()=>clearAllFilters();
+(function(){
+ let open=false;
+ try{open=localStorage.getItem(FILTER_PANEL_KEY)==='1';}catch(e){open=false;}
+ if(filtPanel)filtPanel.classList.toggle('open',open);
+ if(filtToggle)filtToggle.setAttribute('aria-expanded',open?'true':'false');
+})();
 /* ==== 40-sepet.js ==== */
 /* ---------- kıyaslama sepeti ---------- */
 /* Sepet bellekte tutulan sıradan bir dizi. Ekranlar aynı JavaScript bağlamını
