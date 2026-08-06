@@ -1,0 +1,39 @@
+{
+  "id": "skoda-superb-3-2-0-tdi",
+  "name": "Skoda Superb 3 2.0 TDI",
+  "tag": "oto: 6 ileri ıslak DSG · 150hp",
+  "brand_group": "Skoda",
+  "years": "2015-2019",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2.0,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "vag-dq250",
+    "body_type": "Sedan",
+    "engine_id": "vag-ea288"
+  },
+  "price_band_k_try": [
+    1050,
+    1500
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 76,
+    "trans": 62,
+    "fun": 50,
+    "comf": 88,
+    "age": 84,
+    "cost": 78,
+    "liq": 70
+  },
+  "sources": [
+    "sikayetvar_a4_tfsi"
+  ],
+  "note": "Superb'in üçüncü ve listede ilk kez yer alan nesli (önceki Superb 2 kaydı listede zaten var); EA288 2.0 TDI ve ıslak DQ250 kutusu listede zaten kayıtlı. Mekatronik şanzıman arızaları ikinci elde bildirilmiş; bazı 2020 model araçlarda kontak açılışında motor sarsıntısı/stop etme şikayeti var. Fiyat/donanım dengesi segmentinin üstünde değerlendiriliyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

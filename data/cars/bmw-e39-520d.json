@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e39-520d",
+  "name": "BMW E39 520d",
+  "tag": "oto: 5 ileri TK · 136hp",
+  "brand_group": "BMW",
+  "years": "2000-2003",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 2.0,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "zf-5hp",
+    "body_type": "Sedan",
+    "engine_id": "bmw-m47"
+  },
+  "price_band_k_try": [
+    450,
+    680
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 64,
+    "trans": 70,
+    "fun": 58,
+    "comf": 66,
+    "age": 26,
+    "cost": 62,
+    "liq": 42
+  },
+  "sources": [
+    "otopark_320d_520d_zincir"
+  ],
+  "note": "E39'un dizel versiyonu; M47 motoru (Eylül 2007 öncesi üretim, N47'den önceki nesil) ve ZF 5 ileri kutusu listede zaten E46 330d gibi araçlarda kayıtlı. Zincir sesi geliyorsa ve daha önce hiç değişmemişse mutlaka değiştirilmeli; aksi hâlde kopup büyük motor hasarına yol açabiliyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

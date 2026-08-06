@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e46-320i",
+  "name": "BMW E46 320i",
+  "tag": "oto: 5 ileri TK · 150hp",
+  "brand_group": "BMW",
+  "years": "2001-2005",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2.0,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "zf-5hp",
+    "body_type": "Sedan",
+    "engine_id": "bmw-n4x"
+  },
+  "price_band_k_try": [
+    450,
+    680
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 58,
+    "trans": 70,
+    "fun": 68,
+    "comf": 68,
+    "age": 32,
+    "cost": 60,
+    "liq": 44
+  },
+  "sources": [
+    "sistemdestekuzmani_n47_kronik"
+  ],
+  "note": "E46'nın facelift sonrası (Valvetronic) benzinli motoru; N42/N46 ailesi listede zaten E90 316i ve E87'de kayıtlı. Zincir kılavuzu aşınması yalnızca N47 dizelde değil aynı ailenin N43/N45/N46 benzinli motorlarında da görülüyor — bu, listede bmw-n4x'in zaten düşük tutulan puanının gerekçesiyle örtüşüyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

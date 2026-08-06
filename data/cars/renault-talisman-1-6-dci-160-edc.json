@@ -1,0 +1,39 @@
+{
+  "id": "renault-talisman-1-6-dci-160-edc",
+  "name": "Renault Talisman 1.6 dCi 160 EDC",
+  "tag": "oto: 7 ileri ıslak EDC · 160hp",
+  "brand_group": "Renault",
+  "years": "2016-2020",
+  "specs": {
+    "hp": 160,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "getrag-7dct300",
+    "body_type": "Sedan",
+    "engine_id": "renault-r9m"
+  },
+  "price_band_k_try": [
+    850,
+    1200
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 56,
+    "trans": 70,
+    "fun": 62,
+    "comf": 84,
+    "age": 80,
+    "cost": 64,
+    "liq": 54
+  },
+  "sources": [
+    "sikayetvar_talisman_kronik"
+  ],
+  "note": "Talisman'ın üst güç dizeli; R9M (Energy dCi) motoru listede zaten 1.6 dCi 130 kaydında kayıtlı, 7 ileri ıslak EDC kutusu Koleos/Clio 5/Megane 4'le aynı aile. 2016-2017 model bazı araçlarda 64.000 km gibi düşük kilometrede şanzıman arızası, 140.000 km'de vites geçişinde vuruntu bildirilmiş; 160 bg versiyonun 130 bg'ye göre daha sık arıza şikayeti taşıdığı aktarılıyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

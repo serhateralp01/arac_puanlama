@@ -1,0 +1,39 @@
+{
+  "id": "mercedes-e200-kompressor-w211",
+  "name": "Mercedes E200 Kompressor (W211)",
+  "tag": "oto: 5 ileri TK · 163hp",
+  "brand_group": "Mercedes-Benz",
+  "years": "2002-2009",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "mb-5g-tronic",
+    "body_type": "Sedan",
+    "engine_id": "mb-m271"
+  },
+  "price_band_k_try": [
+    480,
+    720
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 64,
+    "trans": 80,
+    "fun": 62,
+    "comf": 76,
+    "age": 34,
+    "cost": 70,
+    "liq": 50
+  },
+  "sources": [
+    "mhhauto_w211_e200_m271"
+  ],
+  "note": "W211'in kompresörlü E-serisi girişi; M271 motoru listede zaten kayıtlı. Facelift öncesi 5G-Tronic kutuyla geliyor (facelift sonrası 7G-Tronic'e geçildi, bkz. E250 CDI kaydı). Genel olarak güvenilir ve konforlu bulunuyor ama yüksek yakıt tüketimi tekrarlayan bir şikayet.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

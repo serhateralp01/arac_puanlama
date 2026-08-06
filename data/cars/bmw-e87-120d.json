@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e87-120d",
+  "name": "BMW E87 120d",
+  "tag": "oto: 6 ileri TK · 163hp",
+  "brand_group": "BMW",
+  "years": "2004-2011",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 2.0,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "zf-6hp",
+    "body_type": "Hatchback",
+    "engine_id": "bmw-n47"
+  },
+  "price_band_k_try": [
+    700,
+    1050
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 38,
+    "trans": 68,
+    "fun": 60,
+    "comf": 74,
+    "age": 54,
+    "cost": 64,
+    "liq": 66
+  },
+  "sources": [
+    "sistemdestekuzmani_n47_kronik"
+  ],
+  "note": "E87'nin dizel versiyonu; N47 motoru listede zaten E90 320d'de kayıtlı ve düşük puanlı (zincir kılavuzu aşınması, yağ pompası tıkanması riski). ZF 6 ileri kutu E87 116i/118i ile aynı, görece güvenilir. Yüksek basınç yakıt pompası arızası da ailenin bilinen bir diğer zaafı.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

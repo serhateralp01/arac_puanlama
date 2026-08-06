@@ -6,6 +6,24 @@ gözlemi doğru: liste yeni marka/model açısından genişledi ama aynı model 
 çeşitliliği zayıf — bir BMW E39 altı varyantla temsil edilirken bir Mercedes W211 tek
 varyantla duruyor, bir VW Golf 7 iki varyantla duruyor.
 
+## Durum (2026-08-06 güncellemesi)
+
+Kullanıcı "tüm markalar için çeşitlendirme istiyorum, hepsini uygula" dedi. Bu
+belgedeki **bütün 🟢 satırlar (21 araç) aynı gün kaynaklandı ve `data/` içine
+işlendi** — BMW (7: E39 520i/520d, E46 320d/320i, E60 520d, E87 120d, E36 325i),
+Mercedes-Benz (4: W203 C200 Kompressor, W211 E200 Kompressor, W212 E200, W204 C220
+CDI), VAG (5: Passat B7 1.8 TSI, Passat B8 1.4 TSI, Audi A4 B9 2.0 TFSI, Skoda Octavia
+3 2.0 TDI, Skoda Superb 3 2.0 TDI), Renault (2: Talisman 1.6 dCi 160 EDC, Megane 4 1.3
+TCe EDC), Toyota (1: Auris 1.8 Multidrive), Citroën (1: C4 1.6 THP), Kia (1: Ceed 1.6
+GDi). Hiçbir yeni motor/şanzıman ailesi açılmadı; hepsi zaten kayıtlı ailelere
+bağlandı. Ayrıntı `docs/ROADMAP.md` Y-01 maddesinde.
+
+Aşağıdaki tablo hâlâ referans için duruyor (hangi aday neden seçildiği, hangi aile
+kullanıldığı) ama artık güncel veri için asıl kaynak `data/cars/*.json`'dır. **🟡/🔴
+etiketli satırlar (Golf 7 GTI, W211 E280, Megane 3 1.2 TCe, Clio 4 TCe, Laguna 1.9 dCi,
+Peugeot 308 PureTech, Opel Insignia 2.0 Turbo, Opel Astra 1.7 CDTI) hâlâ işlenmedi** —
+her biri yeni bir motor ailesi gerektiriyor, kullanıcı onayı bekliyor.
+
 **Bu belgedeki hiçbir satır henüz kaynaklanmadı** (kullanıcının talebi: "araştırmasını
 sonra yaparız"). Aşağıdaki motor/şanzıman eşleşmeleri genel otomotiv bilgisine dayanıyor.
 Her satır iki etiketten biriyle işaretli:

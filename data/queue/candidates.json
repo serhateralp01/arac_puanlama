@@ -815,5 +815,404 @@
       "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
       "resolved_at": "2026-08-06"
     }
+  },
+  {
+    "id": "donanimhaber_e39_520_bilgi__bmw-e39-520i",
+    "car_id": "bmw-e39-520i",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://forum.donanimhaber.com/bmw-e39-bilgi-ve-yanlis-bilinenler-520i-520ia-528ia--121083155",
+    "publisher": "DonanımHaber Forum",
+    "claim": "DonanımHaber forumundaki 'BMW E39 Bilgi ve Yanlış Bilinenler (520i-520ia-528ia)' başlığında E39 520i otomatik versiyonunda 2. vitesin üzerine çıkmama şikayetinin şanzıman hidrolik ünitesi (beyin) arızasına işaret ettiği; genel olarak E39'un şanzımanda kronik bir sorun taşımadığı, ön takım ve direksiyon kutusunun zamanla sorun çıkarabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "donanimhaber_e39_520_bilgi",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "otopark_320d_520d_zincir__bmw-e39-520d",
+    "car_id": "bmw-e39-520d",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://otopark.com/forum/threads/320d-520d-motor-zincir-problemi.1092/",
+    "publisher": "Otopark.com Forum",
+    "claim": "Otopark.com forumundaki '320d, 520d Motor Zincir Problemi' başlığında Eylül 2007 öncesi üretilen M47 motorlarda, sonrasında ise N47'ye geçildiği; zincir sesi geliyorsa daha önce değiştirilmiş olabileceği ama ilk kez değişecekse zincirin kopup büyük motor hasarına yol açabileceği için mutlaka değiştirilmesi gerektiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "otopark_320d_520d_zincir",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "otopark_320d_520d_zincir__bmw-e46-320d",
+    "car_id": "bmw-e46-320d",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://otopark.com/forum/threads/320d-520d-motor-zincir-problemi.1092/",
+    "publisher": "Otopark.com Forum",
+    "claim": "Otopark.com forumundaki '320d, 520d Motor Zincir Problemi' başlığında Eylül 2007 öncesi üretilen M47 motorlarda, sonrasında ise N47'ye geçildiği; zincir sesi geliyorsa daha önce değiştirilmiş olabileceği ama ilk kez değişecekse zincirin kopup büyük motor hasarına yol açabileceği için mutlaka değiştirilmesi gerektiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "otopark_320d_520d_zincir",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sistemdestekuzmani_n47_kronik__bmw-e46-320i",
+    "car_id": "bmw-e46-320i",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sistemdestekuzmani.com/bmw-n47-dizel-motor-kronik-sorunlari-ve-yapilmasi-gerekenler/",
+    "publisher": "Sistemdestekuzmani.com",
+    "claim": "Sistemdestekuzmani.com'un N47 motor kronik sorunları derlemesinde zincir kılavuzlarının aşınıp kırılan parçalarının yağ pompası filtresini tıkayarak yağ basıncını düşürdüğü ve motoru yağsız çalıştırarak yatak hasarına yol açabildiği; bu sorunun yalnızca N47 dizelde değil aynı ailenin N43/N45/N46 benzinli motorlarında da (E87/E90'da kullanılan) görüldüğü aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "sistemdestekuzmani_n47_kronik",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "otopark_320d_520d_zincir__bmw-e60-520d",
+    "car_id": "bmw-e60-520d",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://otopark.com/forum/threads/320d-520d-motor-zincir-problemi.1092/",
+    "publisher": "Otopark.com Forum",
+    "claim": "Otopark.com forumundaki '320d, 520d Motor Zincir Problemi' başlığında Eylül 2007 öncesi üretilen M47 motorlarda, sonrasında ise N47'ye geçildiği; zincir sesi geliyorsa daha önce değiştirilmiş olabileceği ama ilk kez değişecekse zincirin kopup büyük motor hasarına yol açabileceği için mutlaka değiştirilmesi gerektiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "otopark_320d_520d_zincir",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sistemdestekuzmani_n47_kronik__bmw-e87-120d",
+    "car_id": "bmw-e87-120d",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sistemdestekuzmani.com/bmw-n47-dizel-motor-kronik-sorunlari-ve-yapilmasi-gerekenler/",
+    "publisher": "Sistemdestekuzmani.com",
+    "claim": "Sistemdestekuzmani.com'un N47 motor kronik sorunları derlemesinde zincir kılavuzlarının aşınıp kırılan parçalarının yağ pompası filtresini tıkayarak yağ basıncını düşürdüğü ve motoru yağsız çalıştırarak yatak hasarına yol açabildiği; bu sorunun yalnızca N47 dizelde değil aynı ailenin N43/N45/N46 benzinli motorlarında da (E87/E90'da kullanılan) görüldüğü aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "sistemdestekuzmani_n47_kronik",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "donanimhaber_e39_520_bilgi__bmw-e36-325i",
+    "car_id": "bmw-e36-325i",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://forum.donanimhaber.com/bmw-e39-bilgi-ve-yanlis-bilinenler-520i-520ia-528ia--121083155",
+    "publisher": "DonanımHaber Forum",
+    "claim": "DonanımHaber forumundaki 'BMW E39 Bilgi ve Yanlış Bilinenler (520i-520ia-528ia)' başlığında E39 520i otomatik versiyonunda 2. vitesin üzerine çıkmama şikayetinin şanzıman hidrolik ünitesi (beyin) arızasına işaret ettiği; genel olarak E39'un şanzımanda kronik bir sorun taşımadığı, ön takım ve direksiyon kutusunun zamanla sorun çıkarabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "donanimhaber_e39_520_bilgi",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_mercedes_bakim_sanziman__mercedes-c200-kompressor-w203",
+    "car_id": "mercedes-c200-kompressor-w203",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/mercedes-benz/bakim/sanziman",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Mercedes-Benz bakım ve şanzıman şikayetleri derlemesinde 722.6 ailesi otomatik şanzımanlarda R ve D konumuna geçişte ve 1.-2. vites arası aktarımda sorun yaşandığı, şanzıman kart arızasının istem dışı vites değişimlerine yol açtığı, yüksek kilometrede basınç kaybı ve kalkışta kayma/silkeleme bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_mercedes_bakim_sanziman",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "mhhauto_w211_e200_m271__mercedes-e200-kompressor-w211",
+    "car_id": "mercedes-e200-kompressor-w211",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://mhhauto.com/Thread-Urgent-Please-W211-042-m271-E200-Kompressor",
+    "publisher": "MHH AUTO / DonanımHaber Forum",
+    "claim": "MHH AUTO forumundaki bir başlıkta W211.042 (M271 motor) E200 Kompressor'da elektronik/motor kontrol ünitesi ile ilgili bir arıza vakası paylaşılıyor; ayrı bir DonanımHaber başlığında ise W211 E200 Kompressor facelift modelinin genel olarak güvenilir, konforlu ve performanslı bulunduğu ama yüksek yakıt tüketimi şikayeti taşıdığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "mhhauto_w211_e200_m271",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_mercedes_bakim_sanziman__mercedes-e200-w212",
+    "car_id": "mercedes-e200-w212",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/mercedes-benz/bakim/sanziman",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Mercedes-Benz bakım ve şanzıman şikayetleri derlemesinde 722.6 ailesi otomatik şanzımanlarda R ve D konumuna geçişte ve 1.-2. vites arası aktarımda sorun yaşandığı, şanzıman kart arızasının istem dışı vites değişimlerine yol açtığı, yüksek kilometrede basınç kaybı ve kalkışta kayma/silkeleme bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_mercedes_bakim_sanziman",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_mercedes_bakim_sanziman__mercedes-c220-cdi-w204",
+    "car_id": "mercedes-c220-cdi-w204",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/mercedes-benz/bakim/sanziman",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Mercedes-Benz bakım ve şanzıman şikayetleri derlemesinde 722.6 ailesi otomatik şanzımanlarda R ve D konumuna geçişte ve 1.-2. vites arası aktarımda sorun yaşandığı, şanzıman kart arızasının istem dışı vites değişimlerine yol açtığı, yüksek kilometrede basınç kaybı ve kalkışta kayma/silkeleme bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_mercedes_bakim_sanziman",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_passat_tsi__vw-passat-b7-1-8-tsi",
+    "car_id": "vw-passat-b7-1-8-tsi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/volkswagen/passat/tsi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Passat TSI şikayetleri derlemesinde, 1.8 TSI motorlu Passat'larda 100.000 km sonrası turbo arızalarının ve bazı araçlarda 1000 km'de 1 litreye varan yağ tüketiminin yaygın şikayetler arasında olduğu; DSG şanzımanlı araçlarda yoğun trafikte sertlik/sarsıntı ve ısınma eğiliminin bildirildiği, bir kullanıcının 65.000 km'de yaşadığı kavrama arızasının 120.000 km'de tekrarlayıp 21.000 TL onarım maliyetine yol açtığının aktarıldığı.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_passat_tsi",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_passat_tsi__vw-passat-b8-1-4-tsi",
+    "car_id": "vw-passat-b8-1-4-tsi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/volkswagen/passat/tsi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Passat TSI şikayetleri derlemesinde, 1.8 TSI motorlu Passat'larda 100.000 km sonrası turbo arızalarının ve bazı araçlarda 1000 km'de 1 litreye varan yağ tüketiminin yaygın şikayetler arasında olduğu; DSG şanzımanlı araçlarda yoğun trafikte sertlik/sarsıntı ve ısınma eğiliminin bildirildiği, bir kullanıcının 65.000 km'de yaşadığı kavrama arızasının 120.000 km'de tekrarlayıp 21.000 TL onarım maliyetine yol açtığının aktarıldığı.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_passat_tsi",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_a4_tfsi__audi-a4-b9-2-0-tfsi",
+    "car_id": "audi-a4-b9-2-0-tfsi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/audi/a4/tfsi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Audi A4 TFSI şikayetleri derlemesinde 2.0 TFSI motorlarda yüksek yağ tüketiminin bilinen bir sorun olduğu, B9 (Gen3B) motorlarda bu sorunun B8'e göre daha seyrek olsa da bazı araçlarda 1000-3000 km'de 0.5-1 litre yağ eksilmesi şeklinde bildirildiği; S tronic çift kavramalı şanzımanın trafikte ve düşük hızda sert vites geçişleri yapabildiği, mekatronik onarımının 80-100 bin km aralığında ve maliyetli olduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_a4_tfsi",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_skoda_octavia_sanziman__skoda-octavia-3-2-0-tdi",
+    "car_id": "skoda-octavia-3-2-0-tdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/skoda/octavia/sanziman",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Skoda Octavia şanzıman şikayetleri derlemesinde, DSG'li Octavia sahiplerinin aracın 'P konumunda terk edin' uyarısını tekrar tekrar verdiğini ve bu sorunun aynı ailenin (VAG DQ250 tabanlı) araçlarını kullanan pek çok kullanıcı tarafından da bildirildiği için kronik kabul edildiğini aktardığı.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_skoda_octavia_sanziman",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_a4_tfsi__skoda-superb-3-2-0-tdi",
+    "car_id": "skoda-superb-3-2-0-tdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/audi/a4/tfsi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Audi A4 TFSI şikayetleri derlemesinde 2.0 TFSI motorlarda yüksek yağ tüketiminin bilinen bir sorun olduğu, B9 (Gen3B) motorlarda bu sorunun B8'e göre daha seyrek olsa da bazı araçlarda 1000-3000 km'de 0.5-1 litre yağ eksilmesi şeklinde bildirildiği; S tronic çift kavramalı şanzımanın trafikte ve düşük hızda sert vites geçişleri yapabildiği, mekatronik onarımının 80-100 bin km aralığında ve maliyetli olduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_a4_tfsi",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_talisman_kronik__renault-talisman-1-6-dci-160-edc",
+    "car_id": "renault-talisman-1-6-dci-160-edc",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/renault/talisman/talisman-kronik",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Renault Talisman kronik şikayetleri derlemesinde, 2016-2017 model 1.6 EDC 130 bg araçlarda ~64.000 km gibi düşük kilometrede şanzıman arızası, ~140.000 km'de vites geçişlerinde vuruntu sesi bildirildiği; 160 bg motor versiyonunun 130 bg'ye göre daha sık tekrarlayan onarım gerektirdiği ve yetkili servislerin şanzıman uyarılarına kesin çözüm sunamadığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_talisman_kronik",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_clio_10tce__renault-megane-4-1-3-tce-edc",
+    "car_id": "renault-megane-4-1-3-tce-edc",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/renault/clio/10-tce",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Renault Clio 1.0 TCe derlemesinde EDC şanzımanlı araçlarda düşük hızda gecikmeli tepki ve sarsıntılı geçiş, 3 silindirli motorda kabin titreşimi ve soğuk havada yağ dilüsyonu riskinin bildirildiği aktarılıyor; bu şikayetler 1.0 TCe'ye özgü olsa da aynı EDC ailesini paylaşan 1.3 TCe için de şanzıman geçmişinin kontrol edilmesi öneriliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_clio_10tce",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatiksanziman_multidrive__toyota-auris-1-8-multidrive",
+    "car_id": "toyota-auris-1-8-multidrive",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/multi-drive-s-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un MultiDrive S (Toyota'nın CVT'si) derlemesinde kayış-kasnak aşınması, tork konvertörü kayması ve elektronik kontrol sorunlarının ihmal edilen bakımda ortaya çıkabildiği; yakıt/motor bazlı otomatik alınacaksa CVT yağının 60-80 bin km'de değiştirilmesinin önerildiği, buna karşılık 1.8 hibrit e-CVT versiyonunun dayanıklılık açısından daha sorunsuz kabul edildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "teknikotomatiksanziman_multidrive",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_c4_kronik__citroen-c4-1-6-thp",
+    "car_id": "citroen-c4-1-6-thp",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/citroen/c4/kronik",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Citroën C4 kronik sorunları derlemesinde EGR valfi arızası, turbo şarj arızası ve çift kütleli volan (DMF) arızasının bilinen kalemler arasında sayıldığı; 2011 model bir C4 1.6 THP'de fren yapıp yavaşlarken 2.-1. vites arası silkme ve dişli sesi şikayeti bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_c4_kronik",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_kia_ceed_otomatik__kia-ceed-1-6-gdi",
+    "car_id": "kia-ceed-1-6-gdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/kia/ceed/otomatik",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Kia Ceed otomatik kullanıcı yorumları derlemesinde, 1.6 CRDi otomatik modellerde enjektör kaynaklı şakırdama ve silkeleme şikayetlerinin tekrarlandığı, kodlama/bakım yapılmasına rağmen sorunun bazı araçlarda tekrarladığı aktarılıyor; bu şikayetler dizel motora özgü olsa da aynı kasa/şanzıman ailesini paylaşan 1.6 GDi benzinli versiyon için de genel bakım geçmişinin kontrol edilmesi öneriliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_kia_ceed_otomatik",
+      "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
+      "resolved_at": "2026-08-06"
+    }
   }
 ]

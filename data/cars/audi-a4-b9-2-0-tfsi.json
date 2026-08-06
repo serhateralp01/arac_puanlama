@@ -1,0 +1,39 @@
+{
+  "id": "audi-a4-b9-2-0-tfsi",
+  "name": "Audi A4 B9 2.0 TFSI",
+  "tag": "oto: 7 ileri ıslak DSG · 190hp",
+  "brand_group": "Audi",
+  "years": "2015-2019",
+  "specs": {
+    "hp": 190,
+    "displacement_l": 2.0,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "vag-dq250",
+    "body_type": "Sedan",
+    "engine_id": "vag-ea888"
+  },
+  "price_band_k_try": [
+    1000,
+    1400
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 46,
+    "trans": 62,
+    "fun": 66,
+    "comf": 82,
+    "age": 76,
+    "cost": 58,
+    "liq": 54
+  },
+  "sources": [
+    "sikayetvar_a4_tfsi"
+  ],
+  "note": "A4 B9'un benzinli üst versiyonu; EA888 motoru listede zaten Audi A4 B8 ve Cupra'da (evo4 ayrı aile olarak) kayıtlı. B9 nesli (Gen3B) yağ tüketimi sorununu B8'e göre daha seyrek ama hâlâ taşıyor — bazı araçlarda 1000-3000 km'de 0.5-1 litre bildirilmiş. S tronic mekatronik onarımı 80-100 bin km aralığında ve maliyetli.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

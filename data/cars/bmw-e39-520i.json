@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e39-520i",
+  "name": "BMW E39 520i",
+  "tag": "oto: 5 ileri TK · 150hp",
+  "brand_group": "BMW",
+  "years": "1996-2000",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2.0,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "zf-5hp",
+    "body_type": "Sedan",
+    "engine_id": "bmw-m52"
+  },
+  "price_band_k_try": [
+    400,
+    600
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 58,
+    "trans": 70,
+    "fun": 76,
+    "comf": 64,
+    "age": 24,
+    "cost": 56,
+    "liq": 40
+  },
+  "sources": [
+    "donanimhaber_e39_520_bilgi"
+  ],
+  "note": "E39'un giriş seviyesi altı silindirli benzinlisi; M52 motoru ve ZF 5 ileri kutusu listede zaten E39 528i ve E36'da kayıtlı aynı aileden, düşük risk. Forumda 2. vites üstüne çıkmama şikayeti şanzıman beyni arızasına işaret ediyor; genel olarak E39'da şanzıman kronik bir zaaf sayılmıyor, ön takım ve direksiyon kutusu yaşla birlikte daha çok dert veriyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "toyota-auris-1-8-multidrive",
+  "name": "Toyota Auris 1.8 Multidrive",
+  "tag": "oto: Multidrive CVT · 136hp",
+  "brand_group": "Toyota",
+  "years": "2013-2018",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT",
+    "transmission_id": "toyota-multidrive",
+    "body_type": "Hatchback",
+    "engine_id": "toyota-zr"
+  },
+  "price_band_k_try": [
+    900,
+    1250
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 76,
+    "trans": 74,
+    "fun": 42,
+    "comf": 80,
+    "age": 72,
+    "cost": 86,
+    "liq": 82
+  },
+  "sources": [
+    "teknikotomatiksanziman_multidrive"
+  ],
+  "note": "Auris'in üst güç benzinlisi; ZR motoru (1.8 varyantı) ve Multidrive CVT listede zaten Avensis ve Corolla'da kayıtlı. CVT'nin kayış-kasnak aşınması ve tork konvertörü kayması ihmal edilen bakımda ortaya çıkıyor; yağının 60-80 bin km'de değiştirilmesi öneriliyor. Motor tarafında ciddi bir kronik arıza bildirilmemiş.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e60-520d",
+  "name": "BMW E60 520d",
+  "tag": "oto: 6 ileri TK · 163hp",
+  "brand_group": "BMW",
+  "years": "2003-2007",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 2.0,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "zf-6hp",
+    "body_type": "Sedan",
+    "engine_id": "bmw-m47"
+  },
+  "price_band_k_try": [
+    550,
+    820
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 64,
+    "trans": 68,
+    "fun": 62,
+    "comf": 74,
+    "age": 44,
+    "cost": 66,
+    "liq": 52
+  },
+  "sources": [
+    "otopark_320d_520d_zincir"
+  ],
+  "note": "E60'ın giriş seviyesi dizeli; M47 motoru (2007 öncesi üretim) listede zaten kayıtlı, ZF 6 ileri kutusu E60'ın diğer varyantlarıyla (525d/530d) aynı. Zincir kontrolü aynı gerekçeyle 520d/320d ailesinde kritik.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

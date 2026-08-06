@@ -1,0 +1,39 @@
+{
+  "id": "kia-ceed-1-6-gdi",
+  "name": "Kia Ceed 1.6 GDi",
+  "tag": "oto: 6 ileri TK · 135hp",
+  "brand_group": "Kia",
+  "years": "2012-2018",
+  "specs": {
+    "hp": 135,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "hyundai-6at",
+    "body_type": "Hatchback",
+    "engine_id": "hyundai-gamma16-gdi"
+  },
+  "price_band_k_try": [
+    600,
+    900
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 46,
+    "trans": 78,
+    "fun": 54,
+    "comf": 74,
+    "age": 62,
+    "cost": 68,
+    "liq": 60
+  },
+  "sources": [
+    "sikayetvar_kia_ceed_otomatik"
+  ],
+  "note": "Ceed'in benzinli GDi versiyonu; Gamma GDI motoru listede zaten Hyundai i30 1.6 GDi'de kayıtlı (düşük puanlı, direkt enjeksiyona bağlı karbon birikimi riski var), Hyundai/Kia'nın 6 ileri tork konvertörlü kutusu ise ailenin en güvenilir bileşenlerinden. Dizel kardeşinde bildirilen enjektör şikayetleri bu motora uygulanmıyor, ama genel bakım geçmişi yine de kontrol edilmeli.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

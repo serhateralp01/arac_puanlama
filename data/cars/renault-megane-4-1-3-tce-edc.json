@@ -1,0 +1,39 @@
+{
+  "id": "renault-megane-4-1-3-tce-edc",
+  "name": "Renault Megane 4 1.3 TCe EDC",
+  "tag": "oto: 7 ileri ıslak EDC · 140hp",
+  "brand_group": "Renault",
+  "years": "2016-2020",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 1.3,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "getrag-7dct300",
+    "body_type": "Hatchback",
+    "engine_id": "renault-h5ht"
+  },
+  "price_band_k_try": [
+    780,
+    1120
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 68,
+    "trans": 70,
+    "fun": 58,
+    "comf": 80,
+    "age": 82,
+    "cost": 76,
+    "liq": 78
+  },
+  "sources": [
+    "sikayetvar_clio_10tce"
+  ],
+  "note": "Megane 4'ün benzinli turbo versiyonu; H5Ht motoru ve 7 ileri ıslak EDC kutusu listede zaten Qashqai/Koleos/Clio 5'te kayıtlı. Aynı ailenin EDC şanzımanında düşük hızda gecikmeli tepki eğilimi diğer modellerde de bildirildiği için burada da geçerli bir kontrol kalemi.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

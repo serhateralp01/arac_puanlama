@@ -1,0 +1,39 @@
+{
+  "id": "mercedes-e200-w212",
+  "name": "Mercedes E200 (W212)",
+  "tag": "oto: 7 ileri TK · 184hp",
+  "brand_group": "Mercedes-Benz",
+  "years": "2009-2013",
+  "specs": {
+    "hp": 184,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "mb-7g-tronic",
+    "body_type": "Sedan",
+    "engine_id": "mb-m271"
+  },
+  "price_band_k_try": [
+    750,
+    1080
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 64,
+    "trans": 44,
+    "fun": 62,
+    "comf": 82,
+    "age": 62,
+    "cost": 74,
+    "liq": 58
+  },
+  "sources": [
+    "sikayetvar_mercedes_bakim_sanziman"
+  ],
+  "note": "W212'nin kompresörlü/turbo geçiş dönemi benzinlisi; M271 motoru listede zaten kayıtlı, bu kez 7G-Tronic kutuyla eşleşiyor — bu kutu ailenin düşük puanlı bileşenlerinden (E250 CDI'de de aynı kutu kayıtlı). Konfor ve donanım W211'e göre belirgin biçimde daha iyi.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

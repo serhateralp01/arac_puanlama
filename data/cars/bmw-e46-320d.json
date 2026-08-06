@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e46-320d",
+  "name": "BMW E46 320d",
+  "tag": "oto: 5 ileri TK · 150hp",
+  "brand_group": "BMW",
+  "years": "1998-2005",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2.0,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "zf-5hp",
+    "body_type": "Sedan",
+    "engine_id": "bmw-m47"
+  },
+  "price_band_k_try": [
+    480,
+    720
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 64,
+    "trans": 70,
+    "fun": 60,
+    "comf": 68,
+    "age": 32,
+    "cost": 64,
+    "liq": 44
+  },
+  "sources": [
+    "otopark_320d_520d_zincir"
+  ],
+  "note": "E46'nın en yaygın otomatik dizeli; M47 motoru ve ZF 5 ileri kutusu E46 330d ve E39 520d ile aynı aileden, listede zaten kayıtlı. Motor kodunda 'TU' (Technical Update) arayan alıcılar EGR ve emme manifoldu kelebeği kaldırma dışında sorunsuz bir motor buluyor; turbo arızaları ayrı bir kontrol kalemi.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

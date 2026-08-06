@@ -1,0 +1,39 @@
+{
+  "id": "mercedes-c220-cdi-w204",
+  "name": "Mercedes C220 CDI (W204)",
+  "tag": "oto: 5 ileri TK · 170hp",
+  "brand_group": "Mercedes-Benz",
+  "years": "2009-2014",
+  "specs": {
+    "hp": 170,
+    "displacement_l": 2.1,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "mb-5g-tronic",
+    "body_type": "Sedan",
+    "engine_id": "mb-om651"
+  },
+  "price_band_k_try": [
+    700,
+    1020
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 46,
+    "trans": 80,
+    "fun": 64,
+    "comf": 76,
+    "age": 56,
+    "cost": 74,
+    "liq": 58
+  },
+  "sources": [
+    "sikayetvar_mercedes_bakim_sanziman"
+  ],
+  "note": "W204'ün orta güç dizeli; OM651 motoru listede zaten C200 CDI ve E250 CDI'de kayıtlı (düşük puanlı, bilinen enjektör/yüksek basınç pompası riskleri var), 5G-Tronic kutusu ise ailenin en sağlam bileşenlerinden. C250 CDI'ye göre daha düşük güçlü, fiyat/performans dengesi daha iyi.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

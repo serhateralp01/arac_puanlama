@@ -1,0 +1,39 @@
+{
+  "id": "bmw-e36-325i",
+  "name": "BMW E36 325i",
+  "tag": "oto: 4 ileri TK · 192hp",
+  "brand_group": "BMW",
+  "years": "1990-2000",
+  "specs": {
+    "hp": 192,
+    "displacement_l": 2.5,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "zf-4hp",
+    "body_type": "Sedan",
+    "engine_id": "bmw-m52"
+  },
+  "price_band_k_try": [
+    350,
+    550
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 58,
+    "trans": 58,
+    "fun": 80,
+    "comf": 56,
+    "age": 16,
+    "cost": 52,
+    "liq": 32
+  },
+  "sources": [
+    "donanimhaber_e39_520_bilgi"
+  ],
+  "note": "E36'nın altı silindirli üst versiyonu; M52 motoru listede zaten E39 528i/523i'de kayıtlı aynı aileden (2.5 litre varyantı). Aracın yaşı artık çok ileri olduğu için pas, elektrik ve genel yıpranma riski yüksek; parça bulunabilirliği model bazında iyi ama usta deneyimi gerektiriyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}

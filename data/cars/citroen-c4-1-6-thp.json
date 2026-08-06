@@ -1,0 +1,39 @@
+{
+  "id": "citroen-c4-1-6-thp",
+  "name": "Citroën C4 1.6 THP",
+  "tag": "oto: robotlu (EGS6) · 156hp",
+  "brand_group": "Citroën",
+  "years": "2010-2018",
+  "specs": {
+    "hp": 156,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Robot",
+    "transmission_id": "psa-etg",
+    "body_type": "Hatchback",
+    "engine_id": "psa-ep6-thp"
+  },
+  "price_band_k_try": [
+    550,
+    850
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 46,
+    "trans": 38,
+    "fun": 58,
+    "comf": 72,
+    "age": 52,
+    "cost": 56,
+    "liq": 42
+  },
+  "sources": [
+    "sikayetvar_c4_kronik"
+  ],
+  "note": "C4'ün turbolu üst versiyonu; EP6 THP motoru listede zaten Peugeot 308/508'de kayıtlı (triger zinciri uzaması bilinen zaafı), robotlu EGS6 şanzıman (ETG ailesi) ise listenin en düşük puanlı kutularından — vites geçişleri sarsıntılı ve aktüatör arızaları biliniyor. 2011 model bir araçta yavaşlarken 2.-1. vites arası silkme bildirilmiş.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  }
+}
