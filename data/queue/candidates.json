@@ -1214,5 +1214,271 @@
       "reasoning": "Motor/şanzıman çeşitlendirme turunda eklenen bir aracın kanıt kaydı; motor/şanzıman ailesi listede zaten kayıtlı, bu kaynak yalnızca araca özgü kanıtı tamamlıyor.",
       "resolved_at": "2026-08-06"
     }
+  },
+  {
+    "id": "motor1_psa_suv_eat__peugeot-3008-1-6-bluehdi",
+    "car_id": "peugeot-3008-1-6-bluehdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://tr.motor1.com/reviews/410149/drag-3008-c5-aircross-grandlandx/",
+    "publisher": "tr.motor1.com",
+    "claim": "Motor1 Türkiye: Peugeot 3008, Citroën C5 Aircross ve Opel Grandland X karşılaştırması — 3008/C5 Aircross EAT8, Grandland X EAT6 kutu farkının teyidi",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-press",
+      "source_id": "motor1_psa_suv_eat",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "araclo_c5aircross__citroen-c5-aircross-1-5-bluehdi",
+    "car_id": "citroen-c5-aircross-1-5-bluehdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.araclo.com/blog/citroen-c5-aircross-1.5-bluehdi-kronik-sorunlari-eksantrik-zinciri-gercegi-ve-kullanici-yorumlari-2026",
+    "publisher": "araclo.com",
+    "claim": "araclo.com: Citroën C5 Aircross 1.5 BlueHDi kronik sorun analizi — motor tarafında zincir riski (2022 öncesi/sonrası ayrımı), EAT8 şanzımanın yapısal kronik sorunu olmadığının vurgusu",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "araclo_c5aircross",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "erenservis_eat8__citroen-c5-aircross-1-5-bluehdi",
+    "car_id": "citroen-c5-aircross-1-5-bluehdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.erenservis.net/rehber/peugeot-eat8-sanziman-sorunlari/",
+    "publisher": "erenservis.net",
+    "claim": "Eren Otomatik Şanzıman Servisi: Peugeot/Opel EAT8 şanzıman servis notları — 3-2 vuruntu ve kalkış gecikmesi gibi küçük ama yapısal olmayan şikayetler",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "erenservis_eat8",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "donanimhaber_puretech_triger__opel-crossland-x-1-2-puretech",
+    "car_id": "opel-crossland-x-1-2-puretech",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://forum.donanimhaber.com/1-2-puretech-motor-sorunlari--130023944",
+    "publisher": "DonanımHaber Forum",
+    "claim": "DonanımHaber forumundaki '1.2 PureTech Motor Sorunları' başlığında motorun yağ banyolu triger kayışı (wet belt) kullandığı, bu tasarımın zamanla ciddi güvenilirlik sorunlarına yol açtığı, kayışın kopması durumunda parçaların yağ sistemine karışıp motor hasarına neden olabildiği; uzmanların kayış değişimini 4 yıl/60.000 km'de önerdiği, Stellantis'in üçüncü nesil (Hybrid 136, EB2) motorlarda kayıştan zincire geçtiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "donanimhaber_puretech_triger",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "kronikuzman_chr_12turbo__toyota-chr-1-2-turbo",
+    "car_id": "toyota-chr-1-2-turbo",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://kronikuzman.com/toyota-c-hr-12-turbo-kronik-sorunlari-deneyimler",
+    "publisher": "KronikUzman.com",
+    "claim": "KronikUzman.com'un Toyota C-HR 1.2 Turbo deneyimleri derlemesinde motorun yağ tüketimine eğilimli olduğu, düşük devirde turbo tepkisinin gecikmeli kaldığı ve bunun düşük RPM'de en çok eleştirilen yön olduğu; şanzımanın trafikte ve ani hızlanmada tereddütlü davrandığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "kronikuzman_chr_12turbo",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "donanimhaber_mazda_skyactiv_otomatik__mazda-cx5-2-0-skyactiv",
+    "car_id": "mazda-cx5-2-0-skyactiv",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://forum.donanimhaber.com/mazda-skyactive-otomatik-sanzimanlarda-kronik-sorun-var-mi--152011369",
+    "publisher": "DonanımHaber Forum",
+    "claim": "DonanımHaber forumundaki 'Mazda SkyActive otomatik şanzımanlarda kronik sorun var mı?' başlığında kutunun her hızda seri ve sessiz çalıştığı, bazı kullanıcıların bunu dünyanın en iyi otomatik şanzımanlarından biri olarak değerlendirdiği; erken kilitlenme (lock-up) mantığından kaynaklanan bir sertlik hissinin düşük hızda hissedilebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "donanimhaber_mazda_skyactiv_otomatik",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "araclo_focus_ecoblue__ford-focus-4-1-5-ecoblue",
+    "car_id": "ford-focus-4-1-5-ecoblue",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi",
+    "publisher": "Araclo.com",
+    "claim": "Araclo.com'un Ford Focus 1.5 EcoBlue incelemesinde eksantrik zincirinin (7mm) kronik olarak uzadığı ve üreticinin sonradan 8mm zincirle değişime geçtiği, kısa mesafe kullanımda partikül filtresinin (DPF) tıkandığı, periyodik bakımdan kısa süre sonra 'yağ değişimi gerekli' uyarısının belirebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "araclo_focus_ecoblue",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "techturkey_mini_f56_b38__mini-cooper-f56-1-5",
+    "car_id": "mini-cooper-f56-1-5",
+    "criterion": "genel",
+    "query": null,
+    "url": "http://www.techturkey.com/forum/otomobilleriniz/246190-14_mini_cooper_f56_blazing_red_hikayesi.html",
+    "publisher": "TechTurkey / MiniPassion Forumları",
+    "claim": "TechTurkey ve MiniPassion forumlarındaki tartışmalarda MINI F56 kuşağının B38 motorunun üç silindirli yapısı nedeniyle eleştirildiği, ama hafif F56 kasasıyla ve Aisin kaynaklı tam otomatik tork konvertörü kutusuyla kombinasyonunun iyi çalıştığı; 2014-2021 model MINI'lerde vites kolu arızasının B36/B38/B46/B48/N16/N18 kodlu kutularda ortak bir şikayet olduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "techturkey_mini_f56_b38",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "techturkey_mini_f56_b38__mini-countryman-f60-1-5",
+    "car_id": "mini-countryman-f60-1-5",
+    "criterion": "genel",
+    "query": null,
+    "url": "http://www.techturkey.com/forum/otomobilleriniz/246190-14_mini_cooper_f56_blazing_red_hikayesi.html",
+    "publisher": "TechTurkey / MiniPassion Forumları",
+    "claim": "TechTurkey ve MiniPassion forumlarındaki tartışmalarda MINI F56 kuşağının B38 motorunun üç silindirli yapısı nedeniyle eleştirildiği, ama hafif F56 kasasıyla ve Aisin kaynaklı tam otomatik tork konvertörü kutusuyla kombinasyonunun iyi çalıştığı; 2014-2021 model MINI'lerde vites kolu arızasının B36/B38/B46/B48/N16/N18 kodlu kutularda ortak bir şikayet olduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "techturkey_mini_f56_b38",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "eklasseforum_m112_m113__mercedes-e280-w211",
+    "car_id": "mercedes-e280-w211",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://e-klasse-forum.de/index.php?page=Thread&threadID=59218",
+    "publisher": "E-Klasse-Forum.de",
+    "claim": "E-Klasse-Forum.de'deki (Almanca Mercedes topluluğu) bir başlıkta M112 V6 motorunun triger zinciri sorunu taşımadığı, bilinen zaafının krank kutusu havalandırma contası ve yağ filtresi gövdesi contalarındaki sızıntılar olduğu, bunların kolay erişilebilir ve düşük maliyetli onarımlar olduğu; M112'nin dönemin diğer Mercedes motorlarına kıyasla güvenilir kabul edildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "eklasseforum_m112_m113",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_passat_tsi__vw-polo-6-1-0-tsi-dsg",
+    "car_id": "vw-polo-6-1-0-tsi-dsg",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/volkswagen/passat/tsi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Passat TSI şikayetleri derlemesinde, 1.8 TSI motorlu Passat'larda 100.000 km sonrası turbo arızalarının ve bazı araçlarda 1000 km'de 1 litreye varan yağ tüketiminin yaygın şikayetler arasında olduğu; DSG şanzımanlı araçlarda yoğun trafikte sertlik/sarsıntı ve ısınma eğiliminin bildirildiği, bir kullanıcının 65.000 km'de yaşadığı kavrama arızasının 120.000 km'de tekrarlayıp 21.000 TL onarım maliyetine yol açtığının aktarıldığı.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_passat_tsi",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_passat_tsi__vw-troc-1-5-tsi",
+    "car_id": "vw-troc-1-5-tsi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/volkswagen/passat/tsi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Passat TSI şikayetleri derlemesinde, 1.8 TSI motorlu Passat'larda 100.000 km sonrası turbo arızalarının ve bazı araçlarda 1000 km'de 1 litreye varan yağ tüketiminin yaygın şikayetler arasında olduğu; DSG şanzımanlı araçlarda yoğun trafikte sertlik/sarsıntı ve ısınma eğiliminin bildirildiği, bir kullanıcının 65.000 km'de yaşadığı kavrama arızasının 120.000 km'de tekrarlayıp 21.000 TL onarım maliyetine yol açtığının aktarıldığı.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_passat_tsi",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_passat_tsi__vw-golf-7-gti-2-0-tsi",
+    "car_id": "vw-golf-7-gti-2-0-tsi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/volkswagen/passat/tsi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Passat TSI şikayetleri derlemesinde, 1.8 TSI motorlu Passat'larda 100.000 km sonrası turbo arızalarının ve bazı araçlarda 1000 km'de 1 litreye varan yağ tüketiminin yaygın şikayetler arasında olduğu; DSG şanzımanlı araçlarda yoğun trafikte sertlik/sarsıntı ve ısınma eğiliminin bildirildiği, bir kullanıcının 65.000 km'de yaşadığı kavrama arızasının 120.000 km'de tekrarlayıp 21.000 TL onarım maliyetine yol açtığının aktarıldığı.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_passat_tsi",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "araclo_sportage_16crdi__kia-ceed-sw-1-6-crdi",
+    "car_id": "kia-ceed-sw-1-6-crdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.araclo.com/blog/kia-sportage-1.6-crdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+    "publisher": "Araclo.com",
+    "claim": "Araclo.com'un Kia Sportage 1.6 CRDi incelemesinde 7 ileri kuru DCT'nin kalkışta ve rampada titreme yaptığı, bazı 2022 model araçlarda yağ eksiltme sorunu bildirildiği ve torpido göğsünde çatlama şikayetlerinin segment için beklenmedik bulunduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "araclo_sportage_16crdi",
+      "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
+      "resolved_at": "2026-08-06"
+    }
   }
 ]

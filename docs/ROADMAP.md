@@ -30,13 +30,13 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynaksız araçlar (Y-02) | Kaynaksız araç yok; araç başına ortalama kaynak hâlâ hedefin (2.5) altında ve düşüyor, 1.71 |
-| Araç listesi (Y-01) | Başlandı: 154 → 199 araç, 2016+ 5 → 27, SUV 1 → 18, 4 yeni marka (Dacia, Jeep, MINI, Cupra); üçüncü tur mevcut modellerin motor çeşitliliğini derinleştirdi |
+| Kaynaksız araçlar (Y-02) | Kaynaksız araç yok; araç başına ortalama kaynak hâlâ hedefin (2.5) altında ve düşüyor, 1.67 |
+| Araç listesi (Y-01) | Başlandı: 154 → 212 araç, 2016+ 5 → 37, **SUV 1 → 25 (hedefe ulaştı)**, 4 yeni marka; dördüncü tur mevcut modellerin motor çeşitliliğini yeni bileşen aileleriyle derinleştirdi |
 | **Kaynak derinliği** | **Zayıf, ama iyileşiyor — kuyruk artık çalışır durumda** |
 | **Araç kapsamı** | **Hâlâ dar ama genişliyor — 2016+ ve SUV hedeflerinin çoğu önümüzde** |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 
-Denetimin bugünkü çıktısı: **0 hata, 230 uyarı**. Uyarıların ezici çoğunluğu (191) tek
+Denetimin bugünkü çıktısı: **0 hata, 243 uyarı**. Uyarıların ezici çoğunluğu (204) tek
 bir kalemden geliyor: araçların dört bağımsız kaynağa ulaşmamış olması. Kuyruk artık
 kurulduğu için bu sayı, tek tek araç dosyası düzenlemek yerine kuyruğu tekrar tekrar
 çalıştırarak düşürülebilir.
@@ -152,9 +152,28 @@ ailesi gerektirmedi (hepsi listede zaten kayıtlı ailelere bağlandı):
 **Sonuç (üçüncü tur):** araç sayısı 178 → 199. `arac_basina_ortalama_kaynak` 1.80'den
 1.71'e **geriledi** — aynı Y-02'deki gerekçeyle: yeni eklenen 21 aracın çoğu tek
 kaynakla açıldı, kaynaksız başlamamaları önceliklendirildi. `validate.py` hâlâ 0 hata.
-`docs/Y01B-MOTOR-CESITLENDIRME.md`'deki 🟡/🔴 etiketli satırlar (Golf 7 GTI, W211 E280,
-Megane 3 1.2 TCe, Clio 4 TCe, Laguna 1.9 dCi, Peugeot 308 PureTech, Opel Insignia 2.0
-Turbo, Opel Astra 1.7 CDTI) hâlâ işlenmedi, her biri yeni bir motor ailesi gerektiriyor.
+
+**Dördüncü tur — sarı/kırmızı satırlar, kaynak derinliği bilinçli olarak sınırlandı.**
+Kullanıcı devam etmemi istedi: "sarı ve kırmızılara devam, kaynak çok önemli değil,
+1 kaynakları bile olsa yeter... sahibinden'de gezerken gördüğüm her motor seçeneğini
+görüyor olayım." Bu, Y-01'in "önce bileşen, sonra araç" sıra kuralını değiştirmedi
+(hâlâ her yeni araç için önce motor/şanzıman ailesi açılıyor, kaynağıyla), ama kaynak
+*sayısını* bilinçli olarak sınırladı — gerekçesi `docs/ARCHITECTURE.md` MK-12
+kaydında. Bu turda **6 yeni motor ailesi** (`psa-bluehdi-15`, `psa-puretech-12`,
+`toyota-8nr-fts`, `ford-ecoblue-15`, `bmw-b38`, `mb-m112`) ve **2 yeni şanzıman
+ailesi** (`psa-eat8`, `mazda-skyactiv-6at`) açıldı, **13 araç** eklendi: Peugeot 3008
+1.6 BlueHDi, Citroën C5 Aircross 1.5 BlueHDi, Opel Crossland X 1.2 PureTech, Toyota
+C-HR 1.2 Turbo, Mazda CX-5 2.0 Skyactiv-G, Ford Focus 4 1.5 EcoBlue, MINI Cooper
+(F56) 1.5, MINI Countryman (F60) 1.5, Mercedes E280 (W211), VW Polo 6 1.0 TSI DSG,
+VW T-Roc 1.5 TSI, VW Golf 7 GTI 2.0 TSI, Kia Ceed SW 1.6 CRDi. `vag-ea211` ailesi
+1.0-1.5 litre aralığına genişletildi (gerçekte tek bir modüler aile olduğu için yeni
+aile açmaya gerek kalmadı).
+
+**Sonuç (dördüncü tur):** araç sayısı 199 → 212. `arac_basina_ortalama_kaynak` 1.71'den
+1.67'ye geriledi (beklenen, kabul edilen sonuç — MK-12). `yetim-kaynak` uyarısı 5'ten
+3'e düştü. `validate.py` hâlâ 0 hata. Kalan bilinen boşluklar (Megane 3 1.2 TCe,
+Clio 4 TCe, Laguna 1.9 dCi, Opel Insignia 2.0 Turbo, Opel Astra 1.7 CDTI) her biri
+ayrı bir yeni motor ailesi gerektiriyor, henüz işlenmedi.
 
 **Kalan iş — hedeflerin çoğu hâlâ karşılanmadı.** Bitmiş sayılma ölçütü (2016 sonrası
 ≥ 40, SUV ≥ 25, eksik markalardan en az 5 temsil) şu an marka kısmında neredeyse tam
@@ -173,9 +192,9 @@ biter). Sırada:
    Bu, geri alınması pahalı bir karar olduğu için `docs/ARCHITECTURE.md`'ye MK kaydı
    olarak yazılmadan araç eklenmemeli.
 
-**Bitmiş sayılma ölçütü (henüz karşılanmadı).** 2016 sonrası araç sayısı en az 40,
-SUV sayısı en az 25, listede hiç bulunmayan yaygın markalardan en az beşi temsil
-edilmiş (şu an 4/5) ve `validate.py` hâlâ 0 hata veriyor.
+**Bitmiş sayılma ölçütü — üç şarttan ikisi artık karşılandı.** SUV sayısı hedefe
+ulaştı (25/25 ✅). 2016 sonrası araç sayısı 37/40 — üç araç daha eklenince biter.
+Marka şartı 4/5 — bir marka daha eklenince biter. `validate.py` hâlâ 0 hata veriyor.
 
 ---
 
@@ -202,17 +221,17 @@ kaynak o aracın kendi kanıt zincirini tamamlıyor (bkz. "önemli ayrım" aşa�
 | Kaynak sayısı | Araç | Durum |
 |---:|---:|---|
 | 0 | 0 | — kalmadı |
-| 1 | 97 | Tek kaynak çürürse dayanaksız kalır |
-| 2-3 | 94 | Kısmi |
+| 1 | 109 | Tek kaynak çürürse dayanaksız kalır |
+| 2-3 | 95 | Kısmi |
 | 4+ | 8 | Doğrulanmış |
 
-Ortalama kaynak 1.87 → 1.80 → 1.71 **gerilemeye devam ediyor** — bu bir gerileme
-değil, aritmetik bir sonuç: Y-01'in ikinci ve üçüncü turlarında eklenen 39 aracın
-(18 + 21) çoğu tek kaynakla açıldı, kaynaksız başlamamaları önceliklendirildi, bu da
-paydayı büyütüp ortalamayı aşağı çekti. Bu artık kalıcı bir örüntü haline geldi;
-Y-02'nin hedefine (2.5) ulaşmak için liste büyümesi bir noktada durup tek kaynaklı
-araçlara (şimdi 97 tane) ikinci kaynak bulma turuna geçilmeli — aksi hâlde her yeni
-araç turu ortalamayı yeniden düşürmeye devam edecek.
+Ortalama kaynak 1.87 → 1.80 → 1.71 → 1.67 **gerilemeye devam ediyor** — bu bir
+gerileme değil, aritmetik bir sonuç: Y-01'in ikinci-dördüncü turlarında eklenen 52
+aracın (18 + 21 + 13) çoğu tek kaynakla açıldı, kaynaksız başlamamaları
+önceliklendirildi (dördüncü turda bu bilinçli bir tercihti, bkz. MK-12). Bu artık
+kalıcı bir örüntü; Y-02'nin hedefine (2.5) ulaşmak için liste büyümesi bir noktada
+durup tek kaynaklı araçlara (şimdi 109 tane) ikinci kaynak bulma turuna geçilmeli —
+aksi hâlde her yeni araç turu ortalamayı yeniden düşürmeye devam edecek.
 
 Araç başına ortalama kaynak **1.79 → 1.88**'e çıktı. Hedefin (2.5) altında; **kalan iş**
 bu 14 aracı ve tek kaynaklı diğer 43 aracı ikinci, bağımsız bir kaynağa daha bağlamak.

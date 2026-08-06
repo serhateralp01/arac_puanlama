@@ -2945,5 +2945,101 @@
       "engine": "web_search",
       "found_at": "2026-08-06"
     }
+  },
+  "donanimhaber_puretech_triger": {
+    "id": "donanimhaber_puretech_triger",
+    "claim": "DonanımHaber forumundaki '1.2 PureTech Motor Sorunları' başlığında motorun yağ banyolu triger kayışı (wet belt) kullandığı, bu tasarımın zamanla ciddi güvenilirlik sorunlarına yol açtığı, kayışın kopması durumunda parçaların yağ sistemine karışıp motor hasarına neden olabildiği; uzmanların kayış değişimini 4 yıl/60.000 km'de önerdiği, Stellantis'in üçüncü nesil (Hybrid 136, EB2) motorlarda kayıştan zincire geçtiği aktarılıyor.",
+    "publisher": "DonanımHaber Forum",
+    "url": "https://forum.donanimhaber.com/1-2-puretech-motor-sorunlari--130023944",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "kronikuzman_chr_12turbo": {
+    "id": "kronikuzman_chr_12turbo",
+    "claim": "KronikUzman.com'un Toyota C-HR 1.2 Turbo deneyimleri derlemesinde motorun yağ tüketimine eğilimli olduğu, düşük devirde turbo tepkisinin gecikmeli kaldığı ve bunun düşük RPM'de en çok eleştirilen yön olduğu; şanzımanın trafikte ve ani hızlanmada tereddütlü davrandığı aktarılıyor.",
+    "publisher": "KronikUzman.com",
+    "url": "https://kronikuzman.com/toyota-c-hr-12-turbo-kronik-sorunlari-deneyimler",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "araclo_focus_ecoblue": {
+    "id": "araclo_focus_ecoblue",
+    "claim": "Araclo.com'un Ford Focus 1.5 EcoBlue incelemesinde eksantrik zincirinin (7mm) kronik olarak uzadığı ve üreticinin sonradan 8mm zincirle değişime geçtiği, kısa mesafe kullanımda partikül filtresinin (DPF) tıkandığı, periyodik bakımdan kısa süre sonra 'yağ değişimi gerekli' uyarısının belirebildiği aktarılıyor.",
+    "publisher": "Araclo.com",
+    "url": "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "techturkey_mini_f56_b38": {
+    "id": "techturkey_mini_f56_b38",
+    "claim": "TechTurkey ve MiniPassion forumlarındaki tartışmalarda MINI F56 kuşağının B38 motorunun üç silindirli yapısı nedeniyle eleştirildiği, ama hafif F56 kasasıyla ve Aisin kaynaklı tam otomatik tork konvertörü kutusuyla kombinasyonunun iyi çalıştığı; 2014-2021 model MINI'lerde vites kolu arızasının B36/B38/B46/B48/N16/N18 kodlu kutularda ortak bir şikayet olduğu aktarılıyor.",
+    "publisher": "TechTurkey / MiniPassion Forumları",
+    "url": "http://www.techturkey.com/forum/otomobilleriniz/246190-14_mini_cooper_f56_blazing_red_hikayesi.html",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "eklasseforum_m112_m113": {
+    "id": "eklasseforum_m112_m113",
+    "claim": "E-Klasse-Forum.de'deki (Almanca Mercedes topluluğu) bir başlıkta M112 V6 motorunun triger zinciri sorunu taşımadığı, bilinen zaafının krank kutusu havalandırma contası ve yağ filtresi gövdesi contalarındaki sızıntılar olduğu, bunların kolay erişilebilir ve düşük maliyetli onarımlar olduğu; M112'nin dönemin diğer Mercedes motorlarına kıyasla güvenilir kabul edildiği aktarılıyor.",
+    "publisher": "E-Klasse-Forum.de",
+    "url": "https://e-klasse-forum.de/index.php?page=Thread&threadID=59218",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "donanimhaber_mazda_skyactiv_otomatik": {
+    "id": "donanimhaber_mazda_skyactiv_otomatik",
+    "claim": "DonanımHaber forumundaki 'Mazda SkyActive otomatik şanzımanlarda kronik sorun var mı?' başlığında kutunun her hızda seri ve sessiz çalıştığı, bazı kullanıcıların bunu dünyanın en iyi otomatik şanzımanlarından biri olarak değerlendirdiği; erken kilitlenme (lock-up) mantığından kaynaklanan bir sertlik hissinin düşük hızda hissedilebildiği aktarılıyor.",
+    "publisher": "DonanımHaber Forum",
+    "url": "https://forum.donanimhaber.com/mazda-skyactive-otomatik-sanzimanlarda-kronik-sorun-var-mi--152011369",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
   }
 }

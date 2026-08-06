@@ -1,0 +1,39 @@
+{
+  "id": "mini-countryman-f60-1-5",
+  "name": "MINI Countryman (F60) 1.5",
+  "tag": "oto: 6 ileri TK (Aisin) · 136hp",
+  "brand_group": "MINI",
+  "years": "2017-2021",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.5,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-eat6",
+    "body_type": "SUV",
+    "engine_id": "bmw-b38"
+  },
+  "price_band_k_try": [
+    1000,
+    1450
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 50,
+    "trans": 72,
+    "fun": 62,
+    "comf": 76,
+    "age": 80,
+    "cost": 54,
+    "liq": 56
+  },
+  "sources": [
+    "techturkey_mini_f56_b38"
+  ],
+  "note": "MINI'nin ilk gerçek SUV'u; motor ve şanzıman Cooper F56 ile birebir aynı aileden (bmw-b38 + Aisin EAT6), bu araştırmanın bir uzantısı. SUV gövdesi Cooper'a göre daha fazla iç hacim ve konfor sunuyor ama sürüş keyfi hafif geriliyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  }
+}

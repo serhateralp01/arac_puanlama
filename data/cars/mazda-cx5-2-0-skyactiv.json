@@ -1,0 +1,39 @@
+{
+  "id": "mazda-cx5-2-0-skyactiv",
+  "name": "Mazda CX-5 2.0 Skyactiv-G",
+  "tag": "oto: 6 ileri TK (Skyactiv-Drive) · 165hp",
+  "brand_group": "Mazda",
+  "years": "2017-2021",
+  "specs": {
+    "hp": 165,
+    "displacement_l": 2.0,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "mazda-skyactiv-6at",
+    "body_type": "SUV",
+    "engine_id": "mazda-lf"
+  },
+  "price_band_k_try": [
+    1100,
+    1550
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 68,
+    "trans": 76,
+    "fun": 64,
+    "comf": 80,
+    "age": 80,
+    "cost": 64,
+    "liq": 62
+  },
+  "sources": [
+    "donanimhaber_mazda_skyactiv_otomatik"
+  ],
+  "note": "Mazda'nın en yaygın satılan SUV'u; LF motoru listede zaten Mazda 6'da kayıtlı, şanzıman için ise yeni bir aile açıldı (mazda-skyactiv-6at) — Mazda'nın dışarıdan tedarik etmeyip kendi geliştirdiği 6 ileri otomatik. Genel olarak dünyanın en iyi otomatik şanzımanlarından biri olarak değerlendiriliyor; düşük hızda erken kilitlenmeden kaynaklanan hafif sertlik dışında ciddi bir şikayet bildirilmemiş.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  }
+}

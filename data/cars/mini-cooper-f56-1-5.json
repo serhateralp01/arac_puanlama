@@ -1,0 +1,39 @@
+{
+  "id": "mini-cooper-f56-1-5",
+  "name": "MINI Cooper (F56) 1.5",
+  "tag": "oto: 6 ileri TK (Aisin) · 136hp",
+  "brand_group": "MINI",
+  "years": "2014-2021",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.5,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-eat6",
+    "body_type": "Hatchback",
+    "engine_id": "bmw-b38"
+  },
+  "price_band_k_try": [
+    750,
+    1150
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 50,
+    "trans": 72,
+    "fun": 76,
+    "comf": 64,
+    "age": 82,
+    "cost": 52,
+    "liq": 58
+  },
+  "sources": [
+    "techturkey_mini_f56_b38"
+  ],
+  "note": "MINI'nin BMW'nin kendi motoruna geçtiği ikinci nesli (R56'nın BMW/PSA ortak Prince motorundan farklı); motor için yeni bir aile açıldı (bmw-b38). Üç silindirli yapısı motor kültürü açısından eleştiriliyor ama hafif kasa ve Aisin otomatik kutu kombinasyonu iyi çalışıyor; şanzıman R56'da da kullanılan aynı aileden, listede zaten kayıtlı.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  }
+}

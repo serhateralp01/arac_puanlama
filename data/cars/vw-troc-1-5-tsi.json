@@ -1,0 +1,39 @@
+{
+  "id": "vw-troc-1-5-tsi",
+  "name": "VW T-Roc 1.5 TSI",
+  "tag": "oto: 7 ileri kuru DSG · 150hp",
+  "brand_group": "Volkswagen",
+  "years": "2018-2021",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 1.5,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "SUV",
+    "engine_id": "vag-ea211"
+  },
+  "price_band_k_try": [
+    1100,
+    1550
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 72,
+    "trans": 38,
+    "fun": 60,
+    "comf": 82,
+    "age": 80,
+    "cost": 64,
+    "liq": 66
+  },
+  "sources": [
+    "sikayetvar_passat_tsi"
+  ],
+  "note": "VW'nin kompakt SUV'u; EA211 ailesinin 1.5 TSI evo (silindir kapatma özellikli, ACT) versiyonu, aynı modüler aileden — Polo 1.0 TSI'yla birlikte ailenin hacim aralığını genişletti. DQ200 kuru DSG listede zaten kayıtlı.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  }
+}

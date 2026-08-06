@@ -892,5 +892,60 @@
       "go4trans_01m"
     ],
     "note": "Golf 4 ve Octavia 1 (Tour) kuşağının dört ileri tork konvertörlü otomatiği; 2006'ya kadar üretildi. Genel değerlendirme güvenilir yönde ve arızalar yüksek kilometrede başlıyor, ancak elektrik tarafı (selenoid tesisatı, hız sensörleri) ile lastik kaplı pistonlar yaşa bağlı olarak yıpranıyor; kaynaklar bu bileşenler için 8-10 yıllık bir ömür veriyor, yani bugün yoldaki bütün örnekler o sınırın çok üstünde. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kutu yapısal olarak sağlam ve kaynaklar 'güvenilir' diyor, sorunlar planlanabilir bileşen yenileme kalemleri; iki kaynak da C seviyesinde olduğu için bandın alt yarısında tutuldu.]"
+  },
+  "psa-eat8": {
+    "id": "psa-eat8",
+    "names": [
+      "EAT8",
+      "Aisin 8 ileri"
+    ],
+    "type": "TK",
+    "supplier": "Aisin / PSA",
+    "gears": 8,
+    "base_score": 76,
+    "maintenance": null,
+    "known_issues": [
+      {
+        "issue": "3.-2. vites arası vuruntu ve kalkışta hafif gecikme",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "bakım kalemi",
+        "sources": [
+          "erenservis_eat8"
+        ]
+      }
+    ],
+    "sources": [
+      "motor1_psa_suv_eat",
+      "erenservis_eat8"
+    ],
+    "note": "PSA'nın 2017 sonrası SUV'larında (3008, 5008, C5 Aircross) kullandığı Aisin kaynaklı 8 ileri tork konvertörü; PSA'nın kendi ürettiği eski AL4/ETG kutularından belirgin biçimde daha güvenilir kabul ediliyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): iki kaynak da (C, B) yapısal olmayan küçük şikayetlerden bahsediyor, 'yapısal kronik sorunu yok' vurgusu tutarlı; buna rağmen 85 üstüne çıkarılmadı."
+  },
+  "mazda-skyactiv-6at": {
+    "id": "mazda-skyactiv-6at",
+    "names": [
+      "Skyactiv-Drive",
+      "Mazda 6 ileri otomatik"
+    ],
+    "type": "TK",
+    "supplier": "Mazda",
+    "gears": 6,
+    "base_score": 76,
+    "maintenance": null,
+    "known_issues": [
+      {
+        "issue": "Erken kilitlenme (lock-up) mantığından kaynaklanan sertlik hissi, özellikle düşük hızda",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "bakım kalemi",
+        "sources": [
+          "donanimhaber_mazda_skyactiv_otomatik"
+        ]
+      }
+    ],
+    "sources": [
+      "donanimhaber_mazda_skyactiv_otomatik"
+    ],
+    "note": "Mazda'nın kendi geliştirdiği, dışarıdan tedarik edilmeyen 6 ileri otomatik kutusu. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak (C) genel olarak 'dünyanın en iyi otomatik şanzımanlarından biri' olarak tarif ediyor, bildirilen tek şikayet erken kilitlenmeden kaynaklanan sertlik hissi; tek kaynak olduğu için 85 üstüne çıkarılmadı."
   }
 }

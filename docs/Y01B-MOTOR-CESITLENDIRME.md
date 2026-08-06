@@ -19,10 +19,24 @@ GDi). Hiçbir yeni motor/şanzıman ailesi açılmadı; hepsi zaten kayıtlı ai
 bağlandı. Ayrıntı `docs/ROADMAP.md` Y-01 maddesinde.
 
 Aşağıdaki tablo hâlâ referans için duruyor (hangi aday neden seçildiği, hangi aile
-kullanıldığı) ama artık güncel veri için asıl kaynak `data/cars/*.json`'dır. **🟡/🔴
-etiketli satırlar (Golf 7 GTI, W211 E280, Megane 3 1.2 TCe, Clio 4 TCe, Laguna 1.9 dCi,
-Peugeot 308 PureTech, Opel Insignia 2.0 Turbo, Opel Astra 1.7 CDTI) hâlâ işlenmedi** —
-her biri yeni bir motor ailesi gerektiriyor, kullanıcı onayı bekliyor.
+kullanıldığı) ama artık güncel veri için asıl kaynak `data/cars/*.json`'dır.
+
+## İkinci tur (2026-08-06, aynı gün) — 🟡/🔴 satırlar da işlendi
+
+Kullanıcı "sarı ve kırmızılara devam, kaynak çok önemli değil, yeter ki devam et"
+dedi. Bunun üzerine **6 yeni motor ailesi** (`psa-bluehdi-15`, `psa-puretech-12`,
+`toyota-8nr-fts`, `ford-ecoblue-15`, `bmw-b38`, `mb-m112`) ve **2 yeni şanzıman
+ailesi** (`psa-eat8`, `mazda-skyactiv-6at`) açıldı, **13 araç** eklendi: Peugeot 3008
+1.6 BlueHDi, Citroën C5 Aircross 1.5 BlueHDi, Opel Crossland X 1.2 PureTech, Toyota
+C-HR 1.2 Turbo, Mazda CX-5 2.0 Skyactiv-G, Ford Focus 4 1.5 EcoBlue, MINI Cooper
+(F56) 1.5, MINI Countryman (F60) 1.5, Mercedes E280 (W211), VW Polo 6 1.0 TSI DSG,
+VW T-Roc 1.5 TSI, VW Golf 7 GTI 2.0 TSI, Kia Ceed SW 1.6 CRDi. Her yeni aile en az
+bir gerçek kaynağa dayanıyor ama araştırma tek turlu ve hızlı tutuldu — kullanıcının
+açık tercihi buydu, gerekçesi `docs/ARCHITECTURE.md` MK-12 kaydında.
+
+Kalan bilinen boşluklar (henüz işlenmedi): Megane 3 1.2 TCe, Clio 4 TCe (0.9/1.2),
+Renault Laguna 1.9 dCi, Opel Insignia 2.0 Turbo (benzin), Opel Astra 1.7 CDTI —
+her biri ayrı bir yeni motor ailesi gerektiriyor.
 
 **Bu belgedeki hiçbir satır henüz kaynaklanmadı** (kullanıcının talebi: "araştırmasını
 sonra yaparız"). Aşağıdaki motor/şanzıman eşleşmeleri genel otomotiv bilgisine dayanıyor.

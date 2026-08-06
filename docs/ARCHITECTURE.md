@@ -344,3 +344,30 @@ yüzden CLAUDE.md §2'deki "bitmemiş karmaşıklık için çalışan ürün ris
 ilkesi gereği tartışmasız geri alındı, üzerinde ısrar edilmedi. Bu kayıt yalnızca
 gelecekte aynı fikir tekrar gündeme gelirse "daha önce denendi ve neden kaldırıldığı"
 sorusuna cevap vermek için tutuluyor.
+
+---
+
+## MK-12 · Yeni bileşen ailelerinde kaynak derinliği kullanıcı isteğiyle sınırlı tutuldu
+
+**Karar:** 2026-08-06'daki motor/şanzıman çeşitlendirme turlarında (Y-01) yeni açılan
+her motor/şanzıman ailesi **tam olarak bir** gerçek kaynağa dayanıyor (istisna: bazı
+sıklıkla paylaşılan aileler iki kaynakla açıldı). Bu, önceki turlardaki (Y-02, Y-01
+ilk turu) genelde 1-2 kaynaklı araştırma yoğunluğuyla aynı, ama bilinçli olarak daha
+fazla derinleştirilmedi.
+
+**Gerekçe.** Kullanıcının açık talebi: "kaynak çok önemli değil, 1 kaynakları bile
+olsa yeter, yeter ki sen devam et. Ben sahibinden'de gezerken gördüğüm ve merak
+ettiğim her motor seçeneğini görüyor olayım platformumuzda." Kullanıcı burada bilinçli
+bir değiş tokuş yapıyor: **kapsam genişliği, kanıt derinliğine göre önceliklendirildi.**
+Bu, CLAUDE.md'nin "puan kanıta dayanır" ilkesini bozmuyor — her araç ve her bileşen
+ailesi hâlâ en az bir gerçek, erişilebilir kaynağa dayanıyor, uydurma bir puan yok.
+Değişen şey, kaynak *sayısının* (derinliğinin) Y-02'nin asıl hedefinden (ortalama 2.5
+kaynak/araç) bilinçli olarak geride bırakılması.
+
+**Sonuç.** `arac_basina_ortalama_kaynak` bu kararla birlikte üç turdur düşüyor (1.87 →
+1.80 → 1.71 → 1.67); bu beklenen ve kabul edilen bir sonuç, gerileme sayılmıyor. Y-02
+hâlâ geçerli bir hedef ama artık **ayrı bir tur** olarak ele alınmalı — liste
+genişledikçe otomatik olarak kendini çözmüyor, çünkü her yeni araç paydaya "tek
+kaynaklı" olarak giriyor. Bu ayrım `docs/ROADMAP.md` Y-01 ve Y-02 maddelerinde açıkça
+yazılı duruyor ki ileride biri "neden ortalama düşüyor" diye sorduğunda cevap hazır
+olsun.

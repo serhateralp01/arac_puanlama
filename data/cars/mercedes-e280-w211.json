@@ -1,0 +1,39 @@
+{
+  "id": "mercedes-e280-w211",
+  "name": "Mercedes E280 (W211)",
+  "tag": "oto: 5 ileri TK · 204hp",
+  "brand_group": "Mercedes-Benz",
+  "years": "2002-2006",
+  "specs": {
+    "hp": 204,
+    "displacement_l": 2.8,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "mb-5g-tronic",
+    "body_type": "Sedan",
+    "engine_id": "mb-m112"
+  },
+  "price_band_k_try": [
+    420,
+    650
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 70,
+    "trans": 80,
+    "fun": 70,
+    "comf": 78,
+    "age": 34,
+    "cost": 64,
+    "liq": 48
+  },
+  "sources": [
+    "eklasseforum_m112_m113"
+  ],
+  "note": "W211'in altı silindirli benzinli üst versiyonu; motor için yeni bir aile açıldı (mb-m112) — triger zinciri sorunu taşımayan, dönemin diğer Mercedes motorlarına göre görece güvenilir kabul edilen bir V6. 5G-Tronic kutusu listede zaten kayıtlı. Aracın yaşı ileri olduğu için pas ve elektrik riski dikkatle kontrol edilmeli.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  }
+}

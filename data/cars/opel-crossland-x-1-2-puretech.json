@@ -1,0 +1,39 @@
+{
+  "id": "opel-crossland-x-1-2-puretech",
+  "name": "Opel Crossland X 1.2 PureTech",
+  "tag": "oto: 8 ileri TK (Aisin EAT8) · 130hp",
+  "brand_group": "Opel",
+  "years": "2017-2020",
+  "specs": {
+    "hp": 130,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "psa-eat8",
+    "body_type": "SUV",
+    "engine_id": "psa-puretech-12"
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 34,
+    "trans": 76,
+    "fun": 50,
+    "comf": 76,
+    "age": 76,
+    "cost": 58,
+    "liq": 56
+  },
+  "sources": [
+    "donanimhaber_puretech_triger"
+  ],
+  "note": "Opel'in PSA platformuna geçiş sonrası ilk SUV'larından; motor için yeni bir aile açıldı (psa-puretech-12) — yağ banyolu triger kayışı (wet belt) taşıyan, listenin en riskli motorlarından biri. Kayış bakımı (60.000 km) ihmal edilirse kayış kopup motor bloğuna zarar verebiliyor; bu satın alma öncesi mutlaka sorulmalı. Şanzıman (EAT8) ailenin güçlü tarafı.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  }
+}

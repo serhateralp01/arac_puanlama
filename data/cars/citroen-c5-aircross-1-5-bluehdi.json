@@ -1,0 +1,40 @@
+{
+  "id": "citroen-c5-aircross-1-5-bluehdi",
+  "name": "Citroën C5 Aircross 1.5 BlueHDi",
+  "tag": "oto: 8 ileri TK (Aisin EAT8) · 130hp",
+  "brand_group": "Citroën",
+  "years": "2019-2022",
+  "specs": {
+    "hp": 130,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "psa-eat8",
+    "body_type": "SUV",
+    "engine_id": "psa-bluehdi-15"
+  },
+  "price_band_k_try": [
+    1150,
+    1600
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 50,
+    "trans": 76,
+    "fun": 54,
+    "comf": 84,
+    "age": 82,
+    "cost": 64,
+    "liq": 62
+  },
+  "sources": [
+    "araclo_c5aircross",
+    "erenservis_eat8"
+  ],
+  "note": "PSA'nın CMP platformlu SUV'u; motor için yeni bir aile açıldı (psa-bluehdi-15, 1.6 BlueHDi'den farklı, daha küçük hacimli), şanzıman için de yeni bir aile (psa-eat8) — ikisi de bu C5 Aircross araştırmasının ürünü. 2022 öncesi üretimde motor tarafında zincir riski bildirilmiş; EAT8 kutusunun yapısal bir kronik sorunu olmadığı vurgulanıyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  }
+}

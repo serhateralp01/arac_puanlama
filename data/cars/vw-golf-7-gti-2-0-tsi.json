@@ -1,0 +1,39 @@
+{
+  "id": "vw-golf-7-gti-2-0-tsi",
+  "name": "VW Golf 7 GTI 2.0 TSI",
+  "tag": "oto: 6 ileri ıslak DSG · 220hp",
+  "brand_group": "Volkswagen",
+  "years": "2013-2017",
+  "specs": {
+    "hp": 220,
+    "displacement_l": 2.0,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "vag-dq250",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea888"
+  },
+  "price_band_k_try": [
+    900,
+    1350
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 46,
+    "trans": 62,
+    "fun": 86,
+    "comf": 78,
+    "age": 72,
+    "cost": 54,
+    "liq": 64
+  },
+  "sources": [
+    "sikayetvar_passat_tsi"
+  ],
+  "note": "Golf 7'nin performans versiyonu; EA888 motoru listede zaten Audi A4/Passat'ta kayıtlı aynı aileden — bu neslin (gen3) yağ tüketimi sorununu büyük ölçüde paylaştığı için ayrı bir aile açılmadı, mevcut kaydın puanı kullanıldı. DQ250 ıslak DSG, GTI'nin gücünü kaldıracak şekilde listede zaten kayıtlı.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  }
+}

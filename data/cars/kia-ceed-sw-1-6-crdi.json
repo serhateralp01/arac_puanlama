@@ -1,0 +1,39 @@
+{
+  "id": "kia-ceed-sw-1-6-crdi",
+  "name": "Kia Ceed SW 1.6 CRDi",
+  "tag": "oto: 7 ileri kuru DCT · 136hp",
+  "brand_group": "Kia",
+  "years": "2016-2019",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "hyundai-7dct",
+    "body_type": "Station Wagon",
+    "engine_id": "hyundai-u2-16"
+  },
+  "price_band_k_try": [
+    700,
+    1020
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 68,
+    "trans": 46,
+    "fun": 48,
+    "comf": 78,
+    "age": 76,
+    "cost": 76,
+    "liq": 64
+  },
+  "sources": [
+    "araclo_sportage_16crdi"
+  ],
+  "note": "Ceed'in station wagon (SW) gövdesi; U2 1.6 CRDi motoru ve kuru 7DCT kutusu listede zaten Sportage/Tucson/i30'da kayıtlı aynı aileden, düşük risk. Geniş bagaj hacmi station wagon gövdenin öne çıkan avantajı; şanzımanda kalkışta/rampada titreme diğer 7DCT'li Hyundai/Kia modellerinde bildirildiği için burada da kontrol edilmeli.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  }
+}

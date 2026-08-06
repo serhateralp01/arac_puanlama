@@ -1,0 +1,39 @@
+{
+  "id": "toyota-chr-1-2-turbo",
+  "name": "Toyota C-HR 1.2 Turbo",
+  "tag": "oto: Multidrive CVT · 116hp",
+  "brand_group": "Toyota",
+  "years": "2017-2020",
+  "specs": {
+    "hp": 116,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT",
+    "transmission_id": "toyota-multidrive",
+    "body_type": "SUV",
+    "engine_id": "toyota-8nr-fts"
+  },
+  "price_band_k_try": [
+    900,
+    1300
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 54,
+    "trans": 74,
+    "fun": 52,
+    "comf": 78,
+    "age": 80,
+    "cost": 72,
+    "liq": 68
+  },
+  "sources": [
+    "kronikuzman_chr_12turbo"
+  ],
+  "note": "C-HR'ın benzinli turbo versiyonu; motor için yeni bir aile açıldı (toyota-8nr-fts) — Toyota'nın atmosferik ZR ailesinden tamamen farklı, küçük hacimli turbo bir tasarım. Yağ tüketimi ve düşük devirde turbo gecikmesi bildirilmiş; Multidrive CVT kutusu listede zaten kayıtlı.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  }
+}

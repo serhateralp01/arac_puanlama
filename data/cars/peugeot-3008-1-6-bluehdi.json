@@ -1,0 +1,39 @@
+{
+  "id": "peugeot-3008-1-6-bluehdi",
+  "name": "Peugeot 3008 1.6 BlueHDi",
+  "tag": "oto: 6 ileri TK (Aisin EAT6) · 120hp",
+  "brand_group": "Peugeot",
+  "years": "2017-2019",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-eat6",
+    "body_type": "SUV",
+    "engine_id": "psa-dv6"
+  },
+  "price_band_k_try": [
+    1050,
+    1450
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 44,
+    "trans": 72,
+    "fun": 52,
+    "comf": 82,
+    "age": 78,
+    "cost": 62,
+    "liq": 68
+  },
+  "sources": [
+    "motor1_psa_suv_eat"
+  ],
+  "note": "3008'in ikinci neslinde en yaygın satılan dizel-otomatik kombinasyonu; 1.6 BlueHDi motoru (DV6 ailesi) ve Aisin EAT6 kutusu listede zaten Grandland X'te kayıtlı, ikisi de düşük risk. EAT6, PSA'nın kendi ürettiği eski AL4/ETG kutularına göre belirgin biçimde daha güvenilir.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  }
+}

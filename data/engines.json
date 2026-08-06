@@ -2365,7 +2365,9 @@
     "supplier": "Volkswagen Group",
     "fuel": "Benzin",
     "displacements_l": [
-      1.4
+      1.0,
+      1.4,
+      1.5
     ],
     "cylinders": 4,
     "aspiration": "Turbo",
@@ -2972,5 +2974,202 @@
     ],
     "revision_sensitivity": "evo4, evo3'ün (listedeki vag-ea888 kaydı, base_score 46) doğrudan devamı; iki kaynak da yağ pompasının nesiller arasında değişmediğini ve yağ tüketimi eğiliminin evo4'e taşındığını doğruluyor. Bu yüzden ayrı bir aile olarak açıldı ama base_score'u evo3'ten çok farklı tutulmadı — MK-08 gerekçesi: revizyon farkı donanımı değiştirecek kadar büyük değil, ama belgelenmiş bir kanıt farkı var, o yüzden aynı kayda da zorlanmadı.",
     "note": "Cupra Formentor/Leon ve güncel VW/Audi/Skoda 2.0 TSI modellerinde kullanılan dördüncü nesil EA888. [base_score gerekçesi: 50-64 (yönetilebilir ama tekrarlayan bakım kalemi): yağ tüketimi sorunu üçüncü nesilden dördüncü nesle taşınmış, iki bağımsız kaynak bunu doğruluyor; ikisi de C seviyesinde olduğu için 35 altına düşürülmedi, üst banda da çıkarılmadı.]"
+  },
+  "psa-bluehdi-15": {
+    "id": "psa-bluehdi-15",
+    "names": [
+      "BlueHDi 130",
+      "DV5RC",
+      "1.5 BlueHDi"
+    ],
+    "supplier": "PSA",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.5
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 50,
+    "maintenance": "Zincir gerginlik takibi 2022 öncesi üretimde önem taşıyor; sonrasında revize edildiği bildiriliyor.",
+    "known_issues": [
+      {
+        "issue": "2022 öncesi üretimde eksantrik/zincir riski bildirildiği, 2022 sonrası üretimde bu riskin azaldığı",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "büyük onarım",
+        "sources": [
+          "araclo_c5aircross"
+        ]
+      }
+    ],
+    "sources": [
+      "araclo_c5aircross"
+    ],
+    "note": "PSA'nın 1.6 BlueHDi'den (psa-dv6) ayrı, daha yeni ve daha küçük hacimli dizel ailesi. [base_score gerekçesi: 50-64 (yönetilebilir ama tekrarlayan bakım kalemi): tek kaynak (C) 2022 öncesi/sonrası ayrımı yapıyor, riskin sınırlı ve üretimle düzeltildiği bildiriliyor; bu yüzden alt banda düşürülmedi."
+  },
+  "psa-puretech-12": {
+    "id": "psa-puretech-12",
+    "names": [
+      "PureTech 130",
+      "EB2",
+      "1.2 PureTech"
+    ],
+    "supplier": "PSA",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.2
+    ],
+    "cylinders": 3,
+    "aspiration": "Turbo",
+    "base_score": 34,
+    "maintenance": "Yağ banyolu triger kayışının (wet belt) 60.000 km'de bir değiştirilmesi ve her bakımda genişliğinin ölçülmesi öneriliyor.",
+    "known_issues": [
+      {
+        "issue": "Yağ banyolu triger kayışının (wet belt) kopması veya gerilmesi; parçaların yağ sistemine karışıp motor bloğu hasarına yol açabilmesi",
+        "onset_km": 60000,
+        "frequency": "yaygın",
+        "severity": "motor ölür",
+        "sources": [
+          "donanimhaber_puretech_triger"
+        ]
+      }
+    ],
+    "sources": [
+      "donanimhaber_puretech_triger"
+    ],
+    "note": "PSA/Stellantis'in üç silindirli küçük turbo ailesi; EP6/THP'den tamamen farklı, yağ banyolu kayışlı bir tasarım. [base_score gerekçesi: 0-34 (ciddi risk): kayış koptuğunda parçalar yağ sistemine karışıp motor bloğunu hasar bırakabiliyor, bu risk yaygın olarak bildiriliyor; üretici üçüncü nesilde (Hybrid 136, EB2) tasarımı zincire çevirdi ama listedeki dönem bu değişiklikten önceki üretim."
+  },
+  "toyota-8nr-fts": {
+    "id": "toyota-8nr-fts",
+    "names": [
+      "8NR-FTS",
+      "1.2 Turbo"
+    ],
+    "supplier": "Toyota",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 54,
+    "maintenance": null,
+    "known_issues": [
+      {
+        "issue": "Yağ tüketimi eğilimi ve düşük devirde turbo tepkisinin gecikmeli olması",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "kronikuzman_chr_12turbo"
+        ]
+      }
+    ],
+    "sources": [
+      "kronikuzman_chr_12turbo"
+    ],
+    "note": "Toyota'nın C-HR'de kullandığı küçük hacimli turbo motoru; Toyota'nın atmosferik ZR ailesinden tamamen farklı bir tasarım. [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi): tek kaynak (C) yağ tüketimi ve turbo gecikmesinden bahsediyor ama katastrofik bir arıza bildirmiyor, bu yüzden alt banda düşürülmedi."
+  },
+  "ford-ecoblue-15": {
+    "id": "ford-ecoblue-15",
+    "names": [
+      "1.5 EcoBlue",
+      "Panther"
+    ],
+    "supplier": "Ford",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.5
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 52,
+    "maintenance": "Kısa mesafe/şehir içi kullanımda motorun yeterince ısınmaması DPF tıkanmasına yol açabiliyor; düzenli uzun yol kullanımı öneriliyor.",
+    "known_issues": [
+      {
+        "issue": "Eksantrik zincirinin (7mm) kronik olarak uzaması; üretici sonradan 8mm zincirle değişime geçti",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "araclo_focus_ecoblue"
+        ]
+      },
+      {
+        "issue": "Kısa mesafe kullanımda DPF (partikül filtresi) tıkanması",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "araclo_focus_ecoblue"
+        ]
+      }
+    ],
+    "sources": [
+      "araclo_focus_ecoblue"
+    ],
+    "note": "Ford'un Duratorq ailesinden sonraki yeni nesil küçük hacimli dizeli. [base_score gerekçesi: 50-64 (yönetilebilir ama tekrarlayan bakım kalemi): zincir sorunu yaygın bildiriliyor ama üretici tarafından revize edildi (7mm'den 8mm'ye); tek kaynak (C) olduğu için alt banda düşürülmedi."
+  },
+  "bmw-b38": {
+    "id": "bmw-b38",
+    "names": [
+      "B38",
+      "1.5 Twinpower Turbo"
+    ],
+    "supplier": "BMW",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.5
+    ],
+    "cylinders": 3,
+    "aspiration": "Turbo",
+    "base_score": 50,
+    "maintenance": null,
+    "known_issues": [
+      {
+        "issue": "Üç silindirli tasarımın motor kültürü açısından eleştirilmesi; ağır ve düzensiz vites geçişlerinin bazı otomatik şanzımanlı örneklerde erken aşınmaya yol açtığı",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "techturkey_mini_f56_b38"
+        ]
+      }
+    ],
+    "sources": [
+      "techturkey_mini_f56_b38"
+    ],
+    "note": "MINI F56 kuşağının kendi BMW motoruna geçtiği ilk aile (önceki R56'nın BMW/PSA ortak Prince motorundan farklı). [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi): motor kültürü açısından eleştiriliyor ama F56'nın hafif kasası ve Aisin otomatik kutuyla kombinasyonunun iyi çalıştığı da bildiriliyor; tek kaynak (C) olduğu için uç banda çıkarılmadı."
+  },
+  "mb-m112": {
+    "id": "mb-m112",
+    "names": [
+      "M112",
+      "V6"
+    ],
+    "supplier": "Mercedes-Benz",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2.8
+    ],
+    "cylinders": 6,
+    "aspiration": "Atmosferik",
+    "base_score": 70,
+    "maintenance": "Krank kutusu havalandırma contası ve yağ filtresi gövdesi contalarının sızıntı yapabildiği, ama bunların kolay erişilebilir ve düşük maliyetli onarımlar olduğu bildiriliyor.",
+    "known_issues": [
+      {
+        "issue": "Krank mili sensörü arızası, krank kutusu havalandırma contası ve yağ/su ısı eşanjörü contalarında sızıntı",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "bakım kalemi",
+        "sources": [
+          "eklasseforum_m112_m113"
+        ]
+      }
+    ],
+    "sources": [
+      "eklasseforum_m112_m113"
+    ],
+    "note": "W211'in altı silindirli benzinli ailesi; triger zinciri sorunu taşımadığı, dönemin diğer Mercedes motorlarına göre görece güvenilir kabul edildiği bildiriliyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): tek kaynak (C, Almanca topluluk forumu) olsa da tutarlı biçimde 'sorunsuz motor' olarak tarif ediliyor, contalardaki sızıntılar küçük onarımlar; buna rağmen tek kaynak olduğu için 85 üstüne çıkarılmadı."
   }
 }

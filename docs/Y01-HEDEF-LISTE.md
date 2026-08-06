@@ -141,19 +141,25 @@ gerekçesiyle doğrudan reddedilmeli, ayrı bir aile açılmalı.
 
 ## Ertelenenler — A/B içinde kaynaklanmayan satırlar
 
-Bu satırlar A ve B bölümlerinde duruyordu ama bu turda işlenmedi; çoğu yeni bir motor
-veya şanzıman ailesi gerektiriyor (CLAUDE.md §2 sıra kuralı: önce bileşen, sonra araç).
-Bir sonraki round için hazır bir kısa liste:
+**Güncelleme (2026-08-06, aynı gün):** Kullanıcı "sarı/kırmızılara devam, kaynak
+önemli değil" dedi; aşağıdaki satırların çoğu bu turda işlendi ve `data/` içine
+girdi (bkz. `docs/Y01B-MOTOR-CESITLENDIRME.md` "ikinci tur"). Yalnızca **Nissan
+Juke 1.6 CVT** (zaten mevcut kayıtla aynı olduğu doğrulandı, eklenmedi) ve **Ford
+Puma 1.0 EcoBoost** (mild-hibrit, ⛔ şema kararı bekliyor) hâlâ bekliyor.
 
-| Aday | Neden ertelendi |
+| Aday | Durum |
 |---|---|
-| VW T-Roc 1.5 TSI, VW Polo 1.0 TSI | Yeni EA211 revizyonu/3 silindirli motor gerekiyor |
-| Peugeot 3008 1.6 BlueHDi, Citroën C5 Aircross 1.5 BlueHDi, Opel Crossland X 1.2 Turbo | Yeni PSA motor ailesi (1.5 BlueHDi / PureTech) gerekiyor; C5 Aircross için EAT8 şanzımanı da yeni ama 3 yetim kaynak zaten hazır |
-| Kia Ceed SW 1.6 CRDi | İşlenmedi ama bileşenleri tamamen mevcut — en düşük riskli ertelenen aday |
-| Toyota C-HR 1.2 Turbo, Mazda CX-5 2.0 | Yeni motor (C-HR) veya yeni şanzıman ailesi (Mazda'nın kendi otomatiği) gerekiyor |
-| Nissan Juke 1.6 CVT | Listede zaten "Nissan Juke 1.6" adında bir kayıt var; tekrar riski önce kontrol edilmeli |
-| Ford Puma 1.0 EcoBoost, Ford Focus 4 1.5 EcoBlue | Puma tamamen mild-hibrit satılıyor (⛔ şema kararı sınırında); Focus 4 yeni motor ailesi gerektiriyor |
-| MINI Cooper (F56) 1.5, MINI Countryman (F60) | BMW B38/B48 motoru listede yok, yeni araştırma gerekiyor |
+| VW T-Roc 1.5 TSI, VW Polo 1.0 TSI | ✅ eklendi — `vag-ea211` ailesi 1.0/1.5'e genişletildi, yeni motor açılmadı |
+| Peugeot 3008 1.6 BlueHDi | ✅ eklendi — mevcut `psa-dv6`/`aisin-eat6` ile (1.6 trim seçildi, yeni motor gerekmedi) |
+| Citroën C5 Aircross 1.5 BlueHDi | ✅ eklendi — yeni `psa-bluehdi-15` + yeni `psa-eat8` açıldı |
+| Opel Crossland X 1.2 Turbo | ✅ eklendi (`opel-crossland-x-1-2-puretech`) — yeni `psa-puretech-12` açıldı |
+| Kia Ceed SW 1.6 CRDi | ✅ eklendi — bileşenleri zaten mevcuttu |
+| Toyota C-HR 1.2 Turbo | ✅ eklendi — yeni `toyota-8nr-fts` açıldı |
+| Mazda CX-5 2.0 | ✅ eklendi — yeni `mazda-skyactiv-6at` açıldı |
+| Nissan Juke 1.6 CVT | ⏸ eklenmedi — listede zaten "Nissan Juke 1.6" (`nissan-juke-1-6`) tam bu kombinasyonla kayıtlı, tekrar oluşturulmadı |
+| Ford Puma 1.0 EcoBoost | ⏸ ertelendi — tamamen mild-hibrit satılıyor, ⛔ şema kararı sınırında |
+| Ford Focus 4 1.5 EcoBlue | ✅ eklendi — yeni `ford-ecoblue-15` açıldı |
+| MINI Cooper (F56) 1.5, MINI Countryman (F60) | ✅ eklendi — yeni `bmw-b38` açıldı |
 
 ---
 
