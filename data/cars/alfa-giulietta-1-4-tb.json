@@ -30,7 +30,8 @@
     "liq": 42
   },
   "sources": [
-    "eksisozluk_sanziman_liste"
+    "eksisozluk_sanziman_liste",
+    "sikayetvar_alfa_mito_kronik"
   ],
   "note": "Otomatiği TCT çift kavramalı kutu; Ekşi Sözlük'ün marka-model bazlı kapsamlı şanzıman rehberi de bunu doğruluyor. Karakteri ve tasarımı çok güçlü ama TCT'nin güvenilirlik kaygısı ve Alfa'nın Türkiye'de sınırlı parça/usta ağı toplam puanı düşürüyor. Servis geçmişi ve uzun test sürüşü olmadan almayın.",
   "provenance": {

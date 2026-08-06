@@ -29,7 +29,8 @@
     "liq": 68
   },
   "sources": [
-    "kronikuzman_chr_12turbo"
+    "kronikuzman_chr_12turbo",
+    "teknikotomatiksanziman_multidrive"
   ],
   "note": "C-HR'ın benzinli turbo versiyonu; motor için yeni bir aile açıldı (toyota-8nr-fts) — Toyota'nın atmosferik ZR ailesinden tamamen farklı, küçük hacimli turbo bir tasarım. Yağ tüketimi ve düşük devirde turbo gecikmesi bildirilmiş; Multidrive CVT kutusu listede zaten kayıtlı.",
   "provenance": {

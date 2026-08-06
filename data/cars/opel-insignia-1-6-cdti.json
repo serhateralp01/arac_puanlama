@@ -30,7 +30,8 @@
     "liq": 66
   },
   "sources": [
-    "opel16"
+    "opel16",
+    "teknikotomatik_aisin_6ileri"
   ],
   "note": "Sessiz çalışmasıyla bilinen 1.6 dizel motorun ilk versiyonlarında zincir gergisi contasız üretildiği için, soğuk çalıştırmada zincir sesi ve zamanla zincir uzaması görülüyor; tamiri pahalı bir işlem. Sonradan düzeltildi. Aisin otomatiği sağlam olduğundan asıl bakılması gereken şey zincirin geçmişi.",
   "provenance": {

@@ -30,7 +30,8 @@
     "liq": 66
   },
   "sources": [
-    "sikayetvar_passat_tsi"
+    "sikayetvar_passat_tsi",
+    "teknikotomatik_dq200_dq250"
   ],
   "note": "B6 kasa geniş ve konforlu ama 1.8 TSI motorun ilk versiyonları yağ tüketimi ve zincir gergisi açısından hassas. Islak DQ250 kutusu şanzıman tarafını kurtarıyor. Ucuz ama motor geçmişi araştırılmadan alınmamalı.",
   "provenance": {

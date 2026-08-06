@@ -30,16 +30,15 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynaksız araçlar (Y-02) | Kaynaksız araç yok; araç başına ortalama kaynak hâlâ hedefin (2.5) altında ve düşüyor, 1.65 |
+| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; her araç hem motor hem şanzıman tarafından kaynaklı, ortalama 2.18 |
 | Araç listesi (Y-01) | 154 → 221 araç. **SUV 1 → 28 (hedefi aştı), marka 5/5 (hedefe ulaştı: Dacia, Jeep, MINI, Cupra, Subaru)**, 2016+ 5 → 39 (hedef 40'a bir araç kaldı) |
-| **Kaynak derinliği** | **Zayıf, ama iyileşiyor — kuyruk artık çalışır durumda** |
-| **Araç kapsamı** | **Hâlâ dar ama genişliyor — 2016+ ve SUV hedeflerinin çoğu önümüzde** |
+| Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 
-Denetimin bugünkü çıktısı: **0 hata, 253 uyarı**. Uyarıların ezici çoğunluğu (213) tek
-bir kalemden geliyor: araçların dört bağımsız kaynağa ulaşmamış olması. Kuyruk artık
-kurulduğu için bu sayı, tek tek araç dosyası düzenlemek yerine kuyruğu tekrar tekrar
-çalıştırarak düşürülebilir.
+Denetimin bugünkü çıktısı: **0 hata, 243 uyarı**. Uyarıların ezici çoğunluğu (213) tek
+bir kalemden geliyor: araçların **dört** bağımsız kaynağa ulaşmamış olması — bu, artık
+kaynaksızlıktan değil "doğrulanmış" rozetinin katı eşiğinden kaynaklanıyor. Her aracın
+en az iki kaynağı var (Y-02 derinlik turu, aşağıda).
 
 ---
 
@@ -193,14 +192,18 @@ uzaklıkta.** SUV sayısı hedefi aştı (28/25 ✅). **Marka şartı karşılan
 Dacia, Jeep, MINI, Cupra, Subaru).** 2016 sonrası araç sayısı 39/40 — tek bir araç
 daha eklenince bu madde de biter. `validate.py` hâlâ 0 hata veriyor.
 
-**Kalan iş.** `docs/Y01-HEDEF-LISTE.md`'deki C ve D bölümleri (MG; Lexus/Togg/MG'nin
-EV-PHEV modelleri) hâlâ kullanıcı onayı bekliyor — D bölümü için önce
-`docs/ARCHITECTURE.md`'ye hibrit/elektrikli araçların şema kararı MK kaydı olarak
-yazılmalı, `fuel` alanı bugün yalnızca `Dizel`/`Benzin` kabul ediyor.
+**Kalan iş.** `docs/Y01-HEDEF-LISTE.md`'nin D bölümü (Lexus, Togg, MG'nin EV/PHEV
+modelleri) artık **kalıcı olarak kapsam dışı** — kullanıcının net kararı, gerekçesi
+`docs/ARCHITECTURE.md` MK-13 kaydında. Elektrikli ve LPG'li hiçbir araç listeye
+girmeyecek. Geriye C bölümü (MG'nin geleneksel yakıtlı modelleri, varsa) kalıyor,
+o da düşük öncelikli.
+
+Y-01'in kendisi büyük ölçüde tamamlandı sayılabilir (üç hedeften ikisi karşılandı,
+üçüncüsü bir araç uzaklıkta); odak artık **Y-02'ye** kayıyor (aşağıda).
 
 ---
 
-## Y-02 · Her aracın en az bir gerçek kaynağı olsun, ortalama dörde yaklaşsın — **kısmen bitti**
+## Y-02 · Her aracın en az bir gerçek kaynağı olsun, ortalama dörde yaklaşsın — **hedef karşılandı**
 
 **Öncelik: yüksek.** Projenin bütün iddiası kanıta dayanmak; kanıtsız araç bu iddiayı
 zayıflatıyor.
@@ -218,35 +221,54 @@ geçti. Hiçbir puan bu turda değiştirilmedi — yalnızca kanıt eklendi; mot
 temel puanları zaten paylaşılan bileşen kayıtlarından geliyor, araç kaydına eklenen
 kaynak o aracın kendi kanıt zincirini tamamlıyor (bkz. "önemli ayrım" aşağıda).
 
-**Bugünkü tablo** (Y-01'in üçüncü turundan sonra, 199 araç üzerinden):
+**İkinci tur — derinlik: "her araca 1 motor + 1 şanzıman kaynağı".** Kullanıcı yeni ve
+somut bir hedef koydu: *"kaynak derinliğiyle devam edebiliriz, tek kaynaklı araçlara
+odaklanalım. Hedef her araca 1 motor + 1 şanzıman kaynağı."* Bu, Y-02'nin orijinal
+"ortalama 2.5" hedefinden daha net bir kural: bir aracın kanıt zinciri, iki ana
+bileşeninin (motor ve şanzıman) **ikisini birden** karşılamalı; yalnızca motor tarafını
+anlatan bir kaynak aracın şanzıman puanını dayanaksız bırakıyor.
+
+2026-08-06'da bu tur uçtan uca çalıştırıldı ve **tek kaynaklı 118 aracın tamamı
+kapatıldı.** Yöntem: her araç, bileşen ailesine (motor veya şanzıman) göre gruplandı ve
+eksik olan taraf için kaynak arandı. Bir kaynak aynı bileşen ailesini paylaşan bütün
+araçlara bağlanabildiği için tur verimli ilerledi — örneğin ZF 5HP/6HP bakım rehberi 8
+BMW'ye, VAG DSG (DQ200/DQ250) derlemesi 21 VAG aracına, Renault EDC forum başlığı 10
+Renault'ya, Aisin 6 ileri derlemesi 12 farklı markadan araca bağlandı.
+
+Bu turda **10 yeni kaynak** eklendi; hepsi bileşen seviyesinde (şanzıman ailesi bakım
+rehberi, motor ailesi kronik arıza derlemesi) olduğu için tekil araç kaynaklarından daha
+geniş kapsamlı. Ayrıca bir veri hatası düzeltildi: `bmw-e90-318d` kaydı M47 motorlu
+olmasına rağmen N47 hakkında bir kaynağa bağlıydı, doğru kaynakla değiştirildi.
+
+**Bugünkü tablo** (derinlik turundan sonra, 221 araç üzerinden):
 
 | Kaynak sayısı | Araç | Durum |
 |---:|---:|---|
 | 0 | 0 | — kalmadı |
-| 1 | 118 | Tek kaynak çürürse dayanaksız kalır |
-| 2-3 | 95 | Kısmi |
+| **1** | **0** | **— kalmadı** |
+| 2-3 | 213 | Kısmi |
 | 4+ | 8 | Doğrulanmış |
 
-Ortalama kaynak 1.87 → 1.80 → 1.71 → 1.67 → 1.65 **gerilemeye devam ediyor** — bu bir
-gerileme değil, aritmetik bir sonuç: Y-01'in ikinci-beşinci turlarında eklenen 61
-aracın (18 + 21 + 13 + 9) çoğu tek kaynakla açıldı, kaynaksız başlamamaları
-önceliklendirildi (dördüncü ve beşinci turlarda bu bilinçli bir tercihti, bkz. MK-12).
-Bu artık kalıcı bir örüntü; Y-02'nin hedefine (2.5) ulaşmak için liste büyümesi bir
-noktada durup tek kaynaklı araçlara (şimdi 118 tane) ikinci kaynak bulma turuna
-geçilmeli — aksi hâlde her yeni araç turu ortalamayı yeniden düşürmeye devam edecek.
-
-Araç başına ortalama kaynak **1.79 → 1.88**'e çıktı. Hedefin (2.5) altında; **kalan iş**
-bu 14 aracı ve tek kaynaklı diğer 43 aracı ikinci, bağımsız bir kaynağa daha bağlamak.
-Sıradaki oturum bunu doğrudan Y-03'teki kuyruğu tekrar çalıştırarak yapabilir.
+Araç başına ortalama kaynak **1.65 → 2.18**'e çıktı. `c-kaynakla-uc-puan` uyarısı da
+32'den 22'ye düştü: eklenen kaynakların bir kısmı B seviyesinde olduğu için, daha önce
+"yalnızca C kaynağa dayanarak uç puan verilmiş" diye işaretlenen bazı araçlar artık bu
+uyarıyı üretmiyor. Yani derinlik turu sadece sayıyı değil, **kanıt kalitesini de**
+yükseltti.
 
 **Önemli ayrım.** Motor ve şanzıman ailelerine verilen kaynaklar araç kaydına otomatik
 yansımıyor; bunlar ayrı bağlantılar. Bir aracın kendi kaydında da o araca özgü kanıt
 olmalı — kullanıcı yorumu, o modele özel arıza derlemesi, Türkiye'ye özgü bir şikayet
 örüntüsü. Kullanıcının istediği "her araç için en az bir yorum kapsanmalı" şartı tam
-olarak budur; bu turda eklenen 14 kaynağın hepsi bu türden.
+olarak budur.
 
-**Bitmiş sayılma ölçütü (henüz karşılanmadı).** Araç başına ortalama kaynak 2.5'in
-üstünde. Kaynaksız araç sayısı sıfıra indi, bu madde karşılandı.
+**Bitmiş sayılma ölçütü — karşılandı.** Kaynaksız araç yok (✅), tek kaynaklı araç yok
+(✅), araç başına ortalama kaynak 2.5 hedefinin altında ama 2.18'e çıktı ve kullanıcının
+koyduğu asıl hedef ("her araca 1 motor + 1 şanzıman kaynağı") sağlandı.
+
+**Kalan iş.** Ortalama 4'e (`doğrulanmış` rozeti için gereken eşik) çıkarmak hâlâ uzun
+vadeli hedef; şu an yalnızca 8 araç bu rozete sahip. Bu, her araca **üçüncü ve dördüncü**
+bağımsız kaynak bulmayı gerektiriyor ve bileşen bazlı toplu bağlama yöntemiyle
+yapılamaz, çünkü aynı kaynağın tekrar bağlanması bağımsızlık şartını karşılamıyor.
 
 ---
 
@@ -495,27 +517,29 @@ gerekmiyor.
 
 ## Sıralama önerisi
 
-Maddeler birbirine bağımlı; şu sıra hem riski hem tekrarı azaltır. **Y-03, Y-04, Y-05 ve
-Y-07 bitti; Y-02 ve Y-01 kısmen bitti / başlandı** (aşağıda işaretli); geri kalanlar
-için sıra hâlâ geçerli.
+**Veri tarafı büyük ölçüde tamamlandı; sıradaki iş arayüz ve içerik.**
 
-1. ~~**Y-03** (araştırma hattı)~~ — **bitti.**
-2. **Y-02** (kaynaksız araçları kapat) — **kısmen bitti:** kaynaksız 14 araç kapandı,
-   ortalama kaynak hâlâ hedefin altında. Sıradaki iş: kuyruğu (Y-03) tekrar çalıştırıp
-   tek kaynaklı araçlara (şimdi ~59 tane, altısı bu turda eklenen yeni araçlar dahil)
-   ikinci bir kaynak bulmak.
-3. **Y-01** (listeyi genişlet) — **başlandı:** altı araç, ikisi yeni marka (Dacia,
-   Jeep), dördü SUV/2016 sonrası; hepsi mevcut bileşen ailelerine bağlandı. Sıradaki
-   iş: `data/queue/` içindeki 6 kalan yetim kaynağın işaret ettiği Citroën C5
-   Aircross / Peugeot 3008 / Opel Grandland X için önce yeni motor/şanzıman ailesi
-   açmak (1.5 BlueHDi, EAT8), sonra araçları bağlamak.
-4. ~~**Y-05 + Y-06** (yerleşim ve şeffaflık)~~ — **Y-05 bitti.** Y-06 (puanlama
-   şeffaflığı) hâlâ sırada, küçük ve bağımsız.
-5. ~~**Y-04** (form)~~ — **arayüz kısmı bitti;** gönderim uç noktası ve iletişim
-   adresi tanımlanmayı bekliyor, bu adım depo sahibine ait.
-6. ~~**Y-07**~~ + **Y-09** (ana ekran ve tema) — **Y-07 bitti.** Y-09 (koyu tema) hâlâ
-   sırada.
-7. **Y-08** (hikayeler) — sürekli ve parça parça ilerleyebilecek, aceleye gelmeyen iş.
+Biten maddeler: ~~Y-02~~ (kaynak derinliği — kaynaksız ve tek kaynaklı araç kalmadı),
+~~Y-03~~ (araştırma hattı), ~~Y-04~~ (form arayüzü; yalnızca uç nokta adresi depo
+sahibini bekliyor), ~~Y-05~~ (yerleşim), ~~Y-07~~ (ana ekran). Y-01 (liste genişletme)
+üç hedefinden ikisini karşıladı, üçüncüsü bir araç uzaklıkta.
+
+Sıradaki iş, öncelik sırasıyla:
+
+1. **Y-06 · Puanlama şeffaflığı** — en yüksek değerli kalan madde. Kullanıcının en net
+   şikayeti buydu ("fiyat kısmı çok kafa karıştırıcı, kriterin puanı nasıl etkilediğini
+   bilmiyoruz"). Küçük, bağımsız ve günlük kullanımı doğrudan iyileştiriyor. Veri
+   tarafı artık sağlam olduğu için bu maddenin altı da dolu: her aracın iki kaynağı var,
+   "bu araç neden bu puanı aldı" dökümü gerçek kanıta bağlanabilir.
+2. **Y-09 · Koyu tema** — bağımsız, görsel, riski düşük.
+3. **Y-08 · Araç hikayeleri** — sürekli ve parça parça ilerleyebilecek, aceleye gelmeyen
+   iş; 221 araç için yazılacak çok içerik var.
+4. **Y-01'in kalanı** — 2016 sonrası hedefine bir araç kaldı; MG'nin geleneksel yakıtlı
+   modelleri (varsa) düşük öncelikli. Elektrikli/hibrit/LPG kalıcı olarak kapsam dışı
+   (MK-13).
+5. **Y-02'nin uzun vadeli hedefi** — ortalamayı 4'e çıkarmak, yani her araca üçüncü ve
+   dördüncü bağımsız kaynak. Bileşen bazlı toplu bağlama yöntemi burada işe yaramıyor;
+   araç bazında tekil araştırma gerekiyor, bu yüzden yavaş ve pahalı bir iş.
 
 ---
 

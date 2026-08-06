@@ -29,7 +29,8 @@
     "liq": 84
   },
   "sources": [
-    "sikayetvar_clio_10tce"
+    "sikayetvar_clio_10tce",
+    "renaultfanclub_edc_kronik"
   ],
   "note": "Beşinci nesil Clio'nun 1.3 TCe EDC kombinasyonu; H5Ht motoru Qashqai ve Koleos'ta da kullanılan aynı Renault-Nissan-Mercedes ailesinden, 7 ileri ıslak EDC kutusu (Getrag 7DCT300) da listede zaten kayıtlı. Kaynak aynı ailenin 1.0 TCe versiyonuna odaklansa da EDC şanzımanın düşük hızda gecikmeli tepki eğilimi ortak; şanzıman bakım geçmişi kontrol edilmeli. Clio Türkiye'de çok likit bir model.",
   "provenance": {

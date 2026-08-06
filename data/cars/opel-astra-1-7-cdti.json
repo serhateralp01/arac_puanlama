@@ -29,7 +29,8 @@
     "liq": 52
   },
   "sources": [
-    "kroniksorunlar_astra_17cdti"
+    "kroniksorunlar_astra_17cdti",
+    "teknikotomatik_aisin_6ileri"
   ],
   "note": "Astra J'nin orta güç dizeli; motor için yeni bir aile açıldı (gm-z17dt) — listede zaten kayıtlı 1.6 CDTI ile aynı gövdeyi paylaşan ama Isuzu kökenli ayrı bir motor. EGR/DPF tıkanması kısa mesafe kullanımda yaygın; düzenli uzun yol kullanımı riski azaltıyor. Şanzıman listede zaten kayıtlı.",
   "provenance": {

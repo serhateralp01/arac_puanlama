@@ -30,7 +30,8 @@
     "liq": 64
   },
   "sources": [
-    "kroniksorunlar_superb"
+    "kroniksorunlar_superb",
+    "teknikotomatik_dq200_dq250"
   ],
   "note": "Çok geniş, konforlu ve ekonomik bir araç. Otomatiği DQ250 ıslak DSG; KronikSorunlar.net'in derlemesine göre bu ailede TSI motorlarda zincir gerginliği, DSG'de ise düşük hızlarda sarsıntı ve geçişte gecikme sık rapor ediliyor. 2008-2010 arası common rail dizellerde ayrıca yağ pompası tahrik riski var, geçmişine bakın.",
   "provenance": {

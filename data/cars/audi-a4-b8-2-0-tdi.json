@@ -30,7 +30,8 @@
     "liq": 64
   },
   "sources": [
-    "multi"
+    "multi",
+    "sikayetvar_a4_tfsi"
   ],
   "note": "Motoru benzinli kardeşine göre çok daha temiz bir geçmişe sahip; yağ tüketimi sorunu yok. Fakat önden çekişli olduğu için otomatiği yine Multitronic CVT. Şanzıman bakımı belgeli değilse riskli. Quattro versiyonlarda bu kutu yerine S tronic kullanılıyor ve o çok daha güvenli.",
   "provenance": {

@@ -30,7 +30,8 @@
     "liq": 68
   },
   "sources": [
-    "om61x"
+    "om61x",
+    "mercedesmedic_722_6"
   ],
   "note": "Sessiz çalışmasıyla bilinen 5G-Tronic otomatiği sağlam. Motor tarafında ise OM611 ailesinin bilinen zaafı geçerli: enjektör altı ateşe dayanıklı contalar zamanında değiştirilmezse enjektörler tıkanabiliyor. Bu, W203'ün ilk common rail dizel motoru; halefi OM646 aynı sorunu devraldı.",
   "provenance": {

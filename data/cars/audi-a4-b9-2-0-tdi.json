@@ -30,7 +30,8 @@
     "liq": 58
   },
   "sources": [
-    "trbox"
+    "trbox",
+    "teknikotomatik_dq200_dq250"
   ],
   "note": "B8'den sonraki nesil; önden çekişte S tronic ıslak DCT, quattro'da ise klasik Tiptronic geliyor - B8'in Multitronic derdi tamamen ortadan kalkmış. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {

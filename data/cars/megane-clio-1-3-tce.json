@@ -30,7 +30,8 @@
     "liq": 82
   },
   "sources": [
-    "otopark_1_3tce_islak"
+    "otopark_1_3tce_islak",
+    "renaultfanclub_edc_kronik"
   ],
   "note": "ÖNEMLİ DÜZELTME: Bu motor dizel Megane/Kadjar'daki eski kuru EDC'yi DEĞİL, Otopark forumunun teknik rehberine göre Renault'nun en yeni ve ıslak kavramalı 7 ileri Getrag 7DCT300 kodlu EDC'sini kullanıyor. Bu, aynı Renault ailesindeki dCi dizel modellerin kuru EDC'sinden yapısal olarak daha güvenilir bir kutu. Modern, ekonomik, düşük yaş riski taşıyan bir araç.",
   "provenance": {

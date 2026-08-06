@@ -29,7 +29,8 @@
     "liq": 64
   },
   "sources": [
-    "sikayetvar_passat_tsi"
+    "sikayetvar_passat_tsi",
+    "teknikotomatik_dq200_dq250"
   ],
   "note": "Golf 7'nin performans versiyonu; EA888 motoru listede zaten Audi A4/Passat'ta kayıtlı aynı aileden — bu neslin (gen3) yağ tüketimi sorununu büyük ölçüde paylaştığı için ayrı bir aile açılmadı, mevcut kaydın puanı kullanıldı. DQ250 ıslak DSG, GTI'nin gücünü kaldıracak şekilde listede zaten kayıtlı.",
   "provenance": {

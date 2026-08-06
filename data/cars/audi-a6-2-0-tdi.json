@@ -30,7 +30,8 @@
     "liq": 58
   },
   "sources": [
-    "multi"
+    "multi",
+    "sikayetvar_a4_tfsi"
   ],
   "note": "Motoru ekonomik ama önden çekişli olduğu için otomatiği Multitronic CVT; bu kutu listedeki en zayıf otomatiklerden biri. Ayrıca bu dönem common rail dizellerde yağ pompası tahrik riski var. Geniş ve konforlu olması şanzımanın getirdiği riski karşılamıyor.",
   "provenance": {

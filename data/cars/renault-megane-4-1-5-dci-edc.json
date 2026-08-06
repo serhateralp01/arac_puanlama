@@ -29,7 +29,8 @@
     "liq": 76
   },
   "sources": [
-    "araclo_megane_15dci"
+    "araclo_megane_15dci",
+    "renaultfanclub_edc_kronik"
   ],
   "note": "Dördüncü nesil Megane'nin dCi EDC kombinasyonu; K9K motoru ve kuru EDC kutusu listede zaten kayıtlı, aynı ailenin diğer Renault modelleriyle paylaşılıyor. Enjektör tıkanması en bilinen arıza kalemi; 100.000 km üzerinde turbo arızaları görülebiliyor ama düzenli yakıt/yağ bakımı riski belirgin biçimde azaltıyor.",
   "provenance": {

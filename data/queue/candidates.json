@@ -1651,5 +1651,2247 @@
       "reasoning": "Y-01 beşinci turunda eklenen bir aracın kanıt kaydı.",
       "resolved_at": "2026-08-06"
     }
+  },
+  {
+    "id": "bimmerforums_m52_nikasil__bmw-e36-325i",
+    "car_id": "bmw-e36-325i",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.bimmerforums.com/forum/showthread.php?1520287-NIKASIL-Issue-on-M52-motors=",
+    "publisher": "Bimmerforums",
+    "claim": "Bimmerforums'taki 'NIKASIL Issue on M52 motors' başlığında 1995-1998 arası üretilen tekli Vanos'lu M52 motorların (E36, E34, E39'da kullanılan) bazılarında silindir kaplamasının (Nikasil) yüksek kükürtlü yakıtla aşındığı, bunun sıkıştırma kaybı, düzensiz rölanti ve aşırı yağ tüketimine yol açtığı; BMW'nin bu motorları döküm bloklu değişim motorlarla değiştirdiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "bimmerforums_m52_nikasil",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "bimmerforums_m52_nikasil__bmw-e39-520i",
+    "car_id": "bmw-e39-520i",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.bimmerforums.com/forum/showthread.php?1520287-NIKASIL-Issue-on-M52-motors=",
+    "publisher": "Bimmerforums",
+    "claim": "Bimmerforums'taki 'NIKASIL Issue on M52 motors' başlığında 1995-1998 arası üretilen tekli Vanos'lu M52 motorların (E36, E34, E39'da kullanılan) bazılarında silindir kaplamasının (Nikasil) yüksek kükürtlü yakıtla aşındığı, bunun sıkıştırma kaybı, düzensiz rölanti ve aşırı yağ tüketimine yol açtığı; BMW'nin bu motorları döküm bloklu değişim motorlarla değiştirdiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "bimmerforums_m52_nikasil",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sistemdestekuzmani_n47_kronik__bmw-e87-116i-118i",
+    "car_id": "bmw-e87-116i-118i",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sistemdestekuzmani.com/bmw-n47-dizel-motor-kronik-sorunlari-ve-yapilmasi-gerekenler/",
+    "publisher": "Sistemdestekuzmani.com",
+    "claim": "Sistemdestekuzmani.com'un N47 motor kronik sorunları derlemesinde zincir kılavuzlarının aşınıp kırılan parçalarının yağ pompası filtresini tıkayarak yağ basıncını düşürdüğü ve motoru yağsız çalıştırarak yatak hasarına yol açabildiği; bu sorunun yalnızca N47 dizelde değil aynı ailenin N43/N45/N46 benzinli motorlarında da (E87/E90'da kullanılan) görüldüğü aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "sistemdestekuzmani_n47_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "zf_5hp_6hp_bakim__bmw-e90-316i",
+    "car_id": "bmw-e90-316i",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/zf-5hp19-sanziman-nedir/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un ZF 5HP19 derlemesinde şanzıman yağının 100.000 km'de veya azami 8 yılda bir, yağ ve filtrenin 60-80 bin km'de değiştirilmesinin ZF'nin kendi önerisi olduğu; düzenli bakım yapılmayan kutularda mekatronik arızası, yağ sızıntısı ve tork konvertörü sorunları görüldüğü, bakımlı kutuların genel olarak güvenilir kabul edildiği aktarılıyor. Aynı aile (5HP19/6HP19) E39, E46, E60 ve E90'da ortak kullanılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "zf_5hp_6hp_bakim",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "zf_5hp_6hp_bakim__bmw-e87-120d",
+    "car_id": "bmw-e87-120d",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/zf-5hp19-sanziman-nedir/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un ZF 5HP19 derlemesinde şanzıman yağının 100.000 km'de veya azami 8 yılda bir, yağ ve filtrenin 60-80 bin km'de değiştirilmesinin ZF'nin kendi önerisi olduğu; düzenli bakım yapılmayan kutularda mekatronik arızası, yağ sızıntısı ve tork konvertörü sorunları görüldüğü, bakımlı kutuların genel olarak güvenilir kabul edildiği aktarılıyor. Aynı aile (5HP19/6HP19) E39, E46, E60 ve E90'da ortak kullanılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "zf_5hp_6hp_bakim",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "zf_5hp_6hp_bakim__bmw-e39-520d",
+    "car_id": "bmw-e39-520d",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/zf-5hp19-sanziman-nedir/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un ZF 5HP19 derlemesinde şanzıman yağının 100.000 km'de veya azami 8 yılda bir, yağ ve filtrenin 60-80 bin km'de değiştirilmesinin ZF'nin kendi önerisi olduğu; düzenli bakım yapılmayan kutularda mekatronik arızası, yağ sızıntısı ve tork konvertörü sorunları görüldüğü, bakımlı kutuların genel olarak güvenilir kabul edildiği aktarılıyor. Aynı aile (5HP19/6HP19) E39, E46, E60 ve E90'da ortak kullanılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "zf_5hp_6hp_bakim",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "techturkey_e39_530i_5hp19_vuruntu__bmw-e46-320d",
+    "car_id": "bmw-e46-320d",
+    "criterion": "genel",
+    "query": null,
+    "url": "http://www.techturkey.com/forum/archive/index.php/t-234155.html",
+    "publisher": "TechTurkey Forumu",
+    "claim": "TechTurkey arşivindeki 'BMW E39 530i 5HP19 ZF Şanzıman Vuruntu' başlığında ZF 5HP19 kutusunun bakımı ihmal edildiğinde vuruntu ve sert vites geçişi şikayeti bildirildiği; düzenli yağ/filtre bakımıyla (60-80 bin km) bu şikayetin büyük ölçüde önlenebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "techturkey_e39_530i_5hp19_vuruntu",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "zf_5hp_6hp_bakim__bmw-e90-325i",
+    "car_id": "bmw-e90-325i",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/zf-5hp19-sanziman-nedir/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un ZF 5HP19 derlemesinde şanzıman yağının 100.000 km'de veya azami 8 yılda bir, yağ ve filtrenin 60-80 bin km'de değiştirilmesinin ZF'nin kendi önerisi olduğu; düzenli bakım yapılmayan kutularda mekatronik arızası, yağ sızıntısı ve tork konvertörü sorunları görüldüğü, bakımlı kutuların genel olarak güvenilir kabul edildiği aktarılıyor. Aynı aile (5HP19/6HP19) E39, E46, E60 ve E90'da ortak kullanılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "zf_5hp_6hp_bakim",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "zf_5hp_6hp_bakim__bmw-e90-320i",
+    "car_id": "bmw-e90-320i",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/zf-5hp19-sanziman-nedir/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un ZF 5HP19 derlemesinde şanzıman yağının 100.000 km'de veya azami 8 yılda bir, yağ ve filtrenin 60-80 bin km'de değiştirilmesinin ZF'nin kendi önerisi olduğu; düzenli bakım yapılmayan kutularda mekatronik arızası, yağ sızıntısı ve tork konvertörü sorunları görüldüğü, bakımlı kutuların genel olarak güvenilir kabul edildiği aktarılıyor. Aynı aile (5HP19/6HP19) E39, E46, E60 ve E90'da ortak kullanılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "zf_5hp_6hp_bakim",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "zf_5hp_6hp_bakim__bmw-e90-320d",
+    "car_id": "bmw-e90-320d",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/zf-5hp19-sanziman-nedir/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un ZF 5HP19 derlemesinde şanzıman yağının 100.000 km'de veya azami 8 yılda bir, yağ ve filtrenin 60-80 bin km'de değiştirilmesinin ZF'nin kendi önerisi olduğu; düzenli bakım yapılmayan kutularda mekatronik arızası, yağ sızıntısı ve tork konvertörü sorunları görüldüğü, bakımlı kutuların genel olarak güvenilir kabul edildiği aktarılıyor. Aynı aile (5HP19/6HP19) E39, E46, E60 ve E90'da ortak kullanılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "zf_5hp_6hp_bakim",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "techturkey_e39_530i_5hp19_vuruntu__bmw-e46-320i",
+    "car_id": "bmw-e46-320i",
+    "criterion": "genel",
+    "query": null,
+    "url": "http://www.techturkey.com/forum/archive/index.php/t-234155.html",
+    "publisher": "TechTurkey Forumu",
+    "claim": "TechTurkey arşivindeki 'BMW E39 530i 5HP19 ZF Şanzıman Vuruntu' başlığında ZF 5HP19 kutusunun bakımı ihmal edildiğinde vuruntu ve sert vites geçişi şikayeti bildirildiği; düzenli yağ/filtre bakımıyla (60-80 bin km) bu şikayetin büyük ölçüde önlenebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "techturkey_e39_530i_5hp19_vuruntu",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "zf_5hp_6hp_bakim__bmw-e60-520d",
+    "car_id": "bmw-e60-520d",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/zf-5hp19-sanziman-nedir/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un ZF 5HP19 derlemesinde şanzıman yağının 100.000 km'de veya azami 8 yılda bir, yağ ve filtrenin 60-80 bin km'de değiştirilmesinin ZF'nin kendi önerisi olduğu; düzenli bakım yapılmayan kutularda mekatronik arızası, yağ sızıntısı ve tork konvertörü sorunları görüldüğü, bakımlı kutuların genel olarak güvenilir kabul edildiği aktarılıyor. Aynı aile (5HP19/6HP19) E39, E46, E60 ve E90'da ortak kullanılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "zf_5hp_6hp_bakim",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "mercedesmedic_722_6__mercedes-c230-m271k",
+    "car_id": "mercedes-c230-m271k",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.mercedesmedic.com/diy-transmission-oil-change-722-6/",
+    "publisher": "MB Medic / FCP Euro",
+    "claim": "MB Medic ve FCP Euro'nun 722.6 (5G-Tronic) servis rehberlerinde kutunun başlangıçta 'bakım gerektirmez' diye pazarlandığı ama Mercedes'in sonradan 40.000 mil (~64.000 km) aralıkla servis önerdiği; bilinen zaaflarının fiş adaptöründeki üç o-ring sızıntısı, erken modellerde kötü tasarlanmış valf iletken plakası ve kontrol modülüne şanzıman yağı kaçması olduğu; yaklaşık 2003'e kadar bazı modellerde radyatör kusuru nedeniyle antifrizin yağa karışıp kutunun ömrünü ciddi biçimde kısalttığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "mercedesmedic_722_6",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "mercedesmedic_722_6__mercedes-w202-c200-c220",
+    "car_id": "mercedes-w202-c200-c220",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.mercedesmedic.com/diy-transmission-oil-change-722-6/",
+    "publisher": "MB Medic / FCP Euro",
+    "claim": "MB Medic ve FCP Euro'nun 722.6 (5G-Tronic) servis rehberlerinde kutunun başlangıçta 'bakım gerektirmez' diye pazarlandığı ama Mercedes'in sonradan 40.000 mil (~64.000 km) aralıkla servis önerdiği; bilinen zaaflarının fiş adaptöründeki üç o-ring sızıntısı, erken modellerde kötü tasarlanmış valf iletken plakası ve kontrol modülüne şanzıman yağı kaçması olduğu; yaklaşık 2003'e kadar bazı modellerde radyatör kusuru nedeniyle antifrizin yağa karışıp kutunun ömrünü ciddi biçimde kısalttığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "mercedesmedic_722_6",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "eklasseforum_om651_injektor__mercedes-c200-cdi-w204",
+    "car_id": "mercedes-c200-cdi-w204",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://e-klasse-forum.de/index.php?thread%2F54102-om-651-injektor-probleme%2F=",
+    "publisher": "E-Klasse-Forum.de",
+    "claim": "E-Klasse-Forum.de'deki 'OM 651 Injektor Probleme' başlığı ve ilişkili derlemelerde OM651'in piezo tipi enjektörlerinin hassas tasarımı nedeniyle arızaya yatkın olduğu, bunun rölanti titremesi, motor sarsıntısı, aşırı yakıt tüketimi ve zor çalışmaya yol açtığı; bazı araçlarda satın alımdan sonraki 500 km içinde enjektör arızası bildirildiği; ayrıca zincir gergi mekanizmasının erken aşınma eğilimi ve şehir içi kullanımda DPF tıkanması sorunlarının da bilinen kalemler olduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "eklasseforum_om651_injektor",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "mercedesmedic_722_6__mercedes-e280-w211",
+    "car_id": "mercedes-e280-w211",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.mercedesmedic.com/diy-transmission-oil-change-722-6/",
+    "publisher": "MB Medic / FCP Euro",
+    "claim": "MB Medic ve FCP Euro'nun 722.6 (5G-Tronic) servis rehberlerinde kutunun başlangıçta 'bakım gerektirmez' diye pazarlandığı ama Mercedes'in sonradan 40.000 mil (~64.000 km) aralıkla servis önerdiği; bilinen zaaflarının fiş adaptöründeki üç o-ring sızıntısı, erken modellerde kötü tasarlanmış valf iletken plakası ve kontrol modülüne şanzıman yağı kaçması olduğu; yaklaşık 2003'e kadar bazı modellerde radyatör kusuru nedeniyle antifrizin yağa karışıp kutunun ömrünü ciddi biçimde kısalttığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "mercedesmedic_722_6",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "eklasseforum_om651_injektor__mercedes-c220-cdi-w204",
+    "car_id": "mercedes-c220-cdi-w204",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://e-klasse-forum.de/index.php?thread%2F54102-om-651-injektor-probleme%2F=",
+    "publisher": "E-Klasse-Forum.de",
+    "claim": "E-Klasse-Forum.de'deki 'OM 651 Injektor Probleme' başlığı ve ilişkili derlemelerde OM651'in piezo tipi enjektörlerinin hassas tasarımı nedeniyle arızaya yatkın olduğu, bunun rölanti titremesi, motor sarsıntısı, aşırı yakıt tüketimi ve zor çalışmaya yol açtığı; bazı araçlarda satın alımdan sonraki 500 km içinde enjektör arızası bildirildiği; ayrıca zincir gergi mekanizmasının erken aşınma eğilimi ve şehir içi kullanımda DPF tıkanması sorunlarının da bilinen kalemler olduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "eklasseforum_om651_injektor",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "mercedesmedic_722_6__mercedes-c200-kompressor-w203",
+    "car_id": "mercedes-c200-kompressor-w203",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.mercedesmedic.com/diy-transmission-oil-change-722-6/",
+    "publisher": "MB Medic / FCP Euro",
+    "claim": "MB Medic ve FCP Euro'nun 722.6 (5G-Tronic) servis rehberlerinde kutunun başlangıçta 'bakım gerektirmez' diye pazarlandığı ama Mercedes'in sonradan 40.000 mil (~64.000 km) aralıkla servis önerdiği; bilinen zaaflarının fiş adaptöründeki üç o-ring sızıntısı, erken modellerde kötü tasarlanmış valf iletken plakası ve kontrol modülüne şanzıman yağı kaçması olduğu; yaklaşık 2003'e kadar bazı modellerde radyatör kusuru nedeniyle antifrizin yağa karışıp kutunun ömrünü ciddi biçimde kısalttığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "mercedesmedic_722_6",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "mercedesmedic_722_6__mercedes-c220-cdi",
+    "car_id": "mercedes-c220-cdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.mercedesmedic.com/diy-transmission-oil-change-722-6/",
+    "publisher": "MB Medic / FCP Euro",
+    "claim": "MB Medic ve FCP Euro'nun 722.6 (5G-Tronic) servis rehberlerinde kutunun başlangıçta 'bakım gerektirmez' diye pazarlandığı ama Mercedes'in sonradan 40.000 mil (~64.000 km) aralıkla servis önerdiği; bilinen zaaflarının fiş adaptöründeki üç o-ring sızıntısı, erken modellerde kötü tasarlanmış valf iletken plakası ve kontrol modülüne şanzıman yağı kaçması olduğu; yaklaşık 2003'e kadar bazı modellerde radyatör kusuru nedeniyle antifrizin yağa karışıp kutunun ömrünü ciddi biçimde kısalttığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "mercedesmedic_722_6",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_mercedes_bakim_sanziman__mercedes-e200-w212",
+    "car_id": "mercedes-e200-w212",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/mercedes-benz/bakim/sanziman",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Mercedes-Benz bakım ve şanzıman şikayetleri derlemesinde 722.6 ailesi otomatik şanzımanlarda R ve D konumuna geçişte ve 1.-2. vites arası aktarımda sorun yaşandığı, şanzıman kart arızasının istem dışı vites değişimlerine yol açtığı, yüksek kilometrede basınç kaybı ve kalkışta kayma/silkeleme bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_mercedes_bakim_sanziman",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "mercedesmedic_722_6__mercedes-e200-kompressor-w211",
+    "car_id": "mercedes-e200-kompressor-w211",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.mercedesmedic.com/diy-transmission-oil-change-722-6/",
+    "publisher": "MB Medic / FCP Euro",
+    "claim": "MB Medic ve FCP Euro'nun 722.6 (5G-Tronic) servis rehberlerinde kutunun başlangıçta 'bakım gerektirmez' diye pazarlandığı ama Mercedes'in sonradan 40.000 mil (~64.000 km) aralıkla servis önerdiği; bilinen zaaflarının fiş adaptöründeki üç o-ring sızıntısı, erken modellerde kötü tasarlanmış valf iletken plakası ve kontrol modülüne şanzıman yağı kaçması olduğu; yaklaşık 2003'e kadar bazı modellerde radyatör kusuru nedeniyle antifrizin yağa karışıp kutunun ömrünü ciddi biçimde kısalttığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "mercedesmedic_722_6",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_mercedes_bakim_sanziman__mercedes-a-b-serisi",
+    "car_id": "mercedes-a-b-serisi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/mercedes-benz/bakim/sanziman",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Mercedes-Benz bakım ve şanzıman şikayetleri derlemesinde 722.6 ailesi otomatik şanzımanlarda R ve D konumuna geçişte ve 1.-2. vites arası aktarımda sorun yaşandığı, şanzıman kart arızasının istem dışı vites değişimlerine yol açtığı, yüksek kilometrede basınç kaybı ve kalkışta kayma/silkeleme bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_mercedes_bakim_sanziman",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "mercedesmedic_722_6__mercedes-c270-cdi",
+    "car_id": "mercedes-c270-cdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.mercedesmedic.com/diy-transmission-oil-change-722-6/",
+    "publisher": "MB Medic / FCP Euro",
+    "claim": "MB Medic ve FCP Euro'nun 722.6 (5G-Tronic) servis rehberlerinde kutunun başlangıçta 'bakım gerektirmez' diye pazarlandığı ama Mercedes'in sonradan 40.000 mil (~64.000 km) aralıkla servis önerdiği; bilinen zaaflarının fiş adaptöründeki üç o-ring sızıntısı, erken modellerde kötü tasarlanmış valf iletken plakası ve kontrol modülüne şanzıman yağı kaçması olduğu; yaklaşık 2003'e kadar bazı modellerde radyatör kusuru nedeniyle antifrizin yağa karışıp kutunun ömrünü ciddi biçimde kısalttığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "mercedesmedic_722_6",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "mercedesmedic_722_6__mercedes-c200-cdi-w203",
+    "car_id": "mercedes-c200-cdi-w203",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.mercedesmedic.com/diy-transmission-oil-change-722-6/",
+    "publisher": "MB Medic / FCP Euro",
+    "claim": "MB Medic ve FCP Euro'nun 722.6 (5G-Tronic) servis rehberlerinde kutunun başlangıçta 'bakım gerektirmez' diye pazarlandığı ama Mercedes'in sonradan 40.000 mil (~64.000 km) aralıkla servis önerdiği; bilinen zaaflarının fiş adaptöründeki üç o-ring sızıntısı, erken modellerde kötü tasarlanmış valf iletken plakası ve kontrol modülüne şanzıman yağı kaçması olduğu; yaklaşık 2003'e kadar bazı modellerde radyatör kusuru nedeniyle antifrizin yağa karışıp kutunun ömrünü ciddi biçimde kısalttığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "mercedesmedic_722_6",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__vw-passat-b7-2-0-tdi",
+    "car_id": "vw-passat-b7-2-0-tdi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__vw-golf-1-4-tsi",
+    "car_id": "vw-golf-1-4-tsi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__vw-cc-2-0-tdi",
+    "car_id": "vw-cc-2-0-tdi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__vw-passat-b6-1-8-tsi",
+    "car_id": "vw-passat-b6-1-8-tsi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__vw-passat-b8-1-4-tsi",
+    "car_id": "vw-passat-b8-1-4-tsi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__vw-tiguan-1-4-tsi-dsg",
+    "car_id": "vw-tiguan-1-4-tsi-dsg",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__vw-polo-6-1-0-tsi-dsg",
+    "car_id": "vw-polo-6-1-0-tsi-dsg",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__vw-passat-b7-1-8-tsi",
+    "car_id": "vw-passat-b7-1-8-tsi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__vw-golf-7-gti-2-0-tsi",
+    "car_id": "vw-golf-7-gti-2-0-tsi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__vw-troc-1-5-tsi",
+    "car_id": "vw-troc-1-5-tsi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__audi-a3-8p-2-0-tdi",
+    "car_id": "audi-a3-8p-2-0-tdi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__audi-a4-b9-2-0-tfsi",
+    "car_id": "audi-a4-b9-2-0-tfsi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__audi-q3-2-0-tdi-quattro",
+    "car_id": "audi-q3-2-0-tdi-quattro",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__skoda-octavia-3-2-0-tdi",
+    "car_id": "skoda-octavia-3-2-0-tdi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__skoda-octavia-1-8-tsi",
+    "car_id": "skoda-octavia-1-8-tsi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__skoda-kodiaq-1-4-tsi-dsg",
+    "car_id": "skoda-kodiaq-1-4-tsi-dsg",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__skoda-superb-2-0-tdi",
+    "car_id": "skoda-superb-2-0-tdi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__skoda-superb-3-2-0-tdi",
+    "car_id": "skoda-superb-3-2-0-tdi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__skoda-karoq-1-6-tdi-dsg",
+    "car_id": "skoda-karoq-1-6-tdi-dsg",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__seat-ateca-1-6-tdi-dsg",
+    "car_id": "seat-ateca-1-6-tdi-dsg",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__seat-leon-1-5-tsi",
+    "car_id": "seat-leon-1-5-tsi",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "renaultfanclub_edc_kronik__renault-megane-4-1-5-dci-edc",
+    "car_id": "renault-megane-4-1-5-dci-edc",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "renaultfanclub_edc_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "renaultfanclub_edc_kronik__renault-kadjar-1-5-dci-edc",
+    "car_id": "renault-kadjar-1-5-dci-edc",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "renaultfanclub_edc_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "renaultfanclub_edc_kronik__renault-megane-3-1-2-tce",
+    "car_id": "renault-megane-3-1-2-tce",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "renaultfanclub_edc_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "renaultfanclub_edc_kronik__renault-captur-1-5-dci-edc",
+    "car_id": "renault-captur-1-5-dci-edc",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "renaultfanclub_edc_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "renaultfanclub_edc_kronik__renault-clio-4-1-2-tce",
+    "car_id": "renault-clio-4-1-2-tce",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "renaultfanclub_edc_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "renaultfanclub_edc_kronik__renault-clio-5-1-3-tce-edc",
+    "car_id": "renault-clio-5-1-3-tce-edc",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "renaultfanclub_edc_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "renaultfanclub_edc_kronik__renault-koleos-1-3-tce-edc",
+    "car_id": "renault-koleos-1-3-tce-edc",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "renaultfanclub_edc_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "renaultfanclub_edc_kronik__renault-megane-4-1-3-tce-edc",
+    "car_id": "renault-megane-4-1-3-tce-edc",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "renaultfanclub_edc_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "renaultfanclub_edc_kronik__megane-clio-1-3-tce",
+    "car_id": "megane-clio-1-3-tce",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "renaultfanclub_edc_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "renaultfanclub_edc_kronik__renault-talisman-1-6-dci-160-edc",
+    "car_id": "renault-talisman-1-6-dci-160-edc",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "renaultfanclub_edc_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "otokokpit_citroen_xsara__renault-laguna-1-9-dci",
+    "car_id": "renault-laguna-1-9-dci",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.otokokpit.com/citroen-xsara-alinir-mi-kronik-sorunlari-nelerdir-yedek-parca-sorunu-var-mi/",
+    "publisher": "Otokokpit.com",
+    "claim": "Otokokpit.com'un Citroen Xsara değerlendirmesine göre AL4 otomatik şanzımanlı Xsara modellerinde vites geçiş sorunları görülebildiği, AL4 kutusunun mekatronik (hidrolik kontrol ünitesi) arızalarına ve ısı yönetimine duyarlı olduğu, 80.000 km üzerindeki araçlarda şanzıman yağı ve hidrolik kontrol ünitesi bakımının ihmal edilip edilmediğinin özellikle kontrol edilmesi gerektiği belirtiliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "otokokpit_citroen_xsara",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__opel-insignia-1-6-t",
+    "car_id": "opel-insignia-1-6-t",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__opel-astra-j-1-6",
+    "car_id": "opel-astra-j-1-6",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__opel-astra-1-7-cdti",
+    "car_id": "opel-astra-1-7-cdti",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__opel-insignia-1-6-cdti",
+    "car_id": "opel-insignia-1-6-cdti",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__opel-astra-1-4-t-2013",
+    "car_id": "opel-astra-1-4-t-2013",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__opel-corsa-astra-1-4-turbo",
+    "car_id": "opel-corsa-astra-1-4-turbo",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__opel-astra-1-6-cdti-2013",
+    "car_id": "opel-astra-1-6-cdti-2013",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__opel-insignia-2-0-turbo",
+    "car_id": "opel-insignia-2-0-turbo",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "erenservis_eat8__opel-crossland-x-1-2-puretech",
+    "car_id": "opel-crossland-x-1-2-puretech",
+    "criterion": "trans",
+    "query": null,
+    "url": "https://www.erenservis.net/rehber/peugeot-eat8-sanziman-sorunlari/",
+    "publisher": "erenservis.net",
+    "claim": "Eren Otomatik Şanzıman Servisi: Peugeot/Opel EAT8 şanzıman servis notları — 3-2 vuruntu ve kalkış gecikmesi gibi küçük ama yapısal olmayan şikayetler",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "erenservis_eat8",
+      "reasoning": "Y-02 derinlik turu: aracın şanzıman tarafındaki kanıtını tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_hyundai_6at__hyundai-i30-1-6-gdi",
+    "car_id": "hyundai-i30-1-6-gdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/hyundai-otomatik-sanzimanlar/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Hyundai otomatik şanzımanlar derlemesinde A6GF1'in i20, i30, Elantra, Tucson ve Santa Fe'de kullanılan 6 ileri tork konvertörlü kutu olduğu; bu tip kutuların dayanıklı ve uzun ömürlü olduğu, yumuşak ve sarsıntısız geçiş sunduğu, düşük bakım maliyeti taşıdığı; buna karşılık kullanıcıların en sık şikayet ettiği kalemlerden birinin yine de otomatik şanzıman geçiş sorunları olduğu ve ikinci el alımda şanzıman yağı geçmişinin kontrol edilmesi gerektiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_hyundai_6at",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_hyundai_6at__hyundai-elantra-1-6-md",
+    "car_id": "hyundai-elantra-1-6-md",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/hyundai-otomatik-sanzimanlar/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Hyundai otomatik şanzımanlar derlemesinde A6GF1'in i20, i30, Elantra, Tucson ve Santa Fe'de kullanılan 6 ileri tork konvertörlü kutu olduğu; bu tip kutuların dayanıklı ve uzun ömürlü olduğu, yumuşak ve sarsıntısız geçiş sunduğu, düşük bakım maliyeti taşıdığı; buna karşılık kullanıcıların en sık şikayet ettiği kalemlerden birinin yine de otomatik şanzıman geçiş sorunları olduğu ve ikinci el alımda şanzıman yağı geçmişinin kontrol edilmesi gerektiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_hyundai_6at",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_hyundai_6at__hyundai-i40-1-7-crdi",
+    "car_id": "hyundai-i40-1-7-crdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/hyundai-otomatik-sanzimanlar/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Hyundai otomatik şanzımanlar derlemesinde A6GF1'in i20, i30, Elantra, Tucson ve Santa Fe'de kullanılan 6 ileri tork konvertörlü kutu olduğu; bu tip kutuların dayanıklı ve uzun ömürlü olduğu, yumuşak ve sarsıntısız geçiş sunduğu, düşük bakım maliyeti taşıdığı; buna karşılık kullanıcıların en sık şikayet ettiği kalemlerden birinin yine de otomatik şanzıman geçiş sorunları olduğu ve ikinci el alımda şanzıman yağı geçmişinin kontrol edilmesi gerektiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_hyundai_6at",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_hyundai_6at__hyundai-accent-blue-1-6-benzinli",
+    "car_id": "hyundai-accent-blue-1-6-benzinli",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/hyundai-otomatik-sanzimanlar/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Hyundai otomatik şanzımanlar derlemesinde A6GF1'in i20, i30, Elantra, Tucson ve Santa Fe'de kullanılan 6 ileri tork konvertörlü kutu olduğu; bu tip kutuların dayanıklı ve uzun ömürlü olduğu, yumuşak ve sarsıntısız geçiş sunduğu, düşük bakım maliyeti taşıdığı; buna karşılık kullanıcıların en sık şikayet ettiği kalemlerden birinin yine de otomatik şanzıman geçiş sorunları olduğu ve ikinci el alımda şanzıman yağı geçmişinin kontrol edilmesi gerektiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_hyundai_6at",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "araclo_sportage_16crdi__hyundai-kona-1-6-crdi-7dct",
+    "car_id": "hyundai-kona-1-6-crdi-7dct",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.araclo.com/blog/kia-sportage-1.6-crdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+    "publisher": "Araclo.com",
+    "claim": "Araclo.com'un Kia Sportage 1.6 CRDi incelemesinde 7 ileri kuru DCT'nin kalkışta ve rampada titreme yaptığı, bazı 2022 model araçlarda yağ eksiltme sorunu bildirildiği ve torpido göğsünde çatlama şikayetlerinin segment için beklenmedik bulunduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "araclo_sportage_16crdi",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "araclo_sportage_16crdi__hyundai-i30-pd-1-6-crdi-7dct",
+    "car_id": "hyundai-i30-pd-1-6-crdi-7dct",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.araclo.com/blog/kia-sportage-1.6-crdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+    "publisher": "Araclo.com",
+    "claim": "Araclo.com'un Kia Sportage 1.6 CRDi incelemesinde 7 ileri kuru DCT'nin kalkışta ve rampada titreme yaptığı, bazı 2022 model araçlarda yağ eksiltme sorunu bildirildiği ve torpido göğsünde çatlama şikayetlerinin segment için beklenmedik bulunduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "araclo_sportage_16crdi",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_hyundai_6at__kia-cerato-1-6-eski-nesil",
+    "car_id": "kia-cerato-1-6-eski-nesil",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/hyundai-otomatik-sanzimanlar/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Hyundai otomatik şanzımanlar derlemesinde A6GF1'in i20, i30, Elantra, Tucson ve Santa Fe'de kullanılan 6 ileri tork konvertörlü kutu olduğu; bu tip kutuların dayanıklı ve uzun ömürlü olduğu, yumuşak ve sarsıntısız geçiş sunduğu, düşük bakım maliyeti taşıdığı; buna karşılık kullanıcıların en sık şikayet ettiği kalemlerden birinin yine de otomatik şanzıman geçiş sorunları olduğu ve ikinci el alımda şanzıman yağı geçmişinin kontrol edilmesi gerektiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_hyundai_6at",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_hyundai_6at__kia-optima-1-7-crdi",
+    "car_id": "kia-optima-1-7-crdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/hyundai-otomatik-sanzimanlar/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Hyundai otomatik şanzımanlar derlemesinde A6GF1'in i20, i30, Elantra, Tucson ve Santa Fe'de kullanılan 6 ileri tork konvertörlü kutu olduğu; bu tip kutuların dayanıklı ve uzun ömürlü olduğu, yumuşak ve sarsıntısız geçiş sunduğu, düşük bakım maliyeti taşıdığı; buna karşılık kullanıcıların en sık şikayet ettiği kalemlerden birinin yine de otomatik şanzıman geçiş sorunları olduğu ve ikinci el alımda şanzıman yağı geçmişinin kontrol edilmesi gerektiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_hyundai_6at",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_kona_kronik__kia-sportage-1-6-crdi-7dct",
+    "car_id": "kia-sportage-1-6-crdi-7dct",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/hyundai-motor/kona/ariza",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Hyundai Kona şikayetleri derlemesinde 1.6 CRDi otomatik (Smart DCT) modellerde satın alımdan itibaren kalkışta titreme/sarsıntı, 'egzoz sistemini kontrol edin' uyarısı ve partikül filtresi lambasının yandığı, bunun motor devrini 3000'in üzerine çıkarmadığı ve yakıt tüketimini artırdığı vakaların bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_kona_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_hyundai_6at__kia-cerato-1-6",
+    "car_id": "kia-cerato-1-6",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/hyundai-otomatik-sanzimanlar/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Hyundai otomatik şanzımanlar derlemesinde A6GF1'in i20, i30, Elantra, Tucson ve Santa Fe'de kullanılan 6 ileri tork konvertörlü kutu olduğu; bu tip kutuların dayanıklı ve uzun ömürlü olduğu, yumuşak ve sarsıntısız geçiş sunduğu, düşük bakım maliyeti taşıdığı; buna karşılık kullanıcıların en sık şikayet ettiği kalemlerden birinin yine de otomatik şanzıman geçiş sorunları olduğu ve ikinci el alımda şanzıman yağı geçmişinin kontrol edilmesi gerektiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_hyundai_6at",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_hyundai_6at__kia-ceed-1-6-gdi",
+    "car_id": "kia-ceed-1-6-gdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/hyundai-otomatik-sanzimanlar/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Hyundai otomatik şanzımanlar derlemesinde A6GF1'in i20, i30, Elantra, Tucson ve Santa Fe'de kullanılan 6 ileri tork konvertörlü kutu olduğu; bu tip kutuların dayanıklı ve uzun ömürlü olduğu, yumuşak ve sarsıntısız geçiş sunduğu, düşük bakım maliyeti taşıdığı; buna karşılık kullanıcıların en sık şikayet ettiği kalemlerden birinin yine de otomatik şanzıman geçiş sorunları olduğu ve ikinci el alımda şanzıman yağı geçmişinin kontrol edilmesi gerektiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_hyundai_6at",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_kona_kronik__kia-ceed-sw-1-6-crdi",
+    "car_id": "kia-ceed-sw-1-6-crdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/hyundai-motor/kona/ariza",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Hyundai Kona şikayetleri derlemesinde 1.6 CRDi otomatik (Smart DCT) modellerde satın alımdan itibaren kalkışta titreme/sarsıntı, 'egzoz sistemini kontrol edin' uyarısı ve partikül filtresi lambasının yandığı, bunun motor devrini 3000'in üzerine çıkarmadığı ve yakıt tüketimini artırdığı vakaların bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_kona_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_honda_sanziman__honda-city-1-5",
+    "car_id": "honda-city-1-5",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/honda/sanziman-arizasi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Honda şanzıman arızası derlemesinde bir 2021 model Civic 1.6 otomatikte 36.000 km'de ani şanzıman arızası, bir 2017 model Civic'te 120.000 km civarında şanzıman kayışının kopması bildirildiği; Honda City'nin 5 ileri tam otomatik kutusunun genel olarak konforlu ve sorunsuz kabul edildiği ama 2006 model bir araçta rölanti/devir dalgalanmasının kalkışların çoğunda yaşandığı; şanzıman yağının her 40.000 km'de değiştirilmesinin önerildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_honda_sanziman",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_honda_sanziman__honda-civic-7-nesil-es-1-6-1-7",
+    "car_id": "honda-civic-7-nesil-es-1-6-1-7",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/honda/sanziman-arizasi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Honda şanzıman arızası derlemesinde bir 2021 model Civic 1.6 otomatikte 36.000 km'de ani şanzıman arızası, bir 2017 model Civic'te 120.000 km civarında şanzıman kayışının kopması bildirildiği; Honda City'nin 5 ileri tam otomatik kutusunun genel olarak konforlu ve sorunsuz kabul edildiği ama 2006 model bir araçta rölanti/devir dalgalanmasının kalkışların çoğunda yaşandığı; şanzıman yağının her 40.000 km'de değiştirilmesinin önerildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_honda_sanziman",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_honda_sanziman__honda-civic-fd6-1-6",
+    "car_id": "honda-civic-fd6-1-6",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/honda/sanziman-arizasi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Honda şanzıman arızası derlemesinde bir 2021 model Civic 1.6 otomatikte 36.000 km'de ani şanzıman arızası, bir 2017 model Civic'te 120.000 km civarında şanzıman kayışının kopması bildirildiği; Honda City'nin 5 ileri tam otomatik kutusunun genel olarak konforlu ve sorunsuz kabul edildiği ama 2006 model bir araçta rölanti/devir dalgalanmasının kalkışların çoğunda yaşandığı; şanzıman yağının her 40.000 km'de değiştirilmesinin önerildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_honda_sanziman",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_honda_sanziman__honda-civic-fb7-1-6",
+    "car_id": "honda-civic-fb7-1-6",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/honda/sanziman-arizasi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Honda şanzıman arızası derlemesinde bir 2021 model Civic 1.6 otomatikte 36.000 km'de ani şanzıman arızası, bir 2017 model Civic'te 120.000 km civarında şanzıman kayışının kopması bildirildiği; Honda City'nin 5 ileri tam otomatik kutusunun genel olarak konforlu ve sorunsuz kabul edildiği ama 2006 model bir araçta rölanti/devir dalgalanmasının kalkışların çoğunda yaşandığı; şanzıman yağının her 40.000 km'de değiştirilmesinin önerildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_honda_sanziman",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatiksanziman_multidrive__toyota-chr-1-2-turbo",
+    "car_id": "toyota-chr-1-2-turbo",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/multi-drive-s-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un MultiDrive S (Toyota'nın CVT'si) derlemesinde kayış-kasnak aşınması, tork konvertörü kayması ve elektronik kontrol sorunlarının ihmal edilen bakımda ortaya çıkabildiği; yakıt/motor bazlı otomatik alınacaksa CVT yağının 60-80 bin km'de değiştirilmesinin önerildiği, buna karşılık 1.8 hibrit e-CVT versiyonunun dayanıklılık açısından daha sorunsuz kabul edildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "teknikotomatiksanziman_multidrive",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatiksanziman_multidrive__toyota-corolla-e210-1-6-cvt",
+    "car_id": "toyota-corolla-e210-1-6-cvt",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/multi-drive-s-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un MultiDrive S (Toyota'nın CVT'si) derlemesinde kayış-kasnak aşınması, tork konvertörü kayması ve elektronik kontrol sorunlarının ihmal edilen bakımda ortaya çıkabildiği; yakıt/motor bazlı otomatik alınacaksa CVT yağının 60-80 bin km'de değiştirilmesinin önerildiği, buna karşılık 1.8 hibrit e-CVT versiyonunun dayanıklılık açısından daha sorunsuz kabul edildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "teknikotomatiksanziman_multidrive",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_corolla_genel__toyota-auris-1-8-multidrive",
+    "car_id": "toyota-auris-1-8-multidrive",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/toyota/corolla",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Toyota Corolla derlemesinde kablosuz şarj ünitesinin rastgele kesilmesi, yüksek hızda ıslık sesi ve boya soyulması gibi görece küçük ve yapısal olmayan şikayetlerin öne çıktığı; motor ve CVT ile ilgili ciddi bir kronik arıza bildirilmediği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_corolla_genel",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_corolla_genel__toyota-corolla-1-6-2007-13",
+    "car_id": "toyota-corolla-1-6-2007-13",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/toyota/corolla",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Toyota Corolla derlemesinde kablosuz şarj ünitesinin rastgele kesilmesi, yüksek hızda ıslık sesi ve boya soyulması gibi görece küçük ve yapısal olmayan şikayetlerin öne çıktığı; motor ve CVT ile ilgili ciddi bir kronik arıza bildirilmediği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_corolla_genel",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__mini-countryman-f60-1-5",
+    "car_id": "mini-countryman-f60-1-5",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__mini-cooper-r56-1-6",
+    "car_id": "mini-cooper-r56-1-6",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__mini-cooper-s-r56-1-6-turbo",
+    "car_id": "mini-cooper-s-r56-1-6-turbo",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__mini-cooper-f56-1-5",
+    "car_id": "mini-cooper-f56-1-5",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_dq200_dq250__audi-a4-b9-2-0-tdi",
+    "car_id": "audi-a4-b9-2-0-tdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_dq200_dq250",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "zf_5hp_6hp_bakim__audi-a4-b5-1-8t-2-4",
+    "car_id": "audi-a4-b5-1-8t-2-4",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/zf-5hp19-sanziman-nedir/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un ZF 5HP19 derlemesinde şanzıman yağının 100.000 km'de veya azami 8 yılda bir, yağ ve filtrenin 60-80 bin km'de değiştirilmesinin ZF'nin kendi önerisi olduğu; düzenli bakım yapılmayan kutularda mekatronik arızası, yağ sızıntısı ve tork konvertörü sorunları görüldüğü, bakımlı kutuların genel olarak güvenilir kabul edildiği aktarılıyor. Aynı aile (5HP19/6HP19) E39, E46, E60 ve E90'da ortak kullanılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "zf_5hp_6hp_bakim",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_a4_tfsi__audi-a6-2-0-tdi",
+    "car_id": "audi-a6-2-0-tdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/audi/a4/tfsi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Audi A4 TFSI şikayetleri derlemesinde 2.0 TFSI motorlarda yüksek yağ tüketiminin bilinen bir sorun olduğu, B9 (Gen3B) motorlarda bu sorunun B8'e göre daha seyrek olsa da bazı araçlarda 1000-3000 km'de 0.5-1 litre yağ eksilmesi şeklinde bildirildiği; S tronic çift kavramalı şanzımanın trafikte ve düşük hızda sert vites geçişleri yapabildiği, mekatronik onarımının 80-100 bin km aralığında ve maliyetli olduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_a4_tfsi",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_a4_tfsi__audi-a4-b8-2-0-tdi",
+    "car_id": "audi-a4-b8-2-0-tdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/audi/a4/tfsi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Audi A4 TFSI şikayetleri derlemesinde 2.0 TFSI motorlarda yüksek yağ tüketiminin bilinen bir sorun olduğu, B9 (Gen3B) motorlarda bu sorunun B8'e göre daha seyrek olsa da bazı araçlarda 1000-3000 km'de 0.5-1 litre yağ eksilmesi şeklinde bildirildiği; S tronic çift kavramalı şanzımanın trafikte ve düşük hızda sert vites geçişleri yapabildiği, mekatronik onarımının 80-100 bin km aralığında ve maliyetli olduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_a4_tfsi",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_a4_tfsi__audi-a4-b6-1-8t-2-0",
+    "car_id": "audi-a4-b6-1-8t-2-0",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/audi/a4/tfsi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Audi A4 TFSI şikayetleri derlemesinde 2.0 TFSI motorlarda yüksek yağ tüketiminin bilinen bir sorun olduğu, B9 (Gen3B) motorlarda bu sorunun B8'e göre daha seyrek olsa da bazı araçlarda 1000-3000 km'de 0.5-1 litre yağ eksilmesi şeklinde bildirildiği; S tronic çift kavramalı şanzımanın trafikte ve düşük hızda sert vites geçişleri yapabildiği, mekatronik onarımının 80-100 bin km aralığında ve maliyetli olduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_a4_tfsi",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_kuga_ecoboost__ford-focus-2-2-0",
+    "car_id": "ford-focus-2-2-0",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/ford/kuga/ecoboost",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Ford Kuga EcoBoost derlemesinde bazı araçlarda 10-15 bin km aralığında soğutucu sıvı eksilmesi ve bir 2015 model örnekte 112.500 km'de silindir kapağı contası yanması bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_kuga_ecoboost",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "araclo_focus_ecoblue__ford-mondeo-2-0-tdci",
+    "car_id": "ford-mondeo-2-0-tdci",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi",
+    "publisher": "Araclo.com",
+    "claim": "Araclo.com'un Ford Focus 1.5 EcoBlue incelemesinde eksantrik zincirinin (7mm) kronik olarak uzadığı ve üreticinin sonradan 8mm zincirle değişime geçtiği, kısa mesafe kullanımda partikül filtresinin (DPF) tıkandığı, periyodik bakımdan kısa süre sonra 'yağ değişimi gerekli' uyarısının belirebildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "araclo_focus_ecoblue",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_kuga_ecoboost__ford-focus-4-1-5-ecoblue",
+    "car_id": "ford-focus-4-1-5-ecoblue",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/ford/kuga/ecoboost",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Ford Kuga EcoBoost derlemesinde bazı araçlarda 10-15 bin km aralığında soğutucu sıvı eksilmesi ve bir 2015 model örnekte 112.500 km'de silindir kapağı contası yanması bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_kuga_ecoboost",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_kuga_ecoboost__ford-focus-3-1-6-ti-vct",
+    "car_id": "ford-focus-3-1-6-ti-vct",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/ford/kuga/ecoboost",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Ford Kuga EcoBoost derlemesinde bazı araçlarda 10-15 bin km aralığında soğutucu sıvı eksilmesi ve bir 2015 model örnekte 112.500 km'de silindir kapağı contası yanması bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_kuga_ecoboost",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__ford-kuga-1-5-ecoboost-6at",
+    "car_id": "ford-kuga-1-5-ecoboost-6at",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "otokokpit_citroen_xsara__peugeot-307-1-6",
+    "car_id": "peugeot-307-1-6",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.otokokpit.com/citroen-xsara-alinir-mi-kronik-sorunlari-nelerdir-yedek-parca-sorunu-var-mi/",
+    "publisher": "Otokokpit.com",
+    "claim": "Otokokpit.com'un Citroen Xsara değerlendirmesine göre AL4 otomatik şanzımanlı Xsara modellerinde vites geçiş sorunları görülebildiği, AL4 kutusunun mekatronik (hidrolik kontrol ünitesi) arızalarına ve ısı yönetimine duyarlı olduğu, 80.000 km üzerindeki araçlarda şanzıman yağı ve hidrolik kontrol ünitesi bakımının ihmal edilip edilmediğinin özellikle kontrol edilmesi gerektiği belirtiliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "otokokpit_citroen_xsara",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__peugeot-3008-1-6-bluehdi",
+    "car_id": "peugeot-3008-1-6-bluehdi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "otokokpit_citroen_xsara__peugeot-2008-1-6-thp",
+    "car_id": "peugeot-2008-1-6-thp",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.otokokpit.com/citroen-xsara-alinir-mi-kronik-sorunlari-nelerdir-yedek-parca-sorunu-var-mi/",
+    "publisher": "Otokokpit.com",
+    "claim": "Otokokpit.com'un Citroen Xsara değerlendirmesine göre AL4 otomatik şanzımanlı Xsara modellerinde vites geçiş sorunları görülebildiği, AL4 kutusunun mekatronik (hidrolik kontrol ünitesi) arızalarına ve ısı yönetimine duyarlı olduğu, 80.000 km üzerindeki araçlarda şanzıman yağı ve hidrolik kontrol ünitesi bakımının ihmal edilip edilmediğinin özellikle kontrol edilmesi gerektiği belirtiliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "otokokpit_citroen_xsara",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_peugeot_2008__citroen-c4-1-6-thp",
+    "car_id": "citroen-c4-1-6-thp",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/peugeot/2008",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Peugeot 2008 derlemesinde cam kriko motoru arızaları ve bazı otomatik şanzımanlı araçlarda vites geçiş sorunlarının tekrarlayan şikayetler arasında sayıldığı bildiriliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_peugeot_2008",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "peugeotturkey_307_al4__citroen-xsara-1-6",
+    "car_id": "citroen-xsara-1-6",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://forum.peugeotturkey.com/forum_posts.asp?TID=36198&title=307-al4-otomatik-sanzuman-sorunu",
+    "publisher": "Peugeot Türkiye Forumları",
+    "claim": "Peugeot Türkiye forumundaki '307 AL4 otomatik şanzıman sorunu' başlığında AL4 kutusunda vites geçişlerinde gecikme/sarsılma, boşa alırken zorlanma ve geri vitese takılma gibi şikayetlerin paylaşıldığı; forumda orijinal solenoid valflerin yerine Borg Warner marka valf takılmasının yaygın bir çözüm olarak önerildiği.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "peugeotturkey_307_al4",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__citroen-c-elysee-peugeot-301-benzinli",
+    "car_id": "citroen-c-elysee-peugeot-301-benzinli",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_alfa_mito_kronik__alfa-giulietta-1-4-tb",
+    "car_id": "alfa-giulietta-1-4-tb",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/alfa-romeo/kronik/mito",
+    "publisher": "Şikayetvar",
+    "claim": "Alfa Romeo MiTo modelinde en sık tekrarlanan şikayetin elektrikli direksiyon (EPS) arızası olduğu; bazı araçlarda satın alımdan kısa süre sonra ortaya çıkan direksiyon sertleşmesi ve hata kodu vakalarının, İtalya'dan gelen bazı yedek parçaların (turbo hortumu, aks) 30 iş günü gibi uzun tedarik sürelerinin bildirildiği.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_alfa_mito_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "eksisozluk_sanziman_liste__alfa-romeo-mito-1-4",
+    "car_id": "alfa-romeo-mito-1-4",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://eksisozluk.com/marka-ve-modele-gore-otomatik-sanziman-turleri--5545765",
+    "publisher": "eksisozluk.com",
+    "claim": "Ekşi Sözlük: \"Marka ve modele göre otomatik şanzıman türleri\" — Alfa Romeo Giulietta’nın TCT (çift kavrama) kullandığının ve çok sayıda başka markanın şanzıman tipinin listelendiği kapsamlı bir referans",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "crowd-wiki",
+      "source_id": "eksisozluk_sanziman_liste",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_corolla_genel__subaru-xv-2-0i-lineartronic",
+    "car_id": "subaru-xv-2-0i-lineartronic",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/toyota/corolla",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Toyota Corolla derlemesinde kablosuz şarj ünitesinin rastgele kesilmesi, yüksek hızda ıslık sesi ve boya soyulması gibi görece küçük ve yapısal olmayan şikayetlerin öne çıktığı; motor ve CVT ile ilgili ciddi bir kronik arıza bildirilmediği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_corolla_genel",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_corolla_genel__subaru-forester-2-0i-lineartronic",
+    "car_id": "subaru-forester-2-0i-lineartronic",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/toyota/corolla",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Toyota Corolla derlemesinde kablosuz şarj ünitesinin rastgele kesilmesi, yüksek hızda ıslık sesi ve boya soyulması gibi görece küçük ve yapısal olmayan şikayetlerin öne çıktığı; motor ve CVT ile ilgili ciddi bir kronik arıza bildirilmediği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_corolla_genel",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__volvo-s60-1-5-t3",
+    "car_id": "volvo-s60-1-5-t3",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__volvo-v40-1-5-t3",
+    "car_id": "volvo-v40-1-5-t3",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__fiat-egea-1-4-fire",
+    "car_id": "fiat-egea-1-4-fire",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__chevrolet-cruze-1-6",
+    "car_id": "chevrolet-cruze-1-6",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "teknikotomatik_aisin_6ileri__opel-vectra-b-1-6-1-8",
+    "car_id": "opel-vectra-b-1-6-1-8",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "publisher": "teknikotomatiksanziman.com",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "teknikotomatik_aisin_6ileri",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "eksisozluk_sanziman_liste__jeep-renegade-1-6-multijet-ddct",
+    "car_id": "jeep-renegade-1-6-multijet-ddct",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://eksisozluk.com/marka-ve-modele-gore-otomatik-sanziman-turleri--5545765",
+    "publisher": "eksisozluk.com",
+    "claim": "Ekşi Sözlük: \"Marka ve modele göre otomatik şanzıman türleri\" — Alfa Romeo Giulietta’nın TCT (çift kavrama) kullandığının ve çok sayıda başka markanın şanzıman tipinin listelendiği kapsamlı bir referans",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "crowd-wiki",
+      "source_id": "eksisozluk_sanziman_liste",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "mercedesmedic_722_6__mercedes-e200-w212",
+    "car_id": "mercedes-e200-w212",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.mercedesmedic.com/diy-transmission-oil-change-722-6/",
+    "publisher": "MB Medic / FCP Euro",
+    "claim": "MB Medic ve FCP Euro'nun 722.6 (5G-Tronic) servis rehberlerinde kutunun başlangıçta 'bakım gerektirmez' diye pazarlandığı ama Mercedes'in sonradan 40.000 mil (~64.000 km) aralıkla servis önerdiği; bilinen zaaflarının fiş adaptöründeki üç o-ring sızıntısı, erken modellerde kötü tasarlanmış valf iletken plakası ve kontrol modülüne şanzıman yağı kaçması olduğu; yaklaşık 2003'e kadar bazı modellerde radyatör kusuru nedeniyle antifrizin yağa karışıp kutunun ömrünü ciddi biçimde kısalttığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-blog",
+      "source_id": "mercedesmedic_722_6",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "renaultfanclub_edc_kronik__dacia-duster-1-5-dci-edc",
+    "car_id": "dacia-duster-1-5-dci-edc",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "renaultfanclub_edc_kronik",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_corolla_genel__mazda-cx5-2-0-skyactiv",
+    "car_id": "mazda-cx5-2-0-skyactiv",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/toyota/corolla",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Toyota Corolla derlemesinde kablosuz şarj ünitesinin rastgele kesilmesi, yüksek hızda ıslık sesi ve boya soyulması gibi görece küçük ve yapısal olmayan şikayetlerin öne çıktığı; motor ve CVT ile ilgili ciddi bir kronik arıza bildirilmediği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_corolla_genel",
+      "reasoning": "Y-02 derinlik turu: aracın motor/şanzıman kaynak çiftini tamamlayan ikinci kaynak.",
+      "resolved_at": "2026-08-06"
+    }
   }
 ]

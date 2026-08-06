@@ -30,7 +30,8 @@
     "liq": 68
   },
   "sources": [
-    "audiworld_a3_dq250_issue"
+    "audiworld_a3_dq250_issue",
+    "teknikotomatik_dq200_dq250"
   ],
   "note": "Otomatiği ıslak kavramalı DQ250 olduğu için VAG grubunun güvenli kutularından birini kullanıyor. Dizel motoru torklu ve ekonomik. Araç artık yaşlandı, elektrik ve süspansiyon kalemlerini kontrol ettirin.",
   "provenance": {

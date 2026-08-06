@@ -30,7 +30,8 @@
     "liq": 68
   },
   "sources": [
-    "opel16"
+    "opel16",
+    "teknikotomatik_aisin_6ileri"
   ],
   "note": "Insignia’daki 1.6 dizelin aynısı olduğu için zincir gergisi riski burada da geçerli; Aisin otomatiği ise sağlam. Yakıt tüketimi çok iyi ama zincir geçmişini mutlaka sorgulayın. Aynı kasada 1.4 turbo benzinli daha güvenli bir seçim.",
   "provenance": {

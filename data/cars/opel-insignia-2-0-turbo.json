@@ -29,7 +29,8 @@
     "liq": 38
   },
   "sources": [
-    "dhaber_insignia_2_0_turbo"
+    "dhaber_insignia_2_0_turbo",
+    "teknikotomatik_aisin_6ileri"
   ],
   "note": "Insignia'nın üst güç benzinli versiyonu; motor için yeni bir aile açıldı (gm-a20net) — listede zaten kayıtlı dizel A20DTH ile aynı gövdeyi paylaşan ama tamamen ayrı bir benzinli aile. Ateşleme bobini aşınması ve turbo hortum yırtılması (~50.000 km) tekrarlayan şikayetler; Aisin AF40 kutusu listede zaten kayıtlı.",
   "provenance": {

@@ -30,7 +30,8 @@
     "liq": 58
   },
   "sources": [
-    "otopark_bmw_e90_316i"
+    "otopark_bmw_e90_316i",
+    "zf_5hp_6hp_bakim"
   ],
   "note": "E90 ailesinin en mütevazı benzinlisi; N43 değil daha basit bir motor kullanıyor olabilir, yıl bazında teyit gerekiyor. ZF otomatiği sağlam. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {

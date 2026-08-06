@@ -30,7 +30,8 @@
     "liq": 70
   },
   "sources": [
-    "vwforumtr_passat_b7_kronik"
+    "vwforumtr_passat_b7_kronik",
+    "teknikotomatik_dq200_dq250"
   ],
   "note": "Common rail dizel motoru makul, otomatiği ise ıslak kavramalı DQ250. Bu kombinasyon VAG grubunun otomatikleri arasında güvenli tarafta kalıyor. Çok geniş, konforlu ve uzun yol için ideal bir araç.",
   "provenance": {

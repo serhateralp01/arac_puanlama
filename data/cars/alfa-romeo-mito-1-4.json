@@ -30,7 +30,8 @@
     "liq": 42
   },
   "sources": [
-    "sikayetvar_alfa_mito_kronik"
+    "sikayetvar_alfa_mito_kronik",
+    "eksisozluk_sanziman_liste"
   ],
   "note": "Küçük gövdesi ve canlı motoruyla keyifli bir araç, tasarımı da güçlü. Otomatiği TCT çift kavramalı kutu ve Giulietta'daki gibi güvenilirlik kaygısı taşıyor; ayrıca yokuşta geç vites değiştirme gibi yazılımsal davranış sorunları bildiriliyor. Türkiye'de parça ve usta bulmak zor.",
   "provenance": {

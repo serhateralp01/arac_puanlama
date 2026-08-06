@@ -29,7 +29,8 @@
     "liq": 52
   },
   "sources": [
-    "otopark_320d_520d_zincir"
+    "otopark_320d_520d_zincir",
+    "zf_5hp_6hp_bakim"
   ],
   "note": "E60'ın giriş seviyesi dizeli; M47 motoru (2007 öncesi üretim) listede zaten kayıtlı, ZF 6 ileri kutusu E60'ın diğer varyantlarıyla (525d/530d) aynı. Zincir kontrolü aynı gerekçeyle 520d/320d ailesinde kritik.",
   "provenance": {

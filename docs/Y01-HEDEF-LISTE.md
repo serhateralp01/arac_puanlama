@@ -188,20 +188,23 @@ karşılığı yok. Bazı modeller PHEV/EV, ⛔ şema kararı gerekebilir.
 
 ---
 
-## D) Şema kararı bekleyenler — ⛔ önce MK kaydı gerekiyor
+## D) Kapsam dışı — kalıcı karar (2026-08-06)
 
-Bunlar Y-01 madde 3'ün konusu: `fuel` alanı bugün yalnızca `Dizel`/`Benzin` kabul
-ediyor. Bu markalar/gövdeler eklenmeden önce `docs/ARCHITECTURE.md`'ye hibrit/elektrikli
-araçların `cost` ve `trans` kriterini nasıl etkilediğini tanımlayan bir MK kaydı
-yazılmalı; bu, geri alınması pahalı bir karar olduğu için atlanmamalı.
+**Bu bölüm artık "karar bekliyor" değil, "karar verildi" durumunda.** Kullanıcı net
+konuştu: "elektrikli ve LPG araba olmayacak abi, net bir karar o." Gerekçesi
+`docs/ARCHITECTURE.md` MK-13 kaydında. Aşağıdakiler **hiçbir zaman** araştırma
+turuna alınmayacak, kaynaklı araştırma beklenmiyor:
 
 - **Lexus** — Türkiye'de satılan hemen hemen bütün modeller (CT200h, IS300h, NX300h,
-  ES300h) tam hibrit. Şema kararı olmadan hiç ele alınmamalı.
-- **Togg T10X** — tam elektrikli, geleneksel şanzıman kavramı yok (`transmission_type`
-  enum'una da uymuyor). Şema kararı hibritten de büyük bir karar.
-- **Chery / BYD** — çoğunlukla EV veya PHEV; aynı blok.
+  ES300h) tam hibrit. Kapsam dışı.
+- **Togg T10X** — tam elektrikli. Kapsam dışı.
+- **Chery / BYD** — çoğunlukla EV veya PHEV. Kapsam dışı.
 - **Toyota/Honda hibrit varyantları** (Corolla Hybrid, C-HR Hybrid, CR-V Hybrid) —
-  marka listede var ama hibrit gövdeler aynı bloğa giriyor.
+  marka listede var ama hibrit gövdeler kapsam dışı; aynı markanın geleneksel
+  yakıtlı varyantları (ör. Toyota Corolla 1.6 CVT, Toyota C-HR 1.2 Turbo — ikisi de
+  listede zaten var) kapsam içinde kalmaya devam ediyor.
+- **LPG'li araçlar** — fabrika çıkışı ya da dönüşüm fark etmeksizin, hiçbir araç
+  kaydı LPG'li olarak listelenmeyecek (bkz. MK-11, MK-13).
 
 ---
 

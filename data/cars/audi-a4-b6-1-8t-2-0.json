@@ -30,7 +30,8 @@
     "liq": 60
   },
   "sources": [
-    "multi"
+    "multi",
+    "sikayetvar_a4_tfsi"
   ],
   "note": "B5 ile B8 arasındaki geçiş nesli; donanıma göre erken Multitronic CVT ya da klasik Tiptronic gelebiliyor, ilanda hangisi olduğu mutlaka teyit edilmeli. Ön değerlendirme, batch aşamasında derinleştirilecek.",
   "provenance": {

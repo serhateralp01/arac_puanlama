@@ -3137,5 +3137,165 @@
       "engine": "web_search",
       "found_at": "2026-08-06"
     }
+  },
+  "techturkey_e39_530i_5hp19_vuruntu": {
+    "id": "techturkey_e39_530i_5hp19_vuruntu",
+    "claim": "TechTurkey arşivindeki 'BMW E39 530i 5HP19 ZF Şanzıman Vuruntu' başlığında ZF 5HP19 kutusunun bakımı ihmal edildiğinde vuruntu ve sert vites geçişi şikayeti bildirildiği; düzenli yağ/filtre bakımıyla (60-80 bin km) bu şikayetin büyük ölçüde önlenebildiği aktarılıyor.",
+    "publisher": "TechTurkey Forumu",
+    "url": "http://www.techturkey.com/forum/archive/index.php/t-234155.html",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "zf_5hp_6hp_bakim": {
+    "id": "zf_5hp_6hp_bakim",
+    "claim": "teknikotomatiksanziman.com'un ZF 5HP19 derlemesinde şanzıman yağının 100.000 km'de veya azami 8 yılda bir, yağ ve filtrenin 60-80 bin km'de değiştirilmesinin ZF'nin kendi önerisi olduğu; düzenli bakım yapılmayan kutularda mekatronik arızası, yağ sızıntısı ve tork konvertörü sorunları görüldüğü, bakımlı kutuların genel olarak güvenilir kabul edildiği aktarılıyor. Aynı aile (5HP19/6HP19) E39, E46, E60 ve E90'da ortak kullanılıyor.",
+    "publisher": "teknikotomatiksanziman.com",
+    "url": "https://teknikotomatiksanziman.com/zf-5hp19-sanziman-nedir/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "bimmerforums_m52_nikasil": {
+    "id": "bimmerforums_m52_nikasil",
+    "claim": "Bimmerforums'taki 'NIKASIL Issue on M52 motors' başlığında 1995-1998 arası üretilen tekli Vanos'lu M52 motorların (E36, E34, E39'da kullanılan) bazılarında silindir kaplamasının (Nikasil) yüksek kükürtlü yakıtla aşındığı, bunun sıkıştırma kaybı, düzensiz rölanti ve aşırı yağ tüketimine yol açtığı; BMW'nin bu motorları döküm bloklu değişim motorlarla değiştirdiği aktarılıyor.",
+    "publisher": "Bimmerforums",
+    "url": "https://www.bimmerforums.com/forum/showthread.php?1520287-NIKASIL-Issue-on-M52-motors=",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "mercedesmedic_722_6": {
+    "id": "mercedesmedic_722_6",
+    "claim": "MB Medic ve FCP Euro'nun 722.6 (5G-Tronic) servis rehberlerinde kutunun başlangıçta 'bakım gerektirmez' diye pazarlandığı ama Mercedes'in sonradan 40.000 mil (~64.000 km) aralıkla servis önerdiği; bilinen zaaflarının fiş adaptöründeki üç o-ring sızıntısı, erken modellerde kötü tasarlanmış valf iletken plakası ve kontrol modülüne şanzıman yağı kaçması olduğu; yaklaşık 2003'e kadar bazı modellerde radyatör kusuru nedeniyle antifrizin yağa karışıp kutunun ömrünü ciddi biçimde kısalttığı aktarılıyor.",
+    "publisher": "MB Medic / FCP Euro",
+    "url": "https://www.mercedesmedic.com/diy-transmission-oil-change-722-6/",
+    "type": "trade-blog",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "eklasseforum_om651_injektor": {
+    "id": "eklasseforum_om651_injektor",
+    "claim": "E-Klasse-Forum.de'deki 'OM 651 Injektor Probleme' başlığı ve ilişkili derlemelerde OM651'in piezo tipi enjektörlerinin hassas tasarımı nedeniyle arızaya yatkın olduğu, bunun rölanti titremesi, motor sarsıntısı, aşırı yakıt tüketimi ve zor çalışmaya yol açtığı; bazı araçlarda satın alımdan sonraki 500 km içinde enjektör arızası bildirildiği; ayrıca zincir gergi mekanizmasının erken aşınma eğilimi ve şehir içi kullanımda DPF tıkanması sorunlarının da bilinen kalemler olduğu aktarılıyor.",
+    "publisher": "E-Klasse-Forum.de",
+    "url": "https://e-klasse-forum.de/index.php?thread%2F54102-om-651-injektor-probleme%2F=",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "teknikotomatik_dq200_dq250": {
+    "id": "teknikotomatik_dq200_dq250",
+    "claim": "teknikotomatiksanziman.com ve araclo.com'un DSG derlemelerinde DQ200 (7 ileri kuru) ve DQ250 (6 ileri ıslak) kutularda kalkışta yarım kavrama titremesi, yokuşta geri kaçma ve 2. vitese geçişte metalik ses şikayetlerinin ortak olduğu; bu sorunların istatistiksel olarak 50.000-150.000 km arasında ortaya çıktığı; VW'nin resmî bakım aralığının 60.000 km olduğu ama şehir trafiğinde 40-50.000 km önerildiği; bakımlı kutuların 150-200.000 km sorunsuz gidebildiği aktarılıyor.",
+    "publisher": "teknikotomatiksanziman.com / araclo.com",
+    "url": "https://teknikotomatiksanziman.com/dsg-sanziman-dq200/",
+    "type": "trade-blog",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "renaultfanclub_edc_kronik": {
+    "id": "renaultfanclub_edc_kronik",
+    "claim": "Renault Fan Club ve DonanımHaber forumlarındaki EDC başlıklarında kuru çift kavramalı EDC kutusunun 1.-2. ve 2.-1. vites arası sarsıntılı/titrek geçiş yaptığı, bazı viteslerin düzgün çalışmadığı vakaların bildirildiği; kuru kavramaların yağlanmadığı için gürültülü çalışmasının normal kabul edildiği; şanzıman yağı kontrolünün 60-80.000 km aralığında yapılması ve titreme belirtisinde hemen servise gidilmesi önerildiği aktarılıyor. Şikayetler özellikle Megane 3 ve Fluence'ta yoğunlaşıyor.",
+    "publisher": "Renault Fan Club / DonanımHaber Forum",
+    "url": "https://www.renaultfanclub.com/threads/kronik-edc-sanziman-arizasi.104254/",
+    "type": "forum",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "teknikotomatik_aisin_6ileri": {
+    "id": "teknikotomatik_aisin_6ileri",
+    "claim": "teknikotomatiksanziman.com'un Aisin 6 ileri derlemesinde kutunun zamanla solenoid aşınması, tork konvertörü kayması ve valf gövdesi sorunları geliştirebildiği, bakım ihmal edildiğinde sert vites geçişi ve performans kaybı görüldüğü; 'ömür boyu yağ' iddiasına rağmen 60-80.000 km'de yağ değişimi önerildiği, doğru Aisin AW-1 yağı ve düzenli adaptasyonla 250.000 km üzerinde çalışabildiği aktarılıyor.",
+    "publisher": "teknikotomatiksanziman.com",
+    "url": "https://teknikotomatiksanziman.com/aisin-6ileri-sanziman/",
+    "type": "trade-blog",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "teknikotomatik_hyundai_6at": {
+    "id": "teknikotomatik_hyundai_6at",
+    "claim": "teknikotomatiksanziman.com'un Hyundai otomatik şanzımanlar derlemesinde A6GF1'in i20, i30, Elantra, Tucson ve Santa Fe'de kullanılan 6 ileri tork konvertörlü kutu olduğu; bu tip kutuların dayanıklı ve uzun ömürlü olduğu, yumuşak ve sarsıntısız geçiş sunduğu, düşük bakım maliyeti taşıdığı; buna karşılık kullanıcıların en sık şikayet ettiği kalemlerden birinin yine de otomatik şanzıman geçiş sorunları olduğu ve ikinci el alımda şanzıman yağı geçmişinin kontrol edilmesi gerektiği aktarılıyor.",
+    "publisher": "teknikotomatiksanziman.com",
+    "url": "https://teknikotomatiksanziman.com/hyundai-otomatik-sanzimanlar/",
+    "type": "trade-blog",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "sikayetvar_honda_sanziman": {
+    "id": "sikayetvar_honda_sanziman",
+    "claim": "Şikayetvar'ın Honda şanzıman arızası derlemesinde bir 2021 model Civic 1.6 otomatikte 36.000 km'de ani şanzıman arızası, bir 2017 model Civic'te 120.000 km civarında şanzıman kayışının kopması bildirildiği; Honda City'nin 5 ileri tam otomatik kutusunun genel olarak konforlu ve sorunsuz kabul edildiği ama 2006 model bir araçta rölanti/devir dalgalanmasının kalkışların çoğunda yaşandığı; şanzıman yağının her 40.000 km'de değiştirilmesinin önerildiği aktarılıyor.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/honda/sanziman-arizasi",
+    "type": "complaint-aggregator",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": null,
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
   }
 }

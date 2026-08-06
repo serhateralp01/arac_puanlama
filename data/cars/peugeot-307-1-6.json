@@ -30,7 +30,8 @@
     "liq": 70
   },
   "sources": [
-    "peugeotturkey_307_al4"
+    "peugeotturkey_307_al4",
+    "otokokpit_citroen_xsara"
   ],
   "note": "C segment gövdesiyle 206'dan daha geniş; AL4 otomatiği eski PSA kutularının selenoid valf ve aşırı ısınma dertlerini taşıyabiliyor. Vites geçişlerinde vuruntu ve boşa düşme yaygın şikayetler arasında; şanzıman geçmişi belgeli değilse dikkatli olun.",
   "provenance": {

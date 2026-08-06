@@ -30,7 +30,8 @@
     "liq": 72
   },
   "sources": [
-    "sikayetvar_skoda_octavia_sanziman"
+    "sikayetvar_skoda_octavia_sanziman",
+    "teknikotomatik_dq200_dq250"
   ],
   "note": "Otomatiği ıslak kavramalı DQ250 olduğu için kuru kutulu kardeşlerinden belirgin biçimde güvenli. Motoru EA888 ailesinden geldiği için yağ tüketimi ve zincir gergisi konularını kontrol ettirmek gerekiyor. Geniş, hızlı ve pratik bir araç.",
   "provenance": {

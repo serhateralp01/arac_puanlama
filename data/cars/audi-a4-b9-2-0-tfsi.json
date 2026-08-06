@@ -29,7 +29,8 @@
     "liq": 54
   },
   "sources": [
-    "sikayetvar_a4_tfsi"
+    "sikayetvar_a4_tfsi",
+    "teknikotomatik_dq200_dq250"
   ],
   "note": "A4 B9'un benzinli üst versiyonu; EA888 motoru listede zaten Audi A4 B8 ve Cupra'da (evo4 ayrı aile olarak) kayıtlı. B9 nesli (Gen3B) yağ tüketimi sorununu B8'e göre daha seyrek ama hâlâ taşıyor — bazı araçlarda 1000-3000 km'de 0.5-1 litre bildirilmiş. S tronic mekatronik onarımı 80-100 bin km aralığında ve maliyetli.",
   "provenance": {

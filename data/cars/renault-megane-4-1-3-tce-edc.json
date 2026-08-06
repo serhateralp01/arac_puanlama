@@ -29,7 +29,8 @@
     "liq": 78
   },
   "sources": [
-    "sikayetvar_clio_10tce"
+    "sikayetvar_clio_10tce",
+    "renaultfanclub_edc_kronik"
   ],
   "note": "Megane 4'ün benzinli turbo versiyonu; H5Ht motoru ve 7 ileri ıslak EDC kutusu listede zaten Qashqai/Koleos/Clio 5'te kayıtlı. Aynı ailenin EDC şanzımanında düşük hızda gecikmeli tepki eğilimi diğer modellerde de bildirildiği için burada da geçerli bir kontrol kalemi.",
   "provenance": {

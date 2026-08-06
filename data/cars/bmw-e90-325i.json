@@ -30,7 +30,8 @@
     "liq": 46
   },
   "sources": [
-    "e90"
+    "e90",
+    "zf_5hp_6hp_bakim"
   ],
   "note": "N52 altı silindirli motoru sağlam bir birim, sadece su pompası rutin bir değişim kalemi. ZF 6 ileri otomatikle geliyor. Arkadan itiş keyfini güvenilirlikle birleştiriyor. Direkt enjeksiyonlu N53 motorlu versiyonlardan uzak durun.",
   "provenance": {

@@ -30,7 +30,8 @@
     "liq": 68
   },
   "sources": [
-    "om61x"
+    "om61x",
+    "mercedesmedic_722_6"
   ],
   "note": "5G-Tronic otomatiği sağlam, torku yüksek. Motor tarafında OM611/OM646 ailesinin bilinen zaafı geçerli: enjektör altı ateşe dayanıklı contalar zamanında değiştirilmezse enjektörler tıkanabiliyor; OM646 sürümünde ayrıca plastik swirl flap'ların kırılıp silindire düşme riski var.",
   "provenance": {

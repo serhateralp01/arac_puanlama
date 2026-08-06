@@ -29,7 +29,8 @@
     "liq": 64
   },
   "sources": [
-    "sikayetvar_passat_tsi"
+    "sikayetvar_passat_tsi",
+    "teknikotomatik_dq200_dq250"
   ],
   "note": "Passat B7'nin benzinli turbo versiyonu; EA888 motoru ve ıslak DQ250 DSG kutusu listede zaten Passat B6 1.8 TSI ve Audi A4 B8'de kayıtlı. 100.000 km sonrası turbo arızaları ve bazı araçlarda yüksek yağ tüketimi (1000 km'de 1 litreye varan) bildirilmiş; trafikte DSG sertliği ayrı bir şikayet kalemi.",
   "provenance": {

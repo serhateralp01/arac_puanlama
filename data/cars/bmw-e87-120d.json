@@ -29,7 +29,8 @@
     "liq": 66
   },
   "sources": [
-    "sistemdestekuzmani_n47_kronik"
+    "sistemdestekuzmani_n47_kronik",
+    "zf_5hp_6hp_bakim"
   ],
   "note": "E87'nin dizel versiyonu; N47 motoru listede zaten E90 320d'de kayıtlı ve düşük puanlı (zincir kılavuzu aşınması, yağ pompası tıkanması riski). ZF 6 ileri kutu E87 116i/118i ile aynı, görece güvenilir. Yüksek basınç yakıt pompası arızası da ailenin bilinen bir diğer zaafı.",
   "provenance": {

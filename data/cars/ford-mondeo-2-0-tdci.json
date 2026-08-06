@@ -30,7 +30,8 @@
     "liq": 58
   },
   "sources": [
-    "mondps"
+    "mondps",
+    "araclo_focus_ecoblue"
   ],
   "note": "Otomatik versiyonunda tek seçenek ıslak kavramalı 6DCT450 Powershift kutusu. Bu kutu, Fiesta ve Focus’taki kuru kavramalı kutuyla aynı değil; Volvo’da da kullanılan daha dayanıklı bir birim ve üç yılda bir yağ değişimiyle sorunsuz gidiyor. Yine de tork konvertörlü bir kutu kadar rahat değil. Motoru sağlam, gövdesi çok konforlu.",
   "provenance": {

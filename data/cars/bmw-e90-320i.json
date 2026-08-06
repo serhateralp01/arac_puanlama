@@ -30,7 +30,8 @@
     "liq": 66
   },
   "sources": [
-    "e90"
+    "e90",
+    "zf_5hp_6hp_bakim"
   ],
   "note": "ZF 6 ileri otomatiği iyi ama N43 direkt enjeksiyonlu motoru sorunlu: pahalı piezo enjektörler, NOx sensörü, yağ basıncı problemleri ve aşınan denge mili öne çıkan şikayetler. Benzinli E90 arıyorsanız bunun yerine 325i tercih edin.",
   "provenance": {

@@ -29,7 +29,8 @@
     "liq": 76
   },
   "sources": [
-    "sikayetvar_captur_kronik"
+    "sikayetvar_captur_kronik",
+    "renaultfanclub_edc_kronik"
   ],
   "note": "Renault'nun kompakt crossover'ı; K9K 1.5 dCi motoru ve kuru EDC kutusu listede zaten kayıtlı, Duster ile aynı aile. Bir araçta 149.000 km'de ECU arızası ve ~42.000 TL'lik EDC 'beyin' değişimi bildirilmiş; düşük hızda 1.-2. vites arası gürültü ayrı bir tekrarlayan şikayet. Buna karşılık işletme maliyeti ve ikinci el likiditesi segmentinin en iyileri arasında.",
   "provenance": {

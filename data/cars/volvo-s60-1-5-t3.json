@@ -30,7 +30,8 @@
     "liq": 40
   },
   "sources": [
-    "volvops"
+    "volvops",
+    "teknikotomatik_aisin_6ileri"
   ],
   "note": "VEA ailesinden 1.5 litrelik benzinli motor, Aisin Geartronic otomatikle geliyor. Yaklaşık 152 beygir üretiyor, torku ise orta seviyede kalıyor. Sade ve dert çıkarmayan bir benzinli arıyorsanız mantıklı bir tercih; ayrıca şanzımanı güvenli tarafta.",
   "provenance": {

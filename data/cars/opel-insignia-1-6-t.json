@@ -30,7 +30,8 @@
     "liq": 64
   },
   "sources": [
-    "insigniateam_af40"
+    "insigniateam_af40",
+    "teknikotomatik_aisin_6ileri"
   ],
   "note": "Makul güçte bir benzinli turbo motor ile Aisin AF40 otomatik kutu. Aynı hidrolik beyin riski burada da geçerli ama arıza çıkarsa maliyeti yönetilebilir seviyede (~5.000 TL). Yakıt tüketimi orta seviyede. Geniş, kullanımı kolay, ucuz parça.",
   "provenance": {

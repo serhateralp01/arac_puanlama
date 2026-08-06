@@ -30,7 +30,8 @@
     "liq": 66
   },
   "sources": [
-    "otokokpit_citroen_xsara"
+    "otokokpit_citroen_xsara",
+    "peugeotturkey_307_al4"
   ],
   "note": "307 ile aynı AL4 otomatiği kullanıyor; bu ailenin selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme gibi yaygın şikayetleri var. Araç çok ucuz ama şanzıman geçmişi mutlaka sorulmalı.",
   "provenance": {

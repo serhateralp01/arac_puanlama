@@ -371,3 +371,26 @@ genişledikçe otomatik olarak kendini çözmüyor, çünkü her yeni araç payd
 kaynaklı" olarak giriyor. Bu ayrım `docs/ROADMAP.md` Y-01 ve Y-02 maddelerinde açıkça
 yazılı duruyor ki ileride biri "neden ortalama düşüyor" diye sorduğunda cevap hazır
 olsun.
+
+---
+
+## MK-13 · Elektrikli ve LPG araçlar kapsam dışı — kalıcı karar
+
+**Karar:** Bu platform yalnızca geleneksel yakıtlı (Dizel/Benzin), otomatik vitesli
+araçları kapsıyor. **Elektrikli araçlar (Togg, Tesla, MG'nin EV modelleri) ve LPG'li
+araçlar hiçbir zaman listeye girmeyecek.** Bu, Y-01'in "önce şema kararı gerekiyor"
+diye askıya aldığı D bölümünün geri alınmaz biçimde kapatılması: artık "karar
+bekliyor" değil, "karar verildi ve kapsam dışı" durumu.
+
+**Gerekçe.** Kullanıcının net talimatı: "elektrikli ve lpg araba olmayacak abi, net
+bir karar o." Bu, `fuel` alanının (`Dizel`/`Benzin`) hiçbir zaman genişlemeyeceği
+anlamına geliyor; MK-11'de zaten aynı yönde bir sinyal vardı (LPG dönüşüm filtresi
+denenip geri alınmıştı). Hibrit araçlar (Lexus, Togg dışındaki bazı Toyota/Honda
+modelleri) da aynı kapsam dışı kararın bir parçası sayılıyor, çünkü onlar da
+`fuel` alanının bugünkü iki değerli (Dizel/Benzin) tasarımını bozacaktı.
+
+**Sonuç.** `docs/ARCHITECTURE.md` ve `docs/Y01-HEDEF-LISTE.md`'deki "D) Şema kararı
+bekleyenler" bölümü artık "kapsam dışı" olarak yeniden etiketlendi; Lexus, Togg, MG'nin
+EV/PHEV modelleri ve benzeri hiçbir zaman araştırma turuna alınmayacak. Bu, projenin
+kapsamını daraltıyor ama netleştiriyor: platform "otomatik vitesli, geleneksel yakıtlı
+ikinci el araç" sorusuna cevap veriyor, "her türlü araç" sorusuna değil.

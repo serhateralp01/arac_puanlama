@@ -30,7 +30,8 @@
     "liq": 54
   },
   "sources": [
-    "sikayetvar_kia_motor_arizasi"
+    "sikayetvar_kia_motor_arizasi",
+    "teknikotomatik_hyundai_6at"
   ],
   "note": "Elantra ve i40 ile aynı motor ailesini paylaşan, daha büyük bir sedan; klasik tork konvertörlü otomatik kullanıyor. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {

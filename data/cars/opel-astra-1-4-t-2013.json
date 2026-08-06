@@ -30,7 +30,8 @@
     "liq": 70
   },
   "sources": [
-    "opel16"
+    "opel16",
+    "teknikotomatik_aisin_6ileri"
   ],
   "note": "Honest John’a göre bu serinin en güvenilir motoru; 1.6 dizelden daha isabetli bir tercih. Hafif turbo benzinli motoru Aisin otomatikle çalışıyor. Astra almak istiyorsanız akıllı seçenek bu.",
   "provenance": {
