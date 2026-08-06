@@ -399,10 +399,52 @@ birden sıfırlıyor mu.
 
 ---
 
-## Y-06 · Puanlama şeffaflığı: her kriterin ağırlığı ne yapıyor, fiyat nasıl hesaplanıyor
+## Y-06 · Puanlama şeffaflığı — **birinci katman bitti (bilimsel temel)**
 
-**Öncelik: orta-yüksek.** Kullanıcının en net şikayeti buydu: "fiyat kısmı çok kafa
-karıştırıcı, kriterin puanı nasıl etkilediğini bilmiyoruz."
+**Öncelik: yüksek.** Kullanıcının en net iki şikayeti buradan geliyor: "fiyat kısmı çok
+kafa karıştırıcı, kriterin puanı nasıl etkilediğini bilmiyoruz" ve daha sonra
+"kriterlerin bilimsel olarak belirlenmesi konusunu netleştirmemişiz, formüller falan
+yazmıyor hiçbir yerde."
+
+### Birinci katman — bilimsel temel (2026-08-06, bitti)
+
+İkinci şikayet haklıydı ama tam olarak sanıldığı gibi değil. Denetim yapıldığında
+görüldü ki toplama formülü `docs/methodology.md` §3'te zaten yazılıydı ve
+`00-cekirdek.js`'te birebir uygulanıyordu; yedi kriterin hepsinin çapalı puan bantları
+da `criteria.json` içinde tanımlıydı. **Gerçekten eksik olanlar başkaydı:**
+
+- Sistemin hangi akademik yönteme dayandığı hiçbir yerde yazmıyordu (aslında bir MCDA /
+  ağırlıklı toplam modeli).
+- Varsayılan ağırlıkların (20/15/16/11/10/12/6/10) hiçbir gerekçesi yoktu.
+- Modelin kendisi hiç ölçülmemişti: ağırlık değişince sıralama ne oluyor, hangi kriter
+  sonucu belirliyor, kriterler birbirini tekrar ediyor mu — bilinmiyordu.
+- `docs/ARCHITECTURE.md` MK-06 "fun/comf/age/cost formüle bağlanır, karar verildi"
+  diyordu ama formülün girdileri **221/221 boştu**; karar hiç uygulanmamıştı.
+
+Bu katmanda yapılanlar:
+
+1. **`scripts/analysis/sensitivity.py`** yazıldı — modelin duyarlılık ve tutarlılık
+   ölçümü. `validate.py` verinin kurallara uyup uymadığını sorar; bu betik modelin
+   kendisinin sağlam olup olmadığını sorar. Sabit rastgelelik tohumu kullanıyor, yani
+   sonuçlar tekrarlanabilir.
+2. **`docs/PUANLAMA-TEMELI.md`** yazıldı — yöntemin akademik dayanağı (MAUT/WSM, BARS),
+   alternatiflerin (AHP, TOPSIS, ELECTRE) neden reddedildiği, ölçüm sonuçları ve
+   bilinen boşlukların dürüst dökümü.
+3. **MK-06'ya durum uyarısı** eklendi: karar alındı ama uygulanmadı, açıkça yazıldı.
+
+**Ölçümün bulduğu üç şey** (ayrıntısı `PUANLAMA-TEMELI.md` §3'te):
+
+- **İyi haber:** Model ağırlık hatasına dayanıklı. ±%25 gürültüde Spearman 0.99, ilk
+  10'un 9.33'ü korunuyor. Yani ağırlıkların gerekçesiz olması sanıldığı kadar ciddi bir
+  sorun değil.
+- **Sorun 1:** `comf` kriteri neredeyse hiç ayırt etmiyor — ağırlığı sıfırlanınca
+  Spearman 0.986, puan yayılımı en dar (56–88, sd 6.0). Ya puanlama merkeze kaymış ya
+  da kriter gerçekten gereksiz; ayrım için `evidence` bloğu gerekiyor.
+- **Sorun 2:** `age` ile `price` arasında −0.80 korelasyon var. Yaş riski bir kez ceza
+  (`age`), bir kez ödül (`price`) olarak iki kez sayılıyor. Ağırlıklı toplamın bilinen
+  zayıflığı; belgelendi, gizlenmedi.
+
+### İkinci katman — arayüz (sırada)
 
 **Bugünkü durum ve neden kafa karıştırıcı olduğu.** Fiyat, diğer yedi kriterden
 yapısal olarak farklı çalışıyor ama arayüzde aynı görünüyor:
@@ -431,6 +473,21 @@ Bu davranış doğru ama görünmez, ve görünmediği için kafa karıştırıy
 **Bitmiş sayılma ölçütü.** Bir kullanıcı, bir aracın toplam puanının hangi sayılardan
 oluştuğunu arayüzden takip edebiliyor ve fiyat puanının neden değiştiğini
 açıklayabiliyor.
+
+### Üçüncü katman — kanıt zinciri (arayüzden önce yapılmalı)
+
+`PUANLAMA-TEMELI.md` §6'nın en büyük açığı: **`evidence` bloğu 221 araçtan 2'sinde
+dolu.** Yani "bu puan hangi kaynağın hangi bandına dayanıyor" sorusu kriter bazında
+cevapsız. Kaynak listesi araç seviyesinde var ama kriter seviyesinde bağ yok.
+
+Bu, ikinci katmanın (arayüz) önkoşulu: "bu araç neden bu puanı aldı" dökümü gerçek
+veriye dayanmalı, yoksa arayüz boş bir vaat gösterir. En azından `motor` ve `trans`
+kriterleri için doldurulmalı — §3.3'teki ölçüme göre sonucu fiilen belirleyen iki
+kriter bunlar.
+
+Ayrıca `PUANLAMA-TEMELI.md` §5'teki ağırlık türetme işi (SMART/SWING protokolü) bir
+oturumluk, veri gerektirmeyen bir iş; arayüzde "bu ağırlık neden bu" sorusuna cevap
+verilebilmesi için gerekiyor.
 
 ---
 

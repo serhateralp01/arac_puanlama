@@ -142,6 +142,9 @@ yazılı metodolojiye göre yeniden değerlendirilir. Bunun neden böyle çalı�
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — geri alınması pahalı kararlar ve gerekçeleri
 - **[docs/ROADMAP.md](docs/ROADMAP.md) — sıradaki işler. Yeni bir oturuma başlarken önce buraya bakın.**
 - [docs/methodology.md](docs/methodology.md) — kriterler, puan hesabı, şanzıman sınıflandırması
+- **[docs/PUANLAMA-TEMELI.md](docs/PUANLAMA-TEMELI.md) — modelin bilimsel temeli: hangi
+  akademik yönteme dayanıyor, duyarlılık analizi sonuçları, bilinen boşlukların dürüst
+  dökümü.** Sayıları `scripts/analysis/sensitivity.py` üretiyor.
 - [docs/PLAN.md](docs/PLAN.md) — Faz 2 planı ve kriter bazlı teknikler; büyük ölçüde tamamlandı
 - [docs/DATA-ISSUES.md](docs/DATA-ISSUES.md) — bilinen veri sorunları ve verilen kararlar
 

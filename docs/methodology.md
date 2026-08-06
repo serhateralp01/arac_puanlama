@@ -1,9 +1,12 @@
 # Metodoloji
 
 Bu belge puanların **nasıl** verildiğini tanımlar. Amaç, aynı kanıtın aynı puanı
-üretmesi — yani tekrarlanabilirlik. Bugünkü durumda bu hedefin bir kısmı sağlanmış
-(kriter tanımları net ve birbirini dışlıyor), bir kısmı henüz sağlanmamış (puan
-bantları yazılı değil). Eksik olan yerler açıkça işaretlendi.
+üretmesi — yani tekrarlanabilirlik.
+
+**Bu belgenin tamamlayıcısı [`PUANLAMA-TEMELI.md`](PUANLAMA-TEMELI.md)'dir.** Burada
+"puan nasıl verilir" anlatılıyor; orada "bu yöntem neden geçerli, hangi varsayımlara
+dayanıyor, nerede kırılıyor" sorusu ölçümle cevaplanıyor. Modelin akademik dayanağı,
+duyarlılık analizi sonuçları ve bilinen boşlukların dürüst dökümü o belgede.
 
 ---
 

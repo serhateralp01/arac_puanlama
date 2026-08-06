@@ -179,6 +179,17 @@ girdiye her zaman aynı çıktıyı verir.
 araç kayıtlarına boş ağırlık ve tork alanlarının eklenmesi gerekiyor; bu alanlar şemaya
 eklendi ve doldurulmayı bekliyor.
 
+> **DURUM UYARISI (2026-08-06): Bu karar alındı ama hiç uygulanmadı.**
+> `specs.kerb_weight_kg`, `specs.torque_nm` ve `specs.fuel_consumption_l_100km`
+> alanları **221 aracın 221'inde de boş**. Yani `fun`, `comf`, `age` ve `cost`
+> kriterleri hâlâ tamamen elle veriliyor; bu kayıttaki "formüle bağlanır" ifadesi
+> bugün için bir niyet beyanıdır, yürürlükte olan bir kural değil.
+>
+> Bu uyarı bilerek kaydın içine yazıldı: mimari karar kayıtlarının değeri, uygulanan
+> ile uygulanmayanı ayırt edebilmelerine bağlıdır. Bir karar kaydı, gerçekte olmayan
+> bir şeyi olmuş gibi anlatıyorsa belgenin tamamının güvenilirliğini düşürür.
+> Ayrıntılı döküm `docs/PUANLAMA-TEMELI.md` §6'da.
+
 ---
 
 ## MK-07 · Çıktı tek dosya kalır, kaynak ekranlara bölünür
