@@ -1,0 +1,41 @@
+{
+  "id": "cupra-formentor-2-0-tsi-dsg",
+  "name": "Cupra Formentor 2.0 TSI DSG",
+  "tag": "oto: 7 ileri ıslak DSG · ~190hp",
+  "brand_group": "Cupra",
+  "years": "2020-2023",
+  "specs": {
+    "hp": 190,
+    "displacement_l": 2.0,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "vag-s-tronic-islak",
+    "body_type": "SUV",
+    "engine_id": "vag-ea888-evo4",
+    "lpg_common": false
+  },
+  "price_band_k_try": [
+    1600,
+    2200
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 50,
+    "trans": 68,
+    "fun": 70,
+    "comf": 80,
+    "age": 88,
+    "cost": 52,
+    "liq": 58
+  },
+  "sources": [
+    "cupraforum_ea888_evo4_oil",
+    "araclo_cupra_formentor"
+  ],
+  "note": "VAG'ın performans alt markası Cupra'nın crossover'ı; şanzıman (ıslak S tronic, DQ381 tabanlı) listede zaten kayıtlı, ama motor için yeni bir aile açıldı (vag-ea888-evo4) — dördüncü nesil EA888, listedeki eski EA888 kaydından (Golf Mk5/6 dönemi) farklı bir revizyon. İki kaynak da yağ pompası tasarımının değişmediğini ve yağ tüketiminin evo4'e taşındığını doğruluyor. Türkiye'de yeni ve niş bir marka; parça/servis ağı henüz mainstream VAG modelleri kadar yaygın değil.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  }
+}

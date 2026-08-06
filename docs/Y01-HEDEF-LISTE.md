@@ -6,10 +6,24 @@ markaların modelleri, sonra o modellerin yıl bazında motor/şanzıman kombina
 eşleştirilir — ve bütün bunlar kaynaklı araştırma (WebSearch, gerçek şikayet/forum
 taraması, `data/queue/` akışı) başlamadan önce bir seçenek listesi olarak sunulur.
 
-**Bu belgedeki hiçbir satır henüz kaynaklanmadı.** Motor/şanzıman eşleşmeleri genel
-otomotiv bilgisine dayanıyor, model yılları ve güç rakamları yaklaşık. Kullanıcı
-onayladıktan sonra her aday için gerçek kaynak aranacak, `data/queue/` üzerinden
-işlenecek ve ancak öyle `data/` içine girecek — CLAUDE.md §1 ve MK-05 kuralı gereği.
+## Durum (2026-08-06 güncellemesi)
+
+Kullanıcı A ve B bölümlerinin tamamlanmasını onayladı, C ve D bölümleri sonraya
+bırakıldı. **A ve B bölümleri artık kaynaklandı ve `data/` içine işlendi** — bu iki
+bölümdeki satırlar aşağıda hâlâ referans için duruyor ama artık "aday" değil, ya
+`data/cars/` içinde gerçek bir kayıt (✅) ya da bilinçli olarak sonraya ertelenmiş (⏸,
+gerekçesiyle "Ertelenenler" bölümünde). Kullanılan gerçek kaynaklar, motor/şanzıman
+eşleşmeleri ve puanlar `data/cars/*.json`, `data/sources.json` ve
+`data/queue/candidates.json` içinde; buradaki tablo yalnızca hangi adayın
+değerlendirildiğinin kaydı olarak kalıyor, yayındaki güncel veri için asıl kaynak her
+zaman `data/` klasörüdür (CLAUDE.md §3).
+
+Sonuç: araç sayısı 160 → 178, 2016 sonrası araç sayısı 11 → 25, SUV sayısı 7 → 18,
+marka sayısı 29 → 31 (MINI ve Cupra eklendi). Ayrıntı `docs/ROADMAP.md` Y-01
+maddesinde.
+
+**Bu belgedeki C ve D bölümleri hâlâ kaynaklanmadı** ve hâlâ birer seçenek listesi;
+kullanıcı onayı olmadan işlenmeyecek (CLAUDE.md §1 ve MK-05 kuralı gereği).
 
 Her aday üç etikattan biriyle işaretli:
 
@@ -38,51 +52,51 @@ büyük ölçüde zaten kayıtlı olduğu için en ucuz genişleme yolu burası.
 
 | Model | Yıl (tahmini) | Motor adayı | Şanzıman adayı | Etiket |
 |---|---|---|---|---|
-| Skoda Kodiaq 1.4 TSI | 2017-2021 | `vag-ea211` (mevcut) | `vag-dq250` (mevcut) | 🟢 |
-| Skoda Karoq 1.6 TDI | 2018-2021 | `vag-ea288` (mevcut, 1.6 TDI) | `vag-dq200` (mevcut, kuru) | 🟢 |
-| VW T-Roc 1.5 TSI | 2018-2021 | yeni (EA211 evo 1.5 TSI ACT, mevcut `vag-ea211` 1.4 TSI'dan farklı revizyon — MK-08 dikkatiyle değerlendirilmeli) | `vag-dq200` (mevcut) | 🟡 |
-| Audi Q3 (F3) 2.0 TDI | 2018-2021 | `vag-ea288` (mevcut, 2.0 TDI) | `vag-dq250` (mevcut) | 🟢 |
-| Seat Ateca 1.6 TDI | 2017-2021 | `vag-ea288` (mevcut) | `vag-dq200` (mevcut) | 🟢 |
-| VW Polo 6 1.0 TSI DSG | 2018-2021 | yeni (EA211 1.0 TSI 3 silindir, listede yok) | `vag-dq200` (mevcut) | 🟡 |
+| Skoda Kodiaq 1.4 TSI | 2017-2021 | `vag-ea211` (mevcut) | `vag-dq250` (mevcut) | ✅ eklendi: `skoda-kodiaq-1-4-tsi-dsg` |
+| Skoda Karoq 1.6 TDI | 2018-2021 | `vag-ea288` (mevcut, 1.6 TDI) | `vag-dq200` (mevcut, kuru) | ✅ eklendi: `skoda-karoq-1-6-tdi-dsg` |
+| VW T-Roc 1.5 TSI | 2018-2021 | yeni (EA211 evo 1.5 TSI ACT, mevcut `vag-ea211` 1.4 TSI'dan farklı revizyon — MK-08 dikkatiyle değerlendirilmeli) | `vag-dq200` (mevcut) | ⏸ ertelendi (yeni motor ailesi gerektiriyor, bkz. Ertelenenler) |
+| Audi Q3 (8U) 2.0 TDI quattro | 2015-2018 | `vag-ea288` (mevcut, 2.0 TDI) | `vag-dq250` (mevcut) | ✅ eklendi: `audi-q3-2-0-tdi-quattro` (dört çeker, quattro) |
+| Seat Ateca 1.6 TDI | 2017-2021 | `vag-ea288` (mevcut) | `vag-dq200` (mevcut) | ✅ eklendi: `seat-ateca-1-6-tdi-dsg` |
+| VW Polo 6 1.0 TSI DSG | 2018-2021 | yeni (EA211 1.0 TSI 3 silindir, listede yok) | `vag-dq200` (mevcut) | ⏸ ertelendi (yeni motor ailesi gerektiriyor, bkz. Ertelenenler) |
 
 ### PSA (14 araç var) — SUV kuşağı hiç yok
 
 | Model | Yıl (tahmini) | Motor adayı | Şanzıman adayı | Etiket |
 |---|---|---|---|---|
-| Peugeot 2008 (1. nesil) 1.6 THP | 2016-2019 | `psa-ep6-thp` (mevcut) | `psa-al4` (mevcut) | 🟢 |
-| Peugeot 3008 (2. nesil) 1.6 BlueHDi | 2017-2021 | `psa-dv6` (mevcut, ama 1.5 BlueHDi'den farklı, dikkat) | `aisin-eat6` (mevcut, "Grandland X EAT6" örneğiyle zaten kaynaklı) | 🟡 |
-| Opel Grandland X 1.6 BlueHDi | 2018-2021 | `psa-dv6` (mevcut) | `aisin-eat6` (mevcut — depoda zaten yetim kaynak `motor1_psa_suv_eat` bunu doğruluyor) | 🟢 |
-| Citroën C5 Aircross 1.5 BlueHDi | 2019-2022 | yeni (1.5 BlueHDi = DV5RC, mevcut `psa-dv6`'dan [1.6] farklı) | yeni (EAT8, depoda 3 yetim kaynak zaten var: `araclo_c5aircross`, `erenservis_eat8`, `motor1_psa_suv_eat`) | 🟡 (bileşenler için kanıt zaten kısmen elde) |
-| Opel Crossland X 1.2 Turbo | 2017-2020 | yeni (PureTech 3 silindir, listede yok) | `psa-etg` veya manuel-ağırlıklı, dikkatli seçilmeli | 🔴 |
+| Peugeot 2008 (1. nesil) 1.6 THP | 2014-2017 | `psa-ep6-thp` (mevcut) | `psa-al4` (mevcut) | ✅ eklendi: `peugeot-2008-1-6-thp` |
+| Peugeot 3008 (2. nesil) 1.6 BlueHDi | 2017-2021 | `psa-dv6` (mevcut, ama 1.5 BlueHDi'den farklı, dikkat) | `aisin-eat6` (mevcut, "Grandland X EAT6" örneğiyle zaten kaynaklı) | ⏸ ertelendi (motor tarafı 1.5 BlueHDi'ye özgü, bkz. Ertelenenler) |
+| Opel Grandland X 1.6 CDTI | 2018-2021 | `psa-dv6` (mevcut) | `aisin-eat6` (mevcut — yetim kaynaklar `motor1_psa_suv_eat`, `dhaber_grandland_x` bağlandı) | ✅ eklendi: `opel-grandland-x-1-6-cdti-eat6` |
+| Citroën C5 Aircross 1.5 BlueHDi | 2019-2022 | yeni (1.5 BlueHDi = DV5RC, mevcut `psa-dv6`'dan [1.6] farklı) | yeni (EAT8, depoda 3 yetim kaynak zaten var: `araclo_c5aircross`, `erenservis_eat8`, `motor1_psa_suv_eat`) | ⏸ ertelendi (yeni motor + yeni şanzıman ailesi, bkz. Ertelenenler) |
+| Opel Crossland X 1.2 Turbo | 2017-2020 | yeni (PureTech 3 silindir, listede yok) | `psa-etg` veya manuel-ağırlıklı, dikkatli seçilmeli | ⏸ ertelendi (yeni motor ailesi gerektiriyor) |
 
 ### Renault (9 araç var, Duster/Koleos yeni eklendi)
 
 | Model | Yıl (tahmini) | Motor adayı | Şanzıman adayı | Etiket |
 |---|---|---|---|---|
-| Renault Captur 1.5 dCi EDC | 2017-2020 | `renault-k9k` (mevcut) | `renault-edc-kuru` (mevcut) | 🟢 |
-| Renault Kadjar 1.5 dCi EDC | 2016-2020 | `renault-k9k` (mevcut) | `renault-edc-kuru` (mevcut) | 🟢 |
-| Renault Megane 4 1.5 dCi EDC | 2016-2020 | `renault-k9k` (mevcut) | `renault-edc-kuru` (mevcut) | 🟢 |
-| Renault Clio 5 1.0 TCe EDC | 2019-2022 | yeni (H4Bt/H4D 1.0 TCe 3 silindir, listede yok) | `renault-edc-kuru` (mevcut) | 🟡 |
+| Renault Captur 1.5 dCi EDC | 2017-2020 | `renault-k9k` (mevcut) | `renault-edc-kuru` (mevcut) | ✅ eklendi: `renault-captur-1-5-dci-edc` |
+| Renault Kadjar 1.5 dCi EDC | 2016-2020 | `renault-k9k` (mevcut) | `renault-edc-kuru` (mevcut) | ✅ eklendi: `renault-kadjar-1-5-dci-edc` |
+| Renault Megane 4 1.5 dCi EDC | 2016-2020 | `renault-k9k` (mevcut) | `renault-edc-kuru` (mevcut) | ✅ eklendi: `renault-megane-4-1-5-dci-edc` |
+| ~~Renault Clio 5 1.0 TCe EDC~~ → **Renault Clio 5 1.3 TCe EDC** | 2019-2022 | `renault-h5ht` (mevcut — 1.0 TCe yerine 1.3 TCe seçildi, yeni motor araştırması gerekmiyor) | `getrag-7dct300` (mevcut — Clio 5 TCe EDC'nin gerçekte 7 ileri ıslak EDC olduğu araştırma sırasında ortaya çıktı, `renault-edc-kuru` değil) | ✅ eklendi: `renault-clio-5-1-3-tce-edc` (motor/şanzıman aday listesi araştırma sırasında düzeltildi) |
 
 ### Japon grubu (33 araç var) — SUV ve daha yeni kuşak eksik
 
 | Model | Yıl (tahmini) | Motor adayı | Şanzıman adayı | Etiket |
 |---|---|---|---|---|
-| Kia Sportage (QL) 1.6 CRDi 7DCT | 2016-2020 | `hyundai-u2-16` (mevcut) | `hyundai-7dct` (mevcut — depoda yetim kaynak `dhaber_sportage_dct` zaten var) | 🟢 |
-| Kia Ceed SW 1.6 CRDi | 2016-2019 | `hyundai-u2-16` (mevcut) | `hyundai-7dct` (mevcut) | 🟢 |
-| Hyundai i30 (PD) 1.6 CRDi 7DCT | 2017-2020 | `hyundai-u2-16` (mevcut) | `hyundai-7dct` (mevcut) | 🟢 |
-| Toyota C-HR 1.2 Turbo | 2017-2020 | yeni (8NR-FTS 1.2 turbo, listede yok) | `toyota-multidrive` (mevcut CVT, ama C-HR gerçek CVT değil — doğrulanmalı) | 🟡 |
-| Toyota Corolla (E210) 1.6 Benzin CVT | 2019-2022 | `toyota-zr` (mevcut, 1.6) | `toyota-multidrive` (mevcut) | 🟢 |
-| Mazda CX-5 2.0 Skyactiv-G | 2017-2021 | `mazda-lf` (mevcut, 2.0) | yeni (Mazda'nın kendi 6 ileri otomatiği, listede yok) | 🟡 |
-| Nissan Juke 1.6 CVT | 2016-2019 (liste zaten "Nissan Juke 1.6" adıyla var — bu satır olası kopya, kontrol edilmeli) | — | — | ⚠️ tekrar riski |
+| Kia Sportage (QL) 1.6 CRDi 7DCT | 2016-2020 | `hyundai-u2-16` (mevcut) | `hyundai-7dct` (mevcut) | ✅ eklendi: `kia-sportage-1-6-crdi-7dct` (not: depodaki yetim kaynak `dhaber_sportage_dct` 2023 model — yani daha yeni bir nesil — hakkında olduğu için bu kayda bağlanmadı, hâlâ yetim; ayrı bir Sportage nesli eklenirse kullanılabilir) |
+| Kia Ceed SW 1.6 CRDi | 2016-2019 | `hyundai-u2-16` (mevcut) | `hyundai-7dct` (mevcut) | ⏸ ertelendi (bu turda işlenmedi, düşük riskli aday olarak duruyor) |
+| Hyundai i30 (PD) 1.6 CRDi 7DCT | 2017-2020 | `hyundai-u2-16` (mevcut) | `hyundai-7dct` (mevcut) | ✅ eklendi: `hyundai-i30-pd-1-6-crdi-7dct` |
+| Toyota C-HR 1.2 Turbo | 2017-2020 | yeni (8NR-FTS 1.2 turbo, listede yok) | `toyota-multidrive` (mevcut CVT, ama C-HR gerçek CVT değil — doğrulanmalı) | ⏸ ertelendi (yeni motor ailesi + trans doğrulaması gerekiyor) |
+| Toyota Corolla (E210) 1.6 Benzin CVT | 2019-2022 | `toyota-zr` (mevcut, 1.6) | `toyota-multidrive` (mevcut) | ✅ eklendi: `toyota-corolla-e210-1-6-cvt` |
+| Mazda CX-5 2.0 Skyactiv-G | 2017-2021 | `mazda-lf` (mevcut, 2.0) | yeni (Mazda'nın kendi 6 ileri otomatiği, listede yok) | ⏸ ertelendi (yeni şanzıman ailesi gerekiyor, bkz. Ertelenenler) |
+| Nissan Juke 1.6 CVT | 2016-2019 (liste zaten "Nissan Juke 1.6" adıyla var — bu satır olası kopya, kontrol edilmeli) | — | — | ⏸ ertelendi (tekrar riski, önce mevcut kayıtla karşılaştırılmalı) |
 
 ### Ford (7 araç var) — dar
 
 | Model | Yıl (tahmini) | Motor adayı | Şanzıman adayı | Etiket |
 |---|---|---|---|---|
-| Ford Kuga (3. nesil) 1.5 EcoBoost | 2019-2022 | `ford-ecoboost-15` (mevcut) | yeni (8F35 8 ileri otomatik, listede yok) | 🟡 |
-| Ford Puma 1.0 EcoBoost Mild Hybrid | 2019-2022 | mild hibrit — ⛔ şema kararı gerekebilir | — | ⛔/🟡 sınırda |
-| Ford Focus 4 1.5 EcoBlue | 2018-2021 | yeni (1.5 EcoBlue, listede yok) | `getrag-6dct450` (mevcut ıslak DCT) | 🟡 |
+| Ford Kuga (2. nesil) 1.5 EcoBoost 6AT | 2017-2019 | `ford-ecoboost-15` (mevcut) | `aisin-awf21` (mevcut — Mondeo 1.5 EcoBoost'ta zaten kullanılan aynı kutu) | ✅ eklendi: `ford-kuga-1-5-ecoboost-6at` |
+| Ford Puma 1.0 EcoBoost Mild Hybrid | 2019-2022 | mild hibrit — ⛔ şema kararı gerekebilir | — | ⏸ ertelendi (hibrit sınırında, bkz. Ertelenenler) |
+| Ford Focus 4 1.5 EcoBlue | 2018-2021 | yeni (1.5 EcoBlue, listede yok) | `getrag-6dct450` (mevcut ıslak DCT) | ⏸ ertelendi (yeni motor ailesi gerektiriyor, bkz. Ertelenenler) |
 
 ---
 
@@ -98,8 +112,8 @@ ihtimali yüksek (doğrulanmalı).
 
 | Model | Yıl | Motor adayı | Şanzıman adayı | Etiket |
 |---|---|---|---|---|
-| MINI Cooper (R56) 1.6 | 2007-2013 | `psa-ep6-vti` (mevcut) | Aisin 6 ileri (mevcut ailelerden biri, doğrulanmalı) | 🟢 |
-| MINI Cooper S (R56) 1.6 Turbo | 2007-2013 | `psa-ep6-thp` (mevcut) | Aisin 6 ileri (mevcut ailelerden biri, doğrulanmalı) | 🟢 |
+| MINI Cooper (R56) 1.6 | 2007-2013 | `psa-ep6-vti` (mevcut) | `aisin-eat6` (doğrulandı) | ✅ eklendi: `mini-cooper-r56-1-6` |
+| MINI Cooper S (R56) 1.6 Turbo | 2007-2013 | `psa-ep6-thp` (mevcut) | `aisin-eat6` (doğrulandı) | ✅ eklendi: `mini-cooper-s-r56-1-6-turbo` |
 
 ### MINI (F56 kuşağı, 2014+) — 🔴 yeni bileşen
 
@@ -120,8 +134,26 @@ gerekçesiyle doğrudan reddedilmeli, ayrı bir aile açılmalı.
 
 | Model | Yıl | Motor adayı | Şanzıman adayı | Etiket |
 |---|---|---|---|---|
-| Cupra Formentor 2.0 TSI DSG | 2020-2023 | yeni (EA888 evo4, mevcut `vag-ea888`'den ayrı) | `vag-s-tronic-islak` (mevcut) | 🟡 |
-| Cupra Leon 2.0 TSI DSG | 2020-2023 | aynı | `vag-s-tronic-islak` (mevcut) | 🟡 |
+| Cupra Formentor 2.0 TSI DSG | 2020-2023 | yeni: `vag-ea888-evo4` açıldı | `vag-s-tronic-islak` (mevcut) | ✅ eklendi: `cupra-formentor-2-0-tsi-dsg` |
+| Cupra Leon 2.0 TSI DSG | 2020-2023 | `vag-ea888-evo4` (aynı) | `vag-s-tronic-islak` (mevcut) | ✅ eklendi: `cupra-leon-2-0-tsi-dsg` |
+
+---
+
+## Ertelenenler — A/B içinde kaynaklanmayan satırlar
+
+Bu satırlar A ve B bölümlerinde duruyordu ama bu turda işlenmedi; çoğu yeni bir motor
+veya şanzıman ailesi gerektiriyor (CLAUDE.md §2 sıra kuralı: önce bileşen, sonra araç).
+Bir sonraki round için hazır bir kısa liste:
+
+| Aday | Neden ertelendi |
+|---|---|
+| VW T-Roc 1.5 TSI, VW Polo 1.0 TSI | Yeni EA211 revizyonu/3 silindirli motor gerekiyor |
+| Peugeot 3008 1.6 BlueHDi, Citroën C5 Aircross 1.5 BlueHDi, Opel Crossland X 1.2 Turbo | Yeni PSA motor ailesi (1.5 BlueHDi / PureTech) gerekiyor; C5 Aircross için EAT8 şanzımanı da yeni ama 3 yetim kaynak zaten hazır |
+| Kia Ceed SW 1.6 CRDi | İşlenmedi ama bileşenleri tamamen mevcut — en düşük riskli ertelenen aday |
+| Toyota C-HR 1.2 Turbo, Mazda CX-5 2.0 | Yeni motor (C-HR) veya yeni şanzıman ailesi (Mazda'nın kendi otomatiği) gerekiyor |
+| Nissan Juke 1.6 CVT | Listede zaten "Nissan Juke 1.6" adında bir kayıt var; tekrar riski önce kontrol edilmeli |
+| Ford Puma 1.0 EcoBoost, Ford Focus 4 1.5 EcoBlue | Puma tamamen mild-hibrit satılıyor (⛔ şema kararı sınırında); Focus 4 yeni motor ailesi gerektiriyor |
+| MINI Cooper (F56) 1.5, MINI Countryman (F60) | BMW B38/B48 motoru listede yok, yeni araştırma gerekiyor |
 
 ---
 
@@ -169,21 +201,20 @@ yazılmalı; bu, geri alınması pahalı bir karar olduğu için atlanmamalı.
 
 ## Öneri: hangi sırayla ilerlenmeli
 
-Kullanıcının "önce marka, sonra model, sonra yıl/motor/şanzıman" yöntemine göre, risk
-ve efor dengesi şöyle kurulabilir:
+Kullanıcının "önce marka, sonra model, sonra yıl/motor/şanzıman" yöntemine göre risk
+ve efor dengesi şöyle kurulmuştu; 1-3 artık **bitti**:
 
-1. **A bölümü (mevcut marka genişletmesi, 🟢 satırlar)** — en ucuz, en hızlı. Tek
-   başına 2016+ ve SUV sayısını hızla yükseltir; hiç yeni bileşen gerektirmiyor.
-2. **B bölümü, MINI R56** — yeni bir marka kapatır, hâlâ 🟢/doğrulanabilir düşük risk.
-3. **B bölümü, Cupra** — yeni marka, tek bir yeni motor ailesi (EA888 evo4) gerektirir,
-   şanzıman zaten mevcut.
-4. **A bölümü, 🟡 satırlar** (Peugeot 3008, Citroën C5 Aircross, Kuga vb.) — kısmi
-   yeni bileşen, ama depoda zaten yetim kaynaklar hazır durumda.
+1. ~~**A bölümü (mevcut marka genişletmesi, 🟢 satırlar)**~~ — **bitti**, "Ertelenenler"
+   bölümündeki birkaç satır hariç.
+2. ~~**B bölümü, MINI R56**~~ — **bitti**, iki araç eklendi.
+3. ~~**B bölümü, Cupra**~~ — **bitti**, yeni motor ailesi (`vag-ea888-evo4`) açıldı.
+4. **"Ertelenenler" bölümü** — kısmi yeni bileşen gerektiren satırlar (Peugeot 3008,
+   Citroën C5 Aircross, T-Roc, Polo, C-HR, CX-5, Focus 4, MINI F56 vb.); depoda zaten
+   yetim kaynaklar hazır olanlar (3008/C5 Aircross/Grandland X ailesi) öncelikli.
 5. **C bölümü (Subaru, MG)** — en yüksek efor, tamamen yeni bileşen ailesi zinciri
-   gerektiriyor; MINI F56 de bu gruba yakın.
+   gerektiriyor.
 6. **D bölümü (Lexus, Togg, MG'nin EV/PHEV modelleri)** — önce `docs/ARCHITECTURE.md`
    MK kaydı yazılmadan hiç başlanmamalı.
 
-**Kullanıcıdan beklenen karar:** yukarıdaki hangi satırların (ya da bölümlerin) bu
-turda kaynaklı araştırmaya (`data/queue/` üzerinden) alınacağı. Onay verildikten sonra
-her aday için WebSearch ile gerçek kaynak aranacak, sonra `data/` içine işlenecek.
+**Kullanıcıdan beklenen karar:** "Ertelenenler", C ve D bölümlerinden hangisinin
+sıradaki turda kaynaklı araştırmaya (`data/queue/` üzerinden) alınacağı.

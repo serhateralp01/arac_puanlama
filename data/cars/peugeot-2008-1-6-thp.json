@@ -1,0 +1,40 @@
+{
+  "id": "peugeot-2008-1-6-thp",
+  "name": "Peugeot 2008 1.6 THP",
+  "tag": "oto: 4 ileri TK (AL4) · 156hp",
+  "brand_group": "Peugeot",
+  "years": "2014-2017",
+  "specs": {
+    "hp": 156,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "psa-al4",
+    "body_type": "SUV",
+    "engine_id": "psa-ep6-thp",
+    "lpg_common": false
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 46,
+    "trans": 40,
+    "fun": 58,
+    "comf": 68,
+    "age": 74,
+    "cost": 68,
+    "liq": 66
+  },
+  "sources": [
+    "sikayetvar_peugeot_2008"
+  ],
+  "note": "2008'in ilk nesli (208 platformu); EP6 THP turbo motoru ve eski 4 ileri AL4 otomatiği listede zaten kayıtlı, ikisi de düşük puanlı bileşenler (motor triger zinciri, kutu genel olarak eski tasarım). Cam kriko motoru arızaları ve bazı araçlarda vites geçiş sorunları bildirilmiş; triger zinciri kontrolü ve şanzıman bakım geçmişi satın almadan önce mutlaka sorulmalı.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  }
+}

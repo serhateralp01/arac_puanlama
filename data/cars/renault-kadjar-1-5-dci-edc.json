@@ -1,0 +1,40 @@
+{
+  "id": "renault-kadjar-1-5-dci-edc",
+  "name": "Renault Kadjar 1.5 dCi EDC",
+  "tag": "oto: 6 ileri kuru EDC · 110hp",
+  "brand_group": "Renault",
+  "years": "2016-2020",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "renault-edc-kuru",
+    "body_type": "SUV",
+    "engine_id": "renault-k9k",
+    "lpg_common": null
+  },
+  "price_band_k_try": [
+    800,
+    1150
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 58,
+    "trans": 54,
+    "fun": 48,
+    "comf": 76,
+    "age": 80,
+    "cost": 80,
+    "liq": 74
+  },
+  "sources": [
+    "sikayetvar_kadjar_kronik"
+  ],
+  "note": "Nissan Qashqai ile aynı platformu paylaşan Renault SUV'u; motor ve şanzıman Captur/Duster ile birebir aynı, listede zaten kayıtlı. EDC uyarı lambası, 1.-2. vites arası gıcırtılı geçiş ve vites kolu pimi kırılması tekrarlayan şikayetler arasında; bunların çoğu bakım/adaptasyon güncellemesiyle giderilebiliyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "skoda-kodiaq-1-4-tsi-dsg",
+  "name": "Skoda Kodiaq 1.4 TSI DSG",
+  "tag": "oto: 6 ileri ıslak DSG · 150hp",
+  "brand_group": "Skoda",
+  "years": "2017-2020",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "vag-dq250",
+    "body_type": "SUV",
+    "engine_id": "vag-ea211",
+    "lpg_common": false
+  },
+  "price_band_k_try": [
+    1250,
+    1750
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 72,
+    "trans": 62,
+    "fun": 55,
+    "comf": 86,
+    "age": 82,
+    "cost": 58,
+    "liq": 72
+  },
+  "sources": [
+    "sikayetvar_kodiaq"
+  ],
+  "note": "VAG'ın MQB tabanlı 7 koltuklu SUV'u; EA211 1.4 TSI motoru ve ıslak DQ250 DSG kutusu listede zaten kayıtlı ve iyi belgelenmiş bir kombinasyon (Tiguan'da da kullanılıyor). Geniş iç hacim ve VAG kalite hissi konfor puanını yukarı çekiyor. DSG'de düşük hızda titreme ve panoramik camda su sızıntısı bildirilmiş; 7 koltuklu versiyonlarda üçüncü sıra koltuk mekanizması ayrıca kontrol edilmeli.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  }
+}

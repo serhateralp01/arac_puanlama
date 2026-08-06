@@ -416,5 +416,404 @@
       "reasoning": "Depoda önceden duran ama hiçbir araca bağlı olmayan bir kaynaktı (yetim-kaynak uyarısı); bu turda karşılık gelen araç kaydı açılınca doğrudan bağlandı, yeniden değerlendirilmesi gerekmedi.",
       "resolved_at": "2026-08-06"
     }
+  },
+  {
+    "id": "sikayetvar_kodiaq__skoda-kodiaq-1-4-tsi-dsg",
+    "car_id": "skoda-kodiaq-1-4-tsi-dsg",
+    "criterion": "genel",
+    "query": "Skoda Kodiaq 1.4 TSI DSG sorun şikayet forum Türkiye",
+    "url": "https://www.sikayetvar.com/skoda/kodiaq",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Skoda Kodiaq şikayetleri derlemesinde, DSG şanzımanlı bazı Kodiaq'larda düşük hızda titreme ve bir örnekte ~60.000 km'de su pompası arızası bildirildiği; ayrıca panoramik cam açılma mekanizmasında su sızıntısı şikayetlerinin tekrarlandığı.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_kodiaq",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "otopark_karoq_16tdi__skoda-karoq-1-6-tdi-dsg",
+    "car_id": "skoda-karoq-1-6-tdi-dsg",
+    "criterion": "genel",
+    "query": "Skoda Karoq 1.6 TDI DSG sorun forum inceleme",
+    "url": "https://otopark.com/forum/threads/skoda-karoq-1-6-tdi-dsg-style-inceleme.7150/",
+    "publisher": "Otopark.com Forum",
+    "claim": "Otopark.com forumundaki Skoda Karoq 1.6 TDI DSG incelemesinde, eski nesil kuru DSG'nin (DQ200) düşük hızda kickdown tepkisinin gecikmeli olduğu ve trafikte hafif sarsıntı hissedildiği, buna karşılık motorun yakıt tüketimi ve güvenilirlik açısından iyi değerlendirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "otopark_karoq_16tdi",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_audi_q3__audi-q3-2-0-tdi-quattro",
+    "car_id": "audi-q3-2-0-tdi-quattro",
+    "criterion": "genel",
+    "query": "Audi Q3 2.0 TDI quattro sorun şikayet forum Türkiye",
+    "url": "https://www.sikayetvar.com/audi/q3",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Audi Q3 derlemesinde bir 2016 model Q3'te panoramik cam açılma/su sızıntısı sorunu bildirildiği; buna karşılık 2.0 TDI'yi 1.5 yıldır kullanan bir sahibin aracın hiç arıza vermediğini ve düşük bakım maliyetiyle sorunsuz gittiğini aktardığı.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_audi_q3",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_seat_ateca__seat-ateca-1-6-tdi-dsg",
+    "car_id": "seat-ateca-1-6-tdi-dsg",
+    "criterion": "genel",
+    "query": "Seat Ateca 1.6 TDI DSG sorun şikayet forum Türkiye",
+    "url": "https://www.sikayetvar.com/seat/ateca",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Seat Ateca derlemesinde, DSG'li araçlarda yokuşta 2.-3. vites arası tereddüt ve iç mekan trim gıcırtısı şikayetlerinin, dizel modellerde ise DPF tıkanması için düzenli uzun yol kullanımının önerildiği bildiriliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_seat_ateca",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_peugeot_2008__peugeot-2008-1-6-thp",
+    "car_id": "peugeot-2008-1-6-thp",
+    "criterion": "genel",
+    "query": "Peugeot 2008 1.6 THP otomatik sorun şikayet forum Türkiye",
+    "url": "https://www.sikayetvar.com/peugeot/2008",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Peugeot 2008 derlemesinde cam kriko motoru arızaları ve bazı otomatik şanzımanlı araçlarda vites geçiş sorunlarının tekrarlayan şikayetler arasında sayıldığı bildiriliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_peugeot_2008",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "dhaber_grandland_x__opel-grandland-x-1-6-cdti-eat6",
+    "car_id": "opel-grandland-x-1-6-cdti-eat6",
+    "criterion": "genel",
+    "query": "Opel Grandland X 1.6 CDTI EAT6 sorun forum inceleme",
+    "url": "https://forum.donanimhaber.com/opel-grandland-x-inceleme--136808154",
+    "publisher": "DonanımHaber Forum",
+    "claim": "DonanımHaber forumundaki Opel Grandland X incelemesinde 120 bg 1.6 CDTI motorun EAT6 (Aisin 6 ileri) kutuyla yumuşak ve tutarlı vites geçişleri yaptığı, buna karşılık bir kullanıcının yağ basıncı uyarı lambası şikayeti bildirdiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "dhaber_grandland_x",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "motor1_psa_suv_eat__opel-grandland-x-1-6-cdti-eat6",
+    "car_id": "opel-grandland-x-1-6-cdti-eat6",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://tr.motor1.com/reviews/410149/drag-3008-c5-aircross-grandlandx/",
+    "publisher": "tr.motor1.com",
+    "claim": "Motor1 Türkiye: Peugeot 3008, Citroën C5 Aircross ve Opel Grandland X karşılaştırması — 3008/C5 Aircross EAT8, Grandland X EAT6 kutu farkının teyidi",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "trade-press",
+      "source_id": "motor1_psa_suv_eat",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_captur_kronik__renault-captur-1-5-dci-edc",
+    "car_id": "renault-captur-1-5-dci-edc",
+    "criterion": "genel",
+    "query": "Renault Captur 1.5 dCi EDC kronik sorun şikayet forum",
+    "url": "https://www.sikayetvar.com/renault/captur/kronik",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Renault Captur kronik şikayetleri derlemesinde, bir araçta 149.000 km'de motor kontrol ünitesi (ECU) arızası ve EDC şanzıman beyni değişiminin ~42.000 TL'ye mal olduğu, düşük hızda 1.-2. vites arası gürültü şikayetlerinin tekrarlandığı bildiriliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_captur_kronik",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_kadjar_kronik__renault-kadjar-1-5-dci-edc",
+    "car_id": "renault-kadjar-1-5-dci-edc",
+    "criterion": "genel",
+    "query": "Renault Kadjar 1.5 dCi EDC kronik sorun şikayet forum",
+    "url": "https://www.sikayetvar.com/renault/kadjar/kronik",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Renault Kadjar kronik şikayetleri derlemesinde EDC şanzıman uyarı lambası, 1.-2. vites arası gıcırtılı geçiş ve vites kolu pimi kırılması vakalarının tekrarlayan şikayetler arasında sayıldığı bildiriliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_kadjar_kronik",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "araclo_megane_15dci__renault-megane-4-1-5-dci-edc",
+    "car_id": "renault-megane-4-1-5-dci-edc",
+    "criterion": "genel",
+    "query": "Renault Megane 4 1.5 dCi EDC sorun inceleme",
+    "url": "https://www.araclo.com/blog/renault-megane-1.5-dci-incelemesi-yakit-tuketimi-kronik-sorunlar-ve-sahip-olma-maliyeti",
+    "publisher": "Araclo.com",
+    "claim": "Araclo.com'un Renault Megane 1.5 dCi incelemesinde enjektör tıkanmasının en bilinen arıza kalemi olduğu, 100.000 km üzerinde turbo arızalarının görülebildiği ve düzenli yakıt/yağ bakımının bu riski azalttığı belirtiliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "araclo_megane_15dci",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_clio_10tce__renault-clio-5-1-3-tce-edc",
+    "car_id": "renault-clio-5-1-3-tce-edc",
+    "criterion": "genel",
+    "query": "Renault Clio 5 TCe EDC sorun şikayet forum Türkiye",
+    "url": "https://www.sikayetvar.com/renault/clio/10-tce",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Renault Clio 1.0 TCe derlemesinde EDC şanzımanlı araçlarda düşük hızda gecikmeli tepki ve sarsıntılı geçiş, 3 silindirli motorda kabin titreşimi ve soğuk havada yağ dilüsyonu riskinin bildirildiği aktarılıyor; bu şikayetler 1.0 TCe'ye özgü olsa da aynı EDC ailesini paylaşan 1.3 TCe için de şanzıman geçmişinin kontrol edilmesi öneriliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_clio_10tce",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "araclo_sportage_16crdi__kia-sportage-1-6-crdi-7dct",
+    "car_id": "kia-sportage-1-6-crdi-7dct",
+    "criterion": "genel",
+    "query": "Kia Sportage 1.6 CRDi 7DCT sorun şikayet forum",
+    "url": "https://www.araclo.com/blog/kia-sportage-1.6-crdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+    "publisher": "Araclo.com",
+    "claim": "Araclo.com'un Kia Sportage 1.6 CRDi incelemesinde 7 ileri kuru DCT'nin kalkışta ve rampada titreme yaptığı, bazı 2022 model araçlarda yağ eksiltme sorunu bildirildiği ve torpido göğsünde çatlama şikayetlerinin segment için beklenmedik bulunduğu aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "araclo_sportage_16crdi",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_i30_genel__hyundai-i30-pd-1-6-crdi-7dct",
+    "car_id": "hyundai-i30-pd-1-6-crdi-7dct",
+    "criterion": "genel",
+    "query": "Hyundai i30 1.6 CRDi 7DCT sorun şikayet forum Türkiye",
+    "url": "https://www.sikayetvar.com/hyundai-motor/i30",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Hyundai i30 derlemesinde motor aşırı ısınma şikayetleri ve elektronik direksiyon (EPS) uyarı lambası vakalarının tekrarlandığı, bunun yanında modelin genel olarak düşük bakım maliyetiyle anıldığı bildiriliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_i30_genel",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_corolla_genel__toyota-corolla-e210-1-6-cvt",
+    "car_id": "toyota-corolla-e210-1-6-cvt",
+    "criterion": "genel",
+    "query": "Toyota Corolla E210 CVT sorun şikayet forum Türkiye",
+    "url": "https://www.sikayetvar.com/toyota/corolla",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Toyota Corolla derlemesinde kablosuz şarj ünitesinin rastgele kesilmesi, yüksek hızda ıslık sesi ve boya soyulması gibi görece küçük ve yapısal olmayan şikayetlerin öne çıktığı; motor ve CVT ile ilgili ciddi bir kronik arıza bildirilmediği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_corolla_genel",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_kuga_ecoboost__ford-kuga-1-5-ecoboost-6at",
+    "car_id": "ford-kuga-1-5-ecoboost-6at",
+    "criterion": "genel",
+    "query": "Ford Kuga 1.5 EcoBoost otomatik sorun şikayet forum",
+    "url": "https://www.sikayetvar.com/ford/kuga/ecoboost",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Ford Kuga EcoBoost derlemesinde bazı araçlarda 10-15 bin km aralığında soğutucu sıvı eksilmesi ve bir 2015 model örnekte 112.500 km'de silindir kapağı contası yanması bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_kuga_ecoboost",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "tediousrepairs_mini_r56__mini-cooper-r56-1-6",
+    "car_id": "mini-cooper-r56-1-6",
+    "criterion": "genel",
+    "query": "MINI Cooper R56 Prince motor Aisin otomatik şanzıman bilinen sorunlar",
+    "url": "https://tediousrepairs.com/mini-cooper-r56-common-problems-chico-ca.html",
+    "publisher": "tediousrepairs.com",
+    "claim": "tediousrepairs.com'un MINI Cooper R56 bilinen sorunlar derlemesinde Prince motor ailesinde triger zinciri gergisi arızası, yüksek basınç yakıt pompası (HPFP) arızaları, su pompası sızıntısı ve ateşleme bobini arızalarının en sık görülen kalemler olduğu; buna karşılık Aisin kaynaklı 6 ileri otomatik şanzımanın ailenin görece güvenilir bileşeni olduğu belirtiliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "tediousrepairs_mini_r56",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "tediousrepairs_mini_r56__mini-cooper-s-r56-1-6-turbo",
+    "car_id": "mini-cooper-s-r56-1-6-turbo",
+    "criterion": "genel",
+    "query": "MINI Cooper R56 Prince motor Aisin otomatik şanzıman bilinen sorunlar",
+    "url": "https://tediousrepairs.com/mini-cooper-r56-common-problems-chico-ca.html",
+    "publisher": "tediousrepairs.com",
+    "claim": "tediousrepairs.com'un MINI Cooper R56 bilinen sorunlar derlemesinde Prince motor ailesinde triger zinciri gergisi arızası, yüksek basınç yakıt pompası (HPFP) arızaları, su pompası sızıntısı ve ateşleme bobini arızalarının en sık görülen kalemler olduğu; buna karşılık Aisin kaynaklı 6 ileri otomatik şanzımanın ailenin görece güvenilir bileşeni olduğu belirtiliyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "tediousrepairs_mini_r56",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "cupraforum_ea888_evo4_oil__cupra-formentor-2-0-tsi-dsg",
+    "car_id": "cupra-formentor-2-0-tsi-dsg",
+    "criterion": "genel",
+    "query": "Cupra Formentor 2.0 TSI DSG EA888 evo4 motor sorun forum",
+    "url": "https://cupra-forum.com/forum/thread/2655-motor-ea-888-problem-%C3%B6lpumpe/",
+    "publisher": "Cupra Forum",
+    "claim": "Cupra Forum'daki (Almanca topluluk) bir başlıkta EA888 evo4 motorunun yağ pompası tasarımının üçüncü nesil (evo3) ile aynı olduğu ve bu nedenle aynı yağ tüketimi eğilimini taşıdığı, 100.000 km üzerindeki araçlarda servis aralığında 500 ml - 1.3 litre yağ ilavesinin yaygın bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "cupraforum_ea888_evo4_oil",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "araclo_cupra_formentor__cupra-formentor-2-0-tsi-dsg",
+    "car_id": "cupra-formentor-2-0-tsi-dsg",
+    "criterion": "genel",
+    "query": "Cupra Formentor 2.0 TSI DSG kronik sorun inceleme",
+    "url": "https://www.araclo.com/blog/cupra-formentor-alinir-mi-kronik-sorunlari-kullanici-yorumlari-ve-tum-detaylar-2026",
+    "publisher": "Araclo.com",
+    "claim": "Araclo.com'un Cupra Formentor incelemesinde motorun zincir uzaması (eski nesillerde), piston segmanı kırılması ve yatak sorunlarının bilinen kalemler arasında sayıldığı; Türkiye'deki kullanıcı şikayetlerinde 2.459 km gibi düşük kilometrede mekanik/elektronik arıza ve yağ seviyesi şikayetlerinin bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "araclo_cupra_formentor",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "cupraforum_ea888_evo4_oil__cupra-leon-2-0-tsi-dsg",
+    "car_id": "cupra-leon-2-0-tsi-dsg",
+    "criterion": "genel",
+    "query": "Cupra Formentor 2.0 TSI DSG EA888 evo4 motor sorun forum",
+    "url": "https://cupra-forum.com/forum/thread/2655-motor-ea-888-problem-%C3%B6lpumpe/",
+    "publisher": "Cupra Forum",
+    "claim": "Cupra Forum'daki (Almanca topluluk) bir başlıkta EA888 evo4 motorunun yağ pompası tasarımının üçüncü nesil (evo3) ile aynı olduğu ve bu nedenle aynı yağ tüketimi eğilimini taşıdığı, 100.000 km üzerindeki araçlarda servis aralığında 500 ml - 1.3 litre yağ ilavesinin yaygın bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "cupraforum_ea888_evo4_oil",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "araclo_cupra_formentor__cupra-leon-2-0-tsi-dsg",
+    "car_id": "cupra-leon-2-0-tsi-dsg",
+    "criterion": "genel",
+    "query": "Cupra Formentor 2.0 TSI DSG kronik sorun inceleme",
+    "url": "https://www.araclo.com/blog/cupra-formentor-alinir-mi-kronik-sorunlari-kullanici-yorumlari-ve-tum-detaylar-2026",
+    "publisher": "Araclo.com",
+    "claim": "Araclo.com'un Cupra Formentor incelemesinde motorun zincir uzaması (eski nesillerde), piston segmanı kırılması ve yatak sorunlarının bilinen kalemler arasında sayıldığı; Türkiye'deki kullanıcı şikayetlerinde 2.459 km gibi düşük kilometrede mekanik/elektronik arıza ve yağ seviyesi şikayetlerinin bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "araclo_cupra_formentor",
+      "reasoning": "Y-01 hedef listesi A/B turunda eklenen bir aracın kanıt kaydı; kaynak gerçek ve erişilebilir, aracın bağlı olduğu bileşen ailesinin bilinen örüntüsünü destekliyor.",
+      "resolved_at": "2026-08-06"
+    }
   }
 ]

@@ -1,0 +1,40 @@
+{
+  "id": "hyundai-i30-pd-1-6-crdi-7dct",
+  "name": "Hyundai i30 (PD) 1.6 CRDi 7DCT",
+  "tag": "oto: 7 ileri kuru DCT · 136hp",
+  "brand_group": "Hyundai",
+  "years": "2017-2020",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "hyundai-7dct",
+    "body_type": "Hatchback",
+    "engine_id": "hyundai-u2-16",
+    "lpg_common": null
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 68,
+    "trans": 46,
+    "fun": 50,
+    "comf": 76,
+    "age": 80,
+    "cost": 78,
+    "liq": 76
+  },
+  "sources": [
+    "sikayetvar_i30_genel"
+  ],
+  "note": "Üçüncü nesil (PD) i30'un dizel-otomatik kombinasyonu; U2 1.6 CRDi motoru ve kuru 7DCT kutusu Tucson/Sportage ile aynı aileden, listede zaten kayıtlı. Motor aşırı ısınma ve EPS uyarı lambası şikayetleri bildirilmiş; buna karşılık model genel olarak düşük bakım maliyetiyle anılıyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  }
+}

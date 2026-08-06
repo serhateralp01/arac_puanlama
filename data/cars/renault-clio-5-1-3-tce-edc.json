@@ -1,0 +1,40 @@
+{
+  "id": "renault-clio-5-1-3-tce-edc",
+  "name": "Renault Clio 5 1.3 TCe EDC",
+  "tag": "oto: 7 ileri ıslak EDC · 130hp",
+  "brand_group": "Renault",
+  "years": "2019-2022",
+  "specs": {
+    "hp": 130,
+    "displacement_l": 1.3,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "getrag-7dct300",
+    "body_type": "Hatchback",
+    "engine_id": "renault-h5ht",
+    "lpg_common": false
+  },
+  "price_band_k_try": [
+    850,
+    1200
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 68,
+    "trans": 70,
+    "fun": 54,
+    "comf": 74,
+    "age": 86,
+    "cost": 82,
+    "liq": 84
+  },
+  "sources": [
+    "sikayetvar_clio_10tce"
+  ],
+  "note": "Beşinci nesil Clio'nun 1.3 TCe EDC kombinasyonu; H5Ht motoru Qashqai ve Koleos'ta da kullanılan aynı Renault-Nissan-Mercedes ailesinden, 7 ileri ıslak EDC kutusu (Getrag 7DCT300) da listede zaten kayıtlı. Kaynak aynı ailenin 1.0 TCe versiyonuna odaklansa da EDC şanzımanın düşük hızda gecikmeli tepki eğilimi ortak; şanzıman bakım geçmişi kontrol edilmeli. Clio Türkiye'de çok likit bir model.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  }
+}

@@ -2937,5 +2937,40 @@
     ],
     "revision_sensitivity": "2019 sonrası üretilen GDI motorlar bu sorunların bir kısmını gideriyor; listedeki hyundai-i30-1-6-gdi (2011-2016 üretim) bu iyileşmeden önceki döneme ait.",
     "note": "Hyundai i30 1.6 GDi'nin kullandığı doğrudan enjeksiyonlu sürüm. Aynı dönemde Hyundai/Kia'nın Theta II 2.0/2.4 GDI (toplu dava konusu biyel kolu yatağı arızası) ve Nu 2.0 GDI aileleriyle aynı kök nedeni paylaştığı iddia ediliyor. Bu araç zaten aynı ailedeki MPI kardeşlerinden (80-82) düşük puanlıydı (72); araştırma bunun gerçek bir donanım farkına dayandığını doğruladı. [base_score gerekçesi: 35-49 (bilinen risk): karbon birikimi yaygın ve GDI ailesinin paylaştığı kök neden ciddi; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
+  },
+  "vag-ea888-evo4": {
+    "id": "vag-ea888-evo4",
+    "names": [
+      "EA888 evo4",
+      "2.0 TSI evo4",
+      "DNU",
+      "DNN"
+    ],
+    "supplier": "Volkswagen Group",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2.0
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 50,
+    "maintenance": "Yağ seviyesi düzenli kontrol edilmeli; 100.000 km üzerinde servis aralığında 0.5-1.3 litre yağ eksilmesi üretici/servis tarafından normal kabul ediliyor.",
+    "known_issues": [
+      {
+        "issue": "Yağ tüketimi eğilimi; üçüncü nesil (EA888 evo3) ile aynı yağ pompası tasarımından kaynaklandığı bildiriliyor",
+        "onset_km": 100000,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "cupraforum_ea888_evo4_oil"
+        ]
+      }
+    ],
+    "sources": [
+      "cupraforum_ea888_evo4_oil",
+      "araclo_cupra_formentor"
+    ],
+    "revision_sensitivity": "evo4, evo3'ün (listedeki vag-ea888 kaydı, base_score 46) doğrudan devamı; iki kaynak da yağ pompasının nesiller arasında değişmediğini ve yağ tüketimi eğiliminin evo4'e taşındığını doğruluyor. Bu yüzden ayrı bir aile olarak açıldı ama base_score'u evo3'ten çok farklı tutulmadı — MK-08 gerekçesi: revizyon farkı donanımı değiştirecek kadar büyük değil, ama belgelenmiş bir kanıt farkı var, o yüzden aynı kayda da zorlanmadı.",
+    "note": "Cupra Formentor/Leon ve güncel VW/Audi/Skoda 2.0 TSI modellerinde kullanılan dördüncü nesil EA888. [base_score gerekçesi: 50-64 (yönetilebilir ama tekrarlayan bakım kalemi): yağ tüketimi sorunu üçüncü nesilden dördüncü nesle taşınmış, iki bağımsız kaynak bunu doğruluyor; ikisi de C seviyesinde olduğu için 35 altına düşürülmedi, üst banda da çıkarılmadı.]"
   }
 }

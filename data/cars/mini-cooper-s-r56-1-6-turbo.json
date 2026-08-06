@@ -1,0 +1,40 @@
+{
+  "id": "mini-cooper-s-r56-1-6-turbo",
+  "name": "MINI Cooper S (R56) 1.6 Turbo",
+  "tag": "oto: 6 ileri TK (Aisin) · 175hp",
+  "brand_group": "MINI",
+  "years": "2007-2013",
+  "specs": {
+    "hp": 175,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-eat6",
+    "body_type": "Hatchback",
+    "engine_id": "psa-ep6-thp",
+    "lpg_common": false
+  },
+  "price_band_k_try": [
+    600,
+    950
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 46,
+    "trans": 72,
+    "fun": 80,
+    "comf": 58,
+    "age": 66,
+    "cost": 44,
+    "liq": 56
+  },
+  "sources": [
+    "tediousrepairs_mini_r56"
+  ],
+  "note": "Cooper S'in turbolu Prince motoru (THP versiyonu); aynı motor listede Peugeot/Citroën 1.6 THP araçlarında zaten kayıtlı ve triger zinciri uzaması ailenin en bilinen zaafı olarak orada da işaretli. Sürüş keyfi segmentinin en üstünde ama konfor ve işletme maliyeti bu yüzden geriliyor; turbo motorlu R56'larda zincir kontrolü Cooper'a göre daha kritik.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "renault-megane-4-1-5-dci-edc",
+  "name": "Renault Megane 4 1.5 dCi EDC",
+  "tag": "oto: 6 ileri kuru EDC · 110hp",
+  "brand_group": "Renault",
+  "years": "2016-2020",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "renault-edc-kuru",
+    "body_type": "Hatchback",
+    "engine_id": "renault-k9k",
+    "lpg_common": null
+  },
+  "price_band_k_try": [
+    750,
+    1080
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 58,
+    "trans": 54,
+    "fun": 52,
+    "comf": 80,
+    "age": 80,
+    "cost": 80,
+    "liq": 76
+  },
+  "sources": [
+    "araclo_megane_15dci"
+  ],
+  "note": "Dördüncü nesil Megane'nin dCi EDC kombinasyonu; K9K motoru ve kuru EDC kutusu listede zaten kayıtlı, aynı ailenin diğer Renault modelleriyle paylaşılıyor. Enjektör tıkanması en bilinen arıza kalemi; 100.000 km üzerinde turbo arızaları görülebiliyor ama düzenli yakıt/yağ bakımı riski belirgin biçimde azaltıyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  }
+}

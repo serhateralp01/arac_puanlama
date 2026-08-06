@@ -1,0 +1,40 @@
+{
+  "id": "seat-ateca-1-6-tdi-dsg",
+  "name": "Seat Ateca 1.6 TDI DSG",
+  "tag": "oto: 7 ileri kuru DSG · 115hp",
+  "brand_group": "Seat",
+  "years": "2017-2020",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "SUV",
+    "engine_id": "vag-ea288",
+    "lpg_common": null
+  },
+  "price_band_k_try": [
+    1000,
+    1450
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 76,
+    "trans": 38,
+    "fun": 54,
+    "comf": 80,
+    "age": 80,
+    "cost": 62,
+    "liq": 64
+  },
+  "sources": [
+    "sikayetvar_seat_ateca"
+  ],
+  "note": "Seat'in MQB tabanlı ilk SUV'u; motor ve şanzıman Karoq/Kodiaq ile birebir aynı aileden, listede zaten kayıtlı. Yokuşta 2.-3. vites arası tereddüt DQ200'ün bilinen zayıflığıyla örtüşüyor; iç mekan trim gıcırtısı ayrı, yapısal olmayan bir şikayet. Dizel modellerde DPF tıkanmaması için düzenli uzun yol kullanımı öneriliyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  }
+}

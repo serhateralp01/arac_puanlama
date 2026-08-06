@@ -30,13 +30,13 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynaksız araçlar (Y-02) | Kaynaksız 14 araç kapatıldı; araç başına ortalama kaynak hâlâ hedefin (2.5) altında, 1.87 |
-| Araç listesi (Y-01) | Başlandı: 154 → 160 araç, 2016+ 5 → 11, SUV 1 → 7, 2 yeni marka (Dacia, Jeep) |
+| Kaynaksız araçlar (Y-02) | Kaynaksız araç yok; araç başına ortalama kaynak hâlâ hedefin (2.5) altında, 1.80 |
+| Araç listesi (Y-01) | Başlandı: 154 → 178 araç, 2016+ 5 → 25, SUV 1 → 18, 4 yeni marka (Dacia, Jeep, MINI, Cupra) |
 | **Kaynak derinliği** | **Zayıf, ama iyileşiyor — kuyruk artık çalışır durumda** |
 | **Araç kapsamı** | **Hâlâ dar ama genişliyor — 2016+ ve SUV hedeflerinin çoğu önümüzde** |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 
-Denetimin bugünkü çıktısı: **0 hata, 183 uyarı**. Uyarıların ezici çoğunluğu (152) tek
+Denetimin bugünkü çıktısı: **0 hata, 202 uyarı**. Uyarıların ezici çoğunluğu (170) tek
 bir kalemden geliyor: araçların dört bağımsız kaynağa ulaşmamış olması. Kuyruk artık
 kurulduğu için bu sayı, tek tek araç dosyası düzenlemek yerine kuyruğu tekrar tekrar
 çalıştırarak düşürülebilir.
@@ -82,30 +82,75 @@ bu turda açılan araç kayıtlarına karşılık geldiği için doğrudan bağl
 oturumun Y-01'i önceden öngörüp araştırma yaptığının ama karşılık gelen aracı hiç
 açmadığının kanıtı. `yetim-kaynak` uyarısı bu turda 11'den 6'ya düştü.
 
-**Sonuç:** araç sayısı 154 → 160, 2016 sonrası araç sayısı 5 → 11, SUV sayısı 1 → 7,
-iki yeni marka (Dacia, Jeep) eklendi. `validate.py` hâlâ 0 hata.
+**Sonuç (birinci tur):** araç sayısı 154 → 160, 2016 sonrası araç sayısı 5 → 11, SUV
+sayısı 1 → 7, iki yeni marka (Dacia, Jeep) eklendi. `validate.py` hâlâ 0 hata.
+
+**İkinci tur — hedef liste önce sunuldu, sonra kullanıcı onayıyla işlendi.**
+Kullanıcı "önce markaları geliştir, sonra modellerini, sonra yıl bazında motor/şanzıman
+eşleştir; kaynaklı araştırmadan önce seçeneklerimi görmek istiyorum" dedi. Bunun için
+önce `docs/Y01-HEDEF-LISTE.md` yazıldı: her aday satır 🟢 (mevcut bileşen), 🟡 (kısmi),
+🔴 (yeni bileşen) veya ⛔ (şema kararı bekliyor) etiketiyle işaretlendi, hiçbiri henüz
+kaynaklanmadı. Kullanıcı "A ve B'yi tamamla, C ve D'yi kaydet, ayarlarız" dedi.
+
+A ve B bölümlerinin düşük riskli (🟢, mevcut bileşenli) satırları 2026-08-06'da
+kaynaklandı ve işlendi — **18 araç, 1 yeni motor ailesi (`vag-ea888-evo4`), 2 yeni
+marka (MINI, Cupra):**
+
+- VAG: Skoda Kodiaq, Skoda Karoq, Audi Q3 (8U) quattro, Seat Ateca — dördü de mevcut
+  EA211/EA288 + DQ200/DQ250 ailelerine bağlandı.
+- PSA: Peugeot 2008 1.6 THP, Opel Grandland X 1.6 CDTI EAT6 — mevcut EP6/DV6 +
+  AL4/EAT6 ailelerine bağlandı; Grandland X, depoda önceden duran yetim kaynakları
+  (`motor1_psa_suv_eat`) kullandı.
+- Renault: Captur, Kadjar, Megane 4, Clio 5 — dördü de mevcut K9K/H5Ht +
+  EDC ailelerine bağlandı. Clio 5 aday listesinde "1.0 TCe" olarak duruyordu;
+  araştırma sırasında gerçek şanzımanının 7 ileri **ıslak** EDC (`getrag-7dct300`)
+  olduğu ve 1.3 TCe (`renault-h5ht`, zaten kayıtlı) seçeneğinin yeni motor
+  gerektirmediği ortaya çıktı, aday buna göre düzeltildi.
+- Japon grubu: Kia Sportage, Hyundai i30 (PD), Toyota Corolla (E210) — üçü de mevcut
+  U2/ZR + 7DCT/Multidrive ailelerine bağlandı.
+- Ford: Kuga 1.5 EcoBoost — aday listesinde "8F35" (yeni bileşen) olarak duruyordu;
+  araştırma sırasında Mondeo 1.5 EcoBoost'ta zaten kayıtlı Aisin AWF21 kutusuyla aynı
+  nesil eşleştiğinin daha güvenilir olduğu görüldü, 2. nesil (2017-2019) 6 ileri
+  otomatik versiyon seçildi.
+- **MINI** (yeni marka): R56 kuşağı Cooper ve Cooper S — motorları listede zaten
+  kayıtlı "BMW/PSA Prince" ailesine (`psa-ep6-vti`/`psa-ep6-thp`) bağlandı, şanzıman
+  Aisin `aisin-eat6` ile doğrulandı.
+- **Cupra** (yeni marka): Formentor ve Leon, 2.0 TSI DSG — şanzıman mevcut
+  `vag-s-tronic-islak` ailesine bağlandı; motor için **yeni** `vag-ea888-evo4` ailesi
+  açıldı, çünkü listedeki eski `vag-ea888` kaydı farklı bir nesli (Golf Mk5/6 dönemi)
+  temsil ediyordu ve MK-08 gereği doğrudan reddedilmesi gerekiyordu. İki gerçek kaynak
+  (Cupra Forum, Araclo.com) evo3→evo4 arası yağ pompası tasarımının değişmediğini ve
+  yağ tüketimi eğiliminin taşındığını doğruladı; base_score bu yüzden eskisinden çok
+  farklı tutulmadı (46 → 50).
+
+**Sonuç (ikinci tur):** araç sayısı 160 → 178, 2016 sonrası araç sayısı 11 → 25, SUV
+sayısı 7 → 18, marka sayısı 29 → 31. `yetim-kaynak` uyarısı 6'dan 5'e düştü.
+`validate.py` hâlâ 0 hata.
+
+A/B'nin geri kalan (🟡/🔴 etiketli) satırları ve ertelenen adaylar
+`docs/Y01-HEDEF-LISTE.md`'nin "Ertelenenler" bölümünde duruyor — en düşük riskli aday
+(Kia Ceed SW, bileşenleri tamamen mevcut ama bu turda işlenmedi) bir sonraki round
+için hazır bekliyor.
 
 **Kalan iş — hedeflerin çoğu hâlâ karşılanmadı.** Bitmiş sayılma ölçütü (2016 sonrası
-≥ 40, SUV ≥ 25, eksik markalardan en az 5 temsil) şu an yalnızca marka kısmında
-karşılandı (Dacia + Jeep = 2, hedef 5). Sırada:
+≥ 40, SUV ≥ 25, eksik markalardan en az 5 temsil) şu an marka kısmında neredeyse tam
+(Dacia + Jeep + MINI + Cupra = 4, hedef 5 — bir marka daha eklenince bu madde de
+biter). Sırada:
 
-1. **Düşük riskli devam:** depodaki 6 kalan yetim kaynağı (`mkt`, `dhaber_sportage_dct`,
-   `motor1_psa_suv_eat`, `araclo_c5aircross`, `erenservis_eat8`, `otomobilforum_sanziman`)
-   Kia Sportage, Citroën C5 Aircross ve Peugeot 3008/Opel Grandland X gibi araçlara
-   işaret ediyor. C5 Aircross ve 3008/Grandland X için **yeni bileşen ailesi
-   gerekiyor** (1.5 BlueHDi motor ve EAT8 şanzıman listede yok); bu yüzden madde 2'deki
-   sıra kuralı gereği önce `data/engines.json` / `data/transmissions.json`'a bu
-   kayıtlar araştırılıp kaynağıyla açılmalı, araç sonra bağlanmalı.
-2. **MINI, Lexus, Cupra, MG, Togg** için uygun motor/şanzıman ailesi listede yok;
-   her biri kendi bileşen araştırmasını gerektiriyor.
-3. Hibrit araçlar (Lexus, Togg'un elektrikli olması) için önce bir şema kararı
-   gerekiyor: `fuel` alanı bugün yalnızca `Dizel` / `Benzin` kabul ediyor. Bu, geri
-   alınması pahalı bir karar olduğu için `docs/ARCHITECTURE.md`'ye MK kaydı olarak
-   yazılmadan araç eklenmemeli.
+1. **Düşük riskli devam:** `docs/Y01-HEDEF-LISTE.md`'deki "Ertelenenler" bölümü
+   (Kia Ceed SW hemen, sonra T-Roc/Polo/C-HR/CX-5/Focus4/MINI F56 için yeni bileşen
+   araştırması). C5 Aircross ve 3008/Grandland X ailesi için depoda hâlâ 3 yetim
+   kaynak (`araclo_c5aircross`, `erenservis_eat8`, `motor1_psa_suv_eat`) bekliyor.
+2. **C bölümü (Subaru, MG)** — tamamen yeni bileşen ailesi zinciri gerektiriyor,
+   kullanıcı onayı bekliyor.
+3. Hibrit/elektrikli araçlar (Lexus, Togg, MG'nin EV/PHEV modelleri) için önce bir
+   şema kararı gerekiyor: `fuel` alanı bugün yalnızca `Dizel` / `Benzin` kabul ediyor.
+   Bu, geri alınması pahalı bir karar olduğu için `docs/ARCHITECTURE.md`'ye MK kaydı
+   olarak yazılmadan araç eklenmemeli.
 
-**Bitmiş sayılma ölçütü (henüz karşılanmadı).** 2016 sonrası araç sayısı en az 40,
-SUV sayısı en az 25, listede hiç bulunmayan yaygın markalardan en az beşi temsil
-edilmiş (şu an 2/5) ve `validate.py` hâlâ 0 hata veriyor.
+**Bitmiş sayılma ölçütü (henüz karşılanmadı).** 2016 sonrası araç sayısı en az 40
+(şu an 25), SUV sayısı en az 25 (şu an 18), listede hiç bulunmayan yaygın markalardan
+en az beşi temsil edilmiş (şu an 4/5) ve `validate.py` hâlâ 0 hata veriyor.
 
 ---
 
@@ -127,14 +172,20 @@ geçti. Hiçbir puan bu turda değiştirilmedi — yalnızca kanıt eklendi; mot
 temel puanları zaten paylaşılan bileşen kayıtlarından geliyor, araç kaydına eklenen
 kaynak o aracın kendi kanıt zincirini tamamlıyor (bkz. "önemli ayrım" aşağıda).
 
-**Bugünkü tablo** (bu turdan sonra, `python3 scripts/validate.py` çıktısından):
+**Bugünkü tablo** (Y-01'in ikinci turundan sonra, 178 araç üzerinden):
 
 | Kaynak sayısı | Araç | Durum |
 |---:|---:|---|
 | 0 | 0 | — kalmadı |
-| 1 | 57 | Tek kaynak çürürse dayanaksız kalır |
-| 2-3 | 89 | Kısmi |
+| 1 | 76 | Tek kaynak çürürse dayanaksız kalır |
+| 2-3 | 94 | Kısmi |
 | 4+ | 8 | Doğrulanmış |
+
+Ortalama kaynak 1.87'den 1.80'e **geriledi** — bu bir gerileme değil, aritmetik bir
+sonuç: Y-01'in ikinci turunda eklenen 18 aracın çoğu tek kaynakla açıldı (yeni bir
+aracın "kaynaksız" başlamaması önceliklendirildi), bu da paydayı büyütüp ortalamayı
+aşağı çekti. Sıradaki iş hâlâ aynı: tek kaynaklı araçlara (şimdi 76 tane) ikinci bir
+kaynak bulmak.
 
 Araç başına ortalama kaynak **1.79 → 1.88**'e çıktı. Hedefin (2.5) altında; **kalan iş**
 bu 14 aracı ve tek kaynaklı diğer 43 aracı ikinci, bağımsız bir kaynağa daha bağlamak.

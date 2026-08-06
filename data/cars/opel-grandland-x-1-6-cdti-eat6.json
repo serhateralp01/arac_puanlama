@@ -1,0 +1,41 @@
+{
+  "id": "opel-grandland-x-1-6-cdti-eat6",
+  "name": "Opel Grandland X 1.6 CDTI EAT6",
+  "tag": "oto: 6 ileri TK (Aisin EAT6) · 120hp",
+  "brand_group": "Opel",
+  "years": "2018-2021",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-eat6",
+    "body_type": "SUV",
+    "engine_id": "psa-dv6",
+    "lpg_common": null
+  },
+  "price_band_k_try": [
+    1000,
+    1400
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 44,
+    "trans": 72,
+    "fun": 48,
+    "comf": 80,
+    "age": 80,
+    "cost": 62,
+    "liq": 58
+  },
+  "sources": [
+    "dhaber_grandland_x",
+    "motor1_psa_suv_eat"
+  ],
+  "note": "PSA platformunu paylaşan Opel SUV'u; 1.6 BlueHDi/CDTI motoru listede zaten kayıtlı (DV6 ailesi, düşük puanlı bir bileşen), ama Aisin kaynaklı EAT6 kutusu ailenin güçlü tarafı — yumuşak ve tutarlı vites geçişleri yapıyor, PSA'nın kendi geliştirdiği AL4/ETG kutularından belirgin biçimde daha iyi puanlı. Bir kullanıcı yağ basıncı uyarı lambası şikayeti bildirmiş.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  }
+}
