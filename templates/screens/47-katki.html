@@ -1,51 +1,86 @@
 <section class="screen" data-screen="katki">
   <div class="screenhead">
     <h2>Kaynak Öner</h2>
-    <p class="lede">Bir aracın puanını destekleyen ya da çürüten bir kaynağınız varsa gönderin. Kaynağı siz getirirsiniz, puanı metodoloji verir: öneriniz doğrudan veriye yazılmaz, incelenir ve kabul edilirse ilgili aracın kanıt kaydına bağlanır. Bu ayrımın gerekçesi belgelerdeki MK-05 kaydında duruyor.</p>
+    <p class="lede">Bir aracın puanını destekleyen ya da çürüten bir kaynağınız varsa buradan gönderin. Kaynağı siz getirirsiniz, puanı metodoloji verir: öneriniz doğrudan veriye yazılmaz, incelenir ve kabul edilirse ilgili aracın kanıt kaydına bağlanır. Bu ayrımın gerekçesi belgelerdeki MK-05 kaydında duruyor.</p>
   </div>
 
-  <div class="ktgrid">
-    <div class="ktcard">
-      <h3>Ne işe yarar bir kaynak</h3>
-      <p>En değerli öneri, bir iddiayı <b>somut biçimde</b> destekleyen kaynaktır. "Bu araç iyidir" diyen bir yazı işe yaramaz; "bu motorda triger zinciri 100 bin kilometrede uzuyor" diyen ve bunu gözleme ya da ölçüme dayandıran bir yazı işe yarar.</p>
-      <p>Özellikle aradıklarımız:</p>
-      <ul class="ktlist">
-        <li>Belirli bir motor veya şanzıman kodunda tekrarlayan arıza örüntüsü</li>
-        <li>Türkiye'ye özgü bilgi: parça fiyatı, usta bulunabilirliği, ikinci el davranışı</li>
-        <li>Uzun süreli sahiplik deneyimi; kaç kilometrede ne değişti</li>
-        <li>Üretici servis bülteni, geri çağırma kaydı, kurumsal güvenilirlik istatistiği</li>
-        <li>Bizim yanlış yazdığımız bir teknik bilgi — şanzıman tipi eşlemesi birkaç kez yanlış çıktı ve düzeltildi</li>
-      </ul>
-    </div>
+  <div class="ktwrap">
+    <form class="ktform" id="ktForm" method="POST" novalidate>
+      <div class="ktnotice" id="ktNotice"></div>
 
-    <div class="ktcard">
-      <h3>Öneriniz ne oluyor</h3>
-      <ol class="ktsteps">
-        <li><b>İnceleme.</b> Kaynağın gerçekten iddiayı destekleyip desteklemediğine bakılır.</li>
-        <li><b>Güven seviyesi.</b> Kaynağa A, B veya C seviyesi verilir. Bu seviye, hangi puanın verilebileceğini sınırlar; tek bir forum mesajı bir aracı listeden eleyemez.</li>
-        <li><b>Bağlanma.</b> Kabul edilen kaynak künyeye dönüştürülür ve aracın kaydına bağlanır. Araç dört bağımsız kaynağa ulaşırsa rozeti "doğrulanmış" olur.</li>
-        <li><b>Puanın yeniden değerlendirilmesi.</b> Yeni kanıt puanı değiştiriyorsa puan yazılı bantlara göre güncellenir ve gerekçesi kayda geçer.</li>
-      </ol>
-      <p>Reddedilen öneriler de kayda geçer, böylece aynı kaynak tekrar tekrar değerlendirilmez. <a href="#metodoloji">Nasıl puanladığımızı</a> ayrıntılı okuyabilirsiniz.</p>
-    </div>
-  </div>
-
-  <div class="ktsend">
-    <h3>Göndermek için</h3>
-    <div class="ktoptions">
-      <div class="ktopt">
-        <div class="ktopt-h">GitHub üzerinden</div>
-        <p>Hazır form bütün alanları soruyor ve öneriniz herkese açık biçimde izlenebilir oluyor. GitHub hesabı gerekiyor.</p>
-        <a class="btn ktbtn" id="ktIssueLink" href="https://github.com/serhateralp01/arac_puanlama/issues/new?template=kaynak-onerisi.yml" target="_blank" rel="noopener">Kaynak önerisi formunu aç</a>
+      <div class="ktfield">
+        <label for="ktCar">Hangi araç <span class="req">*</span></label>
+        <select id="ktCar" name="Arac" required></select>
+        <small>Listeden seçin. Aradığınız araç listede yoksa en alttaki "listede yok" seçeneğini işaretleyip aşağıya yazın.</small>
       </div>
-      <div class="ktopt" id="ktMailOpt">
-        <div class="ktopt-h">E-posta ile</div>
-        <p id="ktMailText">Site içi form ve e-posta adresi hazırlanıyor. Hazır olduğunda bu bölümde, hangi araç için öneri verdiğinizi otomatik taşıyan bir form bulacaksınız; GitHub hesabı gerekmeyecek.</p>
-      </div>
-    </div>
-  </div>
 
-  <div class="note">
-    Öneri gönderirken kaynağın bağlantısını ve mümkünse kaynaktan <b>birebir alıntıyı</b> da yazın. Bağlantılar zamanla çürüyor; alıntı elimizde kalırsa iddia ayakta kalır. Bu yüzden kayıtlarımızda her kaynağın yanında hangi cümlenin hangi puanı taşıdığı da saklanıyor.
+      <div class="ktfield">
+        <label for="ktCriterion">Hangi kriter <span class="req">*</span></label>
+        <select id="ktCriterion" name="Kriter" required></select>
+        <small>Kaynağınız hangi puanı ilgilendiriyor? Emin değilseniz "genel" seçin.</small>
+      </div>
+
+      <div class="ktfield">
+        <label for="ktUrl">Kaynağın bağlantısı <span class="req">*</span></label>
+        <input type="url" id="ktUrl" name="Kaynak baglantisi" placeholder="https://..." required>
+        <small>Forum başlığı, teknik servis yazısı, güvenilirlik derlemesi, üretici bülteni — hepsi olur.</small>
+      </div>
+
+      <div class="ktfield">
+        <label for="ktQuote">Kaynaktan birebir alıntı <span class="req">*</span></label>
+        <textarea id="ktQuote" name="Alinti" rows="4" placeholder="Kaynaktaki hangi cümle iddianızı taşıyor? Kopyalayıp yapıştırın." required></textarea>
+        <small>Bağlantılar zamanla çürüyor; alıntı elimizde kalırsa iddia ayakta kalır. Bu yüzden en önemli alan burası.</small>
+      </div>
+
+      <div class="ktfield">
+        <label for="ktComment">Eklemek istediğiniz</label>
+        <textarea id="ktComment" name="Yorum" rows="3" placeholder="Kendi deneyiminiz, kaynağın neden önemli olduğu, dikkat edilmesi gereken bir ayrıntı..."></textarea>
+      </div>
+
+      <div class="ktrow">
+        <div class="ktfield">
+          <label for="ktName">Adınız</label>
+          <input type="text" id="ktName" name="Gonderen" placeholder="İsteğe bağlı">
+        </div>
+        <div class="ktfield">
+          <label for="ktEmail">E-posta adresiniz</label>
+          <input type="email" id="ktEmail" name="email" placeholder="İsteğe bağlı">
+          <small>Yalnızca öneriniz hakkında soru çıkarsa kullanılır.</small>
+        </div>
+      </div>
+
+      <!-- Bal küpü: insan görmez, robot doldurur. Dolu gelirse gönderim elenir. -->
+      <input type="text" name="_honey" id="ktHoney" class="kthoney" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <div class="ktactions">
+        <button type="submit" class="btn ktbtn" id="ktSubmit">Öneriyi gönder</button>
+        <span class="ktstatus" id="ktStatus"></span>
+      </div>
+    </form>
+
+    <aside class="ktside">
+      <div class="ktcard">
+        <h3>Ne işe yarar bir kaynak</h3>
+        <p>En değerli öneri, bir iddiayı <b>somut biçimde</b> destekleyen kaynaktır. "Bu araç iyidir" diyen bir yazı işe yaramaz; "bu motorda triger zinciri 100 bin kilometrede uzuyor" diyen ve bunu gözleme ya da ölçüme dayandıran bir yazı işe yarar.</p>
+        <ul class="ktlist">
+          <li>Belirli bir motor veya şanzıman kodunda tekrarlayan arıza örüntüsü</li>
+          <li>Türkiye'ye özgü bilgi: parça fiyatı, usta bulunabilirliği, ikinci el davranışı</li>
+          <li>Uzun süreli sahiplik deneyimi; kaç kilometrede ne değişti</li>
+          <li>Üretici servis bülteni, geri çağırma kaydı, kurumsal güvenilirlik istatistiği</li>
+          <li>Bizim yanlış yazdığımız bir teknik bilgi</li>
+        </ul>
+      </div>
+
+      <div class="ktcard">
+        <h3>Öneriniz ne oluyor</h3>
+        <ol class="ktsteps">
+          <li><b>İnceleme.</b> Kaynağın gerçekten iddiayı destekleyip desteklemediğine bakılır.</li>
+          <li><b>Güven seviyesi.</b> Kaynağa A, B veya C seviyesi verilir. Bu seviye hangi puanın verilebileceğini sınırlar; tek bir forum mesajı bir aracı listeden eleyemez.</li>
+          <li><b>Bağlanma.</b> Kabul edilen kaynak künyeye dönüştürülür ve aracın kaydına bağlanır. Araç dört bağımsız kaynağa ulaşırsa rozeti "doğrulanmış" olur.</li>
+          <li><b>Yeniden değerlendirme.</b> Yeni kanıt puanı değiştiriyorsa puan yazılı bantlara göre güncellenir ve gerekçesi kayda geçer.</li>
+        </ol>
+        <p><a href="#metodoloji">Nasıl puanladığımızı</a> ayrıntılı okuyabilirsiniz.</p>
+      </div>
+    </aside>
   </div>
 </section>

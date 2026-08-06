@@ -143,62 +143,54 @@ işleyen iş akışı `docs/` içinde yazılı, en az bir tur uçtan uca çalı�
 
 ---
 
-## Y-04 · Kaynak öneri formu ve iletişim adresi
-
-**Öncelik: orta. Bedava çözülmesi şart.**
+## Y-04 · Kaynak öneri formu — **kısmen bitti, e-posta adresi bekliyor**
 
 **Amaç.** Kullanıcı bir araca kaynak önerebilsin, öneri bir e-posta adresine düşsün,
 bakımcı inceleyip veriye işlesin. Öneri doğrudan veriye yazılmaz (MK-05).
 
-**Bugün elde ne var.** `.github/ISSUE_TEMPLATE/kaynak-onerisi.yml` zaten çalışıyor ve
-MK-05'teki üç katmanlı planın birinci katmanı bu. Ama GitHub hesabı olmayan bir
-kullanıcı için engel yüksek; site içi form ikinci katman.
+### Bitti
 
-### Kullanıcının (yani projenin sahibinin) yapması gerekenler
+`#katki` ekranı kuruldu ve üst menüde "Kaynak öner" olarak duruyor. Ekranda gerçek bir
+form var; GitHub'a yönlendirme yapılmıyor, öneri site içinden alınıyor.
 
-Aşağıdaki adımların hepsi ücretsizdir ve sunucu gerektirmez.
+- Araç ve kriter listeleri **veriden dolduruluyor**, elle yazılmıyor; liste büyüdükçe
+  form kendiliğinden güncel kalıyor. Aracı listede bulunmayan kullanıcı için ayrı bir
+  seçenek var.
+- Zorunlu alanlar: hangi araç, hangi kriter, kaynağın bağlantısı, kaynaktan birebir
+  alıntı. Alıntının zorunlu olması bilinçli: bağlantı çürüdüğünde iddiayı ayakta tutan
+  tek şey o.
+- Robotlara karşı bal küpü (honeypot) alanı var; CAPTCHA yok, bu hacimde kullanıcıyı
+  yormaya değmez.
+- Uç nokta tanımlı olmadığı sürece gönderim **kapalı** ve kullanıcıya sebebi açıkça
+  yazılıyor. Sessizce başarısız olan bir form, hiç olmayan bir formdan daha kötüdür.
+- `smoke_test.js` üç yeni kontrol kazandı: araç listesi doluyor mu, kriter listesi
+  doluyor mu, uç nokta yokken gönderim gerçekten kapalı mı.
 
-1. **E-posta adresini aç.** Örneğin `kaynak@aracpuanlama.com` gibi bir adres ya da
-   ücretsiz bir sağlayıcıda `aracpuanlama.kaynak@gmail.com` gibi bir hesap. Bu adres
-   hem formun hedefi hem sitedeki iletişim adresi olacak.
-2. **Formu ileten servisi seç.** Site sunucusuz tek bir HTML dosyası olduğu için form
-   gönderimini bir üçüncü tarafın taşıması gerekiyor. Ücretsiz ve kayıt gerektirmeyen
-   seçenek **FormSubmit** (`formsubmit.co`): forma `action` olarak e-posta adresi
-   yazılır, ilk gönderimde adrese bir onay postası gelir, o onaylandıktan sonra bütün
-   gönderimler doğrudan gelen kutusuna düşer. Sınırsız ve ücretsizdir.
-   - **Önemli:** ham e-posta adresi HTML kaynağında görünürse spam robotları toplar.
-     FormSubmit onay sonrası bir *hashed* uç nokta veriyor; formda adres yerine o
-     kullanılmalı.
-   - Alternatifler: **Web3Forms** (aylık 250 gönderim, kayıt ister),
-     **Google Forms** (sınırsız ama kullanıcıyı siteden çıkarır),
-     **Netlify Forms** (yalnızca Netlify'da barındırılırsa, aylık 100).
-3. **Siteyi barındır.** Form gönderimi `file://` üzerinden düzgün çalışmaz. **GitHub
-   Pages** ücretsizdir ve bu depo zaten GitHub'da; ayarlardan açmak yeterli. Bu ayrıca
-   projenin paylaşılabilir bir adrese kavuşması demek.
-4. Adresi ve seçilen servisin uç noktasını bakımcıya (yani bu depoda çalışan kişiye)
-   ilet; form ve iletişim bölümü ona göre yazılır.
+### Kalan tek iş: e-posta adresi ve uç nokta
 
-### Depoda bugün yapılanlar
+Bu adımlar depo sahibine ait ve hepsi ücretsizdir.
 
-- `#katki` ekranı kuruldu ve üst menüye "Kaynak öner" olarak eklendi. Ekran, ne tür bir
-  kaynağın işe yaradığını, önerinin hangi aşamalardan geçtiğini ve neden doğrudan veriye
-  yazılmadığını anlatıyor.
-- GitHub konu şablonuna doğrudan bağlantı verildi; bu yol **bugün çalışıyor** ve e-posta
-  adresi beklemiyor.
-- E-posta seçeneği için ekranda yeri hazır (`#ktMailOpt`); adres ve FormSubmit uç noktası
-  geldiğinde yalnızca o bölüm doldurulacak, ekranın geri kalanı değişmeyecek.
-- `smoke_test.js` bağlantının doğru depoyu ve doğru şablonu gösterdiğini denetliyor.
+1. **E-posta adresini aç.** Örneğin `aracpuanlama.kaynak@gmail.com`. Bu adres hem formun
+   hedefi hem sitedeki iletişim adresi olacak.
+2. **FormSubmit'i etkinleştir** (`formsubmit.co`, kayıt gerektirmez, sınırsız, ücretsiz).
+   Formdan ilk gönderim yapıldığında adrese bir onay postası gelir; o onaylanınca bütün
+   gönderimler doğrudan gelen kutusuna düşer.
+3. **Gizli uç noktayı al.** FormSubmit onay sonrası e-posta yerine kullanılabilecek
+   karma (hashed) bir adres veriyor. Ham e-posta adresi HTML kaynağında görünürse spam
+   robotları toplar; bu yüzden karma adres tercih edilmeli.
+4. **Depoda tek satır değiştir.** `templates/app/47-katki.js` dosyasının başındaki
+   `FORM_ENDPOINT` değişkenine bu adres yazılır, `python3 scripts/build.py` çalıştırılır.
+   Form o anda açılır, uyarı kutusu kendiliğinden kaybolur. Başka hiçbir değişiklik
+   gerekmez.
+5. **Siteyi barındır.** Form gönderimi `file://` üzerinden çalışmaz. GitHub Pages
+   ücretsizdir ve çıktı artık `index.html` olduğu için ayarlardan açmak yeterli.
 
-### Depoda yapılacaklar (adres geldikten sonra)
+### Sonraya kalan
 
-- Araç detay panelinde "bu araca kaynak öner" bağlantısı; aracın kimliği forma gizli
-  alan olarak taşınır ki hangi araç için önerildiği kaybolmasın.
-- Formun topladığı alanlar: hangi araç, hangi kriter, kaynak bağlantısı, kaynaktan
-  birebir alıntı, öneren kişinin adı (isteğe bağlı).
-- Spam koruması: FormSubmit'in bal küpü (honeypot) alanı. CAPTCHA eklenmez, kullanıcıyı
-  yorar ve bu hacimde gereksizdir.
-- Yeni bir ekran: `#iletisim` — e-posta adresi, formun nasıl işlendiği ve öneri
-  kabul kriterleri.
+- Araç detay panelinde "bu araca kaynak öner" bağlantısı; aracın kimliği forma önceden
+  seçili gelir.
+- `#iletisim` ekranı: e-posta adresi ve öneri kabul kriterleri.
+- Gelen önerileri Y-03'teki kuyruğa (`data/queue/`) taşıyan akış.
 
 ---
 

@@ -107,13 +107,19 @@ async function dumpDebug(label) {
     check('metodoloji istatistikleri doluyor', methStats === 5, `${methStats} kutu`);
     const methWidth = await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2);
     check('metodoloji ekranında yatay taşma yok', methWidth);
-    // Kaynak öner ekranı: GitHub form bağlantısı doğru depoyu göstermeli.
+    // Kaynak öner ekranı: araç ve kriter listeleri veriden doluyor.
     await page.click('.nav a[data-route="katki"]');
     await page.waitForTimeout(200);
-    const issueHref = await page.getAttribute('#ktIssueLink', 'href');
-    const issueOk = issueHref.includes('serhateralp01/arac_puanlama')
-      && issueHref.includes('kaynak-onerisi.yml');
-    check('kaynak öner formu bağlantısı doğru', issueOk, issueHref);
+    const ktCars = await page.locator('#ktCar option').count();
+    // 154 araç + "seçin" + "listede yok" = 156
+    check('form araç listesi veriden doluyor', ktCars === 156, `${ktCars} seçenek`);
+    const ktCrits = await page.locator('#ktCriterion option').count();
+    check('form kriter listesi veriden doluyor', ktCrits > 5, `${ktCrits} seçenek`);
+    // Uç nokta tanımlı değilken gönderim kapalı olmalı; sessizce başarısız
+    // olan bir form, hiç olmayan bir formdan daha kötüdür.
+    const ktDisabled = await page.locator('#ktSubmit').isDisabled();
+    const ktNoticeShown = await page.locator('#ktNotice.warn').isVisible();
+    check('uç nokta yokken gönderim kapalı ve sebebi yazıyor', ktDisabled && ktNoticeShown);
     const ktWidth = await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2);
     check('kaynak öner ekranında yatay taşma yok', ktWidth);
 
