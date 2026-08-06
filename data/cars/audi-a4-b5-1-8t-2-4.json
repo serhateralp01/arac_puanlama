@@ -19,7 +19,7 @@
     500,
     750
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 68,
     "trans": 80,
@@ -29,7 +29,9 @@
     "cost": 66,
     "liq": 62
   },
-  "sources": [],
+  "sources": [
+    "techturkey_a4_b5_18t"
+  ],
   "note": "B8'den önceki, Multitronic derdi olmayan klasik bir A4; ZF Tiptronic otomatiği tork konvertörlü ve sağlam. Yaşı çok ilerlemiş durumda. Ön değerlendirme, batch aşamasında derinleştirilecek.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

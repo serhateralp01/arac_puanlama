@@ -29,13 +29,16 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Liste ekranı denetim çubuğu (Y-05) | Tamamlandı: ağırlık/arama/filtre tablonun üstünde, filtre paneli katlanabilir |
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
-| **Kaynak derinliği** | **Zayıf — asıl açık burada** |
-| **Araç kapsamı** | **Dar — modern kuşak ve gövde çeşitliliği eksik** |
+| Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
+| Kaynaksız araçlar (Y-02) | Kaynaksız 14 araç kapatıldı; araç başına ortalama kaynak hâlâ hedefin (2.5) altında, 1.88 |
+| **Kaynak derinliği** | **Zayıf, ama iyileşiyor — kuyruk artık çalışır durumda** |
+| **Araç kapsamı** | **Dar — modern kuşak ve gövde çeşitliliği eksik (Y-01 henüz başlamadı)** |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 
-Denetimin bugünkü çıktısı: **0 hata, 182 uyarı**. Uyarıların ezici çoğunluğu (132) tek
-bir kalemden geliyor: araçların dört bağımsız kaynağa ulaşmamış olması. Bu, sırada
-duran Y-01/Y-02/Y-03'ün asıl gerekçesi.
+Denetimin bugünkü çıktısı: **0 hata, 182 uyarı**. Uyarıların ezici çoğunluğu (146) tek
+bir kalemden geliyor: araçların dört bağımsız kaynağa ulaşmamış olması. Kuyruk artık
+kurulduğu için bu sayı, tek tek araç dosyası düzenlemek yerine kuyruğu tekrar tekrar
+çalıştırarak düşürülebilir.
 
 ---
 
@@ -80,70 +83,76 @@ olarak gerçekten yaygın** ve yokluğu bir kapsam boşluğudur.
 
 ---
 
-## Y-02 · Her aracın en az bir gerçek kaynağı olsun, ortalama dörde yaklaşsın
+## Y-02 · Her aracın en az bir gerçek kaynağı olsun, ortalama dörde yaklaşsın — **kısmen bitti**
 
 **Öncelik: yüksek.** Projenin bütün iddiası kanıta dayanmak; kanıtsız araç bu iddiayı
 zayıflatıyor.
 
-**Bugünkü tablo:**
+**Ne yapıldı.** Y-03'teki araştırma kuyruğu kurulduktan sonra ilk yükü olarak, o tarihte
+kaynaksız olan 14 araca gerçek kaynak arandı (WebSearch ile): `alfa-romeo-mito-1-4`,
+`audi-a3-8p-2-0-tdi`, `audi-a4-b5-1-8t-2-4`, `bmw-e87-116i-118i`, `bmw-e90-316i`,
+`chevrolet-cruze-1-6`, `citroen-xsara-1-6`, `hyundai-accent-blue-1-6-benzinli`,
+`hyundai-i40-1-7-crdi`, `kia-optima-1-7-crdi`, `peugeot-307-1-6`,
+`skoda-octavia-1-8-tsi`, `vw-passat-b6-1-8-tsi`, `vw-passat-b7-2-0-tdi`. Her biri için
+en az bir gerçek, erişilebilir kaynak bulundu, güven seviyesi (B veya C — hiçbiri A
+değil, çünkü hepsi forum/şikayet toplamı niteliğinde) verildi ve `data/sources.json` ile
+ilgili araç kaydına işlendi; `verification` alanları `preliminary`'den `partial`'a
+geçti. Hiçbir puan bu turda değiştirilmedi — yalnızca kanıt eklendi; motor/şanzıman
+temel puanları zaten paylaşılan bileşen kayıtlarından geliyor, araç kaydına eklenen
+kaynak o aracın kendi kanıt zincirini tamamlıyor (bkz. "önemli ayrım" aşağıda).
+
+**Bugünkü tablo** (bu turdan sonra, `python3 scripts/validate.py` çıktısından):
 
 | Kaynak sayısı | Araç | Durum |
 |---:|---:|---|
-| 0 | 14 | Hiçbir kanıta bağlı değil, puanlar tamamen değerlendirmeye dayanıyor |
-| 1 | 43 | Tek kaynak çürürse dayanaksız kalır |
+| 0 | 0 | — kalmadı |
+| 1 | 57 | Tek kaynak çürürse dayanaksız kalır |
 | 2-3 | 89 | Kısmi |
 | 4+ | 8 | Doğrulanmış |
 
-Araç başına ortalama **1.79** kaynak var; hedef 2.0'ın üstü, uzun vadede 4.
-
-**Kaynaksız 14 araç** (öncelikli hedef): `alfa-romeo-mito-1-4`, `audi-a3-8p-2-0-tdi`,
-`audi-a4-b5-1-8t-2-4`, `bmw-e87-116i-118i`, `bmw-e90-316i`, `chevrolet-cruze-1-6`,
-`citroen-xsara-1-6`, `hyundai-accent-blue-1-6-benzinli`, `hyundai-i40-1-7-crdi`,
-`kia-optima-1-7-crdi`, `peugeot-307-1-6`, `skoda-octavia-1-8-tsi`,
-`vw-passat-b6-1-8-tsi`, `vw-passat-b7-2-0-tdi`.
+Araç başına ortalama kaynak **1.79 → 1.88**'e çıktı. Hedefin (2.5) altında; **kalan iş**
+bu 14 aracı ve tek kaynaklı diğer 43 aracı ikinci, bağımsız bir kaynağa daha bağlamak.
+Sıradaki oturum bunu doğrudan Y-03'teki kuyruğu tekrar çalıştırarak yapabilir.
 
 **Önemli ayrım.** Motor ve şanzıman ailelerine verilen kaynaklar araç kaydına otomatik
 yansımıyor; bunlar ayrı bağlantılar. Bir aracın kendi kaydında da o araca özgü kanıt
 olmalı — kullanıcı yorumu, o modele özel arıza derlemesi, Türkiye'ye özgü bir şikayet
 örüntüsü. Kullanıcının istediği "her araç için en az bir yorum kapsanmalı" şartı tam
-olarak budur.
+olarak budur; bu turda eklenen 14 kaynağın hepsi bu türden.
 
-**Bitmiş sayılma ölçütü.** Kaynaksız araç sayısı sıfır, araç başına ortalama kaynak
-2.5'in üstünde.
+**Bitmiş sayılma ölçütü (henüz karşılanmadı).** Araç başına ortalama kaynak 2.5'in
+üstünde. Kaynaksız araç sayısı sıfıra indi, bu madde karşılandı.
 
 ---
 
-## Y-03 · İki aşamalı kaynak araştırma hattı kur
+## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
 
-**Öncelik: yüksek — Y-01 ve Y-02'yi mümkün kılan altyapı budur.**
-
-**Sorun.** Kaynak biriktirmek ile kaynağı puana çevirmek iki farklı iş ve farklı
+**Sorun neydi.** Kaynak biriktirmek ile kaynağı puana çevirmek iki farklı iş ve farklı
 yetenek istiyor. Birincisi geniş ama sığ bir tarama (çok sayıda aday kaynak bul),
 ikincisi dar ama derin bir yargı (bu kaynak hangi iddiayı destekliyor, hangi banda
 karşılık geliyor, güven seviyesi ne). İkisini aynı anda yapmak hem yavaş hem hatalı.
 
-**Tasarım.**
+**Ne yapıldı.**
 
-1. **Toplama aşaması (hızlı model).** Bir araç veya bileşen listesi verilir; her biri
-   için aday kaynaklar aranır ve ham halde bir kuyruk dosyasına yazılır. Bu aşamada
-   puan verilmez, yorum yapılmaz. Çıktı biçimi: araç kimliği, bağlantı, yayıncı,
-   bulunduğu arama sorgusu, kaynaktan alınan birebir alıntı.
-2. **Kuyruk.** `data/queue/` altında, `data/` klasörünün geri kalanından **ayrı**
-   tutulur. Kuyruktaki hiçbir kayıt `validate.py` tarafından gerçek veri sayılmaz ve
-   sayfaya basılmaz. Bu ayrım kritik: doğrulanmamış bir kaynağın yanlışlıkla yayına
-   girmesi, projenin bütün metodolojik temelini geçersiz kılar.
-3. **İşleme aşaması (güçlü model).** Kuyruktaki her aday değerlendirilir: kaynak
-   gerçekten iddiayı destekliyor mu, güven seviyesi (A/B/C) ne, hangi kritere ve hangi
-   banda karşılık geliyor. Kabul edilenler `data/sources.json` ve ilgili araç kaydına
-   işlenir; reddedilenler gerekçesiyle birlikte kuyrukta kalır (aynı kaynağın tekrar
-   önerilmesini önlemek için).
+1. **Şema.** `data/schema/queue-candidate.schema.json` kuruldu: bir adayın araç
+   kimliği, hangi kriteri ilgilendirdiği, arama sorgusu, bağlantı, yayıncı, iddia,
+   varsa birebir alıntı ve durumu (`pending`/`accepted`/`rejected`) alanlarını
+   tanımlıyor.
+2. **Kuyruk.** `data/queue/` klasörü, `data/`'nın geri kalanından ayrı tutuluyor.
+   `scripts/validate.py` bu klasörü hiç okumuyor ve `scripts/build.py` içeriğini
+   sayfaya basmıyor; bu ayrımın gerekçesi `docs/ARCHITECTURE.md` MK-09 kaydında.
+3. **İşleme.** Kabul edilen bir adayın kimliği değişmeden `data/sources.json`'a
+   taşınıyor ve ilgili araç kaydının `sources` listesine ekleniyor; reddedilenler
+   gerekçesiyle birlikte kuyrukta kalıyor ki aynı zayıf kaynak ikinci kez
+   önerilmesin.
+4. **Uçtan uca ilk tur.** 2026-08-06'da bu akış, o tarihte kaynaksız olan 14 araç için
+   gerçek kaynak taramasıyla çalıştırıldı: `data/queue/candidates.json` içindeki 14
+   kayıt bu turun dökümü, hepsi `accepted`. Ayrıntı Y-02'de ve `data/queue/README.md`
+   içinde.
 
 **Neden kuyruk ayrı tutuluyor.** Bu, `docs/ARCHITECTURE.md` MK-05'teki "kullanıcı kaynak
 önerir, puanı bakımcı verir" kuralının otomatik araştırmaya uyarlanmış hali. Kural
 değişmiyor: **kaynağı kim getirirse getirsin, puanı metodoloji verir.**
-
-**Bitmiş sayılma ölçütü.** `data/queue/` şeması tanımlı, kuyruğa yazan ve kuyruktan
-işleyen iş akışı `docs/` içinde yazılı, en az bir tur uçtan uca çalıştırılmış.
 
 ---
 
@@ -361,13 +370,15 @@ gerekmiyor.
 
 ## Sıralama önerisi
 
-Maddeler birbirine bağımlı; şu sıra hem riski hem tekrarı azaltır. **Y-04, Y-05 ve
-Y-07 bitti** (aşağıda işaretli); geri kalanlar için sıra hâlâ geçerli.
+Maddeler birbirine bağımlı; şu sıra hem riski hem tekrarı azaltır. **Y-03, Y-04, Y-05 ve
+Y-07 bitti; Y-02 kısmen bitti** (aşağıda işaretli); geri kalanlar için sıra hâlâ geçerli.
 
-1. **Y-03** (araştırma hattı) — çünkü Y-01 ve Y-02'nin ikisi de buna dayanıyor.
-   **Sıradaki iş budur.**
-2. **Y-02** (kaynaksız araçları kapat) — hattın ilk gerçek yükü, aynı zamanda testi.
+1. ~~**Y-03** (araştırma hattı)~~ — **bitti.**
+2. **Y-02** (kaynaksız araçları kapat) — **kısmen bitti:** kaynaksız 14 araç kapandı,
+   ortalama kaynak hâlâ hedefin altında. **Sıradaki iş budur:** kuyruğu (Y-03) tekrar
+   çalıştırıp tek kaynaklı 57 araca ikinci bir kaynak bulmak.
 3. **Y-01** (listeyi genişlet) — hat çalışır durumdayken yeni araç eklemek çok daha ucuz.
+   Henüz başlanmadı.
 4. ~~**Y-05 + Y-06** (yerleşim ve şeffaflık)~~ — **Y-05 bitti.** Y-06 (puanlama
    şeffaflığı) hâlâ sırada, küçük ve bağımsız.
 5. ~~**Y-04** (form)~~ — **arayüz kısmı bitti;** gönderim uç noktası ve iletişim

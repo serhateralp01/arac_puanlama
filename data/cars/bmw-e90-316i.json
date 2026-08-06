@@ -19,7 +19,7 @@
     650,
     950
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 70,
     "trans": 78,
@@ -29,7 +29,9 @@
     "cost": 65,
     "liq": 58
   },
-  "sources": [],
+  "sources": [
+    "otopark_bmw_e90_316i"
+  ],
   "note": "E90 ailesinin en mütevazı benzinlisi; N43 değil daha basit bir motor kullanıyor olabilir, yıl bazında teyit gerekiyor. ZF otomatiği sağlam. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

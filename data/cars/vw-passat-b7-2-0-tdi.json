@@ -19,7 +19,7 @@
     700,
     1000
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 62,
     "trans": 70,
@@ -29,7 +29,9 @@
     "cost": 83,
     "liq": 70
   },
-  "sources": [],
+  "sources": [
+    "vwforumtr_passat_b7_kronik"
+  ],
   "note": "Common rail dizel motoru makul, otomatiği ise ıslak kavramalı DQ250. Bu kombinasyon VAG grubunun otomatikleri arasında güvenli tarafta kalıyor. Çok geniş, konforlu ve uzun yol için ideal bir araç.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

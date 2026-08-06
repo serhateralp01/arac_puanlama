@@ -19,7 +19,7 @@
     600,
     880
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 52,
     "trans": 48,
@@ -29,7 +29,9 @@
     "cost": 47,
     "liq": 42
   },
-  "sources": [],
+  "sources": [
+    "sikayetvar_alfa_mito_kronik"
+  ],
   "note": "Küçük gövdesi ve canlı motoruyla keyifli bir araç, tasarımı da güçlü. Otomatiği TCT çift kavramalı kutu ve Giulietta'daki gibi güvenilirlik kaygısı taşıyor; ayrıca yokuşta geç vites değiştirme gibi yazılımsal davranış sorunları bildiriliyor. Türkiye'de parça ve usta bulmak zor.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

@@ -19,7 +19,7 @@
     700,
     980
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 80,
     "trans": 80,
@@ -29,7 +29,9 @@
     "cost": 82,
     "liq": 84
   },
-  "sources": [],
+  "sources": [
+    "sikayetvar_accent_blue_kronik"
+  ],
   "note": "Dizel kardeşinin aksine bu versiyon çift kavrama değil, 6 ileri tork konvertörlü otomatik kullanıyor; bu da onu şanzıman tarafında çok daha güvenli yapıyor. Motoru sade ve dayanıklı, yedek parçası ucuz ve bol. Karakteri yok ama sorunu da yok.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

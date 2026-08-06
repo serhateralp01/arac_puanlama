@@ -2225,5 +2225,229 @@
     "accessed": "2026-08-05",
     "language": "en",
     "quotes": []
+  },
+  "sikayetvar_alfa_mito_kronik": {
+    "id": "sikayetvar_alfa_mito_kronik",
+    "claim": "Alfa Romeo MiTo modelinde en sık tekrarlanan şikayetin elektrikli direksiyon (EPS) arızası olduğu; bazı araçlarda satın alımdan kısa süre sonra ortaya çıkan direksiyon sertleşmesi ve hata kodu vakalarının, İtalya'dan gelen bazı yedek parçaların (turbo hortumu, aks) 30 iş günü gibi uzun tedarik sürelerinin bildirildiği.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/alfa-romeo/kronik/mito",
+    "type": "complaint-aggregator",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Alfa Romeo MiTo 1.4 TCT güvenilirlik şikayet forum",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "audiworld_a3_dq250_issue": {
+    "id": "audiworld_a3_dq250_issue",
+    "claim": "Bir Audi A3 8P 2.0 TDI DSG (DQ250) sahibinin forumda bildirdiği somut şikayete göre araçta düzensiz vites geçişleri, ara sıra sert vites atma ve kavrama kayması hissi yaşandığı, bazen hızlanma sırasında bir güç kaybının eşlik ettiği.",
+    "publisher": "AudiWorld Forums",
+    "url": "https://www.audiworld.com/forums/audi-a3-s3-rs-3-mkii-209/s-tronic-dq-250-dsg-issue-audi-a3-tdi-3051480/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Audi A3 8P 2.0 TDI DSG DQ250 forum sorunları km",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "techturkey_a4_b5_18t": {
+    "id": "techturkey_a4_b5_18t",
+    "claim": "TechTurkey forumunda paylaşılan kullanıcı deneyimlerine göre Audi A4 B5 1.8T Tiptronic kutusunun şehir içi kullanımda sorunsuz çalıştığı ancak yüksek hızda performanslı sürüşte şanzımanda titreme hissedildiği; ayrıca yüksek yağ tüketimi, turbo arızaları ve elektrik aksamı sorunlarının bakım maliyetini artıran yaygın şikayetler arasında sayıldığı.",
+    "publisher": "TechTurkey Forum",
+    "url": "http://www.techturkey.com/forum/otomobilleriniz/244426-audi_a4_b5_1_8t.html",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Audi A4 B5 1.8T Tiptronic ZF5HP19 Türkiye ikinci el sorunları forum",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "techturkey_bmw_e87_116i": {
+    "id": "techturkey_bmw_e87_116i",
+    "claim": "TechTurkey forumunda BMW E87 116i modeli hakkında paylaşılan kullanıcı yorumlarında otomatik şanzımanlı versiyonun vites geçişlerinde titreme yaşadığı, bu durumun zamanla daha belirgin hale geldiği ve bazı sahiplerce bu araç için neredeyse normal kabul edildiği aktarılıyor.",
+    "publisher": "TechTurkey Forum",
+    "url": "http://www.techturkey.com/forum/archive/index.php/t-197173.html",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "BMW E87 116i 118i N45 N46 otomatik şanzıman güvenilirlik forum şikayet",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "otopark_bmw_e90_316i": {
+    "id": "otopark_bmw_e90_316i",
+    "claim": "Otopark.com forumunda BMW E90 316i hakkında paylaşılan kullanıcı deneyimlerinde motor arıza lambasının yanıp çekişten düşme, gaz tepkimesinin 20-30 saniye kesilmesi gibi ivme kaybı şikayetlerinin bildirildiği; ayrıca kapı kolu eskimesi, direksiyon sertliği/pompası ve klima kompresörü arızalarının modelin bilinen bakım kalemleri arasında sayıldığı.",
+    "publisher": "Otopark.com Forum",
+    "url": "https://otopark.com/forum/threads/bmw-e90-kasa-316i-nasil-bilirsiniz.5888/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "BMW E90 316i N45 motor sorunları şikayet forum Türkiye",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "frmtr_chevrolet_cruze_kronik": {
+    "id": "frmtr_chevrolet_cruze_kronik",
+    "claim": "frmtr.com forumundaki 'Chevrolet Cruze Kronik Sorunları' başlığında toplanan kullanıcı deneyimlerine göre 1.6 motorlu Cruze'larda rölanti dalgalanması, ateşleme bobini arızaları, termostat gövdesi çatlağı ve su pompası kaçağının; otomatik şanzımanlı araçlarda ise düşük hızda titreme/takılma ve 6. vitese geçememe şikayetlerinin tekrarlayan kalemler olarak öne çıktığı.",
+    "publisher": "frmtr.com",
+    "url": "https://www.frmtr.com/motorlu-araclar-kronik-sorunlar/9079313-chevrolet-cruze-kronik-sorunlari.html",
+    "type": "forum",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Chevrolet Cruze 1.6 otomatik şanzıman motor sorunları şikayet forum",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "otokokpit_citroen_xsara": {
+    "id": "otokokpit_citroen_xsara",
+    "claim": "Otokokpit.com'un Citroen Xsara değerlendirmesine göre AL4 otomatik şanzımanlı Xsara modellerinde vites geçiş sorunları görülebildiği, AL4 kutusunun mekatronik (hidrolik kontrol ünitesi) arızalarına ve ısı yönetimine duyarlı olduğu, 80.000 km üzerindeki araçlarda şanzıman yağı ve hidrolik kontrol ünitesi bakımının ihmal edilip edilmediğinin özellikle kontrol edilmesi gerektiği belirtiliyor.",
+    "publisher": "Otokokpit.com",
+    "url": "https://www.otokokpit.com/citroen-xsara-alinir-mi-kronik-sorunlari-nelerdir-yedek-parca-sorunu-var-mi/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Citroen Xsara 1.6 AL4 otomatik şanzıman sorunları şikayet forum",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "sikayetvar_accent_blue_kronik": {
+    "id": "sikayetvar_accent_blue_kronik",
+    "claim": "Şikayetvar'ın Accent Blue kronik şikayetleri derlemesinde, özellikle 'Blue' donanımlı modellerde otomatik şanzımanın geri vitese geçmemesi, 2., 4. ve 6. vitese geçiş sorunu yaşaması ve kalkışta/rampada çıtırdama sesleri gelmesinin tekrarlayan ve kronik olarak nitelendirilen şikayetler arasında sayıldığı.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/accent-blue/kronik",
+    "type": "complaint-aggregator",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Hyundai Accent Blue 1.6 otomatik şanzıman motor sorunları şikayet forum",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "otomobildays_hyundai_i40": {
+    "id": "otomobildays_hyundai_i40",
+    "claim": "OtomobilDays.com'un Hyundai i40 kullanıcı yorumları derlemesine göre 2011-2015 model yıllarında bazı i40'larda düşük devirde sert vites geçişleri, şanzıman servis uyarı lambasının yanması ve ani vites boşa düşmesi gibi mekatronik kaynaklı şikayetlerin bildirildiği.",
+    "publisher": "OtomobilDays.com",
+    "url": "https://otomobildays.com/hyundai-i40-kronik-sorunlari-hyundai-i40-kullanici-yorumlari",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Hyundai i40 1.7 CRDi otomatik şanzıman motor sorunları şikayet forum",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "sikayetvar_kia_motor_arizasi": {
+    "id": "sikayetvar_kia_motor_arizasi",
+    "claim": "Şikayetvar'daki 'Kia Kronik Motor Arızası Sorunu' başlığı ve ilgili paylaşımlarda, 2013 model yıllarında bazı Kia modellerinde motor bloğu çatlağı bildirildiği ve garanti kapsamında motor değişimi yapıldığı, 2011-2015 model yıllarında bazı araçlarda motor yatağı sorunlarının rapor edildiği aktarılıyor; bu şikayetlerin Optima'ya özgü olduğu doğrulanmamış, bu yüzden tek başına düşük banda gerekçe sayılmıyor.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/kia/kia-kronik-motor-arizasi-sorunu",
+    "type": "complaint-aggregator",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Kia Optima 1.7 CRDi otomatik şanzıman motor sorunları şikayet forum",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "peugeotturkey_307_al4": {
+    "id": "peugeotturkey_307_al4",
+    "claim": "Peugeot Türkiye forumundaki '307 AL4 otomatik şanzıman sorunu' başlığında AL4 kutusunda vites geçişlerinde gecikme/sarsılma, boşa alırken zorlanma ve geri vitese takılma gibi şikayetlerin paylaşıldığı; forumda orijinal solenoid valflerin yerine Borg Warner marka valf takılmasının yaygın bir çözüm olarak önerildiği.",
+    "publisher": "Peugeot Türkiye Forumları",
+    "url": "https://forum.peugeotturkey.com/forum_posts.asp?TID=36198&title=307-al4-otomatik-sanzuman-sorunu",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Peugeot 307 1.6 AL4 otomatik şanzıman sorunları şikayet forum",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "sikayetvar_skoda_octavia_sanziman": {
+    "id": "sikayetvar_skoda_octavia_sanziman",
+    "claim": "Şikayetvar'ın Skoda Octavia şanzıman şikayetleri derlemesinde, DSG'li Octavia sahiplerinin aracın 'P konumunda terk edin' uyarısını tekrar tekrar verdiğini ve bu sorunun aynı ailenin (VAG DQ250 tabanlı) araçlarını kullanan pek çok kullanıcı tarafından da bildirildiği için kronik kabul edildiğini aktardığı.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/skoda/octavia/sanziman",
+    "type": "complaint-aggregator",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Skoda Octavia 1.8 TSI DSG DQ250 sorunları şikayet forum Türkiye",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "sikayetvar_passat_tsi": {
+    "id": "sikayetvar_passat_tsi",
+    "claim": "Şikayetvar'ın Passat TSI şikayetleri derlemesinde, 1.8 TSI motorlu Passat'larda 100.000 km sonrası turbo arızalarının ve bazı araçlarda 1000 km'de 1 litreye varan yağ tüketiminin yaygın şikayetler arasında olduğu; DSG şanzımanlı araçlarda yoğun trafikte sertlik/sarsıntı ve ısınma eğiliminin bildirildiği, bir kullanıcının 65.000 km'de yaşadığı kavrama arızasının 120.000 km'de tekrarlayıp 21.000 TL onarım maliyetine yol açtığının aktarıldığı.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/volkswagen/passat/tsi",
+    "type": "complaint-aggregator",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "VW Passat 1.8 TSI DSG DQ250 sorunları şikayet forum Türkiye",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "vwforumtr_passat_b7_kronik": {
+    "id": "vwforumtr_passat_b7_kronik",
+    "claim": "VW Forum Türkiye'deki '2011-2014 B7 Passat Modelin Kronik Arızaları ve Çözümleri' başlığında DSG mekatronik arızasının, vites geçişlerinde vuruntu ve arıza lambası yanmasının kronik arızalar arasında sayıldığı; ayrıca EGR valfi tıkanması ve partikül filtresi (DPF) dolması gibi motor kaynaklı yaygın şikayetlerin bildirildiği.",
+    "publisher": "VW Forum Türkiye",
+    "url": "https://vwforum.com.tr/threads/2011-2014-b7-passat-modelin-kronik-arizalari-ve-cozumleri.803/",
+    "type": "forum",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "VW Passat B7 2.0 TDI EA189 DSG şikayet forum Türkiye",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
   }
 }

@@ -19,7 +19,7 @@
     750,
     1100
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 58,
     "trans": 74,
@@ -29,7 +29,9 @@
     "cost": 70,
     "liq": 70
   },
-  "sources": [],
+  "sources": [
+    "techturkey_bmw_e87_116i"
+  ],
   "note": "Arkadan itişli olması bu segmentte onu özel kılıyor ve sürmesi keyifli. Ancak N43 ve N45 motorlarının enjektör ile zincir konuları var, kabin de dar. Otomatiği tork konvertörlü ve sağlam tarafta.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

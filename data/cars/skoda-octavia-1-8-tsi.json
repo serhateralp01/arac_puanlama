@@ -19,7 +19,7 @@
     750,
     1050
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 56,
     "trans": 70,
@@ -29,7 +29,9 @@
     "cost": 74,
     "liq": 72
   },
-  "sources": [],
+  "sources": [
+    "sikayetvar_skoda_octavia_sanziman"
+  ],
   "note": "Otomatiği ıslak kavramalı DQ250 olduğu için kuru kutulu kardeşlerinden belirgin biçimde güvenli. Motoru EA888 ailesinden geldiği için yağ tüketimi ve zincir gergisi konularını kontrol ettirmek gerekiyor. Geniş, hızlı ve pratik bir araç.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

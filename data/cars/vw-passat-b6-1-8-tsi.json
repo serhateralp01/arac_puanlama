@@ -19,7 +19,7 @@
     620,
     900
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 50,
     "trans": 68,
@@ -29,7 +29,9 @@
     "cost": 74,
     "liq": 66
   },
-  "sources": [],
+  "sources": [
+    "sikayetvar_passat_tsi"
+  ],
   "note": "B6 kasa geniş ve konforlu ama 1.8 TSI motorun ilk versiyonları yağ tüketimi ve zincir gergisi açısından hassas. Islak DQ250 kutusu şanzıman tarafını kurtarıyor. Ucuz ama motor geçmişi araştırılmadan alınmamalı.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

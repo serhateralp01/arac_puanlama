@@ -19,7 +19,7 @@
     420,
     600
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 62,
     "trans": 40,
@@ -29,7 +29,9 @@
     "cost": 70,
     "liq": 66
   },
-  "sources": [],
+  "sources": [
+    "otokokpit_citroen_xsara"
+  ],
   "note": "307 ile aynı AL4 otomatiği kullanıyor; bu ailenin selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme gibi yaygın şikayetleri var. Araç çok ucuz ama şanzıman geçmişi mutlaka sorulmalı.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

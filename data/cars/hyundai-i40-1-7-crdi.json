@@ -19,7 +19,7 @@
     550,
     820
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 76,
     "trans": 80,
@@ -29,7 +29,9 @@
     "cost": 72,
     "liq": 58
   },
-  "sources": [],
+  "sources": [
+    "otomobildays_hyundai_i40"
+  ],
   "note": "Mondeo ve Insignia sınıfına yakın geniş bir aile sedanı; otomatiği kendi 6 ileri tork konvertörü, sade ve sağlam. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

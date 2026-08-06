@@ -267,3 +267,33 @@ donanım farkının kendisiydi, gerekçesiz bir tutarsızlık değil.
 araştırması sırasında önce bu mercekten inceleniyor: fark gerçek bir revizyona mı
 dayanıyor, yoksa güç/donanım seviyesine mi, yoksa hâlâ açıklanamayan bir tutarsızlığa mı?
 Üçü de farklı bir düzeltme gerektiriyor ve hiçbiri otomatik olarak varsayılmıyor.
+
+---
+
+## MK-09 · Araştırma kuyruğu, toplama ile işlemeyi ayırıyor
+
+**Karar:** `data/queue/` klasörü kuruldu (şeması `data/schema/queue-candidate.schema.json`).
+Kaynak biriktirmek (toplama) ile kaynağı puana çevirmek (işleme) artık iki ayrı
+aşama: adaylar önce `data/queue/candidates.json`'a `pending` olarak düşer, ancak
+değerlendirildikten sonra `data/sources.json`'a ve ilgili araç kaydına taşınır.
+
+**Gerekçe:** İki iş farklı yetenek istiyor. Toplama geniş ama sığ bir tarama —
+mümkün olduğunca çok aday kaynak bulmak. İşleme dar ama derin bir yargı — bu kaynak
+hangi iddiayı destekliyor, hangi banda karşılık geliyor, güven seviyesi ne. İkisini
+aynı anda yapmaya çalışmak hem yavaş hem hatalı sonuç veriyor; bu proje ölçeğinde
+onlarca aday aynı anda değerlendirilmeye çalışıldığında hangi kaynağın hangi iddiayı
+gerçekten desteklediği gözden kaçıyor.
+
+Bu karar, MK-05'teki "kullanıcı kaynak önerir, puanı bakımcı verir" kuralının otomatik
+araştırmaya uyarlanmış hali. Kural değişmiyor: kaynağı kim getirirse getirsin —
+kullanıcı, hızlı bir tarama modeli ya da bakımcının kendisi — puanı yalnızca yazılı
+metodoloji ve işleme aşamasındaki karar verir.
+
+**Uygulama notu.** `data/queue/` içindeki hiçbir kayıt `scripts/validate.py` tarafından
+gerçek veri sayılmaz ve `scripts/build.py` tarafından sayfaya basılmaz; bu ayrım
+bilinçli, çünkü doğrulanmamış bir adayın yanlışlıkla yayına karışması projenin bütün
+kanıt iddiasını geçersiz kılar. 2026-08-06'da bu akış, o tarihte kaynaksız olan 14 araç
+için uçtan uca çalıştırıldı (bkz. `data/queue/README.md`, `docs/ROADMAP.md` Y-02/Y-03):
+her biri için gerçek bir kaynak arandı, tier'ı ve hangi kriteri desteklediği
+belirlendi, kabul edilenler `data/sources.json`'a ve araç kayıtlarına işlendi. Bu ilk
+tur, kuyruğun yalnızca kağıt üzerinde değil gerçek veri üzerinde çalıştığının kanıtı.

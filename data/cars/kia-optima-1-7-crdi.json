@@ -19,7 +19,7 @@
     650,
     950
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 76,
     "trans": 80,
@@ -29,7 +29,9 @@
     "cost": 67,
     "liq": 54
   },
-  "sources": [],
+  "sources": [
+    "sikayetvar_kia_motor_arizasi"
+  ],
   "note": "Elantra ve i40 ile aynı motor ailesini paylaşan, daha büyük bir sedan; klasik tork konvertörlü otomatik kullanıyor. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

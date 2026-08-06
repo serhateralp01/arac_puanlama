@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/serhateralp01/arac_puanlama/data/schema/queue-candidate.schema.json",
+  "title": "Kuyruk adayı",
+  "description": "data/queue/candidates.json içindeki tek bir kayıt. Bu şema data/schema/ altındaki diğer şemalardan bilinçli olarak ayrı: burada tanımlanan kayıtlar scripts/validate.py tarafından hiçbir zaman gerçek veri sayılmaz ve sayfaya basılmaz (bkz. docs/ARCHITECTURE.md MK-09). Toplama aşaması (hızlı model veya kullanıcı) bir adayı yalnızca status=pending ve resolution=null olarak ekleyebilir; resolution alanını yalnızca işleme aşaması (güçlü model, kanıt kararı verirken) doldurur.",
+  "type": "object",
+  "required": ["id", "car_id", "criterion", "url", "publisher", "claim", "found_at", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Kuyruk içinde benzersiz kimlik. Kabul edilirse data/sources.json'a aynı kimlikle taşınır; böylece bir kaydın kuyruktaki geçmişiyle yayındaki hâli arasındaki bağ kaybolmaz."
+    },
+    "car_id": {
+      "type": ["string", "null"],
+      "description": "Adayın hedeflediği data/cars/*.json kimliği. Aday listede olmayan bir araç için önerildiyse null olur; bu durumda Y-01'e (liste genişletme) aday olarak işaretlenir."
+    },
+    "criterion": {
+      "enum": ["motor", "trans", "fun", "comf", "age", "cost", "liq", "genel"],
+      "description": "Adayın hangi kriteri ilgilendirdiği. 'genel' — kaynak belirli bir kriteri değil aracın bütününü ilgilendiriyorsa (ör. doğrulama rozetine giren bir künye)."
+    },
+    "query": {
+      "type": ["string", "null"],
+      "description": "Toplama aşamasında kullanılan arama sorgusu. Aramanın tekrarlanabilirliği için (bkz. source.schema.json retrieval alanı ile aynı gerekçe)."
+    },
+    "url": { "type": "string", "pattern": "^https?://" },
+    "publisher": { "type": "string", "minLength": 2 },
+    "claim": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Kaynağın desteklediği iddianın paraphrase edilmiş hâli. Kabul edilirse bu metin, birebir aynı biçimde data/sources.json'daki claim alanına taşınır."
+    },
+    "quote": {
+      "type": ["string", "null"],
+      "description": "Kaynaktan alınabilmişse birebir alıntı. Bağlantı çürürse iddia elde kalsın diye; boş bırakılması adayı reddetmek için tek başına yeterli değil, ama tercih edilir."
+    },
+    "found_at": { "type": "string", "format": "date" },
+    "status": {
+      "enum": ["pending", "accepted", "rejected"],
+      "description": "pending = henüz değerlendirilmedi. accepted = kanıt olarak kabul edildi, data/sources.json ve ilgili araç kaydına işlendi. rejected = kanıt yetersiz veya iddiayı desteklemiyor; aynı kaynağın tekrar önerilmesini önlemek için kuyrukta gerekçesiyle kalır."
+    },
+    "resolution": {
+      "type": ["object", "null"],
+      "description": "İşleme aşamasının kararı. status=pending iken null olmalı.",
+      "additionalProperties": false,
+      "properties": {
+        "tier": {
+          "type": ["string", "null"],
+          "enum": ["A", "B", "C", null],
+          "description": "docs/methodology.md'deki güven seviyesi rubriği."
+        },
+        "type": {
+          "type": ["string", "null"],
+          "description": "Kabul edildiyse source.schema.json'daki type enum'una karşılık gelir."
+        },
+        "source_id": {
+          "type": ["string", "null"],
+          "description": "Kabul edildiyse data/sources.json'daki karşılığının kimliği (bu kaydın id'siyle aynı olması bekleniyor)."
+        },
+        "reasoning": {
+          "type": "string",
+          "description": "Kabul ya da red gerekçesi. Red gerekçesi de kayıt altına alınıyor ki karar altı ay sonra da savunulabilsin (CLAUDE.md §1)."
+        },
+        "resolved_at": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}

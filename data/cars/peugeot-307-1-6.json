@@ -19,7 +19,7 @@
     480,
     680
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 62,
     "trans": 40,
@@ -29,7 +29,9 @@
     "cost": 71,
     "liq": 70
   },
-  "sources": [],
+  "sources": [
+    "peugeotturkey_307_al4"
+  ],
   "note": "C segment gövdesiyle 206'dan daha geniş; AL4 otomatiği eski PSA kutularının selenoid valf ve aşırı ısınma dertlerini taşıyabiliyor. Vites geçişlerinde vuruntu ve boşa düşme yaygın şikayetler arasında; şanzıman geçmişi belgeli değilse dikkatli olun.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",

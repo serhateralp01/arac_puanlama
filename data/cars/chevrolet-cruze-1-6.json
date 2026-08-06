@@ -19,7 +19,7 @@
     550,
     820
   ],
-  "verification": "preliminary",
+  "verification": "partial",
   "scores": {
     "motor": 72,
     "trans": 74,
@@ -29,7 +29,9 @@
     "cost": 73,
     "liq": 58
   },
-  "sources": [],
+  "sources": [
+    "frmtr_chevrolet_cruze_kronik"
+  ],
   "note": "Opel Astra ile aynı platformu paylaşıyor ve 6 ileri tork konvertörlü otomatikle geliyor. Geniş, konforlu ve ucuz bir araç. Markanın Türkiye'den çekilmesi nedeniyle yedek parça ve ikinci el tarafı Opel kadar rahat değil.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
