@@ -185,12 +185,28 @@ Bu adımlar depo sahibine ait ve hepsi ücretsizdir.
 5. **Siteyi barındır.** Form gönderimi `file://` üzerinden çalışmaz. GitHub Pages
    ücretsizdir ve çıktı artık `index.html` olduğu için ayarlardan açmak yeterli.
 
+### Ayrıca bitti (bu turda)
+
+- Araç detay panelinde **"Bu araca kaynak öner"** düğmesi eklendi
+  (`templates/app/60-tablo.js`). Tıklandığında `#katki` ekranına geçiliyor ve araç
+  kutusu o araca önceden seçili geliyor (`suggestSourceFor`, `templates/app/47-katki.js`);
+  kullanıcı listede zaten baktığı aracı formda ikinci kez aramak zorunda kalmıyor.
+- **`#iletisim` ekranı** kuruldu (`templates/screens/49-iletisim.html`): e-posta
+  adresi ve dört maddelik öneri kabul kriterleri. Adres, formun uç noktasıyla aynı
+  mantıkla tek bir yerde tutuluyor: `templates/app/05-yapilandirma.js` içindeki
+  `CONTACT_EMAIL`. Adres tanımlı değilken ekran sessizce boş kalmıyor, kaynak öner
+  formunun bu süreye kadar tek yol olduğu açıkça yazıyor.
+- `FORM_ENDPOINT` ve `CONTACT_EMAIL`, tek bir yapılandırma dosyasına
+  (`templates/app/05-yapilandirma.js`) taşındı; adres tanımlandığında tek satır
+  değiştirmek hem formu hem iletişim ekranını birden açıyor.
+- `smoke_test.js` üç yeni kontrol kazandı: iletişim ekranı adres tanımlı değilken
+  uyarısını gösteriyor mu, "bu araca kaynak öner" düğmesi forma götürüp aracı
+  önceden seçiyor mu, iletişim ekranında yatay taşma var mı.
+
 ### Sonraya kalan
 
-- Araç detay panelinde "bu araca kaynak öner" bağlantısı; aracın kimliği forma önceden
-  seçili gelir.
-- `#iletisim` ekranı: e-posta adresi ve öneri kabul kriterleri.
-- Gelen önerileri Y-03'teki kuyruğa (`data/queue/`) taşıyan akış.
+- Gelen önerileri Y-03'teki kuyruğa (`data/queue/`) taşıyan akış. Bu, Y-03 kurulmadan
+  anlamlı biçimde yapılamaz.
 
 ---
 

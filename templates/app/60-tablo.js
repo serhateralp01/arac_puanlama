@@ -52,11 +52,15 @@ function render(){renderHead();
   const weaks=weakOnes(c);
   let weakHtml='';
   if(weaks.length){weakHtml='<div class="weaklist">';weaks.forEach(w=>{weakHtml+='<div class="weakitem"><b>'+HEAD[w.k]+' ('+w.v+'/100):</b> '+weakReason(c,w.k)+'</div>';});weakHtml+='</div>';}
-  det.innerHTML='<td colspan="'+(ORDER.length+8)+'"><div class="det"><div class="det-grid"><div><div class="lead">'+c.note+'</div>'+weakHtml+'<div class="src">'+src+'</div></div><div class="radarwrap">'+radarSVG([c])+'</div></div></div></td>';
+  /* "Bu araca kaynak öner" (Y-04): kullanıcı zaten baktığı aracı ikinci kez
+     aramak zorunda kalmasın diye kaynak öner formuna aracı önceden seçili
+     götürüyor. */
+  det.innerHTML='<td colspan="'+(ORDER.length+8)+'"><div class="det"><div class="det-grid"><div><div class="lead">'+c.note+'</div>'+weakHtml+'<div class="src">'+src+'</div><button type="button" class="btn small ghost sugbtn" data-carid="'+c.id+'">Bu araca kaynak öner</button></div><div class="radarwrap">'+radarSVG([c])+'</div></div></div></td>';
   body.appendChild(tr);body.appendChild(det);
   const tg=()=>{const o=tr.classList.toggle('open');det.classList.toggle('open',o);tr.querySelector('.toggle').textContent=o?'−':'+';};
   tr.querySelector('.name').onclick=tg;tr.querySelector('.toggle').onclick=tg;
   tr.querySelector('[data-cmp]').onclick=(e)=>{e.stopPropagation();toggleCmp(c.id);};
+  det.querySelector('.sugbtn').onclick=(e)=>{e.stopPropagation();suggestSourceFor(c);};
  });
  updateSum();
 }

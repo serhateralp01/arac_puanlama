@@ -1,19 +1,24 @@
 /* ---------- kaynak öner formu ---------- */
-/* Form, sunucusuz bir sayfadan e-posta göndermek için FormSubmit'i kullanıyor
-   (formsubmit.co). Kayıt gerektirmiyor, ücretsiz ve sınırsız.
+/* Formun gönderileceği adres burada değil, templates/app/05-yapilandirma.js
+   içindeki FORM_ENDPOINT değişkeninde tanımlı; adresin tek bir yerde durmasının
+   gerekçesi de orada yazılı. Değişken boş bırakıldığı sürece form görünür ama
+   gönderim kapalıdır ve kullanıcıya bunun neden böyle olduğu açıkça söylenir. */
 
-   AKTİFLEŞTİRME — tek yapılması gereken:
-   Aşağıdaki FORM_ENDPOINT değişkenine FormSubmit'in verdiği adresi yazın.
-   İki biçim de çalışır:
-     'https://formsubmit.co/ornek@ornek.com'          (ilk gönderimde onay postası gelir)
-     'https://formsubmit.co/a1b2c3d4e5f6...'          (onay sonrası verilen gizli uç nokta)
-   İkinci biçim tercih edilmeli: ham e-posta adresi HTML kaynağında görünmezse
-   spam robotları adresi toplayamaz.
-
-   Değişken boş bırakıldığı sürece form görünür ama gönderim kapalıdır ve
-   kullanıcıya bunun neden böyle olduğu açıkça söylenir. Sessizce başarısız olan
-   bir form, hiç olmayan bir formdan daha kötüdür. */
-const FORM_ENDPOINT = '';
+/* Araç detay panelindeki "Bu araca kaynak öner" düğmesi bu işlevi çağırıyor:
+   form ekranına geçilirken araç kutusu o araca ayarlanıyor, böylece kullanıcı
+   listede zaten yaptığı seçimi ikinci kez yapmak zorunda kalmıyor. Seçim kısa
+   süreli bir vurguyla işaretleniyor; aksi hâlde forma düşen kullanıcı aracın
+   önceden seçildiğini fark etmeyebilir. */
+function suggestSourceFor(car){
+ const carSel=document.getElementById('ktCar');
+ if(!carSel)return;
+ const label=car.n+' ('+car.y+')';
+ const known=Array.from(carSel.options).some(o=>o.value===label);
+ carSel.value=known?label:'listede-yok';
+ goTo('katki');
+ carSel.classList.add('prefilled');
+ setTimeout(()=>carSel.classList.remove('prefilled'),2600);
+}
 
 (function(){
  const form=document.getElementById('ktForm');

@@ -123,6 +123,31 @@ async function dumpDebug(label) {
     const ktWidth = await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2);
     check('kaynak öner ekranında yatay taşma yok', ktWidth);
 
+    // İletişim ekranı: adres tanımlı değilken sessizce boş kalmamalı.
+    await page.click('.nav a[data-route="iletisim"]');
+    await page.waitForTimeout(200);
+    const ilWarn = await page.locator('#ilNotice.warn').isVisible();
+    check('iletişim ekranı adres tanımsızken uyarı gösteriyor', ilWarn);
+    const ilWidth = await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2);
+    check('iletişim ekranında yatay taşma yok', ilWidth);
+
+    // "Bu araca kaynak öner" düğmesi: liste ekranında bir satır açılıp düğmeye
+    // basılınca kaynak öner formuna geçilmeli ve araç kutusu önceden seçili gelmeli.
+    await page.click('.nav a[data-route="liste"]');
+    await page.waitForTimeout(150);
+    await page.locator('#body tr.main .name').first().click();
+    await page.waitForTimeout(150);
+    const firstCarName = await page.locator('#body tr.main .nm').first().innerText();
+    await page.locator('.sugbtn').first().click();
+    await page.waitForTimeout(200);
+    const onKatkiScreen = await page.locator('[data-screen="katki"]').isVisible();
+    const ktCarValue = await page.locator('#ktCar').inputValue();
+    check(
+      'bu araca kaynak öner düğmesi formu doldurup açıyor',
+      onKatkiScreen && !!ktCarValue && firstCarName.includes(ktCarValue.split(' (')[0]),
+      `ekran=${onKatkiScreen} seçili="${ktCarValue}"`
+    );
+
     await page.click('.nav a[data-route="liste"]');
     await page.waitForTimeout(150);
 
