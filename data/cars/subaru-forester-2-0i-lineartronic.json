@@ -1,0 +1,39 @@
+{
+  "id": "subaru-forester-2-0i-lineartronic",
+  "name": "Subaru Forester 2.0i Lineartronic",
+  "tag": "oto: Lineartronic CVT · 150hp",
+  "brand_group": "Subaru",
+  "years": "2013-2018",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2.0,
+    "fuel": "Benzin",
+    "drivetrain": "Dört çeker",
+    "transmission_type": "CVT",
+    "transmission_id": "subaru-lineartronic",
+    "body_type": "SUV",
+    "engine_id": "subaru-fb20"
+  },
+  "price_band_k_try": [
+    750,
+    1150
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 60,
+    "trans": 52,
+    "fun": 58,
+    "comf": 76,
+    "age": 68,
+    "cost": 62,
+    "liq": 48
+  },
+  "sources": [
+    "subaruforester_cvt_boxer"
+  ],
+  "note": "Listede ilk kez yer alan Subaru; motor (FB20 boxer, yeni aile) ve şanzıman (Lineartronic CVT, yeni aile) ikisi de bu araştırmayla açıldı. Standart simetrik dört çeker segmentte nadir bir avantaj. Yüksek kilometrede yağ tüketimi bildirilmiş; CVT'nin benzinli uygulamada dizele göre daha az riskli olduğu değerlendiriliyor. Türkiye'de parça/usta ağı mainstream markalara göre çok daha sınırlı, bu likidite puanına yansıyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+  }
+}

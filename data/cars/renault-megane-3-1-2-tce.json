@@ -1,0 +1,39 @@
+{
+  "id": "renault-megane-3-1-2-tce",
+  "name": "Renault Megane 3 1.2 TCe",
+  "tag": "oto: 6 ileri kuru EDC · 130hp",
+  "brand_group": "Renault",
+  "years": "2012-2016",
+  "specs": {
+    "hp": 130,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "renault-edc-kuru",
+    "body_type": "Hatchback",
+    "engine_id": "renault-tce-12"
+  },
+  "price_band_k_try": [
+    480,
+    720
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 42,
+    "trans": 54,
+    "fun": 56,
+    "comf": 76,
+    "age": 48,
+    "cost": 58,
+    "liq": 54
+  },
+  "sources": [
+    "donanimhaber_renault_12tce"
+  ],
+  "note": "Megane 3'ün benzinli turbo versiyonu; motor için yeni bir aile açıldı (renault-tce-12) — Megane 4/Koleos'ta kullanılan daha yeni 1.3 TCe (H5Ht) ailesinden farklı, daha eski ve daha sorunlu bir nesil. Yağ tüketimi ciddi seviyelere ulaşabiliyor, bazı araçlar garanti kapsamında motor değişimi görmüş. Şanzıman (kuru EDC) listede zaten kayıtlı.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+  }
+}

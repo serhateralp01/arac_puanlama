@@ -1480,5 +1480,176 @@
       "reasoning": "Sarı/kırmızı çeşitlendirme turunda eklenen bir aracın kanıt kaydı; yeni bir motor/şanzıman ailesi bu araçla birlikte açıldı.",
       "resolved_at": "2026-08-06"
     }
+  },
+  {
+    "id": "donanimhaber_renault_12tce__renault-megane-3-1-2-tce",
+    "car_id": "renault-megane-3-1-2-tce",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://forum.donanimhaber.com/renault-1-2-tce-motor-arizasi--151380459",
+    "publisher": "DonanımHaber Forum",
+    "claim": "DonanımHaber forumundaki 'Renault 1.2 TCe Motor Arızası' başlığı ve ilişkili şikayet sitelerinde 1.2 TCe motorun yağ tüketiminin ciddi seviyelere ulaştığı (bazı araçlarda 1000 km'de 1 litreye varan), triger zincirinin zamanla uzadığı ve motor vuruntusuna yol açtığı, bazı araçların garanti kapsamındayken yetkili serviste motor değişimi gördüğü aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "donanimhaber_renault_12tce",
+      "reasoning": "Y-01 beşinci turunda eklenen bir aracın kanıt kaydı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "donanimhaber_renault_12tce__renault-clio-4-1-2-tce",
+    "car_id": "renault-clio-4-1-2-tce",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://forum.donanimhaber.com/renault-1-2-tce-motor-arizasi--151380459",
+    "publisher": "DonanımHaber Forum",
+    "claim": "DonanımHaber forumundaki 'Renault 1.2 TCe Motor Arızası' başlığı ve ilişkili şikayet sitelerinde 1.2 TCe motorun yağ tüketiminin ciddi seviyelere ulaştığı (bazı araçlarda 1000 km'de 1 litreye varan), triger zincirinin zamanla uzadığı ve motor vuruntusuna yol açtığı, bazı araçların garanti kapsamındayken yetkili serviste motor değişimi gördüğü aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "donanimhaber_renault_12tce",
+      "reasoning": "Y-01 beşinci turunda eklenen bir aracın kanıt kaydı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "myautoszerviz_f9q__renault-laguna-1-9-dci",
+    "car_id": "renault-laguna-1-9-dci",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://myautoszerviz.hu/mennyire-megbizhato-a-renault-1-9-dci-f9q-dizelmotor/",
+    "publisher": "myautoszerviz.hu",
+    "claim": "myautoszerviz.hu'nun Renault 1.9 dCi (F9Q) güvenilirlik derlemesinde motorun genel olarak güvenilir kabul edildiği, yakıt basıncı kontrol valfi arızası ve enjektör hattı aşınmasının en sık görülen sorunlar olduğu, 120.000 km sonrası emme kam mili faz değiştiricisinin arızalanabildiği; yüksek basınç pompasının sağlam olduğu ve çoğu arızanın kolay teşhis edilip ucuza onarılabildiği vurgulanıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "myautoszerviz_f9q",
+      "reasoning": "Y-01 beşinci turunda eklenen bir aracın kanıt kaydı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "dhaber_insignia_2_0_turbo__opel-insignia-2-0-turbo",
+    "car_id": "opel-insignia-2-0-turbo",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.insigniateam.com/forum/teknik-b%C3%B6l%C3%BCm/teknik-destek/619142-2-0-cdti-d%C3%BC%C5%9F%C3%BCk-ya%C4%9F-bas%C4%B1nc%C4%B1-motoru-durdurun-hatas%C4%B1",
+    "publisher": "DonanımHaber / InsigniaTeam Forumları",
+    "claim": "DonanımHaber ve InsigniaTeam forumlarındaki tartışmalarda Insignia'nın 2.0 Turbo benzinli motorunda ateşleme bobinlerinin erken aşındığı (rölantide titreme, gaza basınca tereddüt, arıza lambası), turbo hortumlarının bağlantı noktalarından ~50.000 km gibi düşük kilometrede yırtıldığı; bu ikisinin birden fazla forumda tekrarlayan bir örüntü olarak bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "forum",
+      "source_id": "dhaber_insignia_2_0_turbo",
+      "reasoning": "Y-01 beşinci turunda eklenen bir aracın kanıt kaydı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "kroniksorunlar_astra_17cdti__opel-astra-1-7-cdti",
+    "car_id": "opel-astra-1-7-cdti",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://kroniksorunlar.net/opel-astra-17-cdti-kronik-sorunlari-ve-kullanici-yorumlari",
+    "publisher": "KronikSorunlar.Net",
+    "claim": "KronikSorunlar.Net'in Opel Astra 1.7 CDTI derlemesinde EGR valfi ve DPF'nin özellikle kısa mesafeli şehir içi kullanımda kurum birikimiyle tıkandığı, bunun çekiş gücünü azaltıp yakıt tüketimini artırdığı, turbo hortumlarında çatlama/sızdırmanın düşük devirde turbo gecikmesine yol açtığı aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "kroniksorunlar_astra_17cdti",
+      "reasoning": "Y-01 beşinci turunda eklenen bir aracın kanıt kaydı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "subaruforester_cvt_boxer__subaru-forester-2-0i-lineartronic",
+    "car_id": "subaru-forester-2-0i-lineartronic",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.subaruforester.org/threads/2021-latest-models-cvt-issues.826073/",
+    "publisher": "Subaru Forester Owners Forum / Şikayetvar",
+    "claim": "Subaru Forester Owners Forum ve Türkçe şikayet sitelerinde Lineartronic CVT'nin yüksek tork gerektiren (özellikle dizel) uygulamalarda uzun vadede uyum sorunu, kayma ve titreşim şikayetine konu olduğu, CVT yağının zamanında değiştirilmemesinin bu sorunu hızlandırdığı; boxer motorun yatay silindir yerleşimi nedeniyle piston segmanlarında yağ birikiminin dikey motorlardan farklı davrandığı, yüksek kilometrede aşırı yağ tüketimi şikayetlerinin (bir 2013 model XV'de 10.000 km'de ~3 litre) bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "subaruforester_cvt_boxer",
+      "reasoning": "Y-01 beşinci turunda eklenen bir aracın kanıt kaydı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "subaruforester_cvt_boxer__subaru-xv-2-0i-lineartronic",
+    "car_id": "subaru-xv-2-0i-lineartronic",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.subaruforester.org/threads/2021-latest-models-cvt-issues.826073/",
+    "publisher": "Subaru Forester Owners Forum / Şikayetvar",
+    "claim": "Subaru Forester Owners Forum ve Türkçe şikayet sitelerinde Lineartronic CVT'nin yüksek tork gerektiren (özellikle dizel) uygulamalarda uzun vadede uyum sorunu, kayma ve titreşim şikayetine konu olduğu, CVT yağının zamanında değiştirilmemesinin bu sorunu hızlandırdığı; boxer motorun yatay silindir yerleşimi nedeniyle piston segmanlarında yağ birikiminin dikey motorlardan farklı davrandığı, yüksek kilometrede aşırı yağ tüketimi şikayetlerinin (bir 2013 model XV'de 10.000 km'de ~3 litre) bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "subaruforester_cvt_boxer",
+      "reasoning": "Y-01 beşinci turunda eklenen bir aracın kanıt kaydı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_kona_kronik__hyundai-kona-1-6-crdi-7dct",
+    "car_id": "hyundai-kona-1-6-crdi-7dct",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/hyundai-motor/kona/ariza",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Hyundai Kona şikayetleri derlemesinde 1.6 CRDi otomatik (Smart DCT) modellerde satın alımdan itibaren kalkışta titreme/sarsıntı, 'egzoz sistemini kontrol edin' uyarısı ve partikül filtresi lambasının yandığı, bunun motor devrini 3000'in üzerine çıkarmadığı ve yakıt tüketimini artırdığı vakaların bildirildiği aktarılıyor.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_kona_kronik",
+      "reasoning": "Y-01 beşinci turunda eklenen bir aracın kanıt kaydı.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_passat_tsi__seat-leon-1-5-tsi",
+    "car_id": "seat-leon-1-5-tsi",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/volkswagen/passat/tsi",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Passat TSI şikayetleri derlemesinde, 1.8 TSI motorlu Passat'larda 100.000 km sonrası turbo arızalarının ve bazı araçlarda 1000 km'de 1 litreye varan yağ tüketiminin yaygın şikayetler arasında olduğu; DSG şanzımanlı araçlarda yoğun trafikte sertlik/sarsıntı ve ısınma eğiliminin bildirildiği, bir kullanıcının 65.000 km'de yaşadığı kavrama arızasının 120.000 km'de tekrarlayıp 21.000 TL onarım maliyetine yol açtığının aktarıldığı.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_passat_tsi",
+      "reasoning": "Y-01 beşinci turunda eklenen bir aracın kanıt kaydı.",
+      "resolved_at": "2026-08-06"
+    }
   }
 ]

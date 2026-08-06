@@ -1,0 +1,39 @@
+{
+  "id": "renault-laguna-1-9-dci",
+  "name": "Renault Laguna 1.9 dCi",
+  "tag": "oto: 4 ileri TK (AL4) · 120hp",
+  "brand_group": "Renault",
+  "years": "2001-2007",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.9,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "psa-al4",
+    "body_type": "Sedan",
+    "engine_id": "renault-f9q"
+  },
+  "price_band_k_try": [
+    300,
+    480
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 62,
+    "trans": 40,
+    "fun": 48,
+    "comf": 76,
+    "age": 18,
+    "cost": 64,
+    "liq": 36
+  },
+  "sources": [
+    "myautoszerviz_f9q"
+  ],
+  "note": "Laguna 2'nin listede zaten kayıtlı 1.6/2.0 benzinli versiyonuna eşlik eden dizel; motor için yeni bir aile açıldı (renault-f9q) — dönemin Renault-Nissan ortak dizeli, görece güvenilir kabul ediliyor. AL4 otomatik kutusu listede zaten kayıtlı ve düşük puanlı; aracın yaşı artık çok ileri olduğu için genel yıpranma riski yüksek.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+  }
+}

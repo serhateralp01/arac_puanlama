@@ -30,13 +30,13 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynaksız araçlar (Y-02) | Kaynaksız araç yok; araç başına ortalama kaynak hâlâ hedefin (2.5) altında ve düşüyor, 1.67 |
-| Araç listesi (Y-01) | Başlandı: 154 → 212 araç, 2016+ 5 → 37, **SUV 1 → 25 (hedefe ulaştı)**, 4 yeni marka; dördüncü tur mevcut modellerin motor çeşitliliğini yeni bileşen aileleriyle derinleştirdi |
+| Kaynaksız araçlar (Y-02) | Kaynaksız araç yok; araç başına ortalama kaynak hâlâ hedefin (2.5) altında ve düşüyor, 1.65 |
+| Araç listesi (Y-01) | 154 → 221 araç. **SUV 1 → 28 (hedefi aştı), marka 5/5 (hedefe ulaştı: Dacia, Jeep, MINI, Cupra, Subaru)**, 2016+ 5 → 39 (hedef 40'a bir araç kaldı) |
 | **Kaynak derinliği** | **Zayıf, ama iyileşiyor — kuyruk artık çalışır durumda** |
 | **Araç kapsamı** | **Hâlâ dar ama genişliyor — 2016+ ve SUV hedeflerinin çoğu önümüzde** |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 
-Denetimin bugünkü çıktısı: **0 hata, 243 uyarı**. Uyarıların ezici çoğunluğu (204) tek
+Denetimin bugünkü çıktısı: **0 hata, 253 uyarı**. Uyarıların ezici çoğunluğu (213) tek
 bir kalemden geliyor: araçların dört bağımsız kaynağa ulaşmamış olması. Kuyruk artık
 kurulduğu için bu sayı, tek tek araç dosyası düzenlemek yerine kuyruğu tekrar tekrar
 çalıştırarak düşürülebilir.
@@ -175,26 +175,28 @@ aile açmaya gerek kalmadı).
 Clio 4 TCe, Laguna 1.9 dCi, Opel Insignia 2.0 Turbo, Opel Astra 1.7 CDTI) her biri
 ayrı bir yeni motor ailesi gerektiriyor, henüz işlenmedi.
 
-**Kalan iş — hedeflerin çoğu hâlâ karşılanmadı.** Bitmiş sayılma ölçütü (2016 sonrası
-≥ 40, SUV ≥ 25, eksik markalardan en az 5 temsil) şu an marka kısmında neredeyse tam
-(Dacia + Jeep + MINI + Cupra = 4, hedef 5 — bir marka daha eklenince bu madde de
-biter). Sırada:
+**Beşinci tur — kalan sarı/kırmızılar + yeni marka (Subaru) + 2016 sonrası kapsamı.**
+Kullanıcı "devam etsene, araç eklemeye de devam et" dedi. Bu turda **5 yeni motor
+ailesi** (`renault-tce-12`, `renault-f9q`, `gm-a20net`, `gm-z17dt`, `subaru-fb20`) ve
+**1 yeni şanzıman ailesi** (`subaru-lineartronic`) açıldı, **9 araç** eklendi:
+Renault Megane 3 1.2 TCe, Renault Clio 4 1.2 TCe, Renault Laguna 1.9 dCi, Opel
+Insignia 2.0 Turbo, Opel Astra 1.7 CDTI (bunlar `docs/Y01B-MOTOR-CESITLENDIRME.md`'nin
+son kalan 🟡/🔴 satırlarıydı), **Subaru Forester 2.0i Lineartronic** ve **Subaru XV
+2.0i Lineartronic** (listede ilk kez yer alan beşinci yeni marka), Hyundai Kona 1.6
+CRDi 7DCT ve Seat Leon 1.5 TSI (2016 sonrası kapsamını büyüten, tamamen mevcut
+bileşenli 🟢 ekler).
 
-1. **Düşük riskli devam:** `docs/Y01-HEDEF-LISTE.md`'deki "Ertelenenler" bölümü
-   (Kia Ceed SW hemen, sonra T-Roc/Polo/C-HR/CX-5/Focus4/MINI F56 için yeni bileşen
-   araştırması) ve `docs/Y01B-MOTOR-CESITLENDIRME.md`'deki 🟡/🔴 satırlar. C5 Aircross
-   ve 3008/Grandland X ailesi için depoda hâlâ 3 yetim kaynak (`araclo_c5aircross`,
-   `erenservis_eat8`, `motor1_psa_suv_eat`) bekliyor.
-2. **C bölümü (Subaru, MG)** — tamamen yeni bileşen ailesi zinciri gerektiriyor,
-   kullanıcı onayı bekliyor.
-3. Hibrit/elektrikli araçlar (Lexus, Togg, MG'nin EV/PHEV modelleri) için önce bir
-   şema kararı gerekiyor: `fuel` alanı bugün yalnızca `Dizel` / `Benzin` kabul ediyor.
-   Bu, geri alınması pahalı bir karar olduğu için `docs/ARCHITECTURE.md`'ye MK kaydı
-   olarak yazılmadan araç eklenmemeli.
+**Sonuç (beşinci tur):** araç sayısı 212 → 221. `validate.py` hâlâ 0 hata.
 
-**Bitmiş sayılma ölçütü — üç şarttan ikisi artık karşılandı.** SUV sayısı hedefe
-ulaştı (25/25 ✅). 2016 sonrası araç sayısı 37/40 — üç araç daha eklenince biter.
-Marka şartı 4/5 — bir marka daha eklenince biter. `validate.py` hâlâ 0 hata veriyor.
+**Bitmiş sayılma ölçütü — üç şarttan ikisi artık karşılandı, üçüncüsü bir araç
+uzaklıkta.** SUV sayısı hedefi aştı (28/25 ✅). **Marka şartı karşılandı (5/5 ✅:
+Dacia, Jeep, MINI, Cupra, Subaru).** 2016 sonrası araç sayısı 39/40 — tek bir araç
+daha eklenince bu madde de biter. `validate.py` hâlâ 0 hata veriyor.
+
+**Kalan iş.** `docs/Y01-HEDEF-LISTE.md`'deki C ve D bölümleri (MG; Lexus/Togg/MG'nin
+EV-PHEV modelleri) hâlâ kullanıcı onayı bekliyor — D bölümü için önce
+`docs/ARCHITECTURE.md`'ye hibrit/elektrikli araçların şema kararı MK kaydı olarak
+yazılmalı, `fuel` alanı bugün yalnızca `Dizel`/`Benzin` kabul ediyor.
 
 ---
 
@@ -221,17 +223,17 @@ kaynak o aracın kendi kanıt zincirini tamamlıyor (bkz. "önemli ayrım" aşa�
 | Kaynak sayısı | Araç | Durum |
 |---:|---:|---|
 | 0 | 0 | — kalmadı |
-| 1 | 109 | Tek kaynak çürürse dayanaksız kalır |
+| 1 | 118 | Tek kaynak çürürse dayanaksız kalır |
 | 2-3 | 95 | Kısmi |
 | 4+ | 8 | Doğrulanmış |
 
-Ortalama kaynak 1.87 → 1.80 → 1.71 → 1.67 **gerilemeye devam ediyor** — bu bir
-gerileme değil, aritmetik bir sonuç: Y-01'in ikinci-dördüncü turlarında eklenen 52
-aracın (18 + 21 + 13) çoğu tek kaynakla açıldı, kaynaksız başlamamaları
-önceliklendirildi (dördüncü turda bu bilinçli bir tercihti, bkz. MK-12). Bu artık
-kalıcı bir örüntü; Y-02'nin hedefine (2.5) ulaşmak için liste büyümesi bir noktada
-durup tek kaynaklı araçlara (şimdi 109 tane) ikinci kaynak bulma turuna geçilmeli —
-aksi hâlde her yeni araç turu ortalamayı yeniden düşürmeye devam edecek.
+Ortalama kaynak 1.87 → 1.80 → 1.71 → 1.67 → 1.65 **gerilemeye devam ediyor** — bu bir
+gerileme değil, aritmetik bir sonuç: Y-01'in ikinci-beşinci turlarında eklenen 61
+aracın (18 + 21 + 13 + 9) çoğu tek kaynakla açıldı, kaynaksız başlamamaları
+önceliklendirildi (dördüncü ve beşinci turlarda bu bilinçli bir tercihti, bkz. MK-12).
+Bu artık kalıcı bir örüntü; Y-02'nin hedefine (2.5) ulaşmak için liste büyümesi bir
+noktada durup tek kaynaklı araçlara (şimdi 118 tane) ikinci kaynak bulma turuna
+geçilmeli — aksi hâlde her yeni araç turu ortalamayı yeniden düşürmeye devam edecek.
 
 Araç başına ortalama kaynak **1.79 → 1.88**'e çıktı. Hedefin (2.5) altında; **kalan iş**
 bu 14 aracı ve tek kaynaklı diğer 43 aracı ikinci, bağımsız bir kaynağa daha bağlamak.

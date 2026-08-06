@@ -1,0 +1,39 @@
+{
+  "id": "subaru-xv-2-0i-lineartronic",
+  "name": "Subaru XV 2.0i Lineartronic",
+  "tag": "oto: Lineartronic CVT · 150hp",
+  "brand_group": "Subaru",
+  "years": "2012-2017",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2.0,
+    "fuel": "Benzin",
+    "drivetrain": "Dört çeker",
+    "transmission_type": "CVT",
+    "transmission_id": "subaru-lineartronic",
+    "body_type": "SUV",
+    "engine_id": "subaru-fb20"
+  },
+  "price_band_k_try": [
+    650,
+    1000
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 60,
+    "trans": 52,
+    "fun": 56,
+    "comf": 72,
+    "age": 62,
+    "cost": 62,
+    "liq": 44
+  },
+  "sources": [
+    "subaruforester_cvt_boxer"
+  ],
+  "note": "Forester'ın kompakt kardeşi; motor ve şanzıman birebir aynı aileden (bu araştırmanın bir uzantısı). Daha küçük gövde ve daha düşük fiyat noktası dışında Forester ile aynı risk profili taşıyor; Türkiye'de daha da niş olduğu için likidite puanı bir tık daha düşük.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+  }
+}

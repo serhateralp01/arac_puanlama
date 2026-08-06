@@ -34,9 +34,19 @@ VW T-Roc 1.5 TSI, VW Golf 7 GTI 2.0 TSI, Kia Ceed SW 1.6 CRDi. Her yeni aile en 
 bir gerçek kaynağa dayanıyor ama araştırma tek turlu ve hızlı tutuldu — kullanıcının
 açık tercihi buydu, gerekçesi `docs/ARCHITECTURE.md` MK-12 kaydında.
 
-Kalan bilinen boşluklar (henüz işlenmedi): Megane 3 1.2 TCe, Clio 4 TCe (0.9/1.2),
-Renault Laguna 1.9 dCi, Opel Insignia 2.0 Turbo (benzin), Opel Astra 1.7 CDTI —
-her biri ayrı bir yeni motor ailesi gerektiriyor.
+## Üçüncü tur (2026-08-06, aynı gün) — kalan satırlar da işlendi
+
+Kullanıcı "devam etsene, araç eklemeye de devam et" dedi. Kalan bütün satırlar bu
+turda kaynaklandı: **5 yeni motor ailesi** (`renault-tce-12`, `renault-f9q`,
+`gm-a20net`, `gm-z17dt`, `subaru-fb20`) ve **1 yeni şanzıman ailesi**
+(`subaru-lineartronic`) açıldı; Renault Megane 3 1.2 TCe, Renault Clio 4 1.2 TCe,
+Renault Laguna 1.9 dCi, Opel Insignia 2.0 Turbo, Opel Astra 1.7 CDTI eklendi. Ayrıca
+bu belgenin kapsamı dışındaki bir fırsat da değerlendirildi: Subaru (Section C'de
+"yüksek efor" olarak işaretliydi) Forester ve XV 2.0i Lineartronic ile listeye
+katıldı — bu, Y-01'in beşinci "eksik marka" hedefini tamamladı.
+
+Bu belgedeki bütün adaylar artık işlendi. Kalan boşluklar (varsa) yeni bir tur olarak
+`docs/Y01-HEDEF-LISTE.md`'nin C/D bölümlerinde veya yeni bir araştırmada ele alınmalı.
 
 **Bu belgedeki hiçbir satır henüz kaynaklanmadı** (kullanıcının talebi: "araştırmasını
 sonra yaparız"). Aşağıdaki motor/şanzıman eşleşmeleri genel otomotiv bilgisine dayanıyor.

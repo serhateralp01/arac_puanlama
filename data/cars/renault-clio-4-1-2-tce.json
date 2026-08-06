@@ -1,0 +1,39 @@
+{
+  "id": "renault-clio-4-1-2-tce",
+  "name": "Renault Clio 4 1.2 TCe",
+  "tag": "oto: 6 ileri kuru EDC · 120hp",
+  "brand_group": "Renault",
+  "years": "2013-2019",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "renault-edc-kuru",
+    "body_type": "Hatchback",
+    "engine_id": "renault-tce-12"
+  },
+  "price_band_k_try": [
+    500,
+    750
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 42,
+    "trans": 54,
+    "fun": 54,
+    "comf": 74,
+    "age": 58,
+    "cost": 60,
+    "liq": 64
+  },
+  "sources": [
+    "donanimhaber_renault_12tce"
+  ],
+  "note": "Clio 4'ün benzinli turbo versiyonu; aynı renault-tce-12 ailesinden (Megane 3 ile paylaşılan). Clio'nun listede zaten kayıtlı 1.5 dCi versiyonuna göre daha eğlenceli ama motor tarafında daha riskli; Türkiye'de Clio'nun güçlü ikinci el likiditesi bu riski kısmen dengeliyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+  }
+}

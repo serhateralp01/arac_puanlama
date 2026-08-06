@@ -947,5 +947,32 @@
       "donanimhaber_mazda_skyactiv_otomatik"
     ],
     "note": "Mazda'nın kendi geliştirdiği, dışarıdan tedarik edilmeyen 6 ileri otomatik kutusu. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak (C) genel olarak 'dünyanın en iyi otomatik şanzımanlarından biri' olarak tarif ediyor, bildirilen tek şikayet erken kilitlenmeden kaynaklanan sertlik hissi; tek kaynak olduğu için 85 üstüne çıkarılmadı."
+  },
+  "subaru-lineartronic": {
+    "id": "subaru-lineartronic",
+    "names": [
+      "Lineartronic",
+      "Subaru CVT"
+    ],
+    "type": "CVT",
+    "supplier": "Subaru",
+    "gears": null,
+    "base_score": 52,
+    "maintenance": "CVT yağının zamanında değiştirilmemesi kayma, gecikmeli tepki ve titreşim şikayetlerini hızlandırıyor.",
+    "known_issues": [
+      {
+        "issue": "Yüksek tork gerektiren (özellikle dizel) uygulamalarda uzun vadeli uyum sorunları, kayma ve titreşim",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "subaruforester_cvt_boxer"
+        ]
+      }
+    ],
+    "sources": [
+      "subaruforester_cvt_boxer"
+    ],
+    "note": "Subaru'nun boxer motor ve simetrik dört çekerle birlikte çalışacak şekilde tasarladığı kendi CVT'si. [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi): benzinli uygulamalarda sorun bildirilmemiş, yüksek tork isteyen uygulamalarda (dizel) uyum sorunları bildirilmiş; listedeki araç benzinli (2.0i) olduğu için bu risk daha düşük ama tek kaynak (C) olduğu için 65 üstüne çıkarılmadı."
   }
 }

@@ -1,0 +1,39 @@
+{
+  "id": "hyundai-kona-1-6-crdi-7dct",
+  "name": "Hyundai Kona 1.6 CRDi 7DCT",
+  "tag": "oto: 7 ileri kuru DCT · 136hp",
+  "brand_group": "Hyundai",
+  "years": "2018-2020",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "hyundai-7dct",
+    "body_type": "SUV",
+    "engine_id": "hyundai-u2-16"
+  },
+  "price_band_k_try": [
+    950,
+    1350
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 68,
+    "trans": 46,
+    "fun": 52,
+    "comf": 76,
+    "age": 82,
+    "cost": 76,
+    "liq": 76
+  },
+  "sources": [
+    "sikayetvar_kona_kronik"
+  ],
+  "note": "Hyundai'nin küçük SUV'u; U2 1.6 CRDi motoru ve kuru 7DCT kutusu listede zaten Tucson/Sportage/i30'da kayıtlı aynı aileden, düşük risk. Kalkışta titreme ve partikül filtresi/egzoz sistemi uyarıları ailenin diğer üyelerinde de bildirilen aynı zayıf halka; Hyundai'nin geniş servis ağı işletme maliyeti puanını yukarı çekiyor.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+  }
+}

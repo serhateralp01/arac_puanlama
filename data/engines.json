@@ -3171,5 +3171,188 @@
       "eklasseforum_m112_m113"
     ],
     "note": "W211'in altı silindirli benzinli ailesi; triger zinciri sorunu taşımadığı, dönemin diğer Mercedes motorlarına göre görece güvenilir kabul edildiği bildiriliyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): tek kaynak (C, Almanca topluluk forumu) olsa da tutarlı biçimde 'sorunsuz motor' olarak tarif ediliyor, contalardaki sızıntılar küçük onarımlar; buna rağmen tek kaynak olduğu için 85 üstüne çıkarılmadı."
+  },
+  "renault-tce-12": {
+    "id": "renault-tce-12",
+    "names": [
+      "H5F",
+      "1.2 TCe"
+    ],
+    "supplier": "Renault",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.2
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 42,
+    "maintenance": "Yağ seviyesi ve triger zinciri gerginliği düzenli kontrol edilmeli; yazılım güncellemelerinin takip edilmesi öneriliyor.",
+    "known_issues": [
+      {
+        "issue": "Yağ tüketiminin ciddi seviyelere ulaşması, bazı araçlarda 1000 km'de 1 litreye varan",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "donanimhaber_renault_12tce"
+        ]
+      },
+      {
+        "issue": "Triger zincirinin zamanla uzaması ve motor vuruntusu",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "donanimhaber_renault_12tce"
+        ]
+      }
+    ],
+    "sources": [
+      "donanimhaber_renault_12tce"
+    ],
+    "note": "Renault'nun Clio 4, Megane 3/4 ve Captur'da kullandığı küçük hacimli turbo benzinli ailesi; H5Ht (1.3 TCe, listede zaten kayıtlı) ile aynı aile değil, daha küçük ve daha sorunlu bir önceki nesil. [base_score gerekçesi: 35-49 (bilinen risk): yağ tüketimi ve zincir uzaması yaygın bildiriliyor, garanti kapsamında motor değişimi vakaları var; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
+  },
+  "renault-f9q": {
+    "id": "renault-f9q",
+    "names": [
+      "F9Q",
+      "1.9 dCi"
+    ],
+    "supplier": "Renault",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.9
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 62,
+    "maintenance": "Soğutma sistemi (termostat, su pompası, radyatör) düzenli kontrol edilmeli; aşırı ısınma motora ciddi zarar verebiliyor.",
+    "known_issues": [
+      {
+        "issue": "Yakıt basıncı kontrol valfi arızası ve enjektör hatlarında aşınma/kırılma",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "myautoszerviz_f9q"
+        ]
+      },
+      {
+        "issue": "120.000 km sonrası emme kam mili faz değiştiricisinin arızalanıp performans kaybına yol açması",
+        "onset_km": 120000,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "myautoszerviz_f9q"
+        ]
+      }
+    ],
+    "sources": [
+      "myautoszerviz_f9q"
+    ],
+    "note": "2000'lerin Renault dizel amiral gemilerinde (Laguna, Espace, Vel Satis) kullanılan 1.9 dCi motoru. [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi): kaynak genel olarak 'güvenilir' diye tarif ediyor, yüksek basınç pompasının sağlam olduğu ve çoğu arızanın kolay teşhis edilip ucuza onarılabildiği vurgulanıyor; tek kaynak (C) olduğu için 65 üstüne çıkarılmadı."
+  },
+  "gm-a20net": {
+    "id": "gm-a20net",
+    "names": [
+      "A20NET",
+      "2.0 Turbo"
+    ],
+    "supplier": "General Motors",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2.0
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 46,
+    "maintenance": null,
+    "known_issues": [
+      {
+        "issue": "Ateşleme bobinlerinin erken aşınması; rölantide titreme ve gaza basınca tereddüt belirtisi",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "dhaber_insignia_2_0_turbo"
+        ]
+      },
+      {
+        "issue": "Turbo hortumlarının bağlantı noktalarından yırtılması, ~50.000 km gibi düşük kilometrede",
+        "onset_km": 50000,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "dhaber_insignia_2_0_turbo"
+        ]
+      }
+    ],
+    "sources": [
+      "dhaber_insignia_2_0_turbo"
+    ],
+    "note": "Insignia'nın üst güç benzinli turbo motoru; listede zaten kayıtlı dizel A20DTH ile aynı gövdeyi paylaşıyor ama tamamen ayrı bir benzinli aile. [base_score gerekçesi: 35-49 (bilinen risk): turbo hortum yırtılması ve bobin aşınması yaygın bildiriliyor; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
+  },
+  "gm-z17dt": {
+    "id": "gm-z17dt",
+    "names": [
+      "Z17DTH",
+      "Z17DTR",
+      "1.7 CDTI"
+    ],
+    "supplier": "General Motors / Isuzu",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.7
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 56,
+    "maintenance": "Kısa mesafe/şehir içi kullanımda EGR valfinin kurum birikimiyle tıkanabildiği; düzenli uzun yol kullanımı öneriliyor.",
+    "known_issues": [
+      {
+        "issue": "EGR valfi ve DPF tıkanması, özellikle kısa mesafeli şehir içi kullanımda",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "kroniksorunlar_astra_17cdti"
+        ]
+      }
+    ],
+    "sources": [
+      "kroniksorunlar_astra_17cdti"
+    ],
+    "note": "Opel Astra J'nin orta güç dizeli; listede zaten kayıtlı 1.6 CDTI ile aynı gövdeyi paylaşan ama Isuzu kökenli ayrı bir motor ailesi. [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi): EGR/DPF tıkanması yaygın ama şehir içi kullanıma bağlı, önlenebilir; tek kaynak (C) olduğu için 65 üstüne çıkarılmadı."
+  },
+  "subaru-fb20": {
+    "id": "subaru-fb20",
+    "names": [
+      "FB20",
+      "2.0i Boxer"
+    ],
+    "supplier": "Subaru",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2.0
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": 60,
+    "maintenance": "Yatay silindir yerleşimi nedeniyle piston segmanlarında yağ birikimi dikey motorlara göre farklı davranıyor; yüksek kilometrede yağ seviyesi sık kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Yüksek kilometrede aşırı yağ tüketimi; bazı model yıllarında kronik yağ yakma şikayeti",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "subaruforester_cvt_boxer"
+        ]
+      }
+    ],
+    "sources": [
+      "subaruforester_cvt_boxer"
+    ],
+    "note": "Subaru'nun simetrik dört çekere standart eşlik eden yatay (boxer) motoru; listede ilk kez yer alan bir marka ve mimari. [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi): yağ tüketimi yaygın bildiriliyor ama katastrofik bir arıza değil, düzenli kontrolle yönetilebiliyor; tek kaynak (C) olduğu için 65 üstüne çıkarılmadı."
   }
 }

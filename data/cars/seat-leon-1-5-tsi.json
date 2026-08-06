@@ -1,0 +1,39 @@
+{
+  "id": "seat-leon-1-5-tsi",
+  "name": "Seat Leon 1.5 TSI",
+  "tag": "oto: 7 ileri kuru DSG · 150hp",
+  "brand_group": "Seat",
+  "years": "2017-2020",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 1.5,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea211"
+  },
+  "price_band_k_try": [
+    900,
+    1300
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 72,
+    "trans": 38,
+    "fun": 64,
+    "comf": 78,
+    "age": 80,
+    "cost": 64,
+    "liq": 62
+  },
+  "sources": [
+    "sikayetvar_passat_tsi"
+  ],
+  "note": "Leon'un benzinli turbo versiyonu; EA211 ailesinin 1.5 TSI evo (ACT, silindir kapatma) varyantı — T-Roc ve Polo ile birlikte ailenin hacim aralığını genişleten üçüncü araç, yeni motor gerekmedi. DQ200 kuru DSG listede zaten kayıtlı, Leon'un dizel kardeşiyle aynı kutu.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+  }
+}

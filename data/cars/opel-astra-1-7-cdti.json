@@ -1,0 +1,39 @@
+{
+  "id": "opel-astra-1-7-cdti",
+  "name": "Opel Astra 1.7 CDTI",
+  "tag": "oto: 6 ileri TK (Aisin) · 110hp",
+  "brand_group": "Opel",
+  "years": "2010-2015",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.7,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "gm-aisin-af17",
+    "body_type": "Hatchback",
+    "engine_id": "gm-z17dt"
+  },
+  "price_band_k_try": [
+    380,
+    580
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 56,
+    "trans": 68,
+    "fun": 44,
+    "comf": 74,
+    "age": 38,
+    "cost": 68,
+    "liq": 52
+  },
+  "sources": [
+    "kroniksorunlar_astra_17cdti"
+  ],
+  "note": "Astra J'nin orta güç dizeli; motor için yeni bir aile açıldı (gm-z17dt) — listede zaten kayıtlı 1.6 CDTI ile aynı gövdeyi paylaşan ama Isuzu kökenli ayrı bir motor. EGR/DPF tıkanması kısa mesafe kullanımda yaygın; düzenli uzun yol kullanımı riski azaltıyor. Şanzıman listede zaten kayıtlı.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+  }
+}
