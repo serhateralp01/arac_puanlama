@@ -70,10 +70,6 @@
         "transmission_id": {
           "type": ["string", "null"],
           "description": "data/transmissions.json içindeki şanzıman kutusu kimliği. Aynı kutunun farklı araçlarda farklı puan almasını engeller."
-        },
-        "lpg_common": {
-          "type": ["boolean", "null"],
-          "description": "Bu motorun Türkiye ikinci el piyasasında LPG dönüşümlü satılmasının yaygın olup olmadığı. Fabrika çıkışı bir bilgi değil, ikinci el piyasasındaki dönüşüm alışkanlığını yansıtır; kullanıcı LPG dönüşümlü araçları filtreden eleyebilsin diye eklendi (bkz. docs/ARCHITECTURE.md MK-10). Atmosferik, port enjeksiyonlu benzinli motorlarda genelde true; turbo veya direkt enjeksiyonlu (GDI/TSI/TFSI/THP) motorlarda ve bütün dizel motorlarda false/null. null = henüz değerlendirilmedi ya da dizel (LPG kavramı uygulanmıyor)."
         }
       }
     },

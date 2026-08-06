@@ -13,8 +13,7 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "alfa-tct",
     "body_type": "Hatchback",
-    "engine_id": "fca-multiair-14",
-    "lpg_common": false
+    "engine_id": "fca-multiair-14"
   },
   "price_band_k_try": [
     600,

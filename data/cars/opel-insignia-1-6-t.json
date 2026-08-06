@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "gm-aisin-af17",
     "body_type": "Sedan",
-    "engine_id": "gm-a16let",
-    "lpg_common": false
+    "engine_id": "gm-a16let"
   },
   "price_band_k_try": [
     620,

@@ -240,19 +240,6 @@ async function dumpDebug(label) {
     await bodyGroup.getByRole('button', { name: 'Hepsi' }).click();
     await page.waitForTimeout(150);
 
-    // LPG filtresi: motor bazlı türetilen bir alan, "LPG dönüşümü yaygın"
-    // seçilince liste daralmalı (Dizel araçlar ve turbo/direkt enjeksiyonlu
-    // benzinliler bu bucket'tan düşer).
-    const lpgGroup = page.locator('.fgroup').filter({ hasText: 'LPG' });
-    await lpgGroup.getByRole('button', { name: 'LPG dönüşümü yaygın', exact: true }).click();
-    await page.waitForTimeout(150);
-    const lpgFiltered = await page.locator('#body tr.main').count();
-    const lpgOk = lpgFiltered > 0 && lpgFiltered < rows;
-    check('LPG filtresi daraltıyor', lpgOk, `${lpgFiltered} satır`);
-    if (!lpgOk) await dumpDebug('lpg-filtresi-daraltmadi');
-    await lpgGroup.getByRole('button', { name: 'Hepsi' }).click();
-    await page.waitForTimeout(150);
-
     // Arama
     await page.fill('#search', 'volvo');
     await page.waitForTimeout(200);

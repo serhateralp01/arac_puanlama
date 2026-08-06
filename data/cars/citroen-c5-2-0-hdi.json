@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-af40",
     "body_type": "Sedan",
-    "engine_id": "psa-dw10",
-    "lpg_common": null
+    "engine_id": "psa-dw10"
   },
   "price_band_k_try": [
     550,

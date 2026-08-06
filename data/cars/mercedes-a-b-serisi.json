@@ -13,8 +13,7 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "mb-7g-dct",
     "body_type": null,
-    "engine_id": "mb-m270",
-    "lpg_common": false
+    "engine_id": "mb-m270"
   },
   "price_band_k_try": [
     900,

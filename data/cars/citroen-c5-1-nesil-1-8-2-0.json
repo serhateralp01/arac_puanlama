@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "psa-al4",
     "body_type": "Sedan",
-    "engine_id": "psa-xu",
-    "lpg_common": true
+    "engine_id": "psa-xu"
   },
   "price_band_k_try": [
     450,

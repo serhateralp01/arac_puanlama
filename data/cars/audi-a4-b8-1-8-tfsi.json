@@ -13,8 +13,7 @@
     "transmission_type": "CVT",
     "transmission_id": "vag-multitronic",
     "body_type": "Sedan",
-    "engine_id": "vag-ea888",
-    "lpg_common": false
+    "engine_id": "vag-ea888"
   },
   "price_band_k_try": [
     700,

@@ -12,8 +12,7 @@
     "transmission_type": "CVT",
     "transmission_id": "nissan-xtronic",
     "body_type": "SUV",
-    "engine_id": "renault-h5ht",
-    "lpg_common": false
+    "engine_id": "renault-h5ht"
   },
   "price_band_k_try": [
     900,

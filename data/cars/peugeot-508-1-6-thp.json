@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-af40",
     "body_type": "Sedan",
-    "engine_id": "psa-ep6-thp",
-    "lpg_common": false
+    "engine_id": "psa-ep6-thp"
   },
   "price_band_k_try": [
     700,

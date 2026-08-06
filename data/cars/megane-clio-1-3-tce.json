@@ -13,8 +13,7 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "getrag-7dct300",
     "body_type": "Hatchback",
-    "engine_id": "renault-h5ht",
-    "lpg_common": false
+    "engine_id": "renault-h5ht"
   },
   "price_band_k_try": [
     900,

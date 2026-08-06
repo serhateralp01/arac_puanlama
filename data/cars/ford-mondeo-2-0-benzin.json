@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-awf21",
     "body_type": "Sedan",
-    "engine_id": "ford-duratec-he",
-    "lpg_common": true
+    "engine_id": "ford-duratec-he"
   },
   "price_band_k_try": [
     480,

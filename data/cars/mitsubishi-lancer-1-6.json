@@ -13,8 +13,7 @@
     "transmission_type": "CVT",
     "transmission_id": "mitsubishi-invecs-cvt",
     "body_type": "Sedan",
-    "engine_id": "mitsubishi-4a92",
-    "lpg_common": true
+    "engine_id": "mitsubishi-4a92"
   },
   "price_band_k_try": [
     700,

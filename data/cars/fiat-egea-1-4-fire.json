@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-aw60t",
     "body_type": "Sedan",
-    "engine_id": "fca-fire-14",
-    "lpg_common": true
+    "engine_id": "fca-fire-14"
   },
   "price_band_k_try": [
     820,

@@ -325,25 +325,22 @@ Bu istisna `data/schema/car.schema.json`'da açıkça belgelendi.
 
 ---
 
-## MK-11 · LPG dönüşüm sıklığı, motor bazlı bir filtre alanı olarak eklendi
+## MK-11 · LPG dönüşüm sıklığı filtresi denendi, geri alındı
 
-**Karar:** `specs.lpg_common` (boolean veya null) eklendi: bu motorun Türkiye ikinci el
-piyasasında LPG dönüşümlü satılmasının yaygın olup olmadığını gösteriyor. Liste
-ekranına yeni bir filtre grubu ("LPG") eklendi.
+**Karar:** `specs.lpg_common` alanı ve liste ekranındaki "LPG" filtre grubu
+2026-08-06'da eklendi, aynı gün kullanıcı isteğiyle tamamen kaldırıldı. Alan hiçbir
+araç kaydında kalmadı, filtre kodu (`templates/app/30-filtreler.js`), `build.py`
+aktarımı ve şema tanımı geri alındı.
 
-**Gerekçe.** Kullanıcının açık talebi: LPG dönüşümlü araçları filtreden eleyebilmek
-istiyor. Bu, fabrika çıkışı bir `fuel` değeri değil — LPG bir sonradan dönüşüm, aracın
-orijinal yakıt tipi (`Dizel`/`Benzin`) değişmiyor. Bu yüzden `fuel` enum'unu genişletmek
-yanlış model olurdu (`Dizel`/`Benzin`/`LPG` üç değerli bir alan, "bu araç LPG'li mi"
-sorusuna değil "bu araç LPG'ye dönüştürülmesi yaygın mı" sorusuna cevap vermeli); ayrı
-bir alan açmak `data/`'nın "sunumdan bağımsız kalır" ilkesine de uygun (CLAUDE.md §4).
+**Neden denenmişti.** Kullanıcı LPG dönüşümlü araçları filtreden eleyebilmek istedi.
+Değer, motorun `data/engines.json`'daki `aspiration` alanından (atmosferik+port
+enjeksiyon → yaygın; turbo/direkt enjeksiyonlu → nadir; dizel → uygulanmıyor) mekanik
+olarak türetiliyordu — kaynaklı bir iddia değil, motorun doldurma biçiminden çıkarılan
+bir çıkarımdı.
 
-**Nasıl dolduruluyor.** Elle değil, motorun `data/engines.json`'daki `aspiration`
-alanından türetiliyor: atmosferik, port enjeksiyonlu benzinli motorlar Türkiye'de
-yaygın biçimde LPG'ye dönüştürülüyor (`true`); turbo, kompresörlü veya direkt
-enjeksiyonlu (GDI/TSI/TFSI/THP/EcoBoost/MultiAir) motorlar teknik olarak zor veya riskli
-kabul edildiği için yaygın değil (`false`). Dizel araçlarda alan `null` — LPG kavramı
-dizelde uygulanmıyor. Bu, kaynaklı bir iddia değil, motorun doldurma biçiminden
-çıkarılan mekanik bir çıkarım; ileride araca özgü gerçek bir kaynak bulunursa
-(ör. "bu motor LPG'ye dönüştürüldüğünde turbo arızası yaygınlaşıyor" gibi) değer
-güncellenebilir ve kaynağı `evidence` alanına yazılabilir.
+**Neden geri alındı.** Kullanıcı, ürünün bugünkü aşamasında bu filtreyi istemedi.
+Karar geri alınabilir ve maliyeti düşüktü (tek bir alan, tek bir filtre grubu); bu
+yüzden CLAUDE.md §2'deki "bitmemiş karmaşıklık için çalışan ürün riske atılmaz"
+ilkesi gereği tartışmasız geri alındı, üzerinde ısrar edilmedi. Bu kayıt yalnızca
+gelecekte aynı fikir tekrar gündeme gelirse "daha önce denendi ve neden kaldırıldığı"
+sorusuna cevap vermek için tutuluyor.

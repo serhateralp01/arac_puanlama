@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "honda-4at-5at",
     "body_type": "Sedan",
-    "engine_id": "honda-r16",
-    "lpg_common": true
+    "engine_id": "honda-r16"
   },
   "price_band_k_try": [
     850,

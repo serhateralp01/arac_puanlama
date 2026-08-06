@@ -12,8 +12,7 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-eat6",
     "body_type": "Hatchback",
-    "engine_id": "psa-ep6-vti",
-    "lpg_common": true
+    "engine_id": "psa-ep6-vti"
   },
   "price_band_k_try": [
     500,

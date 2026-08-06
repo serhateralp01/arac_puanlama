@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
     "body_type": "Sedan",
-    "engine_id": "hyundai-gamma16-mpi",
-    "lpg_common": true
+    "engine_id": "hyundai-gamma16-mpi"
   },
   "price_band_k_try": [
     700,

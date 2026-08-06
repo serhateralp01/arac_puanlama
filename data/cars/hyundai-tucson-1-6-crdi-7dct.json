@@ -12,8 +12,7 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "hyundai-7dct",
     "body_type": "SUV",
-    "engine_id": "hyundai-u2-16",
-    "lpg_common": null
+    "engine_id": "hyundai-u2-16"
   },
   "price_band_k_try": [
     1000,

@@ -12,8 +12,7 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "fiat-c635-ddct",
     "body_type": "SUV",
-    "engine_id": "fca-multijet-16",
-    "lpg_common": null
+    "engine_id": "fca-multijet-16"
   },
   "price_band_k_try": [
     950,

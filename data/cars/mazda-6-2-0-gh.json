@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "ford-4f27e",
     "body_type": "Sedan",
-    "engine_id": "mazda-lf",
-    "lpg_common": true
+    "engine_id": "mazda-lf"
   },
   "price_band_k_try": [
     600,

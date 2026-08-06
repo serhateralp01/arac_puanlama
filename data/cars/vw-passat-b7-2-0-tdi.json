@@ -13,8 +13,7 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-dq250",
     "body_type": "Sedan",
-    "engine_id": "vag-ea189",
-    "lpg_common": null
+    "engine_id": "vag-ea189"
   },
   "price_band_k_try": [
     700,

@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-aw60t",
     "body_type": "Sedan",
-    "engine_id": "fca-etorq-16",
-    "lpg_common": true
+    "engine_id": "fca-etorq-16"
   },
   "price_band_k_try": [
     700,

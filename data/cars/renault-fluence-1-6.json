@@ -13,8 +13,7 @@
     "transmission_type": "CVT",
     "transmission_id": "nissan-xtronic",
     "body_type": "Sedan",
-    "engine_id": "renault-k4m",
-    "lpg_common": true
+    "engine_id": "renault-k4m"
   },
   "price_band_k_try": [
     550,

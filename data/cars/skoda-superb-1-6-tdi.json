@@ -13,8 +13,7 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "Sedan",
-    "engine_id": "vag-ea288",
-    "lpg_common": null
+    "engine_id": "vag-ea288"
   },
   "price_band_k_try": [
     800,

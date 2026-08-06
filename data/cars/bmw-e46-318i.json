@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "zf-4hp",
     "body_type": "Sedan",
-    "engine_id": "bmw-m43",
-    "lpg_common": true
+    "engine_id": "bmw-m43"
   },
   "price_band_k_try": [
     420,

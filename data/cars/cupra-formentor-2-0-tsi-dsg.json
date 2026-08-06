@@ -12,8 +12,7 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-s-tronic-islak",
     "body_type": "SUV",
-    "engine_id": "vag-ea888-evo4",
-    "lpg_common": false
+    "engine_id": "vag-ea888-evo4"
   },
   "price_band_k_try": [
     1600,

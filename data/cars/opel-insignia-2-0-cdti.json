@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-af40",
     "body_type": "Sedan",
-    "engine_id": "gm-a20dth",
-    "lpg_common": null
+    "engine_id": "gm-a20dth"
   },
   "price_band_k_try": [
     650,

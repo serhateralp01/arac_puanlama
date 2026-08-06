@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "vag-01m",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea827",
-    "lpg_common": true
+    "engine_id": "vag-ea827"
   },
   "price_band_k_try": [
     480,

@@ -13,8 +13,7 @@
     "transmission_type": "TK",
     "transmission_id": "mb-5g-tronic",
     "body_type": "Coupe",
-    "engine_id": "mb-m111",
-    "lpg_common": false
+    "engine_id": "mb-m111"
   },
   "price_band_k_try": [
     430,

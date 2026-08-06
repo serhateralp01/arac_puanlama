@@ -13,8 +13,7 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "Sedan",
-    "engine_id": "vag-ea111-tsi-turbo",
-    "lpg_common": false
+    "engine_id": "vag-ea111-tsi-turbo"
   },
   "price_band_k_try": [
     600,

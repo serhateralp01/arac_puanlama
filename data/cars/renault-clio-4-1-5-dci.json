@@ -13,8 +13,7 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "renault-edc-kuru",
     "body_type": "Hatchback",
-    "engine_id": "renault-k9k",
-    "lpg_common": null
+    "engine_id": "renault-k9k"
   },
   "price_band_k_try": [
     500,

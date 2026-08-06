@@ -13,8 +13,7 @@
     "transmission_type": "CVT",
     "transmission_id": "nissan-xtronic",
     "body_type": "SUV",
-    "engine_id": "nissan-hr16de",
-    "lpg_common": true
+    "engine_id": "nissan-hr16de"
   },
   "price_band_k_try": [
     750,
