@@ -1,0 +1,39 @@
+{
+  "id": "jeep-renegade-1-6-multijet-ddct",
+  "name": "Jeep Renegade 1.6 Multijet DDCT",
+  "tag": "oto: 6 ileri kuru DDCT · 120hp",
+  "brand_group": "Diğer",
+  "years": "2016-2020",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "fiat-c635-ddct",
+    "body_type": "SUV",
+    "engine_id": "fca-multijet-16"
+  },
+  "price_band_k_try": [
+    950,
+    1350
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 64,
+    "trans": 62,
+    "fun": 55,
+    "comf": 72,
+    "age": 78,
+    "cost": 55,
+    "liq": 60
+  },
+  "sources": [
+    "sikayetvar_renegade_kronik"
+  ],
+  "note": "FCA'nın 1.6 Multijet II motoru ve C635 kuru çift kavramalı DDCT kutusuyla gelen kompakt SUV; ikisi de listede zaten kayıtlı bileşen ailelerinden. Jeep'in Türkiye'deki yetkili servis ve orijinal parça ağı mainstream markalara göre daha seyrek, bu da işletme maliyeti puanını aşağı çekiyor. Şanzımanda düşük hızda gecikmeli geçiş ve uzun yolda ısınma şikayetleri bildirilmiş; servis kaydı ve şanzıman yağı bakım geçmişi satın almadan önce mutlaka sorulmalı.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 ilk tur: WebSearch ile araştırılmış, mevcut motor/şanzıman ailelerine bağlanmış yeni araç."
+  }
+}

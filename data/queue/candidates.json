@@ -264,5 +264,157 @@
       "reasoning": "Kaynak gerçek ve erişilebilir; araca özgü ya da modelin ait olduğu ailenin bilinen bir örüntüsünü doğruluyor. Tek kaynak olduğu ve çoğu tekil forum/blog niteliğinde olduğu için tier C/B ile sınırlı tutuldu, üst veya alt banda gerekçe sayılmadı; araç zaten sahip olduğu temel puanını koruyor, yalnızca kanıt eklendi.",
       "resolved_at": "2026-08-06"
     }
+  },
+  {
+    "id": "sikayetvar_duster_kronik",
+    "car_id": "dacia-duster-1-5-dci-edc",
+    "criterion": "genel",
+    "query": "Dacia Duster dCi EDC şanzıman motor kronik sorun şikayet forum",
+    "url": "https://www.sikayetvar.com/dacia/duster/kronik",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Dacia Duster kronik sorunları derlemesinde, 1.5 dCi EDC otomatik şanzımanlı bir 2017 model Duster'da yoğun trafikte 1.-2. vites arası titreme ve kararsızlık bildirildiği; dizel motorlarda turbo gücünün ani düşmesi ve enjektörlerin erken aşınmasının tekrarlayan şikayetler arasında sayıldığı, servis yetkililerinin bazı vites geçiş titreşimlerini 'kronik sorun' olarak sınıflandırdığı.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_duster_kronik",
+      "reasoning": "Y-01 kapsamında yeni eklenen bir aracın ilk kanıt kaydı; kaynak gerçek ve erişilebilir, modelin bilinen bir şanzıman/motor örüntüsünü destekliyor. Motor ve şanzıman temel puanları zaten kayıtlı bileşen ailelerinden geldiği için bu kaynak yalnızca araca özgü kanıt olarak ekleniyor, puan değiştirmiyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_renegade_kronik",
+    "car_id": "jeep-renegade-1-6-multijet-ddct",
+    "criterion": "genel",
+    "query": "Jeep Renegade DDCT şanzıman sorun şikayet forum kronik",
+    "url": "https://www.sikayetvar.com/jeep/renegade/kronik-sorun",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Jeep Renegade kronik sorun şikayetleri derlemesinde, DDCT şanzımanlı araçlarda ekranda 'şanzımanı kontrol edin' uyarısı, düşük hızda gecikmeli vites geçişi ve titreme, uzun yolda şanzıman yağının aşırı ısınmasının tekrarlayan şikayetler arasında sayıldığı; turbo motorlarda düşük devirde gecikmeli tepki, özellikle şehir içi kullanımda sorun yarattığının bildirildiği.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_renegade_kronik",
+      "reasoning": "Y-01 kapsamında yeni eklenen bir aracın ilk kanıt kaydı; kaynak gerçek ve erişilebilir, modelin bilinen bir şanzıman/motor örüntüsünü destekliyor. Motor ve şanzıman temel puanları zaten kayıtlı bileşen ailelerinden geldiği için bu kaynak yalnızca araca özgü kanıt olarak ekleniyor, puan değiştirmiyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_tiguan_kronik",
+    "car_id": "vw-tiguan-1-4-tsi-dsg",
+    "criterion": "genel",
+    "query": "VW Tiguan 1.4 TSI DSG sorun şikayet forum kronik Türkiye",
+    "url": "https://www.sikayetvar.com/volkswagen/tiguan/kronik",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Volkswagen Tiguan kronik sorunları derlemesinde, 2017 model bir Tiguan'da 75.000 km'de DSG şanzıman titremesi bildirildiği ve yazılım güncellemesiyle giderildiği; 2019 model bir araçta şanzımanın 'acil çalışma moduna' geçtiği ve mekatronik ünitenin değiştirildiği; 2012-2018 arası üretilen bazı 1.4/2.0 TSI motorlu Tiguan'larda triger zinciri sarkması/aşınması bildirildiği.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_tiguan_kronik",
+      "reasoning": "Y-01 kapsamında yeni eklenen bir aracın ilk kanıt kaydı; kaynak gerçek ve erişilebilir, modelin bilinen bir şanzıman/motor örüntüsünü destekliyor. Motor ve şanzıman temel puanları zaten kayıtlı bileşen ailelerinden geldiği için bu kaynak yalnızca araca özgü kanıt olarak ekleniyor, puan değiştirmiyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_tucson_kavrama",
+    "car_id": "hyundai-tucson-1-6-crdi-7dct",
+    "criterion": "genel",
+    "query": "Hyundai Tucson 7DCT kuru çift kavrama sorun şikayet forum Türkiye",
+    "url": "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama-sorunu",
+    "publisher": "Şikayetvar",
+    "claim": "Şikayetvar'ın Hyundai Tucson kavrama sorunu şikayetleri derlemesinde, 1.6 CRDi DCT'li bazı Tucson'larda yaklaşık 90.000 km'den itibaren başlayan ve aylarca süren kronik DPF ve kuru çift kavrama (DCT) arızalarının bildirildiği; vites geçişlerinde belirgin titreme, hızlanma sırasında şanzımanın boşa düşüyormuş hissi verdiği şikayetlerinin tekrarlandığı.",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_tucson_kavrama",
+      "reasoning": "Y-01 kapsamında yeni eklenen bir aracın ilk kanıt kaydı; kaynak gerçek ve erişilebilir, modelin bilinen bir şanzıman/motor örüntüsünü destekliyor. Motor ve şanzıman temel puanları zaten kayıtlı bileşen ailelerinden geldiği için bu kaynak yalnızca araca özgü kanıt olarak ekleniyor, puan değiştirmiyor.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "dhaber_qashqai13__nissan-qashqai-1-3-dig-t-cvt",
+    "car_id": "nissan-qashqai-1-3-dig-t-cvt",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://forum.donanimhaber.com/nissan-qashqai-1-3-un-performansi-hakikaten-cok-mu-iyi--147985981",
+    "publisher": "forum.donanimhaber.com",
+    "claim": "DonanımHaber forumu: Qashqai 1.3 DIG-T motor ve X-Tronic CVT / DCT şanzıman kullanıcı deneyimleri",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "forum",
+      "source_id": "dhaber_qashqai13",
+      "reasoning": "Depoda önceden duran ama hiçbir araca bağlı olmayan bir kaynaktı (yetim-kaynak uyarısı); bu turda karşılık gelen araç kaydı açılınca doğrudan bağlandı, yeniden değerlendirilmesi gerekmedi.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "sikayetvar_qashqai__nissan-qashqai-1-3-dig-t-cvt",
+    "car_id": "nissan-qashqai-1-3-dig-t-cvt",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://www.sikayetvar.com/nissan/qashqai/sanziman",
+    "publisher": "sikayetvar.com (çoklu konu başlığı)",
+    "claim": "Şikayetvar: Nissan Qashqai otomatik şanzıman ve kronik sorun başlıkları — kalkışta titreme, düşük kilometrede (16-85 bin km) şanzıman arızası vakaları",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "sikayetvar_qashqai",
+      "reasoning": "Depoda önceden duran ama hiçbir araca bağlı olmayan bir kaynaktı (yetim-kaynak uyarısı); bu turda karşılık gelen araç kaydı açılınca doğrudan bağlandı, yeniden değerlendirilmesi gerekmedi.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "kronikyorum_qashqai__nissan-qashqai-1-3-dig-t-cvt",
+    "car_id": "nissan-qashqai-1-3-dig-t-cvt",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://kronikyorum.com/nissan-qashqai-13-dig-t-kullanici-yorumlari-arizalar",
+    "publisher": "kronikyorum.com",
+    "claim": "KronikYorum.com: Qashqai 1.3 DIG-T gerçek kullanıcı yorumları — vites geçişlerinde sarsıntı, geç tepki, yokuşta kararsızlık",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "B",
+      "type": "complaint-aggregator",
+      "source_id": "kronikyorum_qashqai",
+      "reasoning": "Depoda önceden duran ama hiçbir araca bağlı olmayan bir kaynaktı (yetim-kaynak uyarısı); bu turda karşılık gelen araç kaydı açılınca doğrudan bağlandı, yeniden değerlendirilmesi gerekmedi.",
+      "resolved_at": "2026-08-06"
+    }
+  },
+  {
+    "id": "hech_koleos__renault-koleos-1-3-tce-edc",
+    "car_id": "renault-koleos-1-3-tce-edc",
+    "criterion": "genel",
+    "query": null,
+    "url": "https://hech.com.tr/urun/renault-koleos-otomatik-sanziman-tamiri-arizasi-ve-sorunu/",
+    "publisher": "hech.com.tr",
+    "claim": "Hech Türkiye servis sayfası: Renault Koleos şanzıman tipleri — 1.3 TCe EDC, 1.6/2.0 dCi modelleri",
+    "quote": null,
+    "found_at": "2026-08-06",
+    "status": "accepted",
+    "resolution": {
+      "tier": "C",
+      "type": "trade-blog",
+      "source_id": "hech_koleos",
+      "reasoning": "Depoda önceden duran ama hiçbir araca bağlı olmayan bir kaynaktı (yetim-kaynak uyarısı); bu turda karşılık gelen araç kaydı açılınca doğrudan bağlandı, yeniden değerlendirilmesi gerekmedi.",
+      "resolved_at": "2026-08-06"
+    }
   }
 ]

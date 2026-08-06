@@ -2449,5 +2449,69 @@
       "engine": "web_search",
       "found_at": "2026-08-06"
     }
+  },
+  "sikayetvar_duster_kronik": {
+    "id": "sikayetvar_duster_kronik",
+    "claim": "Şikayetvar'ın Dacia Duster kronik sorunları derlemesinde, 1.5 dCi EDC otomatik şanzımanlı bir 2017 model Duster'da yoğun trafikte 1.-2. vites arası titreme ve kararsızlık bildirildiği; dizel motorlarda turbo gücünün ani düşmesi ve enjektörlerin erken aşınmasının tekrarlayan şikayetler arasında sayıldığı, servis yetkililerinin bazı vites geçiş titreşimlerini 'kronik sorun' olarak sınıflandırdığı.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/dacia/duster/kronik",
+    "type": "complaint-aggregator",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Dacia Duster dCi EDC şanzıman motor kronik sorun şikayet forum",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "sikayetvar_renegade_kronik": {
+    "id": "sikayetvar_renegade_kronik",
+    "claim": "Şikayetvar'ın Jeep Renegade kronik sorun şikayetleri derlemesinde, DDCT şanzımanlı araçlarda ekranda 'şanzımanı kontrol edin' uyarısı, düşük hızda gecikmeli vites geçişi ve titreme, uzun yolda şanzıman yağının aşırı ısınmasının tekrarlayan şikayetler arasında sayıldığı; turbo motorlarda düşük devirde gecikmeli tepki, özellikle şehir içi kullanımda sorun yarattığının bildirildiği.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/jeep/renegade/kronik-sorun",
+    "type": "complaint-aggregator",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Jeep Renegade DDCT şanzıman sorun şikayet forum kronik",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "sikayetvar_tiguan_kronik": {
+    "id": "sikayetvar_tiguan_kronik",
+    "claim": "Şikayetvar'ın Volkswagen Tiguan kronik sorunları derlemesinde, 2017 model bir Tiguan'da 75.000 km'de DSG şanzıman titremesi bildirildiği ve yazılım güncellemesiyle giderildiği; 2019 model bir araçta şanzımanın 'acil çalışma moduna' geçtiği ve mekatronik ünitenin değiştirildiği; 2012-2018 arası üretilen bazı 1.4/2.0 TSI motorlu Tiguan'larda triger zinciri sarkması/aşınması bildirildiği.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/volkswagen/tiguan/kronik",
+    "type": "complaint-aggregator",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "VW Tiguan 1.4 TSI DSG sorun şikayet forum kronik Türkiye",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
+  },
+  "sikayetvar_tucson_kavrama": {
+    "id": "sikayetvar_tucson_kavrama",
+    "claim": "Şikayetvar'ın Hyundai Tucson kavrama sorunu şikayetleri derlemesinde, 1.6 CRDi DCT'li bazı Tucson'larda yaklaşık 90.000 km'den itibaren başlayan ve aylarca süren kronik DPF ve kuru çift kavrama (DCT) arızalarının bildirildiği; vites geçişlerinde belirgin titreme, hızlanma sırasında şanzımanın boşa düşüyormuş hissi verdiği şikayetlerinin tekrarlandığı.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama-sorunu",
+    "type": "complaint-aggregator",
+    "tier": "B",
+    "accessed": "2026-08-06",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "query": "Hyundai Tucson 7DCT kuru çift kavrama sorun şikayet forum Türkiye",
+      "engine": "web_search",
+      "found_at": "2026-08-06"
+    }
   }
 }

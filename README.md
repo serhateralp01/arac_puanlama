@@ -8,7 +8,7 @@ tek sayfa değildir; araç listesi, kıyaslama, kriterler ve kaynaklar kendi ekr
 durur ve aralarında `#liste`, `#kiyaslama` gibi adres çubuğu yollarıyla geçilir. Bu
 ayrımın gerekçesi `docs/ARCHITECTURE.md` MK-07 kaydında.
 
-Şu an listede **154 araç, motor ve şanzıman kombinasyonu** bulunuyor ve liste
+Şu an listede **160 araç, motor ve şanzıman kombinasyonu** bulunuyor ve liste
 genişletiliyor. Listeye girmek için tek şart aracın otomatik şanzımanla satılmış ve
 Türkiye piyasasında bulunabilir olmasıdır; beygir, model yılı veya gövde tipi üzerinden
 bir alt sınır yoktur. Daraltma işini kullanıcı filtrelerle yapar.

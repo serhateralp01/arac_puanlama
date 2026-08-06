@@ -30,56 +30,82 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynaksız araçlar (Y-02) | Kaynaksız 14 araç kapatıldı; araç başına ortalama kaynak hâlâ hedefin (2.5) altında, 1.88 |
+| Kaynaksız araçlar (Y-02) | Kaynaksız 14 araç kapatıldı; araç başına ortalama kaynak hâlâ hedefin (2.5) altında, 1.87 |
+| Araç listesi (Y-01) | Başlandı: 154 → 160 araç, 2016+ 5 → 11, SUV 1 → 7, 2 yeni marka (Dacia, Jeep) |
 | **Kaynak derinliği** | **Zayıf, ama iyileşiyor — kuyruk artık çalışır durumda** |
-| **Araç kapsamı** | **Dar — modern kuşak ve gövde çeşitliliği eksik (Y-01 henüz başlamadı)** |
+| **Araç kapsamı** | **Hâlâ dar ama genişliyor — 2016+ ve SUV hedeflerinin çoğu önümüzde** |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 
-Denetimin bugünkü çıktısı: **0 hata, 182 uyarı**. Uyarıların ezici çoğunluğu (146) tek
+Denetimin bugünkü çıktısı: **0 hata, 183 uyarı**. Uyarıların ezici çoğunluğu (152) tek
 bir kalemden geliyor: araçların dört bağımsız kaynağa ulaşmamış olması. Kuyruk artık
 kurulduğu için bu sayı, tek tek araç dosyası düzenlemek yerine kuyruğu tekrar tekrar
 çalıştırarak düşürülebilir.
 
 ---
 
-## Y-01 · Araç listesini genişlet ve kapsamı dengele
+## Y-01 · Araç listesini genişlet ve kapsamı dengele — **başlandı**
 
 **Öncelik: yüksek.** Ürünün değeri doğrudan buna bağlı; kimse aradığı aracı bulamadığı
 bir listeyi ikinci kez açmaz.
 
-**Sorun.** Liste 154 araç içeriyor ama dağılımı çok dengesiz. Aşağıdaki tablo
-`data/cars/` üzerinde yapılan sayımdan çıktı:
+**Sorun.** Liste 154 araç içeriyordu ama dağılımı çok dengesizdi:
 
-| Boyut | Bugünkü dağılım | Sorun |
+| Boyut | Y-01 öncesi dağılım | Sorun |
 |---|---|---|
-| Model yılı | 1990'lar 20 · 2000'ler 73 · 2010'lar 61 | **2016 ve sonrası yalnızca 5 araç.** Liste pratikte 2015'te bitiyor. |
-| Gövde | Sedan 108 · Hatchback 37 · Coupe 3 · SUV 1 · SW 1 | SUV ve station wagon neredeyse yok, oysa Türkiye'de SUV payı çok yüksek. |
-| Şanzıman | TK 103 · Kuru DCT 23 · Islak DCT 14 · CVT 12 · Robot 2 | Modern araçlarda yaygınlaşan ıslak DCT ve CVT az temsil ediliyor. |
-| Yakıt | Benzin 94 · Dizel 60 | Hibrit hiç yok; Türkiye'de Corolla/C-HR hibrit çok yaygın. |
+| Model yılı | 1990'lar 20 · 2000'ler 73 · 2010'lar 61 | **2016 ve sonrası yalnızca 5 araç.** Liste pratikte 2015'te bitiyordu. |
+| Gövde | Sedan 108 · Hatchback 37 · Coupe 3 · SUV 1 · SW 1 | SUV ve station wagon neredeyse yoktu, oysa Türkiye'de SUV payı çok yüksek. |
+| Şanzıman | TK 103 · Kuru DCT 23 · Islak DCT 14 · CVT 12 · Robot 2 | Modern araçlarda yaygınlaşan ıslak DCT ve CVT az temsil ediliyordu. |
 
 **Listede hiç bulunmayan markalar:** Dacia, Jeep, MINI, Lexus, Cupra, MG, Chery, BYD,
 Togg, Subaru, Porsche, Infiniti, Tesla. Bunların bir kısmı bilinçli olarak kapsam dışı
 sayılabilir (Porsche, Tesla, Infiniti gibi niş veya çok pahalı olanlar), ama **Dacia,
 Jeep, MINI, Lexus, Cupra, MG ve Togg Türkiye ikinci el piyasasında otomatik vitesli
-olarak gerçekten yaygın** ve yokluğu bir kapsam boşluğudur.
+olarak gerçekten yaygın** ve yokluğu bir kapsam boşluğuydu.
 
-**Kapsam.**
+**Bu turda ne yapıldı.** 2026-08-06'da altı araç eklendi, **hepsi mevcut, zaten temel
+puanlı ve kaynaklı motor/şanzıman ailelerine bağlanarak** — bu turda hiçbir yeni
+bileşen ailesi açılmadı, bu yüzden risk düşük tutuldu (madde 2'deki sıra kuralına
+uyuldu):
 
-1. Eksik markaları ve modern kuşağı (2016-2024) kapsayan bir hedef liste çıkar. Her
-   yeni araç için `data/cars/<id>.json` kaydı, doğru `engine_id` ve `transmission_id`
-   bağlantısıyla birlikte açılır.
-2. Yeni motor ailesi veya şanzıman kutusu gerekiyorsa `data/engines.json` /
-   `data/transmissions.json` içine önce o kayıt kurulur, temel puanı ve kaynağı verilir;
-   araç sonra bağlanır. **Ters sırada yapılırsa depo doğrulamadan geçmez.**
-3. Hibrit araçlar için önce bir karar gerekiyor: `fuel` alanı bugün yalnızca
-   `Dizel` / `Benzin` kabul ediyor. Hibrit eklenecekse şema genişletilmeli ve bunun
-   `cost` ile `trans` kriterlerini nasıl etkilediği `docs/methodology.md` içinde
-   tanımlanmalı. Bu, geri alınması pahalı bir karar olduğu için
-   `docs/ARCHITECTURE.md`'ye MK kaydı olarak yazılmalı.
+- `dacia-duster-1-5-dci-edc` — **Dacia**, yeni marka. `renault-k9k` + `renault-edc-kuru`.
+- `jeep-renegade-1-6-multijet-ddct` — **Jeep**, yeni marka. `fca-multijet-16` +
+  `fiat-c635-ddct`.
+- `vw-tiguan-1-4-tsi-dsg` — SUV, 2016+. `vag-ea211` + `vag-dq250`.
+- `hyundai-tucson-1-6-crdi-7dct` — SUV, 2016+. `hyundai-u2-16` + `hyundai-7dct`.
+- `nissan-qashqai-1-3-dig-t-cvt` — SUV, 2016+. `renault-h5ht` + `nissan-xtronic`.
+- `renault-koleos-1-3-tce-edc` — SUV, 2020+. `renault-h5ht` + `getrag-7dct300`.
 
-**Bitmiş sayılma ölçütü.** 2016 sonrası araç sayısı en az 40'a çıkmış, SUV sayısı en az
-25 olmuş, listede hiç bulunmayan yaygın markalardan en az beşi temsil edilmiş ve
-`validate.py` hâlâ 0 hata veriyor.
+Her biri için gerçek kaynak arandı (WebSearch) ve araç kaydına bağlandı. Ayrıca depoda
+önceden duran ama hiçbir araca bağlı olmayan (yetim) birkaç kaynak — `sikayetvar_tucson_dct`,
+`dhaber_qashqai13`, `sikayetvar_qashqai`, `kronikyorum_qashqai`, `hech_koleos` — tam da
+bu turda açılan araç kayıtlarına karşılık geldiği için doğrudan bağlandı; bu, önceki bir
+oturumun Y-01'i önceden öngörüp araştırma yaptığının ama karşılık gelen aracı hiç
+açmadığının kanıtı. `yetim-kaynak` uyarısı bu turda 11'den 6'ya düştü.
+
+**Sonuç:** araç sayısı 154 → 160, 2016 sonrası araç sayısı 5 → 11, SUV sayısı 1 → 7,
+iki yeni marka (Dacia, Jeep) eklendi. `validate.py` hâlâ 0 hata.
+
+**Kalan iş — hedeflerin çoğu hâlâ karşılanmadı.** Bitmiş sayılma ölçütü (2016 sonrası
+≥ 40, SUV ≥ 25, eksik markalardan en az 5 temsil) şu an yalnızca marka kısmında
+karşılandı (Dacia + Jeep = 2, hedef 5). Sırada:
+
+1. **Düşük riskli devam:** depodaki 6 kalan yetim kaynağı (`mkt`, `dhaber_sportage_dct`,
+   `motor1_psa_suv_eat`, `araclo_c5aircross`, `erenservis_eat8`, `otomobilforum_sanziman`)
+   Kia Sportage, Citroën C5 Aircross ve Peugeot 3008/Opel Grandland X gibi araçlara
+   işaret ediyor. C5 Aircross ve 3008/Grandland X için **yeni bileşen ailesi
+   gerekiyor** (1.5 BlueHDi motor ve EAT8 şanzıman listede yok); bu yüzden madde 2'deki
+   sıra kuralı gereği önce `data/engines.json` / `data/transmissions.json`'a bu
+   kayıtlar araştırılıp kaynağıyla açılmalı, araç sonra bağlanmalı.
+2. **MINI, Lexus, Cupra, MG, Togg** için uygun motor/şanzıman ailesi listede yok;
+   her biri kendi bileşen araştırmasını gerektiriyor.
+3. Hibrit araçlar (Lexus, Togg'un elektrikli olması) için önce bir şema kararı
+   gerekiyor: `fuel` alanı bugün yalnızca `Dizel` / `Benzin` kabul ediyor. Bu, geri
+   alınması pahalı bir karar olduğu için `docs/ARCHITECTURE.md`'ye MK kaydı olarak
+   yazılmadan araç eklenmemeli.
+
+**Bitmiş sayılma ölçütü (henüz karşılanmadı).** 2016 sonrası araç sayısı en az 40,
+SUV sayısı en az 25, listede hiç bulunmayan yaygın markalardan en az beşi temsil
+edilmiş (şu an 2/5) ve `validate.py` hâlâ 0 hata veriyor.
 
 ---
 
@@ -371,14 +397,19 @@ gerekmiyor.
 ## Sıralama önerisi
 
 Maddeler birbirine bağımlı; şu sıra hem riski hem tekrarı azaltır. **Y-03, Y-04, Y-05 ve
-Y-07 bitti; Y-02 kısmen bitti** (aşağıda işaretli); geri kalanlar için sıra hâlâ geçerli.
+Y-07 bitti; Y-02 ve Y-01 kısmen bitti / başlandı** (aşağıda işaretli); geri kalanlar
+için sıra hâlâ geçerli.
 
 1. ~~**Y-03** (araştırma hattı)~~ — **bitti.**
 2. **Y-02** (kaynaksız araçları kapat) — **kısmen bitti:** kaynaksız 14 araç kapandı,
-   ortalama kaynak hâlâ hedefin altında. **Sıradaki iş budur:** kuyruğu (Y-03) tekrar
-   çalıştırıp tek kaynaklı 57 araca ikinci bir kaynak bulmak.
-3. **Y-01** (listeyi genişlet) — hat çalışır durumdayken yeni araç eklemek çok daha ucuz.
-   Henüz başlanmadı.
+   ortalama kaynak hâlâ hedefin altında. Sıradaki iş: kuyruğu (Y-03) tekrar çalıştırıp
+   tek kaynaklı araçlara (şimdi ~59 tane, altısı bu turda eklenen yeni araçlar dahil)
+   ikinci bir kaynak bulmak.
+3. **Y-01** (listeyi genişlet) — **başlandı:** altı araç, ikisi yeni marka (Dacia,
+   Jeep), dördü SUV/2016 sonrası; hepsi mevcut bileşen ailelerine bağlandı. Sıradaki
+   iş: `data/queue/` içindeki 6 kalan yetim kaynağın işaret ettiği Citroën C5
+   Aircross / Peugeot 3008 / Opel Grandland X için önce yeni motor/şanzıman ailesi
+   açmak (1.5 BlueHDi, EAT8), sonra araçları bağlamak.
 4. ~~**Y-05 + Y-06** (yerleşim ve şeffaflık)~~ — **Y-05 bitti.** Y-06 (puanlama
    şeffaflığı) hâlâ sırada, küçük ve bağımsız.
 5. ~~**Y-04** (form)~~ — **arayüz kısmı bitti;** gönderim uç noktası ve iletişim

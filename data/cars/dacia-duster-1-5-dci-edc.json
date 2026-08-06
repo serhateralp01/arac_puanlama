@@ -1,0 +1,39 @@
+{
+  "id": "dacia-duster-1-5-dci-edc",
+  "name": "Dacia Duster 1.5 dCi EDC",
+  "tag": "oto: 6 ileri kuru EDC · 115hp",
+  "brand_group": "Diğer",
+  "years": "2018-2021",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "renault-edc-kuru",
+    "body_type": "SUV",
+    "engine_id": "renault-k9k"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 58,
+    "trans": 54,
+    "fun": 42,
+    "comf": 68,
+    "age": 88,
+    "cost": 90,
+    "liq": 82
+  },
+  "sources": [
+    "sikayetvar_duster_kronik"
+  ],
+  "note": "Dacia'nın Renault K9K 1.5 dCi motoru ve Getrag kökenli kuru EDC kutusuyla geldiği bütçe SUV'u. Motor ve şanzıman puanları aynı ailenin diğer Renault-Nissan araçlarında da kullanılan bileşen kayıtlarından geliyor. Duster'ın asıl gücü işletme maliyeti: parça ve bakım fiyatları segmentinin en altında, Türkiye'de yaygın bir servis ağı var. EDC kutusunda yoğun trafikte düşük viteslerde titreme bildirilmiş; uzun test sürüşünde bu titreme aranmalı.",
+  "provenance": {
+    "added_at": "2026-08-06",
+    "method": "Y-01 ilk tur: WebSearch ile araştırılmış, mevcut motor/şanzıman ailelerine bağlanmış yeni araç."
+  }
+}
