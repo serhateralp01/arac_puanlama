@@ -1,0 +1,65 @@
+{
+  "id": "peugeot-308-2-2-0-bluehdi-gt-8at",
+  "name": "Peugeot 308 GT 2.0 BlueHDi EAT8",
+  "tag": "oto: 8 ileri TK · 180hp",
+  "brand_group": "Peugeot",
+  "years": "2017-2021",
+  "specs": {
+    "hp": 180,
+    "displacement_l": 2.0,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "psa-eat8",
+    "body_type": "Hatchback",
+    "engine_id": "psa-dw10",
+    "kerb_weight_kg": 1385,
+    "torque_nm": 400,
+    "fuel_consumption_l_100km": 4.5
+  },
+  "price_band_k_try": [
+    950,
+    1350
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 76,
+    "trans": 76,
+    "fun": 50,
+    "comf": 62,
+    "age": 71,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "engineexplained_dw10",
+    "erenservis_eat8",
+    "motor1_psa_suv_eat"
+  ],
+  "note": "308'in ikinci neslinin (2017 face-lift) en güçlü dizel seçeneği; motor (DW10 ailesi, psa-dw10) C5 ve 508'de zaten kayıtlı, kutu (EAT8) listede C5 Aircross'ta zaten kayıtlı 8 ileri PSA otomatiği. Aynı gövdenin 1.6 BlueHDi'siyle (psa-dv6) karıştırılmamalı; DW10, küçük kardeşi 1.6'yı rahatsız eden turbo yağ açlığı zincirini taşımıyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on üçüncü tur: var olan aileler PSA/GM grubunda kapsanmayan kombinasyona dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "engineexplained_dw10"
+      ],
+      "reasoning": "DW10 (psa-dw10) motor ailesinin temel puanı 76. Bu aracın motor puanı (76) temel puanla birebir aynı. Ailenin bilinen zaafı: Turbo kanatçık (VNT) sıkışması. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "motor1_psa_suv_eat",
+        "erenservis_eat8"
+      ],
+      "reasoning": "EAT8 (psa-eat8) şanzıman ailesinin temel puanı 76. Bu aracın trans puanı (76) temel puanla birebir aynı. Ailenin bilinen zaafı: 3.-2. vites arası vuruntu ve kalkışta hafif gecikme. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

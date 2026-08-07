@@ -1,0 +1,63 @@
+{
+  "id": "citroen-c4-cactus-1-2-puretech-eat6",
+  "name": "Citroën C4 Cactus 1.2 PureTech EAT6",
+  "tag": "oto: 6 ileri TK · 110hp",
+  "brand_group": "Citroën",
+  "years": "2018-2020",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-eat6",
+    "body_type": "Hatchback",
+    "engine_id": "psa-puretech-12",
+    "kerb_weight_kg": 1090,
+    "torque_nm": 205,
+    "fuel_consumption_l_100km": 5.3
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 34,
+    "trans": 72,
+    "fun": 50,
+    "comf": 62,
+    "age": 71,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "donanimhaber_puretech_triger",
+    "trbox"
+  ],
+  "note": "Cactus'un face-lift sonrası (2018+) 110hp PureTech'i; motor (psa-puretech-12) ve kutu (aisin-eat6) listede C3 Aircross'ta zaten kayıtlı aynı eşleşme, burada Cactus'un daha hafif ve daha basit donanımlı gövdesine eşleştirildi.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on üçüncü tur: var olan aileler PSA/GM grubunda kapsanmayan kombinasyona dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "kumar",
+      "confidence": "düşük",
+      "sources": [
+        "donanimhaber_puretech_triger"
+      ],
+      "reasoning": "PureTech 130 (psa-puretech-12) motor ailesinin temel puanı 34. Bu aracın motor puanı (34) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ banyolu triger kayışının (wet belt) kopması veya gerilmesi; parçaların yağ sistemine karışıp motor bloğu hasarına yol açabilmesi. Bu puan 'kumar' bandına giriyor: Birden fazla kaynak, düşük kilometrede motoru komple bitirebilecek bir arıza örüntüsünü doğruluyor; belgeli bakım geçmişi olmadan almak risk kabul ediliyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "trbox"
+      ],
+      "reasoning": "EAT6 (aisin-eat6) şanzıman ailesinin temel puanı 72. Bu aracın trans puanı (72) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

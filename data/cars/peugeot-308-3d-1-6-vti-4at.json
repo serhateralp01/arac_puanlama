@@ -1,0 +1,65 @@
+{
+  "id": "peugeot-308-3d-1-6-vti-4at",
+  "name": "Peugeot 308 3 Kapı 1.6 VTi 4AT",
+  "tag": "oto: 4 ileri TK (AL4) · 120hp",
+  "brand_group": "Peugeot",
+  "years": "2008-2013",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "psa-al4",
+    "body_type": "Hatchback",
+    "engine_id": "psa-ep6-vti",
+    "kerb_weight_kg": 1275,
+    "torque_nm": 160,
+    "fuel_consumption_l_100km": 7.3
+  },
+  "price_band_k_try": [
+    550,
+    820
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 70,
+    "trans": 40,
+    "fun": 50,
+    "comf": 62,
+    "age": 37,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "go4trans_dp0",
+    "peugeotengine_psa_honest",
+    "trbox"
+  ],
+  "note": "308'in ilk neslinde (2008+) sunulan atmosferik 1.6 VTi seçeneği; motor (EP6, psa-ep6-vti) listede Peugeot 301/C-Elysee'de zaten kayıtlı aynı aile, kutu (AL4) da listede zaten kayıtlı eski nesil 4 ileri PSA otomatiği. Aynı gövdenin turbolu THP'sinden (psa-ep6-thp) farklı, atmosferik olduğu için turbo kaynaklı arıza riski taşımıyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on üçüncü tur: var olan aileler PSA/GM grubunda kapsanmayan kombinasyona dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "peugeotengine_psa_honest"
+      ],
+      "reasoning": "EP6 (psa-ep6-vti) motor ailesinin temel puanı 70. Bu aracın motor puanı (70) temel puanla birebir aynı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "trbox",
+        "go4trans_dp0"
+      ],
+      "reasoning": "AL4 (psa-al4) şanzıman ailesinin temel puanı 40. Bu aracın trans puanı (40) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

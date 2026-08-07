@@ -1,0 +1,63 @@
+{
+  "id": "renault-megane-4-estate-1-6-dci-165-edc",
+  "name": "Renault Mégane 4 Grandtour 1.6 dCi 165 EDC",
+  "tag": "oto: 7 ileri ISLAK EDC (Getrag) · 165hp",
+  "brand_group": "Renault",
+  "years": "2016-2020",
+  "specs": {
+    "hp": 165,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "getrag-7dct300",
+    "body_type": "Sedan",
+    "engine_id": "renault-r9m",
+    "kerb_weight_kg": 1435,
+    "torque_nm": 380,
+    "fuel_consumption_l_100km": 4.3
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 56,
+    "trans": 70,
+    "fun": 50,
+    "comf": 62,
+    "age": 67,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "otopark_1_3tce_islak",
+    "vehiclewise_r9m"
+  ],
+  "note": "Mégane 4'ün station wagon (Grandtour/Estate) gövdesindeki en güçlü dizel; motor (R9M, renault-r9m) ve kutu (Getrag 7DCT300, getrag-7dct300) listede Talisman 1.6 dCi 160 EDC'de zaten kayıtlı aynı yüksek-tork eşleşmesi, burada Mégane'a eşleştirildi. Aynı gövdenin listede zaten kayıtlı daha düşük güçlü 1.5 dCi'sinden (renault-k9k, kuru EDC) farklı bir motor-kutu ailesi.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on dördüncü tur: var olan aileler Renault/Nissan/Toyota grubunda kapsanmayan kombinasyona dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "vehiclewise_r9m"
+      ],
+      "reasoning": "R9M (renault-r9m) motor ailesinin temel puanı 56. Bu aracın motor puanı (56) temel puanla birebir aynı. Ailenin bilinen zaafı: EGR valfi ve partikül filtresinin hızla kirlenmesi; piezo enjektör sorunları. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "otopark_1_3tce_islak"
+      ],
+      "reasoning": "Getrag 7DCT300 (getrag-7dct300) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

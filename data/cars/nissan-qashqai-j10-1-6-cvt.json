@@ -1,0 +1,69 @@
+{
+  "id": "nissan-qashqai-j10-1-6-cvt",
+  "name": "Nissan Qashqai (J10) 1.6 CVT",
+  "tag": "oto: Xtronic CVT · 117hp",
+  "brand_group": "Nissan",
+  "years": "2010-2013",
+  "specs": {
+    "hp": 117,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT",
+    "transmission_id": "nissan-xtronic",
+    "body_type": "SUV",
+    "engine_id": "nissan-hr16de",
+    "kerb_weight_kg": 1345,
+    "torque_nm": 159,
+    "fuel_consumption_l_100km": 6.4
+  },
+  "price_band_k_try": [
+    550,
+    850
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 58,
+    "trans": 48,
+    "fun": 50,
+    "comf": 62,
+    "age": 40,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "engineexplained_hr16de",
+    "go4trans_xtronic_diesel_chain",
+    "namuwiki_sm5",
+    "technicalparams_latitude",
+    "technopat_clio_xtronic"
+  ],
+  "note": "Qashqai'nin ilk neslinde (J10) sunulan atmosferik 1.6 CVT; motor (HR16DE, nissan-hr16de) listede Juke 1.6'da zaten kayıtlı aynı aile, kutu (Xtronic CVT) da ortak. Listede zaten kayıtlı ikinci nesil (J11) 1.3 DIG-T CVT'den farklı, atmosferik ve turbosuz bir tasarım.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on dördüncü tur: var olan aileler Renault/Nissan/Toyota grubunda kapsanmayan kombinasyona dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "engineexplained_hr16de"
+      ],
+      "reasoning": "HR16DE (nissan-hr16de) motor ailesinin temel puanı 58. Bu aracın motor puanı (58) temel puanla birebir aynı. Ailenin bilinen zaafı: 20-30 bin mil gibi erken kilometrede yağ tüketimi. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "technopat_clio_xtronic",
+        "technicalparams_latitude",
+        "namuwiki_sm5",
+        "go4trans_xtronic_diesel_chain"
+      ],
+      "reasoning": "X-Tronic (nissan-xtronic) şanzıman ailesinin temel puanı 48. Bu aracın trans puanı (48) temel puanla birebir aynı. Ailenin bilinen zaafı: Yüksek torklu dizel eşleşmelerinde zincir kayması, titreme ve sarsıntı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "opel-astra-h-1-8-16v-4at",
+  "name": "Opel Astra H 1.8 16V 4AT",
+  "tag": "oto: 4 ileri TK · 140hp",
+  "brand_group": "Opel",
+  "years": "2005-2009",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "gm-4t65e",
+    "body_type": "Hatchback",
+    "engine_id": "gm-ecotec-18",
+    "kerb_weight_kg": 1345,
+    "torque_nm": 175,
+    "fuel_consumption_l_100km": 7.8
+  },
+  "price_band_k_try": [
+    400,
+    600
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 54,
+    "trans": 54,
+    "fun": 50,
+    "comf": 62,
+    "age": 24,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "engine_specs_z18xer",
+    "transmissionanswers_4t65e",
+    "youcanic_opel_aw55"
+  ],
+  "note": "Astra H'nin atmosferik 1.8'i; motor (Z18XER, gm-ecotec-18) ve kutu (4T65E, gm-4t65e) listede Vectra B/C'de zaten kayıtlı aynı GM Family II/Ecotec bileşenleri, burada bir nesil sonraki Astra'ya eşleştirildi. Vectra'yla aynı motor-kutu profilini taşıyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on üçüncü tur: var olan aileler PSA/GM grubunda kapsanmayan kombinasyona dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "engine_specs_z18xer"
+      ],
+      "reasoning": "X18XE (gm-ecotec-18) motor ailesinin temel puanı 54. Bu aracın motor puanı (54) temel puanla birebir aynı. Ailenin bilinen zaafı: Eski X18XE1'de rölanti dalgalanması ve ECU arızaları; Z18XE'de aynı sorunlar ve triger kayışı atlanırsa supap bükülmesi. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "transmissionanswers_4t65e",
+        "youcanic_opel_aw55"
+      ],
+      "reasoning": "GM 4T65-E (gm-4t65e) şanzıman ailesinin temel puanı 54. Bu aracın trans puanı (54) temel puanla birebir aynı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}
