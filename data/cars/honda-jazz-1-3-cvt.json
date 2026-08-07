@@ -1,0 +1,65 @@
+{
+  "id": "honda-jazz-1-3-cvt",
+  "name": "Honda Jazz 1.3 i-VTEC CVT",
+  "tag": "oto: Honda CVT · 102hp",
+  "brand_group": "Honda",
+  "years": "2013-2017",
+  "specs": {
+    "hp": 102,
+    "displacement_l": 1.3,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT",
+    "transmission_id": "honda-cvt-earthdreams",
+    "body_type": "Hatchback",
+    "engine_id": "honda-l13z",
+    "kerb_weight_kg": 1092,
+    "torque_nm": 123,
+    "fuel_consumption_l_100km": 4.6
+  },
+  "price_band_k_try": [
+    620,
+    900
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 76,
+    "trans": 56,
+    "fun": 50,
+    "comf": 62,
+    "age": 54,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "hondajazz_blogspot_cvt",
+    "vtecgaraj_jazz_cvt"
+  ],
+  "note": "Jazz/Fit'in ikinci nesli (GK); 1.3 i-VTEC motoru bu turda yeni açıldı, Honda'nın genel olarak güvenilir kabul edilen atmosferik ailelerinden. CVT ise Nissan'ın Xtronic'inden farklı, Honda'ya özgü bir tasarım — bakımı düzenli yapılırsa sorunsuz, az kullanılan/ihmal edilen araçlarda pahalı bir arızaya dönüşebiliyor. İç hacmi sınıfının belirgin biçimde üzerinde.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 sekizinci tur: yeni motor/şanzıman ailesi araştırılıp açılarak eklendi. Teknik özellikler autoevolution veri setinden (MK-15)."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "hondajazz_blogspot_cvt",
+        "vtecgaraj_jazz_cvt"
+      ],
+      "reasoning": "L13Z1 (honda-l13z) motor ailesinin temel puanı 76. Bu aracın motor puanı (76) temel puanla birebir aynı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "düşük",
+      "sources": [
+        "hondajazz_blogspot_cvt",
+        "vtecgaraj_jazz_cvt"
+      ],
+      "reasoning": "Honda CVT (honda-cvt-earthdreams) şanzıman ailesinin temel puanı 56. Bu aracın trans puanı (56) temel puanla birebir aynı. Ailenin bilinen zaafı: Az kullanılan/bakımı ihmal edilen araçlarda CVT arızası, ağır vakalarda komple değişim gerektiriyor. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

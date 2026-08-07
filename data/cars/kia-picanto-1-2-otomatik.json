@@ -1,0 +1,68 @@
+{
+  "id": "kia-picanto-1-2-otomatik",
+  "name": "Kia Picanto 1.2 Otomatik",
+  "tag": "oto: 4 ileri TK (A4CF) · 85hp",
+  "brand_group": "Kia",
+  "years": "2015-2017",
+  "specs": {
+    "hp": 85,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "hyundai-a4cf",
+    "body_type": "Hatchback",
+    "engine_id": "kia-kappa-12",
+    "kerb_weight_kg": 885,
+    "torque_nm": 120,
+    "fuel_consumption_l_100km": 5.6
+  },
+  "price_band_k_try": [
+    480,
+    720
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 74,
+    "trans": 70,
+    "fun": 50,
+    "comf": 62,
+    "age": 58,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "borlease_picanto_inceleme",
+    "teknikotomatik_a4cf1",
+    "teknikotomatik_a4cf2"
+  ],
+  "note": "Picanto'nun (TA/JA) 1.2 Kappa motoru ve A4CF kutusu bu turda yeni açıldı; A4CF, listede zaten kayıtlı eski nesil Mitsubishi lisanslı A4AF3'ten (Elantra XD/Cerato LD dönemi) farklı, Hyundai-Kia'nın kendi geliştirdiği bir sonraki nesil dört ileri kutu. A segmentinde tork konvertörlü otomatik bulmanın en ucuz yollarından biri.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 sekizinci tur: yeni motor/şanzıman ailesi araştırılıp açılarak eklendi. Teknik özellikler autoevolution veri setinden (MK-15)."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "borlease_picanto_inceleme",
+        "teknikotomatik_a4cf1",
+        "teknikotomatik_a4cf2"
+      ],
+      "reasoning": "Kappa 1.2 (kia-kappa-12) motor ailesinin temel puanı 74. Bu aracın motor puanı (74) temel puanla birebir aynı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "borlease_picanto_inceleme",
+        "teknikotomatik_a4cf1",
+        "teknikotomatik_a4cf2"
+      ],
+      "reasoning": "A4CF1 (hyundai-a4cf) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

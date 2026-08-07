@@ -1,0 +1,68 @@
+{
+  "id": "nissan-micra-1-2-cvt",
+  "name": "Nissan Micra 1.2 CVT",
+  "tag": "oto: X-Tronic CVT · 80hp",
+  "brand_group": "Nissan",
+  "years": "2007-2010",
+  "specs": {
+    "hp": 80,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT",
+    "transmission_id": "nissan-xtronic",
+    "body_type": "Hatchback",
+    "engine_id": "nissan-hr12de",
+    "kerb_weight_kg": 974,
+    "torque_nm": 110,
+    "fuel_consumption_l_100km": 6.6
+  },
+  "price_band_k_try": [
+    400,
+    620
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 70,
+    "trans": 48,
+    "fun": 50,
+    "comf": 62,
+    "age": 29,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "carchecker_micra_hr12de",
+    "technicalparams_latitude",
+    "technopat_clio_xtronic"
+  ],
+  "note": "Micra K12'nin atmosferik 1.2'si (HR12DE, bu turda yeni açıldı — DIG-S'in kompresörlü versiyonuyla karıştırılmamalı, o ayrı bir motor). X-Tronic CVT listede zaten kayıtlı ve Qashqai ile aynı ailede; asıl güvenilirlik riski bu kutuda yoğunlaşıyor. Düşük torklu bu eşleşmede kutunun yüksek torklu dizel uygulamalarındaki (Qashqai dCi gibi) kadar zorlanmadığı düşünülüyor, ama kaynak bunu doğrudan doğrulamıyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 sekizinci tur: yeni motor/şanzıman ailesi araştırılıp açılarak eklendi. Teknik özellikler autoevolution veri setinden (MK-15)."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "carchecker_micra_hr12de",
+        "technicalparams_latitude",
+        "technopat_clio_xtronic"
+      ],
+      "reasoning": "HR12DE (nissan-hr12de) motor ailesinin temel puanı 70. Bu aracın motor puanı (70) temel puanla birebir aynı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "düşük",
+      "sources": [
+        "carchecker_micra_hr12de",
+        "technicalparams_latitude",
+        "technopat_clio_xtronic"
+      ],
+      "reasoning": "X-Tronic (nissan-xtronic) şanzıman ailesinin temel puanı 48. Bu aracın trans puanı (48) temel puanla birebir aynı. Ailenin bilinen zaafı: Yüksek torklu dizel eşleşmelerinde zincir kayması, titreme ve sarsıntı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

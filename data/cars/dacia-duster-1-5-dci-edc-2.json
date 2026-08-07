@@ -1,0 +1,68 @@
+{
+  "id": "dacia-duster-1-5-dci-edc-2",
+  "name": "Dacia Duster 1.5 dCi EDC (2. Nesil)",
+  "tag": "oto: 6 ileri KURU EDC · 110hp",
+  "brand_group": "Dacia",
+  "years": "2017-2021",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "renault-edc-kuru",
+    "body_type": "SUV",
+    "engine_id": "renault-k9k",
+    "kerb_weight_kg": 1424,
+    "torque_nm": 250,
+    "fuel_consumption_l_100km": 4.5
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 58,
+    "trans": 54,
+    "fun": 50,
+    "comf": 62,
+    "age": 71,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "cararac_k9k",
+    "renaultfanclub_edc",
+    "sikayetvar_megane_edc"
+  ],
+  "note": "Duster'ın ikinci neslinde (2017+) sunulan EDC seçeneği; K9K motoru ve kuru EDC kutusu listede zaten kayıtlı (renault-k9k, renault-edc-kuru), ikisi de dCi dizel modellerde yaygın kullanılan aynı bileşenler. Şikayetvar'da bildirilen vites geçiş sarsıntısı ve izole yağ kaçağı örnekleri, kutunun listede zaten kayıtlı profiliyle tutarlı; yeni bir zafiyet ortaya çıkmadı.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 sekizinci tur: yeni motor/şanzıman ailesi araştırılıp açılarak eklendi. Teknik özellikler autoevolution veri setinden (MK-15)."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "cararac_k9k",
+        "renaultfanclub_edc",
+        "sikayetvar_megane_edc"
+      ],
+      "reasoning": "K9K (renault-k9k) motor ailesinin temel puanı 58. Bu aracın motor puanı (58) temel puanla birebir aynı. Ailenin bilinen zaafı: 150 bin km üstünde biyel kolu yatağı çatlaması; ailenin en ciddi arızası. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "cararac_k9k",
+        "renaultfanclub_edc",
+        "sikayetvar_megane_edc"
+      ],
+      "reasoning": "EDC (kuru) (renault-edc-kuru) şanzıman ailesinin temel puanı 54. Bu aracın trans puanı (54) temel puanla birebir aynı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

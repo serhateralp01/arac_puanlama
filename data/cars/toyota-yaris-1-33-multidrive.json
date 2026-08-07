@@ -1,0 +1,68 @@
+{
+  "id": "toyota-yaris-1-33-multidrive",
+  "name": "Toyota Yaris 1.33 Dual VVT-i Multidrive S",
+  "tag": "oto: CVT (Multidrive S) · 99hp",
+  "brand_group": "Toyota",
+  "years": "2014-2017",
+  "specs": {
+    "hp": 99,
+    "displacement_l": 1.3,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT",
+    "transmission_id": "toyota-multidrive",
+    "body_type": "Hatchback",
+    "engine_id": "toyota-1nr-fe",
+    "kerb_weight_kg": 1105,
+    "torque_nm": 125,
+    "fuel_consumption_l_100km": 5.1
+  },
+  "price_band_k_try": [
+    600,
+    900
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 78,
+    "trans": 74,
+    "fun": 50,
+    "comf": 62,
+    "age": 56,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "carchecker_yaris_1nr",
+    "slashgear_toyota_cvt_reliability",
+    "trbox"
+  ],
+  "note": "Üçüncü nesil (XP130) Yaris'in 1.33 Dual VVT-i'si; motor (1NR-FE) bu turda yeni açıldı, Corolla/Auris'in 1ZR-FE'sinden (toyota-zr) farklı bir aile. Multidrive S kutusu listede zaten kayıtlı ve K310 kod adıyla Corolla ile aynı aileden — CVT'ler arasında en dayanıklılardan sayılıyor. Motor tarafında ciddi bir şikayet bildirilmiyor; Toyota'nın Türkiye'deki geniş servis ağı da işletme maliyetini aşağı çekiyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 sekizinci tur: yeni motor/şanzıman ailesi araştırılıp açılarak eklendi. Teknik özellikler autoevolution veri setinden (MK-15)."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "carchecker_yaris_1nr",
+        "slashgear_toyota_cvt_reliability",
+        "trbox"
+      ],
+      "reasoning": "1NR-FE (toyota-1nr-fe) motor ailesinin temel puanı 78. Bu aracın motor puanı (78) temel puanla birebir aynı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "carchecker_yaris_1nr",
+        "slashgear_toyota_cvt_reliability",
+        "trbox"
+      ],
+      "reasoning": "Multidrive S (toyota-multidrive) şanzıman ailesinin temel puanı 74. Bu aracın trans puanı (74) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

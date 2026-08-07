@@ -3447,5 +3447,103 @@
       "engine": "kullanıcı tarafından sağlandı",
       "found_at": "2026-08-07"
     }
+  },
+  "carchecker_yaris_1nr": {
+    "claim": "carchecker.pro'nun Toyota Yaris XP130 1.33 Dual VVT-i güvenilirlik raporu, motorun Avrupa pazarındaki en dayanıklı küçük hacimli atmosferik motorlardan biri olduğunu, kronik bir arıza kalıbı bildirilmediğini, buna karşılık eşleştiği Multidrive S CVT'nin 80-100 bin km'den sonra sarsıntı/gecikme gösterebildiğini aktarıyor.",
+    "publisher": "CarChecker.pro",
+    "url": "https://www.carchecker.pro/reports/toyota_yaris_xp130_1.33_vvti.html",
+    "type": "independent-analyst",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "carchecker_micra_hr12de": {
+    "claim": "carchecker.pro'nun Nissan Micra K13 1.2 HR12DE raporu, motorun düzenli bakımla 200.000 km üzerini sorunsuz görebildiğini, asıl güvenilirlik riskinin motorda değil eşleştiği Xtronic CVT'de olduğunu aktarıyor.",
+    "publisher": "CarChecker.pro",
+    "url": "https://www.carchecker.pro/reports/nissan_micra_k13_1.2.html",
+    "type": "independent-analyst",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "vtecgaraj_jazz_cvt": {
+    "claim": "VTEC Garaj (Honda özel servisi) Jazz/Fit CVT şanzıman bakım sayfası: CVT yağının resmi Honda yağıyla periyodik değiştirilmesinin önemini, az kullanılan araçlarda bakımın ihmal edilmesi durumunda pahalı arızalara yol açabildiğini aktarıyor.",
+    "publisher": "VTEC Garaj",
+    "url": "https://vtecgaraj.com/honda-jazz-fit-ozel-servis-ankara-vtec-garaj-bakim-onarim/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "hondajazz_blogspot_cvt": {
+    "claim": "Bir Honda Jazz kullanıcısının blog yazısı, birinci nesil Jazz'da (GD serisi) bildirilen CVT sorunlarını ve bunların büyük ölçüde bakım ihmaline bağlı olduğunu aktarıyor.",
+    "publisher": "hondajazz.blogspot.com",
+    "url": "http://hondajazz.blogspot.com/2008/02/birinci-nesildeki-cvt-sorunu.html",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "borlease_picanto_inceleme": {
+    "claim": "Borlease'in Kia Picanto inceleme yazısı, 1.2 Kappa motorun basit atmosferik tasarımının ve Hyundai-Kia'nın Türkiye'deki geniş servis ağının güvenilirlik ve yedek parça bulunabilirliği açısından avantaj sağladığını aktarıyor.",
+    "publisher": "Borlease",
+    "url": "https://www.borlease.com.tr/blog/arac-inceleme/kia-picanto-incelemesi-ozellikleri-ve-modelleri",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "teknikotomatik_a4cf1": {
+    "claim": "teknikotomatiksanziman.com'un A4CF1 şanzıman sayfası, bu kutunun Hyundai-Kia grubunun dört ileri tork konvertörlü ailesi olduğunu ve basit yapısı sayesinde genel olarak dayanıklı kabul edildiğini aktarıyor.",
+    "publisher": "Teknik Otomatik Şanzıman Servisi",
+    "url": "https://www.teknikotomatiksanziman.com/a4cf1-sanziman-nedir",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "teknikotomatik_a4cf2": {
+    "claim": "teknikotomatiksanziman.com'un A4CF2 şanzıman sayfası, bu kutunun A4CF1'in bir sonraki varyantı olduğunu, eski nesil kompakt Hyundai-Kia modellerinde kullanıldığını ve yapısal bir kusur bildirilmediğini aktarıyor.",
+    "publisher": "Teknik Otomatik Şanzıman Servisi",
+    "url": "https://teknikotomatiksanziman.com/a4cf2-sanziman-nedir/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
   }
 }

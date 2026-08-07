@@ -1012,5 +1012,50 @@
       "subaruforester_cvt_boxer"
     ],
     "note": "Subaru'nun boxer motor ve simetrik dört çekerle birlikte çalışacak şekilde tasarladığı kendi CVT'si. [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi): benzinli uygulamalarda sorun bildirilmemiş, yüksek tork isteyen uygulamalarda (dizel) uyum sorunları bildirilmiş; listedeki araç benzinli (2.0i) olduğu için bu risk daha düşük ama tek kaynak (C) olduğu için 65 üstüne çıkarılmadı."
+  },
+  "honda-cvt-earthdreams": {
+    "id": "honda-cvt-earthdreams",
+    "names": [
+      "Honda CVT",
+      "G-Design Shift CVT"
+    ],
+    "type": "CVT",
+    "supplier": "Honda",
+    "gears": null,
+    "base_score": 56,
+    "maintenance": "CVT yağının resmi Honda yağıyla ve düşük kullanımda bile periyodik değiştirilmesi önemli; ihmal edilirse aşınma hızlanıyor.",
+    "known_issues": [
+      {
+        "issue": "Az kullanılan/bakımı ihmal edilen araçlarda CVT arızası, ağır vakalarda komple değişim gerektiriyor",
+        "onset_km": null,
+        "severity": "orta",
+        "sources": [
+          "vtecgaraj_jazz_cvt"
+        ]
+      }
+    ],
+    "sources": [
+      "vtecgaraj_jazz_cvt",
+      "hondajazz_blogspot_cvt"
+    ],
+    "note": "Jazz/Fit ve Civic'in bir kısmında kullanılan Honda'ya özgü CVT; Nissan'ın Xtronic'inden farklı bir tedarikçi/tasarım. Bakımı düzenli yapıldığında sorunsuz, ihmal edildiğinde (özellikle az kullanılan araçlarda) pahalı bir arızaya dönüşebiliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): iki kaynak da bakıma bağlı bir risk tarif ediyor, yapısal bir kusur değil; ikisi de C seviyesinde olduğu için üst banda çıkarılmadı.]"
+  },
+  "hyundai-a4cf": {
+    "id": "hyundai-a4cf",
+    "names": [
+      "A4CF1",
+      "A4CF2"
+    ],
+    "type": "TK",
+    "supplier": "Hyundai-Kia",
+    "gears": 4,
+    "base_score": 70,
+    "maintenance": null,
+    "known_issues": [],
+    "sources": [
+      "teknikotomatik_a4cf1",
+      "teknikotomatik_a4cf2"
+    ],
+    "note": "Picanto ve benzeri küçük Hyundai-Kia modellerinde kullanılan dört ileri tork konvertörlü kutu; daha eski Mitsubishi lisanslı A4AF3'ten (listede zaten kayıtlı, Elantra XD/Cerato LD döneminden) farklı, Hyundai-Kia'nın kendi geliştirdiği bir sonraki nesil. Basit yapısı sayesinde genel olarak dayanıklı kabul ediliyor. [base_score gerekçesi: 65-84 (sağlam) bandının alt sınırında: iki kaynak da (C) yapısal bir kusur bildirmiyor.]"
   }
 }
