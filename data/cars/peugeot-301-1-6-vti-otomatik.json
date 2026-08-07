@@ -1,0 +1,44 @@
+{
+  "id": "peugeot-301-1-6-vti-otomatik",
+  "name": "Peugeot 301 1.6 VTi Otomatik",
+  "tag": "oto: AL4 · 115hp",
+  "brand_group": "Peugeot",
+  "years": "2013-2019",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "psa-al4",
+    "body_type": "Sedan",
+    "engine_id": "psa-ep6-vti",
+    "kerb_weight_kg": 1090,
+    "torque_nm": 150,
+    "fuel_consumption_l_100km": 6.4
+  },
+  "price_band_k_try": [
+    400,
+    620
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 70,
+    "trans": 40,
+    "fun": 50,
+    "comf": 60,
+    "age": 58,
+    "cost": 70,
+    "liq": 70
+  },
+  "sources": [
+    "peugeotengine_psa_honest",
+    "trbox"
+  ],
+  "note": "301'in benzinli otomatik sürümü; AL4 kutusu listenin bilinen zayıf halkalarından.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: peugeot 301 — 1.6L PureTech 5MT (115 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+  }
+}

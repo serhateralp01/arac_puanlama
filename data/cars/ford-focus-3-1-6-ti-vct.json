@@ -13,7 +13,10 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "ford-dps6",
     "body_type": "Hatchback",
-    "engine_id": "ford-sigma-tivct"
+    "engine_id": "ford-sigma-tivct",
+    "kerb_weight_kg": 1269,
+    "torque_nm": 159,
+    "fuel_consumption_l_100km": 5.9
   },
   "price_band_k_try": [
     750,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: ford focus 5 doors — 1.6L Ti-VCT 5MT FWD (125 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

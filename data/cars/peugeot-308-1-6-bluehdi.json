@@ -13,7 +13,10 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-eat6",
     "body_type": "Hatchback",
-    "engine_id": "psa-dv6"
+    "engine_id": "psa-dv6",
+    "kerb_weight_kg": 1275,
+    "torque_nm": 300,
+    "fuel_consumption_l_100km": 3.6
   },
   "price_band_k_try": [
     850,
@@ -38,7 +41,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: peugeot 308 5 doors — 1.6L BlueHDi 6AT FWD (120 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

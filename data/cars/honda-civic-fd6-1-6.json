@@ -13,7 +13,10 @@
     "transmission_type": "TK",
     "transmission_id": "honda-4at-5at",
     "body_type": "Sedan",
-    "engine_id": "honda-r16"
+    "engine_id": "honda-r16",
+    "kerb_weight_kg": 1174,
+    "torque_nm": 152,
+    "fuel_consumption_l_100km": 6.7
   },
   "price_band_k_try": [
     600,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: honda civic sedan — 1.6L 5AT (125 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

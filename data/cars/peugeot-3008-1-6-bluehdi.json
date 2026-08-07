@@ -12,7 +12,10 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-eat6",
     "body_type": "SUV",
-    "engine_id": "psa-dv6"
+    "engine_id": "psa-dv6",
+    "kerb_weight_kg": 1315,
+    "torque_nm": 300,
+    "fuel_consumption_l_100km": 4.2
   },
   "price_band_k_try": [
     1050,
@@ -35,7 +38,8 @@
   "note": "3008'in ikinci neslinde en yaygın satılan dizel-otomatik kombinasyonu; 1.6 BlueHDi motoru (DV6 ailesi) ve Aisin EAT6 kutusu listede zaten Grandland X'te kayıtlı, ikisi de düşük risk. EAT6, PSA'nın kendi ürettiği eski AL4/ETG kutularına göre belirgin biçimde daha güvenilir.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: peugeot 3008 — 1.6L BlueHDi 6AT FWD (120 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

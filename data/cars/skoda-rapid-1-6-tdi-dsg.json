@@ -1,0 +1,44 @@
+{
+  "id": "skoda-rapid-1-6-tdi-dsg",
+  "name": "Skoda Rapid 1.6 TDI DSG",
+  "tag": "oto: DQ200 · 105hp",
+  "brand_group": "Skoda",
+  "years": "2014-2019",
+  "specs": {
+    "hp": 105,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea288",
+    "kerb_weight_kg": 1260,
+    "torque_nm": 230,
+    "fuel_consumption_l_100km": 4.4
+  },
+  "price_band_k_try": [
+    560,
+    820
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 76,
+    "trans": 38,
+    "fun": 50,
+    "comf": 60,
+    "age": 60,
+    "cost": 70,
+    "liq": 70
+  },
+  "sources": [
+    "andcetin_dq200",
+    "torquecars_ea288_avoid_problems"
+  ],
+  "note": "Rapid'in dizel DSG kombinasyonu; bagaj hacmi sınıfının çok üzerinde, kuru DSG ise bilinen riski taşıyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: skoda rapid spaceback 2013 present — 1.6L TDI 5MT (105 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+  }
+}

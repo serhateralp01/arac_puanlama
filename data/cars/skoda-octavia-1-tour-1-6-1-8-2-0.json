@@ -13,7 +13,10 @@
     "transmission_type": "TK",
     "transmission_id": "vag-01m",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea827"
+    "engine_id": "vag-ea827",
+    "kerb_weight_kg": 1340,
+    "torque_nm": 155,
+    "fuel_consumption_l_100km": 6.6
   },
   "price_band_k_try": [
     480,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: skoda octavia ii — 1.6L FSI 5MT FWD (115 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

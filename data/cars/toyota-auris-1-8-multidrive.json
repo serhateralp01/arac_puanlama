@@ -12,7 +12,10 @@
     "transmission_type": "CVT",
     "transmission_id": "toyota-multidrive",
     "body_type": "Hatchback",
-    "engine_id": "toyota-zr"
+    "engine_id": "toyota-zr",
+    "kerb_weight_kg": 1310,
+    "torque_nm": 142,
+    "fuel_consumption_l_100km": 4.0
   },
   "price_band_k_try": [
     900,
@@ -35,7 +38,8 @@
   "note": "Auris'in üst güç benzinlisi; ZR motoru (1.8 varyantı) ve Multidrive CVT listede zaten Avensis ve Corolla'da kayıtlı. CVT'nin kayış-kasnak aşınması ve tork konvertörü kayması ihmal edilen bakımda ortaya çıkıyor; yağının 60-80 bin km'de değiştirilmesi öneriliyor. Motor tarafında ciddi bir kronik arıza bildirilmemiş.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: toyota auris 2018 present — 1.8L CVT (136 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

@@ -12,7 +12,10 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-s-tronic-islak",
     "body_type": "SUV",
-    "engine_id": "vag-ea888-evo4"
+    "engine_id": "vag-ea888-evo4",
+    "kerb_weight_kg": 1521,
+    "torque_nm": 320,
+    "fuel_consumption_l_100km": 7.5
   },
   "price_band_k_try": [
     1600,
@@ -35,7 +38,8 @@
   "note": "VAG'ın performans alt markası Cupra'nın crossover'ı; şanzıman (ıslak S tronic, DQ381 tabanlı) listede zaten kayıtlı, ama motor için yeni bir aile açıldı (vag-ea888-evo4) — dördüncü nesil EA888, listedeki eski EA888 kaydından (Golf Mk5/6 dönemi) farklı bir revizyon. İki kaynak da yağ pompası tasarımının değişmediğini ve yağ tüketiminin evo4'e taşındığını doğruluyor. Türkiye'de yeni ve niş bir marka; parça/servis ağı henüz mainstream VAG modelleri kadar yaygın değil.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: cupra formentor — 2.0L TSI 7AT AWD (190 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

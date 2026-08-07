@@ -1,0 +1,40 @@
+{
+  "id": "citroen-c3-1-2-puretech-otomatik",
+  "name": "Citroën C3 1.2 PureTech Otomatik",
+  "tag": "oto: EAT6 · 110hp",
+  "brand_group": "Citroën",
+  "years": "2017-2021",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-eat6",
+    "body_type": "Hatchback",
+    "engine_id": "psa-puretech-12"
+  },
+  "price_band_k_try": [
+    520,
+    800
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 34,
+    "trans": 72,
+    "fun": 50,
+    "comf": 60,
+    "age": 71,
+    "cost": 70,
+    "liq": 70
+  },
+  "sources": [
+    "donanimhaber_puretech_triger",
+    "trbox"
+  ],
+  "note": "C3'ün üçüncü nesli; yağ banyolu triger kayışlı PureTech motoru taşıyor, bakımı ihmal edilmemeli.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı."
+  }
+}

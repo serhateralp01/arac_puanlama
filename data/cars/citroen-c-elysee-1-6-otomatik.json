@@ -1,0 +1,44 @@
+{
+  "id": "citroen-c-elysee-1-6-otomatik",
+  "name": "Citroën C-Elysée 1.6 VTi Otomatik",
+  "tag": "oto: AL4 · 115hp",
+  "brand_group": "Citroën",
+  "years": "2015-2021",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "psa-al4",
+    "body_type": "Sedan",
+    "engine_id": "psa-ep6-vti",
+    "kerb_weight_kg": 1165,
+    "torque_nm": 150,
+    "fuel_consumption_l_100km": 7.8
+  },
+  "price_band_k_try": [
+    420,
+    640
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 70,
+    "trans": 40,
+    "fun": 50,
+    "comf": 60,
+    "age": 67,
+    "cost": 70,
+    "liq": 70
+  },
+  "sources": [
+    "peugeotengine_psa_honest",
+    "trbox"
+  ],
+  "note": "C-Elysée'nin otomatik sürümü; 301 ile aynı bileşenleri paylaşan ikiz model.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: citroen c elysee — 1.6L VTi 4AT FWD (115 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+  }
+}

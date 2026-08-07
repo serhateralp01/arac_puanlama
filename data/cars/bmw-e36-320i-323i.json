@@ -13,7 +13,9 @@
     "transmission_type": "TK",
     "transmission_id": "zf-4hp",
     "body_type": "Sedan",
-    "engine_id": "bmw-m52"
+    "engine_id": "bmw-m52",
+    "kerb_weight_kg": 1270,
+    "torque_nm": 280
   },
   "price_band_k_try": [
     450,
@@ -37,7 +39,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: bmw z3 roadster e36 — 2.0L 5MT RWD (150 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

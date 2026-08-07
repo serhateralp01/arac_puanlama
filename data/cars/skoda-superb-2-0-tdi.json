@@ -13,7 +13,10 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-dq250",
     "body_type": "Sedan",
-    "engine_id": "vag-ea189"
+    "engine_id": "vag-ea189",
+    "kerb_weight_kg": 1497,
+    "torque_nm": 350,
+    "fuel_consumption_l_100km": 5.3
   },
   "price_band_k_try": [
     600,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: skoda superb — 2.0L TDI 6AT (170 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

@@ -12,7 +12,10 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "hyundai-7dct",
     "body_type": "SUV",
-    "engine_id": "hyundai-u2-16"
+    "engine_id": "hyundai-u2-16",
+    "kerb_weight_kg": 1497,
+    "torque_nm": 320,
+    "fuel_consumption_l_100km": 4.6
   },
   "price_band_k_try": [
     950,
@@ -35,7 +38,8 @@
   "note": "Hyundai'nin küçük SUV'u; U2 1.6 CRDi motoru ve kuru 7DCT kutusu listede zaten Tucson/Sportage/i30'da kayıtlı aynı aileden, düşük risk. Kalkışta titreme ve partikül filtresi/egzoz sistemi uyarıları ailenin diğer üyelerinde de bildirilen aynı zayıf halka; Hyundai'nin geniş servis ağı işletme maliyeti puanını yukarı çekiyor.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: hyundai kona — 1.6L CRDi 7AT AWD (136 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

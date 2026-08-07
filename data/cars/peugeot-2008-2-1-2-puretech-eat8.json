@@ -12,7 +12,10 @@
     "transmission_type": "TK",
     "transmission_id": "psa-eat8",
     "body_type": "SUV",
-    "engine_id": "psa-puretech-12"
+    "engine_id": "psa-puretech-12",
+    "kerb_weight_kg": 1194,
+    "torque_nm": 230,
+    "fuel_consumption_l_100km": 4.5
   },
   "price_band_k_try": [
     900,
@@ -36,7 +39,8 @@
   "note": "İkinci nesil (P24) 2008'in SUV gövdeli, aynı PureTech/EAT8 kombinasyonu; ilk nesil 2008/208 e-HDi'den farklı olarak listede zaten kayıtlı psa-puretech-12 ve psa-eat8 ailelerine bağlanıyor. Şikayetvar'daki 2022 model örneğinde triger kayışının 45.000 km gibi düşük bir kilometrede bile ileri deformasyon göstermesi, bakımın ihmal edilemeyeceğini doğruluyor. Listedeki en yeni model yılına (2020-2023) sahip araçlardan biri olduğu için yaş riski düşük.",
   "provenance": {
     "added_at": "2026-08-07",
-    "method": "Y-01 beşinci tur: mevcut PSA aileleriyle (psa-puretech-12, psa-eat8) düşük riskli genişleme."
+    "method": "Y-01 beşinci tur: mevcut PSA aileleriyle (psa-puretech-12, psa-eat8) düşük riskli genişleme.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: peugeot 2008 — 1.2L PureTech 130 6MT FWD (130 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

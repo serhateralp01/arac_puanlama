@@ -1,0 +1,44 @@
+{
+  "id": "fiat-egea-1-4-otomatik",
+  "name": "Fiat Egea 1.4 Fire Otomatik",
+  "tag": "oto: ETG · 95hp",
+  "brand_group": "Fiat",
+  "years": "2019-2023",
+  "specs": {
+    "hp": 95,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Robot",
+    "transmission_id": "psa-etg",
+    "body_type": "Sedan",
+    "engine_id": "fca-fire-14",
+    "kerb_weight_kg": 1150,
+    "torque_nm": 127,
+    "fuel_consumption_l_100km": 5.7
+  },
+  "price_band_k_try": [
+    560,
+    820
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 76,
+    "trans": 38,
+    "fun": 50,
+    "comf": 60,
+    "age": 80,
+    "cost": 70,
+    "liq": 70
+  },
+  "sources": [
+    "drivisual_fire14_taxi",
+    "trbox"
+  ],
+  "note": "Egea'nın robotlu benzinli sürümü; Türkiye'nin en yaygın aracının en ucuz otomatik seçeneği, ama kutu tipi listenin en zayıf grubunda.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: fiat tipo egea 2015 present — 1.4L 6MT FWD (95 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+  }
+}

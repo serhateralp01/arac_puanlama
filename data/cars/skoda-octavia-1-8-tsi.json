@@ -13,7 +13,10 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-dq250",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea888"
+    "engine_id": "vag-ea888",
+    "kerb_weight_kg": 1430,
+    "torque_nm": 250,
+    "fuel_consumption_l_100km": 7.8
   },
   "price_band_k_try": [
     750,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: skoda octavia scout — 1.8L TSI 6MT AWD (160 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

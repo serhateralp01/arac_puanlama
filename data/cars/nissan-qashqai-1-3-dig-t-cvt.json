@@ -12,7 +12,8 @@
     "transmission_type": "CVT",
     "transmission_id": "nissan-xtronic",
     "body_type": "SUV",
-    "engine_id": "renault-h5ht"
+    "engine_id": "renault-h5ht",
+    "torque_nm": 258
   },
   "price_band_k_try": [
     950,
@@ -36,7 +37,8 @@
   "note": "İkinci nesil (J11) Qashqai'nin facelift sonrası 1.3 DIG-T motoru; bu motor Renault-Nissan-Mercedes ittifakının ortak H5Ht 1.3 TCe ailesi, listede zaten kayıtlı. X-Tronic CVT kutusu Nissan/Renault'nun paylaştığı aynı aile, dolayısıyla iki bileşen de bağımsız araştırma gerektirmedi. Şikayetlerde kalkışta titreme ve düşük kilometrede (16-85 bin km aralığında bildirilen vakalar) şanzıman arızası öne çıkıyor; CVT'nin yağ bakımı ihmal edildiğinde erken yıprandığı biliniyor. Buna karşılık Qashqai Türkiye'de çok yaygın ve ikinci elde likiditesi yüksek.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Y-01 ikinci tur: WebSearch ile araştırılmış, mevcut motor/şanzıman ailelerine bağlanmış yeni araç. Kaynaklardan bir kısmı önceki bir oturumda toplanmış ama hiçbir araca bağlanmamış (yetim) kayıtlardı; bu turda ilgili araca bağlandı."
+    "method": "Y-01 ikinci tur: WebSearch ile araştırılmış, mevcut motor/şanzıman ailelerine bağlanmış yeni araç. Kaynaklardan bir kısmı önceki bir oturumda toplanmış ama hiçbir araca bağlanmamış (yetim) kayıtlardı; bu turda ilgili araca bağlandı.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: nissan qashqai — 1.3L 6MT FWD (140 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

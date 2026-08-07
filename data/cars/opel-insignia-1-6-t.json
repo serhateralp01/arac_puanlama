@@ -13,7 +13,10 @@
     "transmission_type": "TK",
     "transmission_id": "gm-aisin-af17",
     "body_type": "Sedan",
-    "engine_id": "gm-a16let"
+    "engine_id": "gm-a16let",
+    "kerb_weight_kg": 1768,
+    "torque_nm": 260,
+    "fuel_consumption_l_100km": 6.8
   },
   "price_band_k_try": [
     620,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: opel insignia country tourer 2013 present — 1.6L ECOTEC 6AT FWD (170 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

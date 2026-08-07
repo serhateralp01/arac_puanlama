@@ -12,7 +12,10 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-af40",
     "body_type": "Sedan",
-    "engine_id": "gm-a20net"
+    "engine_id": "gm-a20net",
+    "kerb_weight_kg": 1743,
+    "torque_nm": 350,
+    "fuel_consumption_l_100km": 9.5
   },
   "price_band_k_try": [
     350,
@@ -35,7 +38,8 @@
   "note": "Insignia'nın üst güç benzinli versiyonu; motor için yeni bir aile açıldı (gm-a20net) — listede zaten kayıtlı dizel A20DTH ile aynı gövdeyi paylaşan ama tamamen ayrı bir benzinli aile. Ateşleme bobini aşınması ve turbo hortum yırtılması (~50.000 km) tekrarlayan şikayetler; Aisin AF40 kutusu listede zaten kayıtlı.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: opel insignia sports tourer — 2.0L Turbo 6AT AWD (220 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

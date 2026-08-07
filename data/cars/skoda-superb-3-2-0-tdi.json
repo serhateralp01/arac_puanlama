@@ -12,7 +12,9 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-dq250",
     "body_type": "Sedan",
-    "engine_id": "vag-ea288"
+    "engine_id": "vag-ea288",
+    "kerb_weight_kg": 1555,
+    "torque_nm": 340
   },
   "price_band_k_try": [
     1050,
@@ -35,7 +37,8 @@
   "note": "Superb'in üçüncü ve listede ilk kez yer alan nesli (önceki Superb 2 kaydı listede zaten var); EA288 2.0 TDI ve ıslak DQ250 kutusu listede zaten kayıtlı. Mekatronik şanzıman arızaları ikinci elde bildirilmiş; bazı 2020 model araçlarda kontak açılışında motor sarsıntısı/stop etme şikayeti var. Fiyat/donanım dengesi segmentinin üstünde değerlendiriliyor.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: skoda superb — 2.0L TDI 6MT FWD (150 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

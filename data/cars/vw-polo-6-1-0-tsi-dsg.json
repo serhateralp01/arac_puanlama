@@ -12,7 +12,10 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea211"
+    "engine_id": "vag-ea211",
+    "kerb_weight_kg": 1079,
+    "torque_nm": 175,
+    "fuel_consumption_l_100km": 4.6
   },
   "price_band_k_try": [
     750,
@@ -35,7 +38,8 @@
   "note": "Polo'nun küçük hacimli üç silindirli girişi; EA211 ailesi listede zaten 1.4 TSI olarak kayıtlı, bu araçla birlikte ailenin hacim aralığı 1.0'a genişletildi çünkü EA211 gerçekte 1.0-1.5 litre arasını kapsayan tek bir modüler aile. DQ200 kuru DSG'nin bilinen düşük hızda gecikme eğilimi burada da geçerli.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: volkswagen polo 2021 present — 1.0L TSI 5MT (95 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

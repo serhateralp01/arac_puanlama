@@ -13,7 +13,10 @@
     "transmission_type": "TK",
     "transmission_id": "gm-aisin-af17",
     "body_type": "Hatchback",
-    "engine_id": "gm-a14net"
+    "engine_id": "gm-a14net",
+    "kerb_weight_kg": 1623,
+    "torque_nm": 201,
+    "fuel_consumption_l_100km": 5.6
   },
   "price_band_k_try": [
     700,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: opel insignia hatchback 2013 present — 1.4L Turbo ecoFLEX 6MT FWD (140 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

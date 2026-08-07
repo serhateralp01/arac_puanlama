@@ -12,7 +12,10 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "renault-edc-kuru",
     "body_type": "SUV",
-    "engine_id": "renault-k9k"
+    "engine_id": "renault-k9k",
+    "kerb_weight_kg": 1407,
+    "torque_nm": 260,
+    "fuel_consumption_l_100km": 3.9
   },
   "price_band_k_try": [
     800,
@@ -35,7 +38,8 @@
   "note": "Nissan Qashqai ile aynı platformu paylaşan Renault SUV'u; motor ve şanzıman Captur/Duster ile birebir aynı, listede zaten kayıtlı. EDC uyarı lambası, 1.-2. vites arası gıcırtılı geçiş ve vites kolu pimi kırılması tekrarlayan şikayetler arasında; bunların çoğu bakım/adaptasyon güncellemesiyle giderilebiliyor.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: renault kadjar — 1.5L dCi 6AT (110 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

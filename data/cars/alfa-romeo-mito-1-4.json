@@ -13,7 +13,10 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "alfa-tct",
     "body_type": "Hatchback",
-    "engine_id": "fca-multiair-14"
+    "engine_id": "fca-multiair-14",
+    "kerb_weight_kg": 1135,
+    "torque_nm": 206,
+    "fuel_consumption_l_100km": 5.6
   },
   "price_band_k_try": [
     600,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: alfa romeo mito — 1.4L MultiAir 5MT FWD (135 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

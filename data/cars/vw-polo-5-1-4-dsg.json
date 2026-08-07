@@ -1,0 +1,44 @@
+{
+  "id": "vw-polo-5-1-4-dsg",
+  "name": "VW Polo 5 1.4 DSG",
+  "tag": "oto: DQ200 · 85hp",
+  "brand_group": "Volkswagen",
+  "years": "2010-2014",
+  "specs": {
+    "hp": 85,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea111-tsi-turbo",
+    "kerb_weight_kg": 1070,
+    "torque_nm": 132,
+    "fuel_consumption_l_100km": 5.9
+  },
+  "price_band_k_try": [
+    450,
+    700
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 56,
+    "trans": 38,
+    "fun": 50,
+    "comf": 60,
+    "age": 42,
+    "cost": 70,
+    "liq": 70
+  },
+  "sources": [
+    "andcetin_dq200",
+    "enginecrux_ea111_vs_ea211"
+  ],
+  "note": "Polo V'in 1.4 DSG'si; kuru DQ200'ün Türkiye trafiğindeki bilinen kavrama riskini taşıyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: volkswagen polo 5 doors — 1.4L 5MT FWD (85 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+  }
+}

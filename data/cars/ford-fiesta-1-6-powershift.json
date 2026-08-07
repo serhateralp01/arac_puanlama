@@ -1,0 +1,44 @@
+{
+  "id": "ford-fiesta-1-6-powershift",
+  "name": "Ford Fiesta 1.6 PowerShift",
+  "tag": "oto: DPS6 · 105hp",
+  "brand_group": "Ford",
+  "years": "2011-2017",
+  "specs": {
+    "hp": 105,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "ford-dps6",
+    "body_type": "Hatchback",
+    "engine_id": "ford-sigma-tivct",
+    "kerb_weight_kg": 1098,
+    "torque_nm": 150,
+    "fuel_consumption_l_100km": 5.9
+  },
+  "price_band_k_try": [
+    420,
+    660
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 70,
+    "trans": 36,
+    "fun": 50,
+    "comf": 60,
+    "age": 50,
+    "cost": 70,
+    "liq": 70
+  },
+  "sources": [
+    "engineexplained_sigma_tivct",
+    "trbox"
+  ],
+  "note": "Fiesta'nın kuru çift kavramalı PowerShift kutusu, listenin en riskli şanzıman ailelerinden biri; motor tarafı sağlam.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: ford fiesta 5 doors — 1.6L Ti-VCT 6AT FWD (105 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+  }
+}

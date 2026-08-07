@@ -12,7 +12,10 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-eat6",
     "body_type": "SUV",
-    "engine_id": "psa-puretech-12"
+    "engine_id": "psa-puretech-12",
+    "kerb_weight_kg": 1234,
+    "torque_nm": 205,
+    "fuel_consumption_l_100km": 5.0
   },
   "price_band_k_try": [
     700,
@@ -35,7 +38,8 @@
   "note": "PSA'nın küçük SUV'u; aynı yağ banyolu triger kayışlı 1.2 PureTech'i taşıyor (psa-puretech-12, listede zaten kayıtlı), ama daha küçük/eski Aisin EAT6 kutusuyla eşleşiyor (2008/208'in EAT8'inden farklı). Şikayetvar'da bildirilen iki çok düşük kilometreli (220 km, 2.000 km) vites arızası izole/erken üretim hatası olarak değerlendirildi; EAT6 ailesinin genel temel puanını değiştirmedi ama bu aracın trans puanı temkinli biçimde ailenin temel puanının biraz altında tutuldu.",
   "provenance": {
     "added_at": "2026-08-07",
-    "method": "Y-01 beşinci tur: mevcut PSA aileleriyle (psa-puretech-12, aisin-eat6) düşük riskli genişleme."
+    "method": "Y-01 beşinci tur: mevcut PSA aileleriyle (psa-puretech-12, aisin-eat6) düşük riskli genişleme.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: citroen c3 aircross — 1.2L PureTech 5MT FWD (110 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

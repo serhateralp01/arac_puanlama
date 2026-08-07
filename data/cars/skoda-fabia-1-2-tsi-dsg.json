@@ -12,7 +12,10 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea111-tsi-turbo"
+    "engine_id": "vag-ea111-tsi-turbo",
+    "kerb_weight_kg": 1140,
+    "torque_nm": 175,
+    "fuel_consumption_l_100km": 5.2
   },
   "price_band_k_try": [
     480,
@@ -36,7 +39,8 @@
   "note": "Fabia II'nin (5J kasa) 105 beygirlik 1.2 TSI'ı; motor ailesi (vag-ea111-tsi-turbo) bu turda 1.4'ten 1.2'ye genişletildi, çünkü ikisi de aynı tekli turbolu, zincir tahrikli mimariyi paylaşıyor — yalnızca hacim ve güç farklı. DQ200 kuru DSG listede zaten kayıtlı ve kavrama/mekatronik riski bu aracı da aynı şekilde etkiliyor. DonanımHaber forumunda düzenli bakımla sorunsuz giden örnekler bildirilirken bir kullanıcı 2.400 km gibi çok düşük bir kilometrede DSG'nin acil moda geçtiğini aktarıyor; bu izole bir erken arıza olarak değerlendirildi.",
   "provenance": {
     "added_at": "2026-08-07",
-    "method": "Y-01 beşinci tur: motor ailesi hacim genişletmesiyle (MK-08 mantığı) düşük riskli genişleme."
+    "method": "Y-01 beşinci tur: motor ailesi hacim genişletmesiyle (MK-08 mantığı) düşük riskli genişleme.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: skoda fabia combi — 1.2L TSI 5MT FWD (105 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

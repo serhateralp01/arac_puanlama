@@ -12,7 +12,8 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-eat6",
     "body_type": "Hatchback",
-    "engine_id": "bmw-b38"
+    "engine_id": "bmw-b38",
+    "fuel_consumption_l_100km": 5.4
   },
   "price_band_k_try": [
     750,
@@ -35,7 +36,8 @@
   "note": "MINI'nin BMW'nin kendi motoruna geçtiği ikinci nesli (R56'nın BMW/PSA ortak Prince motorundan farklı); motor için yeni bir aile açıldı (bmw-b38). Üç silindirli yapısı motor kültürü açısından eleştiriliyor ama hafif kasa ve Aisin otomatik kutu kombinasyonu iyi çalışıyor; şanzıman R56'da da kullanılan aynı aileden, listede zaten kayıtlı.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: mini mini cooper 3 door 2021 present — 1.5L 6MT (136 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

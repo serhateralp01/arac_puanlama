@@ -12,7 +12,10 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "SUV",
-    "engine_id": "vag-ea211"
+    "engine_id": "vag-ea211",
+    "kerb_weight_kg": 1264,
+    "torque_nm": 250,
+    "fuel_consumption_l_100km": 5.2
   },
   "price_band_k_try": [
     1100,
@@ -35,7 +38,8 @@
   "note": "VW'nin kompakt SUV'u; EA211 ailesinin 1.5 TSI evo (silindir kapatma özellikli, ACT) versiyonu, aynı modüler aileden — Polo 1.0 TSI'yla birlikte ailenin hacim aralığını genişletti. DQ200 kuru DSG listede zaten kayıtlı.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: volkswagen t roc — 1.5L TSI 6MT (150 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

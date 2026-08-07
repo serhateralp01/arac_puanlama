@@ -13,7 +13,10 @@
     "transmission_type": "TK",
     "transmission_id": "psa-al4",
     "body_type": "Hatchback",
-    "engine_id": "renault-k4m"
+    "engine_id": "renault-k4m",
+    "kerb_weight_kg": 995,
+    "torque_nm": 148,
+    "fuel_consumption_l_100km": 7.4
   },
   "price_band_k_try": [
     380,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: renault clio 3 doors — 1.6L 16V 4AT FWD (110 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

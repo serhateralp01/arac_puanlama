@@ -12,7 +12,10 @@
     "transmission_type": "CVT",
     "transmission_id": "toyota-multidrive",
     "body_type": "Sedan",
-    "engine_id": "toyota-zr"
+    "engine_id": "toyota-zr",
+    "kerb_weight_kg": 1185,
+    "torque_nm": 159,
+    "fuel_consumption_l_100km": 5.7
   },
   "price_band_k_try": [
     950,
@@ -35,7 +38,8 @@
   "note": "Onikinci nesil Corolla'nın (E210) 1.6 benzinli CVT kombinasyonu; ZR motoru ve Toyota'nın kendi Multidrive CVT'si listede zaten kayıtlı, ikisi de yüksek puanlı ve güvenilir bileşenler. Bildirilen şikayetler kablosuz şarj kesilmesi, yüksek hızda ıslık sesi ve boya soyulması gibi görece küçük kalemler; motor ve şanzımanla ilgili ciddi bir kronik arıza bildirilmemiş.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: toyota corolla — 1.6L VVT-i 6MT FWD (132 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

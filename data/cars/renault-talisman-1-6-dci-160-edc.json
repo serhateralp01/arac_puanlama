@@ -12,7 +12,10 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "getrag-7dct300",
     "body_type": "Sedan",
-    "engine_id": "renault-r9m"
+    "engine_id": "renault-r9m",
+    "kerb_weight_kg": 1518,
+    "torque_nm": 380,
+    "fuel_consumption_l_100km": 4.4
   },
   "price_band_k_try": [
     850,
@@ -35,7 +38,8 @@
   "note": "Talisman'ın üst güç dizeli; R9M (Energy dCi) motoru listede zaten 1.6 dCi 130 kaydında kayıtlı, 7 ileri ıslak EDC kutusu Koleos/Clio 5/Megane 4'le aynı aile. 2016-2017 model bazı araçlarda 64.000 km gibi düşük kilometrede şanzıman arızası, 140.000 km'de vites geçişinde vuruntu bildirilmiş; 160 bg versiyonun 130 bg'ye göre daha sık arıza şikayeti taşıdığı aktarılıyor.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: renault talisman — 1.6L dCi 6AT FWD (160 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

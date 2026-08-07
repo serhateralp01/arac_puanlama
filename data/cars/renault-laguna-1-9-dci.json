@@ -12,7 +12,10 @@
     "transmission_type": "TK",
     "transmission_id": "psa-al4",
     "body_type": "Sedan",
-    "engine_id": "renault-f9q"
+    "engine_id": "renault-f9q",
+    "kerb_weight_kg": 1360,
+    "torque_nm": 300,
+    "fuel_consumption_l_100km": 5.7
   },
   "price_band_k_try": [
     300,
@@ -35,7 +38,8 @@
   "note": "Laguna 2'nin listede zaten kayıtlı 1.6/2.0 benzinli versiyonuna eşlik eden dizel; motor için yeni bir aile açıldı (renault-f9q) — dönemin Renault-Nissan ortak dizeli, görece güvenilir kabul ediliyor. AL4 otomatik kutusu listede zaten kayıtlı ve düşük puanlı; aracın yaşı artık çok ileri olduğu için genel yıpranma riski yüksek.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: renault laguna estate — 1.9L dCi 6MT FWD (120 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

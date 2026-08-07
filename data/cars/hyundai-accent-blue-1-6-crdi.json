@@ -13,7 +13,9 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "hyundai-7dct",
     "body_type": "Sedan",
-    "engine_id": "hyundai-u2-16"
+    "engine_id": "hyundai-u2-16",
+    "kerb_weight_kg": 1345,
+    "torque_nm": 260
   },
   "price_band_k_try": [
     700,
@@ -37,7 +39,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: hyundai accent sedan — 1.6L 4AT FWD (128 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

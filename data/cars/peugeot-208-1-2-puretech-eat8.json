@@ -12,7 +12,9 @@
     "transmission_type": "TK",
     "transmission_id": "psa-eat8",
     "body_type": "Hatchback",
-    "engine_id": "psa-puretech-12"
+    "engine_id": "psa-puretech-12",
+    "kerb_weight_kg": 1090,
+    "torque_nm": 205
   },
   "price_band_k_try": [
     800,
@@ -36,7 +38,8 @@
   "note": "İkinci nesil (P21) 208'in EAT8 otomatikli 1.2 PureTech kombinasyonu; motor ve şanzıman aileleri listede zaten kayıtlı (Opel Crossland X ile paylaşılıyor). Motor tarafında yağ banyolu triger kayışı listenin en riskli kalemi — 60.000 km'de bakım ve genişlik ölçümü ihmal edilmemeli. EAT8 otomatik ise ailenin güçlü tarafı; araclo.com incelemesi segmentindeki en başarılı tork konvertörlü kutulardan biri olarak tarif ediyor.",
   "provenance": {
     "added_at": "2026-08-07",
-    "method": "Y-01 beşinci tur: mevcut PSA aileleriyle (psa-puretech-12, psa-eat8) düşük riskli genişleme."
+    "method": "Y-01 beşinci tur: mevcut PSA aileleriyle (psa-puretech-12, psa-eat8) düşük riskli genişleme.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: peugeot 208 — 1.2L PureTech 100 8AT (100 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

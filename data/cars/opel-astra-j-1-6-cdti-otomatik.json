@@ -1,0 +1,42 @@
+{
+  "id": "opel-astra-j-1-6-cdti-otomatik",
+  "name": "Opel Astra J 1.6 CDTI Otomatik",
+  "tag": "oto: Aisin AF40-6 · 136hp",
+  "brand_group": "Opel",
+  "years": "2014-2018",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-af40",
+    "body_type": "Hatchback",
+    "engine_id": "gm-a16dth",
+    "torque_nm": 320
+  },
+  "price_band_k_try": [
+    620,
+    900
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 44,
+    "trans": 58,
+    "fun": 50,
+    "comf": 60,
+    "age": 58,
+    "cost": 70,
+    "liq": 70
+  },
+  "sources": [
+    "insigniateam_af40",
+    "stargarage_a16dth_chain"
+  ],
+  "note": "Astra J'nin 1.6 CDTI dizel-otomatik kombinasyonu; motor ve kutu ailesi listede zaten kayıtlı.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: opel astra sports tourer — 1.6L CDTI 6AT FWD (136 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+  }
+}

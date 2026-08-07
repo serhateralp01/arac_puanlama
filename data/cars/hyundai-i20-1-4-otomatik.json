@@ -1,0 +1,44 @@
+{
+  "id": "hyundai-i20-1-4-otomatik",
+  "name": "Hyundai i20 1.4 Otomatik",
+  "tag": "oto: A4AF3 · 100hp",
+  "brand_group": "Hyundai",
+  "years": "2015-2020",
+  "specs": {
+    "hp": 100,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "hyundai-a4af3",
+    "body_type": "Hatchback",
+    "engine_id": "hyundai-gamma-14",
+    "kerb_weight_kg": 1050,
+    "torque_nm": 134,
+    "fuel_consumption_l_100km": 5.6
+  },
+  "price_band_k_try": [
+    500,
+    780
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 66,
+    "trans": 72,
+    "fun": 50,
+    "comf": 60,
+    "age": 65,
+    "cost": 70,
+    "liq": 70
+  },
+  "sources": [
+    "engineexplained_g4fa",
+    "go4trans_a4af3"
+  ],
+  "note": "i20'nin ikinci nesli; dört ileri tork konvertörlü kutusu basit ve dayanıklı, buna karşılık vites sayısı düşük.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: hyundai i20 active — 1.4L 6MT FWD (100 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+  }
+}

@@ -13,7 +13,10 @@
     "transmission_type": "TK",
     "transmission_id": "toyota-4at",
     "body_type": "Sedan",
-    "engine_id": "toyota-zr"
+    "engine_id": "toyota-zr",
+    "kerb_weight_kg": 1220,
+    "torque_nm": 157,
+    "fuel_consumption_l_100km": 6.7
   },
   "price_band_k_try": [
     650,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: toyota corolla — 1.6L VVT-i 5AT FWD (124 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

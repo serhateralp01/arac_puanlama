@@ -12,7 +12,10 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
     "body_type": "Hatchback",
-    "engine_id": "hyundai-gamma16-gdi"
+    "engine_id": "hyundai-gamma16-gdi",
+    "kerb_weight_kg": 1171,
+    "torque_nm": 164,
+    "fuel_consumption_l_100km": 5.4
   },
   "price_band_k_try": [
     600,
@@ -35,7 +38,8 @@
   "note": "Ceed'in benzinli GDi versiyonu; Gamma GDI motoru listede zaten Hyundai i30 1.6 GDi'de kayıtlı (düşük puanlı, direkt enjeksiyona bağlı karbon birikimi riski var), Hyundai/Kia'nın 6 ileri tork konvertörlü kutusu ise ailenin en güvenilir bileşenlerinden. Dizel kardeşinde bildirilen enjektör şikayetleri bu motora uygulanmıyor, ama genel bakım geçmişi yine de kontrol edilmeli.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: kia cee d 2015 present — 1.6L GDI 6MT FWD (135 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

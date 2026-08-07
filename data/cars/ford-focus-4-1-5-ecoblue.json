@@ -12,7 +12,10 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "getrag-6dct450",
     "body_type": "Hatchback",
-    "engine_id": "ford-ecoblue-15"
+    "engine_id": "ford-ecoblue-15",
+    "kerb_weight_kg": 1350,
+    "torque_nm": 270,
+    "fuel_consumption_l_100km": 3.8
   },
   "price_band_k_try": [
     850,
@@ -35,7 +38,8 @@
   "note": "Dördüncü nesil Focus'un dizel-otomatik kombinasyonu; motor için yeni bir aile açıldı (ford-ecoblue-15) — Ford'un Duratorq'tan sonraki nesli, listedeki Focus 3 1.5 TDCi'den farklı. Eksantrik zinciri kronik olarak uzuyordu, üretici sonradan 8mm zincirle revize etti; kısa mesafe kullanımda DPF tıkanması ayrı bir risk. Şanzıman (ıslak Getrag 6DCT450) listede zaten kayıtlı.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: ford focus 5 doors — 1.5L EcoBlue 6MT Start/Stop FWD (120 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

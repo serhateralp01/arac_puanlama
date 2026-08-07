@@ -12,7 +12,10 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-eat6",
     "body_type": "SUV",
-    "engine_id": "psa-dv6"
+    "engine_id": "psa-dv6",
+    "kerb_weight_kg": 1430,
+    "torque_nm": 300,
+    "fuel_consumption_l_100km": 4.6
   },
   "price_band_k_try": [
     1000,
@@ -35,7 +38,8 @@
   "note": "PSA platformunu paylaşan Opel SUV'u; 1.6 BlueHDi/CDTI motoru listede zaten kayıtlı (DV6 ailesi, düşük puanlı bir bileşen), ama Aisin kaynaklı EAT6 kutusu ailenin güçlü tarafı — yumuşak ve tutarlı vites geçişleri yapıyor, PSA'nın kendi geliştirdiği AL4/ETG kutularından belirgin biçimde daha iyi puanlı. Bir kullanıcı yağ basıncı uyarı lambası şikayeti bildirmiş.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+    "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: opel grandland x — 1.6L 6AT FWD (120 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

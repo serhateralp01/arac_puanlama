@@ -1,0 +1,44 @@
+{
+  "id": "opel-corsa-d-1-4-otomatik",
+  "name": "Opel Corsa D 1.4 Otomatik",
+  "tag": "oto: AF17 · 100hp",
+  "brand_group": "Opel",
+  "years": "2010-2014",
+  "specs": {
+    "hp": 100,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "gm-aisin-af17",
+    "body_type": "Hatchback",
+    "engine_id": "gm-a14net",
+    "kerb_weight_kg": 1200,
+    "torque_nm": 201,
+    "fuel_consumption_l_100km": 5.3
+  },
+  "price_band_k_try": [
+    420,
+    650
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 58,
+    "trans": 68,
+    "fun": 50,
+    "comf": 60,
+    "age": 42,
+    "cost": 70,
+    "liq": 70
+  },
+  "sources": [
+    "autodoc_astra_j_problems",
+    "cherishyourcar_a14net"
+  ],
+  "note": "Corsa D'nin dört ileri tork konvertörlü sürümü; şehir içi kullanımda sağlam ama yakıt tüketimi yüksek.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: opel corsa 5 doors — 1.4L ecoFLEX 6MT FWD (100 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+  }
+}

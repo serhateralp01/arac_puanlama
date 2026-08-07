@@ -12,7 +12,10 @@
     "transmission_type": "CVT",
     "transmission_id": "subaru-lineartronic",
     "body_type": "SUV",
-    "engine_id": "subaru-fb20"
+    "engine_id": "subaru-fb20",
+    "kerb_weight_kg": 1477,
+    "torque_nm": 198,
+    "fuel_consumption_l_100km": 6.9
   },
   "price_band_k_try": [
     750,
@@ -35,7 +38,8 @@
   "note": "Listede ilk kez yer alan Subaru; motor (FB20 boxer, yeni aile) ve şanzıman (Lineartronic CVT, yeni aile) ikisi de bu araştırmayla açıldı. Standart simetrik dört çeker segmentte nadir bir avantaj. Yüksek kilometrede yağ tüketimi bildirilmiş; CVT'nin benzinli uygulamada dizele göre daha az riskli olduğu değerlendiriliyor. Türkiye'de parça/usta ağı mainstream markalara göre çok daha sınırlı, bu likidite puanına yansıyor.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: subaru forester — 2.0L 6MT AWD (150 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

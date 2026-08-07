@@ -13,7 +13,10 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-a4af3",
     "body_type": "Sedan",
-    "engine_id": "hyundai-beta-16"
+    "engine_id": "hyundai-beta-16",
+    "kerb_weight_kg": 1125,
+    "torque_nm": 143,
+    "fuel_consumption_l_100km": 6.8
   },
   "price_band_k_try": [
     450,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: kia cerato spectra sedan — 1.6L 5MT FWD (105 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

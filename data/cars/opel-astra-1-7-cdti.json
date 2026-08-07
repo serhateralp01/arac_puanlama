@@ -12,7 +12,10 @@
     "transmission_type": "TK",
     "transmission_id": "gm-aisin-af17",
     "body_type": "Hatchback",
-    "engine_id": "gm-z17dt"
+    "engine_id": "gm-z17dt",
+    "kerb_weight_kg": 1405,
+    "torque_nm": 281,
+    "fuel_consumption_l_100km": 4.6
   },
   "price_band_k_try": [
     380,
@@ -35,7 +38,8 @@
   "note": "Astra J'nin orta güç dizeli; motor için yeni bir aile açıldı (gm-z17dt) — listede zaten kayıtlı 1.6 CDTI ile aynı gövdeyi paylaşan ama Isuzu kökenli ayrı bir motor. EGR/DPF tıkanması kısa mesafe kullanımda yaygın; düzenli uzun yol kullanımı riski azaltıyor. Şanzıman listede zaten kayıtlı.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: opel astra sport sedan 2012 present — 1.7L CDTi 6MT FWD (110 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

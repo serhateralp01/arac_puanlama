@@ -12,7 +12,10 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "MPV",
-    "engine_id": "vag-ea111-tsi-tc"
+    "engine_id": "vag-ea111-tsi-tc",
+    "kerb_weight_kg": 1516,
+    "torque_nm": 220,
+    "fuel_consumption_l_100km": 6.8
   },
   "price_band_k_try": [
     620,
@@ -36,7 +39,8 @@
   "note": "Listedeki ilk MPV (çok amaçlı araç) kaydı; 140 beygirlik 1.4 TSI'ı turbo+kompresör ikilisi kullanan twincharger ailesinden (vag-ea111-tsi-tc, listede zaten kayıtlı — 122/160/170 beygirlik uygulamalarla aynı aile), tekli turbolu 122 beygirlik sürümle (vag-ea111-tsi-turbo) karıştırılmamalı. Oto Club Türkiye forumundaki tartışma, tam bu ailenin bilinen zaafı olan piston segman yatağı çatlamasını ve DQ200'ün vites sarsıntısı şikayetlerini doğruluyor — iki kaynak birbirini tutarlı biçimde destekliyor. Yedi koltuğa kadar çıkabilen gövdesi aileler için pratik bir seçenek.",
   "provenance": {
     "added_at": "2026-08-07",
-    "method": "Y-01 beşinci tur: mevcut motor/şanzıman aileleriyle (vag-ea111-tsi-tc, vag-dq200) düşük riskli genişleme; ilk MPV kaydı."
+    "method": "Y-01 beşinci tur: mevcut motor/şanzıman aileleriyle (vag-ea111-tsi-tc, vag-dq200) düşük riskli genişleme; ilk MPV kaydı.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: volkswagen touran — 1.4L TSI 6MT FWD (140 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

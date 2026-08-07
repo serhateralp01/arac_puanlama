@@ -13,7 +13,10 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea288"
+    "engine_id": "vag-ea288",
+    "kerb_weight_kg": 1420,
+    "torque_nm": 249,
+    "fuel_consumption_l_100km": 3.9
   },
   "price_band_k_try": [
     850,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: volkswagen golf sportsvan — 1.6L TDI 5MT FWD (110 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

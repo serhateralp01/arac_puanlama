@@ -12,7 +12,10 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "hyundai-7dct",
     "body_type": "SUV",
-    "engine_id": "hyundai-u2-16"
+    "engine_id": "hyundai-u2-16",
+    "kerb_weight_kg": 1735,
+    "torque_nm": 320,
+    "fuel_consumption_l_100km": 5.3
   },
   "price_band_k_try": [
     1050,
@@ -35,7 +38,8 @@
   "note": "Üçüncü nesil (TL) Tucson'un Türkiye'de en yaygın dizel-otomatik kombinasyonu; U2 1.6 CRDi motoru listede zaten kayıtlı, ama 7 ileri kuru çift kavramalı kutu ailenin bilinen zayıf halkası — aynı kutu başka Hyundai/Kia modellerinde de düşük puan alıyor. Bazı araçlarda ~90.000 km sonrası kronik DPF ve kavrama arızaları bildirilmiş. Buna karşılık Hyundai'nin Türkiye'deki geniş servis ağı ve yedek parça bulunabilirliği işletme maliyeti ve bulunabilirlik puanlarını yukarı çekiyor.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Y-01 ilk tur: WebSearch ile araştırılmış, mevcut motor/şanzıman ailelerine bağlanmış yeni araç."
+    "method": "Y-01 ilk tur: WebSearch ile araştırılmış, mevcut motor/şanzıman ailelerine bağlanmış yeni araç.",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: hyundai tucson — 1.6L CRDI 6MT 4WD (136 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

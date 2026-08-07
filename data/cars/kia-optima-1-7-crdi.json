@@ -13,7 +13,10 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
     "body_type": "Sedan",
-    "engine_id": "hyundai-u2-17"
+    "engine_id": "hyundai-u2-17",
+    "kerb_weight_kg": 1595,
+    "torque_nm": 325,
+    "fuel_consumption_l_100km": 6.0
   },
   "price_band_k_try": [
     650,
@@ -37,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: kia optima k5 — 1.7L CRDi 6AT FWD (136 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {

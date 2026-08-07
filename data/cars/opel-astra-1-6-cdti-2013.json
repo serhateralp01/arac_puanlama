@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "gm-aisin-af17",
     "body_type": "Hatchback",
-    "engine_id": "gm-a16dth"
+    "engine_id": "gm-a16dth",
+    "torque_nm": 320
   },
   "price_band_k_try": [
     720,
@@ -37,7 +38,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: opel astra sports tourer — 1.6L CDTI 6AT FWD (136 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {
