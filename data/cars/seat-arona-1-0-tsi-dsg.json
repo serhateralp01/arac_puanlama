@@ -1,0 +1,65 @@
+{
+  "id": "seat-arona-1-0-tsi-dsg",
+  "name": "Seat Arona 1.0 TSI DSG",
+  "tag": "oto: 7 ileri KURU DSG (DQ200) · 115hp",
+  "brand_group": "Seat",
+  "years": "2018-2021",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.0,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "SUV",
+    "engine_id": "vag-ea211",
+    "kerb_weight_kg": 1185,
+    "torque_nm": 200,
+    "fuel_consumption_l_100km": 5.3
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 72,
+    "trans": 38,
+    "fun": 50,
+    "comf": 62,
+    "age": 74,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "andcetin_dq200",
+    "oreateai_ea111_vs_ea211",
+    "trbox"
+  ],
+  "note": "Ibiza ile aynı platformu (MQB A0) paylaşan Arona'nın 1.0 TSI'sı; motor (EA211, vag-ea211) ve kutu (DQ200, vag-dq200) listede Ibiza/Polo/Fabia'da zaten kayıtlı aynı bileşenler, burada yalnızca SUV gövdeli bir model eklendi. DQ200'ün debriyaj balata ve mekatronik arıza geçmişi bu araç için de geçerli.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 dokuzuncu tur: var olan motor/şanzıman aileleri, farklı marka-model'e dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "oreateai_ea111_vs_ea211"
+      ],
+      "reasoning": "EA211 (vag-ea211) motor ailesinin temel puanı 72. Bu aracın motor puanı (72) temel puanla birebir aynı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dq200",
+        "trbox"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "citroen-grand-c4-picasso-1-6-ehdi-eat6",
+  "name": "Citroën Grand C4 Picasso 1.6 e-HDi EAT6",
+  "tag": "oto: 6 ileri EAT6 · 115hp",
+  "brand_group": "Citroën",
+  "years": "2013-2016",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-eat6",
+    "body_type": "MPV",
+    "engine_id": "psa-dv6",
+    "kerb_weight_kg": 1520,
+    "torque_nm": 285,
+    "fuel_consumption_l_100km": 4.5
+  },
+  "price_band_k_try": [
+    600,
+    900
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 44,
+    "trans": 72,
+    "fun": 50,
+    "comf": 62,
+    "age": 52,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "au7o_peugeot308_known_issues",
+    "propeugeotspares_16hdi_egr",
+    "trbox"
+  ],
+  "note": "Grand C4 Picasso'nun ikinci neslinde (2013+) sunulan e-HDi 115 EAT6 kombinasyonu; hem motor (DV6, psa-dv6) hem kutu (Aisin EAT6, aisin-eat6) listede zaten kayıtlı, Peugeot 308/3008 ve Opel Grandland X'te de aynı eşleşme kullanılıyor. Yedi koltuklu MPV gövdesi listedeki ilk Citroën minivan örneği.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 dokuzuncu tur: var olan motor/şanzıman aileleri, farklı marka-model'e dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "au7o_peugeot308_known_issues",
+        "propeugeotspares_16hdi_egr"
+      ],
+      "reasoning": "DV6 (psa-dv6) motor ailesinin temel puanı 44. Bu aracın motor puanı (44) temel puanla birebir aynı. Ailenin bilinen zaafı: EGR'de sertleşen karbon/yağ buharı tortusu; bu tortu turbo yağ besleme hattını da tıkayıp turbo yatağını yağsız bırakabiliyor. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "trbox"
+      ],
+      "reasoning": "EAT6 (aisin-eat6) şanzıman ailesinin temel puanı 72. Bu aracın trans puanı (72) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}
