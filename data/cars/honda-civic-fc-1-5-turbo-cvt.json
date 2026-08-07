@@ -1,0 +1,67 @@
+{
+  "id": "honda-civic-fc-1-5-turbo-cvt",
+  "name": "Honda Civic FC 1.5 VTEC Turbo CVT",
+  "tag": "oto: Honda CVT · 174hp",
+  "brand_group": "Honda",
+  "years": "2016-2021",
+  "specs": {
+    "hp": 174,
+    "displacement_l": 1.5,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "CVT",
+    "transmission_id": "honda-cvt-earthdreams",
+    "body_type": "Sedan",
+    "engine_id": "honda-l15b7-turbo",
+    "kerb_weight_kg": 1345,
+    "torque_nm": 220,
+    "fuel_consumption_l_100km": 6.7
+  },
+  "price_band_k_try": [
+    950,
+    1400
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 54,
+    "trans": 56,
+    "fun": 50,
+    "comf": 62,
+    "age": 69,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "8020automotive_l15b7",
+    "hondajazz_blogspot_cvt",
+    "newparts_l15b7_oil_dilution",
+    "vtecgaraj_jazz_cvt"
+  ],
+  "note": "Civic'in 10. neslinde (FC) tanıtılan turbolu motor; listedeki atmosferik Honda ailelerinden (honda-r16, honda-d16-d17) farklı bir tasarım, bu turda yeni açıldı. Kutu (honda-cvt-earthdreams) Jazz'da zaten kayıtlı aynı aile. Honda, 2016-2018 Civic'lerde 1 milyondan fazla aracı kapsayan bir garanti uzatması yaptı; bu genişletme, motorun yağ seyrelmesi sorununun üretici tarafından resmen kabul edilmiş bir kalem olduğunu gösteriyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on birinci tur: gerekirse yeni motor ailesi açılarak, Honda/Hyundai/Kia grubunda kapsanmayan kombinasyon eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "newparts_l15b7_oil_dilution",
+        "8020automotive_l15b7"
+      ],
+      "reasoning": "L15B7 (honda-l15b7-turbo) motor ailesinin temel puanı 54. Bu aracın motor puanı (54) temel puanla birebir aynı. Ailenin bilinen zaafı: Motor soğuk havada yeterince ısınmadan kısa mesafe kullanıldığında yakıtın yağa karışması (yağ seyrelmesi); yağlamayı zayıflatıyor. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "vtecgaraj_jazz_cvt",
+        "hondajazz_blogspot_cvt"
+      ],
+      "reasoning": "Honda CVT (honda-cvt-earthdreams) şanzıman ailesinin temel puanı 56. Bu aracın trans puanı (56) temel puanla birebir aynı. Ailenin bilinen zaafı: Az kullanılan/bakımı ihmal edilen araçlarda CVT arızası, ağır vakalarda komple değişim gerektiriyor. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

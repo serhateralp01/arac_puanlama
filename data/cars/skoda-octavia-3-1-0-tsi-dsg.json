@@ -1,0 +1,65 @@
+{
+  "id": "skoda-octavia-3-1-0-tsi-dsg",
+  "name": "Skoda Octavia 1.0 TSI DSG (Facelift)",
+  "tag": "oto: 7 ileri KURU DSG (DQ200) · 115hp",
+  "brand_group": "Skoda",
+  "years": "2017-2019",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.0,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Sedan",
+    "engine_id": "vag-ea211",
+    "kerb_weight_kg": 1220,
+    "torque_nm": 200,
+    "fuel_consumption_l_100km": 4.8
+  },
+  "price_band_k_try": [
+    700,
+    1050
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 72,
+    "trans": 38,
+    "fun": 50,
+    "comf": 62,
+    "age": 67,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "andcetin_dq200",
+    "oreateai_ea111_vs_ea211",
+    "trbox"
+  ],
+  "note": "Octavia 3'ün 2017 face-lift'inde eklenen 1.0 TSI seçeneği; motor (EA211, vag-ea211) ve kutu (DQ200) listede Golf 7/Polo 6'da zaten kayıtlı aynı bileşenler, burada Octavia'ya dikkatle eşleştirildi. Aynı gövdenin 1.6 TDI'siyle karşılaştırıldığında daha düşük bakım maliyeti ve daha basit bir egzoz sonrası sistemi (DPF/EGR yok) taşıyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 onuncu tur: VAG grubunda kapsanmayan hacim/nesil kombinasyonu, var olan aileye dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "oreateai_ea111_vs_ea211"
+      ],
+      "reasoning": "EA211 (vag-ea211) motor ailesinin temel puanı 72. Bu aracın motor puanı (72) temel puanla birebir aynı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dq200",
+        "trbox"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

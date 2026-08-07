@@ -1,0 +1,65 @@
+{
+  "id": "hyundai-elantra-md-1-8-6at",
+  "name": "Hyundai Elantra MD 1.8 6AT",
+  "tag": "oto: 6 ileri TK · 145hp",
+  "brand_group": "Hyundai",
+  "years": "2014-2016",
+  "specs": {
+    "hp": 145,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "hyundai-6at",
+    "body_type": "Sedan",
+    "engine_id": "hyundai-nu-18",
+    "kerb_weight_kg": 1355,
+    "torque_nm": 176,
+    "fuel_consumption_l_100km": 7.6
+  },
+  "price_band_k_try": [
+    750,
+    1050
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 34,
+    "trans": 78,
+    "fun": 50,
+    "comf": 62,
+    "age": 54,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "cararac_g4nb_18",
+    "hyundaiforums_auto",
+    "mycarvoice_nu18_settlement"
+  ],
+  "note": "Elantra MD'nin 1.8 Nu motoru; listedeki daha eski Beta/Gamma ailelerinden (hyundai-beta-16, hyundai-gamma16-mpi) farklı bir aile, bu turda yeni açıldı. 2015'te ABD'de yaklaşık 1,2 milyon aracı kapsayan resmî bir geri çağırma (krank mili işleme kalıntısı) ve buna bağlı bir grup davası kayıtlı; erken üretim (2010-2013) motorlarda risk daha yüksek, bu araç aralığı (2014-2016) kısmen sonraki revizyona giriyor ama tam güvence yok. Kutu (hyundai-6at) listede zaten kayıtlı aynı aile.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on birinci tur: gerekirse yeni motor ailesi açılarak, Honda/Hyundai/Kia grubunda kapsanmayan kombinasyon eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "kumar",
+      "confidence": "orta",
+      "sources": [
+        "cararac_g4nb_18",
+        "mycarvoice_nu18_settlement"
+      ],
+      "reasoning": "Nu 1.8 (hyundai-nu-18) motor ailesinin temel puanı 34. Bu aracın motor puanı (34) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim motorlarda piston segmanı tasarımından kaynaklanan yağ tüketimi ve silindir çizilmesi. Bu puan 'kumar' bandına giriyor: Birden fazla kaynak, düşük kilometrede motoru komple bitirebilecek bir arıza örüntüsünü doğruluyor; belgeli bakım geçmişi olmadan almak risk kabul ediliyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "hyundaiforums_auto"
+      ],
+      "reasoning": "Hyundai 6 ileri tork konvertörü (hyundai-6at) şanzıman ailesinin temel puanı 78. Bu aracın trans puanı (78) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

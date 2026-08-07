@@ -1,0 +1,63 @@
+{
+  "id": "kia-rio-yb-1-6-gdi-6at",
+  "name": "Kia Rio (YB) 1.6 GDI 6AT",
+  "tag": "oto: 6 ileri TK · 130hp",
+  "brand_group": "Kia",
+  "years": "2016-2018",
+  "specs": {
+    "hp": 130,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "hyundai-6at",
+    "body_type": "Sedan",
+    "engine_id": "hyundai-gamma16-gdi",
+    "kerb_weight_kg": 1135,
+    "torque_nm": 167,
+    "fuel_consumption_l_100km": 7.4
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 46,
+    "trans": 78,
+    "fun": 50,
+    "comf": 62,
+    "age": 63,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "hyundaiforums_auto",
+    "uscarsnew_gamma_mpi_gdi"
+  ],
+  "note": "Rio'nun dördüncü neslinde (YB) sunulan 1.6 GDI 6AT; motor (Gamma 1.6 GDI, hyundai-gamma16-gdi) ve kutu (hyundai-6at) listede Kia Ceed 1.6 GDI ve Hyundai i30 1.6 GDI'de zaten kayıtlı aynı bileşenler, burada Rio'ya eşleştirildi. Doğrudan enjeksiyonlu bu motor ailesinin bilinen zaafı (karbon birikimi) burada da geçerli.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on birinci tur: gerekirse yeni motor ailesi açılarak, Honda/Hyundai/Kia grubunda kapsanmayan kombinasyon eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "düşük",
+      "sources": [
+        "uscarsnew_gamma_mpi_gdi"
+      ],
+      "reasoning": "Gamma GDI (hyundai-gamma16-gdi) motor ailesinin temel puanı 46. Bu aracın motor puanı (46) temel puanla birebir aynı. Ailenin bilinen zaafı: Emme supaplarında karbon birikimi (direkt enjeksiyonun tipik sonucu). Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "hyundaiforums_auto"
+      ],
+      "reasoning": "Hyundai 6 ileri tork konvertörü (hyundai-6at) şanzıman ailesinin temel puanı 78. Bu aracın trans puanı (78) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

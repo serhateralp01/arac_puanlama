@@ -3545,5 +3545,103 @@
       "engine": "web_search",
       "found_at": "2026-08-07"
     }
+  },
+  "newparts_l15b7_oil_dilution": {
+    "claim": "newparts.com'un L15B7 makalesi, Honda'nın 1.5 turbo motorunda yağ seyrelmesi (oil dilution) sorununu ayrıntılı biçimde açıklıyor: motor soğuk havada yeterince ısınmadığında yanmamış yakıtın piston segmanlarından geçip yağa karıştığını, bunun yağlamayı zayıflattığını ve Honda'nın 2017-2018 CR-V ile 2016-2018 Civic'lerde 1 milyondan fazla aracı kapsayan garanti uzatması yaptığını aktarıyor.",
+    "publisher": "newparts.com",
+    "url": "https://newparts.com/articles/honda-l15b7-oil-dilution-issue-explained/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "8020automotive_l15b7": {
+    "claim": "8020automotive.com'un L15B7 makalesi, yağ seyrelmesine ek olarak wastegate aktüatör gevşemesi/arızası, kafa contasıyla ilgisiz soğutucu sızıntıları ve triger zincirinde aşınma gibi tekrarlayan üç sorunu listeliyor; motoru genel olarak rakiplerine göre güvenilir ama bakımsız/soğuk iklim kullanımında bu kalemlere dikkat edilmesi gereken bir tasarım olarak tanımlıyor.",
+    "publisher": "8020automotive.com",
+    "url": "https://8020automotive.com/the-3-most-common-honda-1-5t-l15b7-engine-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "cararac_g4nb_18": {
+    "claim": "cararac.com'un G4NB (Hyundai Elantra 1.8 Nu) makalesi, erken üretim motorlarda piston segmanı tasarımından kaynaklanan yağ tüketimi ve silindir çizilmesi bildirildiğini, 2013-2015 revizyonunun ABD spesifikasyonlu 1.6/1.8 birimlerinde yağ yakma olasılığını azalttığını aktarıyor.",
+    "publisher": "cararac.com",
+    "url": "https://cararac.com/blog/hyundai-elantra-1-8-engine-probelms-durability.html",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "classaction_ford_ecoboost_coolant": {
+    "claim": "classaction.org'un Ford EcoBoost dava özeti, 1.0 litrelik EcoBoost motorlarda soğutucunun silindir kafasındaki çatlak/eğilme yoluyla yanma odasına sızdığını, Ford'un bu kusuru kapsayan bir garanti uzatması yaptığını ve etkilenen binlerce müşteri için onarım maliyetinin tamamını üstlendiğini aktarıyor.",
+    "publisher": "ClassAction.org",
+    "url": "https://www.classaction.org/ford-ecoboost-engine-problems-coolant-overheating",
+    "type": "trade-blog",
+    "tier": "B",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "fordwetbeltspecialists_10ecoboost": {
+    "claim": "fordwetbeltspecialists.co.uk, 1.0 EcoBoost motorların yağ içinde çalışan triger kayışının 100-120 bin mil civarında aşınmaya başladığını, kopan kayış parçacıklarının aynı kayışla tahrik edilen yağ pompasını tıkayabildiğini aktarıyor.",
+    "publisher": "Ford Wet Belt Specialists",
+    "url": "https://fordwetbeltspecialists.co.uk/ford-ecoboost-timing-belt-when-to-replace-2025/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "smartcarcheck_focus_mk4_8at": {
+    "claim": "smartcarcheck.co.uk'un Focus Mk4 rehberi, bu neslin sorunlu Powershift kuru DCT'nin yerine Aisin kaynaklı 8 ileri tork konvertörlü SelectShift otomatiğe geçtiğini, 2018-2020 yapımı erken örneklerde düşük hızda sarsıntı ve gecikmeli vites geçişi şikayetleri bildirildiğini ama bunların büyük ölçüde yazılım güncellemesiyle giderildiğini aktarıyor.",
+    "publisher": "SmartCarCheck",
+    "url": "https://smartcarcheck.co.uk/guides/ford/focus-mk4",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "mycarvoice_nu18_settlement": {
+    "claim": "mycarvoice.com, Hyundai 1.8L Nu motoruna karşı açılan bir grup davasının motor sıkışması ve stop etmesine yol açabilecek bir kusur iddia ettiğini, 2015'te Hyundai-Kia'nın krank mili işlenirken kalan metal talaşları nedeniyle ABD'de yaklaşık 1,2 milyon aracı (çoğu 2010-2013 üretim) geri çağırdığını aktarıyor.",
+    "publisher": "mycarvoice.com",
+    "url": "https://mycarvoice.com/news/hyundai-elantra-1-8l-nu-engine-class-action-settlement/",
+    "type": "trade-blog",
+    "tier": "B",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
   }
 }

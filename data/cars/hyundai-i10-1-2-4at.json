@@ -1,0 +1,65 @@
+{
+  "id": "hyundai-i10-1-2-4at",
+  "name": "Hyundai i10 1.2 4AT",
+  "tag": "oto: 4 ileri TK (A4AF3) · 85hp",
+  "brand_group": "Hyundai",
+  "years": "2008-2013",
+  "specs": {
+    "hp": 85,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "hyundai-a4af3",
+    "body_type": "Hatchback",
+    "engine_id": "kia-kappa-12",
+    "kerb_weight_kg": 1030,
+    "torque_nm": 121,
+    "fuel_consumption_l_100km": 5.5
+  },
+  "price_band_k_try": [
+    320,
+    480
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 74,
+    "trans": 72,
+    "fun": 50,
+    "comf": 62,
+    "age": 37,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "borlease_picanto_inceleme",
+    "elantraxd_forum_a4af3",
+    "go4trans_a4af3"
+  ],
+  "note": "İlk nesil (PA) i10'un 1.2 Kappa motoru; Kia Picanto'da zaten kayıtlı aynı motor ailesi (kia-kappa-12), Hyundai-Kia arasında paylaşılan bir tasarım. Bu dönemde eşleştiği kutu, listede zaten kayıtlı daha eski nesil A4AF3 — güncel Picanto'nun kullandığı A4CF'den (hyundai-a4cf) farklı, Mitsubishi lisanslı önceki nesil. Şehir içi kullanım için tasarlanmış küçük bir motor, otoyolda zorlanabiliyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on birinci tur: gerekirse yeni motor ailesi açılarak, Honda/Hyundai/Kia grubunda kapsanmayan kombinasyon eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "borlease_picanto_inceleme"
+      ],
+      "reasoning": "Kappa 1.2 (kia-kappa-12) motor ailesinin temel puanı 74. Bu aracın motor puanı (74) temel puanla birebir aynı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "go4trans_a4af3",
+        "elantraxd_forum_a4af3"
+      ],
+      "reasoning": "A4AF3 (hyundai-a4af3) şanzıman ailesinin temel puanı 72. Bu aracın trans puanı (72) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

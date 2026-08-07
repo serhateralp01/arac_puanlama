@@ -1,0 +1,65 @@
+{
+  "id": "seat-ibiza-6j-1-2-tsi-dsg",
+  "name": "Seat Ibiza 1.2 TSI DSG (6J/6P)",
+  "tag": "oto: 7 ileri KURU DSG (DQ200) · 105hp",
+  "brand_group": "Seat",
+  "years": "2010-2017",
+  "specs": {
+    "hp": 105,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea111-tsi-turbo",
+    "kerb_weight_kg": 1145,
+    "torque_nm": 175,
+    "fuel_consumption_l_100km": 5.3
+  },
+  "price_band_k_try": [
+    450,
+    700
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 56,
+    "trans": 38,
+    "fun": 50,
+    "comf": 62,
+    "age": 48,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "andcetin_dq200",
+    "enginecrux_ea111_vs_ea211",
+    "trbox"
+  ],
+  "note": "Ibiza'nın üçüncü neslinde (6J/6P, 2008-2017) sunulan 1.2 TSI DSG; listedeki güncel Ibiza (2018+) EA211 tabanlıyken bu daha eski nesil hâlâ EA111 ailesinin (vag-ea111-tsi-turbo) turbo 1.2/1.4 TSI'sini kullanıyor — Skoda Fabia 1.2 TSI DSG'de zaten kayıtlı olan aynı motor. Kutu (DQ200) da aynı, düşük tork bu eşleşmede kutunun tork sınırına yaklaşmıyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 onuncu tur: VAG grubunda kapsanmayan hacim/nesil kombinasyonu, var olan aileye dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "enginecrux_ea111_vs_ea211"
+      ],
+      "reasoning": "EA111 TSI (vag-ea111-tsi-turbo) motor ailesinin temel puanı 56. Bu aracın motor puanı (56) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger zinciri ve gergi sesi, ilerlerse zincir/gergi değişimi gerektiriyor. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dq200",
+        "trbox"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

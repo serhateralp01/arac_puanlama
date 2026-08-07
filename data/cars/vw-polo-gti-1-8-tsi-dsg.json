@@ -1,0 +1,65 @@
+{
+  "id": "vw-polo-gti-1-8-tsi-dsg",
+  "name": "VW Polo GTI 1.8 TSI DSG",
+  "tag": "oto: 7 ileri ISLAK DSG (DQ250) · 192hp",
+  "brand_group": "Volkswagen",
+  "years": "2014-2017",
+  "specs": {
+    "hp": 192,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "vag-dq250",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea888",
+    "kerb_weight_kg": 1355,
+    "torque_nm": 320,
+    "fuel_consumption_l_100km": 5.6
+  },
+  "price_band_k_try": [
+    850,
+    1250
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 46,
+    "trans": 62,
+    "fun": 50,
+    "comf": 62,
+    "age": 56,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "andcetin_dq200",
+    "enginescope_ea888_gen",
+    "kroniksorunlar_superb"
+  ],
+  "note": "Polo'nun performans versiyonu; motor (EA888, vag-ea888) listede Octavia 1.8 TSI ve Golf 7 GTI'de zaten kayıtlı aynı aile, burada Polo'nun daha küçük gövdesine eşleştirildi. 320Nm tork, kuru DQ200'ün sınırının üstünde olduğu için ıslak DQ250 (vag-dq250) kullanıyor — Golf 7 GTI'yle birebir aynı kutu.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 onuncu tur: VAG grubunda kapsanmayan hacim/nesil kombinasyonu, var olan aileye dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "düşük",
+      "sources": [
+        "enginescope_ea888_gen"
+      ],
+      "reasoning": "EA888 (vag-ea888) motor ailesinin temel puanı 46. Bu aracın motor puanı (46) temel puanla birebir aynı. Ailenin bilinen zaafı: Gen1/Gen2 sürümlerinde triger zinciri gergisi arızası ve zincir uzaması. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dq200",
+        "kroniksorunlar_superb"
+      ],
+      "reasoning": "DQ250 (vag-dq250) şanzıman ailesinin temel puanı 62. Bu aracın trans puanı (62) temel puanla birebir aynı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

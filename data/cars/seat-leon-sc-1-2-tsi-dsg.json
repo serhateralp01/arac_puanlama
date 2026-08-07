@@ -1,0 +1,65 @@
+{
+  "id": "seat-leon-sc-1-2-tsi-dsg",
+  "name": "Seat Leon SC 1.2 TSI DSG",
+  "tag": "oto: 7 ileri KURU DSG (DQ200) · 105hp",
+  "brand_group": "Seat",
+  "years": "2013-2017",
+  "specs": {
+    "hp": 105,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea111-tsi-turbo",
+    "kerb_weight_kg": 1220,
+    "torque_nm": 175,
+    "fuel_consumption_l_100km": 4.8
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 56,
+    "trans": 38,
+    "fun": 50,
+    "comf": 62,
+    "age": 54,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "andcetin_dq200",
+    "enginecrux_ea111_vs_ea211",
+    "trbox"
+  ],
+  "note": "Leon'un üç kapılı SC (Sport Coupé) gövdesinde sunulan giriş seviyesi 1.2 TSI; MQB platformuna geçilmiş olsa da bu düşük güçlü motor hâlâ EA111 ailesinden (vag-ea111-tsi-turbo), listedeki güncel Leon 1.5 TSI'nin EA211'inden farklı. Kutu (DQ200) aynı ailenin diğer üyeleriyle ortak.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 onuncu tur: VAG grubunda kapsanmayan hacim/nesil kombinasyonu, var olan aileye dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "enginecrux_ea111_vs_ea211"
+      ],
+      "reasoning": "EA111 TSI (vag-ea111-tsi-turbo) motor ailesinin temel puanı 56. Bu aracın motor puanı (56) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger zinciri ve gergi sesi, ilerlerse zincir/gergi değişimi gerektiriyor. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dq200",
+        "trbox"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

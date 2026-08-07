@@ -56,8 +56,8 @@ function renderAna(){
 
  /* Kullanıcının asıl aradığı bilgi: hangi motor/şanzıman beni yakar. Bu
     liste build.py tarafından motor ve şanzıman ailelerinin base_score'undan
-    türetilip DB'ye gömülüyor (bkz. scripts/build.py riskiest()); araç
-    kaydından değil bileşen kaydından geliyor, çünkü kanıtın aslı orada. */
+    türetilip DB'ye gömülüyor (bkz. scripts/build.py riskiest()); kaynağı
+    bileşen kaydı, çünkü kanıtın aslı orada duruyor. */
  const riskEngineBox=document.getElementById('anaRiskEngine');
  const riskTransBox=document.getElementById('anaRiskTrans');
  const riskRow=e=>'<li><span class="an">'+e.name+'</span><span class="av risky">'+e.score+'</span></li>';

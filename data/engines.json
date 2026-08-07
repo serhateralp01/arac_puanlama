@@ -3398,7 +3398,7 @@
     "sources": [
       "carchecker_micra_hr12de"
     ],
-    "note": "Micra K13'ün üç silindirli 1.2'si; düzenli bakımla 200.000 km üzerini sorunsuz görebildiği bildiriliyor. Asıl risk bu motorda değil eşleştiği Xtronic CVT'de (nissan-xtronic, listede zaten kayıtlı). [base_score gerekçesi: 65-84 (sağlam): tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı, ama bildirilen tek zayıflık motora değil kutuya ait.]"
+    "note": "Micra K13'ün üç silindirli 1.2'si; düzenli bakımla 200.000 km üzerini sorunsuz görebildiği bildiriliyor. Asıl risk eşleştiği Xtronic CVT'de yoğunlaşıyor (nissan-xtronic, listede zaten kayıtlı). [base_score gerekçesi: 65-84 (sağlam): tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı; bildirilen zayıflık kutuya ait, motorun kendi güvenilirliğini düşürmüyor.]"
   },
   "honda-l13z": {
     "id": "honda-l13z",
@@ -3420,7 +3420,7 @@
     "sources": [
       "vtecgaraj_jazz_cvt"
     ],
-    "note": "Jazz/Fit'in 1.3 i-VTEC motoru; Honda'nın genel olarak güvenilir kabul edilen atmosferik ailelerinden. Bildirilen şikayetlerin neredeyse tamamı motorda değil eşleştiği CVT'de (honda-cvt-earthdreams, bu turda yeni açıldı). [base_score gerekçesi: 65-84 (sağlam): tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
+    "note": "Jazz/Fit'in 1.3 i-VTEC motoru; Honda'nın genel olarak güvenilir kabul edilen atmosferik ailelerinden. Bildirilen şikayetlerin neredeyse tamamı eşleştiği CVT'de yoğunlaşıyor (honda-cvt-earthdreams, bu turda yeni açıldı). [base_score gerekçesi: 65-84 (sağlam): tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
   "kia-kappa-12": {
     "id": "kia-kappa-12",
@@ -3442,5 +3442,128 @@
       "borlease_picanto_inceleme"
     ],
     "note": "Picanto'nun (TA/JA kasa) 1.2 Kappa motoru; basit atmosferik tasarımı ve Hyundai-Kia'nın Türkiye'deki geniş servis ağı güvenilirlik ve bulunabilirlik açısından avantaj sağlıyor. [base_score gerekçesi: 65-84 (sağlam): kronik bir arıza kalıbı bulunamadı, tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
+  },
+  "honda-l15b7-turbo": {
+    "id": "honda-l15b7-turbo",
+    "names": [
+      "L15B7",
+      "1.5 VTEC Turbo"
+    ],
+    "supplier": "Honda",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.5
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 54,
+    "maintenance": "Kısa mesafe/soğuk iklim kullanımında yağ değişim aralığı kısaltılmalı; yağ seviyesi yağ seyrelmesi riskine karşı düzenli kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Motor soğuk havada yeterince ısınmadan kısa mesafe kullanıldığında yakıtın yağa karışması (yağ seyrelmesi); yağlamayı zayıflatıyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "newparts_l15b7_oil_dilution"
+        ]
+      },
+      {
+        "issue": "Wastegate aktüatör gevşemesi/arızası ve kafa contasıyla ilgisiz soğutucu sızıntıları",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "8020automotive_l15b7"
+        ]
+      }
+    ],
+    "sources": [
+      "newparts_l15b7_oil_dilution",
+      "8020automotive_l15b7"
+    ],
+    "note": "Honda'nın turbolu 1.5'i; Civic (10. nesil), CR-V ve Accord'da kullanılıyor, listedeki atmosferik Honda ailelerinden (honda-r16, honda-l13z, honda-l15) farklı bir tasarım. Honda 2016-2018 Civic ve 2017-2018 CR-V'de 1 milyondan fazla aracı kapsayan bir garanti uzatması yaptı; bu genişletme, sorunun üretici tarafından resmen kabul edilmiş bir kalem olduğunu gösteriyor. [base_score gerekçesi: 50-64 (orta risk): iki bağımsız kaynak tekrarlayan ama motoru komple bitirmeyen, büyük ölçüde yazılım güncellemesiyle hafifletilen bir sorun örüntüsünde birleşiyor; ikisi de C seviyesinde olduğu için 65 üstüne çıkarılmadı.]"
+  },
+  "hyundai-nu-18": {
+    "id": "hyundai-nu-18",
+    "names": [
+      "Nu 1.8",
+      "G4NB"
+    ],
+    "supplier": "Hyundai-Kia",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.8
+    ],
+    "cylinders": 4,
+    "aspiration": "Atmosferik",
+    "base_score": 34,
+    "maintenance": "Yağ seviyesi ve tüketimi düzenli izlenmeli; erken üretim (2010-2013) motorlarda krank mili işleme kalıntısı riski nedeniyle bakım geçmişi belgeli araç tercih edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Erken üretim motorlarda piston segmanı tasarımından kaynaklanan yağ tüketimi ve silindir çizilmesi",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "cararac_g4nb_18"
+        ]
+      },
+      {
+        "issue": "Krank mili işlenirken kalan metal talaşlarının yağ yollarını tıkayıp biyel kolu yatağı arızasına yol açması; 2015'te ABD'de yaklaşık 1,2 milyon araç (çoğu 2010-2013 üretim) geri çağrıldı",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "motor ölür",
+        "sources": [
+          "mycarvoice_nu18_settlement"
+        ]
+      }
+    ],
+    "sources": [
+      "cararac_g4nb_18",
+      "mycarvoice_nu18_settlement"
+    ],
+    "note": "Hyundai-Kia'nın Nu ailesi; Elantra MD ve Elantra GT'de kullanılıyor, listedeki daha eski Beta/Gamma ailelerinden (hyundai-beta-16, hyundai-gamma16-mpi) farklı bir motor. 2015'teki resmî geri çağırma ve buna bağlı grup davası, bu ailenin sorununun tekil forum şikayetlerinin ötesinde üretici tarafından da kabul edilmiş bir üretim kusuru olduğunu gösteriyor. [base_score gerekçesi: 0-34 (kumar) bandının üst sınırında: bir B seviyesi kaynak (resmî geri çağırma haberi) ve bir C seviyesi kaynak (motor tüketimi/segman aşınması) aynı ailede düşük-orta kilometrede başlayan, motoru bitirebilen bir arıza örüntüsünde birleşiyor.]"
+  },
+  "ford-ecoboost-10": {
+    "id": "ford-ecoboost-10",
+    "names": [
+      "1.0 EcoBoost",
+      "Fox"
+    ],
+    "supplier": "Ford",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.0
+    ],
+    "cylinders": 3,
+    "aspiration": "Turbo",
+    "base_score": 32,
+    "maintenance": "Yağ içinde çalışan triger kayışı üreticinin önerdiği aralıkta (10 yıl/150.000 mil) mutlaka değiştirilmeli; soğutucu seviyesi düzenli kontrol edilmeli, ani düşüş silindir kafası çatlağının erken belirtisi olabilir.",
+    "known_issues": [
+      {
+        "issue": "Silindir kafasındaki çatlak/eğilme yoluyla soğutucunun yanma odasına sızması; ciddi vakalarda motor komple değişim gerektiriyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "motor ölür",
+        "sources": [
+          "classaction_ford_ecoboost_coolant"
+        ]
+      },
+      {
+        "issue": "Yağ içinde çalışan triger kayışının 100-120 bin mil civarında aşınması; kopan parçacıklar aynı kayışla tahrik edilen yağ pompasını tıkayabiliyor",
+        "onset_km": 160000,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "fordwetbeltspecialists_10ecoboost"
+        ]
+      }
+    ],
+    "sources": [
+      "classaction_ford_ecoboost_coolant",
+      "fordwetbeltspecialists_10ecoboost"
+    ],
+    "note": "Ford'un üç silindirli 1.0'ı; Fiesta ve Focus'ta yaygın, listedeki 1.5 EcoBoost'tan (ford-ecoboost-15) farklı, daha küçük hacimli bir tasarım. Ford, soğutucu sızıntısı kusurunu kapsayan bir garanti uzatması yaptı ve etkilenen binlerce müşterinin onarım masrafını üstlendi; bu, sorunun tekil kullanıcı şikayetlerinin ötesinde üretici tarafından da kabul edilmiş bir üretim kusuru olduğunu gösteriyor. [base_score gerekçesi: 0-34 (kumar) bandının üst sınırında: bir B seviyesi kaynak (garanti uzatması/dava kaydı) ve bir C seviyesi kaynak (triger kayışı aşınması) aynı ailede iki ayrı, motoru bitirebilen arıza zincirinde birleşiyor.]"
   }
 }

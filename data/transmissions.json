@@ -112,7 +112,7 @@
       "volvoclub_geartronic_reliability",
       "volvoforums_tf71sc_behavior"
     ],
-    "note": "Volvo'nun sorunlu Powershift kutusuyla karıştırılmamalı. Hangi motorun hangi kutuyla geldiği volvops kaynağında ayrıştırılıyor. Vites sayısı model yılına göre değiştiği için boş bırakıldı. Aisin'in hidrodinamik tork konvertörü tasarımı, Volvo'nun otomatikleri arasında en güvenilir kabul ediliyor ve çift kavramalı Powershift'e göre şehir trafiğine belirgin biçimde daha toleranslı. Buna karşılık yağ soğutucusu sızıntısı ve 100.000 km üstünde ısı eşanjörü bakımı gibi düzenli bakım kalemleri de belgeleniyor; bu yüzden 'temiz' üst bandına değil 'yönetilebilir bakım kalemi' bandına yerleştirildi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): genel itibar çok güçlü ama iki kaynakta da bakıma bağlı, tekrarlayan sorun kaydı var; M-1 bandı 'iki bağımsız kaynakta kronik arıza kaydı yok' şartını tam karşılamıyor.]"
+    "note": "Volvo'nun sorunlu Powershift kutusuyla karıştırılmamalı. Hangi motorun hangi kutuyla geldiği volvops kaynağında ayrıştırılıyor. Vites sayısı model yılına göre değiştiği için boş bırakıldı. Aisin'in hidrodinamik tork konvertörü tasarımı, Volvo'nun otomatikleri arasında en güvenilir kabul ediliyor ve çift kavramalı Powershift'e göre şehir trafiğine belirgin biçimde daha toleranslı. Buna karşılık yağ soğutucusu sızıntısı ve 100.000 km üstünde ısı eşanjörü bakımı gibi düzenli bakım kalemleri de belgeleniyor; bu yüzden puan 'yönetilebilir bakım kalemi' bandına yerleşiyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): genel itibar çok güçlü ama iki kaynakta da bakıma bağlı, tekrarlayan sorun kaydı var; M-1 bandı 'iki bağımsız kaynakta kronik arıza kaydı yok' şartını tam karşılamıyor.]"
   },
   "aisin-af40": {
     "id": "aisin-af40",
@@ -819,7 +819,7 @@
       "autodoc_lancer_cvt",
       "youcanic_mitsubishi_cvt"
     ],
-    "note": "Mitsubishi Lancer'ın CVT kutusu. V kayışı ve kasnaklarda erken aşınma yaygın bir arıza; belirtiler 80.000 km gibi düşük bir kilometrede başlayabiliyor. 2016'da Mitsubishi, gecikmeli hızlanma sorunu nedeniyle 80.000'den fazla Outlander ve Lancer'ı CVT arızası yüzünden geri çağırdı — bu, tekil bir kullanıcı şikayeti değil üreticinin kendi kabul ettiği bir kusur. Toyota'nın Multidrive CVT'siyle (74 puan) arasındaki fark buradan geliyor. [base_score gerekçesi: 35-49 (bilinen risk): üretici geri çağırması ve düşük kilometrede başlayan aşınma örüntüsü belgelenmiş; geri çağırma kaydı olduğu için autodoc kaynağı B seviyesinde sayıldı.]"
+    "note": "Mitsubishi Lancer'ın CVT kutusu. V kayışı ve kasnaklarda erken aşınma yaygın bir arıza; belirtiler 80.000 km gibi düşük bir kilometrede başlayabiliyor. 2016'da Mitsubishi, gecikmeli hızlanma sorunu nedeniyle 80.000'den fazla Outlander ve Lancer'ı CVT arızası yüzünden geri çağırdı; bu geri çağırma, kusurun üreticinin kendisi tarafından resmen kabul edildiği anlamına geliyor. Toyota'nın Multidrive CVT'siyle (74 puan) arasındaki fark buradan geliyor. [base_score gerekçesi: 35-49 (bilinen risk): üretici geri çağırması ve düşük kilometrede başlayan aşınma örüntüsü belgelenmiş; geri çağırma kaydı olduğu için autodoc kaynağı B seviyesinde sayıldı.]"
   },
   "suzuki-4at": {
     "id": "suzuki-4at",
@@ -1057,5 +1057,32 @@
       "teknikotomatik_a4cf2"
     ],
     "note": "Picanto ve benzeri küçük Hyundai-Kia modellerinde kullanılan dört ileri tork konvertörlü kutu; daha eski Mitsubishi lisanslı A4AF3'ten (listede zaten kayıtlı, Elantra XD/Cerato LD döneminden) farklı, Hyundai-Kia'nın kendi geliştirdiği bir sonraki nesil. Basit yapısı sayesinde genel olarak dayanıklı kabul ediliyor. [base_score gerekçesi: 65-84 (sağlam) bandının alt sınırında: iki kaynak da (C) yapısal bir kusur bildirmiyor.]"
+  },
+  "ford-selectshift-8at": {
+    "id": "ford-selectshift-8at",
+    "names": [
+      "SelectShift 8AT",
+      "Aisin 8 ileri (Ford)"
+    ],
+    "type": "TK",
+    "supplier": "Aisin",
+    "gears": 8,
+    "base_score": 64,
+    "maintenance": null,
+    "known_issues": [
+      {
+        "issue": "Erken üretim (2018-2020) örneklerde düşük hızda sarsıntı ve gecikmeli vites geçişi; büyük ölçüde yazılım güncellemesiyle gideriliyor",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "smartcarcheck_focus_mk4_8at"
+        ]
+      }
+    ],
+    "sources": [
+      "smartcarcheck_focus_mk4_8at"
+    ],
+    "note": "Ford'un dördüncü nesil Focus'la (2018+) sorunlu Powershift kuru DCT'yi (ford-dps6, listede zaten kayıtlı) bıraktığı, Aisin kaynaklı 8 ileri tork konvertörlü kutu. Tasarım kategorisi olarak çift kavramalıdan tork konvertörlüye geçiş, kendi başına bir güvenilirlik kazanımı; erken yazılım kaynaklı vites geçiş sorunları güncellemeyle çözüldüğü için kalıcı bir zafiyet sayılmadı. [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi) bandının üst sınırında: tek kaynak (C) erken dönem sorunları bildiriyor ama bunların yazılımla giderildiğini de aynı kaynaktan doğruluyor; ikinci bağımsız kaynak bulunamadığı için 65 üstüne çıkarılmadı.]"
   }
 }
