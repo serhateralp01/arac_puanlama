@@ -3585,5 +3585,44 @@
       "vtec_asia_r20a"
     ],
     "note": "CR-V III'ün (2007-2012) Avrupa/Asya pazarına özel 2.0'ı; ABD/JDM'nin K-serisinden farklı, R18A'nın stroku uzatılmış bir versiyonu. Bağımsız bir arıza örüntüsü belgelenmedi; Honda'nın genel atmosferik güvenilirlik profiline uyuyor. [base_score gerekçesi: 65-84 (sağlam): tek kaynak (C) motoru tanımlıyor ama bilinen bir zaaf bildirmiyor, bu yüzden üst banda çıkarılmadı.]"
+  },
+  "mb-m274": {
+    "id": "mb-m274",
+    "names": [
+      "M274"
+    ],
+    "supplier": "Mercedes-Benz",
+    "fuel": "Benzin",
+    "displacements_l": [
+      2.0
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 58,
+    "maintenance": "Yağ değişim aralığı sıkı tutulmalı; termostat ve kam mili ayarlayıcıları proaktif kontrol edilmeli, soğuk çalıştırmada metalik ses erken uyarı işareti.",
+    "known_issues": [
+      {
+        "issue": "Triger zinciri ve kam mili ayarlayıcı aşınması; soğuk çalıştırmada metalik ses",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "mercedesassistance_m274"
+        ]
+      },
+      {
+        "issue": "Agresif veya bakımsız kullanımda piston çatlaması/deformasyonu; yağ tüketimi ve egzozdan mavi duman",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "büyük onarım",
+        "sources": [
+          "mercedesassistance_m274"
+        ]
+      }
+    ],
+    "sources": [
+      "mercedesassistance_m274"
+    ],
+    "note": "W205 C-Class ve W213 E-Class'ta kullanılan 2.0 turbo; listedeki M270'in (1.6 turbo) büyük kardeşi, benzer triger zinciri zafiyetini taşıyor. Düzenli bakımla 300.000 km'ye ulaşılabildiği bildiriliyor. [base_score gerekçesi: 50-64 (orta risk): tek kaynak (C) tekrarlayan ama kullanım biçimine bağlı bir risk örüntüsü bildiriyor; M270'le aynı bandın üst tarafına yerleştirildi çünkü kaynak motoru rakiplerine göre daha güvenilir olarak tanımlıyor.]"
   }
 }

@@ -3630,6 +3630,34 @@
       "found_at": "2026-08-07"
     }
   },
+  "mercedesassistance_m274": {
+    "claim": "en.mercedesassistance.com'un M274 rehberi, triger zinciri ve kam mili ayarlayıcı aşınmasının (soğuk çalıştırmada metalik ses), termostat arızasının, agresif/bakımsız kullanımda piston çatlamasının, PCV valfindeki yağ ayırıcı zarın bozulmasının ve turbo wastegate aktüatör diyaframının çatlamasının bilinen sorunlar olduğunu; düzenli yağ değişimi ve proaktif bakımla 300.000 km'ye ulaşılabildiğini, ihmal edilen bakımın pahalı zincir/turbo arızalarına yol açtığını aktarıyor.",
+    "publisher": "Mercedes Assistance",
+    "url": "https://en.mercedesassistance.com/m274-engine-mercedes/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "asrgearbox_9gtronic": {
+    "claim": "asrgearboxrepairs.co.uk'un 9G-Tronic sayfası, nadir vakalarda 50-70 bin km civarında sarsıntılı vites değişimi veya gecikmeli kalkış bildirildiğini, kök nedenin genelde valf gövdesi aşınması veya konvertör kavraması yıpranması olduğunu, çoğu sorunun yazılım güncellemesiyle çözüldüğünü ve kutunun genel olarak güvenilir kabul edildiğini aktarıyor.",
+    "publisher": "ASR Gearbox Repairs",
+    "url": "https://www.asrgearboxrepairs.co.uk/9g-tronic-mercedes-9-speed-auto/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
   "vtec_asia_r20a": {
     "claim": "asia.vtec.net'in R20A sayfası, bu motorun R18A'nın stroku uzatılmış (stroked) versiyonu olduğunu ve Asya/Avrupa pazarına özel CR-V III (2007-2012) ile FR-V'de kullanıldığını, ABD/JDM'deki K24 ailesinden farklı bir tasarım olduğunu aktarıyor.",
     "publisher": "asia.vtec.net",

@@ -1084,5 +1084,32 @@
       "smartcarcheck_focus_mk4_8at"
     ],
     "note": "Ford'un dördüncü nesil Focus'la (2018+) sorunlu Powershift kuru DCT'yi (ford-dps6, listede zaten kayıtlı) bıraktığı, Aisin kaynaklı 8 ileri tork konvertörlü kutu. Tasarım kategorisi olarak çift kavramalıdan tork konvertörlüye geçiş, kendi başına bir güvenilirlik kazanımı; erken yazılım kaynaklı vites geçiş sorunları güncellemeyle çözüldüğü için kalıcı bir zafiyet sayılmadı. [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi) bandının üst sınırında: tek kaynak (C) erken dönem sorunları bildiriyor ama bunların yazılımla giderildiğini de aynı kaynaktan doğruluyor; ikinci bağımsız kaynak bulunamadığı için 65 üstüne çıkarılmadı.]"
+  },
+  "mb-9g-tronic": {
+    "id": "mb-9g-tronic",
+    "names": [
+      "9G-Tronic",
+      "722.9"
+    ],
+    "type": "TK",
+    "supplier": "Mercedes-Benz",
+    "gears": 9,
+    "base_score": 68,
+    "maintenance": null,
+    "known_issues": [
+      {
+        "issue": "Nadiren 50-70 bin km civarında sarsıntılı vites değişimi veya gecikmeli kalkış; genelde valf gövdesi aşınması veya konvertör kavraması yıpranmasından kaynaklanıyor",
+        "onset_km": 60000,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "asrgearbox_9gtronic"
+        ]
+      }
+    ],
+    "sources": [
+      "asrgearbox_9gtronic"
+    ],
+    "note": "W205/W213 nesli Mercedes'lerde kullanılan 9 ileri tork konvertörlü kutu; listedeki eski 722.9 kod adlı 7G-Tronic'le (mb-7g-tronic, ABD'de toplu davaya konu oldu) karıştırılmamalı, bu tamamen farklı bir nesil. Bildirilen sorunların çoğu yazılım güncellemesiyle çözülüyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının alt sınırında: tek kaynak (C) nadir ama gerçek bir sorun örüntüsü bildiriyor, ikinci bağımsız kaynak bulunamadığı için üst banda çıkarılmadı.]"
   }
 }
