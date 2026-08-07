@@ -482,34 +482,34 @@
   ],
   "presets": {
     "custom": {
-      "motor": 20,
-      "trans": 15,
-      "fun": 16,
-      "comf": 11,
-      "age": 10,
+      "motor": 24,
+      "trans": 21,
+      "fun": 8,
+      "comf": 5,
+      "age": 13,
       "cost": 12,
       "liq": 6,
-      "price": 10
+      "price": 11
     },
     "enthusiast": {
-      "motor": 17,
-      "trans": 13,
-      "fun": 30,
-      "comf": 8,
-      "age": 8,
+      "motor": 18,
+      "trans": 15,
+      "fun": 26,
+      "comf": 7,
+      "age": 9,
       "cost": 8,
-      "liq": 4,
+      "liq": 5,
       "price": 12
     },
     "family": {
-      "motor": 20,
-      "trans": 16,
-      "fun": 6,
-      "comf": 16,
-      "age": 12,
-      "cost": 12,
-      "liq": 6,
-      "price": 12
+      "motor": 27,
+      "trans": 24,
+      "fun": 4,
+      "comf": 7,
+      "age": 15,
+      "cost": 9,
+      "liq": 8,
+      "price": 6
     }
   },
   "preset_labels": {

@@ -210,39 +210,105 @@ Ağırlıklı toplam modelinin bu projede kabul edilen üç zayıflığı:
 
 ---
 
-## 5. Varsayılan ağırlıklar: dürüst durum
+## 5. Varsayılan ağırlıklar: SWING protokolüyle türetildi (2026-08-06)
 
-**Bugünkü varsayılan set türetilmiş değil, seçilmiştir.**
+**Önceki durum, dürüstçe:** Üç hazır ayarın (Dengeli, Sürüş keyfi öncelikli,
+Güvenilirlik öncelikli) sayıları projenin göç öncesi tek dosyalık sürümünden
+devralınmıştı ve hiçbir yerde yazılı bir gerekçeye dayanmıyordu. §3.1'deki ölçüm
+(±%25 ağırlık gürültüsünde Spearman 0.99) bunun acil bir sorun olmadığını gösteriyordu
+— ama "neden 20 ve 15, neden 22 ve 18 değil" sorusunun hâlâ cevabı yoktu. Bu bölüm o
+boşluğu kapatıyor.
 
-| Kriter | motor | trans | fun | comf | age | cost | liq | price |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Dengeli set | 20 | 15 | 16 | 11 | 10 | 12 | 6 | 10 |
+### Yöntem: SWING ağırlıklandırma
 
-Bu sayılar projenin göç öncesi tek dosyalık sürümünden devralındı ve o sürümde de
-yazılı bir gerekçeye dayanmıyordu. Bu, bu belgenin yazıldığı ana kadar hiçbir yerde
-itiraf edilmemiş bir açıktı.
+Kullanılan yöntem **SWING weighting** (von Winterfeldt ve Edwards, *Decision Analysis
+and Behavioral Research*, 1986; Ödeme isteğine dayalı türetme veri istiyordu — ilan
+bazlı fiyat/özellik eşlemesi bugün elde yok — bu yüzden veri gerektirmeyen yapılandırılmış
+uzman yargısı yolu seçildi). Mantığı şu:
 
-Sayıların savunulabilir bir yanı var: motor ve şanzımanın en yüksek iki ağırlığı
-alması, projenin başlangıç teşhisiyle (Türkiye ikinci el piyasasında alıcıyı asıl yakan
-şey motor ve şanzıman arızasıdır) tutarlı ve §3.3'teki ölçüm bu iki kriterin gerçekten
-taşıyıcı olduğunu doğruluyor. Ama "neden 20 ve 15, neden 22 ve 18 değil" sorusunun
-cevabı yok.
+1. Her kriter için "en kötü gerçekçi düzeyden en iyi gerçekçi düzeye" (0'dan 100'e)
+   bir sıçrama (swing) hayal edilir.
+2. Bu sıçramaların **alıcı için ne kadar önemli olduğu** sıralanır ve en önemlisine
+   100 puan verilir.
+3. Diğer her kriterin sıçraması, en önemliye göre 0-100 arasında oranlanır.
+4. Puanlar toplama (Σ=100) normalize edilir — bu doğrudan ağırlık olur.
 
-**Neden bu bugün acil bir sorun değil:** §3.1'deki ölçüm, ±%25 ağırlık hatasının
-sıralamayı bozmadığını gösteriyor (Spearman 0.99). Yani ağırlıkların tam değeri, model
-için sanıldığı kadar kritik değil. Yanlış ağırlık seçmenin bedeli düşük.
+Üç farklı kullanıcı profili için **ayrı ayrı** SWING yapıldı, çünkü "sürüş keyfi
+öncelikli" bir kullanıcı için `fun`'ın sıçraması "dengeli" bir kullanıcıya göre çok
+daha değerlidir; tek bir SWING'den üç preset türetmek yanlış olurdu.
 
-**Yine de yapılması gereken:** ağırlıkların bir gerekçeye bağlanması. İki uygulanabilir
-yol var:
+### Dengeli set
 
-1. **Ödeme isteğine dayalı türetme:** "Bir kullanıcı, motor güvenini bir bant yükseltmek
-   için kaç TL fazla öder" sorusunu ikinci el fiyat verisinden geriye doğru tahmin
-   etmek. Veri gerektirir (ilan bazlı fiyat + özellik eşlemesi), bugün elde yok.
-2. **Yapılandırılmış uzman yargısı:** SMART/SWING gibi bir ağırlık türetme protokolüyle
-   kriterleri sıralayıp aralarındaki oranı açıkça gerekçelendirmek. Veri gerektirmez,
-   bir oturumda yapılabilir, sonucu yazılı olur.
+| Kriter | Sıçrama puanı | Gerekçe |
+|---|---:|---|
+| `motor` | 100 (çapa) | Motor arızası tek seferde en pahalı ve en yıkıcı sonuç; ikinci el alıcısının en çok korktuğu şey. |
+| `trans` | 85 | Mekatronik/kavrama onarımı motor kadar pahalı olabiliyor, ama "motor komple bitti" kadar toptan bir kayıp nadiren oluyor. |
+| `age` | 55 | Pas, elektrik arızaları birikimli risk; tek seferde yıkıcı değil ama sürekli. |
+| `cost` | 50 | Sürekli bir yük, gerçek para, ama bütçelenebilir — motor/şanzıman gibi "anlık felaket" değil. |
+| `price` | 45 | Türkiye piyasasında bütçe çoğu zaman zaten ön filtre; kalite değerlendirmesinden önce devreye giriyor. |
+| `fun` | 35 | Günlük memnuniyeti artırıyor ama güvenilirliği ya da maliyeti etkilemiyor. |
+| `liq` | 25 | Çoğunlukla yalnızca satış anında önem kazanıyor; uzun süre elde tutan alıcı için ikincil. |
+| `comf` | 20 | Yaşam kalitesi faktörü, en az "dealbreaker" olan. §3.4'teki ampirik bulgu (comf ayırt etmiyor) bu düşük sıralamayla tutarlı. |
 
-İkincisi bu projenin ölçeğine uygun ve sıradaki adım olarak öneriliyor.
+Toplam sıçrama = 415. Ağırlık = sıçrama × 100/415, tam sayıya yuvarlandı:
+
+| Kriter | motor | trans | age | cost | price | fun | liq | comf | Σ |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **Yeni** | 24 | 21 | 13 | 12 | 11 | 8 | 6 | 5 | 100 |
+| Eski | 20 | 15 | 10 | 12 | 10 | 16 | 6 | 11 | 100 |
+
+En büyük değişim `fun` (16→8) ve `comf`'ta (11→5): ikisi de ampirik ölçümde zaten
+zayıf çıkmıştı (§3.3, §3.4), SWING bunu bağımsız bir yöntemle doğruladı. `trans` belirgin
+biçimde yükseldi (15→21) çünkü şanzıman arızasının maliyeti motor kadar ciddiye
+alınmalı — bu projenin adının "araç puanlama" değil özellikle "otomatik vitesli araç
+puanlama" olmasıyla da örtüşüyor.
+
+### Sürüş keyfi öncelikli
+
+Ayrı bir SWING: bu persona için `fun` çapa (100), ama güvenilirlik tamamen terk
+edilmiyor — "eğlenceli ama güvenilmez" bir araç önerisi sitenin amacına aykırı olurdu.
+
+| Kriter | fun | motor | trans | price | age | cost | comf | liq | Σ |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Sıçrama | 100 | 70 | 55 | 45 | 35 | 30 | 25 | 20 | 380 |
+| **Yeni ağırlık** | 26 | 18 | 15 | 12 | 9 | 8 | 7 | 5 | 100 |
+| Eski ağırlık | 30 | 17 | 13 | 12 | 8 | 8 | 8 | 4 | 100 |
+
+Bu preset en az değişen oldu — eski sayılar da zaten "fun baskın ama motor/trans hâlâ
+ikinci sırada" mantığına uyuyordu.
+
+### Güvenilirlik öncelikli
+
+Ayrı bir SWING: `motor` çapa (100), güvenilirlikle doğrudan ilgili her şey (`trans`,
+`age`) yüksek, geri kalan düşük.
+
+| Kriter | motor | trans | age | cost | liq | comf | price | fun | Σ |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Sıçrama | 100 | 90 | 55 | 35 | 30 | 25 | 25 | 15 | 375 |
+| **Yeni ağırlık** | 27 | 24 | 15 | 9 | 8 | 7 | 6 | 4 | 100 |
+| Eski ağırlık | 20 | 16 | 12 | 12 | 6 | 16 | 12 | 6 | 100 |
+
+**Burada gerçek bir tutarsızlık bulundu ve düzeltildi:** eski "Güvenilirlik öncelikli"
+setinde `comf` ağırlığı (16) `motor` ile aynı bölgedeydi ve `age`'den (12) yüksekti —
+bu, adı "güvenilirlik" olan bir presetin aslında konfor odaklı eski bir "aile" preseti
+olarak tasarlanıp isim değiştirildiğine işaret ediyor, sayıları güncellenmeden. SWING
+bu tutarsızlığı ortadan kaldırdı: `comf` 16'dan 7'ye indi, `motor`+`trans` toplamı
+36'dan 51'e çıktı.
+
+### Değişimin etkisi ölçüldü
+
+`scripts/analysis/sensitivity.py` ile eski/yeni ağırlıklar karşılaştırıldı:
+
+| Preset | Eski↔yeni Spearman | İlk 10'da korunan |
+|---|---:|---:|
+| Dengeli | 0.983 | 9/10 |
+| Sürüş keyfi öncelikli | 0.980 | 7/10 |
+| Güvenilirlik öncelikli | 0.967 | 9/10 |
+
+Değişim gerçek ama yıkıcı değil — sıralamanın büyük kısmı korunuyor, en çok hareket
+eden yerler zaten en zayıf gerekçeye dayanan eski sayılardı. Yeni ağırlıklar
+`data/criteria.json` içine işlendi ve arayüzde canlı; `docs/methodology.md` §3'teki
+tablo da güncellendi.
 
 ---
 

@@ -72,11 +72,14 @@ toplanıyor ve aradaki fark gözle görülmüyor. Normalize sütun bu farkı bü
 
 ### Ağırlık setleri
 
+Bu sayılar artık keyfi değil; SWING protokolüyle türetildi, gerekçesi ve hesabı
+`docs/PUANLAMA-TEMELI.md` §5'te.
+
 | Set | motor | trans | fun | comf | age | cost | liq | price |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Dengeli | 20 | 15 | 16 | 11 | 10 | 12 | 6 | 10 |
-| Sürüş keyfi öncelikli | 17 | 13 | 30 | 8 | 8 | 8 | 4 | 12 |
-| Güvenilirlik öncelikli | 20 | 16 | 6 | 16 | 12 | 12 | 6 | 12 |
+| Dengeli | 24 | 21 | 8 | 5 | 13 | 12 | 6 | 11 |
+| Sürüş keyfi öncelikli | 18 | 15 | 26 | 7 | 9 | 8 | 5 | 12 |
+| Güvenilirlik öncelikli | 27 | 24 | 4 | 7 | 15 | 9 | 8 | 6 |
 
 ---
 
