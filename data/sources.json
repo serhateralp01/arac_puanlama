@@ -3630,6 +3630,20 @@
       "found_at": "2026-08-07"
     }
   },
+  "vtec_asia_r20a": {
+    "claim": "asia.vtec.net'in R20A sayfası, bu motorun R18A'nın stroku uzatılmış (stroked) versiyonu olduğunu ve Asya/Avrupa pazarına özel CR-V III (2007-2012) ile FR-V'de kullanıldığını, ABD/JDM'deki K24 ailesinden farklı bir tasarım olduğunu aktarıyor.",
+    "publisher": "asia.vtec.net",
+    "url": "http://asia.vtec.net/Engines/R20A/index.html",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
   "mycarvoice_nu18_settlement": {
     "claim": "mycarvoice.com, Hyundai 1.8L Nu motoruna karşı açılan bir grup davasının motor sıkışması ve stop etmesine yol açabilecek bir kusur iddia ettiğini, 2015'te Hyundai-Kia'nın krank mili işlenirken kalan metal talaşları nedeniyle ABD'de yaklaşık 1,2 milyon aracı (çoğu 2010-2013 üretim) geri çağırdığını aktarıyor.",
     "publisher": "mycarvoice.com",

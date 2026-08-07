@@ -1,0 +1,63 @@
+{
+  "id": "dacia-duster-2-1-3-tce-edc",
+  "name": "Dacia Duster (2. Nesil) 1.3 TCe EDC",
+  "tag": "oto: 7 ileri ISLAK EDC (Getrag) · 130hp",
+  "brand_group": "Dacia",
+  "years": "2020-2023",
+  "specs": {
+    "hp": 130,
+    "displacement_l": 1.3,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "getrag-7dct300",
+    "body_type": "SUV",
+    "engine_id": "renault-h5ht",
+    "kerb_weight_kg": 1305,
+    "torque_nm": 240,
+    "fuel_consumption_l_100km": 6.5
+  },
+  "price_band_k_try": [
+    850,
+    1250
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 68,
+    "trans": 70,
+    "fun": 50,
+    "comf": 62,
+    "age": 83,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "otopark_1_3tce_islak",
+    "uscarsnew_h5ht"
+  ],
+  "note": "Dizelin Avrupa'da gerilemesiyle Duster'da öne çıkan benzinli otomatik seçenek; motor (H5Ht, renault-h5ht) ve kutu (Getrag 7DCT300) listede Clio 5 ve Koleos'ta zaten kayıtlı aynı eşleşme, burada Duster'a eşleştirildi. Listede zaten kayıtlı dCi EDC versiyonlarından (kuru EDC, renault-edc-kuru) farklı bir şanzıman ailesi kullanıyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on beşinci tur: popüler modellerin eksik motor seçenekleri eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "uscarsnew_h5ht"
+      ],
+      "reasoning": "H5Ht (renault-h5ht) motor ailesinin temel puanı 68. Bu aracın motor puanı (68) temel puanla birebir aynı. Ailenin bilinen zaafı: Bazı örneklerde arızalı piston/segman kaynaklı erken yağ tüketimi. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "otopark_1_3tce_islak"
+      ],
+      "reasoning": "Getrag 7DCT300 (getrag-7dct300) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

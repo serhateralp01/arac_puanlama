@@ -127,7 +127,7 @@ async function dumpDebug(label) {
     if (ALWAYS_SCREENSHOT) await dumpDebug('01-yuklendi');
 
     const rows = await page.locator('#body tr.main').count();
-    check('bütün araçlar listeleniyor', rows === 267, `${rows} satır`);
+    check('bütün araçlar listeleniyor', rows === 272, `${rows} satır`);
 
     check('JS hatası yok', errors.length === 0, errors.slice(0, 3).join(' | '));
 
@@ -177,8 +177,8 @@ async function dumpDebug(label) {
     await page.click('.nav a[data-route="katki"]');
     await page.waitForTimeout(200);
     const ktCars = await page.locator('#ktCar option').count();
-    // 267 araç + "seçin" + "listede yok" = 269
-    check('form araç listesi veriden doluyor', ktCars === 269, `${ktCars} seçenek`);
+    // 272 araç + "seçin" + "listede yok" = 274
+    check('form araç listesi veriden doluyor', ktCars === 274, `${ktCars} seçenek`);
     const ktCrits = await page.locator('#ktCriterion option').count();
     check('form kriter listesi veriden doluyor', ktCrits > 5, `${ktCrits} seçenek`);
     // Uç nokta tanımlı değilken gönderim kapalı olmalı; sessizce başarısız

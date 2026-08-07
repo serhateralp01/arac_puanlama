@@ -1,0 +1,67 @@
+{
+  "id": "honda-crv-3-2-0-ivtec-5at",
+  "name": "Honda CR-V III 2.0 i-VTEC 5AT",
+  "tag": "oto: 5 ileri TK · 150hp",
+  "brand_group": "Honda",
+  "years": "2007-2012",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 2.0,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "honda-4at-5at",
+    "body_type": "SUV",
+    "engine_id": "honda-r20a",
+    "kerb_weight_kg": 1585,
+    "torque_nm": 190,
+    "fuel_consumption_l_100km": 8.8
+  },
+  "price_band_k_try": [
+    450,
+    700
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 74,
+    "trans": 78,
+    "fun": 50,
+    "comf": 62,
+    "age": 33,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "civic",
+    "hondatech_k24",
+    "truedelta_accord",
+    "vtec_asia_r20a"
+  ],
+  "note": "Türkiye'de en çok satılan ikinci el otomatik SUV'lardan biri; motor (R20A, bu turda yeni açıldı) Avrupa/Asya pazarına özel, ABD/JDM'nin K-serisinden farklı bir tasarım. Kutu (honda-4at-5at) listede Accord'da zaten kayıtlı aynı klasik tork konvertörlü Honda otomatiği. Motor tarafında bağımsız bir arıza örüntüsü belgelenmedi.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on beşinci tur: popüler modellerin eksik motor seçenekleri eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "vtec_asia_r20a"
+      ],
+      "reasoning": "R20A (honda-r20a) motor ailesinin temel puanı 74. Bu aracın motor puanı (74) temel puanla birebir aynı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "hondatech_k24",
+        "truedelta_accord",
+        "civic"
+      ],
+      "reasoning": "Honda 4 ileri otomatik (honda-4at-5at) şanzıman ailesinin temel puanı 78. Bu aracın trans puanı (78) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

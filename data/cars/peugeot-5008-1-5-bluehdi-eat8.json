@@ -1,0 +1,65 @@
+{
+  "id": "peugeot-5008-1-5-bluehdi-eat8",
+  "name": "Peugeot 5008 1.5 BlueHDi EAT8",
+  "tag": "oto: 8 ileri TK · 130hp",
+  "brand_group": "Peugeot",
+  "years": "2020-2023",
+  "specs": {
+    "hp": 130,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "psa-eat8",
+    "body_type": "SUV",
+    "engine_id": "psa-bluehdi-15",
+    "kerb_weight_kg": 1455,
+    "torque_nm": 300,
+    "fuel_consumption_l_100km": 5.0
+  },
+  "price_band_k_try": [
+    1200,
+    1650
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 50,
+    "trans": 76,
+    "fun": 50,
+    "comf": 62,
+    "age": 83,
+    "cost": 72,
+    "liq": 66
+  },
+  "sources": [
+    "araclo_c5aircross",
+    "erenservis_eat8",
+    "motor1_psa_suv_eat"
+  ],
+  "note": "Peugeot'nun yedi koltuklu SUV'u; motor (BlueHDi 1.5, psa-bluehdi-15) ve kutu (EAT8) listede Citroën C5 Aircross'ta zaten kayıtlı aynı eşleşme, burada 5008'in daha büyük gövdesine eşleştirildi. Listede henüz kayıtlı olmayan bir gövde tipi (yedi koltuklu SUV) ekliyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 on beşinci tur: popüler modellerin eksik motor seçenekleri eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "araclo_c5aircross"
+      ],
+      "reasoning": "BlueHDi 130 (psa-bluehdi-15) motor ailesinin temel puanı 50. Bu aracın motor puanı (50) temel puanla birebir aynı. Ailenin bilinen zaafı: 2022 öncesi üretimde eksantrik/zincir riski bildirildiği, 2022 sonrası üretimde bu riskin azaldığı. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "motor1_psa_suv_eat",
+        "erenservis_eat8"
+      ],
+      "reasoning": "EAT8 (psa-eat8) şanzıman ailesinin temel puanı 76. Bu aracın trans puanı (76) temel puanla birebir aynı. Ailenin bilinen zaafı: 3.-2. vites arası vuruntu ve kalkışta hafif gecikme. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}
