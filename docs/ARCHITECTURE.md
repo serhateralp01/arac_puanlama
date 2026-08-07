@@ -179,16 +179,23 @@ girdiye her zaman aynı çıktıyı verir.
 araç kayıtlarına boş ağırlık ve tork alanlarının eklenmesi gerekiyor; bu alanlar şemaya
 eklendi ve doldurulmayı bekliyor.
 
-> **DURUM UYARISI (2026-08-06): Bu karar alındı ama hiç uygulanmadı.**
-> `specs.kerb_weight_kg`, `specs.torque_nm` ve `specs.fuel_consumption_l_100km`
-> alanları **221 aracın 221'inde de boş**. Yani `fun`, `comf`, `age` ve `cost`
-> kriterleri hâlâ tamamen elle veriliyor; bu kayıttaki "formüle bağlanır" ifadesi
-> bugün için bir niyet beyanıdır, yürürlükte olan bir kural değil.
+> **DURUM UYARISI (2026-08-06, güncellendi 2026-08-07): Karar kısmen uygulandı.**
+> Yazıldığı gün `specs.kerb_weight_kg`, `specs.torque_nm` ve
+> `specs.fuel_consumption_l_100km` alanları 221 aracın 221'inde de boştu; `fun`,
+> `comf`, `age` ve `cost` kriterlerinin hepsi tamamen elle veriliyordu.
+>
+> Bugün durum farklı: `age` MK-14 ile TÜV kusur eğrisine bağlandı
+> (`scripts/compute_age.py`), `fun` MK-17 ile güç/ağırlık formülüne bağlandı
+> (`scripts/compute_fun.py`) — ikisi de artık 0-100 arası deterministik, tekrarlanabilir
+> bir hesaptan geçiyor. `comf` ve `cost` **hâlâ tamamen elle veriliyor**; ikisinin de
+> formülü PLAN.md §3.5 ve §3.8'de taslak halinde duruyor ama girdi verisi (iç hacim,
+> bagaj, resmi bakım tarifesi) henüz toplanmadı.
 >
 > Bu uyarı bilerek kaydın içine yazıldı: mimari karar kayıtlarının değeri, uygulanan
 > ile uygulanmayanı ayırt edebilmelerine bağlıdır. Bir karar kaydı, gerçekte olmayan
 > bir şeyi olmuş gibi anlatıyorsa belgenin tamamının güvenilirliğini düşürür.
-> Ayrıntılı döküm `docs/PUANLAMA-TEMELI.md` §6'da.
+> Ayrıntılı döküm `docs/PUANLAMA-TEMELI.md` §6'da (o bölüm de bu güncellemeyle
+> tutarlı hale getirilmeli).
 
 ---
 
@@ -514,3 +521,66 @@ uyarısı 240'tan 72'ye düştü. Hiçbir kaynağın `MAX_CARS_PER_SOURCE` (12) 
 aşan tek başına dayanak (`sole_reliance`) sayısı artmadı, çünkü bu değişiklik yalnızca
 zaten 1'den fazla kaynağı olan araçlarda kaynak sayısını büyüttü. `validate.py`
 0 hata ile tamamlandı.
+
+---
+
+## MK-17 · `fun` kriteri güç/ağırlık formülüne bağlandı; taslak eşit ağırlık dizel çarpıklığı yüzünden reddedildi
+
+**Karar.** `fun` (sürüş keyfi) kriteri artık elle verilmiyor; `scripts/compute_fun.py`
+tarafından `docs/PLAN.md` §3.6'nın tanımladığı `temel + karakter_düzeltmesi`
+formülünden hesaplanıyor. MK-06'nın "öznel kriterler formüle bağlanır" kararının
+fiilen uygulandığı ikinci kriter budur (birincisi MK-14'teki `age`).
+
+**Kapsam.** Formül yalnızca `specs.kerb_weight_kg` ve `specs.torque_nm` dolu olan
+araçlara uygulanabiliyor; bu alanlar MK-15'in kademeli araştırmasına bağlı ve bugün
+273 aracın 158'inde dolu. Diğer 115 araç dokunulmadan kaldı, eski elle verilmiş
+puanlarını taşımaya devam ediyor — veri eksikken formül çalıştırılıp tahmini bir
+sayı üretilmedi, "boş alan yanlış alandan iyidir" ilkesi (MK-15) burada da geçerli.
+
+**Reddedilen taslak.** İlk deneme güç/ağırlık ve tork/ağırlığı eşit ağırlıklandırdı
+(`0,5×güç + 0,5×tork`). Bu taslak 158 araca karşı test edildiğinde sayısal olarak
+elle verilmiş puanlara karşı marjinal olarak biraz daha iyi korelasyon veriyordu
+(Spearman 0,46), ama sıralaması **gözle görülür biçimde saçmaydı**: bir Renault
+Megane 4 Estate dizel steyşın, VW Golf 7 GTI'den hemen sonra listenin 2. sırasına
+çıktı; bir Peugeot 308 GT BlueHDi dizel ve bir Skoda Superb dizel de ilk 10'a
+girdi. Sebep, dizel motorların aynı beygirde çok daha yüksek tork üretmesi — bu,
+motorun daha keyifli sürüldüğü anlamına gelmiyor, yanma karakterinin bir yan
+etkisi. Taslak formül bu yüzden reddedildi; ağırlık %75 güç / %25 tork'a çekildi.
+Bu değişiklik korelasyonu ciddi bozmadan (0,46 → 0,43) sıralamayı ortak akla uygun
+hale getirdi: ilk sıralarda artık GTI/hot-hatch/sportif modeller var, dizel
+steyşınlar "nötr" banda düştü.
+
+**Ölçülen etki ve dürüst sınır.** Formülün gerçekten araştırılmış (varsayılan 50
+olmayan) 107 araca karşı Spearman korelasyonu 0,43, ortalama mutlak sapma ~18 puan
+— MK-14'teki `age`'in 0,95 korelasyonunun çok altında. Bu, formülün yanlış olduğu
+anlamına gelmiyor: `docs/PLAN.md` §3 kendi tablosunda `fun` için zaten "sezgi payı
+sonrası ~%35" diyor, yani `age`'in aksine bu kriterin üçte biri formülün asla tam
+yakalayamayacağı bir yargı bırakıyor. Elle verilmiş puanların da güvenilir bir
+referans olmadığı ayrıca görüldü: 273 aracın 61'i (%22) birebir aynı değer olan 50
+taşıyordu — araştırılmamış bir varsayılan, gerçek bir yargı değil (ör. VW Polo GTI
+1.8 TSI DSG, aynı platformu paylaştığı Golf 7 GTI 86 puan alırken, hiç
+araştırılmadan 50'de kalmıştı; formül bunu 76'ya çıkardı).
+
+**Karakter düzeltmesinin kapsamı.** `± 15 puanla sınırlı, yazılı gerekçeli` kuralı
+PLAN.md'nin beş kabul edilen ölçütünden yalnızca üçünü kullanabiliyor, çünkü
+diğer ikisi için veri tabanında hiçbir alan yok:
+
+| Ölçüt | Uygulandı mı | Kaynak alan |
+|---|---|---|
+| Arkadan itiş | Evet, +8 | `specs.drivetrain == "Arkadan"` |
+| Sıralı altı silindir | Evet, +6 | `specs.engine_id`, BMW M52/M54/M57/N52 sabit listesi |
+| Doğal emişli yüksek devir karakteri | Evet, +5 | `engines.json.aspiration == "Atmosferik"` + beygir/litre ≥ 75 |
+| Sportif şasi kurulumu | **Hayır** | Şemada alan yok |
+| Direksiyonun geri bildirimi | **Hayır** | Şemada alan yok |
+
+Son iki ölçüt, veri tabanına yeni bir alan eklenmeden uygulanamaz; PLAN.md'nin
+kendi kuralı ("hoşuma gidiyor" bir gerekçe sayılmaz, denetimsiz düzeltme hata
+sayılır) burada kasıtlı olarak boş bırakmayı, kaynaksız bir sayı uydurmaya tercih
+ettirdi. `evidence.fun.reasoning` bu boşluğu her araç kaydında açıkça yazıyor.
+
+**Yan etki.** Formülün ürettiği bazı uç puanlar (0-34 veya 85-100 bandı) yalnızca
+C seviyesi kaynaklara dayanıyor ve `validate.py`'nin `c-kaynakla-uc-puan` kuralını
+tetikliyor (18 → 35 uyarı). Bu beklenen bir sonuç, hata değil: formül önceden
+50'de donmuş, hiçbir kaynağa dayanmayan puanları gerçek uç değerlere taşıdı; kural
+şimdi bu araçların gerçekten ikinci bir kaynağa ihtiyacı olduğunu doğru şekilde
+işaretliyor. `validate.py` yine de 0 hata ile tamamlanıyor.

@@ -23,7 +23,8 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
 | Şanzıman kutusu kayıtları | 45 kutu (`data/transmissions.json`), çoğu temel puanlı ve kaynaklı |
 | Motor ailesi kayıtları | 81 aile (`data/engines.json`), çoğu temel puanlı ve kaynaklı |
-| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 37/37 duman testi |
+| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 49/49 duman testi |
+| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 158/273 araç — `kerb_weight_kg`/`torque_nm` dolu olanlar). `comf` ve `cost` hâlâ elle veriliyor. |
 | Çok ekranlı arayüz: ana ekran, giriş akışı, liste, metodoloji, kaynak öner, iletişim | Çalışıyor |
 | GitHub Pages yayını | Çıktı `index.html` olarak üretiliyor, kök adres siteyi açıyor |
 | Liste ekranı denetim çubuğu (Y-05) | Tamamlandı: ağırlık/arama/filtre tablonun üstünde, filtre paneli katlanabilir |
@@ -846,10 +847,12 @@ Sıradaki iş, öncelik sırasıyla:
 4. **Y-02'nin uzun vadeli hedefi** — ortalamayı 4'e çıkarmak, yani her araca üçüncü ve
    dördüncü bağımsız kaynak. Bileşen bazlı toplu bağlama yöntemi burada işe yaramıyor;
    araç bazında tekil araştırma gerekiyor, bu yüzden yavaş ve pahalı bir iş.
-5. **`evidence` bloğunu kalan beş kriter için genişletmek** (`fun`, `comf`, `age`,
-   `cost`, `liq`, `price`) — bunların çoğu `docs/ARCHITECTURE.md` MK-06'nın hâlâ
-   uygulanmamış `kerb_weight_kg`/`torque_nm`/`fuel_consumption_l_100km` formülüne
-   bağlı olduğu için önce o veri işi gerekiyor.
+5. **`evidence` bloğunu kalan dört kriter için genişletmek** (`comf`, `cost`, `liq`,
+   `price`) — `age` (MK-14) ve `fun` (MK-17, 2026-08-07) artık `scripts/compute_age.py`
+   ve `scripts/compute_fun.py`'den geliyor ve `evidence` dolu. `comf`/`cost` hâlâ
+   `docs/ARCHITECTURE.md` MK-06'nın uygulanmamış kalan formüllerine bağlı (iç
+   hacim/bagaj hacmi, resmi bakım tarifesi); `liq` sayım protokolü hiç çalıştırılmadı
+   (`docs/PLAN.md` §3.7); `price` bantlarının `as_of`/`method` alanları eksik (§3.8).
 
 ---
 

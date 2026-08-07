@@ -25,7 +25,7 @@
   "scores": {
     "motor": 32,
     "trans": 64,
-    "fun": 50,
+    "fun": 26,
     "comf": 62,
     "age": 74,
     "cost": 72,
@@ -59,6 +59,13 @@
         "smartcarcheck_focus_mk4_8at"
       ],
       "reasoning": "SelectShift 8AT (ford-selectshift-8at) şanzıman ailesinin temel puanı 64. Bu aracın trans puanı (64) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim (2018-2020) örneklerde düşük hızda sarsıntı ve gecikmeli vites geçişi; büyük ölçüde yazılım güncellemesiyle gideriliyor. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "fun": {
+      "band": "sürüş keyfi öncelik değil",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 98 hp/ton (normalize 30/100), tork/ağırlık oranı 132 Nm/ton (normalize 13/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 26. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
   }

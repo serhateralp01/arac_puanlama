@@ -319,8 +319,8 @@ Bu bölüm, sistemin bugün **eksik** olan taraflarını sayar. Belgenin güveni
 
 | Boşluk | Bugünkü durum | Etkisi |
 |---|---|---|
-| **`evidence` bloğu — motor/trans dışı kriterler boş** | 221 araçtan 220'sinde `motor` ve `trans` dolu (2026-08-06); `fun`, `comf`, `age`, `cost`, `liq`, `price` hâlâ boş | "Bu puan hangi kaynağın hangi bandına dayanıyor" sorusu artık motor ve trans için cevaplı — §3.3'teki ölçüme göre sonucu fiilen belirleyen iki kriter bunlar. Kalan beş kriter için hâlâ boş, çünkü bunların çoğu kanıta değil MK-06'nın uygulanmamış formülüne bağlı. |
-| **MK-06 formülleri uygulanmadı** | `kerb_weight_kg`, `torque_nm`, `fuel_consumption_l_100km` alanları **221/221 boş** | `fun`, `comf`, `age`, `cost` hâlâ tamamen elle veriliyor. `docs/ARCHITECTURE.md` MK-06 "karar verildi" diyor ama karar hiç uygulanmadı. |
+| **`evidence` bloğu — dört kriter hâlâ boş** | (2026-08-07) `motor`, `trans`, `age`, `fun` dolu — ilk ikisi araç bazlı araştırmadan, son ikisi `scripts/compute_age.py` ve `scripts/compute_fun.py`'den (yalnızca `fun` için: gerekli özellik verisi olan 158/273 araçta). `comf`, `cost`, `liq`, `price` hâlâ boş | "Bu puan hangi kaynağın hangi bandına dayanıyor" sorusu artık dört kriter için cevaplı. Kalan dört kriter için hâlâ boş: `comf`/`cost` MK-06'nın uygulanmamış formülüne, `liq` sayım protokolüne, `price` tarihlendirmeye bağlı (bkz. `docs/PLAN.md` §3.5, §3.7-3.8). |
+| **MK-06 formülleri kısmen uygulandı** | `age` (MK-14) ve `fun` (MK-17) formüle bağlandı; `comf` ve `cost` hâlâ tamamen elle veriliyor, çünkü girdileri (iç hacim/bagaj ölçüleri, resmi bakım tarifesi) henüz toplanmadı | `docs/ARCHITECTURE.md` MK-06'daki durum uyarısı 2026-08-07'de güncellendi; artık "hiç uygulanmadı" değil "kısmen uygulandı" diyor. |
 | **`comf` ayırt etmiyor** | §3.4 | Kriter fiilen sonuca katkı vermiyor. |
 | **`age`~`price` çifte sayımı** | §3.5 | Yaş riski iki kez sayılıyor. |
 | **Puanlar arası tutarlılık denetimi kısmi** | `validate.py` yalnızca bileşen temel puanından sapmayı denetliyor | İki benzer aracın `fun` puanının tutarlı olup olmadığını hiçbir denetim kontrol etmiyor. |
@@ -340,11 +340,12 @@ var ve araç detay panelinde "bu araç neden bu puanı aldı" dökümü gerçek 
 1. **`comf` kararı.** Puanlar artık motor/trans için kanıta bağlı; §3.4'teki iki
    açıklamadan hangisinin doğru olduğuna karar verip ya bantları yeniden kalibre etmek
    ya da kriteri birleştirmek.
-2. **`evidence` bloğunu kalan beş kriter için genişletmek** (`fun`, `comf`, `age`,
-   `cost`, `liq`, `price`) — bunların çoğu MK-06 formülüne bağlı olduğu için madde 3'le
-   birlikte ele alınmalı.
-3. **MK-06 formülleri** için ağırlık/tork/tüketim verisini doldurmak. Büyük veri işi;
-   yukarıdakiler bittikten sonra ele alınmalı.
+2. **`evidence` bloğunu kalan dört kriter için genişletmek** (`comf`, `cost`, `liq`,
+   `price`) — `age` ve `fun` artık dolu (MK-14, MK-17).
+3. **`comf`/`cost` için MK-06 formülleri.** `fun` MK-17 ile bağlandı; sırada `comf`
+   var ama önce iç hacim/bagaj hacmi verisinin doldurulması gerekiyor (`fun`'ın
+   ihtiyacı olan ağırlık/tork verisi zaten 158/273 araçta dolu, `comf` farklı alanlar
+   istiyor). Büyük veri işi; yukarıdakiler bittikten sonra ele alınmalı.
 
 ---
 

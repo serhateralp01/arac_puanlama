@@ -25,7 +25,7 @@
   "scores": {
     "motor": 76,
     "trans": 76,
-    "fun": 50,
+    "fun": 74,
     "comf": 62,
     "age": 71,
     "cost": 72,
@@ -59,6 +59,13 @@
         "erenservis_eat8"
       ],
       "reasoning": "EAT8 (psa-eat8) şanzıman ailesinin temel puanı 76. Bu aracın trans puanı (76) temel puanla birebir aynı. Ailenin bilinen zaafı: 3.-2. vites arası vuruntu ve kalkışta hafif gecikme. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "fun": {
+      "band": "belirgin ama sınırlı keyif",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 130 hp/ton (normalize 66/100), tork/ağırlık oranı 289 Nm/ton (normalize 100/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 74. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
   }
