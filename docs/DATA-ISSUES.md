@@ -249,3 +249,46 @@ sapmalar puan düzeltilerek kapatılır, bant genişletilerek değil.
 
 Değişimin büyüklüğü kayda değer — Volvo S60 birinci nesil 82'den 46'ya, Mondeo Mk3
 72'den 42'ye indi. Bu bir kayıp değil, daha önce ölçülmemiş bir riskin ölçülmesidir.
+
+---
+
+## D-12 · Fiyat bantları gerçek piyasa verisiyle spot-kontrol edildi (KISMEN KAPATILDI — sınırlı erişimle)
+
+Kullanıcının isteği üzerine 221 aracın `price_band_k_try` alanları gerçek 2026 Türkiye
+ikinci el piyasasına karşı doğrulanmaya çalışıldı. Bu maddenin gerekçesi diğerlerinden
+farklı: `README.md`'nin de yazdığı gibi fiyat aralığı `evidence` kuralının istisnası,
+çünkü fiyat bir görüş değil piyasa verisi — dolayısıyla kanıt zincirinden değil,
+doğrudan piyasadan doğrulanması gerekiyor.
+
+**Karşılaşılan sınırlama.** Bu oturumun çalıştığı uzak ortamda `WebFetch` aracı,
+ağ geçidi politikası gereği sahibinden.com, arabam.com, carvak.com gibi ilan
+sitelerinin neredeyse tamamına erişemedi (`EGRESS_BLOCKED`). Doğrulama bu yüzden
+yalnızca `WebSearch`'ün döndürdüğü arama sonucu özetlerine dayandı; bu özetler çoğu
+zaman genel ilan sayfası bağlantıları veriyor, tek tek ilan fiyatı vermiyor. Yine de
+sertifikalı ikinci el satıcılarının (özellikle Borusan Next) arama özetlerinde doğrudan
+TL rakamı geçen ilanları bulunabildi ve bunlar gerçek, tarihli, tek tek araç
+fiyatlarıydı. Bu yüzden derinlik, hedeflenen kapsamlı taramadan çok daha dar: **221
+araçtan yaklaşık 4'ü** için gerçek fiyat rakamına ulaşıldı.
+
+**Bulunanlar ve verilen kararlar.**
+
+| Araç | Kayıtlı yıl aralığı | Bulunan gerçek veri | Karar |
+|---|---|---|---|
+| `hyundai-tucson-1-6-crdi-7dct` | 2016-2020 | Borusan Next, 2020 model 1.6 CRDi Elite otomatik dizel: 1.680.000-1.945.000 TL (sertifikalı satıcı fiyatı) | **Düzeltildi.** Bandın kayıtlı üst sınırı (1450) bulunan en düşük sertifikalı fiyatın (1680) bile altında kalıyordu; özel satıcı fiyatının sertifikalı satıcıdan genelde %10-20 daha düşük olduğu kabul edilse bile ([1000, 1450] → **[1050, 1700]**) bant gerçekçi aralığa çekildi. |
+| `fiat-egea-1-6-multijet` | 2016-2023 | Borusan Next: 2019 model 830.000-915.000 TL, 2022 model 1.010.000 TL (2024 model 1.245.000 TL bulundu ama kaydın yıl aralığı dışında, karşılaştırmaya alınmadı) | **Değiştirilmedi.** Kayıtlı yıl aralığındaki en yüksek gerçek veri (2022, 1.010.000 TL) mevcut üst sınırın (1100) altında kalıyor; bant zaten gerçekçi. |
+| `renault-clio-4-1-5-dci` | 2012-2019 | Borusan Next, 2018 model 1.5 dCi Touch otomatik dizel: 810.000 TL (sertifikalı satıcı fiyatı) | **Değiştirilmedi.** Sertifikalı fiyattan makul bir özel-satıcı indirimi (~%12-15) düşüldüğünde (~690-710 bin TL) mevcut üst sınırın (750) içine düşüyor; bant sınırda ama gerçekçi. |
+| `toyota-corolla-1-6-2013` | 2013-2018 | Borusan Otomotiv, 2016 model 101.690 km otomatik: 848.000 TL (sertifikalı satıcı fiyatı) | **Değiştirilmedi, ama not düşüldü.** Bulunan rakam mevcut alt sınırın (900) biraz altında; tek veri noktası ve kaydın orta yılından (2016, yüksek km) geliyor, kaydın en eski yılı (2013) için beklenen fiyat muhtemelen daha da düşük. Bant tamamen yanlış değil ama alt sınır iyimser olabilir — üçüncü bir bağımsız veri noktası bulunursa yeniden değerlendirilmeli. |
+
+**Genel bulgu.** Aynı dönemde bulunan makro veri (Cumhuriyet, "İkinci el araçta 2026 ilk
+yarı raporu"), Ocak-Haziran 2026 arasında ikinci el araç fiyat endeksinin yalnızca
+%5 arttığını, buna karşın genel enflasyonun %17,7 olduğunu bildiriyor; 12 aylık
+dönemde ikinci el artışı %15,4, enflasyon %32,1. Yani ikinci el fiyatları enflasyonun
+belirgin biçimde gerisinde kalıyor — bu da bantların çoğunun eskimemiş olmasıyla
+tutarlı (4 örnekten yalnızca 1'inde gerçek düzeltme gerekti).
+
+**Kapatılmama gerekçesi.** Bu madde "kısmen kapatıldı" işaretli, çünkü yapılan iş bir
+doğrulama turu değil, bir **spot-kontrol** oldu — 221 aracın 4'ü örneklendi. Kalan 217
+araç hâlâ hiç piyasa verisiyle karşılaştırılmadı. Ağ erişimi bu ortamda kısıtlı olduğu
+sürece kapsamlı bir tur pratik değil; kullanıcı sahibinden.com/arabam.com'a doğrudan
+erişimi olan bir ortamda (yerel makine, farklı ağ politikası) daha geniş bir tur
+istiyorsa bu madde yeniden açılıp genişletilebilir.
