@@ -30,8 +30,8 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; MK-16 mekanik miras turundan sonra 177/249 araç "doğrulanmış" (4+ kaynak), ortalama 4.31 |
-| Araç listesi (Y-01) | 154 → 245 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor, 80-90 kombinasyon hedefinin bir kısmı karşılandı, sürüyor |
+| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; MK-16 mekanik miras turundan sonra 180/273 araç "doğrulanmış" (4+ kaynak), ortalama ~4.2 — Y-01'in her yeni turu ortalamayı biraz seyreltiyor, bu beklenen bir durum |
+| Araç listesi (Y-01) | 154 → 273 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→273, 45 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
@@ -289,16 +289,74 @@ gerçekten otomatik (üçü CVT, biri kuru DCT, biri tork konvertörlü klasik o
 her biri için `evidence.motor`/`evidence.trans` bağlı ailenin temel puanından
 mekanik olarak türetildi. Araç sayısı 240 → 245.
 
-**Sonuç (iki turun toplamı).** Araç sayısı 228 → 245 (17 yeni araç), motor ailesi
-sayısı ve şanzıman kutusu sayısı arttı. `validate.py` her turdan sonra 0 hata ile
-tamamlandı, `smoke_test.js` 49/49 kontrolü geçiyor.
+**Dokuzuncu-on ikinci turlar — var olan ailelere eşleştirme + üç yeni aile.**
+Dokuzuncu tur (4 araç, VAG grubu: Citroën Grand C4 Picasso/C4 Picasso, Seat Arona,
+VW T-Cross) yeni aile açmadan var olan bileşenleri farklı marka-modellere
+eşleştirdi. Onuncu tur (6 araç, yine VAG: Skoda Octavia/Superb'in eksik hacim
+seçenekleri, Seat Ibiza/Leon'un eski nesli, VW Polo GTI) aynı yöntemi sürdürdü.
+On birinci tur (4 araç, Honda/Hyundai/Kia) iki yeni motor ailesi açtı:
+`honda-l15b7-turbo` (Civic FC'nin 1.5 turbo VTEC'i) ve `hyundai-nu-18` (Elantra
+MD'nin 1.8'i; 2015'teki resmî geri çağırma ve grup davası nedeniyle düşük
+puanlandı — MK-16 öncesi bir örnek: kaynak, aracın kendi araştırmasından değil
+motor ailesinin kendi kaydından geliyor). On ikinci tur (1 araç, Ford) iki yeni
+aile daha açtı: `ford-ecoboost-10` (soğutucu sızıntısı garanti uzatmasına konu
+oldu, düşük puanlandı) ve `ford-selectshift-8at` (Focus Mk4'te sorunlu Powershift
+DCT'nin yerine geçen Aisin kaynaklı 8 ileri tork konvertörlü kutu).
 
-**Kalan iş — hedeften uzak.** Kullanıcının koyduğu 80-90 kombinasyon hedefinin
-yalnızca beşte biri kadarı karşılandı. Renault Symbol/Thalia (1.6L 16V 4AT, kutu
-tedarikçisi doğrulanamadı) ve Renault Fluence (CVT, tedarikçi doğrulanamadı) hâlâ
-araştırılmayı bekliyor; `/tmp` önbelleğindeki 550 satırlık aday listesinden (bkz.
-oturum notları) daha fazla bütçe segmenti adayı (300-900 bin TL) taranmadan kaldı.
-Sıradaki tur bu adaylardan devam etmeli.
+Bu turlarda gerçek bir hata yakalanıp düzeltildi: `data/criteria.json` motor ve
+trans kriterleri için ayrı bant şemaları tanımlıyor (aynı puan aralığı iki
+kriterde farklı bant adı taşıyor), ama evidence doldurma betiği ilk yazıldığında
+tek bir ortak fonksiyon kullanıp motor'un bant adlarını trans'a da uyguluyordu.
+Betik canlı şemadan okuyacak şekilde yeniden yazıldı (bkz. `.fill_evidence.py`
+kalıbı, her turda yazılıp silinen dot-prefixli betik). Ayrıca `data/engines.json`,
+`data/transmissions.json` ve üç eski araç kaydında CLAUDE.md §1'in yasakladığı
+"X değil Y" kalıbında birkaç cümle bulunup düzeltildi.
+
+**On üçüncü-on dördüncü turlar (7 araç) — PSA/GM/Renault/Nissan, var olan
+ailelere eşleştirme.** Peugeot 308 GT 2.0 BlueHDi EAT8, Citroën C4 Cactus 1.2
+PureTech EAT6, Citroën Grand C4 Picasso 2.0 BlueHDi EAT6 (aynı gövdenin 1.6
+e-HDi'sinden farklı motor), Peugeot 308 3 Kapı 1.6 VTi 4AT, Opel Astra H 1.8
+16V 4AT, Renault Mégane 4 Grandtour 1.6 dCi 165 EDC, Nissan Qashqai J10 1.6
+CVT. Toyota Avensis T25 1.8 için araştırılan iki motor ailesi de (toyota-zz
+sadece 1.6, toyota-zr farklı bir nesil/teknoloji) hacim veya nesil
+uyuşmazlığı gösterdiği için zorla eşlenmedi, boş geçildi.
+
+**On beşinci-on altıncı turlar (6 araç) — kullanıcı yönlendirmesiyle popüler
+modellere odaklanma.** Kullanıcı *"popüler markaların ve modellerin motor
+seçenekleri artsın... en popülerleri arttırmaya çalış"* dedi ve niş/düşük hacimli
+adaylar yerine Türkiye'de gerçekten sık aranan modellere geçildi: VW Passat B8
+1.6 TDI DSG, Dacia Duster (2. Nesil) 1.3 TCe EDC (dizelin gerilemesiyle öne
+çıkan benzinli seçenek), Honda CR-V III 2.0 i-VTEC 5AT (yeni motor ailesi
+`honda-r20a`; Türkiye'de yaygın ikinci el otomatik SUV), Peugeot 3008/5008'in
+eksik motor/gövde seçenekleri, ve son olarak Mercedes W205 C-Class (listede
+hiç yoktu; iki yeni aile açıldı: `mb-m274` ve `mb-9g-tronic`, Türkiye'de en çok
+aranan ikinci el Mercedes nesillerinden biri).
+
+**Sonuç (dokuzuncu-on altıncı turların toplamı).** Araç sayısı 245 → 273 (28
+araç), toplam yeni açılan aile sayısı: 6 motor (`honda-l15b7-turbo`,
+`hyundai-nu-18`, `ford-ecoboost-10`, `honda-r20a`, `mb-m274`) + 3 şanzıman
+(`ford-selectshift-8at`, `mb-9g-tronic`, dolaylı olarak). `validate.py` her
+turdan sonra 0 hata, `smoke_test.js` 49/49.
+
+**MK-16 — kaynak mirası (bu turların arasında, ayrıca kayıtlı).** Y-01'in bu
+ikinci dalgası sürerken kullanıcı kaynak derinliğini de artırmayı istedi;
+`docs/ARCHITECTURE.md` MK-16'da yazılı mekanik geçiş, her aracın kendi bağlı
+olduğu motor/şanzıman ailesinin zaten kayıtlı kaynaklarını miras almasını
+sağladı — bu, "doğrulanmış" araç sayısını 9'dan 180'e çıkardı (bkz. Y-02
+üçüncü tur, aşağıda).
+
+**Toplam durum (228 baseline'dan bu yana).** Araç sayısı 228 → 273 (45 yeni
+kombinasyon), kullanıcının koyduğu 80-90 hedefinin yarısından fazlası
+karşılandı. Kullanıcı son yönlendirmesinde sayısal hedefe saplanmak yerine
+popüler marka/modellerin motor çeşitliliğine odaklanılmasını istedi; bu iş
+şu an bu ilkeyle sürdürülüyor ve doğası gereği kapanmayan, sürekli
+genişleyebilecek bir iş kalemi. Renault Symbol/Thalia (1.6L 16V 4AT, kutu
+tedarikçisi doğrulanamadı) ve Renault Fluence (CVT, tedarikçi doğrulanamadı)
+hâlâ araştırılmayı bekliyor; `/tmp` önbelleğindeki 550 satırlık aday
+listesinden daha fazla aday taranmadan kaldı. BMW F30/F31'in 318i/320i
+petrol seçenekleri (N13/N20/B48 motor kodları arasında nesil belirsizliği
+var) ve Hyundai Tucson/Kia Sportage'ın yeni nesil T-GDI benzinli seçenekleri
+gibi somut, popüler adaylar bir sonraki tur için not edildi.
 
 ---
 
