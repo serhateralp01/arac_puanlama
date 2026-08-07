@@ -50,6 +50,7 @@
       "definition": "Motorun mekanik olarak ne kadar sağlam olduğunu ölçer: ne sıklıkla ve ne kadar ağır arıza çıkarıyor, bilinen bir tasarım hatası var mı.",
       "includes": "Arızanın sıklığına ve ağırlığına, bakımsızlığa dayanma toleransına, blok, triger zinciri, turbo ve enjeksiyon tarafındaki bilinen risklere bakıyorum.",
       "excludes": "Motorun gücünü sürüş keyfi sütununda, şanzımanı kendi sütununda, yakıt ve parça fiyatını masraf sütununda değerlendiriyorum.",
+      "weight_rationale": "Motor arızası ikinci el alıcısının en çok korktuğu, tek seferde en pahalı ve en yıkıcı sonuç olduğu için Dengeli settte en yüksek ağırlığı taşıyor. Bu sıralama SWING yöntemiyle ayrı ayrı doğrulandı (bkz. docs/PUANLAMA-TEMELI.md §5) ve duyarlılık ölçümünde de motor sıralamayı fiilen belirleyen iki kriterden biri çıktı (§3.3).",
       "bands": [
         {
           "range": [
@@ -111,6 +112,7 @@
       "definition": "Otomatik şanzımanın hangi tipte olduğunu ve ne kadar sağlam olduğunu ölçer. Tork konvertörlü kutular en yüksek, kuru kavramalı ve robotlu kutular en düşük puanı alır.",
       "includes": "Kutunun tipine, arıza ve aşınma riskine, bozulduğunda tamirinin getirdiği yüke bakıyorum.",
       "excludes": "Motorun kendisini motor sütununda, vites geçişlerinin verdiği sürüş hissini sürüş keyfi sütununda değerlendiriyorum.",
+      "weight_rationale": "Mekatronik veya kavrama onarımı motor kadar pahalı olabiliyor, ama motorun toptan bitmesi kadar sık rastlanmıyor; bu yüzden Dengeli sette motordan hemen sonra geliyor. Bu projenin adının sadece \"araç puanlama\" değil özellikle \"otomatik vitesli araç puanlama\" olması da bu ağırlığın bilinçli biçimde yüksek tutulmasının bir parçası.",
       "bands": [
         {
           "range": [
@@ -172,6 +174,7 @@
       "definition": "Aracı sürmenin ne kadar zevkli olduğunu ölçer. Motorun gücü ve torku dahil performansla ilgili her şey burada değerlendirilir.",
       "includes": "Beygir ve tork hissine, şasi dengesine, direksiyonun geri bildirimine, çekiş tipine ve aracın karakterine bakıyorum.",
       "excludes": "Güvenilirliği motor, şanzıman ve yaş sütunlarında; içeride oturmanın rahatlığını konfor sütununda değerlendiriyorum.",
+      "weight_rationale": "Sürüş keyfi günlük memnuniyeti artırıyor ama güvenilirliği ya da işletme maliyetini etkilemiyor; bu yüzden Dengeli sette düşük ağırlıklı. Duyarlılık ölçümünde bu kriterin ağırlığı sıfırlansa bile sıralama büyük ölçüde korunuyor (Spearman 0.925, §3.3) — sürüş keyfi önceliğiniz varsa \"Sürüş keyfi öncelikli\" hazır ayarı bu ağırlığı 26'ya çıkarıyor.",
       "bands": [
         {
           "range": [
@@ -233,6 +236,7 @@
       "definition": "Aracı sürmenin ne kadar kolay olduğu ile içinde vakit geçirmenin ne kadar rahat olduğunu birlikte ölçer. Önceki sürümde ayrı olan bu iki kriteri burada birleştirdim.",
       "includes": "Park ve manevra kolaylığına, görüş açısına, otomatiğin yumuşaklığına, yol konforuna, koltuklara, ses yalıtımına, iç hacme ve bagaja bakıyorum.",
       "excludes": "Sürüşün verdiği zevki sürüş keyfi sütununda değerlendiriyorum.",
+      "weight_rationale": "Konfor bir yaşam kalitesi faktörü ama listedeki hiçbir aracı gerçek anlamda elemiyor; bu yüzden Dengeli sette en düşük ağırlıklardan biri. Ölçüm bu düşük ağırlığı bağımsız olarak doğruluyor: `comf` ağırlığı sıfırlansa bile sıralama neredeyse hiç değişmiyor (Spearman 0.986, §3.4) — kriterin kendisinin listede az ayırt edici olduğu, henüz kanıtla desteklenmemiş bir bulgu.",
       "bands": [
         {
           "range": [
@@ -294,6 +298,7 @@
       "definition": "Motordan bağımsız olarak aracın yaşından kaynaklanan riskleri ölçer. Araç ne kadar yeniyse puan o kadar yüksektir.",
       "includes": "Pas riskine, gövde ve süspansiyon burçlarının yorgunluğuna, elektrik ve elektronik arızalarına, kabin malzemelerinin yıpranmasına bakıyorum.",
       "excludes": "Motorun mekanik durumunu motor sütununda, şanzımanın durumunu şanzıman sütununda değerlendiriyorum.",
+      "weight_rationale": "Pas ve elektrik arızaları birikimli bir risk; tek seferde yıkıcı değil ama sürekli, bu da onu Dengeli sette orta-üst sıraya taşıyor. Bilinen bir zayıflığı var: `age` ile `price` arasında güçlü bir ters korelasyon ölçüldü (−0.80, §3.5) — yaşlı bir araç zaten ucuz olduğu için aynı risk hem burada hem fiyat kriterinde iki kez sayılabiliyor; bu ağırlıklı toplam modelinin kabul edilmiş bir sınırı.",
       "bands": [
         {
           "range": [
@@ -355,6 +360,7 @@
       "definition": "Araca para harcadığınızda bunun ne kadar tutacağını ölçer. Önceki sürümde ayrı olan masraf ve parça erişimi kriterlerini burada birleştirdim.",
       "includes": "Yakıt tüketimine, vergilere, yedek parçanın fiyatına ve bulunabilirliğine, işçilik bedellerine bakıyorum.",
       "excludes": "Arızanın sıklığını motor, şanzıman ve yaş sütunlarında değerlendiriyorum.",
+      "weight_rationale": "Sahip olma maliyeti sürekli bir yük ve gerçek para, ama bütçelenebilir olduğu için motor/şanzıman gibi ani bir felaket sayılmıyor; bu yüzden Dengeli sette orta ağırlıklı. `cost` ile `liq` arasında da bir korelasyon ölçüldü (+0.77, §3.5): işletmesi ucuz araçlar genelde yaygın olduğu için likit de çıkıyor, yani yaygınlık bir bakıma iki kez ödüllendiriliyor.",
       "bands": [
         {
           "range": [
@@ -416,6 +422,7 @@
       "definition": "Piyasada o araçtan bulmanın ne kadar kolay olduğunu ve satmak istediğinizde ne kadar çabuk alıcı bulacağınızı ölçer.",
       "includes": "İlan sayısına, araca olan talebe, satma kolaylığına ve değer kaybına direncine bakıyorum.",
       "excludes": "Yedek parça bulmayı sahip olma maliyeti sütununda değerlendiriyorum.",
+      "weight_rationale": "Bulunabilirlik çoğunlukla yalnızca satış anında önem kazanıyor; aracı uzun süre elde tutacak bir alıcı için ikincil bir kriter, bu yüzden Dengeli sette en düşük ağırlıklardan biri. Duyarlılık ölçümünde de en zayıf etkili kriterlerden çıktı (Spearman 0.982, §3.3).",
       "bands": [
         {
           "range": [
@@ -477,6 +484,7 @@
       "definition": "Aracın tahmini fiyatını puana çevirir. Listedeki en ucuz araç 100, en pahalı araç 0 puan alır, diğerleri arasına orantılı yerleşir. Bu puan otomatik hesaplandığı için elle değiştirilemez.",
       "includes": "Yalnızca aracın satın alma fiyatını dikkate alır ve listedeki bütün araçlara göre normalize edilir.",
       "excludes": "Aracı kullanırken harcadığınız yakıt, vergi ve parça giderlerini sahip olma maliyeti sütununda değerlendiriyorum.",
+      "weight_rationale": "Türkiye piyasasında bütçe çoğu zaman kalite değerlendirmesinden önce devreye giren bir ön filtre; bu yüzden Dengeli sette orta bir ağırlık taşıyor — ne motor/şanzıman kadar belirleyici, ne de sürüş keyfi kadar ikincil. Bu kriter diğer yedisinden yapısal olarak farklı çalışıyor: puanı hiçbir yerde saklanmıyor, listedeki diğer araçlara göre her yeniden çizimde hesaplanıyor. Ayrıntısı aşağıdaki \"Fiyat kriteri neden farklı çalışıyor\" bölümünde.",
       "bands": null
     }
   ],

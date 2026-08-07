@@ -53,6 +53,18 @@ fiyat = 100 × (en_pahalı − aracın_fiyatı) / (en_pahalı − en_ucuz)</pre>
       <h3>6. Zayıf halka: 35 altı puan kırmızı işaretlenir</h3>
       <p>Herhangi bir kriterde puan 35'in altındaysa hücre kırmızı gösterilir ve detay panelinde nedeni açıklanır. Bu eşik keyfi seçilmedi: 30'da yalnızca birkaç araçta, 40'ta listenin üçte birinde en az bir kırmızı hücre çıkıyordu; 40 çok gevşek olduğu için uyarı anlamını yitiriyordu. 35'te makul bir denge kuruluyor — aracı gerçekten eleyecek kadar ciddi ama sıradanlaştırmayacak kadar seyrek.</p>
     </div>
+
+    <div class="methcard">
+      <h3>7. Fiyat kriteri neden farklı çalışıyor</h3>
+      <p>Diğer yedi kriterin puanı araç kaydında sabit durur ve kanıta dayanır. Fiyat puanı öyle çalışmıyor: hiçbir dosyada <b>saklanmıyor</b>, sayfa her yeniden çizildiğinde listenin o an görünen haline göre yeniden hesaplanıyor.</p>
+      <pre class="methformula">fiyat_puanı = 100 × (en_pahalı_orta − aracın_ortası) / (en_pahalı_orta − en_ucuz_orta)</pre>
+      <p>"en_pahalı" ve "en_ucuz" burada <b>o an ekranda görünen listeye</b> göre belirleniyor. Bunun iki somut sonucu var:</p>
+      <ul class="methlist">
+        <li>Bir filtre uyguladığınızda (ör. yalnızca SUV'lar) fiyat puanları anında değişir, çünkü kıyaslanan liste küçüldü ve uçlar değişti. Aynı araç filtresiz listede 62 fiyat puanı alırken, yalnızca SUV'lar arasında 40 alabilir — araç ucuzlaşmadı, kıyaslandığı grup değişti.</li>
+        <li>Tablodaki fiyat aralığı kutucuklarını elle değiştirebilirsiniz (ör. bir ilana bakıp gerçek fiyatı girmek için). Bu, yalnızca o aracın değil, <b>listenin uçlarını da kaydırabileceği için diğer bütün araçların</b> fiyat puanını da yeniden hesaplatır.</li>
+      </ul>
+      <p>Bu davranış bilinçli: fiyat mutlak değil görecelidir, "bu araç listedeki diğerlerine göre ucuz mu pahalı mı" sorusuna cevap verir. Kafa karıştırıcı olan, bunun arayüzde açıkça yazmamasıydı — bu bölüm o boşluğu kapatıyor. Fiyat kriterinin ağırlığının neden bu değerde olduğunun gerekçesi <a href="#kriterler">kriterler ekranındaki</a> ilgili kartta yazıyor.</p>
+    </div>
   </div>
 
   <div class="note">

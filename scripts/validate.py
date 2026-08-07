@@ -469,6 +469,20 @@ def main() -> int:
     for c in criteria["criteria"]:
         if not c.get("auto") and c.get("bands") is None:
             rep.warn("criteria.json", "puan-bandi-yok", f"`{c['key']}` için puan bandı tanımlanmamış")
+        if not c.get("weight_rationale"):
+            rep.warn(
+                "criteria.json", "agirlik-gerekcesi-yok",
+                f"`{c['key']}` için weight_rationale tanımlanmamış; arayüzde ağırlık "
+                "kutusunun yanında gösterilecek gerekçe metni eksik kalır",
+            )
+        for b in c.get("bands") or []:
+            ex = b.get("example")
+            if ex and ex not in seen_ids:
+                rep.error(
+                    "criteria.json", "gecersiz-bant-ornegi",
+                    f"`{c['key']}` bandındaki example `{ex}` data/cars içinde yok; "
+                    "arayüz bu bandı gösterirken kırılır",
+                )
 
     # --- özet ---
     verif = Counter(car["verification"] for _, car in cars if "verification" in car)

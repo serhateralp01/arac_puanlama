@@ -137,6 +137,24 @@ async function dumpDebug(label) {
     const sumText = await page.locator('#sumbox').innerText();
     check('ağırlık toplamı 100', sumText.includes('100'), sumText.replace(/\n/g, ' '));
 
+    // Y-06 ikinci katman: her kritere ağırlık gerekçesi, bantlı yedi kriterin
+    // hepsine puan bandı açılır paneli ve canlı katkı göstergesi eklendi.
+    const wrCount = await page.locator('#rubric .wr').count();
+    check('ağırlık gerekçesi her kartta var', wrCount === 8, `${wrCount} kart`);
+    const bandToggles = await page.locator('#rubric .banddet').count();
+    check('puan bandı paneli bantlı yedi kriterde var', bandToggles === 7, `${bandToggles} panel`);
+    // Panel #liste'de gizli olduğu için tıklanabilir olması önce kriterler
+    // ekranına geçmeyi gerektiriyor; count() gizliyken de çalışır ama click() çalışmaz.
+    await page.click('.nav a[data-route="kriterler"]');
+    await page.waitForTimeout(150);
+    await page.locator('#rubric .banddet summary').first().click();
+    await page.waitForTimeout(150);
+    const bandRows = await page.locator('#rubric .banddet[open] .bandrow').count();
+    check('puan bantları açılınca beş satır görünüyor', bandRows === 5, `${bandRows} satır`);
+    const contribTexts = await page.locator('#rubric .contrib').allInnerTexts();
+    const contribOk = contribTexts.length === 8 && contribTexts.every((t) => /fiili katkı|katkısı yok/.test(t));
+    check('canlı katkı göstergesi sekiz kartta da doluyor', contribOk, contribTexts.join(' | '));
+
     const refs = await page.locator('#refs li').count();
     check('kaynak listesi dolu', refs > 40, `${refs} kaynak`);
 
@@ -147,6 +165,9 @@ async function dumpDebug(label) {
     check('metodoloji istatistikleri doluyor', methStats === 5, `${methStats} kutu`);
     const methWidth = await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2);
     check('metodoloji ekranında yatay taşma yok', methWidth);
+    // Y-06 ikinci katman: fiyat kriterine ayrı bir bölüm eklendi (kart 7).
+    const methCards = await page.locator('.methgrid .methcard').count();
+    check('metodoloji ekranında yedi kart var', methCards === 7, `${methCards} kart`);
     // Kaynak öner ekranı: araç ve kriter listeleri veriden doluyor.
     await page.click('.nav a[data-route="katki"]');
     await page.waitForTimeout(200);
@@ -178,6 +199,14 @@ async function dumpDebug(label) {
     await page.locator('#body tr.main .name').first().click();
     await page.waitForTimeout(150);
     const firstCarName = await page.locator('#body tr.main .nm').first().innerText();
+
+    // Y-06 ikinci katman: açılan satırda "bu araç neden bu puanı aldı" dökümü —
+    // sekiz kriterin puan/ağırlık/katkı satırı artı toplam satırı olmalı.
+    const bdRows = await page.locator('tr.detail.open .bdtable tbody tr').count();
+    check('araç detayında puan dökümü sekiz kriter + toplam satırı gösteriyor', bdRows === 9, `${bdRows} satır`);
+    const evRows = await page.locator('tr.detail.open .evrow').count();
+    check('araç detayında motor/trans kanıt metni görünüyor', evRows > 0, `${evRows} kanıt satırı`);
+
     await page.locator('.sugbtn').first().click();
     await page.waitForTimeout(200);
     const onKatkiScreen = await page.locator('[data-screen="katki"]').isVisible();

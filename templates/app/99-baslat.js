@@ -6,6 +6,7 @@
 buildPresetButtons();
 renderFilters();
 render();
+updateContrib();
 renderTray();
 renderCompare();
 renderAna();

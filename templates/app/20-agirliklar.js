@@ -33,9 +33,51 @@ function buildPresetButtons(){
 }
 function showSaved(){const m=document.getElementById('savemsg');if(!m)return;m.classList.add('show');setTimeout(()=>m.classList.remove('show'),1600);}
 
+/* ---------- puan bantları (Y-06 ikinci katman) ---------- */
+/* Her kriterin çapalı bant tanımı data/criteria.json'dan geliyor (build.py bant
+   örneklerini araç kimliğinden araç adına çeviriyor); burada yalnızca gösteriliyor,
+   üretilmiyor. Varsayılan kapalı: sekiz kart yan yanayken beş bandın tamamını açık
+   göstermek grid'i düzensizleştirir, bu yüzden <details> ile isteğe bağlı. */
+function bandsHTML(c){
+ if(!c.bands)return '';
+ const rows=c.bands.map(b=>{
+  const ex=b.example?'<div class="bex">Örnek: <b>'+b.example+'</b></div>':'';
+  const nt=b.note?'<div class="bnote">'+b.note+'</div>':'';
+  return '<div class="bandrow"><div class="brange">'+b.range[0]+'-'+b.range[1]+'</div><div class="bmid"><b>'+b.name+'</b><span>'+b.test+'</span>'+ex+nt+'</div></div>';
+ }).join('');
+ return '<details class="banddet"><summary>Puan bantlarını göster</summary><div class="bandlist">'+rows+'</div></details>';
+}
+
+/* ---------- canlı ağırlık katkısı (Y-06 ikinci katman) ---------- */
+/* Ağırlık kutusunun kendisi bir kriterin toplam puandaki payını göstermiyor,
+   çünkü pay yalnızca ağırlığa değil o kriterin listedeki ortalama puanına da bağlı:
+   ağırlığı yüksek ama listede herkesin aynı puanı aldığı bir kriter fiilen az
+   ayırt edici olabilir. Bu yüzden gösterge ham ağırlık yüzdesi değil, ağırlık ×
+   listenin ortalama puanı üzerinden hesaplanan fiili katkı payı. */
+function avgScoreFor(k){return CARS.reduce((s,c)=>s+c.S[k],0)/CARS.length;}
+function contribShares(){
+ const weighted={};let sum=0;
+ ORDER.forEach(k=>{const w=Math.max(0,+W[k]||0),avg=avgScoreFor(k);weighted[k]=w*avg;sum+=weighted[k];});
+ const out={};ORDER.forEach(k=>out[k]=sum>0?100*weighted[k]/sum:0);
+ return out;
+}
+function updateContrib(){
+ const shares=contribShares();
+ document.querySelectorAll('[data-contrib]').forEach(el=>{
+  const k=el.dataset.contrib,w=+W[k]||0;
+  el.textContent=w<=0?'katkısı yok (ağırlık 0)':('fiili katkı ≈ %'+shares[k].toFixed(0));
+ });
+}
+
 const rubric=document.getElementById('rubric');
 CRIT.forEach(c=>{const el=document.createElement('div');el.className='card'+(c.AUTO?' auto':'');
- el.innerHTML=(c.AUTO?'<div class="nb">OTOMATİK HESAPLANIR</div>':'')+'<div class="t">'+c.t+'</div><div class="wbox"><input type="number" min="0" max="60" data-wk="'+c.k+'" value="'+W[c.k]+'"><small>puan ağırlığı</small></div><div class="def">'+c.d+'</div><div class="inc">'+c.inc+'</div><div class="exc">'+c.exc+'</div>';
+ el.innerHTML=(c.AUTO?'<div class="nb">OTOMATİK HESAPLANIR</div>':'')
+  +'<div class="t">'+c.t+'</div>'
+  +'<div class="wbox"><input type="number" min="0" max="60" data-wk="'+c.k+'" value="'+W[c.k]+'"><small>puan ağırlığı</small></div>'
+  +'<div class="contrib" data-contrib="'+c.k+'"></div>'
+  +'<div class="def">'+c.d+'</div><div class="inc">'+c.inc+'</div><div class="exc">'+c.exc+'</div>'
+  +(c.wr?'<div class="wr">'+c.wr+'</div>':'')
+  +bandsHTML(c);
  rubric.appendChild(el);});
 rubric.addEventListener('input',e=>{const k=e.target.dataset.wk;if(!k)return;W[k]=Math.max(0,Math.min(60,+e.target.value||0));recalcAll();});
 function syncWeights(){rubric.querySelectorAll('[data-wk]').forEach(i=>i.value=W[i.dataset.wk]);}

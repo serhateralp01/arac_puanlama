@@ -329,17 +329,19 @@ Bu bölüm, sistemin bugün **eksik** olan taraflarını sayar. Belgenin güveni
 
 ## 7. Sıradaki adımlar, öncelik sırasıyla
 
-1. **Y-06 arayüz katmanı.** `evidence.motor`/`evidence.trans` artık gerçek veriye
-   dayandığı için "bu araç neden bu puanı aldı" dökümü arayüzde gösterilebilir. Kriter
-   kırılımı, canlı ağırlık-katkı göstergesi ve fiyat kriterinin ayrı açıklaması sırada
-   (`docs/ROADMAP.md` Y-06 ikinci katman).
-2. **`comf` kararı.** Puanlar artık motor/trans için kanıta bağlı; §3.4'teki iki
+Y-06'nın arayüz katmanı bitti (2026-08-07): `#kriterler` ekranındaki her kart artık
+ağırlık gerekçesini ve puan bantlarını gösteriyor, `#metodoloji`'ye fiyat kriterine
+ayrı bir bölüm eklendi, ağırlık kutularının yanında canlı katkı göstergesi var ve
+araç detay panelinde "bu araç neden bu puanı aldı" dökümü gerçek kanıta (evidence)
+bağlı. Ayrıntısı `docs/ROADMAP.md` Y-06 ikinci katman kaydında.
+
+1. **`comf` kararı.** Puanlar artık motor/trans için kanıta bağlı; §3.4'teki iki
    açıklamadan hangisinin doğru olduğuna karar verip ya bantları yeniden kalibre etmek
    ya da kriteri birleştirmek.
-3. **`evidence` bloğunu kalan beş kriter için genişletmek** (`fun`, `comf`, `age`,
-   `cost`, `liq`, `price`) — bunların çoğu MK-06 formülüne bağlı olduğu için madde 4'le
+2. **`evidence` bloğunu kalan beş kriter için genişletmek** (`fun`, `comf`, `age`,
+   `cost`, `liq`, `price`) — bunların çoğu MK-06 formülüne bağlı olduğu için madde 3'le
    birlikte ele alınmalı.
-4. **MK-06 formülleri** için ağırlık/tork/tüketim verisini doldurmak. Büyük veri işi;
+3. **MK-06 formülleri** için ağırlık/tork/tüketim verisini doldurmak. Büyük veri işi;
    yukarıdakiler bittikten sonra ele alınmalı.
 
 ---

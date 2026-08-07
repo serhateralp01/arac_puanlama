@@ -12,6 +12,36 @@ function renderHead(){head.innerHTML='';
   head.appendChild(th);});
  head.querySelectorAll('th').forEach(th=>{const k=th.dataset.k;if(k==='tg'||k==='rank'||k==='cmp')return;
   th.onclick=()=>{if(sortKey===k)sortDir*=-1;else{sortKey=k;sortDir=(k==='name'||k==='tx')?1:-1;}render();};});}
+/* ---------- "bu araç neden bu puanı aldı" dökümü (Y-06 ikinci katman) ---------- */
+/* Katkı = puan × ağırlık / ağırlık toplamı; bu tam olarak total()'ın topladığı
+   terim, yani buradaki sayılar toplam puanı gerçekten oluşturan sayılar — ayrı bir
+   tahmin değil. Motor ve trans için evidence bloğu doluysa (bkz. data/cars/*.json
+   evidence.motor/trans) hangi bandın hangi gerekçeyle verildiği de gösteriliyor;
+   diğer beş kriter için evidence henüz boş olduğundan (docs/DATA-ISSUES.md D-12
+   dışındaki kalan boşluklardan biri, bkz. docs/PUANLAMA-TEMELI.md §6) o kriterlerde
+   yalnızca puan/ağırlık/katkı satırı görünür.
+   Kaynak kısıtı: evidence yalnızca base_score'u olan bileşenlere bağlı araçlarda dolu.
+   `ne=null` durumunu buradaki tablo değil, yukarıdaki "atlanan" mantığı (build.py)
+   belirliyor; burası yalnızca var olanı gösteriyor. */
+function scoreBreakdownHTML(c){
+ const sw=sumW();
+ const rows=ORDER.map(k=>{
+  const v=c.S[k],w=Math.max(0,+W[k]||0),contrib=sw>0?(v*w/sw):0;
+  const weak=(k!=='price'&&v<WEAK_THR);
+  return '<tr><td class="rowlbl">'+HEAD[k]+'</td><td class="'+(weak?'weak':'')+'">'+v+'</td><td>'+w+'</td><td>'+contrib.toFixed(1)+'</td></tr>';
+ }).join('');
+ let evHtml='';
+ ['motor','trans'].forEach(k=>{
+  const e=c.ev&&c.ev[k];
+  if(!e)return;
+  evHtml+='<div class="evrow"><b>'+HEAD[k]+' &mdash; “'+e.band+'” bandı (güven: '+e.confidence+'):</b> '+e.reasoning+'</div>';
+ });
+ return '<div class="breakdown"><div class="bdhead">Bu araç neden bu puanı aldı</div>'
+  +'<div class="bdscroll"><table class="bdtable"><thead><tr><th>Kriter</th><th>Puan</th><th>Ağırlık</th><th>Katkı</th></tr></thead><tbody>'+rows
+  +'<tr class="bdtotal"><td class="rowlbl">Toplam</td><td colspan="3">'+total(c).toFixed(1)+' / 100</td></tr></tbody></table></div>'
+  +(evHtml?'<div class="evwrap">'+evHtml+'</div>':'')+'</div>';
+}
+
 const body=document.getElementById('body');
 let visible=[];
 function render(){renderHead();
@@ -55,7 +85,7 @@ function render(){renderHead();
   /* "Bu araca kaynak öner" (Y-04): kullanıcı zaten baktığı aracı ikinci kez
      aramak zorunda kalmasın diye kaynak öner formuna aracı önceden seçili
      götürüyor. */
-  det.innerHTML='<td colspan="'+(ORDER.length+8)+'"><div class="det"><div class="det-grid"><div><div class="lead">'+c.note+'</div>'+weakHtml+'<div class="src">'+src+'</div><button type="button" class="btn small ghost sugbtn" data-carid="'+c.id+'">Bu araca kaynak öner</button></div><div class="radarwrap">'+radarSVG([c])+'</div></div></div></td>';
+  det.innerHTML='<td colspan="'+(ORDER.length+8)+'"><div class="det"><div class="det-grid"><div><div class="lead">'+c.note+'</div>'+weakHtml+'<div class="src">'+src+'</div><button type="button" class="btn small ghost sugbtn" data-carid="'+c.id+'">Bu araca kaynak öner</button></div><div class="radarwrap">'+radarSVG([c])+'</div></div>'+scoreBreakdownHTML(c)+'</div></td>';
   body.appendChild(tr);body.appendChild(det);
   const tg=()=>{const o=tr.classList.toggle('open');det.classList.toggle('open',o);tr.querySelector('.toggle').textContent=o?'−':'+';};
   tr.querySelector('.name').onclick=tg;tr.querySelector('.toggle').onclick=tg;
@@ -78,9 +108,9 @@ body.addEventListener('change',e=>{
  const pi=e.target.dataset.pi;
  if(pi===undefined)return;
  const id=+e.target.dataset.id;CARS[id].p[+pi]=Math.max(0,+e.target.value||0);recalcPrice();
- render();renderCompare();
+ render();renderCompare();updateContrib();
 });
 body.addEventListener('keydown',e=>{
  if(e.key==='Enter'&&e.target.classList&&e.target.classList.contains('pin')){e.target.blur();}
 });
-function recalcAll(){renderHead();render();updateSum();renderCompare();}
+function recalcAll(){renderHead();render();updateSum();renderCompare();updateContrib();}

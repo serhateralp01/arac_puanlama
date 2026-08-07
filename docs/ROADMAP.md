@@ -33,7 +33,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; her araç hem motor hem şanzıman tarafından kaynaklı, ortalama 2.18 |
 | Araç listesi (Y-01) | 154 → 221 araç. **SUV 1 → 28 (hedefi aştı), marka 5/5 (hedefe ulaştı: Dacia, Jeep, MINI, Cupra, Subaru)**, 2016+ 5 → 39 (hedef 40'a bir araç kaldı) |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
-| Puanlama şeffaflığı (Y-06) | Bilimsel temel ve kanıt zinciri tamamlandı: SWING ağırlıkları uygulandı, 220/221 araçta `evidence.motor`/`evidence.trans` dolu. Arayüz katmanı (kriter kırılımı, canlı katkı göstergesi) sırada |
+| Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri (220/221 araçta `evidence.motor`/`evidence.trans` dolu, SWING ağırlıkları) ve arayüz katmanı (kriter kırılımı, canlı katkı göstergesi, "neden bu puan" dökümü) tamamlandı |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 
 Denetimin bugünkü çıktısı: **0 hata, 243 uyarı**. Uyarıların ezici çoğunluğu (213) tek
@@ -400,7 +400,7 @@ birden sıfırlıyor mu.
 
 ---
 
-## Y-06 · Puanlama şeffaflığı — **birinci ve üçüncü katman bitti, ikinci katman sırada**
+## Y-06 · Puanlama şeffaflığı — **bitti (üç katmanın tamamı)**
 
 **Öncelik: yüksek.** Kullanıcının en net iki şikayeti buradan geliyor: "fiyat kısmı çok
 kafa karıştırıcı, kriterin puanı nasıl etkilediğini bilmiyoruz" ve daha sonra
@@ -478,10 +478,10 @@ eski "Güvenilirlik öncelikli" (aile) setinin `comf` ağırlığının `motor` 
 olduğu, muhtemelen yeniden adlandırılmamış bir "aile/konfor" mirası olduğu da ortaya
 çıktı; yeni sette düzeltildi.
 
-### İkinci katman — arayüz (sırada)
+### İkinci katman — arayüz (2026-08-07, bitti)
 
-**Bugünkü durum ve neden kafa karıştırıcı olduğu.** Fiyat, diğer yedi kriterden
-yapısal olarak farklı çalışıyor ama arayüzde aynı görünüyor:
+**Önceki durum ve neden kafa karıştırıcı olduğu.** Fiyat, diğer yedi kriterden yapısal
+olarak farklı çalışıyor ama arayüzde aynı görünüyordu:
 
 - Diğer kriterlerin puanı araç kaydında sabit durur ve kanıta dayanır.
 - Fiyat puanı **hiçbir yerde saklanmaz**; listenin tamamına göre her yeniden çizimde
@@ -489,25 +489,48 @@ yapısal olarak farklı çalışıyor ama arayüzde aynı görünüyor:
 - Yani bir aracın fiyat puanı, **listedeki diğer araçlar değiştiğinde değişir**. Filtre
   uygulandığında ya da fiyat aralığı elle düzenlendiğinde bu puan kayar.
 
-Bu davranış doğru ama görünmez, ve görünmediği için kafa karıştırıyor.
+Bu davranış doğruydu ama görünmezdi, ve görünmediği için kafa karıştırıyordu. Dört
+maddenin tamamı yapıldı:
 
-**Kapsam.**
+1. **`#kriterler` ekranı kriter kriter genişletildi.** Her kartta artık tanımın
+   (ne ölçüyor/ölçmüyor) yanında `data/criteria.json`'a yeni eklenen
+   `weight_rationale` alanından gelen bir gerekçe metni ("bu ağırlık neden bu") ve
+   bantlı yedi kriterin hepsinde `<details>` ile açılıp kapanan bir "puan bantlarını
+   göster" paneli var — beş bandın aralığı, adı, test cümlesi ve varsa listedeki
+   gerçek örnek aracı. Bant örnekleri `data/criteria.json` içinde araç kimliğiyle
+   tutuluyor; `build.py` bunları derleme sırasında araç adına çeviriyor, JS tarafı
+   id→ad eşlemesi taşımak zorunda kalmıyor. `validate.py`'ye bu örneklerin gerçek bir
+   araca karşılık geldiğini doğrulayan yeni bir kural eklendi
+   (`gecersiz-bant-ornegi`), aksi hâlde ileride bir araç kimliği değişirse arayüz
+   sessizce kırılabilirdi.
+2. **Fiyat kriterine ayrı bir bölüm.** `#metodoloji` ekranına yedinci kart eklendi:
+   fiyat puanının neden hiçbir dosyada saklanmadığı, filtre uygulandığında neden
+   anında değiştiği ve tablodaki fiyat kutucuklarını elle düzenlemenin listenin
+   tamamının fiyat puanını nasıl yeniden hesaplattığı somut bir örnekle anlatılıyor.
+3. **Canlı katkı göstergesi.** Her ağırlık kutusunun altında o kriterin toplam
+   puandaki **fiili katkı payını** gösteren bir yüzde var. Bu, ham ağırlık yüzdesi
+   değil; ağırlık × kriterin listedeki ortalama puanı üzerinden hesaplanıyor, çünkü
+   ağırlığı yüksek ama listede herkesin birbirine yakın puan aldığı bir kriter fiilen
+   daha az ayırt edici olabilir. Ağırlık değiştikçe, hazır ayar seçildikçe veya bir
+   aracın fiyatı elle düzenlendikçe (listenin ortalama fiyat puanı kaydığı için)
+   anında güncelleniyor.
+4. **Araç detay panelinde "bu araç neden bu puanı aldı" dökümü.** Liste ekranında bir
+   satır açıldığında artık sekiz kriterin tamamı için puan/ağırlık/katkı satırlarını
+   ve toplam satırını gösteren bir tablo var; buradaki katkı sayıları `total()`
+   fonksiyonunun fiilen topladığı terimlerin ta kendisi, ayrı bir tahmin değil. Motor
+   ve şanzıman için `evidence` bloğu doluysa (üçüncü katmanın ürettiği 220/221 araç)
+   hangi bandın hangi gerekçeyle verildiği de aynı panelde metin olarak görünüyor;
+   diğer beş kriterde evidence henüz boş olduğu için yalnızca puan satırı var.
 
-1. `#metodoloji` ekranı kriter kriter genişletilir. Her kriter için: ne ölçüyor, ne
-   ölçmüyor, puan bantları, hangi kanıt türünü istiyor, varsayılan ağırlığı ne ve o
-   ağırlık neden o.
-2. Fiyat kriterine ayrı ve açık bir bölüm: neden saklanmadığı, filtreye göre neden
-   değiştiği, elle fiyat düzenlemenin toplam puanı nasıl etkilediği.
-3. Ağırlık kutularının yanına, o kriterin toplam puandaki **fiili katkısını** gösteren
-   canlı bir gösterge. Kullanıcı bir ağırlığı değiştirdiğinde etkisini tabloya bakmadan
-   görebilmeli.
-4. Araç detay panelinde "bu araç neden bu puanı aldı" dökümü: her kriterin puanı,
-   ağırlığı ve toplama katkısı.
+`smoke_test.js` yedi yeni kontrol kazandı: ağırlık gerekçesi sekiz kartta da var mı,
+bant paneli yedi kriterde var mı, panel açılınca beş satır görünüyor mu, canlı katkı
+göstergesi sekiz kartta da doluyor mu, metodoloji ekranında yedi kart var mı, araç
+detayında dökümün dokuz satırı (sekiz kriter + toplam) ve en az bir kanıt metni var
+mı. Toplam kontrol sayısı 37'den **44**'e çıktı, hepsi geçiyor.
 
-**Bitmiş sayılma ölçütü.** Bir kullanıcı, bir aracın toplam puanının hangi sayılardan
-oluştuğunu arayüzden takip edebiliyor ve fiyat puanının neden değiştiğini
-açıklayabiliyor. Önkoşulu olan kanıt zinciri (üçüncü katman) ve ağırlık türetme işi
-artık bitti, dolayısıyla bu katmanın önünde veri eksikliği kalmadı.
+**Bitmiş sayılma ölçütü — karşılandı.** Bir kullanıcı artık bir aracın toplam
+puanının hangi sayılardan oluştuğunu arayüzden takip edebiliyor, fiyat puanının neden
+değiştiğini açıklayabiliyor ve her ağırlığın neden o değerde olduğunu okuyabiliyor.
 
 ---
 
@@ -598,26 +621,25 @@ gerekmiyor.
 
 Biten maddeler: ~~Y-02~~ (kaynak derinliği — kaynaksız ve tek kaynaklı araç kalmadı),
 ~~Y-03~~ (araştırma hattı), ~~Y-04~~ (form arayüzü; yalnızca uç nokta adresi depo
-sahibini bekliyor), ~~Y-05~~ (yerleşim), ~~Y-07~~ (ana ekran). Y-01 (liste genişletme)
-üç hedefinden ikisini karşıladı, üçüncüsü bir araç uzaklıkta.
+sahibini bekliyor), ~~Y-05~~ (yerleşim), ~~Y-06~~ (puanlama şeffaflığı, üç katmanın
+tamamı), ~~Y-07~~ (ana ekran). Y-01 (liste genişletme) üç hedefinden ikisini
+karşıladı, üçüncüsü bir araç uzaklıkta.
 
 Sıradaki iş, öncelik sırasıyla:
 
-1. **Y-06 · Puanlama şeffaflığı, ikinci katman (arayüz)** — en yüksek değerli kalan
-   madde. Kullanıcının en net şikayeti buydu ("fiyat kısmı çok kafa karıştırıcı,
-   kriterin puanı nasıl etkilediğini bilmiyoruz"). Birinci katman (bilimsel temel) ve
-   üçüncü katman (kanıt zinciri: 220/221 araçta `evidence.motor`/`evidence.trans` dolu,
-   SWING ağırlıkları uygulandı) artık bitti; geriye yalnızca arayüz kaldı, "bu araç
-   neden bu puanı aldı" dökümü gerçek kanıta bağlanabilir durumda.
-2. **Y-09 · Koyu tema** — bağımsız, görsel, riski düşük.
-3. **Y-08 · Araç hikayeleri** — sürekli ve parça parça ilerleyebilecek, aceleye gelmeyen
+1. **Y-09 · Koyu tema** — bağımsız, görsel, riski düşük.
+2. **Y-08 · Araç hikayeleri** — sürekli ve parça parça ilerleyebilecek, aceleye gelmeyen
    iş; 221 araç için yazılacak çok içerik var.
-4. **Y-01'in kalanı** — 2016 sonrası hedefine bir araç kaldı; MG'nin geleneksel yakıtlı
+3. **Y-01'in kalanı** — 2016 sonrası hedefine bir araç kaldı; MG'nin geleneksel yakıtlı
    modelleri (varsa) düşük öncelikli. Elektrikli/hibrit/LPG kalıcı olarak kapsam dışı
    (MK-13).
-5. **Y-02'nin uzun vadeli hedefi** — ortalamayı 4'e çıkarmak, yani her araca üçüncü ve
+4. **Y-02'nin uzun vadeli hedefi** — ortalamayı 4'e çıkarmak, yani her araca üçüncü ve
    dördüncü bağımsız kaynak. Bileşen bazlı toplu bağlama yöntemi burada işe yaramıyor;
    araç bazında tekil araştırma gerekiyor, bu yüzden yavaş ve pahalı bir iş.
+5. **`evidence` bloğunu kalan beş kriter için genişletmek** (`fun`, `comf`, `age`,
+   `cost`, `liq`, `price`) — bunların çoğu `docs/ARCHITECTURE.md` MK-06'nın hâlâ
+   uygulanmamış `kerb_weight_kg`/`torque_nm`/`fuel_consumption_l_100km` formülüne
+   bağlı olduğu için önce o veri işi gerekiyor.
 
 ---
 

@@ -89,6 +89,22 @@ def to_runtime_db(
     Arayüz kodu göçten beri değişmedi; dönüşüm burada yapılıyor ki veri
     dosyaları okunabilir kalsın, UI kodu da yeniden yazılmak zorunda olmasın.
     """
+    # Bant örnekleri (ör. "honda-civic-fd6-1-6") kimlikle veriliyor ki
+    # data/criteria.json okunurken hangi aracın kastedildiği açık kalsın; arayüzde
+    # gösterilecek olan ise kullanıcının bildiği araç adı. Çözümleme burada, derleme
+    # sırasında yapılıyor ki JS tarafı id→ad eşlemesi taşımak zorunda kalmasın.
+    cars_by_id = {car["id"]: car for car in cars}
+
+    def band_runtime(b: dict) -> dict:
+        ex = b.get("example")
+        return {
+            "range": b["range"],
+            "name": b["name"],
+            "test": b["test"],
+            "example": cars_by_id[ex]["name"] if ex else None,
+            "note": b.get("note"),
+        }
+
     crit_runtime = []
     for c in criteria["criteria"]:
         entry = {
@@ -97,6 +113,8 @@ def to_runtime_db(
             "d": c["definition"],
             "inc": c["includes"],
             "exc": c["excludes"],
+            "wr": c.get("weight_rationale"),
+            "bands": [band_runtime(b) for b in c["bands"]] if c.get("bands") else None,
         }
         if c.get("auto"):
             entry["AUTO"] = 1
@@ -124,6 +142,7 @@ def to_runtime_db(
                 "r": car["sources"],
                 "s": [car["scores"][k] for k in criteria["scored_order"]],
                 "note": car["note"],
+                "ev": car.get("evidence") or {},
             }
         )
 
