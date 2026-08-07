@@ -260,35 +260,55 @@ farklı: `README.md`'nin de yazdığı gibi fiyat aralığı `evidence` kuralın
 çünkü fiyat bir görüş değil piyasa verisi — dolayısıyla kanıt zincirinden değil,
 doğrudan piyasadan doğrulanması gerekiyor.
 
-**Karşılaşılan sınırlama.** Bu oturumun çalıştığı uzak ortamda `WebFetch` aracı,
-ağ geçidi politikası gereği sahibinden.com, arabam.com, carvak.com gibi ilan
-sitelerinin neredeyse tamamına erişemedi (`EGRESS_BLOCKED`). Doğrulama bu yüzden
-yalnızca `WebSearch`'ün döndürdüğü arama sonucu özetlerine dayandı; bu özetler çoğu
-zaman genel ilan sayfası bağlantıları veriyor, tek tek ilan fiyatı vermiyor. Yine de
-sertifikalı ikinci el satıcılarının (özellikle Borusan Next) arama özetlerinde doğrudan
-TL rakamı geçen ilanları bulunabildi ve bunlar gerçek, tarihli, tek tek araç
-fiyatlarıydı. Bu yüzden derinlik, hedeflenen kapsamlı taramadan çok daha dar: **221
-araçtan yaklaşık 4'ü** için gerçek fiyat rakamına ulaşıldı.
+**Karşılaşılan sınırlama.** Bu oturumun çalıştığı uzak ortamda `WebFetch` aracı hiçbir
+dış sayfaya erişemiyor (`EGRESS_BLOCKED`) — yalnızca sahibinden.com/arabam.com değil,
+kontrol amacıyla denenen en.wikipedia.org ve forum.donanimhaber.com/eksisozluk.com gibi
+alakasız siteler de aynı hatayı verdi. Yani bu, ilan sitelerine özel bir engel değil,
+ortamın ağ geçidi politikasının genel bir kısıtlaması; "forumlara bak" önerisi de aynı
+sebeple WebFetch üzerinden uygulanamadı. Doğrulama bu yüzden tamamen `WebSearch`'ün
+döndürdüğü arama sonucu özetlerine dayandı; bu özetler çoğunlukla genel ilan sayfası
+bağlantıları veriyor, tek tek ilan fiyatı vermiyor.
+
+Bulunan tek işe yarar kanal, sertifikalı ikinci el satıcılarının (esas olarak
+**Borusan Next**) her ilanı ayrı bir URL'ye sahip olması ve bu URL'lerin arama
+sonucu özetinde model yılı + km + TL fiyatıyla birlikte indekslenmesiyken; forum
+(DonanımHaber, Ekşi Sözlük) ve genel "piyasa analizi" sonuçları hiçbir zaman tek
+araç fiyatı vermedi, yalnızca trend yorumu içeriyordu. Bu kanal da yalnızca Borusan
+Next'in stokladığı, göreli yeni (~10 yaşından küçük) araçlar için işliyor; 1990'lar-
+2000'ler BMW/Mercedes gibi klasik-dönem kayıtlarımız için hiç veri bulunamadı, çünkü
+bu satıcılar o yaştaki araçları zaten satmıyor. Bu yüzden derinlik hedeflenenden çok
+daha dar kaldı: **221 araçtan 9'u** için gerçek fiyat rakamına ulaşıldı.
 
 **Bulunanlar ve verilen kararlar.**
 
 | Araç | Kayıtlı yıl aralığı | Bulunan gerçek veri | Karar |
 |---|---|---|---|
 | `hyundai-tucson-1-6-crdi-7dct` | 2016-2020 | Borusan Next, 2020 model 1.6 CRDi Elite otomatik dizel: 1.680.000-1.945.000 TL (sertifikalı satıcı fiyatı) | **Düzeltildi.** Bandın kayıtlı üst sınırı (1450) bulunan en düşük sertifikalı fiyatın (1680) bile altında kalıyordu; özel satıcı fiyatının sertifikalı satıcıdan genelde %10-20 daha düşük olduğu kabul edilse bile ([1000, 1450] → **[1050, 1700]**) bant gerçekçi aralığa çekildi. |
+| `nissan-qashqai-1-3-dig-t-cvt` | 2017-2021 | Borusan Next, 2020 model 1.3 DIG-T Sky Pack otomatik: 1.775.000 TL (sertifikalı satıcı fiyatı, kayıtlı yıl aralığının tam içinde) | **Düzeltildi.** %15 özel-satıcı indirimiyle bile (~1.509.000) mevcut üst sınırın (1300) belirgin biçimde üzerinde kalıyordu; ([900, 1300] → **[950, 1600]**) bant yukarı çekildi. |
 | `fiat-egea-1-6-multijet` | 2016-2023 | Borusan Next: 2019 model 830.000-915.000 TL, 2022 model 1.010.000 TL (2024 model 1.245.000 TL bulundu ama kaydın yıl aralığı dışında, karşılaştırmaya alınmadı) | **Değiştirilmedi.** Kayıtlı yıl aralığındaki en yüksek gerçek veri (2022, 1.010.000 TL) mevcut üst sınırın (1100) altında kalıyor; bant zaten gerçekçi. |
 | `renault-clio-4-1-5-dci` | 2012-2019 | Borusan Next, 2018 model 1.5 dCi Touch otomatik dizel: 810.000 TL (sertifikalı satıcı fiyatı) | **Değiştirilmedi.** Sertifikalı fiyattan makul bir özel-satıcı indirimi (~%12-15) düşüldüğünde (~690-710 bin TL) mevcut üst sınırın (750) içine düşüyor; bant sınırda ama gerçekçi. |
 | `toyota-corolla-1-6-2013` | 2013-2018 | Borusan Otomotiv, 2016 model 101.690 km otomatik: 848.000 TL (sertifikalı satıcı fiyatı) | **Değiştirilmedi, ama not düşüldü.** Bulunan rakam mevcut alt sınırın (900) biraz altında; tek veri noktası ve kaydın orta yılından (2016, yüksek km) geliyor, kaydın en eski yılı (2013) için beklenen fiyat muhtemelen daha da düşük. Bant tamamen yanlış değil ama alt sınır iyimser olabilir — üçüncü bir bağımsız veri noktası bulunursa yeniden değerlendirilmeli. |
+| `kia-sportage-1-6-crdi-7dct` | 2016-2020 | Borusan Next, 2021 model (kayıtlı aralığın bir yıl dışında) Black Edition 38 bin km: 1.725.000 TL | **Değiştirilmedi.** Veri noktası kayıtlı yıl aralığının hemen dışında ve kayıtlı en yeni yıl (2020) için tahmini fiyat, model-yılı düşüşü ve satıcı indirimi birlikte düşünüldüğünde mevcut üst sınıra (1450) yakın çıkıyor. Tek başına ve aralık-dışı bir veri noktasıyla düzeltme yapmak riskli; değiştirilmedi. |
+| `vw-troc-1-5-tsi` | 2018-2021 | Borusan Next, 2020-2021 model Highline otomatik: 1.530.000-1.670.000 TL (kayıtlı yıl aralığının tam içinde) | **Değiştirilmedi.** %15 indirimle (~1.300.000-1.420.000) mevcut bandın (1100-1550) içinde kalıyor. |
+| BMW E46/E90 320i, W202/W203 C200 gibi klasik-dönem kayıtlar | — | Borusan Next'te hiç veri yok (bu satıcı ~10 yaşından eski araç satmıyor) | **Karşılaştırma yapılamadı.** Bu yaş grubundaki kayıtlar için bu oturumda kullanılan yöntemle hiç veri toplanamadı; ayrı bir kanal gerekiyor. |
+| Opel Astra 1.6 CDTI | — | Arama özetinde "161.750-225.000 TL" rakamı çıktı | **Güvenilmez sayıldı, kullanılmadı.** Bu rakam bugünün TL'siyle tutarsız (aynı segmentteki her diğer araç 500 bin TL'nin üzerinde); muhtemelen eski bir sayfadan ya da alakasız bir bağlamdan (örn. ÖTV tablosu) geliyor. Kaynağı doğrulanamayan bir rakamı veriye yazmak, doğrulama işinin amacına aykırı olurdu. |
 
 **Genel bulgu.** Aynı dönemde bulunan makro veri (Cumhuriyet, "İkinci el araçta 2026 ilk
 yarı raporu"), Ocak-Haziran 2026 arasında ikinci el araç fiyat endeksinin yalnızca
 %5 arttığını, buna karşın genel enflasyonun %17,7 olduğunu bildiriyor; 12 aylık
 dönemde ikinci el artışı %15,4, enflasyon %32,1. Yani ikinci el fiyatları enflasyonun
-belirgin biçimde gerisinde kalıyor — bu da bantların çoğunun eskimemiş olmasıyla
-tutarlı (4 örnekten yalnızca 1'inde gerçek düzeltme gerekti).
+belirgin biçimde gerisinde kalıyor. Buna rağmen dokuz örnekten ikisinde (Tucson,
+Qashqai — ikisi de SUV) bant belirgin biçimde düşük çıktı; bu, SUV segmentinin diğer
+gövde tiplerine göre nominal olarak daha hızlı değer kazandığına işaret ediyor
+olabilir, ama iki örnekten genel bir kural çıkarmak için erken.
 
 **Kapatılmama gerekçesi.** Bu madde "kısmen kapatıldı" işaretli, çünkü yapılan iş bir
-doğrulama turu değil, bir **spot-kontrol** oldu — 221 aracın 4'ü örneklendi. Kalan 217
-araç hâlâ hiç piyasa verisiyle karşılaştırılmadı. Ağ erişimi bu ortamda kısıtlı olduğu
-sürece kapsamlı bir tur pratik değil; kullanıcı sahibinden.com/arabam.com'a doğrudan
-erişimi olan bir ortamda (yerel makine, farklı ağ politikası) daha geniş bir tur
-istiyorsa bu madde yeniden açılıp genişletilebilir.
+doğrulama turu değil, bir **spot-kontrol** oldu — 221 aracın 9'u örneklendi, ikisi
+düzeltildi. Kalan 212 araç hâlâ hiç piyasa verisiyle karşılaştırılmadı ve özellikle
+1990'lar-2000'ler klasik-dönem kayıtları için bu oturumun yönteminin (sertifikalı
+satıcı ilanları) hiçbir zaman veri üretemeyeceği görüldü — o segment için farklı bir
+kaynak türü (örn. klasik araç forumları, ama bu ortamda WebFetch engelliyken
+erişilemiyor) gerekiyor. Ağ erişimi bu ortamda kısıtlı olduğu sürece kapsamlı bir tur
+pratik değil; kullanıcı sahibinden.com/arabam.com'a veya forumlara doğrudan erişimi
+olan bir ortamda (yerel makine, farklı ağ politikası) daha geniş bir tur istiyorsa bu
+madde yeniden açılıp genişletilebilir.

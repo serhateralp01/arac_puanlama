@@ -15,8 +15,8 @@
     "engine_id": "renault-h5ht"
   },
   "price_band_k_try": [
-    900,
-    1300
+    950,
+    1600
   ],
   "verification": "partial",
   "scores": {
