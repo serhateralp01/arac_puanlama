@@ -36,7 +36,9 @@
     "sikayetvar_seat_ateca",
     "teknikotomatik_dq200_dq250",
     "torquecars_ea288_avoid_problems",
-    "trbox"
+    "trbox",
+    "ecotorque_dq200_mechatronic",
+    "enginefinders_ea288_20tdi"
   ],
   "note": "Seat'in MQB tabanlı ilk SUV'u; motor ve şanzıman Karoq/Kodiaq ile birebir aynı aileden, listede zaten kayıtlı. Yokuşta 2.-3. vites arası tereddüt DQ200'ün bilinen zayıflığıyla örtüşüyor; iç mekan trim gıcırtısı ayrı, yapısal olmayan bir şikayet. Dizel modellerde DPF tıkanmaması için düzenli uzun yol kullanımı öneriliyor.",
   "provenance": {

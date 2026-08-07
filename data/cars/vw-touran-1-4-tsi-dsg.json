@@ -36,7 +36,8 @@
     "autoscore_ea111_twincharger",
     "enginecrux_ea111_vs_ea211",
     "otoclubturkiye_touran_14tsi",
-    "trbox"
+    "trbox",
+    "ecotorque_dq200_mechatronic"
   ],
   "note": "Listedeki ilk MPV (çok amaçlı araç) kaydı; 140 beygirlik 1.4 TSI'ı turbo+kompresör ikilisi kullanan twincharger ailesinden (vag-ea111-tsi-tc, listede zaten kayıtlı — 122/160/170 beygirlik uygulamalarla aynı aile), tekli turbolu 122 beygirlik sürümle (vag-ea111-tsi-turbo) karıştırılmamalı. Oto Club Türkiye forumundaki tartışma, tam bu ailenin bilinen zaafı olan piston segman yatağı çatlamasını ve DQ200'ün vites sarsıntısı şikayetlerini doğruluyor — iki kaynak birbirini tutarlı biçimde destekliyor. Yedi koltuğa kadar çıkabilen gövdesi aileler için pratik bir seçenek.",
   "provenance": {

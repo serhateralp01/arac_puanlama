@@ -22,7 +22,7 @@
     820,
     1150
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 74,
     "trans": 80,
@@ -35,7 +35,8 @@
   "sources": [
     "docteurmoteurs_ec5",
     "teknikotomatik_aisin_6ileri",
-    "trbox"
+    "trbox",
+    "asrgearbox_eat6"
   ],
   "note": "Bu araçların bazı versiyonlarında robotlu kutu yerine Aisin yapımı EAT6 tork konvertörlü şanzıman bulunuyor ve bu, aynı gövdenin çok daha güvenli otomatik seçeneği. İlanı incelerken kutunun robotlu mu yoksa EAT6 mı olduğunu mutlaka teyit edin. Ucuz, geniş ve pratik bir aile aracı.",
   "provenance": {

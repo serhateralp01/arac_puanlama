@@ -22,7 +22,7 @@
     850,
     1200
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 44,
     "trans": 80,
@@ -35,7 +35,8 @@
   "sources": [
     "trbox",
     "propeugeotspares_16hdi_egr",
-    "au7o_peugeot308_known_issues"
+    "au7o_peugeot308_known_issues",
+    "asrgearbox_eat6"
   ],
   "note": "EAT6 Aisin tork konvertörlü otomatiği sağlam ve bu tarafı güvenli. Motor tarafında ise 1.6 HDi/BlueHDi ailesinin EGR'de biriken tortunun turbo yağ hattını tıkayıp erken turbo arızasına yol açması bilinen bir risk; enjektör keçesi sızıntısı erken yakalanmazsa aynı sonuca gidiyor. Şehir içi kısa mesafe kullanımda 80-150 bin km arasında büyük bakım işleri görülebiliyor, otoyol ağırlıklı kullanımda motor 250.000 km'yi sorunsuz aşabiliyor.",
   "provenance": {

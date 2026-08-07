@@ -1,0 +1,84 @@
+{
+  "id": "bmw-f30-320i",
+  "name": "BMW F30 320i",
+  "tag": "N20 · oto: ZF 8 ileri (8HP) · 184hp",
+  "brand_group": "BMW",
+  "years": "2012-2015",
+  "specs": {
+    "hp": 184,
+    "displacement_l": 2.0,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "zf-8hp",
+    "body_type": "Sedan",
+    "engine_id": "bmw-n20",
+    "kerb_weight_kg": 1490,
+    "torque_nm": 270,
+    "fuel_consumption_l_100km": 6.8
+  },
+  "price_band_k_try": [
+    850,
+    1300
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 38,
+    "trans": 70,
+    "fun": 62,
+    "comf": 76,
+    "age": 48,
+    "cost": 66,
+    "liq": 76
+  },
+  "sources": [
+    "carcomplaints_n20_settlement",
+    "autodoc_n20_chain",
+    "ultrayol_f30_kronik",
+    "otoclubturkiye_zf8hp30"
+  ],
+  "note": "F30'un dizel kardeşi (bmw-f30-320d) listede zaten kayıtlı; bu araç aynı gövde ve aynı ZF 8HP kutusuyla, ama N47 yerine benzinli N20 turbo motoruyla. N20'nin triger zinciri kılavuzu kusuru N47'ninkinden farklı bir mekanizma (motorun önünde, arkasında değil) ama sonucu benzer: motoru bitirebilen bir onarım. Bu kusur ABD'de federal mahkemede kesinleşmiş bir grup davasına ve BMW'nin resmi garanti uzatmasına konu olduğu için kanıtı N47'ninkinden daha kurumsal. 2015 sonrası yüz germede motor B48'e geçti ve bu kusuru taşımıyor; o motor için ayrı bir aile açılmadı, bu yüzden bu araç kaydı yalnızca 2012-2015 (pre-LCI, N20) üretimini kapsıyor.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 ikinci dalga, on yedinci tur: yeni motor ailesi (bmw-n20) + mevcut şanzıman ailesi (zf-8hp). Kullanıcının önceki turda not ettiği 'BMW F30/F31 318i/320i nesil belirsizliği' adayı, N20 (pre-LCI, 2012-2015) ile B48 (post-LCI, 2015+) ayrı motorlar olduğu netleştirilerek çözüldü; yalnızca N20 üretim aralığı eklendi, B48 için kanıt/aile eksikliğinden dolayı ayrı bir kayıt açılmadı.",
+    "specs_source": "Güç/tork/ağırlık verisi carfolio.com, auto-data.net ve encycarpedia.com'un WebSearch'te birbirini doğrulayan sonuçlarından alındı (184 PS/270 Nm @ 1490 kg, EU5 kombine tüketim 6.8 l/100km); autoevolution.com bu oturumda erişim engelli olduğu için doğrudan kullanılamadı, ama rakamlar üç bağımsız spec sitesinde birebir örtüşüyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "carcomplaints_n20_settlement",
+        "autodoc_n20_chain"
+      ],
+      "reasoning": "N20 (bmw-n20) motor ailesinin temel puanı 38. Bu aracın motor puanı (38) temel puanla birebir aynı. Ailenin bilinen zaafı: triger zinciri kılavuzunun gevrekleşip parçalanması, kopan parçaların krank mili dişlisine sıkışıp motoru komple bitirebilmesi. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: kusur yalnızca forum şikayetiyle değil, ABD'de Şubat 2021'de kesinleşen federal bir grup davası ve BMW'nin 7 yıl/70.000 mil garanti uzatmasıyla da doğrulanıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "ultrayol_f30_kronik",
+        "otoclubturkiye_zf8hp30"
+      ],
+      "reasoning": "ZF 8HP30 (zf-8hp) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Ailenin bilinen zaafı: yağ soğutucusunun (ısı eşanjörü) çatlayıp soğutma sıvısının şanzıman yağına karışması. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: kutu sağlam ama düzenli bir bakım kalemi bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2013.5, yani 2026 itibarıyla yaşı yaklaşık 12.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 26.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 48 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    },
+    "fun": {
+      "band": "nötr",
+      "confidence": "orta",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 123 hp/ton (normalize 59/100), tork/ağırlık oranı 181 Nm/ton (normalize 40/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 54. Karakter düzeltmesi +8 puan uygulandı, gerekçesi: arkadan itiş (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

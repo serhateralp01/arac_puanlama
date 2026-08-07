@@ -22,7 +22,7 @@
     700,
     1000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 38,
@@ -35,7 +35,9 @@
   "sources": [
     "andcetin_dq200",
     "torquecars_ea288_avoid_problems",
-    "trbox"
+    "trbox",
+    "ecotorque_dq200_mechatronic",
+    "enginefinders_ea288_20tdi"
   ],
   "note": "Motoru ekonomik ve yaygın bir dizel ama otomatiği kuru kavramalı DQ200 kutusu. Bu kutu Türkiye trafiğinde kavrama aşınması ve mekatronik arızasıyla biliniyor. Araç geniş, ucuz ve kolay kullanılıyor; sorun tamamen şanzıman tarafında. Kavrama ve mekatronik geçmişi belgeli olmayan bir örneğe girmeyin.",
   "provenance": {

@@ -36,7 +36,9 @@
     "oreateai_ea111_vs_ea211",
     "sikayetvar_passat_tsi",
     "teknikotomatik_dq200_dq250",
-    "trbox"
+    "trbox",
+    "ecotorque_dq200_mechatronic",
+    "enginecrux_ea211_14tsi"
   ],
   "note": "VW'nin kompakt SUV'u; EA211 ailesinin 1.5 TSI evo (silindir kapatma özellikli, ACT) versiyonu, aynı modüler aileden — Polo 1.0 TSI'yla birlikte ailenin hacim aralığını genişletti. DQ200 kuru DSG listede zaten kayıtlı.",
   "provenance": {

@@ -21,7 +21,7 @@
     550,
     820
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 70,
     "trans": 40,
@@ -34,7 +34,8 @@
   "sources": [
     "go4trans_dp0",
     "peugeotengine_psa_honest",
-    "trbox"
+    "trbox",
+    "teknikotomatik_al4_dpo"
   ],
   "note": "308'in ilk neslinde (2008+) sunulan atmosferik 1.6 VTi seçeneği; motor (EP6, psa-ep6-vti) listede Peugeot 301/C-Elysee'de zaten kayıtlı aynı aile, kutu (AL4) da listede zaten kayıtlı eski nesil 4 ileri PSA otomatiği. Aynı gövdenin turbolu THP'sinden (psa-ep6-thp) farklı, atmosferik olduğu için turbo kaynaklı arıza riski taşımıyor.",
   "provenance": {
@@ -66,6 +67,15 @@
       "confidence": "orta",
       "sources": [],
       "reasoning": "Güç/ağırlık oranı 94 hp/ton (normalize 27/100), tork/ağırlık oranı 125 Nm/ton (normalize 10/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 22. Karakter düzeltmesi +5 puan uygulandı, gerekçesi: doğal emişli yüksek devir karakteri (75 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "assessed_at": "2026-08-07"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2010.5, yani 2026 itibarıyla yaşı yaklaşık 15.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 32.2. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 37 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
   }

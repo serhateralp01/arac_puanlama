@@ -22,7 +22,7 @@
     850,
     1200
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 70,
     "trans": 38,
@@ -35,7 +35,9 @@
   "sources": [
     "andcetin_dq200",
     "torquecars_ea288_avoid_problems",
-    "trbox"
+    "trbox",
+    "ecotorque_dq200_mechatronic",
+    "enginefinders_ea288_20tdi"
   ],
   "note": "Golf 7 kalite ve kullanım açısından çok iyi bir araç, motoru da ekonomik. Ancak 1.6 dizel versiyonun otomatiği kuru kavramalı DQ200 kutusu ve Türkiye trafiğinde bu kutu risk taşıyor. Şanzıman geçmişi belgeli olmayan örnekten uzak durun.",
   "provenance": {

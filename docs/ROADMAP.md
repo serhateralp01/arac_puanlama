@@ -24,15 +24,15 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Şanzıman kutusu kayıtları | 45 kutu (`data/transmissions.json`), çoğu temel puanlı ve kaynaklı |
 | Motor ailesi kayıtları | 81 aile (`data/engines.json`), çoğu temel puanlı ve kaynaklı |
 | Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 49/49 duman testi |
-| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 158/273 araç — `kerb_weight_kg`/`torque_nm` dolu olanlar). `comf` ve `cost` hâlâ elle veriliyor. |
+| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 161/276 araç — `kerb_weight_kg`/`torque_nm` dolu olanlar). `comf` ve `cost` hâlâ elle veriliyor. |
 | Çok ekranlı arayüz: ana ekran, giriş akışı, liste, metodoloji, kaynak öner, iletişim | Çalışıyor |
 | GitHub Pages yayını | Çıktı `index.html` olarak üretiliyor, kök adres siteyi açıyor |
 | Liste ekranı denetim çubuğu (Y-05) | Tamamlandı: ağırlık/arama/filtre tablonun üstünde, filtre paneli katlanabilir |
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; MK-16 mekanik miras turundan sonra 180/273 araç "doğrulanmış" (4+ kaynak), ortalama ~4.2 — Y-01'in her yeni turu ortalamayı biraz seyreltiyor, bu beklenen bir durum |
-| Araç listesi (Y-01) | 154 → 273 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→273, 45 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
+| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; dördüncü tur (bileşen ailesi kaldıraçlı derinleştirme) sonrası 213/276 araç "doğrulanmış" (4+ kaynak), ortalama ~4.48 — Y-01'in her yeni turu ortalamayı biraz seyreltiyor, bu beklenen bir durum |
+| Araç listesi (Y-01) | 154 → 276 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→276, 48 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
@@ -346,18 +346,32 @@ olduğu motor/şanzıman ailesinin zaten kayıtlı kaynaklarını miras almasın
 sağladı — bu, "doğrulanmış" araç sayısını 9'dan 180'e çıkardı (bkz. Y-02
 üçüncü tur, aşağıda).
 
-**Toplam durum (228 baseline'dan bu yana).** Araç sayısı 228 → 273 (45 yeni
+**On yedinci tur (2026-08-07) — 3 araç, önceki turun notlarına dönüş.**
+Önceki turda not edilen dört adaydan ikisi gerçek, sourced kanıtla kapatıldı:
+BMW F30 320i (yeni motor ailesi `bmw-n20` — nesil belirsizliği, N20'nin
+2011-erken 2015 pre-LCI üretimine, B48'in kapsam dışına bırakılmasına karar
+verilerek çözüldü; kusur ABD'de Şubat 2021'de kesinleşen federal bir grup
+davası ve BMW'nin resmi garanti uzatmasıyla doğrulanıyor — carcomplaints.com,
+tier B) ve Hyundai Tucson/Kia Sportage 1.6 T-GDI 7DCT (yeni motor ailesi
+`hyundai-gamma16-tgdi`, mevcut `hyundai-7dct` şanzıman ailesine bağlandı;
+motor kusuru carchecker.pro'nun Tucson TL raporundan, tier C). Renault
+Symbol/Thalia bu turda da atlandı: JATCO JF404E'nin bu araçta kullanıldığı
+teyit edilebildi ama İngilizce/Türkçe hiçbir kaynakta bu kutuya özgü,
+doğrulanabilir bir arıza örüntüsü bulunamadı — "boş alan yanlış alandan
+iyidir" ilkesiyle zorla eklenmedi. Renault Fluence'ın ROADMAP'te "tedarikçi
+doğrulanamadı" diye not edilen adayı zaten `data/cars/renault-fluence-1-6.json`
+olarak dolu kayıtlıydı; not stale imiş, düzeltildi. `validate.py` 0 hata (95
+kaynak-yetersiz, 33 c-kaynakla-uc-puan — ikisi de bu turdan önce de vardı),
+`smoke_test.js`'in iki testinde sabit yazılı araç sayısı (273→276, 275→278)
+güncellendi, 49/49.
+
+**Toplam durum (228 baseline'dan bu yana).** Araç sayısı 228 → 276 (48 yeni
 kombinasyon), kullanıcının koyduğu 80-90 hedefinin yarısından fazlası
-karşılandı. Kullanıcı son yönlendirmesinde sayısal hedefe saplanmak yerine
-popüler marka/modellerin motor çeşitliliğine odaklanılmasını istedi; bu iş
-şu an bu ilkeyle sürdürülüyor ve doğası gereği kapanmayan, sürekli
-genişleyebilecek bir iş kalemi. Renault Symbol/Thalia (1.6L 16V 4AT, kutu
-tedarikçisi doğrulanamadı) ve Renault Fluence (CVT, tedarikçi doğrulanamadı)
-hâlâ araştırılmayı bekliyor; `/tmp` önbelleğindeki 550 satırlık aday
-listesinden daha fazla aday taranmadan kaldı. BMW F30/F31'in 318i/320i
-petrol seçenekleri (N13/N20/B48 motor kodları arasında nesil belirsizliği
-var) ve Hyundai Tucson/Kia Sportage'ın yeni nesil T-GDI benzinli seçenekleri
-gibi somut, popüler adaylar bir sonraki tur için not edildi.
+karşılandı. Bu iş doğası gereği kapanmayan, sürekli genişleyebilecek bir iş
+kalemi. Renault Symbol/Thalia (1.6L 16V, otomatik kutu tedarikçisi JATCO
+JF404E olarak teyit edildi ama arıza kanıtı yok — hâlâ araştırılmayı
+bekliyor) ve `/tmp` önbelleğindeki 550 satırlık aday listesinden taranmamış
+kalan adaylar sıradaki turlar için not.
 
 ---
 
@@ -451,10 +465,49 @@ tanım gereği o aracın **gerçekten taşıdığı** bileşenle ilgili (bağ za
 `MAX_CARS_PER_SOURCE` sınırını aşan yeni bir tekil-dayanak riski oluşmadı (yalnızca
 zaten 1'den fazla kaynağı olan araçlarda kaynak sayısı büyüdü). `validate.py` 0 hata.
 
-**Kalan iş.** 72 araç hâlâ "kısmi kaynak" — bunların çoğu bağlı olduğu motor/şanzıman
-ailesinin de az kaynaklı olduğu (1-2 kaynak) durumlar, yani mekanik mirasın tavan
-yaptığı yerler. Buradan sonrası tekrar elle, araç veya bileşen bazlı gerçek araştırma
-gerektiriyor.
+**Kalan iş (o tarihte).** 72 araç hâlâ "kısmi kaynak" — bunların çoğu bağlı olduğu
+motor/şanzıman ailesinin de az kaynaklı olduğu (1-2 kaynak) durumlar, yani mekanik
+mirasın tavan yaptığı yerler. Buradan sonrası tekrar elle, araç veya bileşen bazlı
+gerçek araştırma gerektiriyor. (Y-01'in sonraki turları bu sayıyı 95'e çıkardı, çünkü
+her yeni araç kendi bileşen ailesiyle başlıyor — bkz. dördüncü tur.)
+
+### Dördüncü tur — bileşen ailesi kaldıraçlı derinleştirme (2026-08-07)
+
+Üçüncü turun notu doğruydu: kalan 95 kısmi-kaynaklı aracın çoğu, kendi bağlı olduğu
+motor/şanzıman ailesinin zaten az kaynaklı olmasından geliyordu. Tek tek araç
+araştırmak yerine, en çok aracı etkileyen az-kaynaklı aileler önce bulundu (`data/
+cars/*.json`'ı `engine_id`/`transmission_id`'ye göre gruplayıp kısmi-kaynaklı araç
+sayısına göre sıralayarak) ve o beş aile için WebSearch'le **gerçekten yeni** bir
+kaynak arandı — bir ailenin kaynak sayısını 1 artırmak, o aileyi paylaşan bütün
+araçları aynı anda etkiliyor.
+
+Beş aile güncellendi, her biri için mevcut kaynaklardan **farklı** bir kaynak
+bulunup `known_issues` (üçü daha önce boştu, yalnızca serbest metin `note` alanında
+anlatılıyordu — artık yapılandırılmış ve kaynaklı) eklendi:
+
+| Aile | Etkilenen araç | Yeni kaynak | Eklenen bulgu |
+|---|---:|---|---|
+| `vag-dq200` (7 ileri kuru DSG) | 15 | eco-torque.co.uk | Erken üretim kavrama paketi arızası, 0AM mekatronik basınç haznesi çatlağı |
+| `psa-al4` (DPO) | 10 | teknikotomatiksanziman.com | Şanzıman beyni/solenoid valf arızası, yapılandırılmış known_issues |
+| `aisin-eat6` | 10 | asrgearboxrepairs.co.uk | Mekanik arıza nadir, sert geçiş valf gövdesi tortusundan |
+| `vag-ea211` (1.0/1.2/1.4/1.5 TSI) | 7 | enginecrux.com | Erken üretimde ölçülü yağ tüketimi (zincir sorunu EA111'den kalkmış) |
+| `vag-ea288` (1.6/2.0 TDI) | 6 | enginefinders.co.uk | 170 PS varyantında triger zinciri uzaması, AdBlue enjektör/sensör arızası |
+
+Yeni kaynaklar `data/sources.json`'a eklendikten sonra, MK-16'nın kurduğu mekanik
+miras ilkesi tekrar uygulandı (bir kerelik betikle: `specs.engine_id`/
+`specs.transmission_id`'si bu beş aileden birine bağlı her aracın `sources`
+listesine ilgili yeni kaynak eklendi, `verification` yeniden hesaplandı) — MK-16'nın
+kalıcı bir betik bırakmaması nedeniyle bu geçiş de aynı desende, tek seferlik bir
+betikle yapıldı.
+
+**Sonuç.** 64 araç etkilendi. `dogrulanmis` **181 → 213**, `kismi_kaynak`
+**95 → 63**, `arac_basina_ortalama_kaynak` **4,18 → 4,48**, `kaynak-yetersiz`
+uyarısı **95 → 63**. `validate.py` 0 hata, `smoke_test.js` 49/49.
+
+**Kalan iş.** 63 araç hâlâ kısmi kaynak. Aynı kaldıraç yöntemi tekrarlanabilir:
+sıradaki en yüksek kaldıraçlı adaylar `psa-puretech-12` (5 araç), `psa-dw10`
+(5 araç), `toyota-zr` (4 araç), `psa-dv6` (4 araç), `psa-ep6-vti` (4 araç) — hepsi
+tek kaynaklı aileler.
 
 ---
 

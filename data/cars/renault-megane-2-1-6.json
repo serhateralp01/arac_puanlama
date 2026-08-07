@@ -21,7 +21,7 @@
     620,
     900
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 66,
     "trans": 40,
@@ -34,7 +34,8 @@
   "sources": [
     "bigskies_k4m",
     "go4trans_dp0",
-    "trbox"
+    "trbox",
+    "teknikotomatik_al4_dpo"
   ],
   "note": "Eski usul 4 ileri tork konvertörlü otomatiğiyle sade bir çözüm sunuyor ve çift kavramalıların risklerini taşımıyor, ama kendi riskleri var: kutu PSA ile ortak AL4/DPO ailesinden ve selenoid valf arızası, aşırı ısınma ile vites geçişlerinde vuruntu bu ailede yaygın. Yedek parça ve servis ağı Türkiye'de çok güçlü, elektrik aksamı ve yaş kaynaklı kalemler kontrol edilmeli.",
   "provenance": {

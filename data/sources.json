@@ -3685,5 +3685,117 @@
       "engine": "web_search",
       "found_at": "2026-08-07"
     }
+  },
+  "carcomplaints_n20_settlement": {
+    "claim": "carcomplaints.com, BMW N20/N26 motorlarına karşı açılan triger zinciri davasının 28 Şubat 2021'de federal mahkemede kesinleştiğini; iddianın triger zincirinin plastik kılavuz parçasının gevrekleşip parçalanarak krank mili dişlisine sıkışabildiği yönünde olduğunu, BMW'nin 2017'de zaten verdiği 7 yıl/70.000 mil zincir garantisi uzatmasını sürdürdüğünü ve uzatma öncesi kendi cebinden ödeme yapan sahiplere geri ödeme programı sunduğunu aktarıyor.",
+    "publisher": "carcomplaints.com",
+    "url": "https://www.carcomplaints.com/news/2021/bmw-timing-chain-lawsuit-settlement-final.shtml",
+    "type": "trade-blog",
+    "tier": "B",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "autodoc_n20_chain": {
+    "claim": "autodoc.co.uk, BMW F30 N20 motorunda triger zinciri kılavuzunun erken yıpranmasının motorun ön tarafından gelen tiz bir uğultu sesiyle kendini gösterdiğini, sorunun özellikle 2011-erken 2015 üretim araçlarda görüldüğünü ve zincirin motorun arkasında değil önünde olmasına rağmen onarımın yine de ağır işçilik gerektirdiğini aktarıyor.",
+    "publisher": "autodoc.co.uk",
+    "url": "https://www.autodoc.co.uk/info/bmw-f30-n20-engine-timing-chain-guide-failures",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "carchecker_tucson_tgdi": {
+    "claim": "carchecker.pro'nun Hyundai Tucson TL 1.6 T-GDI güvenilirlik raporu, DCT otomatik şanzımanın ve erken üretim yıllarındaki (2018 fL öncesi) yağ tüketiminin başlıca risk kalemleri olduğunu, 2018 yüz germe sonrası üretilen araçlarda bu sorunların büyük ölçüde giderildiğini aktarıyor.",
+    "publisher": "carchecker.pro",
+    "url": "https://www.carchecker.pro/reports/hyundai_tucson_tl_1.6_tgdi.html",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "ecotorque_dq200_mechatronic": {
+    "claim": "eco-torque.co.uk, VW/Audi DQ200 (7 ileri kuru DSG) kutusunda erken üretimde kavrama paketi arızası bildirildiğini (2012'de tasarımın yenilendiğini), mekatronik kontrol ünitesinin yağ kirlenmesi/solenoid aşınması/elektronik arıza nedeniyle bozulabildiğini ve 0AM mekatronik gövdesindeki basınç haznesi duvarının fabrika toleransı gereği ince olup çatlayabildiğini, bunun kavrama basıncı kaybına yol açtığını aktarıyor.",
+    "publisher": "eco-torque.co.uk",
+    "url": "https://eco-torque.co.uk/blogs/news/7-speed-dsg-gearbox-problems-mechatronic-faults-dsg-clutch-pack",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "teknikotomatik_al4_dpo": {
+    "claim": "teknikotomatiksanziman.com'un AL4 (DPO) makalesi, kutunun kronik sorunlarının şanzıman beyni (mekatronik/solenoid valf) arızası, aşırı ısınmaya bağlı valf gövdesi aşınması ve vites geçişlerinde vuruntu/boşa düşme olduğunu; bu sorunların çoğunlukla düzenli yağ değişimi ihmal edildiğinde ortaya çıktığını aktarıyor.",
+    "publisher": "teknikotomatiksanziman.com",
+    "url": "https://teknikotomatiksanziman.com/dpo-al4-sanziman/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "asrgearbox_eat6": {
+    "claim": "asrgearboxrepairs.co.uk, Aisin EAT6/EAT8 kutusunun segmentin en sorunsuz otomatiklerinden biri olduğunu, düzenli (60.000 km) yağ değişimiyle mekanik arızanın son derece nadir olduğunu, en sık bildirilen şikayetlerin sert/vuruntulu vites geçişi (valf gövdesi tortu birikimi, eski TCU yazılımı) ve durup-kalkma trafiğinde tork konvertörü titremesi (yağ bozunumu) olduğunu aktarıyor.",
+    "publisher": "asrgearboxrepairs.co.uk",
+    "url": "https://www.asrgearboxrepairs.co.uk/eat6-eat8-aisin-psa-group/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "enginecrux_ea211_14tsi": {
+    "claim": "enginecrux.com, EA211'in EA111'in triger zinciri sorununu (zincir yerine kayışa geçilerek) tamamen ortadan kaldırdığını, ama erken üretim EA211 1.4 TSI motorlarında piston segmanı tasarımı ve PCV sistemiyle ilişkili, kısa mesafe kullanımda artan yağ tüketimi bildirildiğini aktarıyor.",
+    "publisher": "enginecrux.com",
+    "url": "https://enginecrux.com/vw-1-4-tsi-engine-problems-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "enginefinders_ea288_20tdi": {
+    "claim": "enginefinders.co.uk, EA288 2.0 TDI'de 170 PS varyantlarının bir kısmında 150.000-200.000 km sonrası triger zinciri uzamasına bağlı karakteristik bir tıkırtı, 120.000-180.000 km sonrası enjektörlerde kokslaşma/elektriksel arıza, Euro 6 araçlarda AdBlue sisteminde kristalleşen enjektör/pompa arızası ve NOx sensörü bozulması, ve 80.000-120.000 km sonrası EGR valfinde karbon tıkanması bildirildiğini aktarıyor.",
+    "publisher": "enginefinders.co.uk",
+    "url": "https://enginefinders.co.uk/blog/vw-2-0-tdi-engine-problems-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
   }
 }

@@ -159,12 +159,21 @@
     "supplier": "Aisin",
     "gears": 6,
     "base_score": 72,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [
-      "trbox"
+    "maintenance": "Üretici 'ömür boyu' yağ dese de 60.000 km'de bir ATF değişimi öneriliyor; ihmal edilirse valf gövdesi tortu birikimi ve tork konvertörü titremesi riskini artırıyor.",
+    "known_issues": [
+      {
+        "issue": "Valf gövdesi tortu birikimi veya eski TCU yazılımından kaynaklanan sert/vuruntulu vites geçişi (özellikle 1.-2. vites arası)",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "küçük",
+        "sources": ["asrgearbox_eat6"]
+      }
     ],
-    "note": "Üretici ömür boyu yağ diyor, ancak altmış bin kilometrede bir yağ değişimi öneriliyor. Bu iddianın kaynağa bağlanması gerekiyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak açık bir arıza değil, atlanırsa soruna yol açabilecek düzenli bir yağ değişimi kalemi tarif ediyor.]"
+    "sources": [
+      "trbox",
+      "asrgearbox_eat6"
+    ],
+    "note": "Üretici ömür boyu yağ diyor, ancak altmış bin kilometrede bir yağ değişimi öneriliyor; bu iddia artık ikinci bir kaynakla (asrgearbox_eat6) doğrulanmış durumda. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynaklar açık bir tasarım hatası değil, atlanırsa soruna yol açabilecek düzenli bir yağ değişimi kalemi tarif ediyor; ikinci kaynak mekanik arızanın 'son derece nadir' olduğunu doğruluyor.]"
   },
   "aisin-aw60t": {
     "id": "aisin-aw60t",
@@ -197,10 +206,19 @@
     "torque_sensitivity": null,
     "base_score": 40,
     "maintenance": "Valf gövdesi aşırı ısınmaya ve kirli ATF'ye çok duyarlı; düzenli yağ değişimi ve soğutmanın kontrolü kutunun ömrünü belirliyor.",
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "Şanzıman beyni (mekatronik/solenoid valf) arızası; vites geçişlerinde vuruntu ve geçici boşa düşme",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": ["teknikotomatik_al4_dpo"]
+      }
+    ],
     "sources": [
       "trbox",
-      "go4trans_dp0"
+      "go4trans_dp0",
+      "teknikotomatik_al4_dpo"
     ],
     "note": "Selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme yaygın şikayetler. UYARI: docs/PLAN.md §1.2'de bu kutu üç araçta (Citroen C4 32, Citroen Xsara 60, Peugeot 307 60) 28 puanlık bir fark gösteriyor, ama üç aracın da beygiri birbirine çok yakın (110-120 bg) ve araştırma torka dayalı bir açıklama bulamadı. Bu fark, getrag-6dct450 ve nissan-xtronic'in aksine gerçek bir mühendislik farkına dayanmıyor olabilir; C4'ün 32 puanının ayrıca kaynakla doğrulanması ya da diğer ikisiyle aynı seviyeye çekilmesi gerekiyor. [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı): selenoid valf arızası kontrol ünitesi kaynaklı, yaygın şikayet olarak tarif ediliyor.]"
   },
@@ -268,11 +286,27 @@
     "supplier": "Volkswagen Group",
     "gears": 7,
     "base_score": 38,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Kavrama yağı üretici tarafından 'ömür boyu' sayılsa da 60.000 km'de bir değişim, mekatronik ünitenin erken bozulma riskini azaltıyor.",
+    "known_issues": [
+      {
+        "issue": "Erken üretim (2012 öncesi) kavrama paketinin aşınması; 2012'de tasarım yenilendi",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": ["ecotorque_dq200_mechatronic"]
+      },
+      {
+        "issue": "0AM mekatronik gövdesindeki basınç haznesi duvarının ince kalması nedeniyle çatlayıp kavrama basıncı kaybına yol açması; yağ kirlenmesi ve solenoid aşınması da mekatronik arızasını tetikliyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": ["ecotorque_dq200_mechatronic"]
+      }
+    ],
     "sources": [
       "andcetin_dq200",
-      "trbox"
+      "trbox",
+      "ecotorque_dq200_mechatronic"
     ],
     "note": "Türkiye trafiğinde kavrama aşınması ve mekatronik arızasıyla biliniyor. Düşük torklu VAG motorlarında kullanılıyor. [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı): kavrama aşınması ve mekatronik arızası, bu bandın tam tanımına karşılık geliyor.]"
   },

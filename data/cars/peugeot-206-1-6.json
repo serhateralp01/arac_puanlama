@@ -21,7 +21,7 @@
     420,
     620
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 40,
@@ -34,7 +34,8 @@
   "sources": [
     "enginescope_tu5",
     "go4trans_dp0",
-    "trbox"
+    "trbox",
+    "teknikotomatik_al4_dpo"
   ],
   "note": "Küçük, ucuz ve yedek parçası her yerde bulunan bir araç. Otomatiği PSA'nın AL4/DPO kutusu ve asıl risk burada: selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme bu ailenin yaygın şikayetleri.",
   "provenance": {

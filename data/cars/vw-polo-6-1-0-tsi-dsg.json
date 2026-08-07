@@ -36,7 +36,9 @@
     "oreateai_ea111_vs_ea211",
     "sikayetvar_passat_tsi",
     "teknikotomatik_dq200_dq250",
-    "trbox"
+    "trbox",
+    "ecotorque_dq200_mechatronic",
+    "enginecrux_ea211_14tsi"
   ],
   "note": "Polo'nun küçük hacimli üç silindirli girişi; EA211 ailesi listede zaten 1.4 TSI olarak kayıtlı, bu araçla birlikte ailenin hacim aralığı 1.0'a genişletildi çünkü EA211 gerçekte 1.0-1.5 litre arasını kapsayan tek bir modüler aile. DQ200 kuru DSG'nin bilinen düşük hızda gecikme eğilimi burada da geçerli.",
   "provenance": {

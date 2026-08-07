@@ -22,7 +22,7 @@
     380,
     560
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 64,
     "trans": 40,
@@ -35,7 +35,8 @@
   "sources": [
     "bigskies_k4m",
     "go4trans_dp0",
-    "trbox"
+    "trbox",
+    "teknikotomatik_al4_dpo"
   ],
   "note": "Küçük gövdesi şehir içinde pratik, yedek parça ve servis ağı Türkiye'de çok güçlü. Otomatiği ise PSA ile ortak AL4/DPO kutusu (Renault'da DPO adıyla geçiyor) ve selenoid valf arızası, aşırı ısınma ile vites geçişlerinde vuruntu bu ailenin yaygın şikayetleri.",
   "provenance": {

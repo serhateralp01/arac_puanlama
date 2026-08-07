@@ -22,7 +22,7 @@
     450,
     650
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 40,
@@ -35,7 +35,8 @@
   "sources": [
     "bigskies_k4m",
     "go4trans_dp0",
-    "trbox"
+    "trbox",
+    "teknikotomatik_al4_dpo"
   ],
   "note": "Geniş ve konforlu bir D segment sedan. Otomatiği PSA ile ortak AL4/DPO kutusu ve selenoid valf arızası ile aşırı ısınma bu ailenin bilinen sorunları. Yaşı nedeniyle elektronik aksam (o dönem Renault'un bilinen zayıf noktası) ayrıca kontrol edilmeli.",
   "provenance": {

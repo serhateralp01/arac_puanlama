@@ -21,7 +21,7 @@
     1000,
     1450
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 50,
     "trans": 72,
@@ -34,7 +34,8 @@
   "sources": [
     "techturkey_mini_f56_b38",
     "teknikotomatik_aisin_6ileri",
-    "trbox"
+    "trbox",
+    "asrgearbox_eat6"
   ],
   "note": "MINI'nin ilk gerçek SUV'u; motor ve şanzıman Cooper F56 ile birebir aynı aileden (bmw-b38 + Aisin EAT6), bu araştırmanın bir uzantısı. SUV gövdesi Cooper'a göre daha fazla iç hacim ve konfor sunuyor ama sürüş keyfi hafif geriliyor.",
   "provenance": {

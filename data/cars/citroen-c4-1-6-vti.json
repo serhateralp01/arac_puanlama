@@ -19,7 +19,7 @@
     450,
     700
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 32,
@@ -32,7 +32,8 @@
   "sources": [
     "go4trans_dp0",
     "peugeotengine_psa_honest",
-    "trbox"
+    "trbox",
+    "teknikotomatik_al4_dpo"
   ],
   "note": "Otomatiği eski nesil AL4 kutusu ve bu kutunun selenoid valf arızaları, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme sorunları çok yaygın. Araç ucuz ve geniş ama otomatik almak istiyorsanız bu kutudan uzak durmanızı öneririm.",
   "provenance": {

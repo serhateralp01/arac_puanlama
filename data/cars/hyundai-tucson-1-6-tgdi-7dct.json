@@ -1,0 +1,82 @@
+{
+  "id": "hyundai-tucson-1-6-tgdi-7dct",
+  "name": "Hyundai Tucson 1.6 T-GDI 7DCT",
+  "tag": "oto: 7 ileri kuru DCT · 177hp",
+  "brand_group": "Hyundai",
+  "years": "2016-2020",
+  "specs": {
+    "hp": 177,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "hyundai-7dct",
+    "body_type": "SUV",
+    "engine_id": "hyundai-gamma16-tgdi",
+    "kerb_weight_kg": 1449,
+    "torque_nm": 265,
+    "fuel_consumption_l_100km": 7.2
+  },
+  "price_band_k_try": [
+    1100,
+    1750
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 58,
+    "trans": 46,
+    "fun": 59,
+    "comf": 78,
+    "age": 67,
+    "cost": 70,
+    "liq": 56
+  },
+  "sources": [
+    "carchecker_tucson_tgdi",
+    "andcetin_dct_tucson",
+    "trbox"
+  ],
+  "note": "Aynı nesil (TL) Tucson'un listede zaten kayıtlı dizel-otomatik kardeşinden (hyundai-tucson-1-6-crdi-7dct) farkı, U2 dizel yerine yeni turbolu benzinli Gamma T-GDI motoru. Şanzıman aynı aile: D7UF1/D7UF2 kuru çift kavramalı kutunun T-GDI'ye özel varyantı, listede zaten kayıtlı hyundai-7dct ailesiyle aynı. Türkiye ikinci el piyasasında dizel kadar yaygın değil, bu yüzden liq puanı dizel kardeşinden düşük tutuldu; motor puanı ise dizeldeki DPF/EGR riskinden farklı, daha ölçülü bir yağ tüketimi sorunu taşıdığı için biraz daha yüksek.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 ikinci dalga, on yedinci tur: yeni motor ailesi (hyundai-gamma16-tgdi) + mevcut şanzıman ailesi (hyundai-7dct). Kullanıcının önceki turda not ettiği 'Hyundai Tucson/Kia Sportage yeni nesil T-GDI benzinli seçenekleri' adayı.",
+    "specs_source": "Güç/tork/ağırlık verisi ultimatespecs.com, auto-data.net ve encycarpedia.com'un WebSearch'te birbirini doğrulayan sonuçlarından alındı (177 PS/265 Nm @ 1449 kg, 4x2 DCT); combined tüketim (7.2 l/100km) motoreu.com'un DCT varyantı için verdiği rakam. autoevolution.com ve auto-data.net bu oturumda erişim engelli olduğu için doğrudan kullanılamadı, ama rakamlar birden fazla bağımsız spec sitesinde örtüşüyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "carchecker_tucson_tgdi"
+      ],
+      "reasoning": "Gamma II T-GDI (hyundai-gamma16-tgdi) motor ailesinin temel puanı 58. Bu aracın motor puanı (58) temel puanla birebir aynı. Ailenin bilinen zaafı: erken üretim (2018 yüz germe öncesi) araçlarda yağ tüketimi bildiriliyor, yüz germe sonrası büyük ölçüde giderildiği aktarılıyor. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: tek kaynak (C seviyesi) tekrarlayan ama üretici tarafından zamanla iyileştirilmiş, motoru komple bitirmeyen bir risk örüntüsü bildiriyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dct_tucson",
+        "carchecker_tucson_tgdi"
+      ],
+      "reasoning": "7DCT (hyundai-7dct) şanzıman ailesinin temel puanı 46. Bu aracın trans puanı (46) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: kaynaklar, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor; T-GDI'nin daha yüksek torku (265 Nm), dizel kardeşin (320 Nm) torkuna yakın olduğu için kutunun aynı zaaf profilini taşıdığı kabul edildi.",
+      "assessed_at": "2026-08-07"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2018.0, yani 2026 itibarıyla yaşı yaklaşık 8.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 17.6. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 67 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    },
+    "fun": {
+      "band": "nötr",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 122 hp/ton (normalize 57/100), tork/ağırlık oranı 183 Nm/ton (normalize 41/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +6) temel puan 59. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

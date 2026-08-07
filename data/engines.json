@@ -2373,11 +2373,20 @@
     "aspiration": "Turbo",
     "base_score": 72,
     "maintenance": "Triger kayışı 5 yılda/90.000 km'de bir değiştirilmeli.",
-    "known_issues": [],
-    "sources": [
-      "oreateai_ea111_vs_ea211"
+    "known_issues": [
+      {
+        "issue": "Erken üretim motorlarda piston segmanı tasarımı ve PCV sistemiyle ilişkili, kısa mesafe kullanımda artan yağ tüketimi",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": ["enginecrux_ea211_14tsi"]
+      }
     ],
-    "note": "EA111'in halefi; triger kayışa dönmüş ve önceki neslin zincir sorunlarını geride bırakmış sayılıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak EA111'e göre 'belirgin biçimde daha güvenilir ve sağlam' diyor, kayış değişimi planlanabilir bir kalem; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
+    "sources": [
+      "oreateai_ea111_vs_ea211",
+      "enginecrux_ea211_14tsi"
+    ],
+    "note": "EA111'in halefi; triger kayışa dönmüş ve önceki neslin zincir sorunlarını geride bırakmış sayılıyor — ikinci kaynak bu zincir sorununun EA211'de tamamen kalktığını doğruluyor, ama erken üretimde ölçülü bir yağ tüketimi riski bildiriyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): iki kaynak da EA111'e göre 'belirgin biçimde daha güvenilir' diyor, kayış değişimi planlanabilir bir kalem; iki kaynak da C seviyesi olduğu için 85 üstüne çıkarılmadı.]"
   },
   "vag-ea288": {
     "id": "vag-ea288",
@@ -2397,12 +2406,28 @@
     "cylinders": 4,
     "aspiration": "Turbo",
     "base_score": 76,
-    "maintenance": "AdBlue sistemi ve yağ pompası kayışı periyodik kontrol edilmeli.",
-    "known_issues": [],
-    "sources": [
-      "torquecars_ea288_avoid_problems"
+    "maintenance": "AdBlue sistemi ve yağ pompası kayışı periyodik kontrol edilmeli; EGR valfi 80.000-120.000 km aralığında karbon birikimi açısından izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "170 PS varyantlarının bir kısmında triger zinciri uzamasına bağlı karakteristik tıkırtı",
+        "onset_km": 150000,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": ["enginefinders_ea288_20tdi"]
+      },
+      {
+        "issue": "Euro 6 araçlarda AdBlue sisteminde kristalleşen enjektör/pompa arızası ve NOx sensörü bozulması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": ["enginefinders_ea288_20tdi"]
+      }
     ],
-    "note": "EA189'un halefi, emisyon donanımı baştan yeniden tasarlanmış aile. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: kaynak 'VAG'ın en temiz ve verimli dizellerinden biri, belirgin bir evrimsel sıçrama' diyor, EA189'un temel sorunları büyük ölçüde çözülmüş; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
+    "sources": [
+      "torquecars_ea288_avoid_problems",
+      "enginefinders_ea288_20tdi"
+    ],
+    "note": "EA189'un halefi, emisyon donanımı baştan yeniden tasarlanmış aile. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: iki kaynak da 'VAG'ın en temiz ve verimli dizellerinden biri' diyor, EA189'un temel sorunları büyük ölçüde çözülmüş; bildirilen kalemler (AdBlue, EGR, belirli varyantlarda zincir) planlanabilir bakım/izleme kalemleri, tasarım hatası değil; iki kaynak da C seviyesi olduğu için 85 üstüne çıkarılmadı.]"
   },
   "vag-ea827": {
     "id": "vag-ea827",
@@ -3624,5 +3649,49 @@
       "mercedesassistance_m274"
     ],
     "note": "W205 C-Class ve W213 E-Class'ta kullanılan 2.0 turbo; listedeki M270'in (1.6 turbo) büyük kardeşi, benzer triger zinciri zafiyetini taşıyor. Düzenli bakımla 300.000 km'ye ulaşılabildiği bildiriliyor. [base_score gerekçesi: 50-64 (orta risk): tek kaynak (C) tekrarlayan ama kullanım biçimine bağlı bir risk örüntüsü bildiriyor; M270'le aynı bandın üst tarafına yerleştirildi çünkü kaynak motoru rakiplerine göre daha güvenilir olarak tanımlıyor.]"
+  },
+  "bmw-n20": {
+    "id": "bmw-n20",
+    "names": ["N20", "N20B20"],
+    "supplier": "BMW",
+    "fuel": "Benzin",
+    "displacements_l": [2.0],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 38,
+    "maintenance": "Yağ değişimi BMW'nin kendi önerdiği 30.000 km aralığından daha sık (10.000-15.000 km) yapılmalı; bu, triger zinciri kılavuzunun erken yıpranma riskini azaltıyor.",
+    "known_issues": [
+      {
+        "issue": "Triger zinciri kılavuzunun (plastik) zamanla gevrekleşip parçalanması; kopan parçalar krank mili dişlisine sıkışarak motoru komple bitirebiliyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "motor ölür",
+        "sources": ["carcomplaints_n20_settlement", "autodoc_n20_chain"]
+      }
+    ],
+    "sources": ["carcomplaints_n20_settlement", "autodoc_n20_chain"],
+    "note": "F30/F31 3 Serisi'nin 2011-erken 2015 üretim 320i'lerinde kullanılan dört silindirli turbo motor; F30 320d'nin listede zaten kayıtlı olan dizel motoru N47'den farklı bir aile. Sorun N47'nin arka triger zincirinden farklı: burada zincir motorun önünde ama kılavuz parçasının kırılması yine ağır onarım gerektiriyor. Kusur, bireysel forum şikayetlerinin ötesinde ABD'de federal mahkemede Şubat 2021'de kesinleşen bir grup davası ve BMW'nin resmi 7 yıl/70.000 mil garanti uzatmasıyla doğrulanmış durumda; bu, projenin A/B seviyesi kurumsal kanıt eşiğine N47'den daha yakın bir kaynak. B48 (2015 sonrası yüz germe motoru) bu aileye dahil edilmedi, çünkü N20'nin aksine yaygın bir arıza örüntüsü belgeli değil; ayrı bir aile açılmadan bu araç kaydına dahil edilmedi. [base_score gerekçesi: 35-49 (yüksek risk) bandının N47'yle (38) aynı noktasına yerleştirildi: ikisi de motoru bitirebilen, tasarım kaynaklı bir triger zinciri kusuruna sahip ve ikisi de resmi bir garanti uzatmasıyla kabul edilmiş; N20'nin kanıtı (federal mahkeme onaylı grup davası) N47'ninkinden (forum/blog derlemesi) daha güçlü olduğu için daha düşük değil aynı puanda tutuldu.]"
+  },
+  "hyundai-gamma16-tgdi": {
+    "id": "hyundai-gamma16-tgdi",
+    "names": ["Gamma II T-GDI", "G4FJ", "1.6 T-GDI"],
+    "supplier": "Hyundai-Kia",
+    "fuel": "Benzin",
+    "displacements_l": [1.6],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 58,
+    "maintenance": "Doğrudan enfeksiyonlu (GDI) tasarım nedeniyle emme supaplarında karbon birikimi bekleniyor; periyodik temizlik ve düşük kükürtlü/kaliteli yakıt kullanımı öneriliyor.",
+    "known_issues": [
+      {
+        "issue": "Erken üretim (2018 yüz germe öncesi) araçlarda yağ tüketimi bildiriliyor; yüz germe sonrası üretimde büyük ölçüde giderildiği aktarılıyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": ["carchecker_tucson_tgdi"]
+      }
+    ],
+    "sources": ["carchecker_tucson_tgdi"],
+    "note": "Hyundai-Kia'nın atmosferik Gamma ailesinden (hyundai-gamma16-mpi, hyundai-gamma16-gdi) farklı, turbolu ve doğrudan enfeksiyonlu bir motor; Tucson TL ve Sportage QL'nin 177 beygirlik versiyonunda kullanılıyor. Aynı motor ailesinin şanzımanı (D7UF1 kuru çift kavramalı) listede zaten kayıtlı `hyundai-7dct` ailesiyle aynı; dizel U2 motoruyla paylaşılan D7UF2'nin T-GDI'ye özel varyantı. [base_score gerekçesi: 50-64 (orta risk) bandının ortası: tek kaynak (C) erken üretimde tekrarlayan ama üretici tarafından zamanla iyileştirilmiş, motoru komple bitirmeyen bir risk örüntüsü bildiriyor; hyundai-u2-16'nın (68) biraz altında tutuldu çünkü bu ailenin yalnızca tek ve C seviyesi bir kaynağı var, U2'nin iki kaynağına karşı.]"
   }
 }

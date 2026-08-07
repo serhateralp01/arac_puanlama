@@ -36,7 +36,8 @@
     "dhaber_grandland_x",
     "motor1_psa_suv_eat",
     "propeugeotspares_16hdi_egr",
-    "trbox"
+    "trbox",
+    "asrgearbox_eat6"
   ],
   "note": "PSA platformunu paylaşan Opel SUV'u; 1.6 BlueHDi/CDTI motoru listede zaten kayıtlı (DV6 ailesi, düşük puanlı bir bileşen), ama Aisin kaynaklı EAT6 kutusu ailenin güçlü tarafı — yumuşak ve tutarlı vites geçişleri yapıyor, PSA'nın kendi geliştirdiği AL4/ETG kutularından belirgin biçimde daha iyi puanlı. Bir kullanıcı yağ basıncı uyarı lambası şikayeti bildirmiş.",
   "provenance": {

@@ -19,7 +19,7 @@
     780,
     1100
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 38,
@@ -32,7 +32,9 @@
   "sources": [
     "andcetin_dq200",
     "torquecars_ea288_avoid_problems",
-    "trbox"
+    "trbox",
+    "ecotorque_dq200_mechatronic",
+    "enginefinders_ea288_20tdi"
   ],
   "note": "Golf ile aynı platformu paylaşıyor, tasarımı daha sportif ve fiyatı daha uygun. Motoru ekonomik ama otomatiği yine kuru kavramalı DQ200. Şanzıman geçmişi belgeli olmayan bir örnekten uzak durun.",
   "provenance": {
