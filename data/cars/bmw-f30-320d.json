@@ -1,0 +1,68 @@
+{
+  "id": "bmw-f30-320d",
+  "name": "BMW F30 320d",
+  "tag": "N47 · oto: ZF 8 ileri (8HP) · ~184hp",
+  "brand_group": "BMW",
+  "years": "2012-2015",
+  "specs": {
+    "hp": 184,
+    "displacement_l": 2.0,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "zf-8hp",
+    "body_type": "Sedan",
+    "engine_id": "bmw-n47"
+  },
+  "price_band_k_try": [
+    950,
+    1400
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 44,
+    "trans": 70,
+    "fun": 58,
+    "comf": 76,
+    "age": 68,
+    "cost": 68,
+    "liq": 80
+  },
+  "sources": [
+    "absolutebm_n47_chain",
+    "pistonheads_n47_chain",
+    "ultrayol_f30_kronik",
+    "otoclubturkiye_zf8hp30"
+  ],
+  "note": "BMW'nin dördüncü nesil 3 Serisi'nin (F30) en yaygın dizel-otomatik kombinasyonu; N47 motoru E90/E87'den zaten kayıtlı ama bu araç 2009 ortası zincir revizyonunun tamamen sonrasında üretildiği için puanı temel puanın (38) biraz üzerinde tutuldu. Bu turda ilk kez açılan ZF 8HP kutusu, önceki 6HP'ye göre genel olarak daha güvenilir kabul ediliyor; bilinen zaafları (yağ soğutucusu çatlağı, soğuk kalkışta adaptasyon kaybı) yapısal değil, izlenebilir bakım kalemleri. F30, listedeki en likit BMW'lerden biri.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 beşinci tur: mevcut motor ailesi (bmw-n47) + yeni şanzıman ailesi (zf-8hp)."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "düşük",
+      "sources": [
+        "absolutebm_n47_chain",
+        "pistonheads_n47_chain",
+        "ultrayol_f30_kronik",
+        "otoclubturkiye_zf8hp30"
+      ],
+      "reasoning": "N47 (bmw-n47) motor ailesinin temel puanı 38. Bu aracın motor puanı (44), temel puandan 6 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Triger zincirinin zamanla uzayıp kopması; zincir motorun arka tarafında olduğu için onarım motor sökümü gerektiriyor. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "absolutebm_n47_chain",
+        "pistonheads_n47_chain",
+        "ultrayol_f30_kronik",
+        "otoclubturkiye_zf8hp30"
+      ],
+      "reasoning": "ZF 8HP30 (zf-8hp) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ soğutucusunun (ısı eşanjörü) çatlayıp soğutma sıvısının şanzıman yağına karışması. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

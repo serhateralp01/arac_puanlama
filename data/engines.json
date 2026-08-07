@@ -2733,13 +2733,17 @@
     "id": "vag-ea111-tsi-turbo",
     "names": [
       "EA111 TSI",
+      "1.2 TSI tekli turbo",
       "1.4 TSI 122 tekli turbo",
+      "CBZA",
+      "CBZB",
       "CAXA",
       "CTHD"
     ],
     "supplier": "Volkswagen Group",
     "fuel": "Benzin",
     "displacements_l": [
+      1.2,
       1.4
     ],
     "cylinders": 4,
@@ -2761,7 +2765,7 @@
       "enginecrux_ea111_vs_ea211"
     ],
     "revision_sensitivity": null,
-    "note": "Jetta'nın 122 beygirlik 1.4 TSI'ı; kompresörü olmayan, tekli turbolu sadeleştirilmiş sürüm. Twincharger'a göre belirgin biçimde daha güvenilir kabul ediliyor ve düzenli bakımla 300.000 km'ye kadar sorunsuz gidebildiği bildiriliyor; buna karşılık aynı ailenin ortak zaafı olan triger zinciri/gergi sesi bu sürümde de görülüyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): zincir/gergi sorunu gerçek ve tekrarlayan ama motoru bitiren bir arıza değil; tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
+    "note": "Jetta'nın 122 beygirlik 1.4 TSI'ı; kompresörü olmayan, tekli turbolu sadeleştirilmiş sürüm. Twincharger'a göre belirgin biçimde daha güvenilir kabul ediliyor ve düzenli bakımla 300.000 km'ye kadar sorunsuz gidebildiği bildiriliyor; buna karşılık aynı ailenin ortak zaafı olan triger zinciri/gergi sesi bu sürümde de görülüyor. Skoda Fabia'nın 105 beygirlik 1.2 TSI'ı (CBZA/CBZB) bu aileye 2026-08-07'de eklendi: aynı tekli turbo, aynı zincir tahrikli mimari, yalnızca hacmi ve gücü küçük — EA211'in 1.0/1.4/1.5 arasında yaptığı hacim genişletmesiyle aynı mantık (bkz. docs/ARCHITECTURE.md MK-08). [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): zincir/gergi sorunu gerçek ve tekrarlayan ama motoru bitiren bir arıza değil; tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
   },
   "psa-ec5": {
     "id": "psa-ec5",

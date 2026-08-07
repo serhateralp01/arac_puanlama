@@ -59,8 +59,8 @@ h2 .num{color:var(--sage);font-family:var(--mono);font-size:.46em;vertical-align
 .card .inc{color:var(--sage);font-size:10.5px;line-height:1.4;margin-top:8px}
 .card .exc{color:var(--red);font-size:10.5px;line-height:1.4;margin-top:4px}
 
-/* ---------- kriter kartı: canlı katkı + gerekçe + bantlar (Y-06 ikinci katman) ---------- */
-.contrib{font-family:var(--mono);font-size:10px;color:var(--blue);margin-top:5px}
+/* ---------- kriter kartı: ağırlık payı + gerekçe + bantlar (Y-06 ikinci katman) ---------- */
+.contrib{font-family:var(--body);font-size:11px;line-height:1.4;color:var(--blue);margin-top:6px}
 .card .wr{color:var(--dim);font-size:10.8px;line-height:1.5;margin-top:10px;padding-top:9px;border-top:1px dashed var(--line)}
 .banddet{margin-top:11px;font-size:11px}
 .banddet summary{cursor:pointer;color:var(--sage);font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.04em;list-style:none}
@@ -183,6 +183,8 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .filterpanel{display:none;margin-top:9px;padding-top:9px;border-top:1px solid var(--line)}
 .filterpanel.open{display:block}
 .filterpanel .fgroup:last-child{margin-bottom:0}
+.kritpanel .lede{margin-bottom:14px}
+.kritpanel .note{margin-top:14px}
 @media(max-width:640px){.ctrlbar .count{margin-left:0;text-align:left;width:100%}}
 .legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
 .legend .sw{display:inline-block;width:13px;height:10px;border-radius:3px;vertical-align:middle;margin-right:5px}

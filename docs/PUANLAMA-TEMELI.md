@@ -329,11 +329,13 @@ Bu bölüm, sistemin bugün **eksik** olan taraflarını sayar. Belgenin güveni
 
 ## 7. Sıradaki adımlar, öncelik sırasıyla
 
-Y-06'nın arayüz katmanı bitti (2026-08-07): `#kriterler` ekranındaki her kart artık
-ağırlık gerekçesini ve puan bantlarını gösteriyor, `#metodoloji`'ye fiyat kriterine
-ayrı bir bölüm eklendi, ağırlık kutularının yanında canlı katkı göstergesi var ve
-araç detay panelinde "bu araç neden bu puanı aldı" dökümü gerçek kanıta (evidence)
-bağlı. Ayrıntısı `docs/ROADMAP.md` Y-06 ikinci katman kaydında.
+Y-06'nın arayüz katmanı bitti (2026-08-07): liste ekranındaki "Kriterleri düzenle"
+panelinin her kartı artık ağırlık gerekçesini ve puan bantlarını gösteriyor (bu
+panel önce ayrı bir `#kriterler` ekranıydı, kullanıcı isteğiyle aynı gün liste
+ekranına taşındı), `#metodoloji`'ye fiyat kriterine ayrı bir bölüm eklendi, ağırlık
+kutularının altında girilen ağırlığın toplam içindeki payını gösteren bir gösterge
+var ve araç detay panelinde "bu araç neden bu puanı aldı" dökümü gerçek kanıta
+(evidence) bağlı. Ayrıntısı `docs/ROADMAP.md` Y-06 ikinci katman kaydında.
 
 1. **`comf` kararı.** Puanlar artık motor/trans için kanıta bağlı; §3.4'teki iki
    açıklamadan hangisinin doğru olduğuna karar verip ya bantları yeniden kalibre etmek

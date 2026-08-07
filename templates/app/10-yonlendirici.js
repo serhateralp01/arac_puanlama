@@ -4,7 +4,7 @@
    değişiyor; bu yüzden ekran değiştirmek hiçbir durumu sıfırlamıyor. Yol
    adları bir gün gerçek sunucu adreslerine ("/liste") birebir çevrilebilsin
    diye seçildi; gerekçesi docs/ARCHITECTURE.md MK-07 kaydında. */
-const ROUTES=['giris','ana','kriterler','liste','kiyaslama','metodoloji','katki','kaynaklar','iletisim'];
+const ROUTES=['giris','ana','liste','kiyaslama','metodoloji','katki','kaynaklar','iletisim'];
 const DEFAULT_ROUTE='ana';
 const ONBOARD_KEY='arac_puan_giris_gorundu';
 
@@ -25,8 +25,9 @@ function showScreen(name){
  if(window.scrollY>0)window.scrollTo({top:0,behavior:'instant'});
  if(name==='kiyaslama')renderCompare();
  /* Ana ekranın "en yüksek puanlı beş araç" bulgusu şu anki ağırlık ayarına
-    bağlı; ekrana her dönüşte yeniden hesaplanmazsa kullanıcı kriterler
-    ekranında ağırlığı değiştirip geri döndüğünde eski bir sonuç görür. */
+    bağlı; ekrana her dönüşte yeniden hesaplanmazsa kullanıcı liste
+    ekranındaki kriter panelinde ağırlığı değiştirip geri döndüğünde eski
+    bir sonuç görür. */
  if(name==='ana')renderAna();
 }
 

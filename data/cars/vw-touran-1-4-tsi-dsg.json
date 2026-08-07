@@ -1,0 +1,65 @@
+{
+  "id": "vw-touran-1-4-tsi-dsg",
+  "name": "VW Touran 1.4 TSI DSG",
+  "tag": "oto: 7 ileri KURU DSG (DQ200) · 140hp",
+  "brand_group": "Volkswagen",
+  "years": "2010-2015",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "MPV",
+    "engine_id": "vag-ea111-tsi-tc"
+  },
+  "price_band_k_try": [
+    620,
+    950
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 36,
+    "trans": 38,
+    "fun": 46,
+    "comf": 78,
+    "age": 56,
+    "cost": 58,
+    "liq": 60
+  },
+  "sources": [
+    "autoscore_ea111_twincharger",
+    "enginecrux_ea111_vs_ea211",
+    "otoclubturkiye_touran_14tsi"
+  ],
+  "note": "Listedeki ilk MPV (çok amaçlı araç) kaydı; 140 beygirlik 1.4 TSI'ı turbo+kompresör ikilisi kullanan twincharger ailesinden (vag-ea111-tsi-tc, listede zaten kayıtlı — 122/160/170 beygirlik uygulamalarla aynı aile), tekli turbolu 122 beygirlik sürümle (vag-ea111-tsi-turbo) karıştırılmamalı. Oto Club Türkiye forumundaki tartışma, tam bu ailenin bilinen zaafı olan piston segman yatağı çatlamasını ve DQ200'ün vites sarsıntısı şikayetlerini doğruluyor — iki kaynak birbirini tutarlı biçimde destekliyor. Yedi koltuğa kadar çıkabilen gövdesi aileler için pratik bir seçenek.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 beşinci tur: mevcut motor/şanzıman aileleriyle (vag-ea111-tsi-tc, vag-dq200) düşük riskli genişleme; ilk MPV kaydı."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "düşük",
+      "sources": [
+        "autoscore_ea111_twincharger",
+        "enginecrux_ea111_vs_ea211",
+        "otoclubturkiye_touran_14tsi"
+      ],
+      "reasoning": "EA111 TSI twincharger (vag-ea111-tsi-tc) motor ailesinin temel puanı 36. Bu aracın motor puanı (36) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger zinciri gergisinin soğuk kalkışta yağ basıncı gecikmesi nedeniyle zincirin uzaması, ağır vakalarda dişten atlaması. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "düşük",
+      "sources": [
+        "autoscore_ea111_twincharger",
+        "enginecrux_ea111_vs_ea211",
+        "otoclubturkiye_touran_14tsi"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

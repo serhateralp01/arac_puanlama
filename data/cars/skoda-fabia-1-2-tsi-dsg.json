@@ -1,0 +1,65 @@
+{
+  "id": "skoda-fabia-1-2-tsi-dsg",
+  "name": "Skoda Fabia 1.2 TSI DSG",
+  "tag": "oto: 7 ileri KURU DSG (DQ200) · 105hp",
+  "brand_group": "Skoda",
+  "years": "2010-2014",
+  "specs": {
+    "hp": 105,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea111-tsi-turbo"
+  },
+  "price_band_k_try": [
+    480,
+    720
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 56,
+    "trans": 38,
+    "fun": 54,
+    "comf": 66,
+    "age": 58,
+    "cost": 70,
+    "liq": 48
+  },
+  "sources": [
+    "enginecrux_ea111_vs_ea211",
+    "andcetin_dq200",
+    "donanimhaber_fabia_12tsi_dsg"
+  ],
+  "note": "Fabia II'nin (5J kasa) 105 beygirlik 1.2 TSI'ı; motor ailesi (vag-ea111-tsi-turbo) bu turda 1.4'ten 1.2'ye genişletildi, çünkü ikisi de aynı tekli turbolu, zincir tahrikli mimariyi paylaşıyor — yalnızca hacim ve güç farklı. DQ200 kuru DSG listede zaten kayıtlı ve kavrama/mekatronik riski bu aracı da aynı şekilde etkiliyor. DonanımHaber forumunda düzenli bakımla sorunsuz giden örnekler bildirilirken bir kullanıcı 2.400 km gibi çok düşük bir kilometrede DSG'nin acil moda geçtiğini aktarıyor; bu izole bir erken arıza olarak değerlendirildi.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 beşinci tur: motor ailesi hacim genişletmesiyle (MK-08 mantığı) düşük riskli genişleme."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "enginecrux_ea111_vs_ea211",
+        "andcetin_dq200",
+        "donanimhaber_fabia_12tsi_dsg"
+      ],
+      "reasoning": "EA111 TSI (vag-ea111-tsi-turbo) motor ailesinin temel puanı 56. Bu aracın motor puanı (56) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger zinciri ve gergi sesi, ilerlerse zincir/gergi değişimi gerektiriyor. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "enginecrux_ea111_vs_ea211",
+        "andcetin_dq200",
+        "donanimhaber_fabia_12tsi_dsg"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

@@ -18,11 +18,22 @@
       <div class="searchbar"><span class="ic">&#128269;</span><input type="text" id="search" placeholder="model, marka, yakıt, hacim ara..."><span class="clr" id="searchclr">temizle</span></div>
       <button type="button" class="btn filttoggle" id="filttoggle" aria-expanded="false" aria-controls="filterpanel">Filtreler<span class="fbadge" id="filtbadge"></span></button>
       <button type="button" class="btn ghost small" id="filtclear">Filtreleri temizle</button>
+      <button type="button" class="btn filttoggle" id="krittoggle" aria-expanded="false" aria-controls="kritpanel">Kriterleri düzenle</button>
       <div class="count" id="count"></div>
     </div>
 
     <div class="filterpanel" id="filterpanel">
       <div id="filters"></div>
+    </div>
+
+    <!-- Kriter ağırlıklarını ayrıntılı düzenleme paneli buraya taşındı; önceden
+         ayrı bir #kriterler ekranıydı, kullanıcı isteğiyle listenin bulunduğu
+         ekrana gönderildi ki ağırlığı değiştirmek için sekme değiştirmek
+         gerekmesin. Aynı katlanabilir panel deseni (Y-05) kullanıldı. -->
+    <div class="filterpanel kritpanel" id="kritpanel">
+      <p class="lede">Bir araç yedi kriter üzerinden puanlanıyor, fiyat ise sekizinci kriter olarak listenin tamamına göre otomatik hesaplanıyor. Aşağıdaki kutulara yazarak her kriterin toplam puandaki ağırlığını kendiniz belirleyebilirsiniz; beğendiğiniz ayarı kaydedip daha sonra tekrar yükleyebilirsiniz. Puanların kendisini buradan değiştiremezsiniz, çünkü puanlar kayıtlı kanıta dayanıyor ve yalnızca gerekçesiyle birlikte veri dosyalarından değişiyor.</p>
+      <div class="grid" id="rubric"></div>
+      <div class="note">Kriterler birbiriyle örtüşmeyecek şekilde tanımlandı. Motor güveni yalnızca motorun arıza riskini ölçer, performansı değil; performans sürüş keyfi sütununa yazılır. Bir aracın ne sıklıkla bozulduğu ile bozulduğunda ne kadara mal olduğu da ayrı konulardır. Her kartın altındaki iki cümle bu sınırları gösterir.</div>
     </div>
   </div>
 

@@ -1,9 +1,9 @@
 /* ---------- ağırlık arayüzü ---------- */
-/* Hazır ağırlık setleri iki ekranda birden duruyor: liste ekranında hızlı
-   geçiş yapmak için, kriterler ekranında ise kriterlerin tanımıyla birlikte.
-   İkisi de aynı W nesnesini düzenliyor, bu yüzden hangisinden değiştirilirse
-   değiştirilsin diğeri de güncel kalıyor. */
-const PRESET_BOXES=['presets','presetsFull'];
+/* Hazır ağırlık seti düğmeleri tek bir yerde: liste ekranının denetim çubuğunda.
+   Önceden ayrıca bir #kriterler ekranında da tekrarlanıyordu; kullanıcı isteğiyle
+   ayrıntılı düzenleme paneli de listenin bulunduğu ekrana taşındığı için tekrar
+   gerekmedi (bkz. #kritpanel, aşağıda). */
+const PRESET_BOXES=['presets'];
 function buildPresetButtons(){
  PRESET_BOXES.forEach((boxId,bi)=>{
   const pBox=document.getElementById(boxId);
@@ -23,15 +23,33 @@ function buildPresetButtons(){
   const loadBtn=document.createElement('button');loadBtn.className='btn ghost';loadBtn.textContent='Kaydedilmiş ayarı yükle';
   loadBtn.onclick=()=>{try{const s=localStorage.getItem('arac_puan_agirlik');if(s){const o=JSON.parse(s);ORDER.forEach(k=>{if(o[k]!==undefined)W[k]=o[k];});syncWeights();recalcAll();}}catch(e){}};
   pBox.appendChild(loadBtn);
-  if(boxId==='presets'){
-   const link=document.createElement('a');link.href='#kriterler';link.className='btn ghost';
-   link.style.textDecoration='none';link.textContent='Kriterleri ayrıntılı oku';
-   pBox.appendChild(link);}
   /* "Kaydedildi" bildirimi yalnızca birinci kutuda; iki ayrı id olmaması için. */
   if(bi===0){const msg=document.createElement('span');msg.className='savemsg';msg.id='savemsg';msg.textContent='Kaydedildi';pBox.appendChild(msg);}
  });
 }
 function showSaved(){const m=document.getElementById('savemsg');if(!m)return;m.classList.add('show');setTimeout(()=>m.classList.remove('show'),1600);}
+
+/* ---------- kriter paneli: aç/kapa (Y-05 desenini tekrar ediyor) ---------- */
+/* Ayrıntılı kriter kartları (tanım, bant, ağırlık) önceden ayrı bir ekrandı;
+   kullanıcı "araç listesinin olduğu yere gönder" dedi, bu yüzden filtre paneliyle
+   birebir aynı katlanabilir/hatırlanan panel desenine taşındı. İlk ziyarette
+   kapalı başlıyor ki kullanıcı önce tabloyu görsün. */
+const KRIT_PANEL_KEY='arac_puan_kriter_paneli';
+const kritPanel=document.getElementById('kritpanel');
+const kritToggle=document.getElementById('krittoggle');
+function setKritPanel(open){
+ if(!kritPanel)return;
+ kritPanel.classList.toggle('open',open);
+ if(kritToggle)kritToggle.setAttribute('aria-expanded',open?'true':'false');
+ try{localStorage.setItem(KRIT_PANEL_KEY,open?'1':'0');}catch(e){}
+}
+if(kritToggle)kritToggle.onclick=()=>setKritPanel(!kritPanel.classList.contains('open'));
+(function(){
+ let open=false;
+ try{open=localStorage.getItem(KRIT_PANEL_KEY)==='1';}catch(e){open=false;}
+ if(kritPanel)kritPanel.classList.toggle('open',open);
+ if(kritToggle)kritToggle.setAttribute('aria-expanded',open?'true':'false');
+})();
 
 /* ---------- puan bantları (Y-06 ikinci katman) ---------- */
 /* Her kriterin çapalı bant tanımı data/criteria.json'dan geliyor (build.py bant
@@ -48,24 +66,25 @@ function bandsHTML(c){
  return '<details class="banddet"><summary>Puan bantlarını göster</summary><div class="bandlist">'+rows+'</div></details>';
 }
 
-/* ---------- canlı ağırlık katkısı (Y-06 ikinci katman) ---------- */
-/* Ağırlık kutusunun kendisi bir kriterin toplam puandaki payını göstermiyor,
-   çünkü pay yalnızca ağırlığa değil o kriterin listedeki ortalama puanına da bağlı:
-   ağırlığı yüksek ama listede herkesin aynı puanı aldığı bir kriter fiilen az
-   ayırt edici olabilir. Bu yüzden gösterge ham ağırlık yüzdesi değil, ağırlık ×
-   listenin ortalama puanı üzerinden hesaplanan fiili katkı payı. */
-function avgScoreFor(k){return CARS.reduce((s,c)=>s+c.S[k],0)/CARS.length;}
-function contribShares(){
- const weighted={};let sum=0;
- ORDER.forEach(k=>{const w=Math.max(0,+W[k]||0),avg=avgScoreFor(k);weighted[k]=w*avg;sum+=weighted[k];});
- const out={};ORDER.forEach(k=>out[k]=sum>0?100*weighted[k]/sum:0);
+/* ---------- ağırlık payı göstergesi ---------- */
+/* Önceki sürümde burada "fiili katkı" diye ağırlığı listenin ortalama puanıyla
+   çarpan bir sayı gösteriliyordu; kullanıcı bunun ne anlama geldiğinin belli
+   olmadığını, kendi belirlediği ağırlığın payının doğrudan görünmesi gerektiğini
+   söyledi. Gösterge bu yüzden basitleştirildi: sadece kullanıcının kendi yazdığı
+   ağırlığın, ağırlık toplamı içindeki payı — başka hiçbir sayıyla karışmıyor. */
+function weightShares(){
+ const sw=sumW();
+ const out={};
+ ORDER.forEach(k=>{out[k]=sw>0?100*Math.max(0,+W[k]||0)/sw:0;});
  return out;
 }
 function updateContrib(){
- const shares=contribShares();
+ const shares=weightShares();
  document.querySelectorAll('[data-contrib]').forEach(el=>{
-  const k=el.dataset.contrib,w=+W[k]||0;
-  el.textContent=w<=0?'katkısı yok (ağırlık 0)':('fiili katkı ≈ %'+shares[k].toFixed(0));
+  const k=el.dataset.contrib,w=Math.max(0,+W[k]||0);
+  el.textContent=w<=0
+   ?'Bu kriterin ağırlığı sıfır, toplam puana katkısı yok.'
+   :('Bu kriter, girdiğiniz ağırlıkların toplamının %'+shares[k].toFixed(0)+'\'ini taşıyor.');
  });
 }
 

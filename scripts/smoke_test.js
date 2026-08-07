@@ -127,7 +127,7 @@ async function dumpDebug(label) {
     if (ALWAYS_SCREENSHOT) await dumpDebug('01-yuklendi');
 
     const rows = await page.locator('#body tr.main').count();
-    check('bütün araçlar listeleniyor', rows === 221, `${rows} satır`);
+    check('bütün araçlar listeleniyor', rows === 228, `${rows} satır`);
 
     check('JS hatası yok', errors.length === 0, errors.slice(0, 3).join(' | '));
 
@@ -138,22 +138,27 @@ async function dumpDebug(label) {
     check('ağırlık toplamı 100', sumText.includes('100'), sumText.replace(/\n/g, ' '));
 
     // Y-06 ikinci katman: her kritere ağırlık gerekçesi, bantlı yedi kriterin
-    // hepsine puan bandı açılır paneli ve canlı katkı göstergesi eklendi.
+    // hepsine puan bandı açılır paneli ve ağırlık payı göstergesi eklendi.
+    // Kriter kartları artık ayrı bir ekranda değil, liste ekranındaki katlanabilir
+    // #kritpanel içinde (kullanıcı isteğiyle taşındı); paneli açmadan içindeki
+    // öğeler tıklanabilir olmuyor, count() ise gizliyken de çalışıyor.
     const wrCount = await page.locator('#rubric .wr').count();
     check('ağırlık gerekçesi her kartta var', wrCount === 8, `${wrCount} kart`);
     const bandToggles = await page.locator('#rubric .banddet').count();
     check('puan bandı paneli bantlı yedi kriterde var', bandToggles === 7, `${bandToggles} panel`);
-    // Panel #liste'de gizli olduğu için tıklanabilir olması önce kriterler
-    // ekranına geçmeyi gerektiriyor; count() gizliyken de çalışır ama click() çalışmaz.
-    await page.click('.nav a[data-route="kriterler"]');
+    const kritPanelClosed = !(await page.locator('#kritpanel').isVisible());
+    check('kriter paneli ilk ziyarette kapalı', kritPanelClosed);
+    await page.click('#krittoggle');
     await page.waitForTimeout(150);
+    const kritPanelOpen = await page.locator('#kritpanel.open').isVisible();
+    check('kriter düğmesi paneli açıyor', kritPanelOpen);
     await page.locator('#rubric .banddet summary').first().click();
     await page.waitForTimeout(150);
     const bandRows = await page.locator('#rubric .banddet[open] .bandrow').count();
     check('puan bantları açılınca beş satır görünüyor', bandRows === 5, `${bandRows} satır`);
     const contribTexts = await page.locator('#rubric .contrib').allInnerTexts();
-    const contribOk = contribTexts.length === 8 && contribTexts.every((t) => /fiili katkı|katkısı yok/.test(t));
-    check('canlı katkı göstergesi sekiz kartta da doluyor', contribOk, contribTexts.join(' | '));
+    const contribOk = contribTexts.length === 8 && contribTexts.every((t) => /taşıyor|katkısı yok/.test(t));
+    check('ağırlık payı göstergesi sekiz kartta da doluyor', contribOk, contribTexts.join(' | '));
 
     const refs = await page.locator('#refs li').count();
     check('kaynak listesi dolu', refs > 40, `${refs} kaynak`);
@@ -172,8 +177,8 @@ async function dumpDebug(label) {
     await page.click('.nav a[data-route="katki"]');
     await page.waitForTimeout(200);
     const ktCars = await page.locator('#ktCar option').count();
-    // 221 araç + "seçin" + "listede yok" = 223
-    check('form araç listesi veriden doluyor', ktCars === 223, `${ktCars} seçenek`);
+    // 228 araç + "seçin" + "listede yok" = 230
+    check('form araç listesi veriden doluyor', ktCars === 230, `${ktCars} seçenek`);
     const ktCrits = await page.locator('#ktCriterion option').count();
     check('form kriter listesi veriden doluyor', ktCrits > 5, `${ktCrits} seçenek`);
     // Uç nokta tanımlı değilken gönderim kapalı olmalı; sessizce başarısız
@@ -310,16 +315,13 @@ async function dumpDebug(label) {
     check('sepet ekran değişince korunuyor', kept === 2, `${kept} araç`);
     if (kept !== 2) await dumpDebug('sepet-sifirlandi');
 
-    // Ağırlık değişimi toplam puanı değiştirmeli (kriterler ekranında).
+    // Ağırlık değişimi toplam puanı değiştirmeli; kriter paneli artık liste
+    // ekranının kendi içinde olduğu için ekran değiştirmeye gerek yok.
     await page.click('.nav a[data-route="liste"]');
     await page.waitForTimeout(200);
     const before = await page.locator('#body tr.main td.tot').first().innerText();
-    await page.click('.nav a[data-route="kriterler"]');
-    await page.waitForTimeout(200);
     await page.fill('#rubric input[data-wk="fun"]', '55');
     await page.waitForTimeout(250);
-    await page.click('.nav a[data-route="liste"]');
-    await page.waitForTimeout(200);
     const after = await page.locator('#body tr.main td.tot').first().innerText();
     check('ağırlık değişimi puanı etkiliyor', before !== after, `${before} → ${after}`);
 

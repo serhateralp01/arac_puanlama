@@ -3297,5 +3297,125 @@
       "engine": "web_search",
       "found_at": "2026-08-06"
     }
+  },
+  "araclo_208_puretech": {
+    "id": "araclo_208_puretech",
+    "claim": "araclo.com'un Peugeot 208 1.2 PureTech incelemesi: motorun yağ banyolu triger kayışı taşıdığı, EAT8 otomatiğin ise segmentindeki en başarılı tork konvertörlü kutulardan biri sayıldığı ve günlük kullanımda belirgin konfor artışı sağladığı aktarılıyor.",
+    "publisher": "araclo.com",
+    "url": "https://www.araclo.com/blog/peugeot-208-1.2-puretech-inceleme-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "sikayetvar_2008_puretech_motor": {
+    "id": "sikayetvar_2008_puretech_motor",
+    "claim": "Şikayetvar'daki Peugeot 2008 PureTech motor şikayetleri sayfasında, yağ banyolu triger kayışının rutin bakımda (ör. 75.000 km) aşınmış/deforme bulunduğu, bir 2022 model örnekte 45.000 km'de ileri düzey çatlak tespit edildiği bildiriliyor.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/peugeot/2008/puretech-motor",
+    "type": "complaint-aggregator",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "sikayetvar_c3aircross_otomatik": {
+    "id": "sikayetvar_c3aircross_otomatik",
+    "claim": "Şikayetvar'daki Citroën C3 Aircross otomatik şikayetleri sayfasında bazı 2021 model EAT6 1.2 PureTech araçlarda çok düşük kilometrede (220 km ve 2.000 km) vites kutusu arızası bildirildiği; bunların erken/izole birer arıza örneği olarak değerlendirilmesi gerektiği, EAT6 ailesinin genel profilini değiştirmediği not ediliyor.",
+    "publisher": "Şikayetvar",
+    "url": "https://www.sikayetvar.com/citroen/c3-aircross/otomatik",
+    "type": "complaint-aggregator",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "donanimhaber_fabia_12tsi_dsg": {
+    "id": "donanimhaber_fabia_12tsi_dsg",
+    "claim": "DonanımHaber Forum'daki 'Skoda Fabia 1.2 TSI DSG' başlığında ve devamındaki kullanıcı deneyimlerinde, düzenli bakımla sorunsuz giden örnekler bildirilirken bazı araçlarda çok düşük kilometrede (2.400-2.500 km) DSG'nin acil moda geçtiği aktarılıyor.",
+    "publisher": "DonanımHaber Forum",
+    "url": "https://forum.donanimhaber.com/skoda-fabia-1-2-tsi-dsg--143475028",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "araclo_a3_dq200": {
+    "id": "araclo_a3_dq200",
+    "claim": "araclo.com'un Audi A3 1.4 TFSI kullanıcı sorunları sayfası: DQ200 (7 ileri kuru S tronic) şanzımanın mekatronik ünitesinde elektronik/hidrolik arızaların vites geçişinde sarsıntıya, düşük hızda duraksamaya ve 'P' konumundan çıkamamaya yol açtığını, bu kutunun VAG grubunda en çok şikayet edilen bileşenlerden biri olduğunu aktarıyor.",
+    "publisher": "araclo.com",
+    "url": "https://www.araclo.com/vehicles/audi-a3-sedan-1.4-tfsi/degerlendirmeler/kullanici-sorunlari",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "otoclubturkiye_touran_14tsi": {
+    "id": "otoclubturkiye_touran_14tsi",
+    "claim": "Oto Club Türkiye forumundaki 'Touran 1.4 TSI DSG aldım ama...' başlığında ve ilişkili tartışmalarda, 1.4 TSI'larda piston segman yatağının çatlayıp patlayabildiği, stok pistonların bu yüke dayanıksız olduğu ve 7 ileri kuru DSG'de vites sarsıntısı/ani arıza bildirildiği aktarılıyor.",
+    "publisher": "Oto Club Türkiye Forum",
+    "url": "https://www.otoclubturkiye.com/forum/topic/247466-touran-14-tsi-dsg-ald%C4%B1m-ama/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "ultrayol_f30_kronik": {
+    "id": "ultrayol_f30_kronik",
+    "claim": "ultrayol.com'un 'BMW F30 Kronik Sorunlar Rehberi' yazısı: N47 motorlarda triger zinciri, B48'de yağ kaçakları ve ZF 8HP şanzımanda soğuk kalkışta sert/gecikmeli vites geçişi ile yazılım adaptasyon kaybının F30 kuşağının bilinen zayıf noktaları arasında sayıldığını aktarıyor.",
+    "publisher": "Ultrayol",
+    "url": "https://www.ultrayol.com/tr/blog/bmw-f30-kronik-sorunlar-rehberi",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "otoclubturkiye_zf8hp30": {
+    "id": "otoclubturkiye_zf8hp30",
+    "claim": "Oto Club Türkiye forumundaki 'ZF 8HP30 Şanzıman Sorunu ve Çözümü' başlığında, kutunun yağ soğutucusunun (ısı eşanjörü) çatlayıp soğutma sıvısının şanzıman yağına karışabildiği ve bunun tespit edilip erken müdahale edilirse onarılabilir bir kalem olduğu aktarılıyor.",
+    "publisher": "Oto Club Türkiye Forum",
+    "url": "https://www.otoclubturkiye.com/forum/topic/300264-zf-8hp30-%C5%9Fanz%C4%B1man-sorunu-ve-%C3%A7%C3%B6z%C3%BCm%C3%BC/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
   }
 }

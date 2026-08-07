@@ -30,20 +30,20 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; her araç hem motor hem şanzıman tarafından kaynaklı, ortalama 2.18 |
-| Araç listesi (Y-01) | 154 → 221 araç. **SUV 1 → 28 (hedefi aştı), marka 5/5 (hedefe ulaştı: Dacia, Jeep, MINI, Cupra, Subaru)**, 2016+ 5 → 39 (hedef 40'a bir araç kaldı) |
+| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; her araç hem motor hem şanzıman tarafından kaynaklı, ortalama 2.2 |
+| Araç listesi (Y-01) | 154 → 228 araç. **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)** |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
-| Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri (220/221 araçta `evidence.motor`/`evidence.trans` dolu, SWING ağırlıkları) ve arayüz katmanı (kriter kırılımı, canlı katkı göstergesi, "neden bu puan" dökümü) tamamlandı |
+| Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 
-Denetimin bugünkü çıktısı: **0 hata, 243 uyarı**. Uyarıların ezici çoğunluğu (213) tek
+Denetimin bugünkü çıktısı: **0 hata, 252 uyarı**. Uyarıların ezici çoğunluğu tek
 bir kalemden geliyor: araçların **dört** bağımsız kaynağa ulaşmamış olması — bu, artık
 kaynaksızlıktan değil "doğrulanmış" rozetinin katı eşiğinden kaynaklanıyor. Her aracın
 en az iki kaynağı var (Y-02 derinlik turu, aşağıda).
 
 ---
 
-## Y-01 · Araç listesini genişlet ve kapsamı dengele — **başlandı**
+## Y-01 · Araç listesini genişlet ve kapsamı dengele — **üç hedef de karşılandı**
 
 **Öncelik: yüksek.** Ürünün değeri doğrudan buna bağlı; kimse aradığı aracı bulamadığı
 bir listeyi ikinci kez açmaz.
@@ -188,19 +188,56 @@ bileşenli 🟢 ekler).
 
 **Sonuç (beşinci tur):** araç sayısı 212 → 221. `validate.py` hâlâ 0 hata.
 
-**Bitmiş sayılma ölçütü — üç şarttan ikisi artık karşılandı, üçüncüsü bir araç
-uzaklıkta.** SUV sayısı hedefi aştı (28/25 ✅). **Marka şartı karşılandı (5/5 ✅:
-Dacia, Jeep, MINI, Cupra, Subaru).** 2016 sonrası araç sayısı 39/40 — tek bir araç
-daha eklenince bu madde de biter. `validate.py` hâlâ 0 hata veriyor.
+**Ara değerlendirme — üç şarttan ikisi karşılandı, üçüncüsü bir araç uzaklıkta.**
+SUV sayısı hedefi aştı (28/25 ✅). **Marka şartı karşılandı (5/5 ✅: Dacia, Jeep,
+MINI, Cupra, Subaru).** 2016 sonrası araç sayısı 39/40.
 
-**Kalan iş.** `docs/Y01-HEDEF-LISTE.md`'nin D bölümü (Lexus, Togg, MG'nin EV/PHEV
-modelleri) artık **kalıcı olarak kapsam dışı** — kullanıcının net kararı, gerekçesi
-`docs/ARCHITECTURE.md` MK-13 kaydında. Elektrikli ve LPG'li hiçbir araç listeye
-girmeyecek. Geriye C bölümü (MG'nin geleneksel yakıtlı modelleri, varsa) kalıyor,
-o da düşük öncelikli.
+**Altıncı tur (2026-08-07) — kullanıcı "araç sayısını, araştırma sayısını, kaynak
+sayısını artır" dedi.** `docs/Y01-HEDEF-LISTE.md`'nin A/B/C bölümleri artık tamamen
+işlenmiş durumda olduğu için bu turda listede henüz hiç kapsanmayan, ama gerçekten
+Türkiye piyasasında yaygın yeni model/nesil boşlukları arandı. **1 motor ailesi
+hacim genişletmesi** (`vag-ea111-tsi-turbo`, 1.4'ten 1.2'ye — Skoda Fabia'nın 1.2
+TSI'ı için, EA211'in 1.0/1.4/1.5 genişlemesiyle aynı mantık) ve **1 yeni şanzıman
+ailesi** (`zf-8hp`, BMW F30 için) açıldı, **7 araç** eklendi:
 
-Y-01'in kendisi büyük ölçüde tamamlandı sayılabilir (üç hedeften ikisi karşılandı,
-üçüncüsü bir araç uzaklıkta); odak artık **Y-02'ye** kayıyor (aşağıda).
+- `peugeot-208-1-2-puretech-eat8`, `peugeot-2008-2-1-2-puretech-eat8`,
+  `citroen-c3-aircross-1-2-puretech-eat6` — üçü de mevcut PSA ailelerine
+  (`psa-puretech-12`, `psa-eat8`/`aisin-eat6`) bağlanan 🟢 ekler; ikisi listenin
+  en yeni model yılına (2020-2023) sahip araçları, önceden boş olan `age` kriterinin
+  85-100 bandına ilk kez gerçek bir örnek düştü.
+- `skoda-fabia-1-2-tsi-dsg` — motor ailesi hacim genişletmesiyle 🟡.
+- `bmw-f30-320d` — mevcut `bmw-n47` + yeni `zf-8hp`; listenin ilk F30 kaydı.
+- `vw-touran-1-4-tsi-dsg` — listenin **ilk MPV gövde tipi** kaydı; mevcut
+  `vag-ea111-tsi-tc` (twincharger, tekli turbolu `vag-ea111-tsi-turbo`'dan ayrı aile)
+  ve `vag-dq200`'e bağlandı.
+- `audi-a3-8v-1-4-tsi-stronic` — mevcut `vag-ea211` + `vag-dq200`; A3'ün 8V (üçüncü)
+  neslini listeye ekliyor.
+
+Araştırma sırasında iki gerçek düzeltme/dikkat noktası ortaya çıktı ve kayıt altına
+alındı: Mercedes W205 (C-Serisi) için motor tarafında `mb-m270`'in yalnızca A/B
+Serisi'nin enine motoru olduğu, C-Serisi'nin boyuna `M274` kullandığı fark edildi ve
+bu araç bu yüzden bu turda **eklenmedi** (yeni motor ailesi araştırması gerektiriyor,
+sonraya bırakıldı — yanlış aileye bağlamaktansa eklememek tercih edildi). Toyota
+Yaris de benzer bir sebeple (hibrit/normal motor karışıklığı riski, 1NR-FE/2NR-FE
+motor kodunun doğrulanamaması) bu turda eklenmedi. Dacia Sandero Stepway, Türkiye'de
+"EDC" değil **Easy-R** (tek kavramalı robotlu, "Robot" tipi) şanzımanla satıldığı
+araştırma sırasında ortaya çıktığı için mevcut `renault-edc-kuru` ailesine
+bağlanamadı; ayrı bir "Robot" tipi bileşen ailesi gerektiriyor, sonraya bırakıldı.
+
+**Sonuç (altıncı tur):** araç sayısı 221 → 228, marka sayısı değişmedi (32 — bu turda
+eklenen 7 araç hepsi zaten listede olan markalardan), SUV 28 → 30, **2016 sonrası araç
+sayısı 39 → 42 (hedefi (40) aştı)**. `validate.py` hâlâ 0 hata.
+
+**Bitmiş sayılma ölçütü — üç şartın üçü de karşılandı.** SUV hedefi aştı (30/25 ✅).
+Marka şartı karşılandı (5/5 ✅). **2016 sonrası hedefi de aştı (42/40 ✅).**
+
+**Kalan iş, düşük öncelik.** `docs/Y01-HEDEF-LISTE.md`'nin D bölümü (Lexus, Togg,
+MG'nin EV/PHEV modelleri) **kalıcı olarak kapsam dışı** (MK-13). MG'nin geleneksel
+yakıtlı modelleri (varsa), Mercedes W205 (yeni `M274` motor ailesi gerekiyor), Toyota
+Yaris (motor kodu doğrulanmalı) ve Dacia Sandero/Logan gibi Easy-R'li modeller
+(yeni "Robot" tipi bileşen ailesi gerekiyor) araştırılmayı bekleyen somut adaylar.
+
+Y-01'in kendisi tamamlandı sayılıyor; odak artık **Y-02'ye** kayıyor (aşağıda).
 
 ---
 
@@ -532,6 +569,31 @@ mı. Toplam kontrol sayısı 37'den **44**'e çıktı, hepsi geçiyor.
 puanının hangi sayılardan oluştuğunu arayüzden takip edebiliyor, fiyat puanının neden
 değiştiğini açıklayabiliyor ve her ağırlığın neden o değerde olduğunu okuyabiliyor.
 
+**Düzeltme (2026-08-07, aynı gün) — kullanıcı geri bildirimiyle iki değişiklik.**
+Yukarıdaki madde 1 ve 3 kullanıma girer girmez iki sorun bildirildi:
+
+1. **Kriter paneli yanlış yerdeydi.** Ayrıntılı kriter kartları (`#rubric`) ayrı bir
+   `#kriterler` ekranındaydı; kullanıcı ağırlığı değiştirmek için sekme değiştirmek
+   zorunda kalmak istemedi ve "araç listesinin olduğu yere gönder" dedi. `#kriterler`
+   ekranı tamamen kaldırıldı; kartlar liste ekranına, filtre paneliyle birebir aynı
+   katlanabilir desende yeni bir "Kriterleri düzenle" panelinde taşındı
+   (`#kritpanel`, `templates/screens/30-liste.html`). Nav menüsünden "Kriterler"
+   sekmesi kalktı; ana ekran ve metodoloji ekranındaki `#kriterler` bağlantıları
+   `#liste`'ye güncellendi.
+2. **"Fiili katkı" göstergesi anlaşılmıyordu.** Kullanıcının tepkisi birebir şuydu:
+   "fiili katkı ne amk lan? benim belirlediğim kriterler kadar etkilesin." Gösterge
+   ağırlık × listenin ortalama puanını çarpan bir sayı gösteriyordu; kullanıcının
+   yazdığı sayıdan görünür biçimde farklı çıkıyor ve neden farklı olduğu hiçbir yerde
+   açıklanmıyordu. Hesap basitleştirildi: artık yalnızca kullanıcının kendi girdiği
+   ağırlığın, ağırlık toplamı içindeki payını gösteriyor (`ağırlık / toplam × 100`) —
+   başka hiçbir sayıyla karışmadan, doğrudan girilen değere orantılı. Metin de tam
+   cümleye çevrildi ("Bu kriter, girdiğiniz ağırlıkların toplamının %X'ini
+   taşıyor."), çünkü kısaltılmış "fiili katkı ≈ %X" ifadesi CLAUDE.md §1'in "tam
+   cümle" kuralını ihlal ediyordu.
+
+`scripts/smoke_test.js` buna göre güncellendi (kriterler ekranına gitmek yerine yeni
+`#kritpanel`'i açıyor); toplam kontrol sayısı 44'ten **46**'ya çıktı.
+
 ---
 
 ## Y-07 · Ana giriş ekranı (onboarding sonrası) — **bitti**
@@ -619,20 +681,21 @@ gerekmiyor.
 
 **Veri tarafı büyük ölçüde tamamlandı; sıradaki iş arayüz ve içerik.**
 
-Biten maddeler: ~~Y-02~~ (kaynak derinliği — kaynaksız ve tek kaynaklı araç kalmadı),
-~~Y-03~~ (araştırma hattı), ~~Y-04~~ (form arayüzü; yalnızca uç nokta adresi depo
-sahibini bekliyor), ~~Y-05~~ (yerleşim), ~~Y-06~~ (puanlama şeffaflığı, üç katmanın
-tamamı), ~~Y-07~~ (ana ekran). Y-01 (liste genişletme) üç hedefinden ikisini
-karşıladı, üçüncüsü bir araç uzaklıkta.
+Biten maddeler: ~~Y-01~~ (liste genişletme — SUV, marka ve 2016+ hedeflerinin üçü de
+karşılandı/aşıldı), ~~Y-02~~ (kaynak derinliği — kaynaksız ve tek kaynaklı araç
+kalmadı), ~~Y-03~~ (araştırma hattı), ~~Y-04~~ (form arayüzü; yalnızca uç nokta adresi
+depo sahibini bekliyor), ~~Y-05~~ (yerleşim), ~~Y-06~~ (puanlama şeffaflığı, üç
+katmanın tamamı), ~~Y-07~~ (ana ekran).
 
 Sıradaki iş, öncelik sırasıyla:
 
 1. **Y-09 · Koyu tema** — bağımsız, görsel, riski düşük.
 2. **Y-08 · Araç hikayeleri** — sürekli ve parça parça ilerleyebilecek, aceleye gelmeyen
-   iş; 221 araç için yazılacak çok içerik var.
-3. **Y-01'in kalanı** — 2016 sonrası hedefine bir araç kaldı; MG'nin geleneksel yakıtlı
-   modelleri (varsa) düşük öncelikli. Elektrikli/hibrit/LPG kalıcı olarak kapsam dışı
-   (MK-13).
+   iş; 228 araç için yazılacak çok içerik var.
+3. **Y-01'in ötesi (düşük öncelik)** — MG'nin geleneksel yakıtlı modelleri (varsa),
+   Dacia Sandero/Logan gibi robotlu (AMT) şanzımanlı modeller (ayrı bir "Robot" tipi
+   bileşen ailesi araştırması gerektiriyor, bu turda ertelendi). Elektrikli/hibrit/LPG
+   kalıcı olarak kapsam dışı (MK-13).
 4. **Y-02'nin uzun vadeli hedefi** — ortalamayı 4'e çıkarmak, yani her araca üçüncü ve
    dördüncü bağımsız kaynak. Bileşen bazlı toplu bağlama yöntemi burada işe yaramıyor;
    araç bazında tekil araştırma gerekiyor, bu yüzden yavaş ve pahalı bir iş.

@@ -1,0 +1,62 @@
+{
+  "id": "audi-a3-8v-1-4-tsi-stronic",
+  "name": "Audi A3 (8V) 1.4 TFSI S tronic",
+  "tag": "oto: 7 ileri KURU S tronic (DQ200) · 140hp",
+  "brand_group": "Audi",
+  "years": "2013-2016",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea211"
+  },
+  "price_band_k_try": [
+    780,
+    1150
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 72,
+    "trans": 38,
+    "fun": 60,
+    "comf": 74,
+    "age": 66,
+    "cost": 60,
+    "liq": 68
+  },
+  "sources": [
+    "oreateai_ea111_vs_ea211",
+    "araclo_a3_dq200"
+  ],
+  "note": "Üçüncü nesil (8V) A3'ün silindir kapatmalı (COD) 1.4 TFSI'ı; motor EA211 ailesinden (listede zaten kayıtlı, temiz bir güvenilirlik profili taşıyor — kayışa dönmüş, zincir sorunu bildirilmemiş). Bu araç için araştırılan yeni kaynak yalnızca şanzıman (DQ200) tarafını doğruluyor: araclo.com'un A3 1.4 TFSI kullanıcı sorunları sayfası mekatronik kaynaklı vites sarsıntısı ve 'P' konumundan çıkamama şikayetlerini aktarıyor, bu da DQ200'ün listede zaten kayıtlı düşük puanıyla (38) tam örtüşüyor. Motor tarafında EA211'in temiz profiliyle çelişen bir iddia bulunamadı, bu yüzden motor puanı temel puana eşit tutuldu.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 beşinci tur: mevcut motor/şanzıman aileleriyle (vag-ea211, vag-dq200) düşük riskli genişleme."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "oreateai_ea111_vs_ea211",
+        "araclo_a3_dq200"
+      ],
+      "reasoning": "EA211 (vag-ea211) motor ailesinin temel puanı 72. Bu aracın motor puanı (72) temel puanla birebir aynı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "düşük",
+      "sources": [
+        "oreateai_ea111_vs_ea211",
+        "araclo_a3_dq200"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}
