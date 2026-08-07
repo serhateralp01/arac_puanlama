@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Y-01 ilk tur: WebSearch ile araştırılmış, mevcut motor/şanzıman ailelerine bağlanmış yeni araç."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_renegade_kronik",
+        "eksisozluk_sanziman_liste"
+      ],
+      "reasoning": "1.6 MultiJet (fca-multijet-16) motor ailesinin temel puanı 64. Bu aracın motor puanı (64) temel puanla birebir aynı. Ailenin bilinen zaafı: Kısa mesafe şehir içi kullanımda DPF'nin kurumu yakamaması. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_renegade_kronik",
+        "eksisozluk_sanziman_liste"
+      ],
+      "reasoning": "C635 DDCT (fiat-c635-ddct) şanzıman ailesinin temel puanı 62. Bu aracın trans puanı (62) temel puanla birebir aynı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

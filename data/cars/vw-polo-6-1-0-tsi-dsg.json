@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_passat_tsi",
+        "teknikotomatik_dq200_dq250"
+      ],
+      "reasoning": "EA211 (vag-ea211) motor ailesinin temel puanı 72. Bu aracın motor puanı (72) temel puanla birebir aynı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_passat_tsi",
+        "teknikotomatik_dq200_dq250"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

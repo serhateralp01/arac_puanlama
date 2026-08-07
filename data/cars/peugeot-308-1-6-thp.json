@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "düşük",
+      "sources": [
+        "trbox",
+        "insigniateam_af40"
+      ],
+      "reasoning": "EP6DT (psa-ep6-thp) motor ailesinin temel puanı 46. Bu aracın motor puanı (45), temel puandan 1 puan aşağı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Triger zincirinin erken uzaması; 2016 öncesi üretimde 100.000 km'ye nadiren ulaşıyor, ilk belirtiler ~60.000 km'de. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "trbox",
+        "insigniateam_af40"
+      ],
+      "reasoning": "Aisin AF40-6 (aisin-af40) şanzıman ailesinin temel puanı 58. Bu aracın trans puanı (72), temel puandan 14 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

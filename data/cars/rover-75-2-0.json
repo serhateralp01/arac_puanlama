@@ -39,5 +39,29 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "techturkey_rover75_yardim",
+        "mgrover_rover75_jatco",
+        "honestjohn_rover75_auto"
+      ],
+      "reasoning": "KV6 (rover-kv6) motor ailesinin temel puanı 44. Bu aracın motor puanı (56), temel puandan 12 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Silindir kapağının arka tarafında conta arızası, yüksek kilometrede ve sıcak iklimde daha sık. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "düşük",
+      "sources": [
+        "techturkey_rover75_yardim",
+        "mgrover_rover75_jatco",
+        "honestjohn_rover75_auto"
+      ],
+      "reasoning": "Jatco JF506E (jatco-jf506e) şanzıman ailesinin temel puanı 44. Bu aracın trans puanı (44) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

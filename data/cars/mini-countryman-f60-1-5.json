@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "techturkey_mini_f56_b38",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "B38 (bmw-b38) motor ailesinin temel puanı 50. Bu aracın motor puanı (50) temel puanla birebir aynı. Ailenin bilinen zaafı: Üç silindirli tasarımın motor kültürü açısından eleştirilmesi; ağır ve düzensiz vites geçişlerinin bazı otomatik şanzımanlı örneklerde erken aşınmaya yol açtığı. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "techturkey_mini_f56_b38",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "EAT6 (aisin-eat6) şanzıman ailesinin temel puanı 72. Bu aracın trans puanı (72) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

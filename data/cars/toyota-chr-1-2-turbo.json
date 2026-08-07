@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "kronikuzman_chr_12turbo",
+        "teknikotomatiksanziman_multidrive"
+      ],
+      "reasoning": "8NR-FTS (toyota-8nr-fts) motor ailesinin temel puanı 54. Bu aracın motor puanı (54) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ tüketimi eğilimi ve düşük devirde turbo tepkisinin gecikmeli olması. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "kronikuzman_chr_12turbo",
+        "teknikotomatiksanziman_multidrive"
+      ],
+      "reasoning": "Multidrive S (toyota-multidrive) şanzıman ailesinin temel puanı 74. Bu aracın trans puanı (74) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

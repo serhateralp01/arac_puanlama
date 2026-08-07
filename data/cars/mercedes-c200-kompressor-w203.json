@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_mercedes_bakim_sanziman",
+        "mercedesmedic_722_6"
+      ],
+      "reasoning": "M271 (mb-m271) motor ailesinin temel puanı 64. Bu aracın motor puanı (64) temel puanla birebir aynı. Ailenin bilinen zaafı: İhmal edilen yağ değişimi nedeniyle triger zinciri ve kılavuz aşınması. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_mercedes_bakim_sanziman",
+        "mercedesmedic_722_6"
+      ],
+      "reasoning": "5G-Tronic (mb-5g-tronic) şanzıman ailesinin temel puanı 80. Bu aracın trans puanı (80) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

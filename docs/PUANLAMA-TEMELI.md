@@ -319,9 +319,8 @@ Bu bölüm, sistemin bugün **eksik** olan taraflarını sayar. Belgenin güveni
 
 | Boşluk | Bugünkü durum | Etkisi |
 |---|---|---|
-| **`evidence` bloğu boş** | 221 araçtan **2**'sinde dolu | "Bu puan hangi kaynağın hangi bandına dayanıyor" sorusu kriter bazında cevapsız. Kaynak listesi araç seviyesinde var, ama kriter seviyesinde bağ yok. **En büyük açık budur.** |
+| **`evidence` bloğu — motor/trans dışı kriterler boş** | 221 araçtan 220'sinde `motor` ve `trans` dolu (2026-08-06); `fun`, `comf`, `age`, `cost`, `liq`, `price` hâlâ boş | "Bu puan hangi kaynağın hangi bandına dayanıyor" sorusu artık motor ve trans için cevaplı — §3.3'teki ölçüme göre sonucu fiilen belirleyen iki kriter bunlar. Kalan beş kriter için hâlâ boş, çünkü bunların çoğu kanıta değil MK-06'nın uygulanmamış formülüne bağlı. |
 | **MK-06 formülleri uygulanmadı** | `kerb_weight_kg`, `torque_nm`, `fuel_consumption_l_100km` alanları **221/221 boş** | `fun`, `comf`, `age`, `cost` hâlâ tamamen elle veriliyor. `docs/ARCHITECTURE.md` MK-06 "karar verildi" diyor ama karar hiç uygulanmadı. |
-| **Ağırlıklar gerekçesiz** | §5 | Ölçüm gösteriyor ki etkisi sınırlı, ama gerekçe yine de yazılmalı. |
 | **`comf` ayırt etmiyor** | §3.4 | Kriter fiilen sonuca katkı vermiyor. |
 | **`age`~`price` çifte sayımı** | §3.5 | Yaş riski iki kez sayılıyor. |
 | **Puanlar arası tutarlılık denetimi kısmi** | `validate.py` yalnızca bileşen temel puanından sapmayı denetliyor | İki benzer aracın `fun` puanının tutarlı olup olmadığını hiçbir denetim kontrol etmiyor. |
@@ -330,15 +329,16 @@ Bu bölüm, sistemin bugün **eksik** olan taraflarını sayar. Belgenin güveni
 
 ## 7. Sıradaki adımlar, öncelik sırasıyla
 
-1. **`evidence` bloğunu doldurmak.** En yüksek değerli iş. Her araç için en azından
-   `motor` ve `trans` kriterlerinde hangi kaynağın hangi banda karşılık geldiğini
-   yazmak. Bu yapıldığında "bu puan neden bu" sorusu kriter bazında cevaplanabilir
-   hale gelir ve Y-06'nın arayüz tarafı gerçek veriye dayanabilir.
-2. **Ağırlıkları SMART/SWING protokolüyle türetip yazıya dökmek.** Bir oturumluk iş,
-   veri gerektirmiyor.
-3. **`comf` kararı.** Puanları kanıta bağladıktan sonra §3.4'teki iki açıklamadan
-   hangisinin doğru olduğuna karar verip ya bantları yeniden kalibre etmek ya da
-   kriteri birleştirmek.
+1. **Y-06 arayüz katmanı.** `evidence.motor`/`evidence.trans` artık gerçek veriye
+   dayandığı için "bu araç neden bu puanı aldı" dökümü arayüzde gösterilebilir. Kriter
+   kırılımı, canlı ağırlık-katkı göstergesi ve fiyat kriterinin ayrı açıklaması sırada
+   (`docs/ROADMAP.md` Y-06 ikinci katman).
+2. **`comf` kararı.** Puanlar artık motor/trans için kanıta bağlı; §3.4'teki iki
+   açıklamadan hangisinin doğru olduğuna karar verip ya bantları yeniden kalibre etmek
+   ya da kriteri birleştirmek.
+3. **`evidence` bloğunu kalan beş kriter için genişletmek** (`fun`, `comf`, `age`,
+   `cost`, `liq`, `price`) — bunların çoğu MK-06 formülüne bağlı olduğu için madde 4'le
+   birlikte ele alınmalı.
 4. **MK-06 formülleri** için ağırlık/tork/tüketim verisini doldurmak. Büyük veri işi;
    yukarıdakiler bittikten sonra ele alınmalı.
 

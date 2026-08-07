@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "multi",
+        "sikayetvar_a4_tfsi"
+      ],
+      "reasoning": "EA113 1.8T (vag-ea113-18t) motor ailesinin temel puanı 76. Bu aracın motor puanı (64), temel puandan 12 puan aşağı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Ateşleme bobini arızası; Audi geri çağırma ve servis bülteniyle çoğu aracı düzeltti. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "multi",
+        "sikayetvar_a4_tfsi"
+      ],
+      "reasoning": "Multitronic (vag-multitronic) şanzıman ailesinin temel puanı 28. Bu aracın trans puanı (42), temel puandan 14 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

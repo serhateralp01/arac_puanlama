@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "otopark_320d_520d_zincir",
+        "zf_5hp_6hp_bakim"
+      ],
+      "reasoning": "M47 (bmw-m47) motor ailesinin temel puanı 64. Bu aracın motor puanı (64) temel puanla birebir aynı. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "otopark_320d_520d_zincir",
+        "zf_5hp_6hp_bakim"
+      ],
+      "reasoning": "ZF 5HP19 (zf-5hp) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

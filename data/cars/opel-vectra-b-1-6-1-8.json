@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "transmissionanswers_4t65e",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "X18XE (gm-ecotec-18) motor ailesinin temel puanı 54. Bu aracın motor puanı (64), temel puandan 10 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Eski X18XE1'de rölanti dalgalanması ve ECU arızaları; Z18XE'de aynı sorunlar ve triger kayışı atlanırsa supap bükülmesi. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "transmissionanswers_4t65e",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "GM 4T65-E (gm-4t65e) şanzıman ailesinin temel puanı 54. Bu aracın trans puanı (66), temel puandan 12 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

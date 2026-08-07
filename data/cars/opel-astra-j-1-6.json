@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "autodoc_astra_j_problems",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "A16XER (gm-family1-16) motor ailesinin temel puanı 62. Bu aracın motor puanı (74), temel puandan 12 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Faz ayarlayıcıların 100.000 km sonrası takırdaması. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "autodoc_astra_j_problems",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "AF17 (gm-aisin-af17) şanzıman ailesinin temel puanı 68. Bu aracın trans puanı (74), temel puandan 6 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

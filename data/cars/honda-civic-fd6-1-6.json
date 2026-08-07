@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "neredeyse arızasız",
+      "confidence": "orta",
+      "sources": [
+        "civic",
+        "sikayetvar_honda_sanziman"
+      ],
+      "reasoning": "R16A (honda-r16) motor ailesinin temel puanı 76. Bu aracın motor puanı (90), temel puandan 14 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Yanlış yağ kullanımında i-VTEC sisteminin arızalanması, sert çalışma ve güç kaybı. Bu puan 'neredeyse arızasız' bandına giriyor: Bağımsız kaynaklarda kronik arıza kaydı yok ve motor ailesi basit, düşük riskli bir tasarıma sahip (ör. turbosuz, dökme demir blok, uzun süredir kanıtlanmış).",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "temiz",
+      "confidence": "orta",
+      "sources": [
+        "civic",
+        "sikayetvar_honda_sanziman"
+      ],
+      "reasoning": "Honda 4 ileri otomatik (honda-4at-5at) şanzıman ailesinin temel puanı 78. Bu aracın trans puanı (85), temel puandan 7 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Bu puan 'temiz' bandına giriyor: İki bağımsız kaynakta kronik arıza kaydı yok ve kutu tipi tork konvertörü ya da düşük torkla eşleşen ıslak çift kavrama.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

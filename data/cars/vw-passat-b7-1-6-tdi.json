@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "trbox",
+        "andcetin_dq200"
+      ],
+      "reasoning": "EA189 (vag-ea189) motor ailesinin temel puanı 58. Bu aracın motor puanı (68), temel puandan 10 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: 2.0 TDI 170 PS'de triger zinciri uzaması, 150-200 bin km'de karakteristik tıkırtı. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "trbox",
+        "andcetin_dq200"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

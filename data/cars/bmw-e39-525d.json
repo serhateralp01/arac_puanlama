@@ -39,5 +39,29 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "yüksek",
+      "sources": [
+        "e39",
+        "m57",
+        "tuv"
+      ],
+      "reasoning": "M57 (bmw-m57) motor ailesinin temel puanı 72. Bu aracın motor puanı (80), temel puandan 8 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Swirl flap aktüatör arızası ve kanadın kopup silindire girmesi. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "yüksek",
+      "sources": [
+        "e39",
+        "m57",
+        "tuv"
+      ],
+      "reasoning": "ZF 5HP19 (zf-5hp) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

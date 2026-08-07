@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "otopark_bmw_e90_316i",
+        "zf_5hp_6hp_bakim"
+      ],
+      "reasoning": "N42 (bmw-n4x) motor ailesinin temel puanı 58. Bu aracın motor puanı (70), temel puandan 12 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Triger zinciri gevşemesi ve buna bağlı yağ açlığı riski. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "otopark_bmw_e90_316i",
+        "zf_5hp_6hp_bakim"
+      ],
+      "reasoning": "ZF 6HP19 (zf-6hp) şanzıman ailesinin temel puanı 68. Bu aracın trans puanı (78), temel puandan 10 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

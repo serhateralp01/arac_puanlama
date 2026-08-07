@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "araclo_c5aircross",
+        "erenservis_eat8"
+      ],
+      "reasoning": "BlueHDi 130 (psa-bluehdi-15) motor ailesinin temel puanı 50. Bu aracın motor puanı (50) temel puanla birebir aynı. Ailenin bilinen zaafı: 2022 öncesi üretimde eksantrik/zincir riski bildirildiği, 2022 sonrası üretimde bu riskin azaldığı. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "araclo_c5aircross",
+        "erenservis_eat8"
+      ],
+      "reasoning": "EAT8 (psa-eat8) şanzıman ailesinin temel puanı 76. Bu aracın trans puanı (76) temel puanla birebir aynı. Ailenin bilinen zaafı: 3.-2. vites arası vuruntu ve kalkışta hafif gecikme. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

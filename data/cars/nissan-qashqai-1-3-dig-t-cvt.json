@@ -37,5 +37,29 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Y-01 ikinci tur: WebSearch ile araştırılmış, mevcut motor/şanzıman ailelerine bağlanmış yeni araç. Kaynaklardan bir kısmı önceki bir oturumda toplanmış ama hiçbir araca bağlanmamış (yetim) kayıtlardı; bu turda ilgili araca bağlandı."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "dhaber_qashqai13",
+        "sikayetvar_qashqai",
+        "kronikyorum_qashqai"
+      ],
+      "reasoning": "H5Ht (renault-h5ht) motor ailesinin temel puanı 68. Bu aracın motor puanı (68) temel puanla birebir aynı. Ailenin bilinen zaafı: Bazı örneklerde arızalı piston/segman kaynaklı erken yağ tüketimi. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "dhaber_qashqai13",
+        "sikayetvar_qashqai",
+        "kronikyorum_qashqai"
+      ],
+      "reasoning": "X-Tronic (nissan-xtronic) şanzıman ailesinin temel puanı 48. Bu aracın trans puanı (48) temel puanla birebir aynı. Ailenin bilinen zaafı: Yüksek torklu dizel eşleşmelerinde zincir kayması, titreme ve sarsıntı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

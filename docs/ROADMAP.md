@@ -33,6 +33,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; her araç hem motor hem şanzıman tarafından kaynaklı, ortalama 2.18 |
 | Araç listesi (Y-01) | 154 → 221 araç. **SUV 1 → 28 (hedefi aştı), marka 5/5 (hedefe ulaştı: Dacia, Jeep, MINI, Cupra, Subaru)**, 2016+ 5 → 39 (hedef 40'a bir araç kaldı) |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
+| Puanlama şeffaflığı (Y-06) | Bilimsel temel ve kanıt zinciri tamamlandı: SWING ağırlıkları uygulandı, 220/221 araçta `evidence.motor`/`evidence.trans` dolu. Arayüz katmanı (kriter kırılımı, canlı katkı göstergesi) sırada |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 
 Denetimin bugünkü çıktısı: **0 hata, 243 uyarı**. Uyarıların ezici çoğunluğu (213) tek
@@ -399,7 +400,7 @@ birden sıfırlıyor mu.
 
 ---
 
-## Y-06 · Puanlama şeffaflığı — **birinci katman bitti (bilimsel temel)**
+## Y-06 · Puanlama şeffaflığı — **birinci ve üçüncü katman bitti, ikinci katman sırada**
 
 **Öncelik: yüksek.** Kullanıcının en net iki şikayeti buradan geliyor: "fiyat kısmı çok
 kafa karıştırıcı, kriterin puanı nasıl etkilediğini bilmiyoruz" ve daha sonra
@@ -444,6 +445,39 @@ Bu katmanda yapılanlar:
   (`age`), bir kez ödül (`price`) olarak iki kez sayılıyor. Ağırlıklı toplamın bilinen
   zayıflığı; belgelendi, gizlenmedi.
 
+### Üçüncü katman — kanıt zinciri (2026-08-06, bitti)
+
+`PUANLAMA-TEMELI.md` §6'nın en büyük açığı şuydu: `evidence` bloğu 221 araçtan
+yalnızca 2'sinde doluydu. Yani "bu puan hangi kaynağın hangi bandına dayanıyor"
+sorusu kriter bazında cevapsızdı; kaynak listesi araç seviyesinde vardı ama kriter
+seviyesinde bağ yoktu.
+
+Bu katmanda `evidence.motor` ve `evidence.trans` blokları 221 araçtan **220'sinde**
+dolduruldu (`volvo-s40-v50-2-0` istisna kaldı, çünkü bağlı olduğu `volvo-b4204s`
+motor ailesinin henüz `base_score`'u yok — `motor-temel-puani-yok` uyarısı bunu zaten
+işaretliyor). Doldurma elle yazılmadı; zaten var olan üç bilgi mekanik biçimde
+birleştirildi:
+
+1. Aracın bağlı olduğu motor/şanzıman ailesinin kaynaklı `base_score`'u.
+2. Aracın kendi fiili puanı ve bu puanın hangi BARS bandına düştüğü.
+3. Aracın kendi kaynaklarının seviyesi (`confidence`: A varsa yüksek, B varsa orta,
+   yalnızca C varsa düşük).
+
+Bu üç bilgiden otomatik üretilen `reasoning` metni, aile adını, temel puanı, sapmayı
+(varsa yönü ve büyüklüğü) ve ailenin bilinen ilk zaafını tam cümlelerle anlatıyor.
+Hiçbir yeni iddia üretilmedi; var olan bağ yapılandırılmış hâle getirildi. Doğrulama
+döngüsü (`build.py`, `validate.py`, `smoke_test.js`) 0 hata ve 37/37 kontrolle
+tamamlandı.
+
+Aynı oturumda `PUANLAMA-TEMELI.md` §5'teki ağırlık türetme işi de (SWING protokolü)
+tamamlandı: üç kullanıcı profili (aile, meraklı, özel) için kriter kriter swing puanı
+verildi, normalize edildi ve `data/criteria.json`'daki üç hazır ağırlık seti bu
+sayılarla güncellendi. Eski ile yeni ağırlıklar arasındaki Spearman korelasyonu
+0.967–0.983 çıktı — sıralama devrilmiyor ama anlamlı ölçüde düzeltiliyor. Süreçte
+eski "Güvenilirlik öncelikli" (aile) setinin `comf` ağırlığının `motor` kadar yüksek
+olduğu, muhtemelen yeniden adlandırılmamış bir "aile/konfor" mirası olduğu da ortaya
+çıktı; yeni sette düzeltildi.
+
 ### İkinci katman — arayüz (sırada)
 
 **Bugünkü durum ve neden kafa karıştırıcı olduğu.** Fiyat, diğer yedi kriterden
@@ -472,22 +506,8 @@ Bu davranış doğru ama görünmez, ve görünmediği için kafa karıştırıy
 
 **Bitmiş sayılma ölçütü.** Bir kullanıcı, bir aracın toplam puanının hangi sayılardan
 oluştuğunu arayüzden takip edebiliyor ve fiyat puanının neden değiştiğini
-açıklayabiliyor.
-
-### Üçüncü katman — kanıt zinciri (arayüzden önce yapılmalı)
-
-`PUANLAMA-TEMELI.md` §6'nın en büyük açığı: **`evidence` bloğu 221 araçtan 2'sinde
-dolu.** Yani "bu puan hangi kaynağın hangi bandına dayanıyor" sorusu kriter bazında
-cevapsız. Kaynak listesi araç seviyesinde var ama kriter seviyesinde bağ yok.
-
-Bu, ikinci katmanın (arayüz) önkoşulu: "bu araç neden bu puanı aldı" dökümü gerçek
-veriye dayanmalı, yoksa arayüz boş bir vaat gösterir. En azından `motor` ve `trans`
-kriterleri için doldurulmalı — §3.3'teki ölçüme göre sonucu fiilen belirleyen iki
-kriter bunlar.
-
-Ayrıca `PUANLAMA-TEMELI.md` §5'teki ağırlık türetme işi (SMART/SWING protokolü) bir
-oturumluk, veri gerektirmeyen bir iş; arayüzde "bu ağırlık neden bu" sorusuna cevap
-verilebilmesi için gerekiyor.
+açıklayabiliyor. Önkoşulu olan kanıt zinciri (üçüncü katman) ve ağırlık türetme işi
+artık bitti, dolayısıyla bu katmanın önünde veri eksikliği kalmadı.
 
 ---
 
@@ -583,11 +603,12 @@ sahibini bekliyor), ~~Y-05~~ (yerleşim), ~~Y-07~~ (ana ekran). Y-01 (liste geni
 
 Sıradaki iş, öncelik sırasıyla:
 
-1. **Y-06 · Puanlama şeffaflığı** — en yüksek değerli kalan madde. Kullanıcının en net
-   şikayeti buydu ("fiyat kısmı çok kafa karıştırıcı, kriterin puanı nasıl etkilediğini
-   bilmiyoruz"). Küçük, bağımsız ve günlük kullanımı doğrudan iyileştiriyor. Veri
-   tarafı artık sağlam olduğu için bu maddenin altı da dolu: her aracın iki kaynağı var,
-   "bu araç neden bu puanı aldı" dökümü gerçek kanıta bağlanabilir.
+1. **Y-06 · Puanlama şeffaflığı, ikinci katman (arayüz)** — en yüksek değerli kalan
+   madde. Kullanıcının en net şikayeti buydu ("fiyat kısmı çok kafa karıştırıcı,
+   kriterin puanı nasıl etkilediğini bilmiyoruz"). Birinci katman (bilimsel temel) ve
+   üçüncü katman (kanıt zinciri: 220/221 araçta `evidence.motor`/`evidence.trans` dolu,
+   SWING ağırlıkları uygulandı) artık bitti; geriye yalnızca arayüz kaldı, "bu araç
+   neden bu puanı aldı" dökümü gerçek kanıta bağlanabilir durumda.
 2. **Y-09 · Koyu tema** — bağımsız, görsel, riski düşük.
 3. **Y-08 · Araç hikayeleri** — sürekli ve parça parça ilerleyebilecek, aceleye gelmeyen
    iş; 221 araç için yazılacak çok içerik var.

@@ -44,12 +44,30 @@
   },
   "evidence": {
     "motor": {
-      "band": "50-64 (tekrarlayan ama yönetilebilir şikayet) — ailenin base_score'u; bu araç için üst yönde düzeltme uygulandı",
-      "confidence": "düşük",
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "yüksek",
       "sources": [
-        "torquecars_nikasil"
+        "e39c",
+        "e39",
+        "tuv",
+        "axleaddict_gm5l40e",
+        "solsticeforum_gm5l40e"
       ],
-      "reasoning": "Bu araç 1998-2000 arası üretildi, yani BMW'nin Nikasil sorununu çözdüğü M52TU dönemine denk geliyor (bkz. data/engines.json bmw-m52.revision_sensitivity). Ailenin en ciddi arıza riski bu araçta büyük ölçüde geçerli değil, bu yüzden puan base_score'un (58) üstünde tutuldu."
+      "reasoning": "M52 (bmw-m52) motor ailesinin temel puanı 58. Bu aracın motor puanı (80), temel puandan 22 puan yukarı sapıyor — Bu araç 1998-2000 arası üretildi, yani BMW'nin Nikasil sorununu çözdüğü M52TU dönemine denk geliyor (bkz. data/engines.json bmw-m52.revision_sensitivity). Ailenin en ciddi arıza riski bu araçta büyük ölçüde geçerli değil, bu yüzden puan base_score'un (58) üstünde tutuldu.. Ailenin bilinen zaafı: 1998 öncesi Nikasil kaplı silindir gömleğinin yüksek kükürtlü yakıtla korozyona uğrayıp sıkıştırma kaybına yol açması. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "yüksek",
+      "sources": [
+        "e39c",
+        "e39",
+        "tuv",
+        "axleaddict_gm5l40e",
+        "solsticeforum_gm5l40e"
+      ],
+      "reasoning": "GM 5L40-E (gm-5l40e) şanzıman ailesinin temel puanı 40. Bu aracın trans puanı (40) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-06"
     }
   }
 }

@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "motor1_psa_suv_eat",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "DV6 (psa-dv6) motor ailesinin temel puanı 44. Bu aracın motor puanı (44) temel puanla birebir aynı. Ailenin bilinen zaafı: EGR'de sertleşen karbon/yağ buharı tortusu; bu tortu turbo yağ besleme hattını da tıkayıp turbo yatağını yağsız bırakabiliyor. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "motor1_psa_suv_eat",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "EAT6 (aisin-eat6) şanzıman ailesinin temel puanı 72. Bu aracın trans puanı (72) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

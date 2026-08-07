@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "eeuroparts_volvo_aw55_servo",
+        "youcanic_opel_aw55"
+      ],
+      "reasoning": "B205 (saab-b2x5) motor ailesinin temel puanı 48. Bu aracın motor puanı (62), temel puandan 14 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Sorunlu PCV sistemi yağın çökelip vernik oluşturması, yağ pompası emiş süzgecinin tıkanması. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "düşük",
+      "sources": [
+        "eeuroparts_volvo_aw55_servo",
+        "youcanic_opel_aw55"
+      ],
+      "reasoning": "AW55-50SN (aisin-aw55) şanzıman ailesinin temel puanı 46. Bu aracın trans puanı (46) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

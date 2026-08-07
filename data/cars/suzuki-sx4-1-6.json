@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "yüksek",
+      "sources": [
+        "truedelta_suzuki_sx4",
+        "suzukiforums_sx4_4at"
+      ],
+      "reasoning": "M16A (suzuki-m16a) motor ailesinin temel puanı 66. Bu aracın motor puanı (80), temel puandan 14 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Görünür sızıntı olmadan yağ tüketimi; fark edilmezse motor kilitlenmesine yol açabiliyor. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "yüksek",
+      "sources": [
+        "truedelta_suzuki_sx4",
+        "suzukiforums_sx4_4at"
+      ],
+      "reasoning": "Suzuki 4 ileri otomatik (suzuki-4at) şanzıman ailesinin temel puanı 74. Bu aracın trans puanı (74) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

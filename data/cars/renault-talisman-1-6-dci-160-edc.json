@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_talisman_kronik",
+        "renaultfanclub_edc_kronik"
+      ],
+      "reasoning": "R9M (renault-r9m) motor ailesinin temel puanı 56. Bu aracın motor puanı (56) temel puanla birebir aynı. Ailenin bilinen zaafı: EGR valfi ve partikül filtresinin hızla kirlenmesi; piezo enjektör sorunları. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_talisman_kronik",
+        "renaultfanclub_edc_kronik"
+      ],
+      "reasoning": "Getrag 7DCT300 (getrag-7dct300) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

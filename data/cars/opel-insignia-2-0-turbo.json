@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "dhaber_insignia_2_0_turbo",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "A20NET (gm-a20net) motor ailesinin temel puanı 46. Bu aracın motor puanı (46) temel puanla birebir aynı. Ailenin bilinen zaafı: Ateşleme bobinlerinin erken aşınması; rölantide titreme ve gaza basınca tereddüt belirtisi. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "dhaber_insignia_2_0_turbo",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "Aisin AF40-6 (aisin-af40) şanzıman ailesinin temel puanı 58. Bu aracın trans puanı (58) temel puanla birebir aynı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

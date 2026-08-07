@@ -40,5 +40,31 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "yüksek",
+      "sources": [
+        "s60t",
+        "volvops",
+        "autodoc_s60_problems",
+        "enginecrux_b4204t"
+      ],
+      "reasoning": "B4204T (volvo-b4204t-gtdi) motor ailesinin temel puanı 44. Bu aracın motor puanı (44) temel puanla birebir aynı. Ailenin bilinen zaafı: Vuruntu (detonasyon) kaynaklı piston hasarı; egzoz manifoldu çatlayıp türbini bozabiliyor. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "yüksek",
+      "sources": [
+        "s60t",
+        "volvops",
+        "autodoc_s60_problems",
+        "enginecrux_b4204t"
+      ],
+      "reasoning": "6DCT450 (getrag-6dct450) şanzıman ailesinin temel puanı 52. Bu aracın trans puanı (52) temel puanla birebir aynı. Ailenin bilinen zaafı: Düşük hızda titreme, sert hızlanmada kavrama kayması, trafikte aşırı ısınma uyarısı, tam güç kaybı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

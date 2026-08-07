@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "mondps",
+        "trbox"
+      ],
+      "reasoning": "1.5 TDCi (ford-duratorq-15) motor ailesinin temel puanı 62. Bu aracın motor puanı (74), temel puandan 12 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Arızalı purge valf, en sık bildirilen sorun. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "düşük",
+      "sources": [
+        "mondps",
+        "trbox"
+      ],
+      "reasoning": "6DCT450 (getrag-6dct450) şanzıman ailesinin temel puanı 52. Bu aracın trans puanı (58), temel puandan 6 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Düşük hızda titreme, sert hızlanmada kavrama kayması, trafikte aşırı ısınma uyarısı, tam güç kaybı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

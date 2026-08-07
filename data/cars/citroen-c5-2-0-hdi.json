@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "düşük",
+      "sources": [
+        "trbox",
+        "insigniateam_af40"
+      ],
+      "reasoning": "DW10 (psa-dw10) motor ailesinin temel puanı 76. Bu aracın motor puanı (68), temel puandan 8 puan aşağı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Turbo kanatçık (VNT) sıkışması. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "düşük",
+      "sources": [
+        "trbox",
+        "insigniateam_af40"
+      ],
+      "reasoning": "Aisin AF40-6 (aisin-af40) şanzıman ailesinin temel puanı 58. Bu aracın trans puanı (58) temel puanla birebir aynı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

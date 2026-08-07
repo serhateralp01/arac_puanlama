@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_kia_ceed_otomatik",
+        "teknikotomatik_hyundai_6at"
+      ],
+      "reasoning": "Gamma GDI (hyundai-gamma16-gdi) motor ailesinin temel puanı 46. Bu aracın motor puanı (46) temel puanla birebir aynı. Ailenin bilinen zaafı: Emme supaplarında karbon birikimi (direkt enjeksiyonun tipik sonucu). Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_kia_ceed_otomatik",
+        "teknikotomatik_hyundai_6at"
+      ],
+      "reasoning": "Hyundai 6 ileri tork konvertörü (hyundai-6at) şanzıman ailesinin temel puanı 78. Bu aracın trans puanı (78) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

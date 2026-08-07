@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
+      "sources": [
+        "cupraforum_ea888_evo4_oil",
+        "araclo_cupra_formentor"
+      ],
+      "reasoning": "EA888 evo4 (vag-ea888-evo4) motor ailesinin temel puanı 50. Bu aracın motor puanı (50) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ tüketimi eğilimi; üçüncü nesil (EA888 evo3) ile aynı yağ pompası tasarımından kaynaklandığı bildiriliyor. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "cupraforum_ea888_evo4_oil",
+        "araclo_cupra_formentor"
+      ],
+      "reasoning": "S tronic (ıslak) (vag-s-tronic-islak) şanzıman ailesinin temel puanı 68. Bu aracın trans puanı (68) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "subaruforester_cvt_boxer",
+        "sikayetvar_corolla_genel"
+      ],
+      "reasoning": "FB20 (subaru-fb20) motor ailesinin temel puanı 60. Bu aracın motor puanı (60) temel puanla birebir aynı. Ailenin bilinen zaafı: Yüksek kilometrede aşırı yağ tüketimi; bazı model yıllarında kronik yağ yakma şikayeti. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "subaruforester_cvt_boxer",
+        "sikayetvar_corolla_genel"
+      ],
+      "reasoning": "Lineartronic (subaru-lineartronic) şanzıman ailesinin temel puanı 52. Bu aracın trans puanı (52) temel puanla birebir aynı. Ailenin bilinen zaafı: Yüksek tork gerektiren (özellikle dizel) uygulamalarda uzun vadeli uyum sorunları, kayma ve titreşim. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

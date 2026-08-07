@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "araclo_focus_ecoblue",
+        "sikayetvar_kuga_ecoboost"
+      ],
+      "reasoning": "1.5 EcoBlue (ford-ecoblue-15) motor ailesinin temel puanı 52. Bu aracın motor puanı (52) temel puanla birebir aynı. Ailenin bilinen zaafı: Eksantrik zincirinin (7mm) kronik olarak uzaması; üretici sonradan 8mm zincirle değişime geçti. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "araclo_focus_ecoblue",
+        "sikayetvar_kuga_ecoboost"
+      ],
+      "reasoning": "6DCT450 (getrag-6dct450) şanzıman ailesinin temel puanı 52. Bu aracın trans puanı (52) temel puanla birebir aynı. Ailenin bilinen zaafı: Düşük hızda titreme, sert hızlanmada kavrama kayması, trafikte aşırı ısınma uyarısı, tam güç kaybı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

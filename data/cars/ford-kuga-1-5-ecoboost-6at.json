@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Y-01 hedef listesi A/B bölümü: WebSearch ile araştırılmış, docs/Y01-HEDEF-LISTE.md'de önceden onaylanmış aday."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_kuga_ecoboost",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "EcoBoost (ford-ecoboost-15) motor ailesinin temel puanı 42. Bu aracın motor puanı (42) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ içinde çalışan triger kayışının erken bozulup zamanlama sorununa veya motor arızasına yol açması. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "sikayetvar_kuga_ecoboost",
+        "teknikotomatik_aisin_6ileri"
+      ],
+      "reasoning": "AWF21 (aisin-awf21) şanzıman ailesinin temel puanı 72. Bu aracın trans puanı (72) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

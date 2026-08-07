@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "volvod",
+        "volvops"
+      ],
+      "reasoning": "D5204T (volvo-d-20) motor ailesinin temel puanı 70. Bu aracın motor puanı (78), temel puandan 8 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Enjektör arızası, EGR valfi karbon tıkanması, turbo gecikmesi/arızası. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "temiz",
+      "confidence": "orta",
+      "sources": [
+        "volvod",
+        "volvops"
+      ],
+      "reasoning": "Aisin Geartronic (aisin-geartronic) şanzıman ailesinin temel puanı 78. Bu aracın trans puanı (88), temel puandan 10 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Bu puan 'temiz' bandına giriyor: İki bağımsız kaynakta kronik arıza kaydı yok ve kutu tipi tork konvertörü ya da düşük torkla eşleşen ıslak çift kavrama.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

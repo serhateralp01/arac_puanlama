@@ -38,5 +38,17 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "düşük",
+      "sources": [
+        "volvops",
+        "eeuroparts_volvo_aw55_servo"
+      ],
+      "reasoning": "AW55-50SN (aisin-aw55) şanzıman ailesinin temel puanı 46. Bu aracın trans puanı (46) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

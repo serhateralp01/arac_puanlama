@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "araclo_sportage_16crdi",
+        "sikayetvar_kona_kronik"
+      ],
+      "reasoning": "U2 (hyundai-u2-16) motor ailesinin temel puanı 68. Bu aracın motor puanı (68) temel puanla birebir aynı. Ailenin bilinen zaafı: DPF'nin kısa mesafede tıkanması, EGR karbon birikimi, zamanla turbo aşınması. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "araclo_sportage_16crdi",
+        "sikayetvar_kona_kronik"
+      ],
+      "reasoning": "7DCT (hyundai-7dct) şanzıman ailesinin temel puanı 46. Bu aracın trans puanı (46) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

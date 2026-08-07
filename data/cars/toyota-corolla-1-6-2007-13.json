@@ -38,5 +38,27 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "neredeyse arızasız",
+      "confidence": "orta",
+      "sources": [
+        "motorbiscuit_corolla_boring",
+        "sikayetvar_corolla_genel"
+      ],
+      "reasoning": "1ZR-FE (toyota-zr) motor ailesinin temel puanı 76. Bu aracın motor puanı (90), temel puandan 14 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: 2014 ve bazı erken 2015 modellerinde Valvematic aktüatörünün karbon birikimiyle sıkışması, güç kaybı veya çalışmama. Bu puan 'neredeyse arızasız' bandına giriyor: Bağımsız kaynaklarda kronik arıza kaydı yok ve motor ailesi basit, düşük riskli bir tasarıma sahip (ör. turbosuz, dökme demir blok, uzun süredir kanıtlanmış).",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "temiz",
+      "confidence": "orta",
+      "sources": [
+        "motorbiscuit_corolla_boring",
+        "sikayetvar_corolla_genel"
+      ],
+      "reasoning": "Toyota 4 ileri otomatik (toyota-4at) şanzıman ailesinin temel puanı 80. Bu aracın trans puanı (86), temel puandan 6 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Bu puan 'temiz' bandına giriyor: İki bağımsız kaynakta kronik arıza kaydı yok ve kutu tipi tork konvertörü ya da düşük torkla eşleşen ıslak çift kavrama.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

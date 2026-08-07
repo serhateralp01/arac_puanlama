@@ -40,5 +40,31 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "trbox",
+        "autodoc_lancer_cvt",
+        "youcanic_mitsubishi_cvt",
+        "mymotorlist_4a92_oilstarvation"
+      ],
+      "reasoning": "4A92 (mitsubishi-4a92) motor ailesinin temel puanı 58. Bu aracın motor puanı (58) temel puanla birebir aynı. Ailenin bilinen zaafı: Segman/keçe aşınması kaynaklı yağ yakma; yağ açlığı biyel kolu ve piston grubu ömrünü kısaltıyor. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "trbox",
+        "autodoc_lancer_cvt",
+        "youcanic_mitsubishi_cvt",
+        "mymotorlist_4a92_oilstarvation"
+      ],
+      "reasoning": "INVECS-III (mitsubishi-invecs-cvt) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Ailenin bilinen zaafı: V kayışı ve kasnaklarda erken aşınma; sarsıntılı hızlanma, titreşim ve vites geçişinde metalik ses. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }

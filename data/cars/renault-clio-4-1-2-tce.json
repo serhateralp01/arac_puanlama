@@ -36,5 +36,27 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "donanimhaber_renault_12tce",
+        "renaultfanclub_edc_kronik"
+      ],
+      "reasoning": "H5F (renault-tce-12) motor ailesinin temel puanı 42. Bu aracın motor puanı (42) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ tüketiminin ciddi seviyelere ulaşması, bazı araçlarda 1000 km'de 1 litreye varan. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
+      "assessed_at": "2026-08-06"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "donanimhaber_renault_12tce",
+        "renaultfanclub_edc_kronik"
+      ],
+      "reasoning": "EDC (kuru) (renault-edc-kuru) şanzıman ailesinin temel puanı 54. Bu aracın trans puanı (54) temel puanla birebir aynı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
+      "assessed_at": "2026-08-06"
+    }
   }
 }
