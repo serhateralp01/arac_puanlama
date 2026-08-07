@@ -3797,5 +3797,89 @@
       "engine": "web_search",
       "found_at": "2026-08-07"
     }
+  },
+  "autoscore_dw10": {
+    "claim": "autoscore.pro, PSA'nın 2.0 HDi (DW10) dizelinin 'sağlam' bir motor olduğunu, düzenli bakım ve kaliteli yakıtla 300.000 km'yi rahatlıkla aştığını, ancak triger kayışının servis aralığının (150.000 km/8 yıl) ötesinde gerilebildiğini, yakıt filtresi/pompası arızasının düşük kaliteli yakıtla ilişkili olduğunu ve çift kütleli volanın (DMF) zamanla gürültü yapıp değişim gerektirdiğini aktarıyor.",
+    "publisher": "autoscore.pro",
+    "url": "https://autoscore.pro/engine/psa-2.0-hdi-dw10",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "drivisual_puretech_wetbelt": {
+    "claim": "drivisual.tv, PSA/Stellantis 1.2 PureTech motorlarında yakıt yanmamış halde silindir duvarından karterdeki yağa karışabildiğini, bunun yağ banyolu triger kayışının aşınmasını hızlandırdığını ve aşınan kayış parçacıklarının yağ devresini tıkayarak güç kaybına veya ağır motor hasarına yol açabildiğini; bu nedenle üreticinin önerdiği değişim aralığının 240.000 km'den 70.000 km'ye çekildiğini aktarıyor.",
+    "publisher": "drivisual.tv",
+    "url": "https://www.drivisual.tv/en/news/stellantis-1-2-puretech-guide-wet-belt-problems-oil-dilution-chain-upgrade-and-10-year-warranty",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "lowoffset_2zrfe": {
+    "claim": "low-offset.com, Toyota 2ZR-FE (1.8) motorunun genel olarak dayanıklı sayıldığını, ama arka (downstream) oksijen sensörünün bilinen bir arıza noktası olduğunu (P0138 hata kodu) ve ateşleme bobinlerinin tek tek, tipik olarak 80.000-120.000 km sonrasında arızalanıp misfire'a yol açabildiğini aktarıyor.",
+    "publisher": "low-offset.com",
+    "url": "https://low-offset.com/toyota/2zr-fe-engine/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "asrgearbox_af40": {
+    "claim": "asrgearboxrepairs.co.uk, Aisin AF40-6 kutusunun 2004-2018 arası çok sayıda modelde neredeyse hiç mühendislik değişikliği olmadan kullanıldığını, en sık bildirilen sorunların valf gövdesi kaynaklı olduğunu (soğukken düşük viteslerde uzun kalma, orta hızda kilitlenme sırasında hafif titreşim, yavaşlarken sert darbe hissi) ve bunların çoğunun bozuk/eskimiş ATF veya güncellenmemiş şanzıman yazılımıyla ilişkili olduğunu aktarıyor.",
+    "publisher": "asrgearboxrepairs.co.uk",
+    "url": "https://www.asrgearboxrepairs.co.uk/aisin-6-speed-automatic/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "asrgearbox_eat8": {
+    "claim": "asrgearboxrepairs.co.uk, Aisin EAT8 kutusunun mekanik valf gövdesi arızası, invertör bozulması veya planet dişli sorununun çok nadir olduğunu, en sık bildirilen şikayetlerin 1.-2. vites arası sert geçiş ve kickdown'da gecikme olduğunu, bu belirtilerin çoğu zaman kutunun kendisinden değil kontrol ünitesi yazılımından kaynaklandığını ve üreticinin servis kampanyalarıyla ECU güncellemesiyle çözebildiğini aktarıyor.",
+    "publisher": "asrgearboxrepairs.co.uk",
+    "url": "https://www.asrgearboxrepairs.co.uk/aisin-8-speed-automatic/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
+  },
+  "go4trans_k310": {
+    "claim": "go4trans.com, Toyota'nın K310 CVT'sinin (Multidrive S) 1.8L ve altı motorlar için tasarlanmış küçük bir variatör olduğunu, tipik CVT sorunlarının (ATF kirlenmesi, aşırı ısınma, rulman hasarı, sızdırmazlık kaçakları) bu ailede de görülebildiğini, ama düzenli bakımla ve agresif sürüşten kaçınılarak 500.000 km'ye kadar revizyonsuz çalışabildiğini aktarıyor.",
+    "publisher": "go4trans.com",
+    "url": "https://go4trans.com/transmission/k310/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
   }
 }

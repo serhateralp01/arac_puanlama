@@ -22,7 +22,7 @@
     700,
     1000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 52,
     "trans": 58,
@@ -35,7 +35,8 @@
   "sources": [
     "enginescope_ep6_thp",
     "insigniateam_af40",
-    "trbox"
+    "trbox",
+    "asrgearbox_af40"
   ],
   "note": "Dizel kardeşiyle aynı Aisin AF40 tork konvertörlü kutuyu kullanıyor; bu ailenin bilinen zayıf noktası hidrolik beyin (valf gövdesi), yenileme maliyeti diğer markaların şanzıman arızalarına göre nispeten uygun (~5.000 TL). Motor tarafında ise 1.6 THP'nin bilinen zincir ve karbon birikimi dertleri geçerli.",
   "provenance": {

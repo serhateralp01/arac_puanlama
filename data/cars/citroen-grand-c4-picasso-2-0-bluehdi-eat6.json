@@ -21,7 +21,7 @@
     750,
     1100
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 72,
@@ -34,7 +34,8 @@
   "sources": [
     "engineexplained_dw10",
     "trbox",
-    "asrgearbox_eat6"
+    "asrgearbox_eat6",
+    "autoscore_dw10"
   ],
   "note": "Aynı gövdenin listede zaten kayıtlı 1.6 e-HDi'sinden (psa-dv6) farklı, daha güçlü 2.0 BlueHDi seçeneği; motor (DW10, psa-dw10) C5/508'de zaten kayıtlı, kutu (EAT6) aynı gövdenin 1.6'sıyla ortak. 1.6'yı düşük puanlandıran turbo yağ açlığı zinciri bu 2.0 ailesinde belgelenmiyor.",
   "provenance": {

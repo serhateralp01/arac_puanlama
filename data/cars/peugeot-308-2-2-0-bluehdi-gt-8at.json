@@ -21,7 +21,7 @@
     950,
     1350
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 76,
@@ -34,7 +34,9 @@
   "sources": [
     "engineexplained_dw10",
     "erenservis_eat8",
-    "motor1_psa_suv_eat"
+    "motor1_psa_suv_eat",
+    "autoscore_dw10",
+    "asrgearbox_eat8"
   ],
   "note": "308'in ikinci neslinin (2017 face-lift) en güçlü dizel seçeneği; motor (DW10 ailesi, psa-dw10) C5 ve 508'de zaten kayıtlı, kutu (EAT8) listede C5 Aircross'ta zaten kayıtlı 8 ileri PSA otomatiği. Aynı gövdenin 1.6 BlueHDi'siyle (psa-dv6) karıştırılmamalı; DW10, küçük kardeşi 1.6'yı rahatsız eden turbo yağ açlığı zincirini taşımıyor.",
   "provenance": {

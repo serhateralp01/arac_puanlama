@@ -22,7 +22,7 @@
     700,
     1000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 45,
     "trans": 72,
@@ -35,7 +35,8 @@
   "sources": [
     "enginescope_ep6_thp",
     "insigniateam_af40",
-    "trbox"
+    "trbox",
+    "asrgearbox_af40"
   ],
   "note": "Otomatiği Aisin yapımı tork konvertörlü kutu ve bu tarafı güvenli. Asıl sorun motorda: 1.6 THP motorun zincir, karbon birikmesi ve termostat konuları Türkiye'de iyi bilinen kronik kalemler. Sürmesi keyifli bir araç ama motor geçmişi çok önemli.",
   "provenance": {

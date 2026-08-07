@@ -22,7 +22,7 @@
     700,
     1000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 88,
     "trans": 70,
@@ -35,7 +35,9 @@
   "sources": [
     "homeofengines_1zr",
     "slashgear_toyota_cvt_reliability",
-    "trbox"
+    "trbox",
+    "lowoffset_2zrfe",
+    "go4trans_k310"
   ],
   "note": "Toyota'nın güvenilirliğini hatchback gövdede sunuyor. Otomatiği CVT; Toyota'nın CVT kutuları dayanıklılık açısından sınıfının en iyileri arasında sayılıyor ama sürüş hissi lastik gibi ve tork konvertörü kadar direkt değil. Motoru ve genel yapısı dert çıkarmıyor.",
   "provenance": {

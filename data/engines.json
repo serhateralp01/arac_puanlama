@@ -1782,12 +1782,22 @@
         "sources": [
           "engineexplained_dw10"
         ]
+      },
+      {
+        "issue": "Çift kütleli volanın (DMF) zamanla gürültü yapıp değişim gerektirmesi",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "autoscore_dw10"
+        ]
       }
     ],
     "sources": [
-      "engineexplained_dw10"
+      "engineexplained_dw10",
+      "autoscore_dw10"
     ],
-    "note": "PSA'nın 2.0 dizel ailesi; C5 ve 508'de kullanılıyor. Ford ve Volvo'ya da veriliyor (Duratorq, D3/D4). Küçük kardeşi 1.6 HDi'yi (psa-dv6) rahatsız eden enjektör keçesi-turbo yağ hattı arıza zincirini taşımıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: kaynak 'PSA'nın en sağmam dizellerinden biri' ve '300.000 km filoda yaygın' diyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
+    "note": "PSA'nın 2.0 dizel ailesi; C5 ve 508'de kullanılıyor. Ford ve Volvo'ya da veriliyor (Duratorq, D3/D4). Küçük kardeşi 1.6 HDi'yi (psa-dv6) rahatsız eden enjektör keçesi-turbo yağ hattı arıza zincirini taşımıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: iki kaynak da (ikisi de C) 'PSA'nın en sağlam dizellerinden biri' ve '300.000 km filoda yaygın' diyor, ikinci kaynak buna çift kütleli volan aşınmasını ekliyor; iki kaynak da C seviyesi olduğu için 85 üstüne çıkarılmadı.]"
   },
   "psa-tu5": {
     "id": "psa-tu5",
@@ -2181,12 +2191,22 @@
         "sources": [
           "homeofengines_1zr"
         ]
+      },
+      {
+        "issue": "2ZR-FE varyantında arka (downstream) oksijen sensörünün arızalanması (P0138 hata kodu) ve ateşleme bobinlerinin tek tek, tipik olarak 80.000-120.000 km sonrasında arızalanıp misfire'a yol açması",
+        "onset_km": 80000,
+        "frequency": "orta",
+        "severity": "küçük",
+        "sources": [
+          "lowoffset_2zrfe"
+        ]
       }
     ],
     "sources": [
-      "homeofengines_1zr"
+      "homeofengines_1zr",
+      "lowoffset_2zrfe"
     ],
-    "note": "Auris, Avensis ve Corolla'nın 1.6/1.8 benzinli ailesi. Toyota'nın dayanıklılık ünü büyük ölçüde bu tip atmosferik ailelere dayanıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: 'uzunluk, sorunsuz çalışma, düşük arıza sıklığı' ile anılıyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]",
+    "note": "Auris, Avensis ve Corolla'nın 1.6/1.8 benzinli ailesi. Toyota'nın dayanıklılık ünü büyük ölçüde bu tip atmosferik ailelere dayanıyor. İkinci kaynak spesifik olarak ABD spesifikasyonlu 2ZR-FE varyantını değerlendiriyor ve genel tabloyu doğruluyor ('dependable', 'trouble-free'), buna ek olarak oksijen sensörü ve ateşleme bobini gibi küçük, planlanabilir aşınma kalemleri bildiriyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: iki kaynak da 'uzunluk, sorunsuz çalışma, düşük arıza sıklığı' ile anıyor; ikisi de C seviyesi olduğu için 85 üstüne çıkarılmadı.]",
     "revision_sensitivity": "Valvematic aktüatör sıkışması esas olarak 2014 ve erken 2015 üretimini etkiliyor; Toyota bunu 2015 sonu/2016 başında revize etti. Listedeki araçların çoğu bu dar riskli pencerenin dışında veya büyük ölçüde dışında kalıyor."
   },
   "toyota-zz": {
@@ -3061,12 +3081,22 @@
         "sources": [
           "donanimhaber_puretech_triger"
         ]
+      },
+      {
+        "issue": "Kısa mesafe kullanımda yanmamış yakıtın silindir duvarından karterdeki yağa karışması (yağ seyrelmesi), bunun kayış aşınmasını hızlandırması",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "drivisual_puretech_wetbelt"
+        ]
       }
     ],
     "sources": [
-      "donanimhaber_puretech_triger"
+      "donanimhaber_puretech_triger",
+      "drivisual_puretech_wetbelt"
     ],
-    "note": "PSA/Stellantis'in üç silindirli küçük turbo ailesi; EP6/THP'den tamamen farklı, yağ banyolu kayışlı bir tasarım. [base_score gerekçesi: 0-34 (ciddi risk): kayış koptuğunda parçalar yağ sistemine karışıp motor bloğunu hasar bırakabiliyor, bu risk yaygın olarak bildiriliyor; üretici üçüncü nesilde (Hybrid 136, EB2) tasarımı zincire çevirdi ama listedeki dönem bu değişiklikten önceki üretim."
+    "note": "PSA/Stellantis'in üç silindirli küçük turbo ailesi; EP6/THP'den tamamen farklı, yağ banyolu kayışlı bir tasarım. İkinci kaynak, kayış aşınmasının mekanizmasını netleştiriyor: kısa mesafe kullanımında yanmamış yakıt karterdeki yağa karışıyor (yağ seyrelmesi), bu da kayışı normalden hızlı aşındırıyor — üreticinin önerdiği değişim aralığının 240.000 km'den 70.000 km'ye çekilmesinin sebebi bu. [base_score gerekçesi: 0-34 (ciddi risk): kayış koptuğunda parçalar yağ sistemine karışıp motor bloğunu hasar bırakabiliyor, bu risk iki bağımsız kaynakta da yaygın olarak bildiriliyor; üretici üçüncü nesilde (Hybrid 136, EB2) tasarımı zincire çevirdi ama listedeki dönem bu değişiklikten önceki üretim."
   },
   "toyota-8nr-fts": {
     "id": "toyota-8nr-fts",

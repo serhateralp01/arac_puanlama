@@ -1,0 +1,84 @@
+{
+  "id": "renault-captur-1-2-tce-edc",
+  "name": "Renault Captur 1.2 TCe EDC",
+  "tag": "oto: 6 ileri kuru EDC · 120hp",
+  "brand_group": "Renault",
+  "years": "2013-2017",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "renault-edc-kuru",
+    "body_type": "SUV",
+    "engine_id": "renault-tce-12",
+    "kerb_weight_kg": 1255,
+    "torque_nm": 190,
+    "fuel_consumption_l_100km": 5.4
+  },
+  "price_band_k_try": [
+    600,
+    900
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 42,
+    "trans": 54,
+    "fun": 33,
+    "comf": 76,
+    "age": 54,
+    "cost": 62,
+    "liq": 74
+  },
+  "sources": [
+    "donanimhaber_renault_12tce",
+    "otopark_sanziman_rehberi",
+    "renaultfanclub_edc",
+    "renaultfanclub_edc_kronik",
+    "sikayetvar_megane_edc"
+  ],
+  "note": "Captur'un listede zaten kayıtlı 1.5 dCi versiyonundan (renault-captur-1-5-dci-edc) farkı, dizel yerine aynı renault-tce-12 benzinli turbo ailesini kullanması — Clio 4 ve Megane 3'te de kayıtlı olan aynı motor. Şanzıman da aynı: renault-edc-kuru. Captur'un Türkiye'de güçlü bir ikinci el likiditesi var; dizele göre motor riski daha yüksek ama işletme maliyeti (LPG dönüşümü hariç tutulduğu için) daha öngörülebilir.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 ikinci dalga, on sekizinci tur: mevcut motor ailesine (renault-tce-12) ve mevcut şanzıman ailesine (renault-edc-kuru) eşleştirme; Captur'un dizel kardeşinin benzinli versiyonu eklendi.",
+    "specs_source": "Güç/tork/ağırlık verisi auto-data.net ve carfolio.com'un WebSearch'te birbirini doğrulayan sonuçlarından alındı (120 PS/190 Nm @ 1255 kg, 2013-2017 üretim). autoevolution.com bu oturumda erişim engelli olduğu için doğrudan kullanılamadı, ama rakamlar birden fazla bağımsız spec sitesinde örtüşüyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "donanimhaber_renault_12tce"
+      ],
+      "reasoning": "H5F (renault-tce-12) motor ailesinin temel puanı 42. Bu aracın motor puanı (42) temel puanla birebir aynı. Ailenin bilinen zaafı: yağ tüketiminin ciddi seviyelere ulaşması (bazı araçlarda 1000 km'de 1 litreye varan) ve triger zincirinin zamanla uzayıp motor vuruntusuna yol açması. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: kaynak, düşük-orta kilometrede ortaya çıkan ve garanti kapsamında motor değişimine kadar giden vakalar bildiriyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "renaultfanclub_edc",
+        "sikayetvar_megane_edc"
+      ],
+      "reasoning": "EDC (kuru) (renault-edc-kuru) şanzıman ailesinin temel puanı 54. Bu aracın trans puanı (54) temel puanla birebir aynı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: 3'ten 4'e geçişte tekrarlayan ses ve istisnai kontrol ünitesi arızası bildiriliyor, ama kutu genelde ayakta kalıyor (257.000 km sorunsuz giden bir örnek de kayıtlı).",
+      "assessed_at": "2026-08-07"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2015.0, yani 2026 itibarıyla yaşı yaklaşık 11.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 23.8. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 54 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    },
+    "fun": {
+      "band": "sürüş keyfi öncelik değil",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 96 hp/ton (normalize 28/100), tork/ağırlık oranı 151 Nm/ton (normalize 24/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +6) temel puan 33. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

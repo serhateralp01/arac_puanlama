@@ -24,15 +24,15 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Şanzıman kutusu kayıtları | 45 kutu (`data/transmissions.json`), çoğu temel puanlı ve kaynaklı |
 | Motor ailesi kayıtları | 81 aile (`data/engines.json`), çoğu temel puanlı ve kaynaklı |
 | Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 49/49 duman testi |
-| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 161/276 araç — `kerb_weight_kg`/`torque_nm` dolu olanlar). `comf` ve `cost` hâlâ elle veriliyor. |
+| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 163/278 araç — `kerb_weight_kg`/`torque_nm` dolu olanlar). `comf` ve `cost` hâlâ elle veriliyor. |
 | Çok ekranlı arayüz: ana ekran, giriş akışı, liste, metodoloji, kaynak öner, iletişim | Çalışıyor |
 | GitHub Pages yayını | Çıktı `index.html` olarak üretiliyor, kök adres siteyi açıyor |
 | Liste ekranı denetim çubuğu (Y-05) | Tamamlandı: ağırlık/arama/filtre tablonun üstünde, filtre paneli katlanabilir |
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; dördüncü tur (bileşen ailesi kaldıraçlı derinleştirme) sonrası 213/276 araç "doğrulanmış" (4+ kaynak), ortalama ~4.48 — Y-01'in her yeni turu ortalamayı biraz seyreltiyor, bu beklenen bir durum |
-| Araç listesi (Y-01) | 154 → 276 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→276, 48 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
+| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; beşinci tur (kaldıraçlı derinleştirme, ikinci raunt) sonrası 235/278 araç "doğrulanmış" (4+ kaynak), ortalama ~4.63 — Y-01'in her yeni turu ortalamayı biraz seyreltiyor, bu beklenen bir durum |
+| Araç listesi (Y-01) | 154 → 278 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
@@ -365,13 +365,26 @@ kaynak-yetersiz, 33 c-kaynakla-uc-puan — ikisi de bu turdan önce de vardı),
 `smoke_test.js`'in iki testinde sabit yazılı araç sayısı (273→276, 275→278)
 güncellendi, 49/49.
 
-**Toplam durum (228 baseline'dan bu yana).** Araç sayısı 228 → 276 (48 yeni
+**On sekizinci tur (2026-08-07) — 2 araç, mevcut ailelere düşük riskli eşleştirme.**
+Yeni bileşen ailesi açmadan, tamamen listede zaten kayıtlı ve kaynaklı ailelere
+eşleştirilen iki araç: Skoda Scala 1.0 TSI DSG (`vag-ea211` + `vag-dq200`,
+Fabia/Ibiza/Polo'daki aynı kombinasyon; Rapid'in yerine geçen model listede
+hiç yoktu) ve Renault Captur 1.2 TCe EDC (`renault-tce-12` + `renault-edc-kuru`,
+listede zaten kayıtlı dizel Captur'un benzinli kardeşi). İkisi de "boş alan
+riskli tahminden iyidir" ilkesinin tersi bir durumu gösteriyor: risk düşükken
+(bileşenler zaten doğrulanmış) hızlı eklenebilecek gerçek boşluklar. `validate.py`
+0 hata, `smoke_test.js`'in iki testinde sabit yazılı araç sayısı (276→278,
+278→280) güncellendi, 49/49.
+
+**Toplam durum (228 baseline'dan bu yana).** Araç sayısı 228 → 278 (50 yeni
 kombinasyon), kullanıcının koyduğu 80-90 hedefinin yarısından fazlası
 karşılandı. Bu iş doğası gereği kapanmayan, sürekli genişleyebilecek bir iş
 kalemi. Renault Symbol/Thalia (1.6L 16V, otomatik kutu tedarikçisi JATCO
 JF404E olarak teyit edildi ama arıza kanıtı yok — hâlâ araştırılmayı
 bekliyor) ve `/tmp` önbelleğindeki 550 satırlık aday listesinden taranmamış
-kalan adaylar sıradaki turlar için not.
+kalan adaylar sıradaki turlar için not. Sıradaki düşük riskli adaylar: Skoda
+Kamiq (aynı VAG bileşenleri), Peugeot 2008/208'in eksik motor seçenekleri
+(mevcut `psa-puretech-12`/`psa-eat8` ailelerine bağlanabilir).
 
 ---
 
@@ -504,10 +517,33 @@ betikle yapıldı.
 **95 → 63**, `arac_basina_ortalama_kaynak` **4,18 → 4,48**, `kaynak-yetersiz`
 uyarısı **95 → 63**. `validate.py` 0 hata, `smoke_test.js` 49/49.
 
-**Kalan iş.** 63 araç hâlâ kısmi kaynak. Aynı kaldıraç yöntemi tekrarlanabilir:
-sıradaki en yüksek kaldıraçlı adaylar `psa-puretech-12` (5 araç), `psa-dw10`
-(5 araç), `toyota-zr` (4 araç), `psa-dv6` (4 araç), `psa-ep6-vti` (4 araç) — hepsi
-tek kaynaklı aileler.
+**Kalan iş (o tarihte).** 63 araç hâlâ kısmi kaynak. Aynı kaldıraç yöntemi
+tekrarlanabilir: sıradaki en yüksek kaldıraçlı adaylar `psa-puretech-12` (5
+araç), `psa-dw10` (5 araç), `toyota-zr` (4 araç), `psa-dv6` (4 araç),
+`psa-ep6-vti` (4 araç) — hepsi tek kaynaklı aileler.
+
+### Beşinci tur — aynı kaldıraç yöntemi, ikinci raunt (2026-08-07)
+
+Dördüncü turun notundaki adaylardan altısı işlendi: `aisin-af40` (7 araç,
+1→2 kaynak), `psa-dw10` (5 araç, 1→2), `psa-eat8` (5 araç, 2→3),
+`toyota-multidrive` (5 araç, 2→3), `psa-puretech-12` (4 araç, 1→2),
+`toyota-zr` (4 araç, 1→2). Her biri için WebSearch'le gerçekten yeni bir
+kaynak bulundu (ör. `psa-dw10`'a çift kütleli volan aşınması, `psa-puretech-12`'ye
+yağ seyrelmesinin kayış aşınmasını hızlandırma mekanizması, `toyota-zr`'ye
+2ZR-FE'nin oksijen sensörü/ateşleme bobini kalemleri eklendi) ve daha önce
+boş olan `known_issues` alanları yapılandırıldı. Aynı mekanik miras geçişi
+tekrarlandı: 28 araç etkilendi.
+
+**Sonuç.** `dogrulanmis` **213 → 233** (bu turun kendisi, Y-01'in aynı günkü
+on sekizinci turunda eklenen 2 doğrulanmış araçla birlikte toplam 235),
+`kismi_kaynak` **63 → 43**, `arac_basina_ortalama_kaynak` **4,48 → 4,63**,
+`kaynak-yetersiz` uyarısı **63 → 43**. `validate.py` 0 hata, `smoke_test.js`
+49/49.
+
+**Kalan iş.** 43 araç hâlâ kısmi kaynak, artık büyük ölçüde 1-2 araçlık
+kuyruk (`hyundai-u2-16`, `psa-bluehdi-15`, `renault-h5ht`, `ford-sigma-tivct`,
+`hyundai-6at`, `getrag-7dct300`, `psa-etg` gibi) — kaldıraç etkisi azalıyor,
+bundan sonrası tek tek araç/aile araştırmasına daha yakın.
 
 ---
 

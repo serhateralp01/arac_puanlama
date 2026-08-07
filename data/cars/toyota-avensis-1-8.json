@@ -22,7 +22,7 @@
     800,
     1150
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 88,
     "trans": 70,
@@ -35,7 +35,9 @@
   "sources": [
     "homeofengines_1zr",
     "slashgear_toyota_cvt_reliability",
-    "trbox"
+    "trbox",
+    "lowoffset_2zrfe",
+    "go4trans_k310"
   ],
   "note": "Geniş, konforlu ve son derece güvenilir bir aile sedanı. Otomatiği yine CVT; Toyota'nın bu kutusu sağlam kabul ediliyor. Sürüş keyfi düşük, buna karşılık uzun yol konforu ve arıza istatistikleri çok iyi.",
   "provenance": {

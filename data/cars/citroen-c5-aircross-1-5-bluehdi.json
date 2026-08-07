@@ -18,7 +18,7 @@
     1150,
     1600
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 50,
     "trans": 76,
@@ -31,7 +31,8 @@
   "sources": [
     "araclo_c5aircross",
     "erenservis_eat8",
-    "motor1_psa_suv_eat"
+    "motor1_psa_suv_eat",
+    "asrgearbox_eat8"
   ],
   "note": "PSA'nın CMP platformlu SUV'u; motor için yeni bir aile açıldı (psa-bluehdi-15, 1.6 BlueHDi'den farklı, daha küçük hacimli), şanzıman için de yeni bir aile (psa-eat8) — ikisi de bu C5 Aircross araştırmasının ürünü. 2022 öncesi üretimde motor tarafında zincir riski bildirilmiş; EAT8 kutusunun yapısal bir kronik sorunu olmadığı vurgulanıyor.",
   "provenance": {

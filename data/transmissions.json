@@ -124,12 +124,21 @@
     "supplier": "Aisin",
     "gears": 6,
     "base_score": 58,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [
-      "insigniateam_af40"
+    "maintenance": "ATF değişim aralığının atlanmaması, valf gövdesi tortu birikimini ve soğukken uzun süre düşük viteste kalma davranışını azaltıyor.",
+    "known_issues": [
+      {
+        "issue": "Valf gövdesi (hidrolik beyin) kaynaklı, soğukken düşük viteste uzun kalma, orta hız kilitlenmesinde hafif titreşim ve yavaşlarken sert darbe hissi",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": ["asrgearbox_af40"]
+      }
     ],
-    "note": "Bilinen zayıf noktası hidrolik beyin (valf gövdesi). Aisin Geartronic ve TF-80 ile aynı aileden olup olmadığı teyit edilmeli; eğer aynıysa bu kutuların puanlarının birbirine yakın olması gerekir. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): hidrolik beyin arızası gerçek ve tekrarlayan ama ~5.000 TL ile nispeten uygun maliyetli, kutu genelde onarımla ayakta kalıyor.]"
+    "sources": [
+      "insigniateam_af40",
+      "asrgearbox_af40"
+    ],
+    "note": "Bilinen zayıf noktası hidrolik beyin (valf gövdesi). Aisin Geartronic ve TF-80 ile aynı aileden olup olmadığı teyit edilmeli; eğer aynıysa bu kutuların puanlarının birbirine yakın olması gerekir. İkinci kaynak (İngilizce, uzman tamirci) aynı valf gövdesi zaafını doğruluyor ve bunun çoğunlukla bozuk/eskimiş ATF veya güncellenmemiş yazılımla ilişkili olduğunu ekliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): hidrolik beyin arızası iki bağımsız kaynakta da (ikisi de C) gerçek ve tekrarlayan olarak bildiriliyor ama ~5.000 TL ile nispeten uygun maliyetli, kutu genelde onarımla ayakta kalıyor.]"
   },
   "aisin-tf80": {
     "id": "aisin-tf80",
@@ -574,13 +583,22 @@
     "supplier": "Aisin / Toyota",
     "gears": null,
     "base_score": 74,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Agresif sürüşten (sık tam gaz kalkış) kaçınmak ve ATF'yi zamanında değiştirmek, aşırı ısınma ve rulman hasarı riskini azaltıyor.",
+    "known_issues": [
+      {
+        "issue": "ATF kirlenmesi/bozunumu kaynaklı aşırı ısınma, rulman aşınması ve sızdırmazlık kaçakları; agresif sürüşle hızlanıyor",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": ["go4trans_k310"]
+      }
+    ],
     "sources": [
       "trbox",
-      "slashgear_toyota_cvt_reliability"
+      "slashgear_toyota_cvt_reliability",
+      "go4trans_k310"
     ],
-    "note": "CVT ailesinin en dayanıklıları arasında sayılıyor. Sürüş hissi lastik gibi tarif ediliyor. [base_score gerekçesi: 65-84 (sağlam): kaynak CVT ailesinin en dayanıklıları arasında sayıyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
+    "note": "CVT ailesinin en dayanıklıları arasında sayılıyor. Sürüş hissi lastik gibi tarif ediliyor. Üçüncü kaynak (K310 koduna özel teknik sayfa) düzenli bakım ve agresif sürüşten kaçınmak şartıyla 500.000 km'ye kadar revizyonsuz çalışabildiğini, ihmal edilirse ATF kirlenmesi/aşırı ısınma/rulman hasarı riskinin arttığını ekliyor. [base_score gerekçesi: 65-84 (sağlam): üç kaynak da (üçü de C) CVT ailesinin en dayanıklıları arasında sayıyor; hepsi C seviyesi olduğu için 85 üstüne çıkarılmadı.]"
   },
   "nissan-xtronic": {
     "id": "nissan-xtronic",
@@ -975,7 +993,7 @@
     "supplier": "Aisin / PSA",
     "gears": 8,
     "base_score": 76,
-    "maintenance": null,
+    "maintenance": "60.000-80.000 km'de bir ATF değişimi kutunun ömrünü belirgin biçimde uzatıyor; belgelenmiş bakım geçmişi olmayan araçlarda risk artıyor.",
     "known_issues": [
       {
         "issue": "3.-2. vites arası vuruntu ve kalkışta hafif gecikme",
@@ -985,13 +1003,21 @@
         "sources": [
           "erenservis_eat8"
         ]
+      },
+      {
+        "issue": "Kickdown'da (sert gaza basmada) gecikme ve durup-kalkma trafiğinde bozulan ATF nedeniyle tork konvertöründe hafif titreme; mekanik valf gövdesi/invertör arızası çok nadir",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "küçük",
+        "sources": ["asrgearbox_eat8"]
       }
     ],
     "sources": [
       "motor1_psa_suv_eat",
-      "erenservis_eat8"
+      "erenservis_eat8",
+      "asrgearbox_eat8"
     ],
-    "note": "PSA'nın 2017 sonrası SUV'larında (3008, 5008, C5 Aircross) kullandığı Aisin kaynaklı 8 ileri tork konvertörü; PSA'nın kendi ürettiği eski AL4/ETG kutularından belirgin biçimde daha güvenilir kabul ediliyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): iki kaynak da (C, B) yapısal olmayan küçük şikayetlerden bahsediyor, 'yapısal kronik sorunu yok' vurgusu tutarlı; buna rağmen 85 üstüne çıkarılmadı."
+    "note": "PSA'nın 2017 sonrası SUV'larında (3008, 5008, C5 Aircross) kullandığı Aisin kaynaklı 8 ileri tork konvertörü; PSA'nın kendi ürettiği eski AL4/ETG kutularından belirgin biçimde daha güvenilir kabul ediliyor. Üçüncü kaynak (İngilizce, uzman tamirci) bunu doğruluyor: mekanik arıza son derece nadir, bildirilen belirtilerin çoğu kontrol ünitesi yazılımından kaynaklanıyor ve ECU güncellemesiyle çözülebiliyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): üç kaynak da (C, B, C) yapısal olmayan küçük şikayetlerden bahsediyor, 'yapısal kronik sorunu yok' vurgusu tutarlı; buna rağmen 85 üstüne çıkarılmadı."
   },
   "mazda-skyactiv-6at": {
     "id": "mazda-skyactiv-6at",

@@ -1,0 +1,85 @@
+{
+  "id": "skoda-scala-1-0-tsi-dsg",
+  "name": "Skoda Scala 1.0 TSI DSG",
+  "tag": "oto: 7 ileri kuru DSG · 115hp",
+  "brand_group": "Skoda",
+  "years": "2019-2022",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.0,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea211",
+    "kerb_weight_kg": 1229,
+    "torque_nm": 200,
+    "fuel_consumption_l_100km": 5.3
+  },
+  "price_band_k_try": [
+    750,
+    1150
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 72,
+    "trans": 38,
+    "fun": 33,
+    "comf": 72,
+    "age": 78,
+    "cost": 70,
+    "liq": 48
+  },
+  "sources": [
+    "andcetin_dq200",
+    "oreateai_ea111_vs_ea211",
+    "trbox",
+    "ecotorque_dq200_mechatronic",
+    "enginecrux_ea211_14tsi"
+  ],
+  "note": "Skoda Rapid'in yerine geçen C-segment hatchback; motor (EA211) ve şanzıman (DQ200) aileleri listede zaten kayıtlı VAG bileşenleri, Fabia/Ibiza/Polo'daki 1.0 TSI DSG kombinasyonuyla birebir aynı. Türkiye'de Fabia veya Golf kadar yaygın değil, bu yüzden liq puanı onlardan düşük tutuldu; gövde Fabia'dan büyük olduğu için comf biraz yukarıda.",
+  "provenance": {
+    "added_at": "2026-08-07",
+    "method": "Y-01 ikinci dalga, on sekizinci tur: mevcut motor ailesine (vag-ea211) ve mevcut şanzıman ailesine (vag-dq200) eşleştirme, listede hiç olmayan bir modelin eklenmesi.",
+    "specs_source": "Güç/tork/ağırlık verisi auto-data.net, automobile-catalog.com ve carfolio.com'un WebSearch'te birbirini doğrulayan sonuçlarından alındı (115 PS/200 Nm @ 1229 kg, 2019-2020 üretim). autoevolution.com bu oturumda erişim engelli olduğu için doğrudan kullanılamadı, ama rakamlar birden fazla bağımsız spec sitesinde örtüşüyor."
+  },
+  "evidence": {
+    "motor": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "oreateai_ea111_vs_ea211",
+        "enginecrux_ea211_14tsi"
+      ],
+      "reasoning": "EA211 (vag-ea211) motor ailesinin temel puanı 72. Bu aracın motor puanı (72) temel puanla birebir aynı. Ailenin bilinen zaafı: erken üretimde ölçülü bir yağ tüketimi riski, ama EA111'in triger zinciri sorunu kayışa geçilerek tamamen kalkmış. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: kaynaklar EA111'e göre 'belirgin biçimde daha güvenilir' diyor, kayış değişimi planlanabilir bir kalem.",
+      "assessed_at": "2026-08-07"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dq200",
+        "ecotorque_dq200_mechatronic"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: erken üretim kavrama paketi arızası ve 0AM mekatronik gövdesindeki basınç haznesi çatlağı, düşük torklu VAG motorlarında (bu araç dahil) tekrarlayan bir zaaf olarak bildiriliyor.",
+      "assessed_at": "2026-08-07"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2020.5, yani 2026 itibarıyla yaşı yaklaşık 5.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 12.2. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 78 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    },
+    "fun": {
+      "band": "sürüş keyfi öncelik değil",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 94 hp/ton (normalize 26/100), tork/ağırlık oranı 163 Nm/ton (normalize 30/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +6) temel puan 33. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

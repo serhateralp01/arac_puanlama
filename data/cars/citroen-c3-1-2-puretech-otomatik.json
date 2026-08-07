@@ -18,7 +18,7 @@
     520,
     800
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 34,
     "trans": 72,
@@ -31,7 +31,8 @@
   "sources": [
     "donanimhaber_puretech_triger",
     "trbox",
-    "asrgearbox_eat6"
+    "asrgearbox_eat6",
+    "drivisual_puretech_wetbelt"
   ],
   "note": "C3'ün üçüncü nesli; yağ banyolu triger kayışlı PureTech motoru taşıyor, bakımı ihmal edilmemeli.",
   "provenance": {

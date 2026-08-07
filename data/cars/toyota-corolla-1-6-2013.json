@@ -22,7 +22,7 @@
     900,
     1300
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 88,
     "trans": 70,
@@ -35,7 +35,9 @@
   "sources": [
     "homeofengines_1zr",
     "slashgear_toyota_cvt_reliability",
-    "trbox"
+    "trbox",
+    "lowoffset_2zrfe",
+    "go4trans_k310"
   ],
   "note": "Daha modern bir kasa ama otomatiği CVT. Toyota’nın CVT kutusu sınıfının sağlamlarından sayılıyor ve 200 bin kilometreyi aşan sorunsuz örnekleri var; yine de tork konvertörlü bir kutu kadar dayanıklı kabul edilmiyor ve sürüş hissi lastik gibi. İkinci elde satması listedeki en kolay araç.",
   "provenance": {

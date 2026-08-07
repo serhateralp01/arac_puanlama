@@ -21,7 +21,7 @@
     350,
     550
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 46,
     "trans": 58,
@@ -34,7 +34,8 @@
   "sources": [
     "dhaber_insignia_2_0_turbo",
     "insigniateam_af40",
-    "teknikotomatik_aisin_6ileri"
+    "teknikotomatik_aisin_6ileri",
+    "asrgearbox_af40"
   ],
   "note": "Insignia'nın üst güç benzinli versiyonu; motor için yeni bir aile açıldı (gm-a20net) — listede zaten kayıtlı dizel A20DTH ile aynı gövdeyi paylaşan ama tamamen ayrı bir benzinli aile. Ateşleme bobini aşınması ve turbo hortum yırtılması (~50.000 km) tekrarlayan şikayetler; Aisin AF40 kutusu listede zaten kayıtlı.",
   "provenance": {

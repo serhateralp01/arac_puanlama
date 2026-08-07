@@ -21,7 +21,7 @@
     1200,
     1650
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 50,
     "trans": 76,
@@ -34,7 +34,8 @@
   "sources": [
     "araclo_c5aircross",
     "erenservis_eat8",
-    "motor1_psa_suv_eat"
+    "motor1_psa_suv_eat",
+    "asrgearbox_eat8"
   ],
   "note": "Peugeot'nun yedi koltuklu SUV'u; motor (BlueHDi 1.5, psa-bluehdi-15) ve kutu (EAT8) listede Citroën C5 Aircross'ta zaten kayıtlı aynı eşleşme, burada 5008'in daha büyük gövdesine eşleştirildi. Listede henüz kayıtlı olmayan bir gövde tipi (yedi koltuklu SUV) ekliyor.",
   "provenance": {

@@ -21,7 +21,7 @@
     750,
     1100
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 34,
     "trans": 72,
@@ -34,7 +34,8 @@
   "sources": [
     "donanimhaber_puretech_triger",
     "trbox",
-    "asrgearbox_eat6"
+    "asrgearbox_eat6",
+    "drivisual_puretech_wetbelt"
   ],
   "note": "Cactus'un face-lift sonrası (2018+) 110hp PureTech'i; motor (psa-puretech-12) ve kutu (aisin-eat6) listede C3 Aircross'ta zaten kayıtlı aynı eşleşme, burada Cactus'un daha hafif ve daha basit donanımlı gövdesine eşleştirildi.",
   "provenance": {

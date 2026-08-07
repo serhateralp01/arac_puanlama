@@ -21,7 +21,7 @@
     380,
     600
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 72,
@@ -34,7 +34,8 @@
   "sources": [
     "engineexplained_dw10",
     "trbox",
-    "asrgearbox_eat6"
+    "asrgearbox_eat6",
+    "autoscore_dw10"
   ],
   "note": "C4 Picasso'nun ilk neslinde (2007+) sunulan 2.0 HDi 140 EAT6; motor (DW10, psa-dw10) C5 ve 508'de zaten kayıtlı, kutu (Aisin EAT6) Grand C4 Picasso ile aynı aile. DW10, kendisinden küçük 1.6 HDi'yi (psa-dv6) rahatsız eden turbo yağ açlığı zincirini taşımıyor; bu yüzden aynı gövdenin iki dizel seçeneği arasında belirgin bir güvenilirlik farkı var.",
   "provenance": {

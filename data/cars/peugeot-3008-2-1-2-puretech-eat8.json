@@ -21,7 +21,7 @@
     1000,
     1400
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 34,
     "trans": 76,
@@ -34,7 +34,9 @@
   "sources": [
     "donanimhaber_puretech_triger",
     "erenservis_eat8",
-    "motor1_psa_suv_eat"
+    "motor1_psa_suv_eat",
+    "drivisual_puretech_wetbelt",
+    "asrgearbox_eat8"
   ],
   "note": "Türkiye'de Peugeot'nun en çok satan modellerinden 3008'in benzinli otomatik seçeneği; motor (psa-puretech-12) ve kutu (EAT8) listede 208/2008'de zaten kayıtlı aynı eşleşme, burada 3008'e eşleştirildi. Listede zaten kayıtlı 1.6 BlueHDi'den farklı, benzinli bir seçenek.",
   "provenance": {
