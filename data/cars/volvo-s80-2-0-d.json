@@ -25,7 +25,7 @@
     "trans": 88,
     "fun": 60,
     "comf": 85,
-    "age": 58,
+    "age": 46,
     "cost": 69,
     "liq": 46
   },
@@ -59,6 +59,15 @@
       ],
       "reasoning": "Aisin Geartronic (aisin-geartronic) şanzıman ailesinin temel puanı 78. Bu aracın trans puanı (88), temel puandan 10 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Bu puan 'temiz' bandına giriyor: İki bağımsız kaynakta kronik arıza kaydı yok ve kutu tipi tork konvertörü ya da düşük torkla eşleşen ıslak çift kavrama.",
       "assessed_at": "2026-08-06"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2013.0, yani 2026 itibarıyla yaşı yaklaşık 13.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 27.6. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 46 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
     }
   }
 }

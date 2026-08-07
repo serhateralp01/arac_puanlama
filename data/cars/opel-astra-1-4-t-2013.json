@@ -25,7 +25,7 @@
     "trans": 72,
     "fun": 56,
     "comf": 76,
-    "age": 66,
+    "age": 58,
     "cost": 74,
     "liq": 70
   },
@@ -59,6 +59,15 @@
       ],
       "reasoning": "AF17 (gm-aisin-af17) şanzıman ailesinin temel puanı 68. Bu aracın trans puanı (72), temel puandan 4 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
       "assessed_at": "2026-08-06"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2016.0, yani 2026 itibarıyla yaşı yaklaşık 10.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 21.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 58 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
     }
   }
 }

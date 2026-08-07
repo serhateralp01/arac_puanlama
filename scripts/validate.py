@@ -245,22 +245,38 @@ def check_evidence_policy(
     # ister. Tier'i olmayan (henüz atanmamış) kaynak bu kural için C sayılır, yani
     # temkinli tarafta hata yapılır. "Uç bant" artık keyfi bir sayı değil, kriterin
     # kendi en üst ve en alt bandının sınırından okunuyor (bkz. §7 puan bantları).
+    # Kural kriter bazında bakıyor: bir kriterin kendi evidence bloğunda kaynak
+    # varsa o kriterin seviyesi oradan okunuyor, yoksa aracın genel kaynak listesine
+    # düşülüyor. Bu ayrım gerekliydi, çünkü bir kriter araç seviyesinde hiç kaynağı
+    # olmayan bir referansa dayanabiliyor: `age` puanı TÜV'ün yaş-kusur eğrisinden
+    # (A seviyesi) hesaplanıyor ama bu kaynak bilinçli olarak car["sources"]
+    # listesine yazılmıyor, çünkü orası "doğrulanmış" rozetini besleyen araca özgü
+    # kaynakları sayıyor (bkz. scripts/compute_age.py içindeki not ve MK-04).
     car_sources = car.get("sources", [])
-    if car_sources:
-        tiers = {sources[sid]["tier"] for sid in car_sources if sid in sources}
-        only_c = tiers and tiers <= {"C", None}
-        if only_c:
-            extreme = []
-            for k, v in car["scores"].items():
-                bands = crit_by_key[k]["bands"]
-                if bands and (v >= bands[0]["range"][0] or v <= bands[-1]["range"][1]):
-                    extreme.append(k)
-            if extreme:
-                rep.warn(
-                    where, "c-kaynakla-uc-puan",
-                    f"{sorted(extreme)} kriterlerinde en üst veya en alt bant puanı var "
-                    "ama bütün kaynaklar C seviyesinde; uç puan A veya B kanıt ister",
-                )
+    evidence = car.get("evidence") or {}
+
+    def tiers_of(sids):
+        return {sources[sid]["tier"] for sid in sids if sid in sources}
+
+    extreme = []
+    for k, v in car["scores"].items():
+        bands = crit_by_key[k]["bands"]
+        if not bands:
+            continue
+        if not (v >= bands[0]["range"][0] or v <= bands[-1]["range"][1]):
+            continue
+        crit_sources = (evidence.get(k) or {}).get("sources") or car_sources
+        if not crit_sources:
+            continue
+        t = tiers_of(crit_sources)
+        if t and t <= {"C", None}:
+            extreme.append(k)
+    if extreme:
+        rep.warn(
+            where, "c-kaynakla-uc-puan",
+            f"{sorted(extreme)} kriterlerinde en üst veya en alt bant puanı var "
+            "ama o kriteri destekleyen bütün kaynaklar C seviyesinde; uç puan A veya B kanıt ister",
+        )
 
     # tag metni ile şanzıman tipinin çelişmesi — göç sırasında bulunan hata türü
     tag = car["tag"].lower()
@@ -311,6 +327,11 @@ def main() -> int:
     usage: Counter[str] = Counter()
     for _, car in cars:
         usage.update(car.get("sources", []))
+        # Kriter bazlı kanıt bloğunda anılan kaynaklar da kullanımdır. Araç
+        # seviyesinde listelenmeyen ama bir kriteri fiilen destekleyen bir kaynak
+        # (ör. `age`'i besleyen TÜV eğrisi) bu sayılmazsa yetim görünürdü.
+        for block in (car.get("evidence") or {}).values():
+            usage.update((block or {}).get("sources") or [])
     for box in transmissions.values():
         usage.update(box.get("sources", []))
         for issue in box.get("known_issues", []):

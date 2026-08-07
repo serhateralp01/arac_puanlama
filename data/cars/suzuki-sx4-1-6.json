@@ -25,7 +25,7 @@
     "trans": 74,
     "fun": 44,
     "comf": 77,
-    "age": 58,
+    "age": 37,
     "cost": 68,
     "liq": 52
   },
@@ -59,6 +59,15 @@
       ],
       "reasoning": "Suzuki 4 ileri otomatik (suzuki-4at) şanzıman ailesinin temel puanı 74. Bu aracın trans puanı (74) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
       "assessed_at": "2026-08-06"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2010.5, yani 2026 itibarıyla yaşı yaklaşık 15.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 32.2. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 37 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
     }
   }
 }

@@ -25,7 +25,7 @@
     "trans": 42,
     "fun": 58,
     "comf": 79,
-    "age": 46,
+    "age": 15,
     "cost": 70,
     "liq": 66
   },
@@ -59,6 +59,15 @@
       ],
       "reasoning": "CD4E (ford-cd4e) şanzıman ailesinin temel puanı 42. Bu aracın trans puanı (42) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
       "assessed_at": "2026-08-06"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2003.5, yani 2026 itibarıyla yaşı yaklaşık 22.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
     }
   }
 }

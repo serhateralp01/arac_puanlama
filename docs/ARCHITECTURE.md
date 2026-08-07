@@ -405,3 +405,78 @@ bekleyenler" bölümü artık "kapsam dışı" olarak yeniden etiketlendi; Lexus
 EV/PHEV modelleri ve benzeri hiçbir zaman araştırma turuna alınmayacak. Bu, projenin
 kapsamını daraltıyor ama netleştiriyor: platform "otomatik vitesli, geleneksel yakıtlı
 ikinci el araç" sorusuna cevap veriyor, "her türlü araç" sorusuna değil.
+
+---
+
+## MK-14 · `age` kriteri TÜV kusur eğrisine bağlandı, taslak doğrusal formül reddedildi
+
+**Karar:** `age` (yaş, gövde ve elektrik riski) kriteri artık elle verilmiyor;
+`scripts/compute_age.py` tarafından TÜV'ün gerçek muayene verisinden hesaplanıyor.
+MK-06'nın "öznel kriterler formüle bağlanır" kararının fiilen uygulandığı ilk kriter
+budur.
+
+**Reddedilen taslak.** `docs/PLAN.md` §3.1 doğrusal bir formül öneriyordu
+(`temel = 100 − 3.2 × yaş`). Bu formül uygulanmadan önce elimizdeki 228 aracın
+araştırmayla verilmiş puanlarına karşı test edildi ve **tutmadığı görüldü**: ortalama
+mutlak sapma 8 puan, en kötü durumda 31 puan (Audi A4 B5 için formül 8,8 verirken
+kayıtlı puan 40'tı). Sebep, PLAN.md'nin kendi uyarısında zaten yazılıydı: yaş ile
+arıza arasındaki ilişki doğrusal değil, yaşla birlikte hızlanan bir eğri. Doğrusal
+formül uygulansaydı, tek tek araştırılmış puanların yerine onlardan daha kötü bir
+tahmin konmuş olurdu. **Taslak formül bu yüzden reddedildi.**
+
+**Kabul edilen kaynak.** Yerine TÜV Report 2025/2026 ve TÜV NORD 2026'nın yayınladığı
+yaş bandı → ciddi kusur oranı (*erhebliche Mängel*) tablosu kullanıldı; yaklaşık
+**9,5 milyon Hauptuntersuchung** sonucuna dayanıyor. Bu, metodolojimizin A seviyesi
+(sayısal, kurumsal, örneklem tabanlı) tanımına giren ilk ve şu an tek kaynağımız.
+Tabloya ikinci dereceden bir eğri uyduruldu (R² = 0,994) ve kusur oranı, TÜV'ün kendi
+uç bantları çapa alınarak puana çevrildi (yüzde 6,45 kusur = 90 puan, yüzde 40,3
+kusur = 20 puan).
+
+**Ölçülen etki.** Yeni puanlarla eski puanlar arasındaki Spearman sıra korelasyonu
+**0,95**: yani sıralama neredeyse aynı kaldı, eski elle verilen puanların *sırası*
+doğruymuş. Değişen şey ölçek: ortalama 16,8 puanlık ve neredeyse tamamı aşağı yönlü
+bir kayma var. Bunun anlamı, elle verilen puanların yaşlı araçlara Alman muayene
+verisinin gösterdiğinden daha cömert davranmış olmasıdır. Bu bir kayıp değil, tam
+olarak kurumsal veriden beklenen düzeltmedir.
+
+**Yan karar — TÜV kaynağı araç kaynak listesine yazılmaz.** Kaynak yalnızca
+`evidence.age` bloğunda anılıyor, `car["sources"]` listesine eklenmiyor. Gerekçe:
+o liste "doğrulanmış" rozetini besleyen **araca özgü** bağımsız kaynakları sayıyor
+(MK-04); TÜV eğrisi ise 228 aracın hepsine aynı şekilde uygulanan genel bir referans.
+Listeye eklenseydi her aracın kaynak sayısı bir anda birer artar ve D-02'de kapatılan
+iyimser etiketleme hatası geri gelirdi. Bu ayrım `scripts/validate.py`'ye de
+öğretildi: `c-kaynakla-uc-puan` kuralı artık bir kriterin kendi `evidence` bloğundaki
+kaynak seviyesine bakıyor, yetim kaynak sayımı da `evidence` referanslarını kullanım
+sayıyor.
+
+---
+
+## MK-15 · Teknik özellik (ağırlık, tork, tüketim) verisi için dış veri seti kullanılır, ama kopyalanmaz
+
+**Sorun.** MK-06'nın `fun`, `comf` ve `cost` için öngördüğü formüller boş ağırlık,
+tork, iç hacim, bagaj hacmi ve yakıt tüketimi verisi istiyor. Bu alanlar
+`data/schema/car.schema.json` içinde tanımlı ama **228 aracın 228'inde de boş**;
+elle doldurmak araç başına ayrı araştırma demek.
+
+**Değerlendirilen kaynaklar.** İki açık kaynak veri seti incelendi:
+
+| Kaynak | Kapsam | Sonuç |
+|---|---|---|
+| `vbalagovic/cars-dataset` | 47.000 araç, 40+ alan | **Reddedildi.** GitHub deposu yalnızca 37 araçlık örnek içeriyor; tam veri seti ticari bir ürün (499-999 dolar) ve lisansı açıkça "proprietary". |
+| `ilyasozkurt/automobile-models-and-specs` | 124 marka, 7.207 model, ~30.000 motor varyantı | **Referans olarak kabul edildi.** Ücretsiz ve tam veri deposunda; ağırlık, tork, tüketim, bagaj hacmi dahil ihtiyacımız olan bütün alanları taşıyor. |
+
+**Karar:** İkinci veri seti **referans olarak** kullanılır, **kopyalanarak depoya
+alınmaz.** Yani bir aracın ağırlığı oradan okunup kendi kaydımıza yazılır ve kaynağı
+(autoevolution.com) künyeye işlenir; ham veri dosyaları `data/` içine aktarılmaz.
+
+**Gerekçe.** Veri setinin bir LICENSE dosyası yok ve içeriği autoevolution.com'dan
+izin belirtilmeden toplanmış. CLAUDE.md §4 bu projenin ticari hale gelebileceğini
+söylüyor; lisansı belirsiz bir veri tabanını toplu olarak depoya almak, geri alınması
+pahalı bir hukuki risk yaratır. Tek tek olguları (bir aracın ağırlığının kaç kilogram
+olduğu) kaynak göstererek kullanmak ise zaten bütün projenin çalışma biçimi.
+
+**Bilinen risk ve önlem.** ~30.000 motor varyantı arasından yanlış varyantı eşlemek,
+MK-08'in uyardığı nesil karıştırma hatasının aynısını üretir (yanlış ağırlık, yanlış
+tork). Bu yüzden eşleme toplu ve otomatik yapılmaz: marka, model, üretim yılı, motor
+hacmi ve beygir birlikte doğrulanır, eşleşmeyen kayıt boş bırakılır. Boş bir alan,
+yanlış bir alandan iyidir.

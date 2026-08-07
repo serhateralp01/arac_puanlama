@@ -3432,5 +3432,20 @@
       "engine": "web_search",
       "found_at": "2026-08-07"
     }
+  },
+  "tuv_report_yas_kusur_egrisi": {
+    "id": "tuv_report_yas_kusur_egrisi",
+    "claim": "TÜV Report 2025/2026 ve TÜV NORD 2026, yaklaşık 9,5 milyon Hauptuntersuchung (zorunlu teknik muayene) sonucundan araç yaşına göre ciddi kusur (erhebliche Mängel) oranını yayınlıyor: 2-3 yaşta yüzde 6,4-6,5; 4-5 yaşta 9,1; 6-7 yaşta 13,6; 8-9 yaşta 17,9; 10-11 yaşta 22,9-23,0; 12-13 yaşta 28,1; 20-21 yaşta 40,3. Bu tablo, aracın yolda kalma olasılığını değil, muayenede tespit edilen fren, süspansiyon, aydınlatma ve yağ kaçağı gibi teknik kusurları ölçüyor.",
+    "publisher": "TÜV Rheinland / TÜV NORD (TÜV Report 2026)",
+    "url": "https://www.tuv.com/press/en/press-releases/tuev_report_2026_en.html",
+    "type": "official-inspection-data",
+    "tier": "A",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "kullanıcı tarafından sağlandı",
+      "found_at": "2026-08-07"
+    }
   }
 }

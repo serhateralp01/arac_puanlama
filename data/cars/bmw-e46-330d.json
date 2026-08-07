@@ -25,7 +25,7 @@
     "trans": 68,
     "fun": 78,
     "comf": 66,
-    "age": 36,
+    "age": 15,
     "cost": 66,
     "liq": 36
   },
@@ -59,6 +59,15 @@
       ],
       "reasoning": "ZF 5HP19 (zf-5hp) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (68), temel puandan 2 puan aşağı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
       "assessed_at": "2026-08-06"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2002.0, yani 2026 itibarıyla yaşı yaklaşık 24.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
     }
   }
 }

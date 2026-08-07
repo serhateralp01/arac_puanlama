@@ -24,7 +24,7 @@
     "trans": 62,
     "fun": 55,
     "comf": 86,
-    "age": 82,
+    "age": 69,
     "cost": 58,
     "liq": 72
   },
@@ -57,6 +57,15 @@
       ],
       "reasoning": "DQ250 (vag-dq250) şanzıman ailesinin temel puanı 62. Bu aracın trans puanı (62) temel puanla birebir aynı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
       "assessed_at": "2026-08-06"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2018.5, yani 2026 itibarıyla yaşı yaklaşık 7.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 16.5. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 69 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
     }
   }
 }
