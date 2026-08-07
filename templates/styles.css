@@ -212,6 +212,26 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .kritpanel .bmid span{font-size:9px}
 .kritpanel .bex,.kritpanel .bnote{font-size:8.5px}
 @media(max-width:640px){.ctrlbar .count{margin-left:0;text-align:left;width:100%}}
+/* ---------- sayısal aralık filtreleri (yıl, beygir, fiyat) ---------- */
+/* Aynı aralık hem yazılabilir iki kutuyla hem de üst üste bindirilmiş iki
+   kaydırıcıyla ayarlanabiliyor. Kaydırıcılar üst üste duruyor; yalnızca
+   düğmeleri (thumb) tıklanabilir bırakılıyor, aradaki ray tıklamayı geçiriyor,
+   böylece iki uç birbirini kilitlemiyor. */
+.rgroup{align-items:center}
+.rwrap{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.rnum{width:74px;font-family:var(--mono);font-size:11.5px;text-align:center;padding:5px 6px;border:1px solid var(--line2);border-radius:7px;background:var(--panel2);color:var(--ink);-moz-appearance:textfield}
+.rnum::-webkit-outer-spin-button,.rnum::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.rnum:focus{outline:none;border-color:var(--sage);background:#fff;box-shadow:0 0 0 3px var(--sagebg)}
+.rdash{color:var(--faint);font-family:var(--mono);font-size:11px}
+.runit{font-family:var(--mono);font-size:9.5px;color:var(--faint);min-width:20px}
+.rslider{position:relative;width:180px;height:20px;flex:0 0 auto}
+.rslider input[type=range]{position:absolute;left:0;top:0;width:100%;height:20px;margin:0;background:none;pointer-events:none;-webkit-appearance:none;appearance:none}
+.rslider input[type=range]::-webkit-slider-runnable-track{height:3px;border-radius:3px;background:var(--line2);margin-top:8px}
+.rslider input[type=range]::-moz-range-track{height:3px;border-radius:3px;background:var(--line2)}
+.rslider input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:auto;width:13px;height:13px;border-radius:50%;background:var(--sage);border:2px solid #fff;box-shadow:0 0 0 1px var(--line2);cursor:pointer;margin-top:-5px}
+.rslider input[type=range]::-moz-range-thumb{pointer-events:auto;width:13px;height:13px;border-radius:50%;background:var(--sage);border:2px solid #fff;box-shadow:0 0 0 1px var(--line2);cursor:pointer}
+@media(max-width:560px){.rslider{width:100%}}
+
 .legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
 .legend .sw{display:inline-block;width:13px;height:10px;border-radius:3px;vertical-align:middle;margin-right:5px}
 

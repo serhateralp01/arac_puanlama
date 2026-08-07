@@ -255,6 +255,21 @@ async function dumpDebug(label) {
     const badge = await page.locator('#filtbadge').innerText();
     check('filtre rozeti seçili filtre sayısını gösteriyor', badge.trim() === '1', `rozet "${badge.trim()}"`);
 
+    // Sayısal aralık filtresi: model yılı üst sınırı düşürülünce liste daralmalı,
+    // rozet de aralığı bir filtre olarak saymalı.
+    const yearMax = page.locator('.rnum[data-rk="year"][data-ri="1"]');
+    await yearMax.fill('2010');
+    await yearMax.dispatchEvent('change');
+    await page.waitForTimeout(200);
+    const yearFiltered = await page.locator('#body tr.main').count();
+    const yearOk = yearFiltered > 0 && yearFiltered < rows;
+    check('model yılı aralık filtresi daraltıyor', yearOk, `2010 ve öncesi → ${yearFiltered} satır`);
+    if (!yearOk) await dumpDebug('yil-araligi-daraltmadi');
+    const rangeBadge = await page.locator('#filtbadge').innerText();
+    check('aralık filtresi rozete sayılıyor', rangeBadge.trim() !== '', `rozet "${rangeBadge.trim()}"`);
+    const sliderCount = await page.locator('.rslider input[type=range]').count();
+    check('üç aralık için altı kaydırıcı var', sliderCount === 6, `${sliderCount} kaydırıcı`);
+
     // "Filtreleri temizle" bütün kategorileri birden sıfırlamalı.
     await page.click('#filtclear');
     await page.waitForTimeout(150);
