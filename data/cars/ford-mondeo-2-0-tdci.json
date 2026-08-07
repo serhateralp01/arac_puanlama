@@ -22,7 +22,7 @@
     600,
     900
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 50,
@@ -33,8 +33,13 @@
     "liq": 58
   },
   "sources": [
+    "araclo_focus_ecoblue",
+    "autodoc_s60_problems",
+    "enginedna_duratorq_20",
+    "greencarcongress_powershift_torque",
+    "kugaownersclub_powershift_faults",
     "mondps",
-    "araclo_focus_ecoblue"
+    "volvops"
   ],
   "note": "Otomatik versiyonunda tek seçenek ıslak kavramalı 6DCT450 Powershift kutusu. Bu kutu, Fiesta ve Focus’taki kuru kavramalı kutuyla aynı değil; Volvo’da da kullanılan daha dayanıklı bir birim ve üç yılda bir yağ değişimiyle sorunsuz gidiyor. Yine de tork konvertörlü bir kutu kadar rahat değil. Motoru sağlam, gövdesi çok konforlu.",
   "provenance": {

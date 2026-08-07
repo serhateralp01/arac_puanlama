@@ -21,7 +21,7 @@
     1050,
     1450
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 44,
     "trans": 72,
@@ -32,8 +32,11 @@
     "liq": 68
   },
   "sources": [
+    "au7o_peugeot308_known_issues",
     "motor1_psa_suv_eat",
-    "teknikotomatik_aisin_6ileri"
+    "propeugeotspares_16hdi_egr",
+    "teknikotomatik_aisin_6ileri",
+    "trbox"
   ],
   "note": "3008'in ikinci neslinde en yaygın satılan dizel-otomatik kombinasyonu; 1.6 BlueHDi motoru (DV6 ailesi) ve Aisin EAT6 kutusu listede zaten Grandland X'te kayıtlı, ikisi de düşük risk. EAT6, PSA'nın kendi ürettiği eski AL4/ETG kutularına göre belirgin biçimde daha güvenilir.",
   "provenance": {

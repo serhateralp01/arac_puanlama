@@ -22,7 +22,7 @@
     620,
     950
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 74,
@@ -33,6 +33,9 @@
     "liq": 64
   },
   "sources": [
+    "asrgearbox_tf80",
+    "autodoc_astra_j_problems",
+    "enginecrux_a16let",
     "insigniateam_af40",
     "teknikotomatik_aisin_6ileri"
   ],

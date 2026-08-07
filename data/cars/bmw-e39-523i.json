@@ -30,11 +30,13 @@
     "liq": 56
   },
   "sources": [
+    "axleaddict_gm5l40e",
     "e39",
     "e39c",
-    "tuv",
-    "axleaddict_gm5l40e",
-    "solsticeforum_gm5l40e"
+    "enginedna_m52",
+    "solsticeforum_gm5l40e",
+    "torquecars_nikasil",
+    "tuv"
   ],
   "note": "Benzinli E39'lar arasında en zayıf seçenek: eski M52 motoru ve düşük güç. Otomatiği GM yapımı 5L40-E kutusu ve bu, ZF'li kardeşlerine göre belirgin bir dezavantaj: akümülatör yayı kırılması, kilitleme solenoidi arızası (tam güç kaybına yol açabilen) ve çıkış mili aşınması bu kutuda belgelenmiş, tekrarlayan arızalar. Yine de arkadan itişli altı silindirli bir araç olması ve yedek parçasının bolluğu onu ayakta tutuyor.",
   "provenance": {

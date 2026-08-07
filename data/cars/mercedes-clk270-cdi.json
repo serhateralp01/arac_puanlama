@@ -19,7 +19,7 @@
     500,
     780
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 80,
@@ -30,8 +30,10 @@
     "liq": 46
   },
   "sources": [
-    "om61x",
-    "clkhp"
+    "clkhp",
+    "enginecrux_om612",
+    "minhsautocare_722_6",
+    "om61x"
   ],
   "note": "OM612 dizel motoru coupe gövdeyle birleştiriyor; hem karakterli hem ekonomik. Yüksek kilometrelerde yüksek basınçlı yakıt pompası arızası görülebiliyor, kontrol ettirin. W208 yerine W209 kasayı tercih edin. Coupe olduğu için günlük kullanımda pratikliği düşük.",
   "provenance": {

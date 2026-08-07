@@ -22,7 +22,7 @@
     450,
     680
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 86,
     "trans": 82,
@@ -34,7 +34,10 @@
   },
   "sources": [
     "civic",
-    "sikayetvar_honda_sanziman"
+    "drifted_d16",
+    "hondatech_k24",
+    "sikayetvar_honda_sanziman",
+    "truedelta_accord"
   ],
   "note": "FD6'dan önceki nesil; aynı Honda güvenilirlik ününü ve tork konvertörlü otomatiği daha erişilebilir fiyata sunuyor. Ön değerlendirme, batch aşamasında derinleştirilecek.",
   "provenance": {

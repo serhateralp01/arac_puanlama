@@ -19,7 +19,7 @@
     750,
     1050
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 70,
     "trans": 45,
@@ -30,9 +30,12 @@
     "liq": 74
   },
   "sources": [
-    "trbox",
+    "engineexplained_hr16de",
+    "go4trans_xtronic_diesel_chain",
+    "namuwiki_sm5",
+    "technicalparams_latitude",
     "technopat_clio_xtronic",
-    "namuwiki_sm5"
+    "trbox"
   ],
   "note": "Sıradışı tasarımıyla dikkat çekiyor ve şehir içinde kullanışlı. Otomatiği X-Tronic CVT ve bu kutu yağ bakımı ihmal edildiğinde sorun çıkarıyor. Arka koltuk ve bagaj dar, sürüş keyfi ise beklediğinizden düşük.",
   "provenance": {

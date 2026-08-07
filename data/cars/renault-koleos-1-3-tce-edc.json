@@ -18,7 +18,7 @@
     1100,
     1700
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 70,
@@ -30,7 +30,9 @@
   },
   "sources": [
     "hech_koleos",
-    "renaultfanclub_edc_kronik"
+    "otopark_1_3tce_islak",
+    "renaultfanclub_edc_kronik",
+    "uscarsnew_h5ht"
   ],
   "note": "Renault'nun D-segment amiral SUV'u; ikinci nesil güncellemeyle gelen 1.3 TCe 160 bg motor listede zaten kayıtlı H5Ht ailesinden, 7 ileri ıslak EDC kutusu (Getrag 7DCT300) da listede zaten kayıtlı — Renault'nun Duster/Kadjar/Captur'da kullandığı 6 ileri kuru EDC'den farklı, daha yeni ve ıslak kavramalı bir aile, dolayısıyla ayrı bileşen olarak bağlandı. Koleos konfor ve donanım açısından segmentinin üstünde konumlanıyor; buna karşılık Türkiye'de göreli az sayıda satıldığı için ikinci el likiditesi ve servis/parça tedarik hızı orta seviyede kalıyor.",
   "provenance": {

@@ -22,7 +22,7 @@
     550,
     820
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 74,
@@ -33,7 +33,10 @@
     "liq": 58
   },
   "sources": [
+    "asrgearbox_tf80",
+    "autodoc_astra_j_problems",
     "frmtr_chevrolet_cruze_kronik",
+    "gmauthority_family1_phaser",
     "teknikotomatik_aisin_6ileri"
   ],
   "note": "Opel Astra ile aynı platformu paylaşıyor ve 6 ileri tork konvertörlü otomatikle geliyor. Geniş, konforlu ve ucuz bir araç. Markanın Türkiye'den çekilmesi nedeniyle yedek parça ve ikinci el tarafı Opel kadar rahat değil.",

@@ -22,7 +22,7 @@
     850,
     1200
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 38,
@@ -33,8 +33,10 @@
     "liq": 82
   },
   "sources": [
-    "trbox",
-    "andcetin_dq200"
+    "andcetin_dq200",
+    "carchecker_golf6_16tdi",
+    "enginefinders_20tdi_ea189",
+    "trbox"
   ],
   "note": "Türkiye'de en çok satan otomatik sedanlardan biri; geniş, konforlu ve çok ekonomik. Ancak otomatiği kuru kavramalı DQ200 kutusu ve bu kutu Türkiye trafiğinde kavrama aşınması ile mekatronik arızasıyla biliniyor. Aynı kasada 2.0 TDI versiyonu ıslak DQ250 kullandığı için şanzıman açısından belirgin biçimde daha güvenli.",
   "provenance": {

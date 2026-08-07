@@ -22,7 +22,7 @@
     550,
     800
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 52,
     "trans": 16,
@@ -33,9 +33,12 @@
     "liq": 38
   },
   "sources": [
-    "wiki_latitude",
+    "go4trans_xtronic_diesel_chain",
+    "motoranimal_m9r",
+    "namuwiki_sm5",
     "technicalparams_latitude",
-    "namuwiki_sm5"
+    "technopat_clio_xtronic",
+    "wiki_latitude"
   ],
   "note": "Renault-Nissan D platformunu (Nissan Altima/Teana/Maxima ile paylaşılan) kullanan, Kore'de Samsung SM5 adıyla üretilen bir araç. Wikipedia motor verisini doğruluyor: 150 beygir/320 Nm'lik dCi motor gerçekten X-Tronic CVT ile geliyor. TechnicalParameters.eu, CVT yağ bakımı ihmal edilirse kayış kayması ve sarsıntı riski olduğunu, 60.000 km'de yağ/filtre değişimi gerektiğini belirtiyor. Kore kaynaklı NamuWiki'nin teknik analizi ise daha kritik bir detay veriyor: bu platformdaki CVT'de maliyet düşürme amacıyla şanzıman soğutucusunun küçültüldüğü belirtiliyor — bu da ısınma riskini genel CVT ailesine göre daha yüksek kılabilir. Sürmesi sıkıcı, ucuz ve konforlu ama otomatik tarafı dikkatli bakım istiyor.",
   "provenance": {

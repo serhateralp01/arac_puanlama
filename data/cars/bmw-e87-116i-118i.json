@@ -19,7 +19,7 @@
     750,
     1100
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 58,
     "trans": 74,
@@ -30,8 +30,11 @@
     "liq": 70
   },
   "sources": [
+    "atstservices_zf6hp",
+    "sistemdestekuzmani_n47_kronik",
     "techturkey_bmw_e87_116i",
-    "sistemdestekuzmani_n47_kronik"
+    "transmissionrepairguide_zf6hp26",
+    "unixnerd_n43_n45_n46"
   ],
   "note": "Arkadan itişli olması bu segmentte onu özel kılıyor ve sürmesi keyifli. Ancak N43 ve N45 motorlarının enjektör ile zincir konuları var, kabin de dar. Otomatiği tork konvertörlü ve sağlam tarafta.",
   "provenance": {

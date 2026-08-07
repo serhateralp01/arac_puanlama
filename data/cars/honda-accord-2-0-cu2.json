@@ -22,7 +22,7 @@
     700,
     1000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 86,
     "trans": 82,
@@ -33,7 +33,10 @@
     "liq": 60
   },
   "sources": [
+    "8020automotive_k24",
+    "civic",
     "hondatech_k24",
+    "slashgear_k20",
     "truedelta_accord"
   ],
   "note": "Sekizinci nesil Accord (uluslararası CU2/Euro kasası). Honda-Tech forumunda tecrübeli bir tamirci, 2003 sonrası K-serisi Honda otomatiklerinin 'bulletproof' (kırılmaz) olduğunu, geçmişteki otomatik şanzıman sorunlarının neredeyse tamamının eski V6 modellerle sınırlı kaldığını doğruluyor. TrueDelta'nın gerçek sahip verisi de bunu destekliyor: 2008-2012 kuşağı Accord'ların en güvenilir kuşaklarından biri, ortalamanın belirgin altında arıza oranına sahip. Oturaklı, kaliteli kabin, dengeli bir araç.",

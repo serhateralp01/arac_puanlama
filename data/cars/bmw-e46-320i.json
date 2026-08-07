@@ -18,7 +18,7 @@
     450,
     680
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 58,
     "trans": 70,
@@ -29,8 +29,11 @@
     "liq": 44
   },
   "sources": [
+    "bimmerfest_zf5hp19",
     "sistemdestekuzmani_n47_kronik",
-    "techturkey_e39_530i_5hp19_vuruntu"
+    "techturkey_e39_530i_5hp19_vuruntu",
+    "transmissionrepairguide_zf5hp19",
+    "unixnerd_n43_n45_n46"
   ],
   "note": "E46'nın facelift sonrası (Valvetronic) benzinli motoru; N42/N46 ailesi listede zaten E90 316i ve E87'de kayıtlı. Zincir kılavuzu aşınması yalnızca N47 dizelde değil aynı ailenin N43/N45/N46 benzinli motorlarında da görülüyor — bu, listede bmw-n4x'in zaten düşük tutulan puanının gerekçesiyle örtüşüyor.",
   "provenance": {

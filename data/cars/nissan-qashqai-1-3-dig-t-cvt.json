@@ -19,7 +19,7 @@
     950,
     1600
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 48,
@@ -31,8 +31,13 @@
   },
   "sources": [
     "dhaber_qashqai13",
+    "go4trans_xtronic_diesel_chain",
+    "kronikyorum_qashqai",
+    "namuwiki_sm5",
     "sikayetvar_qashqai",
-    "kronikyorum_qashqai"
+    "technicalparams_latitude",
+    "technopat_clio_xtronic",
+    "uscarsnew_h5ht"
   ],
   "note": "İkinci nesil (J11) Qashqai'nin facelift sonrası 1.3 DIG-T motoru; bu motor Renault-Nissan-Mercedes ittifakının ortak H5Ht 1.3 TCe ailesi, listede zaten kayıtlı. X-Tronic CVT kutusu Nissan/Renault'nun paylaştığı aynı aile, dolayısıyla iki bileşen de bağımsız araştırma gerektirmedi. Şikayetlerde kalkışta titreme ve düşük kilometrede (16-85 bin km aralığında bildirilen vakalar) şanzıman arızası öne çıkıyor; CVT'nin yağ bakımı ihmal edildiğinde erken yıprandığı biliniyor. Buna karşılık Qashqai Türkiye'de çok yaygın ve ikinci elde likiditesi yüksek.",
   "provenance": {

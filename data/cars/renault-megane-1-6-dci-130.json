@@ -22,7 +22,7 @@
     650,
     950
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 70,
     "trans": 44,
@@ -33,9 +33,11 @@
     "liq": 86
   },
   "sources": [
-    "sikayetvar_megane_edc",
+    "otopark_sanziman_rehberi",
+    "otosorular_megane16dci",
     "renaultfanclub_edc",
-    "otosorular_megane16dci"
+    "sikayetvar_megane_edc",
+    "vehiclewise_r9m"
   ],
   "note": "Bu tur araştırmanın en zengin veri kümesi bu araçta çıktı. Şikayetvar'da dört ayrı konu başlığında onlarca bağımsız şikayet var: EDC şanzımanda 3'ten 4'e geçerken tekrarlayan 'vuup' sesi (bir bayi yetkilisi bunun 'kronik bir sorun' olduğunu kabul etmiş), bazı örneklerde 80.000 km'de EDC beyni (kontrol ünitesi) arızası ve parça bulma zorluğu. Buna karşılık Renault Fan Club forumunda tam tersi bir deneyim de var: 1.6 dCi 130 Icon bir taksi olarak 257.000 km'ye kadar, sadece yağ değişimiyle ve hiç kavrama değişmeden kullanılmış. Kavrama değişimi gerekirse maliyeti yaklaşık 20.000 TL. Motor tarafında OtoSorular.com'daki kullanıcı yorumlarında şehir içi ağırlıklı kullanımda DPF sorunu öne çıkıyor. Sonuç: EDC iyi bakılırsa uzun ömürlü olabiliyor ama bakım geçmişi ve o rahatsız edici vites sesinin var olup olmadığı mutlaka test sürüşünde kontrol edilmeli.",
   "provenance": {

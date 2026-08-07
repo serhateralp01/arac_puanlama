@@ -19,7 +19,7 @@
     780,
     1150
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 72,
@@ -30,6 +30,9 @@
     "liq": 54
   },
   "sources": [
+    "andcetin_dq200",
+    "carchecker_golf6_16tdi",
+    "enginefinders_20tdi_ea189",
     "kroniksorunlar_superb",
     "teknikotomatik_dq200_dq250"
   ],

@@ -19,7 +19,7 @@
     480,
     720
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 80,
@@ -30,8 +30,10 @@
     "liq": 58
   },
   "sources": [
-    "om61x",
-    "mercedesmedic_722_6"
+    "enginecrux_om612",
+    "mercedesmedic_722_6",
+    "minhsautocare_722_6",
+    "om61x"
   ],
   "note": "C220’nin daha torklu beş silindirli kardeşi. OM612 motoru sağlam, 5G-Tronic otomatiği güvenilir. W203 gövdesi W210’a göre pasa daha dayanıklı. Dengeli ve dert çıkarmayan bir dizel.",
   "provenance": {

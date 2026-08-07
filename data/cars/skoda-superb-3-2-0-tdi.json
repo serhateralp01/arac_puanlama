@@ -20,7 +20,7 @@
     1050,
     1500
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 62,
@@ -31,8 +31,11 @@
     "liq": 70
   },
   "sources": [
+    "andcetin_dq200",
+    "kroniksorunlar_superb",
     "sikayetvar_a4_tfsi",
-    "teknikotomatik_dq200_dq250"
+    "teknikotomatik_dq200_dq250",
+    "torquecars_ea288_avoid_problems"
   ],
   "note": "Superb'in üçüncü ve listede ilk kez yer alan nesli (önceki Superb 2 kaydı listede zaten var); EA288 2.0 TDI ve ıslak DQ250 kutusu listede zaten kayıtlı. Mekatronik şanzıman arızaları ikinci elde bildirilmiş; bazı 2020 model araçlarda kontak açılışında motor sarsıntısı/stop etme şikayeti var. Fiyat/donanım dengesi segmentinin üstünde değerlendiriliyor.",
   "provenance": {

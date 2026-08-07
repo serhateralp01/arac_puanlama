@@ -22,7 +22,7 @@
     750,
     1080
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 70,
     "trans": 58,
@@ -33,9 +33,11 @@
     "liq": 58
   },
   "sources": [
-    "trbox",
+    "cararac_k9k",
+    "otopark_sanziman_rehberi",
+    "renaultfanclub_edc",
     "sikayetvar_megane_edc",
-    "otopark_sanziman_rehberi"
+    "trbox"
   ],
   "note": "Laguna'nın halefi, büyük ve konforlu bir sedan; otomatiği EDC kuru kavramalı. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {

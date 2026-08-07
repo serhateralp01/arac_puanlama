@@ -22,7 +22,7 @@
     580,
     900
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 72,
@@ -33,6 +33,8 @@
     "liq": 80
   },
   "sources": [
+    "enginedna_d4fb",
+    "hyundaiforums_auto",
     "i30_technopat",
     "seatclub_i30"
   ],

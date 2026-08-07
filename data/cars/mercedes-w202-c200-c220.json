@@ -19,7 +19,7 @@
     420,
     650
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 78,
@@ -30,8 +30,10 @@
     "liq": 58
   },
   "sources": [
-    "om61x",
-    "mercedesmedic_722_6"
+    "enginefinder_za_m111",
+    "gearboxlist_722_3",
+    "mercedesmedic_722_6",
+    "om61x"
   ],
   "note": "W203'ten önceki nesil; klasik 4G-Tronic otomatiği tork konvertörlü ve sağlam. Bu yaştaki bir Mercedes için pas ve elektrik kontrolü şart. Ön değerlendirme, batch aşamasında derinleştirilecek.",
   "provenance": {

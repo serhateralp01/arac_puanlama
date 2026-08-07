@@ -30,9 +30,10 @@
     "liq": 38
   },
   "sources": [
-    "e46sub",
-    "m54",
     "axleaddict_gm5l40e",
+    "e46sub",
+    "engineexplained_m54",
+    "m54",
     "solsticeforum_gm5l40e"
   ],
   "note": "3 litrelik M54 motoruyla çevik ve keyifli bir araç. Otomatiği ZF ya da GM yapımı olabiliyor; puan, ikisinden zayıf olan GM 5L40-E'ye göre verildi çünkü ilanda hangisinin bulunduğu çoğu zaman yazmıyor. GM'li olanlarda kilitleme solenoidi arızası ve çıkış mili aşınması belgelenmiş. Bütün E46'larda görülen arka aks taşıyıcısı çatlağı riski burada da geçerli, güçlü motorlu versiyonlarda daha sık görülüyor; almadan önce mutlaka bu bölgeyi kontrol ettirin.",

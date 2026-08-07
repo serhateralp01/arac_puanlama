@@ -30,11 +30,13 @@
     "liq": 46
   },
   "sources": [
-    "e39c",
-    "e39",
-    "tuv",
     "axleaddict_gm5l40e",
-    "solsticeforum_gm5l40e"
+    "e39",
+    "e39c",
+    "enginedna_m52",
+    "solsticeforum_gm5l40e",
+    "torquecars_nikasil",
+    "tuv"
   ],
   "note": "2.8 litrelik M52 motoru dökme demir bloklu ve oldukça sağlam; bakımı yapılmış örnekleri yüksek kilometrelere rahat çıkıyor. Otomatiği GM yapımı 5L40-E kutusu ve asıl zayıf halka burası: akümülatör yayı kırılması, kilitleme solenoidi arızası ve çıkış mili aşınması bu kutuda belgelenmiş, tekrarlayan arızalar. Serinin en eski aracı olduğu için yaş kaynaklı risk de en yüksek burada.",
   "provenance": {

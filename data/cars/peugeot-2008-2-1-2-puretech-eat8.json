@@ -21,7 +21,7 @@
     900,
     1350
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 34,
     "trans": 76,
@@ -34,6 +34,7 @@
   "sources": [
     "donanimhaber_puretech_triger",
     "erenservis_eat8",
+    "motor1_psa_suv_eat",
     "sikayetvar_2008_puretech_motor"
   ],
   "note": "İkinci nesil (P24) 2008'in SUV gövdeli, aynı PureTech/EAT8 kombinasyonu; ilk nesil 2008/208 e-HDi'den farklı olarak listede zaten kayıtlı psa-puretech-12 ve psa-eat8 ailelerine bağlanıyor. Şikayetvar'daki 2022 model örneğinde triger kayışının 45.000 km gibi düşük bir kilometrede bile ileri deformasyon göstermesi, bakımın ihmal edilemeyeceğini doğruluyor. Listedeki en yeni model yılına (2020-2023) sahip araçlardan biri olduğu için yaş riski düşük.",

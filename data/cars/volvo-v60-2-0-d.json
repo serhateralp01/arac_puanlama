@@ -22,7 +22,7 @@
     850,
     1200
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 90,
@@ -33,7 +33,10 @@
     "liq": 54
   },
   "sources": [
+    "engineexplained_d5244t",
+    "volvoclub_geartronic_reliability",
     "volvod",
+    "volvoforums_tf71sc_behavior",
     "volvops"
   ],
   "note": "S60'ın station wagon versiyonu; aynı sağlam dizel motoru ve Aisin Geartronic kutusunu kullanıyor. Bagaj hacmi ve günlük kullanılabilirlik açısından sedan versiyondan daha avantajlı. Powershift riski taşımıyor.",

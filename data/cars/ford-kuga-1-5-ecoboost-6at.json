@@ -19,7 +19,7 @@
     900,
     1300
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 42,
     "trans": 72,
@@ -30,8 +30,11 @@
     "liq": 64
   },
   "sources": [
+    "fordmasterx_ecoboost_wetbelt",
+    "fordwiki_awf21",
     "sikayetvar_kuga_ecoboost",
-    "teknikotomatik_aisin_6ileri"
+    "teknikotomatik_aisin_6ileri",
+    "whocanfixmycar_mondeo_whatcar"
   ],
   "note": "İkinci nesil Kuga'nın 6 ileri klasik otomatikli (torque converter, Aisin/Ford ortak üretimi) versiyonu; motor Mondeo 1.5 EcoBoost ile aynı aileden, kutu da Mondeo'da zaten kayıtlı olan Aisin AWF21'le birebir aynı — ikisi de listede zaten var. 10-15 bin km aralığında soğutucu sıvı eksilmesi ve bir örnekte 112.500 km'de silindir kapağı contası yanması bildirilmiş.",
   "provenance": {

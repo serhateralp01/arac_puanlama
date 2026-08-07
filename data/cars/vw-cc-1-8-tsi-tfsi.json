@@ -19,7 +19,7 @@
     720,
     1050
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 42,
     "trans": 66,
@@ -30,8 +30,11 @@
     "liq": 50
   },
   "sources": [
+    "andcetin_dq200",
+    "audchain",
     "audioil",
-    "audchain"
+    "enginescope_ea888_gen",
+    "kroniksorunlar_superb"
   ],
   "note": "Görünüşü güzel ve sürmesi keyifli ama EA888 ikinci nesil motoru yağ tüketimi ve triger zinciri gergisi sorunlarını taşıyor. DQ250 ıslak kutusu idare eder durumda. Bu gövdeyi istiyorsanız benzinli yerine 2.0 dizel versiyonu tercih edin.",
   "provenance": {

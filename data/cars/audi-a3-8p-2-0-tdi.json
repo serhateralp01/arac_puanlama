@@ -19,7 +19,7 @@
     650,
     950
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 70,
@@ -30,7 +30,10 @@
     "liq": 68
   },
   "sources": [
+    "andcetin_dq200",
     "audiworld_a3_dq250_issue",
+    "enginefinders_ea188_pd",
+    "kroniksorunlar_superb",
     "teknikotomatik_dq200_dq250"
   ],
   "note": "Otomatiği ıslak kavramalı DQ250 olduğu için VAG grubunun güvenli kutularından birini kullanıyor. Dizel motoru torklu ve ekonomik. Araç artık yaşlandı, elektrik ve süspansiyon kalemlerini kontrol ettirin.",

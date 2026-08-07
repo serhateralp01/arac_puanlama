@@ -22,7 +22,7 @@
     700,
     1150
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 90,
@@ -33,7 +33,10 @@
     "liq": 50
   },
   "sources": [
+    "engineexplained_d5244t",
+    "volvoclub_geartronic_reliability",
     "volvod",
+    "volvoforums_tf71sc_behavior",
     "volvops"
   ],
   "note": "Bu aracın otomatiği Aisin yapımı Geartronic kutusudur, yani Volvo’nun sorunlu Powershift kutusu değildir. Sağlam bir dizel motorla güvenilir bir tork konvertörünü bir araya getirdiği, bol torku ve kolay kullanımı olduğu için otomatik vitesliler arasında listenin en dengeli aracı. Tek zorluğu, piyasadaki Volvo’ların çoğu 1.6 dizel olduğu için temiz bir örneğini bulmanın zaman almasıdır.",

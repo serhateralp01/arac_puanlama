@@ -18,7 +18,7 @@
     700,
     1020
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 46,
     "trans": 80,
@@ -29,9 +29,11 @@
     "liq": 58
   },
   "sources": [
-    "sikayetvar_mercedes_bakim_sanziman",
     "eklasseforum_om651_injektor",
-    "mbworld_c220_om651_issue"
+    "enginefinders_om651",
+    "mbworld_c220_om651_issue",
+    "minhsautocare_722_6",
+    "sikayetvar_mercedes_bakim_sanziman"
   ],
   "note": "W204'ün orta güç dizeli; OM651 motoru listede zaten C200 CDI ve E250 CDI'de kayıtlı (düşük puanlı, bilinen enjektör/yüksek basınç pompası riskleri var), 5G-Tronic kutusu ise ailenin en sağlam bileşenlerinden. C250 CDI'ye göre daha düşük güçlü, fiyat/performans dengesi daha iyi.",
   "provenance": {

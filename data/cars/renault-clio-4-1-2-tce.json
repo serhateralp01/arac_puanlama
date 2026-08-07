@@ -21,7 +21,7 @@
     500,
     750
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 42,
     "trans": 54,
@@ -33,7 +33,10 @@
   },
   "sources": [
     "donanimhaber_renault_12tce",
-    "renaultfanclub_edc_kronik"
+    "otopark_sanziman_rehberi",
+    "renaultfanclub_edc",
+    "renaultfanclub_edc_kronik",
+    "sikayetvar_megane_edc"
   ],
   "note": "Clio 4'ün benzinli turbo versiyonu; aynı renault-tce-12 ailesinden (Megane 3 ile paylaşılan). Clio'nun listede zaten kayıtlı 1.5 dCi versiyonuna göre daha eğlenceli ama motor tarafında daha riskli; Türkiye'de Clio'nun güçlü ikinci el likiditesi bu riski kısmen dengeliyor.",
   "provenance": {

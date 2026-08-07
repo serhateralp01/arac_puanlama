@@ -19,7 +19,7 @@
     600,
     880
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 46,
     "trans": 80,
@@ -30,8 +30,10 @@
     "liq": 64
   },
   "sources": [
-    "om61x",
-    "eklasseforum_om651_injektor"
+    "eklasseforum_om651_injektor",
+    "enginefinders_om651",
+    "minhsautocare_722_6",
+    "om61x"
   ],
   "note": "5G-Tronic otomatiği sağlam. Motor tarafında dikkatli olun: OM651 ailesinin triger zinciri hızla uzayıp karakteristik bir tıkırtı sesi çıkarabiliyor, gergi arızası felaket boyutunda motor hasarına yol açabiliyor. Bu araç (2007-2011 üretim) Mercedes'in enjektör ve zamanlama bileşenlerini iyileştirdiği 2014 sonrası döneme değil, riskin en yüksek olduğu erken üretim dönemine giriyor.",
   "provenance": {

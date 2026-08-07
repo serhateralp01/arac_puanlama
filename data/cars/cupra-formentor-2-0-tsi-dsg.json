@@ -21,7 +21,7 @@
     1600,
     2200
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 50,
     "trans": 68,
@@ -32,8 +32,10 @@
     "liq": 58
   },
   "sources": [
+    "araclo_cupra_formentor",
+    "audiworld_dl501_110k",
     "cupraforum_ea888_evo4_oil",
-    "araclo_cupra_formentor"
+    "ecotorque_dl501"
   ],
   "note": "VAG'ın performans alt markası Cupra'nın crossover'ı; şanzıman (ıslak S tronic, DQ381 tabanlı) listede zaten kayıtlı, ama motor için yeni bir aile açıldı (vag-ea888-evo4) — dördüncü nesil EA888, listedeki eski EA888 kaydından (Golf Mk5/6 dönemi) farklı bir revizyon. İki kaynak da yağ pompası tasarımının değişmediğini ve yağ tüketiminin evo4'e taşındığını doğruluyor. Türkiye'de yeni ve niş bir marka; parça/servis ağı henüz mainstream VAG modelleri kadar yaygın değil.",
   "provenance": {

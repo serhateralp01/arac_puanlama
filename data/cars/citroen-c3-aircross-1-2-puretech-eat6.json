@@ -33,7 +33,8 @@
   },
   "sources": [
     "donanimhaber_puretech_triger",
-    "sikayetvar_c3aircross_otomatik"
+    "sikayetvar_c3aircross_otomatik",
+    "trbox"
   ],
   "note": "PSA'nın küçük SUV'u; aynı yağ banyolu triger kayışlı 1.2 PureTech'i taşıyor (psa-puretech-12, listede zaten kayıtlı), ama daha küçük/eski Aisin EAT6 kutusuyla eşleşiyor (2008/208'in EAT8'inden farklı). Şikayetvar'da bildirilen iki çok düşük kilometreli (220 km, 2.000 km) vites arızası izole/erken üretim hatası olarak değerlendirildi; EAT6 ailesinin genel temel puanını değiştirmedi ama bu aracın trans puanı temkinli biçimde ailenin temel puanının biraz altında tutuldu.",
   "provenance": {

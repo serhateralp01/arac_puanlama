@@ -19,7 +19,7 @@
     420,
     620
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 70,
@@ -30,8 +30,11 @@
     "liq": 56
   },
   "sources": [
-    "m54",
+    "bimmerfest_zf5hp19",
     "e39c",
+    "engineexplained_m54",
+    "m54",
+    "transmissionrepairguide_zf5hp19",
     "tuv"
   ],
   "note": "E39’lar içinde en kolay bulunanı. M54 motoru güvenilir ama 192 beygir bu gövde için biraz yetersiz kalıyor. ZF otomatiği iyi çalışıyor. Yakıt gideri ve aracın yaşı puanını sınırlıyor.",

@@ -19,7 +19,7 @@
     650,
     920
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 82,
     "trans": 82,
@@ -30,8 +30,10 @@
     "liq": 78
   },
   "sources": [
+    "hyundaiforums_auto",
     "redriven_cerato",
-    "teknikotomatik_hyundai_6at"
+    "teknikotomatik_hyundai_6at",
+    "uscarsnew_gamma_mpi_gdi"
   ],
   "note": "Elantra'nın kardeş platformu, aynı motor+6 ileri tork konvertörlü otomatik ailesini paylaşıyor. ReDriven'ın Avustralya pazarı incelemesi net bir ayrım yapıyor: sadece GT donanımının 7 ileri DCT'si eleştiri alıyor, benim listemdeki gibi normal donanımlardaki tork konvertörlü otomatik ve doğal emişli motor genel olarak güvenilir bulunuyor. Ucuz, kolay, dertsiz.",
   "provenance": {

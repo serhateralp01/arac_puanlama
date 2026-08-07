@@ -22,7 +22,7 @@
     600,
     900
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 52,
     "trans": 35,
@@ -33,8 +33,10 @@
     "liq": 84
   },
   "sources": [
-    "vw14",
-    "trbox"
+    "andcetin_dq200",
+    "enginecrux_ea111_vs_ea211",
+    "trbox",
+    "vw14"
   ],
   "note": "Tek turbolu 1.4 TSI motoru twincharger versiyon kadar sorunlu değil ama yine EA111 ailesinin zincir riskini taşıyor; üstüne kuru kavramalı DQ200 otomatik ekleniyor. Bol bulunuyor, ucuz ve kullanımı kolay ama bu motor ile şanzıman birleşimi risk barındırıyor. Ancak zincir ve mekatronik geçmişi belgeliyse düşünülebilir.",
   "provenance": {

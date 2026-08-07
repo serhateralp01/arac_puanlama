@@ -19,7 +19,7 @@
     550,
     800
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 70,
@@ -30,8 +30,11 @@
     "liq": 44
   },
   "sources": [
-    "m54",
+    "bimmerfest_zf5hp19",
     "e39c",
+    "engineexplained_m54",
+    "m54",
+    "transmissionrepairguide_zf5hp19",
     "tuv"
   ],
   "note": "231 beygirlik M54 motoru, E39 ailesinin en güvenilir motoru kabul ediliyor ve Ward’s tarafından yılın en iyi motorları arasında seçilmişti. ZF otomatikle geliyor. Benzinli E39’lar içinde en dengeli tercih; puanını düşüren şey yüksek yakıt gideri ve aracın yaşı.",

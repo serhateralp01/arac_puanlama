@@ -18,7 +18,7 @@
     900,
     1300
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 38,
@@ -29,8 +29,11 @@
     "liq": 62
   },
   "sources": [
+    "andcetin_dq200",
+    "oreateai_ea111_vs_ea211",
     "sikayetvar_passat_tsi",
-    "teknikotomatik_dq200_dq250"
+    "teknikotomatik_dq200_dq250",
+    "trbox"
   ],
   "note": "Leon'un benzinli turbo versiyonu; EA211 ailesinin 1.5 TSI evo (ACT, silindir kapatma) varyantı — T-Roc ve Polo ile birlikte ailenin hacim aralığını genişleten üçüncü araç, yeni motor gerekmedi. DQ200 kuru DSG listede zaten kayıtlı, Leon'un dizel kardeşiyle aynı kutu.",
   "provenance": {

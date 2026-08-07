@@ -19,7 +19,7 @@
     800,
     1150
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 78,
     "trans": 76,
@@ -30,7 +30,10 @@
     "liq": 46
   },
   "sources": [
+    "atstservices_zf6hp",
     "e90",
+    "globalvillage_n52_waterpump",
+    "transmissionrepairguide_zf6hp26",
     "zf_5hp_6hp_bakim"
   ],
   "note": "N52 altı silindirli motoru sağlam bir birim, sadece su pompası rutin bir değişim kalemi. ZF 6 ileri otomatikle geliyor. Arkadan itiş keyfini güvenilirlikle birleştiriyor. Direkt enjeksiyonlu N53 motorlu versiyonlardan uzak durun.",

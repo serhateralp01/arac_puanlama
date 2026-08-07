@@ -480,3 +480,37 @@ MK-08'in uyardığı nesil karıştırma hatasının aynısını üretir (yanlı
 tork). Bu yüzden eşleme toplu ve otomatik yapılmaz: marka, model, üretim yılı, motor
 hacmi ve beygir birlikte doğrulanır, eşleşmeyen kayıt boş bırakılır. Boş bir alan,
 yanlış bir alandan iyidir.
+
+---
+
+## MK-16 · Araç kaynak listesi, bağlı olduğu motor/şanzıman ailesinin kaynaklarını otomatik miras alır
+
+**Sorun.** `data/engines.json` ve `data/transmissions.json`'daki her aile kendi
+`sources` alanını taşıyor (o motorun/kutunun bilinen zaafını belgeleyen kaynaklar).
+Ama bir araç kaydı açıldığında bu kaynaklar araca özgü `sources` listesine elle
+kopyalanmıyordu; araç kaydı çoğu zaman yalnızca kendi araştırması sırasında bulunan
+1-2 kaynağı taşıyordu. Sonuç: `renault-megane-2-1-6.json` gibi bir kayıt, kendi
+motorunun (K4M) özel olarak araştırılmış kaynağını (`bigskies_k4m`) hiç
+listelemiyordu — kaynak zaten `data/engines.json`'da kayıtlı ve doğrulanmış olduğu
+hâlde, o aracın "doğrulanmış" rozeti için sayılmıyordu. 232 araçta aynı boşluk vardı;
+ortalama kaynak sayısı 2,2'de tıkanmıştı ve `dogrulanmis` sayısı yalnızca 9'du.
+
+**Karar.** `scripts/build.py`'den önce çalışan bir düzeltme geçişiyle, her aracın
+`specs.engine_id` ve `specs.transmission_id` üzerinden bağlı olduğu ailenin
+`sources` listesi, aracın kendi `sources` listesine (küme birleşimi, yinelenen
+eklenmez) katıldı; `verification` etiketi `derive_verification()` ile yeniden
+hesaplandı. Bu, MK-14'teki TÜV kararının **tam tersi bir durum**, o yüzden aynı
+kurala tabi değil: TÜV eğrisi 228 aracın hepsine aynı şekilde uygulanan genel bir
+referanstı ve bir aracın kendi motoruyla/kutusuyla hiçbir doğrudan ilişkisi yoktu.
+Buradaki kaynaklar ise tanım gereği **o aracın gerçekten taşıdığı motor/şanzıman
+ailesiyle ilgili** — `engine_id`/`transmission_id` alanı zaten `scripts/validate.py`
+tarafından hacim/tip uyuşmasıyla denetleniyor, yani bağ gerçek ve doğrulanmış.
+Aracın kendi araştırmasında bulunmuş ayrı bir kaynağı hiç ummamış olması, o motorun
+zaten bilinen kaynağının o araca uygulanamayacağı anlamına gelmiyor.
+
+**Sonuç.** 249 aracın 232'sinde kaynak listesi genişledi; `dogrulanmis` 9'dan
+177'ye, `arac_basina_ortalama_kaynak` 2,22'den 4,31'e çıktı, `kaynak-yetersiz`
+uyarısı 240'tan 72'ye düştü. Hiçbir kaynağın `MAX_CARS_PER_SOURCE` (12) sınırını
+aşan tek başına dayanak (`sole_reliance`) sayısı artmadı, çünkü bu değişiklik yalnızca
+zaten 1'den fazla kaynağı olan araçlarda kaynak sayısını büyüttü. `validate.py`
+0 hata ile tamamlandı.

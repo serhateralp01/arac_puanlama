@@ -21,7 +21,7 @@
     480,
     720
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 42,
     "trans": 54,
@@ -33,7 +33,10 @@
   },
   "sources": [
     "donanimhaber_renault_12tce",
-    "renaultfanclub_edc_kronik"
+    "otopark_sanziman_rehberi",
+    "renaultfanclub_edc",
+    "renaultfanclub_edc_kronik",
+    "sikayetvar_megane_edc"
   ],
   "note": "Megane 3'ün benzinli turbo versiyonu; motor için yeni bir aile açıldı (renault-tce-12) — Megane 4/Koleos'ta kullanılan daha yeni 1.3 TCe (H5Ht) ailesinden farklı, daha eski ve daha sorunlu bir nesil. Yağ tüketimi ciddi seviyelere ulaşabiliyor, bazı araçlar garanti kapsamında motor değişimi görmüş. Şanzıman (kuru EDC) listede zaten kayıtlı.",
   "provenance": {

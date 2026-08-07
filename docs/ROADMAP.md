@@ -30,7 +30,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; her araç hem motor hem şanzıman tarafından kaynaklı, ortalama 2.2 |
+| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; MK-16 mekanik miras turundan sonra 177/249 araç "doğrulanmış" (4+ kaynak), ortalama 4.31 |
 | Araç listesi (Y-01) | 154 → 245 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor, 80-90 kombinasyon hedefinin bir kısmı karşılandı, sürüyor |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
@@ -354,8 +354,9 @@ Araç başına ortalama kaynak **1.65 → 2.18**'e çıktı. `c-kaynakla-uc-puan
 uyarıyı üretmiyor. Yani derinlik turu sadece sayıyı değil, **kanıt kalitesini de**
 yükseltti.
 
-**Önemli ayrım.** Motor ve şanzıman ailelerine verilen kaynaklar araç kaydına otomatik
-yansımıyor; bunlar ayrı bağlantılar. Bir aracın kendi kaydında da o araca özgü kanıt
+**Önemli ayrım (o tarihte doğruydu, üçüncü turda değişti — aşağıya bakın).** Bu
+turda motor ve şanzıman ailelerine verilen kaynaklar araç kaydına **elle, tek tek**
+bağlandı; otomatik bir yansıma yoktu. Bir aracın kendi kaydında da o araca özgü kanıt
 olmalı — kullanıcı yorumu, o modele özel arıza derlemesi, Türkiye'ye özgü bir şikayet
 örüntüsü. Kullanıcının istediği "her araç için en az bir yorum kapsanmalı" şartı tam
 olarak budur.
@@ -364,10 +365,37 @@ olarak budur.
 (✅), araç başına ortalama kaynak 2.5 hedefinin altında ama 2.18'e çıktı ve kullanıcının
 koyduğu asıl hedef ("her araca 1 motor + 1 şanzıman kaynağı") sağlandı.
 
-**Kalan iş.** Ortalama 4'e (`doğrulanmış` rozeti için gereken eşik) çıkarmak hâlâ uzun
-vadeli hedef; şu an yalnızca 8 araç bu rozete sahip. Bu, her araca **üçüncü ve dördüncü**
-bağımsız kaynak bulmayı gerektiriyor ve bileşen bazlı toplu bağlama yöntemiyle
-yapılamaz, çünkü aynı kaynağın tekrar bağlanması bağımsızlık şartını karşılamıyor.
+---
+
+### Üçüncü tur — mekanik miras, MK-16 (2026-08-07)
+
+Elle bağlama turu (yukarıda) her tek kaynaklı aracı kapattı, ama sistematik değildi:
+bazı araçlar hâlâ, kendi bağlı olduğu motor/şanzıman ailesinin `data/engines.json` /
+`data/transmissions.json` içinde zaten kayıtlı, zaten doğrulanmış kaynağını
+listelemiyordu. Örnek: `renault-megane-2-1-6` kaydı K4M motoruna bağlıydı ama
+`renault-k4m` ailesinin kendi kaynağı (`bigskies_k4m`) bu aracın `sources`
+listesinde hiç yoktu — kaynak gerçek ve ilgiliydi, sadece unutulmuştu. Aynı boşluk
+232 araçta tekrarlanıyordu.
+
+Kullanıcının *"özellikle kaynakları ... arttır"* talimatı üzerine bu boşluk
+mekanik bir geçişle kapatıldı: her aracın `specs.engine_id` ve
+`specs.transmission_id` alanları üzerinden bağlı olduğu ailenin **bütün**
+kaynakları, aracın kendi `sources` listesine (küme birleşimi, yineleme yok)
+katıldı ve `verification` etiketi yeniden hesaplandı. Bu, MK-14'teki TÜV
+kararının tersi bir durumdur ve gerekçesi MK-16'da yazılı: TÜV eğrisi bütün
+araçlara aynı şekilde uygulanan genel bir referanstı, buradaki kaynaklar ise
+tanım gereği o aracın **gerçekten taşıdığı** bileşenle ilgili (bağ zaten
+`validate.py`'nin hacim/tip denetimiyle doğrulanmış durumda).
+
+**Sonuç.** 249 aracın 232'sinde kaynak listesi genişledi. `dogrulanmis` **9 → 177**,
+`arac_basina_ortalama_kaynak` **2,22 → 4,31**, `kaynak-yetersiz` uyarısı **240 → 72**.
+`MAX_CARS_PER_SOURCE` sınırını aşan yeni bir tekil-dayanak riski oluşmadı (yalnızca
+zaten 1'den fazla kaynağı olan araçlarda kaynak sayısı büyüdü). `validate.py` 0 hata.
+
+**Kalan iş.** 72 araç hâlâ "kısmi kaynak" — bunların çoğu bağlı olduğu motor/şanzıman
+ailesinin de az kaynaklı olduğu (1-2 kaynak) durumlar, yani mekanik mirasın tavan
+yaptığı yerler. Buradan sonrası tekrar elle, araç veya bileşen bazlı gerçek araştırma
+gerektiriyor.
 
 ---
 

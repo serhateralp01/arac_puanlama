@@ -19,7 +19,7 @@
     650,
     950
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 76,
@@ -30,7 +30,10 @@
     "liq": 52
   },
   "sources": [
+    "atstservices_zf6hp",
+    "globalvillage_n52_waterpump",
     "m54",
+    "transmissionrepairguide_zf6hp26",
     "tuv"
   ],
   "note": "E39'un halefi; daha büyük, daha konforlu ve teknolojik olarak daha donanımlı. Otomatiği ZF 6 ileri tork konvertörlü kutu ve sağlam. Buna karşılık elektronik arıza yüzeyi geniş, yakıt ve vergi gideri yüksek, altı silindirli versiyonları Türkiye'de az bulunuyor.",

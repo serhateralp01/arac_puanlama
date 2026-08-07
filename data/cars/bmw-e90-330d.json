@@ -19,7 +19,7 @@
     900,
     1300
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 82,
     "trans": 76,
@@ -30,8 +30,12 @@
     "liq": 42
   },
   "sources": [
+    "atstservices_zf6hp",
+    "autoclassmagazine_m57_swirlflap",
+    "drivingline_m57_unkillable",
     "e90",
-    "m57"
+    "m57",
+    "transmissionrepairguide_zf6hp26"
   ],
   "note": "E60 530d ile aynı M57N2 motoru ve sağlam ZF 6 ileri tork konvertörlü kutuyu kullanıyor; bu da onu E90 ailesinin en güvenilir otomatik paketi yapıyor. Modern, torklu ve eşinizin de rahat kullanabileceği bir araç. Listedeki en dengeli BMW.",
   "provenance": {

@@ -22,7 +22,7 @@
     550,
     850
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 25,
     "trans": 35,
@@ -33,8 +33,12 @@
     "liq": 85
   },
   "sources": [
-    "vw14",
-    "teknikotomatik_dq200_dq250"
+    "andcetin_dq200",
+    "autoscore_ea111_twincharger",
+    "enginecrux_ea111_vs_ea211",
+    "teknikotomatik_dq200_dq250",
+    "trbox",
+    "vw14"
   ],
   "note": "Bu araçta iki risk üst üste biniyor. Motoru twincharger sistemli 1.4 TSI: triger zinciri gergisi arızası supapların zarar görmesine yol açabiliyor ve blok gömlekli olduğu için revizyon yerine komple blok değişimi gerekiyor. Otomatiği ise kuru kavramalı DQ200. Bol bulunması, ucuzluğu ve kullanım kolaylığı avantajı olsa da bu kombinasyon kumar sayılır. Zincir değişimi belgeli değilse almayın.",
   "provenance": {

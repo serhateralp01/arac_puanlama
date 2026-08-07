@@ -30,8 +30,9 @@
     "liq": 58
   },
   "sources": [
-    "trbox",
-    "go4trans_dp0"
+    "enginecrux_xu10j2",
+    "go4trans_dp0",
+    "trbox"
   ],
   "note": "Konforlu ve ucuz bir D segment sedan. Otomatiği PSA'nın AL4/DPO kutusu ve bu kutu selenoid valf arızası, aşırı ısınma ve vites geçişlerinde vuruntuyla biliniyor. Yaşı ilerlemiş, alırken şanzıman geçmişi sorulmalı.",
   "provenance": {

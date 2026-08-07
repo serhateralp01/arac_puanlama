@@ -31,7 +31,8 @@
   },
   "sources": [
     "andcetin_dq200",
-    "oreateai_ea111_vs_ea211"
+    "oreateai_ea111_vs_ea211",
+    "trbox"
   ],
   "note": "Ibiza V'in 1.0 TSI DSG kombinasyonu; Fabia ve Polo ile aynı platformu ve bileşenleri paylaşıyor.",
   "provenance": {

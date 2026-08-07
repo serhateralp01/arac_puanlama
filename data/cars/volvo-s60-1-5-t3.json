@@ -19,7 +19,7 @@
     750,
     1100
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 80,
@@ -30,8 +30,12 @@
     "liq": 40
   },
   "sources": [
-    "volvops",
-    "teknikotomatik_aisin_6ileri"
+    "teknikotomatik_aisin_6ileri",
+    "volvoclub_geartronic_reliability",
+    "volvod",
+    "volvoforums_tf71sc_behavior",
+    "volvoforums_vea_reports",
+    "volvops"
   ],
   "note": "VEA ailesinden 1.5 litrelik benzinli motor, Aisin Geartronic otomatikle geliyor. Yaklaşık 152 beygir üretiyor, torku ise orta seviyede kalıyor. Sade ve dert çıkarmayan bir benzinli arıyorsanız mantıklı bir tercih; ayrıca şanzımanı güvenli tarafta.",
   "provenance": {

@@ -19,7 +19,7 @@
     480,
     760
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 78,
@@ -30,9 +30,11 @@
     "liq": 46
   },
   "sources": [
+    "carsexpert_clk_w209",
     "enginefinder_m111",
+    "enginefinder_za_m111",
     "mbclub_m111",
-    "carsexpert_clk_w209"
+    "minhsautocare_722_6"
   ],
   "note": "Süperşarjlı 2.3 litrelik M111 motoru (esas olarak W208 kasa, 1998-2003), ~1350 kiloluk gövdesi ve arkadan itişiyle listedeki tek gerçek spor coupe karakterine sahip araç. Uluslararası kaynaklar M111'i net biçimde olumlu değerlendiriyor: EngineFinder 'düzenli bakımla 300.000 km üzeri ömür' diyor, MBClub UK forumunda süperşarjın kendisinin çok dayanıklı olduğu (200.000 mil üzeri örnekler) ve zincir gerginliğinin 100-200 bin km aralığında normal bir bakım kalemi olduğu belirtiliyor. Bilinen zayıf noktalar: supap kapağı contası, yağ karteri contası — küçük ve yönetilebilir kalemler.",
   "provenance": {

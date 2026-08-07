@@ -21,7 +21,7 @@
     1050,
     1700
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 46,
@@ -32,8 +32,11 @@
     "liq": 80
   },
   "sources": [
+    "andcetin_dct_tucson",
+    "enginedna_d4fb",
+    "sikayetvar_tucson_dct",
     "sikayetvar_tucson_kavrama",
-    "sikayetvar_tucson_dct"
+    "trbox"
   ],
   "note": "Üçüncü nesil (TL) Tucson'un Türkiye'de en yaygın dizel-otomatik kombinasyonu; U2 1.6 CRDi motoru listede zaten kayıtlı, ama 7 ileri kuru çift kavramalı kutu ailenin bilinen zayıf halkası — aynı kutu başka Hyundai/Kia modellerinde de düşük puan alıyor. Bazı araçlarda ~90.000 km sonrası kronik DPF ve kavrama arızaları bildirilmiş. Buna karşılık Hyundai'nin Türkiye'deki geniş servis ağı ve yedek parça bulunabilirliği işletme maliyeti ve bulunabilirlik puanlarını yukarı çekiyor.",
   "provenance": {

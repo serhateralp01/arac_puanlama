@@ -18,7 +18,7 @@
     900,
     1300
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 54,
     "trans": 74,
@@ -30,7 +30,9 @@
   },
   "sources": [
     "kronikuzman_chr_12turbo",
-    "teknikotomatiksanziman_multidrive"
+    "slashgear_toyota_cvt_reliability",
+    "teknikotomatiksanziman_multidrive",
+    "trbox"
   ],
   "note": "C-HR'ın benzinli turbo versiyonu; motor için yeni bir aile açıldı (toyota-8nr-fts) — Toyota'nın atmosferik ZR ailesinden tamamen farklı, küçük hacimli turbo bir tasarım. Yağ tüketimi ve düşük devirde turbo gecikmesi bildirilmiş; Multidrive CVT kutusu listede zaten kayıtlı.",
   "provenance": {

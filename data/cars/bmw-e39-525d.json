@@ -19,7 +19,7 @@
     500,
     750
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 70,
@@ -30,8 +30,12 @@
     "liq": 54
   },
   "sources": [
+    "autoclassmagazine_m57_swirlflap",
+    "bimmerfest_zf5hp19",
+    "drivingline_m57_unkillable",
     "e39",
     "m57",
+    "transmissionrepairguide_zf5hp19",
     "tuv"
   ],
   "note": "530d ile aynı sağlam M57 ailesinden gelen 2.5 litrelik dizel; torku biraz daha az ama yakıt tüketimi daha iyi. ZF otomatikle geliyor. Aracın yaşı ve büyük gövdesi toplam puanı aşağı çekiyor.",

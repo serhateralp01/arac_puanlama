@@ -19,7 +19,7 @@
     420,
     620
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 56,
     "trans": 44,
@@ -30,9 +30,10 @@
     "liq": 32
   },
   "sources": [
-    "techturkey_rover75_yardim",
+    "honestjohn_rover75_auto",
     "mgrover_rover75_jatco",
-    "honestjohn_rover75_auto"
+    "roverkseries_kv6_headgasket",
+    "techturkey_rover75_yardim"
   ],
   "note": "Kabin kalitesi ve yol konforu fiyatının çok üstünde, ama otomatiği ciddi bir risk: kutu Jatco JF506E ve Land Rover Freelander ile Jaguar X-Type'ın da paylaştığı bu kutuda sarsıntılı vites geçişi, sensör kaynaklı arıza kodları, geri vites arızası ve bazı örneklerde tüm vitelerde güç kaybı bildiriliyor. Markanın Türkiye'deki yedek parça ve usta ağının zaten dar olması, bir arıza durumunda çözümü ayrıca zorlaştırıyor.",
   "provenance": {

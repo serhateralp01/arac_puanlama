@@ -18,7 +18,7 @@
     400,
     600
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 58,
     "trans": 70,
@@ -29,8 +29,12 @@
     "liq": 40
   },
   "sources": [
+    "bimmerfest_zf5hp19",
+    "bimmerforums_m52_nikasil",
     "donanimhaber_e39_520_bilgi",
-    "bimmerforums_m52_nikasil"
+    "enginedna_m52",
+    "torquecars_nikasil",
+    "transmissionrepairguide_zf5hp19"
   ],
   "note": "E39'un giriş seviyesi altı silindirli benzinlisi; M52 motoru ve ZF 5 ileri kutusu listede zaten E39 528i ve E36'da kayıtlı aynı aileden, düşük risk. Forumda 2. vites üstüne çıkmama şikayeti şanzıman beyni arızasına işaret ediyor; genel olarak E39'da şanzıman kronik bir zaaf sayılmıyor, ön takım ve direksiyon kutusu yaşla birlikte daha çok dert veriyor.",
   "provenance": {

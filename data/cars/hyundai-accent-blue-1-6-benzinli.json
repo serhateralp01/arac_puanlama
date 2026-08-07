@@ -22,7 +22,7 @@
     700,
     980
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 80,
@@ -33,8 +33,10 @@
     "liq": 84
   },
   "sources": [
+    "hyundaiforums_auto",
     "sikayetvar_accent_blue_kronik",
-    "teknikotomatik_hyundai_6at"
+    "teknikotomatik_hyundai_6at",
+    "uscarsnew_gamma_mpi_gdi"
   ],
   "note": "Dizel kardeşinin aksine bu versiyon çift kavrama değil, 6 ileri tork konvertörlü otomatik kullanıyor; bu da onu şanzıman tarafında çok daha güvenli yapıyor. Motoru sade ve dayanıklı, yedek parçası ucuz ve bol. Karakteri yok ama sorunu da yok.",
   "provenance": {

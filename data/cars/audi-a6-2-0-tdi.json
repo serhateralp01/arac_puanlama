@@ -19,7 +19,7 @@
     700,
     1050
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 52,
     "trans": 22,
@@ -30,6 +30,9 @@
     "liq": 58
   },
   "sources": [
+    "carchecker_a6_27tdi",
+    "carchecker_golf6_16tdi",
+    "enginefinders_20tdi_ea189",
     "multi",
     "sikayetvar_a4_tfsi"
   ],

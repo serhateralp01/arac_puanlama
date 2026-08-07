@@ -22,7 +22,7 @@
     700,
     1000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 52,
     "trans": 48,
@@ -33,7 +33,10 @@
     "liq": 42
   },
   "sources": [
+    "autodoc_giulietta_problems",
+    "autodoc_mito_problems",
     "eksisozluk_sanziman_liste",
+    "enginecrux_multiair_giulietta",
     "sikayetvar_alfa_mito_kronik"
   ],
   "note": "Otomatiği TCT çift kavramalı kutu; Ekşi Sözlük'ün marka-model bazlı kapsamlı şanzıman rehberi de bunu doğruluyor. Karakteri ve tasarımı çok güçlü ama TCT'nin güvenilirlik kaygısı ve Alfa'nın Türkiye'de sınırlı parça/usta ağı toplam puanı düşürüyor. Servis geçmişi ve uzun test sürüşü olmadan almayın.",

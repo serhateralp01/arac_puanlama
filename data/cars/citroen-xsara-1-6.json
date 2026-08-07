@@ -22,7 +22,7 @@
     420,
     600
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 40,
@@ -33,8 +33,11 @@
     "liq": 66
   },
   "sources": [
+    "enginescope_tu5",
+    "go4trans_dp0",
     "otokokpit_citroen_xsara",
-    "peugeotturkey_307_al4"
+    "peugeotturkey_307_al4",
+    "trbox"
   ],
   "note": "307 ile aynı AL4 otomatiği kullanıyor; bu ailenin selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme gibi yaygın şikayetleri var. Araç çok ucuz ama şanzıman geçmişi mutlaka sorulmalı.",
   "provenance": {

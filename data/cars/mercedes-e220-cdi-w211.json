@@ -19,7 +19,7 @@
     550,
     800
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 80,
@@ -30,6 +30,8 @@
     "liq": 58
   },
   "sources": [
+    "apexautoparts_om646",
+    "minhsautocare_722_6",
     "om61x",
     "w211"
   ],

@@ -33,8 +33,9 @@
     "liq": 40
   },
   "sources": [
-    "whatcar_alfa156_reliability",
-    "alfabb_156_qsystem"
+    "alfabb_156_qsystem",
+    "enginecrux_alfa_twinspark",
+    "whatcar_alfa156_reliability"
   ],
   "note": "159'dan önceki nesil, İtalyan tasarımının zirvelerinden; otomatiği tork konvertörlü ama Alfa'nın bilinen elektronik ve parça zorlukları burada da geçerli. What Car?'ın güvenilirlik derlemesine göre süspansiyon ve akslar 156'nın en zayıf noktası, ardından motor ve elektrik aksamı geliyor; erken üretim yıllarında yoğun elektrik arızaları ve arka çamurluk, eşik, şasi, bagaj tabanı gibi yaygın pas noktaları bildiriliyor.",
   "provenance": {

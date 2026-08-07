@@ -19,7 +19,7 @@
     950,
     1350
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 74,
     "trans": 74,
@@ -30,8 +30,11 @@
     "liq": 58
   },
   "sources": [
-    "trbox",
-    "teknikotomatik_dq200_dq250"
+    "audiworld_dl501_110k",
+    "ecotorque_dl501",
+    "teknikotomatik_dq200_dq250",
+    "torquecars_ea288_avoid_problems",
+    "trbox"
   ],
   "note": "B8'den sonraki nesil; önden çekişte S tronic ıslak DCT, quattro'da ise klasik Tiptronic geliyor - B8'in Multitronic derdi tamamen ortadan kalkmış. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {

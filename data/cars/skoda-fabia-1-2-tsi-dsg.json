@@ -21,7 +21,7 @@
     480,
     720
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 56,
     "trans": 38,
@@ -32,9 +32,10 @@
     "liq": 48
   },
   "sources": [
-    "enginecrux_ea111_vs_ea211",
     "andcetin_dq200",
-    "donanimhaber_fabia_12tsi_dsg"
+    "donanimhaber_fabia_12tsi_dsg",
+    "enginecrux_ea111_vs_ea211",
+    "trbox"
   ],
   "note": "Fabia II'nin (5J kasa) 105 beygirlik 1.2 TSI'ı; motor ailesi (vag-ea111-tsi-turbo) bu turda 1.4'ten 1.2'ye genişletildi, çünkü ikisi de aynı tekli turbolu, zincir tahrikli mimariyi paylaşıyor — yalnızca hacim ve güç farklı. DQ200 kuru DSG listede zaten kayıtlı ve kavrama/mekatronik riski bu aracı da aynı şekilde etkiliyor. DonanımHaber forumunda düzenli bakımla sorunsuz giden örnekler bildirilirken bir kullanıcı 2.400 km gibi çok düşük bir kilometrede DSG'nin acil moda geçtiğini aktarıyor; bu izole bir erken arıza olarak değerlendirildi.",
   "provenance": {

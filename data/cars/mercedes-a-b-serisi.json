@@ -30,8 +30,9 @@
     "liq": 80
   },
   "sources": [
-    "trbox",
-    "sikayetvar_mercedes_bakim_sanziman"
+    "mercedesassistance_m270",
+    "sikayetvar_mercedes_bakim_sanziman",
+    "trbox"
   ],
   "note": "Bu araçlarda 7G-DCT kutusu bulunuyor ve arkadan itişli Mercedeslerdeki tork konvertörlü 7G-Tronic ile karıştırılmamalı; bu kuru kavramalı bir çift kavrama kutusu. Yoğun trafikte kavrama ısınması riski var. Araç modern ve kullanımı kolay ama şanzıman tarafı C serisindeki kadar rahat değil.",
   "provenance": {

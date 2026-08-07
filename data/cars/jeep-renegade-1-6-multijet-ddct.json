@@ -21,7 +21,7 @@
     950,
     1350
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 64,
     "trans": 62,
@@ -32,8 +32,11 @@
     "liq": 60
   },
   "sources": [
+    "egeadct",
+    "eksisozluk_sanziman_liste",
+    "gaga_tipo_multijet",
     "sikayetvar_renegade_kronik",
-    "eksisozluk_sanziman_liste"
+    "trbox"
   ],
   "note": "FCA'nın 1.6 Multijet II motoru ve C635 kuru çift kavramalı DDCT kutusuyla gelen kompakt SUV; ikisi de listede zaten kayıtlı bileşen ailelerinden. Jeep'in Türkiye'deki yetkili servis ve orijinal parça ağı mainstream markalara göre daha seyrek, bu da işletme maliyeti puanını aşağı çekiyor. Şanzımanda düşük hızda gecikmeli geçiş ve uzun yolda ısınma şikayetleri bildirilmiş; servis kaydı ve şanzıman yağı bakım geçmişi satın almadan önce mutlaka sorulmalı.",
   "provenance": {

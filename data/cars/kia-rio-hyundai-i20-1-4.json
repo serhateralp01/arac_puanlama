@@ -19,7 +19,7 @@
     650,
     950
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 78,
@@ -30,8 +30,10 @@
     "liq": 76
   },
   "sources": [
-    "motorbeam_i20_1_4_automatic",
-    "go4trans_a4af3"
+    "elantraxd_forum_a4af3",
+    "engineexplained_g4fa",
+    "go4trans_a4af3",
+    "motorbeam_i20_1_4_automatic"
   ],
   "note": "Küçük gövdeleri sayesinde şehir içinde çok pratik ve park etmesi kolay. Tork konvertörlü otomatikleri sade ve sağlam, işletme maliyetleri düşük. MotorBeam'in i20 1.4 otomatik testine göre 0-100 km/s hızlanma sınıfı için mütevazı (~12.8 saniye) ve yüksek hızda direksiyon hissiz kalıyor; araç heyecanlı sürüşten çok şehir içi kullanım için tasarlanmış. Uzun yolda ve tam yükte zorlanıyorlar.",
   "provenance": {

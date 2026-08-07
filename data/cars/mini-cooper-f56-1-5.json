@@ -31,7 +31,8 @@
   },
   "sources": [
     "techturkey_mini_f56_b38",
-    "teknikotomatik_aisin_6ileri"
+    "teknikotomatik_aisin_6ileri",
+    "trbox"
   ],
   "note": "MINI'nin BMW'nin kendi motoruna geçtiği ikinci nesli (R56'nın BMW/PSA ortak Prince motorundan farklı); motor için yeni bir aile açıldı (bmw-b38). Üç silindirli yapısı motor kültürü açısından eleştiriliyor ama hafif kasa ve Aisin otomatik kutu kombinasyonu iyi çalışıyor; şanzıman R56'da da kullanılan aynı aileden, listede zaten kayıtlı.",
   "provenance": {

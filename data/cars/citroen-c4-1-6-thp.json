@@ -18,7 +18,7 @@
     550,
     850
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 46,
     "trans": 38,
@@ -29,8 +29,10 @@
     "liq": 42
   },
   "sources": [
+    "enginescope_ep6_thp",
     "sikayetvar_c4_kronik",
-    "sikayetvar_peugeot_2008"
+    "sikayetvar_peugeot_2008",
+    "trbox"
   ],
   "note": "C4'ün turbolu üst versiyonu; EP6 THP motoru listede zaten Peugeot 308/508'de kayıtlı (triger zinciri uzaması bilinen zaafı), robotlu EGS6 şanzıman (ETG ailesi) ise listenin en düşük puanlı kutularından — vites geçişleri sarsıntılı ve aktüatör arızaları biliniyor. 2011 model bir araçta yavaşlarken 2.-1. vites arası silkme bildirilmiş.",
   "provenance": {

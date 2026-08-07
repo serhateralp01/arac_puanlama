@@ -19,7 +19,7 @@
     900,
     1250
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 46,
     "trans": 44,
@@ -30,9 +30,10 @@
     "liq": 62
   },
   "sources": [
-    "om61x",
     "carcomplaints_722_9_lawsuit",
-    "mercedesmedic_722_9"
+    "enginefinders_om651",
+    "mercedesmedic_722_9",
+    "om61x"
   ],
   "note": "Modern, çok konforlu ve güçlü bir dizel sedan. Otomatiği 7G-Tronic tork konvertörlü kutu ve arkadan itişli Mercedeslerde bu kutu güvenilir kabul ediliyor. Motor tarafında dikkatli olun: OM651 ailesinin triger zinciri gergi arızası felaket boyutunda motor hasarına yol açabiliyor; bu araç (2009-2016 üretim) hem riskli erken dönemi hem Mercedes'in 2014 sonrası iyileştirdiği dönemi kapsıyor, alırken üretim tarihini ve enjektör tipini sorun.",
   "provenance": {

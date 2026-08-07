@@ -18,7 +18,7 @@
     780,
     1150
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 38,
@@ -29,8 +29,10 @@
     "liq": 68
   },
   "sources": [
+    "andcetin_dq200",
+    "araclo_a3_dq200",
     "oreateai_ea111_vs_ea211",
-    "araclo_a3_dq200"
+    "trbox"
   ],
   "note": "Üçüncü nesil (8V) A3'ün silindir kapatmalı (COD) 1.4 TFSI'ı; motor EA211 ailesinden (listede zaten kayıtlı, temiz bir güvenilirlik profili taşıyor — kayışa dönmüş, zincir sorunu bildirilmemiş). Bu araç için araştırılan yeni kaynak yalnızca şanzıman (DQ200) tarafını doğruluyor: araclo.com'un A3 1.4 TFSI kullanıcı sorunları sayfası mekatronik kaynaklı vites sarsıntısı ve 'P' konumundan çıkamama şikayetlerini aktarıyor, bu da DQ200'ün listede zaten kayıtlı düşük puanıyla (38) tam örtüşüyor. Motor tarafında EA211'in temiz profiliyle çelişen bir iddia bulunamadı, bu yüzden motor puanı temel puana eşit tutuldu.",
   "provenance": {

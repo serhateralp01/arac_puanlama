@@ -21,7 +21,7 @@
     950,
     1350
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 74,
@@ -32,8 +32,11 @@
     "liq": 86
   },
   "sources": [
+    "homeofengines_1zr",
     "sikayetvar_corolla_genel",
-    "teknikotomatiksanziman_multidrive"
+    "slashgear_toyota_cvt_reliability",
+    "teknikotomatiksanziman_multidrive",
+    "trbox"
   ],
   "note": "Onikinci nesil Corolla'nın (E210) 1.6 benzinli CVT kombinasyonu; ZR motoru ve Toyota'nın kendi Multidrive CVT'si listede zaten kayıtlı, ikisi de yüksek puanlı ve güvenilir bileşenler. Bildirilen şikayetler kablosuz şarj kesilmesi, yüksek hızda ıslık sesi ve boya soyulması gibi görece küçük kalemler; motor ve şanzımanla ilgili ciddi bir kronik arıza bildirilmemiş.",
   "provenance": {

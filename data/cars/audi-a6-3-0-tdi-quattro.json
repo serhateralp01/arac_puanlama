@@ -19,7 +19,7 @@
     650,
     1000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 52,
     "trans": 80,
@@ -30,8 +30,11 @@
     "liq": 38
   },
   "sources": [
+    "atstservices_zf6hp",
+    "carchecker_a6_27tdi",
+    "darkside_v6tdi_swirlflap",
     "euroracingparts_a6c6",
-    "carchecker_a6_27tdi"
+    "transmissionrepairguide_zf6hp26"
   ],
   "note": "Tork, dört çeker ve ZF Tiptronic otomatiğiyle çok keyifli ve oturaklı bir araç. Euro Racing Parts'ın kapsamlı alım rehberi Tiptronic'i 'sağlam ama yağ kaçağına dikkat edilmeli' diye tanımlıyor; 2008 sonrası (facelift) 3.0 TDI'nin bu aile içinde en güvenilir motor olduğunu doğruluyor. Car Checker'ın V6 TDI raporunda ise ailenin genel zayıf noktaları netleşiyor: termostat gövdesi arızası, girdap klapesi (swirl flap) aşınması, ve SADECE önden çekişli Multitronic CVT versiyonlarında ciddi arıza riski — quattro Tiptronic bu riski taşımıyor. Soğuk çalıştırmada zincir sesi test edilmeli. Yaşı ve dört çekerin yüksek işletme maliyeti toplam puanı aşağı çekiyor.",
   "provenance": {

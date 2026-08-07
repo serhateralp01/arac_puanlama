@@ -31,6 +31,7 @@
   },
   "sources": [
     "eeuroparts_volvo_aw55_servo",
+    "enginedna_saab_b235",
     "youcanic_opel_aw55"
   ],
   "note": "Niş ama karakterli bir İsveç sedanı. Otomatiği Aisin'in AW55 kutusu ve bu kutu, Aisin'in sonraki TF-80SC'sinin selefi olarak belirgin biçimde daha sorunlu; düşük kilometrede ortaya çıkan yapısal bir kusur taşıdığı anlaşılmış. Türkiye'de yedek parça ve usta bulmak en zor markalardan olduğu için bu risk pratikte daha da ağırlaşıyor.",

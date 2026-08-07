@@ -22,7 +22,7 @@
     450,
     700
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 72,
@@ -34,6 +34,8 @@
   },
   "sources": [
     "focusclub_4ileri",
+    "focusfanatics_mk2_auto",
+    "reliability_autos_duratec_he",
     "sikayetvar_kuga_ecoboost"
   ],
   "note": "Eski usul ama işe yarayan bir çözüm: turbosuz Duratec 2.0 motor ve 4 ileri tork konvertörlü otomatik. Türkçe forumlarda doğrudan kullanıcı teyidi net: 'şanzımanınız taş gibidir, 4 ileri oldukça sağlamdır' — Ford'un aynı dönemdeki CVT, ASM ve Jatco kaynaklı otomatiklerinden (bunlardan uzak durulması özellikle tavsiye ediliyor) tamamen farklı ve güvenilir bir kutu. Motor da dert çıkarmıyor. Ucuz, sağlam ve sıradan bir araç.",

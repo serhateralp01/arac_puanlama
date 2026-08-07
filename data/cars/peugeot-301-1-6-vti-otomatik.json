@@ -32,6 +32,7 @@
     "liq": 70
   },
   "sources": [
+    "go4trans_dp0",
     "peugeotengine_psa_honest",
     "trbox"
   ],

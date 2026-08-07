@@ -19,7 +19,7 @@
     850,
     1200
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 70,
     "trans": 72,
@@ -30,9 +30,10 @@
     "liq": 66
   },
   "sources": [
-    "trbox",
     "andcetin_dq200",
-    "kroniksorunlar_superb"
+    "kroniksorunlar_superb",
+    "torquecars_ea288_avoid_problems",
+    "trbox"
   ],
   "note": "Passat'ın en yeni ve en modern kasası; DQ250 ıslak DSG'si diğer VW modelleriyle aynı görece güvenilir aile. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {

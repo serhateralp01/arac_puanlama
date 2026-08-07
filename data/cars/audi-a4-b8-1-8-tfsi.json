@@ -19,7 +19,7 @@
     700,
     1050
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 45,
     "trans": 22,
@@ -31,6 +31,8 @@
   },
   "sources": [
     "audioil",
+    "carchecker_a6_27tdi",
+    "enginescope_ea888_gen",
     "multi"
   ],
   "note": "Bu araçta iki risk aynı anda bulunuyor. 2008 ile 2012 arası üretilen 1.8 TFSI motorlar yağ tüketimi sorunu yaşıyor; 2012 sonrasında bu sorun giderildi. Otomatiği ise önden çekişli olduğu için Multitronic CVT ve bu kutu listedeki en zayıf otomatiklerden. Almak isterseniz hem 2013 sonrası motor hem belgeli şanzıman bakımı arayın.",

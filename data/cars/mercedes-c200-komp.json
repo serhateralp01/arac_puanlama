@@ -19,7 +19,7 @@
     420,
     650
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 80,
@@ -30,8 +30,10 @@
     "liq": 70
   },
   "sources": [
-    "om61x",
-    "m271"
+    "m271",
+    "mercedesassistance_m270",
+    "minhsautocare_722_6",
+    "om61x"
   ],
   "note": "2000-2002 arası M111 kompresörlü motorlar oldukça sağlam; 2003 sonrası M271 motorlarda zincir kontrolü şart. 5G-Tronic otomatiği güvenilir, araç bol bulunuyor, yedek parçası ucuz ve arkadan itişli konforlu bir gövdesi var.",
   "provenance": {

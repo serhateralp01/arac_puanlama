@@ -21,7 +21,7 @@
     750,
     1100
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 58,
     "trans": 54,
@@ -33,6 +33,7 @@
   },
   "sources": [
     "cararac_k9k",
+    "otopark_sanziman_rehberi",
     "renaultfanclub_edc",
     "sikayetvar_megane_edc"
   ],

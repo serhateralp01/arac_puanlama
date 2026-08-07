@@ -21,7 +21,7 @@
     850,
     1200
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 52,
     "trans": 52,
@@ -33,7 +33,12 @@
   },
   "sources": [
     "araclo_focus_ecoblue",
-    "sikayetvar_kuga_ecoboost"
+    "autodoc_s60_problems",
+    "greencarcongress_powershift_torque",
+    "kugaownersclub_powershift_faults",
+    "mondps",
+    "sikayetvar_kuga_ecoboost",
+    "volvops"
   ],
   "note": "Dördüncü nesil Focus'un dizel-otomatik kombinasyonu; motor için yeni bir aile açıldı (ford-ecoblue-15) — Ford'un Duratorq'tan sonraki nesli, listedeki Focus 3 1.5 TDCi'den farklı. Eksantrik zinciri kronik olarak uzuyordu, üretici sonradan 8mm zincirle revize etti; kısa mesafe kullanımda DPF tıkanması ayrı bir risk. Şanzıman (ıslak Getrag 6DCT450) listede zaten kayıtlı.",
   "provenance": {

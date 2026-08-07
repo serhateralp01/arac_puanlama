@@ -19,7 +19,7 @@
     430,
     680
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 78,
@@ -31,7 +31,9 @@
   },
   "sources": [
     "enginefinder_m111",
-    "mbclub_m111"
+    "enginefinder_za_m111",
+    "mbclub_m111",
+    "minhsautocare_722_6"
   ],
   "note": "CLK230'un düşük güçlü versiyonu (163 bg), aynı M111 Kompressor ailesinden (esas olarak W208 kasa). Aynı sağlamlık profili geçerli: düzenli bakımla 300.000 km üzeri ömür mümkün, süperşarj birimi kendisi nadiren sorun çıkarıyor. Mütevazı güç, niş bir tercih ama mekanik olarak güvenilir.",
   "provenance": {

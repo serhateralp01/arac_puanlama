@@ -22,7 +22,7 @@
     700,
     1000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 66,
     "trans": 72,
@@ -33,6 +33,9 @@
     "liq": 70
   },
   "sources": [
+    "asrgearbox_tf80",
+    "autodoc_astra_j_problems",
+    "cherishyourcar_a14net",
     "opel16",
     "teknikotomatik_aisin_6ileri"
   ],

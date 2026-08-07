@@ -19,7 +19,7 @@
     500,
     760
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 68,
@@ -30,8 +30,12 @@
     "liq": 36
   },
   "sources": [
+    "autoclassmagazine_m57_swirlflap",
+    "bimmerfest_zf5hp19",
+    "drivingline_m57_unkillable",
     "e46sub",
-    "m57"
+    "m57",
+    "transmissionrepairguide_zf5hp19"
   ],
   "note": "M57 dizel motoru sağlam ve torklu, yakıt tüketimi de iyi. Otomatiği ZF 5 ileri kutu. Yine arka aks taşıyıcısını ve aracın yaşını kontrol ettirmek gerekiyor. Sürüş keyfi ile ekonomi arasındaki dengeyi iyi kuruyor.",
   "provenance": {

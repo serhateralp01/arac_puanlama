@@ -22,7 +22,7 @@
     800,
     1150
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 58,
     "trans": 38,
@@ -33,8 +33,10 @@
     "liq": 84
   },
   "sources": [
-    "vw14",
-    "trbox"
+    "andcetin_dq200",
+    "oreateai_ea111_vs_ea211",
+    "trbox",
+    "vw14"
   ],
   "note": "Benzinli Golf 7 sürüş olarak keyifli ve kabin kalitesi yüksek. Fakat hem EA211 ailesinin zincir konusu hem de kuru kavramalı DQ200 kutusu aynı araçta birleşiyor. Bakım geçmişi eksiksiz olmayan bir örneği almayın.",
   "provenance": {

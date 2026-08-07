@@ -18,7 +18,7 @@
     450,
     680
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 64,
     "trans": 70,
@@ -29,7 +29,10 @@
     "liq": 42
   },
   "sources": [
+    "alpincars_m47_vs_n47",
+    "bimmerfest_zf5hp19",
     "otopark_320d_520d_zincir",
+    "transmissionrepairguide_zf5hp19",
     "zf_5hp_6hp_bakim"
   ],
   "note": "E39'un dizel versiyonu; M47 motoru (Eylül 2007 öncesi üretim, N47'den önceki nesil) ve ZF 5 ileri kutusu listede zaten E46 330d gibi araçlarda kayıtlı. Zincir sesi geliyorsa ve daha önce hiç değişmemişse mutlaka değiştirilmeli; aksi hâlde kopup büyük motor hasarına yol açabiliyor.",

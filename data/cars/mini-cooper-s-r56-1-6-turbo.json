@@ -18,7 +18,7 @@
     600,
     950
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 46,
     "trans": 72,
@@ -29,8 +29,10 @@
     "liq": 56
   },
   "sources": [
+    "enginescope_ep6_thp",
     "tediousrepairs_mini_r56",
-    "teknikotomatik_aisin_6ileri"
+    "teknikotomatik_aisin_6ileri",
+    "trbox"
   ],
   "note": "Cooper S'in turbolu Prince motoru (THP versiyonu); aynı motor listede Peugeot/Citroën 1.6 THP araçlarında zaten kayıtlı ve triger zinciri uzaması ailenin en bilinen zaafı olarak orada da işaretli. Sürüş keyfi segmentinin en üstünde ama konfor ve işletme maliyeti bu yüzden geriliyor; turbo motorlu R56'larda zincir kontrolü Cooper'a göre daha kritik.",
   "provenance": {

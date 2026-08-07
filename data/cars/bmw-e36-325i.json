@@ -18,7 +18,7 @@
     350,
     550
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 58,
     "trans": 58,
@@ -29,8 +29,12 @@
     "liq": 32
   },
   "sources": [
+    "bavauto_zf4hp",
+    "bimmerfest_e46_4hp_reliability",
+    "bimmerforums_m52_nikasil",
     "donanimhaber_e39_520_bilgi",
-    "bimmerforums_m52_nikasil"
+    "enginedna_m52",
+    "torquecars_nikasil"
   ],
   "note": "E36'nın altı silindirli üst versiyonu; M52 motoru listede zaten E39 528i/523i'de kayıtlı aynı aileden (2.5 litre varyantı). Aracın yaşı artık çok ileri olduğu için pas, elektrik ve genel yıpranma riski yüksek; parça bulunabilirliği model bazında iyi ama usta deneyimi gerektiriyor.",
   "provenance": {

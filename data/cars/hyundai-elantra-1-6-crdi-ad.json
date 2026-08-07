@@ -30,8 +30,9 @@
     "liq": 74
   },
   "sources": [
-    "trbox",
-    "andcetin_dct_tucson"
+    "andcetin_dct_tucson",
+    "enginedna_d4fb",
+    "trbox"
   ],
   "note": "Eski MD kasadan farklı olarak bu nesil Elantra'da kuru kavramalı 7DCT kullanılıyor; elektrikli aktüatör sayesinde tamiri diğer kuru DCT'lere göre nispeten kolay ama yine de kuru kavrama riski taşıyor. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {

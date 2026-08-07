@@ -22,7 +22,7 @@
     450,
     650
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 74,
@@ -33,6 +33,8 @@
     "liq": 66
   },
   "sources": [
+    "elantraxd_forum_a4af3",
+    "engineexplained_g4ed",
     "go4trans_a4af3",
     "teknikotomatik_hyundai_6at"
   ],

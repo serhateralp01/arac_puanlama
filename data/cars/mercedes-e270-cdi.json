@@ -19,7 +19,7 @@
     430,
     650
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 82,
     "trans": 80,
@@ -30,6 +30,8 @@
     "liq": 48
   },
   "sources": [
+    "enginecrux_om612",
+    "minhsautocare_722_6",
     "om61x",
     "rust"
   ],

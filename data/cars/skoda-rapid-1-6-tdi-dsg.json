@@ -33,7 +33,8 @@
   },
   "sources": [
     "andcetin_dq200",
-    "torquecars_ea288_avoid_problems"
+    "torquecars_ea288_avoid_problems",
+    "trbox"
   ],
   "note": "Rapid'in dizel DSG kombinasyonu; bagaj hacmi sınıfının çok üzerinde, kuru DSG ise bilinen riski taşıyor.",
   "provenance": {

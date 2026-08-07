@@ -21,7 +21,7 @@
     900,
     1250
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 74,
@@ -32,8 +32,11 @@
     "liq": 82
   },
   "sources": [
+    "homeofengines_1zr",
+    "sikayetvar_corolla_genel",
+    "slashgear_toyota_cvt_reliability",
     "teknikotomatiksanziman_multidrive",
-    "sikayetvar_corolla_genel"
+    "trbox"
   ],
   "note": "Auris'in üst güç benzinlisi; ZR motoru (1.8 varyantı) ve Multidrive CVT listede zaten Avensis ve Corolla'da kayıtlı. CVT'nin kayış-kasnak aşınması ve tork konvertörü kayması ihmal edilen bakımda ortaya çıkıyor; yağının 60-80 bin km'de değiştirilmesi öneriliyor. Motor tarafında ciddi bir kronik arıza bildirilmemiş.",
   "provenance": {

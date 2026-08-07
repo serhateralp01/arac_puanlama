@@ -19,7 +19,7 @@
     780,
     1100
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 48,
     "trans": 74,
@@ -30,7 +30,12 @@
     "liq": 70
   },
   "sources": [
+    "absolutebm_n47_chain",
+    "alpincars_m47_vs_n47",
+    "atstservices_zf6hp",
     "e90n47",
+    "pistonheads_n47_chain",
+    "transmissionrepairguide_zf6hp26",
     "zf_5hp_6hp_bakim"
   ],
   "note": "Otomatiği sağlam ZF 6 ileri kutu ama motoru N47. Bu motorun triger zinciri motorun arka tarafında bulunuyor ve zincir arızası kronik bir sorun; tamiri için motorun indirilmesi gerekiyor ve fatura çok yükseliyor. En riskli üretim yılları 2007 ile 2009 arası. Çok bol bulunan ve ekonomik bir araç olsa da, 2011 sonrası ve zincir değişimi belgeli değilse almayın.",

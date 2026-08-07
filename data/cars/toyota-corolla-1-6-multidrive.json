@@ -33,8 +33,9 @@
     "liq": 94
   },
   "sources": [
-    "trbox",
-    "slashgear_toyota_cvt_reliability"
+    "homeofengines_1zr",
+    "slashgear_toyota_cvt_reliability",
+    "trbox"
   ],
   "note": "Türkiye'de en hızlı satılan otomatiklerden. Toyota'nın CVT kutusu dayanıklılık açısından sınıfının en iyileri arasında sayılıyor, motoru da neredeyse bozulmuyor. Sürüş keyfi düşük ve CVT'nin lastik hissi rahatsız edebiliyor, ama arıza istatistikleri ve ikinci el likiditesi listenin zirvesinde.",
   "provenance": {

@@ -21,7 +21,7 @@
     1150,
     1650
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 62,
@@ -32,6 +32,9 @@
     "liq": 78
   },
   "sources": [
+    "andcetin_dq200",
+    "kroniksorunlar_superb",
+    "oreateai_ea111_vs_ea211",
     "sikayetvar_tiguan_kronik",
     "teknikotomatik_dq200_dq250"
   ],

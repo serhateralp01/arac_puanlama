@@ -30,10 +30,11 @@
     "liq": 80
   },
   "sources": [
-    "m271",
-    "om61x",
     "carcomplaints_722_9_lawsuit",
-    "mercedesmedic_722_9"
+    "m271",
+    "mercedesassistance_m270",
+    "mercedesmedic_722_9",
+    "om61x"
   ],
   "note": "Otomatik vitesli premium bir araç arıyorsanız gövde ve konfor açısından mantıklı seçeneklerden biri, ama şanzıman tarafında dikkatli olun: bu araçta bulunan 7G-Tronic kutusuna (722.9) karşı ABD'de valf gövdesi ve kontrol kartı tasarım kusuru iddiasıyla toplu dava açıldı; arıza aracı 2. viteste sıkışmış halde bırakabiliyor. Arkadan itişli, oturaklı bir araç; yedek parçası ve ustası çok yaygın, kullanımı da kolay. 2009 sonrası M271 motorlar daha iyi durumda, yine de zincir geçmişini sorun.",
   "provenance": {

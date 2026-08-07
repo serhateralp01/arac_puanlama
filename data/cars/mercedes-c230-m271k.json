@@ -19,7 +19,7 @@
     470,
     700
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 52,
     "trans": 80,
@@ -31,7 +31,9 @@
   },
   "sources": [
     "mbclub_m271",
-    "mercedesmedic_722_6"
+    "mercedesassistance_m270",
+    "mercedesmedic_722_6",
+    "minhsautocare_722_6"
   ],
   "note": "189 beygirle çevik bir araç ve arkadan itiş keyfi var. Mercedes Benz Club Türkiye forumunda M271 triger zincir seti değişimi hâlâ güncel ve aktif bir başlık; bu, zincir riskinin teorik değil süregelen bir konu olduğunu gösteriyor. Zincir geçmişi belgeli değilse ciddi bir risk kalemi. Yedek parça bol, 5G-Tronic otomatiği kendisi sağlam.",
   "provenance": {

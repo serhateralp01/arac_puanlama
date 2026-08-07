@@ -22,7 +22,7 @@
     650,
     950
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 90,
     "trans": 86,
@@ -33,6 +33,8 @@
     "liq": 92
   },
   "sources": [
+    "hiver_corolla_e120_reliability",
+    "homeofengines_1zr",
     "motorbiscuit_corolla_boring",
     "sikayetvar_corolla_genel"
   ],

@@ -21,7 +21,7 @@
     950,
     1350
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 46,
@@ -32,8 +32,11 @@
     "liq": 76
   },
   "sources": [
+    "andcetin_dct_tucson",
+    "araclo_sportage_16crdi",
+    "enginedna_d4fb",
     "sikayetvar_kona_kronik",
-    "araclo_sportage_16crdi"
+    "trbox"
   ],
   "note": "Hyundai'nin küçük SUV'u; U2 1.6 CRDi motoru ve kuru 7DCT kutusu listede zaten Tucson/Sportage/i30'da kayıtlı aynı aileden, düşük risk. Kalkışta titreme ve partikül filtresi/egzoz sistemi uyarıları ailenin diğer üyelerinde de bildirilen aynı zayıf halka; Hyundai'nin geniş servis ağı işletme maliyeti puanını yukarı çekiyor.",
   "provenance": {

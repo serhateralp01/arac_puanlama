@@ -19,7 +19,7 @@
     500,
     750
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 80,
@@ -30,7 +30,10 @@
     "liq": 62
   },
   "sources": [
+    "bimmerfest_zf5hp19",
+    "engineexplained_ea113_agu",
     "techturkey_a4_b5_18t",
+    "transmissionrepairguide_zf5hp19",
     "zf_5hp_6hp_bakim"
   ],
   "note": "B8'den önceki, Multitronic derdi olmayan klasik bir A4; ZF Tiptronic otomatiği tork konvertörlü ve sağlam. Yaşı çok ilerlemiş durumda. Ön değerlendirme, batch aşamasında derinleştirilecek.",

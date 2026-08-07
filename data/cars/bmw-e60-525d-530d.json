@@ -19,7 +19,7 @@
     750,
     1080
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 76,
@@ -30,7 +30,11 @@
     "liq": 54
   },
   "sources": [
+    "atstservices_zf6hp",
+    "autoclassmagazine_m57_swirlflap",
+    "drivingline_m57_unkillable",
     "m57",
+    "transmissionrepairguide_zf6hp26",
     "tuv"
   ],
   "note": "E60 gövdesini M57 dizel motorun sağlamlığı ve torkuyla birleştiriyor; uzun yol için çok iyi bir araç. Otomatiği ZF 6 ileri kutu. Elektronik ve süspansiyon kalemleri yaşla birlikte masraf çıkarabiliyor, alım öncesi kapsamlı kontrol şart.",

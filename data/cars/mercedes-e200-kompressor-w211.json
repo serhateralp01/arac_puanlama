@@ -18,7 +18,7 @@
     480,
     720
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 64,
     "trans": 80,
@@ -29,8 +29,10 @@
     "liq": 50
   },
   "sources": [
+    "mercedesassistance_m270",
+    "mercedesmedic_722_6",
     "mhhauto_w211_e200_m271",
-    "mercedesmedic_722_6"
+    "minhsautocare_722_6"
   ],
   "note": "W211'in kompresörlü E-serisi girişi; M271 motoru listede zaten kayıtlı. Facelift öncesi 5G-Tronic kutuyla geliyor (facelift sonrası 7G-Tronic'e geçildi, bkz. E250 CDI kaydı). Genel olarak güvenilir ve konforlu bulunuyor ama yüksek yakıt tüketimi tekrarlayan bir şikayet.",
   "provenance": {

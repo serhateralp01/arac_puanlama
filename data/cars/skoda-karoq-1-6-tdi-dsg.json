@@ -21,7 +21,7 @@
     1150,
     1600
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 38,
@@ -32,8 +32,11 @@
     "liq": 68
   },
   "sources": [
+    "andcetin_dq200",
     "otopark_karoq_16tdi",
-    "teknikotomatik_dq200_dq250"
+    "teknikotomatik_dq200_dq250",
+    "torquecars_ea288_avoid_problems",
+    "trbox"
   ],
   "note": "Kompakt SUV segmentinde Karoq, EA288 1.6 TDI motoru ve kuru DQ200 DSG kutusuyla geliyor; ikisi de listede zaten kayıtlı. DQ200 düşük torklu dizel uygulamalarda görece iyi çalışıyor ama düşük hızda kickdown gecikmesi ve hafif sarsıntı bildirilmiş — bu, kutunun zaten kayıtlı zayıf notunu doğruluyor. Motor ve yakıt tüketimi tarafında ciddi bir şikayet bildirilmedi.",
   "provenance": {

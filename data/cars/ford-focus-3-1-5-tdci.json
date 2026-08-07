@@ -22,7 +22,7 @@
     820,
     1150
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 74,
     "trans": 58,
@@ -33,8 +33,13 @@
     "liq": 88
   },
   "sources": [
+    "autodoc_s60_problems",
+    "enginedna_duratorq_20",
+    "greencarcongress_powershift_torque",
+    "kugaownersclub_powershift_faults",
     "mondps",
-    "trbox"
+    "trbox",
+    "volvops"
   ],
   "note": "Türkiye'de ikinci elde en çok satan otomatiklerden biri. Benzinli Focus'un aksine bu dizel versiyonda kuru DPS6 kutusu değil, ıslak kavramalı 6DCT450 Powershift bulunuyor; Volvo ve Mondeo'da da kullanılan bu kutu çok daha dayanıklı ve düzenli yağ değişimiyle uzun ömürlü çalışıyor. Motoru ekonomik, gövdesi geniş, ikinci elde satması çok kolay. Sadece hangi kutunun takılı olduğunu ilanda mutlaka teyit edin.",
   "provenance": {

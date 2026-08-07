@@ -33,8 +33,9 @@
     "liq": 76
   },
   "sources": [
-    "uscarsnew_gamma_mpi_gdi",
-    "teknikotomatik_hyundai_6at"
+    "hyundaiforums_auto",
+    "teknikotomatik_hyundai_6at",
+    "uscarsnew_gamma_mpi_gdi"
   ],
   "note": "Dizel kardeşinin benzinli versiyonu. Bu motor Gamma ailesinin doğrudan enjeksiyonlu (GDI) sürümü; emme supaplarında karbon birikimi tipik bir doğrudan enjeksiyon sorunu olarak takip edilmeli. Daha önemlisi, bu GDI alt ailesinin aynı dönemin toplu dava konusu Theta II ve Nu GDI motorlarıyla aynı kök nedenli güvenilirlik riskini paylaştığı bildiriliyor; aynı gövdenin çok noktalı enjeksiyonlu (MPI) kardeşlerine göre belirgin biçimde daha temkinli değerlendirilmeli. Pratik ve dertsiz görünse de karakteri yok.",
   "provenance": {

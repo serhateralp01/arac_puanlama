@@ -22,7 +22,7 @@
     480,
     720
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 78,
@@ -33,8 +33,9 @@
     "liq": 48
   },
   "sources": [
-    "mondps",
     "fordwiki_awf21",
+    "mondps",
+    "reliability_autos_duratec_he",
     "whocanfixmycar_mondeo_whatcar"
   ],
   "note": "Turbosuz motoru ve Aisin yapımı tork konvertörlü otomatiğiyle sade ve sağlam bir kombinasyon. Ancak ağır gövdeye göre gücü yetersiz kalıyor ve yakıt tüketimi yüksek. Konforlu ve güvenilir ama hantal bir araç.",

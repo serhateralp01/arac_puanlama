@@ -19,7 +19,7 @@
     500,
     750
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 60,
     "trans": 80,
@@ -30,8 +30,10 @@
     "liq": 68
   },
   "sources": [
-    "om61x",
-    "mercedesmedic_722_6"
+    "apexautoparts_om646",
+    "mercedesmedic_722_6",
+    "minhsautocare_722_6",
+    "om61x"
   ],
   "note": "Sessiz çalışmasıyla bilinen 5G-Tronic otomatiği sağlam. Motor tarafında ise OM611 ailesinin bilinen zaafı geçerli: enjektör altı ateşe dayanıklı contalar zamanında değiştirilmezse enjektörler tıkanabiliyor. Bu, W203'ün ilk common rail dizel motoru; halefi OM646 aynı sorunu devraldı.",
   "provenance": {

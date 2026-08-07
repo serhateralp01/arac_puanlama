@@ -22,7 +22,7 @@
     550,
     800
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 70,
     "trans": 52,
@@ -33,9 +33,12 @@
     "liq": 80
   },
   "sources": [
-    "trbox",
+    "bigskies_k4m",
+    "go4trans_xtronic_diesel_chain",
+    "namuwiki_sm5",
+    "technicalparams_latitude",
     "technopat_clio_xtronic",
-    "namuwiki_sm5"
+    "trbox"
   ],
   "note": "Geniş, konforlu ve ucuz olmasıyla bilinen bir Türkiye klasiği. Ancak otomatiği X-Tronic CVT, yani Latitude ile aynı aileden ve yağ bakımı kritik. 110 beygirlik motoru da cansız kalıyor, bu yüzden alt sınırın altında olduğunu belirtiyorum. Konfor ve bütçe açısından mantıklı, keyif açısından değil.",
   "provenance": {

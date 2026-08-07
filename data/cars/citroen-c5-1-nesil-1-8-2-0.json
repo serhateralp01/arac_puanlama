@@ -30,8 +30,9 @@
     "liq": 50
   },
   "sources": [
-    "trbox",
-    "go4trans_dp0"
+    "enginecrux_xu10j2",
+    "go4trans_dp0",
+    "trbox"
   ],
   "note": "Hidropnömatik süspansiyonun ilk nesli. Otomatiği tork konvertörlü ama bu, güvenli olduğu anlamına gelmiyor: kutu PSA'nın AL4/DPO ailesinden ve selenoid valf arızası, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme bu ailenin yaygın şikayetleri. Süspansiyon bakımı ayrıca özel bilgi istiyor ve ustası her yerde bulunmuyor.",
   "provenance": {

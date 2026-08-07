@@ -22,7 +22,7 @@
     800,
     1150
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 38,
     "trans": 68,
@@ -34,6 +34,7 @@
   },
   "sources": [
     "ford",
+    "fordmasterx_ecoboost_wetbelt",
     "fordwiki_awf21",
     "whocanfixmycar_mondeo_whatcar"
   ],

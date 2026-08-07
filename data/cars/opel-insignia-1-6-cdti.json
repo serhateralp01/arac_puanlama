@@ -22,7 +22,7 @@
     700,
     1050
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 58,
     "trans": 72,
@@ -33,7 +33,10 @@
     "liq": 66
   },
   "sources": [
+    "asrgearbox_tf80",
+    "autodoc_astra_j_problems",
     "opel16",
+    "stargarage_a16dth_chain",
     "teknikotomatik_aisin_6ileri"
   ],
   "note": "Sessiz çalışmasıyla bilinen 1.6 dizel motorun ilk versiyonlarında zincir gergisi contasız üretildiği için, soğuk çalıştırmada zincir sesi ve zamanla zincir uzaması görülüyor; tamiri pahalı bir işlem. Sonradan düzeltildi. Aisin otomatiği sağlam olduğundan asıl bakılması gereken şey zincirin geçmişi.",

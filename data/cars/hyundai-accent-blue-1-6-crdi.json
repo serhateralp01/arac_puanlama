@@ -32,8 +32,9 @@
     "liq": 84
   },
   "sources": [
-    "trbox",
-    "andcetin_dct_tucson"
+    "andcetin_dct_tucson",
+    "enginedna_d4fb",
+    "trbox"
   ],
   "note": "Motoru ekonomik ve sağlam, araç da çok yaygın. Otomatiği Hyundai'nin kuru kavramalı 7 ileri çift kavrama kutusu; soğuk havada kalkışta titreme ve yoğun trafikte ısınma yaşanabiliyor, ancak elektrikli aktüatörler sayesinde tamiri diğer çift kavramalılara göre daha kolay. İşletme maliyeti çok düşük.",
   "provenance": {

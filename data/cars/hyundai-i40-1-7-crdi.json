@@ -22,7 +22,7 @@
     550,
     820
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 80,
@@ -33,6 +33,8 @@
     "liq": 58
   },
   "sources": [
+    "autozilla_d4fd",
+    "hyundaiforums_auto",
     "otomobildays_hyundai_i40",
     "teknikotomatik_hyundai_6at"
   ],

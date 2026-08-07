@@ -18,7 +18,7 @@
     1300,
     1850
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 62,
@@ -29,8 +29,11 @@
     "liq": 62
   },
   "sources": [
+    "andcetin_dq200",
+    "kroniksorunlar_superb",
     "sikayetvar_audi_q3",
-    "teknikotomatik_dq200_dq250"
+    "teknikotomatik_dq200_dq250",
+    "torquecars_ea288_avoid_problems"
   ],
   "note": "Q3'ün quattro (dört çeker) 2.0 TDI versiyonu; EA288 motoru ve ıslak DQ250 DSG kutusu listede zaten kayıtlı, dört çekişli aktarma organları nedeniyle işletme maliyeti önden çekişli emsallerine göre biraz daha yüksek. Panoramik cam su sızıntısı bildirilmiş; buna karşılık uzun süreli bir sahiplik deneyiminde aracın hiç arıza vermediği ve bakım maliyetinin düşük kaldığı da aktarılmış.",
   "provenance": {

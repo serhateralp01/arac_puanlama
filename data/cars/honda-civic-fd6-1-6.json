@@ -22,7 +22,7 @@
     600,
     880
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 90,
     "trans": 85,
@@ -34,7 +34,10 @@
   },
   "sources": [
     "civic",
-    "sikayetvar_honda_sanziman"
+    "engineexplained_l15a",
+    "hondatech_k24",
+    "sikayetvar_honda_sanziman",
+    "truedelta_accord"
   ],
   "note": "Türkiye ikinci el piyasasının en güvenilir araçlarından. 1.6 litrelik i-VTEC motoru neredeyse bozulmuyor, otomatiği ise 5 ileri tork konvertörlü kutu ve kullanıcılar bu kutunun son derece sağlam olduğunu söylüyor. Devir yükseldikçe motor canlanıyor, bu da sürüşü eğlenceli kılıyor. Eksileri sert arka süspansiyonu, zayıf ses yalıtımı ve fren hissi ile artık yaşlanmış gövdesi. İkinci elde satması çok kolay.",
   "provenance": {

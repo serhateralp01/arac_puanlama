@@ -19,7 +19,7 @@
     550,
     800
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 64,
     "trans": 42,
@@ -30,6 +30,8 @@
     "liq": 60
   },
   "sources": [
+    "carchecker_a6_27tdi",
+    "engineexplained_ea113_agu",
     "multi",
     "sikayetvar_a4_tfsi"
   ],

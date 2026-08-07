@@ -21,7 +21,7 @@
     380,
     580
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 56,
     "trans": 68,
@@ -32,6 +32,8 @@
     "liq": 52
   },
   "sources": [
+    "asrgearbox_tf80",
+    "autodoc_astra_j_problems",
     "kroniksorunlar_astra_17cdti",
     "teknikotomatik_aisin_6ileri"
   ],

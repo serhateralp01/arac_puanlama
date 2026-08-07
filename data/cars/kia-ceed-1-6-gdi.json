@@ -21,7 +21,7 @@
     600,
     900
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 46,
     "trans": 78,
@@ -32,8 +32,10 @@
     "liq": 60
   },
   "sources": [
+    "hyundaiforums_auto",
     "sikayetvar_kia_ceed_otomatik",
-    "teknikotomatik_hyundai_6at"
+    "teknikotomatik_hyundai_6at",
+    "uscarsnew_gamma_mpi_gdi"
   ],
   "note": "Ceed'in benzinli GDi versiyonu; Gamma GDI motoru listede zaten Hyundai i30 1.6 GDi'de kayıtlı (düşük puanlı, direkt enjeksiyona bağlı karbon birikimi riski var), Hyundai/Kia'nın 6 ileri tork konvertörlü kutusu ise ailenin en güvenilir bileşenlerinden. Dizel kardeşinde bildirilen enjektör şikayetleri bu motora uygulanmıyor, ama genel bakım geçmişi yine de kontrol edilmeli.",
   "provenance": {

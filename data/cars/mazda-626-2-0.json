@@ -22,7 +22,7 @@
     420,
     600
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 78,
     "trans": 42,
@@ -34,7 +34,10 @@
   },
   "sources": [
     "carproblemzoo_mazda626",
-    "motorverso_mazda_transmission"
+    "engineexplained_mazda_fs",
+    "motorverso_mazda_transmission",
+    "talkford_cd4e_reliability",
+    "wiki_ford_cd4e"
   ],
   "note": "Mazda 6'dan önceki nesil; motoru sağlam bir Japon motoru ama otomatiği bu aracın en zayıf noktası. Kutu, Ford ile ortak CD4E ve bir şikayet veritabanında Mazda 626 için 545 ayrı otomatik şanzıman arıza kaydı bulunuyor — bu, tekil bir anekdot değil sayılmış bir örüntü. Zamansız vites geçişleri ve gecikmeli kickdown en sık bildirilen belirtiler. Yaşı ilerlemiş, yedek parça ağı dar.",
   "provenance": {

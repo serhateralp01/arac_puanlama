@@ -21,7 +21,7 @@
     800,
     1150
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 62,
@@ -32,6 +32,9 @@
     "liq": 62
   },
   "sources": [
+    "andcetin_dq200",
+    "kroniksorunlar_superb",
+    "oreateai_ea111_vs_ea211",
     "sikayetvar_passat_tsi",
     "teknikotomatik_dq200_dq250"
   ],

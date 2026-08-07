@@ -22,7 +22,7 @@
     700,
     1000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 78,
     "trans": 88,
@@ -33,7 +33,10 @@
     "liq": 46
   },
   "sources": [
+    "engineexplained_d5244t",
+    "volvoclub_geartronic_reliability",
     "volvod",
+    "volvoforums_tf71sc_behavior",
     "volvops"
   ],
   "note": "Volvo'nun büyük sedanı; konforu bu listenin en iyilerinden. Sağlam dizel motoru ve Aisin Geartronic kutusunu kullanıyor. Daha az bulunuyor ve büyük gövdesi şehir içinde biraz yorabiliyor, ama uzun yol için çok rahat.",

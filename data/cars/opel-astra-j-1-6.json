@@ -22,7 +22,7 @@
     600,
     880
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 74,
     "trans": 74,
@@ -33,7 +33,9 @@
     "liq": 68
   },
   "sources": [
+    "asrgearbox_tf80",
     "autodoc_astra_j_problems",
+    "gmauthority_family1_phaser",
     "teknikotomatik_aisin_6ileri"
   ],
   "note": "Sade ve dayanıklı bir benzinli motorla 6 ileri tork konvertörlü otomatiği bir araya getiriyor; şanzıman tarafında sürpriz yok. Yedek parçası ucuz ve bol. Motor gücü mütevazı, sürüş keyfi sınırlı ama güvenilir bir günlük araç.",

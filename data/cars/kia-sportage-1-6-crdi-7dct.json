@@ -18,7 +18,7 @@
     1000,
     1450
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 46,
@@ -29,8 +29,11 @@
     "liq": 78
   },
   "sources": [
+    "andcetin_dct_tucson",
     "araclo_sportage_16crdi",
-    "sikayetvar_kona_kronik"
+    "enginedna_d4fb",
+    "sikayetvar_kona_kronik",
+    "trbox"
   ],
   "note": "Üçüncü nesil (QL) Sportage'ın Tucson ile paylaştığı motor/şanzıman kombinasyonu; ikisi de listede zaten kayıtlı, kuru 7DCT ailenin bilinen zayıf halkası. Kalkışta ve rampada titreme en sık bildirilen şikayet; bazı 2022 model araçlarda yağ eksiltme sorunu da rapor edilmiş. Hyundai/Kia'nın Türkiye'deki geniş servis ağı işletme maliyeti ve bulunabilirlik puanlarını yukarı çekiyor.",
   "provenance": {

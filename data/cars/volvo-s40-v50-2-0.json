@@ -33,8 +33,9 @@
     "liq": 50
   },
   "sources": [
+    "eeuroparts_volvo_aw55_servo",
     "volvops",
-    "eeuroparts_volvo_aw55_servo"
+    "youcanic_opel_aw55"
   ],
   "note": "Volvo'nun küçük sedan ve station wagon ikilisi. Otomatiği Aisin tork konvertörlü kutu, yani Powershift riski taşımıyor — ama bu, güvenli olduğu anlamına gelmiyor: kutu eski nesil AW55 ve bu kutuda 50.000 milin altında garanti kapsamına giren arızalar yaygınlaşmış, yapısal bir kusur taşıdığı anlaşılmış. Volvo'nun daha yeni ve gerçekten güvenilir Geartronic'iyle karıştırılmamalı. Güvenlik donanımı iyi, kabin kalitesi yüksek. Yedek parça ağı Alman markaları kadar geniş değil.",
   "provenance": {

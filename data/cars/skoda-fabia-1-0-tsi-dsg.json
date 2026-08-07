@@ -32,7 +32,8 @@
   },
   "sources": [
     "andcetin_dq200",
-    "oreateai_ea111_vs_ea211"
+    "oreateai_ea111_vs_ea211",
+    "trbox"
   ],
   "note": "Fabia III'ün üç silindirli 1.0 TSI'ı; EA211 ailesinden, DQ200 kuru DSG ile eşleşiyor.",
   "provenance": {

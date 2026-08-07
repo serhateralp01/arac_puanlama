@@ -22,7 +22,7 @@
     700,
     1000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 70,
@@ -33,8 +33,12 @@
     "liq": 70
   },
   "sources": [
-    "vwforumtr_passat_b7_kronik",
-    "teknikotomatik_dq200_dq250"
+    "andcetin_dq200",
+    "carchecker_golf6_16tdi",
+    "enginefinders_20tdi_ea189",
+    "kroniksorunlar_superb",
+    "teknikotomatik_dq200_dq250",
+    "vwforumtr_passat_b7_kronik"
   ],
   "note": "Common rail dizel motoru makul, otomatiği ise ıslak kavramalı DQ250. Bu kombinasyon VAG grubunun otomatikleri arasında güvenli tarafta kalıyor. Çok geniş, konforlu ve uzun yol için ideal bir araç.",
   "provenance": {

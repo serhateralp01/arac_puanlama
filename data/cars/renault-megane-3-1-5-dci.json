@@ -22,7 +22,7 @@
     750,
     1050
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 66,
     "trans": 58,
@@ -33,9 +33,11 @@
     "liq": 76
   },
   "sources": [
-    "trbox",
+    "cararac_k9k",
+    "otopark_sanziman_rehberi",
+    "renaultfanclub_edc",
     "sikayetvar_megane_edc",
-    "otopark_sanziman_rehberi"
+    "trbox"
   ],
   "note": "1.5 dCi motoru çok ekonomik ve yaygın. Otomatiği EDC çift kavramalı kutu; kuru kavramalıların arasında orta seviyede duruyor, yağ bakımı ve yazılım güncellemesi önemli. Yedek parça ve servis ağı Türkiye'de çok güçlü.",
   "provenance": {

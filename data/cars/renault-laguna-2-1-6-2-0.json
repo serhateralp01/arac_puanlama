@@ -33,8 +33,9 @@
     "liq": 60
   },
   "sources": [
-    "trbox",
-    "go4trans_dp0"
+    "bigskies_k4m",
+    "go4trans_dp0",
+    "trbox"
   ],
   "note": "Geniş ve konforlu bir D segment sedan. Otomatiği PSA ile ortak AL4/DPO kutusu ve selenoid valf arızası ile aşırı ısınma bu ailenin bilinen sorunları. Yaşı nedeniyle elektronik aksam (o dönem Renault'un bilinen zayıf noktası) ayrıca kontrol edilmeli.",
   "provenance": {

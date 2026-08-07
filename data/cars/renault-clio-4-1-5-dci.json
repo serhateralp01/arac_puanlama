@@ -22,7 +22,7 @@
     500,
     750
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 44,
@@ -33,7 +33,10 @@
     "liq": 86
   },
   "sources": [
+    "cararac_k9k",
     "otopark_sanziman_rehberi",
+    "renaultfanclub_edc",
+    "sikayetvar_megane_edc",
     "technopat_clio_xtronic"
   ],
   "note": "Renault Fan Club forumuna göre Clio 4'ün 1.2 TCe ve 1.5 dCi versiyonlarında 6 ileri KURU tip EDC kullanıldı; sonraki Clio 5 nesli benzinlilerde X-Tronic CVT'ye, 1.3 TCe'de ise ıslak EDC'ye geçti. Yani Clio 4'ü alırken şanzıman en riskli (kuru, eski nesil) versiyonla karşılaşıyorsunuz. 90 beygirlik taban motor listenin alt sınırında.",

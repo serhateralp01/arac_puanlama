@@ -21,7 +21,7 @@
     900,
     1350
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 46,
     "trans": 62,
@@ -32,6 +32,9 @@
     "liq": 64
   },
   "sources": [
+    "andcetin_dq200",
+    "enginescope_ea888_gen",
+    "kroniksorunlar_superb",
     "sikayetvar_passat_tsi",
     "teknikotomatik_dq200_dq250"
   ],

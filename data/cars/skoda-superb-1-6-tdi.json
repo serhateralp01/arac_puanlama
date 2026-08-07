@@ -33,8 +33,9 @@
     "liq": 78
   },
   "sources": [
-    "trbox",
-    "andcetin_dq200"
+    "andcetin_dq200",
+    "torquecars_ea288_avoid_problems",
+    "trbox"
   ],
   "note": "İç hacmi ve bagajı sınıfının çok üzerinde, yakıt tüketimi de düşük. Fakat 1.6 dizel versiyonun otomatiği kuru kavramalı DQ200 kutusu. Aynı gövdenin 2.0 TDI versiyonu ıslak DQ250 kullanıyor ve şanzıman tarafında çok daha rahat bir tercih oluyor.",
   "provenance": {
