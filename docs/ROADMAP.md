@@ -16,7 +16,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 
 ---
 
-## Durum özeti (son güncelleme: 2026-08-06)
+## Durum özeti (son güncelleme: 2026-08-07)
 
 | Katman | Durum |
 |---|---|
@@ -31,7 +31,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
 | Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; her araç hem motor hem şanzıman tarafından kaynaklı, ortalama 2.2 |
-| Araç listesi (Y-01) | 154 → 228 araç. **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)** |
+| Araç listesi (Y-01) | 154 → 245 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor, 80-90 kombinasyon hedefinin bir kısmı karşılandı, sürüyor |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
@@ -237,7 +237,68 @@ yakıtlı modelleri (varsa), Mercedes W205 (yeni `M274` motor ailesi gerekiyor),
 Yaris (motor kodu doğrulanmalı) ve Dacia Sandero/Logan gibi Easy-R'li modeller
 (yeni "Robot" tipi bileşen ailesi gerekiyor) araştırılmayı bekleyen somut adaylar.
 
-Y-01'in kendisi tamamlandı sayılıyor; odak artık **Y-02'ye** kayıyor (aşağıda).
+Y-01'in üç hedefi karşılandığı için o tarihte tamamlandı sayıldı ve odak Y-02'ye
+kaydı. Aşağıdaki "Y-01 · İkinci dalga" bölümü, Y-01'in daha sonra farklı bir sebeple
+— kapsam genişliği değil kapsam **derinliği** — yeniden açıldığını anlatıyor.
+
+---
+
+## Y-01 · İkinci dalga: 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliği — **sürüyor**
+
+**Neden yeniden açıldı.** Kullanıcı listeyi inceleyip şu tespiti yaptı: *"bu en
+popüler arabaların nerdeyse hiçbir motor seçeneğini göremiyorum???? ... araç
+modelleri hep yukarı fiyat yönlü genişletilmiş. 300-900 bin arası modeller en az
+80-90 marka-model-motor-şanzıman kombinasyonu eklenmeli."* Birinci dalga (yukarıdaki
+Y-01) SUV sayısı, marka sayısı ve 2016 sonrası araç sayısı gibi **genişlik**
+hedeflerini karşılamıştı, ama aynı modelin farklı motor/şanzıman kombinasyonlarını
+kapsayan **derinlik** boyutunu hedeflememişti. Bu ikinci dalga onu düzeltiyor.
+
+Aynı istekte iki ek karar de netleşti: (1) `fun`/`comf`/`cost` kriterleri için
+GitHub'da bulunan bir teknik özellik veri setinin (ağırlık, tork, yakıt tüketimi)
+kullanılması — lisans durumu araştırılıp MK-15 olarak kayda geçti; (2) filtre
+seçeneklerinin (yıl, beygir, fiyat) hem sayı girişiyle hem sürüklemeli aralık
+kaydırıcılarıyla genişletilmesi.
+
+**Yedinci tur — 12 araç, spec veri setiyle eşleştirme.** `ilyasozkurt/automobile-
+models-and-specs` (autoevolution kaynaklı, LICENSE dosyası yok) referans olarak
+kullanıldı; marka + beygir + hacim (±0.05L) + yıl aralığı örtüşmesi + model adı
+eşleşmesiyle 134 araca `kerb_weight_kg`/`torque_nm`/`fuel_consumption_l_100km`
+işlendi, eşleşmeyen 106 araç boş bırakıldı (tahmin yürütülmedi). Aynı turda 12 yeni
+araç eklendi: Opel Corsa D, Opel Astra J CDTI, Ford Fiesta PowerShift, Peugeot 301,
+Citroën C3 PureTech-EAT6, Citroën C-Elysée, Skoda Fabia 1.0 TSI DSG, Skoda Rapid TDI
+DSG, Seat Ibiza 1.0 TSI DSG, VW Polo 5 1.4 DSG, Hyundai i20 1.4 Otomatik, Fiat Egea
+1.4 Robotlu. `templates/app/30-filtreler.js` içine yıl/beygir/fiyat için çift
+kaydırıcılı (dual-range) aralık filtreleri eklendi; eski beygir/bütçe "kova" (bucket)
+filtreleri bunlarla örtüştüğü için kaldırıldı.
+
+**Sekizinci tur (2026-08-07) — 5 araç, gerçekten yeni bileşen aileleri.** Yedinci
+turun aday listesindeki bazı araçlar mevcut motor/şanzıman ailelerine zorla
+bağlanamadığı için boş geçilmişti. Kullanıcı bunun üzerine *"tamam yeni motor
+ailelerine açıl abi! ... sen güzelce eşleştire eşleştire git. hepsini otomatik
+yaptığından emin ol"* dedi — yani reddedilen adaylar için doğru aileyi araştırıp
+açmak, var olan bir aileye yanlış eşlemektense. Bu turda 4 yeni motor ailesi
+(`toyota-1nr-fe`, `nissan-hr12de`, `honda-l13z`, `kia-kappa-12`) ve 2 yeni şanzıman
+ailesi (`honda-cvt-earthdreams`, `hyundai-a4cf`) açıldı, 5 araç eklendi: Toyota Yaris
+1.33 Multidrive, Nissan Micra 1.2 CVT, Honda Jazz 1.3 CVT, Kia Picanto 1.2 Otomatik,
+Dacia Duster 1.5 dCi EDC (2. nesil). `nissan-hr12de` ailesi bilinçli olarak yalnızca
+atmosferik "HR12DE" kodunu kapsıyor; kompresörlü "HR12DDT (DIG-S)" farklı bir arıza
+profiline sahip olabileceği için aileye dahil edilmedi. Duster'ın motor ve şanzıman
+kombinasyonu araştırılırken aynı kombinasyonun `renault-clio-4-1-2-tce.json`'da
+zaten kayıtlı olduğu fark edilip mükerrer kayıt önlendi. Beş aracın da şanzımanı
+gerçekten otomatik (üçü CVT, biri kuru DCT, biri tork konvertörlü klasik otomatik);
+her biri için `evidence.motor`/`evidence.trans` bağlı ailenin temel puanından
+mekanik olarak türetildi. Araç sayısı 240 → 245.
+
+**Sonuç (iki turun toplamı).** Araç sayısı 228 → 245 (17 yeni araç), motor ailesi
+sayısı ve şanzıman kutusu sayısı arttı. `validate.py` her turdan sonra 0 hata ile
+tamamlandı, `smoke_test.js` 49/49 kontrolü geçiyor.
+
+**Kalan iş — hedeften uzak.** Kullanıcının koyduğu 80-90 kombinasyon hedefinin
+yalnızca beşte biri kadarı karşılandı. Renault Symbol/Thalia (1.6L 16V 4AT, kutu
+tedarikçisi doğrulanamadı) ve Renault Fluence (CVT, tedarikçi doğrulanamadı) hâlâ
+araştırılmayı bekliyor; `/tmp` önbelleğindeki 550 satırlık aday listesinden (bkz.
+oturum notları) daha fazla bütçe segmenti adayı (300-900 bin TL) taranmadan kaldı.
+Sıradaki tur bu adaylardan devam etmeli.
 
 ---
 
