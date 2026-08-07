@@ -3417,5 +3417,20 @@
       "engine": "web_search",
       "found_at": "2026-08-07"
     }
+  },
+  "mbworld_c220_om651_issue": {
+    "id": "mbworld_c220_om651_issue",
+    "claim": "MBWorld.org forumundaki \"C220 om651 issue\" başlığında ve gaga.ba'nın W204 C220 CDI güvenilirlik yazısında, erken OM651 motorlarda enjektör arızalarının ve triger zinciri/gergi sorunlarının C220 CDI'nin en sık bildirilen arıza kalemleri olduğu, bunların motorun listede zaten kayıtlı temel profiliyle örtüştüğü aktarılıyor.",
+    "publisher": "MBWorld.org Forums",
+    "url": "https://mbworld.org/forums/c-class-w204/686508-c220-om651-issue.html",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-07",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-07"
+    }
   }
 }

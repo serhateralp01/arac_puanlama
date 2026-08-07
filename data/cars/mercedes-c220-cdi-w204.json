@@ -30,7 +30,8 @@
   },
   "sources": [
     "sikayetvar_mercedes_bakim_sanziman",
-    "eklasseforum_om651_injektor"
+    "eklasseforum_om651_injektor",
+    "mbworld_c220_om651_issue"
   ],
   "note": "W204'ün orta güç dizeli; OM651 motoru listede zaten C200 CDI ve E250 CDI'de kayıtlı (düşük puanlı, bilinen enjektör/yüksek basınç pompası riskleri var), 5G-Tronic kutusu ise ailenin en sağlam bileşenlerinden. C250 CDI'ye göre daha düşük güçlü, fiyat/performans dengesi daha iyi.",
   "provenance": {
@@ -43,7 +44,8 @@
       "confidence": "orta",
       "sources": [
         "sikayetvar_mercedes_bakim_sanziman",
-        "eklasseforum_om651_injektor"
+        "eklasseforum_om651_injektor",
+        "mbworld_c220_om651_issue"
       ],
       "reasoning": "OM651 (mb-om651) motor ailesinin temel puanı 46. Bu aracın motor puanı (46) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger zincirinin hızla uzayıp karakteristik tıkırtı sesi çıkarması; gergi arızası felaket boyutunda motor hasarına yol açabiliyor. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor: En az bir kaynak, düşük-orta kilometrede ortaya çıkan ve motoru ağır onarıma götüren bilinen bir tasarım hatasını doğruluyor (ör. arka triger zinciri).",
       "assessed_at": "2026-08-06"
@@ -53,7 +55,8 @@
       "confidence": "orta",
       "sources": [
         "sikayetvar_mercedes_bakim_sanziman",
-        "eklasseforum_om651_injektor"
+        "eklasseforum_om651_injektor",
+        "mbworld_c220_om651_issue"
       ],
       "reasoning": "5G-Tronic (mb-5g-tronic) şanzıman ailesinin temel puanı 80. Bu aracın trans puanı (80) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
       "assessed_at": "2026-08-06"

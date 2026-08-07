@@ -312,3 +312,49 @@ erişilemiyor) gerekiyor. Ağ erişimi bu ortamda kısıtlı olduğu sürece kap
 pratik değil; kullanıcı sahibinden.com/arabam.com'a veya forumlara doğrudan erişimi
 olan bir ortamda (yerel makine, farklı ağ politikası) daha geniş bir tur istiyorsa bu
 madde yeniden açılıp genişletilebilir.
+
+---
+
+## D-13 · Y-02 üçüncü kaynak turu: iki eklendi, ikisi bilinçli olarak eklenmedi (AÇIK)
+
+Kullanıcının "puanları değiştirmeye neden olabilecek ya da şu anki puanları
+doğrulayacak araştırmalar yapmaya devam" isteği üzerine, iki kaynaklı 193 araçtan
+küçük bir örneklem (BMW E46 320d, Audi A4 B8 2.0 TDI, VW Golf 7 GTI, Mercedes C220
+CDI W204) üçüncü/dördüncü kaynak için araştırıldı. Sonuç dört örnekten yalnızca
+birinde net bir kazanç oldu; bu madde bunun neden böyle olduğunu ve neyin
+eklenmediğini kayıt altına alıyor.
+
+**Eklenen:** `mercedes-c220-cdi-w204` için `mbworld_c220_om651_issue` (MBWorld.org
+forumu, C220/OM651'e özgü bir başlık). Kaynak, motor ailesinin (`mb-om651`) zaten
+kayıtlı enjektör/triger zinciri profiliyle tam örtüşüyor — çelişki yok, doğrulama var.
+
+**Eklenmeyen — ve neden.** İkisi de "bulundu ama kullanılmadı" örneği, çünkü
+kullanılsalar veriye yanlış bir iddia sızdırabilirlerdi:
+
+- **Audi A4 B8 2.0 TDI:** Bulunan bir kaynak (DonanımHaber özetleri üzerinden) bu
+  aracın Multitronic (CVT) kutusunu "çift kavramalı şanzıman türü" diye tarif etti.
+  Bu yanlış — aracın kendi kaydı (`transmission_id: vag-multitronic`,
+  `transmission_type: CVT`) ve `data/transmissions.json`'daki `vag-multitronic` kaydı
+  doğru; kaynak muhtemelen farklı Audi A4 nesillerine ait genel "şanzıman sorunları"
+  içeriğini birbirine karıştırıyor. Bu kaynak kullanılmadı.
+- **BMW E46 320d:** Bulunan forum başlıkları ("320d Triger Zinciri Sorunu" gibi)
+  hangi kasa/motor kodundan (E46'nın M47'si mi, E90'ın N47'si mi) bahsettiğini
+  başlıktan belli etmiyordu; iki motor da listede zaten ayrı ailelerle kayıtlı ve
+  çok farklı temel puana sahip (M47: 64, N47: 38 — bkz. `docs/ARCHITECTURE.md`
+  MK-08). Hangisinden bahsedildiği doğrulanamadan bu kaynağı M47'ye bağlamak, tam da
+  MK-08'in uyardığı nesil karıştırma hatasını üretirdi. Kaynak kullanılmadı.
+- **VW Golf 7 GTI:** Bulunan sonuç DQ200/DQ250/DQ381'i (üçü de farklı kutular, farklı
+  temel puanlar) tek bir genel "DSG sorunları" anlatısında birleştiriyordu; GTI'nin
+  kendi kutusuna (`vag-dq250`, ıslak) özgü bir iddia ayrıştırılamadı. Kaynak
+  kullanılmadı.
+
+**Genel ders.** WebSearch'ün döndürdüğü özetler bazen birden fazla model nesli veya
+bileşen varyantını tek bir anlatıda birleştiriyor; bu, tam olarak
+`docs/ARCHITECTURE.md` MK-08'in "aynı motorun her araçta yeniden değerlendirilmesi"
+riskiyle aynı aile, farklı yön — burada risk yanlış aileyi doğru aileymiş gibi
+beslemek. Kural aynı kaldı: kaynağın hangi bileşene ait olduğu net değilse, kaynak
+kullanılmaz; belirsizlik bir veri kaybı değil, veri kirliliğine karşı bir korumadır.
+
+**Açık kalma gerekçesi.** İki kaynaklı 193 aracın yalnızca 4'ü örneklendi, 1'inde
+kazanç oldu. Bu madde, Y-02'nin uzun vadeli hedefi (ortalama kaynak sayısını 4'e
+çıkarmak) sürdükçe yeni bulgularla güncellenmeye devam edecek.
