@@ -202,6 +202,32 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .filterpanel .fgroup:last-child{margin-bottom:0}
 .kritpanel .lede{margin-bottom:14px}
 .kritpanel .note{margin-top:14px}
+/* Sekiz kriter kartı tek satırda yan yana durmalı, yatay kaydırmaya gerek
+   kalmadan; bunun için genel .grid'in esnek (auto-fill) sütun sayısı burada
+   sabit sekize zorlanıyor ve kart içeriği bu dara sığacak kadar küçültülüyor.
+   Dar ekranlarda (tablet/telefon) sekiz dar sütun okunmaz hale geldiği için
+   medya sorgularıyla sütun sayısı kademeli düşürülüyor. */
+.kritpanel #rubric{grid-template-columns:repeat(8,1fr);gap:8px}
+@media(max-width:1100px){.kritpanel #rubric{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:640px){.kritpanel #rubric{grid-template-columns:repeat(2,1fr)}}
+.kritpanel .card{padding:10px}
+.kritpanel .card .t{font-size:11px;margin-bottom:6px;line-height:1.2}
+.kritpanel .card .nb{font-size:7px;top:8px;right:9px}
+.kritpanel .wbox{gap:4px}
+.kritpanel .wbox input{width:40px;font-size:15px;padding:3px 0}
+.kritpanel .wbox small{font-size:7.5px}
+.kritpanel .contrib{font-size:9px}
+.kritpanel .card .def{font-size:9.5px;margin-top:6px;line-height:1.4}
+.kritpanel .card .inc{font-size:8.8px;margin-top:6px}
+.kritpanel .card .exc{font-size:8.8px;margin-top:3px}
+.kritpanel .card .wr{font-size:8.8px;margin-top:7px;padding-top:6px}
+.kritpanel .banddet{font-size:9px;margin-top:7px}
+.kritpanel .banddet summary{font-size:8.5px}
+.kritpanel .bandrow{padding:5px 0;gap:6px}
+.kritpanel .brange{flex:0 0 32px;font-size:9.5px}
+.kritpanel .bmid b{font-size:9.5px}
+.kritpanel .bmid span{font-size:9px}
+.kritpanel .bex,.kritpanel .bnote{font-size:8.5px}
 @media(max-width:640px){.ctrlbar .count{margin-left:0;text-align:left;width:100%}}
 .legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
 .legend .sw{display:inline-block;width:13px;height:10px;border-radius:3px;vertical-align:middle;margin-right:5px}
@@ -394,35 +420,35 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
     </div>
 
     <div class="opanel on" data-step="1">
-      <h2>Türkiye'de araç almanın asıl zorluğu bilgi eksikliği değil</h2>
+      <h2>Türkiye'de araç alırken zor olan, bilginin kaynağını görebilmek</h2>
       <p>Hangi motorun kaç kilometrede hangi arızayı verdiğini, hangi şanzımanın gerçekten dert çıkardığını
       birileri biliyor — sanayideki ustalar, teknik servisler, uzun yıllardır o markayla uğraşan
       esnaf. Bu bilgi gerçek ve doğru olabilir, ama alıcıya çoğu zaman elenmiş, çıkarına göre
       şekillenmiş ya da hiç ulaşmamış halde gelir. Aracı almadan önce siz bir tek satışçının,
       bir tek ekspertizcinin sözüne güvenmek zorunda kalırsınız; oysa o sözün arkasında hangi
       kanıt olduğunu göremezsiniz.</p>
-      <p>Bu site, işte tam olarak o görünmeyeni görünür kılmak için var.</p>
+      <p>Bu site, o görünmeyen kanıtı görünür kılmak için var.</p>
     </div>
 
     <div class="opanel" data-step="2">
-      <h2>Puan bir görüş değil, kayıtlı kanıttır</h2>
+      <h2>Her puan kayıtlı bir kanıta dayanıyor</h2>
       <p>Her motor ve şanzıman kombinasyonu, teknik bilgisi yüksek ve arabalarla gerçekten
       ilgilenen insanların deneyimi kayıtlı kaynaklarla (teknik servis kayıtları, üretici
       bültenleri, bağımsız güvenilirlik anketleri, sayılmış kullanıcı şikayetleri) birleştirilerek
       puanlanıyor. Bir puanın nereden geldiğini her zaman görebilirsiniz; kaynak yoksa araç
       "kaynaksız" olarak işaretlenir, kaynak uydurulmaz.</p>
-      <p>Bu, elektronik tablo hevesiyle değil, gerçekten arabalara ve veriye meraklı birinin
-      elinden çıktı — amaç bu merakı, aracını gerçekten anlamak isteyen herkesle paylaşmak.</p>
+      <p>Bu siteyi arabalara ve veriye gerçekten meraklı biri kurdu; amaç bu merakı, aracını
+      gerçekten anlamak isteyen herkesle paylaşmak.</p>
     </div>
 
     <div class="opanel" data-step="3">
-      <h2>Bu bir satış platformu değil</h2>
+      <h2>Karşılaştırma platformuyuz</h2>
       <p>Hiçbir araç satmıyoruz, hiçbir galeriyle veya markayla iş birliğimiz yok, komisyon
-      almıyoruz. Amacımız kararı sizin yerinize vermek değil, kararı sağlam bir zeminde
-      vermenizi sağlamak. Motor güveni, şanzıman sağlamlığı, sürüş keyfi, günlük kullanım,
-      yaş riski, sahip olma maliyeti ve bulunabilirlik olmak üzere yedi kriter üzerinden
-      istediğiniz aracı karşılaştırabilir, kriterlerin ağırlığını kendi önceliklerinize göre
-      değiştirebilir, en fazla dört aracı yan yana kıyaslayabilirsiniz.</p>
+      almıyoruz. Amacımız, kararı sağlam bir zeminde vermenizi sağlamak. Motor güveni, şanzıman
+      sağlamlığı, sürüş keyfi, günlük kullanım, yaş riski, sahip olma maliyeti ve bulunabilirlik
+      olmak üzere yedi kriter üzerinden istediğiniz aracı karşılaştırabilir, kriterlerin
+      ağırlığını kendi önceliklerinize göre değiştirebilir, en fazla dört aracı yan yana
+      kıyaslayabilirsiniz.</p>
       <div class="onext"><button class="btn" id="oenter">Araç listesine geç</button></div>
     </div>
 
@@ -456,7 +482,7 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 
     <div class="anacard anacard-wide">
       <h3>Hangi motor ve şanzıman beni yakar</h3>
-      <p>Kullanıcının asıl aradığı bilgi genelde bu: hangi bileşen listede en düşük temel puana sahip. Bu puanlar araç bazında değil, motor ailesi veya şanzıman kutusu bazında araştırılıyor; aynı bileşeni paylaşan her araca aynı şekilde uygulanıyor. Ayrıntı için <a href="#metodoloji">nasıl puanladığımızı</a> okuyun.</p>
+      <p>Kullanıcının asıl aradığı bilgi genelde bu: hangi bileşen listede en düşük temel puana sahip. Bu puanlar motor ailesi veya şanzıman kutusu düzeyinde araştırılıyor ve aynı bileşeni paylaşan her araca aynı şekilde uygulanıyor. Ayrıntı için <a href="#metodoloji">nasıl puanladığımızı</a> okuyun.</p>
       <div class="anarisk-grid">
         <div>
           <h4>En riskli motor aileleri</h4>
@@ -506,7 +532,7 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
     <div class="filterpanel kritpanel" id="kritpanel">
       <p class="lede">Bir araç yedi kriter üzerinden puanlanıyor, fiyat ise sekizinci kriter olarak listenin tamamına göre otomatik hesaplanıyor. Aşağıdaki kutulara yazarak her kriterin toplam puandaki ağırlığını kendiniz belirleyebilirsiniz; beğendiğiniz ayarı kaydedip daha sonra tekrar yükleyebilirsiniz. Puanların kendisini buradan değiştiremezsiniz, çünkü puanlar kayıtlı kanıta dayanıyor ve yalnızca gerekçesiyle birlikte veri dosyalarından değişiyor.</p>
       <div class="grid" id="rubric"></div>
-      <div class="note">Kriterler birbiriyle örtüşmeyecek şekilde tanımlandı. Motor güveni yalnızca motorun arıza riskini ölçer, performansı değil; performans sürüş keyfi sütununa yazılır. Bir aracın ne sıklıkla bozulduğu ile bozulduğunda ne kadara mal olduğu da ayrı konulardır. Her kartın altındaki iki cümle bu sınırları gösterir.</div>
+      <div class="note">Kriterler birbiriyle örtüşmeyecek şekilde tanımlandı. Motor güveni yalnızca motorun arıza riskini ölçer; performans sürüş keyfi sütununa yazılır. Bir aracın ne sıklıkla bozulduğu ile bozulduğunda ne kadara mal olduğu da ayrı konulardır. Her kartın altındaki iki cümle bu sınırları gösterir.</div>
     </div>
   </div>
 
@@ -539,7 +565,7 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 <section class="screen" data-screen="metodoloji">
   <div class="screenhead">
     <h2>Nasıl Puanlıyoruz</h2>
-    <p class="lede">Bu sayfa, toplam puanın hangi hesaptan çıktığını ve bir puanın arkasında hangi kanıt kuralının durduğunu anlatıyor. Amaç aynı kanıtın her zaman aynı puanı üretmesi; bir puan bir hisse değil, kayıtlı bir kararın sonucu.</p>
+    <p class="lede">Bu sayfa, toplam puanın hangi hesaptan çıktığını ve bir puanın arkasında hangi kanıt kuralının durduğunu anlatıyor. Amaç, aynı kanıtın her zaman aynı puanı üretmesidir: her puan kayıtlı bir kararın sonucudur ve bu kararın gerekçesi izlenebilir.</p>
   </div>
 
   <div id="methStats" class="methstats"></div>
@@ -555,8 +581,8 @@ fiyat = 100 × (en_pahalı − aracın_fiyatı) / (en_pahalı − en_ucuz)</pre>
     </div>
 
     <div class="methcard">
-      <h3>2. Puan bir hisse değil, çapalı bir banda bağlı</h3>
-      <p>Her kriter için "şu kanıt varsa puan şu aralıkta olur" biçiminde yazılı bir bant tanımı var. Örneğin şanzıman kriterinde "85-100: iki bağımsız kaynakta kronik arıza kaydı yok" ya da "35-49: en az bir kaynak, düşük-orta kilometrede kavrama veya mekatronik arızası doğruluyor" gibi. Her bandın listede gerçek bir araca çapalanmış bir örneği var; yeni bir araç puanlanırken sorulan soru "kaç puan hak ediyor" değil, "çapa araçtan iyi mi kötü mü" oluyor. Bu yöntemin literatürdeki adı <i>behaviorally anchored rating scale</i>: insan yargısı, mutlak bir sayı üretirken değil karşılaştırma yaparken çok daha tutarlı çalışıyor.</p>
+      <h3>2. Her puan yazılı bir bant tanımına bağlanıyor</h3>
+      <p>Her kriter için "şu kanıt varsa puan şu aralıkta olur" biçiminde yazılı bir bant tanımı var. Örneğin şanzıman kriterinde "85-100: iki bağımsız kaynakta kronik arıza kaydı yok" ya da "35-49: en az bir kaynak, düşük-orta kilometrede kavrama veya mekatronik arızası doğruluyor" gibi. Her bandın listede gerçek bir örnek aracı var. Yeni bir araç puanlanırken bu örnek araçla karşılaştırılıyor ve ondan iyi mi kötü mü olduğu soruluyor; puanlama süreci bu karşılaştırmaya dayanıyor. Bu yöntemin literatürdeki adı <i>behaviorally anchored rating scale</i> (davranışsal çapa noktalı derecelendirme ölçeği). İnsan yargısı, karşılaştırma yaparken mutlak bir sayı üretmekten daha tutarlı sonuç veriyor.</p>
     </div>
 
     <div class="methcard">
@@ -578,7 +604,7 @@ fiyat = 100 × (en_pahalı − aracın_fiyatı) / (en_pahalı − en_ucuz)</pre>
         <div class="methrow"><span class="tt">1-3</span><span class="mid">kısmi kaynak</span><span class="ex">en az bir, dörtten az kaynak</span></div>
         <div class="methrow"><span class="tt">0</span><span class="mid">ön değerlendirme</span><span class="ex">henüz hiç kaynağa bağlanmadı</span></div>
       </div>
-      <p>Dört eşiğinin seçilmesi bilinçli bir katılık: iki kaynak, ikisi de aynı forumdan geliyorsa gerçek bir doğrulama sağlamaz. Bu kuralın uygulanması listenin "doğrulanmış" görünen araç sayısını bir anda düşürdü — bu bir gerileme değil, önceki elle verilen etiketin fazla iyimser olduğunun ölçülmesiydi.</p>
+      <p>Dört eşiğinin seçilmesi bilinçli bir katılık: iki kaynak, ikisi de aynı forumdan geliyorsa gerçek bir doğrulama sağlamaz. Bu kuralın uygulanması listenin "doğrulanmış" görünen araç sayısını bir anda düşürdü. Bu düşüş listenin zayıfladığını göstermiyor; önceki elle verilen etiketin gerçekte ne kadar iyimser olduğunu ölçüyor.</p>
     </div>
 
     <div class="methcard">
@@ -599,9 +625,9 @@ fiyat = 100 × (en_pahalı − aracın_fiyatı) / (en_pahalı − en_ucuz)</pre>
       <p>"en_pahalı" ve "en_ucuz" burada <b>o an ekranda görünen listeye</b> göre belirleniyor. Bunun iki somut sonucu var:</p>
       <ul class="methlist">
         <li>Bir filtre uyguladığınızda (ör. yalnızca SUV'lar) fiyat puanları anında değişir, çünkü kıyaslanan liste küçüldü ve uçlar değişti. Aynı araç filtresiz listede 62 fiyat puanı alırken, yalnızca SUV'lar arasında 40 alabilir — araç ucuzlaşmadı, kıyaslandığı grup değişti.</li>
-        <li>Tablodaki fiyat aralığı kutucuklarını elle değiştirebilirsiniz (ör. bir ilana bakıp gerçek fiyatı girmek için). Bu, yalnızca o aracın değil, <b>listenin uçlarını da kaydırabileceği için diğer bütün araçların</b> fiyat puanını da yeniden hesaplatır.</li>
+        <li>Tablodaki fiyat aralığı kutucuklarını elle değiştirebilirsiniz (ör. bir ilana bakıp gerçek fiyatı girmek için). Bu değişiklik listenin en ucuz ve en pahalı uçlarını kaydırabilir; bu yüzden değiştirdiğiniz aracın fiyat puanıyla birlikte <b>listedeki bütün araçların</b> fiyat puanı yeniden hesaplanır.</li>
       </ul>
-      <p>Bu davranış bilinçli: fiyat mutlak değil görecelidir, "bu araç listedeki diğerlerine göre ucuz mu pahalı mı" sorusuna cevap verir. Kafa karıştırıcı olan, bunun arayüzde açıkça yazmamasıydı — bu bölüm o boşluğu kapatıyor. Fiyat kriterinin ağırlığının neden bu değerde olduğunun gerekçesi <a href="#liste">araç listesi ekranındaki</a> "Kriterleri düzenle" panelinin ilgili kartında yazıyor.</p>
+      <p>Bu davranış bilinçli bir tasarım kararı: fiyat puanı görecelidir ve "bu araç listedeki diğerlerine göre ucuz mu pahalı mı" sorusuna cevap verir. Bu bölüm, bu davranışın arayüzde daha önce açıkça yazılmamış olmasının boşluğunu kapatıyor. Fiyat kriterinin ağırlığının neden bu değerde olduğunun gerekçesi <a href="#liste">araç listesi ekranındaki</a> "Kriterleri düzenle" panelinin ilgili kartında yazıyor.</p>
     </div>
   </div>
 
@@ -712,7 +738,7 @@ fiyat = 100 × (en_pahalı − aracın_fiyatı) / (en_pahalı − en_ucuz)</pre>
 
     <div class="ilcard">
       <h3>Öneri kabul kriterleri</h3>
-      <p>Gelen her öneri aynı süzgeçten geçiyor; bir önerinin kabul edilip edilmediği kimin gönderdiğine değil, aşağıdaki dört soruya verdiği cevaba bağlı.</p>
+      <p>Gelen her öneri aynı süzgeçten geçiyor. Bir önerinin kabul edilip edilmediği, kimin gönderdiğinden bağımsız olarak aşağıdaki dört soruya verilen cevaba göre belirleniyor.</p>
       <ol class="ktsteps">
         <li><b>İddia somut mu?</b> "Bu araç iyidir" gibi genel bir yargı işe yaramaz; "bu şanzımanda mekatronik ünitesi 120 bin kilometrede arızalanıyor" gibi ölçülebilir bir iddia gerekir.</li>
         <li><b>Kaynak gerçekten bu iddiayı destekliyor mu?</b> Bağlantı açılıyor mu, alıntı kaynağın içinde gerçekten geçiyor mu kontrol edilir.</li>
@@ -772,7 +798,7 @@ function weakReason(c,k){
   if(k==='trans'){
     if(tx.indexOf('Kuru')>-1) return 'Bu aracın otomatiği kuru kavramalı bir çift kavrama kutusu. Bu tip kutular Türkiye trafiğinde, özellikle yoğun şehir içi kullanımda, kavrama aşınması ve ısınma riski taşıyor.';
     if(tx==='CVT') return 'Bu aracın otomatiği CVT; markaya göre değişmekle birlikte bazı CVT kutuları yağ bakımı ihmal edildiğinde erken yıpranma gösteriyor ve tork konvertörlü kutular kadar dayanıklı kabul edilmiyor.';
-    if(tx==='Robot') return 'Bu araçta gerçek bir otomatik değil, robotlu yarı otomatik bir kutu var. Vites geçişleri sarsıntılı ve aktüatör arızaları biliniyor.';
+    if(tx==='Robot') return 'Bu araçtaki kutu robotlu yarı otomatik; tek kavramalı bir mekanizmayı motor kontrol ünitesi yönetiyor. Vites geçişleri sarsıntılı ve aktüatör arızaları biliniyor.';
     return 'Bu aracın şanzımanı, listedeki tork konvertörlü kutulara göre daha fazla arıza riski taşıyor.';
   }
   if(k==='motor') return 'Bu motorda bilinen bir kronik arıza kalemi var; ayrıntısı için yukarıdaki açıklamayı okuyun.';

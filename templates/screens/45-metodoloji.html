@@ -1,7 +1,7 @@
 <section class="screen" data-screen="metodoloji">
   <div class="screenhead">
     <h2>Nasıl Puanlıyoruz</h2>
-    <p class="lede">Bu sayfa, toplam puanın hangi hesaptan çıktığını ve bir puanın arkasında hangi kanıt kuralının durduğunu anlatıyor. Amaç aynı kanıtın her zaman aynı puanı üretmesi; bir puan bir hisse değil, kayıtlı bir kararın sonucu.</p>
+    <p class="lede">Bu sayfa, toplam puanın hangi hesaptan çıktığını ve bir puanın arkasında hangi kanıt kuralının durduğunu anlatıyor. Amaç, aynı kanıtın her zaman aynı puanı üretmesidir: her puan kayıtlı bir kararın sonucudur ve bu kararın gerekçesi izlenebilir.</p>
   </div>
 
   <div id="methStats" class="methstats"></div>
@@ -17,8 +17,8 @@ fiyat = 100 × (en_pahalı − aracın_fiyatı) / (en_pahalı − en_ucuz)</pre>
     </div>
 
     <div class="methcard">
-      <h3>2. Puan bir hisse değil, çapalı bir banda bağlı</h3>
-      <p>Her kriter için "şu kanıt varsa puan şu aralıkta olur" biçiminde yazılı bir bant tanımı var. Örneğin şanzıman kriterinde "85-100: iki bağımsız kaynakta kronik arıza kaydı yok" ya da "35-49: en az bir kaynak, düşük-orta kilometrede kavrama veya mekatronik arızası doğruluyor" gibi. Her bandın listede gerçek bir araca çapalanmış bir örneği var; yeni bir araç puanlanırken sorulan soru "kaç puan hak ediyor" değil, "çapa araçtan iyi mi kötü mü" oluyor. Bu yöntemin literatürdeki adı <i>behaviorally anchored rating scale</i>: insan yargısı, mutlak bir sayı üretirken değil karşılaştırma yaparken çok daha tutarlı çalışıyor.</p>
+      <h3>2. Her puan yazılı bir bant tanımına bağlanıyor</h3>
+      <p>Her kriter için "şu kanıt varsa puan şu aralıkta olur" biçiminde yazılı bir bant tanımı var. Örneğin şanzıman kriterinde "85-100: iki bağımsız kaynakta kronik arıza kaydı yok" ya da "35-49: en az bir kaynak, düşük-orta kilometrede kavrama veya mekatronik arızası doğruluyor" gibi. Her bandın listede gerçek bir örnek aracı var. Yeni bir araç puanlanırken bu örnek araçla karşılaştırılıyor ve ondan iyi mi kötü mü olduğu soruluyor; puanlama süreci bu karşılaştırmaya dayanıyor. Bu yöntemin literatürdeki adı <i>behaviorally anchored rating scale</i> (davranışsal çapa noktalı derecelendirme ölçeği). İnsan yargısı, karşılaştırma yaparken mutlak bir sayı üretmekten daha tutarlı sonuç veriyor.</p>
     </div>
 
     <div class="methcard">
@@ -40,7 +40,7 @@ fiyat = 100 × (en_pahalı − aracın_fiyatı) / (en_pahalı − en_ucuz)</pre>
         <div class="methrow"><span class="tt">1-3</span><span class="mid">kısmi kaynak</span><span class="ex">en az bir, dörtten az kaynak</span></div>
         <div class="methrow"><span class="tt">0</span><span class="mid">ön değerlendirme</span><span class="ex">henüz hiç kaynağa bağlanmadı</span></div>
       </div>
-      <p>Dört eşiğinin seçilmesi bilinçli bir katılık: iki kaynak, ikisi de aynı forumdan geliyorsa gerçek bir doğrulama sağlamaz. Bu kuralın uygulanması listenin "doğrulanmış" görünen araç sayısını bir anda düşürdü — bu bir gerileme değil, önceki elle verilen etiketin fazla iyimser olduğunun ölçülmesiydi.</p>
+      <p>Dört eşiğinin seçilmesi bilinçli bir katılık: iki kaynak, ikisi de aynı forumdan geliyorsa gerçek bir doğrulama sağlamaz. Bu kuralın uygulanması listenin "doğrulanmış" görünen araç sayısını bir anda düşürdü. Bu düşüş listenin zayıfladığını göstermiyor; önceki elle verilen etiketin gerçekte ne kadar iyimser olduğunu ölçüyor.</p>
     </div>
 
     <div class="methcard">
@@ -61,9 +61,9 @@ fiyat = 100 × (en_pahalı − aracın_fiyatı) / (en_pahalı − en_ucuz)</pre>
       <p>"en_pahalı" ve "en_ucuz" burada <b>o an ekranda görünen listeye</b> göre belirleniyor. Bunun iki somut sonucu var:</p>
       <ul class="methlist">
         <li>Bir filtre uyguladığınızda (ör. yalnızca SUV'lar) fiyat puanları anında değişir, çünkü kıyaslanan liste küçüldü ve uçlar değişti. Aynı araç filtresiz listede 62 fiyat puanı alırken, yalnızca SUV'lar arasında 40 alabilir — araç ucuzlaşmadı, kıyaslandığı grup değişti.</li>
-        <li>Tablodaki fiyat aralığı kutucuklarını elle değiştirebilirsiniz (ör. bir ilana bakıp gerçek fiyatı girmek için). Bu, yalnızca o aracın değil, <b>listenin uçlarını da kaydırabileceği için diğer bütün araçların</b> fiyat puanını da yeniden hesaplatır.</li>
+        <li>Tablodaki fiyat aralığı kutucuklarını elle değiştirebilirsiniz (ör. bir ilana bakıp gerçek fiyatı girmek için). Bu değişiklik listenin en ucuz ve en pahalı uçlarını kaydırabilir; bu yüzden değiştirdiğiniz aracın fiyat puanıyla birlikte <b>listedeki bütün araçların</b> fiyat puanı yeniden hesaplanır.</li>
       </ul>
-      <p>Bu davranış bilinçli: fiyat mutlak değil görecelidir, "bu araç listedeki diğerlerine göre ucuz mu pahalı mı" sorusuna cevap verir. Kafa karıştırıcı olan, bunun arayüzde açıkça yazmamasıydı — bu bölüm o boşluğu kapatıyor. Fiyat kriterinin ağırlığının neden bu değerde olduğunun gerekçesi <a href="#liste">araç listesi ekranındaki</a> "Kriterleri düzenle" panelinin ilgili kartında yazıyor.</p>
+      <p>Bu davranış bilinçli bir tasarım kararı: fiyat puanı görecelidir ve "bu araç listedeki diğerlerine göre ucuz mu pahalı mı" sorusuna cevap verir. Bu bölüm, bu davranışın arayüzde daha önce açıkça yazılmamış olmasının boşluğunu kapatıyor. Fiyat kriterinin ağırlığının neden bu değerde olduğunun gerekçesi <a href="#liste">araç listesi ekranındaki</a> "Kriterleri düzenle" panelinin ilgili kartında yazıyor.</p>
     </div>
   </div>
 

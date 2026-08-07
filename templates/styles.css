@@ -185,6 +185,32 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .filterpanel .fgroup:last-child{margin-bottom:0}
 .kritpanel .lede{margin-bottom:14px}
 .kritpanel .note{margin-top:14px}
+/* Sekiz kriter kartı tek satırda yan yana durmalı, yatay kaydırmaya gerek
+   kalmadan; bunun için genel .grid'in esnek (auto-fill) sütun sayısı burada
+   sabit sekize zorlanıyor ve kart içeriği bu dara sığacak kadar küçültülüyor.
+   Dar ekranlarda (tablet/telefon) sekiz dar sütun okunmaz hale geldiği için
+   medya sorgularıyla sütun sayısı kademeli düşürülüyor. */
+.kritpanel #rubric{grid-template-columns:repeat(8,1fr);gap:8px}
+@media(max-width:1100px){.kritpanel #rubric{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:640px){.kritpanel #rubric{grid-template-columns:repeat(2,1fr)}}
+.kritpanel .card{padding:10px}
+.kritpanel .card .t{font-size:11px;margin-bottom:6px;line-height:1.2}
+.kritpanel .card .nb{font-size:7px;top:8px;right:9px}
+.kritpanel .wbox{gap:4px}
+.kritpanel .wbox input{width:40px;font-size:15px;padding:3px 0}
+.kritpanel .wbox small{font-size:7.5px}
+.kritpanel .contrib{font-size:9px}
+.kritpanel .card .def{font-size:9.5px;margin-top:6px;line-height:1.4}
+.kritpanel .card .inc{font-size:8.8px;margin-top:6px}
+.kritpanel .card .exc{font-size:8.8px;margin-top:3px}
+.kritpanel .card .wr{font-size:8.8px;margin-top:7px;padding-top:6px}
+.kritpanel .banddet{font-size:9px;margin-top:7px}
+.kritpanel .banddet summary{font-size:8.5px}
+.kritpanel .bandrow{padding:5px 0;gap:6px}
+.kritpanel .brange{flex:0 0 32px;font-size:9.5px}
+.kritpanel .bmid b{font-size:9.5px}
+.kritpanel .bmid span{font-size:9px}
+.kritpanel .bex,.kritpanel .bnote{font-size:8.5px}
 @media(max-width:640px){.ctrlbar .count{margin-left:0;text-align:left;width:100%}}
 .legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
 .legend .sw{display:inline-block;width:13px;height:10px;border-radius:3px;vertical-align:middle;margin-right:5px}

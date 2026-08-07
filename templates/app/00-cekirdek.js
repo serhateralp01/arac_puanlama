@@ -27,7 +27,7 @@ function weakReason(c,k){
   if(k==='trans'){
     if(tx.indexOf('Kuru')>-1) return 'Bu aracın otomatiği kuru kavramalı bir çift kavrama kutusu. Bu tip kutular Türkiye trafiğinde, özellikle yoğun şehir içi kullanımda, kavrama aşınması ve ısınma riski taşıyor.';
     if(tx==='CVT') return 'Bu aracın otomatiği CVT; markaya göre değişmekle birlikte bazı CVT kutuları yağ bakımı ihmal edildiğinde erken yıpranma gösteriyor ve tork konvertörlü kutular kadar dayanıklı kabul edilmiyor.';
-    if(tx==='Robot') return 'Bu araçta gerçek bir otomatik değil, robotlu yarı otomatik bir kutu var. Vites geçişleri sarsıntılı ve aktüatör arızaları biliniyor.';
+    if(tx==='Robot') return 'Bu araçtaki kutu robotlu yarı otomatik; tek kavramalı bir mekanizmayı motor kontrol ünitesi yönetiyor. Vites geçişleri sarsıntılı ve aktüatör arızaları biliniyor.';
     return 'Bu aracın şanzımanı, listedeki tork konvertörlü kutulara göre daha fazla arıza riski taşıyor.';
   }
   if(k==='motor') return 'Bu motorda bilinen bir kronik arıza kalemi var; ayrıntısı için yukarıdaki açıklamayı okuyun.';
