@@ -8,8 +8,9 @@ tek sayfa değildir; araç listesi, kıyaslama, kriterler ve kaynaklar kendi ekr
 durur ve aralarında `#liste`, `#kiyaslama` gibi adres çubuğu yollarıyla geçilir. Bu
 ayrımın gerekçesi `docs/ARCHITECTURE.md` MK-07 kaydında.
 
-Şu an listede **221 araç, motor ve şanzıman kombinasyonu** bulunuyor ve liste
-genişletiliyor. Listeye girmek için tek şart aracın otomatik şanzımanla satılmış ve
+Şu an listede **278 araç, 104 motor ailesi ve 53 şanzıman kutusu kaydı** bulunuyor ve
+liste genişletiliyor. Araçların 236'sı dört veya daha fazla bağımsız kaynağa dayandığı
+için "doğrulanmış" sayılıyor. Listeye girmek için tek şart aracın otomatik şanzımanla satılmış ve
 Türkiye piyasasında bulunabilir olmasıdır; beygir, model yılı veya gövde tipi üzerinden
 bir alt sınır yoktur. Daraltma işini kullanıcı filtrelerle yapar.
 
@@ -147,6 +148,9 @@ yazılı metodolojiye göre yeniden değerlendirilir. Bunun neden böyle çalı�
   dökümü.** Sayıları `scripts/analysis/sensitivity.py` üretiyor.
 - [docs/PLAN.md](docs/PLAN.md) — Faz 2 planı ve kriter bazlı teknikler; büyük ölçüde tamamlandı
 - [docs/DATA-ISSUES.md](docs/DATA-ISSUES.md) — bilinen veri sorunları ve verilen kararlar
+- **[docs/URUN-STRATEJISI.md](docs/URUN-STRATEJISI.md) — ürün, açık kaynak ve pazarlama
+  stratejisi: gelir modelleri, lisans katmanları, içerik hattı ve 90 günlük plan. Her fikrin
+  yanında uygulanabilirlik seviyesi ve bilinen riski yazılı.**
 
 ## Sorumluluk reddi
 

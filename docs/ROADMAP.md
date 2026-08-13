@@ -40,6 +40,8 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Veri doğruluğu (MK-18) | **Dış veri setiyle çapraz doğrulama yapıldı.** 220 araç bağımsız bir katalogla karşılaştırıldı; motor/şanzıman ailesinde 0 çelişki, beygir/torkta 10 çelişki bulundu ve doğrulanan 5 gerçek hata düzeltildi (en ağırı: bir 1.6 dizelde 400 Nm ve bir aracın tamamen yanlış motor ailesine bağlı olması). |
 | Teknik özellik kapsamı | Tork 172 → **251/278**; boş ağırlık 163/278. `fun` formülünün önündeki tek engel artık boş ağırlık: 88 araçta tork var ama ağırlık yok. |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
+| Arama motoru görünürlüğü | **Yok.** 83 bin kelimelik özgün analiz tek bir HTML dosyasında; Google'ın gördüğü sayfa sayısı 1, sitemap ve meta açıklama yok. Faz 4'ün ilk maddesi (Y-11) bunu çözüyor. |
+| Ticari strateji | `docs/URUN-STRATEJISI.md` — gelir modelleri, açık kaynak lisans katmanları, içerik/pazarlama hattı ve 90 günlük plan; her fikir uygulanabilirlik seviyesiyle birlikte |
 
 Denetimin bugünkü çıktısı: **0 hata, 252 uyarı**. Uyarıların ezici çoğunluğu tek
 bir kalemden geliyor: araçların **dört** bağımsız kaynağa ulaşmamış olması — bu, artık
@@ -987,12 +989,139 @@ Sıradaki iş, öncelik sırasıyla:
 4. **Y-02'nin uzun vadeli hedefi** — ortalamayı 4'e çıkarmak, yani her araca üçüncü ve
    dördüncü bağımsız kaynak. Bileşen bazlı toplu bağlama yöntemi burada işe yaramıyor;
    araç bazında tekil araştırma gerekiyor, bu yüzden yavaş ve pahalı bir iş.
-5. **`evidence` bloğunu kalan dört kriter için genişletmek** (`comf`, `cost`, `liq`,
-   `price`) — `age` (MK-14) ve `fun` (MK-17, 2026-08-07) artık `scripts/compute_age.py`
-   ve `scripts/compute_fun.py`'den geliyor ve `evidence` dolu. `comf`/`cost` hâlâ
-   `docs/ARCHITECTURE.md` MK-06'nın uygulanmamış kalan formüllerine bağlı (iç
-   hacim/bagaj hacmi, resmi bakım tarifesi); `liq` sayım protokolü hiç çalıştırılmadı
-   (`docs/PLAN.md` §3.7); `price` bantlarının `as_of`/`method` alanları eksik (§3.8).
+5. **`evidence` bloğunu kalan üç kriter için genişletmek** (`comf`, `cost`, `liq`) —
+   `age` (MK-14), `fun` (MK-17) ve `price` (MK-19) artık betiklerden geliyor. `comf`/`cost`
+   hâlâ MK-06'nın uygulanmamış kalan formüllerine bağlı (iç hacim/bagaj hacmi, resmi bakım
+   tarifesi); `liq` sayım protokolü MK-20'de reddedildi ve doğru biçimiyle yeniden kurulmayı
+   bekliyor.
+
+---
+
+## Faz 4 · Ürünleşme ve görünürlük (Y-11 … Y-18)
+
+Buraya kadarki maddeler ürünün **doğru** olmasıyla ilgiliydi. Aşağıdaki maddeler ürünün
+**bulunabilir ve sürdürülebilir** olmasıyla ilgili. Ticari gerekçeleri, gelir modelleri ve
+pazarlama tarafı ayrı bir belgede duruyor: `docs/URUN-STRATEJISI.md`. Burada yalnızca
+mühendislik kapsamı ve bitmiş sayılma ölçütü var.
+
+Sıralamanın mantığı şu: en ucuz kaldıraç önce. Y-11 ve Y-13 bugünkü veriyle yapılabiliyor,
+biri trafiği diğeri topluluk katkısını açıyor; ödeme altyapısı (Y-17) bilinçli olarak sona
+bırakıldı, çünkü trafik olmadan kurulan bir ödeme akışı boş bir dükkândır.
+
+### Y-11 · Statik sayfa üretimi ve SEO temeli — **öncelik: en yüksek**
+
+**Sorun.** Depoda 83 bin kelimelik özgün, kaynaklı Türkçe analiz var ve bu içeriğin
+tamamı arama motorlarına **görünmez**. Çıktı tek bir 1,2 MB'lık `index.html` ve ekranlar
+arası geçiş `#liste` gibi çapa adlarıyla yapılıyor; Google'ın gördüğü sayfa sayısı bir.
+`meta description`, `sitemap.xml`, `robots.txt`, `canonical` ve paylaşım önizleme etiketleri
+hiç yok, sayfa başlığı da hiçbir arama sorgusuyla eşleşmeyen "Araç Puanlama".
+
+**Kapsam.** `scripts/build.py`'ye ikinci bir çıktı biçimi eklenir: araç başına
+`/arac/<id>.html`, motor ailesi başına `/motor/<id>.html`, şanzıman başına
+`/sanziman/<id>.html`. Bugünkü veriyle **435 indekslenebilir sayfa** demek. Her sayfaya
+araca özgü `title`, `meta description`, `canonical` ve Open Graph etiketleri; `sitemap.xml`
+ve `robots.txt` üretimi; `Vehicle` ve `FAQPage` JSON-LD bloğu (`evidence.reasoning`
+metinleri zaten soru-cevap biçiminde hazır).
+
+**MK-01 bozulmuyor:** üretilen sayfalar türetilmiş çıktıdır, `data/` tek doğruluk kaynağı
+olarak kalır. MK-02 bu genişlemeyi zaten öngörüyordu ("derleme adımında yeni bir çıktı
+biçimi üretmek").
+
+**Bitmiş sayılma ölçütü.** `sitemap.xml` 400'den fazla adres içeriyor, örnek bir araç
+sayfası araç adını ve kronik sorununu içeren bir başlık taşıyor, duman testi yeni çıktıyı
+da kontrol ediyor.
+
+### Y-12 · İçerik üretim betiği (`build_content.py`)
+
+**Sorun.** `data/engines.json` ve `data/transmissions.json` içinde **166 yapılandırılmış
+bilinen arıza kaydı** var; her biri hangi bileşen, hangi arıza, hangi kilometrede, ne
+sıklıkta, hangi kaynak bilgisini taşıyor. Bu, bir yıldan fazla içeriğin ham maddesi ama
+bugün yalnızca sayfa içinde küçük bir metin olarak görünüyor.
+
+**Kapsam.** İçerik de türetilmiş bir çıktıdır: `scripts/build_content.py`, `data/`'dan
+kısa video senaryosu, kaydırmalı görsel metni, paylaşım dizisi ve uzun biçim yazı taslağı
+üretir. Betik metin üretir, yayın yapmaz — yayın kararı insanda kalır.
+
+**Bitmiş sayılma ölçütü.** 166 kayıttan en az 20'si için taslak üretiliyor ve taslaklar
+kaynak künyesini de taşıyor.
+
+### Y-13 · GitHub katkı kapısı ve sürekli denetim
+
+**Sorun.** MK-05 katkı için üç katmanlı bir plan tanımlamıştı ve **birinci katman (GitHub
+konu şablonu) hâlâ kurulmadı.** Y-04'te arayüzdeki "kaynak öner" formu tamamlandı ama
+gönderim uç noktası tanımlı olmadığı için form kapalı duruyor. GitHub Issues bu uç nokta
+olabilir ve sıfır altyapı gerektirir.
+
+**Kapsam.** `.github/ISSUE_TEMPLATE/` altına üç form (kaynak öner, hata bildir, araç öner);
+`CONTRIBUTING.md`; `validate.py` + `consistency.py` + `smoke_test.js` çalıştıran bir GitHub
+Actions iş akışı; README'nin ürün vitrinine dönüştürülmesi (rozetler `validate.py --json`
+çıktısından otomatik); `CITATION.cff`. Ek olarak haftalık zamanlanmış bir iş,
+`fiyat-bandi-bayat` uyarısı üreten araçları listeleyip otomatik konu açabilir.
+
+**Bitmiş sayılma ölçütü.** Depoyu ilk kez açan biri, kaynak önerisini beş dakika içinde
+gönderebiliyor ve her push'ta denetim otomatik çalışıyor.
+
+### Y-14 · Veri/kabuk ayrımı ve tembel yükleme
+
+**Sorun.** Tek dosya bugün 1,2 MB ve araç sayısıyla doğrusal büyüyor; 1.000 araçta yaklaşık
+4 MB olur ve mobil bağlantıda kabul edilemez hale gelir. Veri hacminin büyük kısmını 972
+`evidence` bloğunun metinleri oluşturuyor ve bunlar yalnızca detay panelinde okunuyor.
+
+**Kapsam.** Uygulama kabuğu ile veri ayrılır; liste ekranı için özet veri, detay için tam
+kayıt tembel yüklenir. Duman testine bir performans bütçesi kontrolü eklenir — bugünkü 49
+kontrol sayfanın çalıştığını doğruluyor ama hızını hiç ölçmüyor.
+
+**Ön koşul:** Ölçüm olmadan iyileştirme yapılmaz. Önce gerçek cihazda ölçüm alınır, hedef
+sayı yazılır, sonra iş başlar.
+
+### Y-15 · Fiyat ölçümünün tekrarlanabilir hale gelmesi
+
+**Sorun.** MK-19 ile 19 araç tarihli piyasa gözlemine bağlandı, ama 259 araç hâlâ tarihsiz
+tahmin taşıyor ve denetim bunu `fiyat-tarihsiz` uyarısıyla işaretliyor. Ölçüm bir kez
+yapıldı; tekrarlanabilir bir hat değil.
+
+**Kapsam.** Ölçümün belgelenmiş, tekrarlanabilir bir protokole dönüşmesi ve kapsamın
+büyütülmesi. Tazelik, kopyalanamayan tek rekabet avantajı olduğu için bu madde ticari
+olarak da en kritik olanlardan biri (`docs/URUN-STRATEJISI.md` §4.2).
+
+**Bitmiş sayılma ölçütü.** Ölçüm ikinci kez, aynı yöntemle ve elle müdahale olmadan
+çalıştırılabiliyor; tarihli fiyat taşıyan araç sayısı belirgin biçimde artıyor.
+
+### Y-16 · Boş ağırlık verisinin doldurulması — **en yüksek getirili veri işi**
+
+**Sorun.** P2.1 entegrasyonundan sonra tork kapsamı 251/278'e çıktı ama `fun` kapsamı
+163'te kaldı. Sebep tek bir alan: **88 araçta tork var, boş ağırlık yok** ve formül ikisini
+birden istiyor. P2.1 veri paketinde boş ağırlık alanı hiç bulunmuyor.
+
+**Kapsam.** 88 araç için boş ağırlık verisinin MK-15 kuralıyla (marka, model, yıl, hacim ve
+beygir birlikte doğrulanarak) toplanması. Eşleşmeyen kayıt boş bırakılır.
+
+**Neden öncelikli.** Tek bir veri kalemi, bir kriterin kapsamını 163'ten 251'e çıkarıyor —
+yani neredeyse yarı yarıya büyütüyor. Depodaki hiçbir iş kaleminin getiri/çaba oranı buna
+yakın değil.
+
+### Y-17 · Kişiye özel rapor üretimi
+
+**Sorun.** Puanlama motoru kullanıcının ağırlıklarıyla sıralama yapabiliyor ama bu yetenek
+yalnızca arayüzde yaşıyor; teslim edilebilir bir çıktıya dönüşmüyor.
+
+**Kapsam.** Kullanıcının bütçe, kullanım biçimi ve önceliklerinden bir kısa liste, her aday
+için kaynaklı risk notu ve araç görmeye giderken kullanılacak kontrol listesi üreten bir
+rapor çıktısı. İlk sürümde ödeme altyapısı **kurulmaz**; raporlar elle karşılanır, çünkü
+amaç gelir değil öğrenmedir.
+
+**Ön koşul.** Ödeme alınacaksa mesafeli sözleşme, ön bilgilendirme, cayma/iade akışı ve
+KVKK aydınlatması önce kurulmalıdır (`docs/URUN-STRATEJISI.md` §8).
+
+### Y-18 · `liq` için doğru sayım protokolü
+
+**Sorun.** MK-20, elimizdeki 2.071 ilan gözlemini `liq` için reddetti: örneklem sorgu
+başına 50 ile sınırlıydı, yani sağdan sansürlüydü ve sansür tam olarak ölçmek istediğimiz
+yönde çalışıyordu.
+
+**Kapsam.** Doğru ölçüm, ilanları çekmek değil **sorgu sonucundaki toplam ilan sayısını**
+kaydetmektir; bu hem çok daha ucuz hem sansürsüz. `docs/PLAN.md` §3.7'deki protokol bu
+düzeltmeyle güncellenmeli ve ölçüm tarihiyle birlikte `data/market/` altına yazılmalı.
 
 ---
 
