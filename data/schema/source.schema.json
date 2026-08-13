@@ -1,71 +1,137 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/serhateralp01/arac_puanlama/data/schema/source.schema.json",
-  "title": "Kaynak künyesi",
-  "description": "data/sources.json içindeki bir kayıt. Anahtar = kaynak kimliği; araçlar bu anahtarla referans verir.",
-  "type": "object",
-  "required": ["id", "claim", "publisher", "url", "type"],
-  "additionalProperties": false,
-  "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
-    "claim": {
-      "type": "string",
-      "minLength": 10,
-      "description": "Bu kaynağın DESTEKLEDİĞİ iddia. Kaynağın özeti değil; puanı hangi cümlenin taşıdığı."
-    },
-    "publisher": { "type": "string", "minLength": 2 },
-    "url": { "type": "string", "pattern": "^https?://" },
-    "type": {
-      "enum": [
-        "official-inspection-data",
-        "owner-survey",
-        "manufacturer-doc",
-        "spec-database",
-        "encyclopedia",
-        "independent-analyst",
-        "trade-press",
-        "trade-blog",
-        "complaint-aggregator",
-        "forum",
-        "crowd-wiki",
-        "unknown"
-      ],
-      "description": "Kaynağın türü. Güven seviyesi buradan türetilir ama ona eşit değildir; iyi bir forum başlığı kötü bir blog yazısından güvenilirdir."
-    },
-    "tier": {
-      "type": ["string", "null"],
-      "enum": ["A", "B", "C", null],
-      "description": "A = sayısal/kurumsal veri, B = bağımsız teknik analiz veya çoklu kullanıcı örüntüsü, C = tekil anekdot. null = henüz değerlendirilmedi."
-    },
-    "accessed": { "type": ["string", "null"], "format": "date" },
-    "language": { "type": ["string", "null"], "enum": ["tr", "en", "de", "fr", "ko", null] },
-    "quotes": {
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/serhateralp01/arac_puanlama/data/schema/source.schema.json",
+ "title": "Kaynak künyesi",
+ "description": "data/sources.json içindeki bir kayıt. Anahtar = kaynak kimliği; araçlar bu anahtarla referans verir.",
+ "type": "object",
+ "required": [
+  "id",
+  "claim",
+  "publisher",
+  "url",
+  "type"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9_]+$"
+  },
+  "claim": {
+   "type": "string",
+   "minLength": 10,
+   "description": "Bu kaynağın DESTEKLEDİĞİ iddia. Kaynağın özeti değil; puanı hangi cümlenin taşıdığı."
+  },
+  "publisher": {
+   "type": "string",
+   "minLength": 2
+  },
+  "url": {
+   "type": "string",
+   "pattern": "^https?://"
+  },
+  "type": {
+   "enum": [
+    "official-inspection-data",
+    "owner-survey",
+    "manufacturer-doc",
+    "spec-database",
+    "marketplace-snapshot",
+    "encyclopedia",
+    "independent-analyst",
+    "trade-press",
+    "trade-blog",
+    "complaint-aggregator",
+    "forum",
+    "crowd-wiki",
+    "unknown"
+   ],
+   "description": "Kaynağın türü. Güven seviyesi buradan türetilir ama ona eşit değildir; iyi bir forum başlığı kötü bir blog yazısından güvenilirdir. `marketplace-snapshot`, bir ilan platformundan belirli bir tarihte toplanan fiyat/ilan gözlemlerinin toplu istatistiğidir; tekil ilanlar depoya alınmaz, yalnızca çeyreklik ve örneklem sayısı saklanır."
+  },
+  "tier": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "enum": [
+    "A",
+    "B",
+    "C",
+    null
+   ],
+   "description": "A = sayısal/kurumsal veri, B = bağımsız teknik analiz veya çoklu kullanıcı örüntüsü, C = tekil anekdot. null = henüz değerlendirilmedi."
+  },
+  "accessed": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "format": "date"
+  },
+  "language": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "enum": [
+    "tr",
+    "en",
+    "de",
+    "fr",
+    "ko",
+    null
+   ]
+  },
+  "quotes": {
+   "type": "array",
+   "description": "Kaynaktan alınan birebir cümleler. Link çürürse iddia elde kalsın diye.",
+   "items": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "text": {
+      "type": "string"
+     },
+     "supports": {
       "type": "array",
-      "description": "Kaynaktan alınan birebir cümleler. Link çürürse iddia elde kalsın diye.",
       "items": {
-        "type": "object",
-        "required": ["text"],
-        "additionalProperties": false,
-        "properties": {
-          "text": { "type": "string" },
-          "supports": {
-            "type": "array",
-            "items": { "enum": ["motor", "trans", "fun", "comf", "age", "cost", "liq"] },
-            "description": "Bu alıntının hangi kriteri desteklediği."
-          },
-          "context": { "type": "string" }
-        }
-      }
-    },
-    "retrieval": {
-      "type": "object",
-      "description": "Faz 2: bu kaynağın nasıl bulunduğu — aramanın tekrarlanabilirliği için.",
-      "additionalProperties": false,
-      "properties": {
-        "query": { "type": "string" },
-        "engine": { "type": "string" },
-        "found_at": { "type": "string", "format": "date" }
-      }
+       "enum": [
+        "motor",
+        "trans",
+        "fun",
+        "comf",
+        "age",
+        "cost",
+        "liq"
+       ]
+      },
+      "description": "Bu alıntının hangi kriteri desteklediği."
+     },
+     "context": {
+      "type": "string"
+     }
     }
+   }
+  },
+  "retrieval": {
+   "type": "object",
+   "description": "Faz 2: bu kaynağın nasıl bulunduğu — aramanın tekrarlanabilirliği için.",
+   "additionalProperties": false,
+   "properties": {
+    "query": {
+     "type": "string"
+    },
+    "engine": {
+     "type": "string"
+    },
+    "found_at": {
+     "type": "string",
+     "format": "date"
+    }
+   }
   }
+ }
 }

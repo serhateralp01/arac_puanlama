@@ -14,7 +14,7 @@
     "body_type": "Hatchback",
     "engine_id": "ford-ecoblue-15",
     "kerb_weight_kg": 1350,
-    "torque_nm": 270,
+    "torque_nm": 300,
     "fuel_consumption_l_100km": 3.8
   },
   "price_band_k_try": [
@@ -25,7 +25,7 @@
   "scores": {
     "motor": 52,
     "trans": 52,
-    "fun": 32,
+    "fun": 35,
     "comf": 80,
     "age": 74,
     "cost": 62,
@@ -34,6 +34,7 @@
   "sources": [
     "araclo_focus_ecoblue",
     "autodoc_s60_problems",
+    "automobilecatalog_focus4_ecoblue",
     "greencarcongress_powershift_torque",
     "kugaownersclub_powershift_faults",
     "mondps",
@@ -44,7 +45,9 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi.",
-    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: ford focus 5 doors — 1.5L EcoBlue 6MT Start/Stop FWD (120 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: ford focus 5 doors — 1.5L EcoBlue 6MT Start/Stop FWD (120 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15).",
+    "corrected_at": "2026-08-13",
+    "correction": "P2.1 çapraz doğrulaması: tork 270 -> 300 Nm (120 bg varyantının gerçek değeri). Kaynak: automobilecatalog_focus4_ecoblue."
   },
   "evidence": {
     "motor": {
@@ -77,10 +80,10 @@
       "assessed_at": "2026-08-07"
     },
     "fun": {
-      "band": "sürüş keyfi öncelik değil",
+      "band": "sönük",
       "confidence": "düşük",
       "sources": [],
-      "reasoning": "Güç/ağırlık oranı 89 hp/ton (normalize 21/100), tork/ağırlık oranı 200 Nm/ton (normalize 51/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +4) temel puan 32. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "reasoning": "Güç/ağırlık oranı 89 hp/ton (normalize 21/100), tork/ağırlık oranı 222 Nm/ton (normalize 63/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +4) temel puan 35. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
   }

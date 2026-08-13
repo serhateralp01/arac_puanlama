@@ -12,7 +12,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-7g-tronic",
     "body_type": "Sedan",
-    "engine_id": "mb-m271"
+    "engine_id": "mb-m271",
+    "torque_nm": 270
   },
   "price_band_k_try": [
     750,
@@ -38,7 +39,8 @@
   "note": "W212'nin kompresörlü/turbo geçiş dönemi benzinlisi; M271 motoru listede zaten kayıtlı, bu kez 7G-Tronic kutuyla eşleşiyor — bu kutu ailenin düşük puanlı bileşenlerinden (E250 CDI'de de aynı kutu kayıtlı). Konfor ve donanım W211'e göre belirgin biçimde daha iyi.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Tork (270 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (184 bg) ve motor hacmi (1.8 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

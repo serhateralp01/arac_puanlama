@@ -13,7 +13,8 @@
     "transmission_id": "aisin-eat6",
     "body_type": "Hatchback",
     "engine_id": "bmw-b38",
-    "fuel_consumption_l_100km": 5.4
+    "fuel_consumption_l_100km": 5.4,
+    "torque_nm": 220
   },
   "price_band_k_try": [
     750,
@@ -39,7 +40,7 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi.",
-    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: mini mini cooper 3 door 2021 present — 1.5L 6MT (136 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: mini mini cooper 3 door 2021 present — 1.5L 6MT (136 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15). Tork (220 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (136 bg) ve motor hacmi (1.5 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

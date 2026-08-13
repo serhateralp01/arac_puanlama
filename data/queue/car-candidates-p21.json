@@ -1,0 +1,1037 @@
+{
+  "_comment": "P2.1 veri paketinden (2026-08-13) süzülmüş ARAÇ adayları. Bu dosya data/queue/candidates.json'dan farklı bir işi yapıyor: orası mevcut araçlara KAYNAK arıyor, burası listeye girmeyi bekleyen YENİ ARAÇLARI tutuyor. Hiçbir satır buradan doğrudan data/cars/ altına kopyalanmaz; her aday, deponun kendi kanıt standardından (araca özgü kaynak + aile temel puanı + evidence bloğu) tek tek geçmek zorundadır. Gerekçesi docs/ARCHITECTURE.md MK-21 kaydında.",
+  "generated_at": "2026-08-13",
+  "source_dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "summary": {
+    "p2_total_variants": 1641,
+    "already_in_repo": 220,
+    "ready_candidates": 6,
+    "blocked_by_unmapped_engine_family": 1415,
+    "explanation": "P2.1'in 1641 kombinasyonundan yalnızca 6 tanesi yeni bileşen ailesi açmadan alınabiliyor. Kalanların önündeki engel araştırma eksikliği değil, KİMLİK ÇÖZÜMLEME: P2.1'in motor kayıtlarının büyük kısmında motor kodu 'Kaynakta belirtilmemiş' olarak duruyor, yani hangi motor ailesi olduğu veri setinde çözülmemiş. Marka, yakıt ve hacim üçlüsüyle bakıldığında bu ailelerin çoğunun repoda zaten karşılığı var; aşağıdaki engine_family_mapping_proposals listesi ilk 30 aile için bu eşlemeyi öneriyor ve her birinin kaç aracı açacağını sayıyor."
+  },
+  "ready_candidates": [
+    {
+      "proposed_car_id": "bmw-118i-f20-lci-b38-8at",
+      "name": "118i 1.5 Turbo LCI",
+      "brand": "BMW",
+      "years": "2015-2019",
+      "hp": 136,
+      "torque_nm": 220.0,
+      "fuel": "Benzin",
+      "drivetrain": "Arkadan",
+      "body_type": "Hatchback",
+      "engine_id": "bmw-b38",
+      "transmission_id": "zf-8hp",
+      "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-lci-2017.html",
+      "p2_score_method": "p2.1-technical-prior",
+      "p2_publication_status": "candidate_resolved",
+      "status": "pending",
+      "gate_note": "Motor ve şanzıman ailesi repoda zaten kayıtlı, bu yüzden yeni aile araştırması gerekmiyor. Ama P2.1 bu satırın puanını 'teknik önsel' olarak işaretlemiş, yani araştırılmış değil; depoya alınmadan önce araca özgü en az iki bağımsız kaynak bulunmalı ve motor/şanzıman puanları aile temel puanından türetilmelidir."
+    },
+    {
+      "proposed_car_id": "audi-a3-8v-1-0-tfsi-dq200",
+      "name": "A3 Sportback 1.0 TFSI S tronic",
+      "brand": "Audi",
+      "years": "2016-2020",
+      "hp": 116,
+      "torque_nm": 200.0,
+      "fuel": "Benzin",
+      "drivetrain": "Önden",
+      "body_type": "Hatchback",
+      "engine_id": "vag-ea211",
+      "transmission_id": "vag-dq200",
+      "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2016.html",
+      "p2_score_method": "p2.1-technical-prior",
+      "p2_publication_status": "candidate_resolved",
+      "status": "pending",
+      "gate_note": "Motor ve şanzıman ailesi repoda zaten kayıtlı, bu yüzden yeni aile araştırması gerekmiyor. Ama P2.1 bu satırın puanını 'teknik önsel' olarak işaretlemiş, yani araştırılmış değil; depoya alınmadan önce araca özgü en az iki bağımsız kaynak bulunmalı ve motor/şanzıman puanları aile temel puanından türetilmelidir."
+    },
+    {
+      "proposed_car_id": "kia-ceed-cd-1-6-crdi-7dct",
+      "name": "Ceed 1.6 CRDi 7DCT",
+      "brand": "Kia",
+      "years": "2018-2020",
+      "hp": 136,
+      "torque_nm": 320.0,
+      "fuel": "Dizel",
+      "drivetrain": "Önden",
+      "body_type": "Hatchback",
+      "engine_id": "hyundai-u2-16",
+      "transmission_id": "hyundai-7dct",
+      "technical_url": "https://www.autoevolution.com/cars/kia-ceed-2018.html",
+      "p2_score_method": "p2.1-technical-prior",
+      "p2_publication_status": "candidate_resolved",
+      "status": "pending",
+      "gate_note": "Motor ve şanzıman ailesi repoda zaten kayıtlı, bu yüzden yeni aile araştırması gerekmiyor. Ama P2.1 bu satırın puanını 'teknik önsel' olarak işaretlemiş, yani araştırılmış değil; depoya alınmadan önce araca özgü en az iki bağımsız kaynak bulunmalı ve motor/şanzıman puanları aile temel puanından türetilmelidir."
+    },
+    {
+      "proposed_car_id": "nissan-qashqai-j11-1-3-dig-t-dct",
+      "name": "Qashqai 1.3 DIG-T DCT 160",
+      "brand": "Nissan",
+      "years": "2019-2020",
+      "hp": 160,
+      "torque_nm": 270.0,
+      "fuel": "Benzin",
+      "drivetrain": "Önden",
+      "body_type": "SUV",
+      "engine_id": "renault-h5ht",
+      "transmission_id": "getrag-7dct300",
+      "technical_url": "https://www.autoevolution.com/cars/nissan-qashqai-2017.html",
+      "p2_score_method": "p2.1-technical-prior",
+      "p2_publication_status": "candidate_resolved",
+      "status": "pending",
+      "gate_note": "Motor ve şanzıman ailesi repoda zaten kayıtlı, bu yüzden yeni aile araştırması gerekmiyor. Ama P2.1 bu satırın puanını 'teknik önsel' olarak işaretlemiş, yani araştırılmış değil; depoya alınmadan önce araca özgü en az iki bağımsız kaynak bulunmalı ve motor/şanzıman puanları aile temel puanından türetilmelidir."
+    },
+    {
+      "proposed_car_id": "opel-corsa-f-1-2-turbo-130-eat8",
+      "name": "Corsa F 1.2 Turbo 130 EAT8",
+      "brand": "Opel",
+      "years": "2019-2020",
+      "hp": 130,
+      "torque_nm": 230.0,
+      "fuel": "Benzin",
+      "drivetrain": "Önden",
+      "body_type": "Hatchback",
+      "engine_id": "psa-puretech-12",
+      "transmission_id": "psa-eat8",
+      "technical_url": "https://www.autoevolution.com/cars/opel-corsa-2019.html",
+      "p2_score_method": "p2.1-technical-prior",
+      "p2_publication_status": "candidate_resolved",
+      "status": "pending",
+      "gate_note": "Motor ve şanzıman ailesi repoda zaten kayıtlı, bu yüzden yeni aile araştırması gerekmiyor. Ama P2.1 bu satırın puanını 'teknik önsel' olarak işaretlemiş, yani araştırılmış değil; depoya alınmadan önce araca özgü en az iki bağımsız kaynak bulunmalı ve motor/şanzıman puanları aile temel puanından türetilmelidir."
+    },
+    {
+      "proposed_car_id": "renault-captur-ii-1-3-tce-130-edc",
+      "name": "Captur II 1.3 TCe 130 EDC",
+      "brand": "Renault",
+      "years": "2019-2020",
+      "hp": 130,
+      "torque_nm": 240.0,
+      "fuel": "Benzin",
+      "drivetrain": "Önden",
+      "body_type": "SUV",
+      "engine_id": "renault-h5ht",
+      "transmission_id": "getrag-7dct300",
+      "technical_url": "https://www.autoevolution.com/cars/renault-captur-2019.html",
+      "p2_score_method": "p2.1-technical-prior",
+      "p2_publication_status": "candidate_resolved",
+      "status": "pending",
+      "gate_note": "Motor ve şanzıman ailesi repoda zaten kayıtlı, bu yüzden yeni aile araştırması gerekmiyor. Ama P2.1 bu satırın puanını 'teknik önsel' olarak işaretlemiş, yani araştırılmış değil; depoya alınmadan önce araca özgü en az iki bağımsız kaynak bulunmalı ve motor/şanzıman puanları aile temel puanından türetilmelidir."
+    }
+  ],
+  "engine_family_mapping_proposals": [
+    {
+      "p2_engine_id": "eng-28e1495ff10f069727",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 2.0,
+      "unlocks_vehicles": 36,
+      "dominant_brand": "BMW",
+      "example_models": [
+        "BMW 1 Serisi",
+        "BMW 3 Serisi",
+        "BMW 3 Serisi 320Cd",
+        "BMW 5 Serisi"
+      ],
+      "hp_range": [
+        116,
+        218
+      ],
+      "year_range": [
+        2001,
+        2014
+      ],
+      "proposed_repo_engine_ids": [
+        "bmw-m47",
+        "bmw-n47"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-f1c966b175f5432752",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 2.0,
+      "unlocks_vehicles": 31,
+      "dominant_brand": "BMW",
+      "example_models": [
+        "BMW 1 Serisi",
+        "BMW 3 Serisi",
+        "BMW 3 Serisi 318Ci",
+        "BMW 5 Serisi"
+      ],
+      "hp_range": [
+        122,
+        170
+      ],
+      "year_range": [
+        2000,
+        2012
+      ],
+      "proposed_repo_engine_ids": [
+        "bmw-m52",
+        "bmw-n43",
+        "bmw-n4x",
+        "bmw-n20"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-eab7068d4e2d20a2c9",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 3.0,
+      "unlocks_vehicles": 23,
+      "dominant_brand": "BMW",
+      "example_models": [
+        "BMW 3 Serisi",
+        "BMW 5 Serisi",
+        "BMW 5 Serisi 530xd",
+        "BMW 7 Serisi"
+      ],
+      "hp_range": [
+        197,
+        313
+      ],
+      "year_range": [
+        2001,
+        2016
+      ],
+      "proposed_repo_engine_ids": [
+        "bmw-m57"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-dac2eed4d966b94dbd",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 2.1,
+      "unlocks_vehicles": 23,
+      "dominant_brand": "Mercedes-Benz",
+      "example_models": [
+        "Mercedes-Benz B B 180 CDI",
+        "Mercedes-Benz C C 180",
+        "Mercedes-Benz C C 200",
+        "Mercedes-Benz C C 220 CDI",
+        "Mercedes-Benz C C 270 CDI"
+      ],
+      "hp_range": [
+        120,
+        204
+      ],
+      "year_range": [
+        2011,
+        2018
+      ],
+      "proposed_repo_engine_ids": [
+        "mb-om651"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-10b05da0c2cb7e349c",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 2.0,
+      "unlocks_vehicles": 23,
+      "dominant_brand": "Volkswagen",
+      "example_models": [
+        "Volkswagen Golf",
+        "Volkswagen Jetta",
+        "Volkswagen Passat"
+      ],
+      "hp_range": [
+        110,
+        240
+      ],
+      "year_range": [
+        2005,
+        2019
+      ],
+      "proposed_repo_engine_ids": [
+        "vag-ea188-pd",
+        "vag-ea189",
+        "vag-ea288"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-e89e3360233ed38720",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 22,
+      "dominant_brand": "Peugeot",
+      "example_models": [
+        "Peugeot 207",
+        "Peugeot 308",
+        "Peugeot 508",
+        "Peugeot RCZ"
+      ],
+      "hp_range": [
+        120,
+        225
+      ],
+      "year_range": [
+        2006,
+        2019
+      ],
+      "proposed_repo_engine_ids": [
+        "fca-etorq-16",
+        "ford-sigma-tivct",
+        "gm-a16let",
+        "gm-family1-16",
+        "honda-d16-d17",
+        "honda-r16",
+        "hyundai-beta-16",
+        "mb-m270",
+        "mitsubishi-4a92",
+        "nissan-hr16de",
+        "nissan-qg16",
+        "psa-tu5",
+        "renault-k4m",
+        "suzuki-m16a",
+        "toyota-zr",
+        "toyota-zz",
+        "vag-ea827",
+        "psa-ec5",
+        "psa-ep6-vti",
+        "psa-ep6-thp",
+        "hyundai-gamma16-mpi",
+        "hyundai-gamma16-gdi",
+        "hyundai-gamma16-tgdi"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-29a48601afe75c861e",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 2.4,
+      "unlocks_vehicles": 18,
+      "dominant_brand": "Volvo",
+      "example_models": [
+        "Volvo S60",
+        "Volvo S80",
+        "Volvo V70"
+      ],
+      "hp_range": [
+        163,
+        215
+      ],
+      "year_range": [
+        2007,
+        2018
+      ],
+      "proposed_repo_engine_ids": [],
+      "confidence": "repoda karşılık yok"
+    },
+    {
+      "p2_engine_id": "eng-af78093e6575f96180",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 2.0,
+      "unlocks_vehicles": 17,
+      "dominant_brand": "Skoda",
+      "example_models": [
+        "Skoda Octavia",
+        "Skoda SuperB"
+      ],
+      "hp_range": [
+        140,
+        184
+      ],
+      "year_range": [
+        2005,
+        2017
+      ],
+      "proposed_repo_engine_ids": [
+        "bmw-m47",
+        "bmw-n47",
+        "ford-duratorq-20",
+        "gm-a20dth",
+        "psa-dw10",
+        "renault-m9r",
+        "vag-ea188-pd",
+        "vag-ea189",
+        "vag-ea288",
+        "volvo-d-20"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-db375482984cb54b21",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 3.0,
+      "unlocks_vehicles": 16,
+      "dominant_brand": "BMW",
+      "example_models": [
+        "BMW 3 Serisi",
+        "BMW 5 Serisi",
+        "BMW 5 Serisi 530xi"
+      ],
+      "hp_range": [
+        218,
+        272
+      ],
+      "year_range": [
+        2003,
+        2009
+      ],
+      "proposed_repo_engine_ids": [
+        "bmw-m54"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-647258e0b9ebafb24c",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 16,
+      "dominant_brand": "Hyundai",
+      "example_models": [
+        "Hyundai Accent",
+        "Hyundai Elantra",
+        "Hyundai i30",
+        "Hyundai ix20"
+      ],
+      "hp_range": [
+        120,
+        201
+      ],
+      "year_range": [
+        2006,
+        2019
+      ],
+      "proposed_repo_engine_ids": [
+        "hyundai-beta-16",
+        "hyundai-gamma16-mpi",
+        "hyundai-gamma16-gdi",
+        "hyundai-gamma16-tgdi"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-4ca1d1d5e5a47fc0d3",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 16,
+      "dominant_brand": "Opel",
+      "example_models": [
+        "Opel Astra",
+        "Opel Insignia",
+        "Opel Zafira"
+      ],
+      "hp_range": [
+        105,
+        200
+      ],
+      "year_range": [
+        2004,
+        2019
+      ],
+      "proposed_repo_engine_ids": [
+        "fca-etorq-16",
+        "ford-sigma-tivct",
+        "gm-a16let",
+        "gm-family1-16",
+        "honda-d16-d17",
+        "honda-r16",
+        "hyundai-beta-16",
+        "mb-m270",
+        "mitsubishi-4a92",
+        "nissan-hr16de",
+        "nissan-qg16",
+        "psa-tu5",
+        "renault-k4m",
+        "suzuki-m16a",
+        "toyota-zr",
+        "toyota-zz",
+        "vag-ea827",
+        "psa-ec5",
+        "psa-ep6-vti",
+        "psa-ep6-thp",
+        "hyundai-gamma16-mpi",
+        "hyundai-gamma16-gdi",
+        "hyundai-gamma16-tgdi"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-f01ad1fb7d6deb595c",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 15,
+      "dominant_brand": "Citroën",
+      "example_models": [
+        "Citroën C4",
+        "Citroën C5"
+      ],
+      "hp_range": [
+        110,
+        120
+      ],
+      "year_range": [
+        2007,
+        2017
+      ],
+      "proposed_repo_engine_ids": [
+        "fca-multijet-16",
+        "gm-a16dth",
+        "hyundai-u2-16",
+        "psa-dv6",
+        "renault-r9m",
+        "vag-ea189",
+        "vag-ea288"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-067a991f1dc1bd918c",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 15,
+      "dominant_brand": "Volkswagen",
+      "example_models": [
+        "Volkswagen Golf",
+        "Volkswagen Jetta",
+        "Volkswagen Passat"
+      ],
+      "hp_range": [
+        105,
+        120
+      ],
+      "year_range": [
+        2008,
+        2020
+      ],
+      "proposed_repo_engine_ids": [
+        "vag-ea189",
+        "vag-ea288"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-bb6b1799b207909512",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 2.0,
+      "unlocks_vehicles": 15,
+      "dominant_brand": "Saab",
+      "example_models": [
+        "Saab 9-3",
+        "Saab 9-5"
+      ],
+      "hp_range": [
+        130,
+        205
+      ],
+      "year_range": [
+        2000,
+        2005
+      ],
+      "proposed_repo_engine_ids": [
+        "saab-b2x5"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-975f04b264dbd87531",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 2.0,
+      "unlocks_vehicles": 14,
+      "dominant_brand": "Ford",
+      "example_models": [
+        "Ford Galaxy",
+        "Ford Mondeo",
+        "Ford S-Max"
+      ],
+      "hp_range": [
+        140,
+        210
+      ],
+      "year_range": [
+        2006,
+        2019
+      ],
+      "proposed_repo_engine_ids": [
+        "ford-duratorq-20"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-6f3b9ff6204220a253",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 1.4,
+      "unlocks_vehicles": 14,
+      "dominant_brand": "Volkswagen",
+      "example_models": [
+        "Volkswagen Golf",
+        "Volkswagen Jetta",
+        "Volkswagen Passat",
+        "Volkswagen Polo",
+        "Volkswagen Scirocco"
+      ],
+      "hp_range": [
+        122,
+        180
+      ],
+      "year_range": [
+        2005,
+        2015
+      ],
+      "proposed_repo_engine_ids": [
+        "vag-ea211",
+        "vag-ea111-tsi-tc",
+        "vag-ea111-tsi-turbo"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-770f6109a4d0d92e23",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 3.0,
+      "unlocks_vehicles": 12,
+      "dominant_brand": "BMW",
+      "example_models": [
+        "BMW 3 Serisi",
+        "BMW 3 Serisi 330Ci",
+        "BMW 5 Serisi"
+      ],
+      "hp_range": [
+        231,
+        315
+      ],
+      "year_range": [
+        2000,
+        2009
+      ],
+      "proposed_repo_engine_ids": [
+        "bmw-m54"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-e199fa1bf1992e4459",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 1.5,
+      "unlocks_vehicles": 12,
+      "dominant_brand": "Renault",
+      "example_models": [
+        "Renault Fluence",
+        "Renault Megane",
+        "Renault Scenic"
+      ],
+      "hp_range": [
+        110,
+        115
+      ],
+      "year_range": [
+        2008,
+        2020
+      ],
+      "proposed_repo_engine_ids": [
+        "renault-k9k"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-6be44423216df87457",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 11,
+      "dominant_brand": "Peugeot",
+      "example_models": [
+        "Peugeot 206",
+        "Peugeot 301",
+        "Peugeot 307"
+      ],
+      "hp_range": [
+        110,
+        115
+      ],
+      "year_range": [
+        2000,
+        2017
+      ],
+      "proposed_repo_engine_ids": [
+        "fca-etorq-16",
+        "ford-sigma-tivct",
+        "gm-a16let",
+        "gm-family1-16",
+        "honda-d16-d17",
+        "honda-r16",
+        "hyundai-beta-16",
+        "mb-m270",
+        "mitsubishi-4a92",
+        "nissan-hr16de",
+        "nissan-qg16",
+        "psa-tu5",
+        "renault-k4m",
+        "suzuki-m16a",
+        "toyota-zr",
+        "toyota-zz",
+        "vag-ea827",
+        "psa-ec5",
+        "psa-ep6-vti",
+        "psa-ep6-thp",
+        "hyundai-gamma16-mpi",
+        "hyundai-gamma16-gdi",
+        "hyundai-gamma16-tgdi"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-808598dc49f02ef1a5",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 11,
+      "dominant_brand": "Renault",
+      "example_models": [
+        "Renault Clio",
+        "Renault Fluence",
+        "Renault Megane",
+        "Renault Modus",
+        "Renault Scenic"
+      ],
+      "hp_range": [
+        105,
+        116
+      ],
+      "year_range": [
+        2001,
+        2020
+      ],
+      "proposed_repo_engine_ids": [
+        "nissan-hr16de",
+        "renault-k4m"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-b54e4f8a0e6fcb4c2a",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 10,
+      "dominant_brand": "Citroën",
+      "example_models": [
+        "Citroën C3",
+        "Citroën C4",
+        "Citroën C5"
+      ],
+      "hp_range": [
+        120,
+        167
+      ],
+      "year_range": [
+        2007,
+        2018
+      ],
+      "proposed_repo_engine_ids": [
+        "fca-etorq-16",
+        "ford-sigma-tivct",
+        "gm-a16let",
+        "gm-family1-16",
+        "honda-d16-d17",
+        "honda-r16",
+        "hyundai-beta-16",
+        "mb-m270",
+        "mitsubishi-4a92",
+        "nissan-hr16de",
+        "nissan-qg16",
+        "psa-tu5",
+        "renault-k4m",
+        "suzuki-m16a",
+        "toyota-zr",
+        "toyota-zz",
+        "vag-ea827",
+        "psa-ec5",
+        "psa-ep6-vti",
+        "psa-ep6-thp",
+        "hyundai-gamma16-mpi",
+        "hyundai-gamma16-gdi",
+        "hyundai-gamma16-tgdi"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-e14618cd3969d48f0d",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 2.1,
+      "unlocks_vehicles": 10,
+      "dominant_brand": "Mercedes-Benz",
+      "example_models": [
+        "Mercedes-Benz C C 200 CDI",
+        "Mercedes-Benz C C 220 CDI",
+        "Mercedes-Benz CLK CLK 270 CDI",
+        "Mercedes-Benz E 200",
+        "Mercedes-Benz E 200 CDI"
+      ],
+      "hp_range": [
+        116,
+        150
+      ],
+      "year_range": [
+        2000,
+        2009
+      ],
+      "proposed_repo_engine_ids": [
+        "mb-om651"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-5052021b1a443e63b7",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 10,
+      "dominant_brand": "Toyota",
+      "example_models": [
+        "Toyota Auris",
+        "Toyota Corolla"
+      ],
+      "hp_range": [
+        110,
+        132
+      ],
+      "year_range": [
+        2000,
+        2015
+      ],
+      "proposed_repo_engine_ids": [
+        "toyota-zr",
+        "toyota-zz"
+      ],
+      "confidence": "marka+yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-f7072a9e1b5648ebe7",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 1.4,
+      "unlocks_vehicles": 9,
+      "dominant_brand": "Audi",
+      "example_models": [
+        "Audi A1",
+        "Audi A3 Sportback"
+      ],
+      "hp_range": [
+        110,
+        185
+      ],
+      "year_range": [
+        2008,
+        2018
+      ],
+      "proposed_repo_engine_ids": [
+        "fca-fire-14",
+        "fca-multiair-14",
+        "gm-a14net",
+        "hyundai-gamma-14",
+        "vag-ea211",
+        "vag-ea111-tsi-tc",
+        "vag-ea111-tsi-turbo"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-ab4db162eeffb3c130",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 9,
+      "dominant_brand": "Citroën",
+      "example_models": [
+        "Citroën C-Elysée",
+        "Citroën C2",
+        "Citroën C3",
+        "Citroën C4",
+        "Citroën Xsara"
+      ],
+      "hp_range": [
+        109,
+        115
+      ],
+      "year_range": [
+        2000,
+        2013
+      ],
+      "proposed_repo_engine_ids": [
+        "fca-etorq-16",
+        "ford-sigma-tivct",
+        "gm-a16let",
+        "gm-family1-16",
+        "honda-d16-d17",
+        "honda-r16",
+        "hyundai-beta-16",
+        "mb-m270",
+        "mitsubishi-4a92",
+        "nissan-hr16de",
+        "nissan-qg16",
+        "psa-tu5",
+        "renault-k4m",
+        "suzuki-m16a",
+        "toyota-zr",
+        "toyota-zz",
+        "vag-ea827",
+        "psa-ec5",
+        "psa-ep6-vti",
+        "psa-ep6-thp",
+        "hyundai-gamma16-mpi",
+        "hyundai-gamma16-gdi",
+        "hyundai-gamma16-tgdi"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-9a1fd9ade24da802d1",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 2.0,
+      "unlocks_vehicles": 9,
+      "dominant_brand": "Opel",
+      "example_models": [
+        "Opel Astra",
+        "Opel Insignia",
+        "Opel Zafira"
+      ],
+      "hp_range": [
+        130,
+        195
+      ],
+      "year_range": [
+        2008,
+        2019
+      ],
+      "proposed_repo_engine_ids": [
+        "bmw-m47",
+        "bmw-n47",
+        "ford-duratorq-20",
+        "gm-a20dth",
+        "psa-dw10",
+        "renault-m9r",
+        "vag-ea188-pd",
+        "vag-ea189",
+        "vag-ea288",
+        "volvo-d-20"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-ef877975b383bd217f",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 9,
+      "dominant_brand": "Skoda",
+      "example_models": [
+        "Skoda Octavia",
+        "Skoda Scala",
+        "Skoda SuperB"
+      ],
+      "hp_range": [
+        105,
+        120
+      ],
+      "year_range": [
+        2008,
+        2020
+      ],
+      "proposed_repo_engine_ids": [
+        "fca-multijet-16",
+        "gm-a16dth",
+        "hyundai-u2-16",
+        "psa-dv6",
+        "renault-r9m",
+        "vag-ea189",
+        "vag-ea288"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-1cd17bb21f86b11837",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 3.0,
+      "unlocks_vehicles": 9,
+      "dominant_brand": "Mercedes-Benz",
+      "example_models": [
+        "Mercedes-Benz C C 270 CDI",
+        "Mercedes-Benz CLK CLK 270 CDI",
+        "Mercedes-Benz E 200 CDI",
+        "Mercedes-Benz E 270 CDI",
+        "Mercedes-Benz E 320 CDI"
+      ],
+      "hp_range": [
+        190,
+        265
+      ],
+      "year_range": [
+        2002,
+        2013
+      ],
+      "proposed_repo_engine_ids": [
+        "bmw-m57",
+        "vag-v6-tdi"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-409320071eed0c590a",
+      "p2_fuel": "Benzin",
+      "p2_displacement_l": 2.0,
+      "unlocks_vehicles": 9,
+      "dominant_brand": "Renault",
+      "example_models": [
+        "Renault Laguna",
+        "Renault Megane"
+      ],
+      "hp_range": [
+        140,
+        170
+      ],
+      "year_range": [
+        2007,
+        2016
+      ],
+      "proposed_repo_engine_ids": [
+        "bmw-m52",
+        "bmw-n43",
+        "bmw-n4x",
+        "ford-duratec-he",
+        "honda-k20-k24",
+        "mazda-fs",
+        "mazda-lf",
+        "mb-m111",
+        "rover-kv6",
+        "saab-b2x5",
+        "vag-ea888",
+        "volvo-b4204s",
+        "volvo-b4204t-gtdi",
+        "vag-ea888-evo4",
+        "gm-a20net",
+        "subaru-fb20",
+        "honda-r20a",
+        "mb-m274",
+        "bmw-n20"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    },
+    {
+      "p2_engine_id": "eng-d36c9f0df3777ac1cf",
+      "p2_fuel": "Dizel",
+      "p2_displacement_l": 1.6,
+      "unlocks_vehicles": 8,
+      "dominant_brand": "Audi",
+      "example_models": [
+        "Audi A1",
+        "Audi A3 Sportback"
+      ],
+      "hp_range": [
+        105,
+        116
+      ],
+      "year_range": [
+        2008,
+        2020
+      ],
+      "proposed_repo_engine_ids": [
+        "fca-multijet-16",
+        "gm-a16dth",
+        "hyundai-u2-16",
+        "psa-dv6",
+        "renault-r9m",
+        "vag-ea189",
+        "vag-ea288"
+      ],
+      "confidence": "yakıt+hacim eşleşti"
+    }
+  ]
+}

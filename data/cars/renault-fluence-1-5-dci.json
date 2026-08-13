@@ -13,7 +13,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "renault-edc-kuru",
     "body_type": "Sedan",
-    "engine_id": "renault-k9k"
+    "engine_id": "renault-k9k",
+    "torque_nm": 240
   },
   "price_band_k_try": [
     650,
@@ -40,7 +41,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Tork (240 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (110 bg) ve motor hacmi (1.5 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

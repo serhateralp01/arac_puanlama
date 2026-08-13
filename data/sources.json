@@ -3449,6 +3449,7 @@
     }
   },
   "carchecker_yaris_1nr": {
+    "id": "carchecker_yaris_1nr",
     "claim": "carchecker.pro'nun Toyota Yaris XP130 1.33 Dual VVT-i güvenilirlik raporu, motorun Avrupa pazarındaki en dayanıklı küçük hacimli atmosferik motorlardan biri olduğunu, kronik bir arıza kalıbı bildirilmediğini, buna karşılık eşleştiği Multidrive S CVT'nin 80-100 bin km'den sonra sarsıntı/gecikme gösterebildiğini aktarıyor.",
     "publisher": "CarChecker.pro",
     "url": "https://www.carchecker.pro/reports/toyota_yaris_xp130_1.33_vvti.html",
@@ -3463,6 +3464,7 @@
     }
   },
   "carchecker_micra_hr12de": {
+    "id": "carchecker_micra_hr12de",
     "claim": "carchecker.pro'nun Nissan Micra K13 1.2 HR12DE raporu, motorun düzenli bakımla 200.000 km üzerini sorunsuz görebildiğini, asıl güvenilirlik riskinin motorda değil eşleştiği Xtronic CVT'de olduğunu aktarıyor.",
     "publisher": "CarChecker.pro",
     "url": "https://www.carchecker.pro/reports/nissan_micra_k13_1.2.html",
@@ -3477,6 +3479,7 @@
     }
   },
   "vtecgaraj_jazz_cvt": {
+    "id": "vtecgaraj_jazz_cvt",
     "claim": "VTEC Garaj (Honda özel servisi) Jazz/Fit CVT şanzıman bakım sayfası: CVT yağının resmi Honda yağıyla periyodik değiştirilmesinin önemini, az kullanılan araçlarda bakımın ihmal edilmesi durumunda pahalı arızalara yol açabildiğini aktarıyor.",
     "publisher": "VTEC Garaj",
     "url": "https://vtecgaraj.com/honda-jazz-fit-ozel-servis-ankara-vtec-garaj-bakim-onarim/",
@@ -3491,6 +3494,7 @@
     }
   },
   "hondajazz_blogspot_cvt": {
+    "id": "hondajazz_blogspot_cvt",
     "claim": "Bir Honda Jazz kullanıcısının blog yazısı, birinci nesil Jazz'da (GD serisi) bildirilen CVT sorunlarını ve bunların büyük ölçüde bakım ihmaline bağlı olduğunu aktarıyor.",
     "publisher": "hondajazz.blogspot.com",
     "url": "http://hondajazz.blogspot.com/2008/02/birinci-nesildeki-cvt-sorunu.html",
@@ -3505,6 +3509,7 @@
     }
   },
   "borlease_picanto_inceleme": {
+    "id": "borlease_picanto_inceleme",
     "claim": "Borlease'in Kia Picanto inceleme yazısı, 1.2 Kappa motorun basit atmosferik tasarımının ve Hyundai-Kia'nın Türkiye'deki geniş servis ağının güvenilirlik ve yedek parça bulunabilirliği açısından avantaj sağladığını aktarıyor.",
     "publisher": "Borlease",
     "url": "https://www.borlease.com.tr/blog/arac-inceleme/kia-picanto-incelemesi-ozellikleri-ve-modelleri",
@@ -3519,6 +3524,7 @@
     }
   },
   "teknikotomatik_a4cf1": {
+    "id": "teknikotomatik_a4cf1",
     "claim": "teknikotomatiksanziman.com'un A4CF1 şanzıman sayfası, bu kutunun Hyundai-Kia grubunun dört ileri tork konvertörlü ailesi olduğunu ve basit yapısı sayesinde genel olarak dayanıklı kabul edildiğini aktarıyor.",
     "publisher": "Teknik Otomatik Şanzıman Servisi",
     "url": "https://www.teknikotomatiksanziman.com/a4cf1-sanziman-nedir",
@@ -3533,6 +3539,7 @@
     }
   },
   "teknikotomatik_a4cf2": {
+    "id": "teknikotomatik_a4cf2",
     "claim": "teknikotomatiksanziman.com'un A4CF2 şanzıman sayfası, bu kutunun A4CF1'in bir sonraki varyantı olduğunu, eski nesil kompakt Hyundai-Kia modellerinde kullanıldığını ve yapısal bir kusur bildirilmediğini aktarıyor.",
     "publisher": "Teknik Otomatik Şanzıman Servisi",
     "url": "https://teknikotomatiksanziman.com/a4cf2-sanziman-nedir/",
@@ -3547,6 +3554,7 @@
     }
   },
   "newparts_l15b7_oil_dilution": {
+    "id": "newparts_l15b7_oil_dilution",
     "claim": "newparts.com'un L15B7 makalesi, Honda'nın 1.5 turbo motorunda yağ seyrelmesi (oil dilution) sorununu ayrıntılı biçimde açıklıyor: motor soğuk havada yeterince ısınmadığında yanmamış yakıtın piston segmanlarından geçip yağa karıştığını, bunun yağlamayı zayıflattığını ve Honda'nın 2017-2018 CR-V ile 2016-2018 Civic'lerde 1 milyondan fazla aracı kapsayan garanti uzatması yaptığını aktarıyor.",
     "publisher": "newparts.com",
     "url": "https://newparts.com/articles/honda-l15b7-oil-dilution-issue-explained/",
@@ -3561,6 +3569,7 @@
     }
   },
   "8020automotive_l15b7": {
+    "id": "8020automotive_l15b7",
     "claim": "8020automotive.com'un L15B7 makalesi, yağ seyrelmesine ek olarak wastegate aktüatör gevşemesi/arızası, kafa contasıyla ilgisiz soğutucu sızıntıları ve triger zincirinde aşınma gibi tekrarlayan üç sorunu listeliyor; motoru genel olarak rakiplerine göre güvenilir ama bakımsız/soğuk iklim kullanımında bu kalemlere dikkat edilmesi gereken bir tasarım olarak tanımlıyor.",
     "publisher": "8020automotive.com",
     "url": "https://8020automotive.com/the-3-most-common-honda-1-5t-l15b7-engine-problems/",
@@ -3575,6 +3584,7 @@
     }
   },
   "cararac_g4nb_18": {
+    "id": "cararac_g4nb_18",
     "claim": "cararac.com'un G4NB (Hyundai Elantra 1.8 Nu) makalesi, erken üretim motorlarda piston segmanı tasarımından kaynaklanan yağ tüketimi ve silindir çizilmesi bildirildiğini, 2013-2015 revizyonunun ABD spesifikasyonlu 1.6/1.8 birimlerinde yağ yakma olasılığını azalttığını aktarıyor.",
     "publisher": "cararac.com",
     "url": "https://cararac.com/blog/hyundai-elantra-1-8-engine-probelms-durability.html",
@@ -3589,6 +3599,7 @@
     }
   },
   "classaction_ford_ecoboost_coolant": {
+    "id": "classaction_ford_ecoboost_coolant",
     "claim": "classaction.org'un Ford EcoBoost dava özeti, 1.0 litrelik EcoBoost motorlarda soğutucunun silindir kafasındaki çatlak/eğilme yoluyla yanma odasına sızdığını, Ford'un bu kusuru kapsayan bir garanti uzatması yaptığını ve etkilenen binlerce müşteri için onarım maliyetinin tamamını üstlendiğini aktarıyor.",
     "publisher": "ClassAction.org",
     "url": "https://www.classaction.org/ford-ecoboost-engine-problems-coolant-overheating",
@@ -3603,6 +3614,7 @@
     }
   },
   "fordwetbeltspecialists_10ecoboost": {
+    "id": "fordwetbeltspecialists_10ecoboost",
     "claim": "fordwetbeltspecialists.co.uk, 1.0 EcoBoost motorların yağ içinde çalışan triger kayışının 100-120 bin mil civarında aşınmaya başladığını, kopan kayış parçacıklarının aynı kayışla tahrik edilen yağ pompasını tıkayabildiğini aktarıyor.",
     "publisher": "Ford Wet Belt Specialists",
     "url": "https://fordwetbeltspecialists.co.uk/ford-ecoboost-timing-belt-when-to-replace-2025/",
@@ -3617,6 +3629,7 @@
     }
   },
   "smartcarcheck_focus_mk4_8at": {
+    "id": "smartcarcheck_focus_mk4_8at",
     "claim": "smartcarcheck.co.uk'un Focus Mk4 rehberi, bu neslin sorunlu Powershift kuru DCT'nin yerine Aisin kaynaklı 8 ileri tork konvertörlü SelectShift otomatiğe geçtiğini, 2018-2020 yapımı erken örneklerde düşük hızda sarsıntı ve gecikmeli vites geçişi şikayetleri bildirildiğini ama bunların büyük ölçüde yazılım güncellemesiyle giderildiğini aktarıyor.",
     "publisher": "SmartCarCheck",
     "url": "https://smartcarcheck.co.uk/guides/ford/focus-mk4",
@@ -3631,6 +3644,7 @@
     }
   },
   "mercedesassistance_m274": {
+    "id": "mercedesassistance_m274",
     "claim": "en.mercedesassistance.com'un M274 rehberi, triger zinciri ve kam mili ayarlayıcı aşınmasının (soğuk çalıştırmada metalik ses), termostat arızasının, agresif/bakımsız kullanımda piston çatlamasının, PCV valfindeki yağ ayırıcı zarın bozulmasının ve turbo wastegate aktüatör diyaframının çatlamasının bilinen sorunlar olduğunu; düzenli yağ değişimi ve proaktif bakımla 300.000 km'ye ulaşılabildiğini, ihmal edilen bakımın pahalı zincir/turbo arızalarına yol açtığını aktarıyor.",
     "publisher": "Mercedes Assistance",
     "url": "https://en.mercedesassistance.com/m274-engine-mercedes/",
@@ -3645,6 +3659,7 @@
     }
   },
   "asrgearbox_9gtronic": {
+    "id": "asrgearbox_9gtronic",
     "claim": "asrgearboxrepairs.co.uk'un 9G-Tronic sayfası, nadir vakalarda 50-70 bin km civarında sarsıntılı vites değişimi veya gecikmeli kalkış bildirildiğini, kök nedenin genelde valf gövdesi aşınması veya konvertör kavraması yıpranması olduğunu, çoğu sorunun yazılım güncellemesiyle çözüldüğünü ve kutunun genel olarak güvenilir kabul edildiğini aktarıyor.",
     "publisher": "ASR Gearbox Repairs",
     "url": "https://www.asrgearboxrepairs.co.uk/9g-tronic-mercedes-9-speed-auto/",
@@ -3659,6 +3674,7 @@
     }
   },
   "vtec_asia_r20a": {
+    "id": "vtec_asia_r20a",
     "claim": "asia.vtec.net'in R20A sayfası, bu motorun R18A'nın stroku uzatılmış (stroked) versiyonu olduğunu ve Asya/Avrupa pazarına özel CR-V III (2007-2012) ile FR-V'de kullanıldığını, ABD/JDM'deki K24 ailesinden farklı bir tasarım olduğunu aktarıyor.",
     "publisher": "asia.vtec.net",
     "url": "http://asia.vtec.net/Engines/R20A/index.html",
@@ -3673,6 +3689,7 @@
     }
   },
   "mycarvoice_nu18_settlement": {
+    "id": "mycarvoice_nu18_settlement",
     "claim": "mycarvoice.com, Hyundai 1.8L Nu motoruna karşı açılan bir grup davasının motor sıkışması ve stop etmesine yol açabilecek bir kusur iddia ettiğini, 2015'te Hyundai-Kia'nın krank mili işlenirken kalan metal talaşları nedeniyle ABD'de yaklaşık 1,2 milyon aracı (çoğu 2010-2013 üretim) geri çağırdığını aktarıyor.",
     "publisher": "mycarvoice.com",
     "url": "https://mycarvoice.com/news/hyundai-elantra-1-8l-nu-engine-class-action-settlement/",
@@ -3687,6 +3704,7 @@
     }
   },
   "carcomplaints_n20_settlement": {
+    "id": "carcomplaints_n20_settlement",
     "claim": "carcomplaints.com, BMW N20/N26 motorlarına karşı açılan triger zinciri davasının 28 Şubat 2021'de federal mahkemede kesinleştiğini; iddianın triger zincirinin plastik kılavuz parçasının gevrekleşip parçalanarak krank mili dişlisine sıkışabildiği yönünde olduğunu, BMW'nin 2017'de zaten verdiği 7 yıl/70.000 mil zincir garantisi uzatmasını sürdürdüğünü ve uzatma öncesi kendi cebinden ödeme yapan sahiplere geri ödeme programı sunduğunu aktarıyor.",
     "publisher": "carcomplaints.com",
     "url": "https://www.carcomplaints.com/news/2021/bmw-timing-chain-lawsuit-settlement-final.shtml",
@@ -3701,6 +3719,7 @@
     }
   },
   "autodoc_n20_chain": {
+    "id": "autodoc_n20_chain",
     "claim": "autodoc.co.uk, BMW F30 N20 motorunda triger zinciri kılavuzunun erken yıpranmasının motorun ön tarafından gelen tiz bir uğultu sesiyle kendini gösterdiğini, sorunun özellikle 2011-erken 2015 üretim araçlarda görüldüğünü ve zincirin motorun arkasında değil önünde olmasına rağmen onarımın yine de ağır işçilik gerektirdiğini aktarıyor.",
     "publisher": "autodoc.co.uk",
     "url": "https://www.autodoc.co.uk/info/bmw-f30-n20-engine-timing-chain-guide-failures",
@@ -3715,6 +3734,7 @@
     }
   },
   "carchecker_tucson_tgdi": {
+    "id": "carchecker_tucson_tgdi",
     "claim": "carchecker.pro'nun Hyundai Tucson TL 1.6 T-GDI güvenilirlik raporu, DCT otomatik şanzımanın ve erken üretim yıllarındaki (2018 fL öncesi) yağ tüketiminin başlıca risk kalemleri olduğunu, 2018 yüz germe sonrası üretilen araçlarda bu sorunların büyük ölçüde giderildiğini aktarıyor.",
     "publisher": "carchecker.pro",
     "url": "https://www.carchecker.pro/reports/hyundai_tucson_tl_1.6_tgdi.html",
@@ -3729,6 +3749,7 @@
     }
   },
   "ecotorque_dq200_mechatronic": {
+    "id": "ecotorque_dq200_mechatronic",
     "claim": "eco-torque.co.uk, VW/Audi DQ200 (7 ileri kuru DSG) kutusunda erken üretimde kavrama paketi arızası bildirildiğini (2012'de tasarımın yenilendiğini), mekatronik kontrol ünitesinin yağ kirlenmesi/solenoid aşınması/elektronik arıza nedeniyle bozulabildiğini ve 0AM mekatronik gövdesindeki basınç haznesi duvarının fabrika toleransı gereği ince olup çatlayabildiğini, bunun kavrama basıncı kaybına yol açtığını aktarıyor.",
     "publisher": "eco-torque.co.uk",
     "url": "https://eco-torque.co.uk/blogs/news/7-speed-dsg-gearbox-problems-mechatronic-faults-dsg-clutch-pack",
@@ -3743,6 +3764,7 @@
     }
   },
   "teknikotomatik_al4_dpo": {
+    "id": "teknikotomatik_al4_dpo",
     "claim": "teknikotomatiksanziman.com'un AL4 (DPO) makalesi, kutunun kronik sorunlarının şanzıman beyni (mekatronik/solenoid valf) arızası, aşırı ısınmaya bağlı valf gövdesi aşınması ve vites geçişlerinde vuruntu/boşa düşme olduğunu; bu sorunların çoğunlukla düzenli yağ değişimi ihmal edildiğinde ortaya çıktığını aktarıyor.",
     "publisher": "teknikotomatiksanziman.com",
     "url": "https://teknikotomatiksanziman.com/dpo-al4-sanziman/",
@@ -3757,6 +3779,7 @@
     }
   },
   "asrgearbox_eat6": {
+    "id": "asrgearbox_eat6",
     "claim": "asrgearboxrepairs.co.uk, Aisin EAT6/EAT8 kutusunun segmentin en sorunsuz otomatiklerinden biri olduğunu, düzenli (60.000 km) yağ değişimiyle mekanik arızanın son derece nadir olduğunu, en sık bildirilen şikayetlerin sert/vuruntulu vites geçişi (valf gövdesi tortu birikimi, eski TCU yazılımı) ve durup-kalkma trafiğinde tork konvertörü titremesi (yağ bozunumu) olduğunu aktarıyor.",
     "publisher": "asrgearboxrepairs.co.uk",
     "url": "https://www.asrgearboxrepairs.co.uk/eat6-eat8-aisin-psa-group/",
@@ -3771,6 +3794,7 @@
     }
   },
   "enginecrux_ea211_14tsi": {
+    "id": "enginecrux_ea211_14tsi",
     "claim": "enginecrux.com, EA211'in EA111'in triger zinciri sorununu (zincir yerine kayışa geçilerek) tamamen ortadan kaldırdığını, ama erken üretim EA211 1.4 TSI motorlarında piston segmanı tasarımı ve PCV sistemiyle ilişkili, kısa mesafe kullanımda artan yağ tüketimi bildirildiğini aktarıyor.",
     "publisher": "enginecrux.com",
     "url": "https://enginecrux.com/vw-1-4-tsi-engine-problems-reliability/",
@@ -3785,6 +3809,7 @@
     }
   },
   "enginefinders_ea288_20tdi": {
+    "id": "enginefinders_ea288_20tdi",
     "claim": "enginefinders.co.uk, EA288 2.0 TDI'de 170 PS varyantlarının bir kısmında 150.000-200.000 km sonrası triger zinciri uzamasına bağlı karakteristik bir tıkırtı, 120.000-180.000 km sonrası enjektörlerde kokslaşma/elektriksel arıza, Euro 6 araçlarda AdBlue sisteminde kristalleşen enjektör/pompa arızası ve NOx sensörü bozulması, ve 80.000-120.000 km sonrası EGR valfinde karbon tıkanması bildirildiğini aktarıyor.",
     "publisher": "enginefinders.co.uk",
     "url": "https://enginefinders.co.uk/blog/vw-2-0-tdi-engine-problems-reliability/",
@@ -3799,6 +3824,7 @@
     }
   },
   "autoscore_dw10": {
+    "id": "autoscore_dw10",
     "claim": "autoscore.pro, PSA'nın 2.0 HDi (DW10) dizelinin 'sağlam' bir motor olduğunu, düzenli bakım ve kaliteli yakıtla 300.000 km'yi rahatlıkla aştığını, ancak triger kayışının servis aralığının (150.000 km/8 yıl) ötesinde gerilebildiğini, yakıt filtresi/pompası arızasının düşük kaliteli yakıtla ilişkili olduğunu ve çift kütleli volanın (DMF) zamanla gürültü yapıp değişim gerektirdiğini aktarıyor.",
     "publisher": "autoscore.pro",
     "url": "https://autoscore.pro/engine/psa-2.0-hdi-dw10",
@@ -3813,6 +3839,7 @@
     }
   },
   "drivisual_puretech_wetbelt": {
+    "id": "drivisual_puretech_wetbelt",
     "claim": "drivisual.tv, PSA/Stellantis 1.2 PureTech motorlarında yakıt yanmamış halde silindir duvarından karterdeki yağa karışabildiğini, bunun yağ banyolu triger kayışının aşınmasını hızlandırdığını ve aşınan kayış parçacıklarının yağ devresini tıkayarak güç kaybına veya ağır motor hasarına yol açabildiğini; bu nedenle üreticinin önerdiği değişim aralığının 240.000 km'den 70.000 km'ye çekildiğini aktarıyor.",
     "publisher": "drivisual.tv",
     "url": "https://www.drivisual.tv/en/news/stellantis-1-2-puretech-guide-wet-belt-problems-oil-dilution-chain-upgrade-and-10-year-warranty",
@@ -3827,6 +3854,7 @@
     }
   },
   "lowoffset_2zrfe": {
+    "id": "lowoffset_2zrfe",
     "claim": "low-offset.com, Toyota 2ZR-FE (1.8) motorunun genel olarak dayanıklı sayıldığını, ama arka (downstream) oksijen sensörünün bilinen bir arıza noktası olduğunu (P0138 hata kodu) ve ateşleme bobinlerinin tek tek, tipik olarak 80.000-120.000 km sonrasında arızalanıp misfire'a yol açabildiğini aktarıyor.",
     "publisher": "low-offset.com",
     "url": "https://low-offset.com/toyota/2zr-fe-engine/",
@@ -3841,6 +3869,7 @@
     }
   },
   "asrgearbox_af40": {
+    "id": "asrgearbox_af40",
     "claim": "asrgearboxrepairs.co.uk, Aisin AF40-6 kutusunun 2004-2018 arası çok sayıda modelde neredeyse hiç mühendislik değişikliği olmadan kullanıldığını, en sık bildirilen sorunların valf gövdesi kaynaklı olduğunu (soğukken düşük viteslerde uzun kalma, orta hızda kilitlenme sırasında hafif titreşim, yavaşlarken sert darbe hissi) ve bunların çoğunun bozuk/eskimiş ATF veya güncellenmemiş şanzıman yazılımıyla ilişkili olduğunu aktarıyor.",
     "publisher": "asrgearboxrepairs.co.uk",
     "url": "https://www.asrgearboxrepairs.co.uk/aisin-6-speed-automatic/",
@@ -3855,6 +3884,7 @@
     }
   },
   "asrgearbox_eat8": {
+    "id": "asrgearbox_eat8",
     "claim": "asrgearboxrepairs.co.uk, Aisin EAT8 kutusunun mekanik valf gövdesi arızası, invertör bozulması veya planet dişli sorununun çok nadir olduğunu, en sık bildirilen şikayetlerin 1.-2. vites arası sert geçiş ve kickdown'da gecikme olduğunu, bu belirtilerin çoğu zaman kutunun kendisinden değil kontrol ünitesi yazılımından kaynaklandığını ve üreticinin servis kampanyalarıyla ECU güncellemesiyle çözebildiğini aktarıyor.",
     "publisher": "asrgearboxrepairs.co.uk",
     "url": "https://www.asrgearboxrepairs.co.uk/aisin-8-speed-automatic/",
@@ -3869,6 +3899,7 @@
     }
   },
   "go4trans_k310": {
+    "id": "go4trans_k310",
     "claim": "go4trans.com, Toyota'nın K310 CVT'sinin (Multidrive S) 1.8L ve altı motorlar için tasarlanmış küçük bir variatör olduğunu, tipik CVT sorunlarının (ATF kirlenmesi, aşırı ısınma, rulman hasarı, sızdırmazlık kaçakları) bu ailede de görülebildiğini, ama düzenli bakımla ve agresif sürüşten kaçınılarak 500.000 km'ye kadar revizyonsuz çalışabildiğini aktarıyor.",
     "publisher": "go4trans.com",
     "url": "https://go4trans.com/transmission/k310/",
@@ -3880,6 +3911,81 @@
     "retrieval": {
       "engine": "web_search",
       "found_at": "2026-08-07"
+    }
+  },
+  "bmwguide_m54b22_e46": {
+    "id": "bmwguide_m54b22_e46",
+    "claim": "bmwguide.net ve engineland.co.za, 2001 Eylül - 2005 Mart arası üretilen E46 320i'nin M54B22 motorunu kullandığını; bu motorun 2.171 cc hacimli, sıralı altı silindirli, atmosferik bir birim olduğunu ve 6.100 devirde 170 beygir, 3.500 devirde 210 Nm ürettiğini aktarıyor. Aynı kaynaklar motorun zincirle tahrik edildiğini ve ciddi onarım gerektirmeden 270.000-450.000 km arası dayandığını bildiriyor.",
+    "publisher": "bmwguide.net",
+    "url": "https://bmwguide.net/bmw-3-series-e46-320i-2001-2005-specs/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "autodata_passat_b7_16tdi": {
+    "id": "autodata_passat_b7_16tdi",
+    "claim": "auto-data.net ve ultimatespecs.com, VW Passat B7 1.6 TDI BlueMotion'ın 1.598 cc sıralı dört silindirli dizel motorunun 4.400 devirde 105 beygir ve 1.500-2.500 devir aralığında 250 Nm ürettiğini; aracın boş ağırlığının 1.505 kg olduğunu aktarıyor.",
+    "publisher": "auto-data.net",
+    "url": "https://www.auto-data.net/en/volkswagen-passat-b7-1.6-tdi-105hp-bluemotion-44146",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "autoexpress_polo_gti_dsg_tork": {
+    "id": "autoexpress_polo_gti_dsg_tork",
+    "claim": "autoexpress.co.uk ve ultimatespecs.com, VW Polo GTI (6C, 1.8 TSI, 192 bg) modelinde DSG şanzımanlı versiyonun torkunun kutuyu korumak amacıyla manuel versiyonun 320 Nm'sinden 250 Nm'ye sınırlandırıldığını aktarıyor; DSG varyantında tepe tork 1.250-5.300 devir aralığında veriliyor.",
+    "publisher": "autoexpress.co.uk",
+    "url": "https://www.autoexpress.co.uk/volkswagen/polo/20712/2015-2017-gti-hatchback",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "automobilecatalog_focus4_ecoblue": {
+    "id": "automobilecatalog_focus4_ecoblue",
+    "claim": "automobile-catalog.com ve auto-data.net, Ford Focus Mk4'ün 1.5 EcoBlue (120 bg) dizel motorunun 1.499 cc hacimli olduğunu ve 3.600 devirde 120 beygir ile 300 Nm tepe tork ürettiğini aktarıyor.",
+    "publisher": "automobile-catalog.com",
+    "url": "https://www.automobile-catalog.com/car/2019/2740340/ford_focus_1_5_ecoblue_120.html",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "arabam_p21_ilan_snapshot_2026_08": {
+    "id": "arabam_p21_ilan_snapshot_2026_08",
+    "claim": "arabam.com'un kamuya açık ikinci el arama sonuç kartlarından 13 Ağustos 2026'da alınan tarihli istenen fiyat gözlemleri; 54 ayrı sorgu sayfasından toplam 2.071 ilan kartı okundu, model-motor-nesil bazında gruplanıp 90 günlük pencerede (beşten az gözlemde 180 güne genişleterek) P25/medyan/P75 çeyreklikleri hesaplandı ve en az dört gözlemde Tukey 1,5×IQR aykırı değer filtresi uygulandı. Fiyatlar istenen ilan fiyatıdır, gerçekleşmiş satış fiyatı değildir; tek pazar yerinden alınmıştır ve sonuç kartında hasar bilgisi bulunmadığı için hasar durumu bilinmemektedir.",
+    "publisher": "arabam.com (P2.1 veri paketi üzerinden)",
+    "url": "https://www.arabam.com/ikinci-el/otomobil",
+    "type": "marketplace-snapshot",
+    "tier": "B",
+    "accessed": "2026-08-13",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "p2.1_dataset",
+      "found_at": "2026-08-13"
     }
   }
 }

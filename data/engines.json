@@ -155,12 +155,14 @@
     "id": "bmw-m54",
     "names": [
       "M54",
+      "M54B22",
       "M54B25",
       "M54B30"
     ],
     "supplier": "BMW",
     "fuel": "Benzin",
     "displacements_l": [
+      2.2,
       2.5,
       3
     ],
@@ -191,7 +193,7 @@
     "sources": [
       "engineexplained_m54"
     ],
-    "note": "M52'nin halefi; E39, E46 ve erken E60'ta kullanılan sıralı altı silindirli benzinli. Nikasil sorunu yok (döküm demir gömlek). [base_score gerekçesi: 65-84 üst yarısı: kaynak açıkça 'BMW'nin en güvenilir üretim motorlarından biri' diyor, sorunlar yaşlanan yardımcı parçalarla sınırlı; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
+    "note": "M52'nin halefi; E39, E46 ve erken E60'ta kullanılan sıralı altı silindirli benzinli. Nikasil sorunu yok (döküm demir gömlek). [base_score gerekçesi: 65-84 üst yarısı: kaynak açıkça 'BMW'nin en güvenilir üretim motorlarından biri' diyor, sorunlar yaşlanan yardımcı parçalarla sınırlı; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.] E46 320i (2001-2005) de bu ailenin 2.2 litrelik M54B22 birimini kullanıyor; bu araç 2026-08-13 P2.1 çapraz doğrulamasında yanlışlıkla dört silindirli bmw-n4x ailesine bağlı bulunup buraya taşındı (MK-18)."
   },
   "bmw-m57": {
     "id": "bmw-m57",
@@ -2399,7 +2401,9 @@
         "onset_km": null,
         "frequency": "seyrek",
         "severity": "orta",
-        "sources": ["enginecrux_ea211_14tsi"]
+        "sources": [
+          "enginecrux_ea211_14tsi"
+        ]
       }
     ],
     "sources": [
@@ -2433,14 +2437,18 @@
         "onset_km": 150000,
         "frequency": "seyrek",
         "severity": "orta",
-        "sources": ["enginefinders_ea288_20tdi"]
+        "sources": [
+          "enginefinders_ea288_20tdi"
+        ]
       },
       {
         "issue": "Euro 6 araçlarda AdBlue sisteminde kristalleşen enjektör/pompa arızası ve NOx sensörü bozulması",
         "onset_km": null,
         "frequency": "orta",
         "severity": "orta",
-        "sources": ["enginefinders_ea288_20tdi"]
+        "sources": [
+          "enginefinders_ea288_20tdi"
+        ]
       }
     ],
     "sources": [
@@ -3682,10 +3690,15 @@
   },
   "bmw-n20": {
     "id": "bmw-n20",
-    "names": ["N20", "N20B20"],
+    "names": [
+      "N20",
+      "N20B20"
+    ],
     "supplier": "BMW",
     "fuel": "Benzin",
-    "displacements_l": [2.0],
+    "displacements_l": [
+      2.0
+    ],
     "cylinders": 4,
     "aspiration": "Turbo",
     "base_score": 38,
@@ -3696,18 +3709,30 @@
         "onset_km": null,
         "frequency": "yaygın",
         "severity": "motor ölür",
-        "sources": ["carcomplaints_n20_settlement", "autodoc_n20_chain"]
+        "sources": [
+          "carcomplaints_n20_settlement",
+          "autodoc_n20_chain"
+        ]
       }
     ],
-    "sources": ["carcomplaints_n20_settlement", "autodoc_n20_chain"],
+    "sources": [
+      "carcomplaints_n20_settlement",
+      "autodoc_n20_chain"
+    ],
     "note": "F30/F31 3 Serisi'nin 2011-erken 2015 üretim 320i'lerinde kullanılan dört silindirli turbo motor; F30 320d'nin listede zaten kayıtlı olan dizel motoru N47'den farklı bir aile. Sorun N47'nin arka triger zincirinden farklı: burada zincir motorun önünde ama kılavuz parçasının kırılması yine ağır onarım gerektiriyor. Kusur, bireysel forum şikayetlerinin ötesinde ABD'de federal mahkemede Şubat 2021'de kesinleşen bir grup davası ve BMW'nin resmi 7 yıl/70.000 mil garanti uzatmasıyla doğrulanmış durumda; bu, projenin A/B seviyesi kurumsal kanıt eşiğine N47'den daha yakın bir kaynak. B48 (2015 sonrası yüz germe motoru) bu aileye dahil edilmedi, çünkü N20'nin aksine yaygın bir arıza örüntüsü belgeli değil; ayrı bir aile açılmadan bu araç kaydına dahil edilmedi. [base_score gerekçesi: 35-49 (yüksek risk) bandının N47'yle (38) aynı noktasına yerleştirildi: ikisi de motoru bitirebilen, tasarım kaynaklı bir triger zinciri kusuruna sahip ve ikisi de resmi bir garanti uzatmasıyla kabul edilmiş; N20'nin kanıtı (federal mahkeme onaylı grup davası) N47'ninkinden (forum/blog derlemesi) daha güçlü olduğu için daha düşük değil aynı puanda tutuldu.]"
   },
   "hyundai-gamma16-tgdi": {
     "id": "hyundai-gamma16-tgdi",
-    "names": ["Gamma II T-GDI", "G4FJ", "1.6 T-GDI"],
+    "names": [
+      "Gamma II T-GDI",
+      "G4FJ",
+      "1.6 T-GDI"
+    ],
     "supplier": "Hyundai-Kia",
     "fuel": "Benzin",
-    "displacements_l": [1.6],
+    "displacements_l": [
+      1.6
+    ],
     "cylinders": 4,
     "aspiration": "Turbo",
     "base_score": 58,
@@ -3718,10 +3743,14 @@
         "onset_km": null,
         "frequency": "orta",
         "severity": "orta",
-        "sources": ["carchecker_tucson_tgdi"]
+        "sources": [
+          "carchecker_tucson_tgdi"
+        ]
       }
     ],
-    "sources": ["carchecker_tucson_tgdi"],
+    "sources": [
+      "carchecker_tucson_tgdi"
+    ],
     "note": "Hyundai-Kia'nın atmosferik Gamma ailesinden (hyundai-gamma16-mpi, hyundai-gamma16-gdi) farklı, turbolu ve doğrudan enfeksiyonlu bir motor; Tucson TL ve Sportage QL'nin 177 beygirlik versiyonunda kullanılıyor. Aynı motor ailesinin şanzımanı (D7UF1 kuru çift kavramalı) listede zaten kayıtlı `hyundai-7dct` ailesiyle aynı; dizel U2 motoruyla paylaşılan D7UF2'nin T-GDI'ye özel varyantı. [base_score gerekçesi: 50-64 (orta risk) bandının ortası: tek kaynak (C) erken üretimde tekrarlayan ama üretici tarafından zamanla iyileştirilmiş, motoru komple bitirmeyen bir risk örüntüsü bildiriyor; hyundai-u2-16'nın (68) biraz altında tutuldu çünkü bu ailenin yalnızca tek ve C seviyesi bir kaynağı var, U2'nin iki kaynağına karşı.]"
   }
 }

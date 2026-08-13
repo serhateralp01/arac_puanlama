@@ -12,7 +12,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea211"
+    "engine_id": "vag-ea211",
+    "torque_nm": 249
   },
   "price_band_k_try": [
     780,
@@ -39,7 +40,8 @@
   "note": "Üçüncü nesil (8V) A3'ün silindir kapatmalı (COD) 1.4 TFSI'ı; motor EA211 ailesinden (listede zaten kayıtlı, temiz bir güvenilirlik profili taşıyor — kayışa dönmüş, zincir sorunu bildirilmemiş). Bu araç için araştırılan yeni kaynak yalnızca şanzıman (DQ200) tarafını doğruluyor: araclo.com'un A3 1.4 TFSI kullanıcı sorunları sayfası mekatronik kaynaklı vites sarsıntısı ve 'P' konumundan çıkamama şikayetlerini aktarıyor, bu da DQ200'ün listede zaten kayıtlı düşük puanıyla (38) tam örtüşüyor. Motor tarafında EA211'in temiz profiliyle çelişen bir iddia bulunamadı, bu yüzden motor puanı temel puana eşit tutuldu.",
   "provenance": {
     "added_at": "2026-08-07",
-    "method": "Y-01 beşinci tur: mevcut motor/şanzıman aileleriyle (vag-ea211, vag-dq200) düşük riskli genişleme."
+    "method": "Y-01 beşinci tur: mevcut motor/şanzıman aileleriyle (vag-ea211, vag-dq200) düşük riskli genişleme.",
+    "specs_source": "Tork (249 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (140 bg) ve motor hacmi (1.4 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

@@ -16,7 +16,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 
 ---
 
-## Durum özeti (son güncelleme: 2026-08-07)
+## Durum özeti (son güncelleme: 2026-08-13)
 
 | Katman | Durum |
 |---|---|
@@ -24,17 +24,21 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Şanzıman kutusu kayıtları | 45 kutu (`data/transmissions.json`), çoğu temel puanlı ve kaynaklı |
 | Motor ailesi kayıtları | 81 aile (`data/engines.json`), çoğu temel puanlı ve kaynaklı |
 | Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 49/49 duman testi |
-| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 163/278 araç — `kerb_weight_kg`/`torque_nm` dolu olanlar). `comf` ve `cost` hâlâ elle veriliyor. |
+| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 163/278 araç). `comf` ve `cost` hâlâ elle veriliyor. |
+| `price` kriteri (MK-19) | **Tarihlendi.** 19 araç 2026-08-13 tarihli piyasa gözlemine bağlandı (`price_reference` bloğu: tarih, yöntem, örneklem, sınırlılık). Kalan 259 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
+| `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
 | Çok ekranlı arayüz: ana ekran, giriş akışı, liste, metodoloji, kaynak öner, iletişim | Çalışıyor |
 | GitHub Pages yayını | Çıktı `index.html` olarak üretiliyor, kök adres siteyi açıyor |
 | Liste ekranı denetim çubuğu (Y-05) | Tamamlandı: ağırlık/arama/filtre tablonun üstünde, filtre paneli katlanabilir |
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; beşinci tur (kaldıraçlı derinleştirme, ikinci raunt) sonrası 235/278 araç "doğrulanmış" (4+ kaynak), ortalama ~4.63 — Y-01'in her yeni turu ortalamayı biraz seyreltiyor, bu beklenen bir durum |
+| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; beşinci tur sonrası 236/278 araç "doğrulanmış" (4+ kaynak), ortalama ~4.64 — Y-01'in her yeni turu ortalamayı biraz seyreltiyor, bu beklenen bir durum |
 | Araç listesi (Y-01) | 154 → 278 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
+| Veri doğruluğu (MK-18) | **Dış veri setiyle çapraz doğrulama yapıldı.** 220 araç bağımsız bir katalogla karşılaştırıldı; motor/şanzıman ailesinde 0 çelişki, beygir/torkta 10 çelişki bulundu ve doğrulanan 5 gerçek hata düzeltildi (en ağırı: bir 1.6 dizelde 400 Nm ve bir aracın tamamen yanlış motor ailesine bağlı olması). |
+| Teknik özellik kapsamı | Tork 172 → **251/278**; boş ağırlık 163/278. `fun` formülünün önündeki tek engel artık boş ağırlık: 88 araçta tork var ama ağırlık yok. |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 
 Denetimin bugünkü çıktısı: **0 hata, 252 uyarı**. Uyarıların ezici çoğunluğu tek
@@ -385,6 +389,53 @@ bekliyor) ve `/tmp` önbelleğindeki 550 satırlık aday listesinden taranmamı�
 kalan adaylar sıradaki turlar için not. Sıradaki düşük riskli adaylar: Skoda
 Kamiq (aynı VAG bileşenleri), Peugeot 2008/208'in eksik motor seçenekleri
 (mevcut `psa-puretech-12`/`psa-eat8` ailelerine bağlanabilir).
+
+---
+
+## Y-10 · Dış veri paketi entegrasyonu (P2.1) — **birinci tur bitti**
+
+**Ne geldi.** 2026-08-13'te 1.641 araç–motor–şanzıman kombinasyonu, 2.071 tarihli ilan
+gözlemi ve 112 fiyat grubu içeren bir dış veri paketi (P2.1) elimize geçti. Paket depoyla
+hizalıydı: motor ve şanzıman kimlikleri bizim bileşen sicilimizi kullanıyordu, 220 aracımız
+pakette de vardı.
+
+**Ne yapıldı, öncelik sırasıyla.** Cazip olan ilk hamle 1.641 satırı içe aktarmaktı; bu
+bilinçli olarak yapılmadı (MK-21). Bunun yerine paketin **kanıt değeri** kullanıldı:
+
+1. **Çapraz doğrulama (MK-18).** 220 ortak araç iki veri setinde karşılaştırıldı. Motor ve
+   şanzıman ailelerinde sıfır çelişki çıktı — bileşen sicilimizin sağlam olduğunun bağımsız
+   teyidi. Beygir ve torkta 10 çelişki bulundu; her biri ayrıca araştırıldı ve doğrulanan
+   5 gerçek hata düzeltildi. En ağırı `bmw-e46-320i`: araç dört silindirli bir motor
+   ailesine bağlıydı, oysa E46 320i her zaman sıralı altı silindirliydi. İkincisi
+   `vw-passat-b7-1-6-tdi`: 1,6 litrelik bir dizelde 400 Nm kayıtlıydı ve bu, aracı sürüş
+   keyfi sıralamasında haksız yere ilk ona taşıyordu.
+2. **Fiyat katmanı tarihlendi (MK-19).** `docs/PLAN.md` §3.8'in istediği `as_of` ve
+   `method` alanları `price_reference` bloğu olarak şemaya girdi; 19 araç gerçek, tarihli
+   piyasa gözlemine bağlandı. Ölçüm, tahminlerimizin **medyan %8 düşük** kaldığını
+   gösterdi (19 aracın 15'inde) — enflasyon aşınmasının ölçülmüş kanıtı.
+3. **Tork geri dolduruldu.** 79 araca tork verisi işlendi (kapsam 172 → 251/278); beygir ve
+   hacim birlikte doğrulanmadan hiçbir değer yazılmadı, uyuşmayan tek kayıt boş bırakıldı.
+4. **`liq` reddedildi (MK-20).** İlan sayıları likidite ölçüsü olarak kullanılmadı, çünkü
+   örneklem sorgu başına 50 ile sınırlı ve tam olarak ölçmek istediğimiz yönde sansürlü.
+5. **Adaylar kuyruğa alındı (MK-21).** `data/queue/car-candidates-p21.json`.
+
+**Bir sonraki tur için hazır iş.** Kuyruk dosyası iki somut liste taşıyor:
+
+- **6 hazır aday** — motor ve şanzıman ailesi repoda zaten kayıtlı, yalnızca araca özgü
+  kaynak araştırması ve `evidence` bloğu gerekiyor (BMW 118i F20 LCI, Audi A3 1.0 TFSI,
+  Kia Ceed 1.6 CRDi 7DCT, Nissan Qashqai J11 1.3 DIG-T, Opel Corsa F 1.2 Turbo EAT8,
+  Renault Captur II 1.3 TCe EDC).
+- **30 motor ailesi eşleme önerisi** — doğrulanırsa **434 aracın** önünü açıyor. Bunlar
+  yeni aile araştırması değil, kimlik çözümleme işi: P2.1'de motor kodu "belirtilmemiş"
+  kalmış ailelerin, marka + yakıt + hacim üçlüsüyle repodaki karşılığına bağlanması. En
+  yüksek kaldıraçlılar: BMW 2.0 dizel (36 araç), BMW 2.0 benzin (31), BMW 3.0 dizel (23),
+  Mercedes 2.1 dizel (23), VAG 2.0 dizel (23).
+
+**Kapanmayan boşluk — boş ağırlık.** P2.1'de boş ağırlık alanı hiç yok. Tork
+doldurulduktan sonra `fun` formülünün önündeki **tek engel** bu alan kaldı: 88 araçta tork
+var ama ağırlık yok. Bu 88 aracın ağırlığı doldurulursa `fun` kapsamı 163'ten 251'e çıkar,
+yani tek bir veri kalemi kriterin kapsamını yarı yarıya büyütür. Sıradaki en yüksek getirili
+veri işi budur.
 
 ---
 

@@ -12,7 +12,8 @@
     "transmission_type": "Robot",
     "transmission_id": "psa-etg",
     "body_type": "Hatchback",
-    "engine_id": "psa-ep6-thp"
+    "engine_id": "psa-ep6-thp",
+    "torque_nm": 240
   },
   "price_band_k_try": [
     550,
@@ -37,7 +38,8 @@
   "note": "C4'ün turbolu üst versiyonu; EP6 THP motoru listede zaten Peugeot 308/508'de kayıtlı (triger zinciri uzaması bilinen zaafı), robotlu EGS6 şanzıman (ETG ailesi) ise listenin en düşük puanlı kutularından — vites geçişleri sarsıntılı ve aktüatör arızaları biliniyor. 2011 model bir araçta yavaşlarken 2.-1. vites arası silkme bildirilmiş.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Tork (240 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (156 bg) ve motor hacmi (1.6 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

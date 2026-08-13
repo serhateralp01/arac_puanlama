@@ -12,7 +12,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-5g-tronic",
     "body_type": "Sedan",
-    "engine_id": "mb-m271"
+    "engine_id": "mb-m271",
+    "torque_nm": 240
   },
   "price_band_k_try": [
     480,
@@ -37,7 +38,8 @@
   "note": "W211'in kompresörlü E-serisi girişi; M271 motoru listede zaten kayıtlı. Facelift öncesi 5G-Tronic kutuyla geliyor (facelift sonrası 7G-Tronic'e geçildi, bkz. E250 CDI kaydı). Genel olarak güvenilir ve konforlu bulunuyor ama yüksek yakıt tüketimi tekrarlayan bir şikayet.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Tork (240 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (163 bg) ve motor hacmi (1.8 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

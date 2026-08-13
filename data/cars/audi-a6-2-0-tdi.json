@@ -13,7 +13,8 @@
     "transmission_type": "CVT",
     "transmission_id": "vag-multitronic",
     "body_type": "Sedan",
-    "engine_id": "vag-ea189"
+    "engine_id": "vag-ea189",
+    "torque_nm": 350
   },
   "price_band_k_try": [
     700,
@@ -40,7 +41,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Tork (350 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (170 bg) ve motor hacmi (2 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

@@ -12,7 +12,8 @@
     "transmission_type": "TK",
     "transmission_id": "zf-6hp",
     "body_type": "Hatchback",
-    "engine_id": "bmw-n47"
+    "engine_id": "bmw-n47",
+    "torque_nm": 340
   },
   "price_band_k_try": [
     700,
@@ -40,7 +41,8 @@
   "note": "E87'nin dizel versiyonu; N47 motoru listede zaten E90 320d'de kayıtlı ve düşük puanlı (zincir kılavuzu aşınması, yağ pompası tıkanması riski). ZF 6 ileri kutu E87 116i/118i ile aynı, görece güvenilir. Yüksek basınç yakıt pompası arızası da ailenin bilinen bir diğer zaafı.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Tork (340 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (163 bg) ve motor hacmi (2.0 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

@@ -14,7 +14,7 @@
     "body_type": "SUV",
     "engine_id": "honda-r20a",
     "kerb_weight_kg": 1585,
-    "torque_nm": 190,
+    "torque_nm": 192,
     "fuel_consumption_l_100km": 8.8
   },
   "price_band_k_try": [
@@ -40,7 +40,9 @@
   "note": "Türkiye'de en çok satılan ikinci el otomatik SUV'lardan biri; motor (R20A, bu turda yeni açıldı) Avrupa/Asya pazarına özel, ABD/JDM'nin K-serisinden farklı bir tasarım. Kutu (honda-4at-5at) listede Accord'da zaten kayıtlı aynı klasik tork konvertörlü Honda otomatiği. Motor tarafında bağımsız bir arıza örüntüsü belgelenmedi.",
   "provenance": {
     "added_at": "2026-08-07",
-    "method": "Y-01 on beşinci tur: popüler modellerin eksik motor seçenekleri eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+    "method": "Y-01 on beşinci tur: popüler modellerin eksik motor seçenekleri eklendi. Teknik özellikler genel üretici verilerine dayanıyor.",
+    "corrected_at": "2026-08-13",
+    "correction": "P2.1 çapraz doğrulaması: tork 190 -> 192 Nm (R20A ailesinin katalog değeri)."
   },
   "evidence": {
     "motor": {
@@ -67,7 +69,7 @@
       "band": "sürüş keyfi öncelik değil",
       "confidence": "orta",
       "sources": [],
-      "reasoning": "Güç/ağırlık oranı 95 hp/ton (normalize 27/100), tork/ağırlık oranı 120 Nm/ton (normalize 7/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 22. Karakter düzeltmesi +5 puan uygulandı, gerekçesi: doğal emişli yüksek devir karakteri (75 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "reasoning": "Güç/ağırlık oranı 95 hp/ton (normalize 27/100), tork/ağırlık oranı 121 Nm/ton (normalize 7/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 22. Karakter düzeltmesi +5 puan uygulandı, gerekçesi: doğal emişli yüksek devir karakteri (75 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     },
     "age": {

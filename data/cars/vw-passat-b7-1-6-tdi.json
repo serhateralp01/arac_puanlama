@@ -6,7 +6,7 @@
   "brand_group": "Volkswagen",
   "years": "2011-2015",
   "specs": {
-    "hp": 120,
+    "hp": 105,
     "displacement_l": 1.6,
     "fuel": "Dizel",
     "drivetrain": "Önden",
@@ -15,18 +15,18 @@
     "body_type": "Sedan",
     "engine_id": "vag-ea189",
     "kerb_weight_kg": 1395,
-    "torque_nm": 400,
+    "torque_nm": 250,
     "fuel_consumption_l_100km": 5.3
   },
   "price_band_k_try": [
-    850,
-    1200
+    994,
+    1296
   ],
   "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 38,
-    "fun": 44,
+    "fun": 20,
     "comf": 83,
     "age": 46,
     "cost": 86,
@@ -34,17 +34,20 @@
   },
   "sources": [
     "andcetin_dq200",
+    "autodata_passat_b7_16tdi",
     "carchecker_golf6_16tdi",
+    "ecotorque_dq200_mechatronic",
     "enginefinders_20tdi_ea189",
-    "trbox",
-    "ecotorque_dq200_mechatronic"
+    "trbox"
   ],
-  "note": "Türkiye'de en çok satan otomatik sedanlardan biri; geniş, konforlu ve çok ekonomik. Ancak otomatiği kuru kavramalı DQ200 kutusu ve bu kutu Türkiye trafiğinde kavrama aşınması ile mekatronik arızasıyla biliniyor. Aynı kasada 2.0 TDI versiyonu ıslak DQ250 kullandığı için şanzıman açısından belirgin biçimde daha güvenli.",
+  "note": "Türkiye'de en çok satan otomatik sedanlardan biri; geniş, konforlu ve çok ekonomik. Ancak otomatiği kuru kavramalı DQ200 kutusu ve bu kutu Türkiye trafiğinde kavrama aşınması ile mekatronik arızasıyla biliniyor. Aynı kasada 2.0 TDI versiyonu ıslak DQ250 kullandığı için şanzıman açısından belirgin biçimde daha güvenli. **Düzeltme kaydı (2026-08-13):** bu kayıt daha önce 120 beygir ve 400 Nm taşıyordu; 1.6 litrelik bir dizelin 400 Nm üretmesi mekanik olarak mümkün değil ve bu değer aracın sürüş keyfi puanını yapay olarak yukarı çekiyordu. Passat B7 1.6 TDI'nin gerçek değerleri 105 beygir ve 250 Nm. Hata P2.1 çapraz doğrulamasında yakalandı (MK-18).",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js",
-    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: volkswagen passat variant — 1.6L TDI 7AT AWD (120 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: volkswagen passat variant — 1.6L TDI 7AT AWD (120 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15).",
+    "corrected_at": "2026-08-13",
+    "correction": "P2.1 çapraz doğrulaması: hp 120 -> 105, tork 400 -> 250 Nm. Kaynak: autodata_passat_b7_16tdi."
   },
   "evidence": {
     "motor": {
@@ -77,11 +80,26 @@
       "assessed_at": "2026-08-07"
     },
     "fun": {
-      "band": "sönük",
+      "band": "sürüş keyfi öncelik değil",
       "confidence": "düşük",
       "sources": [],
-      "reasoning": "Güç/ağırlık oranı 86 hp/ton (normalize 18/100), tork/ağırlık oranı 287 Nm/ton (normalize 99/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +6) temel puan 44. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "reasoning": "Güç/ağırlık oranı 75 hp/ton (normalize 6/100), tork/ağırlık oranı 179 Nm/ton (normalize 39/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +6) temel puan 20. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "price_reference": {
+    "as_of": "2026-08-13",
+    "method": "Her grup için sabit bir arama tanımı (marka + model + motor + otomatik şanzıman) çalıştırıldı ve sonuç kartları okundu. P25/medyan/P75 önce 90 günlük ilan penceresinde hesaplandı; beşten az gözlem olan gruplarda pencere açıkça 180 güne genişletildi. En az dört gözlemi olan gruplarda Tukey 1,5×IQR aykırı değer filtresi uygulandı.",
+    "source": "arabam_p21_ilan_snapshot_2026_08",
+    "marketplace": "arabam.com",
+    "price_semantics": "asking_price_snapshot",
+    "group_id": "pg-6d3d4b7a6f8b6a49b9",
+    "observations": 12,
+    "window_days": 90,
+    "p25_try": 994250,
+    "median_try": 1235000,
+    "p75_try": 1296250,
+    "km_median": 238000,
+    "quality": "limited_single_market_missing_damage"
   }
 }

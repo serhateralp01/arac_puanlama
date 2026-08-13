@@ -12,7 +12,8 @@
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
     "body_type": "Hatchback",
-    "engine_id": "vag-ea211"
+    "engine_id": "vag-ea211",
+    "torque_nm": 250
   },
   "price_band_k_try": [
     900,
@@ -40,7 +41,8 @@
   "note": "Leon'un benzinli turbo versiyonu; EA211 ailesinin 1.5 TSI evo (ACT, silindir kapatma) varyantı — T-Roc ve Polo ile birlikte ailenin hacim aralığını genişleten üçüncü araç, yeni motor gerekmedi. DQ200 kuru DSG listede zaten kayıtlı, Leon'un dizel kardeşiyle aynı kutu.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar.",
+    "specs_source": "Tork (250 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (150 bg) ve motor hacmi (1.5 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

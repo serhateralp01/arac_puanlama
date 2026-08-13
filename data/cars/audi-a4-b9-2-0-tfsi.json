@@ -12,7 +12,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-dq250",
     "body_type": "Sedan",
-    "engine_id": "vag-ea888"
+    "engine_id": "vag-ea888",
+    "torque_nm": 320
   },
   "price_band_k_try": [
     1000,
@@ -38,7 +39,8 @@
   "note": "A4 B9'un benzinli üst versiyonu; EA888 motoru listede zaten Audi A4 B8 ve Cupra'da (evo4 ayrı aile olarak) kayıtlı. B9 nesli (Gen3B) yağ tüketimi sorununu B8'e göre daha seyrek ama hâlâ taşıyor — bazı araçlarda 1000-3000 km'de 0.5-1 litre bildirilmiş. S tronic mekatronik onarımı 80-100 bin km aralığında ve maliyetli.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Tork (320 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (190 bg) ve motor hacmi (2.0 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

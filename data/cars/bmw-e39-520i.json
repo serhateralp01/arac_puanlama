@@ -12,7 +12,8 @@
     "transmission_type": "TK",
     "transmission_id": "zf-5hp",
     "body_type": "Sedan",
-    "engine_id": "bmw-m52"
+    "engine_id": "bmw-m52",
+    "torque_nm": 190
   },
   "price_band_k_try": [
     400,
@@ -39,7 +40,8 @@
   "note": "E39'un giriş seviyesi altı silindirli benzinlisi; M52 motoru ve ZF 5 ileri kutusu listede zaten E39 528i ve E36'da kayıtlı aynı aileden, düşük risk. Forumda 2. vites üstüne çıkmama şikayeti şanzıman beyni arızasına işaret ediyor; genel olarak E39'da şanzıman kronik bir zaaf sayılmıyor, ön takım ve direksiyon kutusu yaşla birlikte daha çok dert veriyor.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Tork (190 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (150 bg) ve motor hacmi (2.0 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "mb-5g-tronic",
     "body_type": "Sedan",
-    "engine_id": "mb-om651"
+    "engine_id": "mb-om651",
+    "torque_nm": 270
   },
   "price_band_k_try": [
     600,
@@ -39,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Tork (270 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (136 bg) ve motor hacmi (2.1 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

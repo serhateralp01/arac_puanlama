@@ -13,11 +13,12 @@
     "transmission_type": "CVT",
     "transmission_id": "vag-multitronic",
     "body_type": "Sedan",
-    "engine_id": "vag-ea189"
+    "engine_id": "vag-ea189",
+    "torque_nm": 320
   },
   "price_band_k_try": [
-    750,
-    1100
+    1077,
+    1419
   ],
   "verification": "verified",
   "scores": {
@@ -40,7 +41,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Tork (320 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (143 bg) ve motor hacmi (2 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {
@@ -72,5 +74,20 @@
       "reasoning": "Bu aracın model yılı ortalaması 2011.5, yani 2026 itibarıyla yaşı yaklaşık 14.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 30.4. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 40 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "price_reference": {
+    "as_of": "2026-08-13",
+    "method": "Her grup için sabit bir arama tanımı (marka + model + motor + otomatik şanzıman) çalıştırıldı ve sonuç kartları okundu. P25/medyan/P75 önce 90 günlük ilan penceresinde hesaplandı; beşten az gözlem olan gruplarda pencere açıkça 180 güne genişletildi. En az dört gözlemi olan gruplarda Tukey 1,5×IQR aykırı değer filtresi uygulandı.",
+    "source": "arabam_p21_ilan_snapshot_2026_08",
+    "marketplace": "arabam.com",
+    "price_semantics": "asking_price_snapshot",
+    "group_id": "pg-012669189b974dc3f1",
+    "observations": 18,
+    "window_days": 90,
+    "p25_try": 1076750,
+    "median_try": 1295000,
+    "p75_try": 1418688,
+    "km_median": 257500,
+    "quality": "limited_single_market_missing_damage"
   }
 }

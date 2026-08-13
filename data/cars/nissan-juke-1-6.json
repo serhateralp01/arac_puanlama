@@ -13,11 +13,12 @@
     "transmission_type": "CVT",
     "transmission_id": "nissan-xtronic",
     "body_type": "SUV",
-    "engine_id": "nissan-hr16de"
+    "engine_id": "nissan-hr16de",
+    "torque_nm": 157
   },
   "price_band_k_try": [
-    750,
-    1050
+    796,
+    1008
   ],
   "verification": "verified",
   "scores": {
@@ -41,7 +42,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Tork (157 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (117 bg) ve motor hacmi (1.6 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {
@@ -75,5 +77,20 @@
       "reasoning": "Bu aracın model yılı ortalaması 2015.0, yani 2026 itibarıyla yaşı yaklaşık 11.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 23.8. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 54 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "price_reference": {
+    "as_of": "2026-08-13",
+    "method": "Her grup için sabit bir arama tanımı (marka + model + motor + otomatik şanzıman) çalıştırıldı ve sonuç kartları okundu. P25/medyan/P75 önce 90 günlük ilan penceresinde hesaplandı; beşten az gözlem olan gruplarda pencere açıkça 180 güne genişletildi. En az dört gözlemi olan gruplarda Tukey 1,5×IQR aykırı değer filtresi uygulandı.",
+    "source": "arabam_p21_ilan_snapshot_2026_08",
+    "marketplace": "arabam.com",
+    "price_semantics": "asking_price_snapshot",
+    "group_id": "pg-58096d6c8bd24cb1dd",
+    "observations": 10,
+    "window_days": 90,
+    "p25_try": 796000,
+    "median_try": 910000,
+    "p75_try": 1008375,
+    "km_median": 151500,
+    "quality": "limited_single_market_missing_damage"
   }
 }

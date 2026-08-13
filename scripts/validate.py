@@ -22,6 +22,7 @@ Kullanım:
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import pathlib
 import re
@@ -41,6 +42,16 @@ VERIFICATION = {"verified", "partial", "preliminary"}
 MIN_SOURCES_FOR_VERIFIED = 4  # "doğrulanmış" demek için dört bağımsız kaynak gerekiyor
 MIN_SOURCES_FOR_PARTIAL = 1   # en az bir kaynağı olan araç "kısmi kaynak" sayılır
 MAX_CARS_PER_SOURCE = 12      # tek kaynağın taşıyabileceği azami araç sayısı
+
+# Bir fiyat bandının kaç ay sonra "bayat" sayılacağı. Altı ay keyfi değil,
+# docs/PLAN.md §3.8'in kendi ifadesinden geliyor: "Fiyatlar Türkiye enflasyonunda
+# altı ayda anlamsızlaşıyor; tarihsiz fiyat yanıltıcıdır." 2026-08 ölçümünde tarihli
+# 19 bandın eski tahminlerden medyan %8 yukarıda çıkması bunun ölçülmüş kanıtı.
+PRICE_STALE_MONTHS = 6
+# Bayatlama hesabının çapası. Bugünün tarihi yerine sabit bir gün kullanılıyor,
+# çünkü denetimin çıktısı takvimin ilerlemesiyle kendiliğinden değişmemeli;
+# yeni ölçüm alındığında bu tarih de elle ileri taşınır.
+REFERENCE_DATE = datetime.date(2026, 8, 13)
 
 
 def derive_verification(source_count: int) -> str:
@@ -286,6 +297,28 @@ def check_evidence_policy(
     if "ıslak" in tag and tx != "Islak DCT":
         rep.warn(where, "tag-tx-celiski", f"tag 'ıslak' diyor ama transmission_type = {tx}")
 
+    # docs/PLAN.md §3.8: fiyat bandı tarihsizse doğrulanamaz, eskiyen bant ise
+    # yanıltıcıdır. Türkiye enflasyonunda bir fiyat altı ayda anlamını yitiriyor;
+    # 2026-08 ölçümü tarihli 19 bandın eski tahminlerden medyan %8 yukarıda çıkması
+    # bunun ölçülmüş kanıtı. Bu yüzden iki ayrı uyarı üretiliyor: bandın hiç tarihi
+    # yoksa "tahmin" olduğu, tarihi varsa da eskidiği görünür olmalı.
+    pref = car.get("price_reference") or {}
+    as_of = pref.get("as_of")
+    if not as_of:
+        rep.warn(where, "fiyat-tarihsiz",
+                 "price_band_k_try tarihsiz bir tahmin; price_reference bloğu boş, "
+                 "bandın hangi tarihte ve hangi yöntemle ölçüldüğü doğrulanamıyor")
+    else:
+        try:
+            months = (REFERENCE_DATE - datetime.date.fromisoformat(as_of)).days / 30.44
+        except ValueError:
+            rep.error(where, "fiyat-tarihi-bozuk", f"price_reference.as_of okunamadı: {as_of}")
+            months = 0
+        if months > PRICE_STALE_MONTHS:
+            rep.warn(where, "fiyat-bandi-bayat",
+                     f"fiyat bandı {as_of} tarihli, yaklaşık {months:.0f} aylık "
+                     f"(sınır {PRICE_STALE_MONTHS} ay); yeniden ölçülmeli")
+
 
 def main() -> int:
     ap = argparse.ArgumentParser()
@@ -332,6 +365,14 @@ def main() -> int:
         # (ör. `age`'i besleyen TÜV eğrisi) bu sayılmazsa yetim görünürdü.
         for block in (car.get("evidence") or {}).values():
             usage.update((block or {}).get("sources") or [])
+        # Fiyat bandının kaynağı da kullanımdır. Bu kaynak bilinçli olarak
+        # car["sources"] listesine yazılmıyor (bkz. scripts/import_price_snapshot.py
+        # içindeki not ve MK-19): o liste güvenilirlik kanıtı sayıyor, bir ilan
+        # fiyatı gözlemi ise aracın motoru ya da şanzımanı hakkında hiçbir şey
+        # söylemiyor. Burada sayılmazsa gerçek ve kullanılan bir kaynak yetim görünürdü.
+        pref = car.get("price_reference") or {}
+        if pref.get("source"):
+            usage.update([pref["source"]])
     for box in transmissions.values():
         usage.update(box.get("sources", []))
         for issue in box.get("known_issues", []):

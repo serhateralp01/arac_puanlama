@@ -12,7 +12,8 @@
     "transmission_type": "TK",
     "transmission_id": "zf-4hp",
     "body_type": "Sedan",
-    "engine_id": "bmw-m52"
+    "engine_id": "bmw-m52",
+    "torque_nm": 245
   },
   "price_band_k_try": [
     350,
@@ -39,7 +40,8 @@
   "note": "E36'nın altı silindirli üst versiyonu; M52 motoru listede zaten E39 528i/523i'de kayıtlı aynı aileden (2.5 litre varyantı). Aracın yaşı artık çok ileri olduğu için pas, elektrik ve genel yıpranma riski yüksek; parça bulunabilirliği model bazında iyi ama usta deneyimi gerektiriyor.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Tork (245 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (192 bg) ve motor hacmi (2.5 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

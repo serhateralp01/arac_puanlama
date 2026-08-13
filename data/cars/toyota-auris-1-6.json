@@ -19,8 +19,8 @@
     "fuel_consumption_l_100km": 6.2
   },
   "price_band_k_try": [
-    700,
-    1000
+    787,
+    880
   ],
   "verification": "verified",
   "scores": {
@@ -33,11 +33,11 @@
     "liq": 84
   },
   "sources": [
+    "go4trans_k310",
     "homeofengines_1zr",
-    "slashgear_toyota_cvt_reliability",
-    "trbox",
     "lowoffset_2zrfe",
-    "go4trans_k310"
+    "slashgear_toyota_cvt_reliability",
+    "trbox"
   ],
   "note": "Toyota'nın güvenilirliğini hatchback gövdede sunuyor. Otomatiği CVT; Toyota'nın CVT kutuları dayanıklılık açısından sınıfının en iyileri arasında sayılıyor ama sürüş hissi lastik gibi ve tork konvertörü kadar direkt değil. Motoru ve genel yapısı dert çıkarmıyor.",
   "provenance": {
@@ -83,5 +83,20 @@
       "reasoning": "Güç/ağırlık oranı 111 hp/ton (normalize 45/100), tork/ağırlık oranı 134 Nm/ton (normalize 15/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman -6) temel puan 31. Karakter düzeltmesi +5 puan uygulandı, gerekçesi: doğal emişli yüksek devir karakteri (82 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "price_reference": {
+    "as_of": "2026-08-13",
+    "method": "Her grup için sabit bir arama tanımı (marka + model + motor + otomatik şanzıman) çalıştırıldı ve sonuç kartları okundu. P25/medyan/P75 önce 90 günlük ilan penceresinde hesaplandı; beşten az gözlem olan gruplarda pencere açıkça 180 güne genişletildi. En az dört gözlemi olan gruplarda Tukey 1,5×IQR aykırı değer filtresi uygulandı.",
+    "source": "arabam_p21_ilan_snapshot_2026_08",
+    "marketplace": "arabam.com",
+    "price_semantics": "asking_price_snapshot",
+    "group_id": "pg-769ef7a96c60502f7a",
+    "observations": 15,
+    "window_days": 90,
+    "p25_try": 787000,
+    "median_try": 817500,
+    "p75_try": 879925,
+    "km_median": 188706,
+    "quality": "limited_single_market_missing_damage"
   }
 }

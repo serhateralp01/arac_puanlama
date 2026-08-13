@@ -12,7 +12,8 @@
     "transmission_type": "CVT",
     "transmission_id": "toyota-multidrive",
     "body_type": "SUV",
-    "engine_id": "toyota-8nr-fts"
+    "engine_id": "toyota-8nr-fts",
+    "torque_nm": 185
   },
   "price_band_k_try": [
     900,
@@ -38,7 +39,8 @@
   "note": "C-HR'ın benzinli turbo versiyonu; motor için yeni bir aile açıldı (toyota-8nr-fts) — Toyota'nın atmosferik ZR ailesinden tamamen farklı, küçük hacimli turbo bir tasarım. Yağ tüketimi ve düşük devirde turbo gecikmesi bildirilmiş; Multidrive CVT kutusu listede zaten kayıtlı.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi."
+    "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi.",
+    "specs_source": "Tork (185 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (116 bg) ve motor hacmi (1.2 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

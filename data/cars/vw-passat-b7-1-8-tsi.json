@@ -12,7 +12,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "vag-dq250",
     "body_type": "Sedan",
-    "engine_id": "vag-ea888"
+    "engine_id": "vag-ea888",
+    "torque_nm": 250
   },
   "price_band_k_try": [
     700,
@@ -38,7 +39,8 @@
   "note": "Passat B7'nin benzinli turbo versiyonu; EA888 motoru ve ıslak DQ250 DSG kutusu listede zaten Passat B6 1.8 TSI ve Audi A4 B8'de kayıtlı. 100.000 km sonrası turbo arızaları ve bazı araçlarda yüksek yağ tüketimi (1000 km'de 1 litreye varan) bildirilmiş; trafikte DSG sertliği ayrı bir şikayet kalemi.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Tork (250 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (152 bg) ve motor hacmi (1.8 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

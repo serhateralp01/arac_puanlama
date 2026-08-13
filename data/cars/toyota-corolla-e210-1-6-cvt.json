@@ -18,8 +18,8 @@
     "fuel_consumption_l_100km": 5.7
   },
   "price_band_k_try": [
-    950,
-    1350
+    1415,
+    1665
   ],
   "verification": "verified",
   "scores": {
@@ -32,13 +32,13 @@
     "liq": 86
   },
   "sources": [
+    "go4trans_k310",
     "homeofengines_1zr",
+    "lowoffset_2zrfe",
     "sikayetvar_corolla_genel",
     "slashgear_toyota_cvt_reliability",
     "teknikotomatiksanziman_multidrive",
-    "trbox",
-    "lowoffset_2zrfe",
-    "go4trans_k310"
+    "trbox"
   ],
   "note": "Onikinci nesil Corolla'nın (E210) 1.6 benzinli CVT kombinasyonu; ZR motoru ve Toyota'nın kendi Multidrive CVT'si listede zaten kayıtlı, ikisi de yüksek puanlı ve güvenilir bileşenler. Bildirilen şikayetler kablosuz şarj kesilmesi, yüksek hızda ıslık sesi ve boya soyulması gibi görece küçük kalemler; motor ve şanzımanla ilgili ciddi bir kronik arıza bildirilmemiş.",
   "provenance": {
@@ -83,5 +83,20 @@
       "reasoning": "Güç/ağırlık oranı 111 hp/ton (normalize 45/100), tork/ağırlık oranı 134 Nm/ton (normalize 14/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman -6) temel puan 32. Karakter düzeltmesi +5 puan uygulandı, gerekçesi: doğal emişli yüksek devir karakteri (82 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "price_reference": {
+    "as_of": "2026-08-13",
+    "method": "Her grup için sabit bir arama tanımı (marka + model + motor + otomatik şanzıman) çalıştırıldı ve sonuç kartları okundu. P25/medyan/P75 önce 90 günlük ilan penceresinde hesaplandı; beşten az gözlem olan gruplarda pencere açıkça 180 güne genişletildi. En az dört gözlemi olan gruplarda Tukey 1,5×IQR aykırı değer filtresi uygulandı.",
+    "source": "arabam_p21_ilan_snapshot_2026_08",
+    "marketplace": "arabam.com",
+    "price_semantics": "asking_price_snapshot",
+    "group_id": "pg-9a41501a398fb086b8",
+    "observations": 21,
+    "window_days": 90,
+    "p25_try": 1415000,
+    "median_try": 1495000,
+    "p75_try": 1665000,
+    "km_median": 80000,
+    "quality": "limited_single_market_missing_damage"
   }
 }

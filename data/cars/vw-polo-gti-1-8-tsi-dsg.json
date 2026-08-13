@@ -14,18 +14,18 @@
     "body_type": "Hatchback",
     "engine_id": "vag-ea888",
     "kerb_weight_kg": 1355,
-    "torque_nm": 320,
+    "torque_nm": 250,
     "fuel_consumption_l_100km": 5.6
   },
   "price_band_k_try": [
     850,
     1250
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 46,
     "trans": 62,
-    "fun": 78,
+    "fun": 71,
     "comf": 62,
     "age": 56,
     "cost": 72,
@@ -33,13 +33,16 @@
   },
   "sources": [
     "andcetin_dq200",
+    "autoexpress_polo_gti_dsg_tork",
     "enginescope_ea888_gen",
     "kroniksorunlar_superb"
   ],
-  "note": "Polo'nun performans versiyonu; motor (EA888, vag-ea888) listede Octavia 1.8 TSI ve Golf 7 GTI'de zaten kayıtlı aynı aile, burada Polo'nun daha küçük gövdesine eşleştirildi. 320Nm tork, kuru DQ200'ün sınırının üstünde olduğu için ıslak DQ250 (vag-dq250) kullanıyor — Golf 7 GTI'yle birebir aynı kutu.",
+  "note": "Polo'nun performans versiyonu; motor (EA888, vag-ea888) listede Octavia 1.8 TSI ve Golf 7 GTI'de zaten kayıtlı aynı aile, burada Polo'nun daha küçük gövdesine eşleştirildi. 320Nm tork, kuru DQ200'ün sınırının üstünde olduğu için ıslak DQ250 (vag-dq250) kullanıyor — Golf 7 GTI'yle birebir aynı kutu. **Düzeltme kaydı (2026-08-13):** tork 320 Nm olarak kayıtlıydı; bu, manuel şanzımanlı Polo GTI'nin değeri. DSG'li versiyonda tepe tork, kutuyu korumak için fabrikada 250 Nm'ye sınırlandırılmış durumda ve bu araç kaydı DSG varyantını temsil ediyor. Hata P2.1 çapraz doğrulamasında yakalandı (MK-18).",
   "provenance": {
     "added_at": "2026-08-07",
-    "method": "Y-01 onuncu tur: VAG grubunda kapsanmayan hacim/nesil kombinasyonu, var olan aileye dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor."
+    "method": "Y-01 onuncu tur: VAG grubunda kapsanmayan hacim/nesil kombinasyonu, var olan aileye dikkatle eşleştirilerek eklendi. Teknik özellikler genel üretici verilerine dayanıyor.",
+    "corrected_at": "2026-08-13",
+    "correction": "P2.1 çapraz doğrulaması: tork 320 -> 250 Nm (DSG varyantı sınırı). Kaynak: autoexpress_polo_gti_dsg_tork."
   },
   "evidence": {
     "motor": {
@@ -65,7 +68,7 @@
       "band": "belirgin ama sınırlı keyif",
       "confidence": "düşük",
       "sources": [],
-      "reasoning": "Güç/ağırlık oranı 142 hp/ton (normalize 79/100), tork/ağırlık oranı 236 Nm/ton (normalize 71/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş -3, şanzıman +4) temel puan 78. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "reasoning": "Güç/ağırlık oranı 142 hp/ton (normalize 79/100), tork/ağırlık oranı 185 Nm/ton (normalize 42/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş -3, şanzıman +4) temel puan 71. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     },
     "age": {

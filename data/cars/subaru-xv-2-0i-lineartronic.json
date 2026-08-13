@@ -12,7 +12,8 @@
     "transmission_type": "CVT",
     "transmission_id": "subaru-lineartronic",
     "body_type": "SUV",
-    "engine_id": "subaru-fb20"
+    "engine_id": "subaru-fb20",
+    "torque_nm": 196
   },
   "price_band_k_try": [
     650,
@@ -35,7 +36,8 @@
   "note": "Forester'ın kompakt kardeşi; motor ve şanzıman birebir aynı aileden (bu araştırmanın bir uzantısı). Daha küçük gövde ve daha düşük fiyat noktası dışında Forester ile aynı risk profili taşıyor; Türkiye'de daha da niş olduğu için likidite puanı bir tık daha düşük.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar."
+    "method": "Beşinci Y-01 turu: kalan sarı/kırmızı adaylar + Subaru (yeni marka) + 2016 sonrası kapsamını büyüten ek 🟢 araçlar.",
+    "specs_source": "Tork (196 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (150 bg) ve motor hacmi (2.0 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

@@ -1,18 +1,19 @@
 {
   "id": "bmw-e46-320i",
   "name": "BMW E46 320i",
-  "tag": "oto: 5 ileri TK · 150hp",
+  "tag": "M54 · oto: 5 ileri TK · 170hp",
   "brand_group": "BMW",
   "years": "2001-2005",
   "specs": {
-    "hp": 150,
-    "displacement_l": 2.0,
+    "hp": 170,
+    "displacement_l": 2.2,
     "fuel": "Benzin",
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
     "transmission_id": "zf-5hp",
     "body_type": "Sedan",
-    "engine_id": "bmw-n4x"
+    "engine_id": "bmw-m54",
+    "torque_nm": 210
   },
   "price_band_k_try": [
     450,
@@ -20,7 +21,7 @@
   ],
   "verification": "verified",
   "scores": {
-    "motor": 58,
+    "motor": 78,
     "trans": 70,
     "fun": 68,
     "comf": 68,
@@ -30,27 +31,19 @@
   },
   "sources": [
     "bimmerfest_zf5hp19",
-    "sistemdestekuzmani_n47_kronik",
+    "bmwguide_m54b22_e46",
+    "engineexplained_m54",
     "techturkey_e39_530i_5hp19_vuruntu",
-    "transmissionrepairguide_zf5hp19",
-    "unixnerd_n43_n45_n46"
+    "transmissionrepairguide_zf5hp19"
   ],
-  "note": "E46'nın facelift sonrası (Valvetronic) benzinli motoru; N42/N46 ailesi listede zaten E90 316i ve E87'de kayıtlı. Zincir kılavuzu aşınması yalnızca N47 dizelde değil aynı ailenin N43/N45/N46 benzinli motorlarında da görülüyor — bu, listede bmw-n4x'in zaten düşük tutulan puanının gerekçesiyle örtüşüyor.",
+  "note": "E46'nın facelift dönemindeki (2001-2005) benzinli 320i'si. **Düzeltme kaydı:** bu araç daha önce N42/N46 (bmw-n4x) dört silindirli Valvetronic ailesine bağlıydı ve 150 beygir/2.0 litre olarak kayıtlıydı; bu yanlıştı. E46'da Valvetronic dört silindirli motorlar 316i ve 318i'de kullanıldı, 320i ise bütün üretim boyunca sıralı altı silindirliydi. 2001 Eylül sonrası 320i, M54B22 kodlu 2.171 cc atmosferik sıralı altıyı kullanıyor ve 170 beygir/210 Nm üretiyor. Hata, P2.1 veri paketiyle yapılan çapraz doğrulamada yakalandı ve bağımsız teknik kaynakla teyit edildi (MK-18). M54 ailesi listede zaten E39 530i ve E46 330i üzerinden kayıtlıydı; araç o aileye taşındı.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "corrected_at": "2026-08-13",
+    "correction": "P2.1 çapraz doğrulaması: motor ailesi bmw-n4x -> bmw-m54, hp 150 -> 170, hacim 2.0 -> 2.2, tork alanı 210 Nm olarak dolduruldu. Kaynak: bmwguide_m54b22_e46."
   },
   "evidence": {
-    "motor": {
-      "band": "orta risk, izlenmesi gereken kalem var",
-      "confidence": "düşük",
-      "sources": [
-        "sistemdestekuzmani_n47_kronik",
-        "techturkey_e39_530i_5hp19_vuruntu"
-      ],
-      "reasoning": "N42 (bmw-n4x) motor ailesinin temel puanı 58. Bu aracın motor puanı (58) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger zinciri gevşemesi ve buna bağlı yağ açlığı riski. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor: Kaynaklarda tekrarlayan ama aracın kullanım biçimine göre değişen bir risk bildiriliyor (ör. yağ tüketimi, turbo hortumu); motor genelde onarılabilir kalıyor.",
-      "assessed_at": "2026-08-06"
-    },
     "trans": {
       "band": "yönetilebilir bakım kalemi",
       "confidence": "düşük",
@@ -69,6 +62,16 @@
       ],
       "reasoning": "Bu aracın model yılı ortalaması 2003.0, yani 2026 itibarıyla yaşı yaklaşık 23.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
+    },
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "engineexplained_m54",
+        "bmwguide_m54b22_e46"
+      ],
+      "reasoning": "M54 (bmw-m54) motor ailesinin temel puanı 78. Bu aracın motor puanı (78) temel puanla birebir aynı. Bu kayıt daha önce dört silindirli bmw-n4x ailesine bağlıydı ve o ailenin temel puanını (58) taşıyordu; N42/N46'nın zincir kılavuzu aşınması bu motorda bulunmadığı için o puan yalnızca yanlış aile bağlantısının sonucuydu. Doğru aile olan M54, sıralı altı silindirli atmosferik bir tasarım ve kaynaklar ciddi onarım gerekmeden 270.000-450.000 km arası dayandığını bildiriyor. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: yapısal bir tasarım hatası bildirilmiyor, bildirilen kalemler (DISA kelebeği, VANOS conta, yağ ayırıcı) planlanabilir bakım kalemleri.",
+      "assessed_at": "2026-08-13"
     }
   }
 }

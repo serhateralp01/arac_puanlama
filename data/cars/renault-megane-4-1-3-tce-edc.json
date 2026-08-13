@@ -12,7 +12,8 @@
     "transmission_type": "Islak DCT",
     "transmission_id": "getrag-7dct300",
     "body_type": "Hatchback",
-    "engine_id": "renault-h5ht"
+    "engine_id": "renault-h5ht",
+    "torque_nm": 240
   },
   "price_band_k_try": [
     780,
@@ -37,7 +38,8 @@
   "note": "Megane 4'ün benzinli turbo versiyonu; H5Ht motoru ve 7 ileri ıslak EDC kutusu listede zaten Qashqai/Koleos/Clio 5'te kayıtlı. Aynı ailenin EDC şanzımanında düşük hızda gecikmeli tepki eğilimi diğer modellerde de bildirildiği için burada da geçerli bir kontrol kalemi.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Tork (240 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (140 bg) ve motor hacmi (1.3 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

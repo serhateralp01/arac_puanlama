@@ -12,7 +12,8 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-eat6",
     "body_type": "Hatchback",
-    "engine_id": "psa-puretech-12"
+    "engine_id": "psa-puretech-12",
+    "torque_nm": 205
   },
   "price_band_k_try": [
     520,
@@ -37,7 +38,8 @@
   "note": "C3'ün üçüncü nesli; yağ banyolu triger kayışlı PureTech motoru taşıyor, bakımı ihmal edilmemeli.",
   "provenance": {
     "added_at": "2026-08-07",
-    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı."
+    "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı.",
+    "specs_source": "Tork (205 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (110 bg) ve motor hacmi (1.2 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "age": {

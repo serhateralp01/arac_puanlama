@@ -1,128 +1,302 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/serhateralp01/arac_puanlama/data/schema/car.schema.json",
-  "title": "Araç kaydı",
-  "description": "data/cars/*.json içindeki tek bir araç-motor-şanzıman kombinasyonu. Dosya adı `id` ile aynı olmalı.",
-  "type": "object",
-  "required": [
-    "id", "name", "tag", "brand_group", "years", "specs",
-    "price_band_k_try", "verification", "scores", "sources", "note"
-  ],
-  "additionalProperties": false,
-  "properties": {
-    "id": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Dosya adıyla aynı olan kalıcı kimlik. Bir kez verildikten sonra değiştirilmez; değişirse git geçmişi kopar."
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/serhateralp01/arac_puanlama/data/schema/car.schema.json",
+ "title": "Araç kaydı",
+ "description": "data/cars/*.json içindeki tek bir araç-motor-şanzıman kombinasyonu. Dosya adı `id` ile aynı olmalı.",
+ "type": "object",
+ "required": [
+  "id",
+  "name",
+  "tag",
+  "brand_group",
+  "years",
+  "specs",
+  "price_band_k_try",
+  "verification",
+  "scores",
+  "sources",
+  "note"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+   "description": "Dosya adıyla aynı olan kalıcı kimlik. Bir kez verildikten sonra değiştirilmez; değişirse git geçmişi kopar."
+  },
+  "legacy_index": {
+   "type": "integer",
+   "minimum": 0,
+   "description": "Göç öncesi tek dosyalık sürümdeki dizi sırası. Yalnızca çıktı sıralamasını korumak için var; yeni araçlarda gerekmez."
+  },
+  "name": {
+   "type": "string",
+   "minLength": 3
+  },
+  "tag": {
+   "type": "string",
+   "description": "Kısa teknik künye; şanzıman kodu ve güç aralığı gibi bilgiler."
+  },
+  "brand_group": {
+   "type": "string",
+   "description": "Aracın gerçek üretici markası (ör. Volkswagen, Toyota, BMW). Uydurma bir üst grup adı olamaz — 'VAG', 'Japon' gibi gevşek gruplamalar reddedilir; gerekçesi docs/ARCHITECTURE.md MK-10 kaydında. Tek istisna: kaydın kendisi gerçekten iki farklı markanın paylaştığı, rebadge edilmiş ikiz bir modeli temsil ediyorsa (ör. 'Citroën / Peugeot', 'Kia / Hyundai') iki gerçek marka adı ' / ' ile yazılabilir; üçüncü bir uydurma isim asla kullanılmaz."
+  },
+  "years": {
+   "type": "string",
+   "pattern": "^[0-9]{4}-[0-9]{4}$",
+   "description": "Bu motor+şanzıman kombinasyonunun Türkiye'de bulunduğu model yılı aralığı."
+  },
+  "specs": {
+   "type": "object",
+   "required": [
+    "hp",
+    "displacement_l",
+    "fuel",
+    "drivetrain",
+    "transmission_type"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "hp": {
+     "type": "integer",
+     "minimum": 1
     },
-    "legacy_index": {
-      "type": "integer",
-      "minimum": 0,
-      "description": "Göç öncesi tek dosyalık sürümdeki dizi sırası. Yalnızca çıktı sıralamasını korumak için var; yeni araçlarda gerekmez."
+    "displacement_l": {
+     "type": "number",
+     "exclusiveMinimum": 0.5,
+     "exclusiveMaximum": 8
     },
-    "name": { "type": "string", "minLength": 3 },
-    "tag": {
-      "type": "string",
-      "description": "Kısa teknik künye; şanzıman kodu ve güç aralığı gibi bilgiler."
+    "fuel": {
+     "enum": [
+      "Dizel",
+      "Benzin"
+     ]
     },
-    "brand_group": {
-      "type": "string",
-      "description": "Aracın gerçek üretici markası (ör. Volkswagen, Toyota, BMW). Uydurma bir üst grup adı olamaz — 'VAG', 'Japon' gibi gevşek gruplamalar reddedilir; gerekçesi docs/ARCHITECTURE.md MK-10 kaydında. Tek istisna: kaydın kendisi gerçekten iki farklı markanın paylaştığı, rebadge edilmiş ikiz bir modeli temsil ediyorsa (ör. 'Citroën / Peugeot', 'Kia / Hyundai') iki gerçek marka adı ' / ' ile yazılabilir; üçüncü bir uydurma isim asla kullanılmaz."
+    "drivetrain": {
+     "enum": [
+      "Önden",
+      "Arkadan",
+      "Dört çeker"
+     ]
     },
-    "years": {
-      "type": "string",
-      "pattern": "^[0-9]{4}-[0-9]{4}$",
-      "description": "Bu motor+şanzıman kombinasyonunun Türkiye'de bulunduğu model yılı aralığı."
+    "transmission_type": {
+     "enum": [
+      "TK",
+      "Islak DCT",
+      "Kuru DCT",
+      "CVT",
+      "Robot"
+     ],
+     "description": "TK = tork konvertörü. Sınıflandırmanın gerekçesi docs/methodology.md içinde."
     },
-    "specs": {
-      "type": "object",
-      "required": ["hp", "displacement_l", "fuel", "drivetrain", "transmission_type"],
-      "additionalProperties": false,
-      "properties": {
-        "hp": { "type": "integer", "minimum": 1 },
-        "displacement_l": { "type": "number", "exclusiveMinimum": 0.5, "exclusiveMaximum": 8 },
-        "fuel": { "enum": ["Dizel", "Benzin"] },
-        "drivetrain": { "enum": ["Önden", "Arkadan", "Dört çeker"] },
-        "transmission_type": {
-          "enum": ["TK", "Islak DCT", "Kuru DCT", "CVT", "Robot"],
-          "description": "TK = tork konvertörü. Sınıflandırmanın gerekçesi docs/methodology.md içinde."
-        },
-        "body_type": {
-          "enum": ["Sedan", "Hatchback", "Station Wagon", "Coupe", "SUV", "MPV", "Cabrio", null],
-          "description": "Gövde tipi. Kapsam sınırı olarak değil, filtre olarak kullanılır; gerekçesi docs/ARCHITECTURE.md içindeki MK-03 kaydında. Henüz doldurulmadığı için null kabul ediliyor."
-        },
-        "kerb_weight_kg": {
-          "type": ["integer", "null"],
-          "description": "Boş ağırlık. Sürüş keyfi formülünün güç/ağırlık girdisi için gerekiyor (MK-06)."
-        },
-        "torque_nm": {
-          "type": ["integer", "null"],
-          "description": "Azami tork. Sürüş keyfi formülünün ikinci girdisi."
-        },
-        "fuel_consumption_l_100km": {
-          "type": ["number", "null"],
-          "description": "Karma çevrim yakıt tüketimi. Sahip olma maliyeti formülünün girdisi."
-        },
-        "engine_id": {
-          "type": ["string", "null"],
-          "description": "data/engines.json içindeki motor ailesi kimliği. Aynı motorun her araçta yeniden değerlendirilmesini engeller."
-        },
-        "transmission_id": {
-          "type": ["string", "null"],
-          "description": "data/transmissions.json içindeki şanzıman kutusu kimliği. Aynı kutunun farklı araçlarda farklı puan almasını engeller."
-        }
-      }
+    "body_type": {
+     "enum": [
+      "Sedan",
+      "Hatchback",
+      "Station Wagon",
+      "Coupe",
+      "SUV",
+      "MPV",
+      "Cabrio",
+      null
+     ],
+     "description": "Gövde tipi. Kapsam sınırı olarak değil, filtre olarak kullanılır; gerekçesi docs/ARCHITECTURE.md içindeki MK-03 kaydında. Henüz doldurulmadığı için null kabul ediliyor."
     },
-    "price_band_k_try": {
-      "type": "array",
-      "items": { "type": "number", "minimum": 0 },
-      "minItems": 2,
-      "maxItems": 2,
-      "description": "[alt, üst], bin TL. Görüş değil piyasa verisi olduğu için arayüzden düzenlenebilir tek alan."
+    "kerb_weight_kg": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "description": "Boş ağırlık. Sürüş keyfi formülünün güç/ağırlık girdisi için gerekiyor (MK-06)."
     },
-    "verification": {
-      "enum": ["verified", "partial", "preliminary"],
-      "description": "verified = en az iki bağımsız kaynakla doğrulandı; partial = kaynak var ama Türkiye pazarına özel değil; preliminary = henüz araştırılmadı, ön puan."
+    "torque_nm": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "description": "Azami tork. Sürüş keyfi formülünün ikinci girdisi."
     },
-    "scores": {
-      "type": "object",
-      "required": ["motor", "trans", "fun", "comf", "age", "cost", "liq"],
-      "additionalProperties": false,
-      "patternProperties": {
-        "^(motor|trans|fun|comf|age|cost|liq)$": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
-        }
-      },
-      "description": "Fiyat puanı burada yok; listedeki bütün araçlara göre üretim sırasında hesaplanıyor."
+    "fuel_consumption_l_100km": {
+     "type": [
+      "number",
+      "null"
+     ],
+     "description": "Karma çevrim yakıt tüketimi. Sahip olma maliyeti formülünün girdisi."
     },
-    "evidence": {
-      "type": "object",
-      "description": "Faz 2: kriter başına kanıt kaydı. Hangi kaynak hangi puana yol açtı, hangi bant uygulandı, güven ne.",
-      "additionalProperties": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "band": { "type": "string", "description": "docs/methodology.md içindeki bant adı" },
-          "confidence": { "enum": ["yüksek", "orta", "düşük"] },
-          "sources": { "type": "array", "items": { "type": "string" } },
-          "reasoning": { "type": "string" },
-          "assessed_at": { "type": "string", "format": "date" }
-        }
-      }
+    "engine_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "data/engines.json içindeki motor ailesi kimliği. Aynı motorun her araçta yeniden değerlendirilmesini engeller."
     },
-    "sources": {
-      "type": "array",
-      "items": { "type": "string" },
-      "uniqueItems": true,
-      "description": "data/sources.json anahtarları."
-    },
-    "note": { "type": "string", "minLength": 40 },
-    "provenance": {
-      "type": "object",
-      "additionalProperties": true,
-      "description": "Kaydın nereden geldiği. Göç edilenlerde import betiğini gösterir."
+    "transmission_id": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "data/transmissions.json içindeki şanzıman kutusu kimliği. Aynı kutunun farklı araçlarda farklı puan almasını engeller."
     }
+   }
+  },
+  "price_band_k_try": {
+   "type": "array",
+   "items": {
+    "type": "number",
+    "minimum": 0
+   },
+   "minItems": 2,
+   "maxItems": 2,
+   "description": "[alt, üst], bin TL. Görüş değil piyasa verisi olduğu için arayüzden düzenlenebilir tek alan."
+  },
+  "price_reference": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "Fiyat bandının nereden geldiği. docs/PLAN.md §3.8 tarihsiz fiyatın yanıltıcı olduğunu söylüyor: Türkiye enflasyonunda altı ayda anlamsızlaşan bir sayı, hangi tarihte ve hangi yöntemle ölçüldüğü yazılmazsa doğrulanamaz. Bu blok isteğe bağlıdır; dolu olmayan bantlar denetimde 'tarihsiz tahmin' uyarısı üretir. Alan MK-19 ile eklendi.",
+   "required": [
+    "as_of",
+    "method",
+    "source"
+   ],
+   "properties": {
+    "as_of": {
+     "type": "string",
+     "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+     "description": "Gözlemin alındığı tarih. Bandın yaşı bu tarihten hesaplanır."
+    },
+    "method": {
+     "type": "string",
+     "minLength": 20,
+     "description": "Bandın nasıl türetildiği; örneklem, pencere ve filtre dahil tam cümleyle."
+    },
+    "source": {
+     "type": "string",
+     "description": "data/sources.json içindeki kaynak kimliği."
+    },
+    "marketplace": {
+     "type": "string"
+    },
+    "price_semantics": {
+     "enum": [
+      "asking_price_snapshot",
+      "realized_sale",
+      "dealer_quote",
+      "estimate"
+     ],
+     "description": "İstenen ilan fiyatı ile gerçekleşen satış fiyatı aynı şey değildir."
+    },
+    "group_id": {
+     "type": "string",
+     "description": "data/market/*.json içindeki fiyat grubu kimliği."
+    },
+    "observations": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "window_days": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "p25_try": {
+     "type": "number"
+    },
+    "median_try": {
+     "type": "number"
+    },
+    "p75_try": {
+     "type": "number"
+    },
+    "km_median": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "quality": {
+     "type": "string",
+     "description": "Bilinen sınırlılık sınıfı; ör. tek pazar, hasar bilgisi yok."
+    }
+   }
+  },
+  "verification": {
+   "enum": [
+    "verified",
+    "partial",
+    "preliminary"
+   ],
+   "description": "verified = en az iki bağımsız kaynakla doğrulandı; partial = kaynak var ama Türkiye pazarına özel değil; preliminary = henüz araştırılmadı, ön puan."
+  },
+  "scores": {
+   "type": "object",
+   "required": [
+    "motor",
+    "trans",
+    "fun",
+    "comf",
+    "age",
+    "cost",
+    "liq"
+   ],
+   "additionalProperties": false,
+   "patternProperties": {
+    "^(motor|trans|fun|comf|age|cost|liq)$": {
+     "type": "integer",
+     "minimum": 0,
+     "maximum": 100
+    }
+   },
+   "description": "Fiyat puanı burada yok; listedeki bütün araçlara göre üretim sırasında hesaplanıyor."
+  },
+  "evidence": {
+   "type": "object",
+   "description": "Faz 2: kriter başına kanıt kaydı. Hangi kaynak hangi puana yol açtı, hangi bant uygulandı, güven ne.",
+   "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "band": {
+      "type": "string",
+      "description": "docs/methodology.md içindeki bant adı"
+     },
+     "confidence": {
+      "enum": [
+       "yüksek",
+       "orta",
+       "düşük"
+      ]
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "reasoning": {
+      "type": "string"
+     },
+     "assessed_at": {
+      "type": "string",
+      "format": "date"
+     }
+    }
+   }
+  },
+  "sources": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "uniqueItems": true,
+   "description": "data/sources.json anahtarları."
+  },
+  "note": {
+   "type": "string",
+   "minLength": 40
+  },
+  "provenance": {
+   "type": "object",
+   "additionalProperties": true,
+   "description": "Kaydın nereden geldiği. Göç edilenlerde import betiğini gösterir."
   }
+ }
 }

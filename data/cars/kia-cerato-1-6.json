@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
     "body_type": "Sedan",
-    "engine_id": "hyundai-gamma16-mpi"
+    "engine_id": "hyundai-gamma16-mpi",
+    "torque_nm": 157
   },
   "price_band_k_try": [
     650,
@@ -39,7 +40,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Tork (157 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (130 bg) ve motor hacmi (1.6 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

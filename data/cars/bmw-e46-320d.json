@@ -12,7 +12,8 @@
     "transmission_type": "TK",
     "transmission_id": "zf-5hp",
     "body_type": "Sedan",
-    "engine_id": "bmw-m47"
+    "engine_id": "bmw-m47",
+    "torque_nm": 330
   },
   "price_band_k_try": [
     480,
@@ -38,7 +39,8 @@
   "note": "E46'nın en yaygın otomatik dizeli; M47 motoru ve ZF 5 ileri kutusu E46 330d ve E39 520d ile aynı aileden, listede zaten kayıtlı. Motor kodunda 'TU' (Technical Update) arayan alıcılar EGR ve emme manifoldu kelebeği kaldırma dışında sorunsuz bir motor buluyor; turbo arızaları ayrı bir kontrol kalemi.",
   "provenance": {
     "added_at": "2026-08-06",
-    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday."
+    "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
+    "specs_source": "Tork (330 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (150 bg) ve motor hacmi (2.0 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

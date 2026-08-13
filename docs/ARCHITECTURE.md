@@ -584,3 +584,176 @@ tetikliyor (18 → 35 uyarı). Bu beklenen bir sonuç, hata değil: formül önc
 50'de donmuş, hiçbir kaynağa dayanmayan puanları gerçek uç değerlere taşıdı; kural
 şimdi bu araçların gerçekten ikinci bir kaynağa ihtiyacı olduğunu doğru şekilde
 işaretliyor. `validate.py` yine de 0 hata ile tamamlanıyor.
+
+---
+
+## MK-18 · Dış veri seti çapraz doğrulama için kullanılır; çelişki bulunduğunda depo düzeltilir
+
+**Karar:** Depoya girmeyen bir dış veri seti bile, kendi verimizin **doğruluğunu ölçmek**
+için kullanılabilir ve kullanılmalıdır. 2026-08-13'te elimize geçen P2.1 veri paketi
+(1.641 araç–motor–şanzıman kombinasyonu) bu amaçla repoya karşı çalıştırıldı: iki veri
+seti aynı aracın beygirini, torkunu, motor ve şanzıman ailesini bağımsız olarak
+söylüyorsa, çelişen her satır bir taraftaki hatayı işaret ediyor demektir.
+
+**Ölçüm.** 278 aracımızın 220'si P2.1'de de vardı. Sonuç:
+
+| Karşılaştırılan alan | Çelişki | Yorum |
+|---|---:|---|
+| Motor ailesi (`engine_id`) | 0 | Bileşen sicili sağlam |
+| Şanzıman ailesi (`transmission_id`) | 0 | Bileşen sicili sağlam |
+| Beygir | 4 | İkisi varyant belirsizliği, ikisi gerçek hata |
+| Tork | 6 | Üçü gerçek hata, üçü varyant/yuvarlama farkı |
+
+**Bulunan gerçek hatalar ve düzeltmeleri.** Her biri bağımsız teknik kaynakla ayrıca
+doğrulandıktan sonra düzeltildi:
+
+- **`bmw-e46-320i` yanlış motor ailesine bağlıydı.** Kayıt, dört silindirli Valvetronic
+  ailesine (`bmw-n4x`) bağlıydı ve o ailenin zincir kılavuzu zaafını taşıyordu. Oysa
+  E46'da Valvetronic dört silindirliler 316i ve 318i'de kullanıldı; **320i bütün üretim
+  boyunca sıralı altı silindirliydi.** 2001 sonrası 320i, M54B22 (2.171 cc, 170 bg,
+  210 Nm) kullanıyor. Araç `bmw-m54` ailesine taşındı, beygir 150→170, hacim 2.0→2.2
+  düzeltildi, tork alanı dolduruldu. Motor puanı 58→78 çıktı — eski puan yalnızca yanlış
+  aile bağlantısının sonucuydu. Bu, MK-08'in uyardığı nesil karıştırma hatasının canlı
+  bir örneğidir ve kendi denetimlerimizin (hacim/yakıt çelişki kuralları) neden yakalayamadığını
+  da gösteriyor: 2.0 litre hem N4x hem M52 için geçerli bir hacimdi, yani kural sessiz kaldı.
+- **`vw-passat-b7-1-6-tdi` 400 Nm taşıyordu.** 1,6 litrelik bir dizelin 400 Nm üretmesi
+  mekanik olarak mümkün değil; gerçek değerler 105 bg ve 250 Nm. Bu hata `fun` puanını
+  20 yerine 64 gösteriyordu, yani araç sürüş keyfi sıralamasında ilk ona giriyordu.
+- **`vw-polo-gti-1-8-tsi-dsg` 320 Nm taşıyordu.** Bu, manuel şanzımanlı Polo GTI'nin
+  değeri; DSG'li versiyonda tepe tork kutuyu korumak için fabrikada 250 Nm'ye
+  sınırlandırılmış durumda ve bu kayıt DSG varyantını temsil ediyor.
+- **`ford-focus-4-1-5-ecoblue` 270 Nm yerine 300 Nm**, **`honda-crv-3-2-0-ivtec-5at`
+  190 yerine 192 Nm** olarak düzeltildi.
+
+**Gerekçe.** Bu proje puanların gerekçesini saklıyor ama girdilerin doğruluğunu bugüne
+kadar yalnızca kendi iç tutarlılık kurallarıyla denetliyordu. Passat örneği bu yaklaşımın
+sınırını gösteriyor: 400 Nm hiçbir iç kuralı ihlal etmiyordu, çünkü tork alanı için üst
+sınır tanımlı değildi. Bağımsız ikinci bir veri seti, iç kuralların göremediği hatayı tek
+geçişte buldu. **Bu yüzden dış veri setiyle çapraz doğrulama artık bir defalık iş değil,
+her yeni veri paketinde tekrarlanacak bir denetim adımıdır.**
+
+**Yan karar — tork için üst sınır denetimi eklenmedi.** İlk refleks, `validate.py`'ye
+"hacim başına tork şu değeri aşamaz" gibi bir kural eklemekti. Eklenmedi, çünkü böyle bir
+sınır motor teknolojisine göre değişiyor (aynı 1,6 litre, atmosferik benzinlide 150 Nm,
+modern turbo dizelde 320 Nm üretebiliyor) ve yanlış kalibre edilmiş bir sınır gerçek
+verileri hata olarak işaretleyip denetime olan güveni düşürürdü. Bunun yerine çapraz
+doğrulama yöntemi tercih edildi: iki bağımsız kaynağın aynı alanda anlaşması, tek taraflı
+bir eşik kuralından daha güvenilir bir sinyal.
+
+---
+
+## MK-19 · Fiyat bandı tarihlenir ve yöntemi yazılır; ilan havuzu depoya alınmaz
+
+**Karar:** `price_band_k_try` artık tarihsiz bir tahmin olmaktan çıkıyor. Ölçülmüş
+bantlar, yanına `price_reference` bloğuyla birlikte saklanıyor: ölçüm tarihi (`as_of`),
+yöntem, örneklem sayısı, gözlem penceresi, kaynak kimliği ve bilinen sınırlılıklar.
+Bu, `docs/PLAN.md` §3.8'in istediği şeyin uygulanmasıdır.
+
+**Ölçülen sorun.** 2026-08-13 tarihli piyasa gözlemleri, elimizdeki tahminlerle 19 araçta
+karşılaştırılabildi. **Piyasa medyanı, tahminlerin medyan %8 üzerinde çıktı ve 19 aracın
+15'inde tahmin piyasadan düşüktü.** Bazı sapmalar çok büyüktü: Skoda Octavia 1.6 TDI için
+tahmin 700-1.000 bin TL derken gözlem 1.000-1.390 bin TL, Toyota Corolla E210 için tahmin
+950-1.350 iken gözlem 1.415-1.665 bin TL. Bu, PLAN.md'nin "fiyatlar Türkiye enflasyonunda
+altı ayda anlamsızlaşıyor" uyarısının ölçülmüş kanıtıdır: tahminler yanlış değil, **eskimişti.**
+
+**Bandın yeni anlamı.** Ölçülmüş bir bant artık "tahmini fiyat aralığı" değil, o grupta
+gözlenen istenen fiyatların **orta yarısıdır** (P25–P75). Bu tanım, uç ilanları — hasarlı
+ucuzlar ve hayalci pahalılar — bandın dışında bırakıyor.
+
+**Kabul edilen sınırlılıklar, açıkça yazılıyor.** Gözlemler tek bir pazar yerinin kamuya
+açık arama sonuç kartlarından alındı ve **istenen fiyattır, gerçekleşen satış fiyatı
+değildir.** Pazarlık payı ve satılamayıp ilanda birikenler yüzünden istenen fiyat
+gerçekleşenin üzerindedir; aradaki fark bu veriyle ölçülemediği için bant düzeltilmeden
+yazıldı. Sonuç kartında hasar bilgisi bulunmadığı için bantlar hasarlı ve hasarsız araçları
+birlikte içeriyor. Bu üç sınırlılık her araç kaydında `price_reference.quality` ve
+`price_semantics` alanlarında duruyor; gizlenmiyor.
+
+**Depoya ne alındı, ne alınmadı.** `data/market/price-snapshots-2026-08.json` yalnızca
+**grup düzeyinde istatistik** taşıyor: çeyreklikler, örneklem sayısı, pencere, aykırı değer
+sayısı, satıcı türü dağılımı, medyan kilometre ve sorgu sayfasının adresi. **Tekil ilanlar,
+ilan bağlantıları, satıcı iletişim bilgileri ve fotoğraflar bilinçli olarak alınmadı.**
+Ayrım MK-15'in mantığının aynısı: bir platformun sürekli yeniden üretilebilen ilan havuzunu
+kopyalamak ile o havuzdan türetilmiş bir istatistiği kaynak göstererek kullanmak aynı şey
+değil. Bu proje yalnızca ikincisini yapıyor ve ticarileşme ihtimali (CLAUDE.md §4) bu ayrımı
+bugünden korumayı gerektiriyor.
+
+**Yan karar — piyasa kaynağı araç kaynak listesine yazılmaz.** Kaynak yalnızca
+`price_reference.source` alanında anılıyor, `car["sources"]` listesine eklenmiyor. Gerekçe
+MK-14'ün TÜV kararıyla birebir aynı: o liste "doğrulanmış" rozetini besleyen ve aracın
+**güvenilirliğine** dair bağımsız kaynakları sayıyor. Bir ilan fiyatı gözlemi aracın motoru,
+şanzımanı veya yaşı hakkında hiçbir şey söylemez; listeye eklenseydi fiyatı ölçülen her
+aracın kaynak sayısı bir anda artar ve D-02'de kapatılan iyimser etiketleme hatası fiyat
+üzerinden geri gelirdi. Bu ayrım `scripts/validate.py`'ye de öğretildi: yetim kaynak sayımı
+artık `price_reference` referanslarını da kullanım sayıyor.
+
+**Yeni denetim kuralları.** İki uyarı eklendi. `fiyat-tarihsiz`, `price_reference` bloğu
+olmayan bantları işaretliyor — bugün 278 aracın 259'u bu durumda ve bu sayı, kapatılması
+gereken boşluğun dürüst ölçüsüdür. `fiyat-bandi-bayat`, altı aydan eski ölçümleri
+işaretliyor; altı ay eşiği PLAN.md'nin kendi ifadesinden geliyor.
+
+---
+
+## MK-20 · İlan sayısı likidite ölçüsü olarak reddedildi: örneklem tavana dayalı
+
+**Karar:** `docs/PLAN.md` §3.7, `liq` (bulunabilirlik) kriterinin ilan sayımıyla
+ölçülmesini öngörüyordu: "İlan sayısı kaydedilir → `liq` = log ölçekli ilan sayısının
+listeye göre normalize hali." Elimize 2.071 tarihli ilan gözlemi geçtiğinde bu protokolün
+nihayet uygulanabileceği düşünüldü. **Uygulanmadı ve veri bu amaçla reddedildi.**
+
+**Gerekçe — sansürlenmiş örneklem.** Gözlemler 54 ayrı sorgu sayfasından toplandı ve
+**her sorgu `take=50` parametresiyle, yani en fazla 50 ilan getirecek şekilde çalıştırıldı.**
+Gruplardaki en yüksek gözlem sayısı tam olarak 50. Bu, istatistikte sağdan sansürlenmiş
+(right-censored) örneklem demektir: 50 ilanı olan bir araç ile 4.000 ilanı olan bir araç
+veride **birebir aynı** görünür.
+
+Sorun yalnızca gürültü olsaydı katlanılabilirdi. Asıl sorun, sansürün **rastgele değil,
+tam olarak ölçmek istediğimiz yönde** çalışması: en likit araçlar tavana dayanır ve
+birbirinden ayırt edilemez hale gelir, seyrek araçlar ise gerçek sayılarıyla kalır. Bu
+veriyle hesaplanacak bir `liq` puanı, en kolay bulunan araçları en likit rakiplerinden
+ayıramaz ve sıralamayı sistematik olarak bozardı. **Yanlış bir ölçüm, ölçüm yokluğundan
+kötüdür**, çünkü ölçülmüş görünür ve sorgulanmaz.
+
+**Reddedilen ara çözümler.** İki çıkış yolu değerlendirilip elendi. (1) *Yalnızca 50'nin
+altındaki grupları puanlamak:* bu, ölçümü tam olarak popüler araçların olmadığı bir alt
+kümeye daraltır ve `liq`'in amacını ortadan kaldırır. (2) *Tavana dayananlara ortak bir
+üst puan vermek:* bu, ölçüm gibi görünen bir tahmin üretir ve MK-14'te doğrusal `age`
+formülünün reddedilme gerekçesiyle aynı hataya düşer.
+
+**Ne yapıldı.** Sınırlılık, veri dosyasının kendi içine
+(`known_limitations`) yazıldı ki bu veriyi sonradan açan hiç kimse aynı yanlışa düşmesin.
+`liq` bugünkü haliyle elle verilmiş bir tahmin olarak kalıyor ve `docs/ROADMAP.md` bunu
+açık bir eksik olarak taşımaya devam ediyor. Protokolün doğru uygulanması, sorgu başına
+**toplam sonuç sayısını** (kaç ilan bulunduğunu) kaydetmeyi gerektiriyor; bu, listelenen
+ilanları çekmekten farklı ve çok daha ucuz bir işlem.
+
+---
+
+## MK-21 · Dış katalog toplu olarak içe aktarılmaz; aday kuyruğundan tek tek geçer
+
+**Karar:** P2.1 veri paketi 1.641 araç–motor–şanzıman kombinasyonu içeriyor; deponun
+bugünkü listesi 278. Aradaki fark cazip görünüyor ama **toplu içe aktarma reddedildi.**
+Adaylar `data/queue/car-candidates-p21.json` dosyasında bekliyor ve her biri deponun kendi
+kanıt standardından (araca özgü kaynak, aile temel puanı, `evidence` bloğu) tek tek geçmek
+zorunda.
+
+**Ölçülen gerçek: asıl darboğaz araç sayısı değil, kimlik çözümleme.** 1.641 satır repo
+standardına karşı süzüldüğünde yalnızca **6 tanesi** yeni bileşen ailesi açmadan
+alınabiliyor. Kalan 1.415 satırın önündeki engel araştırma eksikliği değil: P2.1'in motor
+kayıtlarının büyük kısmında motor kodu "Kaynakta belirtilmemiş" olarak duruyor, yani hangi
+motor ailesi olduğu veri setinde çözülmemiş. Bir aracı kimliği çözülmemiş bir motor
+ailesine bağlamak, MK-08'in uyardığı nesil karıştırma hatasını üretmenin en hızlı yolu
+olurdu — ve MK-18 az önce bunun tam olarak nasıl göründüğünü gösterdi.
+
+**Bulunan fırsat.** Marka, yakıt ve hacim üçlüsüyle bakıldığında bu çözülmemiş ailelerin
+çoğunun repoda zaten karşılığı var. En çok araç açacak 30 aile için eşleme önerisi
+üretildi ve kuyruk dosyasına yazıldı: **bu 30 ailenin doğrulanması 434 aracın önünü
+açıyor.** Öneriler doğrulanmış değil, adaydır; her biri için motor kodunun üretim yılı ve
+nesil aralığıyla birlikte teyit edilmesi gerekiyor. Y-02'de kaynak derinleştirmede işe
+yarayan "en yüksek kaldıraçlı aileden başla" yöntemi burada da geçerli.
+
+**Gerekçe.** CLAUDE.md §2 "bitmemiş karmaşıklık için çalışan ürün riske atılmaz" diyor.
+1.641 satırı puanlarıyla birlikte içe almak, bugün 278 aracın hepsinde dolu olan kanıt
+zincirini bir gecede seyreltirdi: ortalama kaynak sayısı çöker, "doğrulanmış" rozeti
+anlamını yitirir ve deponun tek gerçek farklılaştırıcısı — her puanın arkasında yazılı bir
+gerekçe olması — kaybolurdu. Katalog büyüklüğü rakiplerin de kolayca ulaşabileceği bir
+metrik; kanıt derinliği değil.

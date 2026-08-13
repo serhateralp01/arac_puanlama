@@ -13,7 +13,8 @@
     "transmission_type": "TK",
     "transmission_id": "gm-5l40e",
     "body_type": "Sedan",
-    "engine_id": "bmw-m52"
+    "engine_id": "bmw-m52",
+    "torque_nm": 245
   },
   "price_band_k_try": [
     400,
@@ -42,7 +43,8 @@
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
-    "method": "scripts/import_legacy.js"
+    "method": "scripts/import_legacy.js",
+    "specs_source": "Tork (245 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (170 bg) ve motor hacmi (2.5 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {

@@ -12,11 +12,12 @@
     "transmission_type": "TK",
     "transmission_id": "zf-8hp",
     "body_type": "Sedan",
-    "engine_id": "bmw-n47"
+    "engine_id": "bmw-n47",
+    "torque_nm": 380
   },
   "price_band_k_try": [
-    950,
-    1400
+    1120,
+    1450
   ],
   "verification": "verified",
   "scores": {
@@ -38,7 +39,8 @@
   "note": "BMW'nin dördüncü nesil 3 Serisi'nin (F30) en yaygın dizel-otomatik kombinasyonu; N47 motoru E90/E87'den zaten kayıtlı ama bu araç 2009 ortası zincir revizyonunun tamamen sonrasında üretildiği için puanı temel puanın (38) biraz üzerinde tutuldu. Bu turda ilk kez açılan ZF 8HP kutusu, önceki 6HP'ye göre genel olarak daha güvenilir kabul ediliyor; bilinen zaafları (yağ soğutucusu çatlağı, soğuk kalkışta adaptasyon kaybı) yapısal değil, izlenebilir bakım kalemleri. F30, listedeki en likit BMW'lerden biri.",
   "provenance": {
     "added_at": "2026-08-07",
-    "method": "Y-01 beşinci tur: mevcut motor ailesi (bmw-n47) + yeni şanzıman ailesi (zf-8hp)."
+    "method": "Y-01 beşinci tur: mevcut motor ailesi (bmw-n47) + yeni şanzıman ailesi (zf-8hp).",
+    "specs_source": "Tork (380 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (184 bg) ve motor hacmi (2.0 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
   },
   "evidence": {
     "motor": {
@@ -74,5 +76,20 @@
       "reasoning": "Bu aracın model yılı ortalaması 2013.5, yani 2026 itibarıyla yaşı yaklaşık 12.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 26.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 48 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "price_reference": {
+    "as_of": "2026-08-13",
+    "method": "Her grup için sabit bir arama tanımı (marka + model + motor + otomatik şanzıman) çalıştırıldı ve sonuç kartları okundu. P25/medyan/P75 önce 90 günlük ilan penceresinde hesaplandı; beşten az gözlem olan gruplarda pencere açıkça 180 güne genişletildi. En az dört gözlemi olan gruplarda Tukey 1,5×IQR aykırı değer filtresi uygulandı.",
+    "source": "arabam_p21_ilan_snapshot_2026_08",
+    "marketplace": "arabam.com",
+    "price_semantics": "asking_price_snapshot",
+    "group_id": "pg-a253fa9a255b24dd01",
+    "observations": 33,
+    "window_days": 90,
+    "p25_try": 1120000,
+    "median_try": 1279999,
+    "p75_try": 1450000,
+    "km_median": 280000,
+    "quality": "limited_single_market_missing_damage"
   }
 }
