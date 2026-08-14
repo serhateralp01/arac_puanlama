@@ -2732,9 +2732,38 @@
     "cylinders": 5,
     "aspiration": null,
     "base_score": 66,
-    "maintenance": "Doğru yağ ve temiz yakıtla düzenli bakım kritik.",
-    "known_issues": [],
+    "maintenance": "Motor girişimli (interference) tasarım: triger kayışı ihmali felaketle sonuçlanıyor, önerilen aralık yaklaşık 96.000-160.000 km. Karter havalandırma (PCV) sistemi tıkanma açısından kontrol edilmeli; tıkandığında motor içi basınç yükselip yağ kaçağı yapıyor.",
+    "known_issues": [
+      {
+        "issue": "Triger kayışının ihmali; motor girişimli tasarım olduğu için kopma ağır motor hasarıyla sonuçlanıyor",
+        "onset_km": 96000,
+        "frequency": "orta",
+        "severity": "motor ölür",
+        "sources": [
+          "enginecrux_volvo_b5254"
+        ]
+      },
+      {
+        "issue": "Karter havalandırma (PCV) sisteminin tıkanması; motor içi basınç yükselip yağ kaçaklarına yol açıyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "enginecrux_volvo_b5254"
+        ]
+      },
+      {
+        "issue": "Külbütör kapağı ve karter contalarından yaşlanmaya bağlı yağ sızıntısı",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "küçük",
+        "sources": [
+          "enginecrux_volvo_b5254"
+        ]
+      }
+    ],
     "sources": [
+      "enginecrux_volvo_b5254",
       "engineexplained_d5244t"
     ],
     "note": "Birinci nesil S60'ın beş silindirli benzinli ailesi; hem atmosferik hem turbo sürümleri var. Motora özgü ayrıntılı bir kaynak bulunamadı; aynı dönemin Volvo beş silindirli dizel ailesinin (D5/D5244T) 'basitlik ve güvenilirlikle biliniyor, doğru bakımla uzun kilometreyi kaldırıyor' genel profiline dayanarak temkinli bir puan verildi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: motora özgü kaynak eksikliği nedeniyle temkinli.]"
@@ -3543,10 +3572,39 @@
     "cylinders": 4,
     "aspiration": "Atmosferik",
     "base_score": 78,
-    "maintenance": "Zincir tahrikli, triger değişimi gerekmiyor; düzenli yağ değişimi dışında bilinen bir bakım kalemi yok.",
-    "known_issues": [],
+    "maintenance": "Zincir tahrikli; ısınmadan yüksek devirde kullanmak zincir aşınmasını hızlandırıyor. 2012 öncesi motorlarda yağ seviyesi düzenli izlenmeli, su pompası ve termostat yuvası kaçak açısından kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "2012 öncesi motorlarda piston segmanı aşınmasına bağlı yağ tüketimi; üretici 2012'de servis bülteni yayımladı",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "diversityengines_1nr"
+        ]
+      },
+      {
+        "issue": "VVT-i aktüatör tıkırtısı ve triger zinciri gergisi aşınması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "diversityengines_1nr"
+        ]
+      },
+      {
+        "issue": "Soğutma sistemi kaçakları (su pompası, termostat yuvası)",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük",
+        "sources": [
+          "diversityengines_1nr"
+        ]
+      }
+    ],
     "sources": [
-      "carchecker_yaris_1nr"
+      "carchecker_yaris_1nr",
+      "diversityengines_1nr"
     ],
     "note": "Yaris XP130'un 1.33 Dual VVT-i motoru; Corolla/Auris'te kullanılan 1ZR-FE'den (toyota-zr) daha küçük hacimli, ayrı bir aile. Toyota'nın en sade ve en az sorunlu küçük motorlarından biri olarak değerlendiriliyor, kronik bir arıza kalıbı bildirilmiyor. [base_score gerekçesi: 65-84 (sağlam, bilinen küçük bakım kalemi var) bandının üst sınırında: kaynak ciddi bir sorun bildirmiyor, tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
@@ -3769,9 +3827,38 @@
     "cylinders": 4,
     "aspiration": "Atmosferik",
     "base_score": 74,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Zincir gergisi zayıfladığında soğuk çalıştırmada tıkırtı duyuluyor ve geciktirilmemeli. Sık kısa mesafe kullanımı VTC aktüatörü riskini yükseltiyor; yağ değişimi aralığına uyulmalı.",
+    "known_issues": [
+      {
+        "issue": "Triger zinciri gergisinin zayıflaması; soğuk çalıştırmada tıkırtı olarak duyuluyor, geciktirilirse ağır hasara yol açıyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginecrux_honda_r20a"
+        ]
+      },
+      {
+        "issue": "VTC aktüatörü arızası; sık kısa mesafe kullanılan veya yağ değişimi ihmal edilen araçlarda risk yükseliyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "enginecrux_honda_r20a"
+        ]
+      },
+      {
+        "issue": "Bazı örneklerde piston segmanı veya supap keçesi kaynaklı yağ tüketimi",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "orta",
+        "sources": [
+          "enginecrux_honda_r20a"
+        ]
+      }
+    ],
     "sources": [
+      "enginecrux_honda_r20a",
       "vtec_asia_r20a"
     ],
     "note": "CR-V III'ün (2007-2012) Avrupa/Asya pazarına özel 2.0'ı; ABD/JDM'nin K-serisinden farklı, R18A'nın stroku uzatılmış bir versiyonu. Bağımsız bir arıza örüntüsü belgelenmedi; Honda'nın genel atmosferik güvenilirlik profiline uyuyor. [base_score gerekçesi: 65-84 (sağlam): tek kaynak (C) motoru tanımlıyor ama bilinen bir zaaf bildirmiyor, bu yüzden üst banda çıkarılmadı.]"

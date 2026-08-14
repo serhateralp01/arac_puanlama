@@ -719,14 +719,43 @@
     "type": "Kuru DCT",
     "supplier": "Getrag",
     "gears": 6,
-    "base_score": 38,
-    "maintenance": null,
-    "known_issues": [],
+    "base_score": 32,
+    "maintenance": "Kutu üç yılda bir yağ ve filtre değişimi istiyor; birçok sahip ve hatta bazı yetkili servisler bunu bilmediği için erken aşınma yaygın. Alım öncesi kavrama değişim geçmişi mutlaka sorulmalı.",
+    "known_issues": [
+      {
+        "issue": "Kuru kavramanın çok düşük kilometrede aşınmaya başlaması; sarsıntılı geçiş, geçişte gecikme ve olağandışı sesler 40.000-60.000 km'den itibaren bildiriliyor",
+        "onset_km": 40000,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "autodoc_volvo_powershift"
+        ]
+      },
+      {
+        "issue": "Birçok araçta 80.000-100.000 km sonrasında komple kavrama değişimi gerekmesi",
+        "onset_km": 80000,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "autodoc_volvo_powershift"
+        ]
+      },
+      {
+        "issue": "Trafikte aşırı ısınma uyarısı, sert hızlanmada kavrama kayması ve tam tahrik kaybı",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "autodoc_volvo_powershift"
+        ]
+      }
+    ],
     "sources": [
+      "autodoc_volvo_powershift",
       "v40d2",
       "volvops"
     ],
-    "note": "Volvo'nun 1.6 D2 ve bazı benzinli modellerinde kullanılan kuru kavramalı kutu. Aynı marka içindeki Aisin Geartronic ile karıştırılmamalı. [base_score gerekçesi: 35-49: kaynak Powershift ile partikül filtresi sorununu birlikte anıyor, gerçek şanzıman arızası mı yoksa DPF mi olduğu net değil; bu belirsizlik nedeniyle temkinli tarafta tutuldu, ayrıca araştırılmalı.]"
+    "note": "Volvo'nun 1.6 D2 ve bazı benzinli modellerinde kullanılan kuru kavramalı kutu; Getrag 6DCT250 ailesinden, yani Ford'un DPS6'sı ve Renault'nun kuru EDC'siyle aynı temel tasarım. Aynı marka içindeki Aisin Geartronic ile karıştırılmamalı — o tork konvertörlü ve belirgin biçimde daha sağlam. [base_score gerekçesi: 2026-08-13'te 38'den 32'ye indirildi ve 0-34 (düşük km'de felaket, çoklu kaynak) bandına taşındı. Gerekçe, arızanın ortaya çıktığı kilometrenin ölçülmüş olması: belirtiler 40.000-60.000 km'de başlıyor ve birçok araçta 80.000-100.000 km'de komple kavrama değişimi gerekiyor. Bu, 35-49 bandının 'bilinen risk' tanımının değil, en alt bandın tarifidir. NOT: aynı 6DCT250 ailesinin üç markadaki kaydı bugün farklı puanlar taşıyor (renault-edc-kuru 54, volvo-powershift-kuru 32, ford-dps6 30). Bu fark gerçek bir kalibrasyon sorusu olabilir ve ayrıca ele alınmalı; şimdilik her kayıt kendi kaynaklarının gösterdiği yerde bırakıldı.]"
   },
   "renault-edc-kuru": {
     "id": "renault-edc-kuru",

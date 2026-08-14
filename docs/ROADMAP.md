@@ -600,6 +600,69 @@ bundan sonrası tek tek araç/aile araştırmasına daha yakın.
 
 ---
 
+### Altıncı-onbirinci turlar — bileşen arıza sicilinin yapılandırılması (2026-08-13)
+
+**Sorun.** Beşinci turdan sonra kaynak derinliği iyiydi ama bileşen kayıtlarının önemli bir
+kısmında `known_issues` alanı **tamamen boştu**: arıza bilgisi yalnızca serbest metin
+`note` alanında duruyordu. 157 aileden **49'u** bu durumdaydı. Yapılandırılmamış bilgi
+üç yerde birden işe yaramıyor: statik sayfalarda listelenemiyor, içerik üretiminde
+(Y-12) kullanılamıyor, ve "hangi kilometrede ne bekleyeyim" sorusuna cevap veremiyor.
+
+**Yöntem.** Y-02'nin kaldıraç mantığı sürdürüldü: en çok aracı etkileyen boş aileden
+başlandı. Her aile için WebSearch ile yeni bir kaynak arandı, arıza kayıtları
+(`issue`, `onset_km`, `frequency`, `severity`, `sources`) yapılandırıldı ve MK-16 mekanik
+mirasıyla araçlara işlendi.
+
+**İşlenen aileler.** Şanzıman: `vag-dq250`, `mb-5g-tronic`, `renault-edc-kuru`, `zf-6hp`,
+`zf-5hp`, `hyundai-7dct`, `hyundai-6at`, `gm-aisin-af17`, `honda-4at-5at`,
+`getrag-7dct300`, `mb-7g-tronic`, `vag-multitronic`, `aisin-aw55`, `ford-dps6`,
+`psa-etg`, `vag-s-tronic-islak`, `gm-5l40e`, `hyundai-a4af3`, `aisin-geartronic`,
+`aisin-tf80`, `fiat-c635-ddct`, `alfa-tct`, `zf-4hp`, `aisin-awf21`, `ford-4f27e`,
+`ford-cd4e`, `volvo-powershift-kuru`. Motor: `psa-ep6-vti`, `bmw-m47`, `fca-fire-14`,
+`hyundai-beta-16`, `kia-kappa-12`, `toyota-1nr-fe`, `honda-r20a`, `volvo-b5254`.
+
+**İki puan değişikliği, ikisi de kanıt ağırlaştığı için.**
+
+- **`ford-dps6` 36 → 30.** Sorun artık forum şikayeti değil: Vargas v. Ford federal grup
+  davasının 7 Nisan 2020'de yürürlüğe giren ve gruba en az 77,4 milyon dolar güvence altına
+  alan uzlaşması, üç ayrı garanti uzatması (14M01, 14M02, 19N08) ve federal soruşturmalarla
+  kayıtlı. Bu, B seviyesi kanıt ve 35-49 bandının "bilinen risk" ifadesinin taşıyamayacağı
+  kadar ağır.
+- **`volvo-powershift-kuru` 38 → 32.** Arızanın ortaya çıktığı kilometre ölçüldü:
+  belirtiler 40.000-60.000 km'de başlıyor, birçok araçta 80.000-100.000 km'de komple
+  kavrama değişimi gerekiyor. Bu, en alt bandın tarifi.
+
+**Yan etki, dürüstçe.** Volvo temel puanı düşünce iki D2 aracının `trans` puanı 28'den
+32'ye **yükseldi**. Bu bir gerileme değil: eski 28 puanı, kendi gerekçe metninin de
+söylediği gibi "kayıtlı bir gerekçesi olmayan" bir sapmaydı. Artık iki araç da aile temel
+puanında oturuyor ve gerekçe kaynaklı.
+
+**Bulunan üç kayda değer şey.**
+
+1. **Honda 4/5AT'nin tork konvertörü titremesi bir kutu arızası değil.** Üreticinin kendi
+   servis bülteni (NHTSA'da yayımlı, B seviyesi) açıkça yazıyor: titremeyi bozulmuş
+   şanzıman yağı üretiyor ve kutu zarar görmüyor. Bu, yaygın forum algısını düzelten bir
+   kayıt ve alıcıya "bu araçtan kaç" değil "yağını değiştir" dedirtiyor.
+2. **Aisin TF-80SC'nin sorunu bir üretim penceresine bağlı.** Sert geçiş ve kayma
+   şikayetlerinin onda dokuzu valf gövdesi kaynaklı ve **06J ve sonrası seri numaralı
+   kutular güncellenmiş valf gövdesiyle üretiliyor.** Yani bu, ikinci el alıcısının araç
+   başında doğrudan kontrol edebileceği bir ayrım.
+3. **Aynı kutunun üç markadaki kaydı farklı puanlar taşıyor.** Getrag 6DCT250 ailesi
+   `renault-edc-kuru` (54), `volvo-powershift-kuru` (32) ve `ford-dps6` (30) olarak üç
+   ayrı kayıtta duruyor. Bu gerçek bir kalibrasyon sorusu olabilir — markalar kutuyu farklı
+   tork seviyelerinde ve farklı yazılımla kullanıyor, ama 22 puanlık fark bunun tek başına
+   açıklayabileceğinden büyük görünüyor. Her kayıt şimdilik kendi kaynaklarının gösterdiği
+   yerde bırakıldı; **açık bir iş kalemi olarak not edildi.**
+
+**Sonuç.** Kaynak sayısı 314 → 345, `dogrulanmis` 236 → 259, `kismi_kaynak` 42 → 19,
+araç başına ortalama kaynak 4,64 → 5,28. Yapılandırılmış arıza kaydı **166 → 253**,
+`known_issues` boş aile **49 → 14**. `validate.py` 0 hata, `smoke_test.js` 57/57.
+
+**Kalan iş.** 14 aile hâlâ boş ve hepsi 1-2 araçlık kuyrukta; kaldıraç etkisi bitti,
+bundan sonrası tek tek araştırma. 19 araç hâlâ kısmi kaynak.
+
+---
+
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
 
 **Sorun neydi.** Kaynak biriktirmek ile kaynağı puana çevirmek iki farklı iş ve farklı

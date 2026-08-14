@@ -4396,5 +4396,65 @@
       "engine": "web_search",
       "found_at": "2026-08-13"
     }
+  },
+  "autodoc_volvo_powershift": {
+    "id": "autodoc_volvo_powershift",
+    "claim": "autodoc.co.uk ve gaga.ba, Volvo C30 ve V40'ta kullanılan kuru kavramalı Powershift (6DCT250) kutusunun belirtilerinin **40.000-60.000 km gibi düşük kilometrelerde** başladığını; sarsıntılı vites geçişi, geçişte gecikme ve olağandışı sesler nedeniyle güvenilirliğinin ciddi biçimde sınırlı olduğunu aktarıyor. Birçok araçta **80.000-100.000 km sonrasında komple kavrama değişimi** gerekiyor. V40'ta sarsıntılı geçiş ve aşırı ısınma 30.000-50.000 km'den itibaren bildiriliyor ve 1.6 dizel ile 2.0T benzinli versiyonlar özellikle etkileniyor. Belirtiler düşük hızda titreme, sert hızlanmada kavrama kayması, trafikte aşırı ısınma uyarısı ve tam tahrik kaybı. Kutunun üç yılda bir yağ ve filtre değişimi gerektirdiği, ama birçok sahibin ve hatta bazı yetkili servislerin bunu bilmediği, bunun da erken aşınmayı hızlandırdığı belirtiliyor. Aynı ailenin ıslak kavramalı sürümü belirgin biçimde daha güvenilir kabul ediliyor.",
+    "publisher": "autodoc.co.uk",
+    "url": "https://www.autodoc.co.uk/info/problems-with-the-volvo-c30",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "diversityengines_1nr": {
+    "id": "diversityengines_1nr",
+    "claim": "diversityengines.com ve enginecode.uk, Toyota 1NR-FE'nin zincir tahrikli olduğunu ve düzgün bakımla 300.000 km üzerini gördüğünü; Güney Afrika'da 350.000 km'ye ulaşan örnekler bildirildiğini aktarıyor. Bilinen kalemler VVT-i aktüatör tıkırtısı, triger zinciri gergisi aşınması ve soğutma sistemi kaçakları (su pompası, termostat yuvası). 2012 öncesi motorlarda en sık bildirilen sorun piston segmanı aşınmasına bağlı yağ tüketimi; üretici 2012'de bu konuda bir servis bülteni yayımladı. Isınmadan yüksek devirde kullanmak zincir aşınmasını hızlandırıyor.",
+    "publisher": "diversityengines.com",
+    "url": "https://diversityengines.com/how-reliable-is-the-toyota-1nr-engine-heres-what-long-term-owners-say/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "enginecrux_honda_r20a": {
+    "id": "enginecrux_honda_r20a",
+    "claim": "enginecrux.com ve motorreviewer.com, Honda R20A'nın zincir tahrikli, atmosferik ve 300.000 km üzerini görebilen dayanıklı bir motor olduğunu aktarıyor. Bilinen kalemler triger zinciri gergisinin zayıflaması (soğuk çalıştırmada tıkırtı olarak duyuluyor ve geciktirilirse ağır hasara yol açıyor), bazı örneklerde piston segmanı veya supap keçesi kaynaklı yağ tüketimi ve VTC aktüatörü arızası. VTC aktüatörü riski özellikle sık kısa mesafe kullanılan veya yağ değişimi ihmal edilen araçlarda yükseliyor. i-VTEC sisteminin solenoid veya yağ basıncı kaynaklı arızası güç kaybı olarak görünüyor.",
+    "publisher": "enginecrux.com",
+    "url": "https://enginecrux.com/honda-r20a-2-0l-engine-specs-problems-and-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "enginecrux_volvo_b5254": {
+    "id": "enginecrux_volvo_b5254",
+    "claim": "enginecrux.com ve engineexplained.com, Volvo'nun beş silindirli B5254 ailesinin kayış tahrikli ve **motor girişimli (interference)** olduğunu, bu yüzden triger kayışı ihmalinin felaketle sonuçlandığını aktarıyor; önerilen aralık yaklaşık 96.000-160.000 km. Karter havalandırma (PCV) sisteminin tıkanması motor içi basıncı yükseltip yağ kaçaklarına yol açıyor. Külbütör kapağı ve karter contalarından yaşlanmaya bağlı yağ sızıntısı yaygın. Turbolu varyantlarda wastegate aktüatörü ve turbo yağ dönüş hattı contası arızaları bildiriliyor. Titiz bakımla, özellikle yağ değişimi, turbo soğutma ve kayış aralığına uyulduğunda motor 250.000 km'ye ulaşabiliyor.",
+    "publisher": "enginecrux.com",
+    "url": "https://enginecrux.com/volvo-b5254s-2-5-l-engine-specs-problems-and-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
   }
 }

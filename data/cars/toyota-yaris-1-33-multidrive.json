@@ -33,9 +33,10 @@
   },
   "sources": [
     "carchecker_yaris_1nr",
+    "diversityengines_1nr",
+    "go4trans_k310",
     "slashgear_toyota_cvt_reliability",
-    "trbox",
-    "go4trans_k310"
+    "trbox"
   ],
   "note": "Üçüncü nesil (XP130) Yaris'in 1.33 Dual VVT-i'si; motor (1NR-FE) bu turda yeni açıldı, Corolla/Auris'in 1ZR-FE'sinden (toyota-zr) farklı bir aile. Multidrive S kutusu listede zaten kayıtlı ve K310 kod adıyla Corolla ile aynı aileden — CVT'ler arasında en dayanıklılardan sayılıyor. Motor tarafında ciddi bir şikayet bildirilmiyor; Toyota'nın Türkiye'deki geniş servis ağı da işletme maliyetini aşağı çekiyor.",
   "provenance": {
