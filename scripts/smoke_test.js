@@ -340,6 +340,35 @@ async function dumpDebug(label) {
     const after = await page.locator('#body tr.main td.tot').first().innerText();
     check('ağırlık değişimi puanı etkiliyor', before !== after, `${before} → ${after}`);
 
+    // --- Y-11: statik sayfalar (scripts/build_pages.py çıktısı) ---
+    // Bu sayfaların işi arama motorunda görünmek, yani başlık, açıklama ve canonical
+    // etiketlerinin gerçekten dolu olması işlevin kendisi; boş bir açıklama sayfayı
+    // çalışmaz hale getirmez ama işe yaramaz hale getirir. Bu yüzden denetleniyorlar.
+    const carPage = 'file://' + path.join(ROOT, 'arac', 'vw-passat-b7-1-6-tdi.html');
+    await page.goto(carPage);
+    const spTitle = await page.title();
+    check('araç sayfası araca özgü başlık taşıyor',
+      spTitle.includes('Passat B7') && spTitle.includes('alınır mı'), spTitle);
+    const spDesc = await page.locator('meta[name="description"]').getAttribute('content');
+    check('araç sayfasında meta açıklama dolu', !!spDesc && spDesc.length > 60,
+      `${(spDesc || '').length} karakter`);
+    const spCanon = await page.locator('link[rel="canonical"]').getAttribute('href');
+    check('araç sayfasında canonical adres var', !!spCanon && spCanon.endsWith('.html'), spCanon);
+    const spH1 = await page.locator('h1').count();
+    check('araç sayfasında tek h1 var', spH1 === 1, `${spH1} adet`);
+    const spWide = await page.evaluate(
+      () => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2);
+    check('araç sayfasında yatay taşma yok', spWide);
+    const spLd = await page.locator('script[type="application/ld+json"]').count();
+    check('araç sayfasında yapılandırılmış veri var', spLd === 1, `${spLd} blok`);
+    const spEv = await page.locator('.ev').count();
+    check('araç sayfası puan gerekçelerini gösteriyor', spEv >= 2, `${spEv} gerekçe bloğu`);
+
+    const engPage = 'file://' + path.join(ROOT, 'motor', 'vag-ea189.html');
+    await page.goto(engPage);
+    const engIssues = await page.locator('.issue').count();
+    check('motor sayfası bilinen arızaları listeliyor', engIssues >= 1, `${engIssues} arıza`);
+
     if (ALWAYS_SCREENSHOT) await dumpDebug('02-tum-kontroller-sonrasi');
   } catch (e) {
     // Beklenmedik bir hata (ör. bir seçici hiç bulunamadı) çıplak bir stack

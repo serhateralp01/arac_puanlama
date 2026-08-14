@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gamma MPI motoru: bilinen arızalar ve güvenilirlik</title>
+<meta name="description" content="Gamma MPI motoru için kaynaklı arıza kaydı (1 bilinen arıza). Bu motoru kullanan 3 araç listede.">
+<link rel="canonical" href="https://serhateralp01.github.io/arac_puanlama/motor/hyundai-gamma16-mpi.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Gamma MPI motoru: bilinen arızalar ve güvenilirlik">
+<meta property="og:description" content="Gamma MPI motoru için kaynaklı arıza kaydı (1 bilinen arıza). Bu motoru kullanan 3 araç listede.">
+<meta property="og:url" content="https://serhateralp01.github.io/arac_puanlama/motor/hyundai-gamma16-mpi.html">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--pg:#F7F6F3;--sf:#fff;--ink:#1A1D1B;--ink2:#4C524E;--ink3:#787E7A;
+--rule:#E2E1DA;--acc:#9A5B12;--ok:#1F5F5B;--bad:#9E4227}
+@media(prefers-color-scheme:dark){:root{--pg:#13181A;--sf:#191F21;--ink:#E9EAE6;
+--ink2:#A9AFAA;--ink3:#7C837E;--rule:#28312F;--acc:#DFA25C;--ok:#63B5AC;--bad:#E08267}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--pg);color:var(--ink);line-height:1.6;
+font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.w{max-width:760px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--rule);background:var(--sf);padding:14px 0}
+header a.home{color:var(--ink3);text-decoration:none;font-size:13px;letter-spacing:.02em}
+header a.home:hover{color:var(--acc)}
+h1{font-size:clamp(25px,4.6vw,36px);line-height:1.15;letter-spacing:-.02em;margin:26px 0 6px}
+.sub{color:var(--ink2);font-size:16px;margin:0 0 20px}
+h2{font-size:19px;margin:30px 0 10px;letter-spacing:-.01em;border-top:1px solid var(--rule);padding-top:20px}
+p{margin:0 0 13px}
+.badge{display:inline-block;font-size:11.5px;font-weight:650;letter-spacing:.06em;
+text-transform:uppercase;padding:3px 8px;border-radius:3px;border:1px solid currentColor;margin-right:6px}
+.b-ok{color:var(--ok)} .b-mid{color:var(--acc)} .b-low{color:var(--ink3)}
+table{border-collapse:collapse;width:100%;font-size:14.5px;margin:0 0 14px}
+th{text-align:left;font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+color:var(--ink3);padding:9px 10px;border-bottom:1px solid var(--rule)}
+td{padding:9px 10px;border-bottom:1px solid var(--rule);color:var(--ink2);vertical-align:top}
+td.k{color:var(--ink);font-weight:600;white-space:nowrap}
+td.n{text-align:right;font-variant-numeric:tabular-nums;font-family:ui-monospace,Menlo,monospace;color:var(--ink)}
+.tw{overflow-x:auto}
+.ev{background:var(--sf);border:1px solid var(--rule);border-left:3px solid var(--acc);
+padding:14px 16px;border-radius:0 4px 4px 0;margin:0 0 12px;font-size:14.5px;color:var(--ink2)}
+.ev b{color:var(--ink);display:block;margin-bottom:5px;font-size:13px;letter-spacing:.02em}
+.issue{background:var(--sf);border:1px solid var(--rule);padding:13px 15px;border-radius:4px;
+margin:0 0 10px;font-size:14.5px}
+.issue .m{color:var(--ink3);font-size:12.5px;margin-top:6px;font-family:ui-monospace,Menlo,monospace}
+ul{padding-left:20px;margin:0 0 14px}li{margin-bottom:6px;color:var(--ink2);font-size:14.5px}
+a{color:var(--ok)}
+.rel{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.rel a{display:inline-block;padding:5px 11px;border:1px solid var(--rule);border-radius:3px;
+background:var(--sf);text-decoration:none;font-size:13.5px;color:var(--ink2)}
+.rel a:hover{border-color:var(--acc);color:var(--acc)}
+footer{border-top:1px solid var(--rule);margin-top:36px;padding:22px 0 40px;
+color:var(--ink3);font-size:13px}
+.warn{color:var(--ink3);font-size:13px;font-style:italic}
+code{font-family:ui-monospace,Menlo,monospace;font-size:.88em;background:var(--pg);padding:1px 4px;border-radius:3px}
+</style>
+
+</head>
+<body>
+<header><div class="w"><a class="home" href="https://serhateralp01.github.io/arac_puanlama/">← Araç Puanlama</a></div></header>
+<main class="w">
+<h1>Gamma MPI</h1>
+<p class="sub">Diğer adları: G4FC, 1.6 MPi. Tedarikçi: Hyundai / Kia.</p>
+<div class="tw"><table><tbody><tr><td class="k">Yakıt</td><td>Benzin</td></tr><tr><td class="k">Hacimler</td><td>1.6 L</td></tr><tr><td class="k">Silindir</td><td>4</td></tr><tr><td class="k">Beslenme</td><td>Atmosferik</td></tr><tr><td class="k">Temel puan</td><td>78 / 100</td></tr></tbody></table></div>
+<p>Hyundai ve Kia&#x27;nın çok noktalı enjeksiyonlu (MPI, doğrudan enjeksiyonsuz) 1.6 benzinli ailesi; Accent Blue, Elantra ve eski nesil Cerato&#x27;da kullanılıyor. Bu kayıt önceden aynı ailenin GDI (doğrudan enjeksiyonlu) sürümüyle birlikte tutuluyordu; araştırma, Hyundai/Kia&#x27;nın güvenilirlik sorununun büyük ölçüde GDI alt ailesinde yoğunlaştığını, MPI sürümlerinin 80+/100 puan aldığını gösterdi. Bu yüzden aile ikiye bölündü.</p>
+<div class="ev"><b>Temel puan neden bu</b>65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: kaynak MPI sürümü için &#x27;80+/100&#x27; diyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.</div>
+<h2>Bilinen arızalar</h2>
+<div class="issue">Supap kapağı contasından yağ sızıntısı, emme manifoldu kirlenmesi kaynaklı rölanti dalgalanması<div class="m">~35.000 km&#x27;den sonra · sıklık: sık · ağırlık: bakım kalemi</div></div>
+<h2>Bakım notu</h2>
+<p>Yüksek kilometrede supap kapağı contası sızıntısı (30-40 bin km&#x27;den itibaren) ve emme manifoldu kirlenmesi izlenmeli.</p>
+<h2>Bu motoru kullanan araçlar</h2>
+<div class="rel"><a href="https://serhateralp01.github.io/arac_puanlama/arac/hyundai-accent-blue-1-6-benzinli.html">Hyundai Accent Blue 1.6 benzinli</a><a href="https://serhateralp01.github.io/arac_puanlama/arac/hyundai-elantra-1-6-md.html">Hyundai Elantra 1.6 (MD)</a><a href="https://serhateralp01.github.io/arac_puanlama/arac/kia-cerato-1-6.html">Kia Cerato 1.6</a></div>
+<h2>Kaynaklar</h2>
+<ul><li><a href="https://uscarsnew.com/hyundai-kia-1-6l-engine-gamma-mpi-gdi-t-gdi/" rel="nofollow noopener" target="_blank">USCarsNew / EngineScope</a> — Hyundai/Kia Gamma 1.6 ailesinde 2010 sonrası GDI (doğrudan enjeksiyon) sürümlerinin (G4FD/G4FG) emme supaplarında karbon birikimine yatkın olduğu; ailenin güvenilirlik sorununun büyük ölçüde GDI alt ailesinde yoğunlaştığı, aynı dönemin GDI motorlarının (Theta II 2.0/2.4, Nu 2.0) toplu dava konusu biyel kolu yatağı sorunuyla aynı kök nedeni paylaştığı, buna karşılık aynı dönemin MPI (çok noktalı enjeksiyon) sürümlerinin 80+/100 puan aldığı ve 2019 öncesi GDI motorlarından kaçınılması, MPI sürümlerinin sorunsuz olduğu tavsiyesi</li></ul>
+</main>
+<footer><div class="w">
+<p>Bu sayfa <a href="https://serhateralp01.github.io/arac_puanlama/">Araç Puanlama</a> veri deposundan otomatik üretildi.
+Puanlar resmî bir kalite ya da arıza istatistiği değildir; açıklanan kriterlerin, kaynak
+kapsamının ve analist değerlendirmesinin birleşimidir. Yöntem
+<a href="https://serhateralp01.github.io/arac_puanlama/#metodoloji">metodoloji sayfasında</a> açık yazılıdır.</p>
+<p>Bu içerik ekspertiz, servis teşhisi veya piyasa değeri garantisi değildir. Araç almadan
+önce şasi numarası, servis geçmişi ve bağımsız ekspertizle ayrıca doğrulama yapılmalıdır.</p>
+</div></footer>
+</body>
+</html>

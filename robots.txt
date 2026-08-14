@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://serhateralp01.github.io/arac_puanlama/sitemap.xml

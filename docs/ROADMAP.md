@@ -40,7 +40,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Veri doğruluğu (MK-18) | **Dış veri setiyle çapraz doğrulama yapıldı.** 220 araç bağımsız bir katalogla karşılaştırıldı; motor/şanzıman ailesinde 0 çelişki, beygir/torkta 10 çelişki bulundu ve doğrulanan 5 gerçek hata düzeltildi (en ağırı: bir 1.6 dizelde 400 Nm ve bir aracın tamamen yanlış motor ailesine bağlı olması). |
 | Teknik özellik kapsamı | Tork 172 → **251/278**; boş ağırlık 163/278. `fun` formülünün önündeki tek engel artık boş ağırlık: 88 araçta tork var ama ağırlık yok. |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
-| Arama motoru görünürlüğü | **Yok.** 83 bin kelimelik özgün analiz tek bir HTML dosyasında; Google'ın gördüğü sayfa sayısı 1, sitemap ve meta açıklama yok. Faz 4'ün ilk maddesi (Y-11) bunu çözüyor. |
+| Arama motoru görünürlüğü (Y-11) | **Temel kuruldu.** `scripts/build_pages.py` 435 indekslenebilir sayfa üretiyor (araç/motor/şanzıman başına bir tane), her biri araca özgü başlık, açıklama, canonical ve JSON-LD ile; `sitemap.xml` ve `robots.txt` yayında. Search Console'a gönderim depo sahibini bekliyor. |
 | Ticari strateji | `docs/URUN-STRATEJISI.md` — gelir modelleri, açık kaynak lisans katmanları, içerik/pazarlama hattı ve 90 günlük plan; her fikir uygulanabilirlik seviyesiyle birlikte |
 
 Denetimin bugünkü çıktısı: **0 hata, 252 uyarı**. Uyarıların ezici çoğunluğu tek
@@ -1008,7 +1008,7 @@ Sıralamanın mantığı şu: en ucuz kaldıraç önce. Y-11 ve Y-13 bugünkü v
 biri trafiği diğeri topluluk katkısını açıyor; ödeme altyapısı (Y-17) bilinçli olarak sona
 bırakıldı, çünkü trafik olmadan kurulan bir ödeme akışı boş bir dükkândır.
 
-### Y-11 · Statik sayfa üretimi ve SEO temeli — **öncelik: en yüksek**
+### Y-11 · Statik sayfa üretimi ve SEO temeli — **bitti (2026-08-13)**
 
 **Sorun.** Depoda 83 bin kelimelik özgün, kaynaklı Türkçe analiz var ve bu içeriğin
 tamamı arama motorlarına **görünmez**. Çıktı tek bir 1,2 MB'lık `index.html` ve ekranlar
@@ -1027,9 +1027,25 @@ metinleri zaten soru-cevap biçiminde hazır).
 olarak kalır. MK-02 bu genişlemeyi zaten öngörüyordu ("derleme adımında yeni bir çıktı
 biçimi üretmek").
 
-**Bitmiş sayılma ölçütü.** `sitemap.xml` 400'den fazla adres içeriyor, örnek bir araç
-sayfası araç adını ve kronik sorununu içeren bir başlık taşıyor, duman testi yeni çıktıyı
-da kontrol ediyor.
+**Bitmiş sayılma ölçütü — karşılandı.** `scripts/build_pages.py` yazıldı ve **435 statik
+sayfa** üretiyor (278 araç + 104 motor + 53 şanzıman); `sitemap.xml` 436 adres taşıyor,
+`robots.txt` sitemap'i işaret ediyor. Her sayfa araca özgü başlık (ör. "VW Passat B7 1.6 TDI
+alınır mı? Kronik sorunları, puanı ve fiyatı"), 150 karakterlik özgün açıklama, canonical
+adres, Open Graph etiketleri ve `Vehicle` JSON-LD bloğu taşıyor. Duman testine yedi yeni
+kontrol eklendi (49 → 57) ve `--check` kipi derlenmiş sayfaların veriyle uyumunu denetliyor.
+
+**Uygulamada verilen kararlar.** Betik `build.py`'nin içine değil **ayrı bir dosyaya**
+yazıldı: çalışan `index.html` üretimi hiç riske atılmasın diye (CLAUDE.md §2). Sayfalar
+arama motoru için üretilmiş içi boş kapı sayfaları değil — depodaki gerçek `evidence`
+gerekçelerini, bileşen ailelerinin `known_issues` kayıtlarını ve kaynak listesini taşıyorlar,
+yani zaten yazılmış olan analizin görünür hali. Tarihsiz fiyat bandı taşıyan araçlarda sayfa
+bunu açıkça yazıyor ("tarihlendirilmemiş bir tahmindir"), tarihli olanlarda ise ölçüm tarihi,
+örneklem ve "istenen fiyat, satış fiyatı değildir" uyarısı görünüyor. Ana `index.html` de
+başlık, açıklama, canonical ve Open Graph etiketleriyle donatıldı.
+
+**Kalan iş.** Sayfalar üretiliyor ama henüz Google Search Console'a gönderilmedi; bu, depo
+sahibinin hesabıyla yapılacak bir adım. `BASE_URL` sabiti GitHub Pages varsayılanına
+ayarlı — özel alan adı bağlanırsa yalnızca o sabit değişmeli.
 
 ### Y-12 · İçerik üretim betiği (`build_content.py`)
 
