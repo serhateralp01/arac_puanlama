@@ -476,9 +476,29 @@
     "cylinders": 4,
     "aspiration": "Atmosferik",
     "base_score": 76,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Triger kayışı 5 yılda veya yaklaşık 96.000 km'de değişmeli; zamanında değişmediğinde ciddi motor hasarı oluşuyor. Yüksek kilometrede yağ seviyesi düzenli izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Triger kayışının zamanında değişmemesi durumunda ağır motor hasarı",
+        "onset_km": 96000,
+        "frequency": "orta",
+        "severity": "motor ölür",
+        "sources": [
+          "autopartswd_fiat_fire"
+        ]
+      },
+      {
+        "issue": "Yüksek kilometrede yağ tüketimi ve silindir kapağı contası arızası; aşırı ısınma bunu tetikliyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "autopartswd_fiat_fire"
+        ]
+      }
+    ],
     "sources": [
+      "autopartswd_fiat_fire",
       "drivisual_fire14_taxi"
     ],
     "note": "Fiat'ın uzun ömürlü küçük benzinli ailesi; Egea'nın giriş motoru. İstanbul taksilerinin büyük çoğunluğu Egea ve bunların önemli bir kısmı bu motoru kullanıyor — güçlü bir Türkiye içi dayanıklılık kanıtı. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının üst sınırında: turbo veya karmaşık parça yok, gerçek dünya taksi kullanımı dayanıklılığı destekliyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
@@ -1158,10 +1178,39 @@
     "cylinders": 4,
     "aspiration": "Atmosferik",
     "base_score": 68,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Motor girişimli (interference) tasarım: triger KAYIŞI koptuğunda ağır motor hasarı oluşuyor. Üreticinin resmî aralığı 90.000 km, bağımsız ustalar gerçek koşullarda daha erken değişim öneriyor. Külbütör kapağı ve karter sızıntısı ile krank/kam sensörü ayrıca izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Triger kayışının kopması; motor girişimli tasarım olduğu için ağır motor hasarına yol açıyor",
+        "onset_km": 120000,
+        "frequency": "orta",
+        "severity": "motor ölür",
+        "sources": [
+          "engineswork_g4gc_beta"
+        ]
+      },
+      {
+        "issue": "Külbütör kapağı ve karterden yaşlanan contalara bağlı yağ sızıntısı",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "küçük",
+        "sources": [
+          "engineswork_g4gc_beta"
+        ]
+      },
+      {
+        "issue": "Krank ve kam mili sensörü arızası; zor çalışma, stop etme ve düzensiz çalışma",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "engineswork_g4gc_beta"
+        ]
+      }
+    ],
     "sources": [
-      "engineexplained_g4ed"
+      "engineexplained_g4ed",
+      "engineswork_g4gc_beta"
     ],
     "note": "Elantra XD ve eski nesil Cerato'nun benzinli ailesi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: 'genel olarak güvenilir, performans/verim/güvenilirlik dengesiyle biliniyor' ama motora özgü ayrıntılı bir arıza listesi bulunamadı; tek kaynağa (C) dayanıyor.]"
   },

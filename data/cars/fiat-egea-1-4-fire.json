@@ -30,6 +30,7 @@
     "liq": 90
   },
   "sources": [
+    "autopartswd_fiat_fire",
     "drivisual_fire14_taxi",
     "egeadct",
     "fiatforum_aw60t",

@@ -19,7 +19,7 @@
     420,
     620
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 74,
     "trans": 74,
@@ -32,6 +32,7 @@
   "sources": [
     "elantraxd_forum_a4af3",
     "engineexplained_g4ed",
+    "engineswork_g4gc_beta",
     "go4trans_a4af3"
   ],
   "note": "MD kasadan önceki nesil; sade ve dayanıklı, otomatiği klasik tork konvertörlü. Fiyatı bu listenin en uygunlarından. Ön değerlendirme, batch aşamasında derinleştirilecek.",

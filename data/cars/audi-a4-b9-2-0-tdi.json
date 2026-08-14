@@ -33,10 +33,11 @@
   "sources": [
     "audiworld_dl501_110k",
     "ecotorque_dl501",
+    "ecotorque_dl501_stronic",
+    "enginefinders_ea288_20tdi",
     "teknikotomatik_dq200_dq250",
     "torquecars_ea288_avoid_problems",
-    "trbox",
-    "enginefinders_ea288_20tdi"
+    "trbox"
   ],
   "note": "B8'den sonraki nesil; önden çekişte S tronic ıslak DCT, quattro'da ise klasik Tiptronic geliyor - B8'in Multitronic derdi tamamen ortadan kalkmış. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {

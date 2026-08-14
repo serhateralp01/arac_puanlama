@@ -30,6 +30,7 @@
     "liq": 42
   },
   "sources": [
+    "ecotorque_psa_etg_aktuator",
     "enginescope_ep6_thp",
     "sikayetvar_c4_kronik",
     "sikayetvar_peugeot_2008",

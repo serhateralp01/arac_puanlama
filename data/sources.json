@@ -4227,5 +4227,65 @@
       "engine": "web_search",
       "found_at": "2026-08-13"
     }
+  },
+  "ecotorque_psa_etg_aktuator": {
+    "id": "ecotorque_psa_etg_aktuator",
+    "claim": "eco-torque.co.uk ve service4service.co.uk, PSA'nın ETG (Efficient Tronic Gearbox) kutusunun aslında tek kavramalı, kavraması ve vites seçimi elektrik aktüatörlerle yürütülen robotize bir manuel olduğunu; zayıf noktasının kavrama aktüatörü ve kavramanın kendisi olduğunu aktarıyor. Belirtiler sarsıntılı veya yavaş vites geçişi, vites seçememe, viteste ya da boşta kalma, tahrik kaybı ve 'gearbox faulty' uyarısı; uyarı çoğunlukla araç ısındığında çıkıp kontak kapatılınca geçici olarak siliniyor. Dikkatli kullanımda kavrama 95.000-130.000 km dayanabiliyor, ama dur-kalk şehir trafiğinde aşınma belirgin biçimde erken başlıyor. Onarım çoğu durumda yalnızca aktüatör değişimi gerektiriyor ve komple kutu değişiminden çok daha ucuz.",
+    "publisher": "eco-torque.co.uk",
+    "url": "https://eco-torque.co.uk/blogs/news/peugeot-2008-clutch-actuator-symptoms-fault-codes-etg5",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "ecotorque_dl501_stronic": {
+    "id": "ecotorque_dl501_stronic",
+    "claim": "eco-torque.co.uk ve motronix.net, VAG'ın ıslak kavramalı S tronic/DSG sürümlerinde kavramanın yağ içinde çalışması sayesinde ısının çok daha iyi dağıldığını ve kuru kavramalı sürümlere göre belirgin biçimde az kavrama sorunu görüldüğünü, birçok ıslak kutunun orijinal kavrama paketiyle yüz binlerce kilometre yaptığını aktarıyor. Buna karşılık DL501'de en sık görülen üç kalem kavrama aşınması, çift kütleli volan arızası ve mekatronik devre kartı hatası; G676 sürücü konum sensörü ailenin bilinen zayıf noktası. Kavrama aşınması kalkışta titreme, yük altında kayma ve sert vites geçişi olarak görünüyor ve dur-kalk kullanım ile yüksek tork bunu hızlandırıyor. Islak kavramalı varyantlar yağ durumuna ve servis geçmişine daha duyarlı.",
+    "publisher": "eco-torque.co.uk",
+    "url": "https://eco-torque.co.uk/blogs/news/audi-0b5-dl501-dsg-s-tronic-gearbox-common-problems-fixes",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "autopartswd_fiat_fire": {
+    "id": "autopartswd_fiat_fire",
+    "claim": "autopartswd.com ve autoscore.pro, Fiat FIRE ailesinin dökme demir bloğu, alüminyum silindir kapağı ve kayış tahrikli kam mili sayesinde hafif, dayanıklı ve bakımı kolay bir tasarım olduğunu aktarıyor. Bilinen kalemler triger kayışı aşınması, yüksek kilometrede yağ tüketimi, silindir kapağı contası arızası ve aşırı ısınma. Triger kayışının 5 yılda veya yaklaşık 96.000 km'de değişmesi gerekiyor; zamanında değişmediğinde ciddi motor hasarı oluşabiliyor. Kaynaklar sorunların büyük kısmının düzenli bakımla önlenebildiğini vurguluyor.",
+    "publisher": "autopartswd.com",
+    "url": "https://autopartswd.com/fiat-fire-engine-guide/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "engineswork_g4gc_beta": {
+    "id": "engineswork_g4gc_beta",
+    "claim": "engineswork.com ve motorreviewer.com, Hyundai Beta II (G4GC) ailesinin dökme demir bloklu, alüminyum kapaklı atmosferik bir motor olduğunu ve en kritik kaleminin triger KAYIŞI olduğunu aktarıyor: motor girişimli (interference) tasarım olduğu için kayış koptuğunda ağır motor hasarı oluşuyor. Üreticinin resmî değişim aralığı 90.000 km, ama bağımsız ustalar gerçek kullanım koşullarında yaklaşık 96.000 km yerine daha erken değişimi öneriyor; risk penceresinin 120.000 km civarında başladığı belirtiliyor. Diğer bilinen kalemler külbütör kapağı ve karterden yağ sızıntısı, krank/kam mili sensörü arızası ve rölanti hava valfi/gaz kelebeği kirlenmesine bağlı düzensiz rölanti. Kayış bakımı yapıldığında motorun 290.000 km üzerini görmesi olağan.",
+    "publisher": "engineswork.com",
+    "url": "https://engineswork.com/engines/hyundai-elantra-g4gc-2-0-engine.html",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
   }
 }

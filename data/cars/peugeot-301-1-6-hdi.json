@@ -22,7 +22,7 @@
     650,
     950
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 44,
     "trans": 30,
@@ -33,9 +33,10 @@
     "liq": 80
   },
   "sources": [
-    "trbox",
+    "au7o_peugeot308_known_issues",
+    "ecotorque_psa_etg_aktuator",
     "propeugeotspares_16hdi_egr",
-    "au7o_peugeot308_known_issues"
+    "trbox"
   ],
   "note": "ETG robotlu yarı otomatik · ~92-115 bg kutu tarafında baskı balata aşınması ve vites robotu arızasıyla biliniyor. Motor tarafında ise 1.6 HDi ailesinin bilinen zaafı geçerli: EGR'de biriken tortu turbo yağ hattını tıkayıp erken turbo arızasına yol açabiliyor; bu, PSA'nın kendi araçlarında da aynı motoru kullanan Volvo D2'de de bağımsız olarak belgelendi. Yağ değişim aralığına sadık kalmak kritik.",
   "provenance": {

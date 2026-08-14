@@ -477,11 +477,40 @@
     "supplier": "Volkswagen Group",
     "gears": null,
     "base_score": 68,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Islak kavramalı kutular yağ durumuna ve servis geçmişine kuru kavramalılardan daha duyarlı; belgeli yağ değişimi geçmişi olan araç tercih edilmeli.",
+    "known_issues": [
+      {
+        "issue": "Kavrama paketinin aşınması; kalkışta titreme, yük altında kayma ve sert vites geçişi. Dur-kalk kullanım ve yüksek tork süreci hızlandırıyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "ecotorque_dl501_stronic"
+        ]
+      },
+      {
+        "issue": "Mekatronik devre kartı hatası; DL501'de G676 sürücü konum sensörü bilinen zayıf nokta",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "ecotorque_dl501_stronic"
+        ]
+      },
+      {
+        "issue": "Çift kütleli volan arızası",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "ecotorque_dl501_stronic"
+        ]
+      }
+    ],
     "sources": [
+      "audiworld_dl501_110k",
       "ecotorque_dl501",
-      "audiworld_dl501_110k"
+      "ecotorque_dl501_stronic"
     ],
     "note": "Audi quattro ve yeni nesil önden çekiş modellerinde Multitronic yerine kullanılıyor. Hangi araçta tam olarak hangi kodun (DL501 mi DQ381 mi) bulunduğu teyit edilmeli. Kavrama aşınması, çift kütleli volan arızası ve mekatronik devre kartı arızaları bildiriliyor; bu sorunların çoğu 2011 öncesi üretilen örneklerde görülüyor, sonraki yıllar için tablo daha olumlu. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): ıslak kavramalı olması DQ200 gibi kuru kutulara göre yapısal avantaj sağlıyor; bildirilen sorunlar büyük ölçüde eski üretim yıllarına özgü.]"
   },
@@ -904,9 +933,29 @@
     "supplier": "PSA",
     "gears": null,
     "base_score": 38,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Kavrama aktüatörü ailenin zayıf noktası; 'gearbox faulty' uyarısı araç ısınınca çıkıp kontak kapatılınca geçiyorsa aktüatör şüphelenilmeli. Onarım çoğu durumda yalnızca aktüatör değişimi.",
+    "known_issues": [
+      {
+        "issue": "Kavrama aktüatörünün arızalanması; sarsıntılı veya yavaş vites geçişi, vites seçememe, viteste/boşta kalma ve 'gearbox faulty' uyarısı",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "ecotorque_psa_etg_aktuator"
+        ]
+      },
+      {
+        "issue": "Dur-kalk şehir trafiğinde kavramanın erken aşınması; dikkatli kullanımda 95.000-130.000 km dayanıyor",
+        "onset_km": 95000,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "ecotorque_psa_etg_aktuator"
+        ]
+      }
+    ],
     "sources": [
+      "ecotorque_psa_etg_aktuator",
       "trbox"
     ],
     "note": "Gerçek bir otomatik değil, motorlu debriyajlı manuel şanzıman. Baskı balata aşınması ve vites robotu arızalarıyla biliniyor. [base_score gerekçesi: 35-49 sınırında tutuldu: baskı balata aşınması ve vites robotu arızası bildiriliyor, Robot tipi yapısal olarak en yüksek risk kategorisi; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"

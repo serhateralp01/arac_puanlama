@@ -22,7 +22,7 @@
     700,
     980
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 44,
     "trans": 30,
@@ -33,9 +33,10 @@
     "liq": 74
   },
   "sources": [
-    "trbox",
+    "au7o_peugeot308_known_issues",
+    "ecotorque_psa_etg_aktuator",
     "propeugeotspares_16hdi_egr",
-    "au7o_peugeot308_known_issues"
+    "trbox"
   ],
   "note": "Motoru ekonomik ve gövdesi pratik ama otomatik dediğimiz kutu robotlu yarı otomatik; baskı balata aşınması ve vites robotu arızalarıyla biliniyor, vites geçişleri de belirgin şekilde sarsıntılı. Motor tarafında da dikkatli olun: 1.6 HDi ailesinin EGR'de sertleşen tortu birikimi turbo yağ besleme hattını tıkayıp erken turbo arızasına yol açabiliyor; bu risk PSA'nın kendi markalı araçlarında da, aynı motoru kullanan Volvo D2'de de bağımsız olarak belgelendi. Düzenli yağ değişimi ve enjektör keçesi kontrolü bu riski büyük ölçüde azaltıyor.",
   "provenance": {

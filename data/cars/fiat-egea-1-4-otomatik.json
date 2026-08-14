@@ -21,7 +21,7 @@
     560,
     820
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 38,
@@ -32,7 +32,9 @@
     "liq": 70
   },
   "sources": [
+    "autopartswd_fiat_fire",
     "drivisual_fire14_taxi",
+    "ecotorque_psa_etg_aktuator",
     "trbox"
   ],
   "note": "Egea'nın robotlu benzinli sürümü; Türkiye'nin en yaygın aracının en ucuz otomatik seçeneği, ama kutu tipi listenin en zayıf grubunda.",
