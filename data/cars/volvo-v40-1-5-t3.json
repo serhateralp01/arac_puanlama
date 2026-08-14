@@ -33,6 +33,7 @@
     "liq": 40
   },
   "sources": [
+    "asrgearbox_tf80sc",
     "teknikotomatik_aisin_6ileri",
     "volvoclub_geartronic_reliability",
     "volvod",

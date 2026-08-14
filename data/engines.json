@@ -3606,10 +3606,30 @@
     "cylinders": 4,
     "aspiration": "Atmosferik",
     "base_score": 74,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Motor aşırı ısınmaya hiç tolerans göstermiyor; soğutma sistemi ve yağ seviyesi düzenli kontrol edilmeli. Üreticinin belirttiği yağ özelliklerine uyulması sorun oranını belirgin biçimde düşürüyor.",
+    "known_issues": [
+      {
+        "issue": "Aşırı ısınmaya tolerans göstermemesi; soğutma ihmali kalıcı hasara dönüşebiliyor",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "büyük onarım",
+        "sources": [
+          "engineexplained_g4la"
+        ]
+      },
+      {
+        "issue": "Sahiplerin arızadan çok ses ve titreşimden şikayet etmesi; üç silindirli olmayan ama sessizlik beklentisini karşılamayan bir karakter",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "küçük",
+        "sources": [
+          "engineexplained_g4la"
+        ]
+      }
+    ],
     "sources": [
-      "borlease_picanto_inceleme"
+      "borlease_picanto_inceleme",
+      "engineexplained_g4la"
     ],
     "note": "Picanto'nun (TA/JA kasa) 1.2 Kappa motoru; basit atmosferik tasarımı ve Hyundai-Kia'nın Türkiye'deki geniş servis ağı güvenilirlik ve bulunabilirlik açısından avantaj sağlıyor. [base_score gerekçesi: 65-84 (sağlam): kronik bir arıza kalıbı bulunamadı, tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },

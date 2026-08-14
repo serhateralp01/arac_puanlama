@@ -21,7 +21,7 @@
     480,
     720
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 74,
     "trans": 70,
@@ -33,6 +33,7 @@
   },
   "sources": [
     "borlease_picanto_inceleme",
+    "engineexplained_g4la",
     "teknikotomatik_a4cf1",
     "teknikotomatik_a4cf2"
   ],

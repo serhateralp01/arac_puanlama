@@ -1150,14 +1150,18 @@
   },
   "go4trans_a4af3": {
     "id": "go4trans_a4af3",
-    "claim": "Hyundai-Kia A4AF3'ün (Elantra XD 2000-2006, Kia Cerato LD 2003-2007) kirli şanzıman yağıyla bile uzun süre çalışabildiği, genel olarak dayanıklı kabul edildiği; bilinen tek zayıf noktanın kirli ATF'nin aşındırdığı solenoid valfi olduğu",
-    "publisher": "Go4Trans",
+    "claim": "go4trans.com ve gearboxlist.com, Hyundai-Kia A4AF3 kutusunun 1999-2012 arası üretildiğini ve Elantra XD ile Cerato LD dahil çok sayıda önden çekişli modelde kullanıldığını aktarıyor. Kutu **kirlenmiş yağla bile uzun süre dayanabilen, güvenilir** bir tasarım olarak tanımlanıyor. Bilinen kalem solenoid aşınması: kirli ATF solenoid valfin kanalını aşındırıyor, valf oynamaya başlıyor ve bir noktada sıkışıyor; tek solenoid arızalansa bile diğerlerinin kalan ömrü kısa olduğu için hepsinin birlikte değiştirilmesi gerekiyor. Fren bandı, yanık ATF kokusu alındığında veya 150.000-180.000 km bakımında değiştiriliyor.",
+    "publisher": "go4trans.com",
     "url": "https://shop.go4trans.com/transmissions-info/a4af3/",
-    "type": "spec-database",
+    "type": "trade-blog",
     "tier": "C",
-    "accessed": "2026-08-05",
+    "accessed": "2026-08-13",
     "language": "en",
-    "quotes": []
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
   },
   "carproblemzoo_mazda626": {
     "id": "carproblemzoo_mazda626",
@@ -4278,6 +4282,51 @@
     "claim": "engineswork.com ve motorreviewer.com, Hyundai Beta II (G4GC) ailesinin dökme demir bloklu, alüminyum kapaklı atmosferik bir motor olduğunu ve en kritik kaleminin triger KAYIŞI olduğunu aktarıyor: motor girişimli (interference) tasarım olduğu için kayış koptuğunda ağır motor hasarı oluşuyor. Üreticinin resmî değişim aralığı 90.000 km, ama bağımsız ustalar gerçek kullanım koşullarında yaklaşık 96.000 km yerine daha erken değişimi öneriyor; risk penceresinin 120.000 km civarında başladığı belirtiliyor. Diğer bilinen kalemler külbütör kapağı ve karterden yağ sızıntısı, krank/kam mili sensörü arızası ve rölanti hava valfi/gaz kelebeği kirlenmesine bağlı düzensiz rölanti. Kayış bakımı yapıldığında motorun 290.000 km üzerini görmesi olağan.",
     "publisher": "engineswork.com",
     "url": "https://engineswork.com/engines/hyundai-elantra-g4gc-2-0-engine.html",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "batransmissions_5l40e": {
+    "id": "batransmissions_5l40e",
+    "claim": "batransmissions.com ve go4trans.com, GM 5L40-E kutusunun onarıma gelmesinin en sık nedeninin tork konvertörü arızası olduğunu; konvertör bozulunca yağa parçacık bırakıp kutunun geri kalanını kirlettiğini aktarıyor. Akümülatör yaylarının kırılma eğilimi ayrı bir bilinen kalem. 2001 ve sonrası Cadillac ve BMW araçlarında aktüatör besleme sınırlama (AFL) ve basınç regülatörü (PR) valf yuvaları aşınıyor; valf gövdesi PWM solenoidlerin kanalı kademeli açıp kapamasından dolayı yoruluyor. Arızalı TCC solenoidi çapraz kaçak yapıp geri vitesin kaybına yol açabiliyor. Üretimin ilk yıllarında radyatör termostatı arızası tork konvertörü sorunlarına neden oluyordu.",
+    "publisher": "batransmissions.com",
+    "url": "https://www.batransmissions.com/common-faults/gm-5l40-e-5-speed-automatic-transmission/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "asrgearbox_tf80sc": {
+    "id": "asrgearbox_tf80sc",
+    "claim": "asrgearboxrepairs.co.uk, ipdusa.com ve swedespeed forumu, Aisin TF-80SC (Volvo Geartronic) kutusunda sert vites geçişi ve viteste kayma/devir yükselmesi şikayetlerinin on vakanın dokuzunda valf gövdesi kaynaklı olduğunu aktarıyor. Kök neden erken valf gövdesi tasarımı: **06J ve sonrası seri numaralı kutular bu belirtileri önleyen güncellenmiş valf gövdesiyle üretiliyor**, yani sorun belirli bir üretim penceresine bağlı. İleri-geri geçişte hantallık ve kısa devir yükselmesi aşınmış valf gövdesi kanallarına veya kavrama aşınması sonrası güncellenmemiş kalibrasyona bağlanıyor. Yokuşta veya yüklüyken hafif titreme tork konvertörü kilitlenmesinin zayıflamasını gösteriyor. Doğru yağın (JWS3309) kullanılması ve yazılımın güncel olması öneriliyor.",
+    "publisher": "asrgearboxrepairs.co.uk",
+    "url": "https://www.asrgearboxrepairs.co.uk/aisin-tf-80-6-speed-older-psavolvo-models/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "engineexplained_g4la": {
+    "id": "engineexplained_g4la",
+    "claim": "engineexplained.com ve mymotorlist.com, Kia/Hyundai Kappa 1.2 (G4LA) motorunun alüminyum bloklu, dökme demir gömlekli, hidrolik supap ayarlı ve **zincir tahrikli** olduğunu aktarıyor. Motor güvenilir kabul ediliyor; 388.000 km'yi sorunsuz gören örnekler bildiriliyor ve sahiplerin şikayeti arızadan çok ses ve titreşim üzerine yoğunlaşıyor. Buna karşılık motor **aşırı ısınmaya hiç tolerans göstermiyor**. Üreticinin belirttiği yağ özelliklerine uyan sahiplerde beş yıllık dönemde ciddi sorun bildirme oranı yüzde on civarında kalıyor.",
+    "publisher": "engineexplained.com",
+    "url": "https://www.engineexplained.com/kia-g4la-1-2-l-engine-review-and-insights/",
     "type": "trade-blog",
     "tier": "C",
     "accessed": "2026-08-13",

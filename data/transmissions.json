@@ -135,10 +135,39 @@
     "supplier": "General Motors",
     "gears": 5,
     "base_score": 40,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Tork konvertörü arızası kutunun en sık onarım nedeni ve bozulduğunda yağa parçacık bırakıp geri kalanı kirletiyor; titreşim veya kilitlenme sorununda geciktirilmemeli.",
+    "known_issues": [
+      {
+        "issue": "Tork konvertörü arızası; bozulunca yağa parçacık bırakıp kutunun geri kalanını kirletiyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "batransmissions_5l40e"
+        ]
+      },
+      {
+        "issue": "Aktüatör besleme sınırlama (AFL) ve basınç regülatörü (PR) valf yuvalarının aşınması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "batransmissions_5l40e"
+        ]
+      },
+      {
+        "issue": "Akümülatör yaylarının kırılması ve arızalı TCC solenoidinin çapraz kaçak yapıp geri vitesi kaybettirmesi",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "batransmissions_5l40e"
+        ]
+      }
+    ],
     "sources": [
       "axleaddict_gm5l40e",
+      "batransmissions_5l40e",
       "solsticeforum_gm5l40e"
     ],
     "note": "BMW E39/E46'da ZF 5HP'ye alternatif olarak kullanılan GM kaynaklı 5 ileri kutu. Akümülatör yayı kırılması, kilitleme solenoidi arızası (bazen tam güç kaybına yol açan) ve çıkış mili aşınması gibi tekrarlayan, belgelenmiş arıza noktaları var; ZF muadiline göre daha az güvenilir kabul ediliyor. [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı): kilitleme solenoidi arızası tork konvertörünü etkileyip sürüşü tamamen kesebiliyor, bu düşük-orta km'de görülen gerçek bir risk.]"
@@ -153,13 +182,42 @@
     "supplier": "Aisin",
     "gears": null,
     "base_score": 78,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Doğru yağ (JWS3309) ve güncel kontrol ünitesi yazılımı kutunun sürüş kalitesini belirliyor; Volvo bu kutu için en az iki yazılım güncellemesi yayımladı.",
+    "known_issues": [
+      {
+        "issue": "Erken üretim valf gövdesi tasarımına bağlı sert vites geçişi ve viteste kayma/devir yükselmesi; 06J ve sonrası seri numaralı kutularda güncellenmiş valf gövdesi bu belirtileri önlüyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "asrgearbox_tf80sc"
+        ]
+      },
+      {
+        "issue": "İleri-geri geçişte hantallık ve kısa devir yükselmesi; aşınmış valf gövdesi kanalları veya güncellenmemiş kalibrasyon",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "asrgearbox_tf80sc"
+        ]
+      },
+      {
+        "issue": "Yokuşta veya yüklüyken hafif titreme; tork konvertörü kilitlenmesinin zayıflaması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "asrgearbox_tf80sc"
+        ]
+      }
+    ],
     "sources": [
-      "volvod",
-      "volvops",
+      "asrgearbox_tf80sc",
       "volvoclub_geartronic_reliability",
-      "volvoforums_tf71sc_behavior"
+      "volvod",
+      "volvoforums_tf71sc_behavior",
+      "volvops"
     ],
     "note": "Volvo'nun sorunlu Powershift kutusuyla karıştırılmamalı. Hangi motorun hangi kutuyla geldiği volvops kaynağında ayrıştırılıyor. Vites sayısı model yılına göre değiştiği için boş bırakıldı. Aisin'in hidrodinamik tork konvertörü tasarımı, Volvo'nun otomatikleri arasında en güvenilir kabul ediliyor ve çift kavramalı Powershift'e göre şehir trafiğine belirgin biçimde daha toleranslı. Buna karşılık yağ soğutucusu sızıntısı ve 100.000 km üstünde ısı eşanjörü bakımı gibi düzenli bakım kalemleri de belgeleniyor; bu yüzden puan 'yönetilebilir bakım kalemi' bandına yerleşiyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): genel itibar çok güçlü ama iki kaynakta da bakıma bağlı, tekrarlayan sorun kaydı var; M-1 bandı 'iki bağımsız kaynakta kronik arıza kaydı yok' şartını tam karşılamıyor.]"
   },
@@ -201,11 +259,40 @@
     "supplier": "Aisin",
     "gears": 6,
     "base_score": 58,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Doğru yağ (JWS3309) ve güncel kontrol ünitesi yazılımı kutunun sürüş kalitesini belirliyor; Volvo bu kutu için en az iki yazılım güncellemesi yayımladı.",
+    "known_issues": [
+      {
+        "issue": "Erken üretim valf gövdesi tasarımına bağlı sert vites geçişi ve viteste kayma/devir yükselmesi; 06J ve sonrası seri numaralı kutularda güncellenmiş valf gövdesi bu belirtileri önlüyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "asrgearbox_tf80sc"
+        ]
+      },
+      {
+        "issue": "İleri-geri geçişte hantallık ve kısa devir yükselmesi; aşınmış valf gövdesi kanalları veya güncellenmemiş kalibrasyon",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "asrgearbox_tf80sc"
+        ]
+      },
+      {
+        "issue": "Yokuşta veya yüklüyken hafif titreme; tork konvertörü kilitlenmesinin zayıflaması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "asrgearbox_tf80sc"
+        ]
+      }
+    ],
     "sources": [
       "alfa159",
-      "asrgearbox_tf80"
+      "asrgearbox_tf80",
+      "asrgearbox_tf80sc"
     ],
     "note": "Alfa 159/Brera, Volvo, Saab, Citroen, Renault ve Fiat'ta ortak kullanılan 6 ileri kutu. İlk yıllarında sürtünme plakası sorunu, ayrıca küçük ısı eşanjörünün 100.000 km'den önce tıkanıp aşırı ısınmaya ve kavrama yanmasına yol açtığı bildiriliyor; 2010 öncesi üretilen örneklerden kaçınılması öneriliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): ısı eşanjörü tıkanması gerçek ve tekrarlayan bir arıza örüntüsü ama kutu genelde onarımla ayakta kalıyor; 2010 sonrası üretim için tablo daha olumlu, bu araç (2005-2011 üretim) bu ayrımın ortasında kaldığı için orta bantta tutuldu.]"
   },
@@ -1091,11 +1178,30 @@
     "supplier": "Hyundai / Kia (Mitsubishi lisansı)",
     "gears": 4,
     "base_score": 72,
-    "maintenance": "Kirli ATF solenoid valfini aşındırdığı için düzenli yağ değişimi önemli.",
-    "known_issues": [],
+    "maintenance": "Kirli ATF solenoid kanallarını aşındırdığı için yağ değişimi belirleyici; tek solenoid arızalansa bile diğerlerinin kalan ömrü kısa olduğundan hepsi birlikte değişiyor. Fren bandı 150.000-180.000 km bakımında veya yanık ATF kokusunda değiştiriliyor.",
+    "known_issues": [
+      {
+        "issue": "Kirli ATF'nin solenoid valf kanalını aşındırması; valf oynayıp bir noktada sıkışıyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "go4trans_a4af3"
+        ]
+      },
+      {
+        "issue": "Fren bandının aşınması; yanık ATF kokusu belirtisi",
+        "onset_km": 150000,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "go4trans_a4af3"
+        ]
+      }
+    ],
     "sources": [
-      "go4trans_a4af3",
-      "elantraxd_forum_a4af3"
+      "elantraxd_forum_a4af3",
+      "go4trans_a4af3"
     ],
     "note": "Hyundai Elantra XD (2000-2006) ve Kia Cerato LD (2003-2007) gibi eski nesil Hyundai-Kia modellerinde kullanılan, Mitsubishi ile ortak geliştirilmiş 4 ileri kutu. Kirli şanzıman yağıyla bile uzun süre çalışabildiği, bilinen tek zayıf noktasının kirli ATF'nin aşındırdığı solenoid valfi olduğu bildiriliyor. Sonraki nesilde gelen hyundai-6at ile karıştırılmamalı. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak kutuyu 'çok güvenilir' diye tanımlıyor ve tek zayıf noktayı bir bakım kalemine bağlıyor.]"
   },
