@@ -4336,5 +4336,65 @@
       "engine": "web_search",
       "found_at": "2026-08-13"
     }
+  },
+  "ecotorque_c635_ddct": {
+    "id": "ecotorque_c635_ddct",
+    "claim": "eco-torque.co.uk ve alfaowner forumu, FPT C635 DDCT'nin (Alfa Romeo'da TCT adıyla satılan aynı kutu) Fiat Powertrain, Magneti Marelli ve BorgWarner ortak geliştirmesi altı ileri **kuru** çift kavramalı bir kutu olduğunu ve MiTo, Giulietta, Tipo, 500L/500X, Renegade ve Dart'ta kullanıldığını aktarıyor. Onarımın başlıca nedeni kavrama arızası; vakaların yüzde 95'i makul kilometrede normal aşınma, ama düşük kilometrede de görülebiliyor. Kutunun kavrama stratejisi tepki için agresif ayarlı ve bu kavrama ömrünü kısaltıyor; kavramalar kuru olduğu için soğutacak yağ yok ve uzun süreli hafif kaydırmaya toleransı düşük. 1. vites ve geri viteste uzun süre yavaş manevra yapıldığında kavramanın aşırı ısındığı bildiriliyor. Kavrama değişimi 2.000 avronun üzerinde fiyatlanıyor.",
+    "publisher": "eco-torque.co.uk",
+    "url": "https://eco-torque.co.uk/blogs/news/fiat-ftp-c635-dual-clutch-ddct-gearbox-faults-repairs",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "youcanic_zf4hp20": {
+    "id": "youcanic_zf4hp20",
+    "claim": "youcanic.com ve go4trans.com, ZF 4HP20 kutusunun aralıklı olarak arıza konumuna düşüp 3. viteste kilitlendiğini ve 'Gearbox faulty' uyarısı verdiğini; araç ısındıktan sonra sert vites geçişi ve gürültülü vuruntu yaşandığını aktarıyor. Kök nedenler arasında valf gövdesinin kir, talaş ve sürtünme elemanı aşıntısıyla tıkanması, ömrünü doldurmuş solenoidler ve şanzıman sıcaklık sensörü arızası sayılıyor. Yoğun kullanımda ilk yorulan bileşen tork konvertörü: düzensiz aşınan kilitleme kavraması titreşim başlatıyor, titreşim pompa miline geçiyor ve keçeden kaçak oluşuyor.",
+    "publisher": "youcanic.com",
+    "url": "https://www.youcanic.com/peugeot-transmission-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "akppro_tf81sc": {
+    "id": "akppro_tf81sc",
+    "claim": "akppro.ru ve Sonnax, Aisin AW TF-81SC/AWF21 kutusunda sahibin başını en çok ağrıtan iki parçanın tork konvertörü ve valf gövdesi olduğunu, sorunun çoğu durumda aşırı ısınma ve seyrek yağ değişimiyle ilişkili olduğunu aktarıyor. Kutu yağ özelliklerine çok duyarlı ve 20.000-30.000 km'de bir yağ değişimi öneriliyor. Zayıf nokta tork konvertörü kilitleme valfi. Soğuk çalıştırmadan sonraki ilk birkaç dakikada belirginleşen sert veya titreşimli 2-3 yukarı geçiş ile durmadan hemen önce hissedilen titreme valf gövdesi değişimini gerektiren belirtiler. Volvo ve Ford valf gövdeleri birbirinden farklı ve değiştirilebilir değil.",
+    "publisher": "akppro.ru",
+    "url": "https://akppro.ru/en/magazine/article/aisin-tf-81sc.html",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "transmissiondigest_4f27e": {
+    "id": "transmissiondigest_4f27e",
+    "claim": "Transmission Digest ve go4trans.com, Ford 4F27E (ve beş ileri FNR5 türevi) kutusunda 2-3 geçişinde devir yükselmesinin (shift flare) yaygın olduğunu ve genellikle gövdeden geçen servo pim yuvasının aşınmasından kaynaklandığını aktarıyor. Tork konvertörü içindeki pompa burçlarının veya valf gövdesindeki konvertör kilitleme kontrol valfinin bozulması 3-4 arası kayma ve düşük hızda belirgin titreme üretiyor. Overdrive ve geri vites paketlerinin sürtünme elemanları hızlı yanıyor; nedeni tambur oturma yüzeyinin arka kapak desteğinde aşınması ve teflon halkalardan yağ kaçırması. Kaynaklar erken ve sık yağ değişiminin kutuyu belirgin biçimde iyi çalıştırdığını, elektrik bileşenlerinin ise uzun süre sorunsuz kaldığını vurguluyor.",
+    "publisher": "Transmission Digest",
+    "url": "https://www.transmissiondigest.com/fnr5-4f27e-servo-concerns/",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
   }
 }

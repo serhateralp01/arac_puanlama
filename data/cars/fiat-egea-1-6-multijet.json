@@ -22,7 +22,7 @@
     785,
     960
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 72,
     "trans": 52,
@@ -33,6 +33,7 @@
     "liq": 92
   },
   "sources": [
+    "ecotorque_c635_ddct",
     "egeadct",
     "gaga_tipo_multijet",
     "trbox"

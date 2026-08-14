@@ -918,9 +918,29 @@
     "supplier": "Fiat",
     "gears": 6,
     "base_score": 62,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Kuru kavrama uzun süreli hafif kaydırmaya toleranssız; rampada gazla tutma ve dar alanda uzun manevra ömrü belirgin biçimde kısaltıyor. Alım öncesi kavrama değişim geçmişi sorulmalı.",
+    "known_issues": [
+      {
+        "issue": "Kuru kavramanın aşınması; kutunun tepki için agresif ayarlanmış kavrama stratejisi ömrü kısaltıyor ve kavrama değişimi çok pahalı (2.000 avro üzeri)",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "ecotorque_c635_ddct"
+        ]
+      },
+      {
+        "issue": "1. vites ve geri viteste uzun süre yavaş manevra yapıldığında kavramanın aşırı ısınması; kuru kavramada soğutacak yağ yok",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "ecotorque_c635_ddct"
+        ]
+      }
+    ],
     "sources": [
+      "ecotorque_c635_ddct",
       "egeadct",
       "trbox"
     ],
@@ -936,12 +956,32 @@
     "supplier": "Fiat / Alfa Romeo",
     "gears": 6,
     "base_score": 46,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Kuru kavrama uzun süreli hafif kaydırmaya toleranssız; rampada gazla tutma ve dar alanda uzun manevra ömrü belirgin biçimde kısaltıyor. Alım öncesi kavrama değişim geçmişi sorulmalı.",
+    "known_issues": [
+      {
+        "issue": "Kuru kavramanın aşınması; kutunun tepki için agresif ayarlanmış kavrama stratejisi ömrü kısaltıyor ve kavrama değişimi çok pahalı (2.000 avro üzeri)",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "ecotorque_c635_ddct"
+        ]
+      },
+      {
+        "issue": "1. vites ve geri viteste uzun süre yavaş manevra yapıldığında kavramanın aşırı ısınması; kuru kavramada soğutacak yağ yok",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "ecotorque_c635_ddct"
+        ]
+      }
+    ],
     "sources": [
-      "eksisozluk_sanziman_liste",
       "autodoc_giulietta_problems",
-      "autodoc_mito_problems"
+      "autodoc_mito_problems",
+      "ecotorque_c635_ddct",
+      "eksisozluk_sanziman_liste"
     ],
     "note": "Giulietta ve MiTo'da 40.000-60.000 km gibi erken bir kilometrede vites geçiş sorunları veya viteste takılı kalma bildiriliyor; yoğun trafikte aşırı ısınıp acil durum moduna geçebiliyor. Ortalama servis ömrü 120.000-150.000 km olarak tarif ediliyor, yoğun şehir kullanımında daha kısa. Buna karşılık ıslak kavramalı olduğu için DSG ve Powershift gibi kuru kavramalı rakiplerine göre daha güvenilir kabul ediliyor. [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı): erken kilometrede tekrarlayan vites sorunu belgelenmiş; ıslak kavrama avantajı bandın üst sınırında tutulmasını sağladı.]"
   },
@@ -1059,11 +1099,40 @@
     "supplier": "ZF",
     "gears": 4,
     "base_score": 58,
-    "maintenance": "Aşırı ısınmadan kaçınmak kutunun ömrünü belirleyen ana etken; soğutma sistemi düzenli kontrol edilmeli.",
-    "known_issues": [],
+    "maintenance": "Valf gövdesi kir ve sürtünme aşıntısıyla tıkanıyor; yağ değişimi ihmal edilmemeli. 'Gearbox faulty' uyarısıyla 3. viteste kilitlenme bu ailenin tipik belirtisi.",
+    "known_issues": [
+      {
+        "issue": "Aralıklı olarak arıza konumuna düşüp 3. viteste kilitlenme ve 'Gearbox faulty' uyarısı; araç ısındıktan sonra ortaya çıkıyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "youcanic_zf4hp20"
+        ]
+      },
+      {
+        "issue": "Valf gövdesinin kir, talaş ve sürtünme elemanı aşıntısıyla tıkanması; ömrünü doldurmuş solenoidler",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "youcanic_zf4hp20"
+        ]
+      },
+      {
+        "issue": "Tork konvertörü kilitleme kavramasının düzensiz aşınması; titreşim pompa miline geçip keçeden kaçak yapıyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "youcanic_zf4hp20"
+        ]
+      }
+    ],
     "sources": [
       "bavauto_zf4hp",
-      "bimmerfest_e46_4hp_reliability"
+      "bimmerfest_e46_4hp_reliability",
+      "youcanic_zf4hp20"
     ],
     "note": "BMW E36 ve E46'nın düşük beygirli benzinli versiyonlarında ve bazı PSA modellerinde kullanılan 4 ileri kutu. Tasarım olarak sağlam sayılıyor ama BMW uygulamalarında düzenli bakıma rağmen erken arızalanma eğilimi bildiriliyor; en sık neden aşırı ısınma. Aynı üreticinin 5 ileri kutusundan (zf-5hp) daha düşük puan alıyor, çünkü zf-5hp'de böyle bir marka-özel erken arıza örüntüsü yok. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): kaynaklar erken arıza eğilimini doğruluyor ama bunu aşırı ısınma gibi önlenebilir bir nedene bağlıyor, yapısal bir kusura değil.]"
   },
@@ -1252,12 +1321,41 @@
     "supplier": "Ford / Mazda",
     "gears": 4,
     "base_score": 42,
-    "maintenance": "48.000 km'de bir yağ değişimi öneriliyor; valf gövdesinin durumu kutunun ömrünü belirleyen ana etken.",
-    "known_issues": [],
+    "maintenance": "Erken ve sık yağ değişimi bu ailede belirleyici; kaynaklar düzenli bakımla kutunun belirgin biçimde iyi çalıştığını, elektrik bileşenlerinin ise uzun süre sorunsuz kaldığını bildiriyor.",
+    "known_issues": [
+      {
+        "issue": "2-3 geçişinde devir yükselmesi (shift flare); genellikle gövdeden geçen servo pim yuvasının aşınmasından kaynaklanıyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "transmissiondigest_4f27e"
+        ]
+      },
+      {
+        "issue": "Tork konvertörü pompa burçlarının veya konvertör kilitleme kontrol valfinin bozulması; 3-4 arası kayma ve düşük hızda titreme",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "transmissiondigest_4f27e"
+        ]
+      },
+      {
+        "issue": "Overdrive ve geri vites paketlerinin sürtünme elemanlarının hızlı yanması; tambur oturma yüzeyi aşınıp teflon halkalardan yağ kaçırıyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "transmissiondigest_4f27e"
+        ]
+      }
+    ],
     "sources": [
-      "wiki_ford_cd4e",
+      "carproblemzoo_mazda626",
       "talkford_cd4e_reliability",
-      "carproblemzoo_mazda626"
+      "transmissiondigest_4f27e",
+      "wiki_ford_cd4e"
     ],
     "note": "Ford Mondeo Mk1-Mk3'ün dört silindirli otomatiklerinde ve Mazda 626'da kullanılan 4 ileri kutu. Valf gövdesi sağlam kaldığı sürece çalışıyor, ama aşınmış valf gövdesi yüksek basınca ve sert vites geçişine yol açıyor ve kutu 120.000 km sonrasında herhangi bir noktada arızalanabiliyor; ayrıca ana pompa tahrikinin sıyrılıp aracı hareketsiz bırakabildiği bildiriliyor. Bir şikayet veritabanında Mazda 626 için 545 ayrı otomatik şanzıman arıza kaydı bulunuyor. [base_score gerekçesi: 35-49 (bilinen risk): üç kaynak da ciddi ve tekrarlayan arızaları doğruluyor; sayılmış şikayet kaydı (545) bunu tekil anekdot olmaktan çıkarıyor.]"
   },
@@ -1272,11 +1370,40 @@
     "supplier": "Ford / Mazda",
     "gears": 4,
     "base_score": 72,
-    "maintenance": "48.000 km'de bir yağ değişimi öneriliyor.",
-    "known_issues": [],
+    "maintenance": "Erken ve sık yağ değişimi bu ailede belirleyici; kaynaklar düzenli bakımla kutunun belirgin biçimde iyi çalıştığını, elektrik bileşenlerinin ise uzun süre sorunsuz kaldığını bildiriyor.",
+    "known_issues": [
+      {
+        "issue": "2-3 geçişinde devir yükselmesi (shift flare); genellikle gövdeden geçen servo pim yuvasının aşınmasından kaynaklanıyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "transmissiondigest_4f27e"
+        ]
+      },
+      {
+        "issue": "Tork konvertörü pompa burçlarının veya konvertör kilitleme kontrol valfinin bozulması; 3-4 arası kayma ve düşük hızda titreme",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "transmissiondigest_4f27e"
+        ]
+      },
+      {
+        "issue": "Overdrive ve geri vites paketlerinin sürtünme elemanlarının hızlı yanması; tambur oturma yüzeyi aşınıp teflon halkalardan yağ kaçırıyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "transmissiondigest_4f27e"
+        ]
+      }
+    ],
     "sources": [
+      "focusclub_4ileri",
       "focusfanatics_mk2_auto",
-      "focusclub_4ileri"
+      "transmissiondigest_4f27e"
     ],
     "note": "İkinci nesil Ford Focus'un ve Mazda 6 GH'nin otomatiğinde kullanılan, CD4E'nin halefi olan kutu. İki bağımsız kaynak da olumlu: İngilizce forum kaynağı bunu açıkça CD4E'den daha iyi diye tanımlıyor (240.000 km'ye kadar sorunsuz, 160.000 km'den sonra vites uğultusu duyulabiliyor ama kutu çalışmaya devam ediyor), Türkçe forum kaynağı ise doğrudan 'şanzımanınız taş gibidir, 4 ileri oldukça sağlamdır' diyor ve bu kutuyu Ford'un aynı dönemdeki CVT, ASM ve Jatco kaynaklı otomatiklerinden ayırıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): iki bağımsız kaynak da olumlu ve tek bildirilen kusur (uğultu) işlevi bozmuyor; ikisi de C seviyesinde olduğu için 85 üstüne çıkarılmadı.]"
   },
@@ -1291,9 +1418,29 @@
     "supplier": "Aisin",
     "gears": 6,
     "base_score": 72,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Kutu yağ özelliklerine çok duyarlı; 20.000-30.000 km'de bir yağ değişimi öneriliyor. Aşırı ısınma ve seyrek yağ değişimi arızaların çoğunun ortak nedeni.",
+    "known_issues": [
+      {
+        "issue": "Tork konvertörü kilitleme valfinin bozulması; ailenin bilinen zayıf noktası",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "akppro_tf81sc"
+        ]
+      },
+      {
+        "issue": "Soğuk çalıştırmadan sonraki ilk dakikalarda sert veya titreşimli 2-3 yukarı geçiş ve durmadan hemen önce titreme; valf gövdesi değişimi gerektiriyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "akppro_tf81sc"
+        ]
+      }
+    ],
     "sources": [
+      "akppro_tf81sc",
       "fordwiki_awf21",
       "whocanfixmycar_mondeo_whatcar"
     ],
