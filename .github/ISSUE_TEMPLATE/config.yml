@@ -5,4 +5,4 @@ contact_links:
     about: Puanların nasıl hesaplandığı, kriter tanımları ve puan bantları burada yazılı.
   - name: Mimari kararlar ve gerekçeleri
     url: https://github.com/serhateralp01/arac_puanlama/blob/main/docs/ARCHITECTURE.md
-    about: "Neden böyle yapılmış?" sorusunun cevabı büyük ihtimalle burada.
+    about: Bir kararın neden böyle alındığı sorusunun cevabı büyük ihtimalle burada.
