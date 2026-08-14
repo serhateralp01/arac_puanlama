@@ -38,7 +38,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
 | Veri doğruluğu (MK-18) | **Dış veri setiyle çapraz doğrulama yapıldı.** 220 araç bağımsız bir katalogla karşılaştırıldı; motor/şanzıman ailesinde 0 çelişki, beygir/torkta 10 çelişki bulundu ve doğrulanan 5 gerçek hata düzeltildi (en ağırı: bir 1.6 dizelde 400 Nm ve bir aracın tamamen yanlış motor ailesine bağlı olması). |
-| Teknik özellik kapsamı | Tork 172 → **251/278**; boş ağırlık 163/278. `fun` formülünün önündeki tek engel artık boş ağırlık: 88 araçta tork var ama ağırlık yok. |
+| Teknik özellik kapsamı | Tork 172 → **251/278**; boş ağırlık 163/278. `fun` formülünün önündeki tek engel artık boş ağırlık: 88 araçta tork var ama ağırlık yok. Çalışma listesi ve doğrulamalı içe aktarma betiği hazır (Y-16); veri toplama, spec sitelerine erişimi olan bir oturumu bekliyor. |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 | Arama motoru görünürlüğü (Y-11) | **Temel kuruldu.** `scripts/build_pages.py` 435 indekslenebilir sayfa üretiyor (araç/motor/şanzıman başına bir tane), her biri araca özgü başlık, açıklama, canonical ve JSON-LD ile; `sitemap.xml` ve `robots.txt` yayında. Search Console'a gönderim depo sahibini bekliyor. |
 | Ticari strateji | `docs/URUN-STRATEJISI.md` — gelir modelleri, açık kaynak lisans katmanları, içerik/pazarlama hattı ve 90 günlük plan; her fikir uygulanabilirlik seviyesiyle birlikte |
@@ -1114,18 +1114,40 @@ olarak da en kritik olanlardan biri (`docs/URUN-STRATEJISI.md` §4.2).
 **Bitmiş sayılma ölçütü.** Ölçüm ikinci kez, aynı yöntemle ve elle müdahale olmadan
 çalıştırılabiliyor; tarihli fiyat taşıyan araç sayısı belirgin biçimde artıyor.
 
-### Y-16 · Boş ağırlık verisinin doldurulması — **en yüksek getirili veri işi**
+### Y-16 · Boş ağırlık verisinin doldurulması — **hazırlandı, veri toplama bekliyor**
 
 **Sorun.** P2.1 entegrasyonundan sonra tork kapsamı 251/278'e çıktı ama `fun` kapsamı
 163'te kaldı. Sebep tek bir alan: **88 araçta tork var, boş ağırlık yok** ve formül ikisini
-birden istiyor. P2.1 veri paketinde boş ağırlık alanı hiç bulunmuyor.
-
-**Kapsam.** 88 araç için boş ağırlık verisinin MK-15 kuralıyla (marka, model, yıl, hacim ve
-beygir birlikte doğrulanarak) toplanması. Eşleşmeyen kayıt boş bırakılır.
+birden istiyor. P2.1 veri paketinde boş ağırlık alanı hiç bulunmuyor — hem SQLite hem
+Excel çıktısı ayrı ayrı kontrol edildi.
 
 **Neden öncelikli.** Tek bir veri kalemi, bir kriterin kapsamını 163'ten 251'e çıkarıyor —
 yani neredeyse yarı yarıya büyütüyor. Depodaki hiçbir iş kaleminin getiri/çaba oranı buna
 yakın değil.
+
+**2026-08-13'te ne yapıldı.** Veri toplanamadı ama iş **mekanik hale getirildi**:
+
+- `data/queue/kerb-weight-worklist.json` — doldurulacak 88 aracın listesi; her satırda
+  kimlik, ad, üretim yılı, beygir, hacim, şanzıman tipi ve boş bırakılmış
+  `kerb_weight_kg` / `source_url` alanları. Yoğunluk BMW (22), Mercedes (18) ve Audi (9).
+- `scripts/import_kerb_weight.py` — doldurulmuş listeyi araç kayıtlarına işleyen betik.
+  MK-15 korumaları kod düzeyinde zorunlu: **kaynak adresi olmayan satır reddedilir**,
+  listedeki beygir veya hacim araç kaydıyla uyuşmazsa reddedilir, 600 kg altı / 3.000 kg
+  üstü değerler reddedilir (bu eşik varyant elemek için değil, libre-kilogram birim
+  hatasını yakalamak için). Üç koruma da sahte veriyle test edildi ve çalışıyor.
+
+**Neden bu oturumda doldurulamadı — dürüst kayıt.** Teknik özellik siteleri
+(autoevolution.com, auto-data.net, ultimatespecs.com, carfolio.com) ve Wikipedia,
+çalışma ortamının ağ geçidi tarafından engelli. Arama sonucu parçacıkları varyant bazında
+**otomatik/manuel ayrımı vermiyor**; aynı modelin otomatik versiyonu manuelden 25-40 kg
+ağır olabiliyor ve buradaki araçların hepsi otomatik. Manuel değeri yazmak güç/ağırlık
+formülünü doğrudan yanıltırdı. CLAUDE.md'nin ve MK-15'in kuralı burada belirleyici oldu:
+**boş bir alan, yanlış bir alandan iyidir.**
+
+**Bitmiş sayılma ölçütü.** Çalışma listesi kaynak adresleriyle doldurulup
+`python3 scripts/import_kerb_weight.py --write` ve ardından
+`python3 scripts/compute_fun.py --write` çalıştırıldığında `fun` kapsamı 251/278'e
+çıkıyor. Ağ erişimi olan bir oturum ya da doğrudan depo sahibi bunu tek geçişte bitirebilir.
 
 ### Y-17 · Kişiye özel rapor üretimi
 
