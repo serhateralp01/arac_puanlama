@@ -22,10 +22,10 @@
     750,
     1080
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
-    "trans": 36,
+    "trans": 30,
     "fun": 37,
     "comf": 76,
     "age": 54,
@@ -35,7 +35,8 @@
   "sources": [
     "engineexplained_sigma_tivct",
     "sikayetvar_kuga_ecoboost",
-    "trbox"
+    "trbox",
+    "vargas_ford_dps6_uzlasma"
   ],
   "note": "Turbosuz Ti-VCT motoru sorunsuz ama otomatiği kuru kavramalı DPS6 Powershift kutusu. Bu kutu Amerika'da milyarlarca dolarlık davalara konu oldu; kalkışta titreme, vites geçişinde vuruntu ve şanzıman beyni arızası yaygın şikayetler, kavrama kiti değişimi de yüksek bir masraf. Bu ağır iddia şu an tek bir kaynağa dayandığı için puan listenin en altına değil, kuru çift kavramalı kutuların bilinen risk bandına yerleştirildi; ikinci bir bağımsız kaynak bulunursa puan yeniden gözden geçirilmeli. Araç bol ve ucuz olsa da otomatik arıyorsanız bu kombinasyondan uzak durun.",
   "provenance": {
@@ -56,14 +57,13 @@
       "assessed_at": "2026-08-06"
     },
     "trans": {
-      "band": "bilinen risk, kavrama/mekatronik odaklı",
-      "confidence": "orta",
+      "band": "düşük km'de felaket, çoklu kaynak",
+      "confidence": "yüksek",
       "sources": [
-        "trbox",
-        "sikayetvar_kuga_ecoboost"
+        "vargas_ford_dps6_uzlasma"
       ],
-      "reasoning": "DPS6 (ford-dps6) şanzıman ailesinin temel puanı 36. Bu aracın trans puanı (36) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
-      "assessed_at": "2026-08-06"
+      "reasoning": "DPS6 (ford-dps6) şanzıman ailesinin temel puanı 30. Bu aracın trans puanı (30) temel puanla birebir aynı; puan 2026-08-13'te 36'dan indirildi çünkü kanıt ağırlaştı. Ailenin zaafı tasarım kaynaklı: çift kavramalı bir kutuda ıslak yerine kuru kavrama seçildiği için soğutacak yağ yok, dur-kalk trafiğinde ısı hızla birikiyor ve sürtünme yüzeyleri camlaşıyor. Bu puan \"düşük km'de felaket, çoklu kaynak\" bandına giriyor: sorun Vargas v. Ford federal grup davasının 7 Nisan 2020'de yürürlüğe giren ve gruba en az 77,4 milyon dolar güvence altına alan uzlaşmasıyla, üç ayrı garanti uzatmasıyla (14M01, 14M02, 19N08) ve federal soruşturmalarla kayıtlı.",
+      "assessed_at": "2026-08-13"
     },
     "age": {
       "band": "TÜV yaş-kusur eğrisinden hesaplandı",

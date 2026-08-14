@@ -4167,5 +4167,65 @@
       "engine": "web_search",
       "found_at": "2026-08-13"
     }
+  },
+  "ecutesting_722_9_conductor": {
+    "id": "ecutesting_722_9_conductor",
+    "claim": "ecutesting.com ve transmissionrepaircostguide.com, Mercedes 722.9 (7G-Tronic) kutusundaki en sık arızanın TCM iletken plakasının (conductor plate) içeriden bozulması olduğunu; bunun giriş mili devrini doğru okuyamaması nedeniyle kutunun bir viteste fazla kalıp sonrakini sert atmasına yol açtığını aktarıyor. Arıza giderilmezse kontrol ünitesi kutuyu tek ileri viteste (2.) kilitleyen arıza konumuna alıyor. Ayrıca 40-80 km/s arasında titreşim, devir dalgalanması ve uğultu tork konvertörü arızasının tipik belirtileri olarak bildiriliyor.",
+    "publisher": "ecutesting.com",
+    "url": "https://www.ecutesting.com/common-faults/mercedes/7g-tronic-transmission-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "asrgearbox_multitronic": {
+    "id": "asrgearbox_multitronic",
+    "claim": "asrgearboxrepairs.co.uk ve audibreakeryards.co.uk, Audi Multitronic CVT'de kalkışta titremenin aşınmış kavrama paketlerinin klasik belirtisi olduğunu; paketlerin aşınırken yağa metal bıraktığını ve bunun kaymayı ve titremeyi artırdığını aktarıyor. Erken (2005 öncesi) önden çekişli kutuların yağını o kadar ısıttığı, kontrol ünitesinin kendisinin de bozulduğu ve bu elektronik arızanın tahrik kaybı ile arıza konumuna yol açtığı belirtiliyor. Titreme, kayma ve arıza konumu tipik olarak 95.000-160.000 km arasında ortaya çıkıyor; düzenli yağ değişimi ömrü belirgin biçimde uzatıyor.",
+    "publisher": "asrgearboxrepairs.co.uk",
+    "url": "https://www.asrgearboxrepairs.co.uk/audi-a4-common-gearbox-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "vargas_ford_dps6_uzlasma": {
+    "id": "vargas_ford_dps6_uzlasma",
+    "claim": "topclassactions.com ve lemonlawhelp.com, 2011-2016 Ford Fiesta ve 2012-2016 Ford Focus'ta kullanılan DPS6 PowerShift kutusunun şiddetli titreme, tereddüt ve tekrarlayan arızalar nedeniyle federal soruşturmalara ve toplu davalara konu olduğunu aktarıyor. Vargas v. Ford Motor Co. federal grup davası **7 Nisan 2020'de yürürlüğe giren bir uzlaşmayla** sonuçlandı ve gruba en az 77,4 milyon dolar güvence altına alındı. Kök neden, çift kavramalı kutuda ıslak yerine **kuru** kavrama seçilmesi: soğutacak yağ olmadığı için dur-kalk trafiğinde ısı hızla birikiyor, sürtünme yüzeyleri camlaşıyor ve kutu arızalanıyor. Ford tek bir kapsamlı geri çağırma yapmak yerine sorunu garanti uzatmalarına (14M01, 14M02, 19N08) ve gönüllü saha işlemlerine böldü. Davacılar, Ford'un kalıcı bir çözüm olmadığını kurum içinde kabul ettiğini iddia ediyor.",
+    "publisher": "topclassactions.com",
+    "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/ford-class-action-lawsuit-and-settlement-news/ford-class-action-alleges-powershift-transmission-defect/",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "sonnax_aw55_valf_govdesi": {
+    "id": "sonnax_aw55_valf_govdesi",
+    "claim": "Sonnax ve at-manuals.com, Aisin AW55-50SN/55-51SN kutusunda arızaların çoğunluğunun valf gövdesinden kaynaklandığını; 150.000-200.000 km öncesindeki erken mekanik arızaların asıl nedeninin valf gövdesinden gelen ATF basıncının yetersizliği olduğunu aktarıyor. Belirli bir kalem, solenoid modülatör yuvasındaki aşınma: aşınma yuvanın uçlarında hilal biçiminde parlamış bir bölge olarak görünüyor ve GM'in aktüatör besleme devresi arızasına benzer bir sonuç üretiyor. Solenoid aşınması ve hidrolik/sensör arızaları ailenin bilinen kalemleri.",
+    "publisher": "Sonnax",
+    "url": "https://www.sonnax.com/tech_resources/196-aw-55-50-af23-33-diagnosis-and-valve-body-information",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
   }
 }

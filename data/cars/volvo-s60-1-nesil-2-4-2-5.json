@@ -35,6 +35,7 @@
   "sources": [
     "eeuroparts_volvo_aw55_servo",
     "engineexplained_d5244t",
+    "sonnax_aw55_valf_govdesi",
     "volvops",
     "youcanic_opel_aw55"
   ],

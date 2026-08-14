@@ -30,6 +30,7 @@
     "liq": 60
   },
   "sources": [
+    "asrgearbox_multitronic",
     "carchecker_a6_27tdi",
     "engineexplained_ea113_agu",
     "multi",

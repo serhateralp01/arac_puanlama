@@ -31,6 +31,7 @@
     "liq": 58
   },
   "sources": [
+    "asrgearbox_multitronic",
     "carchecker_a6_27tdi",
     "carchecker_golf6_16tdi",
     "enginefinders_20tdi_ea189",

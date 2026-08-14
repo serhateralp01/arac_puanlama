@@ -22,7 +22,7 @@
     550,
     800
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 74,
     "trans": 46,
@@ -34,6 +34,7 @@
   },
   "sources": [
     "eeuroparts_volvo_aw55_servo",
+    "sonnax_aw55_valf_govdesi",
     "volvops",
     "youcanic_opel_aw55"
   ],

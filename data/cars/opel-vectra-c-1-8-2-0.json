@@ -22,7 +22,7 @@
     500,
     750
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 66,
     "trans": 46,
@@ -35,6 +35,7 @@
   "sources": [
     "eeuroparts_volvo_aw55_servo",
     "engine_specs_z18xer",
+    "sonnax_aw55_valf_govdesi",
     "youcanic_opel_aw55"
   ],
   "note": "Geniş ve ucuz bir D segment sedan. Otomatiği Aisin'in AW55 kutusu ve bu, Aisin'in sonraki TF-80SC kutusunun selefi olarak belirgin biçimde daha sorunlu: düşük kilometrede ortaya çıkan yapısal bir kusur taşıdığı anlaşılmış ve Opel uygulamalarında vites sertliği (shift flare) şikayeti yaygın. Volvo'daki daha yeni Geartronic ile karıştırılmamalı.",

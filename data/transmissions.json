@@ -351,10 +351,30 @@
     "supplier": "Mercedes-Benz",
     "gears": 7,
     "base_score": 44,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "İletken plaka (conductor plate) ailenin bilinen zayıf noktası; sert vites geçişi başladığında geciktirilmemeli, çünkü ilerlediğinde kutu arıza konumunda tek viteste kilitleniyor.",
+    "known_issues": [
+      {
+        "issue": "TCM iletken plakasının içeriden bozulması; giriş mili devrini okuyamayınca kutu bir viteste fazla kalıp sonrakini sert atıyor, ilerlerse arıza konumunda 2. viteste kilitleniyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "ecutesting_722_9_conductor"
+        ]
+      },
+      {
+        "issue": "Tork konvertörü arızası; 40-80 km/s arasında titreşim, devir dalgalanması ve uğultu",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "ecutesting_722_9_conductor"
+        ]
+      }
+    ],
     "sources": [
       "carcomplaints_722_9_lawsuit",
+      "ecutesting_722_9_conductor",
       "mercedesmedic_722_9"
     ],
     "note": "Bu kutuya (722.9) karşı ABD'de toplu dava açıldı; iddia, valf gövdesi ve conductor plate (kontrol kartı) tasarım kusurlarının kutuyu erken arızalandırdığı ve aracı 2. viteste sıkışmış halde bırakabildiği yönünde; üreticinin bu paterni servis bültenleriyle önceden bildiği iddia ediliyor. Arızanın kök nedeni, giriş milinin dönüş hızını doğru izleyemeyen bozuk bir kontrol kartı. [base_score gerekçesi: 35-49 (bilinen risk, kavrama/mekatronik odaklı): mekatronik/kontrol kartı arızası belgelenmiş ve toplu dava seviyesinde ciddi; carcomplaints kaynağı davayı ve TSB'leri aktardığı için B seviyesinde sayıldı, ama tek kaynak olduğu için 35-49 sınırında tutuldu.]"
@@ -475,11 +495,31 @@
     "supplier": "Volkswagen Group / LuK",
     "gears": null,
     "base_score": 28,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Üretici aralığından daha sık, üreticinin belirttiği CVT yağıyla değişim kavrama ömrünü belirgin biçimde uzatıyor; ihmal edilen kutularda aşınma hızlanıyor.",
+    "known_issues": [
+      {
+        "issue": "Kavrama paketlerinin aşınıp yağa metal bırakması; kalkışta titreme ve kayma olarak başlıyor",
+        "onset_km": 95000,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "asrgearbox_multitronic"
+        ]
+      },
+      {
+        "issue": "Erken (2005 öncesi) kutularda yağın aşırı ısınması nedeniyle kontrol ünitesinin bozulması; tahrik kaybı ve arıza konumu",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "asrgearbox_multitronic"
+        ]
+      }
+    ],
     "sources": [
-      "multi",
-      "carchecker_a6_27tdi"
+      "asrgearbox_multitronic",
+      "carchecker_a6_27tdi",
+      "multi"
     ],
     "note": "Yalnızca önden çekişli Audi modellerinde bulunuyor. Listedeki en zayıf otomatiklerden biri olarak değerlendiriliyor. [base_score gerekçesi: 0-34 (düşük km'de felaket, çoklu kaynak): iki bağımsız B-tier kaynak 'yüksek arıza riski' ifadesinde birleşiyor.]"
   },
@@ -526,13 +566,33 @@
     "type": "Kuru DCT",
     "supplier": "Getrag / Ford",
     "gears": 6,
-    "base_score": 36,
-    "maintenance": null,
-    "known_issues": [],
-    "sources": [
-      "trbox"
+    "base_score": 30,
+    "maintenance": "Kuru kavrama dur-kalk trafiğinde soğutulamadığı için camlaşıyor; ikinci el alımında garanti uzatması kapsamında (14M01, 14M02, 19N08) kavrama/mekatronik değişimi yapılıp yapılmadığı servis kaydından sorulmalı.",
+    "known_issues": [
+      {
+        "issue": "Kuru kavramanın dur-kalk trafiğinde aşırı ısınıp sürtünme yüzeylerinin camlaşması; kalkışta şiddetli titreme, vitesler arası tereddüt ve kayma",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "vargas_ford_dps6_uzlasma"
+        ]
+      },
+      {
+        "issue": "Kutunun anlık olarak boşa düşmesi, ani veya geciken hızlanma ve vites geçişinde taşlama sesi",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "vargas_ford_dps6_uzlasma"
+        ]
+      }
     ],
-    "note": "Amerika'da toplu davalara konu oldu. Kalkışta titreme, vites geçişinde vuruntu ve şanzıman beyni arızası yaygın şikayetler. [base_score gerekçesi: 35-49 sınırında tutuldu: kaynak toplu dava seviyesinde ciddi bir sorunu işaret ediyor ama tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi; M-2 kuralı gereği uç puan A/B kanıt ister.]"
+    "sources": [
+      "trbox",
+      "vargas_ford_dps6_uzlasma"
+    ],
+    "note": "Ford'un 2011-2016 Fiesta ve 2012-2016 Focus'ta kullandığı kuru kavramalı çift kavrama kutusu. Kök neden tasarım tercihi: çift kavramalı bir kutuda ıslak yerine kuru kavrama seçilince soğutacak yağ kalmıyor, dur-kalk trafiğinde ısı hızla birikiyor ve sürtünme yüzeyleri camlaşıyor. [base_score gerekçesi: 2026-08-13'te 36'dan 30'a indirildi ve 0-34 (düşük km'de felaket, çoklu kaynak) bandına taşındı. Gerekçe, kanıtın ağırlaşması: sorun artık yalnızca forum şikayeti değil, Vargas v. Ford federal grup davasının 7 Nisan 2020'de yürürlüğe giren ve gruba en az 77,4 milyon dolar güvence altına alan uzlaşmasıyla, üç ayrı garanti uzatmasıyla (14M01, 14M02, 19N08) ve federal soruşturmalarla kayıtlı. Bu, projenin B seviyesi kanıt tanımına giriyor ve 35-49 bandının 'bilinen risk' ifadesinin altını dolduramayacağı kadar ağır. Ford'un tek bir kapsamlı geri çağırma yerine sorunu garanti uzatmalarına bölmesi ve davacıların kalıcı çözüm bulunmadığı iddiası, bandın 'çoklu kaynak' şartını da karşılıyor.]"
   },
   "volvo-powershift-kuru": {
     "id": "volvo-powershift-kuru",
@@ -1177,10 +1237,30 @@
     "supplier": "Aisin",
     "gears": 5,
     "base_score": 46,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Valf gövdesinden gelen ATF basıncı ailenin belirleyici kalemi; basınç düştüğünde mekanik parçalar 150.000 km öncesinde bile yorulabiliyor. Düzenli yağ değişimi kritik.",
+    "known_issues": [
+      {
+        "issue": "Valf gövdesinden gelen ATF basıncının yetersiz kalması; erken mekanik arızaların asıl nedeni",
+        "onset_km": 150000,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "sonnax_aw55_valf_govdesi"
+        ]
+      },
+      {
+        "issue": "Solenoid modülatör yuvasındaki aşınma; yuvanın uçlarında hilal biçimli parlama olarak görünüyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "sonnax_aw55_valf_govdesi"
+        ]
+      }
+    ],
     "sources": [
       "eeuroparts_volvo_aw55_servo",
+      "sonnax_aw55_valf_govdesi",
       "youcanic_opel_aw55"
     ],
     "note": "Volvo S40/V50/S60 birinci nesil, Opel Vectra C ve Saab gibi modellerde kullanılan 5 ileri kutu. Aisin'in sonraki TF-80SC kutusunun selefi ve ondan belirgin biçimde daha sorunlu: 50.000 milin altında garanti kapsamına giren arızalar yaygınlaşmış ve kutunun yapısal bir kusur taşıdığı anlaşılmış; Opel uygulamalarında da vites sertliği (shift flare) şikayeti yaygın. Bu kutu, Volvo'daki daha yeni ve güvenilir aisin-geartronic (78 puan) ile karıştırılmamalı. [base_score gerekçesi: 35-49 (bilinen risk): iki bağımsız kaynak düşük kilometrede ortaya çıkan yapısal bir kusuru doğruluyor.]"
