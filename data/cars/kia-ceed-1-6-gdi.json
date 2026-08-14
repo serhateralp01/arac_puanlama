@@ -32,6 +32,7 @@
     "liq": 60
   },
   "sources": [
+    "8020automotive_gamma_gdi",
     "gearsmag_hyundai_a6",
     "hyundaiforums_auto",
     "sikayetvar_kia_ceed_otomatik",

@@ -21,7 +21,7 @@
     800,
     1150
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 32,
     "trans": 64,
@@ -34,7 +34,8 @@
   "sources": [
     "classaction_ford_ecoboost_coolant",
     "fordwetbeltspecialists_10ecoboost",
-    "smartcarcheck_focus_mk4_8at"
+    "smartcarcheck_focus_mk4_8at",
+    "smartcarcheck_ford_selectshift"
   ],
   "note": "Dördüncü nesil Focus'ta (2018+) sunulan 1.0 EcoBoost; motor (ford-ecoboost-10) listedeki 1.5 EcoBoost'tan (ford-ecoboost-15) farklı, daha küçük hacimli bir tasarım, bu turda yeni açıldı. Kutu da yeni: Ford bu nesilde sorunlu Powershift kuru DCT'yi (ford-dps6, listede zaten kayıtlı) bırakıp Aisin kaynaklı 8 ileri tork konvertörlü SelectShift'e geçti. Motor tarafında Ford'un garanti uzatmasına konu olan soğutucu sızıntısı riski ciddi; kutu tarafında ise tork konvertörlü tasarıma geçiş kendi başına bir kazanım.",
   "provenance": {

@@ -241,11 +241,21 @@
         "sources": [
           "asrgearbox_af40"
         ]
+      },
+      {
+        "issue": "Valf gövdesi sorunları özellikle 80.000-120.000 km arasında gelişiyor; Park'tan Drive'a ani vuruş, frende sert alt vites geçişi, gecikmeli vites takılması",
+        "onset_km": 80000,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "bobistheoilguy_af40_valf"
+        ]
       }
     ],
     "sources": [
       "insigniateam_af40",
-      "asrgearbox_af40"
+      "asrgearbox_af40",
+      "bobistheoilguy_af40_valf"
     ],
     "note": "Bilinen zayıf noktası hidrolik beyin (valf gövdesi). Aisin Geartronic ve TF-80 ile aynı aileden olup olmadığı teyit edilmeli; eğer aynıysa bu kutuların puanlarının birbirine yakın olması gerekir. İkinci kaynak (İngilizce, uzman tamirci) aynı valf gövdesi zaafını doğruluyor ve bunun çoğunlukla bozuk/eskimiş ATF veya güncellenmemiş yazılımla ilişkili olduğunu ekliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): hidrolik beyin arızası iki bağımsız kaynakta da (ikisi de C) gerçek ve tekrarlayan olarak bildiriliyor ama ~5.000 TL ile nispeten uygun maliyetli, kutu genelde onarımla ayakta kalıyor.]"
   },
@@ -866,11 +876,21 @@
         "sources": [
           "go4trans_7dct300"
         ]
+      },
+      {
+        "issue": "Kavrama muhafazasının (clutch housing) fabrika kaynağı boyunca yük altında çatlaması; şanzımanı tamamen kullanılamaz hale getiren yapısal bir tasarım kusuru",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "büyük onarım",
+        "sources": [
+          "asrgearbox_getrag_7dct300_kaynak"
+        ]
       }
     ],
     "sources": [
       "go4trans_7dct300",
-      "otopark_1_3tce_islak"
+      "otopark_1_3tce_islak",
+      "asrgearbox_getrag_7dct300_kaynak"
     ],
     "note": "Renault'nun 1.2 ve 1.3 TCe motorlu güncel modellerinde kullanılan ıslak kavramalı EDC. Dizel dCi modellerdeki kuru EDC'den yapısal olarak farklı ve daha güvenilir. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak bunu eski kuru EDC'den 'yapısal olarak daha güvenilir' diye tanımlıyor; olumlu ama tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
   },
@@ -1851,11 +1871,21 @@
         "sources": [
           "go4trans_01m"
         ]
+      },
+      {
+        "issue": "Kutunun 3. viteste sıkışıp kalarak 'limp' (güvenli) moda girmesi; Park'tan Drive'a geçişte gecikme genelde yapışkan vites solenoidine veya valf gövdesi sorununa işaret ediyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "youcanic_vw_01m_limp"
+        ]
       }
     ],
     "sources": [
       "gearboxlist_01m",
-      "go4trans_01m"
+      "go4trans_01m",
+      "youcanic_vw_01m_limp"
     ],
     "note": "Golf 4 ve Octavia 1 (Tour) kuşağının dört ileri tork konvertörlü otomatiği; 2006'ya kadar üretildi. Genel değerlendirme güvenilir yönde ve arızalar yüksek kilometrede başlıyor, ancak elektrik tarafı (selenoid tesisatı, hız sensörleri) ile lastik kaplı pistonlar yaşa bağlı olarak yıpranıyor; kaynaklar bu bileşenler için 8-10 yıllık bir ömür veriyor, yani bugün yoldaki bütün örnekler o sınırın çok üstünde. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kutu yapısal olarak sağlam ve kaynaklar 'güvenilir' diyor, sorunlar planlanabilir bileşen yenileme kalemleri; iki kaynak da C seviyesinde olduğu için bandın alt yarısında tutuldu.]"
   },
@@ -1917,10 +1947,20 @@
         "sources": [
           "donanimhaber_mazda_skyactiv_otomatik"
         ]
+      },
+      {
+        "issue": "Erken üretim örneklerde (2013-2016) tereddüt ve gecikmeli kavrama; silindir devre dışı bırakma taşıyan 2018 sonrası modellerde soğuk kalkışta sert geçişten tam arızaya uzanan sorunlar bildiriliyor",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "orta",
+        "sources": [
+          "asrgearbox_mazda_skyactiv6at"
+        ]
       }
     ],
     "sources": [
-      "donanimhaber_mazda_skyactiv_otomatik"
+      "donanimhaber_mazda_skyactiv_otomatik",
+      "asrgearbox_mazda_skyactiv6at"
     ],
     "note": "Mazda'nın kendi geliştirdiği, dışarıdan tedarik edilmeyen 6 ileri otomatik kutusu. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak (C) genel olarak 'dünyanın en iyi otomatik şanzımanlarından biri' olarak tarif ediyor, bildirilen tek şikayet erken kilitlenmeden kaynaklanan sertlik hissi; tek kaynak olduğu için 85 üstüne çıkarılmadı."
   },
@@ -1944,10 +1984,30 @@
         "sources": [
           "subaruforester_cvt_boxer"
         ]
+      },
+      {
+        "issue": "2014-2016 model yılı civarındaki bazı örneklerde valf gövdesi arızası; düşen hidrolik basınç zincirin kaymasına ve kasnakların çizilmesine yol açıyor",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "büyük onarım",
+        "sources": [
+          "motorverso_subaru_cvt_valf"
+        ]
+      },
+      {
+        "issue": "2014-2015 model yılları en riskli dönem olarak işaretleniyor; birçok arıza 96.000-177.000 km (60.000-110.000 mil) aralığında görülüyor, bazı araç gruplarında zincir kaymasına bağlı geri çağırma kampanyası yayımlandı",
+        "onset_km": 96000,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "cherishyourcar_forester_cvt"
+        ]
       }
     ],
     "sources": [
-      "subaruforester_cvt_boxer"
+      "subaruforester_cvt_boxer",
+      "motorverso_subaru_cvt_valf",
+      "cherishyourcar_forester_cvt"
     ],
     "note": "Subaru'nun boxer motor ve simetrik dört çekerle birlikte çalışacak şekilde tasarladığı kendi CVT'si. [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi): benzinli uygulamalarda sorun bildirilmemiş, yüksek tork isteyen uygulamalarda (dizel) uyum sorunları bildirilmiş; listedeki araç benzinli (2.0i) olduğu için bu risk daha düşük ama tek kaynak (C) olduğu için 65 üstüne çıkarılmadı."
   },
@@ -1970,11 +2030,21 @@
         "sources": [
           "vtecgaraj_jazz_cvt"
         ]
+      },
+      {
+        "issue": "Düşük hızda hızlanma veya yokuş tırmanışında sarsıntı/titreme; geriden ileri vitese geçişte kısa gecikme; aşırı koşullarda kutunun 'limp' moduna geçmesi",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "fitfreak_earthdreams_cvt"
+        ]
       }
     ],
     "sources": [
       "vtecgaraj_jazz_cvt",
-      "hondajazz_blogspot_cvt"
+      "hondajazz_blogspot_cvt",
+      "fitfreak_earthdreams_cvt"
     ],
     "note": "Jazz/Fit ve Civic'in bir kısmında kullanılan Honda'ya özgü CVT; Nissan'ın Xtronic'inden farklı bir tedarikçi/tasarım. Bakımı düzenli yapıldığında sorunsuz, ihmal edildiğinde (özellikle az kullanılan araçlarda) pahalı bir arızaya dönüşebiliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): iki kaynak da bakıma bağlı bir risk tarif ediyor, yapısal bir kusur değil; ikisi de C seviyesinde olduğu için üst banda çıkarılmadı.]"
   },
@@ -2048,7 +2118,8 @@
       }
     ],
     "sources": [
-      "smartcarcheck_focus_mk4_8at"
+      "smartcarcheck_focus_mk4_8at",
+      "smartcarcheck_ford_selectshift"
     ],
     "note": "Ford'un dördüncü nesil Focus'la (2018+) sorunlu Powershift kuru DCT'yi (ford-dps6, listede zaten kayıtlı) bıraktığı, Aisin kaynaklı 8 ileri tork konvertörlü kutu. Tasarım kategorisi olarak çift kavramalıdan tork konvertörlüye geçiş, kendi başına bir güvenilirlik kazanımı; erken yazılım kaynaklı vites geçiş sorunları güncellemeyle çözüldüğü için kalıcı bir zafiyet sayılmadı. [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi) bandının üst sınırında: tek kaynak (C) erken dönem sorunları bildiriyor ama bunların yazılımla giderildiğini de aynı kaynaktan doğruluyor; ikinci bağımsız kaynak bulunamadığı için 65 üstüne çıkarılmadı.]"
   },
@@ -2072,10 +2143,20 @@
         "sources": [
           "asrgearbox_9gtronic"
         ]
+      },
+      {
+        "issue": "Sarsıntılı vites geçişi veya gecikmeli kalkış; genelde 50.000-70.000 km'de başlıyor ve çoğunlukla yazılım güncellemesiyle çözülüyor",
+        "onset_km": 50000,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "motronix_mb_9gtronic"
+        ]
       }
     ],
     "sources": [
-      "asrgearbox_9gtronic"
+      "asrgearbox_9gtronic",
+      "motronix_mb_9gtronic"
     ],
     "note": "W205/W213 nesli Mercedes'lerde kullanılan 9 ileri tork konvertörlü kutu; listedeki eski 722.9 kod adlı 7G-Tronic'le (mb-7g-tronic, ABD'de toplu davaya konu oldu) karıştırılmamalı, bu tamamen farklı bir nesil. Bildirilen sorunların çoğu yazılım güncellemesiyle çözülüyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının alt sınırında: tek kaynak (C) nadir ama gerçek bir sorun örüntüsü bildiriyor, ikinci bağımsız kaynak bulunamadığı için üst banda çıkarılmadı.]"
   }

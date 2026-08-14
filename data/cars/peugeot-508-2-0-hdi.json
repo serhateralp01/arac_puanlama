@@ -33,11 +33,12 @@
     "liq": 60
   },
   "sources": [
+    "asrgearbox_af40",
+    "autoscore_dw10",
+    "bobistheoilguy_af40_valf",
     "engineexplained_dw10",
     "insigniateam_af40",
-    "trbox",
-    "autoscore_dw10",
-    "asrgearbox_af40"
+    "trbox"
   ],
   "note": "Geniş, konforlu ve uzun yolu iyi yapan bir araç. Otomatiği Aisin AF40 tork konvertörlü kutu; bu ailenin bilinen zayıf noktası hidrolik beyin (valf gövdesi), yenileme maliyeti diğer markaların şanzıman arızalarına göre nispeten uygun (~5.000 TL). Dizel motoru torklu ve ekonomik; partikül filtresi ile enjeksiyon bakımını kontrol ettirin.",
   "provenance": {

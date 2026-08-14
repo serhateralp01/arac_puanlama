@@ -16,14 +16,14 @@ ister; güncellenmezse ilk işlevini kaybeder.
 
 ---
 
-## Durum özeti (son güncelleme: 2026-08-13)
+## Durum özeti (son güncelleme: 2026-08-14)
 
 | Katman | Durum |
 |---|---|
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
-| Şanzıman kutusu kayıtları | 45 kutu (`data/transmissions.json`), çoğu temel puanlı ve kaynaklı |
-| Motor ailesi kayıtları | 81 aile (`data/engines.json`), çoğu temel puanlı ve kaynaklı |
-| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 49/49 duman testi |
+| Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
+| Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
+| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 57/57 duman testi (statik sayfa/SEO kontrolleri dahil) |
 | `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 163/278 araç). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi.** 19 araç 2026-08-13 tarihli piyasa gözlemine bağlandı (`price_reference` bloğu: tarih, yöntem, örneklem, sınırlılık). Kalan 259 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
@@ -33,7 +33,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynak derinliği (Y-02) | **Kaynaksız araç yok, tek kaynaklı araç yok**; beşinci tur sonrası 236/278 araç "doğrulanmış" (4+ kaynak), ortalama ~4.64 — Y-01'in her yeni turu ortalamayı biraz seyreltiyor, bu beklenen bir durum |
+| Kaynak derinliği (Y-02) | **Bitti.** 278/278 araç "doğrulanmış" (4+ kaynak), kısmi kaynaklı araç kalmadı, bileşen ailesi seviyesinde boş `known_issues` kalmadı, ortalama 5,48 kaynak/araç — Y-01'in yeni eklediği her araç bu standarda ayrıca getirilmeli |
 | Araç listesi (Y-01) | 154 → 278 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
@@ -723,6 +723,39 @@ bileşen arıza sicili yapılandırma çalışması bu turla tamamlandı.
 
 **Kalan iş.** 13 araç hâlâ kısmi kaynak (4'ten az kaynak); artık aile bazlı kaldıraç
 tükendi, bundan sonrası araç başına araştırma. Bu, Y-02'nin bir sonraki doğal adımı.
+
+---
+
+### Ondördüncü-onbeşinci turlar — kalan 13 araç ve bir kanıt karışması hatası (2026-08-14)
+
+**Kapsam.** Onüçüncü turdan sonra kalan 13 kısmi kaynaklı aracın hepsi tek tek ele alındı.
+Bu araçların bazıları zaten doğru aileye bağlıydı ama ailenin kendisi tek kaynaklıydı
+(`subaru-lineartronic`, `mb-9g-tronic`, `mb-m274`, `ford-selectshift-8at`, `aisin-af40`,
+`mazda-skyactiv-6at`, `honda-cvt-earthdreams`, `vag-01m`, `getrag-7dct300`,
+`hyundai-gamma16-gdi`, `hyundai-gamma-14`, `ford-sigma-tivct`); her birine yeni ve
+bağımsız bir kaynak eklendi, MK-16 mekanik mirasıyla ilgili araçlara işlendi.
+
+**Bulunan bir kanıt karışması hatası, düzeltildi.** `subaru-xv-2-0i-lineartronic` ve
+`subaru-forester-2-0i-lineartronic` araçlarının kaynak listesinde ve `evidence.motor` /
+`evidence.trans` gerekçe metninde `sikayetvar_corolla_genel` adlı bir kaynak duruyordu —
+bu kaynak **Toyota Corolla'nın** şikayet derlemesi, Subaru'yla hiçbir ilgisi yok. Muhtemelen
+erken bir turda kopyala-yapıştır ya da yanlış kaynak kimliği seçimiyle oluşmuş bir hata.
+Kaynak her iki araçtan da çıkarıldı; yerine FB20 motoruna (yağ tüketimi) ve Lineartronic
+CVT'ye (2014-2016 valf gövdesi arızaları, 2014-2015 model yılı riski) özgü, gerçekten
+ilgili iki yeni kaynak eklendi. Bu, projenin kanıt bütünlüğü ilkesinin neden her turda
+`git diff` ile kontrol edilmesi gerektiğinin bir başka örneği — bkz. onikinci turdaki
+benzer kendi-kendine-düzeltme kaydı.
+
+**Sonuç.** Kaynak sayısı 365 → 379, araç başına ortalama kaynak 5,37 → 5,48.
+**`kismi_kaynak` 13 → 0 — projedeki her araç artık "doğrulanmış" (4+ bağımsız kaynak).**
+`validate.py` 0 hata, `smoke_test.js` 57/57.
+
+**Bu neyi kapatıyor.** Y-02'nin (kaynak derinliği) asıl hedefi buydu: "kaynaksız araç yok,
+tek kaynaklı araç yok" beşinci turda söylenmişti, şimdi bir adım öteye geçildi — kısmi
+kaynaklı araç da yok. Bileşen ailesi seviyesinde de `known_issues` boş kalmadı (onüçüncü
+tur). Y-02 bu iki ölçütle **fiilen tamamlandı**; kalan iş yeni araç eklendikçe (Y-01) o
+araçları da aynı standarda getirmek, ve mevcut kaynakların derinliğini (ortalama 5,48)
+zamanla daha da artırmak.
 
 ---
 

@@ -31,11 +31,12 @@
     "liq": 50
   },
   "sources": [
+    "asrgearbox_af40",
+    "autoscore_dw10",
+    "bobistheoilguy_af40_valf",
     "engineexplained_dw10",
     "insigniateam_af40",
-    "trbox",
-    "autoscore_dw10",
-    "asrgearbox_af40"
+    "trbox"
   ],
   "note": "Hidropnömatik süspansiyonu sayesinde konforu bu listenin en iyilerinden. Otomatiği Aisin AF40 tork konvertörlü kutu; bu ailenin bilinen zayıf noktası hidrolik beyin (valf gövdesi), belirtileri vuruntu, boşa düşme ve takılı kalma, yenileme maliyeti diğer markaların şanzıman arızalarına göre nispeten uygun (~5.000 TL). Buna karşılık süspansiyon sisteminin bakımı özel bilgi istiyor ve ustası her yerde bulunmuyor.",
   "provenance": {

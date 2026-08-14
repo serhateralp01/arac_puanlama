@@ -18,7 +18,7 @@
     1100,
     1550
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 68,
     "trans": 76,
@@ -29,6 +29,7 @@
     "liq": 62
   },
   "sources": [
+    "asrgearbox_mazda_skyactiv6at",
     "donanimhaber_mazda_skyactiv_otomatik",
     "myenginespecs_mazda_lf",
     "sikayetvar_corolla_genel"

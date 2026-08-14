@@ -22,7 +22,7 @@
     480,
     700
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 70,
     "trans": 66,
@@ -35,7 +35,8 @@
   "sources": [
     "curbsideclassic_ea827",
     "gearboxlist_01m",
-    "go4trans_01m"
+    "go4trans_01m",
+    "youcanic_vw_01m_limp"
   ],
   "note": "VW Golf 4 ile aynı platformu paylaşan, çok uzun süre üretilmiş dayanıklı bir sedan/hatchback. Otomatiği VAG'ın 01M kodlu dört ileri tork konvertörlü kutusu; kaynaklar bu kutuyu genel olarak güvenilir buluyor ve arızaların yüksek kilometrede başladığını söylüyor. Buna karşılık kutunun elektrik tarafı (selenoid kablo tesisatı, hız sensörleri) ve lastik kaplı pistonları yaşa bağlı olarak yıpranıyor; bu bileşenler için verilen 8-10 yıllık ömür, bugün yoldaki bütün örneklerin çok gerisinde kaldı. Yani bu araçta şanzımanın durumu üretim kalitesinden çok o örneğe kadar yapılmış bakımın kaydına bağlı; alırken kutunun elden geçirilip geçirilmediğini sorun.",
   "provenance": {

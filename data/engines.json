@@ -786,10 +786,20 @@
         "sources": [
           "engineexplained_sigma_tivct"
         ]
+      },
+      {
+        "issue": "Yakıt pompasının basıncı uzun süre koruyamayıp sık arızalanması; termostat muhafazası veya su pompası sızıntısına bağlı aşırı ısınma riski",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "myenginespecs_ford_tivct"
+        ]
       }
     ],
     "sources": [
-      "engineexplained_sigma_tivct"
+      "engineexplained_sigma_tivct",
+      "myenginespecs_ford_tivct"
     ],
     "note": "Focus 3'ün 1.6 atmosferik benzinlisi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): 'oldukça güvenilir' kabul ediliyor, kayış gergisi arızası nadir ama ciddi; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
@@ -1248,10 +1258,20 @@
         "sources": [
           "engineexplained_g4fa"
         ]
+      },
+      {
+        "issue": "Alternatör kayışı gerginlik ayarlayıcısının zayıf olması nedeniyle ıslık sesi; motor ısındıktan sonra kaybolan triger zinciri sesi arıza değil beklenen bir karakteristik",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "slashgear_gamma14"
+        ]
       }
     ],
     "sources": [
-      "engineexplained_g4fa"
+      "engineexplained_g4fa",
+      "slashgear_gamma14"
     ],
     "note": "Rio ve i20'nin 1.4 MPI benzinlisi (doğrudan enjeksiyonsuz). [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının üst sınırında: kaynak 80/100 güvenilirlik notu veriyor ama aynı zamanda silindir bloğunun tamir edilebilir olmadığını ve üreticinin yalnızca 100.000 mil garanti verdiğini 'modern standartlara göre zayıf' diye eleştiriyor; bu çekince puanı MPI kardeşi gamma16-mpi'nin altında tuttu.]"
   },
@@ -3199,10 +3219,20 @@
         "sources": [
           "uscarsnew_gamma_mpi_gdi"
         ]
+      },
+      {
+        "issue": "Silindir kapağı contasından yaklaşık 30.000-40.000 km'de yağ sızıntısı başlaması; karbon birikimi, enjektör arızaları ve rölanti düzensizliği de bildiriliyor",
+        "onset_km": 30000,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "8020automotive_gamma_gdi"
+        ]
       }
     ],
     "sources": [
-      "uscarsnew_gamma_mpi_gdi"
+      "uscarsnew_gamma_mpi_gdi",
+      "8020automotive_gamma_gdi"
     ],
     "revision_sensitivity": "2019 sonrası üretilen GDI motorlar bu sorunların bir kısmını gideriyor; listedeki hyundai-i30-1-6-gdi (2011-2016 üretim) bu iyileşmeden önceki döneme ait.",
     "note": "Hyundai i30 1.6 GDi'nin kullandığı doğrudan enjeksiyonlu sürüm. Aynı dönemde Hyundai/Kia'nın Theta II 2.0/2.4 GDI (toplu dava konusu biyel kolu yatağı arızası) ve Nu 2.0 GDI aileleriyle aynı kök nedeni paylaştığı iddia ediliyor. Bu araç zaten aynı ailedeki MPI kardeşlerinden (80-82) düşük puanlıydı (72); araştırma bunun gerçek bir donanım farkına dayandığını doğruladı. [base_score gerekçesi: 35-49 (bilinen risk): karbon birikimi yaygın ve GDI ailesinin paylaştığı kök neden ciddi; tek kaynağa (C) dayandığı için 0-34 bandına düşürülmedi.]"
@@ -3625,10 +3655,20 @@
         "sources": [
           "subaruforester_cvt_boxer"
         ]
+      },
+      {
+        "issue": "İlk versiyonlarda (2010-2013) yaygın ve iyi bilinen yüksek yağ tüketimi sorunu; kök neden piston segmanları veya deforme silindir bloğu olabiliyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_fb20_yag"
+        ]
       }
     ],
     "sources": [
-      "subaruforester_cvt_boxer"
+      "subaruforester_cvt_boxer",
+      "engineexplained_fb20_yag"
     ],
     "note": "Subaru'nun simetrik dört çekere standart eşlik eden yatay (boxer) motoru; listede ilk kez yer alan bir marka ve mimari. [base_score gerekçesi: 50-64 (yönetilebilir bakım kalemi): yağ tüketimi yaygın bildiriliyor ama katastrofik bir arıza değil, düzenli kontrolle yönetilebiliyor; tek kaynak (C) olduğu için 65 üstüne çıkarılmadı."
   },
@@ -4028,10 +4068,20 @@
         "sources": [
           "mercedesassistance_m274"
         ]
+      },
+      {
+        "issue": "Triger zinciri gerginliği ve kam mili ayarlayıcısı aşınması; beklenen zincir ömrü yaklaşık 128.000 km (±32.000 km), ilk belirti soğuk kalkışta metalik takırtı sesi",
+        "onset_km": 128000,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "myenginespecs_m274_zincir"
+        ]
       }
     ],
     "sources": [
-      "mercedesassistance_m274"
+      "mercedesassistance_m274",
+      "myenginespecs_m274_zincir"
     ],
     "note": "W205 C-Class ve W213 E-Class'ta kullanılan 2.0 turbo; listedeki M270'in (1.6 turbo) büyük kardeşi, benzer triger zinciri zafiyetini taşıyor. Düzenli bakımla 300.000 km'ye ulaşılabildiği bildiriliyor. [base_score gerekçesi: 50-64 (orta risk): tek kaynak (C) tekrarlayan ama kullanım biçimine bağlı bir risk örüntüsü bildiriyor; M270'le aynı bandın üst tarafına yerleştirildi çünkü kaynak motoru rakiplerine göre daha güvenilir olarak tanımlıyor.]"
   },

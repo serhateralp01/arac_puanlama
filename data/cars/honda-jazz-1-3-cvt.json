@@ -21,7 +21,7 @@
     620,
     900
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 56,
@@ -33,6 +33,7 @@
   },
   "sources": [
     "automaniac_l13z1",
+    "fitfreak_earthdreams_cvt",
     "hondajazz_blogspot_cvt",
     "vtecgaraj_jazz_cvt"
   ],

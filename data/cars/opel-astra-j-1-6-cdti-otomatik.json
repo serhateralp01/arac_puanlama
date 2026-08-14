@@ -19,7 +19,7 @@
     620,
     900
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 44,
     "trans": 58,
@@ -30,9 +30,10 @@
     "liq": 70
   },
   "sources": [
+    "asrgearbox_af40",
+    "bobistheoilguy_af40_valf",
     "insigniateam_af40",
-    "stargarage_a16dth_chain",
-    "asrgearbox_af40"
+    "stargarage_a16dth_chain"
   ],
   "note": "Astra J'nin 1.6 CDTI dizel-otomatik kombinasyonu; motor ve kutu ailesi listede zaten kayıtlı.",
   "provenance": {

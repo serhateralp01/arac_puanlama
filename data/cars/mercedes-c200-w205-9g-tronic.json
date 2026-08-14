@@ -21,7 +21,7 @@
     1400,
     2000
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 58,
     "trans": 68,
@@ -33,7 +33,9 @@
   },
   "sources": [
     "asrgearbox_9gtronic",
-    "mercedesassistance_m274"
+    "mercedesassistance_m274",
+    "motronix_mb_9gtronic",
+    "myenginespecs_m274_zincir"
   ],
   "note": "Türkiye'de en çok aranan ikinci el Mercedes nesillerinden W205'in giriş seviyesi benzinlisi. Motor (M274, bu turda yeni açıldı) listedeki M270'in (A/B Serisi 1.6 turbo) büyük kardeşi, benzer triger zinciri zafiyetini taşıyor. Kutu (9G-Tronic, bu turda yeni açıldı) listedeki eski 722.9 kod adlı 7G-Tronic'ten tamamen farklı bir nesil; o kutuyu düşük puanlandıran toplu dava bu kutu için geçerli değil.",
   "provenance": {

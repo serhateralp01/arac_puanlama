@@ -21,7 +21,7 @@
     420,
     660
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 70,
     "trans": 30,
@@ -33,6 +33,7 @@
   },
   "sources": [
     "engineexplained_sigma_tivct",
+    "myenginespecs_ford_tivct",
     "trbox",
     "vargas_ford_dps6_uzlasma"
   ],

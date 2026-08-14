@@ -4676,5 +4676,159 @@
     "accessed": "2026-08-14",
     "language": "en",
     "quotes": []
+  },
+  "engineexplained_fb20_yag": {
+    "id": "engineexplained_fb20_yag",
+    "claim": "Subaru FB20 motorunun ilk versiyonlarında (2010-2013) yaygın ve iyi bilinen bir yüksek yağ tüketimi sorunu olduğu, kök nedenin piston segmanları veya deforme olmuş silindir bloğu olabildiği",
+    "publisher": "EngineExplained",
+    "url": "https://www.engineexplained.com/subaru-fb20-2-0-l-engine-review-and-insights/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "motorverso_subaru_cvt_valf": {
+    "id": "motorverso_subaru_cvt_valf",
+    "claim": "Subaru Lineartronic CVT'de 2014-2016 model yılı civarındaki bazı örneklerde valf gövdesi arızası bildirildiği; düşen hidrolik basıncın (genelde bozulmuş yağdan) zincirin kaymasına, kasnakların çizilmesine ve yük altında uğultu/kaymaya yol açtığı; 2015 sonrası nesillerin daha iyi soğutma, daha dayanıklı kavrama paketleri ve gelişmiş yazılımla belirgin biçimde iyileştiği",
+    "publisher": "MotorVerso",
+    "url": "https://www.motorverso.com/subaru-cvt-problems/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "motronix_mb_9gtronic": {
+    "id": "motronix_mb_9gtronic",
+    "claim": "Mercedes 9G-Tronic'te sarsıntılı vites geçişi veya gecikmeli kalkışın genelde 50.000-70.000 km'de başladığı ve çoğunlukla bir yazılım güncellemesiyle çözülebildiği, ama sürmesi durumunda yağ değişimi veya mekatronik kontrolü gerekebildiği; birinci-ikinci vites arasında soğuk kalkışlarda hissedilen bir sarsıntının valf gövdesi kalibrasyonu, yapışkan solenoid veya düşük yağ basıncından kaynaklanabildiği; Mercedes'in yağı 'ömür boyu' olarak pazarladığı ama gerçek kullanımda genelde daha erken servis gerektirdiği",
+    "publisher": "Motronix",
+    "url": "https://motronix.net/blog/mercedes-9g-tronic-transmission-problems-service-guide/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "myenginespecs_m274_zincir": {
+    "id": "myenginespecs_m274_zincir",
+    "claim": "Mercedes M274 motorunda triger zinciri gerginliğinin ve kam mili ayarlayıcısı aşınmasının en sık ve en kritik sorunlardan olduğu, zincirin beklenen ömrünün yaklaşık 128.000 km (±32.000 km) civarında olduğu, ilk belirtinin genelde soğuk kalkışta metalik takırtı sesi olduğu ve motorun ayrıca aşırı yağ tüketimine eğilimli olduğu",
+    "publisher": "MyEngineSpecs",
+    "url": "https://myenginespecs.com/mercedes/mercedes-m274-engine-problems-key-issues-and-solutions/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "smartcarcheck_ford_selectshift": {
+    "id": "smartcarcheck_ford_selectshift",
+    "claim": "Ford'un 1.0 EcoBoost ile eşleştirdiği SelectShift 8 ileri klasik tork konvertörlü otomatiğin, 2.0 modellerdeki kuru kavramalı PowerShift'in sarsıntı sorunlarına sahip olmadığı ve DCT'siz bir otomatik isteyenler için dengeli bir orta yol sunduğu",
+    "publisher": "SmartCarCheck",
+    "url": "https://www.fordownersclub.com/forums/topic/136696-8-speed-auto-box-is-this-normal/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "bobistheoilguy_af40_valf": {
+    "id": "bobistheoilguy_af40_valf",
+    "claim": "Aisin AF40-6 şanzımanında valf gövdesi sorunlarının özellikle 80.000-120.000 km arasında geliştiği, belirtilerin Park'tan Drive'a geçişte ani vuruş, frende sert alt vites geçişi ve gecikmeli vites takılmasını içerdiği, valf gövdesi onarım/değişim maliyetinin 900-1.200 avro olduğu",
+    "publisher": "BobIsTheOilGuy Forum",
+    "url": "https://bobistheoilguy.com/forums/threads/troubleshoot-aisin-af40-6-popping-and-knocking-shortly-after-flush-with-amsoil-ss-lv-atf.355890/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "asrgearbox_mazda_skyactiv6at": {
+    "id": "asrgearbox_mazda_skyactiv6at",
+    "claim": "Mazda'nın 6 ileri Skyactiv-Drive otomatiğinde erken üretim örneklerde (2013-2016) genelde tereddüt ve gecikmeli kavrama görüldüğü, silindir devre dışı bırakma (cylinder deactivation) teknolojisi taşıyan daha yeni modellerde (2018 sonrası) soğuk kalkışlarda sert geçiş ve tork konvertörü aşınmasından tam şanzıman arızasına kadar uzanan sorunlar bildirildiği, ama genel olarak kutunun 150.000 milin üzerini sorunsuz görebildiği",
+    "publisher": "ASR Gearbox Repairs",
+    "url": "https://www.asrgearboxrepairs.co.uk/6-speed-skyactiv-drive-mazda/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "fitfreak_earthdreams_cvt": {
+    "id": "fitfreak_earthdreams_cvt",
+    "claim": "Honda Earth Dreams CVT'de düşük hızda hızlanma veya yokuş tırmanışında araçta sarsıntı/titreme bildirildiği, geriden ileri vitese geçişte kısa bir gecikme yaşanabildiği ve aşırı koşullarda (çekiş, sıcak iklim) kutunun kendini korumak için 'limp' moduna geçebildiği; Honda'nın sarsıntı sorununu gidermek için yazılım güncellemeleri yayımladığı ve düzenli CVT yağı değişimini önerdiği",
+    "publisher": "FitFreak Forum",
+    "url": "https://www.fitfreak.net/forums/3rd-generation-2015/82825-earth-dreams-di-reliability.html",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "youcanic_vw_01m_limp": {
+    "id": "youcanic_vw_01m_limp",
+    "claim": "VW/Skoda 01M şanzımanında en sık görülen arızanın kutunun 3. viteste sıkışıp kalarak 'limp' (güvenli) moda girmesi olduğu, Park'tan Drive'a geçişte gecikmenin genelde yapışkan bir vites solenoidine veya valf gövdesi sorununa işaret ettiği ve yolcu ayak boşluğuna sızan suyun halı altındaki şanzıman kontrol ünitesinde kısa devreye yol açabildiği",
+    "publisher": "YouCanic",
+    "url": "https://www.youcanic.com/skoda-transmission-problems-causes/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "asrgearbox_getrag_7dct300_kaynak": {
+    "id": "asrgearbox_getrag_7dct300_kaynak",
+    "claim": "Getrag 7DCT300 ıslak çift kavramalı şanzımanın ilk üretim yıllarında sarsıntı şikayetiyle bilindiği ama bunun firmware güncellemeleriyle büyük ölçüde giderildiği; kutunun kavrama muhafazasında (clutch housing) fabrika kaynağı boyunca yük altında çatlama gibi yapısal bir tasarım kusuru taşıdığı ve bu çatlamanın şanzımanı tamamen kullanılamaz hale getirdiği; trafikte sürünme hızında hafif tereddüt/sarsıntılı geçiş ve plastik yağ karteri çevresinde sık buğulanma bildirildiği",
+    "publisher": "ASR Gearbox Repairs / automonger",
+    "url": "https://www.asrgearboxrepairs.co.uk/7-speed-dct-renault/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "8020automotive_gamma_gdi": {
+    "id": "8020automotive_gamma_gdi",
+    "claim": "Hyundai/Kia Gamma 1.6 GDI motorunda silindir kapağı contasından 30.000-40.000 km civarında yağ sızıntısı başladığı, karbon birikimi, enjektör arızaları ve rölanti düzensizliğinin de belgelenmiş sorunlar arasında olduğu; motorun genel olarak ciddi bir tasarım kusuru taşımadığı ve düzenli bakımla 150.000 milin üzerini sorunsuz görebildiği",
+    "publisher": "8020 Automotive",
+    "url": "https://8020automotive.com/hyundai-1-6-mpi-gdi-engine-problems/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "slashgear_gamma14": {
+    "id": "slashgear_gamma14",
+    "claim": "Hyundai Gamma 1.4L motorunun Hyundai'nin bugüne dek ürettiği en güvenilir motorlar arasında sayıldığı; motor ısındıktan sonra kaybolan bir vuruntu sesinin triger zinciri sesi olduğu, 3.000-3.500 devirde bildirilen titreşimin Hyundai-Kia tarafından motorun orta devirlerde rezonansa girmesine bağlı bir tasarım özelliği (arıza değil) olarak açıklandığı ve alternatör kayışı gerginlik ayarlayıcısının zayıf olması nedeniyle ıslık sesi yapabildiği",
+    "publisher": "SlashGear",
+    "url": "https://www.slashgear.com/1621372/common-problems-hyundai-gamma-1-4l-engine-which-models-have/",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "myenginespecs_ford_tivct": {
+    "id": "myenginespecs_ford_tivct",
+    "claim": "Ford Sigma Ti-VCT 1.6 motorunda yakıt pompasının basıncı uzun süre koruyamayıp sık arızalanmasının en sık bildirilen sorunlardan biri olduğu, termostat muhafazası veya su pompası sızıntısına bağlı aşırı ısınma, kontak (timing) kayışı arızası riskinin ağır motor hasarına yol açabileceği ve aşınmış conta/keçelerden kaynaklanan yağ sızıntılarının yaygın olduğu",
+    "publisher": "MyEngineSpecs",
+    "url": "https://myenginespecs.com/ford/ford-1-6-ti-vct-engine-common-problems-and-issues/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "cherishyourcar_forester_cvt": {
+    "id": "cherishyourcar_forester_cvt",
+    "claim": "Subaru'nun Lineartronic CVT'ye geçtiği 2014 model yılından itibaren arıza örüntüsünün aşınmış kavrama paketlerinden basınç kaybı, solenoid arızaları ve zincir kaymasına kaydığı; 2014 ve 2015 model yıllarının en riskli olarak işaretlendiği ve birçok arızanın 96.000-177.000 km (60.000-110.000 mil) aralığında görüldüğü; Subaru'nun belirli CVT gruplarında garanti uzatmaları ve sınırlı bir araç grubunda zincir kaymasına bağlı geri çağırma kampanyaları yayımladığı",
+    "publisher": "Cherish Your Car",
+    "url": "https://www.cherishyourcar.com/subaru-forester-transmission-problems/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
   }
 }

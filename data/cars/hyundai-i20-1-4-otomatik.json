@@ -21,7 +21,7 @@
     500,
     780
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 66,
     "trans": 72,
@@ -34,7 +34,8 @@
   "sources": [
     "elantraxd_forum_a4af3",
     "engineexplained_g4fa",
-    "go4trans_a4af3"
+    "go4trans_a4af3",
+    "slashgear_gamma14"
   ],
   "note": "i20'nin ikinci nesli; dört ileri tork konvertörlü kutusu basit ve dayanıklı, buna karşılık vites sayısı düşük.",
   "provenance": {

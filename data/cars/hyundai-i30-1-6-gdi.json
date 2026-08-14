@@ -33,6 +33,7 @@
     "liq": 76
   },
   "sources": [
+    "8020automotive_gamma_gdi",
     "gearsmag_hyundai_a6",
     "hyundaiforums_auto",
     "teknikotomatik_hyundai_6at",
