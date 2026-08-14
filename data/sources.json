@@ -4588,5 +4588,93 @@
     "accessed": "2026-08-14",
     "language": "en",
     "quotes": []
+  },
+  "carproblemzoo_sx4_4at": {
+    "id": "carproblemzoo_sx4_4at",
+    "claim": "Suzuki SX4'te otomatik şanzımanla ilgili sahip şikayetlerinin şanzımandan gelen anormal ses, hızlanamama veya düzgün vites geçmeme ve sürüş sırasında tereddüt (hesitation) etrafında toplandığı",
+    "publisher": "CarProblemZoo",
+    "url": "https://www.carproblemzoo.com/suzuki/sx4/automatic-transmission-problems.php",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "asrgearbox_mb_7gdct": {
+    "id": "asrgearbox_mb_7gdct",
+    "claim": "Mercedes 7G-DCT'de sarsıntı ve kaymanın en sık nedeninin kavrama aşınması, bozuk mekatronik ve bozulmuş yağ olduğu; A180d/A200d dizel modellerde kavramaların 70.000-100.000 km'de aşındığı, arızalı kutuların yüzde 70'inden fazlasının önceki 100.000 km'de hiç yağ değişimi görmediği, P/N/R'ye geçişte soğuk havada şiddetlenen 'gümbürtü' sesi bildirildiği ve orta-yüksek torkta 2-3 vites geçişinde sarsıntı görüldüğü",
+    "publisher": "ASR Gearbox Repairs",
+    "url": "https://www.asrgearboxrepairs.co.uk/7g-dct-mercedes-dual-clutch/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "transmissionanswers_mb_7gdct": {
+    "id": "transmissionanswers_mb_7gdct",
+    "claim": "Mercedes 7G-DCT'nin yokuşta kalkışta ileri hareketi geciktirebildiği, bunun özellikle yokuş kalkış desteği (hill start assist) bulunan GLA ve A-Class gibi modellerde güvenlik riski oluşturabildiği",
+    "publisher": "TransmissionAnswers",
+    "url": "https://transmissionanswers.com/mercedes-7g-dct-transmission-problems-and-solutions/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "mercedesmedic_4gtronic": {
+    "id": "mercedesmedic_4gtronic",
+    "claim": "W202'nin 4G-Tronic şanzımanının Mercedes'in bugüne dek ürettiği en güvenilir şanzımanlardan biri kabul edildiği (bazı örnekler 300.000 milin üzerinde), ancak valf gövdesi ve yağ pompası aşınmasına bağlı vites takılma/sıkışma belirtilerinin ilk kez 100.000 km civarında görülebildiği ve ciddi sorunların genelde 200.000 km sonrasında ortaya çıktığı",
+    "publisher": "MB Medic",
+    "url": "https://www.mercedesmedic.com/722-9-7g-tronic-automatic-transmission-problems-solutions/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "almeraownersclub_re4f0x": {
+    "id": "almeraownersclub_re4f0x",
+    "claim": "Nissan Almera/Primera'da kullanılan Jatco şanzımanın 60.000 km'de özel ATF yağıyla düzenli bakım gerektirdiği, kirlenmiş yağın valf tıkanıklığına yol açtığı ve en sık bildirilen şanzıman arızasının yaklaşık 233.000 km'de (145.000 mil) görüldüğü",
+    "publisher": "Almera Owners Club Forum / CarComplaints",
+    "url": "https://www.almeraownersclub.com/threads/automatic-gearbox-help-needed.9921/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "mgrover_jf506e_reverse": {
+    "id": "mgrover_jf506e_reverse",
+    "claim": "Rover 75'in Jatco JF506E şanzımanında geri vitese geçmeme arızasının en sık bildirilen sorunlardan biri olduğu (sürekli, aralıklı ya da yalnızca soğukken ortaya çıkabiliyor), motor yüksek çalışma sıcaklığına ulaştığında sert vites geçişi bildirildiği ve erken üretim araçlarda piston/silindir çatlaması görüldüğü (Jatco'nun değiştirilmiş bir yedek parçası mevcut)",
+    "publisher": "MG-Rover.org Forum",
+    "url": "https://www.mg-rover.org/threads/rover-75-1-8-auto-gear-box-jatco-problems.216539/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "asrgearbox_kia_picanto": {
+    "id": "asrgearbox_kia_picanto",
+    "claim": "Kia Picanto'nun A4CF 4 ileri otomatik şanzımanında 2., 3. ve 4. vitese geçişte kayma/gecikme (shift flare) bildirildiği, geri vitese geçişte uzun bir duraksamayı takip eden küt bir sesin soğukken daha belirgin olduğu, yeni model bazı Picanto'larda 4. vitese geçmeme sorununun motor devrini artırıp aşırı ısınma riski taşıdığı ve kök nedenin sızdıran solenoidlere bağlı valf gövdesi basınç düşüşü olduğu",
+    "publisher": "ASR Gearbox Repairs",
+    "url": "https://www.asrgearboxrepairs.co.uk/kia-picanto-common-gearbox-problems/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "alfabb_qsystem_karsilastirma": {
+    "id": "alfabb_qsystem_karsilastirma",
+    "claim": "Alfa Romeo 156'da Q-System otomatik şanzımanın, aynı dönemin Selespeed yarı-otomatiğine kıyasla belirgin biçimde daha güvenilir kabul edildiği; sahiplerin sıkça 'sorunsuz, düzgün çalışan bir kutu' olarak tanımladığı",
+    "publisher": "AlfaBB Forum",
+    "url": "https://www.alfabb.com/threads/alfa-156-q-system.53788/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
   }
 }

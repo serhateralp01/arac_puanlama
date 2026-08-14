@@ -22,7 +22,7 @@
     450,
     680
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 56,
     "trans": 66,
@@ -34,6 +34,7 @@
   },
   "sources": [
     "alfabb_156_qsystem",
+    "alfabb_qsystem_karsilastirma",
     "enginecrux_alfa_twinspark",
     "whatcar_alfa156_reliability"
   ],

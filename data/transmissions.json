@@ -414,9 +414,20 @@
     "gears": 4,
     "base_score": 78,
     "maintenance": null,
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "Valf gövdesi ve yağ pompası aşınmasına bağlı vites takılma/sıkışma; ilk belirtiler yaklaşık 100.000 km'de, ciddi sorunlar genelde 200.000 km sonrasında",
+        "onset_km": 100000,
+        "frequency": "düşük",
+        "severity": "orta",
+        "sources": [
+          "mercedesmedic_4gtronic"
+        ]
+      }
+    ],
     "sources": [
-      "gearboxlist_722_3"
+      "gearboxlist_722_3",
+      "mercedesmedic_4gtronic"
     ],
     "note": "W202 C-Class'ta kullanılan basit 4 ileri tork konvertörlü kutu (722.3). Elektronik kontrolün az olduğu, hidrolik açıdan sade tasarımı sayesinde markanın en dayanıklı otomatiklerinden sayılıyor; yüksek kilometrede valf gövdesinin kavrama artığıyla tıkanabildiği ama bunun basit bir yıkamayla giderilebildiği bildiriliyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı, ama tarif edilen sorunlar münferit ve düşük ağırlıklı.]"
   },
@@ -960,9 +971,48 @@
     "gears": 7,
     "base_score": 42,
     "maintenance": null,
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "Kavrama aşınması, bozuk mekatronik ve bozulmuş yağa bağlı sarsıntı/kayma; A180d/A200d dizellerde kavramaların 70.000-100.000 km'de aşınması, arızalı kutuların yüzde 70'inden fazlasının önceki 100.000 km'de hiç yağ değişimi görmemesi",
+        "onset_km": 70000,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "asrgearbox_mb_7gdct"
+        ]
+      },
+      {
+        "issue": "P/N/R'ye geçişte soğuk havada şiddetlenen belirgin 'gümbürtü' sesi/darbe",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "asrgearbox_mb_7gdct"
+        ]
+      },
+      {
+        "issue": "Orta-yüksek torkta 2. ile 3. vites arasında sarsıntı",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "asrgearbox_mb_7gdct"
+        ]
+      },
+      {
+        "issue": "Yokuşta kalkışta ileri harekette gecikme; yokuş kalkış desteği (hill start assist) bulunan modellerde güvenlik riski taşıyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "transmissionanswers_mb_7gdct"
+        ]
+      }
+    ],
     "sources": [
-      "trbox"
+      "trbox",
+      "asrgearbox_mb_7gdct",
+      "transmissionanswers_mb_7gdct"
     ],
     "note": "Önden çekişli A ve B serisinde kullanılıyor. Arkadan itişli Mercedeslerdeki tork konvertörlü 7G-Tronic ile karıştırılmamalı. [base_score gerekçesi: 35-49: box'a özgü bir arıza kaydı yok, yalnızca 'kuru DCT' tipi genel riskine dayanan temkinli bir varsayılan; box'a özel kanıt toplanınca güncellenmeli.]"
   },
@@ -1382,10 +1432,30 @@
     "gears": 4,
     "base_score": 68,
     "maintenance": null,
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "Kirlenmiş şanzıman yağına bağlı valf tıkanıklığı; kayma, sarsıntı ve tereddüt",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "almeraownersclub_re4f0x"
+        ]
+      },
+      {
+        "issue": "En sık bildirilen şanzıman arızası yaklaşık 233.000 km'de (145.000 mil) görülüyor",
+        "onset_km": 233000,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "almeraownersclub_re4f0x"
+        ]
+      }
+    ],
     "sources": [
       "go4trans_re4f03a",
-      "transmissiondigest_re4f04b"
+      "transmissiondigest_re4f04b",
+      "almeraownersclub_re4f0x"
     ],
     "note": "Nissan Almera ve Primera gibi düşük torklu modellerde kullanılan 4 ileri kutu. Sektörde dayanıklılık/maliyet dengesi açısından Jatco'nun başarılı kutularından sayılıyor. Yüksek torklu motorlarla eşleştirildiğinde kilitleme mekanizmasının aşırı yıprandığı bildiriliyor, ama listedeki uygulamalar (1.6-2.0 benzinli) bu sınırın altında kalıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynaklar kutuyu güvenilir olarak niteliyor, bilinen risk yalnızca listedeki araçları kapsamayan yüksek tork eşleşmelerinde.]"
   },
@@ -1400,10 +1470,39 @@
     "gears": 5,
     "base_score": 44,
     "maintenance": "Üretici ömür boyu yağ dese de 145-160 bin km'de yağ değişimi öneriliyor; yalnızca kutunun kendi katkı paketini taşıyan yağ kullanılmalı.",
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "Geri vitese geçmeme arızası; sürekli, aralıklı ya da yalnızca soğukken ortaya çıkabiliyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "mgrover_jf506e_reverse"
+        ]
+      },
+      {
+        "issue": "Motor yüksek çalışma sıcaklığına ulaştığında sert vites geçişi; bir sonraki vitese geçmeyi reddedip yüksek devre çıkması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "mgrover_jf506e_reverse"
+        ]
+      },
+      {
+        "issue": "Erken üretim Rover 75'lerde piston/silindir çatlaması; Jatco'nun değiştirilmiş bir yedek parçasıyla sökülmeden onarılabiliyor",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "büyük onarım",
+        "sources": [
+          "mgrover_jf506e_reverse"
+        ]
+      }
+    ],
     "sources": [
       "mgrover_rover75_jatco",
-      "honestjohn_rover75_auto"
+      "honestjohn_rover75_auto",
+      "mgrover_jf506e_reverse"
     ],
     "note": "Rover 75, Land Rover Freelander ve Jaguar X-Type'ın paylaştığı 5 ileri kutu. Sarsıntılı vites geçişi, sensör kaynaklı arıza kodları, geri vites arızası ve bazı örneklerde tüm vitelerde güç kaybı bildiriliyor. Bu araçların Türkiye'de zaten sınırlı olan servis ağı, arıza durumunda çözümü ayrıca zorlaştırıyor. [base_score gerekçesi: 35-49 (bilinen risk): iki kaynak da tekrarlayan ve ciddi (tam güç kaybına varabilen) arızaları doğruluyor.]"
   },
@@ -1581,10 +1680,30 @@
     "gears": 4,
     "base_score": 74,
     "maintenance": null,
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "Şanzımandan gelen anormal ses ile birlikte hızlanamama veya düzgün vites geçmeme şikayetleri",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "orta",
+        "sources": [
+          "carproblemzoo_sx4_4at"
+        ]
+      },
+      {
+        "issue": "Sürüş sırasında tereddüt (hesitation) — vites geçişinde gecikme hissi",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "küçük onarım",
+        "sources": [
+          "carproblemzoo_sx4_4at"
+        ]
+      }
+    ],
     "sources": [
       "truedelta_suzuki_sx4",
-      "suzukiforums_sx4_4at"
+      "suzukiforums_sx4_4at",
+      "carproblemzoo_sx4_4at"
     ],
     "note": "Suzuki SX4'ün 2010 öncesi versiyonlarında kullanılan 4 ileri kutu. TrueDelta'nın sahip anketinde sahiplerin çoğu 93.000 km'ye kadar sorun bildirmiyor. Suzuki'nin 2010'dan sonra geçtiği CVT ile karıştırılmamalı; o kutu 60.000 km'den sonra aşınma belirtileri gösteriyor ve belirgin biçimde daha az güvenilir. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): TrueDelta A seviyesinde bir sahip anketi ve olumlu; kutuya özgü hiçbir arıza örüntüsü bulunamadı, ama örneklem küçük olduğu için 85 üstüne çıkarılmadı.]"
   },
@@ -1647,9 +1766,20 @@
     "gears": 4,
     "base_score": 62,
     "maintenance": "Alfa'nın kendi belirttiği şanzıman yağı kullanılmalı; yanlış yağ arıza lambası yakıyor.",
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "Aynı dönemin Selespeed yarı-otomatiğine kıyasla belirgin biçimde daha güvenilir kabul ediliyor; ama düzenli (60.000 km) yağ değişimi ihmal edilirse senkronizasyon halkalarında erken aşınma riski",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "orta",
+        "sources": [
+          "alfabb_qsystem_karsilastirma"
+        ]
+      }
+    ],
     "sources": [
-      "alfabb_156_qsystem"
+      "alfabb_156_qsystem",
+      "alfabb_qsystem_karsilastirma"
     ],
     "note": "Alfa Romeo 156'nın 4 ileri tork konvertörlü otomatiği. Aynı araçta sunulan Selespeed yarı otomatiğine göre belirgin biçimde daha güvenilir kabul ediliyor; doğru yağ ve düzenli bakımla genel olarak sorunsuz çalışıyor. Buna karşılık dört ileri olması ve manuel kontrolü tam sağlayamaması nedeniyle sürüş açısından eleştiriliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): kaynak olumlu ama bu olumluluğu esas olarak Selespeed'e kıyasla kuruyor; tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
   },
@@ -1859,10 +1989,39 @@
     "gears": 4,
     "base_score": 70,
     "maintenance": null,
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "2., 3. ve 4. vitese geçişte kayma/gecikme (shift flare); geri vitese geçişte uzun duraksamayı takip eden küt ses, soğukken daha belirgin",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "asrgearbox_kia_picanto"
+        ]
+      },
+      {
+        "issue": "Bazı yeni model araçlarda 4. vitese geçmeme sorunu; motor devrinin artıp aşırı ısınma riski taşıması",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "orta",
+        "sources": [
+          "asrgearbox_kia_picanto"
+        ]
+      },
+      {
+        "issue": "Sızdıran solenoidlerin valf gövdesinde basınç düşüşüne yol açması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "asrgearbox_kia_picanto"
+        ]
+      }
+    ],
     "sources": [
       "teknikotomatik_a4cf1",
-      "teknikotomatik_a4cf2"
+      "teknikotomatik_a4cf2",
+      "asrgearbox_kia_picanto"
     ],
     "note": "Picanto ve benzeri küçük Hyundai-Kia modellerinde kullanılan dört ileri tork konvertörlü kutu; daha eski Mitsubishi lisanslı A4AF3'ten (listede zaten kayıtlı, Elantra XD/Cerato LD döneminden) farklı, Hyundai-Kia'nın kendi geliştirdiği bir sonraki nesil. Basit yapısı sayesinde genel olarak dayanıklı kabul ediliyor. [base_score gerekçesi: 65-84 (sağlam) bandının alt sınırında: iki kaynak da (C) yapısal bir kusur bildirmiyor.]"
   },

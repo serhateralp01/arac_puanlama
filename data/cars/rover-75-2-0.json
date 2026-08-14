@@ -32,6 +32,7 @@
   },
   "sources": [
     "honestjohn_rover75_auto",
+    "mgrover_jf506e_reverse",
     "mgrover_rover75_jatco",
     "roverkseries_kv6_headgasket",
     "techturkey_rover75_yardim"

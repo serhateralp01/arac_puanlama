@@ -22,7 +22,7 @@
     600,
     880
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 80,
     "trans": 74,
@@ -33,6 +33,7 @@
     "liq": 52
   },
   "sources": [
+    "carproblemzoo_sx4_4at",
     "myenginespecs_m16a",
     "suzukiforums_sx4_4at",
     "truedelta_suzuki_sx4"

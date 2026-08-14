@@ -32,6 +32,7 @@
     "liq": 66
   },
   "sources": [
+    "asrgearbox_kia_picanto",
     "borlease_picanto_inceleme",
     "engineexplained_g4la",
     "teknikotomatik_a4cf1",

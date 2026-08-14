@@ -701,6 +701,31 @@ araç başına ortalama kaynak 5,28 → 5,34. `validate.py` 0 hata, `smoke_test.
 
 ---
 
+### Onüçüncü tur — son yedi ailenin kuyruğu temizlendi (2026-08-14)
+
+**Kapsam.** Onikinci turun sonunda kalan yedi tek-araçlık aile işlendi:
+`suzuki-4at` (Suzuki SX4), `mb-7g-dct` (Mercedes A/B Serisi), `mb-4g-tronic` (Mercedes
+W202), `jatco-re4f0x` (Nissan Almera/Primera), `jatco-jf506e` (Rover 75), `hyundai-a4cf`
+(Kia Picanto), `alfa-q-system` (Alfa Romeo 156). Bu ailelerin hepsinde `base_score` zaten
+kaynaklıydı; eksik olan yalnızca yapılandırılmış `known_issues` kaydıydı, bu yüzden hiçbir
+puan değişikliği yapılmadı — sadece mevcut puanın arkasındaki kanıt somutlaştırıldı.
+
+**Bulunan bir uyum notu.** Suzuki SX4 için bulunan kaynakların bir kısmı CVT'li geç dönem
+modellerden bahsediyordu; bu araç 2007-2014 üretim ve döneminin SX4'ü klasik 4 ileri
+tork konvertörlü otomatik kullanıyor. CVT'ye özgü iddialar (60.000 km'de aşınma başlangıcı,
+150.000 km altı ömür) bilinçli olarak `known_issues`'a alınmadı; yalnızca şanzıman tipinden
+bağımsız, genel "anormal ses / tereddüt" şikayetleri kullanıldı.
+
+**Sonuç.** Kaynak sayısı 357 → 365, `dogrulanmis` 261 → 265, `kismi_kaynak` 17 → 13,
+araç başına ortalama kaynak 5,34 → 5,37. `validate.py` 0 hata, `smoke_test.js` 57/57.
+**`known_issues` boş bileşen ailesi kalmadı (49 → 0)** — Y-02'nin altıncı turunda başlayan
+bileşen arıza sicili yapılandırma çalışması bu turla tamamlandı.
+
+**Kalan iş.** 13 araç hâlâ kısmi kaynak (4'ten az kaynak); artık aile bazlı kaldıraç
+tükendi, bundan sonrası araç başına araştırma. Bu, Y-02'nin bir sonraki doğal adımı.
+
+---
+
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
 
 **Sorun neydi.** Kaynak biriktirmek ile kaynağı puana çevirmek iki farklı iş ve farklı
