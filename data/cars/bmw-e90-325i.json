@@ -31,6 +31,7 @@
     "liq": 46
   },
   "sources": [
+    "atst_zf6hp_arizalar",
     "atstservices_zf6hp",
     "e90",
     "globalvillage_n52_waterpump",

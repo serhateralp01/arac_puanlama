@@ -33,9 +33,10 @@
   },
   "sources": [
     "andcetin_dq200",
+    "ecotorque_dq250_mekatronik",
+    "enginecrux_ea211_14tsi",
     "kroniksorunlar_superb",
-    "oreateai_ea111_vs_ea211",
-    "enginecrux_ea211_14tsi"
+    "oreateai_ea111_vs_ea211"
   ],
   "note": "Superb 3'ün 2.0 TDI'siyle aynı gövdede sunulan 1.4 TSI seçeneği; 150hp/250Nm tork bandı, listede Passat B8 1.4 TSI ve Tiguan 1.4 TSI DSG'de zaten kayıtlı olan aynı ıslak DQ250 eşleşmesini gerektiriyor (kuru DQ200'ün tork sınırının üstünde). Motor EA211 ailesinin (vag-ea211) silindir devre dışı bırakma (ACT) özellikli en güçlü üyesi.",
   "provenance": {

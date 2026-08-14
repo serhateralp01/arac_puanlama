@@ -30,11 +30,12 @@
     "liq": 54
   },
   "sources": [
+    "asrgearbox_eat6",
+    "autosolutions_ep6_zincir",
     "peugeotengine_psa_honest",
     "tediousrepairs_mini_r56",
     "teknikotomatik_aisin_6ileri",
-    "trbox",
-    "asrgearbox_eat6"
+    "trbox"
   ],
   "note": "R56 kuşağı MINI Cooper'ın atmosferik motoru; BMW-PSA ortak geliştirmesi 'Prince' ailesinin atmosferik (VTi) versiyonu, listede zaten Peugeot/Citroën araçlarında kayıtlı — MINI'ye bağlanması aynı fiziksel motor olduğu için düşük risk. Triger zinciri gergisi, yüksek basınç yakıt pompası ve su pompası arızaları ailenin bilinen zaafları; Aisin kaynaklı otomatik kutu görece güvenilir. Parça ve usta ağı Türkiye'de mainstream markalara göre daha sınırlı.",
   "provenance": {

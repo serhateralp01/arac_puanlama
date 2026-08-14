@@ -20,7 +20,7 @@
     750,
     1080
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 76,
     "trans": 48,
@@ -32,6 +32,7 @@
   },
   "sources": [
     "andcetin_dct_tucson",
+    "asrgearbox_hyundai_7dct",
     "enginedna_d4fb",
     "trbox"
   ],

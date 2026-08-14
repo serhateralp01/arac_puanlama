@@ -32,6 +32,7 @@
     "liq": 74
   },
   "sources": [
+    "asrgearbox_renault_edc",
     "cararac_k9k",
     "otopark_sanziman_rehberi",
     "renaultfanclub_edc",

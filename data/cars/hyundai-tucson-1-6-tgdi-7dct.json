@@ -21,7 +21,7 @@
     1100,
     1750
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 58,
     "trans": 46,
@@ -32,8 +32,9 @@
     "liq": 56
   },
   "sources": [
-    "carchecker_tucson_tgdi",
     "andcetin_dct_tucson",
+    "asrgearbox_hyundai_7dct",
+    "carchecker_tucson_tgdi",
     "trbox"
   ],
   "note": "Aynı nesil (TL) Tucson'un listede zaten kayıtlı dizel-otomatik kardeşinden (hyundai-tucson-1-6-crdi-7dct) farkı, U2 dizel yerine yeni turbolu benzinli Gamma T-GDI motoru. Şanzıman aynı aile: D7UF1/D7UF2 kuru çift kavramalı kutunun T-GDI'ye özel varyantı, listede zaten kayıtlı hyundai-7dct ailesiyle aynı. Türkiye ikinci el piyasasında dizel kadar yaygın değil, bu yüzden liq puanı dizel kardeşinden düşük tutuldu; motor puanı ise dizeldeki DPF/EGR riskinden farklı, daha ölçülü bir yağ tüketimi sorunu taşıdığı için biraz daha yüksek.",

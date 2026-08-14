@@ -31,11 +31,12 @@
   },
   "sources": [
     "andcetin_dq200",
+    "ecotorque_dq250_mekatronik",
+    "enginefinders_ea288_20tdi",
     "kroniksorunlar_superb",
     "sikayetvar_skoda_octavia_sanziman",
     "teknikotomatik_dq200_dq250",
-    "torquecars_ea288_avoid_problems",
-    "enginefinders_ea288_20tdi"
+    "torquecars_ea288_avoid_problems"
   ],
   "note": "Octavia 3'ün güçlü dizeli; EA288 motoru listede zaten 1.6 TDI versiyonunda kayıtlı (2.0 zaten aile içinde), bu kez ıslak DQ250 kutuyla eşleşiyor — 1.6 TDI'nin kuru DQ200'ünden belirgin biçimde daha güvenilir bir kombinasyon. DSG'nin 'P konumunda terk edin' uyarısı ailenin bilinen zaafı olarak burada da geçerli.",
   "provenance": {

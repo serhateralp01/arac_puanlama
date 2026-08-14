@@ -33,11 +33,12 @@
   },
   "sources": [
     "andcetin_dq200",
+    "ecotorque_dq250_mekatronik",
+    "enginecrux_ea211_14tsi",
     "kroniksorunlar_superb",
     "oreateai_ea111_vs_ea211",
     "sikayetvar_passat_tsi",
-    "teknikotomatik_dq200_dq250",
-    "enginecrux_ea211_14tsi"
+    "teknikotomatik_dq200_dq250"
   ],
   "note": "Passat B8'in giriş seviyesi benzinlisi; EA211 motoru listede zaten Kodiaq/Tiguan'da kayıtlı, 1.8 TSI (EA888) muadiline göre daha az sorunlu bir aile. DQ250 ıslak DSG aynı platformdaki diğer araçlarla ortak; trafikte sertlik şikayeti burada da geçerli.",
   "provenance": {

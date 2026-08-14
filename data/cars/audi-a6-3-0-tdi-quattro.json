@@ -31,6 +31,7 @@
     "liq": 38
   },
   "sources": [
+    "atst_zf6hp_arizalar",
     "atstservices_zf6hp",
     "carchecker_a6_27tdi",
     "darkside_v6tdi_swirlflap",

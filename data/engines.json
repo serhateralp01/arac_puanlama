@@ -97,10 +97,48 @@
     "cylinders": 4,
     "aspiration": "Turbo",
     "base_score": 64,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "EGR valfi ve emme manifoldu kurum birikimi açısından periyodik temizlenmeli; girdap kelebekleri (swirl flap) kurumlandığında arızalanıyor. Zincir sesi başladığında geciktirilmemeli.",
+    "known_issues": [
+      {
+        "issue": "Erken varyantlarda triger zinciri ve gergi aşınması; bakım ihmal edilirse zincirin diş atlayıp motora hasar vermesi",
+        "onset_km": 120000,
+        "frequency": "orta",
+        "severity": "motor ölür",
+        "sources": [
+          "diversityengines_m47"
+        ]
+      },
+      {
+        "issue": "EGR valfi ve emme manifoldunda kurum birikimi; rölanti düzensizliği ve yakıt tüketiminde artış",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "diversityengines_m47"
+        ]
+      },
+      {
+        "issue": "Kurumlanan girdap kelebeklerinin (swirl flap) arızalanması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "diversityengines_m47"
+        ]
+      },
+      {
+        "issue": "Turbo arızası ve kam mili/krank keçesinden yağ sızıntısı",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "diversityengines_m47"
+        ]
+      }
+    ],
     "sources": [
-      "alpincars_m47_vs_n47"
+      "alpincars_m47_vs_n47",
+      "diversityengines_m47"
     ],
     "note": "E90 318d'nin erken sürümlerindeki 2.0 dizel. Kayıt aracın kanonik 122 bg değerine göre atandı; aynı kasada 2007 sonrası gelen N47 ayrı bir ailedir. Ön taraflı, daha sade triger zinciri tasarımı sayesinde halefi N47'ye göre belirgin biçimde daha güvenilir kabul ediliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet) bandının üst sınırında: kaynak N47'ye kıyasla olumlu ama motora özgü ayrıntılı bir arıza listesi bulunamadı, tek kaynağa (C) dayanıyor.]"
   },
@@ -2870,9 +2908,29 @@
     "cylinders": 4,
     "aspiration": "Atmosferik",
     "base_score": 70,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Üretici aralığından daha sık ve doğru viskozitede yağ değişimi zincir gergisinin sağlığı için belirleyici; motor havalandırma (breather) sistemi de kontrol edilmeli. Soğuk çalıştırmada kısa süreli tıkırtı ailede yaygın, ama ritmik ve sürekli hale geldiyse zincir gevşemiştir.",
+    "known_issues": [
+      {
+        "issue": "Kam mili tahrik zincirinin gevşemesi; ritmik tıkırtı olarak başlıyor, ilerlerse diş atlayıp supap zamanlamasını bozuyor ve supap hasarına yol açabiliyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "motor ölür",
+        "sources": [
+          "autosolutions_ep6_zincir"
+        ]
+      },
+      {
+        "issue": "Kam mili faz ayarlayıcısını (dephaser) besleyen solenoid valfin yağ tortusuyla tıkanması; basınç düşünce zamanlama sapıyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "autosolutions_ep6_zincir"
+        ]
+      }
+    ],
     "sources": [
+      "autosolutions_ep6_zincir",
       "peugeotengine_psa_honest"
     ],
     "revision_sensitivity": null,

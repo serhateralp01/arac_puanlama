@@ -33,6 +33,7 @@
     "liq": 86
   },
   "sources": [
+    "asrgearbox_renault_edc",
     "otopark_sanziman_rehberi",
     "otosorular_megane16dci",
     "renaultfanclub_edc",

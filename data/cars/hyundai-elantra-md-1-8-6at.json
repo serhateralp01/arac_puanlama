@@ -21,7 +21,7 @@
     750,
     1050
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 34,
     "trans": 78,
@@ -33,6 +33,7 @@
   },
   "sources": [
     "cararac_g4nb_18",
+    "gearsmag_hyundai_a6",
     "hyundaiforums_auto",
     "mycarvoice_nu18_settlement"
   ],

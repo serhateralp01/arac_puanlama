@@ -30,6 +30,7 @@
     "liq": 52
   },
   "sources": [
+    "atst_zf6hp_arizalar",
     "atstservices_zf6hp",
     "globalvillage_n52_waterpump",
     "m54",

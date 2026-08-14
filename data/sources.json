@@ -3987,5 +3987,185 @@
       "engine": "p2.1_dataset",
       "found_at": "2026-08-13"
     }
+  },
+  "ecotorque_dq250_mekatronik": {
+    "id": "ecotorque_dq250_mekatronik",
+    "claim": "eco-torque.co.uk ve aboutthecars.com, VW/Audi 02E DQ250 (6 ileri ıslak DSG) kutusunda mekatronik ünitesinin en bilinen zayıf nokta olduğunu; arızanın sarsıntı, D/R konumuna geç geçme, vites atlama ve arıza konumuna (limp mode) düşme olarak göründüğünü aktarıyor. Islak kavrama plakalarından kopan sürtünme parçacıklarının yağa karışıp mekatroniğin dar hidrolik kanallarını tıkadığı, bu yüzden yağ ve filtrenin 60.000 km'de bir değişmesi gerektiği belirtiliyor. Düşük hızda titreşimin çoğunlukla bozulmuş yağdan kaynaklandığı ve yağ değişimiyle çözüldüğü, kavrama ömrünün düzenli bakımla 200.000-300.000 km'ye ulaşabildiği aktarılıyor.",
+    "publisher": "eco-torque.co.uk",
+    "url": "https://eco-torque.co.uk/blogs/news/vw-audi-02e-dq250-dsg-mechatronic-failures-symptoms-fault-codes-fixes",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "mercedesmedic_722_6_conductor": {
+    "id": "mercedesmedic_722_6_conductor",
+    "claim": "w140faq ve youcanic.com, Mercedes 722.6 (5G-Tronic) kutusunun en bilinen zaafının valf gövdesinin üzerine oturan iletken plaka (conductor plate) olduğunu; yağ değişimi ihmal edildiğinde devir sensörlerinin metal parçacıklarla kirlenip yanlış kayma (slip) hatası ürettiğini, sıcaklık ve seviye sensörlerinin de tutarsız değer verebildiğini aktarıyor. İkinci bilinen kalem, 13 pinli konnektörden yağ sızması. Onarım genelde iletken plakanın veya valf gövdesinin değişimiyle yapılıyor; kutunun geri kalanı sağlam kabul ediliyor.",
+    "publisher": "w140faq",
+    "url": "https://w140faq.wordpress.com/2013/12/10/mercedes-722-6-5g-tronic-conductorelectronic-plate/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "atst_zf6hp_arizalar": {
+    "id": "atst_zf6hp_arizalar",
+    "claim": "atstservices.com ve bmwrepairguide.com, ZF 6HP ailesinde (6HP19/6HP26) kontrol elektroniği, basınç solenoidleri ve valf gövdesinin yağ karterine entegre tek bir mekatronik modülde toplandığını; en sık yapılan teşhis hatasının yalnızca bu modül arızalıyken kutunun komple değiştirilmesi olduğunu aktarıyor. İkinci bilinen kalem, mekatronik konnektör kovanının (sealing sleeve) sızdırması: sızıntı karter kaçağı gibi göründüğü ve araç durduğunda yağ seviyesi kovana ulaşmadığı için günlerce fark edilmeyebiliyor, bu arada seviye düşüp kutuyu bitirebiliyor. EDS 1-6 elektrohidrolik basınç solenoidleri modülün en çok zorlanan parçaları.",
+    "publisher": "atstservices.com",
+    "url": "https://atstservices.com/en/blog/zf-6hp-common-failures-diagnosis",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "transmissionrepair_zf5hp": {
+    "id": "transmissionrepair_zf5hp",
+    "claim": "transmissionrepaircostguide.com, ZF 5HP19 ve 5HP24 kutularında en sık görülen hata kodunun P0741 (tork konvertörü kilitlenmesinde aşırı kayma) olduğunu ve nedeninin konvertör türbin mili keçesinin bozulup kilitlenme basıncını tutamaması olduğunu aktarıyor; belirtisi mıcır şeridine basmayı andıran titreşim. 5HP19'da kutu ısındığında üçüncü ve/veya dördüncü vitesin kaybedilmesi, D konumuna alırken sert kavrama ve yavaşlarken sert geri vites atma bildiriliyor. 5HP24'te kalkışta tereddüt veya ileri viteslerin tutmaması 'A' kavrama tamburunun ani basınç artışıyla hasar görmesine, geri vitesin gitmesi ise F kavrama pistonuna bağlanıyor.",
+    "publisher": "transmissionrepaircostguide.com",
+    "url": "https://www.transmissionrepaircostguide.com/zf5hp19/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "asrgearbox_hyundai_7dct": {
+    "id": "asrgearbox_hyundai_7dct",
+    "claim": "asrgearboxrepairs.co.uk ve eco-torque.co.uk, Hyundai/Kia'nın D7UF1 (yüksek torklu motorlar için kuru çift kavramalı 7 ileri) kutusunda dur-kalk trafiğinde ve yokuş manevralarında ısınma ve kavrama yüzeyinin camlaşması (glazing) sonucu düşük hızda titreşim, geç kalkış ve kayma görüldüğünü aktarıyor. Kök nedenler kavrama camlaşması/aşınması, aşınmış çift kütleli volan veya ölçü dışına çıkmış aktüatör; bazı modellerde güncel olmayan TCM yazılımı resmî üretici bülteninin konusu. Kuru kavrama tasarımı tekrarlanan yarım debriyaj kullanımında sıcaklık sıçraması yaşıyor.",
+    "publisher": "asrgearboxrepairs.co.uk",
+    "url": "https://www.asrgearboxrepairs.co.uk/7-speed-dct-hyundaikia/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "gearsmag_hyundai_a6": {
+    "id": "gearsmag_hyundai_a6",
+    "claim": "Gears Magazine ve advancedtransmission.com, Hyundai/Kia A6 ailesinde (A6GF1 küçük araçlar, A6MF1 orta sınıf) kayma, vites geçişinde devir yükselmesi (flare), geç ve sert geçiş ile sürüş sırasında titreşim bildirildiğini aktarıyor. Çalışma sırasında yağa karışan metal ve sürtünme tozu valf gövdesinin işleyişini bozup aşırı ısınmaya, o da solenoid arızasına yol açıyor; solenoid sorunlarının 50.000-60.000 km sonrasında başladığı belirtiliyor. A6GF1'de yağ sıcaklık sensörü kaynaklı P0711 hata kodu ayrıca bildiriliyor.",
+    "publisher": "Gears Magazine",
+    "url": "https://gearsmagazine.com/magazine/2613/",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "autosolutions_ep6_zincir": {
+    "id": "autosolutions_ep6_zincir",
+    "claim": "autosolutions-newbury.co.uk ve etuners.gr, PSA/BMW ortak geliştirmesi 'Prince' ailesinin (EP6) kam mili tahrik sisteminde en iyi ihtimalle motor tıkırtısı, en kötü ihtimalle motorun bitmesiyle sonuçlanan bir zincir sorunu geliştirdiğini aktarıyor. Arıza sürücü tarafındaki motor ucundan gelen ritmik tıkırtı olarak başlıyor; zincir yeterince gevşerse diş atlayıp supap zamanlamasını bozuyor ve supap hasarına yol açabiliyor. Soğuk çalıştırmada duyulan kaba ses, hidrolik gergi tam yağ basıncına ulaşana kadar zincirin çarpmasından kaynaklanıyor ve ailede neredeyse yaygın. Sorunun turbolu THP versiyonunda atmosferik VTi'ye göre daha ağır olduğu belirtiliyor.",
+    "publisher": "autosolutions-newbury.co.uk",
+    "url": "https://www.autosolutions-newbury.co.uk/common_faults.html",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "diversityengines_m47": {
+    "id": "diversityengines_m47",
+    "claim": "diversityengines.com ve bmwblog.com, BMW M47 dizelinin en bilinen zayıf noktalarının erken varyantlarda triger zinciri ve gergi aşınması, turbo arızası, EGR valfinin kurumla tıkanması ve kam mili/krank keçesinden yağ sızıntısı olduğunu aktarıyor. Zincir aşınması bakım ihmal edildiğinde 120.000-250.000 km arasında görülüyor ve en kötü durumda zincirin diş atlayıp motora hasar vermesine yol açıyor. EGR ve emme manifoldundaki kurum birikimi rölanti düzensizliğine ve yakıt tüketiminde artışa neden oluyor; kurumlanan girdap kelebekleri (swirl flap) arızalanabiliyor. Kaynaklar M47'yi, halefi N47'den özellikle triger zinciri güvenilirliği açısından daha sağlam buluyor.",
+    "publisher": "diversityengines.com",
+    "url": "https://diversityengines.com/bmw-m47-engine-the-bulletproof-myth-real-weak-spots-and-how-to-keep-it-alive/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "asrgearbox_renault_edc": {
+    "id": "asrgearbox_renault_edc",
+    "claim": "asrgearboxrepairs.co.uk ve youcanic.com, Renault'nun 6DCT250 kuru çift kavramalı EDC kutusunda rölantide tıkırtı ve düşük hızda kalkışta titreme (judder) bildirildiğini aktarıyor. Olası nedenler ısınmış sürtünme plakaları, mekatronik servo hizasızlığı ve devir eşitlemesini yapamayan eski yazılım. Çift kütleli volandaki aşırı boşluk rölantide metalik tıkırtı üretiyor ve plakalar arasında hareket varsa volan değişimi gerekiyor. Dur-kalk şehir trafiğinde tekrarlanan kısmi kavrama, sınırlı soğutma nedeniyle kavrama sıcaklığını normalin üzerine çıkarıyor.",
+    "publisher": "asrgearboxrepairs.co.uk",
+    "url": "https://www.asrgearboxrepairs.co.uk/edc-dual-clutch-renault/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "youcanic_gm_6t40": {
+    "id": "youcanic_gm_6t40",
+    "claim": "youcanic.com ve transmissionrepaircostguide.com, GM'in 6T30/6T40 enine yerleşimli altı ileri otomatiğinde 3-5-R dalgalı plakasının (waved plate) kırılmasının oldukça yaygın bir arıza olduğunu, kırıldığında tambur kanallarına ve gövdeye zarar verebildiğini aktarıyor; uzmanlar belirti yokken bile önleyici değişim öneriyor. Kanal ve ara plakadaki tıkanma, 2-6 kavrama regülatör valfine giden yağı kesip düzensiz vites geçişi, kayma, sert ve geç geçiş ile ileri/geri vites kaybına yol açıyor. Aktüatör besleme sınırlama (AFL) valfindeki aşınma solenoidlere giden basıncı düşürüyor. Bazı araçlarda tork konvertörü kilitlenmesi hiç çalışmıyor veya çok sert kilitlenip yağı aşırı ısıtıyor.",
+    "publisher": "youcanic.com",
+    "url": "https://www.youcanic.com/5-opel-transmission-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "honda_tsb_konvertor_titremesi": {
+    "id": "honda_tsb_konvertor_titremesi",
+    "claim": "Honda'nın NHTSA'da yayımlanan teknik servis bülteni ve Gears Magazine, tork konvertörü kilitleme kavramasından gelen titremenin (judder) 30-95 km/s arasında, hafif-orta gazda ve özellikle frenden sonra gaza basarken hissedildiğini aktarıyor. Bültenin açık tespiti şu: **titremeyi tork konvertörü arızası değil, bozulmuş şanzıman yağı üretiyor ve titreme kutuya zarar vermiyor.** Yağ, belirli sürüş koşullarında aralıklı yüksek ısıya maruz kaldığında beklenenden hızlı bozuluyor. Çözüm yağ değişimi ve kontrol ünitesi yazılımının güncellenmesi; Honda dışı ATF kullanımı vites kalitesini bozduğu için önerilmiyor.",
+    "publisher": "NHTSA (Honda servis bülteni)",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2018/MC-10129797-9999.pdf",
+    "type": "manufacturer-doc",
+    "tier": "B",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
+  },
+  "go4trans_7dct300": {
+    "id": "go4trans_7dct300",
+    "claim": "go4trans.com ve automonger, Getrag 7DCT300'ün (Renault EDC 7, Nissan DCT) 2015'te ıslak kavramalı olarak tanıtıldığını ve Ford'un kuru kavramalı 6DCT250'sinin yaygın sorunlarına yanıt olarak geliştirildiğini aktarıyor. Buna karşılık kutunun kendine özgü bir yapısal zaafı var: ıslak kavrama muhafazası fabrika kaynağı boyunca çatlıyor ve çatladığında kutu kullanılamaz hale geliyor. Ayrıca yavaş trafikte hafif tereddüt ve düşük hızda titreme bildiriliyor, özellikle kavrama ömrünün sonuna yaklaştığında veya aşırı ısındığında.",
+    "publisher": "go4trans.com",
+    "url": "https://go4trans.com/transmission/7dct300/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-13",
+    "language": "en",
+    "quotes": [],
+    "retrieval": {
+      "engine": "web_search",
+      "found_at": "2026-08-13"
+    }
   }
 }

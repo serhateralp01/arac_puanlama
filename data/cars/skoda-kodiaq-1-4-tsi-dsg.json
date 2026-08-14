@@ -33,11 +33,12 @@
   },
   "sources": [
     "andcetin_dq200",
+    "ecotorque_dq250_mekatronik",
+    "enginecrux_ea211_14tsi",
     "kroniksorunlar_superb",
     "oreateai_ea111_vs_ea211",
     "sikayetvar_kodiaq",
-    "teknikotomatik_dq200_dq250",
-    "enginecrux_ea211_14tsi"
+    "teknikotomatik_dq200_dq250"
   ],
   "note": "VAG'ın MQB tabanlı 7 koltuklu SUV'u; EA211 1.4 TSI motoru ve ıslak DQ250 DSG kutusu listede zaten kayıtlı ve iyi belgelenmiş bir kombinasyon (Tiguan'da da kullanılıyor). Geniş iç hacim ve VAG kalite hissi konfor puanını yukarı çekiyor. DSG'de düşük hızda titreme ve panoramik camda su sızıntısı bildirilmiş; 7 koltuklu versiyonlarda üçüncü sıra koltuk mekanizması ayrıca kontrol edilmeli.",
   "provenance": {

@@ -35,7 +35,8 @@
     "autodoc_astra_j_problems",
     "opel16",
     "stargarage_a16dth_chain",
-    "teknikotomatik_aisin_6ileri"
+    "teknikotomatik_aisin_6ileri",
+    "youcanic_gm_6t40"
   ],
   "note": "Insignia’daki 1.6 dizelin aynısı olduğu için zincir gergisi riski burada da geçerli; Aisin otomatiği ise sağlam. Yakıt tüketimi çok iyi ama zincir geçmişini mutlaka sorgulayın. Aynı kasada 1.4 turbo benzinli daha güvenli bir seçim.",
   "provenance": {

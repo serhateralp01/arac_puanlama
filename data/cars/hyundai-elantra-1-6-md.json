@@ -22,7 +22,7 @@
     700,
     980
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 82,
     "trans": 82,
@@ -33,6 +33,7 @@
     "liq": 84
   },
   "sources": [
+    "gearsmag_hyundai_a6",
     "hyundaiforums_auto",
     "teknikotomatik_hyundai_6at",
     "uscarsnew_gamma_mpi_gdi"

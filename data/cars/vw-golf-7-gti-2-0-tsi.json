@@ -33,6 +33,7 @@
   },
   "sources": [
     "andcetin_dq200",
+    "ecotorque_dq250_mekatronik",
     "enginescope_ea888_gen",
     "kroniksorunlar_superb",
     "sikayetvar_passat_tsi",

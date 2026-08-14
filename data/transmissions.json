@@ -11,10 +11,39 @@
     "supplier": "ZF",
     "gears": 5,
     "base_score": 70,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Tork konvertörü türbin mili keçesi P0741 hata kodunun kaynağı; titreşim başladığında yağ ve keçe kontrol edilmeli, geciktirilirse kavrama yüzeyleri de aşınıyor.",
+    "known_issues": [
+      {
+        "issue": "Tork konvertörü türbin mili keçesinin bozulup kilitlenme basıncını tutamaması (P0741); belirtisi mıcır şeridine basmayı andıran titreşim",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "transmissionrepair_zf5hp"
+        ]
+      },
+      {
+        "issue": "5HP19'da kutu ısındığında üçüncü ve/veya dördüncü vitesin kaybedilmesi",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "transmissionrepair_zf5hp"
+        ]
+      },
+      {
+        "issue": "D konumuna alırken sert kavrama ve yavaşlarken sert geri vites atma",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "bakım kalemi",
+        "sources": [
+          "transmissionrepair_zf5hp"
+        ]
+      }
+    ],
     "sources": [
       "bimmerfest_zf5hp19",
+      "transmissionrepair_zf5hp",
       "transmissionrepairguide_zf5hp19"
     ],
     "note": "BMW E36/E39/E46 ve Audi A4 B5'te kullanılan klasik 5 ileri tork konvertörlü kutu. Düzenli bakımla (30-60 bin milde yağ değişimi) sağlam kalıyor; ihmal edilirse sıcakken 3./4. viteste kayma ve geri vites tamburunda çatlak görülüyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kutu yapısal olarak sağlam, bilinen sorunlar bakım atlanmadığı sürece ortaya çıkmıyor.]"
@@ -31,9 +60,29 @@
     "supplier": "ZF",
     "gears": 6,
     "base_score": 68,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Mekatronik konnektör kovanı (sealing sleeve) ve karter sızıntı açısından izlenmeli; sızıntı günlerce fark edilmeyip yağ seviyesini düşürerek kutuyu bitirebiliyor.",
+    "known_issues": [
+      {
+        "issue": "Mekatronik konnektör kovanının (sealing sleeve) sızdırması; karter kaçağı gibi göründüğü için geç fark ediliyor ve seviye düşünce kutuyu bitirebiliyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "atst_zf6hp_arizalar"
+        ]
+      },
+      {
+        "issue": "EDS 1-6 elektrohidrolik basınç solenoidlerinin aşınması; modülün en çok zorlanan parçaları",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "atst_zf6hp_arizalar"
+        ]
+      }
+    ],
     "sources": [
+      "atst_zf6hp_arizalar",
       "atstservices_zf6hp",
       "transmissionrepairguide_zf6hp26"
     ],
@@ -131,7 +180,9 @@
         "onset_km": null,
         "frequency": "yaygın",
         "severity": "orta",
-        "sources": ["asrgearbox_af40"]
+        "sources": [
+          "asrgearbox_af40"
+        ]
       }
     ],
     "sources": [
@@ -175,7 +226,9 @@
         "onset_km": null,
         "frequency": "seyrek",
         "severity": "küçük",
-        "sources": ["asrgearbox_eat6"]
+        "sources": [
+          "asrgearbox_eat6"
+        ]
       }
     ],
     "sources": [
@@ -221,7 +274,9 @@
         "onset_km": null,
         "frequency": "yaygın",
         "severity": "büyük onarım",
-        "sources": ["teknikotomatik_al4_dpo"]
+        "sources": [
+          "teknikotomatik_al4_dpo"
+        ]
       }
     ],
     "sources": [
@@ -259,9 +314,29 @@
     "supplier": "Mercedes-Benz",
     "gears": 5,
     "base_score": 80,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Yağ değişimi ihmal edilmemeli: metal parçacıklar iletken plakanın devir sensörlerini kirletip yanlış kayma hatası üretiyor. 13 pinli konnektör sızıntı açısından kontrol edilmeli.",
+    "known_issues": [
+      {
+        "issue": "İletken plakanın (conductor plate) devir sensörlerinin metal parçacıkla kirlenip yanlış kayma hatası üretmesi; sıcaklık ve seviye sensörlerinde tutarsız değer",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "mercedesmedic_722_6_conductor"
+        ]
+      },
+      {
+        "issue": "13 pinli konnektörden şanzıman yağı sızması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "mercedesmedic_722_6_conductor"
+        ]
+      }
+    ],
     "sources": [
+      "mercedesmedic_722_6_conductor",
       "minhsautocare_722_6"
     ],
     "note": "Geniş bir Mercedes yelpazesinde (1996-2010+) kullanılan, genel olarak güvenilir kabul edilen 5 ileri kutu (722.6). Bilinen sorunlar valf gövdesi devre kartı (conductor plate) arızası ve yağ eksikliği/basınç kaynaklı 5. vites arızasıyla sınırlı. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı, kaynağın kendisi 'genel olarak güvenilir' diyor.]"
@@ -302,14 +377,18 @@
         "onset_km": null,
         "frequency": "yaygın",
         "severity": "büyük onarım",
-        "sources": ["ecotorque_dq200_mechatronic"]
+        "sources": [
+          "ecotorque_dq200_mechatronic"
+        ]
       },
       {
         "issue": "0AM mekatronik gövdesindeki basınç haznesi duvarının ince kalması nedeniyle çatlayıp kavrama basıncı kaybına yol açması; yağ kirlenmesi ve solenoid aşınması da mekatronik arızasını tetikliyor",
         "onset_km": null,
         "frequency": "yaygın",
         "severity": "büyük onarım",
-        "sources": ["ecotorque_dq200_mechatronic"]
+        "sources": [
+          "ecotorque_dq200_mechatronic"
+        ]
       }
     ],
     "sources": [
@@ -330,13 +409,42 @@
     "supplier": "Volkswagen Group",
     "gears": 6,
     "base_score": 62,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Islak kavrama plakalarından kopan parçacıklar yağa karıştığı için yağ ve filtre 60.000 km'de bir değişmeli; bu kalem atlandığında parçacıklar mekatroniğin dar hidrolik kanallarını tıkıyor.",
+    "known_issues": [
+      {
+        "issue": "Mekatronik ünitesinin arızalanması; sarsıntı, D/R konumuna geç geçme, vites atlama ve arıza konumuna (limp mode) düşme",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "ecotorque_dq250_mekatronik"
+        ]
+      },
+      {
+        "issue": "Bozulmuş şanzıman yağının ıslak kavramayı yeterince yağlayamaması nedeniyle düşük hızda titreşim; yağ değişimiyle çözülüyor",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "bakım kalemi",
+        "sources": [
+          "ecotorque_dq250_mekatronik"
+        ]
+      },
+      {
+        "issue": "Yüksek kilometrede çift kütleli volan aşınması",
+        "onset_km": 150000,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "ecotorque_dq250_mekatronik"
+        ]
+      }
+    ],
     "sources": [
       "andcetin_dq200",
+      "ecotorque_dq250_mekatronik",
       "kroniksorunlar_superb"
     ],
-    "note": "Kavramaları yağ içinde çalıştığı için DQ200'den belirgin biçimde güvenli. Düşük hızlarda sarsıntı ve geçişte gecikme şikayetleri yaygın. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): ıslak kavrama DQ200'e göre belirgin biçimde güvenli, düşük hızda sarsıntı şikayeti var ama felaket değil.]"
+    "note": "Kavramaları yağ içinde çalıştığı için DQ200'den belirgin biçimde güvenli. Düşük hızlarda sarsıntı ve geçişte gecikme şikayetleri yaygın. Islak kavramalı tasarımı, kuru kavramalı DQ200'e göre belirgin biçimde dayanıklı: kaynaklar düzenli bakımla 200.000-300.000 km kavrama ömrü bildiriyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): mekatronik arızası gerçek ve tekrarlayan ama kutunun kendisi genelde ayakta kalıyor; ıslak kavrama ömrü DQ200'ünkinin belirgin üzerinde.]"
   },
   "vag-s-tronic-islak": {
     "id": "vag-s-tronic-islak",
@@ -455,12 +563,32 @@
     "supplier": "Getrag / Renault",
     "gears": 6,
     "base_score": 54,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Dur-kalk şehir trafiğinde kavrama sıcaklığı hızla yükseliyor; rampada gazla tutma alışkanlığı ömrü kısaltıyor. Kontrol ünitesi yazılımının güncel olduğu doğrulanmalı, çünkü eski yazılım devir eşitlemesini yapamayıp titremeyi artırıyor.",
+    "known_issues": [
+      {
+        "issue": "Düşük hızda kalkışta titreme (judder); ısınmış sürtünme plakaları, mekatronik servo hizasızlığı veya eski yazılım kaynaklı",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "asrgearbox_renault_edc"
+        ]
+      },
+      {
+        "issue": "Çift kütleli volandaki aşırı boşluk nedeniyle rölantide metalik tıkırtı; plakalar arasında hareket varsa volan değişimi gerekiyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "asrgearbox_renault_edc"
+        ]
+      }
+    ],
     "sources": [
-      "sikayetvar_megane_edc",
+      "asrgearbox_renault_edc",
+      "otopark_sanziman_rehberi",
       "renaultfanclub_edc",
-      "otopark_sanziman_rehberi"
+      "sikayetvar_megane_edc"
     ],
     "note": "Renault'nun dCi dizel modellerinde kullanılan eski nesil kuru EDC. Şikayetvar'da 3'ten 4'e geçişte tekrarlayan ses ve bazı örneklerde kontrol ünitesi arızası bildiriliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): tekrarlayan ses ve istisnai kontrol ünitesi arızası bildiriliyor, ama aynı kutuyla 257.000 km sorunsuz giden bir örnek de var.]"
   },
@@ -474,9 +602,29 @@
     "supplier": "Getrag / Renault",
     "gears": 7,
     "base_score": 70,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Islak kavrama muhafazasının fabrika kaynağı çatlama açısından bilinen zaaf; kutudan gelen olağandışı ses veya güç kaybı geciktirilmeden incelenmeli.",
+    "known_issues": [
+      {
+        "issue": "Islak kavrama muhafazasının fabrika kaynağı boyunca çatlaması; çatladığında kutu kullanılamaz hale geliyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "go4trans_7dct300"
+        ]
+      },
+      {
+        "issue": "Yavaş trafikte hafif tereddüt ve düşük hızda titreme; kavrama ömrünün sonunda veya aşırı ısındığında belirginleşiyor",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "küçük",
+        "sources": [
+          "go4trans_7dct300"
+        ]
+      }
+    ],
     "sources": [
+      "go4trans_7dct300",
       "otopark_1_3tce_islak"
     ],
     "note": "Renault'nun 1.2 ve 1.3 TCe motorlu güncel modellerinde kullanılan ıslak kavramalı EDC. Dizel dCi modellerdeki kuru EDC'den yapısal olarak farklı ve daha güvenilir. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak bunu eski kuru EDC'den 'yapısal olarak daha güvenilir' diye tanımlıyor; olumlu ama tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
@@ -492,10 +640,39 @@
     "supplier": "Hyundai / Kia",
     "gears": 7,
     "base_score": 46,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Kuru kavrama tekrarlanan yarım debriyaj kullanımında ısınıyor; dur-kalk trafiği ve yokuşta rampada tutma alışkanlığı ömrü belirgin biçimde kısaltıyor. Servisten sonra kavrama öğrenme (learn) yordamı çalıştırılmalı, TCM yazılımının güncel olduğu doğrulanmalı.",
+    "known_issues": [
+      {
+        "issue": "Kavrama yüzeyinin ısınıp camlaşması (glazing) sonucu düşük hızda titreşim, geç kalkış ve kayma",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "asrgearbox_hyundai_7dct"
+        ]
+      },
+      {
+        "issue": "Kavrama aktüatörünün ölçü dışına çıkması; sert geçiş ve kayma",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "asrgearbox_hyundai_7dct"
+        ]
+      },
+      {
+        "issue": "Çift kütleli volan aşınması; titreşim, tıkırtı veya vurma sesi",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "asrgearbox_hyundai_7dct"
+        ]
+      }
+    ],
     "sources": [
       "andcetin_dct_tucson",
+      "asrgearbox_hyundai_7dct",
       "trbox"
     ],
     "note": "Elektrikli aktüatör kullandığı için tamiri diğer kuru çift kavramalılara göre daha kolay. Soğuk havada kalkışta titreme ve yoğun trafikte ısınma bildiriliyor. [base_score gerekçesi: 35-49 bandının üst sınırı: dry DCT olmasının getirdiği bilinen risk var ama elektrikli aktüatör sayesinde diğer kuru çift kavramalılara göre onarımı nispeten kolay, bu hafifletici bir etken.]"
@@ -511,9 +688,29 @@
     "supplier": "Hyundai / Kia",
     "gears": 6,
     "base_score": 78,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "Yağ değişimi 50.000-60.000 km bandında ihmal edilmemeli: yağa karışan metal ve sürtünme tozu valf gövdesini bozup solenoid arızasına yol açıyor.",
+    "known_issues": [
+      {
+        "issue": "Yağa karışan metal ve sürtünme tozunun valf gövdesini bozması, aşırı ısınma ve solenoid arızası",
+        "onset_km": 55000,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "gearsmag_hyundai_a6"
+        ]
+      },
+      {
+        "issue": "Kayma, vites geçişinde devir yükselmesi (flare), geç ve sert geçiş",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "gearsmag_hyundai_a6"
+        ]
+      }
+    ],
     "sources": [
+      "gearsmag_hyundai_a6",
       "hyundaiforums_auto"
     ],
     "note": "Lisanslı Mitsubishi tasarımına dayandığı ve uzun süredir güvenilir olduğu bildiriliyor. Sonraki nesillerde gelen 7DCT ile karıştırılmamalı. [base_score gerekçesi: 65-84 (sağlam): kaynak açıkça 'on yılı aşkın süredir kırılmaz' diyor; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
@@ -590,7 +787,9 @@
         "onset_km": null,
         "frequency": "seyrek",
         "severity": "orta",
-        "sources": ["go4trans_k310"]
+        "sources": [
+          "go4trans_k310"
+        ]
       }
     ],
     "sources": [
@@ -684,11 +883,40 @@
     "supplier": "Aisin / General Motors",
     "gears": 6,
     "base_score": 68,
-    "maintenance": null,
-    "known_issues": [],
+    "maintenance": "3-5-R dalgalı plakası, belirti yokken bile önleyici değişim önerilen bir kalem; kırıldığında tambur kanallarına ve gövdeye zarar veriyor. Yağ temizliği valf gövdesi kanallarının tıkanmaması için belirleyici.",
+    "known_issues": [
+      {
+        "issue": "3-5-R dalgalı plakasının (waved plate) kırılması; kırıldığında tambur kanallarına ve gövdeye zarar veriyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "youcanic_gm_6t40"
+        ]
+      },
+      {
+        "issue": "Kanal/ara plakadaki tıkanmanın 2-6 kavrama regülatör valfine giden yağı kesmesi; düzensiz geçiş, kayma, ileri/geri vites kaybı",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "youcanic_gm_6t40"
+        ]
+      },
+      {
+        "issue": "Tork konvertörü kilitlenmesinin hiç çalışmaması veya çok sert kilitlenip yağı aşırı ısıtması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "youcanic_gm_6t40"
+        ]
+      }
+    ],
     "sources": [
+      "asrgearbox_tf80",
       "autodoc_astra_j_problems",
-      "asrgearbox_tf80"
+      "youcanic_gm_6t40"
     ],
     "note": "Opel Astra J, Insignia, Corsa ve Chevrolet Cruze gibi GM modellerinde kullanılan 6 ileri tork konvertörlü kutu. Astra J'nin bütün şanzıman seçenekleri arasında güvenilirlik lideri olarak anılıyor; Aisin 6 ileri ailesinin genel zayıf noktası olan valf gövdesi ve yağ kalitesine duyarlılık burada da geçerli. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak bu kutuyu kendi ailesinde güvenilirlik lideri olarak tanımlıyor, bilinen sorunlar bakıma bağlı.]"
   },
@@ -723,12 +951,23 @@
     "supplier": "Honda",
     "gears": null,
     "base_score": 78,
-    "maintenance": "Honda'nın kendi ATF-Z1/DW-1 yağıyla düzenli değişim gerekiyor; genel ATF kullanımı sorun çıkarıyor.",
-    "known_issues": [],
+    "maintenance": "Şanzıman yağı, aralıklı yüksek ısıya maruz kaldığında beklenenden hızlı bozuluyor; titreme başladığında ilk yapılacak yağ değişimi ve yazılım güncellemesi. Honda dışı ATF vites kalitesini bozduğu için önerilmiyor.",
+    "known_issues": [
+      {
+        "issue": "Tork konvertörü kilitleme kavramasından 30-95 km/s arasında titreme; üretici bülteni nedenin konvertör arızası değil bozulmuş yağ olduğunu ve kutunun zarar görmediğini belirtiyor",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "bakım kalemi",
+        "sources": [
+          "honda_tsb_konvertor_titremesi"
+        ]
+      }
+    ],
     "sources": [
+      "civic",
+      "honda_tsb_konvertor_titremesi",
       "hondatech_k24",
-      "truedelta_accord",
-      "civic"
+      "truedelta_accord"
     ],
     "note": "Honda Civic ve Accord'un tork konvertörlü otomatikleri. Vites sayısı modele göre değiştiği (Civic'te 4-5, Accord'da 5) için boş bırakıldı. Düzenli bakımla sağlam bir geçmişe sahip oldukları, 150.000 milin üstüne sorunsuz çıkabildikleri bildiriliyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynaklar bu kutuları güvenilir olarak tanımlıyor, tek şart Honda'nın kendi yağıyla düzenli bakım.]"
   },
@@ -1009,7 +1248,9 @@
         "onset_km": null,
         "frequency": "seyrek",
         "severity": "küçük",
-        "sources": ["asrgearbox_eat8"]
+        "sources": [
+          "asrgearbox_eat8"
+        ]
       }
     ],
     "sources": [

@@ -32,10 +32,11 @@
   },
   "sources": [
     "andcetin_dq200",
+    "ecotorque_dq250_mekatronik",
+    "enginefinders_ea288_20tdi",
     "kroniksorunlar_superb",
     "torquecars_ea288_avoid_problems",
-    "trbox",
-    "enginefinders_ea288_20tdi"
+    "trbox"
   ],
   "note": "Passat'ın en yeni ve en modern kasası; DQ250 ıslak DSG'si diğer VW modelleriyle aynı görece güvenilir aile. Ön araştırmaya dayanıyor, batch aşamasında derinleştirilecek.",
   "provenance": {

@@ -31,10 +31,11 @@
     "liq": 52
   },
   "sources": [
+    "autosolutions_ep6_zincir",
     "go4trans_dp0",
     "peugeotengine_psa_honest",
-    "trbox",
-    "teknikotomatik_al4_dpo"
+    "teknikotomatik_al4_dpo",
+    "trbox"
   ],
   "note": "Otomatiği eski nesil AL4 kutusu ve bu kutunun selenoid valf arızaları, aşırı ısınma, vites geçişlerinde vuruntu ve boşa düşme sorunları çok yaygın. Araç ucuz ve geniş ama otomatik almak istiyorsanız bu kutudan uzak durmanızı öneririm.",
   "provenance": {

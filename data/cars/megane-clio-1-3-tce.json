@@ -19,7 +19,7 @@
     900,
     1300
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 62,
     "trans": 64,
@@ -30,6 +30,7 @@
     "liq": 82
   },
   "sources": [
+    "go4trans_7dct300",
     "otopark_1_3tce_islak",
     "renaultfanclub_edc_kronik",
     "uscarsnew_h5ht"

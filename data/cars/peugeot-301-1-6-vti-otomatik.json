@@ -32,10 +32,11 @@
     "liq": 70
   },
   "sources": [
+    "autosolutions_ep6_zincir",
     "go4trans_dp0",
     "peugeotengine_psa_honest",
-    "trbox",
-    "teknikotomatik_al4_dpo"
+    "teknikotomatik_al4_dpo",
+    "trbox"
   ],
   "note": "301'in benzinli otomatik sürümü; AL4 kutusu listenin bilinen zayıf halkalarından.",
   "provenance": {

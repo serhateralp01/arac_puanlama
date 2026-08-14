@@ -21,7 +21,7 @@
     1050,
     1650
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 58,
     "trans": 46,
@@ -32,8 +32,9 @@
     "liq": 54
   },
   "sources": [
-    "carchecker_tucson_tgdi",
     "andcetin_dct_tucson",
+    "asrgearbox_hyundai_7dct",
+    "carchecker_tucson_tgdi",
     "trbox"
   ],
   "note": "Kia Sportage QL, Tucson TL ile aynı platformu (motor/şanzıman dahil) paylaşıyor, bkz. hyundai-tucson-1-6-tgdi-7dct — motor ve şanzıman puanları bu yüzden birebir aynı. liq ve cost Kia'nın Türkiye ikinci el piyasasındaki biraz daha dar bulunabilirliğini yansıtacak şekilde dizel kardeş çiftindeki (hyundai-tucson-1-6-crdi-7dct / kia-sportage-1-6-crdi-7dct) aynı yönlü farkla düşürüldü.",

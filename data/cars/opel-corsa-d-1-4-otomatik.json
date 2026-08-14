@@ -21,7 +21,7 @@
     420,
     650
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 58,
     "trans": 68,
@@ -34,7 +34,8 @@
   "sources": [
     "asrgearbox_tf80",
     "autodoc_astra_j_problems",
-    "cherishyourcar_a14net"
+    "cherishyourcar_a14net",
+    "youcanic_gm_6t40"
   ],
   "note": "Corsa D'nin dört ileri tork konvertörlü sürümü; şehir içi kullanımda sağlam ama yakıt tüketimi yüksek.",
   "provenance": {
