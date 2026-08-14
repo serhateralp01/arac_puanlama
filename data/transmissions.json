@@ -335,10 +335,39 @@
     "gears": 6,
     "base_score": 70,
     "maintenance": null,
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "İleri (Forward) ve 3-4 kavrama paketlerinin yanması; sarsıntılı veya kaymalı vites geçişine yol açması",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "büyük onarım",
+        "sources": [
+          "gearboxlist_aw60_40le"
+        ]
+      },
+      {
+        "issue": "Tork konvertörü kilitleme mekanizmasının 200-300 bin km sonrasında aşınıp onarım gerektirmesi",
+        "onset_km": 250000,
+        "frequency": "düşük",
+        "severity": "orta",
+        "sources": [
+          "gearboxlist_aw60_40le"
+        ]
+      },
+      {
+        "issue": "Düşük kaliteli yağla solenoidlerin tıkanıp arızalanması",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "küçük onarım",
+        "sources": [
+          "gearboxlist_aw60_40le"
+        ]
+      }
+    ],
     "sources": [
       "wiki_fiat_tipo",
-      "fiatforum_aw60t"
+      "fiatforum_aw60t",
+      "gearboxlist_aw60_40le"
     ],
     "note": "Fiat Egea/Tipo 1.6 E.torQ'nun kullandığı 6 ileri tork konvertörlü kutu. Sürüş kalitesi genelde tutarlı, bazı örneklerde vites sertliği bildiriliyor; kutuyu sağlam tutmanın anahtarının düzenli ATF değişimi olduğu vurgulanıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): genel tablo olumlu, bildirilen sorunlar münferit ve bakıma bağlı.]"
   },
@@ -1226,10 +1255,48 @@
     "gears": 4,
     "base_score": 54,
     "maintenance": null,
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "4. vites diş yuvalarının (splines) sık arıza noktası olması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "gmforum_4t65e_sorunlar"
+        ]
+      },
+      {
+        "issue": "Kavrama paketlerinin aşınıp kaymaya ve gecikmeli kavramaya yol açması; şanzıman bantlarının kırılıp gevşemesi",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "gmforum_4t65e_sorunlar"
+        ]
+      },
+      {
+        "issue": "Hat basıncı hatalı yükseltildiğinde tork konvertörü kilitleme kavramasının (TCC) erken devreye girip sert vites geçişine yol açması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "transmissionanswers_4t65e"
+        ]
+      },
+      {
+        "issue": "Basınç kontrol solenoidi arızası; tam hat basıncına çıkıp sert vites geçişlerine neden olması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "transmissionanswers_4t65e"
+        ]
+      }
+    ],
     "sources": [
       "transmissionanswers_4t65e",
-      "youcanic_opel_aw55"
+      "youcanic_opel_aw55",
+      "gmforum_4t65e_sorunlar"
     ],
     "note": "Opel Vectra B ve C gibi eski GM modellerinde kullanılan 4 ileri kutu. Genel olarak güvenilir kabul ediliyor ama yüksek kilometrede kayma, sert vites geçişi ve aşınmış kavrama pistonu bildiriliyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): kaynaklarda tekrarlayan bir şikayet örüntüsü var ama kutu genelde ayakta kalıyor.]"
   },
@@ -1533,10 +1600,39 @@
     "gears": 4,
     "base_score": 80,
     "maintenance": null,
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "Kirlenmiş/bozulmuş şanzıman yağıyla burçların aşınması; ana basınç kaybı ve sürtünme elemanlarının kayıp yanması",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "orta",
+        "sources": [
+          "transmissionaudit_a340f"
+        ]
+      },
+      {
+        "issue": "1998 öncesi üretimlerde vites solenoidi değişiminin yaygın bir bakım kalemi olması",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "transmissionaudit_a340f"
+        ]
+      },
+      {
+        "issue": "Tork konvertörünün yüksek kilometrede neredeyse her zaman onarıma gitmesi",
+        "onset_km": 200000,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "transmissionaudit_a340f"
+        ]
+      }
+    ],
     "sources": [
       "hiver_corolla_e120_reliability",
-      "motorbiscuit_corolla_boring"
+      "motorbiscuit_corolla_boring",
+      "transmissionaudit_a340f"
     ],
     "note": "Toyota Corolla E12 ve 2007-13 nesillerinde kullanılan 4 ileri tork konvertörlü kutu. Kaynak bu neslin otomatiklerini 'mükemmel' diye niteliyor ve gerçek arızaların çok seyrek olduğunu söylüyor; 150.000 km sonrasında aşınma belirtileri için kontrol öneriliyor ama bu bir arıza örüntüsü değil, yaşa bağlı normal bir kontrol kalemi. Toyota'nın Multidrive CVT'siyle (74 puan) karıştırılmamalı — bu kutu ondan daha basit ve daha dayanıklı. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak son derece olumlu ama iki kaynak da C seviyesinde; M-2 kuralı gereği C kaynağa dayanan puan 85 üstü uç banda çıkamıyor.]"
   },

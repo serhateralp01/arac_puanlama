@@ -663,6 +663,44 @@ bundan sonrası tek tek araştırma. 19 araç hâlâ kısmi kaynak.
 
 ---
 
+### Onikinci tur — kalan 1-2 araçlık kuyruk ve bir motor kodu belirsizliğinin çözümü (2026-08-14)
+
+**Kapsam.** Kalan 14 boş `known_issues` ailesinden en yüksek kaldıraçlı yedisi işlendi:
+şanzıman tarafında `toyota-4at`, `gm-4t65e`, `aisin-aw60t`; motor tarafında `volvo-b5254`,
+`nissan-hr12de`, `mb-om613`, `honda-l13z`. Aynı turda `volvo-b4204s` de düzeltildi, ama bu
+bir "boş `known_issues`" işi değildi — daha köklü bir sorun vardı.
+
+**Kendi hatam, kayıt altında.** Bu turun ilk taslağında `volvo-b5254` ailesini "boş"
+sanıp yeni bulguları eskisinin **üzerine yazdım**; ailenin zaten üç sourced arıza kaydı
+vardı (triger kayışı, PCV, konta sızıntısı — hepsi `enginecrux_volvo_b5254`'e dayalı).
+Hata `git diff` ile fark edildi ve commit edilmeden düzeltildi: eski üç kayıt geri
+getirildi, yeni üç kayıt bunların **üstüne eklendi** (silinmedi), aile artık 6 kayıtlı.
+Bu, gerçekten boş olan aileyi (`volvo-b4204s`) doğru hedeflemek yerine yanlış bir listeye
+güvenmenin bedeliydi — bir daha karıştırmamak için: boşluk kontrolü her turun başında
+`known_issues == []` üzerinden tazelenmeli, önceki turun zihindeki listesine güvenilmemeli.
+
+**`volvo-b4204s` — boş değil, çözülememiş bir kod eşlemesiydi.** Bu ailenin `base_score`'u
+daha önceki bir turda **bilinçli olarak `null` bırakılmıştı**: B4204S kodunun 1995-1999
+ilk nesil S40/V40'a mı, yoksa listedeki 2004-2012 ikinci nesil S40/V50'ye mi ait olduğu
+belirsizdi ve kaynaksız bir puan üretmek projenin temel kuralına aykırı olurdu. Bu turda
+yapılan araştırma belirsizliği çözdü: B4204S3/B4204S4 kodlu motor, Volvo'nun Ford ile
+ortak P1 platformunda Mazda LF kökenli 2.0 atmosferik aileyi paylaştığı motor — 145 bg /
+185 Nm / 1999cc atmosferik özellikleri, `volvo-s40-v50-2-0` aracının kayıtlı rakamlarıyla
+birebir örtüşüyor. Motor adları listesine B4204S3/B4204S4 eklendi, `base_score` 68 olarak
+kaynaklandı (tek kaynak, C seviyesi — bu yüzden temkinli). Aracın kendisinde de bir eksik
+vardı: `motor` puanı (74) hiçbir `evidence.motor` bloğuna bağlı değildi, muhtemelen eski
+bir içe aktarma kalıntısıydı. Puan artık aile temel puanıyla hizalı (68) ve gerekçeli bir
+`evidence.motor` bloğu eklendi.
+
+**Sonuç.** Kaynak sayısı 345 → 357, `dogrulanmis` 259 → 261, `kismi_kaynak` 19 → 17,
+araç başına ortalama kaynak 5,28 → 5,34. `validate.py` 0 hata, `smoke_test.js` 57/57.
+
+**Kalan iş.** 7 aile hâlâ boş `known_issues` taşıyor (`suzuki-4at`, `mb-7g-dct`,
+`mb-4g-tronic`, `jatco-re4f0x`, `jatco-jf506e`, `hyundai-a4cf`, `alfa-q-system`), hepsi
+1 araçlık kuyrukta. 17 araç hâlâ kısmi kaynak.
+
+---
+
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
 
 **Sorun neydi.** Kaynak biriktirmek ile kaynağı puana çevirmek iki farklı iş ve farklı

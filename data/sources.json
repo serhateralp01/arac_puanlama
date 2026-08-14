@@ -4456,5 +4456,137 @@
       "engine": "web_search",
       "found_at": "2026-08-13"
     }
+  },
+  "transmissionaudit_a340f": {
+    "id": "transmissionaudit_a340f",
+    "claim": "Toyota A340/A341 ailesi dört ileri otomatik şanzımanın genel olarak sağlam ve güvenilir kabul edildiği, ancak kirlenmiş şanzıman yağının burçları aşındırıp ana basınç kaybına ve sürtünme elemanlarının kayıp yanmasına yol açtığı, 1998 öncesi üretimlerde solenoid değişiminin yaygın olduğu ve tork konvertörünün neredeyse her zaman onarıma gittiği",
+    "publisher": "TransmissionAudit",
+    "url": "https://transmissionaudit.com/units/toyota-transmissions/a340f/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "gmforum_4t65e_sorunlar": {
+    "id": "gmforum_4t65e_sorunlar",
+    "claim": "GM 4T65-E şanzımanında 4. vites diş yuvalarının (splines) sık arıza noktası olduğu, kavrama paketlerinin aşınıp kaymaya ve gecikmeli kavramaya yol açtığı, şanzıman bantlarının kırılıp gevşeyerek vites takılma sorunlarına neden olduğu",
+    "publisher": "GM Forum (Buick, Cadillac, Olds, GMC & Pontiac chat)",
+    "url": "https://www.gmforum.com/general-gm-chat-88/4t65e-both-hd-non-hd-common-transmission-issues-213318/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "gearboxlist_aw60_40le": {
+    "id": "gearboxlist_aw60_40le",
+    "claim": "Aisin AW60-40LE/AW60-41SN ailesinin kompakt ve orta sınıf araçlarda genel olarak güvenilir ve bakımı kolay kabul edildiği, ancak İleri (Forward) ve 3-4 kavrama paketlerinin yanıp sarsıntılı/kaymalı vites geçişine yol açabildiği, tork konvertörü kilitleme mekanizmasının 200-300 bin km sonrasında aşınabildiği ve düşük kaliteli yağla solenoidlerin tıkanabildiği",
+    "publisher": "GearboxList",
+    "url": "https://gearboxlist.com/aisin/aw60-40le/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_b5254t3": {
+    "id": "engineexplained_b5254t3",
+    "claim": "Volvo B5254T3 2.5 litre turbo motorda en sık bildirilen sorunun kam mili keçeleri ve yağ karterinden kaynaklanan yağ sızıntıları olduğu",
+    "publisher": "EngineExplained",
+    "url": "https://www.engineexplained.com/volvo-b5254t3-2-5-l-engine-review-and-insights/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_b5254t4": {
+    "id": "engineexplained_b5254t4",
+    "claim": "Volvo B5254T4 motorda beklenenden yüksek yağ tüketimi bildirildiği, bunun yağ takviyelerinin sıklaşmasına yol açtığı ve bazı sahiplerin turbo arızası yaşadığı",
+    "publisher": "EngineExplained",
+    "url": "https://www.engineexplained.com/volvo-b5254t4-2-5-l-engine-review/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecode_b5254t2": {
+    "id": "enginecode_b5254t2",
+    "claim": "Volvo B5254T2 motorda başlıca güvenilirlik riskinin turbo westgate aktüatörü arızası olduğu, agresif kullanımda görülme sıklığının arttığı ve aşırı basınca (overboost) bağlı motor hasarına yol açabildiği",
+    "publisher": "EngineCode.uk",
+    "url": "https://www.enginecode.uk/volvo/b-5254-t2-specs",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecode_hr12de": {
+    "id": "enginecode_hr12de",
+    "claim": "Nissan HR12DE motorun genel olarak güvenilir ve sade kabul edildiği, en sık bildirilen arızaların VVT solenoidi (rölanti düzensizliği/güç kaybı), ateşleme bobini (ateşleme boşluğu), gaz kelebeğinde kurum birikimi (rölanti sorunları) ve motor takozlarının zamanla yıpranması olduğu",
+    "publisher": "EngineCode.uk",
+    "url": "https://www.enginecode.uk/nissan/hr12de-specs",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "micraclub_hr12de_guc_kaybi": {
+    "id": "micraclub_hr12de_guc_kaybi",
+    "claim": "Nissan Micra/March HR12DE motorlu araç sahiplerinin ani güç kaybı şikayetini forumda paylaştığı",
+    "publisher": "Micra Sports Club Forum",
+    "url": "https://micra.org.uk/threads/micra-march-hr12de-suddenly-losing-power.73145/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "myenginespecs_om613": {
+    "id": "myenginespecs_om613",
+    "claim": "Mercedes E320 CDI'nin düz altı silindirli 3.2 litre CDI motorunda enjektörlerin erken arızalanmasının bazı örneklerde 60.000 mil gibi düşük kilometrede görüldüğü, 2005 öncesi üretimlerde turbo 'boost control regulator' arızasının motoru acil (limp-home) moduna soktuğu ve yüksek basınçlı dizel pompasından sızıntı bildirildiği",
+    "publisher": "MyEngineSpecs",
+    "url": "https://myenginespecs.com/mercedes/mercedes-e320-cdi-v6-engine-common-problems-explained/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "mbclub_om613_guvenilirlik": {
+    "id": "mbclub_om613_guvenilirlik",
+    "claim": "OM613 motorun düzenli bakımla 300.000 km'nin üzerini sorunsuz görebildiği, asıl güvenilirlik sorununun motorun kendisinden çok yardımcı sistemlerden (DPF, yakıt filtresi/pompası) kaynaklandığı",
+    "publisher": "MBClub UK Forum",
+    "url": "https://forums.mbclub.co.uk/threads/whats-more-reliable-v6-or-il6-e320cdi.231107/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "automaniac_l13z1": {
+    "id": "automaniac_l13z1",
+    "claim": "Honda 1.3 L13Z1 i-VTEC motorun genel olarak güvenilir kabul edildiği, triger zincirinin bakımı ihmal edilirse aşınıp gürültü ve arızaya yol açabildiği, i-VTEC solenoidi veya yağ basıncı sorunlarının güç kaybına yol açabildiği",
+    "publisher": "AutoManiac",
+    "url": "https://www.automaniac.org/engine/honda/829/honda-1339cc-petrol-1.3-l13z1-i-vtec-16v-100hp",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecrux_b4204s": {
+    "id": "enginecrux_b4204s",
+    "claim": "Volvo B4204S ailesinin genel olarak güvenilir kabul edildiği, ama normalin üzerinde yağ tüketimi bildirimlerinin öne çıktığı (yağ seviyesinde artış, egzozdan mavi duman, düşük yağ uyarısı gibi belirtilerle)",
+    "publisher": "EngineCrux",
+    "url": "https://enginecrux.com/volvo-b4204s-2-0-l-engine-specs-problems-reliability/",
+    "type": "trade-press",
+    "tier": "C",
+    "accessed": "2026-08-14",
+    "language": "en",
+    "quotes": []
   }
 }

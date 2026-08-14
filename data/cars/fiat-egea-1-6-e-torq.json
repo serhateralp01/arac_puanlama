@@ -22,7 +22,7 @@
     850,
     970
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 60,
     "trans": 80,
@@ -35,6 +35,7 @@
   "sources": [
     "enginescope_etorq_caution",
     "fiatforum_aw60t",
+    "gearboxlist_aw60_40le",
     "wiki_fiat_tipo"
   ],
   "note": "Benzinli Egea otomatiği gerçekten Aisin yapımı AW60T 6 ileri tork konvertörlü kutu — Wikipedia'nın Fiat Tipo/Egea teknik verisi bunu doğruluyor; çift kavramalı DCT sadece dizel Multijet motorlarında kullanılıyor, E.torQ benzinlide değil. E.torQ motorunun kendisi 2010'dan beri üretimde olan, dökme demir bloklu, zincirli, basit bir tasarım (Jeep Renegade ve Fiat 500X ile paylaşılıyor), ama FIRE ailesi kadar temiz değil: bağımsız bir güvenilirlik değerlendirmesi 66/100 'dikkat' notu veriyor ve yüksek kilometrede yağ tüketimi ile silindir kapağı contası endişesine işaret ediyor. 110 beygirle zaten cansız kalan bir motor; hiç uğraşmak istemeyenler için FIRE daha güvenli bir tercih.",

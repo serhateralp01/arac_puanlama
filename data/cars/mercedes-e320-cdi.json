@@ -32,8 +32,10 @@
   },
   "sources": [
     "enginecrux_om612",
+    "mbclub_om613_guvenilirlik",
     "mercedesmedic_722_6_conductor",
     "minhsautocare_722_6",
+    "myenginespecs_om613",
     "om61x",
     "rust"
   ],

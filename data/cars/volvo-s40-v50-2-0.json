@@ -24,7 +24,7 @@
   ],
   "verification": "verified",
   "scores": {
-    "motor": 74,
+    "motor": 68,
     "trans": 46,
     "fun": 40,
     "comf": 77,
@@ -34,6 +34,7 @@
   },
   "sources": [
     "eeuroparts_volvo_aw55_servo",
+    "enginecrux_b4204s",
     "sonnax_aw55_valf_govdesi",
     "volvops",
     "youcanic_opel_aw55"
@@ -46,6 +47,15 @@
     "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: volvo v50 — 2.0L 5MT (145 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
+    "motor": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "düşük",
+      "sources": [
+        "enginecrux_b4204s"
+      ],
+      "reasoning": "B4204S3/S4 (volvo-b4204s) motor ailesinin temel puanı 68. Bu aracın motor puanı (68) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: kaynak motoru genel olarak güvenilir buluyor, bildirilen tek somut sorun (normalin üzerinde yağ tüketimi) izlenebilir ama tekrarlayan bir bakım kalemi. Motor kodu daha önce belirsizdi (base_score bilinçli olarak boş bırakılmıştı); 2026-08-14'te yapılan araştırma B4204S3/S4 koduyla 145 bg / 185 Nm / 1999cc atmosferik spesifikasyonunun bu araçla birebir örtüştüğünü doğruladı, bkz. data/engines.json volvo-b4204s notu.",
+      "assessed_at": "2026-08-14"
+    },
     "trans": {
       "band": "bilinen risk, kavrama/mekatronik odaklı",
       "confidence": "düşük",

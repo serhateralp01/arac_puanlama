@@ -1603,9 +1603,39 @@
     "aspiration": "Turbo",
     "base_score": 68,
     "maintenance": null,
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "Enjektörlerin erken arızalanması; bazı örneklerde düşük kilometrede (yaklaşık 96.000 km / 60.000 mil) başlıyor",
+        "onset_km": 96000,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "myenginespecs_om613"
+        ]
+      },
+      {
+        "issue": "2005 öncesi üretimlerde turbo 'boost control regulator' arızası; motoru acil (limp-home) moduna sokuyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "myenginespecs_om613"
+        ]
+      },
+      {
+        "issue": "Yüksek basınçlı dizel pompasından sızıntı; soğutma sistemi borularına yayılıp ek onarım gerektirebiliyor",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "büyük onarım",
+        "sources": [
+          "myenginespecs_om613"
+        ]
+      }
+    ],
     "sources": [
-      "enginecrux_om612"
+      "enginecrux_om612",
+      "myenginespecs_om613",
+      "mbclub_om613_guvenilirlik"
     ],
     "note": "3.2 litrelik sıralı altı silindirli dizel; W210 E320 CDI'ın motoru, 470 Nm tork üretiyor. Aynı OM61x ailesinin büyük hacimli üyesi olarak OM612 ile benzer bir bakım profili taşıdığı varsayılıyor; motora özgü ayrı bir araştırma yapılmadı. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): OM612'nin genel aile itibarına dayanarak temkinli tarafta, tek araçlık kullanım ve motora özgü kaynak eksikliği nedeniyle OM612'nin altında tutuldu.]"
   },
@@ -2659,6 +2689,8 @@
     "id": "volvo-b4204s",
     "names": [
       "B4204S",
+      "B4204S3",
+      "B4204S4",
       "2.0 16v"
     ],
     "supplier": "Volvo",
@@ -2668,11 +2700,23 @@
     ],
     "cylinders": 4,
     "aspiration": "Atmosferik",
-    "base_score": null,
+    "base_score": 68,
     "maintenance": null,
-    "known_issues": [],
-    "sources": [],
-    "note": "S40 ve V50'nin 2.0 atmosferik benzinlisi. Motor kodu araştırması, B4204S kodunun esas olarak 1995-1999 üretilen ilk nesil S40/V40'a ait olduğunu gösterdi; listedeki araç 2004-2012 üretim ikinci nesil S40/V50 gövdesini kapsıyor ve bu nesil muhtemelen farklı bir motor kodu (Ford Focus tabanlı P1 platformunun kendi 2.0 ailesi) kullanıyor. Kod eşlemesi bu yüzden düşük güvenle yapıldı; base_score, doğru motor kodu ve gerçek bir güvenilirlik kaynağı bulunana kadar bilinçli olarak boş bırakıldı — kaynaksız bir puan üretmek, bu projenin izlediği kuralın (data/ katmanı yalnızca kanıtlanmış olguyu tutar) tam tersi olurdu."
+    "known_issues": [
+      {
+        "issue": "Normalin üzerinde yağ tüketimi bildirimi; yağ seviyesinin sık kontrol edilmesi ve yağ değişiminin standart aralıktan daha sık yapılması gerekebiliyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "enginecrux_b4204s"
+        ]
+      }
+    ],
+    "sources": [
+      "enginecrux_b4204s"
+    ],
+    "note": "S40 ve V50'nin 2.0 atmosferik benzinlisi. Motor kodu araştırması daha önce B4204S kodunun 1995-1999 ilk nesil S40/V40'a ait olabileceğini ve bu listedeki 2004-2012 üretim ikinci nesil S40/V50 gövdesinin farklı bir aile kullanıyor olabileceğini işaret etmiş, base_score bu yüzden bilinçli olarak boş bırakılmıştı. 2026-08-14'te yapılan ek araştırma bu belirsizliği çözdü: B4204S3/B4204S4 kodlu motor, Volvo'nun Ford ile ortak P1 platformunda Mazda LF kökenli 2.0 atmosferik aileyi paylaştığı motor — 145 bg / 185 Nm / 1999cc atmosferik özellikleri, listedeki aracın kayıtlı 145 bg / 185 Nm rakamlarıyla birebir örtüşüyor. Motor adları listesine B4204S3/B4204S4 eklendi ve base_score artık kaynaklı. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının alt-orta kısmında: kaynak motoru genel olarak güvenilir buluyor, ama tek kaynağa dayanıyor ve bildirilen tek somut sorun (yağ tüketimi) izlenebilir ama tekrarlayan bir bakım kalemi.]"
   },
   "volvo-b4204t-gtdi": {
     "id": "volvo-b4204t-gtdi",
@@ -2760,11 +2804,41 @@
         "sources": [
           "enginecrux_volvo_b5254"
         ]
+      },
+      {
+        "issue": "B5254T3 varyantında kam mili keçeleri ve yağ karterinden yağ sızıntısı; en sık bildirilen arıza",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "küçük onarım",
+        "sources": [
+          "engineexplained_b5254t3"
+        ]
+      },
+      {
+        "issue": "B5254T2 varyantında turbo westgate aktüatörü arızası; agresif kullanımda aşırı basınca (overboost) bağlı motor hasarı riski",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "büyük onarım",
+        "sources": [
+          "enginecode_b5254t2"
+        ]
+      },
+      {
+        "issue": "B5254T4 varyantında beklenenden yüksek yağ tüketimi ve bazı örneklerde turbo arızası",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_b5254t4"
+        ]
       }
     ],
     "sources": [
       "enginecrux_volvo_b5254",
-      "engineexplained_d5244t"
+      "engineexplained_d5244t",
+      "engineexplained_b5254t3",
+      "engineexplained_b5254t4",
+      "enginecode_b5254t2"
     ],
     "note": "Birinci nesil S60'ın beş silindirli benzinli ailesi; hem atmosferik hem turbo sürümleri var. Motora özgü ayrıntılı bir kaynak bulunamadı; aynı dönemin Volvo beş silindirli dizel ailesinin (D5/D5244T) 'basitlik ve güvenilirlikle biliniyor, doğru bakımla uzun kilometreyi kaldırıyor' genel profiline dayanarak temkinli bir puan verildi. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: motora özgü kaynak eksikliği nedeniyle temkinli.]"
   },
@@ -3622,9 +3696,48 @@
     "aspiration": "Atmosferik",
     "base_score": 70,
     "maintenance": "10-15 bin km aralıklarında yağ ve filtre değişimi öneriliyor.",
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "VVT solenoidi arızası; rölanti düzensizliği ve güç kaybı",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "enginecode_hr12de"
+        ]
+      },
+      {
+        "issue": "Ateşleme bobini arızaları; ateşleme boşluğu (misfire)",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "küçük onarım",
+        "sources": [
+          "enginecode_hr12de"
+        ]
+      },
+      {
+        "issue": "Gaz kelebeğinde kurum birikimi; rölanti sorunları",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "küçük onarım",
+        "sources": [
+          "enginecode_hr12de"
+        ]
+      },
+      {
+        "issue": "Bazı sahiplerin ani güç kaybı bildirmesi",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "orta",
+        "sources": [
+          "micraclub_hr12de_guc_kaybi"
+        ]
+      }
+    ],
     "sources": [
-      "carchecker_micra_hr12de"
+      "carchecker_micra_hr12de",
+      "enginecode_hr12de",
+      "micraclub_hr12de_guc_kaybi"
     ],
     "note": "Micra K13'ün üç silindirli 1.2'si; düzenli bakımla 200.000 km üzerini sorunsuz görebildiği bildiriliyor. Asıl risk eşleştiği Xtronic CVT'de yoğunlaşıyor (nissan-xtronic, listede zaten kayıtlı). [base_score gerekçesi: 65-84 (sağlam): tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı; bildirilen zayıflık kutuya ait, motorun kendi güvenilirliğini düşürmüyor.]"
   },
@@ -3644,9 +3757,29 @@
     "aspiration": "Atmosferik",
     "base_score": 76,
     "maintenance": null,
-    "known_issues": [],
+    "known_issues": [
+      {
+        "issue": "i-VTEC solenoidi veya yağ basıncı sorunlarının güç kaybına ya da yakıt verimliliğinde düşüşe yol açması",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "küçük onarım",
+        "sources": [
+          "automaniac_l13z1"
+        ]
+      },
+      {
+        "issue": "Bakımı ihmal edilen triger zincirinde aşınma; gürültü ve arıza riski",
+        "onset_km": null,
+        "frequency": "düşük",
+        "severity": "orta",
+        "sources": [
+          "automaniac_l13z1"
+        ]
+      }
+    ],
     "sources": [
-      "vtecgaraj_jazz_cvt"
+      "vtecgaraj_jazz_cvt",
+      "automaniac_l13z1"
     ],
     "note": "Jazz/Fit'in 1.3 i-VTEC motoru; Honda'nın genel olarak güvenilir kabul edilen atmosferik ailelerinden. Bildirilen şikayetlerin neredeyse tamamı eşleştiği CVT'de yoğunlaşıyor (honda-cvt-earthdreams, bu turda yeni açıldı). [base_score gerekçesi: 65-84 (sağlam): tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },

@@ -34,7 +34,10 @@
   },
   "sources": [
     "eeuroparts_volvo_aw55_servo",
+    "enginecode_b5254t2",
     "enginecrux_volvo_b5254",
+    "engineexplained_b5254t3",
+    "engineexplained_b5254t4",
     "engineexplained_d5244t",
     "sonnax_aw55_valf_govdesi",
     "volvops",

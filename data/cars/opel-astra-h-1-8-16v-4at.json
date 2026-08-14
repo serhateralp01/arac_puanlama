@@ -21,7 +21,7 @@
     400,
     600
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 54,
     "trans": 54,
@@ -33,6 +33,7 @@
   },
   "sources": [
     "engine_specs_z18xer",
+    "gmforum_4t65e_sorunlar",
     "transmissionanswers_4t65e",
     "youcanic_opel_aw55"
   ],

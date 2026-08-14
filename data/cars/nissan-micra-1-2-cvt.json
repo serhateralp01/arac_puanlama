@@ -33,7 +33,9 @@
   },
   "sources": [
     "carchecker_micra_hr12de",
+    "enginecode_hr12de",
     "go4trans_xtronic_diesel_chain",
+    "micraclub_hr12de_guc_kaybi",
     "namuwiki_sm5",
     "technicalparams_latitude",
     "technopat_clio_xtronic"
