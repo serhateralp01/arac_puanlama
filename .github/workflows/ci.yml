@@ -21,6 +21,16 @@ jobs:
       - name: Üretilmiş HTML veriyle uyumlu mu
         run: python3 scripts/build.py --check
 
+      # Statik sayfalar da türetilmiş çıktı; veriyle uyumsuz kalırlarsa arama
+      # motorunda eski bilgi görünür ve bunu kimse fark etmez (Y-11).
+      - name: Statik sayfalar veriyle uyumlu mu
+        run: python3 scripts/build_pages.py --check
+
+      # Aynı motoru veya kutuyu paylaşan araçlar arasındaki gerekçesiz puan farkını
+      # raporlar. Çıkış kodunu düşürmez; amacı sapmayı gözden kaçırmamak.
+      - name: Bileşen bazlı puan tutarlılığı
+        run: python3 scripts/consistency.py
+
       - uses: actions/setup-node@v4
         with:
           node-version: "20"

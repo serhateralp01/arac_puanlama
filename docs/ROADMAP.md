@@ -1061,21 +1061,32 @@ kısa video senaryosu, kaydırmalı görsel metni, paylaşım dizisi ve uzun bi�
 **Bitmiş sayılma ölçütü.** 166 kayıttan en az 20'si için taslak üretiliyor ve taslaklar
 kaynak künyesini de taşıyor.
 
-### Y-13 · GitHub katkı kapısı ve sürekli denetim
+### Y-13 · GitHub katkı kapısı ve sürekli denetim — **büyük ölçüde bitti (2026-08-13)**
 
-**Sorun.** MK-05 katkı için üç katmanlı bir plan tanımlamıştı ve **birinci katman (GitHub
-konu şablonu) hâlâ kurulmadı.** Y-04'te arayüzdeki "kaynak öner" formu tamamlandı ama
-gönderim uç noktası tanımlı olmadığı için form kapalı duruyor. GitHub Issues bu uç nokta
-olabilir ve sıfır altyapı gerektirir.
+**Düzeltme kaydı.** Bu maddenin ilk yazımında "MK-05'in birinci katmanı hâlâ kurulmadı"
+ve "GitHub Actions denetimi yok" deniyordu. **İkisi de yanlıştı.** Kaynak öneri şablonu
+(`.github/ISSUE_TEMPLATE/kaynak-onerisi.yml`) `b8e6caf` commit'inde zaten kurulmuştu ve
+`validate.py` + `build.py --check` + `smoke_test.js` çalıştıran CI iş akışı
+(`.github/workflows/ci.yml`) da mevcuttu. Yanlış iddia, dosyalar kontrol edilmeden
+yazıldığı için oluştu; bu kayıt, aynı işin ikinci kez yapılmasını önlemek için burada
+bırakıldı.
 
-**Kapsam.** `.github/ISSUE_TEMPLATE/` altına üç form (kaynak öner, hata bildir, araç öner);
-`CONTRIBUTING.md`; `validate.py` + `consistency.py` + `smoke_test.js` çalıştıran bir GitHub
-Actions iş akışı; README'nin ürün vitrinine dönüştürülmesi (rozetler `validate.py --json`
-çıktısından otomatik); `CITATION.cff`. Ek olarak haftalık zamanlanmış bir iş,
-`fiyat-bandi-bayat` uyarısı üreten araçları listeleyip otomatik konu açabilir.
+**Gerçekten eksik olanlar ve yapılanlar.**
 
-**Bitmiş sayılma ölçütü.** Depoyu ilk kez açan biri, kaynak önerisini beş dakika içinde
-gönderebiliyor ve her push'ta denetim otomatik çalışıyor.
+- **İki yeni konu şablonu** eklendi: `hata-bildir.yml` (yanlış sayı/kimlik/sınıflandırma
+  bildirimi) ve `arac-oner.yml` (listeye araç önerisi). Bir de `config.yml` ile metodoloji
+  ve mimari belgelerine yönlendiren bağlantılar eklendi. Kaynak öneri şablonu olduğu gibi
+  korundu — çalışıyor, değiştirmek için sebep yoktu.
+- **`CONTRIBUTING.md`** yazıldı: katkının nasıl işlediği, kaynak güven seviyeleri (A/B/C),
+  üretilmiş dosyaların elle düzenlenmeyeceği kuralı ve derleme/denetim komutları.
+- **`CITATION.cff`** eklendi; akademik veya gazetecilik kullanımında atıf künyesi hazır.
+- **CI genişletildi:** `build_pages.py --check` (statik sayfalar veriyle uyumlu mu) ve
+  `consistency.py` (bileşen bazlı puan tutarlılığı) adımları eklendi.
+
+**Kalan iş.** README hâlâ bir iç belge gibi okunuyor; rozet satırı (araç sayısı,
+doğrulanmış oran, son güncelleme) `validate.py --json` çıktısından otomatik üretilebilir
+ama üretilmiyor. Ayrıca haftalık zamanlanmış bir iş, `fiyat-bandi-bayat` uyarısı üreten
+araçları listeleyip otomatik konu açabilir — kurulmadı.
 
 ### Y-14 · Veri/kabuk ayrımı ve tembel yükleme
 

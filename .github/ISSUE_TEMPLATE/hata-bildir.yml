@@ -1,0 +1,45 @@
+name: Veri hatası bildir
+description: Bir sayı, kimlik veya sınıflandırma yanlış görünüyorsa bildirin.
+title: "[hata] "
+labels: ["veri-hatası"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Veri hataları bu projenin en ciddiye aldığı bildirimdir. 2026-08-13'te dış bir veri
+        setiyle yapılan çapraz doğrulama beş gerçek hata buldu; biri 1,6 litrelik bir dizelde
+        kayıtlı 400 Nm'lik imkânsız bir tork değeriydi ve o aracı sürüş keyfi sıralamasında
+        haksız yere ilk ona taşıyordu. Gözünüze çarpan her tuhaflık değerli.
+  - type: input
+    id: kayit
+    attributes:
+      label: Hangi kayıt?
+      placeholder: bmw-e46-320i
+    validations:
+      required: true
+  - type: input
+    id: alan
+    attributes:
+      label: Hangi alan yanlış?
+      placeholder: specs.torque_nm
+    validations:
+      required: true
+  - type: input
+    id: mevcut
+    attributes:
+      label: Şu an ne yazıyor?
+    validations:
+      required: true
+  - type: input
+    id: dogru
+    attributes:
+      label: Doğrusu ne olmalı?
+    validations:
+      required: true
+  - type: textarea
+    id: kanit
+    attributes:
+      label: Bunu nereden biliyorsunuz?
+      description: Bağlantı, katalog sayfası, kullanım kılavuzu ya da doğrudan deneyim. Kaynaksız bildirim de kabul ediliyor ama araştırma kuyruğuna girer, doğrudan düzeltilmez.
+    validations:
+      required: true

@@ -71,6 +71,12 @@ sorusu demektir. Alıcıların çok küçük bir yüzdesine ulaşmak bile anlaml
 
 ## 3. En büyük ve en ucuz kaldıraç: içeriği görünür yapmak
 
+> **Durum güncellemesi (2026-08-13):** bu bölümün önerdiği iş **yapıldı**. `scripts/build_pages.py`
+> 435 statik sayfa üretiyor, `sitemap.xml` ve `robots.txt` yayında, her sayfa araca özgü başlık,
+> açıklama, canonical ve JSON-LD taşıyor. Aşağıdaki "bugünkü durum" dökümü, işin *öncesindeki*
+> tabloyu anlatıyor ve gerekçenin kaydı olarak bırakıldı. Kalan tek adım, sayfaların Google
+> Search Console'a gönderilmesi; o, depo sahibinin hesabıyla yapılacak bir iş.
+
 ### 3.1 Bugünkü durum, açıkça
 
 `index.html` tek bir dosya ve ekranlar arası geçiş adres çubuğundaki `#liste`, `#kiyaslama`
@@ -112,11 +118,11 @@ Hedeflenecek arama sorguları, Türkiye'de gerçekten aranan kalıplar:
 Motor ve şanzıman sayfaları burada özellikle değerli: "N47 triger zinciri" arayan kişi
 zaten sorunun farkında ve satın alma kararına çok yakın. Bu, dönüşümü en yüksek trafiktir.
 
-**Somut iş kalemi (ROADMAP'e girecek):** `Y-11 · Statik sayfa üretimi ve SEO temeli`.
-Kapsam: `build.py`'ye ikinci çıktı, `sitemap.xml`, `robots.txt`, araç başına `title` +
-`meta description` + `canonical`, JSON-LD yapılandırılmış veri (`Vehicle`, `FAQPage`),
-Open Graph etiketleri. Bitmiş sayılma ölçütü: Google Search Console'da 400+ sayfa
-indekslenmiş görünüyor.
+**Somut iş kalemi:** `Y-11 · Statik sayfa üretimi ve SEO temeli` — **uygulandı.** Üretim
+`build.py`'ye eklenmedi, ayrı bir `scripts/build_pages.py` dosyasına yazıldı ki çalışan
+`index.html` üretimi riske girmesin. `Vehicle` JSON-LD eklendi; `FAQPage` şeması henüz
+eklenmedi ve açık bir iş olarak duruyor. Nihai bitmiş sayılma ölçütü — Search Console'da
+400+ sayfanın indekslenmiş görünmesi — hâlâ geçerli ve gönderim adımını bekliyor.
 
 ### 3.3 Yapılandırılmış veri (JSON-LD) ile zengin sonuç
 
@@ -190,22 +196,23 @@ eksik:
   `validate.py --json` çıktısından otomatik üretilebilir (F1).
 - **Ekran görüntüsü ve canlı bağlantı** — deposu açan kişi ürünü 5 saniyede görmeli.
 - **"Neden var" paragrafı** — bugün README teknik başlıyor; önce sorun anlatılmalı.
-- **Katkı rehberi (`CONTRIBUTING.md`)** — MK-05 zaten üç katmanlı katkı planını tanımlıyor;
-  birinci katman olan GitHub konu şablonu hâlâ kurulmadı. Bu **F1** işidir ve topluluk
-  katkısının önündeki tek engeldir.
-- **Konu şablonları (`.github/ISSUE_TEMPLATE/`)** — "kaynak öner", "hata bildir", "araç
-  öner" için üç ayrı form. Arayüzdeki "kaynak öner" formunun (Y-04) gönderim uç noktası
-  hâlâ tanımlı değil; **GitHub Issues bu uç nokta olabilir** ve sıfır altyapı gerektirir.
+- **Katkı rehberi (`CONTRIBUTING.md`)** — 2026-08-13'te yazıldı. Katkının nasıl işlediğini,
+  kaynak güven seviyelerini ve üretilmiş dosyalara dokunulmama kuralını anlatıyor.
+- **Konu şablonları (`.github/ISSUE_TEMPLATE/`)** — kaynak öneri şablonu **zaten kuruluydu**
+  (bu belgenin ilk sürümünde yanlışlıkla "kurulmadı" yazılmıştı); üstüne "hata bildir" ve
+  "araç öner" şablonları eklendi. Arayüzdeki "kaynak öner" formunun (Y-04) gönderim uç
+  noktası hâlâ tanımlı değil ve **GitHub Issues bu uç nokta olabilir** — sıfır altyapı
+  gerektiren, hâlâ açık bir F1 işi.
 - **`CITATION.cff`** — akademik atıf dosyası. Bir tez veya makale bu veriyi kullandığında
   atıf verir; bu hem geri bağlantı hem güvenilirlik getirir.
 
 ### 4.4 GitHub Actions ile sürekli denetim
 
-**F1 · Getiri: orta · Risk: yok**
+**F1 · Getiri: orta · Risk: yok · durum: büyük ölçüde kurulu**
 
-`validate.py`, `consistency.py` ve `smoke_test.js` bugün elle çalıştırılıyor. Bunları her
-push'ta çalıştıran bir iş akışı (workflow) hem hatayı erken yakalar hem de depo sayfasında
-"denetim geçiyor" rozetiyle görünür güven üretir. Ek olarak haftalık bir zamanlanmış iş,
+Bu belgenin ilk sürümünde "bugün elle çalıştırılıyor" deniyordu; **yanlıştı** — CI iş akışı
+zaten `validate.py`, `build.py --check` ve `smoke_test.js` çalıştırıyordu. 2026-08-13'te
+buna `build_pages.py --check` ve `consistency.py` adımları eklendi. Ek olarak haftalık bir zamanlanmış iş,
 `fiyat-bandi-bayat` uyarısı üreten araçları listeleyip otomatik bir konu (issue) açabilir —
 yani veri tazeliği kendi kendini hatırlatır.
 

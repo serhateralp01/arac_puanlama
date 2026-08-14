@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "Araç Puanlama — kaynaklı ikinci el otomatik araç değerlendirmesi"
+message: "Bu veriyi kullanırsanız lütfen aşağıdaki künyeyle atıf verin."
+type: dataset
+authors:
+  - family-names: Eralp
+    given-names: Serhat
+    alias: serhateralp01
+repository-code: "https://github.com/serhateralp01/arac_puanlama"
+url: "https://serhateralp01.github.io/arac_puanlama/"
+abstract: >-
+  Türkiye ikinci el piyasasındaki otomatik şanzımanlı araçları yedi kriter üzerinden
+  puanlayan, açık kaynaklı bir karar destek veri seti. Araç kayıtlarının yanında motor
+  ailesi ve şanzıman kutusu düzeyinde yapılandırılmış arıza sicili tutuluyor; her puanın
+  arkasında yazılı bir gerekçe ve erişilebilir bir kaynak künyesi bulunuyor. Yaş kriteri
+  TÜV muayene verisinden, sürüş keyfi kriteri güç/ağırlık formülünden deterministik olarak
+  hesaplanıyor. Puanlar resmî bir kalite veya arıza istatistiği değildir.
+keywords:
+  - ikinci el otomobil
+  - otomatik şanzıman
+  - güvenilirlik
+  - Türkiye
+  - açık veri
+  - karar destek
+license: CC-BY-SA-4.0
+date-released: "2026-08-13"

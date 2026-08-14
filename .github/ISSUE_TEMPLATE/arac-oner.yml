@@ -1,0 +1,34 @@
+name: Araç öner
+description: Listede olması gerektiğini düşündüğünüz bir araç varsa buradan söyleyin.
+title: "[araç] "
+labels: ["araç-önerisi"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Kapsam: **otomatik şanzımanlı, benzinli veya dizel, Türkiye ikinci el piyasasında
+        bulunabilen** araçlar. Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam
+        dışı (`docs/ARCHITECTURE.md` MK-13); beygir, model yılı veya gövde tipi için alt
+        sınır yok.
+  - type: input
+    id: arac
+    attributes:
+      label: Marka, model, motor ve şanzıman
+      placeholder: Skoda Kamiq 1.0 TSI DSG
+    validations:
+      required: true
+  - type: input
+    id: yillar
+    attributes:
+      label: Hangi üretim yılları?
+      placeholder: 2019-2023
+  - type: textarea
+    id: neden
+    attributes:
+      label: Neden listede olmalı?
+      description: Türkiye'de yaygın mı, sık mı soruluyor, benzerleri listede var mı?
+  - type: textarea
+    id: kaynak
+    attributes:
+      label: Güvenilirliği hakkında bildiğiniz kaynak var mı?
+      description: Varsa bağlantı; yoksa boş bırakın, araştırma kuyruğuna alınır.
