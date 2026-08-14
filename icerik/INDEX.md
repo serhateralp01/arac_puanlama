@@ -1,0 +1,173 @@
+# İçerik taslakları — otomatik üretildi
+
+Bu dizin `scripts/build_content.py` tarafından `data/engines.json` ve
+`data/transmissions.json` içindeki `known_issues` kayıtlarından üretildi.
+Her taslak, dayandığı kaynağın adını ve adresini taşır. Betik yayın yapmaz —
+hangi taslağın kullanılacağına insan karar verir. Yeniden üretmek için:
+
+    python3 scripts/build_content.py
+
+**Toplam: 305 arıza kaydı için taslak, 157 dosyada.**
+
+## Motor aileleri
+
+- [Alfa Romeo Twin Spark](motor/alfa-twinspark.md) — 2 kayıt
+- [BMW B38](motor/bmw-b38.md) — 1 kayıt
+- [BMW M43](motor/bmw-m43.md) — 2 kayıt
+- [BMW M47](motor/bmw-m47.md) — 4 kayıt
+- [BMW M52](motor/bmw-m52.md) — 2 kayıt
+- [BMW M54](motor/bmw-m54.md) — 2 kayıt
+- [BMW M57](motor/bmw-m57.md) — 2 kayıt
+- [BMW N20](motor/bmw-n20.md) — 1 kayıt
+- [BMW N43](motor/bmw-n43.md) — 1 kayıt
+- [BMW N47](motor/bmw-n47.md) — 1 kayıt
+- [BMW N42](motor/bmw-n4x.md) — 2 kayıt
+- [BMW N52](motor/bmw-n52.md) — 2 kayıt
+- [Fiat E.torQ](motor/fca-etorq-16.md) — 1 kayıt
+- [Fiat FIRE](motor/fca-fire-14.md) — 2 kayıt
+- [Fiat / Alfa Romeo 1.9 JTDm](motor/fca-jtd-19.md) — 2 kayıt
+- [Fiat / Alfa Romeo MultiAir](motor/fca-multiair-14.md) — 2 kayıt
+- [Fiat 1.6 MultiJet](motor/fca-multijet-16.md) — 1 kayıt
+- [Ford Duratec HE](motor/ford-duratec-he.md) — 1 kayıt
+- [Ford / PSA 1.5 TDCi](motor/ford-duratorq-15.md) — 1 kayıt
+- [Ford / PSA Duratorq TDCi](motor/ford-duratorq-20.md) — 2 kayıt
+- [Ford 1.5 EcoBlue](motor/ford-ecoblue-15.md) — 2 kayıt
+- [Ford 1.0 EcoBoost](motor/ford-ecoboost-10.md) — 2 kayıt
+- [Ford EcoBoost](motor/ford-ecoboost-15.md) — 2 kayıt
+- [Ford Sigma](motor/ford-sigma-tivct.md) — 2 kayıt
+- [General Motors A14NET](motor/gm-a14net.md) — 2 kayıt
+- [General Motors A16DTH](motor/gm-a16dth.md) — 1 kayıt
+- [General Motors A16LET](motor/gm-a16let.md) — 2 kayıt
+- [General Motors A20DTH](motor/gm-a20dth.md) — 2 kayıt
+- [General Motors A20NET](motor/gm-a20net.md) — 2 kayıt
+- [General Motors X18XE](motor/gm-ecotec-18.md) — 1 kayıt
+- [General Motors A16XER](motor/gm-family1-16.md) — 2 kayıt
+- [General Motors / Isuzu Z17DTH](motor/gm-z17dt.md) — 1 kayıt
+- [Honda D16](motor/honda-d16-d17.md) — 1 kayıt
+- [Honda K20](motor/honda-k20-k24.md) — 2 kayıt
+- [Honda L13Z1](motor/honda-l13z.md) — 2 kayıt
+- [Honda L15A](motor/honda-l15.md) — 1 kayıt
+- [Honda L15B7](motor/honda-l15b7-turbo.md) — 2 kayıt
+- [Honda R16A](motor/honda-r16.md) — 1 kayıt
+- [Honda R20A](motor/honda-r20a.md) — 3 kayıt
+- [Hyundai / Kia Beta II](motor/hyundai-beta-16.md) — 3 kayıt
+- [Hyundai / Kia Gamma](motor/hyundai-gamma-14.md) — 3 kayıt
+- [Hyundai / Kia Gamma GDI](motor/hyundai-gamma16-gdi.md) — 3 kayıt
+- [Hyundai / Kia Gamma MPI](motor/hyundai-gamma16-mpi.md) — 1 kayıt
+- [Hyundai-Kia Gamma II T-GDI](motor/hyundai-gamma16-tgdi.md) — 1 kayıt
+- [Hyundai-Kia Nu 1.8](motor/hyundai-nu-18.md) — 2 kayıt
+- [Hyundai / Kia U2](motor/hyundai-u2-16.md) — 2 kayıt
+- [Hyundai / Kia U2](motor/hyundai-u2-17.md) — 2 kayıt
+- [Hyundai-Kia Kappa 1.2](motor/kia-kappa-12.md) — 2 kayıt
+- [Mazda FS-DE](motor/mazda-fs.md) — 1 kayıt
+- [Mazda LF-DE](motor/mazda-lf.md) — 1 kayıt
+- [Mercedes-Benz M111](motor/mb-m111.md) — 2 kayıt
+- [Mercedes-Benz M112](motor/mb-m112.md) — 1 kayıt
+- [Mercedes-Benz M270](motor/mb-m270.md) — 3 kayıt
+- [Mercedes-Benz M271](motor/mb-m271.md) — 1 kayıt
+- [Mercedes-Benz M274](motor/mb-m274.md) — 3 kayıt
+- [Mercedes-Benz OM611](motor/mb-om611.md) — 1 kayıt
+- [Mercedes-Benz OM612](motor/mb-om612.md) — 1 kayıt
+- [Mercedes-Benz OM613](motor/mb-om613.md) — 3 kayıt
+- [Mercedes-Benz OM646](motor/mb-om646.md) — 2 kayıt
+- [Mercedes-Benz OM651](motor/mb-om651.md) — 2 kayıt
+- [Mitsubishi 4A92](motor/mitsubishi-4a92.md) — 2 kayıt
+- [Nissan HR12DE](motor/nissan-hr12de.md) — 4 kayıt
+- [Nissan / Renault HR16DE](motor/nissan-hr16de.md) — 1 kayıt
+- [Nissan QG16DE](motor/nissan-qg16.md) — 1 kayıt
+- [PSA BlueHDi 130](motor/psa-bluehdi-15.md) — 1 kayıt
+- [PSA DV6](motor/psa-dv6.md) — 2 kayıt
+- [PSA DW10](motor/psa-dw10.md) — 3 kayıt
+- [PSA EC5](motor/psa-ec5.md) — 1 kayıt
+- [BMW / PSA EP6DT](motor/psa-ep6-thp.md) — 2 kayıt
+- [BMW / PSA EP6](motor/psa-ep6-vti.md) — 2 kayıt
+- [PSA PureTech 130](motor/psa-puretech-12.md) — 2 kayıt
+- [PSA TU5](motor/psa-tu5.md) — 1 kayıt
+- [PSA XU](motor/psa-xu.md) — 1 kayıt
+- [Renault F9Q](motor/renault-f9q.md) — 2 kayıt
+- [Renault / Mercedes-Benz H5Ht](motor/renault-h5ht.md) — 1 kayıt
+- [Renault K4M](motor/renault-k4m.md) — 1 kayıt
+- [Renault K9K](motor/renault-k9k.md) — 3 kayıt
+- [Renault M9R](motor/renault-m9r.md) — 2 kayıt
+- [Renault R9M](motor/renault-r9m.md) — 1 kayıt
+- [Renault H5F](motor/renault-tce-12.md) — 2 kayıt
+- [Rover KV6](motor/rover-kv6.md) — 1 kayıt
+- [Saab B205](motor/saab-b2x5.md) — 2 kayıt
+- [Subaru FB20](motor/subaru-fb20.md) — 2 kayıt
+- [Suzuki M16A](motor/suzuki-m16a.md) — 1 kayıt
+- [Toyota 1NR-FE](motor/toyota-1nr-fe.md) — 3 kayıt
+- [Toyota 8NR-FTS](motor/toyota-8nr-fts.md) — 1 kayıt
+- [Toyota 1ZR-FE](motor/toyota-zr.md) — 3 kayıt
+- [Toyota 3ZZ-FE](motor/toyota-zz.md) — 1 kayıt
+- [Volkswagen Group EA111 TSI twincharger](motor/vag-ea111-tsi-tc.md) — 2 kayıt
+- [Volkswagen Group EA111 TSI](motor/vag-ea111-tsi-turbo.md) — 1 kayıt
+- [Volkswagen Group EA113 1.8T](motor/vag-ea113-18t.md) — 1 kayıt
+- [Volkswagen Group EA188](motor/vag-ea188-pd.md) — 2 kayıt
+- [Volkswagen Group EA189](motor/vag-ea189.md) — 3 kayıt
+- [Volkswagen Group EA211](motor/vag-ea211.md) — 1 kayıt
+- [Volkswagen Group EA288](motor/vag-ea288.md) — 2 kayıt
+- [Volkswagen Group EA827](motor/vag-ea827.md) — 1 kayıt
+- [Volkswagen Group EA888](motor/vag-ea888.md) — 2 kayıt
+- [Volkswagen Group EA888 evo4](motor/vag-ea888-evo4.md) — 1 kayıt
+- [Volkswagen Group 3.0 V6 TDI](motor/vag-v6-tdi.md) — 1 kayıt
+- [Volvo B4204S](motor/volvo-b4204s.md) — 1 kayıt
+- [Volvo B4204T](motor/volvo-b4204t-gtdi.md) — 2 kayıt
+- [Volvo B5244S](motor/volvo-b5254.md) — 6 kayıt
+- [Volvo D5204T](motor/volvo-d-20.md) — 2 kayıt
+- [Volvo VEA](motor/volvo-vea-benzin.md) — 2 kayıt
+
+## Şanzıman kutuları
+
+- [Aisin Aisin AF40-6 (6 ileri)](sanziman/aisin-af40.md) — 2 kayıt
+- [Aisin AW55-50SN (5 ileri)](sanziman/aisin-aw55.md) — 2 kayıt
+- [Aisin Aisin AW60T (6 ileri)](sanziman/aisin-aw60t.md) — 3 kayıt
+- [Aisin AWF21 (6 ileri)](sanziman/aisin-awf21.md) — 2 kayıt
+- [Aisin EAT6 (6 ileri)](sanziman/aisin-eat6.md) — 1 kayıt
+- [Aisin Aisin Geartronic ()](sanziman/aisin-geartronic.md) — 3 kayıt
+- [Aisin Aisin TF-80SC (6 ileri)](sanziman/aisin-tf80.md) — 3 kayıt
+- [Alfa Romeo Q-System (4 ileri)](sanziman/alfa-q-system.md) — 1 kayıt
+- [Fiat / Alfa Romeo TCT (6 ileri)](sanziman/alfa-tct.md) — 2 kayıt
+- [Fiat C635 DDCT (6 ileri)](sanziman/fiat-c635-ddct.md) — 2 kayıt
+- [Ford / Mazda 4F27E (4 ileri)](sanziman/ford-4f27e.md) — 3 kayıt
+- [Ford / Mazda CD4E (4 ileri)](sanziman/ford-cd4e.md) — 3 kayıt
+- [Getrag / Ford DPS6 (6 ileri)](sanziman/ford-dps6.md) — 2 kayıt
+- [Aisin SelectShift 8AT (8 ileri)](sanziman/ford-selectshift-8at.md) — 1 kayıt
+- [Getrag 6DCT450 (6 ileri)](sanziman/getrag-6dct450.md) — 1 kayıt
+- [Getrag / Renault Getrag 7DCT300 (7 ileri)](sanziman/getrag-7dct300.md) — 3 kayıt
+- [General Motors GM 4T65-E (4 ileri)](sanziman/gm-4t65e.md) — 4 kayıt
+- [General Motors GM 5L40-E (5 ileri)](sanziman/gm-5l40e.md) — 3 kayıt
+- [Aisin / General Motors AF17 (6 ileri)](sanziman/gm-aisin-af17.md) — 3 kayıt
+- [Honda Honda 4 ileri otomatik ()](sanziman/honda-4at-5at.md) — 1 kayıt
+- [Honda Honda CVT ()](sanziman/honda-cvt-earthdreams.md) — 2 kayıt
+- [Hyundai / Kia Hyundai 6 ileri tork konvertörü (6 ileri)](sanziman/hyundai-6at.md) — 2 kayıt
+- [Hyundai / Kia 7DCT (7 ileri)](sanziman/hyundai-7dct.md) — 3 kayıt
+- [Hyundai / Kia (Mitsubishi lisansı) A4AF3 (4 ileri)](sanziman/hyundai-a4af3.md) — 2 kayıt
+- [Hyundai-Kia A4CF1 (4 ileri)](sanziman/hyundai-a4cf.md) — 3 kayıt
+- [Jatco Jatco JF506E (5 ileri)](sanziman/jatco-jf506e.md) — 3 kayıt
+- [Jatco / Nissan RE4F03A (4 ileri)](sanziman/jatco-re4f0x.md) — 2 kayıt
+- [Mazda Skyactiv-Drive (6 ileri)](sanziman/mazda-skyactiv-6at.md) — 2 kayıt
+- [Mercedes-Benz 4G-Tronic (4 ileri)](sanziman/mb-4g-tronic.md) — 1 kayıt
+- [Mercedes-Benz 5G-Tronic (5 ileri)](sanziman/mb-5g-tronic.md) — 2 kayıt
+- [Mercedes-Benz / Getrag 7G-DCT (7 ileri)](sanziman/mb-7g-dct.md) — 4 kayıt
+- [Mercedes-Benz 7G-Tronic (7 ileri)](sanziman/mb-7g-tronic.md) — 2 kayıt
+- [Mercedes-Benz 9G-Tronic (9 ileri)](sanziman/mb-9g-tronic.md) — 2 kayıt
+- [Jatco / Mitsubishi INVECS-III ()](sanziman/mitsubishi-invecs-cvt.md) — 1 kayıt
+- [Jatco X-Tronic ()](sanziman/nissan-xtronic.md) — 1 kayıt
+- [PSA / Renault AL4 (4 ileri)](sanziman/psa-al4.md) — 1 kayıt
+- [Aisin / PSA EAT8 (8 ileri)](sanziman/psa-eat8.md) — 2 kayıt
+- [PSA ETG ()](sanziman/psa-etg.md) — 2 kayıt
+- [Getrag / Renault EDC (kuru) (6 ileri)](sanziman/renault-edc-kuru.md) — 2 kayıt
+- [Subaru Lineartronic ()](sanziman/subaru-lineartronic.md) — 3 kayıt
+- [Aisin / Suzuki Suzuki 4 ileri otomatik (4 ileri)](sanziman/suzuki-4at.md) — 2 kayıt
+- [Aisin / Toyota Toyota 4 ileri otomatik (4 ileri)](sanziman/toyota-4at.md) — 3 kayıt
+- [Aisin / Toyota Multidrive S ()](sanziman/toyota-multidrive.md) — 1 kayıt
+- [Volkswagen Group 01M (4 ileri)](sanziman/vag-01m.md) — 3 kayıt
+- [Volkswagen Group DQ200 (7 ileri)](sanziman/vag-dq200.md) — 2 kayıt
+- [Volkswagen Group DQ250 (6 ileri)](sanziman/vag-dq250.md) — 3 kayıt
+- [Volkswagen Group / LuK Multitronic ()](sanziman/vag-multitronic.md) — 2 kayıt
+- [Volkswagen Group S tronic (ıslak) ()](sanziman/vag-s-tronic-islak.md) — 3 kayıt
+- [Getrag Volvo Powershift (kuru) (6 ileri)](sanziman/volvo-powershift-kuru.md) — 3 kayıt
+- [ZF ZF 4HP20 (4 ileri)](sanziman/zf-4hp.md) — 3 kayıt
+- [ZF ZF 5HP19 (5 ileri)](sanziman/zf-5hp.md) — 3 kayıt
+- [ZF ZF 6HP19 (6 ileri)](sanziman/zf-6hp.md) — 2 kayıt
+- [ZF ZF 8HP30 (8 ileri)](sanziman/zf-8hp.md) — 2 kayıt

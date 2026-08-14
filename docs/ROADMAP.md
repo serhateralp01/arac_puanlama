@@ -1206,19 +1206,28 @@ başlık, açıklama, canonical ve Open Graph etiketleriyle donatıldı.
 sahibinin hesabıyla yapılacak bir adım. `BASE_URL` sabiti GitHub Pages varsayılanına
 ayarlı — özel alan adı bağlanırsa yalnızca o sabit değişmeli.
 
-### Y-12 · İçerik üretim betiği (`build_content.py`)
+### Y-12 · İçerik üretim betiği (`build_content.py`) — **bitti (2026-08-14)**
 
-**Sorun.** `data/engines.json` ve `data/transmissions.json` içinde **166 yapılandırılmış
-bilinen arıza kaydı** var; her biri hangi bileşen, hangi arıza, hangi kilometrede, ne
-sıklıkta, hangi kaynak bilgisini taşıyor. Bu, bir yıldan fazla içeriğin ham maddesi ama
-bugün yalnızca sayfa içinde küçük bir metin olarak görünüyor.
+**Sorun neydi.** `data/engines.json` ve `data/transmissions.json` içinde (Y-02'nin
+onbeşinci turu sonunda) **305 yapılandırılmış bilinen arıza kaydı** birikmişti; her biri
+hangi bileşen, hangi arıza, hangi kilometrede, ne sıklıkta, hangi kaynakla bildirildiğini
+taşıyor. Bu, bir yıldan fazla araştırmanın ham maddesiydi ama yalnızca sayfa içinde küçük
+bir metin olarak görünüyordu.
 
-**Kapsam.** İçerik de türetilmiş bir çıktıdır: `scripts/build_content.py`, `data/`'dan
-kısa video senaryosu, kaydırmalı görsel metni, paylaşım dizisi ve uzun biçim yazı taslağı
-üretir. Betik metin üretir, yayın yapmaz — yayın kararı insanda kalır.
+**Yapılan.** `scripts/build_content.py` yazıldı. `data/`'dan hiçbir yeni olgu üretmiyor,
+yalnızca zaten var olan `known_issues` kayıtlarını dört içerik biçimine döküyor: kısa
+video senaryosu (30-40 sn, sahne sahne), kaydırmalı görsel metni (5 slayt), paylaşım
+dizisi (X/Twitter thread, 5 gönderi) ve uzun biçim yazı taslağı. Her taslak, dayandığı
+kaynağın yayıncı adını ve adresini taşıyor — kaynaksız bir taslak üretilmiyor. Çıktı
+`icerik/motor/<aile-id>.md` ve `icerik/sanziman/<aile-id>.md` altında, bir de her şeyi
+listeleyen `icerik/INDEX.md` var. `--check` kipi CI'ye eklendi (`build_pages.py --check`
+ile aynı desen): `known_issues` güncellenip taslak yeniden üretilmezse denetim kırmızı
+yanar, eski/yanlış bir taslak sessizce kalmaz.
 
-**Bitmiş sayılma ölçütü.** 166 kayıttan en az 20'si için taslak üretiliyor ve taslaklar
-kaynak künyesini de taşıyor.
+**Bitmiş sayılma ölçütü — aşıldı.** Hedef "en az 20 taslak" idi; **305 arıza kaydının
+hepsi için** taslak üretiliyor (157 dosyada, 104 motor ailesi + 53 şanzıman kutusu).
+Betik metin üretiyor, yayın yapmıyor — hangi taslağın kullanılacağına, nasıl
+düzenleneceğine ve ne zaman paylaşılacağına insan karar veriyor; bu bilinçli bir sınır.
 
 ### Y-13 · GitHub katkı kapısı ve sürekli denetim — **büyük ölçüde bitti (2026-08-13)**
 

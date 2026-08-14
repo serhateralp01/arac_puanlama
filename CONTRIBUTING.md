@@ -47,6 +47,7 @@ Kaynak seviyeleri şöyle ayrılıyor:
 python3 scripts/validate.py        # veri bütünlüğü ve kanıt politikası — 0 hata vermeli
 python3 scripts/build.py           # index.html'i yeniden üret
 python3 scripts/build_pages.py     # statik sayfaları yeniden üret
+python3 scripts/build_content.py   # içerik taslaklarını (icerik/) yeniden üret
 node scripts/smoke_test.js         # tarayıcı duman testi — hepsi geçmeli
 ```
 

@@ -26,6 +26,11 @@ jobs:
       - name: Statik sayfalar veriyle uyumlu mu
         run: python3 scripts/build_pages.py --check
 
+      # İçerik taslakları da türetilmiş çıktı; known_issues güncellenip taslak
+      # yeniden üretilmezse eski/yanlış bir taslak sessizce kalır (Y-12).
+      - name: İçerik taslakları veriyle uyumlu mu
+        run: python3 scripts/build_content.py --check
+
       # Aynı motoru veya kutuyu paylaşan araçlar arasındaki gerekçesiz puan farkını
       # raporlar. Çıkış kodunu düşürmez; amacı sapmayı gözden kaçırmamak.
       - name: Bileşen bazlı puan tutarlılığı
