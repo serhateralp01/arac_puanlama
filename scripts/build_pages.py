@@ -431,6 +431,10 @@ CATALOG_FLAG_TR = {
     "missing_torque": "Tork değeri kaynak veride eksik.",
     "missing_displacement": "Motor hacmi kaynak veride eksik.",
     "missing_technical_url": "Teknik özellik sayfasının adresi kaynak veride eksik.",
+    "fuel_name_conflict":
+        "Aracın ticari adı ile kayıtlı yakıt türü çelişiyor (ör. adı dizel rozeti "
+        "taşıyan bir araç benzinli olarak kayıtlı). İkisinden biri yanlış; hangisi "
+        "olduğu teknik özellik sayfasından doğrulanmadan bu kayıt puanlanamaz.",
 }
 
 

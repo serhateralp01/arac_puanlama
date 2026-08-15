@@ -294,8 +294,22 @@ async function dumpDebug(label) {
     await page.waitForTimeout(200);
     const searched = await page.locator('#body tr.main').count();
     check('arama çalışıyor', searched > 0 && searched < rows, `"volvo" → ${searched} satır`);
+    // Katalog bloğu (MK-22): aramada puanlanmamış araçlar da bulunmalı, ama
+    // puan tablosunun içine karışmamalı.
+    const catBlockVisible = await page.locator('#catwrap .catitem').count();
+    check('arama katalog araçlarını da buluyor', catBlockVisible > 0,
+      `${catBlockVisible} katalog kartı`);
+    const catLink = await page.locator('#catwrap .catname').first().getAttribute('href');
+    check('katalog kartı statik sayfaya bağlanıyor',
+      /^katalog\/.+\.html$/.test(catLink || ''), catLink);
+    const catRowsInTable = await page.locator('#body tr.main').count();
+    check('katalog araçları puan tablosuna karışmıyor', catRowsInTable === searched,
+      `tabloda ${catRowsInTable} satır`);
+
     await page.click('#searchclr');
     await page.waitForTimeout(150);
+    const catAfterClear = await page.locator('#catwrap .catitem').count();
+    check('arama temizlenince katalog bloğu kapanıyor', catAfterClear === 0);
 
     // Kıyaslama
     await page.locator('.cmpbtn').first().click();

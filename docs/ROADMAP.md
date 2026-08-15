@@ -808,11 +808,34 @@ gözlemi depoya hiç girmiyor.
 **Sonuç.** `validate.py` 0 hata (katalog için üç yeni koruma eklendi ve bozuk veriyle test
 edildi: katalogda puan alanı, kırık bağ, kimlik çakışması), `smoke_test.js` 57/57 → 64/64.
 
-**Kalan iş.** 1.345 katalog kaydı henüz puanlanmadı; her biri Y-02'nin kanıt standardından
-geçerek terfi edebilir. Terfi sırası, katalogdaki kaydın hangi motor/şanzıman ailesini
-açtığına göre belirlenmeli — Y-02'de işe yarayan "en yüksek kaldıraçlı aileden başla"
-yöntemi burada da geçerli. Ayrıca arayüzde (index.html) katalog araçları henüz
-görünmüyor; yalnız statik sayfaları var.
+**Arayüz bağlantısı (aynı gün tamamlandı).** Katalog araçları artık liste ekranında da
+bulunuyor: arama kutusuna yazıldığında tablonun altında "Katalogda var, henüz
+puanlanmadı" bloğu açılıyor ve her kart kendi statik sayfasına bağlanıyor. Blok
+**tablonun içine karıştırılmadı**, çünkü katalog araçlarının puanı yok; null puanlı
+satırlar sıralamayı, ağırlıklandırmayı ve "zayıf halka" işaretlemesini bozardı, üstelik
+kullanıcı puanlanmış bir araçla puanlanmamış birini yan yana görüp ikisinin aynı
+titizlikten geçtiğini sanırdı. Blok yalnız arama yapıldığında görünüyor: 1.345 kaydı her
+açılışta listelemek asıl ürünü görsel olarak boğardı. Arayüze taşınan alanlar bilinçli
+olarak az (kimlik, ad, marka, yıl, beygir, hacim, yakıt, şanzıman tipi, gövde);
+`index.html` 1,20 MB'tan 1,42 MB'a çıktı (+%17,5). Tam kayıt zaten statik sayfada var.
+
+**Bir veri hatası daha bulundu: ad ile yakıt türü çelişkisi.** Arayüz ilk kez ekranda
+görüldüğünde "Volvo S60 2.3 T5 · Dizel" ve "Volvo S60 1.5 T3 · Dizel" satırları göze
+çarptı; Volvo'nun rozet düzeninde T2-T8 benzin, D2-D5 dizeldir. Tarama yapıldığında
+1.641 kaydın **25'inde** aynı türden çelişki bulundu: "Opel Astra 1.6 CDTI" ve "Renault
+Megane 1.9 DTi" benzin olarak, "Volvo V60 1.6 T4" ve "Volvo V70 2.4 D5" ters yönde
+kayıtlı. Bunlar tanımsal rozetler; ikisinden biri kesinlikle yanlış. **Çelişki
+düzeltilmedi, işaretlendi** (`fuel_name_conflict`): hangi alanın yanlış olduğunu
+söylemek teknik özellik sayfasına bakmayı gerektiriyor ve o siteler bu ortamda ağ
+geçidince engelli. MK-18'in dersi burada bağlayıcı — çapraz doğrulamada bulunan her
+çelişki taraf tutulmadan önce elle doğrulanır. İşaret katalog sayfasında Türkçe
+açıklamasıyla görünüyor ve kaydı terfiye kapatıyor.
+
+**Kalan iş.** 1.345 katalog kaydı henüz puanlanmadı; her biri Y-02'nin kanıt
+standardından geçerek terfi edebilir. Terfi sırası, katalogdaki kaydın hangi
+motor/şanzıman ailesini açtığına göre belirlenmeli — Y-02'de işe yarayan "en yüksek
+kaldıraçlı aileden başla" yöntemi burada da geçerli. Ağ erişimi olan bir oturumda
+öncelikli iş, 25 yakıt çelişkisini teknik özellik sayfalarından doğrulayıp düzeltmek.
 
 ---
 

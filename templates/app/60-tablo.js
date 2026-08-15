@@ -93,6 +93,7 @@ function render(){renderHead();
   det.querySelector('.sugbtn').onclick=(e)=>{e.stopPropagation();suggestSourceFor(c);};
  });
  updateSum();
+ renderCatalog();
 }
 function renderRows_softUpdate(){
  document.querySelectorAll('#body tr.main').forEach(tr=>{

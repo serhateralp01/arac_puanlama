@@ -2679,6 +2679,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -2717,6 +2718,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -2755,6 +2757,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -2793,6 +2796,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -2831,6 +2835,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -2869,6 +2874,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [

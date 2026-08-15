@@ -81,6 +81,37 @@ def riskiest(components: dict, n: int = 5) -> list[dict]:
     return scored[:n]
 
 
+def load_catalog_index() -> list[dict]:
+    """Arayüzün arama kutusu için kırpılmış katalog dizini (MK-22).
+
+    Yalnız **yalnız katalogda olan** kayıtlar alınır; puanlanmış bir araca bağlı
+    olanlar zaten tabloda görünüyor ve iki kez listelenmeleri kullanıcıyı yanıltırdı.
+
+    Alanlar bilinçli olarak azdır. Tam katalog kaydı (kaynaklar, kalite işaretleri,
+    nesil, motor kodu) sayfa başına üretilen statik HTML'de zaten var; arayüze yalnız
+    aramanın ve kısa künyenin ihtiyaç duyduğu alanlar taşınıyor. Tam kaydı gömmek
+    index.html'i gereksiz yere birkaç yüz KB büyütürdü (Y-14'ün boyut kaygısı).
+    """
+    cat_dir = DATA / "catalog"
+    if not cat_dir.exists():
+        return []
+    out = []
+    for path in sorted(cat_dir.glob("*.json")):
+        if path.name == "_sources.json":
+            continue
+        for e in json.loads(path.read_text(encoding="utf-8")).get("entries", []):
+            if e.get("scored_car_id") or e.get("possible_scored_car_ids"):
+                continue
+            sp = e["specs"]
+            out.append({
+                "id": e["id"], "n": e["name"], "g": e["brand"], "y": e["years"],
+                "hp": sp["hp"], "f": sp["fuel"], "tx": sp["transmission_type"],
+                "b": sp.get("body_type"), "d": sp.get("displacement_l"),
+            })
+    out.sort(key=lambda x: (x["g"], x["n"]))
+    return out
+
+
 def to_runtime_db(
     criteria: dict, cars: list[dict], sources: dict, engines: dict, transmissions: dict
 ) -> dict:
@@ -157,6 +188,7 @@ def to_runtime_db(
 
     return {
         "cars": cars_runtime,
+        "catalog": load_catalog_index(),
         "sources": sources_runtime,
         "criteria": crit_runtime,
         "head_labels": {c["key"]: c["short"] for c in criteria["criteria"]},

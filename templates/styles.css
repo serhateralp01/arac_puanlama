@@ -395,3 +395,20 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .ilcard h3{font-family:var(--disp);font-weight:600;font-size:16px;margin-bottom:12px}
 .ilcard p{color:var(--dim);font-size:12.8px;line-height:1.6;margin-bottom:10px}
 .ilcard p:last-child{margin-bottom:0}
+
+/* ==== Katalog sonuçları (MK-22) ====
+   Puan tablosundan görsel olarak ayrı durması bilinçli: bu araçların puanı yok ve
+   kullanıcı ikisini karıştırmamalı. Kenarlık ve soluk zemin, bloğun "asıl liste
+   değil, ek bilgi" olduğunu söylüyor. */
+.catwrap{margin-top:22px;padding:16px 18px;border:1px solid var(--rule);
+  border-radius:10px;background:var(--sf2,rgba(127,127,127,.05))}
+.catwrap .cattitle{margin:0 0 6px;font-size:15px;font-weight:600}
+.catwrap .lede{margin:0 0 12px;font-size:13px;line-height:1.55;color:var(--ink2)}
+.catlist{list-style:none;margin:0;padding:0;display:grid;gap:8px;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.catitem{display:flex;flex-direction:column;gap:2px;padding:9px 11px;
+  border:1px solid var(--rule);border-radius:8px;background:var(--sf,transparent)}
+.catname{font-weight:600;font-size:13.5px;text-decoration:none;color:var(--ink)}
+.catname:hover{text-decoration:underline}
+.catspec{font-size:12px;color:var(--ink3,var(--ink2))}
+@media(max-width:600px){.catlist{grid-template-columns:1fr}}

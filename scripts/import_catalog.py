@@ -175,6 +175,48 @@ def fetch_sources(db: pathlib.Path) -> tuple[dict, dict]:
     return srcs, links
 
 
+# Yakıt türünü **tanımsal olarak** belirleyen ticari adlar. Bir "Opel Astra 1.6 CDTI"
+# benzinli olamaz, bir "Volvo S60 T5" dizel olamaz; bunlar üreticinin kendi yakıt
+# rozetleri. Ad ile `fuel` alanı çelişiyorsa ikisinden biri yanlıştır.
+FUEL_TOKENS_DIESEL = [
+    r"\btdi\b", r"\bhdi\b", r"\bbluehdi\b", r"\bcdi\b", r"\bdci\b", r"\bdti\b",
+    r"\bcrdi\b", r"\bjtd\b", r"\bjtdm\b", r"\btdci\b", r"\bcdti\b", r"\bmultijet\b",
+    r"\bskyactiv-?d\b", r"\becoblue\b", r"\bd-?4d\b", r"\bi-?dtec\b", r"\bbitdi\b",
+]
+FUEL_TOKENS_PETROL = [
+    r"\btsi\b", r"\btfsi\b", r"\bgdi\b", r"\bvtec\b", r"\bvvt-?i\b", r"\bthp\b",
+    r"\bmpi\b", r"\bt-?gdi\b", r"\becoboost\b", r"\bvti\b", r"\btce\b",
+    r"\bskyactiv-?g\b", r"\bfsi\b", r"\betorq\b", r"\btwin ?spark\b", r"\becotsi\b",
+]
+
+
+def fuel_conflict(name: str, brand: str, fuel: str) -> bool:
+    """Aracın ticari adı, kayıtlı yakıt türüyle çelişiyor mu.
+
+    Ölçüldüğünde 1.641 kaydın 25'inde çelişki bulundu: "Opel Astra 1.6 CDTI" ve
+    "Renault Megane 1.9 DTi" benzin olarak, "Volvo S60 2.3 T5" ve "Volvo V60 1.6 T4"
+    dizel olarak kayıtlıydı. Çelişki **düzeltilmiyor, işaretleniyor**: hangi alanın
+    yanlış olduğunu söylemek için teknik özellik sayfasına bakmak gerekiyor ve bu
+    ortamda o siteler ağ geçidince engelli. MK-18'in dersi burada bağlayıcı — çapraz
+    doğrulamada bulunan her çelişki, taraf tutmadan önce elle doğrulanır. İşaret
+    kaydı terfiye kapatır ve katalog sayfasında görünür kalır.
+    """
+    n = norm(name)
+    diesel = any(re.search(p, n) for p in FUEL_TOKENS_DIESEL)
+    petrol = any(re.search(p, n) for p in FUEL_TOKENS_PETROL)
+    if brandkey(brand) == "volvo":
+        # Volvo'nun kendi rozet düzeni: T2-T8 benzin, D2-D5 dizel.
+        if re.search(r"\bt[2-8]\b", n):
+            petrol = True
+        if re.search(r"\bd[2-5]\b", n):
+            diesel = True
+    if diesel and not petrol:
+        return fuel != "Dizel"
+    if petrol and not diesel:
+        return fuel != "Benzin"
+    return False
+
+
 def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str | None]:
     """Bir P2.1 varyantından katalog kaydı üretir. Reddedilirse (None, sebep) döner."""
     hp = v.get("power_hp")
@@ -227,7 +269,9 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
         },
         "scored_car_id": None,
         "possible_scored_car_ids": [],
-        "quality_flags": sorted(set(quality.get(v["variant_id"], []))),
+        "quality_flags": sorted(set(quality.get(v["variant_id"], []))
+                                | ({"fuel_name_conflict"}
+                                   if fuel_conflict(name, brand, fuel) else set())),
         "sources": sorted(set(links.get(v["variant_id"], []))),
         "provenance": {
             "dataset": DATASET,

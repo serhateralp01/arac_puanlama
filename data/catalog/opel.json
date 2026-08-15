@@ -530,6 +530,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -568,6 +569,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -606,6 +608,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -908,6 +911,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -1387,6 +1391,7 @@
       "scored_car_id": "opel-insignia-1-6-t",
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -1425,6 +1430,7 @@
       "scored_car_id": "opel-insignia-1-6-t",
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -1463,6 +1469,7 @@
       "scored_car_id": "opel-insignia-1-6-t",
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -1501,6 +1508,7 @@
       "scored_car_id": "opel-insignia-1-6-t",
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -1539,6 +1547,7 @@
       "scored_car_id": "opel-insignia-1-6-t",
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -1577,6 +1586,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
@@ -2514,6 +2524,7 @@
       "scored_car_id": "opel-vectra-c-1-8-2-0",
       "possible_scored_car_ids": [],
       "quality_flags": [
+        "fuel_name_conflict",
         "generic_transmission_identity"
       ],
       "sources": [
