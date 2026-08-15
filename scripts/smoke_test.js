@@ -369,6 +369,33 @@ async function dumpDebug(label) {
     const engIssues = await page.locator('.issue').count();
     check('motor sayfası bilinen arızaları listeliyor', engIssues >= 1, `${engIssues} arıza`);
 
+    // --- Katalog sayfaları (MK-22) ---
+    // Bu sayfaların tek kritik şartı, puanı olmayan bir aracı puanı varmış gibi
+    // göstermemeleri. Kontroller tam olarak onu bekliyor: puan tablosu olmayacak,
+    // "henüz puanlanmadı" ifadesi görünecek.
+    const catDir = path.join(ROOT, 'katalog');
+    const catFiles = fs.existsSync(catDir)
+      ? fs.readdirSync(catDir).filter((f) => f.endsWith('.html'))
+      : [];
+    check('katalog sayfaları üretildi', catFiles.length > 500, `${catFiles.length} sayfa`);
+
+    const catPage = 'file://' + path.join(catDir, catFiles[0]);
+    await page.goto(catPage);
+    const catTitle = await page.title();
+    check('katalog sayfası puanlanmadığını başlıkta söylüyor',
+      /puanlanmad/i.test(catTitle), catTitle);
+    const catH1 = await page.locator('h1').count();
+    check('katalog sayfasında tek h1 var', catH1 === 1, `${catH1} adet`);
+    const catScores = await page.locator('.scores, .score-row').count();
+    check('katalog sayfasında puan tablosu YOK', catScores === 0, `${catScores} puan tablosu`);
+    const catSpecs = await page.locator('table.kv tr').count();
+    check('katalog sayfası teknik künyeyi listeliyor', catSpecs >= 5, `${catSpecs} satır`);
+    const catLd = await page.locator('script[type="application/ld+json"]').count();
+    check('katalog sayfasında yapılandırılmış veri var', catLd === 1, `${catLd} blok`);
+    const catOverflow = await page.evaluate(
+      () => document.documentElement.scrollWidth <= window.innerWidth + 1);
+    check('katalog sayfasında yatay taşma yok', catOverflow);
+
     if (ALWAYS_SCREENSHOT) await dumpDebug('02-tum-kontroller-sonrasi');
   } catch (e) {
     // Beklenmedik bir hata (ör. bir seçici hiç bulunamadı) çıplak bir stack

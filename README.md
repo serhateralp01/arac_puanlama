@@ -8,9 +8,16 @@ tek sayfa değildir; araç listesi, kıyaslama, kriterler ve kaynaklar kendi ekr
 durur ve aralarında `#liste`, `#kiyaslama` gibi adres çubuğu yollarıyla geçilir. Bu
 ayrımın gerekçesi `docs/ARCHITECTURE.md` MK-07 kaydında.
 
-Şu an listede **278 araç, 104 motor ailesi ve 53 şanzıman kutusu kaydı** bulunuyor ve
-liste genişletiliyor. Araçların 236'sı dört veya daha fazla bağımsız kaynağa dayandığı
-için "doğrulanmış" sayılıyor. Listeye girmek için tek şart aracın otomatik şanzımanla satılmış ve
+Depo iki katman taşıyor. **Puanlanmış katman** bugün **278 araç, 104 motor ailesi ve 53
+şanzıman kutusu** içeriyor; bu araçların **hepsi** dört veya daha fazla bağımsız kaynağa
+dayandığı için "doğrulanmış" sayılıyor ve her puanın arkasında yazılı bir gerekçe var.
+**Olgusal teknik katalog** (`data/catalog/`) ise **1.641 araç–motor–şanzıman
+kombinasyonu** taşıyor: güç, tork, çekiş, motor hacmi, gövde tipi, vites sayısı, kavrama
+tipi ve teknik kaynak adresi gibi ölçülebilir alanlar. Katalog katmanında **puan yoktur**;
+bir kayıt deponun kanıt standardından geçtiğinde puanlanmış katmana terfi eder. Ayrımın
+gerekçesi `docs/ARCHITECTURE.md` MK-22 kaydında.
+
+Listeye girmek için tek şart aracın otomatik şanzımanla satılmış ve
 Türkiye piyasasında bulunabilir olmasıdır; beygir, model yılı veya gövde tipi üzerinden
 bir alt sınır yoktur. Daraltma işini kullanıcı filtrelerle yapar.
 

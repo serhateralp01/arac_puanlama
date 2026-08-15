@@ -23,7 +23,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
 | Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
-| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 57/57 duman testi (statik sayfa/SEO kontrolleri dahil) |
+| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 64/64 duman testi (statik sayfa, SEO ve katalog kontrolleri dahil) |
 | `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 163/278 araç). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi.** 19 araç 2026-08-13 tarihli piyasa gözlemine bağlandı (`price_reference` bloğu: tarih, yöntem, örneklem, sınırlılık). Kalan 259 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
@@ -35,6 +35,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
 | Kaynak derinliği (Y-02) | **Bitti.** 278/278 araç "doğrulanmış" (4+ kaynak), kısmi kaynaklı araç kalmadı, bileşen ailesi seviyesinde boş `known_issues` kalmadı, ortalama 5,48 kaynak/araç — Y-01'in yeni eklediği her araç bu standarda ayrıca getirilmeli |
 | Araç listesi (Y-01) | 154 → 278 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
+| Teknik katalog (MK-22) | **1.641 kayıt** (`data/catalog/`, marka başına bir dosya). Olgusal katmandır: güç, tork, çekiş, hacim, gövde, vites sayısı, kavrama tipi, motor kodu ve teknik kaynak adresi taşır; puan taşımaz. 281 kayıt puanlanmış bir araca bağlı, 1.345'i yalnız katalogda ve kendi statik sayfası var. |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
 | Veri doğruluğu (MK-18) | **Dış veri setiyle çapraz doğrulama yapıldı.** 220 araç bağımsız bir katalogla karşılaştırıldı; motor/şanzıman ailesinde 0 çelişki, beygir/torkta 10 çelişki bulundu ve doğrulanan 5 gerçek hata düzeltildi (en ağırı: bir 1.6 dizelde 400 Nm ve bir aracın tamamen yanlış motor ailesine bağlı olması). |
@@ -756,6 +757,62 @@ kaynaklı araç da yok. Bileşen ailesi seviyesinde de `known_issues` boş kalma
 tur). Y-02 bu iki ölçütle **fiilen tamamlandı**; kalan iş yeni araç eklendikçe (Y-01) o
 araçları da aynı standarda getirmek, ve mevcut kaynakların derinliğini (ortalama 5,48)
 zamanla daha da artırmak.
+
+---
+
+## Y-19 · Dış veri paketinin tam kullanımı: olgusal katalog katmanı — **bitti (2026-08-15)**
+
+**Sorun neydi.** P2.1 paketi 1.641 araç–motor–şanzıman kombinasyonu, 595 motor, 116
+şanzıman ve 1.766 kaynak taşıyordu; depo bunun yalnızca fiyat katmanını (MK-19) ve altı
+aday aracı kullanmıştı. Geri kalan veri kullanılmıyordu ve bu gerçek bir kayıptı: 1.617
+vites sayısı, 1.607 teknik kaynak adresi, 1.625 tork değeri ve bizde hiç bulunmayan 18
+marka (Jaguar, Land Rover, Lexus, Porsche ve diğerleri) dışarıda duruyordu.
+
+**Neden daha önce alınmamıştı ve neyin değiştiği.** MK-21 "dış katalog toplu olarak içe
+aktarılmaz" demişti. Gerekçesi doğruydu ve bugün sayıyla da doğrulandı: bizde karşılığı
+olmayan 1.101 varyantın **451'i `p2-inferred-prior`**, yani puanı araştırılmamış. Bunları
+puanlı almak deponun kanıt zincirini bir gecede seyreltirdi. MK-21'in fazla geniş
+davrandığı yer, içe aktarmayı **tek bir şey** sayması: bir güç değeri ölçümdür, bir
+güvenilirlik puanı yargıdır. MK-22 sınırı yeniden çizdi: **olgu toplu alınır, yargı tek
+tek kazanılır.**
+
+**Yapılan.** `data/catalog/` katmanı kuruldu (marka başına bir dosya, 48 dosya, 1.641
+kayıt) ve `scripts/import_catalog.py` ile üretiliyor. `scripts/enrich_from_catalog.py`
+puanlanmış 182 araca olgusal alanları taşıdı: vites sayısı (152), kavrama tipi (63),
+üretici motor kodu (12), eksik tork (5). `build_pages.py` katalog kayıtları için de sayfa
+üretiyor: **435 → 1.780 statik sayfa.**
+
+**İki gerçek kusur bulundu ve düzeltildi.**
+
+- **Eşleştirme modeli hiç karşılaştırmıyordu.** İlk sürüm marka+beygir+hacim üçlüsüne
+  bakıyordu ve farklı modelleri bağlıyordu: bir Opel Vectra kaydı Astra satırına, bir Seat
+  Arona kaydı Ibiza ve Leon satırlarına eşleşti. Ayrıca yıl ve şanzıman tipi kontrolleri
+  yalnızca bir kayda birden çok araç düştüğünde çalışıyordu; oysa pratikte tersi oluyor ve
+  bir CR-V III kaydı 2002-2006 nesline de bağlanmıştı. Model adı, yıl örtüşmesi ve
+  şanzıman tipi artık her bağ için zorunlu. Bağ sayısı 451'den 281'e indi — azalma kayıp
+  değil, yanlış bağın temizlenmesi.
+- **`engine_code` alanının çoğu sahteydi.** P2.1'de dolu 171 değerin 162'si aslında
+  deponun kendi `engine_id` değeriydi (ör. `engine_code = "bmw-m54"`). Yazılsalardı
+  `engine_id` başka bir ada kopyalanmış olurdu. Süzüldü; geriye 12 gerçek üretici kodu
+  kaldı (M54B25, N43B20, CJBA, 1ZR-FAE gibi).
+
+**Kalite gizlenmedi.** 836 katalog kaydı `quality_flags` taşıyor (798'i
+`generic_transmission_identity`). Bunlar katalog sayfasında da görünüyor, çünkü bir kayıt
+puanlanmış katmana terfi ederken önce bu eksiklerin çözülmesi gerekiyor.
+
+**Kaynak hakları gözetildi.** P2.1 sicilinin yeniden dağıtım politikası "kısa olgusal alan
+ve kaynak URL'si; uzun metin, tablo veya görsel kopyası yok" diyor; ilan kaynakları için
+"toplu ham ilan kopyası yok". Katalog tam olarak bu iznin içinde kalıyor ve 2.071 ham ilan
+gözlemi depoya hiç girmiyor.
+
+**Sonuç.** `validate.py` 0 hata (katalog için üç yeni koruma eklendi ve bozuk veriyle test
+edildi: katalogda puan alanı, kırık bağ, kimlik çakışması), `smoke_test.js` 57/57 → 64/64.
+
+**Kalan iş.** 1.345 katalog kaydı henüz puanlanmadı; her biri Y-02'nin kanıt standardından
+geçerek terfi edebilir. Terfi sırası, katalogdaki kaydın hangi motor/şanzıman ailesini
+açtığına göre belirlenmeli — Y-02'de işe yarayan "en yüksek kaldıraçlı aileden başla"
+yöntemi burada da geçerli. Ayrıca arayüzde (index.html) katalog araçları henüz
+görünmüyor; yalnız statik sayfaları var.
 
 ---
 

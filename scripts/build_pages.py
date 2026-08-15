@@ -45,6 +45,7 @@ BASE_URL = "https://serhateralp01.github.io/arac_puanlama"
 CAR_DIR = ROOT / "arac"
 ENGINE_DIR = ROOT / "motor"
 TRANS_DIR = ROOT / "sanziman"
+CATALOG_DIR = ROOT / "katalog"
 SITEMAP = ROOT / "sitemap.xml"
 ROBOTS = ROOT / "robots.txt"
 
@@ -131,6 +132,29 @@ def load():
              if not k.startswith("_")}
     cars = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((DATA / "cars").glob("*.json"))]
     return criteria, cars, sources, engines, trans
+
+
+def load_catalog() -> tuple[list[dict], dict]:
+    """Olgusal katalog kayıtları ve katalog kaynak sicili (MK-22).
+
+    Sayfa yalnızca **yalnız katalogda olan** kayıtlar için üretilir: puanlanmış bir
+    araca bağlı olanların kendi sayfası zaten var, belirsiz eşleşenler ise bir
+    puanlanmış aracın yakın kopyası olabilir. İkisini de basmak, arama motoruna aynı
+    içeriği iki adresten sunmak olurdu.
+    """
+    cat_dir = DATA / "catalog"
+    if not cat_dir.exists():
+        return [], {}
+    entries = []
+    for path in sorted(cat_dir.glob("*.json")):
+        if path.name == "_sources.json":
+            continue
+        entries.extend(json.loads(path.read_text(encoding="utf-8")).get("entries", []))
+    entries = [x for x in entries
+               if not x.get("scored_car_id") and not x.get("possible_scored_car_ids")]
+    src_path = cat_dir / "_sources.json"
+    srcs = json.loads(src_path.read_text(encoding="utf-8")).get("sources", {}) if src_path.exists() else {}
+    return entries, srcs
 
 
 def shell(*, title, description, canonical, body, jsonld=None) -> str:
@@ -400,8 +424,109 @@ def component_page(cid, comp, kind, cars, sources) -> tuple[str, str]:
         canonical=f"{BASE_URL}/{kind}/{cid}.html", body="\n".join(parts))
 
 
+CATALOG_FLAG_TR = {
+    "generic_transmission_identity":
+        "Şanzıman kutusunun tam ailesi kaynak veride çözülmemiş; tip doğru ama kutu "
+        "modeli kesinleşmemiş.",
+    "missing_torque": "Tork değeri kaynak veride eksik.",
+    "missing_displacement": "Motor hacmi kaynak veride eksik.",
+    "missing_technical_url": "Teknik özellik sayfasının adresi kaynak veride eksik.",
+}
+
+
+def catalog_page(entry: dict, cat_sources: dict) -> tuple[str, str]:
+    """Yalnız katalogda olan bir araç için sayfa.
+
+    Bu sayfanın tek bir dürüstlük şartı var: **puan yokmuş gibi davranmamak ve puan
+    varmış gibi de göstermemek.** Ziyaretçi aradığı aracı buluyor, teknik künyesini ve
+    kaynağını görüyor, ama "bu araç henüz puanlanmadı" cümlesini de görüyor. Sahte bir
+    puan göstermek, aracı hiç göstermemekten kötüdür (MK-22).
+    """
+    sp = entry["specs"]
+    name = entry["name"]
+    rows = [
+        ("Üretim yılı", entry["years"]),
+        ("Motor gücü", f"{sp['hp']} bg"),
+        ("Tork", f"{sp['torque_nm']:.0f} Nm" if sp.get("torque_nm") else None),
+        ("Motor hacmi", f"{sp['displacement_l']} L" if sp.get("displacement_l") else None),
+        ("Yakıt", sp.get("fuel")),
+        ("Çekiş", sp.get("drivetrain")),
+        ("Gövde tipi", sp.get("body_type")),
+        ("Şanzıman tipi", sp.get("transmission_type")),
+        ("Vites sayısı", f"{sp['gears']} ileri" if sp.get("gears") else None),
+        ("Kavrama", sp.get("clutch")),
+        ("Motor kodu", sp.get("engine_code")),
+        ("Nesil", entry.get("generation")),
+    ]
+    table = "".join(
+        f"<tr><th>{e(k)}</th><td>{e(v)}</td></tr>" for k, v in rows if v)
+
+    flags = ""
+    if entry.get("quality_flags"):
+        items = "".join(
+            f"<li>{e(CATALOG_FLAG_TR.get(f, f))}</li>" for f in entry["quality_flags"])
+        flags = (
+            "<section><h2>Bu kaydın bilinen sınırlılıkları</h2>"
+            "<p>Kaynak veri paketi bu kayıt için aşağıdaki eksikleri kendi kalite "
+            "sicilinde işaretlemiş. Gizlenmiyorlar, çünkü bu araç ileride puanlanırken "
+            "önce bunların çözülmesi gerekiyor.</p>"
+            f"<ul>{items}</ul></section>")
+
+    src_items = []
+    tech = entry["provenance"].get("technical_url")
+    if tech:
+        src_items.append(f'<li><a href="{e(tech)}" rel="nofollow noopener">Teknik özellik sayfası</a></li>')
+    for sid in entry.get("sources", [])[:6]:
+        s = cat_sources.get(sid)
+        if s and s.get("url"):
+            label = s.get("publisher") or s["url"]
+            src_items.append(f'<li><a href="{e(s["url"])}" rel="nofollow noopener">{e(label)}</a></li>')
+    src_html = (f"<section><h2>Kaynaklar</h2><ul>{''.join(src_items)}</ul></section>"
+                if src_items else "")
+
+    desc = (f"{name} ({entry['years']}) teknik künyesi: {sp['hp']} bg"
+            + (f", {sp['torque_nm']:.0f} Nm" if sp.get("torque_nm") else "")
+            + f", {sp.get('transmission_type','otomatik')}. "
+            "Bu araç veri tabanımızda kayıtlı ama henüz puanlanmadı.")
+
+    body = f"""
+<h1>{e(name)}</h1>
+<p class="lede">Bu araç veri tabanımızda <strong>teknik künyesiyle kayıtlı</strong>, ama
+<strong>henüz puanlanmadı</strong>. Aşağıdaki bilgiler ölçülebilir olgulardır ve kaynağı
+gösterilmiştir; motor ve şanzıman güvenilirliğine dair bir değerlendirme içermezler.</p>
+<section><h2>Teknik künye</h2><table class="kv">{table}</table></section>
+{flags}
+<section><h2>Neden puan yok?</h2>
+<p>Bu depoda bir aracın puan alması için motor ve şanzıman ailesinin arıza sicilinin
+araştırılmış, en az dört bağımsız kaynağa bağlanmış ve her puanın gerekçesinin yazılmış
+olması gerekiyor. Bu araç o aşamadan henüz geçmedi. Elimizde puanı olmayan bir araç için
+tahmini bir puan üretmek yerine, aracı olduğu gibi göstermeyi tercih ediyoruz:
+uydurulmuş bir puan, hiç puan olmamasından daha yanıltıcıdır.</p>
+<p><a href="{BASE_URL}/">Puanlanmış araç listesine göz atın</a> — aynı motor veya şanzıman
+ailesini paylaşan bir araç zaten puanlanmış olabilir.</p></section>
+{src_html}
+"""
+    jsonld = {
+        "@context": "https://schema.org", "@type": "Vehicle", "name": name,
+        "brand": {"@type": "Brand", "name": entry["brand"]},
+        "fuelType": sp.get("fuel"),
+        "vehicleTransmission": sp.get("transmission_type"),
+    }
+    if sp.get("hp"):
+        jsonld["vehicleEngine"] = {"@type": "EngineSpecification",
+                                   "enginePower": {"@type": "QuantitativeValue",
+                                                   "value": sp["hp"], "unitCode": "BHP"}}
+    return f"{entry['id']}.html", shell(
+        title=f"{name} teknik özellikleri ({entry['years']}) — henüz puanlanmadı",
+        description=desc[:158],
+        canonical=f"{BASE_URL}/katalog/{entry['id']}.html",
+        body=body, jsonld=jsonld,
+    )
+
+
 def build_all():
     criteria, cars, sources, engines, trans = load()
+    catalog, cat_sources = load_catalog()
     pages: dict[pathlib.Path, str] = {}
 
     for car in cars:
@@ -413,6 +538,9 @@ def build_all():
     for cid, comp in trans.items():
         fname, content = component_page(cid, comp, "sanziman", cars, sources)
         pages[TRANS_DIR / fname] = content
+    for entry in catalog:
+        fname, content = catalog_page(entry, cat_sources)
+        pages[CATALOG_DIR / fname] = content
 
     urls = [f"{BASE_URL}/"] + [
         f"{BASE_URL}/{p.parent.name}/{p.name}" for p in sorted(pages, key=lambda x: str(x))
@@ -443,7 +571,7 @@ def main() -> int:
         return 0
 
     # Silinen bir araç kaydının sayfası ortada kalmasın diye klasörler sıfırlanıyor.
-    for d in (CAR_DIR, ENGINE_DIR, TRANS_DIR):
+    for d in (CAR_DIR, ENGINE_DIR, TRANS_DIR, CATALOG_DIR):
         if d.exists():
             shutil.rmtree(d)
         d.mkdir(parents=True)
@@ -456,7 +584,8 @@ def main() -> int:
     print(f"{len(pages)} statik sayfa yazıldı ({total:,} bayt).")
     print(f"  araç: {len(list(CAR_DIR.glob('*.html')))} · "
           f"motor: {len(list(ENGINE_DIR.glob('*.html')))} · "
-          f"şanzıman: {len(list(TRANS_DIR.glob('*.html')))}")
+          f"şanzıman: {len(list(TRANS_DIR.glob('*.html')))} · "
+          f"katalog: {len(list(CATALOG_DIR.glob('*.html')))}")
     print(f"sitemap.xml ve robots.txt yazıldı ({len(pages) + 1} adres).")
     return 0
 
