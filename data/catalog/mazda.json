@@ -237,7 +237,7 @@
         "transmission_name": "4F27E",
         "gears": 4,
         "clutch": null,
-        "engine_code": "mazda-lf",
+        "engine_code": null,
         "engine_name": "LF-DE"
       },
       "scored_car_id": "mazda-6-2-0-gh",
@@ -310,7 +310,7 @@
         "transmission_name": "CD4E",
         "gears": 4,
         "clutch": null,
-        "engine_code": "mazda-fs",
+        "engine_code": null,
         "engine_name": "FS-DE"
       },
       "scored_car_id": "mazda-626-2-0",

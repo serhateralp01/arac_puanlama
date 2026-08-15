@@ -21,14 +21,11 @@
         "transmission_name": "EAT8",
         "gears": 8,
         "clutch": null,
-        "engine_code": "psa-puretech-12",
+        "engine_code": null,
         "engine_name": "PureTech 130"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-2-1-2-puretech-eat8",
-        "peugeot-3008-2-1-2-puretech-eat8"
-      ],
+      "scored_car_id": "peugeot-2008-2-1-2-puretech-eat8",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-mobil-peugeot-2008-1-2-puretech-eat8",
@@ -60,14 +57,11 @@
         "transmission_name": "DP0/AL4 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "psa-ep6-thp",
+        "engine_code": null,
         "engine_name": "EP6DT"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-1-6-thp",
-        "peugeot-508-1-6-thp"
-      ],
+      "scored_car_id": "peugeot-2008-1-6-thp",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-nci-el-otomobil-peugeot-2008-1-6-thp",
@@ -99,14 +93,11 @@
         "transmission_name": "DP0/AL4 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "psa-tu5",
+        "engine_code": null,
         "engine_name": "TU5"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-206-1-6",
-        "peugeot-307-1-6"
-      ],
+      "scored_car_id": "peugeot-206-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-m-ikinci-el-otomobil-peugeot-206-1-6",
@@ -141,11 +132,8 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-206-1-6",
-        "peugeot-307-1-6"
-      ],
+      "scored_car_id": "peugeot-206-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -183,11 +171,8 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-206-1-6",
-        "peugeot-307-1-6"
-      ],
+      "scored_car_id": "peugeot-206-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -224,11 +209,8 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-206-1-6",
-        "peugeot-307-1-6"
-      ],
+      "scored_car_id": "peugeot-206-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -265,11 +247,8 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-206-1-6",
-        "peugeot-307-1-6"
-      ],
+      "scored_car_id": "peugeot-206-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -307,7 +286,7 @@
         "engine_code": "EP6",
         "engine_name": "1.6L 16V VTi"
       },
-      "scored_car_id": "peugeot-308-3d-1-6-vti-4at",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -419,7 +398,7 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": "peugeot-308-3d-1-6-vti-4at",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -458,7 +437,7 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": "peugeot-308-3d-1-6-vti-4at",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -497,11 +476,7 @@
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-3008-1-6-bluehdi",
-        "peugeot-308-1-6-bluehdi",
-        "peugeot-308-3d-1-6-vti-4at"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -577,10 +552,7 @@
         "engine_name": "1.2L PureTech 6AT FWD (131 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-2-1-2-puretech-eat8",
-        "peugeot-3008-2-1-2-puretech-eat8"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -614,14 +586,11 @@
         "transmission_name": "EAT8",
         "gears": 8,
         "clutch": null,
-        "engine_code": "psa-puretech-12",
+        "engine_code": null,
         "engine_name": "PureTech 130"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-2-1-2-puretech-eat8",
-        "peugeot-3008-2-1-2-puretech-eat8"
-      ],
+      "scored_car_id": "peugeot-3008-2-1-2-puretech-eat8",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-mobil-peugeot-3008-1-2-puretech-eat8",
@@ -657,10 +626,7 @@
         "engine_name": "1.6L e-HDi"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-208-1-6-e-hdi",
-        "peugeot-301-1-6-hdi"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-otomobil-peugeot-3008-1-6-e-hdi-egs6",
@@ -692,7 +658,7 @@
         "transmission_name": "DP0/AL4 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "psa-ep6-vti",
+        "engine_code": null,
         "engine_name": "EP6"
       },
       "scored_car_id": "peugeot-301-1-6-vti-otomatik",
@@ -804,14 +770,11 @@
         "transmission_name": "DP0/AL4 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "psa-tu5",
+        "engine_code": null,
         "engine_name": "TU5"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-206-1-6",
-        "peugeot-307-1-6"
-      ],
+      "scored_car_id": "peugeot-307-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-m-ikinci-el-otomobil-peugeot-307-1-6",
@@ -846,11 +809,8 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-206-1-6",
-        "peugeot-307-1-6"
-      ],
+      "scored_car_id": "peugeot-307-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -888,11 +848,8 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-206-1-6",
-        "peugeot-307-1-6"
-      ],
+      "scored_car_id": "peugeot-307-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -929,11 +886,8 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-206-1-6",
-        "peugeot-307-1-6"
-      ],
+      "scored_car_id": "peugeot-307-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -970,11 +924,8 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-206-1-6",
-        "peugeot-307-1-6"
-      ],
+      "scored_car_id": "peugeot-307-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1011,11 +962,8 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-206-1-6",
-        "peugeot-307-1-6"
-      ],
+      "scored_car_id": "peugeot-307-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1053,10 +1001,7 @@
         "engine_name": "1.2L THP Puretech 6AT (130 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-2-1-2-puretech-eat8",
-        "peugeot-3008-2-1-2-puretech-eat8"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1094,10 +1039,7 @@
         "engine_name": "1.2L PureTech 6AT FWD (131 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-2-1-2-puretech-eat8",
-        "peugeot-3008-2-1-2-puretech-eat8"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1135,10 +1077,7 @@
         "engine_name": "1.2L PureTech 6AT FWD (131 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-2-1-2-puretech-eat8",
-        "peugeot-3008-2-1-2-puretech-eat8"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1289,11 +1228,8 @@
         "engine_code": null,
         "engine_name": "1.6L HDi 6AT FWD (112 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-3008-1-6-bluehdi",
-        "peugeot-308-1-6-bluehdi"
-      ],
+      "scored_car_id": "peugeot-308-1-6-bluehdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1330,11 +1266,8 @@
         "engine_code": null,
         "engine_name": "1.6L HDi 6AT FWD (112 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-3008-1-6-bluehdi",
-        "peugeot-308-1-6-bluehdi"
-      ],
+      "scored_car_id": "peugeot-308-1-6-bluehdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1368,14 +1301,11 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-dv6",
+        "engine_code": null,
         "engine_name": "DV6"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-3008-1-6-bluehdi",
-        "peugeot-308-1-6-bluehdi"
-      ],
+      "scored_car_id": "peugeot-308-1-6-bluehdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--el-otomobil-peugeot-308-1-6-bluehdi",
@@ -1407,14 +1337,11 @@
         "transmission_name": "Aisin AF40-6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-ep6-thp",
+        "engine_code": null,
         "engine_name": "EP6DT"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-308-1-6-thp",
-        "peugeot-508-1-6-thp"
-      ],
+      "scored_car_id": "peugeot-308-1-6-thp",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-inci-el-otomobil-peugeot-308-1-6-thp",
@@ -1601,11 +1528,8 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-308-1-6-thp",
-        "peugeot-508-1-6-thp"
-      ],
+      "scored_car_id": "peugeot-308-1-6-thp",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1642,11 +1566,8 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-308-1-6-thp",
-        "peugeot-508-1-6-thp"
-      ],
+      "scored_car_id": "peugeot-308-1-6-thp",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1721,12 +1642,8 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-1-6-thp",
-        "peugeot-308-1-6-thp",
-        "peugeot-508-1-6-thp"
-      ],
+      "scored_car_id": "peugeot-308-1-6-thp",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1760,7 +1677,7 @@
         "transmission_name": "DP0/AL4 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "psa-ep6-vti",
+        "engine_code": null,
         "engine_name": "EP6"
       },
       "scored_car_id": "peugeot-308-3d-1-6-vti-4at",
@@ -1796,7 +1713,7 @@
         "transmission_name": "EAT8",
         "gears": 8,
         "clutch": null,
-        "engine_code": "psa-dw10",
+        "engine_code": null,
         "engine_name": "DW10"
       },
       "scored_car_id": "peugeot-308-2-2-0-bluehdi-gt-8at",
@@ -2212,10 +2129,7 @@
         "engine_name": "1.6L e-HDi"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-208-1-6-e-hdi",
-        "peugeot-301-1-6-hdi"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-otomobil-peugeot-5008-1-6-e-hdi-egs6",
@@ -2250,7 +2164,7 @@
         "engine_code": null,
         "engine_name": "1.6L HDi 6AT FWD (112 HP)"
       },
-      "scored_car_id": "peugeot-301-1-6-vti-otomatik",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2288,7 +2202,7 @@
         "engine_code": null,
         "engine_name": "1.6L HDi 6AT FWD (112 HP)"
       },
-      "scored_car_id": "peugeot-301-1-6-vti-otomatik",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2326,7 +2240,7 @@
         "engine_code": null,
         "engine_name": "1.5L BlueHDI 8AT FWD (130 HP)"
       },
-      "scored_car_id": "peugeot-5008-1-5-bluehdi-eat8",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2364,7 +2278,7 @@
         "engine_code": null,
         "engine_name": "1.5L BlueHDI 8AT FWD (130 HP)"
       },
-      "scored_car_id": "peugeot-5008-1-5-bluehdi-eat8",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2399,15 +2313,11 @@
         "transmission_name": "Aisin AF40-6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-ep6-thp",
+        "engine_code": null,
         "engine_name": "EP6DT"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-1-6-thp",
-        "peugeot-308-1-6-thp",
-        "peugeot-508-1-6-thp"
-      ],
+      "scored_car_id": "peugeot-508-1-6-thp",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-inci-el-otomobil-peugeot-508-1-6-thp",
@@ -2443,10 +2353,7 @@
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-3008-1-6-bluehdi",
-        "peugeot-308-1-6-bluehdi"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2484,10 +2391,7 @@
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-3008-1-6-bluehdi",
-        "peugeot-308-1-6-bluehdi"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2524,7 +2428,7 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": "peugeot-308-1-6-thp",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2562,12 +2466,8 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-1-6-thp",
-        "peugeot-308-1-6-thp",
-        "peugeot-508-1-6-thp"
-      ],
+      "scored_car_id": "peugeot-508-1-6-thp",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2791,7 +2691,7 @@
         "transmission_name": "Aisin AF40-6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-dw10",
+        "engine_code": null,
         "engine_name": "DW10"
       },
       "scored_car_id": "peugeot-508-2-0-hdi",
@@ -2906,7 +2806,7 @@
         "engine_code": null,
         "engine_name": "2.0L BlueHDI 6AT FWD (180 HP)"
       },
-      "scored_car_id": "peugeot-508-2-0-hdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2944,7 +2844,7 @@
         "engine_code": null,
         "engine_name": "2.0L BlueHDI 6AT FWD (180 HP)"
       },
-      "scored_car_id": "peugeot-308-2-2-0-bluehdi-gt-8at",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2984,7 +2884,7 @@
         "engine_code": null,
         "engine_name": "2.0L BlueHDI 6AT FWD (180 HP)"
       },
-      "scored_car_id": "peugeot-308-2-2-0-bluehdi-gt-8at",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3395,14 +3295,11 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-dv6",
+        "engine_code": null,
         "engine_name": "DV6"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-3008-1-6-bluehdi",
-        "peugeot-308-1-6-bluehdi"
-      ],
+      "scored_car_id": "peugeot-3008-1-6-bluehdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "au7o_peugeot308_known_issues",
@@ -3437,14 +3334,11 @@
         "transmission_name": "EGS6 6AMT",
         "gears": 6,
         "clutch": "Kuru tek kavrama",
-        "engine_code": "psa-dv6",
+        "engine_code": null,
         "engine_name": "DV6"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-208-1-6-e-hdi",
-        "peugeot-301-1-6-hdi"
-      ],
+      "scored_car_id": "peugeot-301-1-6-hdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "au7o_peugeot308_known_issues",
@@ -3477,7 +3371,7 @@
         "transmission_name": "EAT8",
         "gears": 8,
         "clutch": null,
-        "engine_code": "psa-bluehdi-15",
+        "engine_code": null,
         "engine_name": "BlueHDi 130, DV5RC, 1.5 BlueHDi"
       },
       "scored_car_id": "peugeot-5008-1-5-bluehdi-eat8",
@@ -3518,11 +3412,7 @@
         "engine_name": "1.6L THP"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-2008-1-6-thp",
-        "peugeot-308-1-6-thp",
-        "peugeot-508-1-6-thp"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--el-otomobil-peugeot-rcz-1-6-thp-6at",
@@ -3558,10 +3448,7 @@
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "peugeot-308-1-6-thp",
-        "peugeot-508-1-6-thp"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],

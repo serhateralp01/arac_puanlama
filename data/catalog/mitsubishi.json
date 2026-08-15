@@ -242,7 +242,7 @@
         "transmission_name": "INVECS-III CVT",
         "gears": null,
         "clutch": "Çelik kayış",
-        "engine_code": "mitsubishi-4a92",
+        "engine_code": null,
         "engine_name": "4A92"
       },
       "scored_car_id": "mitsubishi-lancer-1-6",

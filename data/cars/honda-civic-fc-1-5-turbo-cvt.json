@@ -15,7 +15,9 @@
     "engine_id": "honda-l15b7-turbo",
     "kerb_weight_kg": 1345,
     "torque_nm": 220,
-    "fuel_consumption_l_100km": 6.7
+    "fuel_consumption_l_100km": 6.7,
+    "gears": 7,
+    "clutch": "Kayış/zincir-kasnak"
   },
   "price_band_k_try": [
     950,
@@ -80,5 +82,19 @@
       "reasoning": "Bu aracın model yılı ortalaması 2018.5, yani 2026 itibarıyla yaşı yaklaşık 7.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 16.5. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 69 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "honda-civic-1-4-174-bg-174",
+      "honda-civic-1-4-174-bg-174-2",
+      "honda-civic-1-4-174-bg-174-3",
+      "honda-civic-1-4-174-bg-174-4",
+      "honda-civic-1-6-174-bg-174",
+      "honda-civic-fc-1-5-vtec-turbo-cvt-174"
+    ],
+    "generation": null,
+    "technical_url": null,
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

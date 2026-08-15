@@ -14,7 +14,8 @@
     "transmission_id": "mb-5g-tronic",
     "body_type": "Sedan",
     "engine_id": "mb-om612",
-    "torque_nm": 400
+    "torque_nm": 400,
+    "gears": 5
   },
   "price_band_k_try": [
     480,
@@ -74,5 +75,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2003.0, yani 2026 itibarıyla yaşı yaklaşık 23.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "mercedes-benz-mercedes-c270-cdi-170"
+    ],
+    "generation": "C270",
+    "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

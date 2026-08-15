@@ -13,7 +13,8 @@
     "transmission_id": "toyota-multidrive",
     "body_type": "SUV",
     "engine_id": "toyota-8nr-fts",
-    "torque_nm": 185
+    "torque_nm": 185,
+    "clutch": "Çelik kayış"
   },
   "price_band_k_try": [
     900,
@@ -72,5 +73,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2018.5, yani 2026 itibarıyla yaşı yaklaşık 7.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 16.5. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 69 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "toyota-c-hr-1-2-turbo-116"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/toyota-c-hr-2016.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

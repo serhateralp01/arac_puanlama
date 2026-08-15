@@ -14,7 +14,8 @@
     "transmission_id": "vag-multitronic",
     "body_type": "Sedan",
     "engine_id": "vag-ea189",
-    "torque_nm": 350
+    "torque_nm": 350,
+    "clutch": "Çelik zincirli CVT"
   },
   "price_band_k_try": [
     700,
@@ -75,5 +76,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2009.5, yani 2026 itibarıyla yaşı yaklaşık 16.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 34.0. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 33 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "audi-a6-2-0-tdi-170"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/audi-a6-2008.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

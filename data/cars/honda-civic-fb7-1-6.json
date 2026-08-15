@@ -14,7 +14,8 @@
     "transmission_id": "honda-4at-5at",
     "body_type": "Sedan",
     "engine_id": "honda-r16",
-    "torque_nm": 152
+    "torque_nm": 152,
+    "gears": 5
   },
   "price_band_k_try": [
     930,
@@ -90,5 +91,14 @@
     "p75_try": 1112500,
     "km_median": 185750,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "honda-civic-fb7-1-6-125"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-2012.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

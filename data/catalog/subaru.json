@@ -60,7 +60,7 @@
         "engine_code": "EJ20",
         "engine_name": "2.0 boxer"
       },
-      "scored_car_id": "subaru-xv-2-0i-lineartronic",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -93,14 +93,11 @@
         "transmission_name": "Lineartronic",
         "gears": null,
         "clutch": null,
-        "engine_code": "subaru-fb20",
+        "engine_code": null,
         "engine_name": "FB20"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "subaru-forester-2-0i-lineartronic",
-        "subaru-xv-2-0i-lineartronic"
-      ],
+      "scored_car_id": "subaru-forester-2-0i-lineartronic",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-il-subaru-forester-2-0i-lineartronic",
@@ -286,10 +283,7 @@
         "engine_name": "2.0 boxer"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "subaru-forester-2-0i-lineartronic",
-        "subaru-xv-2-0i-lineartronic"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-kinci-el-otomobil-subaru-impreza-2-0",
@@ -437,10 +431,7 @@
         "engine_name": "2.0L D 4AT AWD (150 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "subaru-forester-2-0i-lineartronic",
-        "subaru-xv-2-0i-lineartronic"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -768,14 +759,11 @@
         "transmission_name": "Lineartronic",
         "gears": null,
         "clutch": null,
-        "engine_code": "subaru-fb20",
+        "engine_code": null,
         "engine_name": "FB20"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "subaru-forester-2-0i-lineartronic",
-        "subaru-xv-2-0i-lineartronic"
-      ],
+      "scored_car_id": "subaru-xv-2-0i-lineartronic",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-otomobil-subaru-xv-2-0i-lineartronic",

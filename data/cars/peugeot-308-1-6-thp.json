@@ -16,7 +16,8 @@
     "engine_id": "psa-ep6-thp",
     "kerb_weight_kg": 1530,
     "torque_nm": 240,
-    "fuel_consumption_l_100km": 7.8
+    "fuel_consumption_l_100km": 7.8,
+    "gears": 6
   },
   "price_band_k_try": [
     700,
@@ -83,5 +84,17 @@
       "reasoning": "Güç/ağırlık oranı 102 hp/ton (normalize 35/100), tork/ağırlık oranı 157 Nm/ton (normalize 27/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 33. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "peugeot-308-1-6-thp-156",
+      "peugeot-308-1-6-thp-156-bg-156",
+      "peugeot-308-1-6-thp-156-bg-156-2",
+      "peugeot-308-1-6-vti-156-bg-156"
+    ],
+    "generation": null,
+    "technical_url": null,
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

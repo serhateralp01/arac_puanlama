@@ -61,10 +61,7 @@
         "engine_name": "1.5L Ti-VCT 6AT FWD (112 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "ford-focus-3-1-5-tdci",
-        "ford-focus-4-1-5-ecoblue"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -101,7 +98,7 @@
         "engine_code": null,
         "engine_name": "1.5L EcoBoost 6AT FWD (182 HP)"
       },
-      "scored_car_id": "ford-kuga-1-5-ecoboost-6at",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -246,7 +243,7 @@
         "transmission_name": "DPS6",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "ford-sigma-tivct",
+        "engine_code": null,
         "engine_name": "Sigma"
       },
       "scored_car_id": "ford-fiesta-1-6-powershift",
@@ -285,7 +282,7 @@
         "engine_code": null,
         "engine_name": "1.6L Ti-VCT 6AT FWD (125 HP)"
       },
-      "scored_car_id": "ford-fiesta-1-6-powershift",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -553,7 +550,7 @@
         "engine_code": null,
         "engine_name": "1.6L Ti-VCT 6AT FWD (125 HP)"
       },
-      "scored_car_id": "ford-focus-3-1-6-ti-vct",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -591,7 +588,7 @@
         "engine_code": null,
         "engine_name": "1.6L Ti-VCT 6AT FWD (125 HP)"
       },
-      "scored_car_id": "ford-focus-3-1-6-ti-vct",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -629,7 +626,7 @@
         "engine_code": null,
         "engine_name": "1.6L Ti-VCT 6AT FWD (125 HP)"
       },
-      "scored_car_id": "ford-focus-3-1-6-ti-vct",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -667,7 +664,7 @@
         "engine_code": null,
         "engine_name": "1.5L EcoBoost 8AT Star Stop FWD (150 HP)"
       },
-      "scored_car_id": "ford-kuga-1-5-ecoboost-6at",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -702,14 +699,11 @@
         "transmission_name": "4F27E",
         "gears": 4,
         "clutch": null,
-        "engine_code": "ford-duratec-he",
+        "engine_code": null,
         "engine_name": "Duratec HE"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "ford-focus-2-2-0",
-        "ford-mondeo-2-0-benzin"
-      ],
+      "scored_car_id": "ford-focus-2-2-0",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--ikinci-el-otomobil-ford-focus-2-2-0",
@@ -777,14 +771,11 @@
         "transmission_name": "PowerShift 6DCT",
         "gears": 6,
         "clutch": "Islak çift kavrama",
-        "engine_code": "ford-duratorq-15",
+        "engine_code": null,
         "engine_name": "1.5 TDCi"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "ford-focus-3-1-5-tdci",
-        "ford-focus-4-1-5-ecoblue"
-      ],
+      "scored_car_id": "ford-focus-3-1-5-tdci",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-ci-el-otomobil-ford-focus-3-1-5-tdci",
@@ -816,7 +807,7 @@
         "transmission_name": "DPS6",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "ford-sigma-tivct",
+        "engine_code": null,
         "engine_name": "Sigma"
       },
       "scored_car_id": "ford-focus-3-1-6-ti-vct",
@@ -852,7 +843,7 @@
         "transmission_name": "SelectShift 8AT",
         "gears": 8,
         "clutch": null,
-        "engine_code": "ford-ecoboost-10",
+        "engine_code": null,
         "engine_name": "1.0 EcoBoost"
       },
       "scored_car_id": "ford-focus-4-1-0-ecoboost-8at",
@@ -888,14 +879,11 @@
         "transmission_name": "PowerShift 6DCT",
         "gears": 6,
         "clutch": "Islak çift kavrama",
-        "engine_code": "ford-ecoblue-15",
+        "engine_code": null,
         "engine_name": "1.5 EcoBlue"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "ford-focus-3-1-5-tdci",
-        "ford-focus-4-1-5-ecoblue"
-      ],
+      "scored_car_id": "ford-focus-4-1-5-ecoblue",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-el-otomobil-ford-focus-4-1-5-ecoblue",
@@ -1007,7 +995,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDCI 6AT FWD (180 HP)"
       },
-      "scored_car_id": "ford-mondeo-2-0-tdci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1159,7 +1147,7 @@
         "engine_code": "DW10",
         "engine_name": "2.0 TDCi"
       },
-      "scored_car_id": "ford-mondeo-2-0-tdci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1192,7 +1180,7 @@
         "transmission_name": "Aisin 6AT",
         "gears": 6,
         "clutch": null,
-        "engine_code": "ford-ecoboost-15",
+        "engine_code": null,
         "engine_name": "EcoBoost"
       },
       "scored_car_id": "ford-kuga-1-5-ecoboost-6at",
@@ -1231,7 +1219,7 @@
         "engine_code": "DW10",
         "engine_name": "2.0 TDCi"
       },
-      "scored_car_id": "ford-mondeo-2-0-tdci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1264,7 +1252,7 @@
         "transmission_name": "Aisin 6AT",
         "gears": 6,
         "clutch": null,
-        "engine_code": "ford-ecoboost-15",
+        "engine_code": null,
         "engine_name": "EcoBoost"
       },
       "scored_car_id": "ford-mondeo-1-5-ecoboost",
@@ -1456,11 +1444,8 @@
         "engine_code": "CJBA",
         "engine_name": "2.0 Duratec"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "ford-focus-2-2-0",
-        "ford-mondeo-2-0-benzin"
-      ],
+      "scored_car_id": "ford-mondeo-2-0-benzin",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "missing_technical_url"
       ],
@@ -1493,14 +1478,11 @@
         "transmission_name": "Aisin 6AT",
         "gears": 6,
         "clutch": null,
-        "engine_code": "ford-duratec-he",
+        "engine_code": null,
         "engine_name": "Duratec HE"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "ford-focus-2-2-0",
-        "ford-mondeo-2-0-benzin"
-      ],
+      "scored_car_id": "ford-mondeo-2-0-benzin",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "missing_technical_url"
       ],
@@ -1533,7 +1515,7 @@
         "transmission_name": "PowerShift 6DCT",
         "gears": 6,
         "clutch": "Islak çift kavrama",
-        "engine_code": "ford-duratorq-20",
+        "engine_code": null,
         "engine_name": "Duratorq TDCi"
       },
       "scored_car_id": "ford-mondeo-2-0-tdci",
@@ -1724,7 +1706,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDCI 6AT FWD (180 HP)"
       },
-      "scored_car_id": "ford-mondeo-2-0-tdci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1762,7 +1744,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDCI 6AT FWD (180 HP)"
       },
-      "scored_car_id": "ford-mondeo-2-0-tdci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2064,7 +2046,7 @@
         "engine_code": "DW10",
         "engine_name": "2.0 TDCi"
       },
-      "scored_car_id": "ford-mondeo-2-0-tdci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

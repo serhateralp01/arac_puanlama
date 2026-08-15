@@ -16,7 +16,9 @@
     "engine_id": "fca-multijet-16",
     "kerb_weight_kg": 1270,
     "torque_nm": 320,
-    "fuel_consumption_l_100km": 4.2
+    "fuel_consumption_l_100km": 4.2,
+    "gears": 6,
+    "clutch": "Kuru çift kavrama"
   },
   "price_band_k_try": [
     785,
@@ -97,5 +99,14 @@
     "p75_try": 960000,
     "km_median": 166000,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "fiat-egea-1-6-multijet-120"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/fiat-tipo-5-doors-2016.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

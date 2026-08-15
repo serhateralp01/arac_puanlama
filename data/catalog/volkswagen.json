@@ -21,7 +21,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea211",
+        "engine_code": null,
         "engine_name": "EA211"
       },
       "scored_car_id": null,
@@ -60,7 +60,7 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea211",
+        "engine_code": null,
         "engine_name": "EA211"
       },
       "scored_car_id": null,
@@ -472,7 +472,7 @@
         "engine_code": null,
         "engine_name": "1.0L TSI 7AT FWD (110 HP)"
       },
-      "scored_car_id": "vw-golf-7-1-0-tsi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -870,7 +870,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
       },
-      "scored_car_id": "vw-jetta-1-4-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -906,7 +906,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
       },
-      "scored_car_id": "vw-jetta-1-4-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -942,7 +942,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
       },
-      "scored_car_id": "vw-jetta-1-4-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1230,7 +1230,7 @@
         "engine_code": null,
         "engine_name": "1.5L TSI 7AT AWD (150 HP)"
       },
-      "scored_car_id": "vw-troc-1-5-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1302,7 +1302,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
       },
-      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1338,7 +1338,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
       },
-      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1590,7 +1590,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
       },
-      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1626,7 +1626,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
       },
-      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1662,7 +1662,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
       },
-      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1698,7 +1698,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
       },
-      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1846,7 +1846,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1884,7 +1884,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1922,7 +1922,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1958,7 +1958,7 @@
         "engine_code": "BKD",
         "engine_name": "2.0 TDI PD"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1995,10 +1995,7 @@
         "engine_name": "1.4L TSI BlueMotion 7AT FWD (150 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "vw-passat-b8-1-4-tsi",
-        "vw-tiguan-1-4-tsi-dsg"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -2033,7 +2030,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
       },
-      "scored_car_id": "vw-golf-1-4-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2069,7 +2066,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
       },
-      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2105,7 +2102,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
       },
-      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2177,7 +2174,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2215,7 +2212,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2251,7 +2248,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-passat-b8-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2437,7 +2434,7 @@
         "engine_code": null,
         "engine_name": "1.5L TSI 7AT AWD (150 HP)"
       },
-      "scored_car_id": "vw-troc-1-5-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2473,7 +2470,7 @@
         "engine_code": null,
         "engine_name": "1.5L TSI 7AT AWD (150 HP)"
       },
-      "scored_car_id": "vw-troc-1-5-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2511,7 +2508,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
       },
-      "scored_car_id": "vw-jetta-1-4-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2547,7 +2544,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
       },
-      "scored_car_id": "vw-jetta-1-4-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2583,7 +2580,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BlueMotion 7AT FWD (150 HP)"
       },
-      "scored_car_id": "vw-golf-7-1-2-1-4-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2624,10 +2621,7 @@
         "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "vw-passat-b8-1-4-tsi",
-        "vw-tiguan-1-4-tsi-dsg"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -2662,7 +2656,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BlueMotion 7AT FWD (150 HP)"
       },
-      "scored_car_id": "vw-passat-b8-1-4-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2738,7 +2732,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
       },
-      "scored_car_id": "vw-passat-b8-1-6-tdi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2810,7 +2804,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
       },
-      "scored_car_id": "vw-passat-b8-1-6-tdi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2963,10 +2957,7 @@
         "engine_name": "1.8L TSI BlueMotion 7AT FWD (180 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "vw-cc-1-8-tsi-tfsi",
-        "vw-passat-b6-1-8-tsi"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-39851b84dcd85269a4",
@@ -3002,10 +2993,7 @@
         "engine_name": "1.8L TSI BlueMotion 7AT FWD (180 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "vw-cc-1-8-tsi-tfsi",
-        "vw-passat-b6-1-8-tsi"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-39851b84dcd85269a4",
@@ -3188,7 +3176,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3224,7 +3212,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3260,7 +3248,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3298,7 +3286,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-cc-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3334,7 +3322,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-cc-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3370,7 +3358,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-cc-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3478,7 +3466,7 @@
         "engine_code": null,
         "engine_name": "2.0L TSI 6AT FWD (200 HP)"
       },
-      "scored_car_id": "vw-golf-7-gti-2-0-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3518,7 +3506,7 @@
         "engine_code": null,
         "engine_name": "2.0L TSI 6AT FWD (200 HP)"
       },
-      "scored_car_id": "vw-golf-7-gti-2-0-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3784,7 +3772,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
       },
-      "scored_car_id": "vw-passat-b8-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3899,10 +3887,10 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea189",
+        "engine_code": null,
         "engine_name": "EA189"
       },
-      "scored_car_id": "vw-cc-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4050,7 +4038,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BlueMotion 7AT FWD (150 HP)"
       },
-      "scored_car_id": "vw-touran-1-4-tsi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4122,7 +4110,7 @@
         "engine_code": null,
         "engine_name": "1.6 MPI 6AT (105 HP)"
       },
-      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -4160,7 +4148,7 @@
         "engine_code": "CAVD",
         "engine_name": "1.4 TSI Twincharger"
       },
-      "scored_car_id": "vw-golf-1-4-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4196,7 +4184,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
       },
-      "scored_car_id": "vw-golf-1-4-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4268,7 +4256,7 @@
         "engine_code": "CFFB",
         "engine_name": "2.0L TDI 4MOTION"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4304,7 +4292,7 @@
         "engine_code": "CFFB",
         "engine_name": "2.0L TDI 4MOTION"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4340,7 +4328,7 @@
         "engine_code": "CFFB",
         "engine_name": "2.0L TDI 4MOTION"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4412,7 +4400,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BlueMotion 7AT FWD (150 HP)"
       },
-      "scored_car_id": "vw-passat-b8-1-4-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4522,7 +4510,7 @@
         "engine_code": "BKD",
         "engine_name": "2.0 TDI PD"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4555,14 +4543,11 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea888",
+        "engine_code": null,
         "engine_name": "EA888"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "vw-cc-1-8-tsi-tfsi",
-        "vw-passat-b6-1-8-tsi"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-omobil-volkswagen-vw-cc-1-8-tsi-tfsi",
@@ -4594,7 +4579,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea111-tsi-tc",
+        "engine_code": null,
         "engine_name": "EA111 TSI twincharger"
       },
       "scored_car_id": "vw-golf-1-4-tsi",
@@ -4630,7 +4615,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea288",
+        "engine_code": null,
         "engine_name": "EA288"
       },
       "scored_car_id": null,
@@ -4666,7 +4651,7 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea888",
+        "engine_code": null,
         "engine_name": "EA888"
       },
       "scored_car_id": null,
@@ -4702,7 +4687,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea211",
+        "engine_code": null,
         "engine_name": "EA211"
       },
       "scored_car_id": "vw-golf-7-1-0-tsi-dsg",
@@ -4738,7 +4723,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea111-tsi-turbo",
+        "engine_code": null,
         "engine_name": "EA111 TSI"
       },
       "scored_car_id": "vw-jetta-1-4-tsi",
@@ -4774,14 +4759,11 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea888",
+        "engine_code": null,
         "engine_name": "EA888"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "vw-cc-1-8-tsi-tfsi",
-        "vw-passat-b6-1-8-tsi"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-obil-volkswagen-vw-passat-b6-1-8-tsi",
@@ -4813,7 +4795,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea189",
+        "engine_code": null,
         "engine_name": "EA189"
       },
       "scored_car_id": null,
@@ -4849,10 +4831,10 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea888",
+        "engine_code": null,
         "engine_name": "EA888"
       },
-      "scored_car_id": "vw-passat-b7-1-8-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4885,10 +4867,10 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea189",
+        "engine_code": null,
         "engine_name": "EA189"
       },
-      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4921,7 +4903,7 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea211",
+        "engine_code": null,
         "engine_name": "EA211"
       },
       "scored_car_id": null,
@@ -4957,7 +4939,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea288",
+        "engine_code": null,
         "engine_name": "EA288"
       },
       "scored_car_id": null,
@@ -4993,10 +4975,10 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea288",
+        "engine_code": null,
         "engine_name": "EA288"
       },
-      "scored_car_id": "vw-passat-b8-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -5029,10 +5011,10 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea888",
+        "engine_code": null,
         "engine_name": "EA888"
       },
-      "scored_car_id": "vw-polo-gti-1-8-tsi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -5065,7 +5047,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea211",
+        "engine_code": null,
         "engine_name": "EA211"
       },
       "scored_car_id": "vw-t-cross-1-0-tsi-dsg",
@@ -5101,7 +5083,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea111-tsi-tc",
+        "engine_code": null,
         "engine_name": "EA111 TSI twincharger"
       },
       "scored_car_id": "vw-touran-1-4-tsi-dsg",

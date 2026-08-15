@@ -16,7 +16,9 @@
     "engine_id": "fca-multiair-14",
     "kerb_weight_kg": 1170,
     "torque_nm": 250,
-    "fuel_consumption_l_100km": 5.4
+    "fuel_consumption_l_100km": 5.4,
+    "gears": 6,
+    "clutch": "Kuru çift kavrama"
   },
   "price_band_k_try": [
     764,
@@ -99,5 +101,14 @@
     "p75_try": 1019750,
     "km_median": 167500,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "alfa-romeo-alfa-giulietta-1-4-tb-170"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-quadrifoglio-verde-2009.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

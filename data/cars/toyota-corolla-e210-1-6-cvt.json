@@ -15,7 +15,8 @@
     "engine_id": "toyota-zr",
     "kerb_weight_kg": 1185,
     "torque_nm": 159,
-    "fuel_consumption_l_100km": 5.7
+    "fuel_consumption_l_100km": 5.7,
+    "clutch": "Çelik kayış"
   },
   "price_band_k_try": [
     1415,
@@ -98,5 +99,14 @@
     "p75_try": 1665000,
     "km_median": 80000,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "toyota-corolla-e210-1-6-cvt-132"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-eu-2016.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

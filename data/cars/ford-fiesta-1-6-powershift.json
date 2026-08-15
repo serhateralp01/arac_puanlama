@@ -15,7 +15,9 @@
     "engine_id": "ford-sigma-tivct",
     "kerb_weight_kg": 1098,
     "torque_nm": 150,
-    "fuel_consumption_l_100km": 5.9
+    "fuel_consumption_l_100km": 5.9,
+    "gears": 6,
+    "clutch": "Kuru çift kavrama"
   },
   "price_band_k_try": [
     420,
@@ -69,5 +71,14 @@
       "reasoning": "DPS6 (ford-dps6) şanzıman ailesinin temel puanı 30. Bu aracın trans puanı (30) temel puanla birebir aynı; puan 2026-08-13'te 36'dan indirildi çünkü kanıt ağırlaştı. Ailenin zaafı tasarım kaynaklı: çift kavramalı bir kutuda ıslak yerine kuru kavrama seçildiği için soğutacak yağ yok, dur-kalk trafiğinde ısı hızla birikiyor ve sürtünme yüzeyleri camlaşıyor. Bu puan \"düşük km'de felaket, çoklu kaynak\" bandına giriyor: sorun Vargas v. Ford federal grup davasının 7 Nisan 2020'de yürürlüğe giren ve gruba en az 77,4 milyon dolar güvence altına alan uzlaşmasıyla, üç ayrı garanti uzatmasıyla (14M01, 14M02, 19N08) ve federal soruşturmalarla kayıtlı.",
       "assessed_at": "2026-08-13"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "ford-fiesta-1-6-powershift-105"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-5-doors-2013.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

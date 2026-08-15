@@ -14,7 +14,8 @@
     "transmission_id": "nissan-xtronic",
     "body_type": "SUV",
     "engine_id": "nissan-hr16de",
-    "torque_nm": 157
+    "torque_nm": 157,
+    "clutch": "Kayış/zincir-kasnak"
   },
   "price_band_k_try": [
     796,
@@ -92,5 +93,14 @@
     "p75_try": 1008375,
     "km_median": 151500,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "nissan-juke-1-6-117"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/nissan-juke-2010.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

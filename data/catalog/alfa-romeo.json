@@ -246,7 +246,7 @@
         "transmission_name": "Geartronic 6AT",
         "gears": 6,
         "clutch": null,
-        "engine_code": "fca-jtd-19",
+        "engine_code": null,
         "engine_name": "1.9 JTDm"
       },
       "scored_car_id": "alfa-romeo-159-1-9-jtdm",
@@ -467,7 +467,7 @@
         "transmission_name": "TCT",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "fca-multiair-14",
+        "engine_code": null,
         "engine_name": "MultiAir"
       },
       "scored_car_id": "alfa-giulietta-1-4-tb",
@@ -575,7 +575,7 @@
         "transmission_name": "TCT",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "fca-multiair-14",
+        "engine_code": null,
         "engine_name": "MultiAir"
       },
       "scored_car_id": "alfa-romeo-mito-1-4",
@@ -614,7 +614,7 @@
         "engine_code": null,
         "engine_name": "1.4L 6AT FWD (170 HP)"
       },
-      "scored_car_id": "alfa-romeo-mito-1-4",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -728,7 +728,7 @@
         "engine_code": null,
         "engine_name": "1.4L 6AT FWD (170 HP)"
       },
-      "scored_car_id": "alfa-giulietta-1-4-tb",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -766,7 +766,7 @@
         "engine_code": null,
         "engine_name": "1.4L 6AT FWD (170 HP)"
       },
-      "scored_car_id": "alfa-giulietta-1-4-tb",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"

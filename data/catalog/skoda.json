@@ -93,7 +93,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea111-tsi-turbo",
+        "engine_code": null,
         "engine_name": "EA111 TSI"
       },
       "scored_car_id": null,
@@ -273,14 +273,11 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea211",
+        "engine_code": null,
         "engine_name": "EA211"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "skoda-octavia-3-1-0-tsi-dsg",
-        "skoda-scala-1-0-tsi-dsg"
-      ],
+      "scored_car_id": "skoda-octavia-3-1-0-tsi-dsg",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-l-otomobil-skoda-octavia-1-0-tsi-dsg",
@@ -315,7 +312,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI DSG FWD (110 HP)"
       },
-      "scored_car_id": "skoda-fabia-1-2-tsi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -353,7 +350,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI DSG FWD (110 HP)"
       },
-      "scored_car_id": "skoda-fabia-1-2-tsi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -612,10 +609,7 @@
         "engine_name": "1.4L TSI 7AT FWD (150 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "skoda-kodiaq-1-4-tsi-dsg",
-        "skoda-superb-3-1-4-tsi-dsg"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -758,7 +752,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea288",
+        "engine_code": null,
         "engine_name": "EA288"
       },
       "scored_car_id": null,
@@ -914,7 +908,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": "skoda-rapid-1-6-tdi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -952,7 +946,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": "skoda-rapid-1-6-tdi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -988,7 +982,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": "skoda-rapid-1-6-tdi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1024,7 +1018,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": "skoda-rapid-1-6-tdi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1060,7 +1054,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": "skoda-karoq-1-6-tdi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1093,10 +1087,10 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea888",
+        "engine_code": null,
         "engine_name": "EA888"
       },
-      "scored_car_id": "skoda-octavia-1-8-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1319,7 +1313,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
       },
-      "scored_car_id": "skoda-superb-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1433,7 +1427,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
       },
-      "scored_car_id": "skoda-octavia-3-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity",
@@ -1472,7 +1466,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
       },
-      "scored_car_id": "skoda-octavia-3-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1613,14 +1607,11 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea288",
+        "engine_code": null,
         "engine_name": "EA288"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "skoda-octavia-3-2-0-tdi",
-        "skoda-superb-3-2-0-tdi"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--el-otomobil-skoda-octavia-3-2-0-tdi",
@@ -1798,7 +1789,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea288",
+        "engine_code": null,
         "engine_name": "EA288"
       },
       "scored_car_id": null,
@@ -1837,7 +1828,7 @@
         "engine_code": "CBZB",
         "engine_name": "1.2L TSI"
       },
-      "scored_car_id": "skoda-fabia-1-2-tsi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1873,11 +1864,8 @@
         "engine_code": null,
         "engine_name": "1.0L TSI 7AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "skoda-octavia-3-1-0-tsi-dsg",
-        "skoda-scala-1-0-tsi-dsg"
-      ],
+      "scored_car_id": "skoda-scala-1-0-tsi-dsg",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -1912,7 +1900,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": "skoda-karoq-1-6-tdi-dsg",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1945,7 +1933,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea288",
+        "engine_code": null,
         "engine_name": "EA288"
       },
       "scored_car_id": null,
@@ -1984,7 +1972,7 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea211",
+        "engine_code": null,
         "engine_name": "EA211"
       },
       "scored_car_id": null,
@@ -2023,14 +2011,11 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea288",
+        "engine_code": null,
         "engine_name": "EA288"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "skoda-octavia-3-2-0-tdi",
-        "skoda-superb-3-2-0-tdi"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "andcetin_dq200",
@@ -2104,7 +2089,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": "skoda-superb-1-6-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2142,7 +2127,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": "skoda-superb-1-6-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2362,7 +2347,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
       },
-      "scored_car_id": "skoda-superb-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2470,7 +2455,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
       },
-      "scored_car_id": "skoda-superb-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2508,7 +2493,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
       },
-      "scored_car_id": "skoda-superb-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2656,7 +2641,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea288",
+        "engine_code": null,
         "engine_name": "EA288"
       },
       "scored_car_id": null,
@@ -2695,7 +2680,7 @@
         "engine_code": "CDAA",
         "engine_name": "1.8L TSI"
       },
-      "scored_car_id": "skoda-octavia-1-8-tsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2728,10 +2713,10 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea189",
+        "engine_code": null,
         "engine_name": "EA189"
       },
-      "scored_car_id": "skoda-superb-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2764,7 +2749,7 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea211",
+        "engine_code": null,
         "engine_name": "EA211"
       },
       "scored_car_id": null,

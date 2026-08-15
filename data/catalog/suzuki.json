@@ -206,7 +206,7 @@
         "transmission_name": "Suzuki 4 ileri otomatik",
         "gears": 4,
         "clutch": null,
-        "engine_code": "suzuki-m16a",
+        "engine_code": null,
         "engine_name": "M16A"
       },
       "scored_car_id": "suzuki-sx4-1-6",
@@ -359,7 +359,7 @@
         "engine_code": null,
         "engine_name": "1.6L CVT FWD (120 HP)"
       },
-      "scored_car_id": "suzuki-sx4-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -397,7 +397,7 @@
         "engine_code": null,
         "engine_name": "1.6L CVT FWD (120 HP)"
       },
-      "scored_car_id": "suzuki-sx4-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -435,7 +435,7 @@
         "engine_code": null,
         "engine_name": "1.6L 6AT AWD (120 HP)"
       },
-      "scored_car_id": "suzuki-sx4-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -548,7 +548,7 @@
         "engine_code": "M16A",
         "engine_name": "1.6 VVT"
       },
-      "scored_car_id": "suzuki-sx4-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

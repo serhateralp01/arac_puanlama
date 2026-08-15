@@ -209,7 +209,7 @@
         "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "hyundai-u2-16",
+        "engine_code": null,
         "engine_name": "U2"
       },
       "scored_car_id": "kia-ceed-1-6-crdi",
@@ -245,14 +245,11 @@
         "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "hyundai-u2-16",
+        "engine_code": null,
         "engine_name": "U2"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "kia-ceed-sw-1-6-crdi",
-        "kia-sportage-1-6-crdi-7dct"
-      ],
+      "scored_car_id": "kia-ceed-sw-1-6-crdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-985f32a43f5756af8f"
@@ -323,7 +320,7 @@
         "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
         "gears": 6,
         "clutch": null,
-        "engine_code": "hyundai-gamma16-gdi",
+        "engine_code": null,
         "engine_name": "Gamma GDI"
       },
       "scored_car_id": "kia-ceed-1-6-gdi",
@@ -359,14 +356,11 @@
         "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "hyundai-u2-16",
+        "engine_code": null,
         "engine_name": "U2"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "kia-ceed-sw-1-6-crdi",
-        "kia-sportage-1-6-crdi-7dct"
-      ],
+      "scored_car_id": "kia-ceed-sw-1-6-crdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-nci-el-otomobil-kia-ceed-sw-1-6-crdi",
@@ -398,14 +392,11 @@
         "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
         "gears": 6,
         "clutch": null,
-        "engine_code": "hyundai-gamma16-mpi",
+        "engine_code": null,
         "engine_name": "Gamma MPI"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "kia-cerato-1-6",
-        "kia-rio-yb-1-6-gdi-6at"
-      ],
+      "scored_car_id": "kia-cerato-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-om-ikinci-el-otomobil-kia-cerato-1-6",
@@ -437,7 +428,7 @@
         "transmission_name": "A4AF3",
         "gears": 4,
         "clutch": null,
-        "engine_code": "hyundai-beta-16",
+        "engine_code": null,
         "engine_name": "Beta II"
       },
       "scored_car_id": "kia-cerato-1-6-eski-nesil",
@@ -587,7 +578,7 @@
         "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
         "gears": 6,
         "clutch": null,
-        "engine_code": "hyundai-u2-17",
+        "engine_code": null,
         "engine_name": "U2"
       },
       "scored_car_id": "kia-optima-1-7-crdi",
@@ -663,10 +654,7 @@
         "engine_name": "1.6L CRDi 7AT FWD (136 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "kia-ceed-sw-1-6-crdi",
-        "kia-sportage-1-6-crdi-7dct"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -772,14 +760,11 @@
         "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
         "gears": 6,
         "clutch": null,
-        "engine_code": "hyundai-gamma16-gdi",
+        "engine_code": null,
         "engine_name": "Gamma GDI"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "kia-cerato-1-6",
-        "kia-rio-yb-1-6-gdi-6at"
-      ],
+      "scored_car_id": "kia-rio-yb-1-6-gdi-6at",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-inci-el-otomobil-kia-rio-1-6-gdi-6at",
@@ -1000,7 +985,7 @@
         "engine_code": "D4FB",
         "engine_name": "1.6 CRDi"
       },
-      "scored_car_id": "kia-ceed-1-6-crdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1037,10 +1022,7 @@
         "engine_name": "1.6 CRDi"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "kia-ceed-sw-1-6-crdi",
-        "kia-sportage-1-6-crdi-7dct"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-ikinci-el-otomobil-kia-soul-1-6-crdi",
@@ -1108,14 +1090,11 @@
         "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "hyundai-u2-16",
+        "engine_code": null,
         "engine_name": "U2"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "kia-ceed-sw-1-6-crdi",
-        "kia-sportage-1-6-crdi-7dct"
-      ],
+      "scored_car_id": "kia-sportage-1-6-crdi-7dct",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--otomobil-kia-sportage-1-6-crdi-7dct",

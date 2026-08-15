@@ -15,7 +15,8 @@
     "engine_id": "psa-puretech-12",
     "kerb_weight_kg": 1305,
     "torque_nm": 230,
-    "fuel_consumption_l_100km": 5.6
+    "fuel_consumption_l_100km": 5.6,
+    "gears": 8
   },
   "price_band_k_try": [
     1000,
@@ -79,5 +80,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2021.5, yani 2026 itibarıyla yaşı yaklaşık 4.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 9.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 83 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "peugeot-3008-2-nesil-1-2-puretech-eat8-130"
+    ],
+    "generation": "2. Nesil",
+    "technical_url": "https://www.autoevolution.com/cars/peugeot-3008-2020.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

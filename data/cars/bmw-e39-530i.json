@@ -14,7 +14,8 @@
     "transmission_id": "zf-5hp",
     "body_type": "Sedan",
     "engine_id": "bmw-m54",
-    "torque_nm": 300
+    "torque_nm": 300,
+    "engine_code": "M54B30"
   },
   "price_band_k_try": [
     550,
@@ -78,5 +79,15 @@
       "reasoning": "Bu aracın model yılı ortalaması 2001.5, yani 2026 itibarıyla yaşı yaklaşık 24.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "bmw-530i-3-0-231",
+      "bmw-e39-530i-231"
+    ],
+    "generation": null,
+    "technical_url": null,
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

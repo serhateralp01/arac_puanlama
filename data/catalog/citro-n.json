@@ -21,14 +21,11 @@
         "transmission_name": "DP0/AL4 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "psa-ep6-vti",
+        "engine_code": null,
         "engine_name": "EP6"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "citroen-c-elysee-1-6-otomatik",
-        "citroen-grand-c4-picasso-1-6-ehdi-eat6"
-      ],
+      "scored_car_id": "citroen-c-elysee-1-6-otomatik",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-il-citroen-c-elysee-1-6-vti-otomatik",
@@ -63,7 +60,7 @@
         "engine_code": null,
         "engine_name": "1.6i 4AT FWD (110 HP)"
       },
-      "scored_car_id": "citroen-grand-c4-picasso-1-6-ehdi-eat6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -101,7 +98,7 @@
         "engine_code": null,
         "engine_name": "1.6i 4AT FWD (110 HP)"
       },
-      "scored_car_id": "citroen-xsara-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -139,7 +136,7 @@
         "engine_code": null,
         "engine_name": "1.6i 4AT FWD (110 HP)"
       },
-      "scored_car_id": "citroen-xsara-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -174,14 +171,13 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-puretech-12",
+        "engine_code": null,
         "engine_name": "PureTech 130"
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [
         "citroen-c3-1-2-puretech-otomatik",
-        "citroen-c3-aircross-1-2-puretech-eat6",
-        "citroen-c4-cactus-1-2-puretech-eat6"
+        "citroen-c3-aircross-1-2-puretech-eat6"
       ],
       "quality_flags": [],
       "sources": [
@@ -220,8 +216,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [
         "citroen-c3-1-2-puretech-otomatik",
-        "citroen-c3-aircross-1-2-puretech-eat6",
-        "citroen-c4-cactus-1-2-puretech-eat6"
+        "citroen-c3-aircross-1-2-puretech-eat6"
       ],
       "quality_flags": [
         "generic_transmission_identity"
@@ -262,8 +257,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [
         "citroen-c3-1-2-puretech-otomatik",
-        "citroen-c3-aircross-1-2-puretech-eat6",
-        "citroen-c4-cactus-1-2-puretech-eat6"
+        "citroen-c3-aircross-1-2-puretech-eat6"
       ],
       "quality_flags": [
         "generic_transmission_identity"
@@ -301,7 +295,7 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": "citroen-c4-1-6-vti",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -339,7 +333,7 @@
         "engine_code": null,
         "engine_name": "1.6i 4AT FWD (110 HP)"
       },
-      "scored_car_id": "citroen-xsara-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -377,7 +371,7 @@
         "engine_code": null,
         "engine_name": "1.6i 4AT FWD (110 HP)"
       },
-      "scored_car_id": "citroen-xsara-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -415,7 +409,7 @@
         "engine_code": null,
         "engine_name": "1.6i 4AT FWD (110 HP)"
       },
-      "scored_car_id": "citroen-xsara-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -454,7 +448,7 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": "citroen-c4-1-6-vti",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -492,7 +486,7 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": "citroen-c4-1-6-vti",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -527,15 +521,11 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-puretech-12",
+        "engine_code": null,
         "engine_name": "PureTech 130"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "citroen-c3-1-2-puretech-otomatik",
-        "citroen-c3-aircross-1-2-puretech-eat6",
-        "citroen-c4-cactus-1-2-puretech-eat6"
-      ],
+      "scored_car_id": "citroen-c3-aircross-1-2-puretech-eat6",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-itroen-c3-aircross-1-2-puretech-eat6",
@@ -570,12 +560,8 @@
         "engine_code": null,
         "engine_name": "1.2L PureTech 6AT FWD (130 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "citroen-c3-1-2-puretech-otomatik",
-        "citroen-c3-aircross-1-2-puretech-eat6",
-        "citroen-c4-cactus-1-2-puretech-eat6"
-      ],
+      "scored_car_id": "citroen-c4-cactus-1-2-puretech-eat6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -652,7 +638,7 @@
         "engine_code": null,
         "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
       },
-      "scored_car_id": "citroen-xsara-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -805,10 +791,7 @@
         "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "citroen-c-elysee-1-6-otomatik",
-        "citroen-grand-c4-picasso-1-6-ehdi-eat6"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -845,7 +828,7 @@
         "engine_code": null,
         "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
       },
-      "scored_car_id": "citroen-c4-1-6-vti",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -880,7 +863,7 @@
         "transmission_name": "EGS6 6AMT",
         "gears": 6,
         "clutch": "Kuru tek kavrama",
-        "engine_code": "psa-ep6-thp",
+        "engine_code": null,
         "engine_name": "EP6DT"
       },
       "scored_car_id": "citroen-c4-1-6-thp",
@@ -995,7 +978,7 @@
         "engine_code": null,
         "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
       },
-      "scored_car_id": "citroen-xsara-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1033,7 +1016,7 @@
         "engine_code": null,
         "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
       },
-      "scored_car_id": "citroen-xsara-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1071,7 +1054,7 @@
         "engine_code": null,
         "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
       },
-      "scored_car_id": "citroen-xsara-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1144,15 +1127,11 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-puretech-12",
+        "engine_code": null,
         "engine_name": "PureTech 130"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "citroen-c3-1-2-puretech-otomatik",
-        "citroen-c3-aircross-1-2-puretech-eat6",
-        "citroen-c4-cactus-1-2-puretech-eat6"
-      ],
+      "scored_car_id": "citroen-c4-cactus-1-2-puretech-eat6",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--citroen-c4-cactus-1-2-puretech-eat6",
@@ -1184,7 +1163,7 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-dw10",
+        "engine_code": null,
         "engine_name": "DW10"
       },
       "scored_car_id": "citroen-c4-picasso-2-0-hdi-eat6",
@@ -1223,7 +1202,7 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": "citroen-c4-1-6-vti",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1261,7 +1240,7 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": "citroen-c4-1-6-thp",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1299,7 +1278,7 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": "citroen-c4-1-6-thp",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1337,7 +1316,7 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": "citroen-c4-1-6-thp",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1375,7 +1354,7 @@
         "engine_code": null,
         "engine_name": "1.6L VTi 6AT FWD (120 HP)"
       },
-      "scored_car_id": "citroen-c4-1-6-thp",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1566,10 +1545,7 @@
         "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "citroen-c-elysee-1-6-otomatik",
-        "citroen-grand-c4-picasso-1-6-ehdi-eat6"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1607,10 +1583,7 @@
         "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "citroen-c-elysee-1-6-otomatik",
-        "citroen-grand-c4-picasso-1-6-ehdi-eat6"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1647,7 +1620,7 @@
         "engine_code": null,
         "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
       },
-      "scored_car_id": "citroen-grand-c4-picasso-1-6-ehdi-eat6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2101,7 +2074,7 @@
         "engine_code": null,
         "engine_name": "2.0L 4AT FWD (143 HP)"
       },
-      "scored_car_id": "citroen-c4-picasso-2-0-hdi-eat6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2402,7 +2375,7 @@
         "transmission_name": "DP0/AL4 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "psa-ep6-vti",
+        "engine_code": null,
         "engine_name": "EP6"
       },
       "scored_car_id": "citroen-c4-1-6-vti",
@@ -2438,7 +2411,7 @@
         "transmission_name": "Aisin AF40-6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-dw10",
+        "engine_code": null,
         "engine_name": "DW10"
       },
       "scored_car_id": "citroen-c5-2-0-hdi",
@@ -2474,7 +2447,7 @@
         "transmission_name": "DP0/AL4 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "psa-tu5",
+        "engine_code": null,
         "engine_name": "TU5"
       },
       "scored_car_id": "citroen-xsara-1-6",
@@ -2513,7 +2486,7 @@
         "engine_code": "EP6",
         "engine_name": "1.6L VTi"
       },
-      "scored_car_id": "citroen-c4-1-6-vti",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2585,7 +2558,7 @@
         "engine_code": "EP6CDT",
         "engine_name": "155 THP"
       },
-      "scored_car_id": "citroen-c4-1-6-thp",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2618,14 +2591,11 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-dv6",
+        "engine_code": null,
         "engine_name": "DV6"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "citroen-c-elysee-1-6-otomatik",
-        "citroen-grand-c4-picasso-1-6-ehdi-eat6"
-      ],
+      "scored_car_id": "citroen-grand-c4-picasso-1-6-ehdi-eat6",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-roen-grand-c4-picasso-1-6-e-hdi-eat6",
@@ -2657,7 +2627,7 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-dw10",
+        "engine_code": null,
         "engine_name": "DW10"
       },
       "scored_car_id": "citroen-grand-c4-picasso-2-0-bluehdi-eat6",

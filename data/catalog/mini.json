@@ -24,7 +24,7 @@
         "engine_code": "N12B16",
         "engine_name": "Cooper 1.6L"
       },
-      "scored_car_id": "mini-cooper-r56-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -57,14 +57,11 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "bmw-b38",
+        "engine_code": null,
         "engine_name": "B38"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mini-cooper-f56-1-5",
-        "mini-countryman-f60-1-5"
-      ],
+      "scored_car_id": "mini-cooper-f56-1-5",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-m-ikinci-el-otomobil-mini-cooper-1-5",
@@ -96,7 +93,7 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-ep6-vti",
+        "engine_code": null,
         "engine_name": "EP6"
       },
       "scored_car_id": "mini-cooper-r56-1-6",
@@ -132,7 +129,7 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-ep6-thp",
+        "engine_code": null,
         "engine_name": "EP6DT"
       },
       "scored_car_id": "mini-cooper-s-r56-1-6-turbo",
@@ -168,14 +165,11 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "bmw-b38",
+        "engine_code": null,
         "engine_name": "B38"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mini-cooper-f56-1-5",
-        "mini-countryman-f60-1-5"
-      ],
+      "scored_car_id": "mini-countryman-f60-1-5",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-inci-el-otomobil-mini-countryman-1-5",
@@ -246,7 +240,7 @@
         "engine_code": "N16B16",
         "engine_name": "Cooper 1.6L"
       },
-      "scored_car_id": "mini-cooper-r56-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

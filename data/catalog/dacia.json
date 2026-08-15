@@ -21,7 +21,7 @@
         "transmission_name": "Getrag 7DCT300",
         "gears": 7,
         "clutch": "Islak çift kavrama",
-        "engine_code": "renault-h5ht",
+        "engine_code": null,
         "engine_name": "H5Ht"
       },
       "scored_car_id": "dacia-duster-2-1-3-tce-edc",
@@ -58,7 +58,7 @@
         "transmission_name": "EDC (kuru)",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "renault-k9k",
+        "engine_code": null,
         "engine_name": "K9K"
       },
       "scored_car_id": "dacia-duster-1-5-dci-edc-2",

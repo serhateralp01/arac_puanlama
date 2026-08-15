@@ -15,7 +15,8 @@
     "engine_id": "honda-r20a",
     "kerb_weight_kg": 1585,
     "torque_nm": 192,
-    "fuel_consumption_l_100km": 8.8
+    "fuel_consumption_l_100km": 8.8,
+    "gears": 5
   },
   "price_band_k_try": [
     450,
@@ -83,5 +84,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2009.5, yani 2026 itibarıyla yaşı yaklaşık 16.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 34.0. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 33 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "honda-cr-v-iii-2-0-i-vtec-5at-150"
+    ],
+    "generation": null,
+    "technical_url": "https://hondanews.eu/eu/fi/cars/media/pressreleases/627/kiev-automotive-show-2007",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

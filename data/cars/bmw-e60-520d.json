@@ -13,7 +13,8 @@
     "transmission_id": "zf-6hp",
     "body_type": "Sedan",
     "engine_id": "bmw-m47",
-    "torque_nm": 340
+    "torque_nm": 340,
+    "gears": 6
   },
   "price_band_k_try": [
     550,
@@ -74,5 +75,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2005.0, yani 2026 itibarıyla yaşı yaklaşık 21.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 41.4. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 18 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "bmw-e60-520d-163"
+    ],
+    "generation": "E60",
+    "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

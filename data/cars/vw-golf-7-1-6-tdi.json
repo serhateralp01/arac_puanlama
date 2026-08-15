@@ -16,7 +16,9 @@
     "engine_id": "vag-ea288",
     "kerb_weight_kg": 1420,
     "torque_nm": 249,
-    "fuel_consumption_l_100km": 3.9
+    "fuel_consumption_l_100km": 3.9,
+    "gears": 7,
+    "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı"
   },
   "price_band_k_try": [
     850,
@@ -83,5 +85,16 @@
       "reasoning": "Güç/ağırlık oranı 77 hp/ton (normalize 8/100), tork/ağırlık oranı 175 Nm/ton (normalize 37/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +6) temel puan 21. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "volkswagen-golf-1-6-tdi-110-bg-110",
+      "volkswagen-golf-1-6-tdi-110-bg-110-2",
+      "volkswagen-golf-1-6-tdi-110-bg-110-3"
+    ],
+    "generation": null,
+    "technical_url": null,
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

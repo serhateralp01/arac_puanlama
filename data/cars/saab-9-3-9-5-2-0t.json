@@ -13,7 +13,9 @@
     "transmission_type": "TK",
     "transmission_id": "aisin-aw55",
     "body_type": "Sedan",
-    "engine_id": "saab-b2x5"
+    "engine_id": "saab-b2x5",
+    "engine_code": "B205",
+    "torque_nm": 240.0
   },
   "price_band_k_try": [
     480,
@@ -71,5 +73,20 @@
       "reasoning": "Bu aracın model yılı ortalaması 2000.0, yani 2026 itibarıyla yaşı yaklaşık 26.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "saab-9-3-2-0-ts-150-bg-150",
+      "saab-9-3-2-0-ts-150-bg-150-2",
+      "saab-9-3-2-0-ts-150-bg-150-3",
+      "saab-9-5-1-9-tid-150-bg-150-3",
+      "saab-9-5-1-9-tid-150-bg-150-4",
+      "saab-9-5-1-9-tid-150-bg-150-5",
+      "saab-9-5-2-0t-150"
+    ],
+    "generation": "YS3E",
+    "technical_url": null,
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

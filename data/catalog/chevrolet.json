@@ -471,7 +471,7 @@
         "transmission_name": "AF17",
         "gears": 6,
         "clutch": null,
-        "engine_code": "gm-family1-16",
+        "engine_code": null,
         "engine_name": "A16XER"
       },
       "scored_car_id": "chevrolet-cruze-1-6",

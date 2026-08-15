@@ -92,6 +92,27 @@ def clean(v):
     return s
 
 
+# Depo kimliği deseni: küçük harf ve tire (ör. "bmw-m54", "fca-multiair-14").
+# Üretici motor kodları böyle görünmez; büyük harf ya da tiresiz alfanümeriktir
+# (ör. "M54B22", "AR32310", "198A2000").
+REPO_ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)+$")
+
+
+def clean_engine_code(v):
+    """Üretici motor kodunu döndürür; depo kimliği sızmışsa None döndürür.
+
+    P2.1'in `engine_code` alanı her zaman üreticinin kodunu taşımıyor: ölçüldüğünde
+    dolu 171 değerin 162'sinin aslında deponun kendi `engine_id` değeri olduğu görüldü
+    (ör. `engine_code = "bmw-m54"`). Bunu araç kaydına yazmak, `engine_id`'yi başka bir
+    ada ikinci kez kopyalamak olurdu; alan yeni bir olgu taşımaz, yalnızca üreticinin
+    kodunu taşıdığı izlenimini verirdi. Gerçek kod bulunamadığında alan boş bırakılır.
+    """
+    s = clean(v)
+    if s is None or REPO_ID_RE.match(s):
+        return None
+    return s
+
+
 def load_ours() -> list[dict]:
     return [json.loads(p.read_text(encoding="utf-8"))
             for p in sorted((DATA / "cars").glob("*.json"))]
@@ -201,7 +222,7 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
             "transmission_name": clean(v.get("transmission_name")),
             "gears": gears,
             "clutch": clean(v.get("clutch")),
-            "engine_code": clean(v.get("engine_code")),
+            "engine_code": clean_engine_code(v.get("engine_code")),
             "engine_name": clean(v.get("engine_name")),
         },
         "scored_car_id": None,
@@ -233,6 +254,24 @@ def assign_ids(entries: list[dict]) -> None:
         e["id"] = base if used[base] == 1 else f"{base}-{used[base]}"
 
 
+def model_matches(model_family: str | None, car_name: str) -> bool:
+    """Katalog kaydının model ailesi, puanlanmış aracın adında geçiyor mu.
+
+    Bu kontrol olmadan marka+beygir+hacim üçlüsü **farklı modelleri** birbirine
+    bağlıyordu: bir Opel Vectra kaydı bir Astra satırına, bir Seat Arona kaydı Ibiza ve
+    Leon satırlarına eşleşiyordu. İkisi de MK-08'in uyardığı nesil/model karıştırma
+    hatasının ta kendisi. Model adı uyuşmuyorsa bağ kurulmaz.
+    """
+    if not model_family:
+        return False
+    fam = norm(model_family)
+    if not fam:
+        return False
+    name = norm(car_name)
+    # Sınır duyarlı arama: "a3" adı "a35" ile eşleşmesin.
+    return re.search(rf"(?:^|\s){re.escape(fam)}(?:$|\s)", name) is not None
+
+
 def link_scored(entries: list[dict], ours: list[dict]) -> tuple[int, int]:
     """Katalog kayıtlarını puanlanmış araçlara bağlar.
 
@@ -240,6 +279,10 @@ def link_scored(entries: list[dict], ours: list[dict]) -> tuple[int, int]:
     göstermez. Birden çok aday varsa hiçbiri seçilmez; adaylar
     `possible_scored_car_ids` içinde durur ve terfi sırasında elle çözülür. Otomatik
     seçim yapmak, MK-08'in uyardığı nesil karıştırma hatasını üretmenin kısa yoludur.
+
+    Eşleşmenin dört şartı var ve dördü birden aranır: marka, beygir, motor hacmi ve
+    **model adı**. Model adı şartı sonradan eklendi, çünkü ilk sürüm onsuz çalıştığında
+    farklı modelleri birbirine bağladığı ölçüldü.
     """
     idx = collections.defaultdict(list)
     for o in ours:
@@ -252,20 +295,23 @@ def link_scored(entries: list[dict], ours: list[dict]) -> tuple[int, int]:
     for e in entries:
         sp = e["specs"]
         cands = idx.get((brandkey(e["brand"]), sp["hp"], sp["displacement_l"]), [])
-        if len(cands) > 1:
-            narrowed = [o for o in cands
-                        if o["specs"].get("transmission_type") == sp["transmission_type"]]
-            if narrowed:
-                cands = narrowed
-        if len(cands) > 1:
-            y0, y1 = (int(x) for x in e["years"].split("-"))
-            narrowed = []
-            for o in cands:
-                m = re.match(r"(\d{4})\D+(\d{4})", o.get("years", ""))
-                if m and not (int(m.group(2)) < y0 or int(m.group(1)) > y1):
-                    narrowed.append(o)
-            if narrowed:
-                cands = narrowed
+        # Model adı uyuşmayan adaylar en baştan elenir.
+        cands = [o for o in cands if model_matches(e.get("model_family"), o.get("name", ""))]
+        # Üretim yılı örtüşmesi ve şanzıman tipi **her bağ için** zorunludur; bunlar
+        # yalnızca beraberlik bozan ölçütler değil. Önceki sürümde bu iki kontrol
+        # sadece bir kayda birden çok araç düştüğünde çalışıyordu, ama pratikte tersi
+        # oluyor: aynı araca birden çok katalog kaydı düşüyor ve her biri kontrolsüz
+        # bağlanıyordu. Sonuç, bir CR-V III kaydının 2002-2006 nesline de bağlanmasıydı.
+        y0, y1 = (int(x) for x in e["years"].split("-"))
+        kept = []
+        for o in cands:
+            if o["specs"].get("transmission_type") != sp["transmission_type"]:
+                continue
+            m = re.match(r"(\d{4})\D+(\d{4})", o.get("years", ""))
+            if not m or int(m.group(2)) < y0 or int(m.group(1)) > y1:
+                continue
+            kept.append(o)
+        cands = kept
         if len(cands) == 1:
             e["scored_car_id"] = cands[0]["id"]
             exact += 1

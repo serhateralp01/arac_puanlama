@@ -15,7 +15,8 @@
     "engine_id": "hyundai-gamma16-gdi",
     "kerb_weight_kg": 1171,
     "torque_nm": 164,
-    "fuel_consumption_l_100km": 5.4
+    "fuel_consumption_l_100km": 5.4,
+    "gears": 6
   },
   "price_band_k_try": [
     600,
@@ -82,5 +83,14 @@
       "reasoning": "Güç/ağırlık oranı 115 hp/ton (normalize 50/100), tork/ağırlık oranı 140 Nm/ton (normalize 18/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 42. Karakter düzeltmesi +5 puan uygulandı, gerekçesi: doğal emişli yüksek devir karakteri (84 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "kia-ceed-1-6-gdi-135"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/kia-cee-d-2012.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

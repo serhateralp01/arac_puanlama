@@ -273,7 +273,7 @@
         "transmission_name": "C635 DDCT",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "fca-multijet-16",
+        "engine_code": null,
         "engine_name": "1.6 MultiJet"
       },
       "scored_car_id": "jeep-renegade-1-6-multijet-ddct",

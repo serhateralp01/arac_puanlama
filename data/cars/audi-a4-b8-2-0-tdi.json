@@ -14,7 +14,8 @@
     "transmission_id": "vag-multitronic",
     "body_type": "Sedan",
     "engine_id": "vag-ea189",
-    "torque_nm": 320
+    "torque_nm": 320,
+    "clutch": "Çelik zincirli CVT"
   },
   "price_band_k_try": [
     1077,
@@ -90,5 +91,14 @@
     "p75_try": 1418688,
     "km_median": 257500,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "audi-a4-b8-2-0-tdi-143"
+    ],
+    "generation": "B8",
+    "technical_url": "https://www.autoevolution.com/cars/audi-a4-2007.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

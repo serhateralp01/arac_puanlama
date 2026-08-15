@@ -24,7 +24,7 @@
         "engine_code": "1ZR-FE",
         "engine_name": "1.6 VVT-i"
       },
-      "scored_car_id": "toyota-corolla-1-6-2007-13",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -60,12 +60,8 @@
         "engine_code": "1ZR-FAE",
         "engine_name": "1.6 Valvematic"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "toyota-auris-1-6",
-        "toyota-corolla-1-6-2013",
-        "toyota-corolla-1-6-multidrive"
-      ],
+      "scored_car_id": "toyota-auris-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--ikinci-el-otomobil-toyota-auris-1-6",
@@ -100,7 +96,7 @@
         "engine_code": null,
         "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
       },
-      "scored_car_id": "toyota-corolla-1-6-2007-13",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -138,7 +134,7 @@
         "engine_code": null,
         "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
       },
-      "scored_car_id": "toyota-corolla-1-6-2007-13",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -176,7 +172,7 @@
         "engine_code": null,
         "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
       },
-      "scored_car_id": "toyota-auris-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -215,12 +211,7 @@
         "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "toyota-auris-1-6",
-        "toyota-corolla-1-6-2013",
-        "toyota-corolla-1-6-multidrive",
-        "toyota-corolla-e210-1-6-cvt"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -257,12 +248,8 @@
         "engine_code": null,
         "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "toyota-auris-1-6",
-        "toyota-corolla-1-6-2013",
-        "toyota-corolla-1-6-multidrive"
-      ],
+      "scored_car_id": "toyota-auris-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -299,12 +286,8 @@
         "engine_code": null,
         "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "toyota-auris-1-6",
-        "toyota-corolla-1-6-2013",
-        "toyota-corolla-1-6-multidrive"
-      ],
+      "scored_car_id": "toyota-auris-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -338,7 +321,7 @@
         "transmission_name": "Multidrive S CVT",
         "gears": null,
         "clutch": "Çelik kayış",
-        "engine_code": "toyota-zr",
+        "engine_code": null,
         "engine_name": "1ZR-FE"
       },
       "scored_car_id": null,
@@ -374,7 +357,7 @@
         "transmission_name": "Multidrive S CVT",
         "gears": null,
         "clutch": "Çelik kayış",
-        "engine_code": "toyota-zr",
+        "engine_code": null,
         "engine_name": "1ZR-FE"
       },
       "scored_car_id": null,
@@ -938,7 +921,7 @@
         "transmission_name": "Multidrive S CVT",
         "gears": null,
         "clutch": "Çelik kayış",
-        "engine_code": "toyota-8nr-fts",
+        "engine_code": null,
         "engine_name": "8NR-FTS"
       },
       "scored_car_id": "toyota-chr-1-2-turbo",
@@ -1010,7 +993,7 @@
         "transmission_name": "Multidrive S CVT",
         "gears": null,
         "clutch": "Çelik kayış",
-        "engine_code": "toyota-zr",
+        "engine_code": null,
         "engine_name": "1ZR-FE"
       },
       "scored_car_id": "toyota-corolla-e210-1-6-cvt",
@@ -1049,7 +1032,7 @@
         "engine_code": "1ZR-FE",
         "engine_name": "1.6 VVT-i"
       },
-      "scored_car_id": "toyota-corolla-1-6-2007-13",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1087,7 +1070,6 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [
-        "toyota-auris-1-6",
         "toyota-corolla-1-6-2013",
         "toyota-corolla-1-6-multidrive"
       ],
@@ -1163,7 +1145,7 @@
         "engine_code": null,
         "engine_name": "1.6L 4AT FWD (110 HP)"
       },
-      "scored_car_id": "toyota-corolla-e12-1-6-vvt-i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1201,7 +1183,7 @@
         "engine_code": null,
         "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
       },
-      "scored_car_id": "toyota-corolla-e12-1-6-vvt-i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1239,7 +1221,7 @@
         "engine_code": null,
         "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
       },
-      "scored_car_id": "toyota-corolla-e12-1-6-vvt-i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1543,7 +1525,7 @@
         "engine_code": null,
         "engine_name": "1.8L 16V 6AT (147 HP)"
       },
-      "scored_car_id": "toyota-avensis-1-8",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1578,7 +1560,7 @@
         "transmission_name": "Toyota 4 ileri otomatik",
         "gears": 4,
         "clutch": null,
-        "engine_code": "toyota-zz",
+        "engine_code": null,
         "engine_name": "3ZZ-FE"
       },
       "scored_car_id": "toyota-corolla-e12-1-6-vvt-i",
@@ -1758,15 +1740,11 @@
         "transmission_name": "Multidrive S CVT",
         "gears": null,
         "clutch": "Çelik kayış",
-        "engine_code": "toyota-zr",
+        "engine_code": null,
         "engine_name": "1ZR-FE"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "toyota-auris-1-6",
-        "toyota-corolla-1-6-2013",
-        "toyota-corolla-1-6-multidrive"
-      ],
+      "scored_car_id": "toyota-auris-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "homeofengines_1zr",
@@ -1799,7 +1777,7 @@
         "transmission_name": "Toyota 4 ileri otomatik",
         "gears": 4,
         "clutch": null,
-        "engine_code": "toyota-zr",
+        "engine_code": null,
         "engine_name": "1ZR-FE"
       },
       "scored_car_id": "toyota-corolla-1-6-2007-13",
@@ -1837,12 +1815,11 @@
         "transmission_name": "Multidrive S CVT",
         "gears": null,
         "clutch": "Çelik kayış",
-        "engine_code": "toyota-zr",
+        "engine_code": null,
         "engine_name": "1ZR-FE"
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [
-        "toyota-auris-1-6",
         "toyota-corolla-1-6-2013",
         "toyota-corolla-1-6-multidrive"
       ],
@@ -1878,12 +1855,11 @@
         "transmission_name": "Multidrive S CVT",
         "gears": null,
         "clutch": "Çelik kayış",
-        "engine_code": "toyota-zr",
+        "engine_code": null,
         "engine_name": "1ZR-FE"
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [
-        "toyota-auris-1-6",
         "toyota-corolla-1-6-2013",
         "toyota-corolla-1-6-multidrive"
       ],
@@ -1922,7 +1898,7 @@
         "engine_code": "2ZR-FAE",
         "engine_name": "1.8 Valvematic"
       },
-      "scored_car_id": "toyota-avensis-1-8",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

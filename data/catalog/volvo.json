@@ -60,7 +60,7 @@
         "engine_code": "B4204S3",
         "engine_name": "2.0"
       },
-      "scored_car_id": "volvo-s40-v50-2-0",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -201,14 +201,11 @@
         "transmission_name": "Aisin Geartronic",
         "gears": 6,
         "clutch": null,
-        "engine_code": "volvo-vea-benzin",
+        "engine_code": null,
         "engine_name": "VEA"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-5-t3",
-        "volvo-v40-1-5-t3"
-      ],
+      "scored_car_id": "volvo-s60-1-5-t3",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--ikinci-el-otomobil-volvo-s60-1-5-t3",
@@ -244,10 +241,7 @@
         "engine_name": "1.6L Drive 6AT (115 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-6-d2",
-        "volvo-v40-1-6-d2"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -471,14 +465,11 @@
         "transmission_name": "Volvo Powershift (kuru)",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "psa-dv6",
+        "engine_code": null,
         "engine_name": "DV6"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-6-d2",
-        "volvo-v40-1-6-d2"
-      ],
+      "scored_car_id": "volvo-s60-1-6-d2",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--ikinci-el-otomobil-volvo-s60-1-6-d2",
@@ -551,12 +542,8 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-2-0-d-d3-d4",
-        "volvo-s80-2-0-d",
-        "volvo-v60-2-0-d"
-      ],
+      "scored_car_id": "volvo-s60-2-0-d-d3-d4",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -593,12 +580,8 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-2-0-d-d3-d4",
-        "volvo-s80-2-0-d",
-        "volvo-v60-2-0-d"
-      ],
+      "scored_car_id": "volvo-s60-2-0-d-d3-d4",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -635,12 +618,8 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-2-0-d-d3-d4",
-        "volvo-s80-2-0-d",
-        "volvo-v60-2-0-d"
-      ],
+      "scored_car_id": "volvo-s60-2-0-d-d3-d4",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -677,12 +656,8 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-2-0-d-d3-d4",
-        "volvo-s80-2-0-d",
-        "volvo-v60-2-0-d"
-      ],
+      "scored_car_id": "volvo-s60-2-0-d-d3-d4",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -719,12 +694,8 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-2-0-d-d3-d4",
-        "volvo-s80-2-0-d",
-        "volvo-v60-2-0-d"
-      ],
+      "scored_car_id": "volvo-s60-2-0-d-d3-d4",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -758,7 +729,7 @@
         "transmission_name": "PowerShift 6DCT",
         "gears": 6,
         "clutch": "Islak çift kavrama",
-        "engine_code": "volvo-b4204t-gtdi",
+        "engine_code": null,
         "engine_name": "B4204T"
       },
       "scored_car_id": "volvo-s60-2-0-t",
@@ -1025,7 +996,7 @@
         "engine_code": null,
         "engine_name": "2.4L 5AT FWD (170 HP)"
       },
-      "scored_car_id": "volvo-s60-1-nesil-2-4-2-5",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1554,11 +1525,7 @@
         "engine_name": "2.0D"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-2-0-d-d3-d4",
-        "volvo-s80-2-0-d",
-        "volvo-v60-2-0-d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-volvo-s60-d3",
@@ -1630,10 +1597,7 @@
         "engine_name": "1.6L Drive 6AT (115 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-6-d2",
-        "volvo-v40-1-6-d2"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1671,10 +1635,7 @@
         "engine_name": "1.6L Drive 6AT (115 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-6-d2",
-        "volvo-v40-1-6-d2"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1784,15 +1745,11 @@
         "transmission_name": "Aisin Geartronic",
         "gears": 6,
         "clutch": null,
-        "engine_code": "volvo-d-20",
+        "engine_code": null,
         "engine_name": "D5204T"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-2-0-d-d3-d4",
-        "volvo-s80-2-0-d",
-        "volvo-v60-2-0-d"
-      ],
+      "scored_car_id": "volvo-s80-2-0-d",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-m-ikinci-el-otomobil-volvo-s80-2-0-d",
@@ -1865,12 +1822,8 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-2-0-d-d3-d4",
-        "volvo-s80-2-0-d",
-        "volvo-v60-2-0-d"
-      ],
+      "scored_car_id": "volvo-s80-2-0-d",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1907,12 +1860,8 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-2-0-d-d3-d4",
-        "volvo-s80-2-0-d",
-        "volvo-v60-2-0-d"
-      ],
+      "scored_car_id": "volvo-s80-2-0-d",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1949,7 +1898,7 @@
         "engine_code": null,
         "engine_name": "2.0L T5 6AT (240 HP)"
       },
-      "scored_car_id": "volvo-s60-2-0-t",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2548,14 +2497,11 @@
         "transmission_name": "Aisin Geartronic",
         "gears": 6,
         "clutch": null,
-        "engine_code": "volvo-vea-benzin",
+        "engine_code": null,
         "engine_name": "VEA"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-5-t3",
-        "volvo-v40-1-5-t3"
-      ],
+      "scored_car_id": "volvo-v40-1-5-t3",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--ikinci-el-otomobil-volvo-v40-1-5-t3",
@@ -2591,10 +2537,7 @@
         "engine_name": "1.6L Drive 6AT (115 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-6-d2",
-        "volvo-v40-1-6-d2"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2632,10 +2575,7 @@
         "engine_name": "1.6L Drive 6AT (115 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-6-d2",
-        "volvo-v40-1-6-d2"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2710,11 +2650,8 @@
         "engine_code": null,
         "engine_name": "1.5L T3 6AT FWD (152 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-5-t3",
-        "volvo-v40-1-5-t3"
-      ],
+      "scored_car_id": "volvo-v40-1-5-t3",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2787,14 +2724,11 @@
         "transmission_name": "Volvo Powershift (kuru)",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "psa-dv6",
+        "engine_code": null,
         "engine_name": "DV6"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-6-d2",
-        "volvo-v40-1-6-d2"
-      ],
+      "scored_car_id": "volvo-v40-1-6-d2",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--ikinci-el-otomobil-volvo-v40-1-6-d2",
@@ -2902,10 +2836,7 @@
         "engine_name": "1.6L Drive 6AT (115 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-6-d2",
-        "volvo-v40-1-6-d2"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2943,10 +2874,7 @@
         "engine_name": "1.6L Drive 6AT (115 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-1-6-d2",
-        "volvo-v40-1-6-d2"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3133,15 +3061,11 @@
         "transmission_name": "Aisin Geartronic",
         "gears": 6,
         "clutch": null,
-        "engine_code": "volvo-d-20",
+        "engine_code": null,
         "engine_name": "D5204T"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "volvo-s60-2-0-d-d3-d4",
-        "volvo-s80-2-0-d",
-        "volvo-v60-2-0-d"
-      ],
+      "scored_car_id": "volvo-v60-2-0-d",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-m-ikinci-el-otomobil-volvo-v60-2-0-d",

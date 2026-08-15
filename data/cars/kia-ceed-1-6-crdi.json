@@ -16,7 +16,9 @@
     "engine_id": "hyundai-u2-16",
     "kerb_weight_kg": 1490,
     "torque_nm": 260,
-    "fuel_consumption_l_100km": 5.5
+    "fuel_consumption_l_100km": 5.5,
+    "gears": 7,
+    "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı"
   },
   "price_band_k_try": [
     792,
@@ -97,5 +99,14 @@
     "p75_try": 948750,
     "km_median": 214500,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "kia-ceed-1-6-crdi-128"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/kia-cee-d-2012.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

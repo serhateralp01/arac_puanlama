@@ -16,7 +16,8 @@
     "engine_id": "fca-etorq-16",
     "kerb_weight_kg": 1205,
     "torque_nm": 152,
-    "fuel_consumption_l_100km": 6.3
+    "fuel_consumption_l_100km": 6.3,
+    "gears": 6
   },
   "price_band_k_try": [
     850,
@@ -97,5 +98,14 @@
     "p75_try": 970000,
     "km_median": 147000,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "fiat-egea-1-6-e-torq-110"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/fiat-tipo-5-doors-2016.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

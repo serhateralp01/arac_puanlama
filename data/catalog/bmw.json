@@ -282,7 +282,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e90-318d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -434,7 +434,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -472,7 +472,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -510,7 +510,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -625,10 +625,7 @@
         "engine_name": "525d 8AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-520d",
-        "bmw-e87-120d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -665,7 +662,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -703,7 +700,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -741,7 +738,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -779,7 +776,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -818,10 +815,7 @@
         "engine_name": "525d 8AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-f30-320d",
-        "bmw-f30-320i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -858,7 +852,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e46-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1230,7 +1224,7 @@
         "engine_code": "N47D20",
         "engine_name": "2.0 dizel"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1263,7 +1257,7 @@
         "transmission_name": "740d xDrive 8AT AWD (313 HP) 8-Speed Automatic (Steptronic)",
         "gears": 8,
         "clutch": null,
-        "engine_code": "bmw-b38",
+        "engine_code": null,
         "engine_name": "B38"
       },
       "scored_car_id": null,
@@ -1891,7 +1885,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1929,7 +1923,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1967,7 +1961,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2081,7 +2075,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2119,7 +2113,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2157,7 +2151,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2193,7 +2187,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2305,7 +2299,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e39-520d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2343,7 +2337,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2381,7 +2375,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2419,7 +2413,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2457,7 +2451,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e46-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2495,7 +2489,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e46-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2533,7 +2527,7 @@
         "engine_code": null,
         "engine_name": "320Ci 5AT RWD (170 HP)"
       },
-      "scored_car_id": "bmw-e46-320i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2571,7 +2565,7 @@
         "engine_code": null,
         "engine_name": "320Ci 5AT RWD (170 HP)"
       },
-      "scored_car_id": "bmw-e46-320i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2609,7 +2603,7 @@
         "engine_code": null,
         "engine_name": "320Ci 5AT RWD (170 HP)"
       },
-      "scored_car_id": "bmw-e46-320i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2647,7 +2641,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2685,7 +2679,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2723,7 +2717,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2762,10 +2756,7 @@
         "engine_name": "525d 8AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-f30-320d",
-        "bmw-f30-320i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2803,10 +2794,7 @@
         "engine_name": "525d 8AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-f30-320d",
-        "bmw-f30-320i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2844,10 +2832,7 @@
         "engine_name": "525d 8AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-f30-320d",
-        "bmw-f30-320i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2884,7 +2869,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e46-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2922,7 +2907,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e46-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2961,10 +2946,7 @@
         "engine_name": "525d 8AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-520d",
-        "bmw-e87-120d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3002,10 +2984,7 @@
         "engine_name": "525d 8AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-520d",
-        "bmw-e87-120d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3042,7 +3021,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3080,7 +3059,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3271,10 +3250,7 @@
         "engine_name": "528i xDrive 8AT AWD (245 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-f30-320d",
-        "bmw-f30-320i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -3310,10 +3286,7 @@
         "engine_name": "528i xDrive 8AT AWD (245 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-f30-320d",
-        "bmw-f30-320i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -3348,7 +3321,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e46-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3386,7 +3359,7 @@
         "engine_code": null,
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
-      "scored_car_id": "bmw-e46-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3424,7 +3397,7 @@
         "engine_code": null,
         "engine_name": "320Ci 5AT RWD (170 HP)"
       },
-      "scored_car_id": "bmw-e46-320i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3462,7 +3435,7 @@
         "engine_code": null,
         "engine_name": "320Ci 5AT RWD (170 HP)"
       },
-      "scored_car_id": "bmw-e46-320i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3577,11 +3550,7 @@
         "engine_name": "325Ci 5AT RWD (192 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e36-325i",
-        "bmw-e39-525i",
-        "bmw-e46-325i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3619,10 +3588,7 @@
         "engine_name": "325Ci 5AT RWD (192 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-525i",
-        "bmw-e46-325i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3660,10 +3626,7 @@
         "engine_name": "325Ci 5AT RWD (192 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-525i",
-        "bmw-e46-325i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3701,10 +3664,7 @@
         "engine_name": "325Ci 5AT RWD (192 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-525i",
-        "bmw-e46-325i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3742,10 +3702,7 @@
         "engine_name": "325Ci 5AT RWD (192 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-525i",
-        "bmw-e46-325i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3783,10 +3740,7 @@
         "engine_name": "525i 6AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-525i-530i",
-        "bmw-e90-325i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3824,10 +3778,7 @@
         "engine_name": "525i 6AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-525i-530i",
-        "bmw-e90-325i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3865,10 +3816,7 @@
         "engine_name": "525i 6AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-525i-530i",
-        "bmw-e90-325i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3944,10 +3892,7 @@
         "engine_name": "535i xDrive 8AT (306 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3985,10 +3930,7 @@
         "engine_name": "535i xDrive 8AT (306 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -4026,10 +3968,7 @@
         "engine_name": "535i xDrive 8AT (306 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -4142,7 +4081,7 @@
         "engine_code": null,
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
-      "scored_car_id": "bmw-e46-330d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -4180,7 +4119,7 @@
         "engine_code": null,
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
-      "scored_car_id": "bmw-e46-330d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -4219,10 +4158,7 @@
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e46-330i",
-        "bmw-e90-330d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -4260,10 +4196,7 @@
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e46-330i",
-        "bmw-e90-330d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -4301,10 +4234,7 @@
         "engine_name": "535i xDrive 8AT (306 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -4342,10 +4272,7 @@
         "engine_name": "535i xDrive 8AT (306 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -4606,7 +4533,7 @@
         "engine_code": "N43B20",
         "engine_name": "2.0 direkt enjeksiyon"
       },
-      "scored_car_id": "bmw-e87-116i-118i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4642,7 +4569,7 @@
         "engine_code": "N46B20",
         "engine_name": "2.0 Valvetronic"
       },
-      "scored_car_id": "bmw-e46-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4750,7 +4677,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e60-520d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -4789,10 +4716,7 @@
         "engine_name": "525d 8AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-520d",
-        "bmw-e87-120d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -4830,10 +4754,7 @@
         "engine_name": "525d 8AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-520d",
-        "bmw-e87-120d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -4871,10 +4792,7 @@
         "engine_name": "525d 8AT RWD (218 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-520d",
-        "bmw-e87-120d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -4911,7 +4829,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -4949,7 +4867,7 @@
         "engine_code": null,
         "engine_name": "525d 8AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -4988,10 +4906,7 @@
         "engine_name": "318Ci 5AT RWD (143 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-520d",
-        "bmw-e87-120d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -5028,7 +4943,7 @@
         "engine_code": null,
         "engine_name": "320Ci 5AT RWD (170 HP)"
       },
-      "scored_car_id": "bmw-e46-320i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -5066,7 +4981,7 @@
         "engine_code": null,
         "engine_name": "320Ci 5AT RWD (170 HP)"
       },
-      "scored_car_id": "bmw-e46-320i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -5181,10 +5096,7 @@
         "engine_name": "528i xDrive 8AT AWD (245 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-f30-320d",
-        "bmw-f30-320i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -5219,7 +5131,7 @@
         "engine_code": null,
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
-      "scored_car_id": "bmw-e46-330d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -5439,7 +5351,7 @@
         "engine_code": null,
         "engine_name": "525d 6AT RWD (177 HP)"
       },
-      "scored_car_id": "bmw-e39-525d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -5553,7 +5465,7 @@
         "engine_code": null,
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
-      "scored_car_id": "bmw-e60-525d-530d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -5591,7 +5503,7 @@
         "engine_code": null,
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
-      "scored_car_id": "bmw-e60-525d-530d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -5629,7 +5541,7 @@
         "engine_code": null,
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
-      "scored_car_id": "bmw-e60-525d-530d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -5744,11 +5656,7 @@
         "engine_name": "325Ci 5AT RWD (192 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e36-325i",
-        "bmw-e39-525i",
-        "bmw-e46-325i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -5786,10 +5694,7 @@
         "engine_name": "325Ci 5AT RWD (192 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-525i",
-        "bmw-e46-325i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -5826,7 +5731,7 @@
         "engine_code": null,
         "engine_name": "325Ci 5AT RWD (192 HP)"
       },
-      "scored_car_id": "bmw-e46-325i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -5864,7 +5769,7 @@
         "engine_code": null,
         "engine_name": "525i 6AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e60-525i-530i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -5902,7 +5807,7 @@
         "engine_code": null,
         "engine_name": "525i 6AT RWD (218 HP)"
       },
-      "scored_car_id": "bmw-e60-525i-530i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -6311,10 +6216,7 @@
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -6351,7 +6253,7 @@
         "engine_code": null,
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
-      "scored_car_id": "bmw-e46-330i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -6428,10 +6330,7 @@
         "engine_name": "535i xDrive 8AT (306 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -6469,10 +6368,7 @@
         "engine_name": "535i xDrive 8AT (306 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -6662,10 +6558,7 @@
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -6702,7 +6595,7 @@
         "engine_code": null,
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
-      "scored_car_id": "bmw-e46-330i",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -7072,11 +6965,8 @@
         "engine_code": "M54B25",
         "engine_name": "2.5 sıralı 6"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-525i",
-        "bmw-e46-325i"
-      ],
+      "scored_car_id": "bmw-e39-525i",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-bmw-525i-2-5",
@@ -7111,11 +7001,8 @@
         "engine_code": "N52B25",
         "engine_name": "2.5 sıralı 6"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-525i-530i",
-        "bmw-e90-325i"
-      ],
+      "scored_car_id": "bmw-e60-525i-530i",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-bmw-525i-2-5",
@@ -7151,11 +7038,7 @@
         "engine_name": "3.0 dizel"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i",
-        "bmw-e90-330d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-bmw-530d-3-0",
@@ -7190,12 +7073,8 @@
         "engine_code": "M54B30",
         "engine_name": "3.0 sıralı 6"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i",
-        "bmw-e90-330d"
-      ],
+      "scored_car_id": "bmw-e39-530i",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-bmw-530i-3-0",
@@ -7381,10 +7260,7 @@
         "engine_name": "740d xDrive 8AT AWD (313 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e46-330i",
-        "bmw-e90-330d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -7752,7 +7628,7 @@
         "transmission_name": "ZF 4HP20 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "bmw-m52",
+        "engine_code": null,
         "engine_name": "M52"
       },
       "scored_car_id": null,
@@ -7788,7 +7664,7 @@
         "transmission_name": "Tiptronic 5AT",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-m52",
+        "engine_code": null,
         "engine_name": "M52"
       },
       "scored_car_id": null,
@@ -7824,7 +7700,7 @@
         "transmission_name": "GM 5L40-E",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-m52",
+        "engine_code": null,
         "engine_name": "M52"
       },
       "scored_car_id": null,
@@ -7860,7 +7736,7 @@
         "transmission_name": "Tiptronic 5AT",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-m57",
+        "engine_code": null,
         "engine_name": "M57"
       },
       "scored_car_id": null,
@@ -7896,7 +7772,7 @@
         "transmission_name": "Tiptronic 5AT",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-m54",
+        "engine_code": null,
         "engine_name": "M54"
       },
       "scored_car_id": null,
@@ -7932,7 +7808,7 @@
         "transmission_name": "GM 5L40-E",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-m52",
+        "engine_code": null,
         "engine_name": "M52"
       },
       "scored_car_id": "bmw-e39-528i",
@@ -7968,7 +7844,7 @@
         "transmission_name": "Tiptronic 5AT",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-m57",
+        "engine_code": null,
         "engine_name": "M57"
       },
       "scored_car_id": "bmw-e39-530d",
@@ -8004,14 +7880,11 @@
         "transmission_name": "Tiptronic 5AT",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-m54",
+        "engine_code": null,
         "engine_name": "M54"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i"
-      ],
+      "scored_car_id": "bmw-e39-530i",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-bmw-e39-530i",
@@ -8043,7 +7916,7 @@
         "transmission_name": "ZF 4HP20 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "bmw-m43",
+        "engine_code": null,
         "engine_name": "M43"
       },
       "scored_car_id": "bmw-e46-318i",
@@ -8079,14 +7952,11 @@
         "transmission_name": "Tiptronic 5AT",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-m47",
+        "engine_code": null,
         "engine_name": "M47"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-520i",
-        "bmw-e46-320d"
-      ],
+      "scored_car_id": "bmw-e46-320d",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-bmw-e46-320d",
@@ -8118,7 +7988,7 @@
         "transmission_name": "Tiptronic 5AT",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-n4x",
+        "engine_code": null,
         "engine_name": "N42"
       },
       "scored_car_id": null,
@@ -8154,7 +8024,7 @@
         "transmission_name": "GM 5L40-E",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-m54",
+        "engine_code": null,
         "engine_name": "M54"
       },
       "scored_car_id": null,
@@ -8190,7 +8060,7 @@
         "transmission_name": "Tiptronic 5AT",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-m57",
+        "engine_code": null,
         "engine_name": "M57"
       },
       "scored_car_id": "bmw-e46-330d",
@@ -8226,15 +8096,11 @@
         "transmission_name": "GM 5L40-E",
         "gears": 5,
         "clutch": null,
-        "engine_code": "bmw-m54",
+        "engine_code": null,
         "engine_name": "M54"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e39-530i",
-        "bmw-e46-330i",
-        "bmw-e90-330d"
-      ],
+      "scored_car_id": "bmw-e46-330i",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-bmw-e46-330i",
@@ -8266,14 +8132,11 @@
         "transmission_name": "ZF 6HP",
         "gears": 6,
         "clutch": null,
-        "engine_code": "bmw-m47",
+        "engine_code": null,
         "engine_name": "M47"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-520d",
-        "bmw-e87-120d"
-      ],
+      "scored_car_id": "bmw-e60-520d",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-bmw-e60-520d",
@@ -8305,14 +8168,11 @@
         "transmission_name": "ZF 6HP",
         "gears": 6,
         "clutch": null,
-        "engine_code": "bmw-n47",
+        "engine_code": null,
         "engine_name": "N47"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-520d",
-        "bmw-e87-120d"
-      ],
+      "scored_car_id": "bmw-e87-120d",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-bmw-e87-120d",
@@ -8344,7 +8204,7 @@
         "transmission_name": "ZF 6HP",
         "gears": 6,
         "clutch": null,
-        "engine_code": "bmw-n4x",
+        "engine_code": null,
         "engine_name": "N42"
       },
       "scored_car_id": "bmw-e90-316i",
@@ -8380,7 +8240,7 @@
         "transmission_name": "ZF 6HP",
         "gears": 6,
         "clutch": null,
-        "engine_code": "bmw-m47",
+        "engine_code": null,
         "engine_name": "M47"
       },
       "scored_car_id": "bmw-e90-318d",
@@ -8416,7 +8276,7 @@
         "transmission_name": "ZF 6HP",
         "gears": 6,
         "clutch": null,
-        "engine_code": "bmw-n47",
+        "engine_code": null,
         "engine_name": "N47"
       },
       "scored_car_id": "bmw-e90-320d",
@@ -8452,14 +8312,11 @@
         "transmission_name": "ZF 6HP",
         "gears": 6,
         "clutch": null,
-        "engine_code": "bmw-n52",
+        "engine_code": null,
         "engine_name": "N52"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e60-525i-530i",
-        "bmw-e90-325i"
-      ],
+      "scored_car_id": "bmw-e90-325i",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-bmw-e90-325i",
@@ -8491,14 +8348,11 @@
         "transmission_name": "ZF 6HP",
         "gears": 6,
         "clutch": null,
-        "engine_code": "bmw-m57",
+        "engine_code": null,
         "engine_name": "M57"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e46-330i",
-        "bmw-e90-330d"
-      ],
+      "scored_car_id": "bmw-e90-330d",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--com-ikinci-el-otomobil-bmw-e90-330d",
@@ -8530,7 +8384,7 @@
         "transmission_name": "740d xDrive 8AT AWD (313 HP) 8-Speed Automatic (Steptronic)",
         "gears": 8,
         "clutch": null,
-        "engine_code": "bmw-n47",
+        "engine_code": null,
         "engine_name": "N47"
       },
       "scored_car_id": null,
@@ -8573,11 +8427,7 @@
         "engine_name": "2.0 Valvetronic"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "bmw-e36-320i-323i",
-        "bmw-e39-520i",
-        "bmw-e46-320d"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--ikinci-el-otomobil-bmw-x1-sdrive18i",
@@ -8612,7 +8462,7 @@
         "engine_code": "N47D20",
         "engine_name": "2.0 dizel"
       },
-      "scored_car_id": "bmw-e90-320d",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

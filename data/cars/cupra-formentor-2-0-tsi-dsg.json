@@ -15,7 +15,9 @@
     "engine_id": "vag-ea888-evo4",
     "kerb_weight_kg": 1521,
     "torque_nm": 320,
-    "fuel_consumption_l_100km": 7.5
+    "fuel_consumption_l_100km": 7.5,
+    "gears": 7,
+    "clutch": "Islak çift kavrama"
   },
   "price_band_k_try": [
     1600,
@@ -81,5 +83,14 @@
       "reasoning": "Güç/ağırlık oranı 125 hp/ton (normalize 60/100), tork/ağırlık oranı 210 Nm/ton (normalize 57/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş -3, şanzıman +4) temel puan 60. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "cupra-cupra-formentor-2-0-tsi-dsg-190"
+    ],
+    "generation": "2020-2020 pazar dilimi",
+    "technical_url": "https://www.araclo.com/blog/cupra-formentor-alinir-mi-kronik-sorunlari-kullanici-yorumlari-ve-tum-detaylar-2026",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

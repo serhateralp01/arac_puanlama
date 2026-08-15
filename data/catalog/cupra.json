@@ -21,14 +21,11 @@
         "transmission_name": "S tronic (ıslak)",
         "gears": 7,
         "clutch": "Islak çift kavrama",
-        "engine_code": "vag-ea888-evo4",
+        "engine_code": null,
         "engine_name": "EA888 evo4, 2.0 TSI evo4, DNU"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "cupra-formentor-2-0-tsi-dsg",
-        "cupra-leon-2-0-tsi-dsg"
-      ],
+      "scored_car_id": "cupra-formentor-2-0-tsi-dsg",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "araclo_cupra_formentor",

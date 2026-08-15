@@ -14,7 +14,8 @@
     "transmission_id": "zf-6hp",
     "body_type": "Sedan",
     "engine_id": "bmw-n4x",
-    "torque_nm": 160
+    "torque_nm": 160,
+    "gears": 6
   },
   "price_band_k_try": [
     871,
@@ -90,5 +91,14 @@
     "p75_try": 933562,
     "km_median": 202500,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "bmw-e90-316i-122"
+    ],
+    "generation": "E90",
+    "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

@@ -15,7 +15,9 @@
     "engine_id": "honda-l13z",
     "kerb_weight_kg": 1092,
     "torque_nm": 123,
-    "fuel_consumption_l_100km": 4.6
+    "fuel_consumption_l_100km": 4.6,
+    "gears": 7,
+    "clutch": "Kayış/zincir-kasnak"
   },
   "price_band_k_try": [
     620,
@@ -79,5 +81,16 @@
       "reasoning": "Bu aracın model yılı ortalaması 2015.0, yani 2026 itibarıyla yaşı yaklaşık 11.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 23.8. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 54 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "honda-jazz-1-3-102-bg-102",
+      "honda-jazz-1-3-102-bg-102-2",
+      "honda-jazz-1-3-i-vtec-cvt-102"
+    ],
+    "generation": null,
+    "technical_url": null,
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

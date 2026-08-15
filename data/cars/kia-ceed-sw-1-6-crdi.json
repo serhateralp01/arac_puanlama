@@ -13,7 +13,9 @@
     "transmission_id": "hyundai-7dct",
     "body_type": "Station Wagon",
     "engine_id": "hyundai-u2-16",
-    "torque_nm": 300
+    "torque_nm": 300,
+    "gears": 7,
+    "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı"
   },
   "price_band_k_try": [
     700,
@@ -73,5 +75,15 @@
       "reasoning": "Bu aracın model yılı ortalaması 2017.5, yani 2026 itibarıyla yaşı yaklaşık 8.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 18.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 65 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "kia-ceed-1-6-crdi-7dct-136",
+      "kia-ceed-sw-1-6-crdi-136"
+    ],
+    "generation": "CD",
+    "technical_url": null,
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

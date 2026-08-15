@@ -16,7 +16,9 @@
     "engine_id": "toyota-zr",
     "kerb_weight_kg": 1190,
     "torque_nm": 160,
-    "fuel_consumption_l_100km": 6.2
+    "fuel_consumption_l_100km": 6.2,
+    "gears": 7,
+    "engine_code": "1ZR-FAE"
   },
   "price_band_k_try": [
     787,
@@ -98,5 +100,17 @@
     "p75_try": 879925,
     "km_median": 188706,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "toyota-auris-1-6-132",
+      "toyota-auris-1-6-132-bg-132-3",
+      "toyota-auris-1-6-132-bg-132-4",
+      "toyota-toyota-auris-1-6-132"
+    ],
+    "generation": null,
+    "technical_url": null,
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

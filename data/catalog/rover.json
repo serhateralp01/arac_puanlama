@@ -95,7 +95,7 @@
         "transmission_name": "Jatco 5AT",
         "gears": 5,
         "clutch": null,
-        "engine_code": "rover-kv6",
+        "engine_code": null,
         "engine_name": "KV6"
       },
       "scored_car_id": "rover-75-2-0",

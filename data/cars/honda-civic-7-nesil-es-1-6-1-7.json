@@ -16,7 +16,9 @@
     "engine_id": "honda-d16-d17",
     "kerb_weight_kg": 1126,
     "torque_nm": 152,
-    "fuel_consumption_l_100km": 6.5
+    "fuel_consumption_l_100km": 6.5,
+    "gears": 4,
+    "engine_code": "D16V1"
   },
   "price_band_k_try": [
     450,
@@ -84,5 +86,14 @@
       "reasoning": "Güç/ağırlık oranı 98 hp/ton (normalize 30/100), tork/ağırlık oranı 135 Nm/ton (normalize 15/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 27. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "honda-civic-1-6-110"
+    ],
+    "generation": "ES",
+    "technical_url": "https://www.autoevolution.com/cars/honda-civic-coupe-1996.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

@@ -21,10 +21,10 @@
         "transmission_name": "Getrag 7DCT300",
         "gears": 7,
         "clutch": "Islak çift kavrama",
-        "engine_code": "renault-h5ht",
+        "engine_code": null,
         "engine_name": "H5Ht"
       },
-      "scored_car_id": "renault-clio-5-1-3-tce-edc",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -60,10 +60,7 @@
         "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-captur-1-2-tce-edc",
-        "renault-clio-4-1-2-tce"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -100,11 +97,8 @@
         "engine_code": null,
         "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-captur-1-2-tce-edc",
-        "renault-clio-4-1-2-tce"
-      ],
+      "scored_car_id": "renault-clio-4-1-2-tce",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -141,11 +135,8 @@
         "engine_code": null,
         "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-captur-1-2-tce-edc",
-        "renault-clio-4-1-2-tce"
-      ],
+      "scored_car_id": "renault-clio-4-1-2-tce",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -183,10 +174,7 @@
         "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-captur-1-2-tce-edc",
-        "renault-clio-4-1-2-tce"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -223,11 +211,8 @@
         "engine_code": null,
         "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-captur-1-2-tce-edc",
-        "renault-clio-4-1-2-tce"
-      ],
+      "scored_car_id": "renault-clio-4-1-2-tce",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -264,11 +249,8 @@
         "engine_code": null,
         "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-captur-1-2-tce-edc",
-        "renault-clio-4-1-2-tce"
-      ],
+      "scored_car_id": "renault-clio-4-1-2-tce",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -343,11 +325,8 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (113 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-clio-2-1-6",
-        "renault-laguna-2-1-6-2-0"
-      ],
+      "scored_car_id": "renault-clio-2-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -386,10 +365,7 @@
         "engine_name": "1.6L 16V 4AT FWD (113 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-clio-2-1-6",
-        "renault-laguna-2-1-6-2-0"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -427,10 +403,7 @@
         "engine_name": "1.6L 16V 4AT FWD (113 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-clio-2-1-6",
-        "renault-laguna-2-1-6-2-0"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -503,14 +476,11 @@
         "transmission_name": "DP0/AL4 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "renault-k4m",
+        "engine_code": null,
         "engine_name": "K4M"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-clio-2-1-6",
-        "renault-laguna-2-1-6-2-0"
-      ],
+      "scored_car_id": "renault-clio-2-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-kinci-el-otomobil-renault-clio-2-1-6",
@@ -542,14 +512,11 @@
         "transmission_name": "EDC (kuru)",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "renault-tce-12",
+        "engine_code": null,
         "engine_name": "H5F"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-captur-1-2-tce-edc",
-        "renault-clio-4-1-2-tce"
-      ],
+      "scored_car_id": "renault-clio-4-1-2-tce",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-i-el-otomobil-renault-clio-4-1-2-tce",
@@ -581,7 +548,7 @@
         "transmission_name": "Getrag 7DCT300",
         "gears": 7,
         "clutch": "Islak çift kavrama",
-        "engine_code": "renault-h5ht",
+        "engine_code": null,
         "engine_name": "H5Ht"
       },
       "scored_car_id": "renault-clio-5-1-3-tce-edc",
@@ -767,17 +734,11 @@
         "transmission_name": "EDC (kuru)",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "renault-k9k",
+        "engine_code": null,
         "engine_name": "K9K"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
-        "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
-      ],
+      "scored_car_id": "renault-fluence-1-5-dci",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--el-otomobil-renault-fluence-1-5-dci",
@@ -847,7 +808,7 @@
         "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
         "gears": null,
         "clutch": "Kayış/zincir-kasnak",
-        "engine_code": "renault-k4m",
+        "engine_code": null,
         "engine_name": "K4M"
       },
       "scored_car_id": "renault-fluence-1-6",
@@ -963,13 +924,7 @@
         "engine_name": "1.5L dCi"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
-        "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-bil-renault-grand-scenic-1-5-dci-edc",
@@ -1004,7 +959,7 @@
         "engine_code": null,
         "engine_name": "2.0L dCi 6AT FWD (150 HP)"
       },
-      "scored_car_id": "renault-latitude-2-0-dci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1039,17 +994,11 @@
         "transmission_name": "EDC (kuru)",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "renault-k9k",
+        "engine_code": null,
         "engine_name": "K9K"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
-        "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
-      ],
+      "scored_car_id": "renault-kadjar-1-5-dci-edc",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--otomobil-renault-kadjar-1-5-dci-edc",
@@ -1084,7 +1033,7 @@
         "engine_code": "M9R",
         "engine_name": "2.0L dCI"
       },
-      "scored_car_id": "renault-latitude-2-0-dci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1117,7 +1066,7 @@
         "transmission_name": "DP0/AL4 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "renault-f9q",
+        "engine_code": null,
         "engine_name": "F9Q"
       },
       "scored_car_id": "renault-laguna-1-9-dci",
@@ -1233,7 +1182,7 @@
         "engine_code": null,
         "engine_name": "2.0L dCi 6AT FWD (150 HP)"
       },
-      "scored_car_id": "renault-latitude-2-0-dci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1385,7 +1334,7 @@
         "engine_code": null,
         "engine_name": "2.0L dCi 6AT FWD (150 HP)"
       },
-      "scored_car_id": "renault-latitude-2-0-dci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1423,7 +1372,7 @@
         "engine_code": null,
         "engine_name": "2.0L dCi 6AT FWD (150 HP)"
       },
-      "scored_car_id": "renault-latitude-2-0-dci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1647,7 +1596,7 @@
         "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
         "gears": null,
         "clutch": "Kayış/zincir-kasnak",
-        "engine_code": "renault-m9r",
+        "engine_code": null,
         "engine_name": "M9R"
       },
       "scored_car_id": "renault-latitude-2-0-dci",
@@ -1724,7 +1673,7 @@
         "engine_code": null,
         "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
       },
-      "scored_car_id": "renault-megane-3-1-2-tce",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1762,7 +1711,7 @@
         "engine_code": null,
         "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
       },
-      "scored_car_id": "renault-megane-3-1-2-tce",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1915,10 +1864,7 @@
         "engine_name": "1.3L TCe 7AT (140 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "megane-clio-1-3-tce",
-        "renault-megane-4-1-3-tce-edc"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity",
         "missing_torque"
@@ -1957,10 +1903,7 @@
         "engine_name": "1.5L dCi 7AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-megane-3-1-5-dci"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1998,13 +1941,7 @@
         "engine_name": "1.5L dCi 7AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
-        "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2042,10 +1979,7 @@
         "engine_name": "1.5L dCi Eco2 6AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-megane-3-1-5-dci"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2082,11 +2016,8 @@
         "engine_code": null,
         "engine_name": "1.5L dCi 7AT FWD (110 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-megane-3-1-5-dci"
-      ],
+      "scored_car_id": "renault-megane-3-1-5-dci",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2124,10 +2055,7 @@
         "engine_name": "1.5L dCi 7AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-megane-3-1-5-dci"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2165,10 +2093,7 @@
         "engine_name": "1.5L dCi 7AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-megane-3-1-5-dci"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2287,11 +2212,8 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
         "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
+        "renault-megane-4-1-5-dci-edc"
       ],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2331,11 +2253,8 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
         "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
+        "renault-megane-4-1-5-dci-edc"
       ],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2375,11 +2294,8 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
         "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
+        "renault-megane-4-1-5-dci-edc"
       ],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2417,7 +2333,7 @@
         "engine_code": null,
         "engine_name": "1.6L dCi 6AT FWD (160 HP)"
       },
-      "scored_car_id": "renault-megane-4-estate-1-6-dci-165-edc",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2455,7 +2371,7 @@
         "engine_code": null,
         "engine_name": "1.6L dCi 6AT FWD (160 HP)"
       },
-      "scored_car_id": "renault-megane-4-estate-1-6-dci-165-edc",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2493,7 +2409,7 @@
         "engine_code": null,
         "engine_name": "1.6L dCi 6AT FWD (160 HP)"
       },
-      "scored_car_id": "renault-megane-4-estate-1-6-dci-165-edc",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity",
@@ -2532,7 +2448,7 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (113 HP)"
       },
-      "scored_car_id": "renault-megane-2-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2570,7 +2486,7 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (113 HP)"
       },
-      "scored_car_id": "renault-megane-2-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2608,7 +2524,7 @@
         "engine_code": null,
         "engine_name": "1.6L 16V 4AT FWD (113 HP)"
       },
-      "scored_car_id": "renault-megane-2-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2985,7 +2901,7 @@
         "transmission_name": "DP0/AL4 4AT",
         "gears": 4,
         "clutch": null,
-        "engine_code": "renault-k4m",
+        "engine_code": null,
         "engine_name": "K4M"
       },
       "scored_car_id": "renault-megane-2-1-6",
@@ -3022,7 +2938,7 @@
         "transmission_name": "EDC (kuru)",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "renault-tce-12",
+        "engine_code": null,
         "engine_name": "H5F"
       },
       "scored_car_id": "renault-megane-3-1-2-tce",
@@ -3058,17 +2974,11 @@
         "transmission_name": "EDC (kuru)",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "renault-k9k",
+        "engine_code": null,
         "engine_name": "K9K"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
-        "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
-      ],
+      "scored_car_id": "renault-megane-3-1-5-dci",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-el-otomobil-renault-megane-3-1-5-dci",
@@ -3100,14 +3010,11 @@
         "transmission_name": "Getrag 7DCT300",
         "gears": 7,
         "clutch": "Islak çift kavrama",
-        "engine_code": "renault-h5ht",
+        "engine_code": null,
         "engine_name": "H5Ht"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "megane-clio-1-3-tce",
-        "renault-megane-4-1-3-tce-edc"
-      ],
+      "scored_car_id": "renault-megane-4-1-3-tce-edc",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-tomobil-renault-megane-4-1-3-tce-edc",
@@ -3139,17 +3046,11 @@
         "transmission_name": "EDC (kuru)",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "renault-k9k",
+        "engine_code": null,
         "engine_name": "K9K"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
-        "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
-      ],
+      "scored_car_id": "renault-megane-4-1-5-dci-edc",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-tomobil-renault-megane-4-1-5-dci-edc",
@@ -3185,10 +3086,7 @@
         "engine_name": "1.6L 16V"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-clio-2-1-6",
-        "renault-laguna-2-1-6-2-0"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-ci-el-otomobil-renault-modus-1-6-4at",
@@ -3224,10 +3122,7 @@
         "engine_name": "1.6L 16V 4AT FWD (113 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-clio-2-1-6",
-        "renault-laguna-2-1-6-2-0"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3261,7 +3156,7 @@
         "transmission_name": "Getrag 7DCT300",
         "gears": 7,
         "clutch": "Islak çift kavrama",
-        "engine_code": "renault-r9m",
+        "engine_code": null,
         "engine_name": "R9M"
       },
       "scored_car_id": "renault-megane-4-estate-1-6-dci-165-edc",
@@ -3297,7 +3192,7 @@
         "transmission_name": "EDC (kuru)",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "renault-r9m",
+        "engine_code": null,
         "engine_name": "R9M"
       },
       "scored_car_id": "renault-megane-1-6-dci-130",
@@ -3340,13 +3235,7 @@
         "engine_name": "1.5L dCi"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
-        "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--otomobil-renault-scenic-1-5-dci-edc",
@@ -3382,10 +3271,7 @@
         "engine_name": "1.5L dCi 7AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-megane-3-1-5-dci"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3425,10 +3311,7 @@
         "engine_name": "1.5L dCi 7AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-megane-3-1-5-dci"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3468,13 +3351,7 @@
         "engine_name": "1.5L dCi 7AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
-        "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -3551,7 +3428,7 @@
         "engine_code": null,
         "engine_name": "1.6L dCi 6AT FWD (160 HP)"
       },
-      "scored_car_id": "renault-talisman-1-6-dci-160-edc",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3589,7 +3466,7 @@
         "engine_code": null,
         "engine_name": "2.0L dCi 6AT FWD (150 HP)"
       },
-      "scored_car_id": "renault-latitude-2-0-dci",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3624,17 +3501,11 @@
         "transmission_name": "EDC (kuru)",
         "gears": 6,
         "clutch": "Kuru çift kavrama",
-        "engine_code": "renault-k9k",
+        "engine_code": null,
         "engine_name": "K9K"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "renault-fluence-1-5-dci",
-        "renault-kadjar-1-5-dci-edc",
-        "renault-megane-3-1-5-dci",
-        "renault-megane-4-1-5-dci-edc",
-        "renault-talisman-1-5-dci"
-      ],
+      "scored_car_id": "renault-talisman-1-5-dci",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-el-otomobil-renault-talisman-1-5-dci",
@@ -3666,7 +3537,7 @@
         "transmission_name": "Getrag 7DCT300",
         "gears": 7,
         "clutch": "Islak çift kavrama",
-        "engine_code": "renault-r9m",
+        "engine_code": null,
         "engine_name": "R9M"
       },
       "scored_car_id": "renault-talisman-1-6-dci-160-edc",
@@ -3705,7 +3576,7 @@
         "engine_code": null,
         "engine_name": "1.6L dCi 6AT FWD (160 HP)"
       },
-      "scored_car_id": "renault-megane-1-6-dci-130",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3743,7 +3614,7 @@
         "engine_code": null,
         "engine_name": "1.6L dCi 6AT FWD (160 HP)"
       },
-      "scored_car_id": "renault-megane-1-6-dci-130",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3781,7 +3652,7 @@
         "engine_code": null,
         "engine_name": "1.6L dCi 6AT FWD (160 HP)"
       },
-      "scored_car_id": "renault-talisman-1-6-dci-160-edc",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -3819,7 +3690,7 @@
         "engine_code": null,
         "engine_name": "1.6L dCi 6AT FWD (160 HP)"
       },
-      "scored_car_id": "renault-talisman-1-6-dci-160-edc",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"

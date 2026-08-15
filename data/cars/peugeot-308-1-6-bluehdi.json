@@ -16,7 +16,8 @@
     "engine_id": "psa-dv6",
     "kerb_weight_kg": 1275,
     "torque_nm": 300,
-    "fuel_consumption_l_100km": 3.6
+    "fuel_consumption_l_100km": 3.6,
+    "gears": 6
   },
   "price_band_k_try": [
     880,
@@ -99,5 +100,17 @@
     "p75_try": 1068750,
     "km_median": 169000,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "peugeot-308-1-5-bluehdi-120-bg-120",
+      "peugeot-308-1-5-bluehdi-120-bg-120-2",
+      "peugeot-308-1-5-bluehdi-120-bg-120-3",
+      "peugeot-308-1-6-bluehdi-120"
+    ],
+    "generation": null,
+    "technical_url": null,
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

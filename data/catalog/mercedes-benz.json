@@ -21,10 +21,10 @@
         "transmission_name": "350 BlueTEC 9AT (252 HP) 9-Speed Automatic (9G-Tronic)",
         "gears": 9,
         "clutch": null,
-        "engine_code": "mb-m274",
+        "engine_code": null,
         "engine_name": "M274"
       },
-      "scored_car_id": "mercedes-c200-w205-9g-tronic",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -320,7 +320,7 @@
         "engine_code": "M270",
         "engine_name": "200"
       },
-      "scored_car_id": "mercedes-a-b-serisi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -502,7 +502,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c200-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -538,7 +538,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c200-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -799,7 +799,7 @@
         "engine_code": "M270",
         "engine_name": "200"
       },
-      "scored_car_id": "mercedes-a-b-serisi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1305,7 +1305,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c200-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1377,7 +1377,7 @@
         "engine_code": null,
         "engine_name": "200 7AT (184 HP)"
       },
-      "scored_car_id": "mercedes-c200-w205-9g-tronic",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1597,7 +1597,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c220-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1633,7 +1633,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c220-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1669,7 +1669,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c220-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1705,7 +1705,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c220-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1742,10 +1742,7 @@
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c250-cdi-w204",
-        "mercedes-e250-cdi-w212"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-80ced06fd90f4d8ab1",
@@ -1781,10 +1778,7 @@
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c250-cdi-w204",
-        "mercedes-e250-cdi-w212"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-80ced06fd90f4d8ab1",
@@ -1963,7 +1957,7 @@
         "engine_code": "M271 EVO",
         "engine_name": "1.8 Turbo"
       },
-      "scored_car_id": "mercedes-c180-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2032,7 +2026,7 @@
         "transmission_name": "4G-Tronic",
         "gears": 4,
         "clutch": null,
-        "engine_code": "mb-m111",
+        "engine_code": null,
         "engine_name": "M111"
       },
       "scored_car_id": null,
@@ -2071,7 +2065,7 @@
         "engine_code": "M270",
         "engine_name": "200"
       },
-      "scored_car_id": "mercedes-a-b-serisi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2216,11 +2210,7 @@
         "engine_name": "270 CDI 5AT RWD (177 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c270-cdi",
-        "mercedes-clk270-cdi",
-        "mercedes-e270-cdi"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-9b570800e1f1ea1b51",
@@ -2291,7 +2281,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c200-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2543,7 +2533,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c200-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2616,12 +2606,7 @@
         "engine_name": "200 BlueEFFICIENCY 7AT RWD (184 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c200-komp",
-        "mercedes-c200-kompressor-w203",
-        "mercedes-clk200-komp",
-        "mercedes-e200-kompressor-w211"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-c584039add8b3c069f",
@@ -2657,12 +2642,7 @@
         "engine_name": "200 BlueEFFICIENCY 7AT RWD (184 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c200-komp",
-        "mercedes-c200-kompressor-w203",
-        "mercedes-clk200-komp",
-        "mercedes-e200-kompressor-w211"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-c584039add8b3c069f",
@@ -2697,7 +2677,7 @@
         "engine_code": null,
         "engine_name": "200 7AT (184 HP)"
       },
-      "scored_car_id": "mercedes-c200-w205-9g-tronic",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2733,7 +2713,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c220-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2769,7 +2749,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c220-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2805,7 +2785,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c220-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2841,7 +2821,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c220-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2877,7 +2857,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": "mercedes-c220-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3022,10 +3002,7 @@
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c250-cdi-w204",
-        "mercedes-e250-cdi-w212"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-81475f6e52e0c2b3eb",
@@ -3061,10 +3038,7 @@
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c250-cdi-w204",
-        "mercedes-e250-cdi-w212"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-81475f6e52e0c2b3eb",
@@ -3208,10 +3182,7 @@
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c250-cdi-w204",
-        "mercedes-e250-cdi-w212"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-e9e80db80f42d9bb78",
@@ -3247,10 +3218,7 @@
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c250-cdi-w204",
-        "mercedes-e250-cdi-w212"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "src-e9e80db80f42d9bb78",
@@ -3573,7 +3541,7 @@
         "engine_code": "OM651",
         "engine_name": "220 CDI 4MATIC"
       },
-      "scored_car_id": "mercedes-c220-cdi-w204",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3606,7 +3574,7 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-om611",
+        "engine_code": null,
         "engine_name": "OM611"
       },
       "scored_car_id": "mercedes-c200-cdi-w203",
@@ -3642,7 +3610,7 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-om651",
+        "engine_code": null,
         "engine_name": "OM651"
       },
       "scored_car_id": "mercedes-c200-cdi-w204",
@@ -3678,16 +3646,11 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-m271",
+        "engine_code": null,
         "engine_name": "M271"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c200-komp",
-        "mercedes-c200-kompressor-w203",
-        "mercedes-clk200-komp",
-        "mercedes-e200-kompressor-w211"
-      ],
+      "scored_car_id": "mercedes-c200-kompressor-w203",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-il-mercedes-mercedes-c200-kompressor",
@@ -3719,14 +3682,11 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-om646",
+        "engine_code": null,
         "engine_name": "OM646"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c220-cdi",
-        "mercedes-e220-cdi-w211"
-      ],
+      "scored_car_id": "mercedes-c220-cdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--otomobil-mercedes-mercedes-c220-cdi",
@@ -3758,7 +3718,7 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-om651",
+        "engine_code": null,
         "engine_name": "OM651"
       },
       "scored_car_id": "mercedes-c220-cdi-w204",
@@ -3794,7 +3754,7 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-m271",
+        "engine_code": null,
         "engine_name": "M271"
       },
       "scored_car_id": "mercedes-c230-m271k",
@@ -3830,14 +3790,11 @@
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
         "gears": 7,
         "clutch": null,
-        "engine_code": "mb-om651",
+        "engine_code": null,
         "engine_name": "OM651"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c250-cdi-w204",
-        "mercedes-e250-cdi-w212"
-      ],
+      "scored_car_id": "mercedes-c250-cdi-w204",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--otomobil-mercedes-mercedes-c250-cdi",
@@ -3869,15 +3826,11 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-om612",
+        "engine_code": null,
         "engine_name": "OM612"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c270-cdi",
-        "mercedes-clk270-cdi",
-        "mercedes-e270-cdi"
-      ],
+      "scored_car_id": "mercedes-c270-cdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--otomobil-mercedes-mercedes-c270-cdi",
@@ -3909,7 +3862,7 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-m111",
+        "engine_code": null,
         "engine_name": "M111"
       },
       "scored_car_id": null,
@@ -3945,7 +3898,7 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-m111",
+        "engine_code": null,
         "engine_name": "M111"
       },
       "scored_car_id": "mercedes-clk230-komp",
@@ -3981,15 +3934,11 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-om612",
+        "engine_code": null,
         "engine_name": "OM612"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c270-cdi",
-        "mercedes-clk270-cdi",
-        "mercedes-e270-cdi"
-      ],
+      "scored_car_id": "mercedes-clk270-cdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-tomobil-mercedes-mercedes-clk270-cdi",
@@ -4021,7 +3970,7 @@
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
         "gears": 7,
         "clutch": null,
-        "engine_code": "mb-m271",
+        "engine_code": null,
         "engine_name": "M271"
       },
       "scored_car_id": "mercedes-e200-w212",
@@ -4057,16 +4006,11 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-m271",
+        "engine_code": null,
         "engine_name": "M271"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c200-komp",
-        "mercedes-c200-kompressor-w203",
-        "mercedes-clk200-komp",
-        "mercedes-e200-kompressor-w211"
-      ],
+      "scored_car_id": "mercedes-e200-kompressor-w211",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-il-mercedes-mercedes-e200-kompressor",
@@ -4098,14 +4042,11 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-om646",
+        "engine_code": null,
         "engine_name": "OM646"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c220-cdi",
-        "mercedes-e220-cdi-w211"
-      ],
+      "scored_car_id": "mercedes-e220-cdi-w211",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--otomobil-mercedes-mercedes-e220-cdi",
@@ -4137,14 +4078,11 @@
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
         "gears": 7,
         "clutch": null,
-        "engine_code": "mb-om651",
+        "engine_code": null,
         "engine_name": "OM651"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c250-cdi-w204",
-        "mercedes-e250-cdi-w212"
-      ],
+      "scored_car_id": "mercedes-e250-cdi-w212",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market--otomobil-mercedes-mercedes-e250-cdi",
@@ -4176,15 +4114,11 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-om612",
+        "engine_code": null,
         "engine_name": "OM612"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "mercedes-c270-cdi",
-        "mercedes-clk270-cdi",
-        "mercedes-e270-cdi"
-      ],
+      "scored_car_id": "mercedes-e270-cdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "missing_technical_url"
       ],
@@ -4253,7 +4187,7 @@
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
         "gears": 5,
         "clutch": null,
-        "engine_code": "mb-om613",
+        "engine_code": null,
         "engine_name": "OM613"
       },
       "scored_car_id": "mercedes-e320-cdi",
@@ -4292,7 +4226,7 @@
         "engine_code": null,
         "engine_name": "200 BlueEFFICIENCY 7AT RWD (184 HP)"
       },
-      "scored_car_id": "mercedes-e200-w212",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4328,7 +4262,7 @@
         "engine_code": null,
         "engine_name": "200 BlueEFFICIENCY 7AT RWD (184 HP)"
       },
-      "scored_car_id": "mercedes-e200-w212",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4364,7 +4298,7 @@
         "engine_code": "M271",
         "engine_name": "200 Kompressor"
       },
-      "scored_car_id": "mercedes-e200-w212",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

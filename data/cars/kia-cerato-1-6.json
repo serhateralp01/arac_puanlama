@@ -14,7 +14,8 @@
     "transmission_id": "hyundai-6at",
     "body_type": "Sedan",
     "engine_id": "hyundai-gamma16-mpi",
-    "torque_nm": 157
+    "torque_nm": 157,
+    "gears": 6
   },
   "price_band_k_try": [
     650,
@@ -74,5 +75,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2015.5, yani 2026 itibarıyla yaşı yaklaşık 10.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 22.8. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 56 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "kia-cerato-1-6-130"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/kia-cerato-forte-2013.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

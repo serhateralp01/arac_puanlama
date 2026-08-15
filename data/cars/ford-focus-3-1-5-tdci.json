@@ -16,7 +16,9 @@
     "engine_id": "ford-duratorq-15",
     "kerb_weight_kg": 1350,
     "torque_nm": 270,
-    "fuel_consumption_l_100km": 3.8
+    "fuel_consumption_l_100km": 3.8,
+    "gears": 6,
+    "clutch": "Islak çift kavrama"
   },
   "price_band_k_try": [
     830,
@@ -100,5 +102,14 @@
     "p75_try": 1050000,
     "km_median": 201000,
     "quality": "limited_single_market_missing_damage"
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "ford-focus-3-1-5-tdci-120"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/ford-focus-5-doors-2014.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

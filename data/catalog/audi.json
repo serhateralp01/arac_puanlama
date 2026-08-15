@@ -170,7 +170,7 @@
         "engine_code": null,
         "engine_name": "1.4L TFSI 7AT (125 HP)"
       },
-      "scored_car_id": "audi-a3-8v-1-4-tsi-stronic",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -319,7 +319,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea211",
+        "engine_code": null,
         "engine_name": "EA211"
       },
       "scored_car_id": null,
@@ -466,7 +466,7 @@
         "engine_code": "CDAA",
         "engine_name": "1.8 TFSI"
       },
-      "scored_car_id": "audi-a4-b8-1-8-tfsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -571,10 +571,10 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea188-pd",
+        "engine_code": null,
         "engine_name": "EA188"
       },
-      "scored_car_id": "audi-a3-8p-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -607,7 +607,7 @@
         "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
         "gears": 7,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea211",
+        "engine_code": null,
         "engine_name": "EA211"
       },
       "scored_car_id": null,
@@ -1445,7 +1445,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
       },
-      "scored_car_id": "audi-a3-8p-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1481,7 +1481,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
       },
-      "scored_car_id": "audi-a3-8p-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1518,10 +1518,7 @@
         "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "audi-a4-b9-2-0-tdi",
-        "audi-q3-2-0-tdi-quattro"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -1557,10 +1554,7 @@
         "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "audi-a4-b9-2-0-tdi",
-        "audi-q3-2-0-tdi-quattro"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1597,7 +1591,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
       },
-      "scored_car_id": "audi-a6-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1669,7 +1663,7 @@
         "engine_code": "AVJ/BFB",
         "engine_name": "1.8 Turbo"
       },
-      "scored_car_id": "audi-a4-b5-1-8t-2-4",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1777,7 +1771,7 @@
         "engine_code": "BLB/BRE",
         "engine_name": "2.0 TDI PD"
       },
-      "scored_car_id": "audi-a3-8p-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1810,7 +1804,7 @@
         "transmission_name": "Multitronic CVT",
         "gears": null,
         "clutch": "Çelik zincirli CVT",
-        "engine_code": "vag-ea888",
+        "engine_code": null,
         "engine_name": "EA888"
       },
       "scored_car_id": "audi-a4-b8-1-8-tfsi",
@@ -1846,7 +1840,7 @@
         "transmission_name": "Multitronic CVT",
         "gears": null,
         "clutch": "Çelik zincirli CVT",
-        "engine_code": "vag-ea189",
+        "engine_code": null,
         "engine_name": "EA189"
       },
       "scored_car_id": "audi-a4-b8-2-0-tdi",
@@ -1882,7 +1876,7 @@
         "transmission_name": "S tronic (ıslak)",
         "gears": 7,
         "clutch": "Islak çift kavrama",
-        "engine_code": "vag-ea888",
+        "engine_code": null,
         "engine_name": "EA888"
       },
       "scored_car_id": null,
@@ -1918,14 +1912,11 @@
         "transmission_name": "S tronic (ıslak)",
         "gears": 7,
         "clutch": "Islak çift kavrama",
-        "engine_code": "vag-ea288",
+        "engine_code": null,
         "engine_name": "EA288"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "audi-a4-b9-2-0-tdi",
-        "audi-q3-2-0-tdi-quattro"
-      ],
+      "scored_car_id": "audi-a4-b9-2-0-tdi",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-kinci-el-otomobil-audi-a4-b9-2-0-tdi",
@@ -1957,7 +1948,7 @@
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
         "gears": 6,
         "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-        "engine_code": "vag-ea888",
+        "engine_code": null,
         "engine_name": "EA888"
       },
       "scored_car_id": null,
@@ -2032,7 +2023,7 @@
         "engine_code": "AWT",
         "engine_name": "1.8 Turbo"
       },
-      "scored_car_id": "audi-a4-b5-1-8t-2-4",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2065,7 +2056,7 @@
         "transmission_name": "Multitronic CVT",
         "gears": null,
         "clutch": "Çelik zincirli CVT",
-        "engine_code": "vag-ea189",
+        "engine_code": null,
         "engine_name": "EA189"
       },
       "scored_car_id": "audi-a6-2-0-tdi",
@@ -2173,7 +2164,7 @@
         "transmission_name": "ZF 6HP",
         "gears": 6,
         "clutch": null,
-        "engine_code": "vag-v6-tdi",
+        "engine_code": null,
         "engine_name": "3.0 V6 TDI"
       },
       "scored_car_id": "audi-a6-3-0-tdi-quattro",
@@ -2740,7 +2731,7 @@
         "engine_code": null,
         "engine_name": "1.8L TFSI 7AT FWD (180 HP)"
       },
-      "scored_car_id": "audi-a4-b8-1-8-tfsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2778,7 +2769,7 @@
         "engine_code": null,
         "engine_name": "1.8L TFSI 7AT FWD (180 HP)"
       },
-      "scored_car_id": "audi-a4-b8-1-8-tfsi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2924,7 +2915,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
       },
-      "scored_car_id": "audi-a6-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2960,7 +2951,7 @@
         "engine_code": null,
         "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
       },
-      "scored_car_id": "audi-a6-2-0-tdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2996,7 +2987,7 @@
         "engine_code": null,
         "engine_name": "2.0L TFSI Quattro 6AT AWD (211 HP)"
       },
-      "scored_car_id": "audi-a4-b8-2-0-tfsi-quattro",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3032,7 +3023,7 @@
         "engine_code": null,
         "engine_name": "2.0L TFSI Quattro 6AT AWD (211 HP)"
       },
-      "scored_car_id": "audi-a4-b8-2-0-tfsi-quattro",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3068,7 +3059,7 @@
         "engine_code": null,
         "engine_name": "2.0L TFSI Quattro 6AT AWD (211 HP)"
       },
-      "scored_car_id": "audi-a4-b8-2-0-tfsi-quattro",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3104,7 +3095,7 @@
         "engine_code": null,
         "engine_name": "2.0L TFSI Quattro 6AT AWD (211 HP)"
       },
-      "scored_car_id": "audi-a4-b8-2-0-tfsi-quattro",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

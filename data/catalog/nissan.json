@@ -283,14 +283,11 @@
         "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
         "gears": null,
         "clutch": "Kayış/zincir-kasnak",
-        "engine_code": "nissan-hr16de",
+        "engine_code": null,
         "engine_name": "HR16DE"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "nissan-juke-1-6",
-        "nissan-qashqai-j10-1-6-cvt"
-      ],
+      "scored_car_id": "nissan-juke-1-6",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-m-ikinci-el-otomobil-nissan-juke-1-6",
@@ -509,7 +506,7 @@
         "engine_code": "HR16DE",
         "engine_name": "1.6L"
       },
-      "scored_car_id": "nissan-almera-primera-1-6-2-0",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -621,7 +618,7 @@
         "engine_code": null,
         "engine_name": "1.6L MPI 4AT (110 HP)"
       },
-      "scored_car_id": "nissan-almera-primera-1-6-2-0",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -764,14 +761,11 @@
         "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
         "gears": null,
         "clutch": "Kayış/zincir-kasnak",
-        "engine_code": "nissan-hr16de",
+        "engine_code": null,
         "engine_name": "HR16DE"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "nissan-juke-1-6",
-        "nissan-qashqai-j10-1-6-cvt"
-      ],
+      "scored_car_id": "nissan-qashqai-j10-1-6-cvt",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-i-el-otomobil-nissan-qashqai-1-6-cvt",
@@ -803,7 +797,7 @@
         "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
         "gears": null,
         "clutch": "Kayış/zincir-kasnak",
-        "engine_code": "renault-h5ht",
+        "engine_code": null,
         "engine_name": "H5Ht"
       },
       "scored_car_id": "nissan-qashqai-1-3-dig-t-cvt",
@@ -839,7 +833,7 @@
         "transmission_name": "Getrag 7DCT300",
         "gears": 7,
         "clutch": "Islak çift kavrama",
-        "engine_code": "renault-h5ht",
+        "engine_code": null,
         "engine_name": "H5Ht"
       },
       "scored_car_id": null,

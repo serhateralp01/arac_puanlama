@@ -16,7 +16,8 @@
     "engine_id": "toyota-zr",
     "kerb_weight_kg": 1220,
     "torque_nm": 157,
-    "fuel_consumption_l_100km": 6.7
+    "fuel_consumption_l_100km": 6.7,
+    "gears": 4
   },
   "price_band_k_try": [
     650,
@@ -84,5 +85,14 @@
       "reasoning": "Güç/ağırlık oranı 102 hp/ton (normalize 35/100), tork/ağırlık oranı 129 Nm/ton (normalize 11/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 29. Karakter düzeltmesi +5 puan uygulandı, gerekçesi: doğal emişli yüksek devir karakteri (78 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "toyota-toyota-corolla-1-6-2007-13-124"
+    ],
+    "generation": "2007-2013 pazar dilimi",
+    "technical_url": "https://hiver.digital/en/toyota-corolla-e120-e150-2002-2010-bulletproof-reliability/",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

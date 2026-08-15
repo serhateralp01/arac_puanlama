@@ -133,7 +133,7 @@
         "transmission_name": "AF17",
         "gears": 6,
         "clutch": null,
-        "engine_code": "gm-a14net",
+        "engine_code": null,
         "engine_name": "A14NET"
       },
       "scored_car_id": null,
@@ -293,10 +293,7 @@
         "engine_name": "1.4L Turbo 6AT FWD (140 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "opel-astra-1-4-t-2013",
-        "opel-corsa-astra-1-4-turbo"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -412,8 +409,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [
         "opel-astra-1-6-cdti-2013",
-        "opel-astra-j-1-6-cdti-otomatik",
-        "opel-insignia-1-6-cdti"
+        "opel-astra-j-1-6-cdti-otomatik"
       ],
       "quality_flags": [
         "generic_transmission_identity"
@@ -454,8 +450,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [
         "opel-astra-1-6-cdti-2013",
-        "opel-astra-j-1-6-cdti-otomatik",
-        "opel-insignia-1-6-cdti"
+        "opel-astra-j-1-6-cdti-otomatik"
       ],
       "quality_flags": [
         "generic_transmission_identity"
@@ -490,14 +485,13 @@
         "transmission_name": "AF17",
         "gears": 6,
         "clutch": null,
-        "engine_code": "gm-a16dth",
+        "engine_code": null,
         "engine_name": "A16DTH"
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [
         "opel-astra-1-6-cdti-2013",
-        "opel-astra-j-1-6-cdti-otomatik",
-        "opel-insignia-1-6-cdti"
+        "opel-astra-j-1-6-cdti-otomatik"
       ],
       "quality_flags": [],
       "sources": [
@@ -761,7 +755,7 @@
         "engine_code": null,
         "engine_name": "1.6L Turbo 6AT FWD (170 HP)"
       },
-      "scored_car_id": "opel-astra-j-1-6",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -837,7 +831,7 @@
         "engine_code": null,
         "engine_name": "1.6L Turbo 6AT FWD (170 HP)"
       },
-      "scored_car_id": "opel-insignia-1-6-t",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -872,7 +866,7 @@
         "transmission_name": "AF17",
         "gears": 6,
         "clutch": null,
-        "engine_code": "gm-z17dt",
+        "engine_code": null,
         "engine_name": "Z17DTH"
       },
       "scored_car_id": "opel-astra-1-7-cdti",
@@ -911,7 +905,7 @@
         "engine_code": null,
         "engine_name": "1.8i 16V 5AT FWD (122 HP)"
       },
-      "scored_car_id": "opel-vectra-b-1-6-1-8",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -1136,7 +1130,7 @@
         "transmission_name": "GM 4T65-E",
         "gears": 4,
         "clutch": null,
-        "engine_code": "gm-ecotec-18",
+        "engine_code": null,
         "engine_name": "X18XE"
       },
       "scored_car_id": "opel-astra-h-1-8-16v-4at",
@@ -1172,7 +1166,7 @@
         "transmission_name": "AF17",
         "gears": 6,
         "clutch": null,
-        "engine_code": "gm-family1-16",
+        "engine_code": null,
         "engine_name": "A16XER"
       },
       "scored_car_id": "opel-astra-j-1-6",
@@ -1208,15 +1202,11 @@
         "transmission_name": "Aisin AF40-6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "gm-a16dth",
+        "engine_code": null,
         "engine_name": "A16DTH"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "opel-astra-1-6-cdti-2013",
-        "opel-astra-j-1-6-cdti-otomatik",
-        "opel-insignia-1-6-cdti"
-      ],
+      "scored_car_id": "opel-astra-j-1-6-cdti-otomatik",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-mobil-opel-astra-j-1-6-cdti-otomatik",
@@ -1248,10 +1238,10 @@
         "transmission_name": "EAT8",
         "gears": 8,
         "clutch": null,
-        "engine_code": "psa-puretech-12",
+        "engine_code": null,
         "engine_name": "PureTech 130"
       },
-      "scored_car_id": "opel-crossland-x-1-2-puretech",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1283,7 +1273,7 @@
         "transmission_name": "EAT8",
         "gears": 8,
         "clutch": null,
-        "engine_code": "psa-puretech-12",
+        "engine_code": null,
         "engine_name": "PureTech 130"
       },
       "scored_car_id": "opel-crossland-x-1-2-puretech",
@@ -1319,7 +1309,7 @@
         "transmission_name": "EAT6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "psa-dv6",
+        "engine_code": null,
         "engine_name": "DV6"
       },
       "scored_car_id": "opel-grandland-x-1-6-cdti-eat6",
@@ -1355,15 +1345,11 @@
         "transmission_name": "AF17",
         "gears": 6,
         "clutch": null,
-        "engine_code": "gm-a16dth",
+        "engine_code": null,
         "engine_name": "A16DTH"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "opel-astra-1-6-cdti-2013",
-        "opel-astra-j-1-6-cdti-otomatik",
-        "opel-insignia-1-6-cdti"
-      ],
+      "scored_car_id": "opel-insignia-1-6-cdti",
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-i-el-otomobil-opel-insignia-1-6-cdti",
@@ -1623,7 +1609,7 @@
         "transmission_name": "AF17",
         "gears": 6,
         "clutch": null,
-        "engine_code": "gm-a16let",
+        "engine_code": null,
         "engine_name": "A16LET"
       },
       "scored_car_id": "opel-insignia-1-6-t",
@@ -1662,12 +1648,8 @@
         "engine_code": null,
         "engine_name": "1.6L 6AT FWD (136 HP)"
       },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "opel-astra-1-6-cdti-2013",
-        "opel-astra-j-1-6-cdti-otomatik",
-        "opel-insignia-1-6-cdti"
-      ],
+      "scored_car_id": "opel-insignia-1-6-cdti",
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1740,7 +1722,7 @@
         "transmission_name": "Aisin AF40-6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "gm-a20dth",
+        "engine_code": null,
         "engine_name": "A20DTH"
       },
       "scored_car_id": "opel-insignia-2-0-cdti",
@@ -2004,7 +1986,7 @@
         "transmission_name": "Aisin AF40-6",
         "gears": 6,
         "clutch": null,
-        "engine_code": "gm-a20net",
+        "engine_code": null,
         "engine_name": "A20NET"
       },
       "scored_car_id": "opel-insignia-2-0-turbo",
@@ -2082,10 +2064,7 @@
         "engine_name": "1.4L 6AT FWD (140 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "opel-astra-1-4-t-2013",
-        "opel-corsa-astra-1-4-turbo"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -2123,10 +2102,7 @@
         "engine_name": "1.4L"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "opel-astra-1-4-t-2013",
-        "opel-corsa-astra-1-4-turbo"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-l-otomobil-opel-meriva-1-4-turbo-6at",
@@ -2199,7 +2175,7 @@
         "engine_code": null,
         "engine_name": "1.7L DTS 6AT FWD (130 HP)"
       },
-      "scored_car_id": "opel-astra-1-7-cdti",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2276,10 +2252,7 @@
         "engine_name": "1.4L Turbo FWD"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [
-        "opel-astra-1-4-t-2013",
-        "opel-corsa-astra-1-4-turbo"
-      ],
+      "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
         "market-el-otomobil-opel-mokka-1-4-turbo-6at",
@@ -2764,7 +2737,7 @@
         "engine_code": null,
         "engine_name": "1.6L Turbo 6AT FWD (170 HP)"
       },
-      "scored_car_id": "opel-insignia-1-6-t",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"
@@ -2802,7 +2775,7 @@
         "engine_code": null,
         "engine_name": "1.6L Turbo 6AT FWD (170 HP)"
       },
-      "scored_car_id": "opel-insignia-1-6-t",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"

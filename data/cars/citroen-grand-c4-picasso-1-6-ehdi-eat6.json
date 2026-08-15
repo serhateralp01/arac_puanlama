@@ -15,7 +15,8 @@
     "engine_id": "psa-dv6",
     "kerb_weight_kg": 1520,
     "torque_nm": 285,
-    "fuel_consumption_l_100km": 4.5
+    "fuel_consumption_l_100km": 4.5,
+    "gears": 6
   },
   "price_band_k_try": [
     600,
@@ -78,5 +79,15 @@
       "reasoning": "Bu aracın model yılı ortalaması 2014.5, yani 2026 itibarıyla yaşı yaklaşık 11.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 24.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 52 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "citro-n-c4-1-6-bluehdi-115-bg-115",
+      "citro-n-grand-c4-picasso-1-6-e-hdi-eat6-115"
+    ],
+    "generation": null,
+    "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2013.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }

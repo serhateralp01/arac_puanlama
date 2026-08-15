@@ -16,7 +16,8 @@
     "engine_id": "hyundai-u2-16",
     "kerb_weight_kg": 1385,
     "torque_nm": 260,
-    "fuel_consumption_l_100km": 5.5
+    "fuel_consumption_l_100km": 5.5,
+    "gears": 6
   },
   "price_band_k_try": [
     580,
@@ -83,5 +84,17 @@
       "reasoning": "Güç/ağırlık oranı 92 hp/ton (normalize 25/100), tork/ağırlık oranı 188 Nm/ton (normalize 44/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 29. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
+  },
+  "catalog_ref": {
+    "catalog_ids": [
+      "hyundai-i30-1-6-crdi-128",
+      "hyundai-i30-1-6-crdi-128-bg-128",
+      "hyundai-i30-1-6-crdi-128-bg-128-2",
+      "hyundai-i30-1-6-crdi-128-bg-128-3"
+    ],
+    "generation": null,
+    "technical_url": null,
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-15"
   }
 }
