@@ -1,0 +1,44 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Lada",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "lada-vesta-1-6-106",
+      "name": "Lada Vesta 1.6",
+      "brand": "Lada",
+      "model_family": "Vesta",
+      "generation": "2180",
+      "years": "2015-2018",
+      "specs": {
+        "hp": 106,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Robot",
+        "transmission_name": "AMT 5",
+        "gears": 5,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "VAZ-21129",
+        "engine_name": "1.6 16V"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-om-ikinci-el-otomobil-lada-vesta-1-6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4d0be34cd6d63f071d",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    }
+  ]
+}

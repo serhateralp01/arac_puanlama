@@ -1,0 +1,3603 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Volvo",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "volvo-c30-1-6d-109",
+      "name": "Volvo C30 1.6D",
+      "brand": "Volvo",
+      "model_family": "C30",
+      "generation": "P1",
+      "years": "2007-2012",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "PowerShift 6DCT",
+        "gears": 6,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "D4164T",
+        "engine_name": "1.6D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-volvo-c30-1-6d",
+        "tech-toevolution-com-cars-volvo-c30-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d90574a33497048d54",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-c30-2009.html"
+      }
+    },
+    {
+      "id": "volvo-c30-2-0-145",
+      "name": "Volvo C30 2.0",
+      "brand": "Volvo",
+      "model_family": "C30",
+      "generation": "P1",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 145,
+        "torque_nm": 185.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "PowerShift 6DCT",
+        "gears": 6,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "B4204S3",
+        "engine_name": "2.0"
+      },
+      "scored_car_id": "volvo-s40-v50-2-0",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-c30-2-0",
+        "tech-toevolution-com-cars-volvo-c30-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8d3c572cd5cf9c729f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-c30-2009.html"
+      }
+    },
+    {
+      "id": "volvo-c70-2-4i-geartronic-170",
+      "name": "Volvo C70 2.4i Geartronic",
+      "brand": "Volvo",
+      "model_family": "C70",
+      "generation": "P1",
+      "years": "2005-2013",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 230.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "B5244S",
+        "engine_name": "2.4 sıralı 5"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-volvo-c70-2-4i-geartronic",
+        "tech-toevolution-com-cars-volvo-c70-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b69912f62f25b77a46",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-c70-2005.html"
+      }
+    },
+    {
+      "id": "volvo-s40-1-6d-109",
+      "name": "Volvo S40 1.6D",
+      "brand": "Volvo",
+      "model_family": "S40",
+      "generation": "P1",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "PowerShift 6DCT",
+        "gears": 6,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "D4164T",
+        "engine_name": "1.6D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-volvo-s40-1-6d",
+        "tech-toevolution-com-cars-volvo-s40-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-061423596aa136f030",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s40-2007.html"
+      }
+    },
+    {
+      "id": "volvo-s40-2-4-170",
+      "name": "Volvo S40 2.4",
+      "brand": "Volvo",
+      "model_family": "S40",
+      "generation": "P1",
+      "years": "2004-2010",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 230.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "B5244S",
+        "engine_name": "2.4 sıralı 5"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-s40-2-4",
+        "tech-toevolution-com-cars-volvo-s40-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-40fc7be25402e05c35",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s40-2007.html"
+      }
+    },
+    {
+      "id": "volvo-s60-1-5-t3-152",
+      "name": "Volvo S60 1.5 T3",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2015-2018",
+      "specs": {
+        "hp": 152,
+        "torque_nm": 250.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin Geartronic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "volvo-vea-benzin",
+        "engine_name": "VEA"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-5-t3",
+        "volvo-v40-1-5-t3"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-volvo-s60-1-5-t3",
+        "tech-volvo-s60-langfassung-my-2016-2cc4188324"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5df410951d9bd317af",
+        "publication_status": "scored",
+        "technical_url": "https://news.cision.com/de/volvo-car-germany-presse/r/volvo-s60-langfassung--my-2016%2Cc4188324"
+      }
+    },
+    {
+      "id": "volvo-s60-1-5-t3-115-bg-115",
+      "name": "Volvo S60 1.5 T3 · 115 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L Drive 6AT (115 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-6-d2",
+        "volvo-v40-1-6-d2"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-volvo-s60-1-5-t3",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-89dc65a91af985da6c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s60-1-5-t3-150-bg-150",
+      "name": "Volvo S60 1.5 T3 · 150 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L T4 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-volvo-s60-1-5-t3",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-eb0322fac2ace392cd",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-1-5-t3-150-bg-150-2",
+      "name": "Volvo S60 1.5 T3 · 150 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L T4 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-volvo-s60-1-5-t3",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bccb550f1ed8d8352b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s60-1-5-t3-180-bg-180",
+      "name": "Volvo S60 1.5 T3 · 180 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L E85 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-volvo-s60-1-5-t3",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e6e8c04d3375460f94",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-1-5-t3-180-bg-180-2",
+      "name": "Volvo S60 1.5 T3 · 180 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L E85 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-volvo-s60-1-5-t3",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9b1e480fe238505c14",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-1-5-t3-180-bg-180-3",
+      "name": "Volvo S60 1.5 T3 · 180 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L E85 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-volvo-s60-1-5-t3",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7e7530eedca34bd07a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s60-1-6-d2-115",
+      "name": "Volvo S60 1.6 D2",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2011-2015",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "Volvo Powershift (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "psa-dv6",
+        "engine_name": "DV6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-6-d2",
+        "volvo-v40-1-6-d2"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-volvo-s60-1-6-d2",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-83e85aecef0f5db4e8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-d-136-bg-136",
+      "name": "Volvo S60 2.0 D · 136 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D4 6AT (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e0b678e4d8103de217",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-d-163-bg-163",
+      "name": "Volvo S60 2.0 D · 163 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D4 6AT (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s80-2-0-d",
+        "volvo-v60-2-0-d"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7952adea4bb887066b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-d-163-bg-163-2",
+      "name": "Volvo S60 2.0 D · 163 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D4 6AT (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s80-2-0-d",
+        "volvo-v60-2-0-d"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1e126b9248304177b2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-d-163-bg-163-3",
+      "name": "Volvo S60 2.0 D · 163 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D4 6AT (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s80-2-0-d",
+        "volvo-v60-2-0-d"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-189cca0ba0bfdff753",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b26d8a2e80cfd32736",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-d-163-bg-163-4",
+      "name": "Volvo S60 2.0 D · 163 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D4 6AT (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s80-2-0-d",
+        "volvo-v60-2-0-d"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-189cca0ba0bfdff753",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c3f89ec33df4e3d09c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-d-163-bg-163-5",
+      "name": "Volvo S60 2.0 D · 163 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D4 6AT (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s80-2-0-d",
+        "volvo-v60-2-0-d"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-189cca0ba0bfdff753",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a50baf90e266593455",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-t-203",
+      "name": "Volvo S60 2.0 T",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2010-2015",
+      "specs": {
+        "hp": 203,
+        "torque_nm": 300.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "PowerShift 6DCT",
+        "gears": 6,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "volvo-b4204t-gtdi",
+        "engine_name": "B4204T"
+      },
+      "scored_car_id": "volvo-s60-2-0-t",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-volvo-s60-2-0-t",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-107e7090cb6b9489eb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-t-150-bg-150",
+      "name": "Volvo S60 2.0 T · 150 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2015-2018",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D4 8AT FWD (190 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-volvo-s60-2-0-t",
+        "src-985ccc13b0d9ec2a2c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f52cabc24a1cf01b82",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-cross-country-2015.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-t-180-bg-180",
+      "name": "Volvo S60 2.0 T · 180 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L T 5AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-volvo-s60-2-0-t",
+        "tech-toevolution-com-cars-volvo-s60-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-281720c3c3f8d58c33",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-t-190-bg-190",
+      "name": "Volvo S60 2.0 T · 190 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2015-2018",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D4 8AT FWD (190 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-volvo-s60-2-0-t",
+        "src-985ccc13b0d9ec2a2c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-77248037426d538c00",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-cross-country-2015.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-t-240-bg-240",
+      "name": "Volvo S60 2.0 T · 240 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L T5 6AT (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-volvo-s60-2-0-t",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-afd63695aa106039df",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-t-245-bg-245",
+      "name": "Volvo S60 2.0 T · 245 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 245,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L T6 8AT FWD (306 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-volvo-s60-2-0-t",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-39ad455f2c9599cced",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-0-t-306-bg-306",
+      "name": "Volvo S60 2.0 T · 306 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 306,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L T6 8AT FWD (306 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-volvo-s60-2-0-t",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-914647071e6db0c55c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-3-t5-140-bg-140",
+      "name": "Volvo S60 2.3 T5 · 140 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 220.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L 5AT FWD (170 HP)"
+      },
+      "scored_car_id": "volvo-s60-1-nesil-2-4-2-5",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c736c5445008dc7e27",
+        "tech-toevolution-com-cars-volvo-s60-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c4528cb819e35cd4c5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-3-t5-163-bg-163",
+      "name": "Volvo S60 2.3 T5 · 163 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 340.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c736c5445008dc7e27",
+        "tech-toevolution-com-cars-volvo-s60-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f7770048965a1c5c51",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-3-t5-170-bg-170",
+      "name": "Volvo S60 2.3 T5 · 170 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 225.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L 5AT FWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c736c5445008dc7e27",
+        "tech-toevolution-com-cars-volvo-s60-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1dbff77cb3a9543309",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-3-t5-185-bg-185",
+      "name": "Volvo S60 2.3 T5 · 185 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 400.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c736c5445008dc7e27",
+        "tech-toevolution-com-cars-volvo-s60-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cdc5d112f798a8ffc4",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-3-t5-205-bg-205",
+      "name": "Volvo S60 2.3 T5 · 205 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 205,
+        "torque_nm": 420.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c736c5445008dc7e27",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-295e4b63f4a2cdf90e",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-3-t5-260-bg-260",
+      "name": "Volvo S60 2.3 T5 · 260 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 260,
+        "torque_nm": 350.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L T5 5AT FWD (260 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c736c5445008dc7e27",
+        "tech-toevolution-com-cars-volvo-s60-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cd31cb262bf98cfd72",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-4-170",
+      "name": "Volvo S60 2.4",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": "P2",
+      "years": "2000-2009",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 230.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "B5244S",
+        "engine_name": "2.4 sıralı 5"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-s60-2-4",
+        "tech-toevolution-com-cars-volvo-s60-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5527bcdd620d697c87",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-4-190-bg-190",
+      "name": "Volvo S60 2.4 · 190 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2015-2018",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 420.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-s60-2-4",
+        "src-985ccc13b0d9ec2a2c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-65e78557ac123b89c3",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-cross-country-2015.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-4-205-bg-205",
+      "name": "Volvo S60 2.4 · 205 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 205,
+        "torque_nm": 420.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-s60-2-4",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-17455ef2fc49f9aa88",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-4-210-bg-210",
+      "name": "Volvo S60 2.4 · 210 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 210,
+        "torque_nm": 320.0,
+        "displacement_l": 2.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.5L T FWD 6AT (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-s60-2-4",
+        "tech-toevolution-com-cars-volvo-s60-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5c54035a70d3638129",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-4-215-bg-215",
+      "name": "Volvo S60 2.4 · 215 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 215,
+        "torque_nm": 420.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-s60-2-4",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-33974089739739c7a8",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-4-215-bg-215-2",
+      "name": "Volvo S60 2.4 · 215 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 215,
+        "torque_nm": 420.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-s60-2-4",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7bd3689939ef05c4b1",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-4-215-bg-215-3",
+      "name": "Volvo S60 2.4 · 215 bg",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 215,
+        "torque_nm": 420.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-s60-2-4",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f51653e846c11b4720",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s60-2-5t-210",
+      "name": "Volvo S60 2.5T",
+      "brand": "Volvo",
+      "model_family": "S60",
+      "generation": "P2",
+      "years": "2003-2009",
+      "specs": {
+        "hp": 210,
+        "torque_nm": 320.0,
+        "displacement_l": 2.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "B5254T2",
+        "engine_name": "2.5 Turbo"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-volvo-s60-2-5t",
+        "tech-toevolution-com-cars-volvo-s60-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-53d0b243ead751d7ff",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html"
+      }
+    },
+    {
+      "id": "volvo-s60-d3-163",
+      "name": "Volvo S60 D3",
+      "brand": "Volvo",
+      "model_family": "S60 D3",
+      "generation": "P3",
+      "years": "2010-2015",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D5204T2",
+        "engine_name": "2.0D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s80-2-0-d",
+        "volvo-v60-2-0-d"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--com-ikinci-el-otomobil-volvo-s60-d3",
+        "tech-toevolution-com-cars-volvo-s60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-046329b67160442900",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-s60-d4-181",
+      "name": "Volvo S60 D4",
+      "brand": "Volvo",
+      "model_family": "S60 D4",
+      "generation": "P3",
+      "years": "2013-2018",
+      "specs": {
+        "hp": 181,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 8AT",
+        "gears": 8,
+        "clutch": null,
+        "engine_code": "D4204T14",
+        "engine_name": "2.0D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--com-ikinci-el-otomobil-volvo-s60-d4",
+        "tech-toevolution-com-cars-volvo-s60-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e47b04f1f9ff4ada71",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html"
+      }
+    },
+    {
+      "id": "volvo-s80-1-6-d-115-bg-115",
+      "name": "Volvo S80 1.6 D · 115 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L Drive 6AT (115 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-6-d2",
+        "volvo-v40-1-6-d2"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7d94eb5a764a8cff6f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-1-6-d-115-bg-115-2",
+      "name": "Volvo S80 1.6 D · 115 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L Drive 6AT (115 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-6-d2",
+        "volvo-v40-1-6-d2"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-302b311d51b2f84bd9",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b40d3dc5f9e7cbc854",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-1-6-t4-180-bg-180",
+      "name": "Volvo S80 1.6 T4 · 180 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L E85 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-8bab9801742b0e4ba7",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2a971d1d769292ac0e",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-1-6-t4-180-bg-180-2",
+      "name": "Volvo S80 1.6 T4 · 180 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L E85 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-8bab9801742b0e4ba7",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-952052e1e4415282f4",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-0-d-163",
+      "name": "Volvo S80 2.0 D",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2010-2016",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin Geartronic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "volvo-d-20",
+        "engine_name": "D5204T"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s80-2-0-d",
+        "volvo-v60-2-0-d"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-volvo-s80-2-0-d",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ca7a11548f39f2e9a9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-0-d-136-bg-136",
+      "name": "Volvo S80 2.0 D · 136 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D3 6AT (136 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-56fa7814c7d884ee02",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-0-d-163-bg-163",
+      "name": "Volvo S80 2.0 D · 163 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D4 6AT (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s80-2-0-d",
+        "volvo-v60-2-0-d"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8137d6d0812a8b0581",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-0-d-163-bg-163-2",
+      "name": "Volvo S80 2.0 D · 163 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D4 6AT (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s80-2-0-d",
+        "volvo-v60-2-0-d"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-volvo-s80-2-0-d",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3244f8aee6965d342f",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-0-t-203-bg-203",
+      "name": "Volvo S80 2.0 T · 203 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 203,
+        "torque_nm": 300.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L T5 6AT (240 HP)"
+      },
+      "scored_car_id": "volvo-s60-2-0-t",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-d2e5420542beee6b35",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bb5b6681edf508466d",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-0-t-240-bg-240",
+      "name": "Volvo S80 2.0 T · 240 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L T5 6AT (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-d2e5420542beee6b35",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-644c7fd4ad42a88626",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-4-d5-163-bg-163",
+      "name": "Volvo S80 2.4 D5 · 163 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 340.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-d375a58acd6f926c6b",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f10cb2412ee9342e7d",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-4-d5-175-bg-175",
+      "name": "Volvo S80 2.4 D5 · 175 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 175,
+        "torque_nm": 420.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-d375a58acd6f926c6b",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5bd206077eb4645968",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-4-d5-185-bg-185",
+      "name": "Volvo S80 2.4 D5 · 185 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 400.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-d375a58acd6f926c6b",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8cbc0a2336b0b0f42b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-4-d5-185-bg-185-2",
+      "name": "Volvo S80 2.4 D5 · 185 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 400.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-d375a58acd6f926c6b",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b4fd379ede2554549b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-4-d5-205-bg-205",
+      "name": "Volvo S80 2.4 D5 · 205 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 205,
+        "torque_nm": 420.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-d375a58acd6f926c6b",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dca511bdb337672e21",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-4-d5-215-bg-215",
+      "name": "Volvo S80 2.4 D5 · 215 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 215,
+        "torque_nm": 441.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-d375a58acd6f926c6b",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9ed202cc7afb5aab95",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-4d-163",
+      "name": "Volvo S80 2.4D",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": "P3",
+      "years": "2007-2011",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 340.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D5244T",
+        "engine_name": "2.4D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-volvo-s80-2-4d",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-48e938248d6cb97b53",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-8-t6-200-bg-200",
+      "name": "Volvo S80 2.8 T6 · 200 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 280.0,
+        "displacement_l": 2.9,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.9L 4AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-0f4c69e73f3aa2fb57",
+        "src-2f657ce93d2652f9fb"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d573add231f846c5d0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2003.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-8-t6-272-bg-272",
+      "name": "Volvo S80 2.8 T6 · 272 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 272,
+        "torque_nm": 380.0,
+        "displacement_l": 2.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.8L T6 4AT FWD (272 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-0f4c69e73f3aa2fb57",
+        "src-2f657ce93d2652f9fb"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1df89db58c540d1022",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2003.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-8-t6-285-bg-285",
+      "name": "Volvo S80 2.8 T6 · 285 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2006-2008",
+      "specs": {
+        "hp": 285,
+        "torque_nm": 400.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L T6 AWD 6AT (304 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2f657ce93d2652f9fb",
+        "tech-toevolution-com-cars-volvo-s80-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-968e0d292fe2e34817",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2006.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-8-t6-285-bg-285-2",
+      "name": "Volvo S80 2.8 T6 · 285 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 285,
+        "torque_nm": 400.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L T6 AWD 6AT (304 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2f657ce93d2652f9fb",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d9e53219450af1942b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-2-8-t6-304-bg-304",
+      "name": "Volvo S80 2.8 T6 · 304 bg",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 304,
+        "torque_nm": 441.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L T6 AWD 6AT (304 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2f657ce93d2652f9fb",
+        "tech-toevolution-com-cars-volvo-s80-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-18a74b29223dd40324",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html"
+      }
+    },
+    {
+      "id": "volvo-s80-3-2-238",
+      "name": "Volvo S80 3.2",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": "P3",
+      "years": "2007-2012",
+      "specs": {
+        "hp": 238,
+        "torque_nm": 320.0,
+        "displacement_l": 3.2,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "B6324S",
+        "engine_name": "3.2L"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-s80-3-2",
+        "tech-toevolution-com-cars-volvo-s80-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8aef9bb7b6a27300f4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2006.html"
+      }
+    },
+    {
+      "id": "volvo-s80-3-2-geartronic-238",
+      "name": "Volvo S80 3.2 Geartronic",
+      "brand": "Volvo",
+      "model_family": "S80",
+      "generation": "P3",
+      "years": "2006-2013",
+      "specs": {
+        "hp": 238,
+        "torque_nm": 320.0,
+        "displacement_l": 3.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "B6324S",
+        "engine_name": "3.2L"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-volvo-s80-3-2-geartronic",
+        "tech-toevolution-com-cars-volvo-s80-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4a5566966d5eed3ccc",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2006.html"
+      }
+    },
+    {
+      "id": "volvo-v40-1-5-t3-152",
+      "name": "Volvo V40 1.5 T3",
+      "brand": "Volvo",
+      "model_family": "V40",
+      "generation": null,
+      "years": "2015-2019",
+      "specs": {
+        "hp": 152,
+        "torque_nm": 250.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin Geartronic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "volvo-vea-benzin",
+        "engine_name": "VEA"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-5-t3",
+        "volvo-v40-1-5-t3"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-volvo-v40-1-5-t3",
+        "tech-toevolution-com-cars-volvo-v40-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2bd99a78e3e8b93e23",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2016.html"
+      }
+    },
+    {
+      "id": "volvo-v40-1-5-115-bg-115",
+      "name": "Volvo V40 1.5 · 115 bg",
+      "brand": "Volvo",
+      "model_family": "V40",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L Drive 6AT (115 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-6-d2",
+        "volvo-v40-1-6-d2"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-89c1ae77b6a8610df2",
+        "tech-toevolution-com-cars-volvo-v40-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-632e903c68a4a2e005",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2012.html"
+      }
+    },
+    {
+      "id": "volvo-v40-1-5-115-bg-115-2",
+      "name": "Volvo V40 1.5 · 115 bg",
+      "brand": "Volvo",
+      "model_family": "V40",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L Drive 6AT (115 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-6-d2",
+        "volvo-v40-1-6-d2"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-89c1ae77b6a8610df2",
+        "src-c641ed4997d6e14cd4"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7c3a4d3e24c2213876",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v40-cross-country-2012.html"
+      }
+    },
+    {
+      "id": "volvo-v40-1-5-122-bg-122",
+      "name": "Volvo V40 1.5 · 122 bg",
+      "brand": "Volvo",
+      "model_family": "V40",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 220.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L T3 6AT FWD (152 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-89c1ae77b6a8610df2",
+        "tech-toevolution-com-cars-volvo-v40-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-61ee002af95da455f4",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2016.html"
+      }
+    },
+    {
+      "id": "volvo-v40-1-5-152-bg-152",
+      "name": "Volvo V40 1.5 · 152 bg",
+      "brand": "Volvo",
+      "model_family": "V40",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 152,
+        "torque_nm": 250.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L T3 6AT FWD (152 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-5-t3",
+        "volvo-v40-1-5-t3"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-392383bf823949d16a",
+        "src-89c1ae77b6a8610df2",
+        "tech-toevolution-com-cars-volvo-v40-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-06e9c21c4acaef69c2",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2016.html"
+      }
+    },
+    {
+      "id": "volvo-v40-1-5-180-bg-180",
+      "name": "Volvo V40 1.5 · 180 bg",
+      "brand": "Volvo",
+      "model_family": "V40",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L T4 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-89c1ae77b6a8610df2",
+        "tech-toevolution-com-cars-volvo-v40-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-08ed152f5a87194fa8",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2012.html"
+      }
+    },
+    {
+      "id": "volvo-v40-1-6-d2-115",
+      "name": "Volvo V40 1.6 D2",
+      "brand": "Volvo",
+      "model_family": "V40",
+      "generation": null,
+      "years": "2012-2015",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "Volvo Powershift (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "psa-dv6",
+        "engine_name": "DV6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-6-d2",
+        "volvo-v40-1-6-d2"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-volvo-v40-1-6-d2",
+        "tech-toevolution-com-cars-volvo-v40-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0dd9bb58261443b68d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2012.html"
+      }
+    },
+    {
+      "id": "volvo-v50-1-6d-109",
+      "name": "Volvo V50 1.6D",
+      "brand": "Volvo",
+      "model_family": "V50",
+      "generation": "P1",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "PowerShift 6DCT",
+        "gears": 6,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "D4164T",
+        "engine_name": "1.6D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-volvo-v50-1-6d",
+        "tech-toevolution-com-cars-volvo-v50-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8743fde66adb5920b7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v50-2007.html"
+      }
+    },
+    {
+      "id": "volvo-v50-2-4-170",
+      "name": "Volvo V50 2.4",
+      "brand": "Volvo",
+      "model_family": "V50",
+      "generation": "P1",
+      "years": "2004-2010",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 230.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "B5244S",
+        "engine_name": "2.4 sıralı 5"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-v50-2-4",
+        "tech-toevolution-com-cars-volvo-v50-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-93b89081c70fbabeee",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v50-2007.html"
+      }
+    },
+    {
+      "id": "volvo-v60-1-6-t4-115-bg-115",
+      "name": "Volvo V60 1.6 T4 · 115 bg",
+      "brand": "Volvo",
+      "model_family": "V60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L Drive 6AT (115 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-6-d2",
+        "volvo-v40-1-6-d2"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-f9b576421448965971",
+        "tech-toevolution-com-cars-volvo-v60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2abe4897014eea0d05",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-v60-1-6-t4-115-bg-115-2",
+      "name": "Volvo V60 1.6 T4 · 115 bg",
+      "brand": "Volvo",
+      "model_family": "V60",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L Drive 6AT (115 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-1-6-d2",
+        "volvo-v40-1-6-d2"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-30f9bceb0b55d647d5",
+        "src-f9b576421448965971"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8b901cb7fdd882ad50",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2014.html"
+      }
+    },
+    {
+      "id": "volvo-v60-1-6-t4-150-bg-150",
+      "name": "Volvo V60 1.6 T4 · 150 bg",
+      "brand": "Volvo",
+      "model_family": "V60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 150,
+        "torque_nm": null,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L E85 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_torque"
+      ],
+      "sources": [
+        "src-f9b576421448965971",
+        "tech-toevolution-com-cars-volvo-v60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8e43b7a5d18dc25a4b",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-v60-1-6-t4-180-bg-180",
+      "name": "Volvo V60 1.6 T4 · 180 bg",
+      "brand": "Volvo",
+      "model_family": "V60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L E85 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-f9b576421448965971",
+        "tech-toevolution-com-cars-volvo-v60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6b013c57e9add3f814",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-v60-1-6-t4-180-bg-180-2",
+      "name": "Volvo V60 1.6 T4 · 180 bg",
+      "brand": "Volvo",
+      "model_family": "V60",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L E85 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-f9b576421448965971",
+        "tech-toevolution-com-cars-volvo-v60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4a5187468f8c7de79a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-v60-1-6-t4-180-bg-180-3",
+      "name": "Volvo V60 1.6 T4 · 180 bg",
+      "brand": "Volvo",
+      "model_family": "V60",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L E85 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-30f9bceb0b55d647d5",
+        "src-f9b576421448965971"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-eac019066e7075ed8e",
+        "publication_status": "held_conflict",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2014.html"
+      }
+    },
+    {
+      "id": "volvo-v60-2-0-d-163",
+      "name": "Volvo V60 2.0 D",
+      "brand": "Volvo",
+      "model_family": "V60",
+      "generation": null,
+      "years": "2011-2018",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin Geartronic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "volvo-d-20",
+        "engine_name": "D5204T"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s80-2-0-d",
+        "volvo-v60-2-0-d"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-volvo-v60-2-0-d",
+        "tech-toevolution-com-cars-volvo-v60-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bfe8e9a274f53f7a95",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2010.html"
+      }
+    },
+    {
+      "id": "volvo-v70-2-4-d5-163-bg-163",
+      "name": "Volvo V70 2.4 D5 · 163 bg",
+      "brand": "Volvo",
+      "model_family": "V70",
+      "generation": null,
+      "years": "2007-2016",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 340.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-7c5399dfc3df7a1372",
+        "tech-toevolution-com-cars-volvo-v70-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d7ed23232171c86bdb",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html"
+      }
+    },
+    {
+      "id": "volvo-v70-2-4-d5-181-bg-181",
+      "name": "Volvo V70 2.4 D5 · 181 bg",
+      "brand": "Volvo",
+      "model_family": "V70",
+      "generation": null,
+      "years": "2007-2016",
+      "specs": {
+        "hp": 181,
+        "torque_nm": 420.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-7c5399dfc3df7a1372",
+        "tech-toevolution-com-cars-volvo-v70-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-584182fe8247b112df",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html"
+      }
+    },
+    {
+      "id": "volvo-v70-2-4-d5-200-bg-200",
+      "name": "Volvo V70 2.4 D5 · 200 bg",
+      "brand": "Volvo",
+      "model_family": "V70",
+      "generation": null,
+      "years": "2007-2016",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 300.0,
+        "displacement_l": 2.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.5L T FWD 6AT (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-7c5399dfc3df7a1372",
+        "tech-toevolution-com-cars-volvo-v70-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-808dc91f881d495acb",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html"
+      }
+    },
+    {
+      "id": "volvo-v70-2-4-d5-200-bg-200-2",
+      "name": "Volvo V70 2.4 D5 · 200 bg",
+      "brand": "Volvo",
+      "model_family": "V70",
+      "generation": null,
+      "years": "2007-2016",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 300.0,
+        "displacement_l": 2.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.5L T FWD 6AT (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-7c5399dfc3df7a1372",
+        "tech-toevolution-com-cars-volvo-v70-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3537a790f73002c162",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html"
+      }
+    },
+    {
+      "id": "volvo-v70-2-4-d5-215-bg-215",
+      "name": "Volvo V70 2.4 D5 · 215 bg",
+      "brand": "Volvo",
+      "model_family": "V70",
+      "generation": null,
+      "years": "2007-2016",
+      "specs": {
+        "hp": 215,
+        "torque_nm": 441.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-7c5399dfc3df7a1372",
+        "tech-toevolution-com-cars-volvo-v70-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6845055b1c5b57d338",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html"
+      }
+    },
+    {
+      "id": "volvo-v70-2-4-d5-215-bg-215-2",
+      "name": "Volvo V70 2.4 D5 · 215 bg",
+      "brand": "Volvo",
+      "model_family": "V70",
+      "generation": null,
+      "years": "2007-2016",
+      "specs": {
+        "hp": 215,
+        "torque_nm": 441.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L D5 FWD 6AT (215 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-7c5399dfc3df7a1372",
+        "tech-toevolution-com-cars-volvo-v70-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c50399f6fb00070f91",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html"
+      }
+    },
+    {
+      "id": "volvo-v70-d3-geartronic-136",
+      "name": "Volvo V70 D3 Geartronic",
+      "brand": "Volvo",
+      "model_family": "V70 D3 Geartronic",
+      "generation": "P3",
+      "years": "2007-2016",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D5204T",
+        "engine_name": "2.0L D3 FWD"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-volvo-v70-d3-geartronic",
+        "tech-toevolution-com-cars-volvo-v70-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-52ff1633f8fb2ea812",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html"
+      }
+    },
+    {
+      "id": "volvo-v70-d5-185",
+      "name": "Volvo V70 D5",
+      "brand": "Volvo",
+      "model_family": "V70 D5",
+      "generation": "P3",
+      "years": "2008-2015",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 400.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D5244T",
+        "engine_name": "2.4D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--com-ikinci-el-otomobil-volvo-v70-d5",
+        "tech-toevolution-com-cars-volvo-v70-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b005bc98fc82d809c6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html"
+      }
+    },
+    {
+      "id": "volvo-xc60-d4-163",
+      "name": "Volvo XC60 D4",
+      "brand": "Volvo",
+      "model_family": "XC60 D4",
+      "generation": "P3",
+      "years": "2010-2015",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 420.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D5244T",
+        "engine_name": "2.4D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-xc60-d4",
+        "tech-oevolution-com-cars-volvo-xc60-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bfbe0ddd6ac0cf9b46",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-xc60-2008.html"
+      }
+    },
+    {
+      "id": "volvo-xc70-d5-185",
+      "name": "Volvo XC70 D5",
+      "brand": "Volvo",
+      "model_family": "XC70 D5",
+      "generation": "P3",
+      "years": "2008-2015",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 400.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D5244T",
+        "engine_name": "2.4D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-xc70-d5",
+        "tech-oevolution-com-cars-volvo-xc70-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d6ba017887a7878a90",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-xc70-2004.html"
+      }
+    },
+    {
+      "id": "volvo-xc70-d5-geartronic-215",
+      "name": "Volvo XC70 D5 Geartronic",
+      "brand": "Volvo",
+      "model_family": "XC70 D5 Geartronic",
+      "generation": "P3",
+      "years": "2007-2016",
+      "specs": {
+        "hp": 215,
+        "torque_nm": 420.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station/Crossover",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D5244T",
+        "engine_name": "2.4D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-volvo-xc70-d5-geartronic",
+        "tech-oevolution-com-cars-volvo-xc70-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b6e2d995790225b1d3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-xc70-2007.html"
+      }
+    },
+    {
+      "id": "volvo-xc90-d5-185",
+      "name": "Volvo XC90 D5",
+      "brand": "Volvo",
+      "model_family": "XC90 D5",
+      "generation": "P2",
+      "years": "2003-2014",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 400.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D5244T",
+        "engine_name": "2.4D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-volvo-xc90-d5",
+        "tech-oevolution-com-cars-volvo-xc90-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-90714843109809fdbe",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volvo-xc90-2007.html"
+      }
+    }
+  ]
+}

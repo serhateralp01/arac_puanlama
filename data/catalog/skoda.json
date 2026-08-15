@@ -1,0 +1,2822 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Skoda",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "skoda-fabia-1-0-greentec-110-bg-110",
+      "name": "Skoda Fabia 1.0 GreenTec · 110 bg",
+      "brand": "Skoda",
+      "model_family": "Fabia",
+      "generation": null,
+      "years": "2018-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 200.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.0L TSI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-1f7e09197304f4068c",
+        "src-3fda21971df002b606"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f1c5429276cedabed9",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-2018.html"
+      }
+    },
+    {
+      "id": "skoda-fabia-1-0-greentec-110-bg-110-2",
+      "name": "Skoda Fabia 1.0 GreenTec · 110 bg",
+      "brand": "Skoda",
+      "model_family": "Fabia",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 200.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.0L TSI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-1f7e09197304f4068c",
+        "src-c195ac627dffe35fae"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-54eeebd83fc012fdcb",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-combi-2018.html"
+      }
+    },
+    {
+      "id": "skoda-fabia-1-2-tsi-dsg-105",
+      "name": "Skoda Fabia 1.2 TSI DSG",
+      "brand": "Skoda",
+      "model_family": "Fabia",
+      "generation": null,
+      "years": "2010-2014",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea111-tsi-turbo",
+        "engine_name": "EA111 TSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-skoda-fabia-1-2-tsi-dsg",
+        "tech-evolution-com-cars-skoda-fabia-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2eea1197836dcf44c8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-2014.html"
+      }
+    },
+    {
+      "id": "skoda-fabia-1-2-tsi-110-bg-110",
+      "name": "Skoda Fabia 1.2 TSI · 110 bg",
+      "brand": "Skoda",
+      "model_family": "Fabia",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TSI DSG FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-skoda-fabia-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-637ee11c94643333a4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-2014.html"
+      }
+    },
+    {
+      "id": "skoda-fabia-1-2-tsi-110-bg-110-2",
+      "name": "Skoda Fabia 1.2 TSI · 110 bg",
+      "brand": "Skoda",
+      "model_family": "Fabia",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TSI DSG FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-1e65a43953a5a95498",
+        "src-7613ec9d16b4422bef"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-50e94ee647276b1d4b",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-combi-2014.html"
+      }
+    },
+    {
+      "id": "skoda-fabia-1-4-tsi-rs-180-bg-180",
+      "name": "Skoda Fabia 1.4 TSI RS · 180 bg",
+      "brand": "Skoda",
+      "model_family": "Fabia",
+      "generation": null,
+      "years": "2010-2010",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI Green Tec 7AT FWD (122 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-skoda-fabia-rs-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f574a7ab6ff6da1904",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-rs-2010.html"
+      }
+    },
+    {
+      "id": "skoda-fabia-rs-1-4-tsi-dsg-180",
+      "name": "Skoda Fabia RS 1.4 TSI DSG",
+      "brand": "Skoda",
+      "model_family": "Fabia RS",
+      "generation": "5J",
+      "years": "2010-2014",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CAVE",
+        "engine_name": "1.4 TSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-skoda-fabia-rs-1-4-tsi-dsg",
+        "tech-lution-com-cars-skoda-fabia-rs-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-25ddb50556f2ade856",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-rs-2010.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-0-tsi-dsg-facelift-115",
+      "name": "Skoda Octavia 1.0 TSI DSG (Facelift)",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2017-2019",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 200.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea211",
+        "engine_name": "EA211"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "skoda-octavia-3-1-0-tsi-dsg",
+        "skoda-scala-1-0-tsi-dsg"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-skoda-octavia-1-0-tsi-dsg",
+        "tech-olution-com-cars-skoda-octavia-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-252e6f42a6340c58ca",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-2-tsi-105-bg-105",
+      "name": "Skoda Octavia 1.2 TSI · 105 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L TSI DSG FWD (110 HP)"
+      },
+      "scored_car_id": "skoda-fabia-1-2-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-skoda-octavia-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e86bcfb27824a0b6ce",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-2-tsi-105-bg-105-2",
+      "name": "Skoda Octavia 1.2 TSI · 105 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TSI DSG FWD (110 HP)"
+      },
+      "scored_car_id": "skoda-fabia-1-2-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-skoda-octavia-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1527742d8f96c9251c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-2-tsi-190-bg-190",
+      "name": "Skoda Octavia 1.2 TSI · 190 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 190,
+        "torque_nm": null,
+        "displacement_l": null,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TSI 7AT (190 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_displacement",
+        "missing_torque"
+      ],
+      "sources": [
+        "src-35c3d9aae302941d2f",
+        "src-a2e9fa2b57869c2803"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-89014f43110c2c5763",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2020.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-4-tsi-122",
+      "name": "Skoda Octavia 1.4 TSI",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": "Mk2",
+      "years": "2009-2013",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 200.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Liftback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CAXA",
+        "engine_name": "1.4L TSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-skoda-octavia-1-4-tsi",
+        "tech-olution-com-cars-skoda-octavia-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-45512e1415893a05b0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-4-tsi-110-bg-110",
+      "name": "Skoda Octavia 1.4 TSI · 110 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2017-2019",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 200.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI 7AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-skoda-octavia-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-43cbd4b1796aca17f4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-4-tsi-122-bg-122",
+      "name": "Skoda Octavia 1.4 TSI · 122 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 200.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI Green Tec 7AT FWD (122 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-skoda-octavia-combi-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-722efa9f69fa491307",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-4-tsi-122-bg-122-2",
+      "name": "Skoda Octavia 1.4 TSI · 122 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L TSI Green Tec 7AT FWD (122 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-skoda-octavia-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f055eed52fe8fa8567",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-4-tsi-140-bg-140",
+      "name": "Skoda Octavia 1.4 TSI · 140 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI 7AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-skoda-octavia-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6541ce124fac2dfc64",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-4-tsi-150-bg-150",
+      "name": "Skoda Octavia 1.4 TSI · 150 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2017-2019",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 250.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI 7AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "skoda-kodiaq-1-4-tsi-dsg",
+        "skoda-superb-3-1-4-tsi-dsg"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "market-ci-el-otomobil-skoda-octavia-1-4-tsi",
+        "src-2d25e87674668a3267",
+        "tech-olution-com-cars-skoda-octavia-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6d74431fec070ccc2d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-fsi-130-bg-130",
+      "name": "Skoda Octavia 1.6 FSI · 130 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 200.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.5L TSI G-TEC 7AT (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-skoda-octavia-combi-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-596725d3e7f88816b8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2019.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-mpi-102",
+      "name": "Skoda Octavia 1.6 MPI",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": "Mk1",
+      "years": "2000-2010",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Liftback",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "BFQ",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-ci-el-otomobil-skoda-octavia-1-6-mpi"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9e0903e3f943c4bfeb",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-mpi-102-2",
+      "name": "Skoda Octavia 1.6 MPI",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": "Mk2",
+      "years": "2005-2013",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Liftback",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "BSE",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-skoda-octavia-1-6-mpi",
+        "tech-n-com-cars-skoda-octavia-combi-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b211b12b19de6c75db",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-tdi-110",
+      "name": "Skoda Octavia 1.6 TDI",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2013-2019",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 249.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea288",
+        "engine_name": "EA288"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-skoda-octavia-1-6-tdi",
+        "tech-olution-com-cars-skoda-octavia-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e358ae0bfc37c15750",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-tdi-150-bg-150",
+      "name": "Skoda Octavia 1.6 TDI · 150 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 150,
+        "torque_nm": null,
+        "displacement_l": null,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 7AT AWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_displacement",
+        "missing_torque"
+      ],
+      "sources": [
+        "market-ci-el-otomobil-skoda-octavia-1-6-tdi",
+        "src-35c3d9aae302941d2f"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a4ec1a6fef52fa9990",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2020.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-tdi-200-bg-200",
+      "name": "Skoda Octavia 1.6 TDI · 200 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 400.0,
+        "displacement_l": null,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 7AT AWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_displacement"
+      ],
+      "sources": [
+        "market-ci-el-otomobil-skoda-octavia-1-6-tdi",
+        "src-35c3d9aae302941d2f"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0da6ade5d4579a5817",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2020.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-102-bg-102",
+      "name": "Skoda Octavia 1.6 · 102 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT FWD (102 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4ab69700759f7a8530",
+        "tech-n-com-cars-skoda-octavia-combi-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-62a53c4a83d6079768",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-105-bg-105",
+      "name": "Skoda Octavia 1.6 · 105 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (115 HP)"
+      },
+      "scored_car_id": "skoda-rapid-1-6-tdi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4ab69700759f7a8530",
+        "tech-olution-com-cars-skoda-octavia-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b288db20af3405cc9e",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-105-bg-105-2",
+      "name": "Skoda Octavia 1.6 · 105 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (115 HP)"
+      },
+      "scored_car_id": "skoda-rapid-1-6-tdi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-4ab69700759f7a8530",
+        "tech-n-com-cars-skoda-octavia-combi-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6a40396d74ffb9edc3",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-105-bg-105-3",
+      "name": "Skoda Octavia 1.6 · 105 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (115 HP)"
+      },
+      "scored_car_id": "skoda-rapid-1-6-tdi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-4ab69700759f7a8530",
+        "tech-olution-com-cars-skoda-octavia-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-430c98d4d7bee58a4a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-105-bg-105-4",
+      "name": "Skoda Octavia 1.6 · 105 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (115 HP)"
+      },
+      "scored_car_id": "skoda-rapid-1-6-tdi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-4ab69700759f7a8530",
+        "tech-n-com-cars-skoda-octavia-combi-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-af250c4ab519744e2a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2013.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-6-115-bg-115",
+      "name": "Skoda Octavia 1.6 · 115 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2017-2019",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (115 HP)"
+      },
+      "scored_car_id": "skoda-karoq-1-6-tdi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-4ab69700759f7a8530",
+        "tech-olution-com-cars-skoda-octavia-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-366b4d1b3ea2586ab8",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-8-tsi-160",
+      "name": "Skoda Octavia 1.8 TSI",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2010-2016",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 250.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea888",
+        "engine_name": "EA888"
+      },
+      "scored_car_id": "skoda-octavia-1-8-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-skoda-octavia-1-8-tsi",
+        "tech-olution-com-cars-skoda-octavia-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-974f57907e82fa4cd3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-8t-150",
+      "name": "Skoda Octavia 1.8T",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": "Mk1",
+      "years": "2000-2010",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 210.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Liftback",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "AUM",
+        "engine_name": "1.8 Turbo"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-skoda-octavia-1-8t"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-23aa27253727973317",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "skoda-octavia-1-9-tdi-105-bg-105",
+      "name": "Skoda Octavia 1.9 TDI · 105 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 250.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TDI 5AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-skoda-octavia-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-094d5b232020b8dfe4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-9-tdi-140-bg-140",
+      "name": "Skoda Octavia 1.9 TDI · 140 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-skoda-octavia-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cde5f7e451e02e73c6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-9-tdi-140-bg-140-2",
+      "name": "Skoda Octavia 1.9 TDI · 140 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-skoda-octavia-combi-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-54f25052d84ad41bf7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-9-tdi-140-bg-140-3",
+      "name": "Skoda Octavia 1.9 TDI · 140 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2009-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-skoda-octavia-scout-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-01c5d8b250d7ea12d8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2009.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-1-9-tdi-170-bg-170",
+      "name": "Skoda Octavia 1.9 TDI · 170 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2005-2008",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": "skoda-superb-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "src-89f4b8851307382149",
+        "src-f5c27aa384dc9d50ae",
+        "tech-n-com-cars-skoda-octavia-ii-rs-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2e2b3554df9dae9e5f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-ii-rs-2005.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-2-0-tdi-140",
+      "name": "Skoda Octavia 2.0 TDI",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": "Mk2",
+      "years": "2005-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Liftback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "BKD/CFHC",
+        "engine_name": "2.0 TDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-skoda-octavia-2-0-tdi",
+        "tech-n-com-cars-skoda-octavia-scout-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-23b6c0ec3ccb8c6212",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2006.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-2-0-tdi-140-bg-140",
+      "name": "Skoda Octavia 2.0 TDI · 140 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2006-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 434.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT AWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-skoda-octavia-scout-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-321ef56262c4ec8860",
+        "publication_status": "held_conflict",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2006.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-2-0-tdi-150-bg-150",
+      "name": "Skoda Octavia 2.0 TDI · 150 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 150,
+        "torque_nm": null,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": "skoda-octavia-3-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_torque"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-skoda-octavia-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-be560c855a4b17a896",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-2-0-tdi-150-bg-150-2",
+      "name": "Skoda Octavia 2.0 TDI · 150 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": "skoda-octavia-3-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-skoda-octavia-combi-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6bd0d0d2db644ba3ee",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2013.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-2-0-tdi-183-bg-183",
+      "name": "Skoda Octavia 2.0 TDI · 183 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2013-2017",
+      "specs": {
+        "hp": 183,
+        "torque_nm": 380.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-m-cars-skoda-octavia-combi-4x4-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-61a801f1d015d1214a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-4x4-2013.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-2-0-tdi-184-bg-184",
+      "name": "Skoda Octavia 2.0 TDI · 184 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 380.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-skoda-octavia-rs-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3e68f9e948baf33dd0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-rs-2013.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-2-0-tdi-184-bg-184-2",
+      "name": "Skoda Octavia 2.0 TDI · 184 bg",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2014-2017",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 380.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-om-cars-skoda-octavia-combi-rs-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2c0ece0f5a08359bd2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-rs-2013.html"
+      }
+    },
+    {
+      "id": "skoda-octavia-3-2-0-tdi-150",
+      "name": "Skoda Octavia 3 2.0 TDI",
+      "brand": "Skoda",
+      "model_family": "Octavia 3",
+      "generation": null,
+      "years": "2013-2019",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea288",
+        "engine_name": "EA288"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "skoda-octavia-3-2-0-tdi",
+        "skoda-superb-3-2-0-tdi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-skoda-octavia-3-2-0-tdi",
+        "tech-olution-com-cars-skoda-octavia-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fc820f5b6ad953d1a6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+      }
+    },
+    {
+      "id": "skoda-rapid-1-4-tsi-dsg-122",
+      "name": "Skoda Rapid 1.4 TSI DSG",
+      "brand": "Skoda",
+      "model_family": "Rapid",
+      "generation": "NH",
+      "years": "2012-2018",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Liftback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CAXA",
+        "engine_name": "1.4L TSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-skoda-rapid-1-4-tsi-dsg",
+        "tech-evolution-com-cars-skoda-rapid-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-26f88a38b0b7d8f4e0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-2012.html"
+      }
+    },
+    {
+      "id": "skoda-rapid-1-4-tsi-122-bg-122",
+      "name": "Skoda Rapid 1.4 TSI · 122 bg",
+      "brand": "Skoda",
+      "model_family": "Rapid",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI Green Tec 7AT FWD (122 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-skoda-rapid-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2f612f5aabced0e9fe",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-2012.html"
+      }
+    },
+    {
+      "id": "skoda-rapid-1-4-tsi-122-bg-122-2",
+      "name": "Skoda Rapid 1.4 TSI · 122 bg",
+      "brand": "Skoda",
+      "model_family": "Rapid",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L TSI Green Tec 7AT FWD (122 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-com-cars-skoda-rapid-spaceback-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a2a1981bffe3165fe8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-spaceback-2013.html"
+      }
+    },
+    {
+      "id": "skoda-rapid-1-4-tsi-122-bg-122-3",
+      "name": "Skoda Rapid 1.4 TSI · 122 bg",
+      "brand": "Skoda",
+      "model_family": "Rapid",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI Green Tec 7AT FWD (122 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-8181627497eb8c4008",
+        "tech-evolution-com-cars-skoda-rapid-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-36329442a44da9b41f",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-2012.html"
+      }
+    },
+    {
+      "id": "skoda-rapid-1-6-tdi-dsg-105",
+      "name": "Skoda Rapid 1.6 TDI DSG",
+      "brand": "Skoda",
+      "model_family": "Rapid",
+      "generation": null,
+      "years": "2014-2019",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 230.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea288",
+        "engine_name": "EA288"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-skoda-rapid-1-6-tdi-dsg",
+        "tech-com-cars-skoda-rapid-spaceback-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-11882fc128eb0c242f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-spaceback-2013.html"
+      }
+    },
+    {
+      "id": "skoda-roomster-1-2-tsi-dsg-105",
+      "name": "Skoda Roomster 1.2 TSI DSG",
+      "brand": "Skoda",
+      "model_family": "Roomster",
+      "generation": "5J",
+      "years": "2010-2015",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CBZB",
+        "engine_name": "1.2L TSI"
+      },
+      "scored_car_id": "skoda-fabia-1-2-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-skoda-roomster-1-2-tsi-dsg",
+        "tech-lution-com-cars-skoda-roomster-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-68ca46fadb5b9b6e89",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-roomster-2010.html"
+      }
+    },
+    {
+      "id": "skoda-scala-1-0-tsi-115-bg-115",
+      "name": "Skoda Scala 1.0 TSI · 115 bg",
+      "brand": "Skoda",
+      "model_family": "Scala",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 200.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.0L TSI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "skoda-octavia-3-1-0-tsi-dsg",
+        "skoda-scala-1-0-tsi-dsg"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-skoda-scala-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3b2411ad009c85f42c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-scala-2018.html"
+      }
+    },
+    {
+      "id": "skoda-scala-1-6-tdi-115-bg-115",
+      "name": "Skoda Scala 1.6 TDI · 115 bg",
+      "brand": "Skoda",
+      "model_family": "Scala",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (115 HP)"
+      },
+      "scored_car_id": "skoda-karoq-1-6-tdi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-skoda-scala-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-40fbbcc967774d3eb8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-scala-2018.html"
+      }
+    },
+    {
+      "id": "skoda-skoda-karoq-1-6-tdi-dsg-115",
+      "name": "Skoda Skoda Karoq 1.6 TDI DSG",
+      "brand": "Skoda",
+      "model_family": "Karoq",
+      "generation": "2018-2020 pazar dilimi",
+      "years": "2018-2020",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 250.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea288",
+        "engine_name": "EA288"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "andcetin_dq200",
+        "otopark_karoq_16tdi",
+        "teknikotomatik_dq200_dq250",
+        "torquecars_ea288_avoid_problems",
+        "trbox"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-57c3c51753f8757e40",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+      }
+    },
+    {
+      "id": "skoda-skoda-kodiaq-1-4-tsi-dsg-150",
+      "name": "Skoda Skoda Kodiaq 1.4 TSI DSG",
+      "brand": "Skoda",
+      "model_family": "Kodiaq",
+      "generation": "2017-2020 pazar dilimi",
+      "years": "2017-2020",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 250.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea211",
+        "engine_name": "EA211"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "andcetin_dq200",
+        "kroniksorunlar_superb",
+        "oreateai_ea111_vs_ea211",
+        "sikayetvar_kodiaq",
+        "teknikotomatik_dq200_dq250"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-122d7995d5a8c77010",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+      }
+    },
+    {
+      "id": "skoda-skoda-superb-3-2-0-tdi-150",
+      "name": "Skoda Skoda Superb 3 2.0 TDI",
+      "brand": "Skoda",
+      "model_family": "Superb 3",
+      "generation": "2015-2019 pazar dilimi",
+      "years": "2015-2019",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea288",
+        "engine_name": "EA288"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "skoda-octavia-3-2-0-tdi",
+        "skoda-superb-3-2-0-tdi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "andcetin_dq200",
+        "kroniksorunlar_superb",
+        "sikayetvar_a4_tfsi",
+        "teknikotomatik_dq200_dq250",
+        "torquecars_ea288_avoid_problems"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-15462449d5da9cde67",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+      }
+    },
+    {
+      "id": "skoda-superb-1-6-tdi-120-bg-120",
+      "name": "Skoda SuperB 1.6 TDI · 120 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2015-2019",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (115 HP)"
+      },
+      "scored_car_id": "skoda-superb-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-on-com-cars-skoda-superb-combi-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-01c158934f610628f7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2016.html"
+      }
+    },
+    {
+      "id": "skoda-superb-1-6-tdi-120-bg-120-2",
+      "name": "Skoda SuperB 1.6 TDI · 120 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2015-2015",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (115 HP)"
+      },
+      "scored_car_id": "skoda-superb-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-volution-com-cars-skoda-superb-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e3d7e08ae86e87e5aa",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2015.html"
+      }
+    },
+    {
+      "id": "skoda-superb-1-6-tdi-120-bg-120-3",
+      "name": "Skoda SuperB 1.6 TDI · 120 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (115 HP)"
+      },
+      "scored_car_id": "skoda-superb-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-volution-com-cars-skoda-superb-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-953fb161de31cd136c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2019.html"
+      }
+    },
+    {
+      "id": "skoda-superb-1-9-tdi-130-bg-130",
+      "name": "Skoda SuperB 1.9 TDI · 130 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2002-2002",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 285.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TDI 5AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-volution-com-cars-skoda-superb-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-535d02cb1d023a95cc",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2002.html"
+      }
+    },
+    {
+      "id": "skoda-superb-1-9-tdi-140-bg-140",
+      "name": "Skoda SuperB 1.9 TDI · 140 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-volution-com-cars-skoda-superb-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f78916b87e40d3d68f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html"
+      }
+    },
+    {
+      "id": "skoda-superb-1-9-tdi-140-bg-140-2",
+      "name": "Skoda SuperB 1.9 TDI · 140 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2009-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-on-com-cars-skoda-superb-combi-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9690e391c58ea6d4cb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2009.html"
+      }
+    },
+    {
+      "id": "skoda-superb-1-9-tdi-140-bg-140-3",
+      "name": "Skoda SuperB 1.9 TDI · 140 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-64b77b6a82036b722f",
+        "tech-volution-com-cars-skoda-superb-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-92fd6eafcc2a8e88ef",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html"
+      }
+    },
+    {
+      "id": "skoda-superb-1-9-tdi-140-bg-140-4",
+      "name": "Skoda SuperB 1.9 TDI · 140 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2009-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-64b77b6a82036b722f",
+        "tech-on-com-cars-skoda-superb-combi-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-51db3ae81b5541e723",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2009.html"
+      }
+    },
+    {
+      "id": "skoda-superb-1-9-tdi-170-bg-170",
+      "name": "Skoda SuperB 1.9 TDI · 170 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": "skoda-superb-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-volution-com-cars-skoda-superb-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5bf0e6726acdee4a33",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html"
+      }
+    },
+    {
+      "id": "skoda-superb-2-0-tdi-140-bg-140",
+      "name": "Skoda SuperB 2.0 TDI · 140 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2013-2015",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-skoda-superb-estate-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-80599d0b26ee3ebb4d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-estate-2013.html"
+      }
+    },
+    {
+      "id": "skoda-superb-2-0-tdi-140-bg-140-2",
+      "name": "Skoda SuperB 2.0 TDI · 140 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2013-2015",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-skoda-superb-2-0-tdi",
+        "tech-volution-com-cars-skoda-superb-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3eeed31b6cf22d0445",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2013.html"
+      }
+    },
+    {
+      "id": "skoda-superb-2-0-tdi-170-bg-170",
+      "name": "Skoda SuperB 2.0 TDI · 170 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2013-2015",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": "skoda-superb-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "market-nci-el-otomobil-skoda-superb-2-0-tdi",
+        "tech-n-com-cars-skoda-superb-estate-2013-html",
+        "tech-volution-com-cars-skoda-superb-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2e44de68308ac4cf90",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2013.html"
+      }
+    },
+    {
+      "id": "skoda-superb-2-0-tdi-170-bg-170-2",
+      "name": "Skoda SuperB 2.0 TDI · 170 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2013-2015",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 6AT 4x4 (170 HP)"
+      },
+      "scored_car_id": "skoda-superb-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-skoda-superb-2-0-tdi",
+        "tech-n-com-cars-skoda-superb-estate-2013-html",
+        "tech-volution-com-cars-skoda-superb-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1a21dd6db54b756b67",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2013.html"
+      }
+    },
+    {
+      "id": "skoda-superb-2-5-tdi-155-bg-155",
+      "name": "Skoda SuperB 2.5 TDI · 155 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2002-2002",
+      "specs": {
+        "hp": 155,
+        "torque_nm": 310.0,
+        "displacement_l": 2.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.6L V6 TDI 5AT FWD (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-volution-com-cars-skoda-superb-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-90d330a86176070af8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2002.html"
+      }
+    },
+    {
+      "id": "skoda-superb-2-5-tdi-163-bg-163",
+      "name": "Skoda SuperB 2.5 TDI · 163 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2002-2002",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 350.0,
+        "displacement_l": 2.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.6L V6 TDI 5AT FWD (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-volution-com-cars-skoda-superb-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f34746b445001a69bc",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2002.html"
+      }
+    },
+    {
+      "id": "skoda-superb-2-5-tdi-163-bg-163-2",
+      "name": "Skoda SuperB 2.5 TDI · 163 bg",
+      "brand": "Skoda",
+      "model_family": "SuperB",
+      "generation": null,
+      "years": "2006-2008",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 350.0,
+        "displacement_l": 2.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.6L V6 TDI 5AT FWD (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-volution-com-cars-skoda-superb-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2c4ae8f5cc835c37fe",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2006.html"
+      }
+    },
+    {
+      "id": "skoda-superb-1-6-tdi-120",
+      "name": "Skoda Superb 1.6 TDI",
+      "brand": "Skoda",
+      "model_family": "Superb",
+      "generation": null,
+      "years": "2013-2019",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 250.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea288",
+        "engine_name": "EA288"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-skoda-superb-1-6-tdi",
+        "tech-on-com-cars-skoda-superb-combi-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-afd30eeef23a2e779a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2016.html"
+      }
+    },
+    {
+      "id": "skoda-superb-1-8-tsi-dsg-160",
+      "name": "Skoda Superb 1.8 TSI DSG",
+      "brand": "Skoda",
+      "model_family": "Superb",
+      "generation": "3T",
+      "years": "2008-2015",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 249.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan/Liftback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CDAA",
+        "engine_name": "1.8L TSI"
+      },
+      "scored_car_id": "skoda-octavia-1-8-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-skoda-superb-1-8-tsi-dsg",
+        "tech-volution-com-cars-skoda-superb-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-776163c2cc33e132c7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html"
+      }
+    },
+    {
+      "id": "skoda-superb-2-0-tdi-170",
+      "name": "Skoda Superb 2.0 TDI",
+      "brand": "Skoda",
+      "model_family": "Superb",
+      "generation": null,
+      "years": "2009-2015",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea189",
+        "engine_name": "EA189"
+      },
+      "scored_car_id": "skoda-superb-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-skoda-superb-2-0-tdi",
+        "tech-on-com-cars-skoda-superb-combi-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dfe5ec1a35c905f203",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2009.html"
+      }
+    },
+    {
+      "id": "skoda-superb-3-1-4-tsi-dsg-150",
+      "name": "Skoda Superb 3 1.4 TSI DSG",
+      "brand": "Skoda",
+      "model_family": "Superb 3",
+      "generation": null,
+      "years": "2015-2019",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 250.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea211",
+        "engine_name": "EA211"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-skoda-superb-3-1-4-tsi-dsg",
+        "tech-on-com-cars-skoda-superb-combi-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ad3cb32a262e920970",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2016.html"
+      }
+    },
+    {
+      "id": "skoda-yeti-2-0-tdi-4x4-dsg-140",
+      "name": "Skoda Yeti 2.0 TDI 4x4 DSG",
+      "brand": "Skoda",
+      "model_family": "Yeti",
+      "generation": "5L",
+      "years": "2009-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CFHC",
+        "engine_name": "2.0L TDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-skoda-yeti-2-0-tdi-4x4-dsg",
+        "tech-oevolution-com-cars-skoda-yeti-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9fc193a4e26ab1193a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/skoda-yeti-2009.html"
+      }
+    }
+  ]
+}

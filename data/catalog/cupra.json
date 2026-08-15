@@ -1,0 +1,48 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Cupra",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "cupra-cupra-formentor-2-0-tsi-dsg-190",
+      "name": "Cupra Cupra Formentor 2.0 TSI DSG",
+      "brand": "Cupra",
+      "model_family": "Formentor",
+      "generation": "2020-2020 pazar dilimi",
+      "years": "2020-2020",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "S tronic (ıslak)",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "vag-ea888-evo4",
+        "engine_name": "EA888 evo4, 2.0 TSI evo4, DNU"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "cupra-formentor-2-0-tsi-dsg",
+        "cupra-leon-2-0-tsi-dsg"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "araclo_cupra_formentor",
+        "audiworld_dl501_110k",
+        "cupraforum_ea888_evo4_oil",
+        "ecotorque_dl501"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-2c27be1f23f30b882c",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.araclo.com/blog/cupra-formentor-alinir-mi-kronik-sorunlari-kullanici-yorumlari-ve-tum-detaylar-2026"
+      }
+    }
+  ]
+}

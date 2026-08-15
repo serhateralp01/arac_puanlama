@@ -1,0 +1,155 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Rover",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "rover-25-1-8-117",
+      "name": "Rover 25 1.8",
+      "brand": "Rover",
+      "model_family": "25",
+      "generation": "RF",
+      "years": "2000-2005",
+      "specs": {
+        "hp": 117,
+        "torque_nm": 160.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "Stepspeed CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "18K4F",
+        "engine_name": "1.8 K-Series"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market--com-ikinci-el-otomobil-rover-25-1-8"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-20f4dbf87e7a71b29e",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "rover-45-1-8-117",
+      "name": "Rover 45 1.8",
+      "brand": "Rover",
+      "model_family": "45",
+      "generation": "RT",
+      "years": "2000-2005",
+      "specs": {
+        "hp": 117,
+        "torque_nm": 160.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Stepspeed CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "18K4F",
+        "engine_name": "1.8 K-Series"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market--com-ikinci-el-otomobil-rover-45-1-8"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5e37e897f0f1a7cd34",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "rover-75-2-0-150",
+      "name": "Rover 75 2.0",
+      "brand": "Rover",
+      "model_family": "75",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 185.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "rover-kv6",
+        "engine_name": "KV6"
+      },
+      "scored_car_id": "rover-75-2-0",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market--com-ikinci-el-otomobil-rover-75-2-0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7fd25889113030e886",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "rover-75-2-5-v6-177",
+      "name": "Rover 75 2.5 V6",
+      "brand": "Rover",
+      "model_family": "75",
+      "generation": "RJ",
+      "years": "2000-2005",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 240.0,
+        "displacement_l": 2.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "25K4F",
+        "engine_name": "2.5 KV6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-rover-75-2-5-v6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-920f9ed0db31f0285e",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    }
+  ]
+}

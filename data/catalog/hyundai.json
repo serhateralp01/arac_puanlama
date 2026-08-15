@@ -1,0 +1,2193 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Hyundai",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "hyundai-accent-1-5-105-bg-105",
+      "name": "Hyundai Accent 1.5 · 105 bg",
+      "brand": "Hyundai",
+      "model_family": "Accent",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 143.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (103 HP)"
+      },
+      "scored_car_id": "hyundai-elantra-xd-1-6-2-0",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4181dd6a07b4e27a3c",
+        "src-96d89abee389545bef"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-79fd9c3907162586b9",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-3-doors-2003.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-1-5-105-bg-105-2",
+      "name": "Hyundai Accent 1.5 · 105 bg",
+      "brand": "Hyundai",
+      "model_family": "Accent",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 144.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (103 HP)"
+      },
+      "scored_car_id": "hyundai-elantra-xd-1-6-2-0",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-266f21474dc6b13ba9",
+        "src-96d89abee389545bef"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-623f17240e2f33a42a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2003.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-1-5-105-bg-105-3",
+      "name": "Hyundai Accent 1.5 · 105 bg",
+      "brand": "Hyundai",
+      "model_family": "Accent",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 144.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (103 HP)"
+      },
+      "scored_car_id": "hyundai-elantra-xd-1-6-2-0",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6dc0b7450eb81b3a11",
+        "src-96d89abee389545bef"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d220ed2ec356540b50",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-5-doors-2003.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-1-5-108-bg-108",
+      "name": "Hyundai Accent 1.5 · 108 bg",
+      "brand": "Hyundai",
+      "model_family": "Accent",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 108,
+        "torque_nm": 136.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L 6AT FWD (108 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-009af88da932fe1d52",
+        "src-96d89abee389545bef"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e3b4f792cc1e0faa34",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-5-doors-2011.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-1-5-112-bg-112",
+      "name": "Hyundai Accent 1.5 · 112 bg",
+      "brand": "Hyundai",
+      "model_family": "Accent",
+      "generation": null,
+      "years": "2006-2011",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 146.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (103 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-96d89abee389545bef",
+        "tech-om-cars-hyundai-accent-4-doors-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ad6f793c955db97d1c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2006.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-1-5-112-bg-112-2",
+      "name": "Hyundai Accent 1.5 · 112 bg",
+      "brand": "Hyundai",
+      "model_family": "Accent",
+      "generation": null,
+      "years": "2006-2011",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 146.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (103 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-43c3811f094580e574",
+        "src-96d89abee389545bef"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b324e6ab17bad542e5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-3-doors-2006.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-1-6-128-bg-128",
+      "name": "Hyundai Accent 1.6 · 128 bg",
+      "brand": "Hyundai",
+      "model_family": "Accent",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 260.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (128 HP)"
+      },
+      "scored_car_id": "hyundai-i30-1-6-crdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-eecbf6c2af450d62c2",
+        "tech-om-cars-hyundai-accent-4-doors-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1d3c8f16bb1f1c774f",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2011.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-1-6-130-bg-130",
+      "name": "Hyundai Accent 1.6 · 130 bg",
+      "brand": "Hyundai",
+      "model_family": "Accent",
+      "generation": null,
+      "years": "2017-2017",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 161.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-8a38fc725b4680a812",
+        "src-eecbf6c2af450d62c2"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-66ac6ea05d3c94c1f0",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-2017.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-1-6-138-bg-138",
+      "name": "Hyundai Accent 1.6 · 138 bg",
+      "brand": "Hyundai",
+      "model_family": "Accent",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 138,
+        "torque_nm": 167.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-eecbf6c2af450d62c2",
+        "tech-om-cars-hyundai-accent-4-doors-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-efae26cd27d5f00661",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2011.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-1-6-138-bg-138-2",
+      "name": "Hyundai Accent 1.6 · 138 bg",
+      "brand": "Hyundai",
+      "model_family": "Accent",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 138,
+        "torque_nm": 167.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-009af88da932fe1d52",
+        "src-eecbf6c2af450d62c2"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-32f48c91ca613ddec9",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-5-doors-2011.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-1-6-140-bg-140",
+      "name": "Hyundai Accent 1.6 · 140 bg",
+      "brand": "Hyundai",
+      "model_family": "Accent",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 167.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-009af88da932fe1d52",
+        "src-eecbf6c2af450d62c2"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3de9b7d067f8d6dba9",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-5-doors-2011.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-blue-1-6-crdi-128",
+      "name": "Hyundai Accent Blue 1.6 CRDi",
+      "brand": "Hyundai",
+      "model_family": "Accent Blue",
+      "generation": null,
+      "years": "2012-2018",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 260.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "hyundai-u2-16",
+        "engine_name": "U2"
+      },
+      "scored_car_id": "hyundai-accent-blue-1-6-crdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-tomobil-hyundai-accent-blue-1-6-crdi",
+        "tech-om-cars-hyundai-accent-4-doors-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4b9d71f611eeca35fb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2011.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-blue-1-6-benzinli-123",
+      "name": "Hyundai Accent Blue 1.6 benzinli",
+      "brand": "Hyundai",
+      "model_family": "Accent Blue",
+      "generation": null,
+      "years": "2012-2018",
+      "specs": {
+        "hp": 123,
+        "torque_nm": 155.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "hyundai-gamma16-mpi",
+        "engine_name": "Gamma MPI"
+      },
+      "scored_car_id": "hyundai-accent-blue-1-6-benzinli",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-hyundai-accent-blue-1-6-benzinli",
+        "tech-om-cars-hyundai-accent-4-doors-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-01bd4b352a0fbf9c74",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2011.html"
+      }
+    },
+    {
+      "id": "hyundai-accent-era-1-6-112",
+      "name": "Hyundai Accent Era 1.6",
+      "brand": "Hyundai",
+      "model_family": "Accent Era",
+      "generation": "MC",
+      "years": "2006-2012",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 145.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "G4ED",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-hyundai-accent-era-1-6",
+        "tech-om-cars-hyundai-accent-4-doors-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a44edd2c65ca25fda8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2006.html"
+      }
+    },
+    {
+      "id": "hyundai-coupe-2-0-143",
+      "name": "Hyundai Coupe 2.0",
+      "brand": "Hyundai",
+      "model_family": "Coupe",
+      "generation": "GK",
+      "years": "2002-2009",
+      "specs": {
+        "hp": 143,
+        "torque_nm": 186.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "G4GC",
+        "engine_name": "2.0 Beta"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-hyundai-coupe-2-0",
+        "tech-com-cars-hyundai-coupe-tiburon-1999-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2d412f8833f9334790",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-coupe-tiburon-1999.html"
+      }
+    },
+    {
+      "id": "hyundai-elantra-1-6-107",
+      "name": "Hyundai Elantra 1.6",
+      "brand": "Hyundai",
+      "model_family": "Elantra",
+      "generation": "XD",
+      "years": "2001-2006",
+      "specs": {
+        "hp": 107,
+        "torque_nm": 143.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "A4AF3",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "G4ED",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-inci-el-otomobil-hyundai-elantra-1-6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b9351dc3b4cc19ae64",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "hyundai-elantra-1-6-md-132",
+      "name": "Hyundai Elantra 1.6 (MD)",
+      "brand": "Hyundai",
+      "model_family": "Elantra",
+      "generation": null,
+      "years": "2011-2015",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 159.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "hyundai-gamma16-mpi",
+        "engine_name": "Gamma MPI"
+      },
+      "scored_car_id": "hyundai-elantra-1-6-md",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-hyundai-elantra-1-6",
+        "tech-ution-com-cars-hyundai-elantra-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9a1acbf0475a8a598d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-2010.html"
+      }
+    },
+    {
+      "id": "hyundai-elantra-1-6-crdi-ad-136",
+      "name": "Hyundai Elantra 1.6 CRDi (AD)",
+      "brand": "Hyundai",
+      "model_family": "Elantra",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "hyundai-u2-16",
+        "engine_name": "U2"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "hyundai-elantra-1-6-crdi-ad",
+        "hyundai-i30-pd-1-6-crdi-7dct",
+        "hyundai-kona-1-6-crdi-7dct",
+        "hyundai-tucson-1-6-crdi-7dct"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-hyundai-elantra-1-6-crdi",
+        "tech-ution-com-cars-hyundai-elantra-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2d15ec0cf6615e12ce",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-2016.html"
+      }
+    },
+    {
+      "id": "hyundai-elantra-1-6-121-bg-121",
+      "name": "Hyundai Elantra 1.6 · 121 bg",
+      "brand": "Hyundai",
+      "model_family": "Elantra",
+      "generation": null,
+      "years": "2006-2010",
+      "specs": {
+        "hp": 121,
+        "torque_nm": 153.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-inci-el-otomobil-hyundai-elantra-1-6",
+        "src-21d1759add53086fbe"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ef40ea1dc8569f207c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-4-doors-2007.html"
+      }
+    },
+    {
+      "id": "hyundai-elantra-1-6-128-bg-128",
+      "name": "Hyundai Elantra 1.6 · 128 bg",
+      "brand": "Hyundai",
+      "model_family": "Elantra",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 155.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": "hyundai-i30-1-6-crdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-hyundai-elantra-1-6",
+        "tech-ution-com-cars-hyundai-elantra-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-eee35332b34f5db2bc",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-2016.html"
+      }
+    },
+    {
+      "id": "hyundai-elantra-1-6-132-bg-132",
+      "name": "Hyundai Elantra 1.6 · 132 bg",
+      "brand": "Hyundai",
+      "model_family": "Elantra",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 159.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": "hyundai-elantra-1-6-md",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-hyundai-elantra-1-6",
+        "tech-ution-com-cars-hyundai-elantra-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-65e90d3b9cee543e54",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-2010.html"
+      }
+    },
+    {
+      "id": "hyundai-elantra-1-6-201-bg-201",
+      "name": "Hyundai Elantra 1.6 · 201 bg",
+      "brand": "Hyundai",
+      "model_family": "Elantra",
+      "generation": null,
+      "years": "2017-2017",
+      "specs": {
+        "hp": 201,
+        "torque_nm": 264.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-hyundai-elantra-1-6",
+        "src-caca4eba8d3b823d2d"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f3c27ef29e62c068d9",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-gt-2017.html"
+      }
+    },
+    {
+      "id": "hyundai-elantra-md-1-8-6at-145",
+      "name": "Hyundai Elantra MD 1.8 6AT",
+      "brand": "Hyundai",
+      "model_family": "Elantra MD",
+      "generation": null,
+      "years": "2014-2016",
+      "specs": {
+        "hp": 145,
+        "torque_nm": 176.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "hyundai-nu-18",
+        "engine_name": "Nu 1.8"
+      },
+      "scored_car_id": "hyundai-elantra-md-1-8-6at",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-hyundai-elantra-md-1-8-6at",
+        "tech-https-www-hyundainews-com-releases-1597"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d7474cc096fc484904",
+        "publication_status": "scored",
+        "technical_url": "https://www.hyundainews.com/releases/1597"
+      }
+    },
+    {
+      "id": "hyundai-genesis-coupe-2-0t-8at-273",
+      "name": "Hyundai Genesis Coupe 2.0T 8AT",
+      "brand": "Hyundai",
+      "model_family": "Genesis Coupe",
+      "generation": "BK",
+      "years": "2012-2014",
+      "specs": {
+        "hp": 273,
+        "torque_nm": 373.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "Hyundai 8AT",
+        "gears": 8,
+        "clutch": null,
+        "engine_code": "G4KF",
+        "engine_name": "2.0L Turbo"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-mobil-hyundai-genesis-coupe-2-0t-8at",
+        "tech-com-cars-hyundai-genesis-coupe-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e5292d1927df407dce",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-genesis-coupe-2008.html"
+      }
+    },
+    {
+      "id": "hyundai-getz-1-6-105",
+      "name": "Hyundai Getz 1.6",
+      "brand": "Hyundai",
+      "model_family": "Getz",
+      "generation": "TB",
+      "years": "2003-2008",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 144.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "A4AF3",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "G4ED",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": "hyundai-elantra-xd-1-6-2-0",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-hyundai-getz-1-6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-23047e093a5f85c044",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "hyundai-hyundai-tucson-1-6-crdi-7dct-136",
+      "name": "Hyundai Hyundai Tucson 1.6 CRDi 7DCT",
+      "brand": "Hyundai",
+      "model_family": "Tucson",
+      "generation": "2016-2020 pazar dilimi",
+      "years": "2016-2020",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "hyundai-u2-16",
+        "engine_name": "U2"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "hyundai-elantra-1-6-crdi-ad",
+        "hyundai-i30-pd-1-6-crdi-7dct",
+        "hyundai-kona-1-6-crdi-7dct",
+        "hyundai-tucson-1-6-crdi-7dct"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "andcetin_dct_tucson",
+        "enginedna_d4fb",
+        "sikayetvar_tucson_dct",
+        "sikayetvar_tucson_kavrama",
+        "trbox"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-866c229bfdd380ccad",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://andcetin.com/hyundai-kia-dct-analizi-63/"
+      }
+    },
+    {
+      "id": "hyundai-kona-1-6-crdi-7dct-136",
+      "name": "Hyundai Kona 1.6 CRDi 7DCT",
+      "brand": "Hyundai",
+      "model_family": "Kona",
+      "generation": null,
+      "years": "2018-2020",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "hyundai-u2-16",
+        "engine_name": "U2"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "hyundai-elantra-1-6-crdi-ad",
+        "hyundai-i30-pd-1-6-crdi-7dct",
+        "hyundai-kona-1-6-crdi-7dct",
+        "hyundai-tucson-1-6-crdi-7dct"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-hyundai-kona-1-6-crdi-7dct",
+        "tech-volution-com-cars-hyundai-kona-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-55e4e31e82b9137cf4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-kona-2017.html"
+      }
+    },
+    {
+      "id": "hyundai-matrix-1-6-103",
+      "name": "Hyundai Matrix 1.6",
+      "brand": "Hyundai",
+      "model_family": "Matrix",
+      "generation": "FC",
+      "years": "2002-2010",
+      "specs": {
+        "hp": 103,
+        "torque_nm": 141.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "A4AF3",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "G4ED",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-hyundai-matrix-1-6",
+        "tech-lution-com-cars-hyundai-matrix-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-444a64f09e7c4f94c5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-matrix-2001.html"
+      }
+    },
+    {
+      "id": "hyundai-matrix-1-6-103-bg-103",
+      "name": "Hyundai Matrix 1.6 · 103 bg",
+      "brand": "Hyundai",
+      "model_family": "Matrix",
+      "generation": null,
+      "years": "2001-2010",
+      "specs": {
+        "hp": 103,
+        "torque_nm": 142.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (103 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-hyundai-matrix-1-6",
+        "tech-lution-com-cars-hyundai-matrix-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-12c1ea776f8d1b049c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-matrix-2001.html"
+      }
+    },
+    {
+      "id": "hyundai-santa-fe-2-2-crdi-155",
+      "name": "Hyundai Santa Fe 2.2 CRDi",
+      "brand": "Hyundai",
+      "model_family": "Santa Fe",
+      "generation": "CM",
+      "years": "2006-2012",
+      "specs": {
+        "hp": 155,
+        "torque_nm": 343.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "D4EB",
+        "engine_name": "2.2 CRDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-hyundai-santa-fe-2-2-crdi",
+        "tech-tion-com-cars-hyundai-santa-fe-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f4980c71f7d56e33f0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-santa-fe-2009.html"
+      }
+    },
+    {
+      "id": "hyundai-sonata-2-0-crdi-140",
+      "name": "Hyundai Sonata 2.0 CRDi",
+      "brand": "Hyundai",
+      "model_family": "Sonata",
+      "generation": "NF",
+      "years": "2006-2010",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 305.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "D4EA",
+        "engine_name": "2.0 CRDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-hyundai-sonata-2-0-crdi",
+        "tech-lution-com-cars-hyundai-sonata-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f06ab5c3b640b9c84f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-sonata-2008.html"
+      }
+    },
+    {
+      "id": "hyundai-sonata-2-0-crdi-150-bg-150",
+      "name": "Hyundai Sonata 2.0 CRDi · 150 bg",
+      "brand": "Hyundai",
+      "model_family": "Sonata",
+      "generation": null,
+      "years": "2009-2009",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 305.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L CRDi 4AT (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-hyundai-sonata-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dbc9ed051d24a2a42c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-sonata-2008.html"
+      }
+    },
+    {
+      "id": "hyundai-tucson-2-0-crdi-140",
+      "name": "Hyundai Tucson 2.0 CRDi",
+      "brand": "Hyundai",
+      "model_family": "Tucson",
+      "generation": "JM",
+      "years": "2005-2009",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 305.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "D4EA",
+        "engine_name": "2.0 CRDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-hyundai-tucson-2-0-crdi",
+        "tech-lution-com-cars-hyundai-tucson-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8e2966bd6a0b9b5135",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-tucson-2004.html"
+      }
+    },
+    {
+      "id": "hyundai-tucson-2-0-cvvt-141",
+      "name": "Hyundai Tucson 2.0 CVVT",
+      "brand": "Hyundai",
+      "model_family": "Tucson",
+      "generation": "JM",
+      "years": "2004-2009",
+      "specs": {
+        "hp": 141,
+        "torque_nm": 184.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "G4GC",
+        "engine_name": "2.0 Beta"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-hyundai-tucson-2-0-cvvt",
+        "tech-lution-com-cars-hyundai-tucson-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f6e6ec67c41d417a93",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-tucson-2004.html"
+      }
+    },
+    {
+      "id": "hyundai-veloster-1-6-gdi-140",
+      "name": "Hyundai Veloster 1.6 GDI",
+      "brand": "Hyundai",
+      "model_family": "Veloster",
+      "generation": "FS",
+      "years": "2011-2016",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 167.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "6DCT",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "G4FD",
+        "engine_name": "1.6 GDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-hyundai-veloster-1-6-gdi",
+        "tech-tion-com-cars-hyundai-veloster-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4e20e7e2ace19b0c42",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-veloster-2011.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-pd-1-6-crdi-7dct-136",
+      "name": "Hyundai i30 (PD) 1.6 CRDi 7DCT",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 280.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "hyundai-u2-16",
+        "engine_name": "U2"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "hyundai-elantra-1-6-crdi-ad",
+        "hyundai-i30-pd-1-6-crdi-7dct",
+        "hyundai-kona-1-6-crdi-7dct",
+        "hyundai-tucson-1-6-crdi-7dct"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-hyundai-i30-1-6-crdi-7dct",
+        "tech-evolution-com-cars-hyundai-i30-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d3cfb2b8e2adb797e6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2018.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-crdi-128",
+      "name": "Hyundai i30 1.6 CRDi",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2007-2016",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 260.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "hyundai-u2-16",
+        "engine_name": "U2"
+      },
+      "scored_car_id": "hyundai-i30-1-6-crdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-hyundai-i30-1-6-crdi",
+        "tech-evolution-com-cars-hyundai-i30-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bdc98b7609ef1c39ec",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-crdi-110-bg-110",
+      "name": "Hyundai i30 1.6 CRDi · 110 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 260.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (128 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-hyundai-i30-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c48d05ea0f0917482a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-crdi-110-bg-110-2",
+      "name": "Hyundai i30 1.6 CRDi · 110 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2012-2017",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (128 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-hyundai-i30-wagon-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-220496b0c6e79618c9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-wagon-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-crdi-110-bg-110-3",
+      "name": "Hyundai i30 1.6 CRDi · 110 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2016-2018",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 280.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-hyundai-i30-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5a5d5a2b471cb9d09c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2016.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-crdi-128-bg-128",
+      "name": "Hyundai i30 1.6 CRDi · 128 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 260.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (128 HP)"
+      },
+      "scored_car_id": "hyundai-i30-1-6-crdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-hyundai-i30-coupe-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7ec09ce52cfd632d13",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-coupe-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-crdi-128-bg-128-2",
+      "name": "Hyundai i30 1.6 CRDi · 128 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 260.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (128 HP)"
+      },
+      "scored_car_id": "hyundai-i30-1-6-crdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-hyundai-i30-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f0a29ab4c05fb055a0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-crdi-128-bg-128-3",
+      "name": "Hyundai i30 1.6 CRDi · 128 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2012-2017",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (128 HP)"
+      },
+      "scored_car_id": "hyundai-i30-1-6-crdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-hyundai-i30-wagon-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-29cc42ffd05689eade",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-wagon-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-cvvt-120-bg-120",
+      "name": "Hyundai i30 1.6 CVVT · 120 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-47ae9a3d310554926f",
+        "tech-evolution-com-cars-hyundai-i30-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-33afea4c0e322c2168",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-cvvt-120-bg-120-2",
+      "name": "Hyundai i30 1.6 CVVT · 120 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2012-2017",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-47ae9a3d310554926f",
+        "tech-ion-com-cars-hyundai-i30-wagon-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b44387c2617015ca13",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-wagon-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-cvvt-125-bg-125",
+      "name": "Hyundai i30 1.6 CVVT · 125 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 157.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-47ae9a3d310554926f",
+        "src-c2592260a1e81ca2ea"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9c144a467ed5772c32",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-estate-2008.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-cvvt-135-bg-135",
+      "name": "Hyundai i30 1.6 CVVT · 135 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 135,
+        "torque_nm": 164.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": "hyundai-i30-1-6-gdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-47ae9a3d310554926f",
+        "tech-evolution-com-cars-hyundai-i30-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9fbd5701187d3f4d92",
+        "publication_status": "held_conflict",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-cvvt-135-bg-135-2",
+      "name": "Hyundai i30 1.6 CVVT · 135 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2012-2017",
+      "specs": {
+        "hp": 135,
+        "torque_nm": 164.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": "hyundai-i30-1-6-gdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-47ae9a3d310554926f",
+        "tech-ion-com-cars-hyundai-i30-wagon-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7e98fed755d533fe8b",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-wagon-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-cvvt-135-bg-135-3",
+      "name": "Hyundai i30 1.6 CVVT · 135 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 135,
+        "torque_nm": 167.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": "hyundai-i30-1-6-gdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-47ae9a3d310554926f",
+        "tech-ion-com-cars-hyundai-i30-coupe-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b22ed4bee2369a8668",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-coupe-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-gdi-280-bg-280",
+      "name": "Hyundai i30 1.6 GDI · 280 bg",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 280,
+        "torque_nm": 392.0,
+        "displacement_l": null,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "Performance 2.0L T-GDI 8AT (280 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_displacement"
+      ],
+      "sources": [
+        "market-inci-el-otomobil-hyundai-i30-1-6-gdi",
+        "src-bedbff996c80a39faa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0d845659b468efc248",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-n-2020.html"
+      }
+    },
+    {
+      "id": "hyundai-i30-1-6-gdi-135",
+      "name": "Hyundai i30 1.6 GDi",
+      "brand": "Hyundai",
+      "model_family": "i30",
+      "generation": null,
+      "years": "2011-2016",
+      "specs": {
+        "hp": 135,
+        "torque_nm": 164.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "hyundai-gamma16-gdi",
+        "engine_name": "Gamma GDI"
+      },
+      "scored_car_id": "hyundai-i30-1-6-gdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-hyundai-i30-1-6-gdi",
+        "tech-evolution-com-cars-hyundai-i30-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-72d5d4afe263f6a56b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i40-1-7-crdi-136",
+      "name": "Hyundai i40 1.7 CRDi",
+      "brand": "Hyundai",
+      "model_family": "i40",
+      "generation": null,
+      "years": "2011-2019",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 325.0,
+        "displacement_l": 1.7,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "hyundai-u2-17",
+        "engine_name": "U2"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-hyundai-i40-1-7-crdi",
+        "tech-on-com-cars-hyundai-i40-saloon-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-157add1b84af984319",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i40-saloon-2011.html"
+      }
+    },
+    {
+      "id": "hyundai-i40-1-7-crdi-executive-136-bg-136",
+      "name": "Hyundai i40 1.7 CRDi Executive · 136 bg",
+      "brand": "Hyundai",
+      "model_family": "i40",
+      "generation": null,
+      "years": "2011-2018",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 441.0,
+        "displacement_l": 1.7,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.7L CRDi 6AT FWD (136 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-on-com-cars-hyundai-i40-saloon-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-14d22d951c939d35b5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i40-saloon-2011.html"
+      }
+    },
+    {
+      "id": "hyundai-i40-1-7-crdi-executive-136-bg-136-2",
+      "name": "Hyundai i40 1.7 CRDi Executive · 136 bg",
+      "brand": "Hyundai",
+      "model_family": "i40",
+      "generation": null,
+      "years": "2012-2018",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 329.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L CRDI 7AT FWD (136 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "hyundai-elantra-1-6-crdi-ad",
+        "hyundai-i30-pd-1-6-crdi-7dct",
+        "hyundai-kona-1-6-crdi-7dct",
+        "hyundai-tucson-1-6-crdi-7dct"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-on-com-cars-hyundai-i40-tourer-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ebb4253cc32f691ed2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i40-tourer-2012.html"
+      }
+    },
+    {
+      "id": "hyundai-i40-1-7-crdi-executive-136-bg-136-3",
+      "name": "Hyundai i40 1.7 CRDi Executive · 136 bg",
+      "brand": "Hyundai",
+      "model_family": "i40",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L CRDI 7AT FWD (136 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "hyundai-elantra-1-6-crdi-ad",
+        "hyundai-i30-pd-1-6-crdi-7dct",
+        "hyundai-kona-1-6-crdi-7dct",
+        "hyundai-tucson-1-6-crdi-7dct"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-hyundai-i40-wagon-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4e7fdd49cc9e50c86d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-i40-wagon-2018.html"
+      }
+    },
+    {
+      "id": "hyundai-ix20-1-6-6at-125",
+      "name": "Hyundai ix20 1.6 6AT",
+      "brand": "Hyundai",
+      "model_family": "ix20",
+      "generation": "JC",
+      "years": "2015-2018",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "G4FC",
+        "engine_name": "1.6L"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-hyundai-ix20-1-6-6at",
+        "tech-volution-com-cars-hyundai-ix20-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8a3a5998e174e9cb90",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-ix20-2015.html"
+      }
+    },
+    {
+      "id": "hyundai-ix20-1-6-125-bg-125",
+      "name": "Hyundai ix20 1.6 · 125 bg",
+      "brand": "Hyundai",
+      "model_family": "ix20",
+      "generation": null,
+      "years": "2010-2015",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6493c88def8ba0260b",
+        "src-85999eee5e7742d38d"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4e4ac47cd39e91d3af",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-ix20-2010.html"
+      }
+    },
+    {
+      "id": "hyundai-ix20-1-6-125-bg-125-2",
+      "name": "Hyundai ix20 1.6 · 125 bg",
+      "brand": "Hyundai",
+      "model_family": "ix20",
+      "generation": null,
+      "years": "2015-2019",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-6493c88def8ba0260b",
+        "tech-volution-com-cars-hyundai-ix20-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-766b9b7b9739bf6b92",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-ix20-2015.html"
+      }
+    },
+    {
+      "id": "hyundai-ix35-2-0-crdi-184",
+      "name": "Hyundai ix35 2.0 CRDi",
+      "brand": "Hyundai",
+      "model_family": "ix35",
+      "generation": "LM",
+      "years": "2010-2015",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 392.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D4HA",
+        "engine_name": "2.0 CRDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-hyundai-ix35-2-0-crdi",
+        "tech-n-com-cars-hyundai-ix35-tucson-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-595bbba5c4580a6bcd",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/hyundai-ix35-tucson-2009.html"
+      }
+    }
+  ]
+}

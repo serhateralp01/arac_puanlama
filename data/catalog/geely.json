@@ -1,0 +1,44 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Geely",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "geely-emgrand-ec7-1-8-127",
+      "name": "Geely Emgrand EC7 1.8",
+      "brand": "Geely",
+      "model_family": "Emgrand EC7",
+      "generation": "EC7",
+      "years": "2011-2015",
+      "specs": {
+        "hp": 127,
+        "torque_nm": 162.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "JL4G18",
+        "engine_name": "1.8 CVVT"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-ci-el-otomobil-geely-emgrand-ec7-1-8"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c575b67c40298669c9",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    }
+  ]
+}

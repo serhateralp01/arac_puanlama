@@ -1,0 +1,225 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "SsangYong",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "ssangyong-actyon-2-0-xdi-141",
+      "name": "SsangYong Actyon 2.0 XDi",
+      "brand": "SsangYong",
+      "model_family": "Actyon",
+      "generation": "C100",
+      "years": "2006-2011",
+      "specs": {
+        "hp": 141,
+        "torque_nm": 310.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "DSI 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D20DT",
+        "engine_name": "2.0 XDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-ssangyong-actyon-2-0-xdi",
+        "tech-tion-com-cars-ssangyong-actyon-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e86b5587b730982c82",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/ssangyong-actyon-2006.html"
+      }
+    },
+    {
+      "id": "ssangyong-korando-c-2-0-e-xdi-175",
+      "name": "SsangYong Korando C 2.0 e-XDi",
+      "brand": "SsangYong",
+      "model_family": "Korando C",
+      "generation": "C200",
+      "years": "2011-2017",
+      "specs": {
+        "hp": 175,
+        "torque_nm": 360.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "DSI 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D20DTF",
+        "engine_name": "2.0 e-XDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-omobil-ssangyong-korando-c-2-0-e-xdi",
+        "tech-ion-com-cars-ssangyong-korando-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cdad1eae4f91e3a96f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/ssangyong-korando-2010.html"
+      }
+    },
+    {
+      "id": "ssangyong-kyron-2-0-xdi-141",
+      "name": "SsangYong Kyron 2.0 XDi",
+      "brand": "SsangYong",
+      "model_family": "Kyron",
+      "generation": "DJ",
+      "years": "2006-2014",
+      "specs": {
+        "hp": 141,
+        "torque_nm": 310.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "D20DT",
+        "engine_name": "2.0 XDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market--el-otomobil-ssangyong-kyron-2-0-xdi"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-39ade48f4205bbad18",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "ssangyong-rexton-2-7-xdi-165",
+      "name": "SsangYong Rexton 2.7 XDi",
+      "brand": "SsangYong",
+      "model_family": "Rexton",
+      "generation": "Y200",
+      "years": "2004-2012",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 340.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "D27DT",
+        "engine_name": "2.7 XDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-ssangyong-rexton-2-7-xdi",
+        "tech-tion-com-cars-ssangyong-rexton-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2529c84a37bfb0d38e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/ssangyong-rexton-2006.html"
+      }
+    },
+    {
+      "id": "ssangyong-rodius-2-7-xdi-165",
+      "name": "SsangYong Rodius 2.7 XDi",
+      "brand": "SsangYong",
+      "model_family": "Rodius",
+      "generation": "A100",
+      "years": "2005-2013",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 340.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "D27DT",
+        "engine_name": "2.7 XDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-el-otomobil-ssangyong-rodius-2-7-xdi"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8992c80927983af230",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "ssangyong-tivoli-1-6-128",
+      "name": "SsangYong Tivoli 1.6",
+      "brand": "SsangYong",
+      "model_family": "Tivoli",
+      "generation": "X100",
+      "years": "2015-2018",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "G16DF",
+        "engine_name": "1.6 e-XGi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-ssangyong-tivoli-1-6",
+        "tech--com-cars-ssangyong-tivoli-xlv-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-29e3e6103eacb0c90f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/ssangyong-tivoli-xlv-2016.html"
+      }
+    }
+  ]
+}

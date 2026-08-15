@@ -1,0 +1,5123 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "VW",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "vw-vw-t-roc-1-5-tsi-150",
+      "name": "VW VW T-Roc 1.5 TSI",
+      "brand": "VW",
+      "model_family": "T-Roc",
+      "generation": "2018-2020 pazar dilimi",
+      "years": "2018-2020",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 250.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea211",
+        "engine_name": "EA211"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "andcetin_dq200",
+        "oreateai_ea111_vs_ea211",
+        "sikayetvar_passat_tsi",
+        "teknikotomatik_dq200_dq250",
+        "trbox"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-233533bed5ea9528f5",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+      }
+    },
+    {
+      "id": "vw-vw-tiguan-1-4-tsi-dsg-150",
+      "name": "VW VW Tiguan 1.4 TSI DSG",
+      "brand": "VW",
+      "model_family": "Tiguan",
+      "generation": "2016-2020 pazar dilimi",
+      "years": "2016-2020",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 250.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea211",
+        "engine_name": "EA211"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "andcetin_dq200",
+        "kroniksorunlar_superb",
+        "oreateai_ea111_vs_ea211",
+        "sikayetvar_tiguan_kronik",
+        "teknikotomatik_dq200_dq250"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-2c54a9281b31bb373a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+      }
+    },
+    {
+      "id": "volkswagen-beetle-1-2-tsi-dsg-105",
+      "name": "Volkswagen Beetle 1.2 TSI DSG",
+      "brand": "Volkswagen",
+      "model_family": "Beetle",
+      "generation": "5C",
+      "years": "2011-2018",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CBZB",
+        "engine_name": "1.2L TSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-omobil-volkswagen-beetle-1-2-tsi-dsg",
+        "tech-ion-com-cars-volkswagen-beetle-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b91e6a546266ffe13c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-beetle-2011.html"
+      }
+    },
+    {
+      "id": "volkswagen-bora-1-6-102",
+      "name": "Volkswagen Bora 1.6",
+      "brand": "Volkswagen",
+      "model_family": "Bora",
+      "generation": "1J",
+      "years": "2000-2005",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "AKL/BFQ",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-volkswagen-bora-1-6",
+        "tech-ution-com-cars-volkswagen-bora-1998-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c4fac9d737c974e1b5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-1998.html"
+      }
+    },
+    {
+      "id": "volkswagen-bora-1-9-tdi-110-bg-110",
+      "name": "Volkswagen Bora 1.9 TDi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Bora",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 235.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TDI 5AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ution-com-cars-volkswagen-bora-1998-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-258dcd9a7d888a6c22",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-1998.html"
+      }
+    },
+    {
+      "id": "volkswagen-bora-1-9-tdi-115-bg-115",
+      "name": "Volkswagen Bora 1.9 TDi · 115 bg",
+      "brand": "Volkswagen",
+      "model_family": "Bora",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 285.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TDI 5AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ution-com-cars-volkswagen-bora-1998-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-eb03679ec74476899a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-1998.html"
+      }
+    },
+    {
+      "id": "volkswagen-bora-1-9-tdi-115-bg-115-2",
+      "name": "Volkswagen Bora 1.9 TDi · 115 bg",
+      "brand": "Volkswagen",
+      "model_family": "Bora",
+      "generation": null,
+      "years": "2000-2004",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 285.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TDI 5AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-m-cars-volkswagen-bora-variant-1999-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-952be4e6899280e25d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-variant-1999.html"
+      }
+    },
+    {
+      "id": "volkswagen-bora-1-9-tdi-130-bg-130",
+      "name": "Volkswagen Bora 1.9 TDi · 130 bg",
+      "brand": "Volkswagen",
+      "model_family": "Bora",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 310.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TDI 5AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ution-com-cars-volkswagen-bora-1998-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-51bd2dc13c7fb70795",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-1998.html"
+      }
+    },
+    {
+      "id": "volkswagen-bora-1-9-tdi-130-bg-130-2",
+      "name": "Volkswagen Bora 1.9 TDi · 130 bg",
+      "brand": "Volkswagen",
+      "model_family": "Bora",
+      "generation": null,
+      "years": "2000-2004",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 310.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TDI 5AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-m-cars-volkswagen-bora-variant-1999-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2ceac3c806100e9091",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-variant-1999.html"
+      }
+    },
+    {
+      "id": "volkswagen-cc-2-0-tdi-177-dsg-177",
+      "name": "Volkswagen CC 2.0 TDI 177 DSG",
+      "brand": "Volkswagen",
+      "model_family": "CC",
+      "generation": "Type 35",
+      "years": "2012-2016",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 380.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CFGC",
+        "engine_name": "2.0L TDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-omobil-volkswagen-cc-2-0-tdi-177-dsg",
+        "tech-olution-com-cars-volkswagen-cc-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f017d179c6e5d400e7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-cc-2012.html"
+      }
+    },
+    {
+      "id": "volkswagen-eos-2-0-tfsi-200",
+      "name": "Volkswagen Eos 2.0 TFSI",
+      "brand": "Volkswagen",
+      "model_family": "Eos",
+      "generation": "1F",
+      "years": "2006-2010",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 280.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "BWA",
+        "engine_name": "2.0 TFSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-volkswagen-eos-2-0-tfsi",
+        "tech-lution-com-cars-volkswagen-eos-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b3b89bab3f17a3f9ff",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-eos-2006.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-0-tsi-110-bg-110",
+      "name": "Volkswagen Golf 1.0 TSi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2017-2017",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 200.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.0L TSI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": "vw-golf-7-1-0-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-volkswagen-golf-sportsvan-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1503c91a36ea827667",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-sportsvan-2017.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-0-tsi-110-bg-110-2",
+      "name": "Volkswagen Golf 1.0 TSi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2017-2019",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 200.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.0L TSI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": "vw-golf-7-1-0-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-rs-volkswagen-golf-vii-5-doors-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9478e0b0dc007cbb46",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2017.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-0-tsi-110-bg-110-3",
+      "name": "Volkswagen Golf 1.0 TSi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2017-2019",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 200.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.0L TSI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": "vw-golf-7-1-0-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-rs-volkswagen-golf-vii-3-doors-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-53d35f090bd2080436",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-3-doors-2017.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-0-tsi-110-bg-110-4",
+      "name": "Volkswagen Golf 1.0 TSi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 200.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.0L TSI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": "vw-golf-7-1-0-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-rs-volkswagen-golf-vii-variant-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7abb70e80d436055a8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-variant-2017.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-2-tsi-105",
+      "name": "Volkswagen Golf 1.2 TSI",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": "Mk7",
+      "years": "2013-2016",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CJZA",
+        "engine_name": "1.2 TSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-volkswagen-golf-1-2-tsi",
+        "tech-ars-volkswagen-golf-vi-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e8e54c04aaed143154",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-2-tsi-105-bg-105",
+      "name": "Volkswagen Golf 1.2 TSi · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-volkswagen-golf-plus-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4149219e81e042912d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-2-tsi-105-bg-105-2",
+      "name": "Volkswagen Golf 1.2 TSi · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-golf-vi-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ab98f630ed15e63aad",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-2-tsi-105-bg-105-3",
+      "name": "Volkswagen Golf 1.2 TSi · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2009-2013",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-golf-vi-variant-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-91bbf5c2a7f443ecb2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-variant-2009.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-2-tsi-105-bg-105-4",
+      "name": "Volkswagen Golf 1.2 TSi · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2013-2017",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-m-cars-volkswagen-golf-variant-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-116bdec99016abde27",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-variant-2013.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-2-tsi-110-bg-110",
+      "name": "Volkswagen Golf 1.2 TSi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2012-2017",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-rs-volkswagen-golf-vii-3-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-639ae81e54ced3268e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-3-doors-2012.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-2-tsi-110-bg-110-2",
+      "name": "Volkswagen Golf 1.2 TSi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2012-2017",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-volkswagen-golf-1-2-tsi",
+        "tech-rs-volkswagen-golf-vii-5-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dde93e45f35c9575cb",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-4-tsi-125",
+      "name": "Volkswagen Golf 1.4 TSI",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": "Mk7",
+      "years": "2013-2017",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 200.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CHPA",
+        "engine_name": "1.4 TSI"
+      },
+      "scored_car_id": "vw-golf-7-1-2-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-volkswagen-golf-1-4-tsi",
+        "tech-rs-volkswagen-golf-vii-5-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4112c8ccdbab553da8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-4-tsi-122-bg-122",
+      "name": "Volkswagen Golf 1.4 TSi · 122 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 200.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": "vw-jetta-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-golf-vi-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-46af20a99c503ccf78",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-4-tsi-122-bg-122-2",
+      "name": "Volkswagen Golf 1.4 TSi · 122 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": "vw-jetta-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-volkswagen-golf-plus-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-56a476fae844a61c57",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-4-tsi-122-bg-122-3",
+      "name": "Volkswagen Golf 1.4 TSi · 122 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 200.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": "vw-jetta-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-volkswagen-golf-1-4-tsi",
+        "tech-ars-volkswagen-golf-vi-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7e1969d19cdd08217b",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-4-tsi-160-bg-160",
+      "name": "Volkswagen Golf 1.4 TSi · 160 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 240.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": "vw-golf-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-golf-vi-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6a3117bf56394a6d15",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-4-tsi-160-bg-160-2",
+      "name": "Volkswagen Golf 1.4 TSi · 160 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 240.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": "vw-golf-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-volkswagen-golf-plus-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6ec219006560cb1c8a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-4-tsi-160-bg-160-3",
+      "name": "Volkswagen Golf 1.4 TSi · 160 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 240.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": "vw-golf-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-volkswagen-golf-1-4-tsi",
+        "tech-ars-volkswagen-golf-vi-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-19c1d060e1d9abd37b",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-102",
+      "name": "Volkswagen Golf 1.6",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": "Mk4",
+      "years": "2000-2004",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "AKL/BFQ",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-volkswagen-golf-1-6",
+        "tech-ars-volkswagen-golf-iv-5-doors-1997-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9a247d1f42566d0cee",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-iv-5-doors-1997.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-fsi-115",
+      "name": "Volkswagen Golf 1.6 FSI",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": "Mk5",
+      "years": "2004-2008",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 155.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "BAG/BLF",
+        "engine_name": "1.6 FSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-volkswagen-golf-1-6-fsi",
+        "tech-ars-volkswagen-golf-iv-5-doors-1997-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f89a7443cd766ec7fb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-iv-5-doors-1997.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-fsi-130-bg-130",
+      "name": "Volkswagen Golf 1.6 FSi · 130 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2017-2017",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 200.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.5L TSI 7AT AWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-volkswagen-golf-sportsvan-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d0e72e3d62ca71db29",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-sportsvan-2017.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-fsi-130-bg-130-2",
+      "name": "Volkswagen Golf 1.6 FSi · 130 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 200.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.5L TSI 7AT AWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-m-cars-volkswagen-golf-variant-2020-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f8e1b781089181cfca",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-variant-2020.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-fsi-150-bg-150",
+      "name": "Volkswagen Golf 1.6 FSi · 150 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2017-2017",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 250.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.5L TSI 7AT AWD (150 HP)"
+      },
+      "scored_car_id": "vw-troc-1-5-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-volkswagen-golf-sportsvan-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a999d014c05587d59a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-sportsvan-2017.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-mpi-102",
+      "name": "Volkswagen Golf 1.6 MPI",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": "Mk6",
+      "years": "2009-2012",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "BSE",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-volkswagen-golf-1-6-mpi",
+        "tech-ars-volkswagen-golf-vi-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c577236db9f7217660",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-tdi-105-bg-105",
+      "name": "Volkswagen Golf 1.6 TDi · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2012-2017",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-rs-volkswagen-golf-vii-5-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a870dae4a2cad8ffab",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-tdi-105-bg-105-2",
+      "name": "Volkswagen Golf 1.6 TDi · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2013-2017",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-m-cars-volkswagen-golf-variant-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2c0cb98f94f44401bf",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-variant-2013.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-tdi-110-bg-110",
+      "name": "Volkswagen Golf 1.6 TDi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2012-2017",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-golf-7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-rs-volkswagen-golf-vii-3-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e431521bf23e01a94f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-3-doors-2012.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-tdi-110-bg-110-2",
+      "name": "Volkswagen Golf 1.6 TDi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2013-2017",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-golf-7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-m-cars-volkswagen-golf-variant-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3eb737bc9a1446bfdb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-variant-2013.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-tdi-110-bg-110-3",
+      "name": "Volkswagen Golf 1.6 TDi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2014-2017",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-golf-7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-volkswagen-golf-sportsvan-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-991d1e595748dd507f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-sportsvan-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-tdi-115-bg-115",
+      "name": "Volkswagen Golf 1.6 TDi · 115 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2017-2019",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-rs-volkswagen-golf-vii-5-doors-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e7731ce5ec4a8985da",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2017.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-102-bg-102",
+      "name": "Volkswagen Golf 1.6 · 102 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L 7AT FWD (102 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-volkswagen-golf-1-6",
+        "tech-ars-volkswagen-golf-vi-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fec3eb5a5e335565c8",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-102-bg-102-2",
+      "name": "Volkswagen Golf 1.6 · 102 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L 7AT FWD (102 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-volkswagen-golf-1-6",
+        "tech-ars-volkswagen-golf-vi-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f71f27774d28e36af5",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-105-bg-105",
+      "name": "Volkswagen Golf 1.6 · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-volkswagen-golf-1-6",
+        "tech-ars-volkswagen-golf-vi-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b37b02bb23ffe1995a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-105-bg-105-2",
+      "name": "Volkswagen Golf 1.6 · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-volkswagen-golf-1-6",
+        "tech--com-cars-volkswagen-golf-plus-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c2b60d12a71b4bf029",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-105-bg-105-3",
+      "name": "Volkswagen Golf 1.6 · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-volkswagen-golf-1-6",
+        "tech--com-cars-volkswagen-golf-plus-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e81a902ce53dbbb219",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-6-105-bg-105-4",
+      "name": "Volkswagen Golf 1.6 · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2009-2013",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-volkswagen-golf-1-6",
+        "tech-ars-volkswagen-golf-vi-variant-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-99789a54ffb3f20bff",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-variant-2009.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-9-tdi-105-bg-105",
+      "name": "Volkswagen Golf 1.9 TDi · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2005-2008",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 250.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TDI 5AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-volkswagen-golf-plus-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0d60557ba5f3bf4a69",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-9-tdi-110-bg-110",
+      "name": "Volkswagen Golf 1.9 TDi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 250.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-golf-vi-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3d8f22822131314353",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-9-tdi-110-bg-110-2",
+      "name": "Volkswagen Golf 1.9 TDi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 250.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-volkswagen-golf-plus-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-295cede9d07f943fd4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-9-tdi-140-bg-140",
+      "name": "Volkswagen Golf 1.9 TDi · 140 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2005-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-volkswagen-golf-plus-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d3095991535cd364c7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-9-tdi-140-bg-140-2",
+      "name": "Volkswagen Golf 1.9 TDi · 140 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-golf-vi-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8598619f5d0a02dddc",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-1-9-tdi-140-bg-140-3",
+      "name": "Volkswagen Golf 1.9 TDi · 140 bg",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-volkswagen-golf-plus-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7f05984b238e74f9ad",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-golf-2-0-tdi-140",
+      "name": "Volkswagen Golf 2.0 TDI",
+      "brand": "Volkswagen",
+      "model_family": "Golf",
+      "generation": "Mk5",
+      "years": "2004-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "BKD",
+        "engine_name": "2.0 TDI PD"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-volkswagen-golf-2-0-tdi",
+        "tech--com-cars-volkswagen-golf-plus-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-829b15b196a3959b87",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-jetta-1-4-tsi-150-bg-150",
+      "name": "Volkswagen Jetta 1.4 TSi · 150 bg",
+      "brand": "Volkswagen",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 250.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BlueMotion 7AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "vw-passat-b8-1-4-tsi",
+        "vw-tiguan-1-4-tsi-dsg"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-volkswagen-jetta-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-74190bd62d9b99d734",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-jetta-1-4-tsi-160-bg-160",
+      "name": "Volkswagen Jetta 1.4 TSi · 160 bg",
+      "brand": "Volkswagen",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2010-2014",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 240.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": "vw-golf-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-volkswagen-jetta-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c4a802753664d79a47",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-jetta-1-6-105-bg-105",
+      "name": "Volkswagen Jetta 1.6 · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2010-2014",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-23b9db1c232d601012",
+        "tech-tion-com-cars-volkswagen-jetta-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6700b88eab6b7272ef",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-jetta-1-6-105-bg-105-2",
+      "name": "Volkswagen Jetta 1.6 · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2010-2014",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-23b9db1c232d601012",
+        "tech-tion-com-cars-volkswagen-jetta-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e47370d90534bbb773",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-jetta-1-9-tdi-110-bg-110",
+      "name": "Volkswagen Jetta 1.9 TDi · 110 bg",
+      "brand": "Volkswagen",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 250.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-volkswagen-jetta-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c8adeac193fa9d15c9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-jetta-1-9-tdi-140-bg-140",
+      "name": "Volkswagen Jetta 1.9 TDi · 140 bg",
+      "brand": "Volkswagen",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2007-2014",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olf-v-variant-jetta-sportwagon-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-29c22a62c7978b7b73",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-v-variant-jetta-sportwagon-2007.html"
+      }
+    },
+    {
+      "id": "volkswagen-jetta-1-9-tdi-140-bg-140-2",
+      "name": "Volkswagen Jetta 1.9 TDi · 140 bg",
+      "brand": "Volkswagen",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2010-2014",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-volkswagen-jetta-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-68ac2802c7d15bf646",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-jetta-1-9-tdi-150-bg-150",
+      "name": "Volkswagen Jetta 1.9 TDi · 150 bg",
+      "brand": "Volkswagen",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-passat-b8-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-volkswagen-jetta-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-319d184f6fff8738cd",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-jetta-2-0-115-bg-115",
+      "name": "Volkswagen Jetta 2.0 · 115 bg",
+      "brand": "Volkswagen",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2010-2014",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 169.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TSI 6AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-a67ca98c3af049188b",
+        "tech-tion-com-cars-volkswagen-jetta-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6eaba7b966e2bc1318",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-jetta-2-0-200-bg-200",
+      "name": "Volkswagen Jetta 2.0 · 200 bg",
+      "brand": "Volkswagen",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2010-2014",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 279.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TSI 6AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-a67ca98c3af049188b",
+        "tech-tion-com-cars-volkswagen-jetta-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-06d2d9067bcb9443f6",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-jetta-2-0-210-bg-210",
+      "name": "Volkswagen Jetta 2.0 · 210 bg",
+      "brand": "Volkswagen",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2018-2020",
+      "specs": {
+        "hp": 210,
+        "torque_nm": 281.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TSI 6AT FWD (210 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-757f20a3f7cf88a60c",
+        "src-a67ca98c3af049188b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5af50ab75294ba09c3",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2018.html"
+      }
+    },
+    {
+      "id": "volkswagen-new-beetle-1-6-102",
+      "name": "Volkswagen New Beetle 1.6",
+      "brand": "Volkswagen",
+      "model_family": "New Beetle",
+      "generation": "9C",
+      "years": "2000-2010",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "BFS",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-volkswagen-new-beetle-1-6",
+        "tech-ion-com-cars-volkswagen-beetle-1998-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8a2e13eee88e7e58f9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-beetle-1998.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-4-tsi-bluemotion-150-bg-150",
+      "name": "Volkswagen Passat 1.4 TSi BlueMotion · 150 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 250.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.5L TSI 7AT AWD (150 HP)"
+      },
+      "scored_car_id": "vw-troc-1-5-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-passat-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-38b7c8f594496bcf5b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2019.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-4-tsi-bluemotion-150-bg-150-2",
+      "name": "Volkswagen Passat 1.4 TSi BlueMotion · 150 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 250.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.5L TSI 7AT AWD (150 HP)"
+      },
+      "scored_car_id": "vw-troc-1-5-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-volkswagen-passat-variant-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f7d2724a91b0f8c92b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2019.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-4-tsi-122-bg-122",
+      "name": "Volkswagen Passat 1.4 TSi · 122 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 200.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": "vw-jetta-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-passat-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6b8f76869a4635734b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-4-tsi-122-bg-122-2",
+      "name": "Volkswagen Passat 1.4 TSi · 122 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 200.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": "vw-jetta-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-d500dcdc60ddbde880",
+        "tech-ion-com-cars-volkswagen-passat-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-da5e5626595788ef0c",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-4-tsi-125-bg-125",
+      "name": "Volkswagen Passat 1.4 TSi · 125 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L TSI BlueMotion 7AT FWD (150 HP)"
+      },
+      "scored_car_id": "vw-golf-7-1-2-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "src-d500dcdc60ddbde880",
+        "tech-cars-volkswagen-passat-variant-2014-html",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a41cc648d1bd9ac898",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-4-tsi-150-bg-150",
+      "name": "Volkswagen Passat 1.4 TSi · 150 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 220.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "vw-passat-b8-1-4-tsi",
+        "vw-tiguan-1-4-tsi-dsg"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-passat-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9dbf757d82f61f696e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-4-tsi-150-bg-150-2",
+      "name": "Volkswagen Passat 1.4 TSi · 150 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L TSI BlueMotion 7AT FWD (150 HP)"
+      },
+      "scored_car_id": "vw-passat-b8-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-833390a9170f1e085f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-6-fsi-115-bg-115",
+      "name": "Volkswagen Passat 1.6 FSi · 115 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 155.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6 MPI 6AT (105 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-passat-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c0f0c971e54b256964",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-6-tdi-120-bg-120",
+      "name": "Volkswagen Passat 1.6 TDi · 120 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b8-1-6-tdi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-volkswagen-passat-variant-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-48eaec5a72524895cf",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-6-tdi-120-bg-120-2",
+      "name": "Volkswagen Passat 1.6 TDi · 120 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b8-1-6-tdi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-passat-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2598af497559f9d452",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2019.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-6-tdi-120-bg-120-3",
+      "name": "Volkswagen Passat 1.6 TDi · 120 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 400.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI BlueMotion 7AT FWD (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b8-1-6-tdi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-volkswagen-passat-variant-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9b21cd287b7258771a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2019.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-8-t-130-bg-130",
+      "name": "Volkswagen Passat 1.8 T · 130 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 310.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TDI 5AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-7213cda0345ad52cf4",
+        "tech-cars-volkswagen-passat-variant-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-637c9fd2393510ff4a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2000.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-8-150-bg-150",
+      "name": "Volkswagen Passat 1.8 · 150 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 210.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L Turbo 5AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-39851b84dcd85269a4",
+        "tech-ion-com-cars-volkswagen-passat-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4b2f7af4d1d347e91a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2000.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-8-150-bg-150-2",
+      "name": "Volkswagen Passat 1.8 · 150 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 210.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L Turbo 5AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-39851b84dcd85269a4",
+        "tech-cars-volkswagen-passat-variant-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b8cae145811f775b61",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2000.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-8-160-bg-160",
+      "name": "Volkswagen Passat 1.8 · 160 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 250.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.8L TSI BlueMotion 7AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "vw-cc-1-8-tsi-tfsi",
+        "vw-passat-b6-1-8-tsi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-39851b84dcd85269a4",
+        "tech-ion-com-cars-volkswagen-passat-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d5cbe59659efe4e7ff",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-8-160-bg-160-2",
+      "name": "Volkswagen Passat 1.8 · 160 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2009-2011",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 249.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.8L TSI BlueMotion 7AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "vw-cc-1-8-tsi-tfsi",
+        "vw-passat-b6-1-8-tsi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-39851b84dcd85269a4",
+        "tech--com-cars-volkswagen-passat-cc-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cb7c890f80d59e5782",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-cc-2009.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-8-180-bg-180",
+      "name": "Volkswagen Passat 1.8 · 180 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 250.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L TSI BlueMotion 7AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-39851b84dcd85269a4",
+        "tech-ion-com-cars-volkswagen-passat-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e66b0467fb880ab420",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-8-180-bg-180-2",
+      "name": "Volkswagen Passat 1.8 · 180 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 249.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L TSI BlueMotion 7AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-39851b84dcd85269a4",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-010743be1fe62df82c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-8t-150",
+      "name": "Volkswagen Passat 1.8T",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": "B5.5",
+      "years": "2001-2005",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 210.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "AWT",
+        "engine_name": "1.8 Turbo"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-volkswagen-passat-1-8t",
+        "tech-ion-com-cars-volkswagen-passat-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b7716ccdd2c5f192f7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2000.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-9-tdi-130",
+      "name": "Volkswagen Passat 1.9 TDI",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": "B5.5",
+      "years": "2001-2005",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 310.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "AVF",
+        "engine_name": "1.9 TDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-volkswagen-passat-1-9-tdi",
+        "tech-cars-volkswagen-passat-variant-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2e17d460bd20e03989",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2000.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-9-tdi-140-bg-140",
+      "name": "Volkswagen Passat 1.9 TDi · 140 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-passat-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0fb1929082bd050177",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-9-tdi-140-bg-140-2",
+      "name": "Volkswagen Passat 1.9 TDi · 140 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2009-2011",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-volkswagen-passat-cc-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6c33a271fc3dfea970",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-cc-2009.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-9-tdi-140-bg-140-3",
+      "name": "Volkswagen Passat 1.9 TDi · 140 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2010-2014",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-passat-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ef90404c629325d0d2",
+        "publication_status": "held_conflict",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-9-tdi-170-bg-170",
+      "name": "Volkswagen Passat 1.9 TDi · 170 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-cc-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-passat-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c53fa13708233c7979",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-9-tdi-170-bg-170-2",
+      "name": "Volkswagen Passat 1.9 TDi · 170 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2009-2011",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-cc-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-volkswagen-passat-cc-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3cec5f4109ea50d4e8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-cc-2009.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-1-9-tdi-170-bg-170-3",
+      "name": "Volkswagen Passat 1.9 TDi · 170 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2012-2015",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-cc-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-passat-alltrack-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d9bde04fce33241e3f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2012.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-fsi-211-bg-211",
+      "name": "Volkswagen Passat 2.0 FSi · 211 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2009-2011",
+      "specs": {
+        "hp": 211,
+        "torque_nm": 281.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TSI 6AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-volkswagen-passat-cc-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-624b04345370e6ba11",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-cc-2009.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-fsi-211-bg-211-2",
+      "name": "Volkswagen Passat 2.0 FSi · 211 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2012-2015",
+      "specs": {
+        "hp": 211,
+        "torque_nm": 281.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TSI 6AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-passat-alltrack-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d5bd9abdb59810ace0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2012.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-fsi-220-bg-220",
+      "name": "Volkswagen Passat 2.0 FSi · 220 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 220,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TSI 6AT FWD (200 HP)"
+      },
+      "scored_car_id": "vw-golf-7-gti-2-0-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "src-d0218482b2bcfb7bb1",
+        "tech-cars-volkswagen-passat-variant-2014-html",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-99941536265f5f48b9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-fsi-220-bg-220-2",
+      "name": "Volkswagen Passat 2.0 FSi · 220 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2015-2019",
+      "specs": {
+        "hp": 220,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TSI 6AT FWD (200 HP)"
+      },
+      "scored_car_id": "vw-golf-7-gti-2-0-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-passat-alltrack-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5010cbebe4f729fb1f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2015.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-fsi-272-bg-272",
+      "name": "Volkswagen Passat 2.0 FSi · 272 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 272,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TSI 6AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-passat-alltrack-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a50ccabd9380c3ab33",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2019.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-tdi-bluemotion-190-bg-190",
+      "name": "Volkswagen Passat 2.0 TDi BlueMotion · 190 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "src-1f574ac3fa02c3acd3",
+        "tech-cars-volkswagen-passat-variant-2014-html",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-68bb96ce0216ee9f78",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-tdi-bluemotion-190-bg-190-2",
+      "name": "Volkswagen Passat 2.0 TDi BlueMotion · 190 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2015-2019",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-passat-alltrack-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-be601d6c15c81fcc00",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2015.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-tdi-bluemotion-190-bg-190-3",
+      "name": "Volkswagen Passat 2.0 TDi BlueMotion · 190 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-passat-alltrack-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0207d68139be47093e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2019.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-tdi-bluemotion-240-bg-240",
+      "name": "Volkswagen Passat 2.0 TDi BlueMotion · 240 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 500.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-volkswagen-passat-variant-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ba863e1708c24e9bb2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-tdi-bluemotion-240-bg-240-2",
+      "name": "Volkswagen Passat 2.0 TDi BlueMotion · 240 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2015-2019",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 500.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ars-volkswagen-passat-alltrack-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-56c3e8ad3fc4d9ea74",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2015.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-tdi-150-bg-150",
+      "name": "Volkswagen Passat 2.0 TDi · 150 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": "vw-passat-b8-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "src-acaecd31df4abfd45a",
+        "tech-cars-volkswagen-passat-variant-2014-html",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-05404c116b4c4b051f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-tdi-190-bg-190",
+      "name": "Volkswagen Passat 2.0 TDi · 190 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "src-acaecd31df4abfd45a",
+        "tech-cars-volkswagen-passat-variant-2014-html",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5e91f8f3655238b4bf",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-2-0-tdi-240-bg-240",
+      "name": "Volkswagen Passat 2.0 TDi · 240 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 500.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI SCR 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "src-acaecd31df4abfd45a",
+        "tech-cars-volkswagen-passat-variant-2014-html",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f06473840b55952e70",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-cc-2-0-tdi-170-170",
+      "name": "Volkswagen Passat CC 2.0 TDI 170",
+      "brand": "Volkswagen",
+      "model_family": "Passat CC",
+      "generation": null,
+      "years": "2009-2011",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea189",
+        "engine_name": "EA189"
+      },
+      "scored_car_id": "vw-cc-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-volkswagen-vw-cc-2-0-tdi",
+        "tech--engine-versions-passat-b6-profile-19551"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5cb8d07152081a29fa",
+        "publication_status": "scored",
+        "technical_url": "https://www.volkswagen-newsroom.com/en/engine-versions-passat-b6-profile-19551"
+      }
+    },
+    {
+      "id": "volkswagen-passat-variant-2-0-tdi-bluemotion-190-bg-190",
+      "name": "Volkswagen Passat Variant 2.0 TDI Bluemotion · 190 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat Variant",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-volkswagen-passat-variant-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e2c470d9b9b7560086",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2019.html"
+      }
+    },
+    {
+      "id": "volkswagen-passat-variant-2-0-tdi-bluemotion-240-bg-240",
+      "name": "Volkswagen Passat Variant 2.0 TDI Bluemotion · 240 bg",
+      "brand": "Volkswagen",
+      "model_family": "Passat Variant",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 500.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI 4MOTION 7AT AWD (240 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-volkswagen-passat-variant-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b47d99ada3793ae88f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2019.html"
+      }
+    },
+    {
+      "id": "volkswagen-phaeton-3-0-v6-tdi-6at-224",
+      "name": "Volkswagen Phaeton 3.0 V6 TDI 6AT",
+      "brand": "Volkswagen",
+      "model_family": "Phaeton",
+      "generation": "3D",
+      "years": "2002-2010",
+      "specs": {
+        "hp": 224,
+        "torque_nm": 450.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "BMK",
+        "engine_name": "3.0L V6 TDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-il-volkswagen-phaeton-3-0-v6-tdi-6at",
+        "tech-on-com-cars-volkswagen-phaeton-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e52d058ef1a572dd45",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-phaeton-2002.html"
+      }
+    },
+    {
+      "id": "volkswagen-polo-1-4-tsi-140-bg-140",
+      "name": "Volkswagen Polo 1.4 TSi · 140 bg",
+      "brand": "Volkswagen",
+      "model_family": "Polo",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BlueMotion 7AT FWD (150 HP)"
+      },
+      "scored_car_id": "vw-touran-1-4-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-om-cars-volkswagen-polo-bluegt-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-467bbf63aa89a9e51f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-polo-bluegt-2013.html"
+      }
+    },
+    {
+      "id": "volkswagen-polo-1-4-tsi-180-bg-180",
+      "name": "Volkswagen Polo 1.4 TSi · 180 bg",
+      "brand": "Volkswagen",
+      "model_family": "Polo",
+      "generation": null,
+      "years": "2010-2014",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-volkswagen-polo-gti-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-12e2eef2f21b22a2df",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-polo-gti-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-polo-1-6-105-bg-105",
+      "name": "Volkswagen Polo 1.6 · 105 bg",
+      "brand": "Volkswagen",
+      "model_family": "Polo",
+      "generation": null,
+      "years": "2010-2010",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 153.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6 MPI 6AT (105 HP)"
+      },
+      "scored_car_id": "vw-passat-b7-1-6-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-89c558803fb5c9905e",
+        "src-d23bb246529c2d70c0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e7e344d16b205d4ba5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-polo-sedan-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-scirocco-1-4-tsi-160",
+      "name": "Volkswagen Scirocco 1.4 TSI",
+      "brand": "Volkswagen",
+      "model_family": "Scirocco",
+      "generation": "Mk3",
+      "years": "2009-2014",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 240.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CAVD",
+        "engine_name": "1.4 TSI Twincharger"
+      },
+      "scored_car_id": "vw-golf-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-volkswagen-scirocco-1-4-tsi",
+        "tech-n-com-cars-volkswagen-scirocco-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1ba470a8845c10d051",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-scirocco-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-scirocco-1-4-tsi-160-bg-160",
+      "name": "Volkswagen Scirocco 1.4 TSi · 160 bg",
+      "brand": "Volkswagen",
+      "model_family": "Scirocco",
+      "generation": null,
+      "years": "2008-2014",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 240.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": "vw-golf-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-volkswagen-scirocco-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f04f918cc34ad28690",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-scirocco-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-scirocco-2-0-tsi-210",
+      "name": "Volkswagen Scirocco 2.0 TSI",
+      "brand": "Volkswagen",
+      "model_family": "Scirocco",
+      "generation": "Mk3",
+      "years": "2009-2014",
+      "specs": {
+        "hp": 210,
+        "torque_nm": 280.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CCZB",
+        "engine_name": "2.0 TSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-volkswagen-scirocco-2-0-tsi",
+        "tech-n-com-cars-volkswagen-scirocco-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7fef3fae6af171cb6b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-scirocco-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-sharan-2-0-tdi-140",
+      "name": "Volkswagen Sharan 2.0 TDI",
+      "brand": "Volkswagen",
+      "model_family": "Sharan",
+      "generation": "7N",
+      "years": "2010-2018",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CFFB",
+        "engine_name": "2.0L TDI 4MOTION"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-volkswagen-sharan-2-0-tdi",
+        "tech-ion-com-cars-volkswagen-sharan-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-95af72a9d9b8c7cb59",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-sharan-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-tiguan-2-0-tdi-140",
+      "name": "Volkswagen Tiguan 2.0 TDI",
+      "brand": "Volkswagen",
+      "model_family": "Tiguan",
+      "generation": "5N",
+      "years": "2008-2015",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "DSG 7DCT",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "CFFB",
+        "engine_name": "2.0L TDI 4MOTION"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-volkswagen-tiguan-2-0-tdi",
+        "tech-ion-com-cars-volkswagen-tiguan-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ef7413d76d13e7c8fa",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-tiguan-2011.html"
+      }
+    },
+    {
+      "id": "volkswagen-tiguan-2-0-tdi-4motion-dsg-140",
+      "name": "Volkswagen Tiguan 2.0 TDI 4Motion DSG",
+      "brand": "Volkswagen",
+      "model_family": "Tiguan",
+      "generation": "5N",
+      "years": "2011-2016",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "DSG 7DCT",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "CFFB",
+        "engine_name": "2.0L TDI 4MOTION"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-olkswagen-tiguan-2-0-tdi-4motion-dsg",
+        "tech-ion-com-cars-volkswagen-tiguan-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-834e1fb112a0c8e336",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-tiguan-2011.html"
+      }
+    },
+    {
+      "id": "volkswagen-touareg-3-0-tdi-225",
+      "name": "Volkswagen Touareg 3.0 TDI",
+      "brand": "Volkswagen",
+      "model_family": "Touareg",
+      "generation": "7L",
+      "years": "2005-2010",
+      "specs": {
+        "hp": 225,
+        "torque_nm": 500.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "BKS",
+        "engine_name": "3.0 V6 TDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-volkswagen-touareg-3-0-tdi",
+        "tech-on-com-cars-volkswagen-touareg-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8d06ba00853533f2b4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-touareg-2002.html"
+      }
+    },
+    {
+      "id": "volkswagen-touran-1-4-tsi-150-bg-150",
+      "name": "Volkswagen Touran 1.4 TSi · 150 bg",
+      "brand": "Volkswagen",
+      "model_family": "Touran",
+      "generation": null,
+      "years": "2015-2015",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BlueMotion 7AT FWD (150 HP)"
+      },
+      "scored_car_id": "vw-passat-b8-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-touran-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-86ed591040b2148910",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-touran-2015.html"
+      }
+    },
+    {
+      "id": "volkswagen-touran-1-4-tsi-170-bg-170",
+      "name": "Volkswagen Touran 1.4 TSi · 170 bg",
+      "brand": "Volkswagen",
+      "model_family": "Touran",
+      "generation": null,
+      "years": "2006-2010",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 240.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-touran-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2dbeaba449e5ee0742",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-touran-2006.html"
+      }
+    },
+    {
+      "id": "volkswagen-touran-1-4-tsi-170-bg-170-2",
+      "name": "Volkswagen Touran 1.4 TSi · 170 bg",
+      "brand": "Volkswagen",
+      "model_family": "Touran",
+      "generation": null,
+      "years": "2010-2015",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 240.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-volkswagen-touran-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c8cba57902424b6121",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-touran-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-touran-2-0-tdi-140",
+      "name": "Volkswagen Touran 2.0 TDI",
+      "brand": "Volkswagen",
+      "model_family": "Touran",
+      "generation": "1T",
+      "years": "2004-2010",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "BKD",
+        "engine_name": "2.0 TDI PD"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-volkswagen-touran-2-0-tdi",
+        "tech-om-cars-volkswagen-crosstouran-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-83b27b56cf455bfaaa",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-crosstouran-2007.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-cc-1-8-tsi-tfsi-160",
+      "name": "Volkswagen VW CC 1.8 TSI/TFSI",
+      "brand": "Volkswagen",
+      "model_family": "VW CC",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 249.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea888",
+        "engine_name": "EA888"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "vw-cc-1-8-tsi-tfsi",
+        "vw-passat-b6-1-8-tsi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-omobil-volkswagen-vw-cc-1-8-tsi-tfsi",
+        "tech-olution-com-cars-volkswagen-cc-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e02bef32368c7f7f89",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-cc-2012.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-golf-1-4-tsi-160",
+      "name": "Volkswagen VW Golf 1.4 TSI",
+      "brand": "Volkswagen",
+      "model_family": "VW Golf",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 240.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea111-tsi-tc",
+        "engine_name": "EA111 TSI twincharger"
+      },
+      "scored_car_id": "vw-golf-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-volkswagen-vw-golf-1-4-tsi",
+        "tech-ars-volkswagen-golf-vi-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-36a30840c8da84ef12",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-golf-7-1-6-tdi-110",
+      "name": "Volkswagen VW Golf 7 1.6 TDI",
+      "brand": "Volkswagen",
+      "model_family": "VW Golf 7",
+      "generation": null,
+      "years": "2013-2019",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 249.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea288",
+        "engine_name": "EA288"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-tomobil-volkswagen-vw-golf-7-1-6-tdi",
+        "tech-rs-volkswagen-golf-vii-3-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e0e9b0453fa7be661e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-3-doors-2012.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-golf-7-gti-2-0-tsi-220",
+      "name": "Volkswagen VW Golf 7 GTI 2.0 TSI",
+      "brand": "Volkswagen",
+      "model_family": "VW Golf 7 GTI",
+      "generation": null,
+      "years": "2013-2017",
+      "specs": {
+        "hp": 220,
+        "torque_nm": 350.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea888",
+        "engine_name": "EA888"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-volkswagen-vw-golf-7-gti-2-0-tsi",
+        "tech-rs-volkswagen-golf-gti-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ded351e82cca6bfa8e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-gti-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-golf-vii-1-0-tsi-dsg-facelift-110",
+      "name": "Volkswagen VW Golf VII 1.0 TSI DSG (Facelift)",
+      "brand": "Volkswagen",
+      "model_family": "VW Golf VII",
+      "generation": null,
+      "years": "2017-2019",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 200.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea211",
+        "engine_name": "EA211"
+      },
+      "scored_car_id": "vw-golf-7-1-0-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-volkswagen-vw-golf-vii-1-0-tsi-dsg",
+        "tech-rs-volkswagen-golf-vii-5-doors-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-850abe2c5ec59b59ad",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2017.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-jetta-1-4-tsi-122",
+      "name": "Volkswagen VW Jetta 1.4 TSI",
+      "brand": "Volkswagen",
+      "model_family": "VW Jetta",
+      "generation": null,
+      "years": "2011-2016",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 200.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea111-tsi-turbo",
+        "engine_name": "EA111 TSI"
+      },
+      "scored_car_id": "vw-jetta-1-4-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-volkswagen-vw-jetta-1-4-tsi",
+        "tech-tion-com-cars-volkswagen-jetta-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0618fe2246e4615826",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-passat-b6-1-8-tsi-160",
+      "name": "Volkswagen VW Passat B6 1.8 TSI",
+      "brand": "Volkswagen",
+      "model_family": "VW Passat B6",
+      "generation": "B6",
+      "years": "2006-2010",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 249.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea888",
+        "engine_name": "EA888"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "vw-cc-1-8-tsi-tfsi",
+        "vw-passat-b6-1-8-tsi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-volkswagen-vw-passat-b6-1-8-tsi",
+        "tech-ion-com-cars-volkswagen-passat-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ed61185b60664a61ef",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-passat-b7-1-6-tdi-105",
+      "name": "Volkswagen VW Passat B7 1.6 TDI",
+      "brand": "Volkswagen",
+      "model_family": "VW Passat B7",
+      "generation": "B7",
+      "years": "2011-2014",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 250.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea189",
+        "engine_name": "EA189"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-volkswagen-vw-passat-b7-1-6-tdi",
+        "tech-ion-com-cars-volkswagen-passat-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b032e451ac9f5d1883",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2010.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-passat-b7-1-8-tsi-152",
+      "name": "Volkswagen VW Passat B7 1.8 TSI",
+      "brand": "Volkswagen",
+      "model_family": "VW Passat B7",
+      "generation": "B7",
+      "years": "2011-2015",
+      "specs": {
+        "hp": 152,
+        "torque_nm": 250.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea888",
+        "engine_name": "EA888"
+      },
+      "scored_car_id": "vw-passat-b7-1-8-tsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-volkswagen-vw-passat-b7-1-8-tsi",
+        "tech--engine-versions-passat-b7-profile-20038"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-384a286a64bbd73b95",
+        "publication_status": "scored",
+        "technical_url": "https://www.volkswagen-newsroom.com/en/engine-versions-passat-b7-profile-20038"
+      }
+    },
+    {
+      "id": "volkswagen-vw-passat-b7-2-0-tdi-140",
+      "name": "Volkswagen VW Passat B7 2.0 TDI",
+      "brand": "Volkswagen",
+      "model_family": "VW Passat B7",
+      "generation": "B7",
+      "years": "2011-2015",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea189",
+        "engine_name": "EA189"
+      },
+      "scored_car_id": "vw-passat-b7-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-volkswagen-vw-passat-b7-2-0-tdi",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bb7af7bf9fc8f90135",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-passat-b8-1-4-tsi-150",
+      "name": "Volkswagen VW Passat B8 1.4 TSI",
+      "brand": "Volkswagen",
+      "model_family": "VW Passat B8",
+      "generation": "B8",
+      "years": "2014-2019",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 249.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea211",
+        "engine_name": "EA211"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-volkswagen-vw-passat-b8-1-4-tsi",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5f5c86ea193e1569fb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-passat-b8-1-6-tdi-dsg-120",
+      "name": "Volkswagen VW Passat B8 1.6 TDI DSG",
+      "brand": "Volkswagen",
+      "model_family": "VW Passat B8",
+      "generation": "B8",
+      "years": "2015-2019",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 250.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea288",
+        "engine_name": "EA288"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--volkswagen-vw-passat-b8-1-6-tdi-dsg",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5f3f9bf762f3cf7a58",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-passat-b8-2-0-tdi-150",
+      "name": "Volkswagen VW Passat B8 2.0 TDI",
+      "brand": "Volkswagen",
+      "model_family": "VW Passat B8",
+      "generation": "B8",
+      "years": "2014-2019",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea288",
+        "engine_name": "EA288"
+      },
+      "scored_car_id": "vw-passat-b8-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-volkswagen-vw-passat-b8-2-0-tdi",
+        "tech-ion-com-cars-volkswagen-passat-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-af15396d7d3e69fa9f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-polo-gti-1-8-tsi-dsg-192",
+      "name": "Volkswagen VW Polo GTI 1.8 TSI DSG",
+      "brand": "Volkswagen",
+      "model_family": "VW Polo GTI",
+      "generation": null,
+      "years": "2014-2017",
+      "specs": {
+        "hp": 192,
+        "torque_nm": 250.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea888",
+        "engine_name": "EA888"
+      },
+      "scored_car_id": "vw-polo-gti-1-8-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-volkswagen-vw-polo-gti-1-8-tsi-dsg",
+        "tech-s-volkswagen-polo-gti-facelift-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cc5efb51f78c96430d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-polo-gti-facelift-2014.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-t-cross-1-0-tsi-dsg-115",
+      "name": "Volkswagen VW T-Cross 1.0 TSI DSG",
+      "brand": "Volkswagen",
+      "model_family": "VW T-Cross",
+      "generation": null,
+      "years": "2019-2020",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 200.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea211",
+        "engine_name": "EA211"
+      },
+      "scored_car_id": "vw-t-cross-1-0-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-il-volkswagen-vw-t-cross-1-0-tsi-dsg",
+        "tech-on-com-cars-volkswagen-t-cross-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6f33d2bd3b81baf8e5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-t-cross-2018.html"
+      }
+    },
+    {
+      "id": "volkswagen-vw-touran-1-4-tsi-dsg-140",
+      "name": "Volkswagen VW Touran 1.4 TSI DSG",
+      "brand": "Volkswagen",
+      "model_family": "VW Touran",
+      "generation": null,
+      "years": "2010-2015",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 220.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea111-tsi-tc",
+        "engine_name": "EA111 TSI twincharger"
+      },
+      "scored_car_id": "vw-touran-1-4-tsi-dsg",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-volkswagen-vw-touran-1-4-tsi-dsg",
+        "tech-ion-com-cars-volkswagen-touran-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d2fb4c8f7b90c6d619",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/volkswagen-touran-2010.html"
+      }
+    }
+  ]
+}

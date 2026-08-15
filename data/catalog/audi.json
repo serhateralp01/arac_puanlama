@@ -1,0 +1,3123 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Audi",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "audi-a1-1-4-tfsi-s-tronic-122",
+      "name": "Audi A1 1.4 TFSI S tronic",
+      "brand": "Audi",
+      "model_family": "A1",
+      "generation": "8X",
+      "years": "2010-2014",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CAXA",
+        "engine_name": "1.4L TFSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-audi-a1-1-4-tfsi-s-tronic",
+        "tech-autoevolution-com-cars-audi-a1-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dcf92ee636099933c8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html"
+      }
+    },
+    {
+      "id": "audi-a1-1-4-tfsi-122-bg-122",
+      "name": "Audi A1 1.4 TFSI · 122 bg",
+      "brand": "Audi",
+      "model_family": "A1",
+      "generation": null,
+      "years": "2010-2018",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-autoevolution-com-cars-audi-a1-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dffe832f50fe12f278",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html"
+      }
+    },
+    {
+      "id": "audi-a1-1-4-tfsi-122-bg-122-2",
+      "name": "Audi A1 1.4 TFSI · 122 bg",
+      "brand": "Audi",
+      "model_family": "A1",
+      "generation": null,
+      "years": "2010-2018",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-autoevolution-com-cars-audi-a1-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-14a9949c0c7cc54271",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html"
+      }
+    },
+    {
+      "id": "audi-a1-1-4-tfsi-122-bg-122-3",
+      "name": "Audi A1 1.4 TFSI · 122 bg",
+      "brand": "Audi",
+      "model_family": "A1",
+      "generation": null,
+      "years": "2012-2015",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-audi-a1-sportback-5-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dd871a3cf65da10051",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-sportback-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a1-1-4-tfsi-140-bg-140",
+      "name": "Audi A1 1.4 TFSI · 140 bg",
+      "brand": "Audi",
+      "model_family": "A1",
+      "generation": null,
+      "years": "2010-2018",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT (125 HP)"
+      },
+      "scored_car_id": "audi-a3-8v-1-4-tsi-stronic",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-autoevolution-com-cars-audi-a1-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c5c0f75eb4ca648466",
+        "publication_status": "held_conflict",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html"
+      }
+    },
+    {
+      "id": "audi-a1-1-4-tfsi-185-bg-185",
+      "name": "Audi A1 1.4 TFSI · 185 bg",
+      "brand": "Audi",
+      "model_family": "A1",
+      "generation": null,
+      "years": "2010-2018",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-autoevolution-com-cars-audi-a1-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c3f3b53b87e51d0505",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html"
+      }
+    },
+    {
+      "id": "audi-a1-1-4-tfsi-185-bg-185-2",
+      "name": "Audi A1 1.4 TFSI · 185 bg",
+      "brand": "Audi",
+      "model_family": "A1",
+      "generation": null,
+      "years": "2012-2015",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-audi-a1-sportback-5-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-06e1c7d732c66bdf4f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-sportback-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a1-1-6-tdi-116-bg-116",
+      "name": "Audi A1 1.6 TDI · 116 bg",
+      "brand": "Audi",
+      "model_family": "A1",
+      "generation": null,
+      "years": "2015-2015",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-audi-a1-sportback-5-doors-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c8a2029775651d972c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-sportback-5-doors-2015.html"
+      }
+    },
+    {
+      "id": "audi-a3-8v-1-4-tfsi-s-tronic-140",
+      "name": "Audi A3 (8V) 1.4 TFSI S tronic",
+      "brand": "Audi",
+      "model_family": "A3",
+      "generation": "8V",
+      "years": "2013-2016",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 249.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea211",
+        "engine_name": "EA211"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-audi-a3-1-4-tfsi-s-tronic",
+        "tech-olution-com-cars-audi-a3-sedan-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cf7216bc6cb2a279c7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html"
+      }
+    },
+    {
+      "id": "audi-a3-1-4-tfsi-125",
+      "name": "Audi A3 1.4 TFSI",
+      "brand": "Audi",
+      "model_family": "A3",
+      "generation": "8P",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 200.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CAXC",
+        "engine_name": "1.4 TFSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-audi-a3-1-4-tfsi",
+        "tech-ion-com-cars-audi-a3-sportback-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6fd850df00822b48b8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+      }
+    },
+    {
+      "id": "audi-a3-1-6-mpi-102",
+      "name": "Audi A3 1.6 MPI",
+      "brand": "Audi",
+      "model_family": "A3",
+      "generation": "8P",
+      "years": "2003-2010",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "BSE",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-audi-a3-1-6-mpi",
+        "tech-ion-com-cars-audi-a3-sportback-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4eb426508d7128179d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+      }
+    },
+    {
+      "id": "audi-a3-1-6-tdi-110",
+      "name": "Audi A3 1.6 TDI",
+      "brand": "Audi",
+      "model_family": "A3",
+      "generation": "8V",
+      "years": "2013-2018",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CLHA",
+        "engine_name": "1.6 TDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-audi-a3-1-6-tdi",
+        "tech-cars-audi-a3-hatchback-3-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3a9d3c8b6ab94b96bb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a3-1-8-tfsi-160",
+      "name": "Audi A3 1.8 TFSI",
+      "brand": "Audi",
+      "model_family": "A3",
+      "generation": "8P",
+      "years": "2007-2012",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 250.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CDAA",
+        "engine_name": "1.8 TFSI"
+      },
+      "scored_car_id": "audi-a4-b8-1-8-tfsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-audi-a3-1-8-tfsi",
+        "tech-ion-com-cars-audi-a3-sportback-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-382c6575324c025af7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+      }
+    },
+    {
+      "id": "audi-a3-1-8-tfsi-quattro-180",
+      "name": "Audi A3 1.8 TFSI quattro",
+      "brand": "Audi",
+      "model_family": "A3",
+      "generation": "8V",
+      "years": "2013-2016",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 280.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "CJSB",
+        "engine_name": "1.8 TFSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-audi-a3-1-8-tfsi-quattro",
+        "tech-cars-audi-a3-hatchback-3-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ced4d539a9313fe963",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a3-2-0-tfsi-200",
+      "name": "Audi A3 2.0 TFSI",
+      "brand": "Audi",
+      "model_family": "A3",
+      "generation": "8P",
+      "years": "2004-2008",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 280.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "AXX/BWA",
+        "engine_name": "2.0 TFSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-audi-a3-2-0-tfsi",
+        "tech-ion-com-cars-audi-a3-sportback-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cfd53ccba016950618",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+      }
+    },
+    {
+      "id": "audi-a3-8p-2-0-tdi-140",
+      "name": "Audi A3 8P 2.0 TDI",
+      "brand": "Audi",
+      "model_family": "A3 8P",
+      "generation": "8P",
+      "years": "2004-2012",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea188-pd",
+        "engine_name": "EA188"
+      },
+      "scored_car_id": "audi-a3-8p-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-audi-a3-8p-2-0-tdi",
+        "tech-ion-com-cars-audi-a3-sportback-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c22ce5dfea592b4b70",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-0-tfsi-s-tronic-116",
+      "name": "Audi A3 Sportback 1.0 TFSI S tronic",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": "8V facelift",
+      "years": "2016-2020",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 200.0,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea211",
+        "engine_name": "EA211"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "tech-ion-com-cars-audi-a3-sportback-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21m-33f09f214593742338",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2016.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-2-tfsi-105-bg-105",
+      "name": "Audi A3 Sportback 1.2 TFSI · 105 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2008-2008",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TFSI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-audi-a3-sportback-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-272027ff43e8635a0c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-2-tfsi-105-bg-105-2",
+      "name": "Audi A3 Sportback 1.2 TFSI · 105 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TFSI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-autoevolution-com-cars-audi-a3-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d30d58883ea870c352",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2008.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-2-tfsi-110-bg-110",
+      "name": "Audi A3 Sportback 1.2 TFSI · 110 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TFSI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-audi-a3-sportback-5-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c8d789db1a01572971",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-2-tfsi-110-bg-110-2",
+      "name": "Audi A3 Sportback 1.2 TFSI · 110 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 175.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TFSI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-b113eb92393c45eec3",
+        "tech-cars-audi-a3-hatchback-3-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c69952a8524c8f4701",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-2-tfsi-125-bg-125",
+      "name": "Audi A3 Sportback 1.2 TFSI · 125 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT FWD (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-audi-a3-sedan-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8d28744f59f52f6aca",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-4-tfsi-110-bg-110",
+      "name": "Audi A3 Sportback 1.4 TFSI · 110 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2013-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--cars-audi-a3-sportback-g-tron-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e08238d0007658ecec",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-g-tron-2013.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-4-tfsi-125-bg-125",
+      "name": "Audi A3 Sportback 1.4 TFSI · 125 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2008-2008",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 200.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-audi-a3-sportback-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-48fc7e16da863f19d0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-4-tfsi-125-bg-125-2",
+      "name": "Audi A3 Sportback 1.4 TFSI · 125 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 199.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT (125 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-autoevolution-com-cars-audi-a3-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f06e050b64ca463627",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2008.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-4-tfsi-125-bg-125-3",
+      "name": "Audi A3 Sportback 1.4 TFSI · 125 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-audi-a3-sportback-5-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-38fe3020b90703da4f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-4-tfsi-150-bg-150",
+      "name": "Audi A3 Sportback 1.4 TFSI · 150 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-audi-a3-sportback-5-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0ad3616a80d20c6e8e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-4-tfsi-150-bg-150-2",
+      "name": "Audi A3 Sportback 1.4 TFSI · 150 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 250.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.4L TFSI 7AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-audi-a3-sportback-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f2af4d49003a8f4200",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2016.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-6-tdi-105-bg-105",
+      "name": "Audi A3 Sportback 1.6 TDI · 105 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-autoevolution-com-cars-audi-a3-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b42b234ac4b96af3d0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2008.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-6-tdi-105-bg-105-2",
+      "name": "Audi A3 Sportback 1.6 TDI · 105 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-audi-a3-sedan-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4739e921ad2731e7ec",
+        "publication_status": "held_conflict",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-6-tdi-110-bg-110",
+      "name": "Audi A3 Sportback 1.6 TDI · 110 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-audi-a3-hatchback-3-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2a83e49c34287f643e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-6-tdi-110-bg-110-2",
+      "name": "Audi A3 Sportback 1.6 TDI · 110 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2016-2017",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-autoevolution-com-cars-audi-a3-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1ba4cf13af984cd3dd",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2016.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-6-tdi-110-bg-110-3",
+      "name": "Audi A3 Sportback 1.6 TDI · 110 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-audi-a3-sedan-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-852a6b36c7e008c082",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2016.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-6-101-bg-101",
+      "name": "Audi A3 Sportback 1.6 · 101 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 101,
+        "torque_nm": 145.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT (101 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-0f9b1aa3ef02365e01",
+        "src-fad48956af99fe1203"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-baab8d095ad88c04b6",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-1996.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-6-102-bg-102",
+      "name": "Audi A3 Sportback 1.6 · 102 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT (101 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-audi-a3-sportback-1999-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3db590080423ff6b05",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-1999.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-6-102-bg-102-2",
+      "name": "Audi A3 Sportback 1.6 · 102 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L 4AT (101 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-audi-a3-sportback-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1eec452ea38c47a4d8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-6-102-bg-102-3",
+      "name": "Audi A3 Sportback 1.6 · 102 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2008-2008",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L 4AT (101 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-audi-a3-sportback-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1daf719171eca20448",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-6-110-bg-110",
+      "name": "Audi A3 Sportback 1.6 · 110 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-audi-a3-sportback-5-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-feefb1e5eacc3607e3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-1-6-110-bg-110-2",
+      "name": "Audi A3 Sportback 1.6 · 110 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TDI 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-audi-a3-sportback-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9258783ac7594e7d59",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2016.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-2-0-tdi-140-bg-140",
+      "name": "Audi A3 Sportback 2.0 TDI · 140 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
+      },
+      "scored_car_id": "audi-a3-8p-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-audi-a3-sportback-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9cf9936d1483804974",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-2-0-tdi-140-bg-140-2",
+      "name": "Audi A3 Sportback 2.0 TDI · 140 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2008-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
+      },
+      "scored_car_id": "audi-a3-8p-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-audi-a3-sportback-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ebabd2ac87b11d1271",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-2-0-tdi-150-bg-150",
+      "name": "Audi A3 Sportback 2.0 TDI · 150 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "audi-a4-b9-2-0-tdi",
+        "audi-q3-2-0-tdi-quattro"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-audi-a3-sportback-5-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a05903c3a47e6861e6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-2-0-tdi-150-bg-150-2",
+      "name": "Audi A3 Sportback 2.0 TDI · 150 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "audi-a4-b9-2-0-tdi",
+        "audi-q3-2-0-tdi-quattro"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-audi-a3-sedan-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a02c126b3468da12d3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-2-0-tdi-170-bg-170",
+      "name": "Audi A3 Sportback 2.0 TDI · 170 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
+      },
+      "scored_car_id": "audi-a6-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-audi-a3-sportback-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8689fed43d947c9857",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+      }
+    },
+    {
+      "id": "audi-a3-sportback-2-0-tdi-184-bg-184",
+      "name": "Audi A3 Sportback 2.0 TDI · 184 bg",
+      "brand": "Audi",
+      "model_family": "A3 Sportback",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 380.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-audi-a3-sportback-5-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-59bfffdf7f68c8d4a0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "audi-a4-1-8t-150",
+      "name": "Audi A4 1.8T",
+      "brand": "Audi",
+      "model_family": "A4",
+      "generation": "B6",
+      "years": "2001-2004",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 210.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multitronic CVT",
+        "gears": null,
+        "clutch": "Çelik zincirli CVT",
+        "engine_code": "AVJ/BFB",
+        "engine_name": "1.8 Turbo"
+      },
+      "scored_car_id": "audi-a4-b5-1-8t-2-4",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--com-ikinci-el-otomobil-audi-a4-1-8t",
+        "tech-autoevolution-com-cars-audi-a4-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a6566df84d66aa670d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2001.html"
+      }
+    },
+    {
+      "id": "audi-a4-1-8t-163",
+      "name": "Audi A4 1.8T",
+      "brand": "Audi",
+      "model_family": "A4",
+      "generation": "B7",
+      "years": "2005-2008",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 225.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multitronic CVT",
+        "gears": null,
+        "clutch": "Çelik zincirli CVT",
+        "engine_code": "BFB",
+        "engine_name": "1.8 Turbo"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--com-ikinci-el-otomobil-audi-a4-1-8t",
+        "tech-autoevolution-com-cars-audi-a4-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cf17ebe3058a324995",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2004.html"
+      }
+    },
+    {
+      "id": "audi-a4-2-0-130",
+      "name": "Audi A4 2.0",
+      "brand": "Audi",
+      "model_family": "A4",
+      "generation": "B6",
+      "years": "2001-2004",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multitronic CVT",
+        "gears": null,
+        "clutch": "Çelik zincirli CVT",
+        "engine_code": "ALT",
+        "engine_name": "2.0 20V"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-com-ikinci-el-otomobil-audi-a4-2-0",
+        "tech-autoevolution-com-cars-audi-a4-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3c5dbd9212b1b067ca",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2001.html"
+      }
+    },
+    {
+      "id": "audi-a4-2-0-tdi-140",
+      "name": "Audi A4 2.0 TDI",
+      "brand": "Audi",
+      "model_family": "A4",
+      "generation": "B7",
+      "years": "2005-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multitronic CVT",
+        "gears": null,
+        "clutch": "Çelik zincirli CVT",
+        "engine_code": "BLB/BRE",
+        "engine_name": "2.0 TDI PD"
+      },
+      "scored_car_id": "audi-a3-8p-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-audi-a4-2-0-tdi",
+        "tech-autoevolution-com-cars-audi-a4-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-90bd39b1a3eb11f168",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2004.html"
+      }
+    },
+    {
+      "id": "audi-a4-b8-1-8-tfsi-160",
+      "name": "Audi A4 B8 1.8 TFSI",
+      "brand": "Audi",
+      "model_family": "A4 B8",
+      "generation": "B8",
+      "years": "2008-2015",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 225.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multitronic CVT",
+        "gears": null,
+        "clutch": "Çelik zincirli CVT",
+        "engine_code": "vag-ea888",
+        "engine_name": "EA888"
+      },
+      "scored_car_id": "audi-a4-b8-1-8-tfsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-audi-a4-b8-1-8-tfsi",
+        "tech-autoevolution-com-cars-audi-a4-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-18c1fa312ff9ce1188",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2004.html"
+      }
+    },
+    {
+      "id": "audi-a4-b8-2-0-tdi-143",
+      "name": "Audi A4 B8 2.0 TDI",
+      "brand": "Audi",
+      "model_family": "A4 B8",
+      "generation": "B8",
+      "years": "2008-2015",
+      "specs": {
+        "hp": 143,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multitronic CVT",
+        "gears": null,
+        "clutch": "Çelik zincirli CVT",
+        "engine_code": "vag-ea189",
+        "engine_name": "EA189"
+      },
+      "scored_car_id": "audi-a4-b8-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-audi-a4-b8-2-0-tdi",
+        "tech-autoevolution-com-cars-audi-a4-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f26644c8f1b1b91c6a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2007.html"
+      }
+    },
+    {
+      "id": "audi-a4-b8-2-0-tfsi-quattro-211",
+      "name": "Audi A4 B8 2.0 TFSI quattro",
+      "brand": "Audi",
+      "model_family": "A4 B8",
+      "generation": "B8",
+      "years": "2008-2015",
+      "specs": {
+        "hp": 211,
+        "torque_nm": 350.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Dört çeker",
+        "body_type": "Sedan",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "S tronic (ıslak)",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "vag-ea888",
+        "engine_name": "EA888"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-audi-a4-b8-2-0-tfsi-quattro",
+        "tech-autoevolution-com-cars-audi-a4-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-80cd5a3c6bbe514877",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2007.html"
+      }
+    },
+    {
+      "id": "audi-a4-b9-2-0-tdi-150",
+      "name": "Audi A4 B9 2.0 TDI",
+      "brand": "Audi",
+      "model_family": "A4 B9",
+      "generation": "B9",
+      "years": "2015-2019",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "S tronic (ıslak)",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "vag-ea288",
+        "engine_name": "EA288"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "audi-a4-b9-2-0-tdi",
+        "audi-q3-2-0-tdi-quattro"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-audi-a4-b9-2-0-tdi",
+        "tech-autoevolution-com-cars-audi-a4-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-66e2011becb8dba2ea",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2016.html"
+      }
+    },
+    {
+      "id": "audi-a4-b9-2-0-tfsi-190",
+      "name": "Audi A4 B9 2.0 TFSI",
+      "brand": "Audi",
+      "model_family": "A4 B9",
+      "generation": "B9",
+      "years": "2015-2019",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 320.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "vag-ea888",
+        "engine_name": "EA888"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-audi-a4-b9-2-0-tfsi",
+        "tech-autoevolution-com-cars-audi-a4-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0551797cdeaad2eeba",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2016.html"
+      }
+    },
+    {
+      "id": "audi-a5-1-8-tfsi-multitronic-170",
+      "name": "Audi A5 1.8 TFSI Multitronic",
+      "brand": "Audi",
+      "model_family": "A5",
+      "generation": "8T",
+      "years": "2011-2016",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 320.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "CVT",
+        "transmission_name": "Multitronic CVT",
+        "gears": null,
+        "clutch": "Çelik zincirli CVT",
+        "engine_code": "CJEB",
+        "engine_name": "1.8L TFSI CVT FWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-tomobil-audi-a5-1-8-tfsi-multitronic",
+        "tech-autoevolution-com-cars-audi-a5-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4b970b31d7b1f871af",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a5-2011.html"
+      }
+    },
+    {
+      "id": "audi-a6-1-8t-150",
+      "name": "Audi A6 1.8T",
+      "brand": "Audi",
+      "model_family": "A6",
+      "generation": "C5",
+      "years": "2000-2004",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 210.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "AWT",
+        "engine_name": "1.8 Turbo"
+      },
+      "scored_car_id": "audi-a4-b5-1-8t-2-4",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--com-ikinci-el-otomobil-audi-a6-1-8t",
+        "tech-autoevolution-com-cars-audi-a6-1997-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e7b4a0bc66df6cc33b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a6-1997.html"
+      }
+    },
+    {
+      "id": "audi-a6-2-0-tdi-170",
+      "name": "Audi A6 2.0 TDI",
+      "brand": "Audi",
+      "model_family": "A6",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multitronic CVT",
+        "gears": null,
+        "clutch": "Çelik zincirli CVT",
+        "engine_code": "vag-ea189",
+        "engine_name": "EA189"
+      },
+      "scored_car_id": "audi-a6-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-audi-a6-2-0-tdi",
+        "tech-autoevolution-com-cars-audi-a6-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-250e00ac15cc4b16c7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2008.html"
+      }
+    },
+    {
+      "id": "audi-a6-2-0-tdi-multitronic-177",
+      "name": "Audi A6 2.0 TDI Multitronic",
+      "brand": "Audi",
+      "model_family": "A6",
+      "generation": "C7",
+      "years": "2011-2018",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 380.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multitronic CVT",
+        "gears": null,
+        "clutch": "Çelik zincirli CVT",
+        "engine_code": "CGLC",
+        "engine_name": "2.0L TDI quattro"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-audi-a6-2-0-tdi-multitronic",
+        "tech-autoevolution-com-cars-audi-a6-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-829098af24f6c8554a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2011.html"
+      }
+    },
+    {
+      "id": "audi-a6-2-4-v6-170",
+      "name": "Audi A6 2.4 V6",
+      "brand": "Audi",
+      "model_family": "A6",
+      "generation": "C5",
+      "years": "2000-2004",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 230.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multitronic CVT",
+        "gears": null,
+        "clutch": "Çelik zincirli CVT",
+        "engine_code": "BDV",
+        "engine_name": "2.4 V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-audi-a6-2-4-v6",
+        "tech-autoevolution-com-cars-audi-a6-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ffbef9d39a70948afe",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2001.html"
+      }
+    },
+    {
+      "id": "audi-a6-3-0-tdi-quattro-225",
+      "name": "Audi A6 3.0 TDI quattro",
+      "brand": "Audi",
+      "model_family": "A6",
+      "generation": null,
+      "years": "2005-2011",
+      "specs": {
+        "hp": 225,
+        "torque_nm": 450.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört çeker",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "ZF 6HP",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "vag-v6-tdi",
+        "engine_name": "3.0 V6 TDI"
+      },
+      "scored_car_id": "audi-a6-3-0-tdi-quattro",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-audi-a6-3-0-tdi-quattro",
+        "tech-autoevolution-com-cars-audi-a6-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-440af253f54302bfa3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2005.html"
+      }
+    },
+    {
+      "id": "audi-a8-3-0-tdi-204-bg-204",
+      "name": "Audi A8 3.0 TDI · 204 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 400.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 TDI quattro 8AT AWD (250 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-oevolution-com-cars-audi-a8-d4-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1a2f28c2f6ee7066a8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d4-2010.html"
+      }
+    },
+    {
+      "id": "audi-a8-3-0-tdi-233-bg-233",
+      "name": "Audi A8 3.0 TDI · 233 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2003-2005",
+      "specs": {
+        "hp": 233,
+        "torque_nm": 450.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 TDI quattro 8AT AWD (250 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-oevolution-com-cars-audi-a8-d3-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-64e0ce3cc9d7684615",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html"
+      }
+    },
+    {
+      "id": "audi-a8-3-0-tdi-233-bg-233-2",
+      "name": "Audi A8 3.0 TDI · 233 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2005-2009",
+      "specs": {
+        "hp": 233,
+        "torque_nm": 450.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 TDI quattro 8AT AWD (250 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-audi-a8-d3f-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-206a035d46edfe6323",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3f-2005.html"
+      }
+    },
+    {
+      "id": "audi-a8-3-0-tdi-250-bg-250",
+      "name": "Audi A8 3.0 TDI · 250 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 250,
+        "torque_nm": 550.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 TDI quattro 8AT AWD (250 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-toevolution-com-cars-audi-a8-l-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0446bc37e78b6b8b5d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-l-2010.html"
+      }
+    },
+    {
+      "id": "audi-a8-3-0-tdi-250-bg-250-2",
+      "name": "Audi A8 3.0 TDI · 250 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 250,
+        "torque_nm": 550.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 TDI quattro 8AT AWD (250 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-13f00c1cef73db1c98",
+        "tech-oevolution-com-cars-audi-a8-d4-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2bff0e60971a5f33c4",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d4-2010.html"
+      }
+    },
+    {
+      "id": "audi-a8-3-0-tdi-250-bg-250-3",
+      "name": "Audi A8 3.0 TDI · 250 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 250,
+        "torque_nm": 550.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 TDI quattro 8AT AWD (250 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-13f00c1cef73db1c98",
+        "tech-oevolution-com-cars-audi-a8-d4-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-64229a5c40b0bfdcd1",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d4-2010.html"
+      }
+    },
+    {
+      "id": "audi-a8-4-2-310-bg-310",
+      "name": "Audi A8 4.2 · 310 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 310,
+        "torque_nm": 410.0,
+        "displacement_l": 4.2,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "4.2L V8 quattro 6AT (350 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2a70a9c9e92f92878e",
+        "src-869bd5353fbf5dd6e0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a07d642b1eb1ab711c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d2-1999.html"
+      }
+    },
+    {
+      "id": "audi-a8-4-2-326-bg-326",
+      "name": "Audi A8 4.2 · 326 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2003-2005",
+      "specs": {
+        "hp": 326,
+        "torque_nm": 650.0,
+        "displacement_l": 4.1,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "4.2L TDI Quattro 8AT (326 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2a70a9c9e92f92878e",
+        "tech-oevolution-com-cars-audi-a8-d3-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-471c66e8e652bde647",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html"
+      }
+    },
+    {
+      "id": "audi-a8-4-2-326-bg-326-2",
+      "name": "Audi A8 4.2 · 326 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2005-2009",
+      "specs": {
+        "hp": 326,
+        "torque_nm": 650.0,
+        "displacement_l": 4.1,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "4.2L TDI Quattro 8AT (326 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2a70a9c9e92f92878e",
+        "tech-evolution-com-cars-audi-a8-d3f-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b5566e508108a79860",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3f-2005.html"
+      }
+    },
+    {
+      "id": "audi-a8-4-2-335-bg-335",
+      "name": "Audi A8 4.2 · 335 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2003-2005",
+      "specs": {
+        "hp": 335,
+        "torque_nm": 430.0,
+        "displacement_l": 4.2,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "4.2L V8 quattro 6AT (350 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2a70a9c9e92f92878e",
+        "tech-oevolution-com-cars-audi-a8-d3-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f9b96ffa998e303ea8",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html"
+      }
+    },
+    {
+      "id": "audi-a8-4-2-350-bg-350",
+      "name": "Audi A8 4.2 · 350 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2003-2005",
+      "specs": {
+        "hp": 350,
+        "torque_nm": 440.0,
+        "displacement_l": 4.2,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "4.2L V8 quattro 6AT (350 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2a70a9c9e92f92878e",
+        "tech-oevolution-com-cars-audi-a8-d3-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-44088fe32263aed000",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html"
+      }
+    },
+    {
+      "id": "audi-a8-4-2-350-bg-350-2",
+      "name": "Audi A8 4.2 · 350 bg",
+      "brand": "Audi",
+      "model_family": "A8",
+      "generation": null,
+      "years": "2005-2009",
+      "specs": {
+        "hp": 350,
+        "torque_nm": 440.0,
+        "displacement_l": 4.2,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "4.2L V8 FSI Quattro 6AT (350 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2a70a9c9e92f92878e",
+        "tech-evolution-com-cars-audi-a8-d3f-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cda5438d5e21f7d96a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3f-2005.html"
+      }
+    },
+    {
+      "id": "audi-q3-2-0-tdi-quattro-s-tronic-177",
+      "name": "Audi Q3 2.0 TDI quattro S tronic",
+      "brand": "Audi",
+      "model_family": "Q3",
+      "generation": "8U",
+      "years": "2011-2014",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 380.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "DSG 7DCT",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "CFFB",
+        "engine_name": "2.0L TDI Quattro"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-audi-q3-2-0-tdi-quattro-s-tronic",
+        "tech-autoevolution-com-cars-audi-q3-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ebe14d3715644c3e14",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-q3-2011.html"
+      }
+    },
+    {
+      "id": "audi-q5-2-0-tdi-quattro-s-tronic-177",
+      "name": "Audi Q5 2.0 TDI quattro S tronic",
+      "brand": "Audi",
+      "model_family": "Q5",
+      "generation": "8R",
+      "years": "2008-2016",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 380.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "S tronic 7DCT",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "CGLC",
+        "engine_name": "2.0L TDI quattro"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-audi-q5-2-0-tdi-quattro-s-tronic",
+        "tech-autoevolution-com-cars-audi-q5-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cf51fe69b232c694a8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-q5-2012.html"
+      }
+    },
+    {
+      "id": "audi-tt-1-8-160-bg-160",
+      "name": "Audi TT 1.8 · 160 bg",
+      "brand": "Audi",
+      "model_family": "TT",
+      "generation": null,
+      "years": "2006-2006",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 249.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.8L TFSI 7AT FWD (180 HP)"
+      },
+      "scored_car_id": "audi-a4-b8-1-8-tfsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-038feedf07eea5b09e",
+        "tech-olution-com-cars-audi-tt-coupe-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e72c5cbabbd6d66c9a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html"
+      }
+    },
+    {
+      "id": "audi-tt-1-8-160-bg-160-2",
+      "name": "Audi TT 1.8 · 160 bg",
+      "brand": "Audi",
+      "model_family": "TT",
+      "generation": null,
+      "years": "2007-2014",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 249.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.8L TFSI 7AT FWD (180 HP)"
+      },
+      "scored_car_id": "audi-a4-b8-1-8-tfsi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-038feedf07eea5b09e",
+        "src-b40c1d8619602d6d1b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-68da0e55533dca8f98",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html"
+      }
+    },
+    {
+      "id": "audi-tt-1-8-180-bg-180",
+      "name": "Audi TT 1.8 · 180 bg",
+      "brand": "Audi",
+      "model_family": "TT",
+      "generation": null,
+      "years": "2000-2006",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 235.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8T 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-038feedf07eea5b09e",
+        "src-4df818532feb3e70a6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d9aeaaf0ec53991cfb",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-1998.html"
+      }
+    },
+    {
+      "id": "audi-tt-1-8-180-bg-180-2",
+      "name": "Audi TT 1.8 · 180 bg",
+      "brand": "Audi",
+      "model_family": "TT",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 250.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.4L TSI BMT 7AT FWD (122 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.8L TFSI 7AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-038feedf07eea5b09e",
+        "src-be3ed63cdcfbb86719"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0fa044bae437d5fb89",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2014.html"
+      }
+    },
+    {
+      "id": "audi-tt-2-0-tfsi-200",
+      "name": "Audi TT 2.0 TFSI",
+      "brand": "Audi",
+      "model_family": "TT",
+      "generation": "8J",
+      "years": "2007-2014",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 280.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "BWA/CCZA",
+        "engine_name": "2.0 TFSI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-audi-tt-2-0-tfsi",
+        "tech-olution-com-cars-audi-tt-coupe-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-deb58ca9ec360e1b1e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html"
+      }
+    },
+    {
+      "id": "audi-tt-2-0-170-bg-170",
+      "name": "Audi TT 2.0 · 170 bg",
+      "brand": "Audi",
+      "model_family": "TT",
+      "generation": null,
+      "years": "2006-2006",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Coupe",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
+      },
+      "scored_car_id": "audi-a6-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-72bf1f6adf054500dd",
+        "tech-olution-com-cars-audi-tt-coupe-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0868961300052ceef5",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html"
+      }
+    },
+    {
+      "id": "audi-tt-2-0-170-bg-170-2",
+      "name": "Audi TT 2.0 · 170 bg",
+      "brand": "Audi",
+      "model_family": "TT",
+      "generation": null,
+      "years": "2007-2014",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Cabrio",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TDI quattro 6AT AWD (170 HP)"
+      },
+      "scored_car_id": "audi-a6-2-0-tdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-72bf1f6adf054500dd",
+        "src-b40c1d8619602d6d1b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c3347ddebfe5b47b07",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html"
+      }
+    },
+    {
+      "id": "audi-tt-2-0-211-bg-211",
+      "name": "Audi TT 2.0 · 211 bg",
+      "brand": "Audi",
+      "model_family": "TT",
+      "generation": null,
+      "years": "2006-2006",
+      "specs": {
+        "hp": 211,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TFSI Quattro 6AT AWD (211 HP)"
+      },
+      "scored_car_id": "audi-a4-b8-2-0-tfsi-quattro",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-72bf1f6adf054500dd",
+        "tech-olution-com-cars-audi-tt-coupe-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bcdbd4671b572719b9",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html"
+      }
+    },
+    {
+      "id": "audi-tt-2-0-211-bg-211-2",
+      "name": "Audi TT 2.0 · 211 bg",
+      "brand": "Audi",
+      "model_family": "TT",
+      "generation": null,
+      "years": "2006-2006",
+      "specs": {
+        "hp": 211,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Coupe",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TFSI Quattro 6AT AWD (211 HP)"
+      },
+      "scored_car_id": "audi-a4-b8-2-0-tfsi-quattro",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-72bf1f6adf054500dd",
+        "tech-olution-com-cars-audi-tt-coupe-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2661095b591b83cba1",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html"
+      }
+    },
+    {
+      "id": "audi-tt-2-0-211-bg-211-3",
+      "name": "Audi TT 2.0 · 211 bg",
+      "brand": "Audi",
+      "model_family": "TT",
+      "generation": null,
+      "years": "2007-2014",
+      "specs": {
+        "hp": 211,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TFSI Quattro 6AT AWD (211 HP)"
+      },
+      "scored_car_id": "audi-a4-b8-2-0-tfsi-quattro",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-72bf1f6adf054500dd",
+        "src-b40c1d8619602d6d1b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a175453a62197d1f34",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html"
+      }
+    },
+    {
+      "id": "audi-tt-2-0-211-bg-211-4",
+      "name": "Audi TT 2.0 · 211 bg",
+      "brand": "Audi",
+      "model_family": "TT",
+      "generation": null,
+      "years": "2007-2014",
+      "specs": {
+        "hp": 211,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Cabrio",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L TFSI Quattro 6AT AWD (211 HP)"
+      },
+      "scored_car_id": "audi-a4-b8-2-0-tfsi-quattro",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-72bf1f6adf054500dd",
+        "src-b40c1d8619602d6d1b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a4c8835cc2678fd015",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html"
+      }
+    }
+  ]
+}

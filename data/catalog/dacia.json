@@ -1,0 +1,80 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Dacia",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "dacia-duster-2-nesil-1-3-tce-edc-130",
+      "name": "Dacia Duster (2. Nesil) 1.3 TCe EDC",
+      "brand": "Dacia",
+      "model_family": "Duster",
+      "generation": "2. Nesil",
+      "years": "2020-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 240.0,
+        "displacement_l": 1.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "Getrag 7DCT300",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "renault-h5ht",
+        "engine_name": "H5Ht"
+      },
+      "scored_car_id": "dacia-duster-2-1-3-tce-edc",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-el-otomobil-dacia-duster-1-3-tce-edc"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a27669b884368c55dc",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "dacia-duster-1-5-dci-edc-2-nesil-110",
+      "name": "Dacia Duster 1.5 dCi EDC (2. Nesil)",
+      "brand": "Dacia",
+      "model_family": "Duster",
+      "generation": "2. Nesil",
+      "years": "2017-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 250.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "EDC (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "renault-k9k",
+        "engine_name": "K9K"
+      },
+      "scored_car_id": "dacia-duster-1-5-dci-edc-2",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-dacia-duster-1-5-dci-edc",
+        "tech-volution-com-cars-dacia-duster-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-565a6d700311bb2cdd",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/dacia-duster-2017.html"
+      }
+    }
+  ]
+}

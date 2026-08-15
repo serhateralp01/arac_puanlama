@@ -1,0 +1,1764 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Honda",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "honda-accord-2-0-155",
+      "name": "Honda Accord 2.0",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": "CL7",
+      "years": "2003-2008",
+      "specs": {
+        "hp": 155,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "K20A6",
+        "engine_name": "2.0 i-VTEC"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-0",
+        "tech--com-cars-honda-accord-4-doors-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c527ed746542411832",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-0-cu2-156",
+      "name": "Honda Accord 2.0 (CU2)",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2008-2015",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 193.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "honda-k20-k24",
+        "engine_name": "K20"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-0",
+        "tech-volution-com-cars-honda-accord-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cc62e58845983dd7f9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-2008.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-0-147-bg-147",
+      "name": "Honda Accord 2.0 · 147 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2001-2001",
+      "specs": {
+        "hp": 147,
+        "torque_nm": 184.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 4AT (147 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-0",
+        "src-8d5d25e08118d93d9a"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-34db6d6197160bfc5f",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-5-doors-2001.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-0-152-bg-152",
+      "name": "Honda Accord 2.0 · 152 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 152,
+        "torque_nm": 186.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L i-VTEC 5AT FWD (155 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-0",
+        "tech--com-cars-honda-accord-4-doors-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c72eb77cad6468f83d",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-0-152-bg-152-2",
+      "name": "Honda Accord 2.0 · 152 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2006-2006",
+      "specs": {
+        "hp": 152,
+        "torque_nm": 186.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L i-VTEC 5AT FWD (155 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-0",
+        "src-1344083afda8801e48"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ec17afc6d4e3e2143a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2006.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-0-155-bg-155",
+      "name": "Honda Accord 2.0 · 155 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 155,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L i-VTEC 5AT FWD (155 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-0",
+        "tech--com-cars-honda-accord-4-doors-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6d4c9e5f3252594357",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-0-155-bg-155-2",
+      "name": "Honda Accord 2.0 · 155 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 155,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L i-VTEC 5AT FWD (155 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-0",
+        "src-02f49cb29c54b1190b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c7704c35c0f76c393a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2003.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-0-155-bg-155-3",
+      "name": "Honda Accord 2.0 · 155 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2005-2005",
+      "specs": {
+        "hp": 155,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L i-VTEC 5AT FWD (155 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-0",
+        "src-7e3c15cc0ac9627947"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4001afb0d370a37bc3",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2005.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-2-i-dtec-5at-150",
+      "name": "Honda Accord 2.2 i-DTEC 5AT",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": "CU3",
+      "years": "2008-2015",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 350.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "N22B",
+        "engine_name": "2.2L i-DTEC"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-honda-accord-2-2-i-dtec-5at",
+        "tech-volution-com-cars-honda-accord-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-38967215b555340a1d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-2008.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-4-201",
+      "name": "Honda Accord 2.4",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": "CU2",
+      "years": "2008-2015",
+      "specs": {
+        "hp": 201,
+        "torque_nm": 234.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "K24Z3",
+        "engine_name": "2.4 i-VTEC"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-4",
+        "tech-volution-com-cars-honda-accord-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0e889ac2466197174f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-2008.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-4-cl9-190",
+      "name": "Honda Accord 2.4 (CL9)",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2003-2008",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 220.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "honda-k20-k24",
+        "engine_name": "K20"
+      },
+      "scored_car_id": "honda-accord-2-4-cl9",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-4",
+        "tech--com-cars-honda-accord-4-doors-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a959ce352fedba80fd",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-4-160-bg-160",
+      "name": "Honda Accord 2.4 · 160 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 218.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L T 5AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-4",
+        "src-02f49cb29c54b1190b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e939752fda38b26393",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2003.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-4-160-bg-160-2",
+      "name": "Honda Accord 2.4 · 160 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 218.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L T 5AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-4",
+        "src-02f49cb29c54b1190b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dd899ea55a13aa490a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2003.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-4-190-bg-190",
+      "name": "Honda Accord 2.4 · 190 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 223.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L T 5AT FWD (200 HP)"
+      },
+      "scored_car_id": "honda-accord-2-4-cl9",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-4",
+        "tech--com-cars-honda-accord-4-doors-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ac91024c5185a33674",
+        "publication_status": "held_conflict",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-4-200-bg-200",
+      "name": "Honda Accord 2.4 · 200 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 232.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L T 5AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-4",
+        "tech--com-cars-honda-accord-4-doors-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cdd9096415365e2266",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-4-200-bg-200-2",
+      "name": "Honda Accord 2.4 · 200 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 232.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L T 5AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-4",
+        "src-02f49cb29c54b1190b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fceda28e047471da55",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2003.html"
+      }
+    },
+    {
+      "id": "honda-accord-2-4-200-bg-200-3",
+      "name": "Honda Accord 2.4 · 200 bg",
+      "brand": "Honda",
+      "model_family": "Accord",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 232.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L T 5AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-honda-accord-2-4",
+        "src-02f49cb29c54b1190b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-75d9e46eaa6a4e2215",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2003.html"
+      }
+    },
+    {
+      "id": "honda-cr-v-2-0-150",
+      "name": "Honda CR-V 2.0",
+      "brand": "Honda",
+      "model_family": "CR-V",
+      "generation": "Mk2",
+      "years": "2002-2006",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 192.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "K20A4",
+        "engine_name": "2.0 i-VTEC"
+      },
+      "scored_car_id": "honda-crv-3-2-0-ivtec-5at",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-honda-cr-v-2-0",
+        "tech-oevolution-com-cars-honda-cr-v-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d339716bda92b0f070",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-cr-v-2004.html"
+      }
+    },
+    {
+      "id": "honda-cr-v-2-0-155",
+      "name": "Honda CR-V 2.0",
+      "brand": "Honda",
+      "model_family": "CR-V",
+      "generation": "Mk4",
+      "years": "2012-2018",
+      "specs": {
+        "hp": 155,
+        "torque_nm": 192.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "R20A",
+        "engine_name": "2.0 i-VTEC"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-honda-cr-v-2-0",
+        "tech-tion-com-cars-honda-honda-cr-v-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b0b98fb3f8f459b888",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-honda-cr-v-2011.html"
+      }
+    },
+    {
+      "id": "honda-cr-v-iii-2-0-i-vtec-5at-150",
+      "name": "Honda CR-V III 2.0 i-VTEC 5AT",
+      "brand": "Honda",
+      "model_family": "CR-V III",
+      "generation": null,
+      "years": "2007-2012",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 192.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "honda-r20a",
+        "engine_name": "R20A"
+      },
+      "scored_car_id": "honda-crv-3-2-0-ivtec-5at",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-omobil-honda-cr-v-iii-2-0-i-vtec-5at",
+        "tech-ssreleases-627-kiev-automotive-show-2007"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d6c38681d3f6c616d8",
+        "publication_status": "scored",
+        "technical_url": "https://hondanews.eu/eu/fi/cars/media/pressreleases/627/kiev-automotive-show-2007"
+      }
+    },
+    {
+      "id": "honda-city-1-5-120",
+      "name": "Honda City 1.5",
+      "brand": "Honda",
+      "model_family": "City",
+      "generation": null,
+      "years": "2009-2014",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 145.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "honda-l15",
+        "engine_name": "L15A"
+      },
+      "scored_car_id": "honda-city-1-5",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-honda-city-1-5",
+        "tech--c080925third-generation-city-india-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e491880aeffea691a0",
+        "publication_status": "scored",
+        "technical_url": "https://global.honda/en/newsroom/worldnews/2008/c080925Third-Generation-City-India.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-4-174-bg-174",
+      "name": "Honda Civic 1.4 · 174 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2016-2018",
+      "specs": {
+        "hp": 174,
+        "torque_nm": 220.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.5L CVT FWD (182 HP)"
+      },
+      "scored_car_id": "honda-civic-fc-1-5-turbo-cvt",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4a22999726b2f7e773",
+        "src-a69a1a6e360c78ea4e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e385b8019482491226",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-coupe-2016.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-4-174-bg-174-2",
+      "name": "Honda Civic 1.4 · 174 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 174,
+        "torque_nm": 220.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.5L CVT FWD (182 HP)"
+      },
+      "scored_car_id": "honda-civic-fc-1-5-turbo-cvt",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-a69a1a6e360c78ea4e",
+        "tech-evolution-com-cars-honda-sedan-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-98e91d6cb36ee2584f",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-sedan-2016.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-4-174-bg-174-3",
+      "name": "Honda Civic 1.4 · 174 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 174,
+        "torque_nm": 220.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.5L CVT FWD (182 HP)"
+      },
+      "scored_car_id": "honda-civic-fc-1-5-turbo-cvt",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-555ed5f5badc6aa01e",
+        "src-a69a1a6e360c78ea4e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b14aec7847bc3d6eaf",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2016.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-4-174-bg-174-4",
+      "name": "Honda Civic 1.4 · 174 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2018-2020",
+      "specs": {
+        "hp": 174,
+        "torque_nm": 162.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.5L CVT FWD (182 HP)"
+      },
+      "scored_car_id": "honda-civic-fc-1-5-turbo-cvt",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6ee097fd969b13720b",
+        "src-a69a1a6e360c78ea4e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2eb9cb584aa9e06d44",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-2018.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-4-180-bg-180",
+      "name": "Honda Civic 1.4 · 180 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.5L CVT FWD (182 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-555ed5f5badc6aa01e",
+        "src-a69a1a6e360c78ea4e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-619c1aaf3759f04bf4",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2016.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-4-182-bg-182",
+      "name": "Honda Civic 1.4 · 182 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 182,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.5L CVT FWD (182 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-555ed5f5badc6aa01e",
+        "src-a69a1a6e360c78ea4e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-35e8312d3304c633d5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2016.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-6-110",
+      "name": "Honda Civic 1.6",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": "ES",
+      "years": "2001-2005",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 152.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "D16V1",
+        "engine_name": "1.6 VTEC"
+      },
+      "scored_car_id": "honda-civic-7-nesil-es-1-6-1-7",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-honda-civic-1-6",
+        "tech-ion-com-cars-honda-civic-coupe-1996-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-43d48cbefa8e6670de",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-coupe-1996.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-6-105-bg-105",
+      "name": "Honda Civic 1.6 · 105 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2000-2001",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 140.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i CVT (114 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-honda-civic-1-6",
+        "tech-ion-com-cars-honda-civic-coupe-1996-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e3dbba2bbd8f886b7a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-coupe-1996.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-6-105-bg-105-2",
+      "name": "Honda Civic 1.6 · 105 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2000-2001",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 140.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6i CVT (114 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-honda-civic-1-6",
+        "tech-ion-com-cars-honda-civic-coupe-1996-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-705f459c4c4b71adaa",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-coupe-1996.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-6-114-bg-114",
+      "name": "Honda Civic 1.6 · 114 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2000-2000",
+      "specs": {
+        "hp": 114,
+        "torque_nm": 144.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6i CVT (114 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-honda-civic-1-6",
+        "src-ea1e7f922aeb86f5cc"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a946f9489f23d66f74",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-3-doors-1995.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-6-120-bg-120",
+      "name": "Honda Civic 1.6 · 120 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2001-2005",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 152.0,
+        "displacement_l": 1.7,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.7L 4AT (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-honda-civic-1-6",
+        "src-eb7319c78c5669695d"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2feb927fa3f9e3455a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-coupe-2001.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-6-125-bg-125",
+      "name": "Honda Civic 1.6 · 125 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2006-2008",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 152.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 5AT (125 HP)"
+      },
+      "scored_car_id": "honda-civic-fd6-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-honda-civic-1-6",
+        "tech-ion-com-cars-honda-civic-sedan-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-482f04004488eb456a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-2006.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-6-174-bg-174",
+      "name": "Honda Civic 1.6 · 174 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2019-2020",
+      "specs": {
+        "hp": 174,
+        "torque_nm": 220.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.5L CVT FWD (174 HP)"
+      },
+      "scored_car_id": "honda-civic-fc-1-5-turbo-cvt",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-honda-civic-1-6",
+        "src-c8e4e183415e8a98af"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-eb122f2ae16b1694c7",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-hatchback-2019.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-8-i-vtec-140",
+      "name": "Honda Civic 1.8 i-VTEC",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": "FN",
+      "years": "2006-2011",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 174.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Robot",
+        "transmission_name": "i-Shift 6AMT",
+        "gears": 6,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "R18A",
+        "engine_name": "1.8 i-VTEC"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-honda-civic-1-8-i-vtec",
+        "tech-n-com-cars-honda-civic-5-doors-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d0dcca849f0061eae8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2005.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-8-110-bg-110",
+      "name": "Honda Civic 1.8 · 110 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 144.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8 i-VTEC 5AT FWD (139 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-9cb35616d670fd3b7e",
+        "src-f8ea725a5742d8a9aa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-79cd2b0ef8024c62d5",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-hatural-gas-2012.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-8-139-bg-139",
+      "name": "Honda Civic 1.8 · 139 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2012-2015",
+      "specs": {
+        "hp": 139,
+        "torque_nm": 174.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8 i-VTEC 5AT FWD (139 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-9cb35616d670fd3b7e",
+        "src-ec06cbda4b781572df"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dd4dbd4ea751b3c96d",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-8-140-bg-140",
+      "name": "Honda Civic 1.8 · 140 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2005-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 174.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L i-VTEC 6AT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-9cb35616d670fd3b7e",
+        "tech-n-com-cars-honda-civic-5-doors-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6c7f5a16bf7ea1dee2",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2005.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-8-140-bg-140-2",
+      "name": "Honda Civic 1.8 · 140 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2006-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 174.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L i-VTEC 6AT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-9cb35616d670fd3b7e",
+        "tech-ion-com-cars-honda-civic-sedan-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a3b733cd89801d1c6d",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-2006.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-8-140-bg-140-3",
+      "name": "Honda Civic 1.8 · 140 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 174.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L i-VTEC 6AT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-9cb35616d670fd3b7e",
+        "src-dde6645ae7ab44ad73"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-37aea577085b6d5706",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-type-s-2008.html"
+      }
+    },
+    {
+      "id": "honda-civic-1-8-140-bg-140-4",
+      "name": "Honda Civic 1.8 · 140 bg",
+      "brand": "Honda",
+      "model_family": "Civic",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 174.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L i-VTEC 6AT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6a27af05e0e6183e15",
+        "src-9cb35616d670fd3b7e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3c6b8b30cdab407d96",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "honda-civic-fb7-1-6-125",
+      "name": "Honda Civic FB7 1.6",
+      "brand": "Honda",
+      "model_family": "Civic FB7",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 152.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "honda-r16",
+        "engine_name": "R16A"
+      },
+      "scored_car_id": "honda-civic-fb7-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-honda-civic-fb7-1-6",
+        "tech-ion-com-cars-honda-civic-sedan-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-95bbbef6ace5da868d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-2012.html"
+      }
+    },
+    {
+      "id": "honda-civic-fc-1-5-vtec-turbo-cvt-174",
+      "name": "Honda Civic FC 1.5 VTEC Turbo CVT",
+      "brand": "Honda",
+      "model_family": "Civic FC",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 174,
+        "torque_nm": 220.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Honda CVT",
+        "gears": null,
+        "clutch": null,
+        "engine_code": "honda-l15b7-turbo",
+        "engine_name": "L15B7"
+      },
+      "scored_car_id": "honda-civic-fc-1-5-turbo-cvt",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-il-honda-civic-fc-1-5-vtec-turbo-cvt",
+        "tech-evolution-com-cars-honda-sedan-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dce9b4a7902aa6e6c3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-sedan-2016.html"
+      }
+    },
+    {
+      "id": "honda-civic-fd6-1-6-125",
+      "name": "Honda Civic FD6 1.6",
+      "brand": "Honda",
+      "model_family": "Civic FD6",
+      "generation": null,
+      "years": "2006-2011",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 152.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.8L i-VTEC 5AT (140 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "honda-r16",
+        "engine_name": "R16A"
+      },
+      "scored_car_id": "honda-civic-fd6-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-honda-civic-fd6-1-6",
+        "tech-ion-com-cars-honda-civic-sedan-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-82fe597dced0107de6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-2006.html"
+      }
+    },
+    {
+      "id": "honda-hr-v-1-6-124",
+      "name": "Honda HR-V 1.6",
+      "brand": "Honda",
+      "model_family": "HR-V",
+      "generation": "GH",
+      "years": "2000-2006",
+      "specs": {
+        "hp": 124,
+        "torque_nm": 144.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "D16W",
+        "engine_name": "1.6 VTEC"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-om-ikinci-el-otomobil-honda-hr-v-1-6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e49302584e7d97dfd2",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "honda-jazz-1-3-i-vtec-cvt-102",
+      "name": "Honda Jazz 1.3 i-VTEC CVT",
+      "brand": "Honda",
+      "model_family": "Jazz",
+      "generation": null,
+      "years": "2013-2017",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 123.0,
+        "displacement_l": 1.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "Honda CVT",
+        "gears": null,
+        "clutch": null,
+        "engine_code": "honda-l13z",
+        "engine_name": "L13Z1"
+      },
+      "scored_car_id": "honda-jazz-1-3-cvt",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-honda-jazz-1-3-i-vtec-cvt",
+        "tech-lution-com-cars-honda-jazz-fit-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0a3e00a913ce8292b2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/honda-jazz-fit-2013.html"
+      }
+    },
+    {
+      "id": "honda-jazz-1-3-102-bg-102",
+      "name": "Honda Jazz 1.3 · 102 bg",
+      "brand": "Honda",
+      "model_family": "Jazz",
+      "generation": null,
+      "years": "2013-2017",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 123.0,
+        "displacement_l": 1.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.3L i-VTEC CVT FWD (102 HP)"
+      },
+      "scored_car_id": "honda-jazz-1-3-cvt",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-f236e52285278c0efe",
+        "tech-lution-com-cars-honda-jazz-fit-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-93cb7ff9a74bc9d463",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-jazz-fit-2013.html"
+      }
+    },
+    {
+      "id": "honda-jazz-1-3-102-bg-102-2",
+      "name": "Honda Jazz 1.3 · 102 bg",
+      "brand": "Honda",
+      "model_family": "Jazz",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 123.0,
+        "displacement_l": 1.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.3L i-VTEC CVT (102 HP)"
+      },
+      "scored_car_id": "honda-jazz-1-3-cvt",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-b3a39cfd91ea72b4bc",
+        "src-f236e52285278c0efe"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2454143d187bc97ca7",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/honda-jazz-fit-2017.html"
+      }
+    }
+  ]
+}

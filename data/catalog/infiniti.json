@@ -1,0 +1,187 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Infiniti",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "infiniti-ex37-3-7-320",
+      "name": "Infiniti EX37 3.7",
+      "brand": "Infiniti",
+      "model_family": "EX37",
+      "generation": "J50",
+      "years": "2009-2013",
+      "specs": {
+        "hp": 320,
+        "torque_nm": 360.0,
+        "displacement_l": 3.7,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 7AT",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": "VQ37VHR",
+        "engine_name": "3.7 V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-infiniti-ex37-3-7",
+        "tech-evolution-com-cars-infiniti-ex-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-99ab19a47ae336c596",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/infiniti-ex-2007.html"
+      }
+    },
+    {
+      "id": "infiniti-fx30d-3-0-238",
+      "name": "Infiniti FX30d 3.0",
+      "brand": "Infiniti",
+      "model_family": "FX30d",
+      "generation": "S51",
+      "years": "2010-2013",
+      "specs": {
+        "hp": 238,
+        "torque_nm": 550.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 7AT",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": "V9X",
+        "engine_name": "3.0 V6 dizel"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-infiniti-fx30d-3-0",
+        "tech-evolution-com-cars-infiniti-fx-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-abbfcbae0db9dff898",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/infiniti-fx-2008.html"
+      }
+    },
+    {
+      "id": "infiniti-fx35-3-5-280",
+      "name": "Infiniti FX35 3.5",
+      "brand": "Infiniti",
+      "model_family": "FX35",
+      "generation": "S50",
+      "years": "2003-2008",
+      "specs": {
+        "hp": 280,
+        "torque_nm": 363.0,
+        "displacement_l": 3.5,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "VQ35DE",
+        "engine_name": "3.5 V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-infiniti-fx35-3-5",
+        "tech-evolution-com-cars-infiniti-fx-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3f6fd5994ab1f98efa",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/infiniti-fx-2002.html"
+      }
+    },
+    {
+      "id": "infiniti-g35-3-5-280",
+      "name": "Infiniti G35 3.5",
+      "brand": "Infiniti",
+      "model_family": "G35",
+      "generation": "V35",
+      "years": "2003-2007",
+      "specs": {
+        "hp": 280,
+        "torque_nm": 363.0,
+        "displacement_l": 3.5,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "VQ35DE",
+        "engine_name": "3.5 V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-infiniti-g35-3-5",
+        "tech-on-com-cars-infiniti-g35-sedan-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e76889670ecde6b20d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/infiniti-g35-sedan-2001.html"
+      }
+    },
+    {
+      "id": "infiniti-g37-3-7-320",
+      "name": "Infiniti G37 3.7",
+      "brand": "Infiniti",
+      "model_family": "G37",
+      "generation": "V36",
+      "years": "2008-2013",
+      "specs": {
+        "hp": 320,
+        "torque_nm": 360.0,
+        "displacement_l": 3.7,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan/Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 7AT",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": "VQ37VHR",
+        "engine_name": "3.7 V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-infiniti-g37-3-7",
+        "tech-on-com-cars-infiniti-g37-coupe-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d36da450fd32c0e5da",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/infiniti-g37-coupe-2008.html"
+      }
+    }
+  ]
+}

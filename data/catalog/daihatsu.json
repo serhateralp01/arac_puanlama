@@ -1,0 +1,80 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Daihatsu",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "daihatsu-materia-1-5-103",
+      "name": "Daihatsu Materia 1.5",
+      "brand": "Daihatsu",
+      "model_family": "Materia",
+      "generation": "M400",
+      "years": "2007-2011",
+      "specs": {
+        "hp": 103,
+        "torque_nm": 132.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "3SZ-VE",
+        "engine_name": "1.5 DVVT"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-nci-el-otomobil-daihatsu-materia-1-5"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7f52b30d66e4b3904c",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "daihatsu-terios-1-5-105",
+      "name": "Daihatsu Terios 1.5",
+      "brand": "Daihatsu",
+      "model_family": "Terios",
+      "generation": "J200",
+      "years": "2006-2017",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 140.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "3SZ-VE",
+        "engine_name": "1.5 DVVT"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-daihatsu-terios-1-5",
+        "tech-ution-com-cars-daihatsu-terios-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-be687bb510321b99e6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/daihatsu-terios-2006.html"
+      }
+    }
+  ]
+}

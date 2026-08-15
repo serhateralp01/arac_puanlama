@@ -1,0 +1,386 @@
+#!/usr/bin/env python3
+"""import_catalog.py — P2.1 veri paketinden olgusal teknik katalog üretir (MK-22).
+
+**Neden var.** P2.1 paketi 1.641 araç–motor–şanzıman kombinasyonu taşıyor; deponun
+puanlanmış listesi 278. Aradaki fark gerçek bir değer ama doğrudan alınamaz: bu
+varyantların önemli bir kısmında puan `p2-inferred-prior`, yani araştırılmamış,
+çıkarsanmış. Puanları almak deponun kanıt zincirini çökertirdi (MK-21 bunu doğru
+söylemişti).
+
+**Bu betiğin çizdiği sınır: olgu alınır, yargı alınmaz.** Güç, tork, hacim, çekiş tipi,
+vites sayısı ve kavrama tipi ölçümdür — kaynağı gösterilebilir, yanlışsa nesnel olarak
+yanlıştır. Güvenilirlik puanı yargıdır ve gerekçe ister. Bu betik yalnız birincisini
+yazar; `data/catalog/` katmanına hiçbir puan girmez.
+
+**Kalite gizlenmez.** P2.1'in kendi kalite sicili (992 kayıt) katalog kaydına
+`quality_flags` olarak birlikte yazılır. Bir kaydın şanzıman kimliği tam çözülmemişse
+bu görünür kalır ki `data/cars/` katmanına terfi sırasında yakalansın (MK-18'in çapraz
+doğrulamada bulduğu türden hatalar tam olarak böyle yakalanıyor).
+
+**Kaynak hakları.** P2.1 kaynak sicilinin yeniden dağıtım politikası "kısa olgusal alan ve
+kaynak URL'si; uzun metin, tablo veya görsel kopyası yok" diyor. Bu betik tam olarak o
+iznin içinde kalır: olgusal alanlar ve kaynak adresi alınır, uzun metin alınmaz. 2.071 ham
+ilan gözlemi depoya hiç girmez.
+
+Kaynak veri paketi depoya dahil değildir (dış paket, ayrı lisans). Yol `--db` ile verilir.
+
+Kullanım:
+    python3 scripts/import_catalog.py --db /yol/arac_veritabani_p2_1.sqlite
+    python3 scripts/import_catalog.py --db ... --check   # üretilmiş katalog güncel mi
+"""
+from __future__ import annotations
+
+import argparse
+import collections
+import json
+import pathlib
+import re
+import shutil
+import sqlite3
+import sys
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
+OUT = DATA / "catalog"
+DATASET = "ARAC-P2.1-PRICE-EXPANSION-2026-08"
+IMPORTED_AT = "2026-08-15"
+
+# Kaynak verideki "değer yok" yerine geçen dizgeler. Bunlar null'a çevrilir;
+# olduğu gibi yazılırsa katalogda sahte bir değer gibi görünürler.
+PLACEHOLDERS = {
+    "belirtilmemiş", "belirtilmemis", "kaynakta belirtilmemiş",
+    "kaynakta belirtilmemis", "bilinmiyor", "yok", "none", "",
+}
+
+# MK-15 türü aralık korumaları: birim hatasını ve bozuk kaydı yakalamak için.
+HP_MIN, HP_MAX = 30, 900
+NM_MIN, NM_MAX = 50, 1200
+L_MIN, L_MAX = 0.5, 8.0
+
+BRAND_ALIAS = {
+    "vw": "volkswagen",
+    "mercedes": "mercedes-benz",
+    "mercedes benz": "mercedes-benz",
+}
+
+
+def norm(s) -> str:
+    if s is None:
+        return ""
+    s = str(s).lower()
+    for a, b in [("ı", "i"), ("ş", "s"), ("ç", "c"), ("ğ", "g"), ("ü", "u"), ("ö", "o")]:
+        s = s.replace(a, b)
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+
+def slug(s) -> str:
+    return re.sub(r"-+", "-", norm(s).replace(" ", "-")).strip("-")
+
+
+def brandkey(s) -> str:
+    n = norm(s)
+    return BRAND_ALIAS.get(n, n)
+
+
+def clean(v):
+    """Yer tutucu dizgeleri null'a çevirir."""
+    if v is None:
+        return None
+    s = str(v).strip()
+    if norm(s) in PLACEHOLDERS:
+        return None
+    return s
+
+
+def load_ours() -> list[dict]:
+    return [json.loads(p.read_text(encoding="utf-8"))
+            for p in sorted((DATA / "cars").glob("*.json"))]
+
+
+def fetch_variants(db: pathlib.Path) -> list[dict]:
+    con = sqlite3.connect(db)
+    con.row_factory = sqlite3.Row
+    q = """
+    SELECT v.variant_id, v.model_variant, v.year_start, v.year_end, v.power_hp,
+           v.torque_nm, v.drivetrain, v.publication_status, v.technical_url,
+           b.name AS brand, m.model_family, g.generation, g.body_type,
+           e.engine_code, e.engine_name, e.fuel, e.displacement_cc,
+           t.transmission_name, t.transmission_type, t.gears, t.clutch
+      FROM variants v
+      LEFT JOIN generations g ON g.generation_id = v.generation_id
+      LEFT JOIN models m      ON m.model_id      = g.model_id
+      LEFT JOIN brands b      ON b.brand_id      = m.brand_id
+      LEFT JOIN engines e     ON e.engine_id     = v.engine_id
+      LEFT JOIN transmissions t ON t.transmission_id = v.transmission_id
+    """
+    return [dict(r) for r in con.execute(q)]
+
+
+def fetch_quality(db: pathlib.Path) -> dict[str, list[str]]:
+    con = sqlite3.connect(db)
+    out = collections.defaultdict(list)
+    for vid, code in con.execute(
+        "SELECT variant_id, issue_code FROM data_quality_issues WHERE status != 'resolved'"
+    ):
+        if vid:
+            out[vid].append(code)
+    return out
+
+
+def fetch_sources(db: pathlib.Path) -> tuple[dict, dict]:
+    """Katalog kaynak sicili ve varyant->kaynak bağlantıları.
+
+    Bu kaynaklar `data/sources.json` içine YAZILMAZ. O dosya puanı destekleyen kanıt
+    sicilidir; teknik özellik sayfası bir puanı desteklemez, yalnız bir olguyu gösterir.
+    Aynı ayrım MK-19'da fiyat kaynakları için de yapılmıştı.
+    """
+    con = sqlite3.connect(db)
+    con.row_factory = sqlite3.Row
+    srcs = {}
+    for r in con.execute("SELECT source_id, publisher, url, source_type, tier FROM sources"):
+        if not clean(r["url"]):
+            continue
+        srcs[r["source_id"]] = {
+            "id": r["source_id"],
+            "publisher": clean(r["publisher"]),
+            "url": r["url"],
+            "type": clean(r["source_type"]),
+            "tier": clean(r["tier"]),
+        }
+    links = collections.defaultdict(list)
+    for r in con.execute("SELECT variant_id, source_id FROM variant_sources"):
+        if r["source_id"] in srcs:
+            links[r["variant_id"]].append(r["source_id"])
+    return srcs, links
+
+
+def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str | None]:
+    """Bir P2.1 varyantından katalog kaydı üretir. Reddedilirse (None, sebep) döner."""
+    hp = v.get("power_hp")
+    if not isinstance(hp, int) or not (HP_MIN <= hp <= HP_MAX):
+        return None, f"beygir aralık dışı ({hp})"
+
+    fuel = clean(v.get("fuel"))
+    if fuel not in ("Benzin", "Dizel"):
+        return None, f"yakıt kapsam dışı ({fuel})"
+
+    y0, y1 = v.get("year_start"), v.get("year_end")
+    if not (isinstance(y0, int) and isinstance(y1, int) and 1980 <= y0 <= y1 <= 2030):
+        return None, f"yıl aralığı geçersiz ({y0}-{y1})"
+
+    nm = v.get("torque_nm")
+    nm = float(nm) if isinstance(nm, (int, float)) and NM_MIN <= nm <= NM_MAX else None
+
+    cc = v.get("displacement_cc")
+    litre = round(cc / 1000.0, 1) if isinstance(cc, (int, float)) and cc else None
+    if litre is not None and not (L_MIN <= litre <= L_MAX):
+        litre = None
+
+    gears = v.get("gears")
+    gears = int(gears) if isinstance(gears, (int, float)) and 3 <= gears <= 10 else None
+
+    brand = clean(v.get("brand")) or "Bilinmeyen"
+    variant_label = clean(v.get("model_variant")) or clean(v.get("model_family")) or "?"
+    name = f"{brand} {variant_label}".strip()
+
+    entry = {
+        "id": None,  # aşağıda atanır
+        "name": name,
+        "brand": brand,
+        "model_family": clean(v.get("model_family")),
+        "generation": clean(v.get("generation")),
+        "years": f"{y0}-{y1}",
+        "specs": {
+            "hp": hp,
+            "torque_nm": nm,
+            "displacement_l": litre,
+            "fuel": fuel,
+            "drivetrain": clean(v.get("drivetrain")) or "Belirtilmemiş",
+            "body_type": clean(v.get("body_type")),
+            "transmission_type": clean(v.get("transmission_type")) or "Belirtilmemiş",
+            "transmission_name": clean(v.get("transmission_name")),
+            "gears": gears,
+            "clutch": clean(v.get("clutch")),
+            "engine_code": clean(v.get("engine_code")),
+            "engine_name": clean(v.get("engine_name")),
+        },
+        "scored_car_id": None,
+        "possible_scored_car_ids": [],
+        "quality_flags": sorted(set(quality.get(v["variant_id"], []))),
+        "sources": sorted(set(links.get(v["variant_id"], []))),
+        "provenance": {
+            "dataset": DATASET,
+            "imported_at": IMPORTED_AT,
+            "source_variant_id": v["variant_id"],
+            "publication_status": clean(v.get("publication_status")),
+            "technical_url": clean(v.get("technical_url")),
+        },
+    }
+    return entry, None
+
+
+def assign_ids(entries: list[dict]) -> None:
+    """Kalıcı, okunabilir ve çakışmasız kimlik atar (CLAUDE.md §4).
+
+    Kimlik marka+varyant+beygirden türetilir, yani kaynak paketin hash'ine bağlı
+    değildir; paket yeniden üretilse bile aynı araç aynı kimliği alır.
+    """
+    used = collections.Counter()
+    for e in entries:
+        base = slug(f"{e['brand']} {e['name'].replace(e['brand'], '', 1)} {e['specs']['hp']}")
+        base = re.sub(r"-+", "-", base).strip("-")[:70] or "arac"
+        used[base] += 1
+        e["id"] = base if used[base] == 1 else f"{base}-{used[base]}"
+
+
+def link_scored(entries: list[dict], ours: list[dict]) -> tuple[int, int]:
+    """Katalog kayıtlarını puanlanmış araçlara bağlar.
+
+    Tek aday varsa `scored_car_id` yazılır ve arayüz o kaydı ayrı satır olarak
+    göstermez. Birden çok aday varsa hiçbiri seçilmez; adaylar
+    `possible_scored_car_ids` içinde durur ve terfi sırasında elle çözülür. Otomatik
+    seçim yapmak, MK-08'in uyardığı nesil karıştırma hatasını üretmenin kısa yoludur.
+    """
+    idx = collections.defaultdict(list)
+    for o in ours:
+        sp = o["specs"]
+        lit = sp.get("displacement_l")
+        lit = round(float(lit), 1) if lit else None
+        idx[(brandkey(o.get("brand_group")), sp.get("hp"), lit)].append(o)
+
+    exact = ambiguous = 0
+    for e in entries:
+        sp = e["specs"]
+        cands = idx.get((brandkey(e["brand"]), sp["hp"], sp["displacement_l"]), [])
+        if len(cands) > 1:
+            narrowed = [o for o in cands
+                        if o["specs"].get("transmission_type") == sp["transmission_type"]]
+            if narrowed:
+                cands = narrowed
+        if len(cands) > 1:
+            y0, y1 = (int(x) for x in e["years"].split("-"))
+            narrowed = []
+            for o in cands:
+                m = re.match(r"(\d{4})\D+(\d{4})", o.get("years", ""))
+                if m and not (int(m.group(2)) < y0 or int(m.group(1)) > y1):
+                    narrowed.append(o)
+            if narrowed:
+                cands = narrowed
+        if len(cands) == 1:
+            e["scored_car_id"] = cands[0]["id"]
+            exact += 1
+        elif len(cands) > 1:
+            e["possible_scored_car_ids"] = sorted(o["id"] for o in cands)
+            ambiguous += 1
+    return exact, ambiguous
+
+
+def build(db: pathlib.Path, out: pathlib.Path) -> dict:
+    variants = fetch_variants(db)
+    quality = fetch_quality(db)
+    srcs, links = fetch_sources(db)
+    ours = load_ours()
+
+    entries, rejected = [], []
+    for v in variants:
+        e, why = build_entry(v, quality, links)
+        if e is None:
+            rejected.append((v.get("variant_id"), why))
+        else:
+            entries.append(e)
+
+    entries.sort(key=lambda e: (brandkey(e["brand"]), e["name"], e["specs"]["hp"]))
+    assign_ids(entries)
+    exact, ambiguous = link_scored(entries, ours)
+
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+
+    by_brand = collections.defaultdict(list)
+    for e in entries:
+        by_brand[brandkey(e["brand"]) or "bilinmeyen"].append(e)
+
+    used_src = {s for e in entries for s in e["sources"]}
+    for brand, rows in sorted(by_brand.items()):
+        payload = {
+            "_comment": (
+                "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden "
+                "üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya "
+                "güvenilirlik yargısı taşımaz. Elle düzenlenmez."
+            ),
+            "brand": rows[0]["brand"],
+            "dataset": DATASET,
+            "entries": rows,
+        }
+        (out / f"{brand.replace(' ', '-')}.json").write_text(
+            json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    (out / "_sources.json").write_text(
+        json.dumps({
+            "_comment": (
+                "Katalog kaynak sicili. Bu kaynaklar data/sources.json içine YAZILMAZ: "
+                "o dosya puanı destekleyen kanıt sicilidir, buradaki kayıtlar ise yalnız "
+                "olgusal alanın nereden geldiğini gösterir (MK-22, MK-19 ile aynı ayrım). "
+                "Doğrulama etiketi üretmezler."
+            ),
+            "dataset": DATASET,
+            "sources": {k: v for k, v in sorted(srcs.items()) if k in used_src},
+        }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    return {
+        "toplam_varyant": len(variants),
+        "katalog_kaydi": len(entries),
+        "reddedilen": len(rejected),
+        "red_sebepleri": collections.Counter(w for _, w in rejected).most_common(5),
+        "puanlanmisa_bagli": exact,
+        "belirsiz_eslesme": ambiguous,
+        "yalniz_katalogda": sum(1 for e in entries
+                                if not e["scored_car_id"] and not e["possible_scored_car_ids"]),
+        "marka_dosyasi": len(by_brand),
+        "kaynak": len({s for e in entries for s in e["sources"]}),
+        "kalite_isaretli": sum(1 for e in entries if e["quality_flags"]),
+    }
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--db", required=True, type=pathlib.Path,
+                    help="P2.1 sqlite dosyasının yolu (paket depoya dahil değildir)")
+    ap.add_argument("--check", action="store_true",
+                    help="Üretilmiş katalog bugünkü kaynak veriyle uyumlu mu")
+    args = ap.parse_args()
+
+    if not args.db.exists():
+        print(f"HATA: kaynak veri paketi bulunamadı: {args.db}", file=sys.stderr)
+        sys.exit(2)
+
+    if args.check:
+        tmp = OUT.with_name("catalog.check-tmp")
+        build(args.db, tmp)
+        ok = True
+        if not OUT.exists():
+            print("HATA: data/catalog/ yok, önce betiği --check'siz çalıştırın.", file=sys.stderr)
+            ok = False
+        else:
+            real = {p.name for p in OUT.glob("*.json")}
+            new = {p.name for p in tmp.glob("*.json")}
+            if real != new:
+                print("HATA: katalog dosya listesi güncel değil.", file=sys.stderr)
+                ok = False
+            for n in sorted(real & new):
+                if (OUT / n).read_text(encoding="utf-8") != (tmp / n).read_text(encoding="utf-8"):
+                    print(f"HATA: catalog/{n} güncel değil.", file=sys.stderr)
+                    ok = False
+        shutil.rmtree(tmp)
+        if ok:
+            print("data/catalog/ güncel.")
+        sys.exit(0 if ok else 1)
+
+    stats = build(args.db, OUT)
+    for k, v in stats.items():
+        print(f"  {k:22} {v}")
+
+
+if __name__ == "__main__":
+    main()

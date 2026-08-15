@@ -1,0 +1,527 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Jaguar",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "jaguar-s-type-2-7-d-207-bg-207",
+      "name": "Jaguar S-Type 2.7 D · 207 bg",
+      "brand": "Jaguar",
+      "model_family": "S-Type",
+      "generation": null,
+      "years": "2004-2007",
+      "specs": {
+        "hp": 207,
+        "torque_nm": 435.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.7D 6AT RWD (207 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-jaguar-s-type-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0325bd2b1b6f4a7d5a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-s-type-2004.html"
+      }
+    },
+    {
+      "id": "jaguar-s-type-2-7d-207",
+      "name": "Jaguar S-Type 2.7D",
+      "brand": "Jaguar",
+      "model_family": "S-Type",
+      "generation": "X200",
+      "years": "2004-2008",
+      "specs": {
+        "hp": 207,
+        "torque_nm": 435.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "ZF 6HP",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "AJD-V6",
+        "engine_name": "2.7 V6 dizel"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-jaguar-s-type-2-7d",
+        "tech-olution-com-cars-jaguar-s-type-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-34d6cde3dc6dd17348",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-s-type-2004.html"
+      }
+    },
+    {
+      "id": "jaguar-s-type-3-0-v6-238",
+      "name": "Jaguar S-Type 3.0 V6",
+      "brand": "Jaguar",
+      "model_family": "S-Type",
+      "generation": "X200",
+      "years": "2000-2007",
+      "specs": {
+        "hp": 238,
+        "torque_nm": 293.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "ZF 6HP",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "AJ-V6",
+        "engine_name": "3.0 V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-jaguar-s-type-3-0-v6",
+        "tech-olution-com-cars-jaguar-s-type-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-758026b93e9b35b9fa",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-s-type-2004.html"
+      }
+    },
+    {
+      "id": "jaguar-x-type-2-5-v6-196",
+      "name": "Jaguar X-Type 2.5 V6",
+      "brand": "Jaguar",
+      "model_family": "X-Type",
+      "generation": "X400",
+      "years": "2001-2009",
+      "specs": {
+        "hp": 196,
+        "torque_nm": 244.0,
+        "displacement_l": 2.5,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "AJ-V6",
+        "engine_name": "2.5 V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-jaguar-x-type-2-5-v6",
+        "tech-olution-com-cars-jaguar-x-type-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6af436cb1aa2da4cd6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-x-type-2001.html"
+      }
+    },
+    {
+      "id": "jaguar-xf-2-0-turbo-240",
+      "name": "Jaguar XF 2.0 Turbo",
+      "brand": "Jaguar",
+      "model_family": "XF",
+      "generation": "X250",
+      "years": "2012-2015",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "740d xDrive 8AT AWD (313 HP) 8-Speed Automatic (Steptronic)",
+        "gears": 8,
+        "clutch": null,
+        "engine_code": "EcoBoost",
+        "engine_name": "2.0 Turbo"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-jaguar-xf-2-0-turbo",
+        "tech-toevolution-com-cars-jaguar-xf-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-24647912b6ce6a5163",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2012.html"
+      }
+    },
+    {
+      "id": "jaguar-xf-2-7-d-207-bg-207",
+      "name": "Jaguar XF 2.7 D · 207 bg",
+      "brand": "Jaguar",
+      "model_family": "XF",
+      "generation": "X250",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 207,
+        "torque_nm": 435.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.7D 6AT RWD (207 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-toevolution-com-cars-jaguar-xf-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c9cf080500eb228aff",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2007.html"
+      }
+    },
+    {
+      "id": "jaguar-xf-2-7d-207",
+      "name": "Jaguar XF 2.7D",
+      "brand": "Jaguar",
+      "model_family": "XF",
+      "generation": "X250",
+      "years": "2008-2010",
+      "specs": {
+        "hp": 207,
+        "torque_nm": 435.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "ZF 6HP",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "AJD-V6",
+        "engine_name": "2.7 V6 dizel"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-jaguar-xf-2-7d",
+        "tech-toevolution-com-cars-jaguar-xf-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f030307be879e8356c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2007.html"
+      }
+    },
+    {
+      "id": "jaguar-xf-3-0-d-240-bg-240",
+      "name": "Jaguar XF 3.0 D · 240 bg",
+      "brand": "Jaguar",
+      "model_family": "XF",
+      "generation": "X250",
+      "years": "2012-2015",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 500.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L DS V6 8AT RWD (271 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-toevolution-com-cars-jaguar-xf-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ac54cf8151ca60f6ba",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2012.html"
+      }
+    },
+    {
+      "id": "jaguar-xf-3-0-d-240-bg-240-2",
+      "name": "Jaguar XF 3.0 D · 240 bg",
+      "brand": "Jaguar",
+      "model_family": "XF",
+      "generation": "X250",
+      "years": "2012-2015",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 500.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 8AT RWD (275 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-jaguar-xf-sportbrake-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-98d6c75435be7901cb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-sportbrake-2012.html"
+      }
+    },
+    {
+      "id": "jaguar-xf-3-0-d-271-bg-271",
+      "name": "Jaguar XF 3.0 D · 271 bg",
+      "brand": "Jaguar",
+      "model_family": "XF",
+      "generation": "X250",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 271,
+        "torque_nm": 601.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L DS V6 8AT RWD (271 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-toevolution-com-cars-jaguar-xf-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2e11950fb9ed388997",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2007.html"
+      }
+    },
+    {
+      "id": "jaguar-xf-3-0-d-271-bg-271-2",
+      "name": "Jaguar XF 3.0 D · 271 bg",
+      "brand": "Jaguar",
+      "model_family": "XF",
+      "generation": "X250",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 271,
+        "torque_nm": 601.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L DS V6 8AT RWD (271 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-dfaa69acc9decf9ba3",
+        "tech-toevolution-com-cars-jaguar-xf-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-95f0ae2e5b15d0af59",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2007.html"
+      }
+    },
+    {
+      "id": "jaguar-xf-3-0-d-275-bg-275",
+      "name": "Jaguar XF 3.0 D · 275 bg",
+      "brand": "Jaguar",
+      "model_family": "XF",
+      "generation": "X250",
+      "years": "2012-2015",
+      "specs": {
+        "hp": 275,
+        "torque_nm": 601.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L DS V6 8AT RWD (271 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-toevolution-com-cars-jaguar-xf-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7abab7dc92fafc6bc7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2012.html"
+      }
+    },
+    {
+      "id": "jaguar-xf-3-0-d-275-bg-275-2",
+      "name": "Jaguar XF 3.0 D · 275 bg",
+      "brand": "Jaguar",
+      "model_family": "XF",
+      "generation": "X250",
+      "years": "2012-2015",
+      "specs": {
+        "hp": 275,
+        "torque_nm": 601.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 8AT RWD (275 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-jaguar-xf-sportbrake-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-20720935d5a44cf2c5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-sportbrake-2012.html"
+      }
+    },
+    {
+      "id": "jaguar-xf-3-0d-240",
+      "name": "Jaguar XF 3.0D",
+      "brand": "Jaguar",
+      "model_family": "XF",
+      "generation": "X250",
+      "years": "2009-2015",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 500.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "740d xDrive 8AT AWD (313 HP) 8-Speed Automatic (Steptronic)",
+        "gears": 8,
+        "clutch": null,
+        "engine_code": "AJV6D",
+        "engine_name": "3.0 V6 dizel"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-jaguar-xf-3-0d",
+        "tech--com-cars-jaguar-xf-sportbrake-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4d62243eb70728da32",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-sportbrake-2012.html"
+      }
+    }
+  ]
+}

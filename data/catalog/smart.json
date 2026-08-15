@@ -1,0 +1,44 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Smart",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "smart-forfour-1-5-109",
+      "name": "Smart Forfour 1.5",
+      "brand": "Smart",
+      "model_family": "Forfour",
+      "generation": "454",
+      "years": "2004-2006",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 145.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Robot",
+        "transmission_name": "Softouch Plus 6AMT",
+        "gears": 6,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "4A91",
+        "engine_name": "1.5 MIVEC"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-smart-forfour-1-5"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b8f2db5dc7d57502a6",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    }
+  ]
+}

@@ -546,10 +546,59 @@ def main() -> int:
                     "arayüz bu bandı gösterirken kırılır",
                 )
 
+    # --- katalog katmanı (MK-22) ---
+    # Katalog olgusal bir katmandır ve puan taşımaz. Buradaki denetimin tek işi, o
+    # sınırın korunduğunu ve kayıtların şekil olarak sağlam olduğunu doğrulamak.
+    # Katalog kaydı `verification` üretmez, ortalama kaynak sayısına da karışmaz.
+    catalog_dir = ROOT / "data" / "catalog"
+    catalog_entries: list[dict] = []
+    catalog_ids: set[str] = set()
+    scored_ids = {car["id"] for _, car in cars if "id" in car}
+    for path in sorted(catalog_dir.glob("*.json")):
+        if path.name == "_sources.json":
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            rep.error(f"catalog/{path.name}", "bozuk-json", str(exc))
+            continue
+        for entry in payload.get("entries", []):
+            catalog_entries.append(entry)
+            where = f"catalog/{path.name}"
+            eid = entry.get("id")
+            if not eid:
+                rep.error(where, "katalog-kimliksiz", "katalog kaydında id yok")
+                continue
+            if eid in catalog_ids:
+                rep.error(where, "katalog-kimlik-cakismasi",
+                          f"`{eid}` katalogda birden çok kez geçiyor")
+            catalog_ids.add(eid)
+            # Sınırın kendisi: katalog kaydı puan taşıyamaz.
+            for forbidden in ("scores", "evidence", "verification"):
+                if forbidden in entry:
+                    rep.error(where, "katalogda-puan",
+                              f"`{eid}` kaydında `{forbidden}` var; katalog katmanı "
+                              "yargı değil olgu taşır (MK-22)")
+            ref = entry.get("scored_car_id")
+            if ref and ref not in scored_ids:
+                rep.error(where, "katalog-kirik-bag",
+                          f"`{eid}` -> scored_car_id `{ref}` data/cars içinde yok")
+            for ref in entry.get("possible_scored_car_ids") or []:
+                if ref not in scored_ids:
+                    rep.error(where, "katalog-kirik-bag",
+                              f"`{eid}` -> aday `{ref}` data/cars içinde yok")
+
+    catalog_only = sum(
+        1 for e in catalog_entries
+        if not e.get("scored_car_id") and not e.get("possible_scored_car_ids")
+    )
+
     # --- özet ---
     verif = Counter(car["verification"] for _, car in cars if "verification" in car)
     summary = {
         "arac": len(cars),
+        "katalog_kaydi": len(catalog_entries),
+        "yalniz_katalogda": catalog_only,
         "kaynak": len(sources),
         "dogrulanmis": verif["verified"],
         "kismi_kaynak": verif["partial"],

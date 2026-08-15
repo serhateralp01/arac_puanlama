@@ -1,0 +1,903 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Chevrolet",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "chevrolet-aveo-1-4-101",
+      "name": "Chevrolet Aveo 1.4",
+      "brand": "Chevrolet",
+      "model_family": "Aveo",
+      "generation": "T250",
+      "years": "2008-2011",
+      "specs": {
+        "hp": 101,
+        "torque_nm": 131.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan/Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "F14D4",
+        "engine_name": "1.4 16V"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-chevrolet-aveo-1-4",
+        "tech-s-chevrolet-aveo-kalos-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5e0466975f5befc310",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-aveo-kalos-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "chevrolet-aveo-1-4-101-bg-101",
+      "name": "Chevrolet Aveo 1.4 · 101 bg",
+      "brand": "Chevrolet",
+      "model_family": "Aveo",
+      "generation": null,
+      "years": "2005-2005",
+      "specs": {
+        "hp": 101,
+        "torque_nm": 131.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L VVT 6AT FWD (153 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-chevrolet-aveo-1-4",
+        "src-3bf15fb4f0eebc1c3d"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3b37e6f3535207e5a8",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-aveo-kalos-sedan-2005.html"
+      }
+    },
+    {
+      "id": "chevrolet-aveo-1-4-101-bg-101-2",
+      "name": "Chevrolet Aveo 1.4 · 101 bg",
+      "brand": "Chevrolet",
+      "model_family": "Aveo",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 101,
+        "torque_nm": 132.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L VVT 6AT FWD (153 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-chevrolet-aveo-1-4",
+        "tech-s-chevrolet-aveo-kalos-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-13650bffc441536fcd",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-aveo-kalos-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "chevrolet-aveo-1-4-101-bg-101-3",
+      "name": "Chevrolet Aveo 1.4 · 101 bg",
+      "brand": "Chevrolet",
+      "model_family": "Aveo",
+      "generation": null,
+      "years": "2011-2016",
+      "specs": {
+        "hp": 101,
+        "torque_nm": 132.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L 4AT FWD (101 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-chevrolet-aveo-1-4",
+        "src-04ee3cc93e6e2ff1a3"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1dff3bd7a128579f10",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-aveo-sedan-2011.html"
+      }
+    },
+    {
+      "id": "chevrolet-captiva-2-0-vcdi-150",
+      "name": "Chevrolet Captiva 2.0 VCDi",
+      "brand": "Chevrolet",
+      "model_family": "Captiva",
+      "generation": "C100",
+      "years": "2007-2011",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "Z20S",
+        "engine_name": "2.0 VCDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-chevrolet-captiva-2-0-vcdi",
+        "tech-ion-com-cars-chevrolet-captiva-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b0b7bd3bec4d7a743d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-captiva-2006.html"
+      }
+    },
+    {
+      "id": "chevrolet-captiva-2-2-vcdi-6at-awd-184",
+      "name": "Chevrolet Captiva 2.2 VCDi 6AT AWD",
+      "brand": "Chevrolet",
+      "model_family": "Captiva",
+      "generation": "C140",
+      "years": "2011-2015",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 400.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "Z22D1",
+        "engine_name": "2.2L DSL AWD"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-chevrolet-captiva-2-2-vcdi-6at-awd",
+        "tech-ion-com-cars-chevrolet-captiva-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-97f86149cbb6074b47",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-captiva-2011.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-1-4-t-137-bg-137",
+      "name": "Chevrolet Cruze 1.4 T · 137 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2016-2018",
+      "specs": {
+        "hp": 137,
+        "torque_nm": 325.0,
+        "displacement_l": 1.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 9AT FWD (137 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6cc07d72a800544368",
+        "src-c1ef1f09acbf806cb6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1ee323c50be75a5452",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-2016.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-1-4-t-140-bg-140",
+      "name": "Chevrolet Cruze 1.4 T · 140 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L Turbo ECO 6AT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6cc07d72a800544368",
+        "tech-ution-com-cars-chevrolet-cruze-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-63204e5b8ab564d162",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-2009.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-1-4-t-140-bg-140-2",
+      "name": "Chevrolet Cruze 1.4 T · 140 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L Turbo ECO 6AT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6cc07d72a800544368",
+        "tech-ution-com-cars-chevrolet-cruze-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-da0cea26de2c52a4f0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-2009.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-1-4-t-153-bg-153",
+      "name": "Chevrolet Cruze 1.4 T · 153 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2016-2018",
+      "specs": {
+        "hp": 153,
+        "torque_nm": 240.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L VVT 6AT FWD (153 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6cc07d72a800544368",
+        "src-c1ef1f09acbf806cb6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9cb93b25827f6cfd25",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-2016.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-1-4-t-153-bg-153-2",
+      "name": "Chevrolet Cruze 1.4 T · 153 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2017-2017",
+      "specs": {
+        "hp": 153,
+        "torque_nm": 240.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L VVT 6AT FWD (153 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-15dd03ccd30efe3309",
+        "src-6cc07d72a800544368"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5395ba1f5762bc38e4",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-hatchback-2017.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-1-4-t-153-bg-153-3",
+      "name": "Chevrolet Cruze 1.4 T · 153 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 153,
+        "torque_nm": 239.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L VVT 6AT FWD (153 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-52d6fd768d2a735c91",
+        "src-6cc07d72a800544368"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4150a42a5696a6eeae",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-2018.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-1-6-124",
+      "name": "Chevrolet Cruze 1.6",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2009-2015",
+      "specs": {
+        "hp": 124,
+        "torque_nm": 155.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "AF17",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "gm-family1-16",
+        "engine_name": "A16XER"
+      },
+      "scored_car_id": "chevrolet-cruze-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-chevrolet-cruze-1-6",
+        "tech-ution-com-cars-chevrolet-cruze-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f465d03ea545ac76a6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-2009.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-1-6-113-bg-113",
+      "name": "Chevrolet Cruze 1.6 · 113 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 113,
+        "torque_nm": 153.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-inci-el-otomobil-chevrolet-cruze-1-6",
+        "tech-ution-com-cars-chevrolet-cruze-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-661e2eebb481e83d67",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-2009.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-1-6-124-bg-124",
+      "name": "Chevrolet Cruze 1.6 · 124 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 124,
+        "torque_nm": 155.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (109 HP)"
+      },
+      "scored_car_id": "chevrolet-cruze-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-inci-el-otomobil-chevrolet-cruze-1-6",
+        "tech-com-cars-chevrolet-cruze-wagon-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dd1cee3f9cb553c2e5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-wagon-2012.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-2-0-d-150-bg-150",
+      "name": "Chevrolet Cruze 2.0 D · 150 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0D 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ution-com-cars-chevrolet-cruze-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7f478f184547e642a7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-2009.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-2-0-d-163-bg-163",
+      "name": "Chevrolet Cruze 2.0 D · 163 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2009-2016",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 361.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L CDTI 6AT FWD (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ution-com-cars-chevrolet-cruze-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4fd6a998f9f6d22c53",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-2009.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-2-0-d-163-bg-163-2",
+      "name": "Chevrolet Cruze 2.0 D · 163 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 361.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L CDTI 6AT FWD (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-chevrolet-cruze-hb5-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7aa4763415441f3a14",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-hb5-2011.html"
+      }
+    },
+    {
+      "id": "chevrolet-cruze-2-0-d-163-bg-163-3",
+      "name": "Chevrolet Cruze 2.0 D · 163 bg",
+      "brand": "Chevrolet",
+      "model_family": "Cruze",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 361.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L CDTI 6AT FWD (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-com-cars-chevrolet-cruze-wagon-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-29e86e789a1d8b5498",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-cruze-wagon-2012.html"
+      }
+    },
+    {
+      "id": "chevrolet-epica-2-0-144",
+      "name": "Chevrolet Epica 2.0",
+      "brand": "Chevrolet",
+      "model_family": "Epica",
+      "generation": "V250",
+      "years": "2007-2011",
+      "specs": {
+        "hp": 144,
+        "torque_nm": 188.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "GM 6T40 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "X20D1",
+        "engine_name": "2.0 sıralı 6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-chevrolet-epica-2-0",
+        "tech-ution-com-cars-chevrolet-epica-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-20d7822f0e03ed438b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-epica-2006.html"
+      }
+    },
+    {
+      "id": "chevrolet-lacetti-1-6-109",
+      "name": "Chevrolet Lacetti 1.6",
+      "brand": "Chevrolet",
+      "model_family": "Lacetti",
+      "generation": "J200",
+      "years": "2004-2011",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan/Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "F16D3",
+        "engine_name": "1.6 16V"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-chevrolet-lacetti-1-6",
+        "tech-chevrolet-nubiralacetti-4-door-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3e31a350056fbe2f00",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-nubiralacetti-4-door-2004.html"
+      }
+    },
+    {
+      "id": "chevrolet-lacetti-1-6-109-bg-109",
+      "name": "Chevrolet Lacetti 1.6 · 109 bg",
+      "brand": "Chevrolet",
+      "model_family": "Lacetti",
+      "generation": null,
+      "years": "2004-2009",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ci-el-otomobil-chevrolet-lacetti-1-6",
+        "tech-chevrolet-nubiralacetti-4-door-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5ffdb7c29b9cf1c77f",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-nubiralacetti-4-door-2004.html"
+      }
+    },
+    {
+      "id": "chevrolet-orlando-2-0-vcdi-163",
+      "name": "Chevrolet Orlando 2.0 VCDi",
+      "brand": "Chevrolet",
+      "model_family": "Orlando",
+      "generation": "J309",
+      "years": "2011-2015",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 360.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "Z20D1",
+        "engine_name": "2.0 VCDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-chevrolet-orlando-2-0-vcdi",
+        "tech-ion-com-cars-chevrolet-orlando-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-86b7fb7032a94c36a1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-orlando-2010.html"
+      }
+    },
+    {
+      "id": "chevrolet-trax-1-4-turbo-6at-138",
+      "name": "Chevrolet Trax 1.4 Turbo 6AT",
+      "brand": "Chevrolet",
+      "model_family": "Trax",
+      "generation": "U200",
+      "years": "2017-2018",
+      "specs": {
+        "hp": 138,
+        "torque_nm": 201.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "GM 6T40 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "LUJ",
+        "engine_name": "1.4L Ecotec Turbo MFI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-tomobil-chevrolet-trax-1-4-turbo-6at",
+        "tech-lution-com-cars-chevrolet-trax-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cc37313b789ed83aba",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chevrolet-trax-2017.html"
+      }
+    }
+  ]
+}

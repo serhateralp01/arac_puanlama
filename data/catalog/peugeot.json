@@ -1,0 +1,3619 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Peugeot",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "peugeot-2008-2-nesil-1-2-puretech-eat8-130",
+      "name": "Peugeot 2008 (2. Nesil) 1.2 PureTech EAT8",
+      "brand": "Peugeot",
+      "model_family": "2008",
+      "generation": "2. Nesil",
+      "years": "2020-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 230.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "EAT8",
+        "gears": 8,
+        "clutch": null,
+        "engine_code": "psa-puretech-12",
+        "engine_name": "PureTech 130"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-2-1-2-puretech-eat8",
+        "peugeot-3008-2-1-2-puretech-eat8"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-mobil-peugeot-2008-1-2-puretech-eat8",
+        "tech-volution-com-cars-peugeot-2008-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2a40fc374018641690",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-2008-2019.html"
+      }
+    },
+    {
+      "id": "peugeot-2008-1-6-thp-156",
+      "name": "Peugeot 2008 1.6 THP",
+      "brand": "Peugeot",
+      "model_family": "2008",
+      "generation": null,
+      "years": "2014-2017",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "psa-ep6-thp",
+        "engine_name": "EP6DT"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-1-6-thp",
+        "peugeot-508-1-6-thp"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-peugeot-2008-1-6-thp",
+        "tech-lution-com-cars-peugeot-308-cc-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5493146ce806a9e5b8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2008.html"
+      }
+    },
+    {
+      "id": "peugeot-206-1-6-110",
+      "name": "Peugeot 206 1.6",
+      "brand": "Peugeot",
+      "model_family": "206",
+      "generation": null,
+      "years": "2001-2008",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 142.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "psa-tu5",
+        "engine_name": "TU5"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-206-1-6",
+        "peugeot-307-1-6"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-206-1-6",
+        "tech-n-com-cars-peugeot-206-3-doors-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-89acde2f8335c86f0f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-3-doors-2002.html"
+      }
+    },
+    {
+      "id": "peugeot-206-1-6-110-bg-110",
+      "name": "Peugeot 206 1.6 · 110 bg",
+      "brand": "Peugeot",
+      "model_family": "206",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-206-1-6",
+        "peugeot-307-1-6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-206-1-6",
+        "src-e9493cd71c9c7277c3",
+        "src-f10411146444695fb4"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d81eb45d84bea9e949",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-3-doors-1998.html"
+      }
+    },
+    {
+      "id": "peugeot-206-1-6-110-bg-110-2",
+      "name": "Peugeot 206 1.6 · 110 bg",
+      "brand": "Peugeot",
+      "model_family": "206",
+      "generation": null,
+      "years": "2001-2001",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 146.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-206-1-6",
+        "peugeot-307-1-6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-206-1-6",
+        "src-faa197241d8f45686b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1cb31ef7710c86f4ea",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-cc-2001.html"
+      }
+    },
+    {
+      "id": "peugeot-206-1-6-110-bg-110-3",
+      "name": "Peugeot 206 1.6 · 110 bg",
+      "brand": "Peugeot",
+      "model_family": "206",
+      "generation": null,
+      "years": "2002-2007",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 146.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-206-1-6",
+        "peugeot-307-1-6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-206-1-6",
+        "src-a378311b10926b93ef"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e44ec3dc06f9accf1a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-sw-2002.html"
+      }
+    },
+    {
+      "id": "peugeot-206-1-6-110-bg-110-4",
+      "name": "Peugeot 206 1.6 · 110 bg",
+      "brand": "Peugeot",
+      "model_family": "206",
+      "generation": null,
+      "years": "2002-2010",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-206-1-6",
+        "peugeot-307-1-6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-206-1-6",
+        "src-5e30bb0e9898e86e16",
+        "tech-n-com-cars-peugeot-206-3-doors-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-468f02963ec6719bc7",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-3-doors-2002.html"
+      }
+    },
+    {
+      "id": "peugeot-207-1-6-vti-4at-120",
+      "name": "Peugeot 207 1.6 VTi 4AT",
+      "brand": "Peugeot",
+      "model_family": "207",
+      "generation": "A7",
+      "years": "2006-2012",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "EP6",
+        "engine_name": "1.6L 16V VTi"
+      },
+      "scored_car_id": "peugeot-308-3d-1-6-vti-4at",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-peugeot-207-1-6-vti-4at",
+        "tech-n-com-cars-peugeot-207-5-doors-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c073c513e179ce8181",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-5-doors-2006.html"
+      }
+    },
+    {
+      "id": "peugeot-207-1-6-112-bg-112",
+      "name": "Peugeot 207 1.6 · 112 bg",
+      "brand": "Peugeot",
+      "model_family": "207",
+      "generation": null,
+      "years": "2009-2012",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L HDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-3ef45fc830ee148e99",
+        "src-98c272ea0d375608be"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e591e5b89e5a10da96",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-5-doors-2009.html"
+      }
+    },
+    {
+      "id": "peugeot-207-1-6-112-bg-112-2",
+      "name": "Peugeot 207 1.6 · 112 bg",
+      "brand": "Peugeot",
+      "model_family": "207",
+      "generation": null,
+      "years": "2009-2009",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L HDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-98c272ea0d375608be",
+        "src-dd37aa51b7ee72486f"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-aff480c9e6efca688a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-3-doors-2009.html"
+      }
+    },
+    {
+      "id": "peugeot-207-1-6-120-bg-120",
+      "name": "Peugeot 207 1.6 · 120 bg",
+      "brand": "Peugeot",
+      "model_family": "207",
+      "generation": null,
+      "years": "2006-2009",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "peugeot-308-3d-1-6-vti-4at",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-98c272ea0d375608be",
+        "src-b447424882ff165504",
+        "tech-n-com-cars-peugeot-207-5-doors-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8600258af4e72bb404",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-3-doors-2006.html"
+      }
+    },
+    {
+      "id": "peugeot-207-1-6-120-bg-120-2",
+      "name": "Peugeot 207 1.6 · 120 bg",
+      "brand": "Peugeot",
+      "model_family": "207",
+      "generation": null,
+      "years": "2007-2009",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "peugeot-308-3d-1-6-vti-4at",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-98c272ea0d375608be",
+        "src-e3e77941aeed8afd35"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a0f1d5d72033ed3ac9",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-cc-2006.html"
+      }
+    },
+    {
+      "id": "peugeot-207-1-6-120-bg-120-3",
+      "name": "Peugeot 207 1.6 · 120 bg",
+      "brand": "Peugeot",
+      "model_family": "207",
+      "generation": null,
+      "years": "2007-2007",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-3008-1-6-bluehdi",
+        "peugeot-308-1-6-bluehdi",
+        "peugeot-308-3d-1-6-vti-4at"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-98c272ea0d375608be",
+        "src-d6a96f5b58f45c593c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-17db5027e249dee764",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-sw-2007.html"
+      }
+    },
+    {
+      "id": "peugeot-208-1-2-puretech-110-bg-110",
+      "name": "Peugeot 208 1.2 PureTech · 110 bg",
+      "brand": "Peugeot",
+      "model_family": "208",
+      "generation": null,
+      "years": "2015-2019",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L PureTech 6AT FWD (131 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-208-5-doors-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c94a1ec73e8697396b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-208-5-doors-2015.html"
+      }
+    },
+    {
+      "id": "peugeot-208-1-2-puretech-130-bg-130",
+      "name": "Peugeot 208 1.2 PureTech · 130 bg",
+      "brand": "Peugeot",
+      "model_family": "208",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 230.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L PureTech 6AT FWD (131 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-2-1-2-puretech-eat8",
+        "peugeot-3008-2-1-2-puretech-eat8"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-208-5-doors-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ba431a684691724e4f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-208-5-doors-2019.html"
+      }
+    },
+    {
+      "id": "peugeot-3008-2-nesil-1-2-puretech-eat8-130",
+      "name": "Peugeot 3008 (2. Nesil) 1.2 PureTech EAT8",
+      "brand": "Peugeot",
+      "model_family": "3008",
+      "generation": "2. Nesil",
+      "years": "2020-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 230.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "EAT8",
+        "gears": 8,
+        "clutch": null,
+        "engine_code": "psa-puretech-12",
+        "engine_name": "PureTech 130"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-2-1-2-puretech-eat8",
+        "peugeot-3008-2-1-2-puretech-eat8"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-mobil-peugeot-3008-1-2-puretech-eat8",
+        "tech-volution-com-cars-peugeot-3008-2020-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-92203be6e448a45a08",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-3008-2020.html"
+      }
+    },
+    {
+      "id": "peugeot-3008-1-6-e-hdi-egs6-115",
+      "name": "Peugeot 3008 1.6 e-HDi EGS6",
+      "brand": "Peugeot",
+      "model_family": "3008",
+      "generation": "T84",
+      "years": "2009-2015",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV/MPV",
+        "transmission_type": "Robot",
+        "transmission_name": "EGS6 6AMT",
+        "gears": 6,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "DV6C",
+        "engine_name": "1.6L e-HDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-208-1-6-e-hdi",
+        "peugeot-301-1-6-hdi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-peugeot-3008-1-6-e-hdi-egs6",
+        "tech-volution-com-cars-peugeot-3008-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-12adae2f75e5d656ee",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-3008-2009.html"
+      }
+    },
+    {
+      "id": "peugeot-301-1-6-vti-otomatik-115",
+      "name": "Peugeot 301 1.6 VTi Otomatik",
+      "brand": "Peugeot",
+      "model_family": "301",
+      "generation": null,
+      "years": "2013-2019",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "psa-ep6-vti",
+        "engine_name": "EP6"
+      },
+      "scored_car_id": "peugeot-301-1-6-vti-otomatik",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-tomobil-peugeot-301-1-6-vti-otomatik",
+        "tech-evolution-com-cars-peugeot-301-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-91217652b17001cbc6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-301-2012.html"
+      }
+    },
+    {
+      "id": "peugeot-301-1-6-vti-115-bg-115",
+      "name": "Peugeot 301 1.6 VTi · 115 bg",
+      "brand": "Peugeot",
+      "model_family": "301",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "peugeot-301-1-6-vti-otomatik",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-301-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-83efbfb9b3f550d005",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-301-2012.html"
+      }
+    },
+    {
+      "id": "peugeot-301-1-6-vti-115-bg-115-2",
+      "name": "Peugeot 301 1.6 VTi · 115 bg",
+      "brand": "Peugeot",
+      "model_family": "301",
+      "generation": null,
+      "years": "2017-2017",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "peugeot-301-1-6-vti-otomatik",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-301-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-baa41c168d5c54cf76",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-301-2016.html"
+      }
+    },
+    {
+      "id": "peugeot-307-1-6-110",
+      "name": "Peugeot 307 1.6",
+      "brand": "Peugeot",
+      "model_family": "307",
+      "generation": null,
+      "years": "2001-2008",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 152.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "psa-tu5",
+        "engine_name": "TU5"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-206-1-6",
+        "peugeot-307-1-6"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-307-1-6",
+        "tech-n-com-cars-peugeot-307-5-doors-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-43856c7c2a1120d295",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-5-doors-2001.html"
+      }
+    },
+    {
+      "id": "peugeot-307-1-6-110-bg-110",
+      "name": "Peugeot 307 1.6 · 110 bg",
+      "brand": "Peugeot",
+      "model_family": "307",
+      "generation": null,
+      "years": "2001-2005",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-206-1-6",
+        "peugeot-307-1-6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-307-1-6",
+        "src-789513ea53677f22c7",
+        "tech-n-com-cars-peugeot-307-5-doors-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2ed5fad32031b8185c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-5-doors-2001.html"
+      }
+    },
+    {
+      "id": "peugeot-307-1-6-110-bg-110-2",
+      "name": "Peugeot 307 1.6 · 110 bg",
+      "brand": "Peugeot",
+      "model_family": "307",
+      "generation": null,
+      "years": "2002-2005",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 146.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-206-1-6",
+        "peugeot-307-1-6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-307-1-6",
+        "src-97c9792936aa364597"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1b7b363ba6c558d2bf",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-sw-2002-1.html"
+      }
+    },
+    {
+      "id": "peugeot-307-1-6-110-bg-110-3",
+      "name": "Peugeot 307 1.6 · 110 bg",
+      "brand": "Peugeot",
+      "model_family": "307",
+      "generation": null,
+      "years": "2002-2005",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 146.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-206-1-6",
+        "peugeot-307-1-6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-307-1-6",
+        "src-35af3262df1dab882e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e193cd7b4c9b33b31a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-sw-2002.html"
+      }
+    },
+    {
+      "id": "peugeot-307-1-6-110-bg-110-4",
+      "name": "Peugeot 307 1.6 · 110 bg",
+      "brand": "Peugeot",
+      "model_family": "307",
+      "generation": null,
+      "years": "2005-2008",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-206-1-6",
+        "peugeot-307-1-6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-307-1-6",
+        "src-6330b15d2c4d800fcd"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cb7b8f92342f4eae41",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-5-doors-2005.html"
+      }
+    },
+    {
+      "id": "peugeot-307-1-6-110-bg-110-5",
+      "name": "Peugeot 307 1.6 · 110 bg",
+      "brand": "Peugeot",
+      "model_family": "307",
+      "generation": null,
+      "years": "2005-2008",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-206-1-6",
+        "peugeot-307-1-6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-307-1-6",
+        "src-60ff1701b5122c695c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f2437f5c34c2537021",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-sw-2005.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-2-puretech-130-bg-130",
+      "name": "Peugeot 308 1.2 PureTech · 130 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2013-2017",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 230.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L THP Puretech 6AT (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-2-1-2-puretech-eat8",
+        "peugeot-3008-2-1-2-puretech-eat8"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-308-5-doors-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d50b4efac80c6b9cc1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2013.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-2-puretech-130-bg-130-2",
+      "name": "Peugeot 308 1.2 PureTech · 130 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 230.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L PureTech 6AT FWD (131 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-2-1-2-puretech-eat8",
+        "peugeot-3008-2-1-2-puretech-eat8"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-308-sw-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-89d74a25a15055ea2e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2014.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-2-puretech-130-bg-130-3",
+      "name": "Peugeot 308 1.2 PureTech · 130 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 230.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L PureTech 6AT FWD (131 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-2-1-2-puretech-eat8",
+        "peugeot-3008-2-1-2-puretech-eat8"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-308-sw-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-97cf1e9beb4d0b6ddf",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2017.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-2-puretech-131-bg-131",
+      "name": "Peugeot 308 1.2 PureTech · 131 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 131,
+        "torque_nm": 230.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L PureTech 6AT FWD (131 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-308-5-doors-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-384b331f75031f6571",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-5-bluehdi-112-bg-112",
+      "name": "Peugeot 308 1.5 BlueHDI · 112 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L HDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-308-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-37649108e84973ff09",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-5-bluehdi-120-bg-120",
+      "name": "Peugeot 308 1.5 BlueHDI · 120 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L HDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": "peugeot-308-1-6-bluehdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-308-sw-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-397f872afc85383ada",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2014.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-5-bluehdi-120-bg-120-2",
+      "name": "Peugeot 308 1.5 BlueHDI · 120 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L HDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-3008-1-6-bluehdi",
+        "peugeot-308-1-6-bluehdi"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-308-5-doors-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f68ed58e417fe92911",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-5-bluehdi-120-bg-120-3",
+      "name": "Peugeot 308 1.5 BlueHDI · 120 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L HDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-3008-1-6-bluehdi",
+        "peugeot-308-1-6-bluehdi"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-308-sw-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ee5613856ed377fbf8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2017.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-6-bluehdi-120",
+      "name": "Peugeot 308 1.6 BlueHDi",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-dv6",
+        "engine_name": "DV6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-3008-1-6-bluehdi",
+        "peugeot-308-1-6-bluehdi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-peugeot-308-1-6-bluehdi",
+        "tech-n-com-cars-peugeot-308-5-doors-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8a09f62e30f2195698",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-6-thp-156",
+      "name": "Peugeot 308 1.6 THP",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2009-2013",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin AF40-6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-ep6-thp",
+        "engine_name": "EP6DT"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-308-1-6-thp",
+        "peugeot-508-1-6-thp"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-peugeot-308-1-6-thp",
+        "tech-n-com-cars-peugeot-308-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fecea1772d08af9a97",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-6-thp-140-bg-140",
+      "name": "Peugeot 308 1.6 THP · 140 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-308-sw-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e94ac7abb04a0b316b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2008.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-6-thp-140-bg-140-2",
+      "name": "Peugeot 308 1.6 THP · 140 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-308-cc-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-36a8204ac6d6fa34ff",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2008.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-6-thp-140-bg-140-3",
+      "name": "Peugeot 308 1.6 THP · 140 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-308-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a040ab1ccdfb5757fc",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-6-thp-150-bg-150",
+      "name": "Peugeot 308 1.6 THP · 150 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-308-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-09a8988a677b1c4dfd",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-6-thp-156-bg-156",
+      "name": "Peugeot 308 1.6 THP · 156 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-308-1-6-thp",
+        "peugeot-508-1-6-thp"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-308-cc-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bc3267888fbbc10340",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2008.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-6-thp-156-bg-156-2",
+      "name": "Peugeot 308 1.6 THP · 156 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-308-1-6-thp",
+        "peugeot-508-1-6-thp"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-308-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bcb14ce7e505d9fa6d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-6-vti-120-bg-120",
+      "name": "Peugeot 308 1.6 VTi · 120 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "peugeot-308-3d-1-6-vti-4at",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-308-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e7f5b9c61a22dfa94b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "peugeot-308-1-6-vti-156-bg-156",
+      "name": "Peugeot 308 1.6 VTi · 156 bg",
+      "brand": "Peugeot",
+      "model_family": "308",
+      "generation": null,
+      "years": "2011-2015",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-1-6-thp",
+        "peugeot-308-1-6-thp",
+        "peugeot-508-1-6-thp"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-308-cc-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0df7cc86ac3bf92cc0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2011.html"
+      }
+    },
+    {
+      "id": "peugeot-308-3-kapi-1-6-vti-4at-120",
+      "name": "Peugeot 308 3 Kapı 1.6 VTi 4AT",
+      "brand": "Peugeot",
+      "model_family": "308 3 Kapı",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "psa-ep6-vti",
+        "engine_name": "EP6"
+      },
+      "scored_car_id": "peugeot-308-3d-1-6-vti-4at",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-mobil-peugeot-308-3-kapi-1-6-vti-4at",
+        "tech-n-com-cars-peugeot-308-3-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c02ee532250479ee68",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-3-doors-2008.html"
+      }
+    },
+    {
+      "id": "peugeot-308-gt-2-0-bluehdi-eat8-180",
+      "name": "Peugeot 308 GT 2.0 BlueHDi EAT8",
+      "brand": "Peugeot",
+      "model_family": "308 GT",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "EAT8",
+        "gears": 8,
+        "clutch": null,
+        "engine_code": "psa-dw10",
+        "engine_name": "DW10"
+      },
+      "scored_car_id": "peugeot-308-2-2-0-bluehdi-gt-8at",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-peugeot-308-gt-2-0-bluehdi-eat8",
+        "tech-n-com-cars-peugeot-308-5-doors-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b642668bfe3c1032f1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html"
+      }
+    },
+    {
+      "id": "peugeot-406-2-0-136",
+      "name": "Peugeot 406 2.0",
+      "brand": "Peugeot",
+      "model_family": "406",
+      "generation": "D9",
+      "years": "2000-2004",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "EW10J4",
+        "engine_name": "2.0 16V"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-406-2-0",
+        "tech-evolution-com-cars-peugeot-406-1999-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0497215baafe3d011a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html"
+      }
+    },
+    {
+      "id": "peugeot-406-2-0-138-bg-138",
+      "name": "Peugeot 406 2.0 · 138 bg",
+      "brand": "Peugeot",
+      "model_family": "406",
+      "generation": null,
+      "years": "2000-2004",
+      "specs": {
+        "hp": 138,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 16V 4AT FWD (138 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-406-2-0",
+        "tech-evolution-com-cars-peugeot-406-1999-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-351e97900863187bbe",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html"
+      }
+    },
+    {
+      "id": "peugeot-406-2-0-138-bg-138-2",
+      "name": "Peugeot 406 2.0 · 138 bg",
+      "brand": "Peugeot",
+      "model_family": "406",
+      "generation": null,
+      "years": "2000-2004",
+      "specs": {
+        "hp": 138,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 16V 4AT FWD (138 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-peugeot-406-2-0",
+        "src-e9b1dd35521bd05ebd"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bd3c71097d3888b115",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-break-1999.html"
+      }
+    },
+    {
+      "id": "peugeot-406-3-0-194-bg-194",
+      "name": "Peugeot 406 3.0 · 194 bg",
+      "brand": "Peugeot",
+      "model_family": "406",
+      "generation": null,
+      "years": "2000-2004",
+      "specs": {
+        "hp": 194,
+        "torque_nm": 267.0,
+        "displacement_l": 2.9,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 24V 6AT FWD (211 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-56efcac598458b811c",
+        "tech-evolution-com-cars-peugeot-406-1999-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4c9b26ca06a36380b5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html"
+      }
+    },
+    {
+      "id": "peugeot-406-3-0-194-bg-194-2",
+      "name": "Peugeot 406 3.0 · 194 bg",
+      "brand": "Peugeot",
+      "model_family": "406",
+      "generation": null,
+      "years": "2000-2004",
+      "specs": {
+        "hp": 194,
+        "torque_nm": 267.0,
+        "displacement_l": 2.9,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 24V 6AT FWD (211 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-56efcac598458b811c",
+        "src-e9b1dd35521bd05ebd"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2a76a77269f24e2ec7",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-break-1999.html"
+      }
+    },
+    {
+      "id": "peugeot-406-3-0-210-bg-210",
+      "name": "Peugeot 406 3.0 · 210 bg",
+      "brand": "Peugeot",
+      "model_family": "406",
+      "generation": null,
+      "years": "2000-2004",
+      "specs": {
+        "hp": 210,
+        "torque_nm": 285.0,
+        "displacement_l": 2.9,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 24V 6AT FWD (211 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-56efcac598458b811c",
+        "tech-evolution-com-cars-peugeot-406-1999-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-388aadf9283cffe8eb",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html"
+      }
+    },
+    {
+      "id": "peugeot-406-3-0-210-bg-210-2",
+      "name": "Peugeot 406 3.0 · 210 bg",
+      "brand": "Peugeot",
+      "model_family": "406",
+      "generation": null,
+      "years": "2003-2004",
+      "specs": {
+        "hp": 210,
+        "torque_nm": 285.0,
+        "displacement_l": 2.9,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 24V 6AT FWD (211 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-56efcac598458b811c",
+        "src-f01d7a9781da16c555"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-924cdafae2d841add1",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-coupe-2003.html"
+      }
+    },
+    {
+      "id": "peugeot-407-2-7-hdi-204-bg-204",
+      "name": "Peugeot 407 2.7 HDi · 204 bg",
+      "brand": "Peugeot",
+      "model_family": "407",
+      "generation": null,
+      "years": "2004-2010",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 440.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.7L V6 HDi 6AT FWD (204 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-407-sw-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7f4e74015f5b2ca85b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-407-sw-2004.html"
+      }
+    },
+    {
+      "id": "peugeot-407-2-7-hdi-204-bg-204-2",
+      "name": "Peugeot 407 2.7 HDi · 204 bg",
+      "brand": "Peugeot",
+      "model_family": "407",
+      "generation": null,
+      "years": "2004-2010",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 440.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.7L V6 HDi 6AT FWD (204 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-407-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-06948aafc98e87bf2b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-407-2004.html"
+      }
+    },
+    {
+      "id": "peugeot-407-2-7-v6-hdi-6at-204",
+      "name": "Peugeot 407 2.7 V6 HDi 6AT",
+      "brand": "Peugeot",
+      "model_family": "407",
+      "generation": "6D",
+      "years": "2004-2010",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 440.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "DT17",
+        "engine_name": "2.7L V6 HDiF 26V"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-peugeot-407-2-7-v6-hdi-6at",
+        "tech-evolution-com-cars-peugeot-407-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d4264b824b801c848b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-407-2004.html"
+      }
+    },
+    {
+      "id": "peugeot-5008-1-6-e-hdi-egs6-115",
+      "name": "Peugeot 5008 1.6 e-HDi EGS6",
+      "brand": "Peugeot",
+      "model_family": "5008",
+      "generation": "T87",
+      "years": "2009-2016",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "Robot",
+        "transmission_name": "EGS6 6AMT",
+        "gears": 6,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "DV6C",
+        "engine_name": "1.6L e-HDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-208-1-6-e-hdi",
+        "peugeot-301-1-6-hdi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-peugeot-5008-1-6-e-hdi-egs6",
+        "tech-volution-com-cars-peugeot-5008-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-643344be0319fd76ff",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-5008-2009.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-bluehdi-115-bg-115",
+      "name": "Peugeot 508 1.6 BlueHDi · 115 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L HDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": "peugeot-301-1-6-vti-otomatik",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-508-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ce7a109885c9e96da2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-bluehdi-115-bg-115-2",
+      "name": "Peugeot 508 1.6 BlueHDi · 115 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L HDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": "peugeot-301-1-6-vti-otomatik",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-508-sw-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-686d25bb3d067bb1a4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-bluehdi-130-bg-130",
+      "name": "Peugeot 508 1.6 BlueHDi · 130 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 300.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L BlueHDI 8AT FWD (130 HP)"
+      },
+      "scored_car_id": "peugeot-5008-1-5-bluehdi-eat8",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-508-sw-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0bd9c860077f333e59",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2018.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-bluehdi-130-bg-130-2",
+      "name": "Peugeot 508 1.6 BlueHDi · 130 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 300.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L BlueHDI 8AT FWD (130 HP)"
+      },
+      "scored_car_id": "peugeot-5008-1-5-bluehdi-eat8",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-508-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-887a2e31500ae86db5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2018.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-thp-156",
+      "name": "Peugeot 508 1.6 THP",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2011-2018",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 244.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin AF40-6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-ep6-thp",
+        "engine_name": "EP6DT"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-1-6-thp",
+        "peugeot-308-1-6-thp",
+        "peugeot-508-1-6-thp"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-peugeot-508-1-6-thp",
+        "tech-n-com-cars-peugeot-508-berline-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2f2938208ed654fb51",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-thp-120-bg-120",
+      "name": "Peugeot 508 1.6 THP · 120 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-3008-1-6-bluehdi",
+        "peugeot-308-1-6-bluehdi"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-inci-el-otomobil-peugeot-508-1-6-thp",
+        "tech-evolution-com-cars-peugeot-508-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-38f7e055a75f9bf096",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-thp-120-bg-120-2",
+      "name": "Peugeot 508 1.6 THP · 120 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-3008-1-6-bluehdi",
+        "peugeot-308-1-6-bluehdi"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-inci-el-otomobil-peugeot-508-1-6-thp",
+        "tech-lution-com-cars-peugeot-508-sw-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b7eb77201a6a7fa9b7",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-thp-156-bg-156",
+      "name": "Peugeot 508 1.6 THP · 156 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2010-2010",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 244.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "peugeot-308-1-6-thp",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-508-berline-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0dbf9bc67d4a32fa76",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-thp-156-bg-156-2",
+      "name": "Peugeot 508 1.6 THP · 156 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2010-2014",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 244.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-1-6-thp",
+        "peugeot-308-1-6-thp",
+        "peugeot-508-1-6-thp"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-508-sw-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-20874f0053978ea031",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2010.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-thp-165-bg-165",
+      "name": "Peugeot 508 1.6 THP · 165 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-508-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9b91c6f683568ac972",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-thp-165-bg-165-2",
+      "name": "Peugeot 508 1.6 THP · 165 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-508-sw-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-68e31c64b7353a7567",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-vti-180-bg-180",
+      "name": "Peugeot 508 1.6 VTi · 180 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-508-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a6912e5186352f333c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2018.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-vti-224-bg-224",
+      "name": "Peugeot 508 1.6 VTi · 224 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 224,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-508-sw-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-10e46909258e4dc0a8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2018.html"
+      }
+    },
+    {
+      "id": "peugeot-508-1-6-vti-225-bg-225",
+      "name": "Peugeot 508 1.6 VTi · 225 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 225,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-508-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a308c38e681f1e5e4b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2018.html"
+      }
+    },
+    {
+      "id": "peugeot-508-2-0-hdi-163",
+      "name": "Peugeot 508 2.0 HDi",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2011-2018",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 346.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin AF40-6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-dw10",
+        "engine_name": "DW10"
+      },
+      "scored_car_id": "peugeot-508-2-0-hdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-peugeot-508-2-0-hdi",
+        "tech-n-com-cars-peugeot-508-berline-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6ec71853c593cff3b4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html"
+      }
+    },
+    {
+      "id": "peugeot-508-2-0-hdi-160-bg-160",
+      "name": "Peugeot 508 2.0 HDi · 160 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L BlueHDI 6AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-508-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7f28ad4b773f84fa2a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html"
+      }
+    },
+    {
+      "id": "peugeot-508-2-0-hdi-163-bg-163",
+      "name": "Peugeot 508 2.0 HDi · 163 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2010-2014",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 346.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L BlueHDI 6AT FWD (180 HP)"
+      },
+      "scored_car_id": "peugeot-508-2-0-hdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-508-sw-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-eefa145c4ced2b47fb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2010.html"
+      }
+    },
+    {
+      "id": "peugeot-508-2-0-hdi-163-bg-163-2",
+      "name": "Peugeot 508 2.0 HDi · 163 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2010-2010",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 346.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L BlueHDI 6AT FWD (180 HP)"
+      },
+      "scored_car_id": "peugeot-508-2-0-hdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-peugeot-508-berline-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-96e26867b88ded5805",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html"
+      }
+    },
+    {
+      "id": "peugeot-508-2-0-hdi-180-bg-180",
+      "name": "Peugeot 508 2.0 HDi · 180 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L BlueHDI 6AT FWD (180 HP)"
+      },
+      "scored_car_id": "peugeot-308-2-2-0-bluehdi-gt-8at",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "market-inci-el-otomobil-peugeot-508-2-0-hdi",
+        "src-c945f6e00db3ab9123",
+        "tech-evolution-com-cars-peugeot-508-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7956ab71bfe1729c71",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html"
+      }
+    },
+    {
+      "id": "peugeot-508-2-0-hdi-180-bg-180-2",
+      "name": "Peugeot 508 2.0 HDi · 180 bg",
+      "brand": "Peugeot",
+      "model_family": "508",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L BlueHDI 6AT FWD (180 HP)"
+      },
+      "scored_car_id": "peugeot-308-2-2-0-bluehdi-gt-8at",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-peugeot-508-sw-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-10fd62d192606e7e47",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html"
+      }
+    },
+    {
+      "id": "peugeot-607-2-2-hdi-4at-133",
+      "name": "Peugeot 607 2.2 HDi 4AT",
+      "brand": "Peugeot",
+      "model_family": "607",
+      "generation": "9D",
+      "years": "2005-2010",
+      "specs": {
+        "hp": 133,
+        "torque_nm": 314.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "ZF 4HP20 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "DW12",
+        "engine_name": "2.2L HDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-peugeot-607-2-2-hdi-4at",
+        "tech-evolution-com-cars-peugeot-607-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2bb852edca81a81a7f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+      }
+    },
+    {
+      "id": "peugeot-607-2-2-133-bg-133",
+      "name": "Peugeot 607 2.2 · 133 bg",
+      "brand": "Peugeot",
+      "model_family": "607",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 133,
+        "torque_nm": 314.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.2L HDi 4AT FWD (136 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c54ccee3402362e5c5",
+        "tech-evolution-com-cars-peugeot-607-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-042e05fe45226b6bcd",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+      }
+    },
+    {
+      "id": "peugeot-607-2-2-136-bg-136",
+      "name": "Peugeot 607 2.2 · 136 bg",
+      "brand": "Peugeot",
+      "model_family": "607",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 317.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.2L HDi 4AT FWD (136 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c54ccee3402362e5c5",
+        "src-c7e25d22a48c6d5da0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-065200c3a2d1f0ed04",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2000.html"
+      }
+    },
+    {
+      "id": "peugeot-607-2-2-158-bg-158",
+      "name": "Peugeot 607 2.2 · 158 bg",
+      "brand": "Peugeot",
+      "model_family": "607",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 158,
+        "torque_nm": 217.0,
+        "displacement_l": 2.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.2L 16V 4AT FWD (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c54ccee3402362e5c5",
+        "tech-evolution-com-cars-peugeot-607-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f8fed49a3f9414a80f",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+      }
+    },
+    {
+      "id": "peugeot-607-2-2-160-bg-160",
+      "name": "Peugeot 607 2.2 · 160 bg",
+      "brand": "Peugeot",
+      "model_family": "607",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 217.0,
+        "displacement_l": 2.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.2L 16V 4AT FWD (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c54ccee3402362e5c5",
+        "src-c7e25d22a48c6d5da0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b182d270fe6a94e754",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2000.html"
+      }
+    },
+    {
+      "id": "peugeot-607-2-2-163-bg-163",
+      "name": "Peugeot 607 2.2 · 163 bg",
+      "brand": "Peugeot",
+      "model_family": "607",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 220.0,
+        "displacement_l": 2.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.2L 16V 4AT FWD (163 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c54ccee3402362e5c5",
+        "tech-evolution-com-cars-peugeot-607-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a0b788313bcd138f1c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+      }
+    },
+    {
+      "id": "peugeot-607-2-7-hdi-204-bg-204",
+      "name": "Peugeot 607 2.7 HDi · 204 bg",
+      "brand": "Peugeot",
+      "model_family": "607",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 441.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.7L V6 HDi 6AT FWD (204 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-607-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-38915f95f0eec90693",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+      }
+    },
+    {
+      "id": "peugeot-607-3-0-210-bg-210",
+      "name": "Peugeot 607 3.0 · 210 bg",
+      "brand": "Peugeot",
+      "model_family": "607",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 210,
+        "torque_nm": 285.0,
+        "displacement_l": 2.9,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 24V 6AT FWD (211 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-17dfecea493ddef5d6",
+        "src-c7e25d22a48c6d5da0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e79e44bc7d0677453a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2000.html"
+      }
+    },
+    {
+      "id": "peugeot-607-3-0-211-bg-211",
+      "name": "Peugeot 607 3.0 · 211 bg",
+      "brand": "Peugeot",
+      "model_family": "607",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 211,
+        "torque_nm": 290.0,
+        "displacement_l": 2.9,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 24V 6AT FWD (211 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-17dfecea493ddef5d6",
+        "tech-evolution-com-cars-peugeot-607-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-25539b7fe19d2e80c0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+      }
+    },
+    {
+      "id": "peugeot-807-2-0-hdi-4at-110",
+      "name": "Peugeot 807 2.0 HDi 4AT",
+      "brand": "Peugeot",
+      "model_family": "807",
+      "generation": "179",
+      "years": "2002-2014",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 270.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "DW10",
+        "engine_name": "2.0L HDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-peugeot-807-2-0-hdi-4at",
+        "tech-evolution-com-cars-peugeot-807-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e4cc1df6847f4072c3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-807-2002.html"
+      }
+    },
+    {
+      "id": "peugeot-peugeot-3008-1-6-bluehdi-120",
+      "name": "Peugeot Peugeot 3008 1.6 BlueHDi",
+      "brand": "Peugeot",
+      "model_family": "3008",
+      "generation": "2017-2019 pazar dilimi",
+      "years": "2017-2019",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-dv6",
+        "engine_name": "DV6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-3008-1-6-bluehdi",
+        "peugeot-308-1-6-bluehdi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "au7o_peugeot308_known_issues",
+        "motor1_psa_suv_eat",
+        "propeugeotspares_16hdi_egr",
+        "teknikotomatik_aisin_6ileri",
+        "trbox"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-0a2a111028b6176837",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://au7o.io/known-issues/peugeot-308"
+      }
+    },
+    {
+      "id": "peugeot-peugeot-301-1-6-hdi-115",
+      "name": "Peugeot Peugeot 301 1.6 HDi",
+      "brand": "Peugeot",
+      "model_family": "301",
+      "generation": "2013-2020 pazar dilimi",
+      "years": "2013-2020",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Robot",
+        "transmission_name": "EGS6 6AMT",
+        "gears": 6,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "psa-dv6",
+        "engine_name": "DV6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-208-1-6-e-hdi",
+        "peugeot-301-1-6-hdi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "au7o_peugeot308_known_issues",
+        "propeugeotspares_16hdi_egr",
+        "trbox"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-fe5003dffa372274b4",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.araclo.com/blog/otomatik-sanziman-turleri-karsilastirmasi-tam-otomatik-cift-kavramali-ve-cvt-turkiyede-hangi-araclarda-bulunur"
+      }
+    },
+    {
+      "id": "peugeot-peugeot-5008-1-5-bluehdi-eat8-130",
+      "name": "Peugeot Peugeot 5008 1.5 BlueHDi EAT8",
+      "brand": "Peugeot",
+      "model_family": "5008",
+      "generation": "2020-2020 pazar dilimi",
+      "years": "2020-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 300.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "EAT8",
+        "gears": 8,
+        "clutch": null,
+        "engine_code": "psa-bluehdi-15",
+        "engine_name": "BlueHDi 130, DV5RC, 1.5 BlueHDi"
+      },
+      "scored_car_id": "peugeot-5008-1-5-bluehdi-eat8",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "araclo_c5aircross",
+        "erenservis_eat8",
+        "motor1_psa_suv_eat"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-a6ce2c6d5b23842f75",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.araclo.com/blog/citroen-c5-aircross-1.5-bluehdi-kronik-sorunlari-eksantrik-zinciri-gercegi-ve-kullanici-yorumlari-2026"
+      }
+    },
+    {
+      "id": "peugeot-rcz-1-6-thp-6at-156",
+      "name": "Peugeot RCZ 1.6 THP 6AT",
+      "brand": "Peugeot",
+      "model_family": "RCZ",
+      "generation": "T75",
+      "years": "2009-2015",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "EP6CDT",
+        "engine_name": "1.6L THP"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-2008-1-6-thp",
+        "peugeot-308-1-6-thp",
+        "peugeot-508-1-6-thp"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-peugeot-rcz-1-6-thp-6at",
+        "tech-evolution-com-cars-peugeot-rcz-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-66856e910cf7bfcc40",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-rcz-2009.html"
+      }
+    },
+    {
+      "id": "peugeot-rcz-1-6-thp-156-bg-156",
+      "name": "Peugeot RCZ 1.6 THP · 156 bg",
+      "brand": "Peugeot",
+      "model_family": "RCZ",
+      "generation": null,
+      "years": "2009-2013",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "peugeot-308-1-6-thp",
+        "peugeot-508-1-6-thp"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-rcz-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4e33ccce9a5aaa45e9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-rcz-2009.html"
+      }
+    },
+    {
+      "id": "peugeot-rcz-1-6-thp-158-bg-158",
+      "name": "Peugeot RCZ 1.6 THP · 158 bg",
+      "brand": "Peugeot",
+      "model_family": "RCZ",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 158,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-evolution-com-cars-peugeot-rcz-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b160cd01f4aaef8f18",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-rcz-2013.html"
+      }
+    }
+  ]
+}

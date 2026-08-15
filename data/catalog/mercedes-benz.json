@@ -1,0 +1,4383 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Mercedes",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "mercedes-mercedes-c200-w205-9g-tronic-184",
+      "name": "Mercedes Mercedes C200 (W205) 9G-Tronic",
+      "brand": "Mercedes",
+      "model_family": "C200 9G-Tronic",
+      "generation": "W205",
+      "years": "2014-2018",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 300.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "350 BlueTEC 9AT (252 HP) 9-Speed Automatic (9G-Tronic)",
+        "gears": 9,
+        "clutch": null,
+        "engine_code": "mb-m274",
+        "engine_name": "M274"
+      },
+      "scored_car_id": "mercedes-c200-w205-9g-tronic",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "asrgearbox_9gtronic",
+        "mercedesassistance_m274"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-91611c774abd08127d",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.asrgearboxrepairs.co.uk/9g-tronic-mercedes-9-speed-auto/"
+      }
+    },
+    {
+      "id": "mercedes-benz-a-a-180-cdi-109-bg-109",
+      "name": "Mercedes-Benz A A 180 CDI · 109 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "A A 180 CDI",
+      "generation": "W169",
+      "years": "2004-2004",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 249.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "200 CDI CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-3c9c1ac0e8cd5dcf54",
+        "tech-rs-mercedes-benz-a-klasse-w169-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8a2a7e9fe10b7e2c73",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w169-2004.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-a-a-180-cdi-109-bg-109-2",
+      "name": "Mercedes-Benz A A 180 CDI · 109 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "A A 180 CDI",
+      "generation": "W169",
+      "years": "2004-2004",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 249.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "200 CDI CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-3c9c1ac0e8cd5dcf54",
+        "src-786704d942e31341d6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-791880c4459f09a1d3",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-3-doors-w169-2004.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-a-a-180-cdi-109-bg-109-3",
+      "name": "Mercedes-Benz A A 180 CDI · 109 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "A A 180 CDI",
+      "generation": "W176",
+      "years": "2012-2012",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 249.0,
+        "displacement_l": 1.8,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "B 180 7AT FWD (136 HP) 7-Speed Automatic Dct",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "180 CDI 7AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-3c9c1ac0e8cd5dcf54",
+        "tech-rs-mercedes-benz-a-klasse-w176-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8d841a9b6c8538b90f",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w176-2012.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-a-a-180-cdi-116-bg-116",
+      "name": "Mercedes-Benz A A 180 CDI · 116 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "A A 180 CDI",
+      "generation": "W177",
+      "years": "2018-2020",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "B 180 7AT FWD (136 HP) 7-Speed Automatic Dct",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "180 CDI 7AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-3c9c1ac0e8cd5dcf54",
+        "src-feb163eb0e98951829"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f3c6851c088c2b9274",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-class-w177-2018.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-a-a-180-cdi-140-bg-140",
+      "name": "Mercedes-Benz A A 180 CDI · 140 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "A A 180 CDI",
+      "generation": "W169",
+      "years": "2004-2004",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 300.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "200 CDI CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-3c9c1ac0e8cd5dcf54",
+        "tech-rs-mercedes-benz-a-klasse-w169-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2b5a7c5514dede7ec9",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w169-2004.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-a-a-180-cdi-140-bg-140-2",
+      "name": "Mercedes-Benz A A 180 CDI · 140 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "A A 180 CDI",
+      "generation": "W169",
+      "years": "2004-2004",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 300.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "200 CDI CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-3c9c1ac0e8cd5dcf54",
+        "src-786704d942e31341d6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fefb73486ee9478ad2",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-3-doors-w169-2004.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-a-a-180-116-bg-116",
+      "name": "Mercedes-Benz A A 180 · 116 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "A A 180",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "B 180 7AT FWD (136 HP) 7-Speed Automatic Dct",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "180 CDI 7AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-03835367cdd1c074be",
+        "src-83370780ff260d8bfe"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0ab17114df7a0d6e86",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-class-sedan-v177-2018.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-a180-122",
+      "name": "Mercedes-Benz A180",
+      "brand": "Mercedes-Benz",
+      "model_family": "A180",
+      "generation": "W176",
+      "years": "2012-2018",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 200.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "B 180 7AT FWD (136 HP) 7-Speed Automatic Dct",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "M270",
+        "engine_name": "200"
+      },
+      "scored_car_id": "mercedes-a-b-serisi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-mercedes-a180",
+        "tech-rs-mercedes-benz-a-klasse-w176-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f59edbfe9a7130b1fd",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w176-2012.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-a180-cdi-109",
+      "name": "Mercedes-Benz A180 CDI",
+      "brand": "Mercedes-Benz",
+      "model_family": "A180 CDI",
+      "generation": "W169",
+      "years": "2005-2011",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 250.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "Autotronic CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "OM640",
+        "engine_name": "2.0 CDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-mercedes-a180-cdi",
+        "tech-rs-mercedes-benz-a-klasse-w169-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-711c5f2257acab2a6f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w169-2004.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-a200-7g-dct-156",
+      "name": "Mercedes-Benz A200 7G-DCT",
+      "brand": "Mercedes-Benz",
+      "model_family": "A200 7G-DCT",
+      "generation": "W176",
+      "years": "2012-2018",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "B 180 7AT FWD (136 HP) 7-Speed Automatic Dct",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "M270",
+        "engine_name": "200"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-mercedes-a200-7g-dct",
+        "tech-rs-mercedes-benz-a-klasse-w176-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-08ec99dd3919f43401",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w176-2012.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b-b-180-cdi-109-bg-109",
+      "name": "Mercedes-Benz B B 180 CDI · 109 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "B B 180 CDI",
+      "generation": "W245",
+      "years": "2005-2005",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 249.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "200 CDI CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-73d3014a5173b08741",
+        "tech-rs-mercedes-benz-b-klasse-w245-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-95c1c352cc70735de7",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-klasse-w245-2005.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b-b-180-cdi-109-bg-109-2",
+      "name": "Mercedes-Benz B B 180 CDI · 109 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "B B 180 CDI",
+      "generation": "W246",
+      "years": "2015-2015",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "180 CDI 7AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-73d3014a5173b08741",
+        "src-f1b021f63e1e923daa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ded9e950a32d3fbb7e",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-w246-2014.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b-b-180-cdi-136-bg-136",
+      "name": "Mercedes-Benz B B 180 CDI · 136 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "B B 180 CDI",
+      "generation": "W246",
+      "years": "2015-2015",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 300.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c200-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-73d3014a5173b08741",
+        "src-f1b021f63e1e923daa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4f9b171a1aef51eb66",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-w246-2014.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b-b-180-cdi-136-bg-136-2",
+      "name": "Mercedes-Benz B B 180 CDI · 136 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "B B 180 CDI",
+      "generation": "W246",
+      "years": "2015-2015",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 300.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c200-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-73d3014a5173b08741",
+        "src-f1b021f63e1e923daa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-664a34a46b79d442a8",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-w246-2014.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b-b-180-cdi-140-bg-140",
+      "name": "Mercedes-Benz B B 180 CDI · 140 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "B B 180 CDI",
+      "generation": "W245",
+      "years": "2005-2005",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 281.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "200 CDI CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-73d3014a5173b08741",
+        "tech-rs-mercedes-benz-b-klasse-w245-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-99e163eb3e65812ced",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-klasse-w245-2005.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b-b-180-cdi-177-bg-177",
+      "name": "Mercedes-Benz B B 180 CDI · 177 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "B B 180 CDI",
+      "generation": "W246",
+      "years": "2015-2015",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 350.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-73d3014a5173b08741",
+        "src-f1b021f63e1e923daa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5f244a9d6fa0f6b9cd",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-w246-2014.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b-b-180-116-bg-116",
+      "name": "Mercedes-Benz B B 180 · 116 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "B B 180",
+      "generation": "W247",
+      "years": "2019-2019",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "B 180 7AT FWD (136 HP) 7-Speed Automatic Dct",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "180 CDI 7AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-51a7fc774cad2a0c0f",
+        "src-b992b32f9f9de76484"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d095bf275339ac04ae",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-2018.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b-b-180-136-bg-136",
+      "name": "Mercedes-Benz B B 180 · 136 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "B B 180",
+      "generation": "W247",
+      "years": "2019-2019",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 200.0,
+        "displacement_l": null,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "B 180 7AT FWD (136 HP) 7-Speed Automatic Dct",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "B 180 7AT FWD (136 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_displacement"
+      ],
+      "sources": [
+        "src-51a7fc774cad2a0c0f",
+        "src-b992b32f9f9de76484"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3205a6e35dbbde9e87",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-2018.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b-b-200-cdi-150-bg-150",
+      "name": "Mercedes-Benz B B 200 CDI · 150 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "B B 200 CDI",
+      "generation": "W247",
+      "years": "2019-2019",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "220 d 4MATIC 9AT (194 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-51a7fc774cad2a0c0f",
+        "src-c54325f89b9801230f"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-90f0ff501aaf97f645",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-2018.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b-b-200-cdi-190-bg-190",
+      "name": "Mercedes-Benz B B 200 CDI · 190 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "B B 200 CDI",
+      "generation": "W247",
+      "years": "2019-2019",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 400.0,
+        "displacement_l": null,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "B 220d 8AT FWD (190 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_displacement"
+      ],
+      "sources": [
+        "src-51a7fc774cad2a0c0f",
+        "src-c54325f89b9801230f"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5a85d065341ec7a202",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-2018.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b180-122",
+      "name": "Mercedes-Benz B180",
+      "brand": "Mercedes-Benz",
+      "model_family": "B180",
+      "generation": "W246",
+      "years": "2012-2018",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 200.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "B 180 7AT FWD (136 HP) 7-Speed Automatic Dct",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "M270",
+        "engine_name": "200"
+      },
+      "scored_car_id": "mercedes-a-b-serisi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-mercedes-b180",
+        "tech-rs-mercedes-benz-b-klasse-w246-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8fe2994b9cb977d7a5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-klasse-w246-2012.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-b180-cdi-109",
+      "name": "Mercedes-Benz B180 CDI",
+      "brand": "Mercedes-Benz",
+      "model_family": "B180 CDI",
+      "generation": "W245",
+      "years": "2005-2011",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 250.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "CVT",
+        "transmission_name": "Autotronic CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "OM640",
+        "engine_name": "2.0 CDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-mercedes-b180-cdi",
+        "tech-rs-mercedes-benz-b-klasse-w245-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-82845c47a14d19f83c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-klasse-w245-2005.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-180-120-bg-120",
+      "name": "Mercedes-Benz C C 180 · 120 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 180",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 300.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-088c3ea821bf1119e3",
+        "tech-mercedes-benz-c-class-t-modell-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4e83fa85ba4f6754dc",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-180-156-bg-156",
+      "name": "Mercedes-Benz C C 180 · 156 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 180",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 180 9AT RWD (156 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-088c3ea821bf1119e3",
+        "tech-mercedes-benz-c-class-t-modell-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f97e9f83ebc8ae9787",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-180-156-bg-156-2",
+      "name": "Mercedes-Benz C C 180 · 156 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 180",
+      "generation": "W205",
+      "years": "2014-2014",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 249.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "200 7AT (184 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-088c3ea821bf1119e3",
+        "src-c2e47509775ad09aaa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2d02ddd2897c6e26be",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2014.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-180-156-bg-156-3",
+      "name": "Mercedes-Benz C C 180 · 156 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 180",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 180 9AT RWD (156 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-088c3ea821bf1119e3",
+        "src-ee648af0650f55c2cf"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fc99cdebe7b5d3ca50",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2014.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-180-156-bg-156-4",
+      "name": "Mercedes-Benz C C 180 · 156 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 180",
+      "generation": "W205",
+      "years": "2018-2020",
+      "specs": {
+        "hp": 156,
+        "torque_nm": null,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "350 BlueTEC 9AT (252 HP) 9-Speed Automatic (9G-Tronic)",
+        "gears": 9,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 180 9AT RWD (156 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_torque"
+      ],
+      "sources": [
+        "src-088c3ea821bf1119e3",
+        "src-e062e2edd13b409a1e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d368d6b8f1a0db0f29",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2018.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-180-156-bg-156-5",
+      "name": "Mercedes-Benz C C 180 · 156 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 180",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "350 BlueTEC 9AT (252 HP) 9-Speed Automatic (9G-Tronic)",
+        "gears": 9,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 180 9AT RWD (156 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-088c3ea821bf1119e3",
+        "src-4ef695feaf5a72e8f3"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2965dd5370e6e34440",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-amg-c-43-4matic-a205-2018.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-cdi-116-bg-116",
+      "name": "Mercedes-Benz C C 200 CDI · 116 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200 CDI",
+      "generation": "W203",
+      "years": "2000-2000",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 249.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "220 CDI 5AT RWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-7889fa447dc0c1db68",
+        "tech-rs-mercedes-benz-c-klasse-w203-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-30b8ec3c5a570fd2c8",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-cdi-116-bg-116-2",
+      "name": "Mercedes-Benz C C 200 CDI · 116 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200 CDI",
+      "generation": null,
+      "years": "2001-2001",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 250.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "220 CDI 5AT RWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-4692adde9b30795813",
+        "src-7889fa447dc0c1db68"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d16a7c8a39b1ac9f42",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-t-modell-w203-2001.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-cdi-122-bg-122",
+      "name": "Mercedes-Benz C C 200 CDI · 122 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200 CDI",
+      "generation": "W203",
+      "years": "2000-2000",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 270.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "220 CDI 5AT RWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-7889fa447dc0c1db68",
+        "tech-rs-mercedes-benz-c-klasse-w203-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4f0acf3f99ab111e0b",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-cdi-122-bg-122-2",
+      "name": "Mercedes-Benz C C 200 CDI · 122 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200 CDI",
+      "generation": null,
+      "years": "2001-2001",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 270.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "220 CDI 5AT RWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-4692adde9b30795813",
+        "src-7889fa447dc0c1db68"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1bd3ccb6f30a08c67d",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-t-modell-w203-2001.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-cdi-143-bg-143",
+      "name": "Mercedes-Benz C C 200 CDI · 143 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200 CDI",
+      "generation": "W203",
+      "years": "2000-2000",
+      "specs": {
+        "hp": 143,
+        "torque_nm": 315.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "220 CDI 5AT RWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-7889fa447dc0c1db68",
+        "tech-rs-mercedes-benz-c-klasse-w203-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3a0cbd76c642d40f31",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-cdi-143-bg-143-2",
+      "name": "Mercedes-Benz C C 200 CDI · 143 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200 CDI",
+      "generation": null,
+      "years": "2000-2000",
+      "specs": {
+        "hp": 143,
+        "torque_nm": 315.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "220 CDI 5AT RWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-3c08c7cecbf1bcd438",
+        "src-7889fa447dc0c1db68"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9a874702605c8a4fd2",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-sportcoupe-c203-2000.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-136-bg-136",
+      "name": "Mercedes-Benz C C 200 · 136 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 361.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c200-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-21979390a54df4e7f6",
+        "tech-mercedes-benz-c-class-t-modell-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-660c96db2be43373ba",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-183-bg-183",
+      "name": "Mercedes-Benz C C 200 · 183 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 183,
+        "torque_nm": 300.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "200 7AT (184 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-21979390a54df4e7f6",
+        "src-ee648af0650f55c2cf"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-47c138ec199f2ae9d0",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2014.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-184-bg-184",
+      "name": "Mercedes-Benz C C 200 · 184 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200",
+      "generation": "W205",
+      "years": "2014-2014",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 300.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "200 7AT (184 HP)"
+      },
+      "scored_car_id": "mercedes-c200-w205-9g-tronic",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-21979390a54df4e7f6",
+        "src-c2e47509775ad09aaa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-14bedbab1a99868467",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2014.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-184-bg-184-2",
+      "name": "Mercedes-Benz C C 200 · 184 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200",
+      "generation": "W205",
+      "years": "2018-2020",
+      "specs": {
+        "hp": 184,
+        "torque_nm": null,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "350 BlueTEC 9AT (252 HP) 9-Speed Automatic (9G-Tronic)",
+        "gears": 9,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 200 9AT RWD (184 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_torque"
+      ],
+      "sources": [
+        "src-21979390a54df4e7f6",
+        "src-e062e2edd13b409a1e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7a113eec95dc6d0aad",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2018.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-184-bg-184-3",
+      "name": "Mercedes-Benz C C 200 · 184 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200",
+      "generation": "W205",
+      "years": "2018-2020",
+      "specs": {
+        "hp": 184,
+        "torque_nm": null,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "350 BlueTEC 9AT (252 HP) 9-Speed Automatic (9G-Tronic)",
+        "gears": 9,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 200 9AT RWD (184 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_torque"
+      ],
+      "sources": [
+        "src-21979390a54df4e7f6",
+        "src-e062e2edd13b409a1e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-827182a53fe92b2f3e",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2018.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-200-185-bg-185",
+      "name": "Mercedes-Benz C C 200 · 185 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 200",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 270.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "200 BlueEFFICIENCY 7AT RWD (184 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-21979390a54df4e7f6",
+        "tech-mercedes-benz-c-class-t-modell-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-168ee643638899d97b",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-220-cdi-143-bg-143",
+      "name": "Mercedes-Benz C C 220 CDI · 143 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 220 CDI",
+      "generation": null,
+      "years": "2001-2001",
+      "specs": {
+        "hp": 143,
+        "torque_nm": 315.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "220 CDI 5AT RWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-4692adde9b30795813",
+        "src-54ddf491231842b84c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f4a59907874448f22b",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-t-modell-w203-2001.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-220-cdi-163-bg-163",
+      "name": "Mercedes-Benz C C 220 CDI · 163 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 220 CDI",
+      "generation": "W205",
+      "years": "2014-2014",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-54ddf491231842b84c",
+        "src-c2e47509775ad09aaa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cc4ee5b50a7dfd9fb2",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2014.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-220-cdi-170-bg-170",
+      "name": "Mercedes-Benz C C 220 CDI · 170 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 220 CDI",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c220-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-mercedes-benz-c-class-t-modell-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6b7d339a3147ce7398",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-220-cdi-170-bg-170-2",
+      "name": "Mercedes-Benz C C 220 CDI · 170 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 220 CDI",
+      "generation": null,
+      "years": "2014-2018",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c220-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-54ddf491231842b84c",
+        "src-ee648af0650f55c2cf"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d5c286fe4b82d92d2a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2014.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-220-cdi-170-bg-170-3",
+      "name": "Mercedes-Benz C C 220 CDI · 170 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 220 CDI",
+      "generation": "W205",
+      "years": "2014-2014",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c220-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-54ddf491231842b84c",
+        "src-c2e47509775ad09aaa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6be6dd3e90ca06ea11",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2014.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-220-cdi-170-bg-170-4",
+      "name": "Mercedes-Benz C C 220 CDI · 170 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 220 CDI",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c220-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-54ddf491231842b84c",
+        "tech-mercedes-benz-c-class-t-modell-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2354f744595461057b",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-270-cdi-204-bg-204",
+      "name": "Mercedes-Benz C C 270 CDI · 204 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 270 CDI",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 500.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c250-cdi-w204",
+        "mercedes-e250-cdi-w212"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-80ced06fd90f4d8ab1",
+        "tech-mercedes-benz-c-class-t-modell-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-40cb4663abfbc805a9",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-270-cdi-204-bg-204-2",
+      "name": "Mercedes-Benz C C 270 CDI · 204 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 270 CDI",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 500.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c250-cdi-w204",
+        "mercedes-e250-cdi-w212"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-80ced06fd90f4d8ab1",
+        "tech-mercedes-benz-c-class-t-modell-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ddb959bdb47442c694",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-270-cdi-231-bg-231",
+      "name": "Mercedes-Benz C C 270 CDI · 231 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 270 CDI",
+      "generation": null,
+      "years": "2001-2001",
+      "specs": {
+        "hp": 231,
+        "torque_nm": 540.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "30 CDI 5AT RWD (231 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-80ced06fd90f4d8ab1",
+        "src-cd183cb91425684a44"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a582366fd365339e7d",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-t-modell-amg-s203-2001.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-270-cdi-231-bg-231-2",
+      "name": "Mercedes-Benz C C 270 CDI · 231 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 270 CDI",
+      "generation": "C203",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 231,
+        "torque_nm": 540.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "30 CDI 5AT RWD (231 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-80ced06fd90f4d8ab1",
+        "src-e8e8f605ba92d5e67d"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cc05bb4c89e11ee3c5",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-sportcoupe-amg-c203-2000.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-270-cdi-231-bg-231-3",
+      "name": "Mercedes-Benz C C 270 CDI · 231 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 270 CDI",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 231,
+        "torque_nm": 540.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "350 BlueTEC 9AT (252 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-80ced06fd90f4d8ab1",
+        "tech-mercedes-benz-c-class-t-modell-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-59df53db593534cbd5",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c-c-270-cdi-265-bg-265",
+      "name": "Mercedes-Benz C C 270 CDI · 265 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "C C 270 CDI",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 265,
+        "torque_nm": 620.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "350 BlueTEC 9AT (252 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-80ced06fd90f4d8ab1",
+        "tech-mercedes-benz-c-class-t-modell-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d9eee606ba0376c9cd",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c180-cgi-156",
+      "name": "Mercedes-Benz C180 CGI",
+      "brand": "Mercedes-Benz",
+      "model_family": "C180 CGI",
+      "generation": "W204 LCI",
+      "years": "2011-2014",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 250.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": "M271 EVO",
+        "engine_name": "1.8 Turbo"
+      },
+      "scored_car_id": "mercedes-c180-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-mercedes-c180-cgi",
+        "tech-rs-mercedes-benz-c-klasse-w204-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-522f9fd38b27657f25",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w204-2007.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c180-kompressor-156",
+      "name": "Mercedes-Benz C180 Kompressor",
+      "brand": "Mercedes-Benz",
+      "model_family": "C180 Kompressor",
+      "generation": "W204",
+      "years": "2008-2011",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 230.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "M271",
+        "engine_name": "1.6 Kompressor"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-mercedes-c180-kompressor",
+        "tech-rs-mercedes-benz-c-klasse-w204-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1978b1d237dd679c0d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w204-2007.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-c200-136",
+      "name": "Mercedes-Benz C200",
+      "brand": "Mercedes-Benz",
+      "model_family": "C200",
+      "generation": "W202",
+      "years": "2000-2000",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 190.0,
+        "displacement_l": 2.3,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4G-Tronic",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "mb-m111",
+        "engine_name": "M111"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-mercedes-mercedes-w202-c200-c220",
+        "tech-rs-mercedes-benz-c-klasse-w202-1993-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ac7369979999ba1ece",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w202-1993.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-cla180-7g-dct-122",
+      "name": "Mercedes-Benz CLA180 7G-DCT",
+      "brand": "Mercedes-Benz",
+      "model_family": "CLA180 7G-DCT",
+      "generation": "C117",
+      "years": "2016-2018",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 200.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe/Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "B 180 7AT FWD (136 HP) 7-Speed Automatic Dct",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "M270",
+        "engine_name": "200"
+      },
+      "scored_car_id": "mercedes-a-b-serisi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-mercedes-cla180-7g-dct",
+        "tech-om-cars-mercedes-benz-cla-c117-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7e2ae60282cfacce1f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-cla-c117-2016.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-clc-160-129-bg-129",
+      "name": "Mercedes-Benz CLC 160 · 129 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "CLC 160",
+      "generation": "W203",
+      "years": "2008-2011",
+      "specs": {
+        "hp": 129,
+        "torque_nm": 220.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "160 BlueEFFICIENCY 5AT RWD (129 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-9eda410ed5f217bec7",
+        "tech-om-cars-mercedes-benz-clc-w203-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f39caa0ef2c4a0ee89",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clc-w203-2008.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-clc180-kompressor-5at-143",
+      "name": "Mercedes-Benz CLC180 Kompressor 5AT",
+      "brand": "Mercedes-Benz",
+      "model_family": "CLC180 Kompressor 5AT",
+      "generation": "CL203",
+      "years": "2008-2011",
+      "specs": {
+        "hp": 143,
+        "torque_nm": 220.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "M271",
+        "engine_name": "200 Kompressor"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-mobil-mercedes-clc180-kompressor-5at",
+        "tech-om-cars-mercedes-benz-clc-w203-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8265313bbcc9d54b75",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clc-w203-2008.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-clk-clk-270-cdi-150-bg-150",
+      "name": "Mercedes-Benz CLK CLK 270 CDI · 150 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "CLK CLK 270 CDI",
+      "generation": "C209",
+      "years": "2005-2009",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "220 CDI 5AT RWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-9b570800e1f1ea1b51",
+        "src-b380f89e5e0dbace82"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0ae05b1e0a937e5e23",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c209-2005.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-clk-clk-270-cdi-170-bg-170",
+      "name": "Mercedes-Benz CLK CLK 270 CDI · 170 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "CLK CLK 270 CDI",
+      "generation": "C209",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "270 CDI 5AT RWD (177 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c270-cdi",
+        "mercedes-clk270-cdi",
+        "mercedes-e270-cdi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-9b570800e1f1ea1b51",
+        "tech-m-cars-mercedes-benz-clk-c-209-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-33726af2a67690aa0d",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c-209-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-clk-clk-270-cdi-224-bg-224",
+      "name": "Mercedes-Benz CLK CLK 270 CDI · 224 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "CLK CLK 270 CDI",
+      "generation": "C209",
+      "years": "2005-2009",
+      "specs": {
+        "hp": 224,
+        "torque_nm": 415.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "350 BlueTEC 9AT (252 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-9b570800e1f1ea1b51",
+        "src-b380f89e5e0dbace82"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e61df3bdd29e1a077f",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c209-2005.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-cdi-136-bg-136",
+      "name": "Mercedes-Benz E 200 CDI · 136 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200 CDI",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 361.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c200-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-es-benz-e-klasse-t-modell-s212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-eb18a8aff62c95ed1d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-cdi-150-bg-150",
+      "name": "Mercedes-Benz E 200 CDI · 150 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200 CDI",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "220 CDI 5AT RWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-f7251b0516922ff2a4",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bbaf330a366f60789b",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-cdi-177-bg-177",
+      "name": "Mercedes-Benz E 200 CDI · 177 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200 CDI",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 400.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "270 CDI 5AT RWD (177 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-f7251b0516922ff2a4",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4a0d5c386449be9ae8",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-cdi-177-bg-177-2",
+      "name": "Mercedes-Benz E 200 CDI · 177 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200 CDI",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 425.0,
+        "displacement_l": 3.2,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "320 CDI V6 5AT RWD (204 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-f7251b0516922ff2a4",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f1b9e94dc5a42cfa8b",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-cdi-190-bg-190",
+      "name": "Mercedes-Benz E 200 CDI · 190 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200 CDI",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 400.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "350 BlueTEC 9AT (252 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-f7251b0516922ff2a4",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-570cb2cd174b7d46da",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-cdi-204-bg-204",
+      "name": "Mercedes-Benz E 200 CDI · 204 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200 CDI",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 500.0,
+        "displacement_l": 3.2,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "320 CDI V6 5AT RWD (204 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-f7251b0516922ff2a4",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bb0d01dd369b7981cc",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-122-bg-122",
+      "name": "Mercedes-Benz E 200 · 122 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 270.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "220 CDI 5AT RWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-c584039add8b3c069f",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fbd3147b1febaa24a4",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-136-bg-136",
+      "name": "Mercedes-Benz E 200 · 136 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200",
+      "generation": "W212",
+      "years": "2013-2013",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 361.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c200-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-c584039add8b3c069f",
+        "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0ef6402a6b50bb8c47",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-156-bg-156",
+      "name": "Mercedes-Benz E 200 · 156 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200",
+      "generation": "W212",
+      "years": "2013-2013",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 270.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "200 7AT (184 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-c584039add8b3c069f",
+        "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-76dbab072c1a35a6ff",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-163-bg-163",
+      "name": "Mercedes-Benz E 200 · 163 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 240.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "200 BlueEFFICIENCY 7AT RWD (184 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c200-komp",
+        "mercedes-c200-kompressor-w203",
+        "mercedes-clk200-komp",
+        "mercedes-e200-kompressor-w211"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-c584039add8b3c069f",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2e30ce9c14d3041fbb",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-163-bg-163-2",
+      "name": "Mercedes-Benz E 200 · 163 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 240.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "200 BlueEFFICIENCY 7AT RWD (184 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c200-komp",
+        "mercedes-c200-kompressor-w203",
+        "mercedes-clk200-komp",
+        "mercedes-e200-kompressor-w211"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-c584039add8b3c069f",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-006c8291667150e075",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-200-184-bg-184",
+      "name": "Mercedes-Benz E 200 · 184 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 200",
+      "generation": "W212",
+      "years": "2013-2013",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 270.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "200 7AT (184 HP)"
+      },
+      "scored_car_id": "mercedes-c200-w205-9g-tronic",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-c584039add8b3c069f",
+        "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-62dd821e322739a8a3",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-220-cdi-170-bg-170",
+      "name": "Mercedes-Benz E 220 CDI · 170 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 220 CDI",
+      "generation": "W212",
+      "years": "2013-2013",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c220-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b4c890d76dfe44895d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-220-cdi-170-bg-170-2",
+      "name": "Mercedes-Benz E 220 CDI · 170 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 220 CDI",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c220-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-es-benz-e-klasse-t-modell-s212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4af28c6ba4c721de81",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-220-cdi-170-bg-170-3",
+      "name": "Mercedes-Benz E 220 CDI · 170 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 220 CDI",
+      "generation": "C207",
+      "years": "2014-2014",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c220-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cedes-benz-e-klasse-coupe-c207-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-66283fbf9bd9d3c90d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-coupe-c207-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-220-cdi-170-bg-170-4",
+      "name": "Mercedes-Benz E 220 CDI · 170 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 220 CDI",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c220-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-s-benz-e-klasse-cabriolet-a207-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-199c8c7af6ac9501cb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-cabriolet-a207-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-220-cdi-170-bg-170-5",
+      "name": "Mercedes-Benz E 220 CDI · 170 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 220 CDI",
+      "generation": "W212",
+      "years": "2013-2013",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": "mercedes-c220-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-23fa9ba95afd416e43",
+        "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9e93255ecab8cc0e37",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-220-cdi-194-bg-194",
+      "name": "Mercedes-Benz E 220 CDI · 194 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 220 CDI",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 194,
+        "torque_nm": 400.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "350 BlueTEC 9AT (252 HP) 9-Speed Automatic (9G-Tronic)",
+        "gears": 9,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "220 d 4MATIC 9AT (194 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-0d6492b5b46ce82064",
+        "src-23fa9ba95afd416e43"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-22397545f3c58260e2",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-53-cabrio-a238-2020.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-240-177-bg-177",
+      "name": "Mercedes-Benz E 240 · 177 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 240",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 240.0,
+        "displacement_l": 2.6,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "240 V6 4MATIC 5AT AWD (177 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-4191ff624cbbd57dae",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ba6003bed9b24835b5",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-270-cdi-204-bg-204",
+      "name": "Mercedes-Benz E 270 CDI · 204 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 270 CDI",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 500.0,
+        "displacement_l": 3.2,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "320 CDI V6 5AT RWD (204 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-5fff721111ddcd2bcd",
+        "src-81475f6e52e0c2b3eb"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d902b7cb8aa0bde234",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s211-2003.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-270-cdi-204-bg-204-2",
+      "name": "Mercedes-Benz E 270 CDI · 204 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 270 CDI",
+      "generation": "W212",
+      "years": "2013-2013",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 500.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c250-cdi-w204",
+        "mercedes-e250-cdi-w212"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-81475f6e52e0c2b3eb",
+        "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7c6734b5ce874eb4b0",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-270-cdi-204-bg-204-3",
+      "name": "Mercedes-Benz E 270 CDI · 204 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 270 CDI",
+      "generation": "W212",
+      "years": "2013-2013",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 500.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c250-cdi-w204",
+        "mercedes-e250-cdi-w212"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-81475f6e52e0c2b3eb",
+        "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-388eca7fcba9f49b95",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-270-cdi-224-bg-224",
+      "name": "Mercedes-Benz E 270 CDI · 224 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 270 CDI",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 224,
+        "torque_nm": 510.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "350 BlueTEC 9AT (252 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-5fff721111ddcd2bcd",
+        "src-81475f6e52e0c2b3eb"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e2107852394a989776",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s211-2003.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-270-cdi-260-bg-260",
+      "name": "Mercedes-Benz E 270 CDI · 260 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 270 CDI",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 260,
+        "torque_nm": 560.0,
+        "displacement_l": 4.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "420 CDI V8 7AT RWD (314 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-81475f6e52e0c2b3eb",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-132800027ddf7343e1",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-270-cdi-314-bg-314",
+      "name": "Mercedes-Benz E 270 CDI · 314 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 270 CDI",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 314,
+        "torque_nm": 730.0,
+        "displacement_l": 4.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "420 CDI V8 7AT RWD (314 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-81475f6e52e0c2b3eb",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d4b5a97531d16ca340",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-320-cdi-204-bg-204",
+      "name": "Mercedes-Benz E 320 CDI · 204 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 320 CDI",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 500.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c250-cdi-w204",
+        "mercedes-e250-cdi-w212"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-e9e80db80f42d9bb78",
+        "tech-es-benz-e-klasse-t-modell-s212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c8aa90534fa949989c",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-320-cdi-204-bg-204-2",
+      "name": "Mercedes-Benz E 320 CDI · 204 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 320 CDI",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 500.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "C 220 CDI 7AT RWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c250-cdi-w204",
+        "mercedes-e250-cdi-w212"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-e9e80db80f42d9bb78",
+        "tech-es-benz-e-klasse-t-modell-s212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c1de71baed740aa463",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-320-cdi-231-bg-231",
+      "name": "Mercedes-Benz E 320 CDI · 231 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 320 CDI",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 231,
+        "torque_nm": 540.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "350 BlueTEC 9AT (252 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-e9e80db80f42d9bb78",
+        "tech-es-benz-e-klasse-t-modell-s212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ee0554bc84a126e257",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-320-cdi-252-bg-252",
+      "name": "Mercedes-Benz E 320 CDI · 252 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 320 CDI",
+      "generation": "W212",
+      "years": "2013-2013",
+      "specs": {
+        "hp": 252,
+        "torque_nm": 620.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "350 BlueTEC 9AT (252 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-e9e80db80f42d9bb78",
+        "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ab10da7cf92724f7ea",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-320-cdi-252-bg-252-2",
+      "name": "Mercedes-Benz E 320 CDI · 252 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 320 CDI",
+      "generation": "W212",
+      "years": "2013-2013",
+      "specs": {
+        "hp": 252,
+        "torque_nm": 620.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "350 BlueTEC 9AT (252 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-e9e80db80f42d9bb78",
+        "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ee03f53b684a1e96f9",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-320-cdi-252-bg-252-3",
+      "name": "Mercedes-Benz E 320 CDI · 252 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 320 CDI",
+      "generation": "W212",
+      "years": "2013-2013",
+      "specs": {
+        "hp": 252,
+        "torque_nm": 620.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "350 BlueTEC 9AT (252 HP) 9-Speed Automatic (9G-Tronic)",
+        "gears": 9,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "350 BlueTEC 9AT (252 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-e9e80db80f42d9bb78",
+        "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-37639613b31b9ec5b6",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-320-224-bg-224",
+      "name": "Mercedes-Benz E 320 · 224 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 320",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 224,
+        "torque_nm": 540.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "320 V6 4MATIC 5AT RWD (224 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-60ed6f3e9c66923020",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2da1345d7fb0b40cfb",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-320-224-bg-224-2",
+      "name": "Mercedes-Benz E 320 · 224 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 320",
+      "generation": "W211",
+      "years": "2002-2002",
+      "specs": {
+        "hp": 224,
+        "torque_nm": 315.0,
+        "displacement_l": 3.2,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "320 V6 5AT RWD (224 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-60ed6f3e9c66923020",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6be962c5703a3bb836",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-e-320-224-bg-224-3",
+      "name": "Mercedes-Benz E 320 · 224 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "E 320",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 224,
+        "torque_nm": 315.0,
+        "displacement_l": 3.2,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "320 V6 5AT RWD (224 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-5fff721111ddcd2bcd",
+        "src-60ed6f3e9c66923020"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9d05ce3cac6f738370",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s211-2003.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-gla200-7g-dct-156",
+      "name": "Mercedes-Benz GLA200 7G-DCT",
+      "brand": "Mercedes-Benz",
+      "model_family": "GLA200 7G-DCT",
+      "generation": "X156",
+      "years": "2013-2018",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 249.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "B 180 7AT FWD (136 HP) 7-Speed Automatic Dct",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "M270",
+        "engine_name": "200"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-mercedes-gla200-7g-dct",
+        "tech-ion-com-cars-mercedes-benz-gla-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-51920135e10460fbe4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-gla-2013.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-glk220-cdi-4matic-7at-170",
+      "name": "Mercedes-Benz GLK220 CDI 4MATIC 7AT",
+      "brand": "Mercedes-Benz",
+      "model_family": "GLK220 CDI 4MATIC 7AT",
+      "generation": "X204",
+      "years": "2008-2015",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": "OM651",
+        "engine_name": "220 CDI 4MATIC"
+      },
+      "scored_car_id": "mercedes-c220-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-mobil-mercedes-glk220-cdi-4matic-7at",
+        "tech--mercedes-benz-glk-klasse-x204-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6aa6364c3137a320f0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-glk-klasse-x204-2008.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-c200-cdi-w203-122",
+      "name": "Mercedes-Benz Mercedes C200 CDI (W203)",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes C200 CDI",
+      "generation": "C200",
+      "years": "2001-2007",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 270.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-om611",
+        "engine_name": "OM611"
+      },
+      "scored_car_id": "mercedes-c200-cdi-w203",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-mercedes-mercedes-c200-cdi",
+        "tech-rs-mercedes-benz-c-klasse-w203-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9b2b0802a7d109a00b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-c200-cdi-w204-136",
+      "name": "Mercedes-Benz Mercedes C200 CDI (W204)",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes C200 CDI",
+      "generation": "C200",
+      "years": "2007-2011",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 270.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-om651",
+        "engine_name": "OM651"
+      },
+      "scored_car_id": "mercedes-c200-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-mercedes-mercedes-c200-cdi",
+        "tech-rs-mercedes-benz-c-klasse-w204-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b4abfa1a93a49b8de3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w204-2007.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-c200-kompressor-w203-163",
+      "name": "Mercedes-Benz Mercedes C200 Kompressor (W203)",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes C200 Kompressor",
+      "generation": "C200",
+      "years": "2000-2007",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 325.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-m271",
+        "engine_name": "M271"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c200-komp",
+        "mercedes-c200-kompressor-w203",
+        "mercedes-clk200-komp",
+        "mercedes-e200-kompressor-w211"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-il-mercedes-mercedes-c200-kompressor",
+        "tech-rs-mercedes-benz-c-klasse-w203-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-827682d61246fbec83",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-c220-cdi-150",
+      "name": "Mercedes-Benz Mercedes C220 CDI",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes C220 CDI",
+      "generation": "C220",
+      "years": "2001-2007",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-om646",
+        "engine_name": "OM646"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c220-cdi",
+        "mercedes-e220-cdi-w211"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-mercedes-mercedes-c220-cdi",
+        "tech-rs-mercedes-benz-c-klasse-w203-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6fea04dc35ecf2ac21",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2004.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-c220-cdi-w204-170",
+      "name": "Mercedes-Benz Mercedes C220 CDI (W204)",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes C220 CDI",
+      "generation": "C220",
+      "years": "2009-2014",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-om651",
+        "engine_name": "OM651"
+      },
+      "scored_car_id": "mercedes-c220-cdi-w204",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-mercedes-mercedes-c220-cdi",
+        "tech-rs-mercedes-benz-c-klasse-w204-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e9089a4d167987ef39",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w204-2007.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-c230-m271k-192",
+      "name": "Mercedes-Benz Mercedes C230 (M271K)",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes C230",
+      "generation": "C230",
+      "years": "2004-2007",
+      "specs": {
+        "hp": 192,
+        "torque_nm": 260.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-m271",
+        "engine_name": "M271"
+      },
+      "scored_car_id": "mercedes-c230-m271k",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-mercedes-mercedes-c230",
+        "tech-rs-mercedes-benz-c-klasse-w203-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-34b2394b394d17767e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2004.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-c250-cdi-w204-204",
+      "name": "Mercedes-Benz Mercedes C250 CDI (W204)",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes C250 CDI",
+      "generation": "C250",
+      "years": "2009-2014",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 500.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": "mb-om651",
+        "engine_name": "OM651"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c250-cdi-w204",
+        "mercedes-e250-cdi-w212"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-mercedes-mercedes-c250-cdi",
+        "tech-rs-mercedes-benz-c-klasse-w204-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9b6ad4192adc94134b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w204-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-c270-cdi-170",
+      "name": "Mercedes-Benz Mercedes C270 CDI",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes C270 CDI",
+      "generation": "C270",
+      "years": "2001-2005",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-om612",
+        "engine_name": "OM612"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c270-cdi",
+        "mercedes-clk270-cdi",
+        "mercedes-e270-cdi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-mercedes-mercedes-c270-cdi",
+        "tech-rs-mercedes-benz-c-klasse-w203-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2b0a39012452731d4c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-clk200-komp-163",
+      "name": "Mercedes-Benz Mercedes CLK200 Komp.",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes CLK200 Komp.",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 240.0,
+        "displacement_l": 2.3,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-m111",
+        "engine_name": "M111"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-omobil-mercedes-mercedes-clk200-komp",
+        "tech-m-cars-mercedes-benz-clk-c-209-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1e4b38cd153c817fad",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c-209-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-clk230-komp-197",
+      "name": "Mercedes-Benz Mercedes CLK230 Komp.",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes CLK230 Komp.",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 197,
+        "torque_nm": 280.0,
+        "displacement_l": 2.3,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-m111",
+        "engine_name": "M111"
+      },
+      "scored_car_id": "mercedes-clk230-komp",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-omobil-mercedes-mercedes-clk230-komp",
+        "tech-om-cars-mercedes-benz-clk-c208-1999-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-eb95586f64b7522746",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c208-1999.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-clk270-cdi-170",
+      "name": "Mercedes-Benz Mercedes CLK270 CDI",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes CLK270 CDI",
+      "generation": null,
+      "years": "2002-2009",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 400.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-om612",
+        "engine_name": "OM612"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c270-cdi",
+        "mercedes-clk270-cdi",
+        "mercedes-e270-cdi"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-tomobil-mercedes-mercedes-clk270-cdi",
+        "tech-m-cars-mercedes-benz-clk-c-209-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-533f0fab6c677ba7f7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c-209-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-e200-w212-184",
+      "name": "Mercedes-Benz Mercedes E200 (W212)",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes E200",
+      "generation": "W212",
+      "years": "2009-2013",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 270.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": "mb-m271",
+        "engine_name": "M271"
+      },
+      "scored_car_id": "mercedes-e200-w212",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-mercedes-mercedes-e200",
+        "tech-rs-mercedes-benz-e-klasse-w212-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b06562ef246b8e03c5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2009.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-e200-kompressor-w211-163",
+      "name": "Mercedes-Benz Mercedes E200 Kompressor (W211)",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes E200 Kompressor",
+      "generation": "W211",
+      "years": "2002-2009",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 240.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-m271",
+        "engine_name": "M271"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c200-komp",
+        "mercedes-c200-kompressor-w203",
+        "mercedes-clk200-komp",
+        "mercedes-e200-kompressor-w211"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-il-mercedes-mercedes-e200-kompressor",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-179b943c8a81d48d42",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-e220-cdi-w211-150",
+      "name": "Mercedes-Benz Mercedes E220 CDI (W211)",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes E220 CDI",
+      "generation": "W211",
+      "years": "2002-2009",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-om646",
+        "engine_name": "OM646"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c220-cdi",
+        "mercedes-e220-cdi-w211"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-mercedes-mercedes-e220-cdi",
+        "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-78442b48eb562e038a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-e250-cdi-w212-204",
+      "name": "Mercedes-Benz Mercedes E250 CDI (W212)",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes E250 CDI",
+      "generation": "W212",
+      "years": "2009-2016",
+      "specs": {
+        "hp": 204,
+        "torque_nm": 500.0,
+        "displacement_l": 2.1,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": "mb-om651",
+        "engine_name": "OM651"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c250-cdi-w204",
+        "mercedes-e250-cdi-w212"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-mercedes-mercedes-e250-cdi",
+        "tech-rs-mercedes-benz-e-klasse-w212-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fd22fb308c4b05430b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2009.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-e270-cdi-170",
+      "name": "Mercedes-Benz Mercedes E270 CDI",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes E270 CDI",
+      "generation": "W210",
+      "years": "2000-2002",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 370.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-om612",
+        "engine_name": "OM612"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mercedes-c270-cdi",
+        "mercedes-clk270-cdi",
+        "mercedes-e270-cdi"
+      ],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market--otomobil-mercedes-mercedes-e270-cdi"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f294b4062b36a47a19",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-e280-w211-231",
+      "name": "Mercedes-Benz Mercedes E280 (W211)",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes E280",
+      "generation": "W211",
+      "years": "2005-2009",
+      "specs": {
+        "hp": 231,
+        "torque_nm": 300.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "M272 E30",
+        "engine_name": "3.0 V6 M272"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-mercedes-mercedes-e280",
+        "tech-e-e-280-saloon-w-211-xhtml-oid-186877688"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-03cfceaeca27ed6cfb",
+        "publication_status": "scored",
+        "technical_url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/picture/E-280-Saloon---W-211.xhtml?oid=186877688"
+      }
+    },
+    {
+      "id": "mercedes-benz-mercedes-e320-cdi-197",
+      "name": "Mercedes-Benz Mercedes E320 CDI",
+      "brand": "Mercedes-Benz",
+      "model_family": "Mercedes E320 CDI",
+      "generation": "W210",
+      "years": "2000-2002",
+      "specs": {
+        "hp": 197,
+        "torque_nm": 470.0,
+        "displacement_l": 3.2,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "mb-om613",
+        "engine_name": "OM613"
+      },
+      "scored_car_id": "mercedes-e320-cdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-mercedes-mercedes-e320-cdi",
+        "tech-rs-mercedes-benz-e-klasse-w210-1999-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d836305a961a95e0bd",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w210-1999.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-slk-200-184-bg-184",
+      "name": "Mercedes-Benz SLK 200 · 184 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "SLK 200",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 249.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "200 BlueEFFICIENCY 7AT RWD (184 HP)"
+      },
+      "scored_car_id": "mercedes-e200-w212",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-15ed65ed6ba94111e3",
+        "tech-om-cars-mercedes-benz-slk-r171-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-430473c4e0e85e4031",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-slk-r171-2008.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-slk-200-184-bg-184-2",
+      "name": "Mercedes-Benz SLK 200 · 184 bg",
+      "brand": "Mercedes-Benz",
+      "model_family": "SLK 200",
+      "generation": null,
+      "years": "2011-2016",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 270.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "200 BlueEFFICIENCY 7AT RWD (184 HP)"
+      },
+      "scored_car_id": "mercedes-e200-w212",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-15ed65ed6ba94111e3",
+        "src-bf249bacf8880bc634"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0dd95351dffb90d9a0",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-slk-r172-2011.html"
+      }
+    },
+    {
+      "id": "mercedes-benz-slk200-kompressor-5at-184",
+      "name": "Mercedes-Benz SLK200 Kompressor 5AT",
+      "brand": "Mercedes-Benz",
+      "model_family": "SLK200 Kompressor 5AT",
+      "generation": "R171",
+      "years": "2008-2011",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 249.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Roadster",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "M271",
+        "engine_name": "200 Kompressor"
+      },
+      "scored_car_id": "mercedes-e200-w212",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-mobil-mercedes-slk200-kompressor-5at",
+        "tech-om-cars-mercedes-benz-slk-r171-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7bf4ccbb10d8d76aca",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-slk-r171-2008.html"
+      }
+    }
+  ]
+}

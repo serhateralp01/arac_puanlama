@@ -1,0 +1,115 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Cadillac",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "cadillac-bls-2-0t-210",
+      "name": "Cadillac BLS 2.0T",
+      "brand": "Cadillac",
+      "model_family": "BLS",
+      "generation": "GM Epsilon",
+      "years": "2006-2009",
+      "specs": {
+        "hp": 210,
+        "torque_nm": 300.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "B207R",
+        "engine_name": "2.0 Turbo"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-cadillac-bls-2-0t",
+        "tech-volution-com-cars-cadillac-bls-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6405119b548c507bf9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/cadillac-bls-2006.html"
+      }
+    },
+    {
+      "id": "cadillac-cts-2-8-211",
+      "name": "Cadillac CTS 2.8",
+      "brand": "Cadillac",
+      "model_family": "CTS",
+      "generation": "GM Sigma",
+      "years": "2008-2013",
+      "specs": {
+        "hp": 211,
+        "torque_nm": 246.0,
+        "displacement_l": 2.8,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "LP1",
+        "engine_name": "2.8 V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-cadillac-cts-2-8",
+        "tech-volution-com-cars-cadillac-cts-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cbd4fadc2d0d834f78",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/cadillac-cts-2007.html"
+      }
+    },
+    {
+      "id": "cadillac-srx-3-6-308",
+      "name": "Cadillac SRX 3.6",
+      "brand": "Cadillac",
+      "model_family": "SRX",
+      "generation": "Theta Premium",
+      "years": "2010-2016",
+      "specs": {
+        "hp": 308,
+        "torque_nm": 359.0,
+        "displacement_l": 3.6,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "LFX",
+        "engine_name": "3.6 V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-cadillac-srx-3-6",
+        "tech-volution-com-cars-cadillac-srx-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f198773a1b577fd71b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/cadillac-srx-2009.html"
+      }
+    }
+  ]
+}

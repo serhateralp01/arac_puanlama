@@ -757,3 +757,58 @@ zincirini bir gecede seyreltirdi: ortalama kaynak sayısı çöker, "doğrulanm�
 anlamını yitirir ve deponun tek gerçek farklılaştırıcısı — her puanın arkasında yazılı bir
 gerekçe olması — kaybolurdu. Katalog büyüklüğü rakiplerin de kolayca ulaşabileceği bir
 metrik; kanıt derinliği değil.
+
+---
+
+## MK-22 · Katalog ile puanlanmış ürün iki ayrı katmandır; olgu toplu alınır, puan alınmaz
+
+**Karar:** Depo bundan sonra iki veri katmanı taşıyor. `data/cars/` deponun **puanlanmış
+ürünü**: her aracın kanıt bloğu, kaynak listesi ve yazılı gerekçesi var. `data/catalog/`
+ise **olgusal teknik katalog**: P2.1 veri paketindeki araç–motor–şanzıman
+kombinasyonlarının ölçülebilir alanları (güç, tork, çekiş, hacim, yakıt, gövde tipi, vites
+sayısı, kavrama tipi, motor kodu, üretim yılı aralığı, teknik kaynak adresi). Katalog
+katmanına **hiçbir puan yazılmaz.**
+
+**MK-21 neyi doğru, neyi fazla geniş söylemişti.** MK-21 "dış katalog toplu olarak içe
+aktarılmaz" diyordu ve gerekçesi doğruydu: 1.641 satırı **puanlarıyla birlikte** almak,
+ortalama kaynak sayısını çökertir ve "doğrulanmış" rozetini anlamsızlaştırırdı. Bugün
+ölçüldü, gerekçe sayıyla da doğrulandı: P2.1'in bizde karşılığı olmayan 1.101 varyantının
+**451'i `p2-inferred-prior`**, yani puanı araştırılmamış, çıkarsanmış. Bunları puanlı
+almak, projenin tek gerçek farklılaştırıcısını satmak olurdu.
+
+MK-21'in fazla geniş davrandığı yer şu: **içe aktarmayı tek bir şey saydı.** Oysa bir güç
+değeri ile bir güvenilirlik puanı aynı türden veri değil. Güç, tork, hacim, çekiş tipi ve
+vites sayısı **ölçüm**dür; kaynağı gösterilebilir, tartışılmaz ve yanlışsa nesnel olarak
+yanlıştır. Güvenilirlik puanı ise **yargı**dır; gerekçe ister. MK-21 ikisini birlikte
+reddederek, alınmasında hiçbir sakınca olmayan 1.617 vites sayısını, 1.607 teknik kaynak
+adresini ve 1.625 tork değerini de dışarıda bıraktı. Bu kayıp gereksizdi.
+
+**Yeni sınır şu:** olgu toplu alınır, yargı tek tek kazanılır. Bir katalog kaydı, deponun
+kanıt standardından geçtiğinde `data/cars/` katmanına terfi eder; terfi eden kayıt puan ve
+`evidence` bloğu kazanır. Terfi etmemiş bir kayıt kataloğda kalır ve arayüzde **"katalogda
+var, henüz puanlanmadı"** olarak görünür. Bir kullanıcının aradığı aracı bulup "bu araç
+hakkında henüz puan vermedik ama teknik künyesi ve kaynağı burada" cevabını alması,
+aracı hiç bulamamasından iyidir; sahte bir puan görmesinden ise kıyaslanamayacak kadar
+iyidir.
+
+**Kaynak hakları bu ayrımı zaten zorunlu kılıyordu.** P2.1'in kaynak sicilindeki yeniden
+dağıtım politikası açık: 554 kayıt için "yalnız kaynak URL'si, eşleştirme metadatası ve
+bağımsız türetilmiş alanlar", 500 ilan kaynağı için "toplu ham ilan kopyası yok; sayım,
+zaman damgası ve sınırlı türetilmiş istatistik". Yani **kısa olgusal alan + kaynak adresi**
+alınabilir, uzun metin ve ham tablo alınamaz. Katalog katmanının kapsamı tam olarak bu
+iznin içinde kalıyor; 2.071 ham ilan gözlemi depoya hiç girmiyor, MK-19'daki gibi yalnız
+toplulaştırılmış fiyat grupları giriyor.
+
+**Kalite kapısı içeri taşındı.** P2.1 kendi kalite sicilini de taşıyor ve bu sicil dürüst:
+798 kayıtta `generic_transmission_identity` (kutu ailesi tam çözülmemiş), 22 kayıt
+`held_incomplete`, 13 kayıt `held_conflict`. Bu işaretler katalog kaydına birlikte
+yazılıyor; gizlenmiyor. MK-18'in çapraz doğrulamada bulduğu türden hatalar (bir Alfa Romeo
+159 kaydında Volvo şanzıman adının durması gibi) katalogda **görünür** kalıyor ki
+terfi sırasında yakalansın.
+
+**Gerekçe.** CLAUDE.md §4 mimari kararların üç yıl sonrası düşünülerek alınmasını istiyor.
+Üç yıl sonra bu ürünün rakipleri katalog büyüklüğünde kolayca eşitlenir; eşitlenemeyeceği
+yer kanıt derinliğidir. İki katmanlı yapı ikisini birden veriyor: katalog kapsamı arama
+motoruna ve kullanıcının "benim arabam listede var mı" sorusuna cevap veriyor, puanlanmış
+katman ise ürünün savunulabilir çekirdeği olarak saf kalıyor. Tek katmanda birleştirmek,
+ya kapsamı ya da güvenilirliği feda etmek zorunda bırakırdı.

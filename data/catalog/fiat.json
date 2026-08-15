@@ -1,0 +1,411 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Fiat",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "fiat-500x-1-4-multiair-ddct-140",
+      "name": "Fiat 500X 1.4 MultiAir DDCT",
+      "brand": "Fiat",
+      "model_family": "500X",
+      "generation": "334",
+      "years": "2015-2018",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 230.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "C635 DDCT",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "55263624",
+        "engine_name": "1.4 MultiAir"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-fiat-500x-1-4-multiair-ddct",
+        "tech-toevolution-com-cars-fiat-500x-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-290c04b0cb44708c45",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/fiat-500x-2015.html"
+      }
+    },
+    {
+      "id": "fiat-500x-2-0-multijet-9at-awd-140",
+      "name": "Fiat 500X 2.0 MultiJet 9AT AWD",
+      "brand": "Fiat",
+      "model_family": "500X",
+      "generation": "334",
+      "years": "2015-2018",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "ZF 9HP",
+        "gears": 9,
+        "clutch": null,
+        "engine_code": "55263087",
+        "engine_name": "2.0 MultiJet"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-mobil-fiat-500x-2-0-multijet-9at-awd",
+        "tech-toevolution-com-cars-fiat-500x-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6ab2d515aa821a32ee",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/fiat-500x-2015.html"
+      }
+    },
+    {
+      "id": "fiat-brava-1-6-103-bg-103",
+      "name": "Fiat Brava 1.6 · 103 bg",
+      "brand": "Fiat",
+      "model_family": "Brava",
+      "generation": null,
+      "years": "2000-2001",
+      "specs": {
+        "hp": 103,
+        "torque_nm": 140.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT RWD (103 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-840fab38ffd93bbe4b",
+        "src-87c3a60bd3d2057ac2"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cd0557cd67279c65d2",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/fiat-brava-1995.html"
+      }
+    },
+    {
+      "id": "fiat-bravo-1-4-t-jet-120-bg-120",
+      "name": "Fiat Bravo 1.4 T-Jet · 120 bg",
+      "brand": "Fiat",
+      "model_family": "Bravo",
+      "generation": null,
+      "years": "2007-2010",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 206.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L T-JET 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-oevolution-com-cars-fiat-bravo-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-31d954a5b021ce342a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-2007.html"
+      }
+    },
+    {
+      "id": "fiat-bravo-1-6-multijet-dualogic-120",
+      "name": "Fiat Bravo 1.6 MultiJet Dualogic",
+      "brand": "Fiat",
+      "model_family": "Bravo",
+      "generation": "198",
+      "years": "2008-2014",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Robot",
+        "transmission_name": "Selectronic 6AMT",
+        "gears": 6,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "198A2000",
+        "engine_name": "1.6 MultiJet"
+      },
+      "scored_car_id": "fiat-egea-1-6-multijet",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-fiat-bravo-1-6-multijet-dualogic",
+        "tech-oevolution-com-cars-fiat-bravo-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fbff4105c7717395d5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-2007.html"
+      }
+    },
+    {
+      "id": "fiat-bravo-1-6-103-bg-103",
+      "name": "Fiat Bravo 1.6 · 103 bg",
+      "brand": "Fiat",
+      "model_family": "Bravo",
+      "generation": null,
+      "years": "2000-2001",
+      "specs": {
+        "hp": 103,
+        "torque_nm": 144.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT RWD (103 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-49cc754be8323dddbe",
+        "src-f284858b18c66c1852"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d6dfcece99ba3b86f0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-1995.html"
+      }
+    },
+    {
+      "id": "fiat-bravo-1-6-120-bg-120",
+      "name": "Fiat Bravo 1.6 · 120 bg",
+      "brand": "Fiat",
+      "model_family": "Bravo",
+      "generation": null,
+      "years": "2007-2010",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L Multijet 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "fiat-egea-1-6-multijet",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-f284858b18c66c1852",
+        "tech-oevolution-com-cars-fiat-bravo-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-47d92eb1cbf03bf30d",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-2007.html"
+      }
+    },
+    {
+      "id": "fiat-egea-1-6-e-torq-110",
+      "name": "Fiat Egea 1.6 E-torQ",
+      "brand": "Fiat",
+      "model_family": "Egea",
+      "generation": null,
+      "years": "2015-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 152.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin AW60T",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "fca-etorq-16",
+        "engine_name": "E.torQ"
+      },
+      "scored_car_id": "fiat-egea-1-6-e-torq",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-fiat-egea-1-6-e-torq",
+        "tech-ion-com-cars-fiat-tipo-5-doors-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-de545438f080f010d3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/fiat-tipo-5-doors-2016.html"
+      }
+    },
+    {
+      "id": "fiat-egea-1-6-multijet-120",
+      "name": "Fiat Egea 1.6 Multijet",
+      "brand": "Fiat",
+      "model_family": "Egea",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "C635 DDCT",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "fca-multijet-16",
+        "engine_name": "1.6 MultiJet"
+      },
+      "scored_car_id": "fiat-egea-1-6-multijet",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-fiat-egea-1-6-multijet",
+        "tech-ion-com-cars-fiat-tipo-5-doors-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-41136ed3dc2651df71",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/fiat-tipo-5-doors-2016.html"
+      }
+    },
+    {
+      "id": "fiat-freemont-2-0-multijet-6at-awd-170",
+      "name": "Fiat Freemont 2.0 MultiJet 6AT AWD",
+      "brand": "Fiat",
+      "model_family": "Freemont",
+      "generation": "345",
+      "years": "2012-2015",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV/MPV",
+        "transmission_type": "TK",
+        "transmission_name": "62TE 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "939B5000",
+        "engine_name": "2.0 MultiJet"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-fiat-freemont-2-0-multijet-6at-awd",
+        "tech-olution-com-cars-fiat-freemont-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5a2f29012e2bef4ed1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/fiat-freemont-2011.html"
+      }
+    },
+    {
+      "id": "fiat-stilo-abarth-2-4-selespeed-170",
+      "name": "Fiat Stilo Abarth 2.4 Selespeed",
+      "brand": "Fiat",
+      "model_family": "Stilo Abarth",
+      "generation": "192",
+      "years": "2002-2007",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 221.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Robot",
+        "transmission_name": "Selespeed 5AMT",
+        "gears": 5,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "192A2000",
+        "engine_name": "2.4 20V"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-fiat-stilo-abarth-2-4-selespeed",
+        "tech-on-com-cars-fiat-stilo-5-doors-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c0743a4bc84d40cd22",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/fiat-stilo-5-doors-2004.html"
+      }
+    }
+  ]
+}

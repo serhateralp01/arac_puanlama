@@ -1,0 +1,295 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Jeep",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "jeep-cherokee-2-0-multijet-170",
+      "name": "Jeep Cherokee 2.0 Multijet",
+      "brand": "Jeep",
+      "model_family": "Cherokee",
+      "generation": "KL",
+      "years": "2014-2018",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "ZF 9HP",
+        "gears": 9,
+        "clutch": null,
+        "engine_code": "55263087",
+        "engine_name": "2.0 Multijet"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-jeep-cherokee-2-0-multijet",
+        "tech-olution-com-cars-jeep-cherokee-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-984bcf51eee87bc28c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jeep-cherokee-2013.html"
+      }
+    },
+    {
+      "id": "jeep-cherokee-2-8-crd-163",
+      "name": "Jeep Cherokee 2.8 CRD",
+      "brand": "Jeep",
+      "model_family": "Cherokee",
+      "generation": "KJ",
+      "years": "2002-2007",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 400.0,
+        "displacement_l": 2.8,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "ENR",
+        "engine_name": "2.8 CRD"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-jeep-cherokee-2-8-crd",
+        "tech--com-cars-jeep-cherokeeliberty-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-73d35e0a3151935bfc",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jeep-cherokeeliberty-2001.html"
+      }
+    },
+    {
+      "id": "jeep-cherokee-2-8-crd-177",
+      "name": "Jeep Cherokee 2.8 CRD",
+      "brand": "Jeep",
+      "model_family": "Cherokee",
+      "generation": "KK",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 460.0,
+        "displacement_l": 2.8,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "RA428",
+        "engine_name": "2.8 CRD"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-jeep-cherokee-2-8-crd",
+        "tech-com-cars-jeep-cherokee-liberty-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e371466de1542ca5e0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jeep-cherokee-liberty-2007.html"
+      }
+    },
+    {
+      "id": "jeep-compass-2-0-156",
+      "name": "Jeep Compass 2.0",
+      "brand": "Jeep",
+      "model_family": "Compass",
+      "generation": "MK49",
+      "years": "2007-2015",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "ECN",
+        "engine_name": "2.0 World Engine"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-jeep-compass-2-0",
+        "tech-volution-com-cars-jeep-compass-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3819418e550e66a713",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jeep-compass-2011.html"
+      }
+    },
+    {
+      "id": "jeep-grand-cherokee-3-0-crd-218",
+      "name": "Jeep Grand Cherokee 3.0 CRD",
+      "brand": "Jeep",
+      "model_family": "Grand Cherokee",
+      "generation": "WH",
+      "years": "2005-2010",
+      "specs": {
+        "hp": 218,
+        "torque_nm": 510.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "OM642",
+        "engine_name": "3.0 V6 CRD"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-jeep-grand-cherokee-3-0-crd",
+        "tech-n-com-cars-jeep-grand-cherokee-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4f6521026a28d86e22",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jeep-grand-cherokee-2005.html"
+      }
+    },
+    {
+      "id": "jeep-patriot-2-4-170",
+      "name": "Jeep Patriot 2.4",
+      "brand": "Jeep",
+      "model_family": "Patriot",
+      "generation": "MK74",
+      "years": "2007-2015",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 220.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "ED3",
+        "engine_name": "2.4 World Engine"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-jeep-patriot-2-4",
+        "tech-volution-com-cars-jeep-patriot-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a75070421c6777d2f0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jeep-patriot-2007.html"
+      }
+    },
+    {
+      "id": "jeep-renegade-1-4-multiair-140",
+      "name": "Jeep Renegade 1.4 MultiAir",
+      "brand": "Jeep",
+      "model_family": "Renegade",
+      "generation": "BU",
+      "years": "2015-2018",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 230.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "C635 DDCT",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "55263624",
+        "engine_name": "1.4 MultiAir"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-jeep-renegade-1-4-multiair",
+        "tech-olution-com-cars-jeep-renegade-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-675f6639be72b69101",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jeep-renegade-2014.html"
+      }
+    },
+    {
+      "id": "jeep-renegade-1-6-multijet-ddct-120",
+      "name": "Jeep Renegade 1.6 Multijet DDCT",
+      "brand": "Jeep",
+      "model_family": "Renegade",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "C635 DDCT",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "fca-multijet-16",
+        "engine_name": "1.6 MultiJet"
+      },
+      "scored_car_id": "jeep-renegade-1-6-multijet-ddct",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-jeep-renegade-1-6-multijet-ddct",
+        "tech-olution-com-cars-jeep-renegade-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-be4829044ba43aa414",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/jeep-renegade-2018.html"
+      }
+    }
+  ]
+}

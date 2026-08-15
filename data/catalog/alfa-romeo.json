@@ -1,0 +1,787 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Alfa Romeo",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "alfa-romeo-147-2-0-ts-150",
+      "name": "Alfa Romeo 147 2.0 TS",
+      "brand": "Alfa Romeo",
+      "model_family": "147",
+      "generation": "937",
+      "years": "2000-2009",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 181.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Robot",
+        "transmission_name": "Selespeed 5AMT",
+        "gears": 5,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "AR32310",
+        "engine_name": "2.0 Twin Spark"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-ci-el-otomobil-alfa-romeo-147-2-0-ts"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-336d9210c76575166d",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "alfa-romeo-156-2-0-ts-150",
+      "name": "Alfa Romeo 156 2.0 TS",
+      "brand": "Alfa Romeo",
+      "model_family": "156",
+      "generation": "932",
+      "years": "2000-2005",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 181.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Robot",
+        "transmission_name": "Selespeed 5AMT",
+        "gears": 5,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "AR32310",
+        "engine_name": "2.0 Twin Spark"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-alfa-romeo-156-2-0-ts",
+        "tech-lution-com-cars-alfa-romeo-156-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4d571e3ee767724e60",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-2003.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-156-2-0-ts-155-bg-155",
+      "name": "Alfa Romeo 156 2.0 TS · 155 bg",
+      "brand": "Alfa Romeo",
+      "model_family": "156",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 155,
+        "torque_nm": 187.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Robot",
+        "transmission_name": "2.0L JTS 5AT FWD (165 HP) 5-Speed Automatic (Selespeed)",
+        "gears": 5,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": null,
+        "engine_name": "2.0L JTS 5AT FWD (165 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ci-el-otomobil-alfa-romeo-156-2-0-ts",
+        "src-6918849c7ca3359db6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5680339888530b5dc9",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-sportwagon-2000.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-156-2-0-ts-165-bg-165",
+      "name": "Alfa Romeo 156 2.0 TS · 165 bg",
+      "brand": "Alfa Romeo",
+      "model_family": "156",
+      "generation": null,
+      "years": "2003-2005",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 206.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Robot",
+        "transmission_name": "2.0L JTS 5AT FWD (165 HP) 5-Speed Automatic (Selespeed)",
+        "gears": 5,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": null,
+        "engine_name": "2.0L JTS 5AT FWD (165 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ci-el-otomobil-alfa-romeo-156-2-0-ts",
+        "tech-lution-com-cars-alfa-romeo-156-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-798f885a6f4830f4c9",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-2003.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-156-2-0-ts-165-bg-165-2",
+      "name": "Alfa Romeo 156 2.0 TS · 165 bg",
+      "brand": "Alfa Romeo",
+      "model_family": "156",
+      "generation": null,
+      "years": "2003-2005",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 206.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Robot",
+        "transmission_name": "2.0L JTS 5AT FWD (165 HP) 5-Speed Automatic (Selespeed)",
+        "gears": 5,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": null,
+        "engine_name": "2.0L JTS 5AT FWD (165 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ci-el-otomobil-alfa-romeo-156-2-0-ts",
+        "src-79dad74ce19fce6fe4"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e5519d9c265c29bbf8",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-sportwagon-2003.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-159-1-9-jtd-150-bg-150",
+      "name": "Alfa Romeo 159 1.9 JTD · 150 bg",
+      "brand": "Alfa Romeo",
+      "model_family": "159",
+      "generation": null,
+      "years": "2006-2011",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L JTDm 16V 6AT FWD (150 HP)"
+      },
+      "scored_car_id": "alfa-romeo-159-1-9-jtdm",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-alfa-romeo-159-sportwagon-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0e4516fef85e3a43c2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-159-sportwagon-2006.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-159-1-9-jtdm-150",
+      "name": "Alfa Romeo 159 1.9 JTDm",
+      "brand": "Alfa Romeo",
+      "model_family": "159",
+      "generation": null,
+      "years": "2006-2011",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "fca-jtd-19",
+        "engine_name": "1.9 JTDm"
+      },
+      "scored_car_id": "alfa-romeo-159-1-9-jtdm",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-alfa-romeo-159-1-9-jtdm",
+        "tech-cars-alfa-romeo-159-sportwagon-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1b6365d598889192d0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-159-sportwagon-2006.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-159-2-4-jtdm-q-tronic-200",
+      "name": "Alfa Romeo 159 2.4 JTDm Q-Tronic",
+      "brand": "Alfa Romeo",
+      "model_family": "159",
+      "generation": "939",
+      "years": "2005-2011",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 400.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "939A3000",
+        "engine_name": "2.4L JTDm"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-alfa-romeo-159-2-4-jtdm-q-tronic",
+        "tech-lution-com-cars-alfa-romeo-159-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e1d80f77590a919e8d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-159-2005.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-166-2-0-ts-150",
+      "name": "Alfa Romeo 166 2.0 TS",
+      "brand": "Alfa Romeo",
+      "model_family": "166",
+      "generation": "936",
+      "years": "2000-2003",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 181.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "ZF 4HP20 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "AR36301",
+        "engine_name": "2.0 Twin Spark"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-ci-el-otomobil-alfa-romeo-166-2-0-ts"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4b8a846a0c16804c0f",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "alfa-romeo-166-3-0-v6-226",
+      "name": "Alfa Romeo 166 3.0 V6",
+      "brand": "Alfa Romeo",
+      "model_family": "166",
+      "generation": "936",
+      "years": "2000-2007",
+      "specs": {
+        "hp": 226,
+        "torque_nm": 275.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "ZF 4HP20 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "AR34301",
+        "engine_name": "3.0 Busso V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-alfa-romeo-166-3-0-v6",
+        "tech-lution-com-cars-alfa-romeo-166-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-46a3230901786c6827",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-166-2003.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-166-3-0-220-bg-220",
+      "name": "Alfa Romeo 166 3.0 · 220 bg",
+      "brand": "Alfa Romeo",
+      "model_family": "166",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 220,
+        "torque_nm": 265.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 4AT FWD (220 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-75abb4267a22070f9b",
+        "src-7a27a1ed37689c431f"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-960df109072a2c3a49",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-166-1998.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-166-3-0-220-bg-220-2",
+      "name": "Alfa Romeo 166 3.0 · 220 bg",
+      "brand": "Alfa Romeo",
+      "model_family": "166",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 220,
+        "torque_nm": 265.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L V6 4AT FWD (220 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-75abb4267a22070f9b",
+        "tech-lution-com-cars-alfa-romeo-166-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5fbb541ef62848b96c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-166-2003.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-alfa-giulietta-1-4-tb-170",
+      "name": "Alfa Romeo Alfa Giulietta 1.4 TB",
+      "brand": "Alfa Romeo",
+      "model_family": "Giulietta",
+      "generation": null,
+      "years": "2010-2016",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 250.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "TCT",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "fca-multiair-14",
+        "engine_name": "MultiAir"
+      },
+      "scored_car_id": "alfa-giulietta-1-4-tb",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-alfa-romeo-alfa-giulietta-1-4-tb",
+        "tech--romeo-mito-quadrifoglio-verde-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cabd92d065dcd55cf4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-quadrifoglio-verde-2009.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-gt-2-0-jts-selespeed-165",
+      "name": "Alfa Romeo GT 2.0 JTS Selespeed",
+      "brand": "Alfa Romeo",
+      "model_family": "GT",
+      "generation": "937",
+      "years": "2003-2010",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 206.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "Robot",
+        "transmission_name": "Selespeed 5AMT",
+        "gears": 5,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "937A1000",
+        "engine_name": "2.0L JTS"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-alfa-romeo-gt-2-0-jts-selespeed",
+        "tech-olution-com-cars-alfa-romeo-gt-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3e4dd486a297546e0c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-gt-2003.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-giulietta-1-6-jtdm-120",
+      "name": "Alfa Romeo Giulietta 1.6 JTDm",
+      "brand": "Alfa Romeo",
+      "model_family": "Giulietta",
+      "generation": "940",
+      "years": "2015-2018",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "TCT",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "940A2000",
+        "engine_name": "1.6 JTDm"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-omobil-alfa-romeo-giulietta-1-6-jtdm",
+        "tech--com-cars-alfa-romeo-giulietta-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-efb898f4c35169b664",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-giulietta-2016.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-mito-1-4-135",
+      "name": "Alfa Romeo MiTo 1.4",
+      "brand": "Alfa Romeo",
+      "model_family": "MiTo",
+      "generation": null,
+      "years": "2010-2016",
+      "specs": {
+        "hp": 135,
+        "torque_nm": 206.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "TCT",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "fca-multiair-14",
+        "engine_name": "MultiAir"
+      },
+      "scored_car_id": "alfa-romeo-mito-1-4",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-alfa-romeo-mito-1-4",
+        "tech-ution-com-cars-alfa-romeo-mito-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5cff1196aa3b7d2b0e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2008.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-mito-1-4-t-135-bg-135",
+      "name": "Alfa Romeo MiTo 1.4 T · 135 bg",
+      "brand": "Alfa Romeo",
+      "model_family": "MiTo",
+      "generation": null,
+      "years": "2008-2008",
+      "specs": {
+        "hp": 135,
+        "torque_nm": 206.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L 6AT FWD (170 HP)"
+      },
+      "scored_car_id": "alfa-romeo-mito-1-4",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-273a45192d9d31e4bd",
+        "tech-ution-com-cars-alfa-romeo-mito-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a39c612ec7baf99fa2",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2008.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-mito-1-4-t-140-bg-140",
+      "name": "Alfa Romeo MiTo 1.4 T · 140 bg",
+      "brand": "Alfa Romeo",
+      "model_family": "MiTo",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 230.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L 6AT FWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-273a45192d9d31e4bd",
+        "src-e01893818777051818"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-962cdaf8a1200d20aa",
+        "publication_status": "held_conflict",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2013.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-mito-1-4-t-140-bg-140-2",
+      "name": "Alfa Romeo MiTo 1.4 T · 140 bg",
+      "brand": "Alfa Romeo",
+      "model_family": "MiTo",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 250.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L 6AT FWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-273a45192d9d31e4bd",
+        "src-c59c070881616dedac"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f0ee6a03f98e40d68e",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2016.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-mito-1-4-t-170-bg-170",
+      "name": "Alfa Romeo MiTo 1.4 T · 170 bg",
+      "brand": "Alfa Romeo",
+      "model_family": "MiTo",
+      "generation": null,
+      "years": "2009-2009",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 249.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L 6AT FWD (170 HP)"
+      },
+      "scored_car_id": "alfa-giulietta-1-4-tb",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-273a45192d9d31e4bd",
+        "tech--romeo-mito-quadrifoglio-verde-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e4ede0c6117734f471",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-quadrifoglio-verde-2009.html"
+      }
+    },
+    {
+      "id": "alfa-romeo-mito-1-4-t-170-bg-170-2",
+      "name": "Alfa Romeo MiTo 1.4 T · 170 bg",
+      "brand": "Alfa Romeo",
+      "model_family": "MiTo",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 250.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L 6AT FWD (170 HP)"
+      },
+      "scored_car_id": "alfa-giulietta-1-4-tb",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-273a45192d9d31e4bd",
+        "src-ba4b5dc3de5a4eb379"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-12929fae38f75bf8ba",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-veloce-2016.html"
+      }
+    }
+  ]
+}

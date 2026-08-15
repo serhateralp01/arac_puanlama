@@ -1,0 +1,2756 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Citroën",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "citro-n-c-elys-e-1-6-vti-otomatik-115",
+      "name": "Citroën C-Elysée 1.6 VTi Otomatik",
+      "brand": "Citroën",
+      "model_family": "C-Elysée",
+      "generation": null,
+      "years": "2015-2020",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "psa-ep6-vti",
+        "engine_name": "EP6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "citroen-c-elysee-1-6-otomatik",
+        "citroen-grand-c4-picasso-1-6-ehdi-eat6"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-il-citroen-c-elysee-1-6-vti-otomatik",
+        "tech-tion-com-cars-citroen-c-elysee-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-30a33903338038362e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c-elysee-2013.html"
+      }
+    },
+    {
+      "id": "citro-n-c-elys-e-1-6-vti-115-bg-115",
+      "name": "Citroën C-Elysée 1.6 VTi · 115 bg",
+      "brand": "Citroën",
+      "model_family": "C-Elysée",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "citroen-grand-c4-picasso-1-6-ehdi-eat6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-citroen-c-elysee-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ff67fefc89c21740bb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c-elysee-2013.html"
+      }
+    },
+    {
+      "id": "citro-n-c2-1-6-110-bg-110",
+      "name": "Citroën C2 1.6 · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C2",
+      "generation": null,
+      "years": "2003-2003",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "citroen-xsara-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-3c72cc2d2b97212bca",
+        "src-f748f776ac76bb52b3"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-00fa70944add531788",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c2-2003.html"
+      }
+    },
+    {
+      "id": "citro-n-c2-1-6-110-bg-110-2",
+      "name": "Citroën C2 1.6 · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C2",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "citroen-xsara-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-3c72cc2d2b97212bca",
+        "src-d70739e5b5d725b3bb"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-74502fc35b0571d42f",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c2-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-c3-1-2-puretech-otomatik-110",
+      "name": "Citroën C3 1.2 PureTech Otomatik",
+      "brand": "Citroën",
+      "model_family": "C3",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-puretech-12",
+        "engine_name": "PureTech 130"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "citroen-c3-1-2-puretech-otomatik",
+        "citroen-c3-aircross-1-2-puretech-eat6",
+        "citroen-c4-cactus-1-2-puretech-eat6"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-citroen-c3-1-2-puretech-otomatik",
+        "tech-n-com-cars-citroen-c3-aircross-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9110d2a3712abaa432",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-aircross-2017.html"
+      }
+    },
+    {
+      "id": "citro-n-c3-1-2-puretech-110-bg-110",
+      "name": "Citroën C3 1.2 PureTech · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C3",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L PureTech 6AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "citroen-c3-1-2-puretech-otomatik",
+        "citroen-c3-aircross-1-2-puretech-eat6",
+        "citroen-c4-cactus-1-2-puretech-eat6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-citroen-c3-aircross-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4bb42ce745a5dbbeed",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-aircross-2017.html"
+      }
+    },
+    {
+      "id": "citro-n-c3-1-2-puretech-110-bg-110-2",
+      "name": "Citroën C3 1.2 PureTech · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C3",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L PureTech 6AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "citroen-c3-1-2-puretech-otomatik",
+        "citroen-c3-aircross-1-2-puretech-eat6",
+        "citroen-c4-cactus-1-2-puretech-eat6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-oevolution-com-cars-citroen-c3-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-13030a1d586ed5ada9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2019.html"
+      }
+    },
+    {
+      "id": "citro-n-c3-1-6-vti-120-bg-120",
+      "name": "Citroën C3 1.6 VTi · 120 bg",
+      "brand": "Citroën",
+      "model_family": "C3",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "citroen-c4-1-6-vti",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-on-com-cars-citroen-c3-picasso-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a4eadc49868f710b26",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-picasso-2013.html"
+      }
+    },
+    {
+      "id": "citro-n-c3-1-6-110-bg-110",
+      "name": "Citroën C3 1.6 · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C3",
+      "generation": null,
+      "years": "2003-2010",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "citroen-xsara-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-27146ad3d128a8034f",
+        "src-2e0126a38abbb856ed"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5e1684fd7a80cf386b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-pluriel-2003.html"
+      }
+    },
+    {
+      "id": "citro-n-c3-1-6-110-bg-110-2",
+      "name": "Citroën C3 1.6 · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C3",
+      "generation": null,
+      "years": "2005-2009",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "citroen-xsara-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-27146ad3d128a8034f",
+        "src-b30a150c6154d3cb8c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fa54197df5c9cfba20",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2005.html"
+      }
+    },
+    {
+      "id": "citro-n-c3-1-6-110-bg-110-3",
+      "name": "Citroën C3 1.6 · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C3",
+      "generation": null,
+      "years": "2005-2009",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "citroen-xsara-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-27146ad3d128a8034f",
+        "src-7e431df12bf1042493",
+        "src-b30a150c6154d3cb8c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0237bb4f1c719c36d9",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-x-tr-2005.html"
+      }
+    },
+    {
+      "id": "citro-n-c3-1-6-120-bg-120",
+      "name": "Citroën C3 1.6 · 120 bg",
+      "brand": "Citroën",
+      "model_family": "C3",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "citroen-c4-1-6-vti",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-00cc0d81923098a2dd",
+        "src-27146ad3d128a8034f"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-10bde7142f1a37ae6b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-picasso-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-c3-1-6-120-bg-120-2",
+      "name": "Citroën C3 1.6 · 120 bg",
+      "brand": "Citroën",
+      "model_family": "C3",
+      "generation": null,
+      "years": "2009-2013",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "citroen-c4-1-6-vti",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-27146ad3d128a8034f",
+        "src-fd3a3ffe80d38194e8"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ae69675751411ac192",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2009.html"
+      }
+    },
+    {
+      "id": "citro-n-c3-aircross-1-2-puretech-eat6-110",
+      "name": "Citroën C3 Aircross 1.2 PureTech EAT6",
+      "brand": "Citroën",
+      "model_family": "C3 Aircross",
+      "generation": null,
+      "years": "2018-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-puretech-12",
+        "engine_name": "PureTech 130"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "citroen-c3-1-2-puretech-otomatik",
+        "citroen-c3-aircross-1-2-puretech-eat6",
+        "citroen-c4-cactus-1-2-puretech-eat6"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-itroen-c3-aircross-1-2-puretech-eat6",
+        "tech-oevolution-com-cars-citroen-c3-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bf26e23945e649c607",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2019.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-2-puretech-110-bg-110",
+      "name": "Citroën C4 1.2 PureTech · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2018-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L PureTech 6AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "citroen-c3-1-2-puretech-otomatik",
+        "citroen-c3-aircross-1-2-puretech-eat6",
+        "citroen-c4-cactus-1-2-puretech-eat6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-citroen-c4-cactus-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-425c02f3c042afc730",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-cactus-2018.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-2-puretech-130-bg-130",
+      "name": "Citroën C4 1.2 PureTech · 130 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 230.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L PureTech 6AT FWD (130 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "src-66fd7cb5359021d4ce",
+        "src-893d6cfb0fa4b39e98",
+        "tech-on-com-cars-citroen-c4-picasso-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b080ec8a417462e99b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2016.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-bluehdi-110-bg-110",
+      "name": "Citroën C4 1.6 BlueHDi · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": "citroen-xsara-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-citroen-c4-hatchback-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a5d811c75a0df81c41",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-bluehdi-112-bg-112",
+      "name": "Citroën C4 1.6 BlueHDi · 112 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-on-com-cars-citroen-c4-picasso-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4ffbc308f5f2b1e7e3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-bluehdi-112-bg-112-2",
+      "name": "Citroën C4 1.6 BlueHDi · 112 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-f76c8f8800bb7226df",
+        "tech-on-com-cars-citroen-c4-picasso-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f303b70961a4c61f69",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-bluehdi-115-bg-115",
+      "name": "Citroën C4 1.6 BlueHDi · 115 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": "citroen-grand-c4-picasso-1-6-ehdi-eat6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-on-com-cars-citroen-c4-picasso-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f9cfb5cae99c622401",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2013.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-bluehdi-115-bg-115-2",
+      "name": "Citroën C4 1.6 BlueHDi · 115 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2013-2016",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 279.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Robot",
+        "transmission_name": "2.0L JTS 5AT FWD (165 HP) 5-Speed Automatic (Selespeed)",
+        "gears": 5,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "citroen-c-elysee-1-6-otomatik",
+        "citroen-grand-c4-picasso-1-6-ehdi-eat6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--cars-citroen-grand-c4-picasso-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-23132ce6a78b054147",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-grand-c4-picasso-2013.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-bluehdi-120-bg-120",
+      "name": "Citroën C4 1.6 BlueHDi · 120 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": "citroen-c4-1-6-vti",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-on-com-cars-citroen-c4-picasso-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c7e72ca6b828bf468a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2016.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-thp-156",
+      "name": "Citroën C4 1.6 THP",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2010-2018",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Robot",
+        "transmission_name": "EGS6 6AMT",
+        "gears": 6,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "psa-ep6-thp",
+        "engine_name": "EP6DT"
+      },
+      "scored_car_id": "citroen-c4-1-6-thp",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-citroen-c4-1-6-thp",
+        "tech--com-cars-citroen-c4-hatchback-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ee9280ace9925ff34e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-109-bg-109",
+      "name": "Citroën C4 1.6 · 109 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-36cce07e7d9bfe166b",
+        "src-93f3b6b7b9afd2c56d"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d0aa19f2474c47cd11",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2004.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-109-bg-109-2",
+      "name": "Citroën C4 1.6 · 109 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-1539e6d84c321ebfb7",
+        "src-36cce07e7d9bfe166b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-00fbb04b538bd8bbb4",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-coupe-2004.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-110-bg-110",
+      "name": "Citroën C4 1.6 · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2007-2010",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": "citroen-xsara-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-36cce07e7d9bfe166b",
+        "tech-on-com-cars-citroen-c4-picasso-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5b741187db57e09f24",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2007.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-110-bg-110-2",
+      "name": "Citroën C4 1.6 · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2008-2008",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": "citroen-xsara-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-36cce07e7d9bfe166b",
+        "src-c0cdd500f609b7dbe8"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9624f3d9756720e090",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-coupe-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-110-bg-110-3",
+      "name": "Citroën C4 1.6 · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 260.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": "citroen-xsara-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-36cce07e7d9bfe166b",
+        "tech--com-cars-citroen-c4-hatchback-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-467fe9c33affb23655",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-1-6-150-bg-150",
+      "name": "Citroën C4 1.6 · 150 bg",
+      "brand": "Citroën",
+      "model_family": "C4",
+      "generation": null,
+      "years": "2007-2010",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-36cce07e7d9bfe166b",
+        "tech-on-com-cars-citroen-c4-picasso-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-983f5e304794cb87d4",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2007.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-cactus-1-2-puretech-eat6-110",
+      "name": "Citroën C4 Cactus 1.2 PureTech EAT6",
+      "brand": "Citroën",
+      "model_family": "C4 Cactus",
+      "generation": null,
+      "years": "2018-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-puretech-12",
+        "engine_name": "PureTech 130"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "citroen-c3-1-2-puretech-otomatik",
+        "citroen-c3-aircross-1-2-puretech-eat6",
+        "citroen-c4-cactus-1-2-puretech-eat6"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--citroen-c4-cactus-1-2-puretech-eat6",
+        "tech-ion-com-cars-citroen-c4-cactus-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6b99c0a0c646989878",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-cactus-2018.html"
+      }
+    },
+    {
+      "id": "citro-n-c4-picasso-2-0-hdi-eat6-140",
+      "name": "Citroën C4 Picasso 2.0 HDi EAT6",
+      "brand": "Citroën",
+      "model_family": "C4 Picasso",
+      "generation": null,
+      "years": "2007-2010",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-dw10",
+        "engine_name": "DW10"
+      },
+      "scored_car_id": "citroen-c4-picasso-2-0-hdi-eat6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-citroen-c4-picasso-2-0-hdi-eat6",
+        "tech-on-com-cars-citroen-c4-picasso-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7732d977c4b95ce2fe",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2007.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-thp-120-bg-120",
+      "name": "Citroën C5 1.6 THP · 120 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2010-2017",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "citroen-c4-1-6-vti",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-984867ef416335fb18",
+        "tech-tion-com-cars-citroen-c5-sedan-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6006a496a1131d4785",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-thp-156-bg-156",
+      "name": "Citroën C5 1.6 THP · 156 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "citroen-c4-1-6-thp",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-citroen-c5-sedan-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-091523b9971a182e5b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-thp-156-bg-156-2",
+      "name": "Citroën C5 1.6 THP · 156 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "citroen-c4-1-6-thp",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-citroen-c5-tourer-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3747de7f65b5639d03",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-thp-156-bg-156-3",
+      "name": "Citroën C5 1.6 THP · 156 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2010-2017",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "citroen-c4-1-6-thp",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-citroen-c5-sedan-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6969aa1262dd8573fe",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-thp-156-bg-156-4",
+      "name": "Citroën C5 1.6 THP · 156 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2010-2010",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "citroen-c4-1-6-thp",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-citroen-c5-tourer-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-01a82ffbcd12711011",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-thp-167-bg-167",
+      "name": "Citroën C5 1.6 THP · 167 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 167,
+        "torque_nm": 245.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VTi 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-citroen-c5-aircross-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6585d4d43a0ba50f66",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-aircross-2018.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-e-hdi-112-bg-112",
+      "name": "Citroën C5 1.6 e-HDi · 112 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2010-2017",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-citroen-c5-sedan-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c8a91f18f930c1e953",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-e-hdi-112-bg-112-2",
+      "name": "Citroën C5 1.6 e-HDi · 112 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2010-2010",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 270.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-citroen-c5-tourer-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cc62253b244a20ea0b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-e-hdi-114-bg-114",
+      "name": "Citroën C5 1.6 e-HDi · 114 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2010-2010",
+      "specs": {
+        "hp": 114,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-citroen-c5-tourer-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bf517e54aa375407fd",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-e-hdi-115-bg-115",
+      "name": "Citroën C5 1.6 e-HDi · 115 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "citroen-c-elysee-1-6-otomatik",
+        "citroen-grand-c4-picasso-1-6-ehdi-eat6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-citroen-c5-sedan-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-303c8f1c34c09c4c69",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-e-hdi-115-bg-115-2",
+      "name": "Citroën C5 1.6 e-HDi · 115 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "citroen-c-elysee-1-6-otomatik",
+        "citroen-grand-c4-picasso-1-6-ehdi-eat6"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-citroen-c5-tourer-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a07bce2630ae477c78",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-1-6-e-hdi-115-bg-115-3",
+      "name": "Citroën C5 1.6 e-HDi · 115 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 285.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L eHDi 6AT FWD (112 HP)"
+      },
+      "scored_car_id": "citroen-grand-c4-picasso-1-6-ehdi-eat6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-om-cars-citroen-c5-crosstourer-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d2a3ebf47e7954ccd5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-crosstourer-2014.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-136",
+      "name": "Citroën C5 2.0",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": "Mk1",
+      "years": "2001-2004",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "EW10J4",
+        "engine_name": "2.0 16V"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-citroen-c5-2-0",
+        "tech-n-com-cars-citroen-c5-liftback-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-33c87bb4686a97ef28",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-hdi-138-bg-138",
+      "name": "Citroën C5 2.0 HDi · 138 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 138,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L HDi 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-citroen-c5-liftback-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6758d3a6ea70e9c8ea",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-hdi-138-bg-138-2",
+      "name": "Citroën C5 2.0 HDi · 138 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 138,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L HDi 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-citroen-c5-sedan-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2ee5075e8bae73b319",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-hdi-160-bg-160",
+      "name": "Citroën C5 2.0 HDi · 160 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2008-2010",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L HDi 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-citroen-c5-tourer-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-00879855ed0e287af0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-hdi-160-bg-160-2",
+      "name": "Citroën C5 2.0 HDi · 160 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L HDi 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-citroen-c5-sedan-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f04f9b77d0cacc271a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-hdi-163-bg-163",
+      "name": "Citroën C5 2.0 HDi · 163 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2010-2010",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L HDi 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "citroen-c5-2-0-hdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-citroen-c5-tourer-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6affc8d8ee294a664d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-hdi-180-bg-180",
+      "name": "Citroën C5 2.0 HDi · 180 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2010-2017",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 400.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L HDi 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-citroen-c5-sedan-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f8a4d1bb7735aadbbe",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-110-bg-110",
+      "name": "Citroën C5 2.0 · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2001-2004",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 250.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L HDi 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-om-ikinci-el-otomobil-citroen-c5-2-0",
+        "tech-n-com-cars-citroen-c5-liftback-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4383c96a9741472a37",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-110-bg-110-2",
+      "name": "Citroën C5 2.0 · 110 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2001-2004",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 250.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L HDi 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-om-ikinci-el-otomobil-citroen-c5-2-0",
+        "tech-ion-com-cars-citroen-c5-estate-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4cee1e090380a8641d",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2001.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-136-bg-136",
+      "name": "Citroën C5 2.0 · 136 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2001-2004",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 4AT FWD (143 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-om-ikinci-el-otomobil-citroen-c5-2-0",
+        "tech-n-com-cars-citroen-c5-liftback-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-beb40ca77478369831",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-136-bg-136-2",
+      "name": "Citroën C5 2.0 · 136 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2001-2004",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 4AT FWD (143 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-om-ikinci-el-otomobil-citroen-c5-2-0",
+        "tech-ion-com-cars-citroen-c5-estate-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4c84a01d971b3c94d7",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2001.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-140-bg-140",
+      "name": "Citroën C5 2.0 · 140 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 200.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 4AT FWD (143 HP)"
+      },
+      "scored_car_id": "citroen-c4-picasso-2-0-hdi-eat6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-om-ikinci-el-otomobil-citroen-c5-2-0",
+        "tech-ion-com-cars-citroen-c5-estate-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-01ebf5ab6a9a34fc51",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2004.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-0-143-bg-143",
+      "name": "Citroën C5 2.0 · 143 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 143,
+        "torque_nm": 200.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 4AT FWD (143 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-om-ikinci-el-otomobil-citroen-c5-2-0",
+        "tech-n-com-cars-citroen-c5-liftback-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ac08b7519b1ef54eaf",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-2-hdi-133-bg-133",
+      "name": "Citroën C5 2.2 HDi · 133 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2001-2004",
+      "specs": {
+        "hp": 133,
+        "torque_nm": 314.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.2L HDi 6AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-citroen-c5-liftback-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-eb62201be9b0ec0cb4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-2-hdi-133-bg-133-2",
+      "name": "Citroën C5 2.2 HDi · 133 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2001-2004",
+      "specs": {
+        "hp": 133,
+        "torque_nm": 314.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.2L HDi 6AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-citroen-c5-estate-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-87842d58ba5bc649d4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2001.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-2-hdi-133-bg-133-3",
+      "name": "Citroën C5 2.2 HDi · 133 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 133,
+        "torque_nm": 314.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.2L HDi 6AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ion-com-cars-citroen-c5-estate-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c1a0d8d20180d623a9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2004.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-2-hdi-136-bg-136",
+      "name": "Citroën C5 2.2 HDi · 136 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 314.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.2L HDiF 6AT FWD (173 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-citroen-c5-liftback-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c04c24844c9ab4b6a1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-2-hdi-173-bg-173",
+      "name": "Citroën C5 2.2 HDi · 173 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 173,
+        "torque_nm": 370.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.2L HDiF 6AT FWD (173 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-citroen-c5-liftback-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3403e05595fee11835",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html"
+      }
+    },
+    {
+      "id": "citro-n-c5-2-2-hdi-200-bg-200",
+      "name": "Citroën C5 2.2 HDi · 200 bg",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2008-2011",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 450.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.2L HDi 6AT FWD (200 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-citroen-c5-sedan-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d0c34dcd9edf22093b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-citroen-c4-1-6-vti-120",
+      "name": "Citroën Citroen C4 1.6 VTi",
+      "brand": "Citroën",
+      "model_family": "Citroen C4",
+      "generation": null,
+      "years": "2005-2010",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "psa-ep6-vti",
+        "engine_name": "EP6"
+      },
+      "scored_car_id": "citroen-c4-1-6-vti",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-citroen-citroen-c4-1-6-vti",
+        "tech--com-cars-citroen-c4-hatchback-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-725c95e87deb50a049",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-citroen-c5-2-0-hdi-163",
+      "name": "Citroën Citroen C5 2.0 HDi",
+      "brand": "Citroën",
+      "model_family": "Citroen C5",
+      "generation": null,
+      "years": "2008-2016",
+      "specs": {
+        "hp": 163,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin AF40-6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-dw10",
+        "engine_name": "DW10"
+      },
+      "scored_car_id": "citroen-c5-2-0-hdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-citroen-citroen-c5-2-0-hdi",
+        "tech-tion-com-cars-citroen-c5-sedan-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-15e15964f6de52e040",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+      }
+    },
+    {
+      "id": "citro-n-citroen-xsara-1-6-110",
+      "name": "Citroën Citroen Xsara 1.6",
+      "brand": "Citroën",
+      "model_family": "Citroen Xsara",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "psa-tu5",
+        "engine_name": "TU5"
+      },
+      "scored_car_id": "citroen-xsara-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-citroen-citroen-xsara-1-6",
+        "tech-olution-com-cars-citroen-xsara-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b471a97f6140207fea",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-xsara-2000.html"
+      }
+    },
+    {
+      "id": "citro-n-ds3-1-6-vti-bva4-120",
+      "name": "Citroën DS3 1.6 VTi BVA4",
+      "brand": "Citroën",
+      "model_family": "DS3",
+      "generation": "A55",
+      "years": "2009-2015",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "EP6",
+        "engine_name": "1.6L VTi"
+      },
+      "scored_car_id": "citroen-c4-1-6-vti",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-citroen-ds3-1-6-vti-bva4",
+        "tech-evolution-com-cars-citroen-ds3-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a553b6c8ad2c641750",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-ds3-2009.html"
+      }
+    },
+    {
+      "id": "citro-n-ds4-1-6-thp-bva6-155",
+      "name": "Citroën DS4 1.6 THP BVA6",
+      "brand": "Citroën",
+      "model_family": "DS4",
+      "generation": "B75",
+      "years": "2010-2015",
+      "specs": {
+        "hp": 155,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "EP6CDT",
+        "engine_name": "155 THP"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-citroen-ds4-1-6-thp-bva6",
+        "tech-evolution-com-cars-citroen-ds4-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1417e93241248d6ee7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-ds4-2010.html"
+      }
+    },
+    {
+      "id": "citro-n-ds5-1-6-thp-bva6-156",
+      "name": "Citroën DS5 1.6 THP BVA6",
+      "brand": "Citroën",
+      "model_family": "DS5",
+      "generation": "B81",
+      "years": "2011-2015",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "EP6CDT",
+        "engine_name": "155 THP"
+      },
+      "scored_car_id": "citroen-c4-1-6-thp",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-citroen-ds5-1-6-thp-bva6",
+        "tech-evolution-com-cars-citroen-ds5-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d75d7ab323359cae0f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-ds5-2011.html"
+      }
+    },
+    {
+      "id": "citro-n-grand-c4-picasso-1-6-e-hdi-eat6-115",
+      "name": "Citroën Grand C4 Picasso 1.6 e-HDi EAT6",
+      "brand": "Citroën",
+      "model_family": "Grand C4 Picasso",
+      "generation": null,
+      "years": "2013-2016",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 285.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-dv6",
+        "engine_name": "DV6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "citroen-c-elysee-1-6-otomatik",
+        "citroen-grand-c4-picasso-1-6-ehdi-eat6"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-roen-grand-c4-picasso-1-6-e-hdi-eat6",
+        "tech-on-com-cars-citroen-c4-picasso-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a4c162285ea2b4a2f7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2013.html"
+      }
+    },
+    {
+      "id": "citro-n-grand-c4-picasso-2-0-bluehdi-eat6-150",
+      "name": "Citroën Grand C4 Picasso 2.0 BlueHDi EAT6",
+      "brand": "Citroën",
+      "model_family": "Grand C4 Picasso",
+      "generation": null,
+      "years": "2013-2016",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 370.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-dw10",
+        "engine_name": "DW10"
+      },
+      "scored_car_id": "citroen-grand-c4-picasso-2-0-bluehdi-eat6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-en-grand-c4-picasso-2-0-bluehdi-eat6",
+        "tech--cars-citroen-grand-c4-picasso-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-04a61a5988d146a56c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-grand-c4-picasso-2013.html"
+      }
+    },
+    {
+      "id": "citro-n-xantia-2-0-123-bg-123",
+      "name": "Citroën Xantia 2.0 · 123 bg",
+      "brand": "Citroën",
+      "model_family": "Xantia",
+      "generation": null,
+      "years": "2000-2001",
+      "specs": {
+        "hp": 123,
+        "torque_nm": 176.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0i 4AT FWD (123 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6d47ce889a0aaf5d36",
+        "src-8a07d1222ea0ca74ea",
+        "src-dd807ac8511765bd7c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-610e0db8c0aefffaa5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-xantia-break-1998.html"
+      }
+    },
+    {
+      "id": "citro-n-xsara-1-6-110-bg-110",
+      "name": "Citroën Xsara 1.6 · 110 bg",
+      "brand": "Citroën",
+      "model_family": "Xsara",
+      "generation": null,
+      "years": "2000-2004",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 147.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "citroen-xsara-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-cdee42afb0a3745367",
+        "tech-olution-com-cars-citroen-xsara-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b97d4c2ad431769c46",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/citroen-xsara-2000.html"
+      }
+    }
+  ]
+}

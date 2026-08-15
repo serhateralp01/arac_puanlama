@@ -1,0 +1,2094 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Toyota",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "toyota-auris-1-6-124",
+      "name": "Toyota Auris 1.6",
+      "brand": "Toyota",
+      "model_family": "Auris",
+      "generation": "E150",
+      "years": "2007-2010",
+      "specs": {
+        "hp": 124,
+        "torque_nm": 157.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Robot",
+        "transmission_name": "MMT 5AMT",
+        "gears": 5,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "1ZR-FE",
+        "engine_name": "1.6 VVT-i"
+      },
+      "scored_car_id": "toyota-corolla-1-6-2007-13",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-toyota-auris-1-6",
+        "tech--com-cars-toyota-auris-5-doors-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-43fa782d8b488d59e0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2006.html"
+      }
+    },
+    {
+      "id": "toyota-auris-1-6-132",
+      "name": "Toyota Auris 1.6",
+      "brand": "Toyota",
+      "model_family": "Auris",
+      "generation": "E180",
+      "years": "2013-2018",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "1ZR-FAE",
+        "engine_name": "1.6 Valvematic"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "toyota-auris-1-6",
+        "toyota-corolla-1-6-2013",
+        "toyota-corolla-1-6-multidrive"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-toyota-auris-1-6",
+        "tech--com-cars-toyota-auris-5-doors-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3500feedd633f41711",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2013.html"
+      }
+    },
+    {
+      "id": "toyota-auris-1-6-124-bg-124",
+      "name": "Toyota Auris 1.6 · 124 bg",
+      "brand": "Toyota",
+      "model_family": "Auris",
+      "generation": null,
+      "years": "2006-2010",
+      "specs": {
+        "hp": 124,
+        "torque_nm": 157.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "toyota-corolla-1-6-2007-13",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-toyota-auris-1-6",
+        "tech--com-cars-toyota-auris-5-doors-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9f91f0ed50835aaf17",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2006.html"
+      }
+    },
+    {
+      "id": "toyota-auris-1-6-124-bg-124-2",
+      "name": "Toyota Auris 1.6 · 124 bg",
+      "brand": "Toyota",
+      "model_family": "Auris",
+      "generation": null,
+      "years": "2006-2006",
+      "specs": {
+        "hp": 124,
+        "torque_nm": 157.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "toyota-corolla-1-6-2007-13",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-toyota-auris-1-6",
+        "src-4218bc0153bce40cf6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7caea72304f6d77de8",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-auris-3-doors-2006.html"
+      }
+    },
+    {
+      "id": "toyota-auris-1-6-132-bg-132",
+      "name": "Toyota Auris 1.6 · 132 bg",
+      "brand": "Toyota",
+      "model_family": "Auris",
+      "generation": null,
+      "years": "2006-2010",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "toyota-auris-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-toyota-auris-1-6",
+        "tech--com-cars-toyota-auris-5-doors-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-581fd1798ae1c4c7d1",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2006.html"
+      }
+    },
+    {
+      "id": "toyota-auris-1-6-132-bg-132-2",
+      "name": "Toyota Auris 1.6 · 132 bg",
+      "brand": "Toyota",
+      "model_family": "Auris",
+      "generation": null,
+      "years": "2006-2006",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "toyota-auris-1-6",
+        "toyota-corolla-1-6-2013",
+        "toyota-corolla-1-6-multidrive",
+        "toyota-corolla-e210-1-6-cvt"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-toyota-auris-1-6",
+        "src-4218bc0153bce40cf6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1425fb30aebd105f76",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-auris-3-doors-2006.html"
+      }
+    },
+    {
+      "id": "toyota-auris-1-6-132-bg-132-3",
+      "name": "Toyota Auris 1.6 · 132 bg",
+      "brand": "Toyota",
+      "model_family": "Auris",
+      "generation": null,
+      "years": "2013-2015",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "toyota-auris-1-6",
+        "toyota-corolla-1-6-2013",
+        "toyota-corolla-1-6-multidrive"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-toyota-auris-1-6",
+        "tech--com-cars-toyota-auris-5-doors-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c160ce9ba036530620",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2013.html"
+      }
+    },
+    {
+      "id": "toyota-auris-1-6-132-bg-132-4",
+      "name": "Toyota Auris 1.6 · 132 bg",
+      "brand": "Toyota",
+      "model_family": "Auris",
+      "generation": null,
+      "years": "2013-2015",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "toyota-auris-1-6",
+        "toyota-corolla-1-6-2013",
+        "toyota-corolla-1-6-multidrive"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-toyota-auris-1-6",
+        "src-ea20d01ad01106fe8e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2e854ff315efa784c1",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-auris-touring-2013.html"
+      }
+    },
+    {
+      "id": "toyota-auris-1-8-multidrive-136",
+      "name": "Toyota Auris 1.8 Multidrive",
+      "brand": "Toyota",
+      "model_family": "Auris",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 142.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "toyota-zr",
+        "engine_name": "1ZR-FE"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-toyota-auris-1-8-multidrive",
+        "tech--com-cars-toyota-auris-5-doors-2017-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-84f060b7ec87bc1d25",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2017.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-1-8-147",
+      "name": "Toyota Avensis 1.8",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2009-2018",
+      "specs": {
+        "hp": 147,
+        "torque_nm": 180.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "toyota-zr",
+        "engine_name": "1ZR-FE"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-1-8",
+        "tech-lution-com-cars-toyota-avensis-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-035b901f770850ddff",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-2009.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-1-8-147-2",
+      "name": "Toyota Avensis 1.8",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": "T27",
+      "years": "2009-2018",
+      "specs": {
+        "hp": 147,
+        "torque_nm": 180.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "2ZR-FAE",
+        "engine_name": "1.8 Valvematic"
+      },
+      "scored_car_id": "toyota-avensis-1-8",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-1-8",
+        "tech-lution-com-cars-toyota-avensis-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5b6f4783fe114972e1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-2009.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-1-8-110-bg-110",
+      "name": "Toyota Avensis 1.8 · 110 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2000-2000",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 155.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-1-8",
+        "src-8008bd94b4ea0e68ac"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-527bd9ea794622da81",
+        "publication_status": "held_conflict",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-1997.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-1-8-110-bg-110-2",
+      "name": "Toyota Avensis 1.8 · 110 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2000-2000",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 155.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-1-8",
+        "src-609e3a65f500c62349"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-30dd153ffbd6a97ace",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-1997.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-1-8-129-bg-129",
+      "name": "Toyota Avensis 1.8 · 129 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 129,
+        "torque_nm": 170.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L VVT-i 4AT FWD (135 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-1-8",
+        "src-2da452106dca698c7d"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a87ab5d9709208f1bd",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-2000.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-1-8-129-bg-129-2",
+      "name": "Toyota Avensis 1.8 · 129 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 129,
+        "torque_nm": 170.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L VVT-i 4AT FWD (135 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-1-8",
+        "src-7215edb10847543f90"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ad8442dd82777ece03",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-liftback-2003.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-1-8-129-bg-129-3",
+      "name": "Toyota Avensis 1.8 · 129 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 129,
+        "torque_nm": 170.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L VVT-i 4AT FWD (135 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-1-8",
+        "tech-lution-com-cars-toyota-avensis-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-28b94cd15f80ba130a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-2003.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-1-8-129-bg-129-4",
+      "name": "Toyota Avensis 1.8 · 129 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 129,
+        "torque_nm": 170.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L VVT-i 4AT FWD (135 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-1-8",
+        "src-db54d3f6f330472141"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-250c6a9dd06ce0f9b6",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-2003.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-2-0-147",
+      "name": "Toyota Avensis 2.0",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": "T25",
+      "years": "2003-2008",
+      "specs": {
+        "hp": 147,
+        "torque_nm": 196.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "1AZ-FSE",
+        "engine_name": "2.0 D-4"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-2-0",
+        "tech-lution-com-cars-toyota-avensis-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e37bf5702a75c8f39f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-2003.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-2-0-128-bg-128",
+      "name": "Toyota Avensis 2.0 · 128 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2000-2000",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 178.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L VVTi 4AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-2-0",
+        "src-8008bd94b4ea0e68ac"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-003f83012ff68fb9d5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-1997.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-2-0-128-bg-128-2",
+      "name": "Toyota Avensis 2.0 · 128 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2000-2000",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 178.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L VVTi 4AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-2-0",
+        "src-609e3a65f500c62349"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cc7e609a866a5cb92e",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-1997.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-2-0-147-bg-147",
+      "name": "Toyota Avensis 2.0 · 147 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 147,
+        "torque_nm": 196.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L VVTi 4AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-2-0",
+        "src-db54d3f6f330472141"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d6c603e4e5abf7ee74",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-2003.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-2-0-147-bg-147-2",
+      "name": "Toyota Avensis 2.0 · 147 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 147,
+        "torque_nm": 196.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L VVTi 4AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-2-0",
+        "src-7215edb10847543f90"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f17e709f8eebb9b902",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-liftback-2003.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-2-0-150-bg-150",
+      "name": "Toyota Avensis 2.0 · 150 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 200.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L VVTi 4AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-2-0",
+        "src-2da452106dca698c7d"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c71bdfe5f42008aa72",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-2000.html"
+      }
+    },
+    {
+      "id": "toyota-avensis-2-0-150-bg-150-2",
+      "name": "Toyota Avensis 2.0 · 150 bg",
+      "brand": "Toyota",
+      "model_family": "Avensis",
+      "generation": null,
+      "years": "2001-2003",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 192.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L VVTi 4AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-avensis-2-0",
+        "src-0c5874a485f0157944"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1a3dab0e686c946119",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-verso-2001.html"
+      }
+    },
+    {
+      "id": "toyota-c-hr-1-2-turbo-116",
+      "name": "Toyota C-HR 1.2 Turbo",
+      "brand": "Toyota",
+      "model_family": "C-HR",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 185.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "toyota-8nr-fts",
+        "engine_name": "8NR-FTS"
+      },
+      "scored_car_id": "toyota-chr-1-2-turbo",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-toyota-c-hr-1-2-turbo",
+        "tech-evolution-com-cars-toyota-c-hr-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e0fced00b12fab1312",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-c-hr-2016.html"
+      }
+    },
+    {
+      "id": "toyota-camry-2-4-152",
+      "name": "Toyota Camry 2.4",
+      "brand": "Toyota",
+      "model_family": "Camry",
+      "generation": "XV30",
+      "years": "2002-2006",
+      "specs": {
+        "hp": 152,
+        "torque_nm": 218.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "2AZ-FE",
+        "engine_name": "2.4 VVT-i"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-toyota-camry-2-4",
+        "tech-volution-com-cars-toyota-camry-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-787d44b3bf76f660c0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-camry-2001.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-e210-1-6-cvt-132",
+      "name": "Toyota Corolla (E210) 1.6 CVT",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2019-2020",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 159.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "toyota-zr",
+        "engine_name": "1ZR-FE"
+      },
+      "scored_car_id": "toyota-corolla-e210-1-6-cvt",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-toyota-corolla-1-6-cvt",
+        "tech-ion-com-cars-toyota-corolla-eu-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ab459cc940981b46e6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-eu-2016.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-6-124",
+      "name": "Toyota Corolla 1.6",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": "E150",
+      "years": "2007-2009",
+      "specs": {
+        "hp": 124,
+        "torque_nm": 157.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Robot",
+        "transmission_name": "MMT 5AMT",
+        "gears": 5,
+        "clutch": "Kuru tek kavrama",
+        "engine_code": "1ZR-FE",
+        "engine_name": "1.6 VVT-i"
+      },
+      "scored_car_id": "toyota-corolla-1-6-2007-13",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-corolla-1-6",
+        "tech-lution-com-cars-toyota-corolla-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-614a7062f695716e30",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-2007.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-6-132",
+      "name": "Toyota Corolla 1.6",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": "E150 Facelift",
+      "years": "2010-2013",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "1ZR-FAE",
+        "engine_name": "1.6 Valvematic"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "toyota-auris-1-6",
+        "toyota-corolla-1-6-2013",
+        "toyota-corolla-1-6-multidrive"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-corolla-1-6",
+        "tech-lution-com-cars-toyota-corolla-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ac36b71d60d6f174d0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-2007.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-6-107-bg-107",
+      "name": "Toyota Corolla 1.6 · 107 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2000-2000",
+      "specs": {
+        "hp": 107,
+        "torque_nm": 141.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-corolla-1-6",
+        "src-1abca1c92122d92d51"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-15e929b8461fcf9233",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-wagon-1997.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-6-110-bg-110",
+      "name": "Toyota Corolla 1.6 · 110 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2000-2000",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 145.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "toyota-corolla-e12-1-6-vvt-i",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-corolla-1-6",
+        "src-1855661678c868c371"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-57fa0a6a4b87565fb3",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-sedan-1997.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-6-110-bg-110-2",
+      "name": "Toyota Corolla 1.6 · 110 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2000-2000",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "toyota-corolla-e12-1-6-vvt-i",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-corolla-1-6",
+        "src-902c8b755b29d4f20d"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-68b4ae916a7a795979",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-3-doors-2000.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-6-110-bg-110-3",
+      "name": "Toyota Corolla 1.6 · 110 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2000-2000",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "toyota-corolla-e12-1-6-vvt-i",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-corolla-1-6",
+        "src-d4cba8996c79c4ec90"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-521ee2e582b8fc52e0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-sedan-2000.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-6-110-bg-110-4",
+      "name": "Toyota Corolla 1.6 · 110 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "toyota-corolla-e12-1-6-vvt-i",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-corolla-1-6",
+        "src-0556683004ea70ba2b"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-215248b83f45d7ea36",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-wagon-2000.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-6-110-bg-110-5",
+      "name": "Toyota Corolla 1.6 · 110 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2002-2004",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VVT-i 4AT FWD (110 HP)"
+      },
+      "scored_car_id": "toyota-corolla-e12-1-6-vvt-i",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-toyota-corolla-1-6",
+        "src-d72075f853290d888d"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8ec1d5f3c86dfd74e0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-wagon-2002.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-8-hybrid-126-bg-126",
+      "name": "Toyota Corolla 1.8 Hybrid · 126 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2007-2007",
+      "specs": {
+        "hp": 126,
+        "torque_nm": 165.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L VVT-i 4AT FWD (135 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-bace8513602aadab94",
+        "tech-lution-com-cars-toyota-corolla-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-56582d5f4ef7f55e77",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-2007.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-8-hybrid-130-bg-130",
+      "name": "Toyota Corolla 1.8 Hybrid · 130 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2004-2007",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 170.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L VVT-i 4AT FWD (135 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-5eaa7781b0272958d2",
+        "src-bace8513602aadab94"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9d7c46624a74760d73",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-verso-2004.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-8-hybrid-132-bg-132",
+      "name": "Toyota Corolla 1.8 Hybrid · 132 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 160.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L Valvematic CVT FWD (132 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-76e29847be86dc2ca4",
+        "src-bace8513602aadab94"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e628c64958834d7f6b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-eu-2013.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-8-hybrid-135-bg-135",
+      "name": "Toyota Corolla 1.8 Hybrid · 135 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2002-2004",
+      "specs": {
+        "hp": 135,
+        "torque_nm": 170.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L VVT-i 4AT FWD (135 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-1c748239999cc53501",
+        "src-bace8513602aadab94"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e7daea6b9846647688",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-verso-2002.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-8-hybrid-139-bg-139",
+      "name": "Toyota Corolla 1.8 Hybrid · 139 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 139,
+        "torque_nm": 174.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.8L 16V 6AT (147 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-586d5f1319b09cbb7c",
+        "src-bace8513602aadab94"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b9c06b1ca5e1c4bb87",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-altis-2014.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-1-8-hybrid-147-bg-147",
+      "name": "Toyota Corolla 1.8 Hybrid · 147 bg",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": null,
+      "years": "2007-2009",
+      "specs": {
+        "hp": 147,
+        "torque_nm": 180.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L 16V 6AT (147 HP)"
+      },
+      "scored_car_id": "toyota-avensis-1-8",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-1f28f8b1d5a4af7c12",
+        "src-bace8513602aadab94"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9b77fbaf4af0a26cba",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-verso-2007.html"
+      }
+    },
+    {
+      "id": "toyota-corolla-e12-1-6-vvt-i-110",
+      "name": "Toyota Corolla E12 1.6 VVT-i",
+      "brand": "Toyota",
+      "model_family": "Corolla E12",
+      "generation": "E12",
+      "years": "2002-2007",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Toyota 4 ileri otomatik",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "toyota-zz",
+        "engine_name": "3ZZ-FE"
+      },
+      "scored_car_id": "toyota-corolla-e12-1-6-vvt-i",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-tomobil-toyota-corolla-e12-1-6-vvt-i",
+        "tech--com-cars-toyota-corolla-sedan-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c127793d877992d365",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-sedan-2003.html"
+      }
+    },
+    {
+      "id": "toyota-gt86-2-0-200",
+      "name": "Toyota GT86 2.0",
+      "brand": "Toyota",
+      "model_family": "GT86",
+      "generation": "ZN6",
+      "years": "2012-2018",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 205.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "FA20",
+        "engine_name": "2.0 boxer"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-toyota-gt86-2-0",
+        "tech-volution-com-cars-toyota-gt-86-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ce9b010cac180dc5df",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-gt-86-2012.html"
+      }
+    },
+    {
+      "id": "toyota-land-cruiser-prado-3-0-d-4d-173",
+      "name": "Toyota Land Cruiser Prado 3.0 D-4D",
+      "brand": "Toyota",
+      "model_family": "Land Cruiser Prado",
+      "generation": "J120",
+      "years": "2003-2009",
+      "specs": {
+        "hp": 173,
+        "torque_nm": 410.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "1KD-FTV",
+        "engine_name": "3.0 D-4D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-toyota-land-cruiser-prado-3-0-d-4d",
+        "tech-oyota-land-cruiser-120-5-doors-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8ca0a2ce825f99d4f8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-land-cruiser-120-5-doors-2003.html"
+      }
+    },
+    {
+      "id": "toyota-rav4-2-0-151",
+      "name": "Toyota RAV4 2.0",
+      "brand": "Toyota",
+      "model_family": "RAV4",
+      "generation": "XA40",
+      "years": "2013-2018",
+      "specs": {
+        "hp": 151,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "3ZR-FAE",
+        "engine_name": "2.0 Valvematic"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-toyota-rav4-2-0",
+        "tech-n-com-cars-toyota-rav4-5-doors-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-675828b7c23a922dff",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-rav4-5-doors-2013.html"
+      }
+    },
+    {
+      "id": "toyota-rav4-2-0-152",
+      "name": "Toyota RAV4 2.0",
+      "brand": "Toyota",
+      "model_family": "RAV4",
+      "generation": "XA30",
+      "years": "2006-2012",
+      "specs": {
+        "hp": 152,
+        "torque_nm": 194.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "1AZ-FE",
+        "engine_name": "2.0 VVT-i"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-toyota-rav4-2-0",
+        "tech-n-com-cars-toyota-rav4-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ec796f9c04dfa35dcc",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-rav4-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "toyota-toyota-auris-1-6-132",
+      "name": "Toyota Toyota Auris 1.6",
+      "brand": "Toyota",
+      "model_family": "Auris",
+      "generation": "2007-2018 pazar dilimi",
+      "years": "2007-2018",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "toyota-zr",
+        "engine_name": "1ZR-FE"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "toyota-auris-1-6",
+        "toyota-corolla-1-6-2013",
+        "toyota-corolla-1-6-multidrive"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "homeofengines_1zr",
+        "slashgear_toyota_cvt_reliability",
+        "trbox"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-de075458117ecae524",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://homeofengines.co.za/1zr-engine-explained-why-its-one-of-toyotas-most-balanced-powerplants/"
+      }
+    },
+    {
+      "id": "toyota-toyota-corolla-1-6-2007-13-124",
+      "name": "Toyota Toyota Corolla 1.6 (2007-13)",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": "2007-2013 pazar dilimi",
+      "years": "2007-2013",
+      "specs": {
+        "hp": 124,
+        "torque_nm": 157.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Toyota 4 ileri otomatik",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "toyota-zr",
+        "engine_name": "1ZR-FE"
+      },
+      "scored_car_id": "toyota-corolla-1-6-2007-13",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "hiver_corolla_e120_reliability",
+        "homeofengines_1zr",
+        "motorbiscuit_corolla_boring",
+        "sikayetvar_corolla_genel"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-e0187025ec800c8c9e",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://hiver.digital/en/toyota-corolla-e120-e150-2002-2010-bulletproof-reliability/"
+      }
+    },
+    {
+      "id": "toyota-toyota-corolla-1-6-2013-132",
+      "name": "Toyota Toyota Corolla 1.6 (2013+)",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": "2013-2018 pazar dilimi",
+      "years": "2013-2018",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 159.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "toyota-zr",
+        "engine_name": "1ZR-FE"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "toyota-auris-1-6",
+        "toyota-corolla-1-6-2013",
+        "toyota-corolla-1-6-multidrive"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "homeofengines_1zr",
+        "slashgear_toyota_cvt_reliability",
+        "trbox"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-78733983a8d67fcd7a",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://homeofengines.co.za/1zr-engine-explained-why-its-one-of-toyotas-most-balanced-powerplants/"
+      }
+    },
+    {
+      "id": "toyota-toyota-corolla-1-6-multidrive-132",
+      "name": "Toyota Toyota Corolla 1.6 Multidrive",
+      "brand": "Toyota",
+      "model_family": "Corolla",
+      "generation": "2013-2018 pazar dilimi",
+      "years": "2013-2018",
+      "specs": {
+        "hp": 132,
+        "torque_nm": 159.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "toyota-zr",
+        "engine_name": "1ZR-FE"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "toyota-auris-1-6",
+        "toyota-corolla-1-6-2013",
+        "toyota-corolla-1-6-multidrive"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "homeofengines_1zr",
+        "slashgear_toyota_cvt_reliability",
+        "trbox"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-a3854c1356b311dfdd",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://homeofengines.co.za/1zr-engine-explained-why-its-one-of-toyotas-most-balanced-powerplants/"
+      }
+    },
+    {
+      "id": "toyota-verso-1-8-147",
+      "name": "Toyota Verso 1.8",
+      "brand": "Toyota",
+      "model_family": "Verso",
+      "generation": "AR20",
+      "years": "2009-2018",
+      "specs": {
+        "hp": 147,
+        "torque_nm": 180.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "CVT",
+        "transmission_name": "Multidrive S CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "2ZR-FAE",
+        "engine_name": "1.8 Valvematic"
+      },
+      "scored_car_id": "toyota-avensis-1-8",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-toyota-verso-1-8",
+        "tech-volution-com-cars-toyota-verso-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b8c9f6c7a20bf55487",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-verso-2009.html"
+      }
+    },
+    {
+      "id": "toyota-yaris-1-5-106-bg-106",
+      "name": "Toyota Yaris 1.5 · 106 bg",
+      "brand": "Toyota",
+      "model_family": "Yaris",
+      "generation": null,
+      "years": "2014-2017",
+      "specs": {
+        "hp": 106,
+        "torque_nm": 140.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L 4AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-1e4e7770b3605a8a75",
+        "src-5079b6fd2229a84519",
+        "src-919d2d2f6e87a22ee4"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2e492e3c01841d5bcf",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-yaris-3-doors-2014.html"
+      }
+    },
+    {
+      "id": "toyota-yaris-1-5-106-bg-106-2",
+      "name": "Toyota Yaris 1.5 · 106 bg",
+      "brand": "Toyota",
+      "model_family": "Yaris",
+      "generation": null,
+      "years": "2016-2018",
+      "specs": {
+        "hp": 106,
+        "torque_nm": 140.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L 6AT FWD (106 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-5079b6fd2229a84519",
+        "src-bc69324c501fb91e5a"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-de6ad314a0007662d5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-yaris-ia-2016.html"
+      }
+    },
+    {
+      "id": "toyota-yaris-1-5-106-bg-106-3",
+      "name": "Toyota Yaris 1.5 · 106 bg",
+      "brand": "Toyota",
+      "model_family": "Yaris",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 106,
+        "torque_nm": 140.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L 6AT FWD (106 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-5079b6fd2229a84519",
+        "src-d4eed7076370961635"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8d78741f9fc00b73ee",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-yaris-sedan-2018.html"
+      }
+    },
+    {
+      "id": "toyota-yaris-1-5-109-bg-109",
+      "name": "Toyota Yaris 1.5 · 109 bg",
+      "brand": "Toyota",
+      "model_family": "Yaris",
+      "generation": null,
+      "years": "2017-2019",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 141.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L 4AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-5079b6fd2229a84519",
+        "src-6fa9e35599dd95c8b5"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f6887afff53a0b640c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/toyota-yaris-2017.html"
+      }
+    }
+  ]
+}

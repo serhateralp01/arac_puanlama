@@ -1,0 +1,79 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Proton",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "proton-gen-2-1-6-110",
+      "name": "Proton Gen-2 1.6",
+      "brand": "Proton",
+      "model_family": "Gen-2",
+      "generation": "CM",
+      "years": "2005-2011",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "S4PH",
+        "engine_name": "1.6 CamPro"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-proton-gen-2-1-6",
+        "tech-volution-com-cars-proton-gen-2-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f2376a477513338741",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/proton-gen-2-2004.html"
+      }
+    },
+    {
+      "id": "proton-persona-1-6-110",
+      "name": "Proton Persona 1.6",
+      "brand": "Proton",
+      "model_family": "Persona",
+      "generation": "CM",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "S4PH",
+        "engine_name": "1.6 CamPro"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-proton-persona-1-6",
+        "tech-lution-com-cars-proton-persona-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-17c1e71a91b734d68f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/proton-persona-2007.html"
+      }
+    }
+  ]
+}

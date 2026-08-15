@@ -1,0 +1,44 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Chery",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "chery-tiggo-3-1-6-126",
+      "name": "Chery Tiggo 3 1.6",
+      "brand": "Chery",
+      "model_family": "Tiggo 3",
+      "generation": "T11",
+      "years": "2016-2018",
+      "specs": {
+        "hp": 126,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "SQRE4G16",
+        "engine_name": "1.6 DVVT"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-chery-tiggo-3-1-6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-39be85c2ce660f9fd4",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    }
+  ]
+}

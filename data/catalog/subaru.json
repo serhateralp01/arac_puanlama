@@ -1,0 +1,793 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Subaru",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "subaru-brz-2-0-200",
+      "name": "Subaru BRZ 2.0",
+      "brand": "Subaru",
+      "model_family": "BRZ",
+      "generation": "ZC6",
+      "years": "2012-2018",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 205.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "FA20",
+        "engine_name": "2.0 boxer"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-subaru-brz-2-0",
+        "tech-oevolution-com-cars-subaru-brz-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b6aec8babefb38c94b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-brz-2012.html"
+      }
+    },
+    {
+      "id": "subaru-forester-2-0-150",
+      "name": "Subaru Forester 2.0",
+      "brand": "Subaru",
+      "model_family": "Forester",
+      "generation": "SH",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 196.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "4EAT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "EJ20",
+        "engine_name": "2.0 boxer"
+      },
+      "scored_car_id": "subaru-xv-2-0i-lineartronic",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-subaru-forester-2-0",
+        "tech-ution-com-cars-subaru-forester-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-86aa9fe974cf37d7de",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-forester-2008.html"
+      }
+    },
+    {
+      "id": "subaru-forester-2-0i-lineartronic-150",
+      "name": "Subaru Forester 2.0i Lineartronic",
+      "brand": "Subaru",
+      "model_family": "Forester",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 198.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört çeker",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "Lineartronic",
+        "gears": null,
+        "clutch": null,
+        "engine_code": "subaru-fb20",
+        "engine_name": "FB20"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "subaru-forester-2-0i-lineartronic",
+        "subaru-xv-2-0i-lineartronic"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-il-subaru-forester-2-0i-lineartronic",
+        "tech-ution-com-cars-subaru-forester-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-eb6225f02cb4c20490",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-forester-2013.html"
+      }
+    },
+    {
+      "id": "subaru-impreza-1-5-105",
+      "name": "Subaru Impreza 1.5",
+      "brand": "Subaru",
+      "model_family": "Impreza",
+      "generation": "GD",
+      "years": "2006-2007",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 142.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4EAT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "EL15",
+        "engine_name": "1.5 boxer"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-subaru-impreza-1-5",
+        "tech-lution-com-cars-subaru-impreza-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f72071f83fe5ae150f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-2007.html"
+      }
+    },
+    {
+      "id": "subaru-impreza-1-5-110-bg-110",
+      "name": "Subaru Impreza 1.5 · 110 bg",
+      "brand": "Subaru",
+      "model_family": "Impreza",
+      "generation": null,
+      "years": "2007-2011",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 144.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L 4AT AWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-subaru-impreza-1-5",
+        "tech-lution-com-cars-subaru-impreza-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3012f5c60c4ef5a798",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-2007.html"
+      }
+    },
+    {
+      "id": "subaru-impreza-1-5-114-bg-114",
+      "name": "Subaru Impreza 1.5 · 114 bg",
+      "brand": "Subaru",
+      "model_family": "Impreza",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 114,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L CVT AWD (114 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-subaru-impreza-1-5",
+        "src-cef2d9c3bcd315eab2"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6b2bd97d672f65b502",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-4-doors-2012.html"
+      }
+    },
+    {
+      "id": "subaru-impreza-1-5-114-bg-114-2",
+      "name": "Subaru Impreza 1.5 · 114 bg",
+      "brand": "Subaru",
+      "model_family": "Impreza",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 114,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L CVT AWD (114 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-kinci-el-otomobil-subaru-impreza-1-5",
+        "src-5fb328d41dad233d1c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2b8418e15b43d55b57",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "subaru-impreza-2-0-150",
+      "name": "Subaru Impreza 2.0",
+      "brand": "Subaru",
+      "model_family": "Impreza",
+      "generation": "GE",
+      "years": "2008-2011",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 196.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Sedan/Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "4EAT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "EJ20",
+        "engine_name": "2.0 boxer"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "subaru-forester-2-0i-lineartronic",
+        "subaru-xv-2-0i-lineartronic"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-subaru-impreza-2-0",
+        "tech-lution-com-cars-subaru-impreza-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7d8950675bcd980f7f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-2007.html"
+      }
+    },
+    {
+      "id": "subaru-legacy-2-0-165",
+      "name": "Subaru Legacy 2.0",
+      "brand": "Subaru",
+      "model_family": "Legacy",
+      "generation": "BL",
+      "years": "2004-2009",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 187.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4EAT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "EJ20",
+        "engine_name": "2.0 boxer"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-subaru-legacy-2-0",
+        "tech-olution-com-cars-subaru-legacy-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bcabd37cef38090eb9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2006.html"
+      }
+    },
+    {
+      "id": "subaru-legacy-2-0-125-bg-125",
+      "name": "Subaru Legacy 2.0 · 125 bg",
+      "brand": "Subaru",
+      "model_family": "Legacy",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 184.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L R 4AT AWD (165 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-subaru-legacy-2-0",
+        "src-38187460ecd9c237e2"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-735f921123d5b1a37b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-1998.html"
+      }
+    },
+    {
+      "id": "subaru-legacy-2-0-125-bg-125-2",
+      "name": "Subaru Legacy 2.0 · 125 bg",
+      "brand": "Subaru",
+      "model_family": "Legacy",
+      "generation": null,
+      "years": "2002-2003",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 184.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L R 4AT AWD (165 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-subaru-legacy-2-0",
+        "src-cc963797a1e5c3f9c1"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dcbe0d6c171f9e6a05",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-2002.html"
+      }
+    },
+    {
+      "id": "subaru-legacy-2-0-150-bg-150",
+      "name": "Subaru Legacy 2.0 · 150 bg",
+      "brand": "Subaru",
+      "model_family": "Legacy",
+      "generation": null,
+      "years": "2008-2009",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L D 4AT AWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "subaru-forester-2-0i-lineartronic",
+        "subaru-xv-2-0i-lineartronic"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-subaru-legacy-2-0",
+        "tech-olution-com-cars-subaru-legacy-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f86f45ba10a5bae4c6",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2008.html"
+      }
+    },
+    {
+      "id": "subaru-legacy-2-0-165-bg-165",
+      "name": "Subaru Legacy 2.0 · 165 bg",
+      "brand": "Subaru",
+      "model_family": "Legacy",
+      "generation": null,
+      "years": "2006-2006",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 187.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L R 4AT AWD (165 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-subaru-legacy-2-0",
+        "tech-olution-com-cars-subaru-legacy-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-aa92b851d92794c5e1",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2006.html"
+      }
+    },
+    {
+      "id": "subaru-legacy-2-0-180-bg-180",
+      "name": "Subaru Legacy 2.0 · 180 bg",
+      "brand": "Subaru",
+      "model_family": "Legacy",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 196.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "GT 2.0L 4AT AWD (260 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-subaru-legacy-2-0",
+        "src-aaf4e8ecdd71487fdc"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ea3d0c5a346c40c51d",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-2003.html"
+      }
+    },
+    {
+      "id": "subaru-legacy-2-0-260-bg-260",
+      "name": "Subaru Legacy 2.0 · 260 bg",
+      "brand": "Subaru",
+      "model_family": "Legacy",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 260,
+        "torque_nm": 325.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "GT 2.0L 4AT AWD (260 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-subaru-legacy-2-0",
+        "src-aaf4e8ecdd71487fdc"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9a1ac11b6984743524",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-2003.html"
+      }
+    },
+    {
+      "id": "subaru-legacy-2-5-167",
+      "name": "Subaru Legacy 2.5",
+      "brand": "Subaru",
+      "model_family": "Legacy",
+      "generation": "BM",
+      "years": "2009-2014",
+      "specs": {
+        "hp": 167,
+        "torque_nm": 229.0,
+        "displacement_l": 2.5,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "Lineartronic",
+        "gears": null,
+        "clutch": null,
+        "engine_code": "EJ25",
+        "engine_name": "2.5 boxer"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-subaru-legacy-2-5",
+        "tech-olution-com-cars-subaru-legacy-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a7692eb38ea93d9eb3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2008.html"
+      }
+    },
+    {
+      "id": "subaru-levorg-1-6-dit-lineartronic-170",
+      "name": "Subaru Levorg 1.6 DIT Lineartronic",
+      "brand": "Subaru",
+      "model_family": "Levorg",
+      "generation": "VM",
+      "years": "2014-2018",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 250.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Station",
+        "transmission_type": "CVT",
+        "transmission_name": "Lineartronic",
+        "gears": null,
+        "clutch": null,
+        "engine_code": "FB16DIT",
+        "engine_name": "1.6L CVT AWD (170 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-subaru-levorg-1-6-dit-lineartronic",
+        "tech-olution-com-cars-subaru-levorg-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-46addddccb088a618f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-levorg-2014.html"
+      }
+    },
+    {
+      "id": "subaru-outback-2-5-165",
+      "name": "Subaru Outback 2.5",
+      "brand": "Subaru",
+      "model_family": "Outback",
+      "generation": "BP",
+      "years": "2004-2009",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 226.0,
+        "displacement_l": 2.5,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "4EAT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "EJ25",
+        "engine_name": "2.5 boxer"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-subaru-outback-2-5",
+        "tech-lution-com-cars-subaru-outback-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f0bb5c7f8ea4f77a6b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-outback-2006.html"
+      }
+    },
+    {
+      "id": "subaru-outback-3-0r-5eat-245",
+      "name": "Subaru Outback 3.0R 5EAT",
+      "brand": "Subaru",
+      "model_family": "Outback",
+      "generation": "BP",
+      "years": "2006-2009",
+      "specs": {
+        "hp": 245,
+        "torque_nm": 297.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Station",
+        "transmission_type": "TK",
+        "transmission_name": "5EAT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "EZ30",
+        "engine_name": "3.0 boxer"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-subaru-outback-3-0r-5eat",
+        "tech-lution-com-cars-subaru-outback-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-541761de8f87258fd5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-outback-2006.html"
+      }
+    },
+    {
+      "id": "subaru-tribeca-3-0-245",
+      "name": "Subaru Tribeca 3.0",
+      "brand": "Subaru",
+      "model_family": "Tribeca",
+      "generation": "B9",
+      "years": "2006-2008",
+      "specs": {
+        "hp": 245,
+        "torque_nm": 297.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "5EAT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "EZ30",
+        "engine_name": "3.0 boxer"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-subaru-tribeca-3-0",
+        "tech-lution-com-cars-subaru-tribeca-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9c587fff7967716c7a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-tribeca-2005.html"
+      }
+    },
+    {
+      "id": "subaru-xv-2-0i-lineartronic-150",
+      "name": "Subaru XV 2.0i Lineartronic",
+      "brand": "Subaru",
+      "model_family": "XV",
+      "generation": null,
+      "years": "2012-2017",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 196.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört çeker",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "Lineartronic",
+        "gears": null,
+        "clutch": null,
+        "engine_code": "subaru-fb20",
+        "engine_name": "FB20"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "subaru-forester-2-0i-lineartronic",
+        "subaru-xv-2-0i-lineartronic"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-subaru-xv-2-0i-lineartronic",
+        "tech-toevolution-com-cars-subaru-xv-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e12974fc8e5efef7df",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/subaru-xv-2012.html"
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Porsche",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "porsche-boxster-2-7-220",
+      "name": "Porsche Boxster 2.7",
+      "brand": "Porsche",
+      "model_family": "Boxster",
+      "generation": "986",
+      "years": "2000-2004",
+      "specs": {
+        "hp": 220,
+        "torque_nm": 260.0,
+        "displacement_l": 2.7,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Roadster",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "M96.22",
+        "engine_name": "2.7 boxer"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-porsche-boxster-2-7",
+        "tech-n-com-cars-porsche-boxster-986-1996-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8291dbeb59e0454534",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/porsche-boxster-986-1996.html"
+      }
+    },
+    {
+      "id": "porsche-cayenne-3-2-250",
+      "name": "Porsche Cayenne 3.2",
+      "brand": "Porsche",
+      "model_family": "Cayenne",
+      "generation": "955",
+      "years": "2003-2006",
+      "specs": {
+        "hp": 250,
+        "torque_nm": 310.0,
+        "displacement_l": 3.2,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "M02.2Y",
+        "engine_name": "3.2 VR6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-porsche-cayenne-3-2",
+        "tech-n-com-cars-porsche-cayenne-955-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5b4086f2a9d4c2d4f4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/porsche-cayenne-955-2002.html"
+      }
+    },
+    {
+      "id": "porsche-cayenne-3-6-290",
+      "name": "Porsche Cayenne 3.6",
+      "brand": "Porsche",
+      "model_family": "Cayenne",
+      "generation": "957",
+      "years": "2007-2010",
+      "specs": {
+        "hp": 290,
+        "torque_nm": 385.0,
+        "displacement_l": 3.6,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "M55.01",
+        "engine_name": "3.6 VR6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-porsche-cayenne-3-6",
+        "tech-n-com-cars-porsche-cayenne-957-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5f26d0dd78f8184902",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/porsche-cayenne-957-2007.html"
+      }
+    },
+    {
+      "id": "porsche-cayman-2-7-245",
+      "name": "Porsche Cayman 2.7",
+      "brand": "Porsche",
+      "model_family": "Cayman",
+      "generation": "987",
+      "years": "2006-2008",
+      "specs": {
+        "hp": 245,
+        "torque_nm": 273.0,
+        "displacement_l": 2.7,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "M97.20",
+        "engine_name": "2.7 boxer"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-porsche-cayman-2-7",
+        "tech-on-com-cars-porsche-cayman-987-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-335662f341dae45bdb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/porsche-cayman-987-2006.html"
+      }
+    }
+  ]
+}

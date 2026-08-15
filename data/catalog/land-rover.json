@@ -1,0 +1,259 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Land Rover",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "land-rover-discovery-3-2-7-tdv6-190",
+      "name": "Land Rover Discovery 3 2.7 TDV6",
+      "brand": "Land Rover",
+      "model_family": "Discovery 3",
+      "generation": "L319",
+      "years": "2004-2009",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 440.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "ZF 6HP",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "276DT",
+        "engine_name": "2.7 TDV6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-land-rover-discovery-3-2-7-tdv6",
+        "tech--cars-land-rover-discovery-lr3-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-affe725668652f2d97",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/land-rover-discovery-lr3-2004.html"
+      }
+    },
+    {
+      "id": "land-rover-discovery-4-3-0-tdv6-245",
+      "name": "Land Rover Discovery 4 3.0 TDV6",
+      "brand": "Land Rover",
+      "model_family": "Discovery 4",
+      "generation": "L319",
+      "years": "2009-2016",
+      "specs": {
+        "hp": 245,
+        "torque_nm": 600.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "740d xDrive 8AT AWD (313 HP) 8-Speed Automatic (Steptronic)",
+        "gears": 8,
+        "clutch": null,
+        "engine_code": "306DT",
+        "engine_name": "3.0 TDV6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-land-rover-discovery-4-3-0-tdv6",
+        "tech--cars-land-rover-discovery-lr4-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-065d900532978c7134",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/land-rover-discovery-lr4-2009.html"
+      }
+    },
+    {
+      "id": "land-rover-freelander-2-2-2-td4-160",
+      "name": "Land Rover Freelander 2 2.2 TD4",
+      "brand": "Land Rover",
+      "model_family": "Freelander 2",
+      "generation": "L359",
+      "years": "2007-2014",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 400.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "DW12",
+        "engine_name": "2.2 TD4"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-obil-land-rover-freelander-2-2-2-td4",
+        "tech-cars-land-rover-freelander-lr2-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-791814296eb39464d3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/land-rover-freelander-lr2-2006.html"
+      }
+    },
+    {
+      "id": "land-rover-range-rover-evoque-2-0-si4-240",
+      "name": "Land Rover Range Rover Evoque 2.0 Si4",
+      "brand": "Land Rover",
+      "model_family": "Range Rover Evoque",
+      "generation": "L538",
+      "years": "2011-2013",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "EcoBoost",
+        "engine_name": "2.0 Turbo"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-and-rover-range-rover-evoque-2-0-si4",
+        "tech-rover-range-rover-evoque-coupe-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5431c8ff9c3bf089b8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/land-rover-range-rover-evoque-coupe-2011.html"
+      }
+    },
+    {
+      "id": "land-rover-range-rover-evoque-2-2-td4-150",
+      "name": "Land Rover Range Rover Evoque 2.2 TD4",
+      "brand": "Land Rover",
+      "model_family": "Range Rover Evoque",
+      "generation": "L538",
+      "years": "2011-2015",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 400.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "DW12",
+        "engine_name": "2.2 TD4"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-and-rover-range-rover-evoque-2-2-td4",
+        "tech-rover-range-rover-evoque-coupe-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-81590dc59bf73e8301",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/land-rover-range-rover-evoque-coupe-2011.html"
+      }
+    },
+    {
+      "id": "land-rover-range-rover-sport-2-7-tdv6-190",
+      "name": "Land Rover Range Rover Sport 2.7 TDV6",
+      "brand": "Land Rover",
+      "model_family": "Range Rover Sport",
+      "generation": "L320",
+      "years": "2005-2009",
+      "specs": {
+        "hp": 190,
+        "torque_nm": 440.0,
+        "displacement_l": 2.7,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "ZF 6HP",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "276DT",
+        "engine_name": "2.7 TDV6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-and-rover-range-rover-sport-2-7-tdv6",
+        "tech-s-land-rover-range-rover-sport-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fe51382ca7808ebfe5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/land-rover-range-rover-sport-2005.html"
+      }
+    },
+    {
+      "id": "land-rover-range-rover-sport-3-0-tdv6-245",
+      "name": "Land Rover Range Rover Sport 3.0 TDV6",
+      "brand": "Land Rover",
+      "model_family": "Range Rover Sport",
+      "generation": "L320",
+      "years": "2010-2013",
+      "specs": {
+        "hp": 245,
+        "torque_nm": 600.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "740d xDrive 8AT AWD (313 HP) 8-Speed Automatic (Steptronic)",
+        "gears": 8,
+        "clutch": null,
+        "engine_code": "306DT",
+        "engine_name": "3.0 TDV6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-and-rover-range-rover-sport-3-0-tdv6",
+        "tech-s-land-rover-range-rover-sport-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a09fc45495763d1056",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/land-rover-range-rover-sport-2009.html"
+      }
+    }
+  ]
+}

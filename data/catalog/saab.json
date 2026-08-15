@@ -1,0 +1,1063 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Saab",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "saab-9-3-1-9-tid-150",
+      "name": "Saab 9-3 1.9 TiD",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": "YS3F",
+      "years": "2005-2011",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "Z19DTH",
+        "engine_name": "1.9 TiD"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-saab-9-3-1-9-tid",
+        "tech--com-cars-saab-9-3-sport-sedan-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c3cca10da7c6afc50f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2003.html"
+      }
+    },
+    {
+      "id": "saab-9-3-1-9-tid-150-bg-150",
+      "name": "Saab 9-3 1.9 TiD · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2003-2008",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TiDS 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-saab-9-3-convertible-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dbb7155edacc148251",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-2003.html"
+      }
+    },
+    {
+      "id": "saab-9-3-1-9-tid-150-bg-150-2",
+      "name": "Saab 9-3 1.9 TiD · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2009-2012",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TiDS 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-saab-9-3-sport-sedan-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ed610fe4be4fead822",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2009.html"
+      }
+    },
+    {
+      "id": "saab-9-3-1-9-tid-150-bg-150-3",
+      "name": "Saab 9-3 1.9 TiD · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2003-2008",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TiDS 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-saab-9-3-1-9-tid",
+        "tech--com-cars-saab-9-3-sport-sedan-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9b935f8c569449563e",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2003.html"
+      }
+    },
+    {
+      "id": "saab-9-3-1-9-tid-150-bg-150-4",
+      "name": "Saab 9-3 1.9 TiD · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2004-2008",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TiDS 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-saab-9-3-1-9-tid",
+        "src-836123a5fbb624b045"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-902e91925189751f22",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sportcombi-2004.html"
+      }
+    },
+    {
+      "id": "saab-9-3-1-9-tid-160-bg-160",
+      "name": "Saab 9-3 1.9 TiD · 160 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2009-2012",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 360.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TiDS 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-saab-9-3-convertible-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-725891aefdfdafc2f0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-2009.html"
+      }
+    },
+    {
+      "id": "saab-9-3-1-9-tid-180-bg-180",
+      "name": "Saab 9-3 1.9 TiD · 180 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2009-2012",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 400.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TiDS 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-saab-9-3-sport-sedan-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-67b38c826f392c47d5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2009.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-ts-130-bg-130",
+      "name": "Saab 9-3 2.0 TS · 130 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 176.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4ffe46b91811d51a21",
+        "src-9449a7ad503106ed20"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6d47a90beb68ed075b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-ts-130-bg-130-2",
+      "name": "Saab 9-3 2.0 TS · 130 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 177.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-5de552bcc890636ce6",
+        "src-9449a7ad503106ed20"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e9969c7d0dc4b2b5e1",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-ts-130-bg-130-3",
+      "name": "Saab 9-3 2.0 TS · 130 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 177.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-82c033e8b715d7d23c",
+        "src-9449a7ad503106ed20"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1a5b16eb58d6d053a7",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-ts-150-bg-150",
+      "name": "Saab 9-3 2.0 TS · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 240.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": "saab-9-3-9-5-2-0t",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4ffe46b91811d51a21",
+        "src-9449a7ad503106ed20"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b6deff85b2e1a30e26",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-ts-150-bg-150-2",
+      "name": "Saab 9-3 2.0 TS · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 240.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": "saab-9-3-9-5-2-0t",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-5de552bcc890636ce6",
+        "src-9449a7ad503106ed20"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d62dda2f8588437c12",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-ts-150-bg-150-3",
+      "name": "Saab 9-3 2.0 TS · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 240.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": "saab-9-3-9-5-2-0t",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-82c033e8b715d7d23c",
+        "src-9449a7ad503106ed20"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-12a97e57a05f54dfcd",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-turbo-154-bg-154",
+      "name": "Saab 9-3 2.0 Turbo · 154 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 154,
+        "torque_nm": 219.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-551266d199fb986e7e",
+        "src-5de552bcc890636ce6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7c021e9fa2e48b4dcd",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-turbo-154-bg-154-2",
+      "name": "Saab 9-3 2.0 Turbo · 154 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 154,
+        "torque_nm": 219.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-551266d199fb986e7e",
+        "src-82c033e8b715d7d23c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-18793818dbd0213835",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-turbo-185-bg-185",
+      "name": "Saab 9-3 2.0 Turbo · 185 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 263.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4ffe46b91811d51a21",
+        "src-551266d199fb986e7e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2db4a035096ca70f17",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-turbo-185-bg-185-2",
+      "name": "Saab 9-3 2.0 Turbo · 185 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 263.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-551266d199fb986e7e",
+        "src-5de552bcc890636ce6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b570d71ee487cb1424",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-turbo-185-bg-185-3",
+      "name": "Saab 9-3 2.0 Turbo · 185 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 263.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-551266d199fb986e7e",
+        "src-82c033e8b715d7d23c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e6628aae9c6289c6b7",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0-turbo-205-bg-205",
+      "name": "Saab 9-3 2.0 Turbo · 205 bg",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": null,
+      "years": "2000-2003",
+      "specs": {
+        "hp": 205,
+        "torque_nm": 280.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2a1db7ea9df1ec68bd",
+        "src-551266d199fb986e7e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ee9a628bfd1c048411",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-aero-convertible-1999.html"
+      }
+    },
+    {
+      "id": "saab-9-3-2-0t-175",
+      "name": "Saab 9-3 2.0t",
+      "brand": "Saab",
+      "model_family": "9-3",
+      "generation": "YS3F",
+      "years": "2003-2011",
+      "specs": {
+        "hp": 175,
+        "torque_nm": 265.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "B207",
+        "engine_name": "2.0 Turbo"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-saab-9-3-2-0t",
+        "tech--com-cars-saab-9-3-sport-sedan-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1dac62e23e226a03f6",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2003.html"
+      }
+    },
+    {
+      "id": "saab-9-5-1-9-tid-150-bg-150",
+      "name": "Saab 9-5 1.9 TiD · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-5",
+      "generation": null,
+      "years": "2005-2009",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TiDS 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-n-com-cars-saab-9-5-sportcombi-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-eaacddde938853f9e3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-sportcombi-2005.html"
+      }
+    },
+    {
+      "id": "saab-9-5-1-9-tid-150-bg-150-2",
+      "name": "Saab 9-5 1.9 TiD · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-5",
+      "generation": null,
+      "years": "2005-2005",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.9L TiDS 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-utoevolution-com-cars-saab-9-5-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-365a5b89ee0577c812",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2005.html"
+      }
+    },
+    {
+      "id": "saab-9-5-1-9-tid-150-bg-150-3",
+      "name": "Saab 9-5 1.9 TiD · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-5",
+      "generation": null,
+      "years": "2000-2001",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 240.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": "saab-9-3-9-5-2-0t",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-792ed8f4ad140ae2f0",
+        "src-f1c8abfac17243ee13"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ea9cf4215c736c52d6",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-95-sportcombi-1998.html"
+      }
+    },
+    {
+      "id": "saab-9-5-1-9-tid-150-bg-150-4",
+      "name": "Saab 9-5 1.9 TiD · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-5",
+      "generation": null,
+      "years": "2000-2001",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 240.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": "saab-9-3-9-5-2-0t",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-0a8d612dc7730c58cc",
+        "src-792ed8f4ad140ae2f0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-131691214eb678c168",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-1997.html"
+      }
+    },
+    {
+      "id": "saab-9-5-1-9-tid-150-bg-150-5",
+      "name": "Saab 9-5 1.9 TiD · 150 bg",
+      "brand": "Saab",
+      "model_family": "9-5",
+      "generation": null,
+      "years": "2001-2005",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 240.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 5AT FWD (150 HP)"
+      },
+      "scored_car_id": "saab-9-3-9-5-2-0t",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-792ed8f4ad140ae2f0",
+        "tech-utoevolution-com-cars-saab-9-5-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0a287764c9bb20bdc5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2001.html"
+      }
+    },
+    {
+      "id": "saab-9-5-1-9-tid-160-bg-160",
+      "name": "Saab 9-5 1.9 TiD · 160 bg",
+      "brand": "Saab",
+      "model_family": "9-5",
+      "generation": null,
+      "years": "2010-2012",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 350.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L TiD 6AT (160 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-utoevolution-com-cars-saab-9-5-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5b7fc4ae598470383c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2010.html"
+      }
+    },
+    {
+      "id": "saab-9-5-2-0t-150",
+      "name": "Saab 9-5 2.0t",
+      "brand": "Saab",
+      "model_family": "9-5",
+      "generation": "YS3E",
+      "years": "2000-2009",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 240.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "B205",
+        "engine_name": "2.0 Turbo"
+      },
+      "scored_car_id": "saab-9-3-9-5-2-0t",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-saab-9-5-2-0t",
+        "tech-utoevolution-com-cars-saab-9-5-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-00108cfc538181a4b5",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2001.html"
+      }
+    },
+    {
+      "id": "saab-9-5-2-3t-185",
+      "name": "Saab 9-5 2.3t",
+      "brand": "Saab",
+      "model_family": "9-5",
+      "generation": "YS3E",
+      "years": "2000-2009",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 280.0,
+        "displacement_l": 2.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Geartronic 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "B235",
+        "engine_name": "2.3 Turbo"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-saab-9-5-2-3t",
+        "tech-utoevolution-com-cars-saab-9-5-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8aee41133aaa1a3081",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2001.html"
+      }
+    }
+  ]
+}

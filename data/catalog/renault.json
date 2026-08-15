@@ -1,0 +1,3920 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Renault",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "renault-captur-ii-1-3-tce-130-edc-130",
+      "name": "Renault Captur II 1.3 TCe 130 EDC",
+      "brand": "Renault",
+      "model_family": "Captur",
+      "generation": "II",
+      "years": "2019-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 240.0,
+        "displacement_l": 1.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "Getrag 7DCT300",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "renault-h5ht",
+        "engine_name": "H5Ht"
+      },
+      "scored_car_id": "renault-clio-5-1-3-tce-edc",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-6924f14dde4cb2592e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21m-d4d40dfc4a4f7065b6",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/renault-captur-2019.html"
+      }
+    },
+    {
+      "id": "renault-clio-1-2-120-bg-120",
+      "name": "Renault Clio 1.2 · 120 bg",
+      "brand": "Renault",
+      "model_family": "Clio",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 190.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-captur-1-2-tce-edc",
+        "renault-clio-4-1-2-tce"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-123660b46182365f8b",
+        "src-9c69c267f8796185ef"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2543ea4d838d22108f",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-5-doors-2012.html"
+      }
+    },
+    {
+      "id": "renault-clio-1-2-120-bg-120-2",
+      "name": "Renault Clio 1.2 · 120 bg",
+      "brand": "Renault",
+      "model_family": "Clio",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 190.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-captur-1-2-tce-edc",
+        "renault-clio-4-1-2-tce"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-9c69c267f8796185ef",
+        "tech-m-cars-renault-clio-gt-5-doors-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2b6468fd07a6f0f38f",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-gt-5-doors-2013.html"
+      }
+    },
+    {
+      "id": "renault-clio-1-2-120-bg-120-3",
+      "name": "Renault Clio 1.2 · 120 bg",
+      "brand": "Renault",
+      "model_family": "Clio",
+      "generation": null,
+      "years": "2013-2016",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 190.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-captur-1-2-tce-edc",
+        "renault-clio-4-1-2-tce"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-8857743d71fb843667",
+        "src-9c69c267f8796185ef"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-45cd6ffc8c848f7d00",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-gt-2013.html"
+      }
+    },
+    {
+      "id": "renault-clio-1-2-120-bg-120-4",
+      "name": "Renault Clio 1.2 · 120 bg",
+      "brand": "Renault",
+      "model_family": "Clio",
+      "generation": null,
+      "years": "2013-2016",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 190.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-captur-1-2-tce-edc",
+        "renault-clio-4-1-2-tce"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-9c69c267f8796185ef",
+        "src-f320a2984d4ab27e2a"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-efdd2d66e522a8e017",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-2013.html"
+      }
+    },
+    {
+      "id": "renault-clio-1-2-120-bg-120-5",
+      "name": "Renault Clio 1.2 · 120 bg",
+      "brand": "Renault",
+      "model_family": "Clio",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-captur-1-2-tce-edc",
+        "renault-clio-4-1-2-tce"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-9c69c267f8796185ef",
+        "src-e84de967ad2236cf36"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f0e6e9e9e8287e4870",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-5-doors-2016.html"
+      }
+    },
+    {
+      "id": "renault-clio-1-2-120-bg-120-6",
+      "name": "Renault Clio 1.2 · 120 bg",
+      "brand": "Renault",
+      "model_family": "Clio",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-captur-1-2-tce-edc",
+        "renault-clio-4-1-2-tce"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-159ffd4f63515553f8",
+        "src-9c69c267f8796185ef"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-281032d7a8d3f0f33a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-2016.html"
+      }
+    },
+    {
+      "id": "renault-clio-1-6-grandtour-200-bg-200",
+      "name": "Renault Clio 1.6 Grandtour · 200 bg",
+      "brand": "Renault",
+      "model_family": "Clio",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L TCe 7AT FWD (205 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6999cf8060a570677e",
+        "src-cb7762cb4fe487b4b6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cad2034159b58c8d89",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-rs-2013.html"
+      }
+    },
+    {
+      "id": "renault-clio-1-6-110-bg-110",
+      "name": "Renault Clio 1.6 · 110 bg",
+      "brand": "Renault",
+      "model_family": "Clio",
+      "generation": null,
+      "years": "2001-2006",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (113 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-clio-2-1-6",
+        "renault-laguna-2-1-6-2-0"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-06aa06e2b062f3884d",
+        "src-c015e24bb0652d1e77",
+        "tech--com-cars-renault-clio-3-doors-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2f9431002b24c8cf8a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-3-doors-2001.html"
+      }
+    },
+    {
+      "id": "renault-clio-1-6-110-bg-110-2",
+      "name": "Renault Clio 1.6 · 110 bg",
+      "brand": "Renault",
+      "model_family": "Clio",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 201.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (113 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-clio-2-1-6",
+        "renault-laguna-2-1-6-2-0"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-c015e24bb0652d1e77",
+        "src-fc9a2f3d423539b1a7"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0627bdb411f5696817",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-symbol-thalia-2008.html"
+      }
+    },
+    {
+      "id": "renault-clio-1-6-110-bg-110-3",
+      "name": "Renault Clio 1.6 · 110 bg",
+      "brand": "Renault",
+      "model_family": "Clio",
+      "generation": null,
+      "years": "2009-2012",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (113 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-clio-2-1-6",
+        "renault-laguna-2-1-6-2-0"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-3f97cac009578563a4",
+        "src-c015e24bb0652d1e77"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-81b816e55dc6890a21",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-2009.html"
+      }
+    },
+    {
+      "id": "renault-clio-1-6-112-bg-112",
+      "name": "Renault Clio 1.6 · 112 bg",
+      "brand": "Renault",
+      "model_family": "Clio",
+      "generation": null,
+      "years": "2006-2009",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (113 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4299822446509c0b16",
+        "src-b3a0e3a3e04f319e58",
+        "src-c015e24bb0652d1e77"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-462c5bd3f603be3ed9",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-3-doors-2006.html"
+      }
+    },
+    {
+      "id": "renault-clio-2-1-6-110",
+      "name": "Renault Clio 2 1.6",
+      "brand": "Renault",
+      "model_family": "Clio 2",
+      "generation": null,
+      "years": "2000-2005",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 148.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "renault-k4m",
+        "engine_name": "K4M"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-clio-2-1-6",
+        "renault-laguna-2-1-6-2-0"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-renault-clio-2-1-6",
+        "tech--com-cars-renault-clio-3-doors-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1b1cc65c4b9cc48f86",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-3-doors-2001.html"
+      }
+    },
+    {
+      "id": "renault-clio-4-1-2-tce-120",
+      "name": "Renault Clio 4 1.2 TCe",
+      "brand": "Renault",
+      "model_family": "Clio 4",
+      "generation": null,
+      "years": "2013-2019",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "EDC (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "renault-tce-12",
+        "engine_name": "H5F"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-captur-1-2-tce-edc",
+        "renault-clio-4-1-2-tce"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-renault-clio-4-1-2-tce",
+        "tech-m-cars-renault-clio-gt-5-doors-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d803ac989d8f4521d2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-gt-5-doors-2013.html"
+      }
+    },
+    {
+      "id": "renault-clio-5-1-3-tce-edc-130",
+      "name": "Renault Clio 5 1.3 TCe EDC",
+      "brand": "Renault",
+      "model_family": "Clio 5",
+      "generation": null,
+      "years": "2019-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 240.0,
+        "displacement_l": 1.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "Getrag 7DCT300",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "renault-h5ht",
+        "engine_name": "H5Ht"
+      },
+      "scored_car_id": "renault-clio-5-1-3-tce-edc",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-renault-clio-5-1-3-tce-edc",
+        "tech-volution-com-cars-renault-clio-2019-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fdbc9917b8c1ca19c8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-2019.html"
+      }
+    },
+    {
+      "id": "renault-espace-2-0-dci-6at-175",
+      "name": "Renault Espace 2.0 dCi 6AT",
+      "brand": "Renault",
+      "model_family": "Espace",
+      "generation": "JK",
+      "years": "2006-2014",
+      "specs": {
+        "hp": 175,
+        "torque_nm": 361.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "M9R",
+        "engine_name": "2.0L dCI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-renault-espace-2-0-dci-6at",
+        "tech-lution-com-cars-renault-espace-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2baf6c569fb841e8d9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-espace-2006.html"
+      }
+    },
+    {
+      "id": "renault-espace-3-0-177-bg-177",
+      "name": "Renault Espace 3.0 · 177 bg",
+      "brand": "Renault",
+      "model_family": "Espace",
+      "generation": null,
+      "years": "2002-2006",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 350.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L dCi V6 5AT (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6e106062336ccfcd36",
+        "src-9bf2e1b1e9522b5431"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ac60a23b8362b799dd",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-espace-2002.html"
+      }
+    },
+    {
+      "id": "renault-espace-3-0-180-bg-180",
+      "name": "Renault Espace 3.0 · 180 bg",
+      "brand": "Renault",
+      "model_family": "Espace",
+      "generation": null,
+      "years": "2002-2002",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 350.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L dCi V6 5AT (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6e106062336ccfcd36",
+        "src-9b8580ee20115ca7b0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fdff57e91b20e405ab",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-espace-2002.html"
+      }
+    },
+    {
+      "id": "renault-espace-3-0-180-bg-180-2",
+      "name": "Renault Espace 3.0 · 180 bg",
+      "brand": "Renault",
+      "model_family": "Espace",
+      "generation": null,
+      "years": "2006-2006",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 400.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "3.0L dCi V6 24V 5AT FWD (180 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4015f43c69454ed7c2",
+        "src-6e106062336ccfcd36"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d4bf02288a234d5016",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-espace-2006.html"
+      }
+    },
+    {
+      "id": "renault-fluence-1-5-dci-110",
+      "name": "Renault Fluence 1.5 dCi",
+      "brand": "Renault",
+      "model_family": "Fluence",
+      "generation": null,
+      "years": "2013-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "EDC (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "renault-k9k",
+        "engine_name": "K9K"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-renault-fluence-1-5-dci",
+        "tech-ution-com-cars-renault-fluence-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-57fda1037c394ed36d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2013.html"
+      }
+    },
+    {
+      "id": "renault-fluence-1-5-dci-115-bg-115",
+      "name": "Renault Fluence 1.5 dCi · 115 bg",
+      "brand": "Renault",
+      "model_family": "Fluence",
+      "generation": null,
+      "years": "2013-2016",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-ution-com-cars-renault-fluence-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d8ef64a66ea11bed07",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2013.html"
+      }
+    },
+    {
+      "id": "renault-fluence-1-6-110",
+      "name": "Renault Fluence 1.6",
+      "brand": "Renault",
+      "model_family": "Fluence",
+      "generation": null,
+      "years": "2010-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 150.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
+        "gears": null,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": "renault-k4m",
+        "engine_name": "K4M"
+      },
+      "scored_car_id": "renault-fluence-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-renault-fluence-1-6",
+        "tech-ution-com-cars-renault-fluence-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-42938ee1636bb2175d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2009.html"
+      }
+    },
+    {
+      "id": "renault-fluence-1-6-105-bg-105",
+      "name": "Renault Fluence 1.6 · 105 bg",
+      "brand": "Renault",
+      "model_family": "Fluence",
+      "generation": null,
+      "years": "2009-2012",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 145.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (113 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-inci-el-otomobil-renault-fluence-1-6",
+        "tech-ution-com-cars-renault-fluence-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8310bfe02f787b9485",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2009.html"
+      }
+    },
+    {
+      "id": "renault-fluence-1-6-116-bg-116",
+      "name": "Renault Fluence 1.6 · 116 bg",
+      "brand": "Renault",
+      "model_family": "Fluence",
+      "generation": null,
+      "years": "2013-2016",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (113 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-inci-el-otomobil-renault-fluence-1-6",
+        "tech-ution-com-cars-renault-fluence-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fa12ee54f299ae1b89",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2013.html"
+      }
+    },
+    {
+      "id": "renault-grand-scenic-1-5-dci-edc-110",
+      "name": "Renault Grand Scenic 1.5 dCi EDC",
+      "brand": "Renault",
+      "model_family": "Grand Scenic",
+      "generation": "JZ",
+      "years": "2013-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "EDC (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "K9K",
+        "engine_name": "1.5L dCi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-renault-grand-scenic-1-5-dci-edc",
+        "tech--com-cars-renault-grand-scenic-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-42c50fef7f9c997787",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2013.html"
+      }
+    },
+    {
+      "id": "renault-grand-scenic-2-0-dci-150-bg-150",
+      "name": "Renault Grand Scenic 2.0 dCi · 150 bg",
+      "brand": "Renault",
+      "model_family": "Grand Scenic",
+      "generation": null,
+      "years": "2009-2013",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 359.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L dCi 6AT FWD (150 HP)"
+      },
+      "scored_car_id": "renault-latitude-2-0-dci",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-renault-grand-scenic-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-49f5ff18c1ab2f58e1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2009.html"
+      }
+    },
+    {
+      "id": "renault-kadjar-1-5-dci-edc-110",
+      "name": "Renault Kadjar 1.5 dCi EDC",
+      "brand": "Renault",
+      "model_family": "Kadjar",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "EDC (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "renault-k9k",
+        "engine_name": "K9K"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-renault-kadjar-1-5-dci-edc",
+        "tech-lution-com-cars-renault-kadjar-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1bab176c00f0fbaef8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-kadjar-2015.html"
+      }
+    },
+    {
+      "id": "renault-koleos-2-0-dci-6at-awd-150",
+      "name": "Renault Koleos 2.0 dCi 6AT AWD",
+      "brand": "Renault",
+      "model_family": "Koleos",
+      "generation": "HY",
+      "years": "2008-2015",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "M9R",
+        "engine_name": "2.0L dCI"
+      },
+      "scored_car_id": "renault-latitude-2-0-dci",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-mobil-renault-koleos-2-0-dci-6at-awd",
+        "tech-lution-com-cars-renault-koleos-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d4f270c7fcef080eb3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-koleos-2008.html"
+      }
+    },
+    {
+      "id": "renault-laguna-1-9-dci-120",
+      "name": "Renault Laguna 1.9 dCi",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2001-2007",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 300.0,
+        "displacement_l": 1.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "renault-f9q",
+        "engine_name": "F9Q"
+      },
+      "scored_car_id": "renault-laguna-1-9-dci",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-i-el-otomobil-renault-laguna-1-9-dci"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5b1a637206b0e3a50c",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "renault-laguna-2-0-t-170-bg-170",
+      "name": "Renault Laguna 2.0 T · 170 bg",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2010-2016",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 270.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4c1934594eef18cd77",
+        "tech-lution-com-cars-renault-laguna-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-459bd8e895a955801d",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2010.html"
+      }
+    },
+    {
+      "id": "renault-laguna-2-0-t-170-bg-170-2",
+      "name": "Renault Laguna 2.0 T · 170 bg",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2010-2016",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 270.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4c1934594eef18cd77",
+        "tech-com-cars-renault-laguna-estate-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bdd97398274e0d2510",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2010.html"
+      }
+    },
+    {
+      "id": "renault-laguna-2-0-dci-150-bg-150",
+      "name": "Renault Laguna 2.0 dCi · 150 bg",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2008-2008",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L dCi 6AT FWD (150 HP)"
+      },
+      "scored_car_id": "renault-latitude-2-0-dci",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-renault-laguna-coupe-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9d254f171fa6010478",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-coupe-2008.html"
+      }
+    },
+    {
+      "id": "renault-laguna-2-0-dci-175-bg-175",
+      "name": "Renault Laguna 2.0 dCi · 175 bg",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2010-2016",
+      "specs": {
+        "hp": 175,
+        "torque_nm": 361.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L dCi 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-renault-laguna-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-52bd35ea3b66cf9f5a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2010.html"
+      }
+    },
+    {
+      "id": "renault-laguna-2-0-dci-175-bg-175-2",
+      "name": "Renault Laguna 2.0 dCi · 175 bg",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2010-2016",
+      "specs": {
+        "hp": 175,
+        "torque_nm": 361.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L dCi 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-com-cars-renault-laguna-estate-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c81c3ee4ea55e44f45",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2010.html"
+      }
+    },
+    {
+      "id": "renault-laguna-2-0-135-bg-135",
+      "name": "Renault Laguna 2.0 · 135 bg",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2001-2005",
+      "specs": {
+        "hp": 135,
+        "torque_nm": 191.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 16v T 6AT FWD (205 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6dab46fae9e4fba2fc",
+        "tech-com-cars-renault-laguna-estate-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8a1c3fd531d31e1ef4",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2001.html"
+      }
+    },
+    {
+      "id": "renault-laguna-2-0-150-bg-150",
+      "name": "Renault Laguna 2.0 · 150 bg",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2007-2007",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L dCi 6AT FWD (150 HP)"
+      },
+      "scored_car_id": "renault-latitude-2-0-dci",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6dab46fae9e4fba2fc",
+        "src-cfb64c22d41bdf2fa0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-087548af765d7e3a3c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2007.html"
+      }
+    },
+    {
+      "id": "renault-laguna-2-0-150-bg-150-2",
+      "name": "Renault Laguna 2.0 · 150 bg",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2007-2010",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 340.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L dCi 6AT FWD (150 HP)"
+      },
+      "scored_car_id": "renault-latitude-2-0-dci",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6dab46fae9e4fba2fc",
+        "src-9bbf2144c66f054e57"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9711ec3b86d80967b0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2007.html"
+      }
+    },
+    {
+      "id": "renault-laguna-2-0-170-bg-170",
+      "name": "Renault Laguna 2.0 · 170 bg",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2007-2007",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 270.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6dab46fae9e4fba2fc",
+        "src-cfb64c22d41bdf2fa0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-86b9cf5bad469567c6",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2007.html"
+      }
+    },
+    {
+      "id": "renault-laguna-2-0-170-bg-170-2",
+      "name": "Renault Laguna 2.0 · 170 bg",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2007-2010",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 270.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6dab46fae9e4fba2fc",
+        "src-9bbf2144c66f054e57"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6177251ce61c345d03",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2007.html"
+      }
+    },
+    {
+      "id": "renault-laguna-2-0-205-bg-205",
+      "name": "Renault Laguna 2.0 · 205 bg",
+      "brand": "Renault",
+      "model_family": "Laguna",
+      "generation": null,
+      "years": "2007-2007",
+      "specs": {
+        "hp": 205,
+        "torque_nm": 300.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L 16v T 6AT FWD (205 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-6dab46fae9e4fba2fc",
+        "src-cfb64c22d41bdf2fa0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-cf19e165918ea50328",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2007.html"
+      }
+    },
+    {
+      "id": "renault-laguna-ii-2-0-135",
+      "name": "Renault Laguna II 2.0",
+      "brand": "Renault",
+      "model_family": "Laguna II",
+      "generation": "X74",
+      "years": "2001-2007",
+      "specs": {
+        "hp": 135,
+        "torque_nm": 191.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "F4R",
+        "engine_name": "2.0 16V"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-renault-laguna-ii-2-0",
+        "tech-com-cars-renault-laguna-estate-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2e800292889cb7ec2c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2001.html"
+      }
+    },
+    {
+      "id": "renault-latitude-1-5-dci-240-bg-240",
+      "name": "Renault Latitude 1.5 dCi · 240 bg",
+      "brand": "Renault",
+      "model_family": "Latitude",
+      "generation": null,
+      "years": "2010-2010",
+      "specs": {
+        "hp": 240,
+        "torque_nm": 449.0,
+        "displacement_l": null,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L BluedCi 6AT (160 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_displacement"
+      ],
+      "sources": [
+        "src-ef6b5e8aef37699e4c",
+        "tech-tion-com-cars-renault-latitude-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1b9894b2f102cdc6c8",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-latitude-2010.html"
+      }
+    },
+    {
+      "id": "renault-latitude-2-0-dci-150",
+      "name": "Renault Latitude 2.0 dCi",
+      "brand": "Renault",
+      "model_family": "Latitude",
+      "generation": null,
+      "years": "2011-2015",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 339.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
+        "gears": null,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": "renault-m9r",
+        "engine_name": "M9R"
+      },
+      "scored_car_id": "renault-latitude-2-0-dci",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-renault-latitude-2-0-dci",
+        "tech-tion-com-cars-renault-latitude-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-987a88b2c23dac3eeb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-latitude-2010.html"
+      }
+    },
+    {
+      "id": "renault-latitude-2-0-dci-175-bg-175",
+      "name": "Renault Latitude 2.0 dCi · 175 bg",
+      "brand": "Renault",
+      "model_family": "Latitude",
+      "generation": null,
+      "years": "2010-2010",
+      "specs": {
+        "hp": 175,
+        "torque_nm": 380.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L dCi 6AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-renault-latitude-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2f72cc0937b8c7c3a1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-latitude-2010.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-2-tce-130-bg-130",
+      "name": "Renault Megane 1.2 TCe · 130 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2014-2015",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "renault-megane-3-1-2-tce",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-om-cars-renault-megane-5-doors-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-236f986b82e754044a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-2-tce-130-bg-130-2",
+      "name": "Renault Megane 1.2 TCe · 130 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2014-2016",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.2L TCe ENERGY 6AT FWD (120 HP)"
+      },
+      "scored_car_id": "renault-megane-3-1-2-tce",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-com-cars-renault-megane-estate-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d973cd601d07876765",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2014.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-2-tce-130-bg-130-3",
+      "name": "Renault Megane 1.2 TCe · 130 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TCe 7AT FWD (130 HP)"
+      },
+      "scored_car_id": "renault-megane-3-1-2-tce",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-com-cars-renault-megane-estate-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-bb588993d95f83f607",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-2-tce-130-bg-130-4",
+      "name": "Renault Megane 1.2 TCe · 130 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TCe 7AT FWD (130 HP)"
+      },
+      "scored_car_id": "renault-megane-3-1-2-tce",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-renault-megane-sedan-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dc16f6e4c43898bfc2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2016.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-2-tce-130-bg-130-5",
+      "name": "Renault Megane 1.2 TCe · 130 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.2L TCe 7AT FWD (130 HP)"
+      },
+      "scored_car_id": "renault-megane-3-1-2-tce",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-om-cars-renault-megane-5-doors-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f9f498b956be73ea81",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-2-tce-140-bg-140",
+      "name": "Renault Megane 1.2 TCe · 140 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 140,
+        "torque_nm": null,
+        "displacement_l": 1.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.3L TCe 7AT (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "megane-clio-1-3-tce",
+        "renault-megane-4-1-3-tce-edc"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_torque"
+      ],
+      "sources": [
+        "src-1b5105477aae9601f5",
+        "src-5f7ec1347870f929b7"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9f717b0bf3c93f7bbe",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2020.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-blue-dci-110-bg-110",
+      "name": "Renault Megane 1.5 Blue DCI · 110 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2008-2015",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-megane-3-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-renault-megane-coupe-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9d458833e989a3108b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-2008.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-blue-dci-110-bg-110-2",
+      "name": "Renault Megane 1.5 Blue DCI · 110 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2008-2008",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-om-cars-renault-megane-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-145b0fd3fe6185355f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-blue-dci-110-bg-110-3",
+      "name": "Renault Megane 1.5 Blue DCI · 110 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2009-2014",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L dCi Eco2 6AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-megane-3-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-com-cars-renault-megane-estate-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e58b68b68f1058a0cf",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2009.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-blue-dci-110-bg-110-4",
+      "name": "Renault Megane 1.5 Blue DCI · 110 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-megane-3-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-rs-renault-megane-coupe-cabrio-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-671ea74e2339b2883f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2010.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-blue-dci-110-bg-110-5",
+      "name": "Renault Megane 1.5 Blue DCI · 110 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-megane-3-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-rs-renault-megane-coupe-cabrio-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6d039c5d0675244c24",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2014.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-blue-dci-110-bg-110-6",
+      "name": "Renault Megane 1.5 Blue DCI · 110 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2014-2015",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-megane-3-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-om-cars-renault-megane-5-doors-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7bde7d6b5aea3c6a29",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-dci-sport-tourer-115-bg-115",
+      "name": "Renault Megane 1.5 dCi Sport Tourer · 115 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 115,
+        "torque_nm": null,
+        "displacement_l": null,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L BluedCi 6AT (160 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_displacement",
+        "missing_torque"
+      ],
+      "sources": [
+        "src-469c416e8eb617c8eb",
+        "tech-om-cars-renault-megane-5-doors-2020-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7dee9b0b2ad3145314",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2020.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-dci-sport-tourer-115-bg-115-2",
+      "name": "Renault Megane 1.5 dCi Sport Tourer · 115 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2020-2020",
+      "specs": {
+        "hp": 115,
+        "torque_nm": null,
+        "displacement_l": null,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L BluedCi 6AT (160 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_displacement",
+        "missing_torque"
+      ],
+      "sources": [
+        "src-10b9b8b7ecb99ff481",
+        "src-469c416e8eb617c8eb"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-66855072871ecd8d2d",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2020.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-dci-110-bg-110",
+      "name": "Renault Megane 1.5 dCi · 110 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--com-cars-renault-megane-sedan-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-470ea1909f425d3e58",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2016.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-dci-110-bg-110-2",
+      "name": "Renault Megane 1.5 dCi · 110 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-om-cars-renault-megane-5-doors-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a0bbb20d1e1b7751e1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-dci-110-bg-110-3",
+      "name": "Renault Megane 1.5 dCi · 110 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-com-cars-renault-megane-estate-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-964357c7f53ca545f3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-dci-165-bg-165",
+      "name": "Renault Megane 1.5 dCi · 165 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2015-2015",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 380.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L dCi 6AT FWD (160 HP)"
+      },
+      "scored_car_id": "renault-megane-4-estate-1-6-dci-165-edc",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-cars-renault-megane-gt-5-doors-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-00b5615af22d06db9b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-gt-5-doors-2015.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-dci-165-bg-165-2",
+      "name": "Renault Megane 1.5 dCi · 165 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 380.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L dCi 6AT FWD (160 HP)"
+      },
+      "scored_car_id": "renault-megane-4-estate-1-6-dci-165-edc",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--cars-renault-megane-estate-gt-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-12f4877847ebcc3ff9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-gt-2016.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-5-dci-165-bg-165-3",
+      "name": "Renault Megane 1.5 dCi · 165 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 165,
+        "torque_nm": null,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L dCi 6AT FWD (160 HP)"
+      },
+      "scored_car_id": "renault-megane-4-estate-1-6-dci-165-edc",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_torque"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-om-cars-renault-megane-5-doors-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8d79d76bbfdd9a5754",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-6-115-bg-115",
+      "name": "Renault Megane 1.6 · 115 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2014-2015",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (113 HP)"
+      },
+      "scored_car_id": "renault-megane-2-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-0f37b3cb7821b1a55a",
+        "tech-om-cars-renault-megane-5-doors-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3d811012befd703c51",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-6-115-bg-115-2",
+      "name": "Renault Megane 1.6 · 115 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2014-2016",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (113 HP)"
+      },
+      "scored_car_id": "renault-megane-2-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-0f37b3cb7821b1a55a",
+        "tech-com-cars-renault-megane-estate-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0376b0a61d7f13d4c7",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2014.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-6-115-bg-115-3",
+      "name": "Renault Megane 1.6 · 115 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (113 HP)"
+      },
+      "scored_car_id": "renault-megane-2-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-0f37b3cb7821b1a55a",
+        "tech--com-cars-renault-megane-sedan-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d03ef8922022d9867c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2016.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-6-205-bg-205",
+      "name": "Renault Megane 1.6 · 205 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2015-2015",
+      "specs": {
+        "hp": 205,
+        "torque_nm": 280.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TCe 7AT FWD (205 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-0f37b3cb7821b1a55a",
+        "tech-cars-renault-megane-gt-5-doors-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8ccae2adaa39cb5b0d",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-gt-5-doors-2015.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-6-205-bg-205-2",
+      "name": "Renault Megane 1.6 · 205 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 205,
+        "torque_nm": 280.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TCe 7AT FWD (205 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-0f37b3cb7821b1a55a",
+        "tech-com-cars-renault-megane-estate-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c5be6e9328f1fb681c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-6-205-bg-205-3",
+      "name": "Renault Megane 1.6 · 205 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 205,
+        "torque_nm": 280.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L TCe 7AT FWD (205 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-0f37b3cb7821b1a55a",
+        "tech--cars-renault-megane-estate-gt-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a5dc0f4579b4807afc",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-gt-2016.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-9-dti-140-bg-140",
+      "name": "Renault Megane 1.9 DTi · 140 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2008-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-96b4b0451361b2f378",
+        "tech-om-cars-renault-megane-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a8f39aa56d31680513",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-9-dti-140-bg-140-2",
+      "name": "Renault Megane 1.9 DTi · 140 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2008-2015",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-96b4b0451361b2f378",
+        "tech--com-cars-renault-megane-coupe-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-24909823bfe0ae441b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-2008.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-9-dti-140-bg-140-3",
+      "name": "Renault Megane 1.9 DTi · 140 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2009-2014",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-96b4b0451361b2f378",
+        "tech-com-cars-renault-megane-estate-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6288f561bb7336589c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2009.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-9-dti-140-bg-140-4",
+      "name": "Renault Megane 1.9 DTi · 140 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-96b4b0451361b2f378",
+        "tech-rs-renault-megane-coupe-cabrio-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5b10baebc26168b2f0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2010.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-9-dti-140-bg-140-5",
+      "name": "Renault Megane 1.9 DTi · 140 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-96b4b0451361b2f378",
+        "tech-rs-renault-megane-coupe-cabrio-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ae618053580fa802b8",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2014.html"
+      }
+    },
+    {
+      "id": "renault-megane-1-9-dti-280-bg-280",
+      "name": "Renault Megane 1.9 DTi · 280 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 280,
+        "torque_nm": 389.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.8L 16V DCT FWD (280 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-05cb5e2e80364b4bd8",
+        "src-96b4b0451361b2f378"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-332d447af4b66b4194",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-rs-coupe-2018.html"
+      }
+    },
+    {
+      "id": "renault-megane-2-1-6-115",
+      "name": "Renault Megane 2 1.6",
+      "brand": "Renault",
+      "model_family": "Megane 2",
+      "generation": null,
+      "years": "2005-2012",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "renault-k4m",
+        "engine_name": "K4M"
+      },
+      "scored_car_id": "renault-megane-2-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-nci-el-otomobil-renault-megane-2-1-6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4f9d2798dffae1543e",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "renault-megane-3-1-2-tce-130",
+      "name": "Renault Megane 3 1.2 TCe",
+      "brand": "Renault",
+      "model_family": "Megane 3",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 205.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "EDC (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "renault-tce-12",
+        "engine_name": "H5F"
+      },
+      "scored_car_id": "renault-megane-3-1-2-tce",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-renault-megane-3-1-2-tce",
+        "tech-om-cars-renault-megane-5-doors-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-33728c68cba233df2c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html"
+      }
+    },
+    {
+      "id": "renault-megane-3-1-5-dci-110",
+      "name": "Renault Megane 3 1.5 dCi",
+      "brand": "Renault",
+      "model_family": "Megane 3",
+      "generation": null,
+      "years": "2012-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "EDC (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "renault-k9k",
+        "engine_name": "K9K"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-renault-megane-3-1-5-dci",
+        "tech-om-cars-renault-megane-5-doors-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0cb6b2e006fba196eb",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html"
+      }
+    },
+    {
+      "id": "renault-megane-4-1-3-tce-edc-140",
+      "name": "Renault Megane 4 1.3 TCe EDC",
+      "brand": "Renault",
+      "model_family": "Megane 4",
+      "generation": null,
+      "years": "2018-2020",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 240.0,
+        "displacement_l": 1.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "Getrag 7DCT300",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "renault-h5ht",
+        "engine_name": "H5Ht"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "megane-clio-1-3-tce",
+        "renault-megane-4-1-3-tce-edc"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-tomobil-renault-megane-4-1-3-tce-edc",
+        "tech-om-cars-renault-megane-5-doors-2020-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-32854f90880310502f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2020.html"
+      }
+    },
+    {
+      "id": "renault-megane-4-1-5-dci-edc-110",
+      "name": "Renault Megane 4 1.5 dCi EDC",
+      "brand": "Renault",
+      "model_family": "Megane 4",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "EDC (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "renault-k9k",
+        "engine_name": "K9K"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-tomobil-renault-megane-4-1-5-dci-edc",
+        "tech-om-cars-renault-megane-5-doors-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-29ed212775b9966e04",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html"
+      }
+    },
+    {
+      "id": "renault-modus-1-6-4at-110",
+      "name": "Renault Modus 1.6 4AT",
+      "brand": "Renault",
+      "model_family": "Modus",
+      "generation": "JP",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 151.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "DP0/AL4 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "K4M",
+        "engine_name": "1.6L 16V"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-clio-2-1-6",
+        "renault-laguna-2-1-6-2-0"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-renault-modus-1-6-4at",
+        "tech-olution-com-cars-renault-modus-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-523164765372e8b705",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-modus-2008.html"
+      }
+    },
+    {
+      "id": "renault-modus-1-6-110-bg-110",
+      "name": "Renault Modus 1.6 · 110 bg",
+      "brand": "Renault",
+      "model_family": "Modus",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 151.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (113 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-clio-2-1-6",
+        "renault-laguna-2-1-6-2-0"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-42358512a32b38a141",
+        "tech-olution-com-cars-renault-modus-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-117178594817f1df36",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-modus-2008.html"
+      }
+    },
+    {
+      "id": "renault-m-gane-4-grandtour-1-6-dci-165-edc-165",
+      "name": "Renault Mégane 4 Grandtour 1.6 dCi 165 EDC",
+      "brand": "Renault",
+      "model_family": "Mégane 4 Grandtour",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 380.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "Getrag 7DCT300",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "renault-r9m",
+        "engine_name": "R9M"
+      },
+      "scored_car_id": "renault-megane-4-estate-1-6-dci-165-edc",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-t-megane-4-grandtour-1-6-dci-165-edc",
+        "tech-com-cars-renault-megane-estate-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d09257ff13242bc020",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html"
+      }
+    },
+    {
+      "id": "renault-renault-megane-1-6-dci-130-130",
+      "name": "Renault Renault Megane 1.6 dCi 130",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": "2013-2020 pazar dilimi",
+      "years": "2013-2020",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "EDC (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "renault-r9m",
+        "engine_name": "R9M"
+      },
+      "scored_car_id": "renault-megane-1-6-dci-130",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "otopark_1_3tce_islak",
+        "otosorular_megane16dci",
+        "renaultfanclub_edc",
+        "sikayetvar_megane_edc",
+        "vehiclewise_r9m"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21-07eb7c5c2f9c6fe2c8",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://otopark.com/forum/threads/hangi-araclarda-hangi-sanziman-bulunuyor-genel-sanziman-bilgileri-dsg-zf-ve-getrag-hakkinda-her-sey.15814/"
+      }
+    },
+    {
+      "id": "renault-scenic-1-5-dci-edc-110",
+      "name": "Renault Scenic 1.5 dCi EDC",
+      "brand": "Renault",
+      "model_family": "Scenic",
+      "generation": "JZ",
+      "years": "2013-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "EDC (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "K9K",
+        "engine_name": "1.5L dCi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-renault-scenic-1-5-dci-edc",
+        "tech-lution-com-cars-renault-scenic-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b74de3b354e08d072a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2013.html"
+      }
+    },
+    {
+      "id": "renault-scenic-1-5-dci-110-bg-110",
+      "name": "Renault Scenic 1.5 dCi · 110 bg",
+      "brand": "Renault",
+      "model_family": "Scenic",
+      "generation": null,
+      "years": "2009-2013",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-megane-3-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "src-1d729ffe6decfa7e50",
+        "tech--com-cars-renault-grand-scenic-2009-html",
+        "tech-lution-com-cars-renault-scenic-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1060ca6708999a7777",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2009.html"
+      }
+    },
+    {
+      "id": "renault-scenic-1-5-dci-110-bg-110-2",
+      "name": "Renault Scenic 1.5 dCi · 110 bg",
+      "brand": "Renault",
+      "model_family": "Scenic",
+      "generation": null,
+      "years": "2013-2013",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 240.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-megane-3-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "src-1d729ffe6decfa7e50",
+        "tech--com-cars-renault-grand-scenic-2013-html",
+        "tech-lution-com-cars-renault-scenic-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-68035fb5abb491b316",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2013.html"
+      }
+    },
+    {
+      "id": "renault-scenic-1-5-dci-110-bg-110-3",
+      "name": "Renault Scenic 1.5 dCi · 110 bg",
+      "brand": "Renault",
+      "model_family": "Scenic",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.5L dCi 7AT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "src-1d729ffe6decfa7e50",
+        "src-bbcabeb535397420c6",
+        "tech-lution-com-cars-renault-scenic-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d16ad590cee4b8b078",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2016.html"
+      }
+    },
+    {
+      "id": "renault-scenic-1-6-113-bg-113",
+      "name": "Renault Scenic 1.6 · 113 bg",
+      "brand": "Renault",
+      "model_family": "Scenic",
+      "generation": null,
+      "years": "2003-2009",
+      "specs": {
+        "hp": 113,
+        "torque_nm": 152.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (113 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-29c7ed0b9b617cbfe1",
+        "src-29d2ac3f497bccaf2c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0a34a662a95fd4d763",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2003.html"
+      }
+    },
+    {
+      "id": "renault-scenic-1-6-160-bg-160",
+      "name": "Renault Scenic 1.6 · 160 bg",
+      "brand": "Renault",
+      "model_family": "Scenic",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 380.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L dCi 6AT FWD (160 HP)"
+      },
+      "scored_car_id": "renault-talisman-1-6-dci-160-edc",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-29c7ed0b9b617cbfe1",
+        "src-bbcabeb535397420c6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2b1a4768287de0ca90",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2016.html"
+      }
+    },
+    {
+      "id": "renault-scenic-2-0-dci-150-bg-150",
+      "name": "Renault Scenic 2.0 dCi · 150 bg",
+      "brand": "Renault",
+      "model_family": "Scenic",
+      "generation": null,
+      "years": "2009-2013",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 359.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L dCi 6AT FWD (150 HP)"
+      },
+      "scored_car_id": "renault-latitude-2-0-dci",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-lution-com-cars-renault-scenic-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6e4c4008898c525221",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2009.html"
+      }
+    },
+    {
+      "id": "renault-talisman-1-5-dci-110",
+      "name": "Renault Talisman 1.5 dCi",
+      "brand": "Renault",
+      "model_family": "Talisman",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 260.0,
+        "displacement_l": 1.5,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "EDC (kuru)",
+        "gears": 6,
+        "clutch": "Kuru çift kavrama",
+        "engine_code": "renault-k9k",
+        "engine_name": "K9K"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "renault-fluence-1-5-dci",
+        "renault-kadjar-1-5-dci-edc",
+        "renault-megane-3-1-5-dci",
+        "renault-megane-4-1-5-dci-edc",
+        "renault-talisman-1-5-dci"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-renault-talisman-1-5-dci",
+        "tech-tion-com-cars-renault-talisman-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1b5d58adf93feab90d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html"
+      }
+    },
+    {
+      "id": "renault-talisman-1-6-dci-160-edc-160",
+      "name": "Renault Talisman 1.6 dCi 160 EDC",
+      "brand": "Renault",
+      "model_family": "Talisman",
+      "generation": null,
+      "years": "2016-2020",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 380.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "Getrag 7DCT300",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "renault-r9m",
+        "engine_name": "R9M"
+      },
+      "scored_car_id": "renault-talisman-1-6-dci-160-edc",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-renault-talisman-1-6-dci-160-edc",
+        "tech-tion-com-cars-renault-talisman-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4abf5dabf881e6112a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html"
+      }
+    },
+    {
+      "id": "renault-talisman-1-6-dci-130-bg-130",
+      "name": "Renault Talisman 1.6 dCi · 130 bg",
+      "brand": "Renault",
+      "model_family": "Talisman",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L dCi 6AT FWD (160 HP)"
+      },
+      "scored_car_id": "renault-megane-1-6-dci-130",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-m-cars-renault-talisman-estate-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e6f9e845dbb4027916",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-estate-2016.html"
+      }
+    },
+    {
+      "id": "renault-talisman-1-6-dci-130-bg-130-2",
+      "name": "Renault Talisman 1.6 dCi · 130 bg",
+      "brand": "Renault",
+      "model_family": "Talisman",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L dCi 6AT FWD (160 HP)"
+      },
+      "scored_car_id": "renault-megane-1-6-dci-130",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-renault-talisman-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-27de3b94f74b70d228",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html"
+      }
+    },
+    {
+      "id": "renault-talisman-1-6-dci-160-bg-160",
+      "name": "Renault Talisman 1.6 dCi · 160 bg",
+      "brand": "Renault",
+      "model_family": "Talisman",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 380.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L dCi 6AT FWD (160 HP)"
+      },
+      "scored_car_id": "renault-talisman-1-6-dci-160-edc",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-m-cars-renault-talisman-estate-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b766c820960b29f064",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-estate-2016.html"
+      }
+    },
+    {
+      "id": "renault-talisman-1-6-dci-160-bg-160-2",
+      "name": "Renault Talisman 1.6 dCi · 160 bg",
+      "brand": "Renault",
+      "model_family": "Talisman",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 380.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L dCi 6AT FWD (160 HP)"
+      },
+      "scored_car_id": "renault-talisman-1-6-dci-160-edc",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-tion-com-cars-renault-talisman-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-767808a496ceea2321",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html"
+      }
+    },
+    {
+      "id": "renault-talisman-1-6-dci-160-bg-160-3",
+      "name": "Renault Talisman 1.6 dCi · 160 bg",
+      "brand": "Renault",
+      "model_family": "Talisman",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 160,
+        "torque_nm": null,
+        "displacement_l": null,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L BluedCi 6AT (160 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_displacement",
+        "missing_torque"
+      ],
+      "sources": [
+        "src-1db84ffde837d25398",
+        "src-c0e896822a669bcb5a"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-64196c9a17ff1e830e",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2019.html"
+      }
+    },
+    {
+      "id": "renault-talisman-1-6-dci-160-bg-160-4",
+      "name": "Renault Talisman 1.6 dCi · 160 bg",
+      "brand": "Renault",
+      "model_family": "Talisman",
+      "generation": null,
+      "years": "2019-2019",
+      "specs": {
+        "hp": 160,
+        "torque_nm": null,
+        "displacement_l": null,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "2.0L BluedCi 6AT (160 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_displacement",
+        "missing_torque"
+      ],
+      "sources": [
+        "src-0e5ede049a5505908a",
+        "src-1db84ffde837d25398"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fcdba8059a8c3823ed",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-estate-2019.html"
+      }
+    }
+  ]
+}

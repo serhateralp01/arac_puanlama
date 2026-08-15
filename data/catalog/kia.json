@@ -1,0 +1,1205 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Kia",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "kia-carens-1-7-crdi-7dct-141",
+      "name": "Kia Carens 1.7 CRDi 7DCT",
+      "brand": "Kia",
+      "model_family": "Carens",
+      "generation": "RP",
+      "years": "2016-2018",
+      "specs": {
+        "hp": 141,
+        "torque_nm": 340.0,
+        "displacement_l": 1.7,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "D4FD",
+        "engine_name": "1.7L CRDi ISG"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-kia-carens-1-7-crdi-7dct",
+        "tech-oevolution-com-cars-kia-carens-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-75ebb72dc5d68b1ad4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-carens-2016.html"
+      }
+    },
+    {
+      "id": "kia-carens-2-0-crdi-113-bg-113",
+      "name": "Kia Carens 2.0 CRDi · 113 bg",
+      "brand": "Kia",
+      "model_family": "Carens",
+      "generation": null,
+      "years": "2002-2006",
+      "specs": {
+        "hp": 113,
+        "torque_nm": 245.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L CRDi 4AT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-oevolution-com-cars-kia-carens-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c040f1aecf1b97dbab",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-carens-2002.html"
+      }
+    },
+    {
+      "id": "kia-carens-2-0-crdi-140-bg-140",
+      "name": "Kia Carens 2.0 CRDi · 140 bg",
+      "brand": "Kia",
+      "model_family": "Carens",
+      "generation": null,
+      "years": "2008-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 305.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L CRDi 4AT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-oevolution-com-cars-kia-carens-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4dc90619394ad671b1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-carens-2008.html"
+      }
+    },
+    {
+      "id": "kia-carnival-2-9-crdi-ex-144-bg-144",
+      "name": "Kia Carnival 2.9 CRDi EX · 144 bg",
+      "brand": "Kia",
+      "model_family": "Carnival",
+      "generation": null,
+      "years": "2002-2006",
+      "specs": {
+        "hp": 144,
+        "torque_nm": 310.0,
+        "displacement_l": 2.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.9L CRDi 4AT FWD  (144 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-on-com-cars-kia-carnivalsedona-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fff3480ff7b44e1fd1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-carnivalsedona-2002.html"
+      }
+    },
+    {
+      "id": "kia-carnival-2-9-crdi-ex-185-bg-185",
+      "name": "Kia Carnival 2.9 CRDi EX · 185 bg",
+      "brand": "Kia",
+      "model_family": "Carnival",
+      "generation": null,
+      "years": "2002-2006",
+      "specs": {
+        "hp": 185,
+        "torque_nm": 342.0,
+        "displacement_l": 2.9,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.9L CRDi 5AT FWD  (185 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-on-com-cars-kia-carnivalsedona-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-959cc97bd3272cbed0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-carnivalsedona-2002.html"
+      }
+    },
+    {
+      "id": "kia-ceed-1-6-crdi-128",
+      "name": "Kia Ceed 1.6 CRDi",
+      "brand": "Kia",
+      "model_family": "Ceed",
+      "generation": null,
+      "years": "2012-2015",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 260.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "hyundai-u2-16",
+        "engine_name": "U2"
+      },
+      "scored_car_id": "kia-ceed-1-6-crdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-kia-ceed-1-6-crdi",
+        "tech-toevolution-com-cars-kia-cee-d-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-95dc50a05bf7d3a966",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-cee-d-2012.html"
+      }
+    },
+    {
+      "id": "kia-ceed-1-6-crdi-7dct-136",
+      "name": "Kia Ceed 1.6 CRDi 7DCT",
+      "brand": "Kia",
+      "model_family": "Ceed",
+      "generation": "CD",
+      "years": "2018-2020",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "hyundai-u2-16",
+        "engine_name": "U2"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "kia-ceed-sw-1-6-crdi",
+        "kia-sportage-1-6-crdi-7dct"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "src-985f32a43f5756af8f"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21m-61c943eec36a34ae90",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/kia-ceed-2018.html"
+      }
+    },
+    {
+      "id": "kia-ceed-1-6-gdi-204-bg-204",
+      "name": "Kia Ceed 1.6 GDI · 204 bg",
+      "brand": "Kia",
+      "model_family": "Ceed",
+      "generation": null,
+      "years": "2018-2020",
+      "specs": {
+        "hp": 204,
+        "torque_nm": null,
+        "displacement_l": null,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L T-GDI 7AT FWD (204 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "missing_displacement",
+        "missing_torque"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-kia-ceed-1-6-gdi",
+        "src-afdf94259753c4fa2f"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ed38d3798c8b95ed54",
+        "publication_status": "held_incomplete",
+        "technical_url": "https://www.autoevolution.com/cars/kia-ceed-gt-2018.html"
+      }
+    },
+    {
+      "id": "kia-ceed-1-6-gdi-135",
+      "name": "Kia Ceed 1.6 GDi",
+      "brand": "Kia",
+      "model_family": "Ceed",
+      "generation": null,
+      "years": "2012-2018",
+      "specs": {
+        "hp": 135,
+        "torque_nm": 164.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "hyundai-gamma16-gdi",
+        "engine_name": "Gamma GDI"
+      },
+      "scored_car_id": "kia-ceed-1-6-gdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-kia-ceed-1-6-gdi",
+        "tech-toevolution-com-cars-kia-cee-d-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-88b5bab495fdd46580",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-cee-d-2012.html"
+      }
+    },
+    {
+      "id": "kia-ceed-sw-1-6-crdi-136",
+      "name": "Kia Ceed SW 1.6 CRDi",
+      "brand": "Kia",
+      "model_family": "Ceed SW",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "hyundai-u2-16",
+        "engine_name": "U2"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "kia-ceed-sw-1-6-crdi",
+        "kia-sportage-1-6-crdi-7dct"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-kia-ceed-sw-1-6-crdi",
+        "tech-toevolution-com-cars-kia-cee-d-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4c2b0a6909e699a61f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-cee-d-2015.html"
+      }
+    },
+    {
+      "id": "kia-cerato-1-6-130",
+      "name": "Kia Cerato 1.6",
+      "brand": "Kia",
+      "model_family": "Cerato",
+      "generation": null,
+      "years": "2013-2018",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 157.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "hyundai-gamma16-mpi",
+        "engine_name": "Gamma MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "kia-cerato-1-6",
+        "kia-rio-yb-1-6-gdi-6at"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-kia-cerato-1-6",
+        "tech-tion-com-cars-kia-cerato-forte-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f53e5117cacd91cdb2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-forte-2013.html"
+      }
+    },
+    {
+      "id": "kia-cerato-1-6-eski-nesil-105",
+      "name": "Kia Cerato 1.6 (eski nesil)",
+      "brand": "Kia",
+      "model_family": "Cerato",
+      "generation": null,
+      "years": "2004-2009",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 143.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "A4AF3",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "hyundai-beta-16",
+        "engine_name": "Beta II"
+      },
+      "scored_car_id": "kia-cerato-1-6-eski-nesil",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-kia-cerato-1-6",
+        "tech--cars-kia-cerato-spectra-sedan-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-35735762dba2fa7c62",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-sedan-2004.html"
+      }
+    },
+    {
+      "id": "kia-cerato-1-6-ex-101-bg-101",
+      "name": "Kia Cerato 1.6 EX · 101 bg",
+      "brand": "Kia",
+      "model_family": "Cerato",
+      "generation": null,
+      "years": "2004-2007",
+      "specs": {
+        "hp": 101,
+        "torque_nm": 144.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 16V 4AT FWD (101 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-13460375c5f60cacff",
+        "tech--cars-kia-cerato-spectra-sedan-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4c40a850f8a7bdda0f",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-sedan-2004.html"
+      }
+    },
+    {
+      "id": "kia-cerato-1-6-ex-105-bg-105",
+      "name": "Kia Cerato 1.6 EX · 105 bg",
+      "brand": "Kia",
+      "model_family": "Cerato",
+      "generation": null,
+      "years": "2004-2007",
+      "specs": {
+        "hp": 105,
+        "torque_nm": 143.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 4AT FWD (105 HP)"
+      },
+      "scored_car_id": "kia-cerato-1-6-eski-nesil",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-13460375c5f60cacff",
+        "src-2321611623e0827a6a"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e69c858467ec00f4e0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-hatchback-2004.html"
+      }
+    },
+    {
+      "id": "kia-cerato-1-6-ex-121-bg-121",
+      "name": "Kia Cerato 1.6 EX · 121 bg",
+      "brand": "Kia",
+      "model_family": "Cerato",
+      "generation": null,
+      "years": "2007-2009",
+      "specs": {
+        "hp": 121,
+        "torque_nm": 153.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L VVT 4AT (121 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-13460375c5f60cacff",
+        "src-a1a3d9e20f009795f9"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d428db4adf2f0c328a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-hatchback-2007.html"
+      }
+    },
+    {
+      "id": "kia-optima-1-7-crdi-136",
+      "name": "Kia Optima 1.7 CRDi",
+      "brand": "Kia",
+      "model_family": "Optima",
+      "generation": null,
+      "years": "2011-2015",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 325.0,
+        "displacement_l": 1.7,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "hyundai-u2-17",
+        "engine_name": "U2"
+      },
+      "scored_car_id": "kia-optima-1-7-crdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-kia-optima-1-7-crdi",
+        "tech-olution-com-cars-kia-optima-k5-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dc9395b9a966f5ed91",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-optima-k5-2010.html"
+      }
+    },
+    {
+      "id": "kia-optima-1-7-crdi-136-bg-136",
+      "name": "Kia Optima 1.7 CRDi · 136 bg",
+      "brand": "Kia",
+      "model_family": "Optima",
+      "generation": null,
+      "years": "2010-2016",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 325.0,
+        "displacement_l": 1.7,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.7L CRDi 7AT FWD (141 HP)"
+      },
+      "scored_car_id": "kia-optima-1-7-crdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-olution-com-cars-kia-optima-k5-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-85ae72a255f6381d35",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-optima-k5-2010.html"
+      }
+    },
+    {
+      "id": "kia-optima-1-7-crdi-136-bg-136-2",
+      "name": "Kia Optima 1.7 CRDi · 136 bg",
+      "brand": "Kia",
+      "model_family": "Optima",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.6L CRDi 7AT FWD (136 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "kia-ceed-sw-1-6-crdi",
+        "kia-sportage-1-6-crdi-7dct"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-om-cars-kia-optima-sportswagon-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-945c5138c4b68605d0",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-optima-sportswagon-2018.html"
+      }
+    },
+    {
+      "id": "kia-optima-1-7-crdi-141-bg-141",
+      "name": "Kia Optima 1.7 CRDi · 141 bg",
+      "brand": "Kia",
+      "model_family": "Optima",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 141,
+        "torque_nm": 340.0,
+        "displacement_l": 1.7,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.7L CRDi 7AT FWD (141 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-oevolution-com-cars-kia-optima-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-83af1cdef52e7e6620",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-optima-2016.html"
+      }
+    },
+    {
+      "id": "kia-optima-1-7-crdi-141-bg-141-2",
+      "name": "Kia Optima 1.7 CRDi · 141 bg",
+      "brand": "Kia",
+      "model_family": "Optima",
+      "generation": null,
+      "years": "2016-2018",
+      "specs": {
+        "hp": 141,
+        "torque_nm": 340.0,
+        "displacement_l": 1.7,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": null,
+        "engine_name": "1.7L CRDi 7AT FWD (141 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech-om-cars-kia-optima-sportswagon-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c6423bcf9e8d0feeb9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-optima-sportswagon-2016.html"
+      }
+    },
+    {
+      "id": "kia-rio-yb-1-6-gdi-6at-130",
+      "name": "Kia Rio (YB) 1.6 GDI 6AT",
+      "brand": "Kia",
+      "model_family": "Rio",
+      "generation": null,
+      "years": "2016-2018",
+      "specs": {
+        "hp": 130,
+        "torque_nm": 167.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "hyundai-gamma16-gdi",
+        "engine_name": "Gamma GDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "kia-cerato-1-6",
+        "kia-rio-yb-1-6-gdi-6at"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-kia-rio-1-6-gdi-6at",
+        "tech-autoevolution-com-cars-kia-rio-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-794133a9248436ea66",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-rio-2016.html"
+      }
+    },
+    {
+      "id": "kia-rio-1-4-109",
+      "name": "Kia Rio 1.4",
+      "brand": "Kia",
+      "model_family": "Rio",
+      "generation": "UB",
+      "years": "2012-2016",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 137.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan/Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "G4FA",
+        "engine_name": "1.4 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-com-ikinci-el-otomobil-kia-rio-1-4",
+        "tech-ution-com-cars-kia-rio-3-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-591d8b1f4935cc5503",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-rio-3-doors-2012.html"
+      }
+    },
+    {
+      "id": "kia-rio-1-4-cvvt-109-bg-109",
+      "name": "Kia Rio 1.4 CVVT · 109 bg",
+      "brand": "Kia",
+      "model_family": "Rio",
+      "generation": null,
+      "years": "2011-2016",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 137.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L GSL 4AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2732aef1b8f08ef635",
+        "src-557b35f100e87216bc"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-02e1b53d27c580d955",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/kia-rio-5-doors-2011.html"
+      }
+    },
+    {
+      "id": "kia-rio-1-4-cvvt-109-bg-109-2",
+      "name": "Kia Rio 1.4 CVVT · 109 bg",
+      "brand": "Kia",
+      "model_family": "Rio",
+      "generation": null,
+      "years": "2011-2011",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 136.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L GSL 4AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2732aef1b8f08ef635",
+        "src-697fd110b20043923c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-76bff283d77b93ed4c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/kia-rio-sedan-2011.html"
+      }
+    },
+    {
+      "id": "kia-rio-1-4-cvvt-109-bg-109-3",
+      "name": "Kia Rio 1.4 CVVT · 109 bg",
+      "brand": "Kia",
+      "model_family": "Rio",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 137.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L GSL 4AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-2732aef1b8f08ef635",
+        "tech-ution-com-cars-kia-rio-3-doors-2012-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-48c147ab044f1483de",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/kia-rio-3-doors-2012.html"
+      }
+    },
+    {
+      "id": "kia-sorento-2-2-crdi-197",
+      "name": "Kia Sorento 2.2 CRDi",
+      "brand": "Kia",
+      "model_family": "Sorento",
+      "generation": "XM",
+      "years": "2010-2014",
+      "specs": {
+        "hp": 197,
+        "torque_nm": 436.0,
+        "displacement_l": 2.2,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D4HB",
+        "engine_name": "2.2 CRDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-kia-sorento-2-2-crdi",
+        "tech-evolution-com-cars-kia-sorento-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-82b36bb684bb7e1e77",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-sorento-2009.html"
+      }
+    },
+    {
+      "id": "kia-soul-1-6-crdi-128",
+      "name": "Kia Soul 1.6 CRDi",
+      "brand": "Kia",
+      "model_family": "Soul",
+      "generation": "AM",
+      "years": "2009-2013",
+      "specs": {
+        "hp": 128,
+        "torque_nm": 260.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "D4FB",
+        "engine_name": "1.6 CRDi"
+      },
+      "scored_car_id": "kia-ceed-1-6-crdi",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-kia-soul-1-6-crdi",
+        "tech-utoevolution-com-cars-kia-soul-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7827bc008c5ac1c308",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-soul-2008.html"
+      }
+    },
+    {
+      "id": "kia-soul-1-6-crdi-136",
+      "name": "Kia Soul 1.6 CRDi",
+      "brand": "Kia",
+      "model_family": "Soul",
+      "generation": "PS",
+      "years": "2014-2018",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 300.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D4FB",
+        "engine_name": "1.6 CRDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "kia-ceed-sw-1-6-crdi",
+        "kia-sportage-1-6-crdi-7dct"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-kia-soul-1-6-crdi",
+        "tech-utoevolution-com-cars-kia-soul-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d65bc5bb2217877fea",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-soul-2008.html"
+      }
+    },
+    {
+      "id": "kia-soul-1-6-gdi-6at-138",
+      "name": "Kia Soul 1.6 GDI 6AT",
+      "brand": "Kia",
+      "model_family": "Soul",
+      "generation": "PS",
+      "years": "2013-2018",
+      "specs": {
+        "hp": 138,
+        "torque_nm": 180.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "G4FD",
+        "engine_name": "1.6L"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-kia-soul-1-6-gdi-6at",
+        "tech-utoevolution-com-cars-kia-soul-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b1bdb5d97f5a865073",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-soul-2013.html"
+      }
+    },
+    {
+      "id": "kia-sportage-1-6-crdi-7dct-136",
+      "name": "Kia Sportage 1.6 CRDi 7DCT",
+      "brand": "Kia",
+      "model_family": "Sportage",
+      "generation": null,
+      "years": "2018-2020",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "1.6L 7AT FWD (201 HP) 7-Speed Automatic (Dct)",
+        "gears": 7,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "hyundai-u2-16",
+        "engine_name": "U2"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "kia-ceed-sw-1-6-crdi",
+        "kia-sportage-1-6-crdi-7dct"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-kia-sportage-1-6-crdi-7dct",
+        "tech-volution-com-cars-kia-sportage-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1bb0fe3dbdf1d7385d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-sportage-2018.html"
+      }
+    },
+    {
+      "id": "kia-sportage-2-0-crdi-184",
+      "name": "Kia Sportage 2.0 CRDi",
+      "brand": "Kia",
+      "model_family": "Sportage",
+      "generation": "SL",
+      "years": "2010-2015",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 392.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "D4HA",
+        "engine_name": "2.0 CRDi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-kia-sportage-2-0-crdi",
+        "tech-volution-com-cars-kia-sportage-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f8f4bf46d473bc526d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-sportage-2010.html"
+      }
+    },
+    {
+      "id": "kia-venga-1-6-125",
+      "name": "Kia Venga 1.6",
+      "brand": "Kia",
+      "model_family": "Venga",
+      "generation": "YN",
+      "years": "2010-2018",
+      "specs": {
+        "hp": 125,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "G4FC",
+        "engine_name": "1.6 MPI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-com-ikinci-el-otomobil-kia-venga-1-6",
+        "tech-toevolution-com-cars-kia-venga-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e1d7b40c76c027651c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/kia-venga-2009.html"
+      }
+    }
+  ]
+}

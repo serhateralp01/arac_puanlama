@@ -1,0 +1,373 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Mitsubishi",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "mitsubishi-asx-2-0-150",
+      "name": "Mitsubishi ASX 2.0",
+      "brand": "Mitsubishi",
+      "model_family": "ASX",
+      "generation": "GA",
+      "years": "2010-2018",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 197.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "INVECS-III CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "4B11",
+        "engine_name": "2.0 MIVEC"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-mitsubishi-asx-2-0",
+        "tech-ubishi-asx-rvr-outlander-sport-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-88f2f71c7d3174070c",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mitsubishi-asx-rvr-outlander-sport-2010.html"
+      }
+    },
+    {
+      "id": "mitsubishi-carisma-1-8-gdi-115-bg-115",
+      "name": "Mitsubishi Carisma 1.8 GDI · 115 bg",
+      "brand": "Mitsubishi",
+      "model_family": "Carisma",
+      "generation": null,
+      "years": "2000-2004",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 161.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L 4AT FWD (115 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-526-550-hp-551-575-hp-576-600-hp-601",
+        "tech--cars-mitsubishi-carisma-sedan-1995-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ff3c2f661202d037d3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mitsubishi-carisma-sedan-1995.html"
+      }
+    },
+    {
+      "id": "mitsubishi-galant-2-0-gdi-4at-145",
+      "name": "Mitsubishi Galant 2.0 GDI 4AT",
+      "brand": "Mitsubishi",
+      "model_family": "Galant",
+      "generation": "EA",
+      "years": "2000-2003",
+      "specs": {
+        "hp": 145,
+        "torque_nm": 191.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "4G94",
+        "engine_name": "2.0L GDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-omobil-mitsubishi-galant-2-0-gdi-4at",
+        "tech-ion-com-cars-mitsubishi-galant-1997-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6b39bfd3c40bc6474b",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mitsubishi-galant-1997.html"
+      }
+    },
+    {
+      "id": "mitsubishi-grandis-2-4-165",
+      "name": "Mitsubishi Grandis 2.4",
+      "brand": "Mitsubishi",
+      "model_family": "Grandis",
+      "generation": "NA4W",
+      "years": "2004-2011",
+      "specs": {
+        "hp": 165,
+        "torque_nm": 217.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "4G69",
+        "engine_name": "2.4 MIVEC"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-i-el-otomobil-mitsubishi-grandis-2-4"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9080ce121caa8e0fd2",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "mitsubishi-l200-2-4-di-d-5at-180",
+      "name": "Mitsubishi L200 2.4 DI-D 5AT",
+      "brand": "Mitsubishi",
+      "model_family": "L200",
+      "generation": "KJ/KK",
+      "years": "2015-2018",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 460.0,
+        "displacement_l": 2.4,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Pickup",
+        "transmission_type": "TK",
+        "transmission_name": "5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "4N15",
+        "engine_name": "2.4L MI-D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-tomobil-mitsubishi-l200-2-4-di-d-5at",
+        "tech-ars-mitsubishi-l200-double-cab-2015-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-20f47f46d1d8ca1eba",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mitsubishi-l200-double-cab-2015.html"
+      }
+    },
+    {
+      "id": "mitsubishi-lancer-1-5-109-bg-109",
+      "name": "Mitsubishi Lancer 1.5 · 109 bg",
+      "brand": "Mitsubishi",
+      "model_family": "Lancer",
+      "generation": null,
+      "years": "2007-2015",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 142.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.5L MIVEC 4AT FWD (109 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-062c35036fc876790b",
+        "src-b457d0d93a2f0ba95a"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-04e4d98a6afdf43657",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/mitsubishi-lancer-2007.html"
+      }
+    },
+    {
+      "id": "mitsubishi-lancer-1-6-117",
+      "name": "Mitsubishi Lancer 1.6",
+      "brand": "Mitsubishi",
+      "model_family": "Lancer",
+      "generation": null,
+      "years": "2008-2015",
+      "specs": {
+        "hp": 117,
+        "torque_nm": 155.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "INVECS-III CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "mitsubishi-4a92",
+        "engine_name": "4A92"
+      },
+      "scored_car_id": "mitsubishi-lancer-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market-ci-el-otomobil-mitsubishi-lancer-1-6"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-21a99237c739e6b2c8",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "mitsubishi-outlander-2-0-147",
+      "name": "Mitsubishi Outlander 2.0",
+      "brand": "Mitsubishi",
+      "model_family": "Outlander",
+      "generation": "CW",
+      "years": "2007-2012",
+      "specs": {
+        "hp": 147,
+        "torque_nm": 199.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "INVECS-III CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "4B11",
+        "engine_name": "2.0 MIVEC"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-mitsubishi-outlander-2-0",
+        "tech-ubishi-asx-rvr-outlander-sport-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-8923cd7d16ad7f51ed",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mitsubishi-asx-rvr-outlander-sport-2010.html"
+      }
+    },
+    {
+      "id": "mitsubishi-outlander-2-4-170",
+      "name": "Mitsubishi Outlander 2.4",
+      "brand": "Mitsubishi",
+      "model_family": "Outlander",
+      "generation": "CW",
+      "years": "2007-2012",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 232.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "INVECS-III CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "4B12",
+        "engine_name": "2.4 MIVEC"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-mitsubishi-outlander-2-4",
+        "tech-s-mitsubishi-outlander-airtrek-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-fffa9aafeb79407804",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mitsubishi-outlander-airtrek-2007.html"
+      }
+    },
+    {
+      "id": "mitsubishi-pajero-3-2-di-d-170",
+      "name": "Mitsubishi Pajero 3.2 DI-D",
+      "brand": "Mitsubishi",
+      "model_family": "Pajero",
+      "generation": "V80",
+      "years": "2007-2018",
+      "specs": {
+        "hp": 170,
+        "torque_nm": 373.0,
+        "displacement_l": 3.2,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "4M41",
+        "engine_name": "3.2 DI-D"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--otomobil-mitsubishi-pajero-3-2-di-d",
+        "tech-mitsubishi-pajeromonteroshogun-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-dbe7b596e6edacb9c2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mitsubishi-pajeromonteroshogun-2006.html"
+      }
+    }
+  ]
+}

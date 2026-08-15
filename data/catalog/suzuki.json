@@ -1,0 +1,567 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Suzuki",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "suzuki-grand-vitara-2-0-140",
+      "name": "Suzuki Grand Vitara 2.0",
+      "brand": "Suzuki",
+      "model_family": "Grand Vitara",
+      "generation": "JT",
+      "years": "2005-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 183.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Suzuki 4 ileri otomatik",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "J20A",
+        "engine_name": "2.0"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market--el-otomobil-suzuki-grand-vitara-2-0"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d712528a1cee04e663",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "suzuki-grand-vitara-2-4-169",
+      "name": "Suzuki Grand Vitara 2.4",
+      "brand": "Suzuki",
+      "model_family": "Grand Vitara",
+      "generation": "JT",
+      "years": "2009-2015",
+      "specs": {
+        "hp": 169,
+        "torque_nm": 227.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Suzuki 4 ileri otomatik",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "J24B",
+        "engine_name": "2.4"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-suzuki-grand-vitara-2-4",
+        "tech-rs-suzuki-grand-vitara-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4ce483c431568b4614",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-grand-vitara-5-doors-2008.html"
+      }
+    },
+    {
+      "id": "suzuki-kizashi-2-4-178",
+      "name": "Suzuki Kizashi 2.4",
+      "brand": "Suzuki",
+      "model_family": "Kizashi",
+      "generation": "RE91",
+      "years": "2010-2015",
+      "specs": {
+        "hp": 178,
+        "torque_nm": 230.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "J24B",
+        "engine_name": "2.4"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-suzuki-kizashi-2-4",
+        "tech-lution-com-cars-suzuki-kizashi-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5f995421bc106e9fc2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-kizashi-2009.html"
+      }
+    },
+    {
+      "id": "suzuki-liana-1-6-glx-106-bg-106",
+      "name": "Suzuki Liana 1.6 GLX · 106 bg",
+      "brand": "Suzuki",
+      "model_family": "Liana",
+      "generation": null,
+      "years": "2001-2007",
+      "specs": {
+        "hp": 106,
+        "torque_nm": 144.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L CVT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-1a3dd38aa512f86a26",
+        "src-64a7ecb9fec222b8a3"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e0b8ef9b6b41b2a9e9",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-aerio-liana-sedan-2001.html"
+      }
+    },
+    {
+      "id": "suzuki-liana-1-6-glx-106-bg-106-2",
+      "name": "Suzuki Liana 1.6 GLX · 106 bg",
+      "brand": "Suzuki",
+      "model_family": "Liana",
+      "generation": null,
+      "years": "2001-2001",
+      "specs": {
+        "hp": 106,
+        "torque_nm": 144.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L CVT FWD (120 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-64a7ecb9fec222b8a3",
+        "src-85c350c90bc71510a7"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-3941badabcf9f6d743",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-aerio-liana-hatchback-2001.html"
+      }
+    },
+    {
+      "id": "suzuki-sx4-1-6-120",
+      "name": "Suzuki SX4 1.6",
+      "brand": "Suzuki",
+      "model_family": "SX4",
+      "generation": null,
+      "years": "2007-2014",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "Suzuki 4 ileri otomatik",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "suzuki-m16a",
+        "engine_name": "M16A"
+      },
+      "scored_car_id": "suzuki-sx4-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-om-ikinci-el-otomobil-suzuki-sx4-1-6",
+        "tech-oevolution-com-cars-suzuki-sx4-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-19ae84c75d2f66a5a4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-2006.html"
+      }
+    },
+    {
+      "id": "suzuki-sx4-1-6-112-bg-112",
+      "name": "Suzuki SX4 1.6 · 112 bg",
+      "brand": "Suzuki",
+      "model_family": "SX4",
+      "generation": null,
+      "years": "2006-2014",
+      "specs": {
+        "hp": 112,
+        "torque_nm": 145.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L CVT (112 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-8edefb3a7161769022",
+        "src-c567dab4859fbf27ea"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9ae5fe3aa1b4cfdbd9",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-sedan-2006.html"
+      }
+    },
+    {
+      "id": "suzuki-sx4-1-6-120-bg-120",
+      "name": "Suzuki SX4 1.6 · 120 bg",
+      "brand": "Suzuki",
+      "model_family": "SX4",
+      "generation": null,
+      "years": "2006-2014",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L CVT FWD (120 HP)"
+      },
+      "scored_car_id": "suzuki-sx4-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-8edefb3a7161769022",
+        "src-c567dab4859fbf27ea"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0499bccc9eb469d8aa",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-sedan-2006.html"
+      }
+    },
+    {
+      "id": "suzuki-sx4-1-6-120-bg-120-2",
+      "name": "Suzuki SX4 1.6 · 120 bg",
+      "brand": "Suzuki",
+      "model_family": "SX4",
+      "generation": null,
+      "years": "2006-2013",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L CVT FWD (120 HP)"
+      },
+      "scored_car_id": "suzuki-sx4-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-8edefb3a7161769022",
+        "tech-oevolution-com-cars-suzuki-sx4-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0c5916b295f96b1da5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-2006.html"
+      }
+    },
+    {
+      "id": "suzuki-sx4-1-6-120-bg-120-3",
+      "name": "Suzuki SX4 1.6 · 120 bg",
+      "brand": "Suzuki",
+      "model_family": "SX4",
+      "generation": null,
+      "years": "2013-2016",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L CVT FWD (120 HP)"
+      },
+      "scored_car_id": "suzuki-sx4-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-1da604a473ce84c7db",
+        "src-8edefb3a7161769022"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ade63f0883ff96798a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-2013.html"
+      }
+    },
+    {
+      "id": "suzuki-sx4-1-6-120-bg-120-4",
+      "name": "Suzuki SX4 1.6 · 120 bg",
+      "brand": "Suzuki",
+      "model_family": "SX4",
+      "generation": null,
+      "years": "2013-2016",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L CVT FWD (120 HP)"
+      },
+      "scored_car_id": "suzuki-sx4-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-1da604a473ce84c7db",
+        "src-8edefb3a7161769022"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6bc1836a40d9fd5e92",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-2013.html"
+      }
+    },
+    {
+      "id": "suzuki-sx4-1-6-120-bg-120-5",
+      "name": "Suzuki SX4 1.6 · 120 bg",
+      "brand": "Suzuki",
+      "model_family": "SX4",
+      "generation": null,
+      "years": "2016-2016",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 320.0,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L 6AT AWD (120 HP)"
+      },
+      "scored_car_id": "suzuki-sx4-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-88675586cbe88be68f",
+        "src-8edefb3a7161769022"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5d7c01846b44cd3be3",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-s-cross-2016.html"
+      }
+    },
+    {
+      "id": "suzuki-swift-1-5-102",
+      "name": "Suzuki Swift 1.5",
+      "brand": "Suzuki",
+      "model_family": "Swift",
+      "generation": "MZ",
+      "years": "2005-2010",
+      "specs": {
+        "hp": 102,
+        "torque_nm": 133.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "Suzuki 4 ileri otomatik",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "M15A",
+        "engine_name": "1.5 VVT"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "missing_technical_url"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-suzuki-swift-1-5"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0f6719cf54dd2a6275",
+        "publication_status": "scored",
+        "technical_url": null
+      }
+    },
+    {
+      "id": "suzuki-swift-1-5-at-140-bg-140",
+      "name": "Suzuki Swift 1.5 AT · 140 bg",
+      "brand": "Suzuki",
+      "model_family": "Swift",
+      "generation": null,
+      "years": "2017-2017",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 230.0,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.4L 6AT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-4aa0ed86260945c7a0",
+        "src-ee751d7b53ed15442e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5ea0e42c6ad8428e93",
+        "publication_status": "held_conflict",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-swift-sport-2017.html"
+      }
+    },
+    {
+      "id": "suzuki-vitara-1-6-120",
+      "name": "Suzuki Vitara 1.6",
+      "brand": "Suzuki",
+      "model_family": "Vitara",
+      "generation": "LY",
+      "years": "2015-2018",
+      "specs": {
+        "hp": 120,
+        "torque_nm": 156.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "M16A",
+        "engine_name": "1.6 VVT"
+      },
+      "scored_car_id": "suzuki-sx4-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-suzuki-vitara-1-6",
+        "tech-olution-com-cars-suzuki-vitara-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ef8ebbb4a36311c8f3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/suzuki-vitara-2014.html"
+      }
+    }
+  ]
+}

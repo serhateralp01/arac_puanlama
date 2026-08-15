@@ -1,0 +1,115 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Dodge",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "dodge-caliber-2-0-156",
+      "name": "Dodge Caliber 2.0",
+      "brand": "Dodge",
+      "model_family": "Caliber",
+      "generation": "PM",
+      "years": "2007-2011",
+      "specs": {
+        "hp": 156,
+        "torque_nm": 190.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "ECN",
+        "engine_name": "2.0 World Engine"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-dodge-caliber-2-0",
+        "tech-olution-com-cars-dodge-caliber-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6fa74c5862023b328d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/dodge-caliber-2006.html"
+      }
+    },
+    {
+      "id": "dodge-journey-2-0-crd-140",
+      "name": "Dodge Journey 2.0 CRD",
+      "brand": "Dodge",
+      "model_family": "Journey",
+      "generation": "JC",
+      "years": "2008-2011",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 310.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
+        "gears": 6,
+        "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+        "engine_code": "BWD",
+        "engine_name": "2.0 TDI"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-dodge-journey-2-0-crd",
+        "tech-olution-com-cars-dodge-journey-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6a9a8674ac7f2934d8",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/dodge-journey-2008.html"
+      }
+    },
+    {
+      "id": "dodge-nitro-2-8-crd-177",
+      "name": "Dodge Nitro 2.8 CRD",
+      "brand": "Dodge",
+      "model_family": "Nitro",
+      "generation": "KA",
+      "years": "2007-2011",
+      "specs": {
+        "hp": 177,
+        "torque_nm": 460.0,
+        "displacement_l": 2.8,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "ENR",
+        "engine_name": "2.8 CRD"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-dodge-nitro-2-8-crd",
+        "tech-evolution-com-cars-dodge-nitro-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1a40c4a206a3294a22",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/dodge-nitro-2006.html"
+      }
+    }
+  ]
+}

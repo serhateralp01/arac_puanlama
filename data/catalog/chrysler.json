@@ -1,0 +1,457 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Chrysler",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "chrysler-300c-3-0-crd-218",
+      "name": "Chrysler 300C 3.0 CRD",
+      "brand": "Chrysler",
+      "model_family": "300C",
+      "generation": "LX",
+      "years": "2005-2010",
+      "specs": {
+        "hp": 218,
+        "torque_nm": 510.0,
+        "displacement_l": 3.0,
+        "fuel": "Dizel",
+        "drivetrain": "Arkadan",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "OM642",
+        "engine_name": "3.0 V6 CRD"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ci-el-otomobil-chrysler-300c-3-0-crd",
+        "tech-olution-com-cars-chrysler-300c-2004-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-31262e5acb54d567d2",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-300c-2004.html"
+      }
+    },
+    {
+      "id": "chrysler-pt-cruiser-2-4-143",
+      "name": "Chrysler PT Cruiser 2.4",
+      "brand": "Chrysler",
+      "model_family": "PT Cruiser",
+      "generation": "PT",
+      "years": "2000-2010",
+      "specs": {
+        "hp": 143,
+        "torque_nm": 214.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "EDZ",
+        "engine_name": "2.4 16V"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-chrysler-pt-cruiser-2-4",
+        "tech-n-com-cars-chrysler-pt-cruiser-2006-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-73cd86bbb3005dfaa9",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-pt-cruiser-2006.html"
+      }
+    },
+    {
+      "id": "chrysler-sebring-2-4-limited-150-bg-150",
+      "name": "Chrysler Sebring 2.4 Limited · 150 bg",
+      "brand": "Chrysler",
+      "model_family": "Sebring",
+      "generation": null,
+      "years": "2001-2003",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 226.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L 4AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-49685cfc5085951b94",
+        "src-d09bd80580691dbb5e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9565095fe208ef2d5b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2001.html"
+      }
+    },
+    {
+      "id": "chrysler-sebring-2-4-limited-150-bg-150-2",
+      "name": "Chrysler Sebring 2.4 Limited · 150 bg",
+      "brand": "Chrysler",
+      "model_family": "Sebring",
+      "generation": null,
+      "years": "2003-2007",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 226.0,
+        "displacement_l": 2.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L 4AT FWD (150 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-49685cfc5085951b94",
+        "src-70017475698332d946"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b5f7560d4c675042dc",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2003.html"
+      }
+    },
+    {
+      "id": "chrysler-sebring-2-4-limited-175-bg-175",
+      "name": "Chrysler Sebring 2.4 Limited · 175 bg",
+      "brand": "Chrysler",
+      "model_family": "Sebring",
+      "generation": null,
+      "years": "2006-2010",
+      "specs": {
+        "hp": 175,
+        "torque_nm": 222.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L 4AT (175 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-093a2f4ecdf7162c80",
+        "src-49685cfc5085951b94"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e57c656c5693a5c1a0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-sedan-2006.html"
+      }
+    },
+    {
+      "id": "chrysler-sebring-2-4-limited-175-bg-175-2",
+      "name": "Chrysler Sebring 2.4 Limited · 175 bg",
+      "brand": "Chrysler",
+      "model_family": "Sebring",
+      "generation": null,
+      "years": "2007-2010",
+      "specs": {
+        "hp": 175,
+        "torque_nm": 225.0,
+        "displacement_l": 2.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.4L 4AT (175 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-49685cfc5085951b94",
+        "src-998168c45ba7267dfa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-aa64c0173534fc66e9",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2007.html"
+      }
+    },
+    {
+      "id": "chrysler-sebring-2-7-limited-192-bg-192",
+      "name": "Chrysler Sebring 2.7 Limited · 192 bg",
+      "brand": "Chrysler",
+      "model_family": "Sebring",
+      "generation": null,
+      "years": "2007-2010",
+      "specs": {
+        "hp": 192,
+        "torque_nm": 256.0,
+        "displacement_l": 2.7,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.7L V6 4AT FWD (203 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-8d96a97920542a2ce4",
+        "src-998168c45ba7267dfa"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ea71c24d519a124fd5",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2007.html"
+      }
+    },
+    {
+      "id": "chrysler-sebring-2-7-limited-194-bg-194",
+      "name": "Chrysler Sebring 2.7 Limited · 194 bg",
+      "brand": "Chrysler",
+      "model_family": "Sebring",
+      "generation": null,
+      "years": "2006-2010",
+      "specs": {
+        "hp": 194,
+        "torque_nm": 298.0,
+        "displacement_l": 2.7,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.7L V6 4AT FWD (203 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-093a2f4ecdf7162c80",
+        "src-8d96a97920542a2ce4"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6c5bfdae7cdbab202c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-sedan-2006.html"
+      }
+    },
+    {
+      "id": "chrysler-sebring-2-7-limited-200-bg-200",
+      "name": "Chrysler Sebring 2.7 Limited · 200 bg",
+      "brand": "Chrysler",
+      "model_family": "Sebring",
+      "generation": null,
+      "years": "2001-2003",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 262.0,
+        "displacement_l": 2.7,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.7L V6 4AT FWD (203 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-8d96a97920542a2ce4",
+        "src-d09bd80580691dbb5e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b85fedf22e8064e5ae",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2001.html"
+      }
+    },
+    {
+      "id": "chrysler-sebring-2-7-limited-200-bg-200-2",
+      "name": "Chrysler Sebring 2.7 Limited · 200 bg",
+      "brand": "Chrysler",
+      "model_family": "Sebring",
+      "generation": null,
+      "years": "2003-2007",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 262.0,
+        "displacement_l": 2.7,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.7L V6 4AT FWD (203 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-70017475698332d946",
+        "src-8d96a97920542a2ce4"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c173761fa3787f066a",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2003.html"
+      }
+    },
+    {
+      "id": "chrysler-sebring-2-7-limited-203-bg-203",
+      "name": "Chrysler Sebring 2.7 Limited · 203 bg",
+      "brand": "Chrysler",
+      "model_family": "Sebring",
+      "generation": null,
+      "years": "2003-2006",
+      "specs": {
+        "hp": 203,
+        "torque_nm": 260.0,
+        "displacement_l": 2.7,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.7L V6 4AT FWD (203 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-703f11c5f1cdb7aba1",
+        "src-8d96a97920542a2ce4"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-9c5736b912150c0ce0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-sedan-2003.html"
+      }
+    },
+    {
+      "id": "chrysler-voyager-2-8-crd-150",
+      "name": "Chrysler Voyager 2.8 CRD",
+      "brand": "Chrysler",
+      "model_family": "Voyager",
+      "generation": "RG",
+      "years": "2004-2007",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 360.0,
+        "displacement_l": 2.8,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "ENR",
+        "engine_name": "2.8 CRD"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-el-otomobil-chrysler-voyager-2-8-crd",
+        "tech-tion-com-cars-chrysler-voyager-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-08329861f563a35954",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/chrysler-voyager-2000.html"
+      }
+    }
+  ]
+}

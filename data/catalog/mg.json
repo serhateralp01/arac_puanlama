@@ -1,0 +1,43 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "MG",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "mg-zt-2-5-v6-5at-180",
+      "name": "MG ZT 2.5 V6 5AT",
+      "brand": "MG",
+      "model_family": "ZT",
+      "generation": "X10",
+      "years": "2001-2005",
+      "specs": {
+        "hp": 180,
+        "torque_nm": 240.0,
+        "displacement_l": 2.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "KV6",
+        "engine_name": "2.5L V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-mg-zt-2-5-v6-5at",
+        "tech-w-autoevolution-com-cars-mg-zt-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-076cbd980e7b76d135",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mg-zt-2001.html"
+      }
+    }
+  ]
+}

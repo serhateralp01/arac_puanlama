@@ -1,0 +1,1078 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "Nissan",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "nissan-370z-3-7-v6-7at-328",
+      "name": "Nissan 370Z 3.7 V6 7AT",
+      "brand": "Nissan",
+      "model_family": "370Z",
+      "generation": "Z34",
+      "years": "2008-2018",
+      "specs": {
+        "hp": 328,
+        "torque_nm": 363.0,
+        "displacement_l": 3.7,
+        "fuel": "Benzin",
+        "drivetrain": "Arkadan",
+        "body_type": "Coupe",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 7AT",
+        "gears": 7,
+        "clutch": null,
+        "engine_code": "VQ37VHR",
+        "engine_name": "3.7L V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-nissan-370z-3-7-v6-7at",
+        "tech-evolution-com-cars-nissan-370z-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6e3e1d1275f8ac8617",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-370z-2008.html"
+      }
+    },
+    {
+      "id": "nissan-almera-1-8-116",
+      "name": "Nissan Almera 1.8",
+      "brand": "Nissan",
+      "model_family": "Almera",
+      "generation": "N16",
+      "years": "2000-2006",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 163.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan/Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "QG18DE",
+        "engine_name": "1.8"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-nissan-almera-1-8",
+        "tech-s-nissan-almera-pulsar-4-doors-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f75860eb8eefec41a4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-almera-pulsar-4-doors-2000.html"
+      }
+    },
+    {
+      "id": "nissan-almera-1-8-114-bg-114",
+      "name": "Nissan Almera 1.8 · 114 bg",
+      "brand": "Nissan",
+      "model_family": "Almera",
+      "generation": null,
+      "years": "2000-2007",
+      "specs": {
+        "hp": 114,
+        "torque_nm": 158.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L 16V 4AT FWD (116 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-nissan-almera-1-8",
+        "tech-s-nissan-almera-pulsar-4-doors-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-249eb81d179bd5046d",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-almera-pulsar-4-doors-2000.html"
+      }
+    },
+    {
+      "id": "nissan-almera-1-8-114-bg-114-2",
+      "name": "Nissan Almera 1.8 · 114 bg",
+      "brand": "Nissan",
+      "model_family": "Almera",
+      "generation": null,
+      "years": "2000-2002",
+      "specs": {
+        "hp": 114,
+        "torque_nm": 158.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L 16V 4AT FWD (116 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-nissan-almera-1-8",
+        "src-021e82a537d45a471f",
+        "src-0abe42f3bd7b8d8bc3"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4d18ffb48b32fce61e",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-almera-pulsar-3-doors-2000.html"
+      }
+    },
+    {
+      "id": "nissan-almera-1-8-116-bg-116",
+      "name": "Nissan Almera 1.8 · 116 bg",
+      "brand": "Nissan",
+      "model_family": "Almera",
+      "generation": null,
+      "years": "2000-2007",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 163.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L 16V 4AT FWD (116 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-nissan-almera-1-8",
+        "tech-s-nissan-almera-pulsar-4-doors-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e144795e299ab56d1c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-almera-pulsar-4-doors-2000.html"
+      }
+    },
+    {
+      "id": "nissan-almera-1-8-116-bg-116-2",
+      "name": "Nissan Almera 1.8 · 116 bg",
+      "brand": "Nissan",
+      "model_family": "Almera",
+      "generation": null,
+      "years": "2002-2007",
+      "specs": {
+        "hp": 116,
+        "torque_nm": 163.0,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.8L 16V 4AT FWD (116 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-ikinci-el-otomobil-nissan-almera-1-8",
+        "src-14b1f94645bcc7a6a1",
+        "src-65a9c38594c9ff1e4e"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-4e20ef8d4af16eb39e",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-almera-pulsar-3-doors-2002.html"
+      }
+    },
+    {
+      "id": "nissan-altima-2-0-248-bg-248",
+      "name": "Nissan Altima 2.0 · 248 bg",
+      "brand": "Nissan",
+      "model_family": "Altima",
+      "generation": null,
+      "years": "2018-2020",
+      "specs": {
+        "hp": 248,
+        "torque_nm": 370.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
+        "gears": null,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "2.0L VC-Turbo CVT Xtronic FWD (248 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-28c0e6f4e7eff673ff",
+        "src-384bb2eef0edb7951d"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e7039924eb2cc95a18",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-altima-2018.html"
+      }
+    },
+    {
+      "id": "nissan-juke-1-6-117",
+      "name": "Nissan Juke 1.6",
+      "brand": "Nissan",
+      "model_family": "Juke",
+      "generation": null,
+      "years": "2011-2019",
+      "specs": {
+        "hp": 117,
+        "torque_nm": 157.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
+        "gears": null,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": "nissan-hr16de",
+        "engine_name": "HR16DE"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "nissan-juke-1-6",
+        "nissan-qashqai-j10-1-6-cvt"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-nissan-juke-1-6",
+        "tech-evolution-com-cars-nissan-juke-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-31a604c6f130e54b52",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-juke-2010.html"
+      }
+    },
+    {
+      "id": "nissan-maxima-2-0-qx-140-bg-140",
+      "name": "Nissan Maxima 2.0 QX · 140 bg",
+      "brand": "Nissan",
+      "model_family": "Maxima",
+      "generation": null,
+      "years": "2000-2004",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 179.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L V6 4AT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-7ba7f3f59d0e8b55b1",
+        "tech-olution-com-cars-nissan-maxima-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-35fda36780dd4f7528",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-maxima-2000.html"
+      }
+    },
+    {
+      "id": "nissan-maxima-2-0-qx-140-bg-140-2",
+      "name": "Nissan Maxima 2.0 QX · 140 bg",
+      "brand": "Nissan",
+      "model_family": "Maxima",
+      "generation": null,
+      "years": "2000-2000",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 177.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.0L V6 4AT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "src-7ba7f3f59d0e8b55b1",
+        "src-faceb60d31eed2c8cb"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a5ee298e20a490dbfd",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-maxima-1995.html"
+      }
+    },
+    {
+      "id": "nissan-maxima-qx-3-0-v6-4at-200",
+      "name": "Nissan Maxima QX 3.0 V6 4AT",
+      "brand": "Nissan",
+      "model_family": "Maxima QX",
+      "generation": "A33",
+      "years": "2000-2003",
+      "specs": {
+        "hp": 200,
+        "torque_nm": 271.0,
+        "displacement_l": 3.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "VQ30DE",
+        "engine_name": "3.0L V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-nissan-maxima-qx-3-0-v6-4at",
+        "tech-olution-com-cars-nissan-maxima-2000-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-0a9d60651850a08511",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-maxima-2000.html"
+      }
+    },
+    {
+      "id": "nissan-murano-3-5-234",
+      "name": "Nissan Murano 3.5",
+      "brand": "Nissan",
+      "model_family": "Murano",
+      "generation": "Z50",
+      "years": "2005-2008",
+      "specs": {
+        "hp": 234,
+        "torque_nm": 318.0,
+        "displacement_l": 3.5,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "X-Tronic CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "VQ35DE",
+        "engine_name": "3.5 V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-ikinci-el-otomobil-nissan-murano-3-5",
+        "tech-olution-com-cars-nissan-murano-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-428d5b9924e37a7e5a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-murano-2003.html"
+      }
+    },
+    {
+      "id": "nissan-navara-2-5-dci-4at-174",
+      "name": "Nissan Navara 2.5 dCi 4AT",
+      "brand": "Nissan",
+      "model_family": "Navara",
+      "generation": "D40",
+      "years": "2005-2010",
+      "specs": {
+        "hp": 174,
+        "torque_nm": 403.0,
+        "displacement_l": 2.5,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "Pickup",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "YD25DDTi",
+        "engine_name": "2.5L dCi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-l-otomobil-nissan-navara-2-5-dci-4at",
+        "tech-san-navara-frontier-double-cab-2005-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-471ddb74d4ee67bcf1",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-navara-frontier-double-cab-2005.html"
+      }
+    },
+    {
+      "id": "nissan-note-1-6-110",
+      "name": "Nissan Note 1.6",
+      "brand": "Nissan",
+      "model_family": "Note",
+      "generation": "E11",
+      "years": "2006-2013",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 153.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "MPV",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "HR16DE",
+        "engine_name": "1.6L"
+      },
+      "scored_car_id": "nissan-almera-primera-1-6-2-0",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-nissan-note-1-6",
+        "tech-evolution-com-cars-nissan-note-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e1391c01f651679516",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-note-2008.html"
+      }
+    },
+    {
+      "id": "nissan-note-1-6-109-bg-109",
+      "name": "Nissan Note 1.6 · 109 bg",
+      "brand": "Nissan",
+      "model_family": "Note",
+      "generation": null,
+      "years": "2017-2017",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 145.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.6L MPI 4AT (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-nissan-note-1-6",
+        "src-97b0fba7f6d9cdbafe"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5f45e16442497efcd4",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-versa-note-2017.html"
+      }
+    },
+    {
+      "id": "nissan-note-1-6-110-bg-110",
+      "name": "Nissan Note 1.6 · 110 bg",
+      "brand": "Nissan",
+      "model_family": "Note",
+      "generation": null,
+      "years": "2005-2008",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 148.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.5L 16V CVT FWD (110 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-nissan-note-1-6",
+        "src-9992e0e789b1f26801"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c447d84f37233e805f",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-note-2005.html"
+      }
+    },
+    {
+      "id": "nissan-note-1-6-110-bg-110-2",
+      "name": "Nissan Note 1.6 · 110 bg",
+      "brand": "Nissan",
+      "model_family": "Note",
+      "generation": null,
+      "years": "2008-2012",
+      "specs": {
+        "hp": 110,
+        "torque_nm": 153.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "1.6L MPI 4AT (110 HP)"
+      },
+      "scored_car_id": "nissan-almera-primera-1-6-2-0",
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market-m-ikinci-el-otomobil-nissan-note-1-6",
+        "tech-evolution-com-cars-nissan-note-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-f0b7d40c693317035c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-note-2008.html"
+      }
+    },
+    {
+      "id": "nissan-pathfinder-2-5-dci-5at-171",
+      "name": "Nissan Pathfinder 2.5 dCi 5AT",
+      "brand": "Nissan",
+      "model_family": "Pathfinder",
+      "generation": "R51",
+      "years": "2008-2012",
+      "specs": {
+        "hp": 171,
+        "torque_nm": 403.0,
+        "displacement_l": 2.5,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 5AT",
+        "gears": 5,
+        "clutch": null,
+        "engine_code": "YD25DDTi",
+        "engine_name": "2.5L dCi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-omobil-nissan-pathfinder-2-5-dci-5at",
+        "tech-ion-com-cars-nissan-pathfinder-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-16add99c103b847b41",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-pathfinder-2008.html"
+      }
+    },
+    {
+      "id": "nissan-primera-2-0-140",
+      "name": "Nissan Primera 2.0",
+      "brand": "Nissan",
+      "model_family": "Primera",
+      "generation": "P12",
+      "years": "2002-2007",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 192.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan/Hatchback",
+        "transmission_type": "CVT",
+        "transmission_name": "CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "QR20DE",
+        "engine_name": "2.0"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-nissan-primera-2-0",
+        "tech--com-cars-nissan-primera-wagon-2002-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-e5a46d784bc9c13287",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-primera-wagon-2002.html"
+      }
+    },
+    {
+      "id": "nissan-pulsar-1-2-115-bg-115",
+      "name": "Nissan Pulsar 1.2 · 115 bg",
+      "brand": "Nissan",
+      "model_family": "Pulsar",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 115,
+        "torque_nm": 165.0,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
+        "gears": null,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "1.2L DIG-T CVT FWD (115 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-010b57250832d560e1",
+        "src-b92b475d09dad9704c"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-b07a77af7e65495476",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-pulsar-2014.html"
+      }
+    },
+    {
+      "id": "nissan-qashqai-j10-1-6-cvt-117",
+      "name": "Nissan Qashqai (J10) 1.6 CVT",
+      "brand": "Nissan",
+      "model_family": "Qashqai",
+      "generation": "J10",
+      "years": "2010-2013",
+      "specs": {
+        "hp": 117,
+        "torque_nm": 159.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
+        "gears": null,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": "nissan-hr16de",
+        "engine_name": "HR16DE"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "nissan-juke-1-6",
+        "nissan-qashqai-j10-1-6-cvt"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-nissan-qashqai-1-6-cvt",
+        "tech-lution-com-cars-nissan-qashqai-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-69e127b7863d9afa2d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-qashqai-2010.html"
+      }
+    },
+    {
+      "id": "nissan-qashqai-1-3-dig-t-cvt-140",
+      "name": "Nissan Qashqai 1.3 DIG-T CVT",
+      "brand": "Nissan",
+      "model_family": "Qashqai",
+      "generation": null,
+      "years": "2017-2020",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 270.0,
+        "displacement_l": 1.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "1.2L DIG-T CVT FWD (115 HP) Cvt (Xtronic)",
+        "gears": null,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": "renault-h5ht",
+        "engine_name": "H5Ht"
+      },
+      "scored_car_id": "nissan-qashqai-1-3-dig-t-cvt",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-tomobil-nissan-qashqai-1-3-dig-t-cvt",
+        "tech-lution-com-cars-nissan-qashqai-2018-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6bd7f83a5cf72ba8b3",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-qashqai-2018.html"
+      }
+    },
+    {
+      "id": "nissan-qashqai-1-3-dig-t-dct-160-160",
+      "name": "Nissan Qashqai 1.3 DIG-T DCT 160",
+      "brand": "Nissan",
+      "model_family": "Qashqai",
+      "generation": "J11 facelift",
+      "years": "2019-2020",
+      "specs": {
+        "hp": 160,
+        "torque_nm": 270.0,
+        "displacement_l": 1.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "Islak DCT",
+        "transmission_name": "Getrag 7DCT300",
+        "gears": 7,
+        "clutch": "Islak çift kavrama",
+        "engine_code": "renault-h5ht",
+        "engine_name": "H5Ht"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "src-577e142a38c6f62901"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "p21m-6b24e66e6233dc2b99",
+        "publication_status": "candidate_resolved",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-qashqai-2017.html"
+      }
+    },
+    {
+      "id": "nissan-qashqai-2-0-140",
+      "name": "Nissan Qashqai 2.0",
+      "brand": "Nissan",
+      "model_family": "Qashqai",
+      "generation": "J10",
+      "years": "2007-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 196.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "CVT",
+        "transmission_name": "CVT",
+        "gears": null,
+        "clutch": "Çelik kayış",
+        "engine_code": "MR20DE",
+        "engine_name": "2.0"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-nissan-qashqai-2-0",
+        "tech-lution-com-cars-nissan-qashqai-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2d61d3ececf7657d80",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-qashqai-2010.html"
+      }
+    },
+    {
+      "id": "nissan-teana-2-3-173",
+      "name": "Nissan Teana 2.3",
+      "brand": "Nissan",
+      "model_family": "Teana",
+      "generation": "J31",
+      "years": "2004-2008",
+      "specs": {
+        "hp": 173,
+        "torque_nm": 225.0,
+        "displacement_l": 2.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "VQ23DE",
+        "engine_name": "2.3 V6"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--ikinci-el-otomobil-nissan-teana-2-3",
+        "tech-volution-com-cars-nissan-teana-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-de4e8c7de6419a9eee",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-teana-2003.html"
+      }
+    },
+    {
+      "id": "nissan-teana-2-3-173-bg-173",
+      "name": "Nissan Teana 2.3 · 173 bg",
+      "brand": "Nissan",
+      "model_family": "Teana",
+      "generation": null,
+      "years": "2003-2009",
+      "specs": {
+        "hp": 173,
+        "torque_nm": 225.0,
+        "displacement_l": 2.3,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "TK",
+        "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": "2.3L 4AT FWD (173 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "market--ikinci-el-otomobil-nissan-teana-2-3",
+        "tech-volution-com-cars-nissan-teana-2003-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1b8b0dc8626c9aca8c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-teana-2003.html"
+      }
+    },
+    {
+      "id": "nissan-tiida-1-6-4at-109",
+      "name": "Nissan Tiida 1.6 4AT",
+      "brand": "Nissan",
+      "model_family": "Tiida",
+      "generation": "C11",
+      "years": "2011-2013",
+      "specs": {
+        "hp": 109,
+        "torque_nm": 145.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "HR16DE",
+        "engine_name": "1.6L"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-nci-el-otomobil-nissan-tiida-1-6-4at",
+        "tech--cars-nissan-tiida-versa-sedan-2011-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-218a12dbf409d884cc",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-tiida-versa-sedan-2011.html"
+      }
+    },
+    {
+      "id": "nissan-x-trail-2-0-140",
+      "name": "Nissan X-Trail 2.0",
+      "brand": "Nissan",
+      "model_family": "X-Trail",
+      "generation": "T30",
+      "years": "2001-2007",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 192.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "4AT",
+        "gears": 4,
+        "clutch": null,
+        "engine_code": "QR20DE",
+        "engine_name": "2.0"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-kinci-el-otomobil-nissan-x-trail-2-0",
+        "tech-lution-com-cars-nissan-x-trail-2001-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d93f7fa8131aa05590",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-x-trail-2001.html"
+      }
+    },
+    {
+      "id": "nissan-x-trail-2-0-dci-150",
+      "name": "Nissan X-Trail 2.0 dCi",
+      "brand": "Nissan",
+      "model_family": "X-Trail",
+      "generation": "T31",
+      "years": "2008-2014",
+      "specs": {
+        "hp": 150,
+        "torque_nm": 320.0,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Dört",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Jatco 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "M9R",
+        "engine_name": "2.0 dCi"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-i-el-otomobil-nissan-x-trail-2-0-dci",
+        "tech-lution-com-cars-nissan-x-trail-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-7b5a341312eb17f28f",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/nissan-x-trail-2007.html"
+      }
+    }
+  ]
+}

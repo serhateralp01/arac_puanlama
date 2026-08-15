@@ -1,0 +1,265 @@
+{
+  "_comment": "Bu dosya scripts/import_catalog.py tarafından P2.1 veri paketinden üretildi (MK-22). Olgusal teknik katalogdur: puan, kanıt bloğu veya güvenilirlik yargısı taşımaz. Elle düzenlenmez.",
+  "brand": "MINI",
+  "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+  "entries": [
+    {
+      "id": "mini-clubman-cooper-1-6-6at-122",
+      "name": "MINI Clubman Cooper 1.6 6AT",
+      "brand": "MINI",
+      "model_family": "Clubman Cooper",
+      "generation": "R55",
+      "years": "2007-2014",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station/Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "N12B16",
+        "engine_name": "Cooper 1.6L"
+      },
+      "scored_car_id": "mini-cooper-r56-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-mini-clubman-cooper-1-6-6at",
+        "tech-volution-com-cars-mini-clubman-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5ebe2d033dcc4e775e",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mini-clubman-2007.html"
+      }
+    },
+    {
+      "id": "mini-cooper-f56-1-5-136",
+      "name": "MINI Cooper (F56) 1.5",
+      "brand": "MINI",
+      "model_family": "Cooper",
+      "generation": "F56",
+      "years": "2014-2020",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 220.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "bmw-b38",
+        "engine_name": "B38"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mini-cooper-f56-1-5",
+        "mini-countryman-f60-1-5"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-mini-cooper-1-5",
+        "tech-oevolution-com-cars-mini-hatch-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-2b3181139a0ec281f4",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mini-hatch-2014.html"
+      }
+    },
+    {
+      "id": "mini-cooper-r56-1-6-122",
+      "name": "MINI Cooper (R56) 1.6",
+      "brand": "MINI",
+      "model_family": "Cooper",
+      "generation": "R56",
+      "years": "2007-2013",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-ep6-vti",
+        "engine_name": "EP6"
+      },
+      "scored_car_id": "mini-cooper-r56-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-m-ikinci-el-otomobil-mini-cooper-1-6",
+        "tech-volution-com-cars-mini-clubman-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-d87244b6a1919dd65d",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mini-clubman-2007.html"
+      }
+    },
+    {
+      "id": "mini-cooper-s-r56-1-6-turbo-175",
+      "name": "MINI Cooper S (R56) 1.6 Turbo",
+      "brand": "MINI",
+      "model_family": "Cooper S",
+      "generation": "R56",
+      "years": "2007-2013",
+      "specs": {
+        "hp": 175,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "psa-ep6-thp",
+        "engine_name": "EP6DT"
+      },
+      "scored_car_id": "mini-cooper-s-r56-1-6-turbo",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market--el-otomobil-mini-cooper-s-1-6-turbo",
+        "tech-volution-com-cars-mini-clubman-2007-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-c669fcb2e1c5051f69",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mini-clubman-2007.html"
+      }
+    },
+    {
+      "id": "mini-countryman-f60-1-5-136",
+      "name": "MINI Countryman (F60) 1.5",
+      "brand": "MINI",
+      "model_family": "Countryman",
+      "generation": "F60",
+      "years": "2017-2020",
+      "specs": {
+        "hp": 136,
+        "torque_nm": 220.0,
+        "displacement_l": 1.5,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "EAT6",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "bmw-b38",
+        "engine_name": "B38"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "mini-cooper-f56-1-5",
+        "mini-countryman-f60-1-5"
+      ],
+      "quality_flags": [],
+      "sources": [
+        "market-inci-el-otomobil-mini-countryman-1-5",
+        "tech-ution-com-cars-mini-countryman-2016-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-28d7fa67c17bc45ea7",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mini-countryman-2016.html"
+      }
+    },
+    {
+      "id": "mini-countryman-cooper-s-1-6-6at-184",
+      "name": "MINI Countryman Cooper S 1.6 6AT",
+      "brand": "MINI",
+      "model_family": "Countryman Cooper S",
+      "generation": "R60",
+      "years": "2010-2016",
+      "specs": {
+        "hp": 184,
+        "torque_nm": 240.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "N18B16",
+        "engine_name": "Cooper S 1.6L"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-bil-mini-countryman-cooper-s-1-6-6at",
+        "tech-ution-com-cars-mini-countryman-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-51d34c9027f5925e9a",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mini-countryman-2010.html"
+      }
+    },
+    {
+      "id": "mini-paceman-cooper-1-6-6at-122",
+      "name": "MINI Paceman Cooper 1.6 6AT",
+      "brand": "MINI",
+      "model_family": "Paceman Cooper",
+      "generation": "R61",
+      "years": "2013-2016",
+      "specs": {
+        "hp": 122,
+        "torque_nm": 160.0,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe/SUV",
+        "transmission_type": "TK",
+        "transmission_name": "Aisin 6AT",
+        "gears": 6,
+        "clutch": null,
+        "engine_code": "N16B16",
+        "engine_name": "Cooper 1.6L"
+      },
+      "scored_car_id": "mini-cooper-r56-1-6",
+      "possible_scored_car_ids": [],
+      "quality_flags": [],
+      "sources": [
+        "market-otomobil-mini-paceman-cooper-1-6-6at",
+        "tech-volution-com-cars-mini-paceman-2013-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-1cce1cbc42b7818937",
+        "publication_status": "scored",
+        "technical_url": "https://www.autoevolution.com/cars/mini-paceman-2013.html"
+      }
+    }
+  ]
+}
