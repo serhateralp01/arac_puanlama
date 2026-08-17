@@ -8,11 +8,12 @@ tek sayfa değildir; araç listesi, kıyaslama, kriterler ve kaynaklar kendi ekr
 durur ve aralarında `#liste`, `#kiyaslama` gibi adres çubuğu yollarıyla geçilir. Bu
 ayrımın gerekçesi `docs/ARCHITECTURE.md` MK-07 kaydında.
 
-Depo iki katman taşıyor. **Puanlanmış katman** bugün **278 araç, 104 motor ailesi ve 53
-şanzıman kutusu** içeriyor; bu araçların **hepsi** dört veya daha fazla bağımsız kaynağa
-dayandığı için "doğrulanmış" sayılıyor ve her puanın arkasında yazılı bir gerekçe var.
-**Olgusal teknik katalog** (`data/catalog/`) ise **1.641 araç–motor–şanzıman
-kombinasyonu** taşıyor: güç, tork, çekiş, motor hacmi, gövde tipi, vites sayısı, kavrama
+Depo iki katman taşıyor. **Puanlanmış katman** bugün **357 araç, 104 motor ailesi ve 53
+şanzıman kutusu** içeriyor; bunların 345'i dört veya daha fazla bağımsız kaynağa
+dayandığı için "doğrulanmış" sayılıyor. 278'i baştan araştırılan çekirdek liste, 79'u
+katalogdan terfi etti (motor/şanzıman puanı kanıtlı, konfor/maliyet/likidite tahmini —
+bkz. `docs/ROADMAP.md` Y-19). **Olgusal teknik katalog** (`data/catalog/`) hâlâ
+**1.641 araç–motor–şanzıman kombinasyonu** taşıyor: güç, tork, çekiş, motor hacmi, gövde tipi, vites sayısı, kavrama
 tipi ve teknik kaynak adresi gibi ölçülebilir alanlar. Katalog katmanında **puan yoktur**;
 bir kayıt deponun kanıt standardından geçtiğinde puanlanmış katmana terfi eder. Ayrımın
 gerekçesi `docs/ARCHITECTURE.md` MK-22 kaydında.

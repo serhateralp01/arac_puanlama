@@ -16,7 +16,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 
 ---
 
-## Durum özeti (son güncelleme: 2026-08-14)
+## Durum özeti (son güncelleme: 2026-08-17)
 
 | Katman | Durum |
 |---|---|
@@ -33,7 +33,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynak derinliği (Y-02) | **Bitti.** 278/278 araç "doğrulanmış" (4+ kaynak), kısmi kaynaklı araç kalmadı, bileşen ailesi seviyesinde boş `known_issues` kalmadı, ortalama 5,48 kaynak/araç — Y-01'in yeni eklediği her araç bu standarda ayrıca getirilmeli |
+| Kaynak derinliği (Y-02) | **Bitti (278 araçlık ilk parti için).** 357 araçtan 345'i "doğrulanmış" (4+ kaynak); Y-19 terfisiyle eklenen 79 aracın motor/trans puanı aile mirasıyla kanıtlı, ama comf/cost/liq/fun tahmini ve gerekçesiz — bkz. Y-19 |
 | Araç listesi (Y-01) | 154 → 278 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
 | Teknik katalog (MK-22) | **1.641 kayıt** (`data/catalog/`, marka başına bir dosya). Olgusal katmandır: güç, tork, çekiş, hacim, gövde, vites sayısı, kavrama tipi, motor kodu ve teknik kaynak adresi taşır; puan taşımaz. 281 kayıt puanlanmış bir araca bağlı, 1.345'i yalnız katalogda ve kendi statik sayfası var. |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
@@ -831,11 +831,51 @@ geçidince engelli. MK-18'in dersi burada bağlayıcı — çapraz doğrulamada 
 çelişki taraf tutulmadan önce elle doğrulanır. İşaret katalog sayfasında Türkçe
 açıklamasıyla görünüyor ve kaydı terfiye kapatıyor.
 
-**Kalan iş.** 1.345 katalog kaydı henüz puanlanmadı; her biri Y-02'nin kanıt
-standardından geçerek terfi edebilir. Terfi sırası, katalogdaki kaydın hangi
-motor/şanzıman ailesini açtığına göre belirlenmeli — Y-02'de işe yarayan "en yüksek
-kaldıraçlı aileden başla" yöntemi burada da geçerli. Ağ erişimi olan bir oturumda
-öncelikli iş, 25 yakıt çelişkisini teknik özellik sayfalarından doğrulayıp düzeltmek.
+### 25 yakıt çelişkisi ve 5 fizik-dışı kayıt düzeltildi, beygir-tork denetimi kalıcılaştı (2026-08-17)
+
+**Yakıt çelişkisi "işaretlenmedi, düzeltildi.**" Ölçüldüğünde çelişkili 25 kaydın
+hepsinde `fuel`, `displacement_cc`, `torque_nm` ve `engine_name` alanları birbiriyle
+uyumluydu; ayrışan tek alan **etiketin kendisiydi** ("Opel Astra 1.9 CDTI · 115 bg" →
+1796cc, "1.8i 16V", 170 Nm → aslında atmosferik benzin). Bozuk etiket atılıp doğrulanmış
+alanlardan yeniden kuruldu; atılan etiket `provenance.rejected_label`'da saklı.
+
+**Kalıcı bir fizik denetimi eklendi.** 1.875 ölçülebilir kayıt (katalog + araç)
+tarandığında hp/Nm oranının benzinde 0,54-0,89, dizelde 0,38-0,52 bandında kaldığı ve iki
+bandın neredeyse hiç örtüşmediği görüldü. Bu oran `validate.py`'ye kalıcı bir kural
+olarak eklendi ve **iki gerçek hatayı yakaladı, ikisi de puanlanmış araçlardaydı**:
+Peugeot 301 1.6 HDi'nin teknik değerleri yanlışlıkla benzinli PureTech varyantından
+alınmıştı (92 bg/230 Nm olarak düzeltildi), Suzuki SX4 1.6'nın torku 320 Nm yazılmıştı
+(156 Nm olarak düzeltildi). Katalogda aynı denetim 5 kaydı daha yakaladı, hepsi
+`WebSearch` ile doğrulanıp `scripts/import_catalog.py` içinde tek tek düzeltildi.
+
+### 79 katalog kaydı puanlanmış katmana terfi etti — 278 → 357 araç (2026-08-17)
+
+**`scripts/promote_catalog.py` yazıldı.** Zaten depoda var olan motor/şanzıman
+ailelerine güvenle bağlanabilen katalog kayıtlarını `data/cars/`'a terfi ettiriyor.
+`motor`/`trans` puanı MK-16 mekanik miras deseniyle aile `base_score`'undan geliyor;
+`comf`/`cost`/`liq`/`fun` depoda hiçbir zaman kanıt zinciriyle verilmediği için ("elle
+veriliyor") en yakın kardeş aracın değerinden tahmin ediliyor ve bu, her aracın `note`
+alanında **açıkça gerekçesiz olarak işaretleniyor** — düzeltilmesi gereken ilk şey diye.
+
+**Eşleştirme üç turda sıkılaştırıldı, her turda gerçek bir hata bulundu.** İlk deneme
+yalnız (marka, yakıt, hacim) kullandı ve BMW M54'ün hiç üretmediği 306 bg'lik bir
+"535i"ye, ZF 8HP'yi PSA/Aisin EAT8'e bağladı — motor eşleşmesine güç aralığı doğrulaması
+(ailenin bilinen aralığının %75-135'i), şanzıman eşleşmesine marka zorunluluğu eklendi.
+Sonra kaynak veride birebir yinelenen satırlar bulundu (aynı araç farklı model-yılı
+gözlemi olarak ayrı satıra yazılmış, "Honda Accord 2.4 · 200 bg" üç kopya üretiyordu) —
+aynı ad+güç+tork+aile grubu tek araca birleştirildi. Son olarak iki aday, depoda ÖNCEDEN
+VAR olan araçlarla (`bmw-e36-325i`, `honda-accord-2-0-cu2`) aynı ada sahipti — id
+çakışması yoktu ama isim çakışması vardı; mevcut adlara karşı da kontrol eklendi.
+
+**Sonuç.** 82 aday → 79 terfi (3'ü mevcut isimle çakıştığı için atlandı). Araç sayısı
+278 → 357, doğrulanmış araç 345. `validate.py` 0 hata, `smoke_test.js` 68/68 (araç sayısı
+sabitleri güncellendi).
+
+**Kalan iş.** 1.229 katalog kaydı hâlâ yalnız katalogda. `promote_catalog.py` yeniden
+çalıştırılabilir bir araç; her yeni katman turunda (yeni bir motor/şanzıman ailesi
+Y-02'de araştırıldıkça) aynı marka artık o aileye bağlanabilir hale gelip yeni adaylar
+açabilir. Terfi eden 79 aracın `comf`/`cost`/`liq`/`fun` tahminleri gerekçesiz — bunları
+tek tek gerçek değerlendirmeyle değiştirmek ayrı bir iş kalemi.
 
 ---
 
