@@ -7,7 +7,7 @@ hangi taslağın kullanılacağına insan karar verir. Yeniden üretmek için:
 
     python3 scripts/build_content.py
 
-**Toplam: 305 arıza kaydı için taslak, 157 dosyada.**
+**Toplam: 311 arıza kaydı için taslak, 157 dosyada.**
 
 ## Motor aileleri
 
@@ -56,20 +56,20 @@ hangi taslağın kullanılacağına insan karar verir. Yeniden üretmek için:
 - [Hyundai / Kia Gamma MPI](motor/hyundai-gamma16-mpi.md) — 1 kayıt
 - [Hyundai-Kia Gamma II T-GDI](motor/hyundai-gamma16-tgdi.md) — 1 kayıt
 - [Hyundai-Kia Nu 1.8](motor/hyundai-nu-18.md) — 2 kayıt
-- [Hyundai / Kia U2](motor/hyundai-u2-16.md) — 2 kayıt
+- [Hyundai / Kia U2](motor/hyundai-u2-16.md) — 3 kayıt
 - [Hyundai / Kia U2](motor/hyundai-u2-17.md) — 2 kayıt
 - [Hyundai-Kia Kappa 1.2](motor/kia-kappa-12.md) — 2 kayıt
 - [Mazda FS-DE](motor/mazda-fs.md) — 1 kayıt
 - [Mazda LF-DE](motor/mazda-lf.md) — 1 kayıt
-- [Mercedes-Benz M111](motor/mb-m111.md) — 2 kayıt
+- [Mercedes-Benz M111](motor/mb-m111.md) — 3 kayıt
 - [Mercedes-Benz M112](motor/mb-m112.md) — 1 kayıt
-- [Mercedes-Benz M270](motor/mb-m270.md) — 3 kayıt
+- [Mercedes-Benz M270](motor/mb-m270.md) — 4 kayıt
 - [Mercedes-Benz M271](motor/mb-m271.md) — 1 kayıt
 - [Mercedes-Benz M274](motor/mb-m274.md) — 3 kayıt
-- [Mercedes-Benz OM611](motor/mb-om611.md) — 1 kayıt
-- [Mercedes-Benz OM612](motor/mb-om612.md) — 1 kayıt
+- [Mercedes-Benz OM611](motor/mb-om611.md) — 2 kayıt
+- [Mercedes-Benz OM612](motor/mb-om612.md) — 2 kayıt
 - [Mercedes-Benz OM613](motor/mb-om613.md) — 3 kayıt
-- [Mercedes-Benz OM646](motor/mb-om646.md) — 2 kayıt
+- [Mercedes-Benz OM646](motor/mb-om646.md) — 3 kayıt
 - [Mercedes-Benz OM651](motor/mb-om651.md) — 2 kayıt
 - [Mitsubishi 4A92](motor/mitsubishi-4a92.md) — 2 kayıt
 - [Nissan HR12DE](motor/nissan-hr12de.md) — 4 kayıt

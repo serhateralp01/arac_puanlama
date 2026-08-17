@@ -4830,5 +4830,71 @@
     "accessed": "2026-08-14",
     "language": "en",
     "quotes": []
+  },
+  "enginescope_om611_black_death": {
+    "id": "enginescope_om611_black_death",
+    "claim": "Mercedes OM611 (2.2 CDI) motorunda enjektör bakır conta sızıntısının (\"black death\") zamanında yakalanmazsa silindir kapağı sökümü gerektirecek kadar ağırlaşabildiği; ayrıca kademe pompasının (tandem vakum pompası) 200.000-300.000 km aralığında, türbo aktüatörünün ve emme manifoldu kanatlarının da bilinen arıza kalemleri olduğu",
+    "publisher": "EngineScope",
+    "url": "https://enginescope.gr/engine/mb-om611/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-17",
+    "language": "en",
+    "quotes": []
+  },
+  "enginecrux_om646_reliability": {
+    "id": "enginecrux_om646_reliability",
+    "claim": "Mercedes OM646 (2.2 CDI) motorunun EGR valfi tıkanması, türbo arızası, yüksek basınç yakıt pompası aşınması ve yağ sızıntılarının bilinen zayıf noktaları olduğu; üreticinin motora 200.000 km ömür beyan ettiği ama düzenli bakımla 400.000 km üzerine çıkabildiği",
+    "publisher": "EngineCrux",
+    "url": "https://enginecrux.com/mercedes-om646-engine-overview-specs-and-reliability/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-17",
+    "language": "en",
+    "quotes": []
+  },
+  "europremiumparts_m270": {
+    "id": "europremiumparts_m270",
+    "claim": "Mercedes M270 (1.6/2.0 turbo benzinli) motorunda triger zincirinin \"ömürlük\" olarak tasarlandığı ama erken üretim modellerde gerinme veya gergi elemanı arızasının bildirildiği; termostat arızasının en sık rastlanan sorun olduğu",
+    "publisher": "Euro Premium Parts",
+    "url": "https://europremiumparts.com/blogs/buying-guides/mercedes-benz-m270-engine-guide-reliability-common-problems-tuning-potential",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-17",
+    "language": "en",
+    "quotes": []
+  },
+  "enginescope_om612": {
+    "id": "enginescope_om612",
+    "claim": "Mercedes OM612 (2.7 CDI 5 silindir) motorunun enjektör altı conta sızıntısı (\"black death\"), emme manifoldundaki plastik swirl flap kanatlarının kırılıp silindire düşme riski ve türbo aktüatör arızası taşıdığı",
+    "publisher": "EngineScope",
+    "url": "https://enginescope.gr/engine/mb-om612/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-17",
+    "language": "en",
+    "quotes": []
+  },
+  "usedmercedesparts_m111": {
+    "id": "usedmercedesparts_m111",
+    "claim": "Mercedes M111 (2.0/2.3, Kompressor dahil) motorunda supap kapağı contasının yaşla sızdırdığı, Kompressor varyantlarında elektromanyetik kompresör kavramasının 150.000-250.000 km aralığında aşındığı",
+    "publisher": "Used Mercedes Parts",
+    "url": "https://www.usedmercedesparts.co.za/mercedes-m111-engine-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-17",
+    "language": "en",
+    "quotes": []
+  },
+  "yourmotorguide_crdi": {
+    "id": "yourmotorguide_crdi",
+    "claim": "Hyundai/Kia U2 CRDi dizel motor ailesinde partikül filtresi (DPF) ve EGR valfi tıkanmasının, türbo arızasının (öncesinde ıslık sesi vererek) ve enjektör dönüş hortumlarının çatlayıp sızdırmasının bilinen sorunlar olduğu",
+    "publisher": "Your Motor Guide",
+    "url": "https://yourmotorguide.com/hyundai-crdi-diesel-engine-problems/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-17",
+    "language": "en",
+    "quotes": []
   }
 }

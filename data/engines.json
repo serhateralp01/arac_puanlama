@@ -1309,10 +1309,20 @@
         "sources": [
           "enginedna_d4fb"
         ]
+      },
+      {
+        "issue": "Partikül filtresi (DPF) ve EGR valfinin tıkanması, türbo arızasından önce ıslık sesi verilmesi",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "yourmotorguide_crdi"
+        ]
       }
     ],
     "sources": [
-      "enginedna_d4fb"
+      "enginedna_d4fb",
+      "yourmotorguide_crdi"
     ],
     "note": "Hyundai ve Kia'nın 1.6 dizel ailesi; Accent Blue, Elantra, i30 ve Ceed'de kullanılıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi) bandının altında: 'uzun ömür ve sade tasarım ünü' var, riskler tipik dizel bakım kalemleri; tek kaynağa (C) dayanıyor.]"
   },
@@ -1456,10 +1466,20 @@
         "sources": [
           "enginefinder_za_m111"
         ]
+      },
+      {
+        "issue": "Kompressor varyantlarında elektromanyetik kompresör kavramasının 150.000-250.000 km aralığında aşınması",
+        "onset_km": 150000,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "usedmercedesparts_m111"
+        ]
       }
     ],
     "sources": [
-      "enginefinder_za_m111"
+      "enginefinder_za_m111",
+      "usedmercedesparts_m111"
     ],
     "note": "W202, W203 ve W209'daki kompresörlü dört silindirli benzinli. Kayıt hem atmosferik hem kompresörlü sürümleri kapsıyor. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak 'düzenli bakımla 300.000 km'yi rahatlıkla aşabilir' diyor, kapak contası sorunu gerçek ama planlanabilir; tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
@@ -1505,9 +1525,19 @@
         "sources": [
           "mercedesassistance_m270"
         ]
+      },
+      {
+        "issue": "Triger zincirinin erken üretim modellerde gerinme/gergi elemanı arızası gösterebilmesi; termostat arızasının en sık rastlanan sorun olması",
+        "onset_km": 80000,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "europremiumparts_m270"
+        ]
       }
     ],
     "sources": [
+      "europremiumparts_m270",
       "mercedesassistance_m270"
     ],
     "note": "A ve B Serisi'ndeki 1.6 turbo benzinli. Genel olarak güvenilir kabul ediliyor ve 200.000 km'ye ulaşan örnekler yaygın, ama triger zinciri, kam mili ayarlayıcısı, karbon birikimi ve wastegate gibi birden fazla öngörülebilir zayıf nokta taşıyor. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): dört ayrı bilinen sorun kalemi var ama hepsi planlanabilir bakımla yönetiliyor; tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
@@ -1570,12 +1600,22 @@
         "sources": [
           "apexautoparts_om646"
         ]
+      },
+      {
+        "issue": "Kademe (tandem) vakum pompasının 200.000-300.000 km aralığında diyaframının/contasının arızalanması; türbo aktüatörü ve emme manifoldu kanatlarının da bilinen arıza kalemleri olması",
+        "onset_km": 200000,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "enginescope_om611_black_death"
+        ]
       }
     ],
     "sources": [
-      "apexautoparts_om646"
+      "apexautoparts_om646",
+      "enginescope_om611_black_death"
     ],
-    "note": "W203 C200 CDI'ın erken 2.2 dizeli; Mercedes'in ilk common rail dört silindirli ailesi. Halefi OM646'nın devraldığı enjektör conta sorununun kaynağı bu aile. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): tek kaynağa (C) dayanıyor, motora özgü ayrıntılı veri sınırlı; halefiyle aynı bantta tutuldu.]"
+    "note": "W203 C200 CDI'ın erken 2.2 dizeli; Mercedes'in ilk common rail dört silindirli ailesi. Halefi OM646'nın devraldığı enjektör conta sorununun kaynağı bu aile. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): iki bağımsız kaynağa dayanıyor (ikisi de C seviyesi), motora özgü ayrıntılı veri hâlâ sınırlı; halefiyle aynı bantta tutuldu.]"
   },
   "mb-om612": {
     "id": "mb-om612",
@@ -1601,10 +1641,20 @@
         "sources": [
           "enginecrux_om612"
         ]
+      },
+      {
+        "issue": "Emme manifoldundaki plastik swirl flap kanatlarının kırılıp silindire düşme riski (motoru ciddi hasara uğratabilir) ve türbo aktüatör arızası",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "enginescope_om612"
+        ]
       }
     ],
     "sources": [
-      "enginecrux_om612"
+      "enginecrux_om612",
+      "enginescope_om612"
     ],
     "note": "2.7 litrelik beş silindirli dizel. W203, W209 ve W210'da kullanılıyor; dayanıklılığıyla anılan bir aile. [base_score gerekçesi: 65-84 (yönetilebilir bakım kalemi): kaynak 'sağlam ve güvenilir... dayanıklılık ve verimlilikle anılıyor' diyor, triger zinciri ömrü uzun (200-250 bin km); tek kaynağa (C) dayandığı için 85 üstüne çıkarılmadı.]"
   },
@@ -1692,12 +1742,22 @@
         "sources": [
           "apexautoparts_om646"
         ]
+      },
+      {
+        "issue": "EGR valfi tıkanması, yüksek basınç yakıt pompası aşınması ve çeşitli conta/keçelerden yağ sızıntısı",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "enginecrux_om646_reliability"
+        ]
       }
     ],
     "sources": [
-      "apexautoparts_om646"
+      "apexautoparts_om646",
+      "enginecrux_om646_reliability"
     ],
-    "note": "OM611'in halefi 2.2 dizel; W203 geç dönem ve W211'de yaygın. Triger zinciri motorun önünde. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): enjektör conta sorunu devralınmış ve bilinen, swirl flap riski seyrek ama ciddi; tek kaynağa (C) dayandığı için üst banda çıkarılmadı.]"
+    "note": "OM611'in halefi 2.2 dizel; W203 geç dönem ve W211'de yaygın. Triger zinciri motorun önünde. [base_score gerekçesi: 50-64 (tekrarlayan ama yönetilebilir şikayet): enjektör conta sorunu devralınmış ve bilinen, swirl flap riski seyrek ama ciddi; iki bağımsız kaynağa (ikisi de C seviyesi) dayanıyor, üst banda çıkarılmadı.]"
   },
   "mb-om651": {
     "id": "mb-om651",

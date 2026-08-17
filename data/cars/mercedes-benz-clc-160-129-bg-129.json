@@ -23,7 +23,7 @@
     900,
     1250
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 56,
     "trans": 80,
@@ -34,6 +34,7 @@
     "liq": 58
   },
   "sources": [
+    "europremiumparts_m270",
     "mercedesassistance_m270",
     "mercedesmedic_722_6_conductor",
     "minhsautocare_722_6"
@@ -49,6 +50,7 @@
       "band": "orta risk, izlenmesi gereken kalem var",
       "confidence": "orta",
       "sources": [
+        "europremiumparts_m270",
         "mercedesassistance_m270"
       ],
       "reasoning": "M270 (mb-m270) motor ailesinin temel puanı 56. Bu aracın motor puanı (56) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger zincirinin yaklaşık 80.000 mil gibi kısa bir ömre sahip olması, gergi gece basınç kaybıyla soğuk kalkışta tıkırtı sesi. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor.",

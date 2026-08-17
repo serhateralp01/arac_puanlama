@@ -72,3 +72,37 @@ Bu bilgi Apex Auto Parts kaynaklı (https://www.apexautoparts.co.uk/blog/om646-e
 İkinci el alırken bu tek başına "bu araçtan kaç" anlamına gelmiyor — servis kaydında bu kaleme dair bir işlem olup olmadığını sormak, alım öncesi kontrolün bir parçası olmalı. Tam puan gerekçesi, bu ailenin diğer bilinen sorunları ve karşılaştırmalı puanlama sitede.
 
 ---
+## 3. EGR valfi tıkanması, yüksek basınç yakıt pompası aşınması ve çeşitli conta/keçelerden yağ sızıntısı
+
+**Kısa video senaryosu (30-40 sn)**
+
+- **[0-3 sn — kanca]** Ekranda Mercedes-Benz OM646 görseli. Alt yazı: "Mercedes-Benz OM646 kullanılan bir araç mı alıyorsun?"
+- **[3-18 sn — sorun]** Anlatıcı: "EGR valfi tıkanması, yüksek basınç yakıt pompası aşınması ve çeşitli conta/keçelerden yağ sızıntısı. Bu orta bildirilen bir durum, belirli bir kilometre sınırı bildirilmemiş. Ciddiyet seviyesi: orta."
+- **[18-28 sn — kanıt]** Ekranda kaynak adı: EngineCrux. Anlatıcı: "Bu bilgiyi uydurmadık; kaynağımız EngineCrux."
+- **[28-38 sn — kapanış]** Anlatıcı: "Mercedes-Benz OM646'in tam puan gerekçesi ve kaynak zinciri sitede — link biyoda."
+
+**Kaydırmalı görsel metni (5 slayt)**
+
+1. "Mercedes-Benz OM646 alacaksan bunu bil 👇"
+2. "EGR valfi tıkanması, yüksek basınç yakıt pompası aşınması ve çeşitli conta/keçelerden yağ sızıntısı"
+3. "Belirli bir kilometre sınırı bildirilmemiş · Sıklık: orta · Ciddiyet: orta"
+4. "Kaynak: EngineCrux"
+5. "Tam gerekçe ve puan → sitede, link biyoda"
+
+**Paylaşım dizisi (X/Twitter thread, 5 gönderi)**
+
+1/ Mercedes-Benz OM646 kullanan bir araç mı düşünüyorsun? Bilmen gereken bir şey var. 🧵
+2/ EGR valfi tıkanması, yüksek basınç yakıt pompası aşınması ve çeşitli conta/keçelerden yağ sızıntısı
+3/ Belirli bir kilometre sınırı bildirilmemiş. Sıklık: orta. Ciddiyet: orta.
+4/ Kaynak: EngineCrux — https://enginecrux.com/mercedes-om646-engine-overview-specs-and-reliability/
+5/ Bu, Mercedes-Benz OM646 için verdiğimiz puanın gerekçelerinden biri. Tam liste, kaynak zinciri ve diğer araçlarla kıyas sitede.
+
+**Uzun biçim yazı taslağı**
+
+Mercedes-Benz OM646 ailesinin bilinen zaaflarından biri: EGR valfi tıkanması, yüksek basınç yakıt pompası aşınması ve çeşitli conta/keçelerden yağ sızıntısı. Belirli bir kilometre sınırı bildirilmemiş, ve bu orta bildirilen bir örüntü. Ciddiyet seviyesi "orta" olarak sınıflandırılıyor — yani izlenmesi gereken ama genelde yönetilebilir bir kalem.
+
+Bu bilgi EngineCrux kaynaklı (https://enginecrux.com/mercedes-om646-engine-overview-specs-and-reliability/): Mercedes OM646 (2.2 CDI) motorunun EGR valfi tıkanması, türbo arızası, yüksek basınç yakıt pompası aşınması ve yağ sızıntılarının bilinen zayıf noktaları olduğu; üreticinin motora 200.000 km ömür beyan ettiği ama düzenli bakımla 400.000 km üzerine çıkabildiği
+
+İkinci el alırken bu tek başına "bu araçtan kaç" anlamına gelmiyor — servis kaydında bu kaleme dair bir işlem olup olmadığını sormak, alım öncesi kontrolün bir parçası olmalı. Tam puan gerekçesi, bu ailenin diğer bilinen sorunları ve karşılaştırmalı puanlama sitede.
+
+---

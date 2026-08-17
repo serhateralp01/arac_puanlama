@@ -33,7 +33,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynak derinliği (Y-02) | **Bitti (278 araçlık ilk parti için).** 357 araçtan 345'i "doğrulanmış" (4+ kaynak); Y-19 terfisiyle eklenen 79 aracın motor/trans puanı aile mirasıyla kanıtlı, ama comf/cost/liq/fun tahmini ve gerekçesiz — bkz. Y-19 |
+| Kaynak derinliği (Y-02) | **Bitti.** 377 araçtan 377'si "doğrulanmış" (4+ kaynak) — `kaynak-yetersiz` uyarısı 2026-08-17'de tamamen kapandı, bkz. Y-19 |
 | Araç listesi (Y-01) | 154 → 278 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
 | Teknik katalog (MK-22) | **1.641 kayıt** (`data/catalog/`, marka başına bir dosya). Olgusal katmandır: güç, tork, çekiş, hacim, gövde, vites sayısı, kavrama tipi, motor kodu ve teknik kaynak adresi taşır; puan taşımaz. 281 kayıt puanlanmış bir araca bağlı, 1.345'i yalnız katalogda ve kendi statik sayfası var. |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
@@ -1125,6 +1125,28 @@ V50 istasyon vagonu). Bu dördüne tek bir gövde tipi yazmak, doğru olanı se�
 yanlış bir kesinlik uydurmak olurdu.
 
 **Sonuç.** `validate.py` 0 hata, `smoke_test.js` 68/68.
+
+### Kaynak-yetersiz uyarısı tamamen kapandı: 377 aracın tamamı doğrulanmış (2026-08-17)
+
+**Bulgu.** `kaynak-yetersiz` uyarısı taşıyan 11 aracın hepsi tam olarak 1 kaynak
+eksikti (3/4). Bunlardan 6'sı zaten bu oturumda motor ailesi düzeltmesi gören
+Mercedes araçlarıydı — **kendi düzeltmemin yan etkisiydi**: `specs.engine_id`'yi
+OM651'den OM611/OM646'ya taşırken `evidence.motor.sources` güncellendi ama üst
+seviye `car["sources"]` dizisi eski (yanlış) OM651 kaynağını hâlâ taşıyordu; ayrıca
+`verification` alanı da kaynak sayısı 4'e çıktıktan sonra "verified"e taşınmamıştı
+(validate.py bunu `etiket-turetilmedi` HATASI olarak yakaladı, commit'ten önce
+görüldü ve düzeltildi).
+
+**Kalan 5 araç 4 farklı motor ailesine dağılıyordu** (mb-m270, mb-om612, mb-m111,
+hyundai-u2-16), her biri yalnızca 1 kaynağa dayanıyordu. Her aile için WebSearch'le
+**genuinely bağımsız** (aynı yayın değil) bir ikinci kaynak bulundu (ör. M111 için
+zaten `enginefinder.co.za` kayıtlıydı, arama aynı adresi tekrar getirdi ve
+kullanılmadı — `usedmercedesparts.co.za` yerine seçildi), her ailenin `known_issues`
+listesine yeni bir madde eklendi (MK-16 mekanik miras deseniyle bütün o aileyi
+paylaşan araçlara otomatik yayılıyor).
+
+**Sonuç: 377 araçtan 377'si "doğrulanmış".** `kismi_kaynak` 11 → 0. `validate.py`
+0 hata, `smoke_test.js` 68/68. 4 yeni kaynak `data/sources.json`'a eklendi.
 
 ---
 

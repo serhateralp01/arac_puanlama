@@ -23,7 +23,7 @@
     900,
     1250
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 74,
     "trans": 80,
@@ -35,6 +35,7 @@
   },
   "sources": [
     "enginecrux_om612",
+    "enginescope_om612",
     "mercedesmedic_722_6_conductor",
     "minhsautocare_722_6"
   ],
@@ -49,7 +50,8 @@
       "band": "sağlam, bilinen küçük bakım kalemi var",
       "confidence": "orta",
       "sources": [
-        "enginecrux_om612"
+        "enginecrux_om612",
+        "enginescope_om612"
       ],
       "reasoning": "OM612 (mb-om612) motor ailesinin temel puanı 74. Bu aracın motor puanı (74) temel puanla birebir aynı. Ailenin bilinen zaafı: Kam mili aşınması, enjektör/turbo basınç sensörü kablo tesisatının yanması. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
       "assessed_at": "2026-08-17"

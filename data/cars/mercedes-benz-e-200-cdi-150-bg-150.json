@@ -23,7 +23,7 @@
     900,
     1250
   ],
-  "verification": "partial",
+  "verification": "verified",
   "scores": {
     "motor": 60,
     "trans": 80,
@@ -34,7 +34,8 @@
     "liq": 58
   },
   "sources": [
-    "enginefinders_om651",
+    "apexautoparts_om646",
+    "enginecrux_om646_reliability",
     "mercedesmedic_722_6_conductor",
     "minhsautocare_722_6"
   ],
@@ -65,7 +66,8 @@
       "band": "orta risk, izlenmesi gereken kalem var",
       "confidence": "düşük",
       "sources": [
-        "apexautoparts_om646"
+        "apexautoparts_om646",
+        "enginecrux_om646_reliability"
       ],
       "reasoning": "OM646 (mb-om646) motor ailesinin temel puanı 60. Bu aracın motor puanı (60) temel puanla birebir aynı. Ailenin bilinen zaafı: OM611'den devralınan enjektör altı conta sorunu, zamanında değiştirilmezse enjektör tıkanması. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor. DÜZELTME NOTU (2026-08-17): araç ilk terfi sırasında yanlışlıkla mb-om651 ailesine bağlanmıştı; OM651 2008'den önce üretilmedi; bu araç 2002 model, gerçek motoru (150 bg / 340 Nm çıktısıyla) ikinci nesil OM646 common-rail CDI ailesiyle örtüşüyor.",
       "assessed_at": "2026-08-17"
