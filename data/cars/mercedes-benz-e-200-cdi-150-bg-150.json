@@ -1,22 +1,23 @@
 {
   "id": "mercedes-benz-e-200-cdi-150-bg-150",
-  "name": "Mercedes-Benz E 200 CDI · 150 bg",
+  "name": "Mercedes-Benz E 220 CDI · 150 bg",
   "tag": "oto: 5 ileri otomatik · 150bg",
   "brand_group": "Mercedes-Benz",
   "years": "2002-2002",
   "specs": {
     "hp": 150,
-    "displacement_l": 2.1,
+    "displacement_l": 2.2,
     "fuel": "Dizel",
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
     "transmission_id": "mb-5g-tronic",
     "body_type": null,
-    "engine_id": "mb-om651",
+    "engine_id": "mb-om646",
     "torque_nm": 340.0,
     "gears": 5,
     "clutch": null,
-    "engine_code": null
+    "engine_code": null,
+    "kerb_weight_kg": 1610
   },
   "price_band_k_try": [
     900,
@@ -24,9 +25,9 @@
   ],
   "verification": "partial",
   "scores": {
-    "motor": 46,
+    "motor": 60,
     "trans": 80,
-    "fun": 50,
+    "fun": 41,
     "comf": 75,
     "age": 15,
     "cost": 80,
@@ -37,20 +38,36 @@
     "mercedesmedic_722_6_conductor",
     "minhsautocare_722_6"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Mercedes-Benz markasının depodaki 23 aracının ortalaması (konfor 72, maliyet 75, likidite 58) çapa alındı. Bu araç markanın tipik güç aralığında (150 bg / marka ortalaması 168 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Mercedes-Benz markasının depodaki 23 aracının ortalaması (konfor 72, maliyet 75, likidite 58) çapa alındı. Bu araç markanın tipik güç aralığında (150 bg / marka ortalaması 168 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor. `fun` puanı da artık kardeş araçtan kopyalanmıyor: bu araç için gerçek boş ağırlık (kerb_weight_kg) WebSearch ile araştırılıp bulundu ve scripts/compute_fun.py'nin güç/ağırlık formülü çalıştırıldı; gerekçesi evidence.fun alanında yazılı.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
-    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-bbaf330a366f60789b"
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-bbaf330a366f60789b",
+    "manually_corrected_fields": [
+      {
+        "field": "specs.engine_id",
+        "old_value": "mb-om651",
+        "new_value": "mb-om646",
+        "reason": "OM651 2008'den önce üretilmedi; bu araç 2002 model, gerçek motoru (150 bg / 340 Nm çıktısıyla) ikinci nesil OM646 common-rail CDI ailesiyle örtüşüyor.",
+        "corrected_at": "2026-08-17"
+      },
+      {
+        "field": "name",
+        "old_value": "Mercedes-Benz E 200 CDI · 150 bg",
+        "new_value": "Mercedes-Benz E 220 CDI · 150 bg",
+        "reason": "P2.1 kaynak verisindeki rozet metni gerçek beygir gücüyle uyuşmuyordu; WebSearch ile doğrulanan gerçek rozete düzeltildi.",
+        "corrected_at": "2026-08-17"
+      }
+    ]
   },
   "evidence": {
     "motor": {
-      "band": "yüksek risk, tanımlı bir tasarım hatası var",
-      "confidence": "orta",
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "düşük",
       "sources": [
-        "enginefinders_om651"
+        "apexautoparts_om646"
       ],
-      "reasoning": "OM651 (mb-om651) motor ailesinin temel puanı 46. Bu aracın motor puanı (46) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger zincirinin hızla uzayıp karakteristik tıkırtı sesi çıkarması; gergi arızası felaket boyutunda motor hasarına yol açabiliyor. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "reasoning": "OM646 (mb-om646) motor ailesinin temel puanı 60. Bu aracın motor puanı (60) temel puanla birebir aynı. Ailenin bilinen zaafı: OM611'den devralınan enjektör altı conta sorunu, zamanında değiştirilmezse enjektör tıkanması. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor. DÜZELTME NOTU (2026-08-17): araç ilk terfi sırasında yanlışlıkla mb-om651 ailesine bağlanmıştı; OM651 2008'den önce üretilmedi; bu araç 2002 model, gerçek motoru (150 bg / 340 Nm çıktısıyla) ikinci nesil OM646 common-rail CDI ailesiyle örtüşüyor.",
       "assessed_at": "2026-08-17"
     },
     "trans": {
@@ -71,6 +88,13 @@
       ],
       "reasoning": "Bu aracın model yılı ortalaması 2002.0, yani 2026 itibarıyla yaşı yaklaşık 24.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
+    },
+    "fun": {
+      "band": "sönük",
+      "confidence": "orta",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 93 hp/ton (normalize 25/100), tork/ağırlık oranı 211 Nm/ton (normalize 57/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 33. Karakter düzeltmesi +8 puan uygulandı, gerekçesi: arkadan itiş (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "assessed_at": "2026-08-17"
     }
   }
 }

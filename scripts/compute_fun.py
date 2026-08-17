@@ -56,10 +56,12 @@ Kullanım:
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+TODAY = datetime.date.today().isoformat()
 DATA = ROOT / "data"
 
 # Veri tabanındaki 158 aracın (kerb_weight_kg + torque_nm dolu) gözlenen
@@ -220,6 +222,16 @@ def main() -> int:
     for path, car, old, new, temel, correction, reasons, detail in applied:
         car["scores"]["fun"] = new
         evidence = car.get("evidence") or {}
+        prev_fun_evidence = evidence.get("fun") or {}
+        # assessed_at yalnız gerçekten yeni bir değerlendirme olduğunda ilerliyor
+        # (daha önce evidence.fun hiç yoktu ya da hesaplanan puan değişti); aksi
+        # halde aynı girdiyle yeniden çalıştırmak, dokunulmamış araçların
+        # değerlendirme tarihini yanlışlıkla "bugün" gibi göstermesin diye eski
+        # tarih korunuyor.
+        if prev_fun_evidence and prev_fun_evidence.get("band") and old == new:
+            assessed_at = prev_fun_evidence.get("assessed_at", TODAY)
+        else:
+            assessed_at = TODAY
 
         reason_text = (
             f"Güç/ağırlık oranı {detail['power_per_ton']:.0f} hp/ton (normalize "
@@ -257,7 +269,7 @@ def main() -> int:
             "confidence": "orta" if reasons else "düşük",
             "sources": [],
             "reasoning": reason_text,
-            "assessed_at": "2026-08-07",
+            "assessed_at": assessed_at,
         }
         car["evidence"] = evidence
         path.write_text(json.dumps(car, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

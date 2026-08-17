@@ -24,7 +24,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 64/64 duman testi (statik sayfa, SEO ve katalog kontrolleri dahil) |
-| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 163/278 araç). `comf` ve `cost` hâlâ elle veriliyor. |
+| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 233/378 araç; terfi eden 100 araçtan 71'i bu turda eklendi, 29'u ağırlık araştırması bekliyor — bkz. Y-19). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi.** 19 araç 2026-08-13 tarihli piyasa gözlemine bağlandı (`price_reference` bloğu: tarih, yöntem, örneklem, sınırlılık). Kalan 259 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
 | Çok ekranlı arayüz: ana ekran, giriş akışı, liste, metodoloji, kaynak öner, iletişim | Çalışıyor |
@@ -929,6 +929,60 @@ hata turdan tura birikmesin.
 turun kapsamı dışında bırakıldı (kullanıcı özellikle comf/cost/liq istedi); hâlâ kardeş
 araçtan geliyor ve `evidence.fun` yok — depodaki 115/278 aracın zaten içinde bulunduğu,
 kabul edilmiş bir durum.
+
+### fun: kardeş-araç kopyasından gerçek formüle (71/100 araç, sürüyor — 2026-08-17)
+
+**Sorun neydi.** `fun` de tıpkı düzeltilmeden önceki comf/cost/liq gibi kardeş araçtan
+kopyalanıyordu. Ama `fun`'ın zaten kanıta dayalı bir formülü vardı (`scripts/
+compute_fun.py`, MK-06/MK-17): güç/ağırlık ve tork/ağırlık oranından hesaplıyor. Formül
+yalnızca `specs.kerb_weight_kg` dolu olan araçlara çalışıyor ve terfi eden 101 aracın
+hiçbirinde bu alan yoktu — katalogda boş ağırlık hiç bulunmuyordu. Yani buradaki eksik
+başka bir tahmin katmanı eklemek değil, formülün zaten ihtiyaç duyduğu tek eksik veriyi
+(gerçek boş ağırlık) bulmaktı.
+
+**Yöntem: tahmin değil, araştırma.** Her araç için WebSearch ile gerçek boş ağırlık
+(kerb weight) arandı — marka, model, motor hacmi, beygir ve yıl birlikte eşleştirilerek,
+mümkün olduğunda otomatik şanzımanlı versiyonun rakamı tercih edilerek. Bulunan değer
+600-3000 kg makul aralığına karşı denetlendi, sonra `scripts/compute_fun.py --write`
+çalıştırıldı — puan elle verilmedi, formül gerçek girdiyle hesapladı.
+
+**Araştırma sırasında gerçek bir eşleştirme hatası bulundu ve düzeltildi.** 7 Mercedes
+dizel aracı, model yılında henüz üretilmeye başlanmamış OM651 motor ailesine (2008+)
+`promote_catalog.py`'nin hp bazlı eşleştirmesiyle bağlanmıştı — ör. 2000 model bir "C200
+CDI" 2008 sonrası motoru taşıyor görünüyordu. Bu, MK-08'in uyardığı "farklı nesiller
+karıştırılmasın" riskinin tam örneği, hp eşleşmesi doğru olsa da yıl kontrolü eksikti.
+6 kayıt gerçek dönem motoruna (OM611/OM646, ikisi de depoda zaten kanıtlı) yeniden
+bağlandı, motor puanı ve kanıt metni o ailenin gerçek `base_score`'undan yeniden
+hesaplandı. 1 kayıt (CLK 270 CDI · 150 bg) hiçbir gerçek CLK varyantıyla eşleşmiyordu
+(gerçek CLK 270 CDI 2.7L 5 silindirli OM647 taşır, depoda bu ailenin kanıtı yok) —
+terfisi geri alındı, katalog-only durumuna döndürüldü (`revert`, veri
+`data/catalog/mercedes-benz.json`'da `scored_car_id: null` ve
+`provenance.manually_corrected_fields` ile işaretli).
+
+Ayrıca 6 kayıtta motor ailesi doğruydu ama P2.1 kaynağındaki rozet metni yanlıştı (aynı
+"yakıt çelişkisi" türünden bir sorun, bu kez beygir-rozet uyuşmazlığı):
+B180 CDI·136bg → gerçeği B200 CDI, B180 CDI·177bg → B220 CDI, E200 CDI·204bg → E320 CDI
+(motoru OM613 3.2L, gerçekten 204bg üretiyor), E320 CDI·204bg(2013) → E250 CDI (OM651
+2.1L 204bg, W212), C270 CDI·204bg → C250 CDI (aynı desen), Skoda Octavia "1.6 FSI"·130bg
+→ 1.5 TSI (2019'da 1.6 FSI diye bir motor Skoda'nın kataloğunda yoktu). Her düzeltme
+`name` alanında görünüyor ve `provenance.manually_corrected_fields`'da eski/yeni değer +
+gerekçeyle kayıtlı.
+
+**assessed_at'teki eskimişlik giderildi.** `compute_fun.py` daha önce her `--write`
+çalıştırmasında `evidence.fun.assessed_at`'i sabit "2026-08-07" yazıyordu — bugün
+çalıştırılınca bile. Artık tarih dinamik (`datetime.date.today()`) ama yalnızca gerçekten
+yeni bir değerlendirme olduğunda ilerliyor (araçta daha önce `evidence.fun` yoktu ya da
+hesaplanan puan değişti); aksi halde zaten var olan tarih korunuyor — aynı girdiyle
+yeniden çalıştırmak, dokunulmamış araçların değerlendirme tarihini yanlışlıkla "bugün"
+gibi göstermesin diye.
+
+**Durum: 100 terfi edilmiş araçtan 71'i tamamlandı.** Kalan 29'u (Opel, Peugeot, Renault,
+Seat, Toyota, VW, Volvo) için ağırlık araştırması sürüyor; formül yalnızca ağırlığı
+bulunan araca yazıldı, kalanlar dokunulmadan (eski, gerekçesiz kardeş-kopya `fun`
+puanıyla) bırakıldı — yarım kalan araştırma için sahte bir sayı üretmek yerine.
+
+**Sonuç.** `validate.py` 0 hata, `smoke_test.js` 68/68, `build.py`/`build_pages.py`/
+`build_content.py` yeniden üretildi. Araç sayısı 379 → 378 (bir terfi geri alındığı için).
 
 ---
 

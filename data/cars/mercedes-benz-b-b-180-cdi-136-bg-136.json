@@ -1,6 +1,6 @@
 {
   "id": "mercedes-benz-b-b-180-cdi-136-bg-136",
-  "name": "Mercedes-Benz B B 180 CDI · 136 bg",
+  "name": "Mercedes-Benz B B 200 CDI · 136 bg",
   "tag": "oto: 7 ileri otomatik · 136bg",
   "brand_group": "Mercedes-Benz",
   "years": "2015-2015",
@@ -16,7 +16,8 @@
     "torque_nm": 300.0,
     "gears": 7,
     "clutch": null,
-    "engine_code": null
+    "engine_code": null,
+    "kerb_weight_kg": 1460
   },
   "price_band_k_try": [
     900,
@@ -26,7 +27,7 @@
   "scores": {
     "motor": 46,
     "trans": 44,
-    "fun": 50,
+    "fun": 35,
     "comf": 72,
     "age": 54,
     "cost": 82,
@@ -38,11 +39,20 @@
     "enginefinders_om651",
     "mercedesmedic_722_9"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Mercedes-Benz markasının depodaki 23 aracının ortalaması (konfor 72, maliyet 75, likidite 58) çapa alındı. Bu araç markanın ortalama gücünün biraz altında (136 bg / marka ortalaması 168 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Mercedes-Benz markasının depodaki 23 aracının ortalaması (konfor 72, maliyet 75, likidite 58) çapa alındı. Bu araç markanın ortalama gücünün biraz altında (136 bg / marka ortalaması 168 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor. `fun` puanı da artık kardeş araçtan kopyalanmıyor: bu araç için gerçek boş ağırlık (kerb_weight_kg) WebSearch ile araştırılıp bulundu ve scripts/compute_fun.py'nin güç/ağırlık formülü çalıştırıldı; gerekçesi evidence.fun alanında yazılı.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
-    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-4f9b171a1aef51eb66"
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-4f9b171a1aef51eb66",
+    "manually_corrected_fields": [
+      {
+        "field": "name",
+        "old_value": "Mercedes-Benz B B 180 CDI · 136 bg",
+        "new_value": "Mercedes-Benz B B 200 CDI · 136 bg",
+        "reason": "P2.1 kaynak verisindeki rozet metni gerçek beygir gücüyle uyuşmuyordu; WebSearch ile doğrulanan gerçek rozete düzeltildi.",
+        "corrected_at": "2026-08-17"
+      }
+    ]
   },
   "evidence": {
     "motor": {
@@ -73,6 +83,13 @@
       ],
       "reasoning": "Bu aracın model yılı ortalaması 2015.0, yani 2026 itibarıyla yaşı yaklaşık 11.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 23.8. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 54 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
+    },
+    "fun": {
+      "band": "sönük",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 93 hp/ton (normalize 25/100), tork/ağırlık oranı 205 Nm/ton (normalize 54/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +2, şanzıman +0) temel puan 35. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "assessed_at": "2026-08-17"
     }
   }
 }

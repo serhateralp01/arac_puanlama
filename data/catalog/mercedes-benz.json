@@ -2291,7 +2291,7 @@
         "engine_code": null,
         "engine_name": "220 CDI 5AT RWD (150 HP)"
       },
-      "scored_car_id": "mercedes-benz-clk-clk-270-cdi-150-bg-150",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2305,7 +2305,9 @@
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c209-2005.html",
         "rejected_label": null,
-        "manually_corrected_fields": null
+        "manually_corrected_fields": [
+          "scored_car_id: 2026-08-17 terfisi geri alındı -- motor ailesi (OM651, 2.1L) CLK 270 CDI rozetiyle uyuşmuyordu; gerçek CLK 270 CDI motoru OM647 (2.7L 5 silindir) ve depoda bu ailenin kanıt zinciri yok."
+        ]
       }
     },
     {
