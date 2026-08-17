@@ -319,7 +319,7 @@ MANUAL_SPEC_CORRECTIONS = {
     # 2026-08-17, terfi eden araçlardaki OM651 anakronizmini bulan aynı tur).
     # OM642 2005'ten önce üretilmedi; 2005 sonrası kayıtlarda gerçek rozet
     # aşağıdaki gibi düzeltildi. hp/Nm/yıl kombinasyonu hiçbir gerçek Mercedes
-    # ürününe denk gelmeyenler MERCEDES_BADGE_YEAR_CONFLICTS'e taşındı (aşağıda),
+    # ürününe denk gelmeyenler BADGE_YEAR_CONFLICTS'e taşındı (aşağıda),
     # düzeltilmedi.
     "sig-59df53db593534cbd5": {"model_variant": "C 350 CDI BlueTEC 4MATIC"},  # 2011, 231bg/540Nm, W204 facelift
     "sig-d9eee606ba0376c9cd": {"model_variant": "C 350 CDI BlueTEC"},  # 2011, 265bg/620Nm, W204 facelift üst tün
@@ -329,21 +329,32 @@ MANUAL_SPEC_CORRECTIONS = {
     "sig-37639613b31b9ec5b6": {"model_variant": "E 350 BlueTEC"},
 }
 
-# Rozet + beygir + yıl birlikte hiçbir gerçek Mercedes ürününe denk gelmeyen kayıtlar
-# (WebSearch ile doğrulandı, 2026-08-17). OM642 3.0 V6 dizel 2005'ten önce
-# üretilmedi; bu yıllarda bu beygir seviyelerinde ne OM611/OM612/OM613 (4/5
-# silindir) ailesinde ne de dönemin gerçek rozet listesinde bir karşılık var.
-# MANUAL_SPEC_CORRECTIONS'taki gibi "doğru rozeti bul" yaklaşımı burada
-# uygulanamıyor çünkü düzeltilecek gerçek bir rozet yok — uydurmak, atılan
-# rozetten daha kötü bir hata olurdu. Bu yüzden düzeltilmedi, `quality_flags`'e
-# "rozet_yil_celiskisi" olarak işaretlendi (CLAUDE.md §1: düzeltilemeyen bir
-# şey varsa bu, sebebiyle birlikte açıkça söylenir).
-MERCEDES_BADGE_YEAR_CONFLICTS = {
+# Rozet + beygir + yıl birlikte hiçbir gerçek üretici ürününe denk gelmeyen kayıtlar
+# (WebSearch ile doğrulandı; her satırda tarih). "Doğru rozeti bul" yaklaşımı
+# (MANUAL_SPEC_CORRECTIONS) burada uygulanamıyor çünkü düzeltilecek gerçek bir
+# rozet yok — uydurmak, atılan rozetten daha kötü bir hata olurdu. Bu yüzden
+# düzeltilmedi, `quality_flags`'e "rozet_yil_celiskisi" olarak işaretlendi
+# (CLAUDE.md §1: düzeltilemeyen bir şey varsa bu, sebebiyle birlikte açıkça
+# söylenir).
+BADGE_YEAR_CONFLICTS = {
+    # Mercedes 3.0 V6 dizel (OM642), 2026-08-17: OM642 2005'ten önce üretilmedi;
+    # bu yıllarda bu beygir seviyelerinde ne OM611/OM612/OM613 (4/5 silindir)
+    # ailesinde ne de dönemin gerçek rozet listesinde bir karşılık var.
     "sig-a582366fd365339e7d": "C 270 CDI · 231 bg (2001): OM642 2005'ten önce yok, 2001 C-Class'ta 231 bg dizel hiç üretilmedi",
     "sig-cc05bb4c89e11ee3c5": "C 270 CDI · 231 bg (2002): OM642 2005'ten önce yok, 2002 C-Class'ta 231 bg dizel hiç üretilmedi",
     "sig-570cb2cd174b7d46da": "E 200 CDI · 190 bg (2002): OM642 2005'ten önce yok, dönemin E200 CDI'ı (OM611) en fazla 122 bg üretiyordu",
     "sig-e2107852394a989776": "E 270 CDI · 224 bg (2003): OM642 2005'ten önce yok, 2003 E-Class'ta 224 bg dizel hiç üretilmedi",
     "sig-e61df3bdd29e1a077f": "CLK 270 CDI · 224 bg (2005-2009): hp gerçek CLK 320 CDI'ya (OM642) yakın ama kayıtlı tork (415 Nm) gerçek CLK 320 CDI'nın (510 Nm) belirgin altında; hangi alanın yanlış olduğu tek başına belirlenemedi",
+    # BMW 2.0 benzin kümesi, 2026-08-17: N43B20 (143/170 bg) 2007'den önce,
+    # N20B20 turbo (528i'nin 245 bg tünü) 2012'den önce üretilmedi (WebSearch,
+    # mymotorlist.com/n43b20 ve carbuzz.com/bmw-n20-engine ile doğrulandı).
+    "sig-fcf29cb98e63050a47": "318i · 143 bg (2005): N43B20 2007'den önce üretilmedi",
+    "sig-7893ce7e6d6964cc5f": "320i · 170 bg (2005): N43B20 2007'den önce üretilmedi",
+    "sig-e709d50a1d0a81f012": "320i · 170 bg (2005): N43B20 2007'den önce üretilmedi",
+    "sig-463b1c4c0a5a7081ce": "528i · 245 bg (2009): N20B20 turbo 2012'den önce üretilmedi",
+    "sig-5527d794a99d62ccef": "528i · 245 bg (2010): N20B20 turbo 2012'den önce üretilmedi",
+    "sig-a434f6dd463a564ade": "528i · 245 bg (2009): N20B20 turbo 2012'den önce üretilmedi",
+    "sig-aedce9836ea9527583": "528i · 245 bg (2010): N20B20 turbo 2012'den önce üretilmedi",
 }
 
 
@@ -416,7 +427,7 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
                                 | ({"spec_implausible"}
                                    if spec_implausible(fuel, hp, nm, litre) else set())
                                 | ({"rozet_yil_celiskisi"}
-                                   if v["variant_id"] in MERCEDES_BADGE_YEAR_CONFLICTS else set())),
+                                   if v["variant_id"] in BADGE_YEAR_CONFLICTS else set())),
         "sources": sorted(set(links.get(v["variant_id"], []))),
         "provenance": {
             "dataset": DATASET,

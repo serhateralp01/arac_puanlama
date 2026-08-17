@@ -1031,6 +1031,36 @@ tam yeniden üretim yerine hedefli yama tercih edilmeli.
 (1.203). Kalan büyük gruplar: BMW 2.0 benzin (çoklu aile bölünmesi), Honda 2.0 benzin
 (K20/K24 vs R20A ayrımı) — Y-02 yöntemiyle sırayla devam.
 
+### BMW 2.0 benzin kümesi tarandı, 7 anakronistik kayıt işaretlendi (2026-08-17)
+
+**Bulgu.** 45 katalog-only BMW 2.0L benzin kaydı incelendi. Bunların çoğu (`engine_code`
+dolu olanlar: N46B20, N43B20, N13B16) zaten sağlamdı. Geri kalanlarda `engine_code` boş
+ve `engine_name` alanı Mercedes kümesindeki gibi bulaşmış/anlamsızdı ("318Ci 5AT RWD
+(143 HP)" onlarca farklı beygir değeriyle tekrarlanıyordu) — bu yüzden marka+beygir+yıl
+üçlüsü, dosyanın kendi içindeki **doğrulanmış** `engine_code`'lu satırların yıl
+aralıklarıyla karşılaştırıldı (N46B20: ~2004-2007, N43B20: 2007-2011) ve iki dış olgu
+WebSearch ile doğrulandı: N43B20'nin 2007'den önce, 528i'nin 245 bg'lik turbo tününü
+üreten N20B20'nin 2012'den önce üretilmedi (mymotorlist.com, carbuzz.com).
+
+**Sonuç: 7 kayıt anakronistik.** 3 kayıt (318i/320i, 143-170 bg, 2005 tarihli) N43B20'nin
+üretime girmesinden 2 yıl önceye tarihli. 4 kayıt ("528i · 245 bg", 2009-2010) N20B20'nin
+üretime girmesinden 2-3 yıl önceye tarihli. Mercedes kümesindekiyle aynı `rozet_yil_
+celiskisi` etiketiyle işaretlendi, rozet uydurulmadı.
+
+**Bir yanlış varsayım kendi kendine düzeltildi.** İlk bakışta "BMW 5 Serisi hiçbir zaman
+4 silindirli motor almadı, F10'a kadar" varsayımıyla 8 kaydı (163/170/184/245 bg,
+2007-2010) toptan işaretlemeyi düşündüm. WebSearch, N43B20'nin E60 5 Serisi 520i'de de
+kullanıldığını gösterdi (yalnız *turbolu* 4 silindir F10'a özgüymüş) — bu yüzden 170 bg
+(N43B20 sinyaline tam uyan) 2007 tarihli 2 kayıt **işaretlenmedi**, gerçek çıktı. Toptan
+bir kural yerine tek tek doğrulamanın neden gerekli olduğuna bir örnek daha.
+
+**Belirsiz kalan 3 kayıt bilinçli olarak dokunulmadı**: 184 bg/2009, 163 bg/2007 ve
+170 bg/190 Nm/2009 hiçbir bilinen motor imzasıyla tam örtüşmüyor ama kesin "imkânsız"
+da denemedi — düşük güvenle bir hüküm vermek, hiç vermemekten kötü.
+
+**Sonuç.** `validate.py` 0 hata, `smoke_test.js` 68/68, katalog-yalnız sayısı değişmedi.
+Sıradaki grup: Honda 2.0 benzin (K20/K24 vs R20A ayrımı).
+
 ---
 
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
