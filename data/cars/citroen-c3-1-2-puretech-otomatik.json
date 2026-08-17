@@ -30,10 +30,11 @@
     "liq": 70
   },
   "sources": [
-    "donanimhaber_puretech_triger",
-    "trbox",
     "asrgearbox_eat6",
-    "drivisual_puretech_wetbelt"
+    "donanimhaber_puretech_triger",
+    "drivisual_puretech_wetbelt",
+    "parkers_puretech_recall",
+    "trbox"
   ],
   "note": "C3'ün üçüncü nesli; yağ banyolu triger kayışlı PureTech motoru taşıyor, bakımı ihmal edilmemeli.",
   "provenance": {

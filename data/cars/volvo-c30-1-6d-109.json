@@ -38,6 +38,7 @@
     "autodoc_volvo_powershift",
     "propeugeotspares_16hdi_egr",
     "v40d2",
+    "vargas_ford_dps6_uzlasma",
     "volvops"
   ],
   "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Volvo markasının depodaki 10 aracının ortalaması (konfor 80, maliyet 65, likidite 51) çapa alındı. Bu araç markanın ortalama gücünün biraz altında (109 bg / marka ortalaması 151 bg). Gövde tipi Hatchback. Şanzıman kuru çift kavrama (bilinen düşük hız sarsıntısı riski). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor. `fun` puanı da artık kardeş araçtan kopyalanmıyor: bu araç için gerçek boş ağırlık (kerb_weight_kg) WebSearch ile araştırılıp bulundu ve scripts/compute_fun.py'nin güç/ağırlık formülü çalıştırıldı; gerekçesi evidence.fun alanında yazılı.",
@@ -63,6 +64,7 @@
       "sources": [
         "autodoc_volvo_powershift",
         "v40d2",
+        "vargas_ford_dps6_uzlasma",
         "volvops"
       ],
       "reasoning": "Volvo Powershift (kuru) (volvo-powershift-kuru) şanzıman ailesinin temel puanı 32. Bu aracın trans puanı (32) temel puanla birebir aynı. Ailenin bilinen zaafı: Kuru kavramanın çok düşük kilometrede aşınmaya başlaması; sarsıntılı geçiş, geçişte gecikme ve olağandışı sesler 40.000-60.000 km'den itibaren bildiriliyor. Bu puan 'düşük km'de felaket, çoklu kaynak' bandına giriyor.",

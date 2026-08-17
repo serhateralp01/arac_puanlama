@@ -72,3 +72,37 @@ Bu bilgi drivisual.tv kaynaklı (https://www.drivisual.tv/en/news/stellantis-1-2
 İkinci el alırken bu tek başına "bu araçtan kaç" anlamına gelmiyor — servis kaydında bu kaleme dair bir işlem olup olmadığını sormak, alım öncesi kontrolün bir parçası olmalı. Tam puan gerekçesi, bu ailenin diğer bilinen sorunları ve karşılaştırmalı puanlama sitede.
 
 ---
+## 3. Stellantis, Mart 2013 - Nisan 2017 arası üretilen 110/130 bg motorlu araçlar için resmi bir geri çağırma kampanyası başlattı (İngiltere'de 44.000 araç dahil); yağ banyolu kayışın erken parçalanıp yağ devresini tıkaması resmi olarak doğrulandı
+
+**Kısa video senaryosu (30-40 sn)**
+
+- **[0-3 sn — kanca]** Ekranda PSA PureTech 130 görseli. Alt yazı: "PSA PureTech 130 kullanılan bir araç mı alıyorsun?"
+- **[3-18 sn — sorun]** Anlatıcı: "Stellantis, Mart 2013 - Nisan 2017 arası üretilen 110/130 bg motorlu araçlar için resmi bir geri çağırma kampanyası başlattı (İngiltere'de 44.000 araç dahil); yağ banyolu kayışın erken parçalanıp yağ devresini tıkaması resmi olarak doğrulandı. Bu yaygın bildirilen bir durum, belirli bir kilometre sınırı bildirilmemiş. Ciddiyet seviyesi: motor ölür."
+- **[18-28 sn — kanıt]** Ekranda kaynak adı: Parkers (Bauer Media). Anlatıcı: "Bu bilgiyi uydurmadık; kaynağımız Parkers (Bauer Media)."
+- **[28-38 sn — kapanış]** Anlatıcı: "PSA PureTech 130'in tam puan gerekçesi ve kaynak zinciri sitede — link biyoda."
+
+**Kaydırmalı görsel metni (5 slayt)**
+
+1. "PSA PureTech 130 alacaksan bunu bil 👇"
+2. "Stellantis, Mart 2013 - Nisan 2017 arası üretilen 110/130 bg motorlu araçlar için resmi bir geri çağırma kampanyası başlattı (İngiltere'de 44.000 araç dahil); yağ banyolu kayışın erken parçalanıp yağ devresini tıkaması resmi olarak doğrulandı"
+3. "Belirli bir kilometre sınırı bildirilmemiş · Sıklık: yaygın · Ciddiyet: motor ölür"
+4. "Kaynak: Parkers (Bauer Media)"
+5. "Tam gerekçe ve puan → sitede, link biyoda"
+
+**Paylaşım dizisi (X/Twitter thread, 5 gönderi)**
+
+1/ PSA PureTech 130 kullanan bir araç mı düşünüyorsun? Bilmen gereken bir şey var. 🧵
+2/ Stellantis, Mart 2013 - Nisan 2017 arası üretilen 110/130 bg motorlu araçlar için resmi bir geri çağırma kampanyası başlattı (İngiltere'de 44.000 araç dahil); yağ banyolu kayışın erken parçalanıp yağ devresini tıkaması resmi olarak doğrulandı
+3/ Belirli bir kilometre sınırı bildirilmemiş. Sıklık: yaygın. Ciddiyet: motor ölür.
+4/ Kaynak: Parkers (Bauer Media) — https://www.parkers.co.uk/car-news/recalls/stellantis-puretech-recall/
+5/ Bu, PSA PureTech 130 için verdiğimiz puanın gerekçelerinden biri. Tam liste, kaynak zinciri ve diğer araçlarla kıyas sitede.
+
+**Uzun biçim yazı taslağı**
+
+PSA PureTech 130 ailesinin bilinen zaaflarından biri: Stellantis, Mart 2013 - Nisan 2017 arası üretilen 110/130 bg motorlu araçlar için resmi bir geri çağırma kampanyası başlattı (İngiltere'de 44.000 araç dahil); yağ banyolu kayışın erken parçalanıp yağ devresini tıkaması resmi olarak doğrulandı. Belirli bir kilometre sınırı bildirilmemiş, ve bu yaygın bildirilen bir örüntü. Ciddiyet seviyesi "motor ölür" olarak sınıflandırılıyor — yani bu, bir bakım kalemi ötesine geçip büyük bir onarım gerektirebilir.
+
+Bu bilgi Parkers (Bauer Media) kaynaklı (https://www.parkers.co.uk/car-news/recalls/stellantis-puretech-recall/): Stellantis (Peugeot/Citroën/DS/Opel), Mart 2013 - Nisan 2017 arası üretilen 110/130 bg 1.2 PureTech motorlu araçlar için resmi bir geri çağırma (recall) kampanyası başlattı; yağ banyolu triger kayışının erken aşınıp parçalanmasının motor yağ devresini tıkayarak ciddi motor hasarına yol açabildiği, İngiltere'de tek başına 44.000 aracın çağırıldığı
+
+İkinci el alırken bu tek başına "bu araçtan kaç" anlamına gelmiyor — servis kaydında bu kaleme dair bir işlem olup olmadığını sormak, alım öncesi kontrolün bir parçası olmalı. Tam puan gerekçesi, bu ailenin diğer bilinen sorunları ve karşılaştırmalı puanlama sitede.
+
+---

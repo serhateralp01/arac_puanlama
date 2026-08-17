@@ -3398,11 +3398,21 @@
         "sources": [
           "drivisual_puretech_wetbelt"
         ]
+      },
+      {
+        "issue": "Stellantis, Mart 2013 - Nisan 2017 arası üretilen 110/130 bg motorlu araçlar için resmi bir geri çağırma kampanyası başlattı (İngiltere'de 44.000 araç dahil); yağ banyolu kayışın erken parçalanıp yağ devresini tıkaması resmi olarak doğrulandı",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "motor ölür",
+        "sources": [
+          "parkers_puretech_recall"
+        ]
       }
     ],
     "sources": [
       "donanimhaber_puretech_triger",
-      "drivisual_puretech_wetbelt"
+      "drivisual_puretech_wetbelt",
+      "parkers_puretech_recall"
     ],
     "note": "PSA/Stellantis'in üç silindirli küçük turbo ailesi; EP6/THP'den tamamen farklı, yağ banyolu kayışlı bir tasarım. İkinci kaynak, kayış aşınmasının mekanizmasını netleştiriyor: kısa mesafe kullanımında yanmamış yakıt karterdeki yağa karışıyor (yağ seyrelmesi), bu da kayışı normalden hızlı aşındırıyor — üreticinin önerdiği değişim aralığının 240.000 km'den 70.000 km'ye çekilmesinin sebebi bu. [base_score gerekçesi: 0-34 (ciddi risk): kayış koptuğunda parçalar yağ sistemine karışıp motor bloğunu hasar bırakabiliyor, bu risk iki bağımsız kaynakta da yaygın olarak bildiriliyor; üretici üçüncü nesilde (Hybrid 136, EB2) tasarımı zincire çevirdi ama listedeki dönem bu değişiklikten önceki üretim."
   },

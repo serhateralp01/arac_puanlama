@@ -1181,6 +1181,38 @@ denenmedi, dürüstçe bildirildi.
 **Sonuç.** `yinelenen-ad` 1 → 0, `yetim-kaynak` 3 → 1. `validate.py` 0 hata,
 `smoke_test.js` 68/68.
 
+### c-kaynakla-uc-puan: 40 → 29, iki aile B-seviye kanıtla güçlendirildi (2026-08-17)
+
+**`c-kaynakla-uc-puan` uyarısının çoğu (26/40) aslında `fun` içindi ve düzeltilebilir
+değil.** `fun` formülle hesaplanıyor ve `evidence.fun.sources` bilinçli olarak hep
+boş (`compute_fun.py`'nin kendi belgelediği tasarım kararı); kural bu durumda aracın
+genel kaynak listesine düşüyor, yani bu 26 uyarı "daha iyi kaynak bulunmadığı" için
+değil, kuralın `fun` gibi formül-türevli bir kriterle "kaynak-tier" mantığının
+kavramsal olarak örtüşmemesinden geliyor. Kalan ~14 uyarı (motor/trans/cost/liq)
+gerçekten kaynak sorunu.
+
+**PSA/Stellantis 1.2 PureTech (8 araç, motor).** Bu motorun yağ banyolu triger
+kayışı sorunu o kadar yaygındı ki Stellantis 2020 ve 2022'de resmi bir geri çağırma
+kampanyası başlattı (İngiltere'de tek başına 44.000 araç). Bu, C seviyesi bir forum
+anekdotu değil — üreticinin kendi resmi eylemi, Parkers.co.uk (kurumsal otomotiv
+basını) üzerinden B seviye kaynak olarak eklendi. `psa-puretech-12` ailesini
+paylaşan 8 araca (Peugeot/Citroën/Opel) MK-16 ile yayıldı.
+
+**Volvo kuru Powershift / Ford DPS6 (3 araç, trans).** Depoda zaten "Volvo'nun kuru
+kavramalı kutusu, Ford'un DPS6'sıyla aynı temel tasarım (Getrag 6DCT250)" notu
+vardı ve Ford DPS6 kaydında zaten B-seviye bir kaynak (ABD federal Vargas v. Ford
+grup davası, 2020'de 77,4 milyon dolarlık uzlaşma) duruyordu — bu kaynak henüz
+`volvo-powershift-kuru`'ya bağlanmamıştı. **Neredeyse mükerrer kaynak ekliyordum**:
+WebSearch aynı topclassactions.com makalesini farklı bir ID'yle tekrar getirdi;
+eklemeden önce mevcut kaynaklar tarandı, aynı URL'nin zaten `vargas_ford_dps6_
+uzlasma` olarak kayıtlı olduğu görüldü, yeni kayıt silindi ve mevcut olan
+`volvo-powershift-kuru`'ya bağlandı.
+
+**Sonuç.** `c-kaynakla-uc-puan` 40 → 29 (11 gerçek düzeltme: 8 PSA + 3 Volvo).
+Kalan 29'un çoğu hâlâ `fun` kaynaklı — kritere özgü bir kural düzeltmesi (fun'ı bu
+kontrolden muaf tutmak ya da farklı bir eşik kullanmak) ayrı bir karar, burada
+yapılmadı. `validate.py` 0 hata, `smoke_test.js` 68/68.
+
 ---
 
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**

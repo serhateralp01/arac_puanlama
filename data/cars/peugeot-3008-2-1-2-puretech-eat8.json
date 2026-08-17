@@ -33,11 +33,12 @@
     "liq": 66
   },
   "sources": [
+    "asrgearbox_eat8",
     "donanimhaber_puretech_triger",
+    "drivisual_puretech_wetbelt",
     "erenservis_eat8",
     "motor1_psa_suv_eat",
-    "drivisual_puretech_wetbelt",
-    "asrgearbox_eat8"
+    "parkers_puretech_recall"
   ],
   "note": "Türkiye'de Peugeot'nun en çok satan modellerinden 3008'in benzinli otomatik seçeneği; motor (psa-puretech-12) ve kutu (EAT8) listede 208/2008'de zaten kayıtlı aynı eşleşme, burada 3008'e eşleştirildi. Listede zaten kayıtlı 1.6 BlueHDi'den farklı, benzinli bir seçenek.",
   "provenance": {
@@ -49,7 +50,8 @@
       "band": "kumar",
       "confidence": "düşük",
       "sources": [
-        "donanimhaber_puretech_triger"
+        "donanimhaber_puretech_triger",
+        "parkers_puretech_recall"
       ],
       "reasoning": "PureTech 130 (psa-puretech-12) motor ailesinin temel puanı 34. Bu aracın motor puanı (34) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ banyolu triger kayışının (wet belt) kopması veya gerilmesi; parçaların yağ sistemine karışıp motor bloğu hasarına yol açabilmesi. Bu puan 'kumar' bandına giriyor: Birden fazla kaynak, düşük kilometrede motoru komple bitirebilecek bir arıza örüntüsünü doğruluyor; belgeli bakım geçmişi olmadan almak risk kabul ediliyor.",
       "assessed_at": "2026-08-07"

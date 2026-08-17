@@ -38,7 +38,8 @@
     "donanimhaber_puretech_triger",
     "drivisual_puretech_wetbelt",
     "erenservis_eat8",
-    "motor1_psa_suv_eat"
+    "motor1_psa_suv_eat",
+    "parkers_puretech_recall"
   ],
   "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Opel markasının depodaki 16 aracının ortalaması (konfor 75, maliyet 71, likidite 63) çapa alındı. Bu araç markanın tipik güç aralığında (130 bg / marka ortalaması 137 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor. `fun` puanı da artık kardeş araçtan kopyalanmıyor: bu araç için gerçek boş ağırlık (kerb_weight_kg) WebSearch ile araştırılıp bulundu ve scripts/compute_fun.py'nin güç/ağırlık formülü çalıştırıldı; gerekçesi evidence.fun alanında yazılı.",
   "provenance": {
@@ -52,7 +53,8 @@
       "confidence": "orta",
       "sources": [
         "donanimhaber_puretech_triger",
-        "drivisual_puretech_wetbelt"
+        "drivisual_puretech_wetbelt",
+        "parkers_puretech_recall"
       ],
       "reasoning": "PureTech 130 (psa-puretech-12) motor ailesinin temel puanı 34. Bu aracın motor puanı (34) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ banyolu triger kayışının (wet belt) kopması veya gerilmesi; parçaların yağ sistemine karışıp motor bloğu hasarına yol açabilmesi. Bu puan 'kumar' bandına giriyor.",
       "assessed_at": "2026-08-17"

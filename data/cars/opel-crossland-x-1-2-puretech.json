@@ -32,11 +32,12 @@
     "liq": 56
   },
   "sources": [
+    "asrgearbox_eat8",
     "donanimhaber_puretech_triger",
+    "drivisual_puretech_wetbelt",
     "erenservis_eat8",
     "motor1_psa_suv_eat",
-    "drivisual_puretech_wetbelt",
-    "asrgearbox_eat8"
+    "parkers_puretech_recall"
   ],
   "note": "Opel'in PSA platformuna geçiş sonrası ilk SUV'larından; motor için yeni bir aile açıldı (psa-puretech-12) — yağ banyolu triger kayışı (wet belt) taşıyan, listenin en riskli motorlarından biri. Kayış bakımı (60.000 km) ihmal edilirse kayış kopup motor bloğuna zarar verebiliyor; bu satın alma öncesi mutlaka sorulmalı. Şanzıman (EAT8) ailenin güçlü tarafı.",
   "provenance": {
@@ -50,7 +51,8 @@
       "confidence": "düşük",
       "sources": [
         "donanimhaber_puretech_triger",
-        "erenservis_eat8"
+        "erenservis_eat8",
+        "parkers_puretech_recall"
       ],
       "reasoning": "PureTech 130 (psa-puretech-12) motor ailesinin temel puanı 34. Bu aracın motor puanı (34) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ banyolu triger kayışının (wet belt) kopması veya gerilmesi; parçaların yağ sistemine karışıp motor bloğu hasarına yol açabilmesi. Bu puan 'kumar' bandına giriyor: Birden fazla kaynak, düşük kilometrede motoru komple bitirebilecek bir arıza örüntüsünü doğruluyor; belgeli bakım geçmişi olmadan almak risk kabul ediliyor.",
       "assessed_at": "2026-08-06"

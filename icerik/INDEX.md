@@ -7,7 +7,7 @@ hangi taslağın kullanılacağına insan karar verir. Yeniden üretmek için:
 
     python3 scripts/build_content.py
 
-**Toplam: 311 arıza kaydı için taslak, 157 dosyada.**
+**Toplam: 313 arıza kaydı için taslak, 157 dosyada.**
 
 ## Motor aileleri
 
@@ -81,7 +81,7 @@ hangi taslağın kullanılacağına insan karar verir. Yeniden üretmek için:
 - [PSA EC5](motor/psa-ec5.md) — 1 kayıt
 - [BMW / PSA EP6DT](motor/psa-ep6-thp.md) — 2 kayıt
 - [BMW / PSA EP6](motor/psa-ep6-vti.md) — 2 kayıt
-- [PSA PureTech 130](motor/psa-puretech-12.md) — 2 kayıt
+- [PSA PureTech 130](motor/psa-puretech-12.md) — 3 kayıt
 - [PSA TU5](motor/psa-tu5.md) — 1 kayıt
 - [PSA XU](motor/psa-xu.md) — 1 kayıt
 - [Renault F9Q](motor/renault-f9q.md) — 2 kayıt
@@ -166,7 +166,7 @@ hangi taslağın kullanılacağına insan karar verir. Yeniden üretmek için:
 - [Volkswagen Group DQ250 (6 ileri)](sanziman/vag-dq250.md) — 3 kayıt
 - [Volkswagen Group / LuK Multitronic ()](sanziman/vag-multitronic.md) — 2 kayıt
 - [Volkswagen Group S tronic (ıslak) ()](sanziman/vag-s-tronic-islak.md) — 3 kayıt
-- [Getrag Volvo Powershift (kuru) (6 ileri)](sanziman/volvo-powershift-kuru.md) — 3 kayıt
+- [Getrag Volvo Powershift (kuru) (6 ileri)](sanziman/volvo-powershift-kuru.md) — 4 kayıt
 - [ZF ZF 4HP20 (4 ileri)](sanziman/zf-4hp.md) — 3 kayıt
 - [ZF ZF 5HP19 (5 ileri)](sanziman/zf-5hp.md) — 3 kayıt
 - [ZF ZF 6HP19 (6 ileri)](sanziman/zf-6hp.md) — 2 kayıt

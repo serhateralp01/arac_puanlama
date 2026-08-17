@@ -798,11 +798,21 @@
         "sources": [
           "autodoc_volvo_powershift"
         ]
+      },
+      {
+        "issue": "Aynı temel tasarımı (Getrag 6DCT250/DPS6) paylaşan Ford Fiesta/Focus üzerinde ABD federal Vargas v. Ford grup davası açıldı, 2020'de en az 77,4 milyon dolar güvence altına alan bir uzlaşmayla sonuçlandı; kök neden ıslak değil kuru kavrama seçilmesi (dur-kalk trafiğinde ısı birikip sürtünme yüzeylerinin camlaşması)",
+        "onset_km": null,
+        "frequency": "yaygın",
+        "severity": "büyük onarım",
+        "sources": [
+          "vargas_ford_dps6_uzlasma"
+        ]
       }
     ],
     "sources": [
       "autodoc_volvo_powershift",
       "v40d2",
+      "vargas_ford_dps6_uzlasma",
       "volvops"
     ],
     "note": "Volvo'nun 1.6 D2 ve bazı benzinli modellerinde kullanılan kuru kavramalı kutu; Getrag 6DCT250 ailesinden, yani Ford'un DPS6'sı ve Renault'nun kuru EDC'siyle aynı temel tasarım. Aynı marka içindeki Aisin Geartronic ile karıştırılmamalı — o tork konvertörlü ve belirgin biçimde daha sağlam. [base_score gerekçesi: 2026-08-13'te 38'den 32'ye indirildi ve 0-34 (düşük km'de felaket, çoklu kaynak) bandına taşındı. Gerekçe, arızanın ortaya çıktığı kilometrenin ölçülmüş olması: belirtiler 40.000-60.000 km'de başlıyor ve birçok araçta 80.000-100.000 km'de komple kavrama değişimi gerekiyor. Bu, 35-49 bandının 'bilinen risk' tanımının değil, en alt bandın tarifidir. NOT: aynı 6DCT250 ailesinin üç markadaki kaydı bugün farklı puanlar taşıyor (renault-edc-kuru 54, volvo-powershift-kuru 32, ford-dps6 30). Bu fark gerçek bir kalibrasyon sorusu olabilir ve ayrıca ele alınmalı; şimdilik her kayıt kendi kaynaklarının gösterdiği yerde bırakıldı.]"

@@ -32,11 +32,12 @@
   },
   "sources": [
     "araclo_208_puretech",
+    "asrgearbox_eat8",
     "donanimhaber_puretech_triger",
+    "drivisual_puretech_wetbelt",
     "erenservis_eat8",
     "motor1_psa_suv_eat",
-    "drivisual_puretech_wetbelt",
-    "asrgearbox_eat8"
+    "parkers_puretech_recall"
   ],
   "note": "İkinci nesil (P21) 208'in EAT8 otomatikli 1.2 PureTech kombinasyonu; motor ve şanzıman aileleri listede zaten kayıtlı (Opel Crossland X ile paylaşılıyor). Motor tarafında yağ banyolu triger kayışı listenin en riskli kalemi — 60.000 km'de bakım ve genişlik ölçümü ihmal edilmemeli. EAT8 otomatik ise ailenin güçlü tarafı; araclo.com incelemesi segmentindeki en başarılı tork konvertörlü kutulardan biri olarak tarif ediyor.",
   "provenance": {
@@ -49,9 +50,10 @@
       "band": "kumar",
       "confidence": "düşük",
       "sources": [
+        "araclo_208_puretech",
         "donanimhaber_puretech_triger",
         "erenservis_eat8",
-        "araclo_208_puretech"
+        "parkers_puretech_recall"
       ],
       "reasoning": "PureTech 130 (psa-puretech-12) motor ailesinin temel puanı 34. Bu aracın motor puanı (34) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ banyolu triger kayışının (wet belt) kopması veya gerilmesi; parçaların yağ sistemine karışıp motor bloğu hasarına yol açabilmesi. Bu puan 'kumar' bandına giriyor: Birden fazla kaynak, düşük kilometrede motoru komple bitirebilecek bir arıza örüntüsünü doğruluyor; belgeli bakım geçmişi olmadan almak risk kabul ediliyor.",
       "assessed_at": "2026-08-07"

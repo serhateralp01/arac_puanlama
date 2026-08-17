@@ -33,11 +33,12 @@
     "liq": 56
   },
   "sources": [
-    "donanimhaber_puretech_triger",
-    "sikayetvar_c3aircross_otomatik",
-    "trbox",
     "asrgearbox_eat6",
-    "drivisual_puretech_wetbelt"
+    "donanimhaber_puretech_triger",
+    "drivisual_puretech_wetbelt",
+    "parkers_puretech_recall",
+    "sikayetvar_c3aircross_otomatik",
+    "trbox"
   ],
   "note": "PSA'nın küçük SUV'u; aynı yağ banyolu triger kayışlı 1.2 PureTech'i taşıyor (psa-puretech-12, listede zaten kayıtlı), ama daha küçük/eski Aisin EAT6 kutusuyla eşleşiyor (2008/208'in EAT8'inden farklı). Şikayetvar'da bildirilen iki çok düşük kilometreli (220 km, 2.000 km) vites arızası izole/erken üretim hatası olarak değerlendirildi; EAT6 ailesinin genel temel puanını değiştirmedi ama bu aracın trans puanı temkinli biçimde ailenin temel puanının biraz altında tutuldu.",
   "provenance": {
@@ -51,6 +52,7 @@
       "confidence": "düşük",
       "sources": [
         "donanimhaber_puretech_triger",
+        "parkers_puretech_recall",
         "sikayetvar_c3aircross_otomatik"
       ],
       "reasoning": "PureTech 130 (psa-puretech-12) motor ailesinin temel puanı 34. Bu aracın motor puanı (34) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ banyolu triger kayışının (wet belt) kopması veya gerilmesi; parçaların yağ sistemine karışıp motor bloğu hasarına yol açabilmesi. Bu puan 'kumar' bandına giriyor: Birden fazla kaynak, düşük kilometrede motoru komple bitirebilecek bir arıza örüntüsünü doğruluyor; belgeli bakım geçmişi olmadan almak risk kabul ediliyor.",

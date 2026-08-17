@@ -33,10 +33,11 @@
     "liq": 66
   },
   "sources": [
-    "donanimhaber_puretech_triger",
-    "trbox",
     "asrgearbox_eat6",
-    "drivisual_puretech_wetbelt"
+    "donanimhaber_puretech_triger",
+    "drivisual_puretech_wetbelt",
+    "parkers_puretech_recall",
+    "trbox"
   ],
   "note": "Cactus'un face-lift sonrası (2018+) 110hp PureTech'i; motor (psa-puretech-12) ve kutu (aisin-eat6) listede C3 Aircross'ta zaten kayıtlı aynı eşleşme, burada Cactus'un daha hafif ve daha basit donanımlı gövdesine eşleştirildi.",
   "provenance": {
@@ -48,7 +49,8 @@
       "band": "kumar",
       "confidence": "düşük",
       "sources": [
-        "donanimhaber_puretech_triger"
+        "donanimhaber_puretech_triger",
+        "parkers_puretech_recall"
       ],
       "reasoning": "PureTech 130 (psa-puretech-12) motor ailesinin temel puanı 34. Bu aracın motor puanı (34) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ banyolu triger kayışının (wet belt) kopması veya gerilmesi; parçaların yağ sistemine karışıp motor bloğu hasarına yol açabilmesi. Bu puan 'kumar' bandına giriyor: Birden fazla kaynak, düşük kilometrede motoru komple bitirebilecek bir arıza örüntüsünü doğruluyor; belgeli bakım geçmişi olmadan almak risk kabul ediliyor.",
       "assessed_at": "2026-08-07"

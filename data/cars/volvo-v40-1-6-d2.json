@@ -39,6 +39,7 @@
     "autodoc_volvo_powershift",
     "propeugeotspares_16hdi_egr",
     "v40d2",
+    "vargas_ford_dps6_uzlasma",
     "volvops"
   ],
   "note": "V40 gövdesi hafif olduğu için sürmesi keyifli olsa da, 1.6 dizel motor ile Powershift kutunun birleşimi S60’daki riskin aynısını taşıyor. Bu kombinasyondan uzak durun.",
@@ -63,7 +64,8 @@
       "band": "düşük km'de felaket, çoklu kaynak",
       "confidence": "orta",
       "sources": [
-        "autodoc_volvo_powershift"
+        "autodoc_volvo_powershift",
+        "vargas_ford_dps6_uzlasma"
       ],
       "reasoning": "Volvo Powershift (kuru) (volvo-powershift-kuru) şanzıman ailesinin temel puanı 32. Bu aracın trans puanı (32) temel puanla birebir aynı; puan 2026-08-13'te 28'dan indirildi çünkü arızanın ortaya çıktığı kilometre ölçüldü. Kaynak, sarsıntılı geçiş ve olağandışı seslerin 40.000-60.000 km gibi düşük kilometrelerde başladığını, birçok araçta 80.000-100.000 km sonrasında komple kavrama değişimi gerektiğini bildiriyor. Bu puan \"düşük km'de felaket, çoklu kaynak\" bandına giriyor. Kutunun üç yılda bir yağ ve filtre değişimi istediği, ama birçok sahibin ve bazı yetkili servislerin bunu bilmediği belirtiliyor.",
       "assessed_at": "2026-08-13"
