@@ -2018,7 +2018,7 @@
       "years": "2011-2018",
       "specs": {
         "hp": 136,
-        "torque_nm": 441.0,
+        "torque_nm": 330.0,
         "displacement_l": 1.7,
         "fuel": "Dizel",
         "drivetrain": "Önden",
@@ -2032,7 +2032,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "spec_corrected"
+      ],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
         "tech-on-com-cars-hyundai-i40-saloon-2011-html"
@@ -2044,7 +2046,9 @@
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i40-saloon-2011.html",
         "rejected_label": null,
-        "manually_corrected_fields": null
+        "manually_corrected_fields": [
+          "torque_nm"
+        ]
       }
     },
     {

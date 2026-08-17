@@ -303,6 +303,11 @@ MANUAL_SPEC_CORRECTIONS = {
     # değer 156 Nm (aynı hata puanlanmış suzuki-sx4-1-6 kaydında da vardı ve
     # oradan da düzeltildi).
     "sig-19ae84c75d2f66a5a4": {"torque_nm": 156.0},
+    # Hyundai i40 1.7 CRDi Executive (2011-2018): kayıtlı 441 Nm gerçek değil;
+    # dosyadaki 3 diğer "i40 1.7 CRDi 136 bg" kaydı 320-329 Nm gösteriyor ve
+    # WebSearch (auto-data.net, automobile-catalog.com, motoreu.com) gerçek
+    # değerin ~330 Nm olduğunu doğruladı (2026-08-17).
+    "sig-14d22d951c939d35b5": {"torque_nm": 330.0},
     # Peugeot 301 1.6 HDi (DV6 motoru): kayıtlı 115 bg / 150 Nm, aslında 1.6 VTi
     # BENZİNLİ varyantının rakamları (aynı çelişki, aynı hata sınıfı puanlanmış
     # peugeot-301-1-6-hdi kaydında bulunmuştu). 301'in 115 bg'lik bir HDi

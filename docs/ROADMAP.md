@@ -1084,6 +1084,33 @@ gerçekte doğru kayıtlar da kontrol edildi, dokunulmadı.
 
 **Sonuç.** `validate.py` 0 hata, `smoke_test.js` 68/68.
 
+### Yöntem değişti: marka-marka elle taramadan tüm katalogda otomatik aykırı-değer taramasına (2026-08-17)
+
+**Neden değişti.** Hyundai, Volvo, Ford, Peugeot ve Citroën kümeleri elle tek tek
+tarandı (Mercedes/BMW'deki gibi mantıksız yıl/rozet birleşimi arandı) ve hepsi temiz
+çıktı — getiri belirgin biçimde azaldı. Skoda'daki gerçek hatayı (Octavia Scout 434 Nm)
+bulan asıl şey yıl mantığı değil, **aynı rozet+beygirdeki kardeş kayıtlardan sapma**
+oldu. Bu yüzden yöntem, kalan ~30 markayı tek tek elle taramak yerine, **48 marka
+dosyasının tamamını tek geçişte** (marka, model ailesi, yakıt, beygir, hacim) gruplayıp
+grup medyanından **%15'ten fazla sapan tork** değerlerini otomatik bulan bir betiğe
+döndü.
+
+**Bulgu: tüm katalogda yalnızca 1 gerçek hata kaldı.** "Hyundai i40 1.7 CRDi Executive
+· 136 bg" (2011-2018) 441 Nm taşıyordu; dosyadaki 3 diğer aynı-badge kayıt 320-329 Nm.
+WebSearch (auto-data.net, automobile-catalog.com, motoreu.com) gerçek değerin ~330 Nm
+olduğunu doğruladı. Düzeltildi, `MANUAL_SPEC_CORRECTIONS`'a işlendi. Taramanın ilk
+sürümü (hacimsiz gruplama) BMW 1 Serisi ve Citroën C3'te de "aykırı değer" buldu ama
+ikisi de incelenince gerçekte **farklı iki motorun** (ör. Citroën C3 1.2 PureTech
+110bg/205Nm vs 1.6 110bg/147Nm) hp'sinin tesadüfen çakışması çıktı — gruplama anahtarına
+`displacement_l` eklenince bu yanlış pozitifler kayboldu. Kalan tek aykırı değer
+(Citroën C5 e-HDi 115bg, 2014, 285 Nm vs 240 Nm) WebSearch'te üçüncü bir değer (270 Nm)
+bulundu ve hangisinin doğru olduğu netleşmediği için **dokunulmadı**.
+
+**Sonuç.** `validate.py` 0 hata, `smoke_test.js` 68/68. Katalogdaki bilinen hata sayısı:
+Mercedes 3.0 dizel (6 düzeltildi + 5 işaretlendi), BMW 2.0 benzin (7 işaretlendi), Skoda
+Octavia Scout (1 düzeltildi), Hyundai i40 (1 düzeltildi) — toplam 20 kayıt dokunuldu,
+geri kalan ~1.183 katalog-yalnız kayıt bu taramadan temiz çıktı.
+
 ---
 
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
