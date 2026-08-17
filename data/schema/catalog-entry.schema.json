@@ -192,6 +192,16 @@
             "null"
           ],
           "description": "Kaynak verideki etiket, kendisiyle uyumlu üç alana (yakıt, hacim, tork) karşı çelişiyorsa atıldı ve ad doğrulanmış alanlardan yeniden kuruldu. Atılan etiket burada saklanır ki düzeltme geri izlenebilsin."
+        },
+        "manually_corrected_fields": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "description": "Bu kayıtta hangi specs alanlarının tek tek doğrulanıp elle düzeltildiği (scripts/import_catalog.py MANUAL_SPEC_CORRECTIONS). Boşsa hiçbir alan düzeltilmedi."
         }
       }
     }

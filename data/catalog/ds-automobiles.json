@@ -39,7 +39,8 @@
         "source_variant_id": "sig-1e9dffbe8647d1b256",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/citroen-ds3-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -78,7 +79,8 @@
         "source_variant_id": "sig-edec5b1aa41df4e06d",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/citroen-ds3-cabrio-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -117,7 +119,8 @@
         "source_variant_id": "sig-e1bba39a7cec2ccdfd",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/citroen-ds3-cabrio-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -156,7 +159,8 @@
         "source_variant_id": "sig-a308d0749d2922bbc3",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/citroen-ds3-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

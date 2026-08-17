@@ -37,7 +37,8 @@
         "source_variant_id": "sig-bf585a7b1c97fecd89",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-altea-xl-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-4314fe153ed7f8ef05",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-altea-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -111,7 +113,8 @@
         "source_variant_id": "sig-43a2d97520ed982945",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-altea-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -148,7 +151,8 @@
         "source_variant_id": "sig-ba255d5c22c97d81fc",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-arona-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -185,7 +189,8 @@
         "source_variant_id": "sig-8f785dda9f09378857",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-ateca-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -222,7 +227,8 @@
         "source_variant_id": "sig-bab5d615bec604829a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-exeo-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -259,7 +265,8 @@
         "source_variant_id": "sig-7883f92234aa695ef8",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/seat-ibiza-5-doors-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -296,7 +303,8 @@
         "source_variant_id": "sig-fd7ffb81722aa63a4e",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-ibiza-5-doors-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -333,7 +341,8 @@
         "source_variant_id": "sig-dfe198a287582a5278",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-ibiza-fr-5-doors-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -370,7 +379,8 @@
         "source_variant_id": "sig-4e4ce1484839a0d5b5",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-ibiza-fr-sport-coupe-sc-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -407,7 +417,8 @@
         "source_variant_id": "sig-bd82028673ba4e87ec",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-ibiza-fr-5-doors-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -444,7 +455,8 @@
         "source_variant_id": "sig-54264f27768dfeb8cb",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-ibiza-st-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -483,7 +495,8 @@
         "source_variant_id": "sig-4db811dfd7e43241a3",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/seat-ibiza-5-doors-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -522,7 +535,8 @@
         "source_variant_id": "sig-fa1fbf9ceaa15c947c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/seat-ibiza-5-doors-2017-1.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -559,7 +573,8 @@
         "source_variant_id": "sig-b0b9a0c045c5eb8b36",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/seat-ibiza-5-doors-2017-1.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -596,7 +611,8 @@
         "source_variant_id": "sig-093cf074f159057865",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/seat-leon-sc-3-doors-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -633,7 +649,8 @@
         "source_variant_id": "sig-1b4f02586c2e427085",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-leon-sc-3-doors-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -670,7 +687,8 @@
         "source_variant_id": "sig-b90c0fdd86ab7c0135",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-leon-st-estate-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -707,7 +725,8 @@
         "source_variant_id": "sig-5aafbfd8ad69b6284d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-leon-5-doors-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -744,7 +763,8 @@
         "source_variant_id": "sig-605c686dd0b6775197",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-leon-sc-3-doors-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -781,7 +801,8 @@
         "source_variant_id": "sig-d78540b02a3509c454",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-leon-st-estate-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -819,7 +840,8 @@
         "source_variant_id": "sig-696db784982f6b10e1",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -856,7 +878,8 @@
         "source_variant_id": "sig-8065a61378c6fad50e",
         "publication_status": "scored",
         "technical_url": "https://www.seat-cupra-mediacenter.es/SEAT-Brand/presskits/leon/engines",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -893,7 +916,8 @@
         "source_variant_id": "sig-6dcaa443f1743f7a78",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-leon-5-doors-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -930,7 +954,8 @@
         "source_variant_id": "sig-926a04c7ad88aca730",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-leon-sc-3-doors-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -967,7 +992,8 @@
         "source_variant_id": "sig-9ed55a43a36f002b61",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-leon-st-estate-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1004,7 +1030,8 @@
         "source_variant_id": "sig-a9a83fd513b98c67b4",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-leon-sc-3-doors-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1041,7 +1068,8 @@
         "source_variant_id": "sig-8916c95efa2fabfbe0",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-toledo-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1078,7 +1106,8 @@
         "source_variant_id": "sig-5a08841b81121b375a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-toledo-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1117,7 +1146,8 @@
         "source_variant_id": "sig-9e8f91ea03dac12614",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/seat-toledo-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

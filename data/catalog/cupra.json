@@ -39,7 +39,8 @@
         "source_variant_id": "p21-2c27be1f23f30b882c",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.araclo.com/blog/cupra-formentor-alinir-mi-kronik-sorunlari-kullanici-yorumlari-ve-tum-detaylar-2026",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

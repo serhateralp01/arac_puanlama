@@ -37,7 +37,8 @@
         "source_variant_id": "sig-e86b5587b730982c82",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/ssangyong-actyon-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-cdad1eae4f91e3a96f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/ssangyong-korando-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -112,7 +114,8 @@
         "source_variant_id": "sig-39ade48f4205bbad18",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -149,7 +152,8 @@
         "source_variant_id": "sig-2529c84a37bfb0d38e",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/ssangyong-rexton-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -187,7 +191,8 @@
         "source_variant_id": "sig-8992c80927983af230",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -224,7 +229,8 @@
         "source_variant_id": "sig-29e3e6103eacb0c90f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/ssangyong-tivoli-xlv-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

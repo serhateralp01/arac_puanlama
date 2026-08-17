@@ -37,7 +37,8 @@
         "source_variant_id": "sig-d90574a33497048d54",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-c30-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-8d3c572cd5cf9c729f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-c30-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -111,7 +113,8 @@
         "source_variant_id": "sig-b69912f62f25b77a46",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-c70-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -148,7 +151,8 @@
         "source_variant_id": "sig-061423596aa136f030",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s40-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -185,7 +189,8 @@
         "source_variant_id": "sig-40fc7be25402e05c35",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s40-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -222,7 +227,8 @@
         "source_variant_id": "sig-5df410951d9bd317af",
         "publication_status": "scored",
         "technical_url": "https://news.cision.com/de/volvo-car-germany-presse/r/volvo-s60-langfassung--my-2016%2Cc4188324",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -261,7 +267,8 @@
         "source_variant_id": "sig-eb0322fac2ace392cd",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -300,7 +307,8 @@
         "source_variant_id": "sig-bccb550f1ed8d8352b",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -339,7 +347,8 @@
         "source_variant_id": "sig-e6e8c04d3375460f94",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -378,7 +387,8 @@
         "source_variant_id": "sig-9b1e480fe238505c14",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -417,7 +427,8 @@
         "source_variant_id": "sig-7e7530eedca34bd07a",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -454,7 +465,8 @@
         "source_variant_id": "sig-83e85aecef0f5db4e8",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -494,7 +506,8 @@
         "source_variant_id": "sig-89dc65a91af985da6c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": "S60 1.5 T3 · 115 bg"
+        "rejected_label": "S60 1.5 T3 · 115 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -533,7 +546,8 @@
         "source_variant_id": "sig-e0b678e4d8103de217",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -572,7 +586,8 @@
         "source_variant_id": "sig-7952adea4bb887066b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -611,7 +626,8 @@
         "source_variant_id": "sig-1e126b9248304177b2",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -650,7 +666,8 @@
         "source_variant_id": "sig-b26d8a2e80cfd32736",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -689,7 +706,8 @@
         "source_variant_id": "sig-c3f89ec33df4e3d09c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -728,7 +746,8 @@
         "source_variant_id": "sig-a50baf90e266593455",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -765,7 +784,8 @@
         "source_variant_id": "sig-107e7090cb6b9489eb",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -804,7 +824,8 @@
         "source_variant_id": "sig-f52cabc24a1cf01b82",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-cross-country-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -843,7 +864,8 @@
         "source_variant_id": "sig-281720c3c3f8d58c33",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -882,7 +904,8 @@
         "source_variant_id": "sig-77248037426d538c00",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-cross-country-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -921,7 +944,8 @@
         "source_variant_id": "sig-afd63695aa106039df",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -960,7 +984,8 @@
         "source_variant_id": "sig-39ad455f2c9599cced",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -999,7 +1024,8 @@
         "source_variant_id": "sig-914647071e6db0c55c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1038,7 +1064,8 @@
         "source_variant_id": "sig-c4528cb819e35cd4c5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1077,7 +1104,8 @@
         "source_variant_id": "sig-1dbff77cb3a9543309",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1116,7 +1144,8 @@
         "source_variant_id": "sig-cd31cb262bf98cfd72",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1153,7 +1182,8 @@
         "source_variant_id": "sig-5527bcdd620d697c87",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1193,7 +1223,8 @@
         "source_variant_id": "sig-f7770048965a1c5c51",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html",
-        "rejected_label": "S60 2.3 T5 · 163 bg"
+        "rejected_label": "S60 2.3 T5 · 163 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1233,7 +1264,8 @@
         "source_variant_id": "sig-cdc5d112f798a8ffc4",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html",
-        "rejected_label": "S60 2.3 T5 · 185 bg"
+        "rejected_label": "S60 2.3 T5 · 185 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1273,7 +1305,8 @@
         "source_variant_id": "sig-295e4b63f4a2cdf90e",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": "S60 2.3 T5 · 205 bg"
+        "rejected_label": "S60 2.3 T5 · 205 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1312,7 +1345,8 @@
         "source_variant_id": "sig-65e78557ac123b89c3",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-cross-country-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1351,7 +1385,8 @@
         "source_variant_id": "sig-17455ef2fc49f9aa88",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1390,7 +1425,8 @@
         "source_variant_id": "sig-5c54035a70d3638129",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1429,7 +1465,8 @@
         "source_variant_id": "sig-33974089739739c7a8",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1468,7 +1505,8 @@
         "source_variant_id": "sig-7bd3689939ef05c4b1",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1507,7 +1545,8 @@
         "source_variant_id": "sig-f51653e846c11b4720",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1544,7 +1583,8 @@
         "source_variant_id": "sig-53d0b243ead751d7ff",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1581,7 +1621,8 @@
         "source_variant_id": "sig-046329b67160442900",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1618,7 +1659,8 @@
         "source_variant_id": "sig-e47b04f1f9ff4ada71",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s60-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1657,7 +1699,8 @@
         "source_variant_id": "sig-7d94eb5a764a8cff6f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1696,7 +1739,8 @@
         "source_variant_id": "sig-b40d3dc5f9e7cbc854",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1735,7 +1779,8 @@
         "source_variant_id": "sig-2a971d1d769292ac0e",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1774,7 +1819,8 @@
         "source_variant_id": "sig-952052e1e4415282f4",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1811,7 +1857,8 @@
         "source_variant_id": "sig-ca7a11548f39f2e9a9",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1850,7 +1897,8 @@
         "source_variant_id": "sig-56fa7814c7d884ee02",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1889,7 +1937,8 @@
         "source_variant_id": "sig-8137d6d0812a8b0581",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1928,7 +1977,8 @@
         "source_variant_id": "sig-3244f8aee6965d342f",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1967,7 +2017,8 @@
         "source_variant_id": "sig-bb5b6681edf508466d",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2006,7 +2057,8 @@
         "source_variant_id": "sig-644c7fd4ad42a88626",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2045,7 +2097,8 @@
         "source_variant_id": "sig-f10cb2412ee9342e7d",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2084,7 +2137,8 @@
         "source_variant_id": "sig-5bd206077eb4645968",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2123,7 +2177,8 @@
         "source_variant_id": "sig-8cbc0a2336b0b0f42b",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2162,7 +2217,8 @@
         "source_variant_id": "sig-b4fd379ede2554549b",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2201,7 +2257,8 @@
         "source_variant_id": "sig-dca511bdb337672e21",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2240,7 +2297,8 @@
         "source_variant_id": "sig-9ed202cc7afb5aab95",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2277,7 +2335,8 @@
         "source_variant_id": "sig-48e938248d6cb97b53",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2316,7 +2375,8 @@
         "source_variant_id": "sig-d573add231f846c5d0",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2355,7 +2415,8 @@
         "source_variant_id": "sig-1df89db58c540d1022",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2394,7 +2455,8 @@
         "source_variant_id": "sig-968e0d292fe2e34817",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2433,7 +2495,8 @@
         "source_variant_id": "sig-d9e53219450af1942b",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2472,7 +2535,8 @@
         "source_variant_id": "sig-18a74b29223dd40324",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2509,7 +2573,8 @@
         "source_variant_id": "sig-8aef9bb7b6a27300f4",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2546,7 +2611,8 @@
         "source_variant_id": "sig-4a5566966d5eed3ccc",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-s80-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2583,7 +2649,8 @@
         "source_variant_id": "sig-2bd99a78e3e8b93e23",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2622,7 +2689,8 @@
         "source_variant_id": "sig-632e903c68a4a2e005",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2661,7 +2729,8 @@
         "source_variant_id": "sig-7c3a4d3e24c2213876",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v40-cross-country-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2700,7 +2769,8 @@
         "source_variant_id": "sig-61ee002af95da455f4",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2740,7 +2810,8 @@
         "source_variant_id": "sig-06e9c21c4acaef69c2",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2779,7 +2850,8 @@
         "source_variant_id": "sig-08ed152f5a87194fa8",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2816,7 +2888,8 @@
         "source_variant_id": "sig-0dd9bb58261443b68d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v40-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2853,7 +2926,8 @@
         "source_variant_id": "sig-8743fde66adb5920b7",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v50-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2890,7 +2964,8 @@
         "source_variant_id": "sig-93b89081c70fbabeee",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v50-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2930,7 +3005,8 @@
         "source_variant_id": "sig-2abe4897014eea0d05",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2010.html",
-        "rejected_label": "V60 1.6 T4 · 115 bg"
+        "rejected_label": "V60 1.6 T4 · 115 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2970,7 +3046,8 @@
         "source_variant_id": "sig-8b901cb7fdd882ad50",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2014.html",
-        "rejected_label": "V60 1.6 T4 · 115 bg"
+        "rejected_label": "V60 1.6 T4 · 115 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3010,7 +3087,8 @@
         "source_variant_id": "sig-8e43b7a5d18dc25a4b",
         "publication_status": "held_incomplete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3049,7 +3127,8 @@
         "source_variant_id": "sig-6b013c57e9add3f814",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3088,7 +3167,8 @@
         "source_variant_id": "sig-4a5187468f8c7de79a",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3127,7 +3207,8 @@
         "source_variant_id": "sig-eac019066e7075ed8e",
         "publication_status": "held_conflict",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3164,7 +3245,8 @@
         "source_variant_id": "sig-bfe8e9a274f53f7a95",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v60-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3203,7 +3285,8 @@
         "source_variant_id": "sig-d7ed23232171c86bdb",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3242,7 +3325,8 @@
         "source_variant_id": "sig-584182fe8247b112df",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3281,7 +3365,8 @@
         "source_variant_id": "sig-6845055b1c5b57d338",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3320,7 +3405,8 @@
         "source_variant_id": "sig-c50399f6fb00070f91",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3360,7 +3446,8 @@
         "source_variant_id": "sig-808dc91f881d495acb",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html",
-        "rejected_label": "V70 2.4 D5 · 200 bg"
+        "rejected_label": "V70 2.4 D5 · 200 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3400,7 +3487,8 @@
         "source_variant_id": "sig-3537a790f73002c162",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html",
-        "rejected_label": "V70 2.4 D5 · 200 bg"
+        "rejected_label": "V70 2.4 D5 · 200 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3437,7 +3525,8 @@
         "source_variant_id": "sig-52ff1633f8fb2ea812",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3474,7 +3563,8 @@
         "source_variant_id": "sig-b005bc98fc82d809c6",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-v70-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3511,7 +3601,8 @@
         "source_variant_id": "sig-bfbe0ddd6ac0cf9b46",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-xc60-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3548,7 +3639,8 @@
         "source_variant_id": "sig-d6ba017887a7878a90",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-xc70-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3585,7 +3677,8 @@
         "source_variant_id": "sig-b6e2d995790225b1d3",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-xc70-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3622,7 +3715,8 @@
         "source_variant_id": "sig-90714843109809fdbe",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volvo-xc90-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

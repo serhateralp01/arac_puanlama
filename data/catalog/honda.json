@@ -37,7 +37,8 @@
         "source_variant_id": "sig-c527ed746542411832",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-cc62e58845983dd7f9",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -111,7 +113,8 @@
         "source_variant_id": "sig-34db6d6197160bfc5f",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-5-doors-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -148,7 +151,8 @@
         "source_variant_id": "sig-c72eb77cad6468f83d",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -185,7 +189,8 @@
         "source_variant_id": "sig-ec17afc6d4e3e2143a",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -222,7 +227,8 @@
         "source_variant_id": "sig-6d4c9e5f3252594357",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -259,7 +265,8 @@
         "source_variant_id": "sig-c7704c35c0f76c393a",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -296,7 +303,8 @@
         "source_variant_id": "sig-4001afb0d370a37bc3",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -333,7 +341,8 @@
         "source_variant_id": "sig-38967215b555340a1d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -370,7 +379,8 @@
         "source_variant_id": "sig-0e889ac2466197174f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -407,7 +417,8 @@
         "source_variant_id": "sig-a959ce352fedba80fd",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -444,7 +455,8 @@
         "source_variant_id": "sig-e939752fda38b26393",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -481,7 +493,8 @@
         "source_variant_id": "sig-dd899ea55a13aa490a",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -518,7 +531,8 @@
         "source_variant_id": "sig-ac91024c5185a33674",
         "publication_status": "held_conflict",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -555,7 +569,8 @@
         "source_variant_id": "sig-cdd9096415365e2266",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-4-doors-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -592,7 +607,8 @@
         "source_variant_id": "sig-fceda28e047471da55",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -629,7 +645,8 @@
         "source_variant_id": "sig-75d9e46eaa6a4e2215",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-accord-tourer-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -666,7 +683,8 @@
         "source_variant_id": "sig-d339716bda92b0f070",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-cr-v-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -703,7 +721,8 @@
         "source_variant_id": "sig-b0b98fb3f8f459b888",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-honda-cr-v-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -740,7 +759,8 @@
         "source_variant_id": "sig-d6c38681d3f6c616d8",
         "publication_status": "scored",
         "technical_url": "https://hondanews.eu/eu/fi/cars/media/pressreleases/627/kiev-automotive-show-2007",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -777,7 +797,8 @@
         "source_variant_id": "sig-e491880aeffea691a0",
         "publication_status": "scored",
         "technical_url": "https://global.honda/en/newsroom/worldnews/2008/c080925Third-Generation-City-India.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -816,7 +837,8 @@
         "source_variant_id": "sig-e385b8019482491226",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-coupe-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -855,7 +877,8 @@
         "source_variant_id": "sig-98e91d6cb36ee2584f",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-sedan-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -894,7 +917,8 @@
         "source_variant_id": "sig-b14aec7847bc3d6eaf",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -933,7 +957,8 @@
         "source_variant_id": "sig-2eb9cb584aa9e06d44",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -972,7 +997,8 @@
         "source_variant_id": "sig-619c1aaf3759f04bf4",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1011,7 +1037,8 @@
         "source_variant_id": "sig-35e8312d3304c633d5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1048,7 +1075,8 @@
         "source_variant_id": "sig-43d48cbefa8e6670de",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-coupe-1996.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1085,7 +1113,8 @@
         "source_variant_id": "sig-e3dbba2bbd8f886b7a",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-coupe-1996.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1124,7 +1153,8 @@
         "source_variant_id": "sig-705f459c4c4b71adaa",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-coupe-1996.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1163,7 +1193,8 @@
         "source_variant_id": "sig-a946f9489f23d66f74",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-3-doors-1995.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1200,7 +1231,8 @@
         "source_variant_id": "sig-2feb927fa3f9e3455a",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-coupe-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1237,7 +1269,8 @@
         "source_variant_id": "sig-482f04004488eb456a",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1276,7 +1309,8 @@
         "source_variant_id": "sig-eb122f2ae16b1694c7",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-hatchback-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1313,7 +1347,8 @@
         "source_variant_id": "sig-d0dcca849f0061eae8",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1350,7 +1385,8 @@
         "source_variant_id": "sig-79cd2b0ef8024c62d5",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-hatural-gas-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1387,7 +1423,8 @@
         "source_variant_id": "sig-dd4dbd4ea751b3c96d",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1426,7 +1463,8 @@
         "source_variant_id": "sig-6c7f5a16bf7ea1dee2",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1463,7 +1501,8 @@
         "source_variant_id": "sig-a3b733cd89801d1c6d",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1502,7 +1541,8 @@
         "source_variant_id": "sig-37aea577085b6d5706",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-type-s-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1541,7 +1581,8 @@
         "source_variant_id": "sig-3c6b8b30cdab407d96",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-5-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1578,7 +1619,8 @@
         "source_variant_id": "sig-95bbbef6ace5da868d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1615,7 +1657,8 @@
         "source_variant_id": "sig-dce9b4a7902aa6e6c3",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-sedan-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1652,7 +1695,8 @@
         "source_variant_id": "sig-82fe597dced0107de6",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-civic-sedan-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1690,7 +1734,8 @@
         "source_variant_id": "sig-e49302584e7d97dfd2",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1727,7 +1772,8 @@
         "source_variant_id": "sig-0a3e00a913ce8292b2",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/honda-jazz-fit-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1766,7 +1812,8 @@
         "source_variant_id": "sig-93cb7ff9a74bc9d463",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-jazz-fit-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1805,7 +1852,8 @@
         "source_variant_id": "sig-2454143d187bc97ca7",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/honda-jazz-fit-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

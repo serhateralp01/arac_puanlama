@@ -38,7 +38,8 @@
         "source_variant_id": "sig-7f52b30d66e4b3904c",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -75,7 +76,8 @@
         "source_variant_id": "sig-be687bb510321b99e6",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/daihatsu-terios-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

@@ -40,7 +40,8 @@
         "source_variant_id": "p21-233533bed5ea9528f5",
         "publication_status": "candidate_resolved",
         "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -80,7 +81,8 @@
         "source_variant_id": "p21-2c54a9281b31bb373a",
         "publication_status": "candidate_resolved",
         "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -117,7 +119,8 @@
         "source_variant_id": "sig-b91e6a546266ffe13c",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-beetle-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -154,7 +157,8 @@
         "source_variant_id": "sig-c4fac9d737c974e1b5",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-1998.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -193,7 +197,8 @@
         "source_variant_id": "sig-258dcd9a7d888a6c22",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-1998.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -232,7 +237,8 @@
         "source_variant_id": "sig-eb03679ec74476899a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-1998.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -271,7 +277,8 @@
         "source_variant_id": "sig-952be4e6899280e25d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-variant-1999.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -310,7 +317,8 @@
         "source_variant_id": "sig-51bd2dc13c7fb70795",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-1998.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -349,7 +357,8 @@
         "source_variant_id": "sig-2ceac3c806100e9091",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-bora-variant-1999.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -386,7 +395,8 @@
         "source_variant_id": "sig-f017d179c6e5d400e7",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-cc-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -423,7 +433,8 @@
         "source_variant_id": "sig-b3b89bab3f17a3f9ff",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-eos-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -460,7 +471,8 @@
         "source_variant_id": "sig-1503c91a36ea827667",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-sportsvan-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -499,7 +511,8 @@
         "source_variant_id": "sig-9478e0b0dc007cbb46",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -536,7 +549,8 @@
         "source_variant_id": "sig-53d35f090bd2080436",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-3-doors-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -573,7 +587,8 @@
         "source_variant_id": "sig-7abb70e80d436055a8",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-variant-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -610,7 +625,8 @@
         "source_variant_id": "sig-e8e54c04aaed143154",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-5-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -647,7 +663,8 @@
         "source_variant_id": "sig-4149219e81e042912d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -684,7 +701,8 @@
         "source_variant_id": "sig-ab98f630ed15e63aad",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-5-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -721,7 +739,8 @@
         "source_variant_id": "sig-91bbf5c2a7f443ecb2",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-variant-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -758,7 +777,8 @@
         "source_variant_id": "sig-116bdec99016abde27",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-variant-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -795,7 +815,8 @@
         "source_variant_id": "sig-639ae81e54ced3268e",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-3-doors-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -832,7 +853,8 @@
         "source_variant_id": "sig-dde93e45f35c9575cb",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -869,7 +891,8 @@
         "source_variant_id": "sig-4112c8ccdbab553da8",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -906,7 +929,8 @@
         "source_variant_id": "sig-46af20a99c503ccf78",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -943,7 +967,8 @@
         "source_variant_id": "sig-56a476fae844a61c57",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -980,7 +1005,8 @@
         "source_variant_id": "sig-7e1969d19cdd08217b",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-5-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1017,7 +1043,8 @@
         "source_variant_id": "sig-6a3117bf56394a6d15",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1054,7 +1081,8 @@
         "source_variant_id": "sig-6ec219006560cb1c8a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1091,7 +1119,8 @@
         "source_variant_id": "sig-19c1d060e1d9abd37b",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-5-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1128,7 +1157,8 @@
         "source_variant_id": "sig-9a247d1f42566d0cee",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-iv-5-doors-1997.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1165,7 +1195,8 @@
         "source_variant_id": "sig-f89a7443cd766ec7fb",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-iv-5-doors-1997.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1202,7 +1233,8 @@
         "source_variant_id": "sig-d0e72e3d62ca71db29",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-sportsvan-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1239,7 +1271,8 @@
         "source_variant_id": "sig-f8e1b781089181cfca",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-variant-2020.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1276,7 +1309,8 @@
         "source_variant_id": "sig-a999d014c05587d59a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-sportsvan-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1313,7 +1347,8 @@
         "source_variant_id": "sig-c577236db9f7217660",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1350,7 +1385,8 @@
         "source_variant_id": "sig-a870dae4a2cad8ffab",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1387,7 +1423,8 @@
         "source_variant_id": "sig-2c0cb98f94f44401bf",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-variant-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1424,7 +1461,8 @@
         "source_variant_id": "sig-e431521bf23e01a94f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-3-doors-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1461,7 +1499,8 @@
         "source_variant_id": "sig-3eb737bc9a1446bfdb",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-variant-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1498,7 +1537,8 @@
         "source_variant_id": "sig-991d1e595748dd507f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-sportsvan-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1535,7 +1575,8 @@
         "source_variant_id": "sig-e7731ce5ec4a8985da",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1572,7 +1613,8 @@
         "source_variant_id": "sig-fec3eb5a5e335565c8",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1609,7 +1651,8 @@
         "source_variant_id": "sig-f71f27774d28e36af5",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-5-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1646,7 +1689,8 @@
         "source_variant_id": "sig-b37b02bb23ffe1995a",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1683,7 +1727,8 @@
         "source_variant_id": "sig-c2b60d12a71b4bf029",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1720,7 +1765,8 @@
         "source_variant_id": "sig-e81a902ce53dbbb219",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1757,7 +1803,8 @@
         "source_variant_id": "sig-99789a54ffb3f20bff",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-variant-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1796,7 +1843,8 @@
         "source_variant_id": "sig-0d60557ba5f3bf4a69",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1835,7 +1883,8 @@
         "source_variant_id": "sig-3d8f22822131314353",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1872,7 +1921,8 @@
         "source_variant_id": "sig-295cede9d07f943fd4",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1911,7 +1961,8 @@
         "source_variant_id": "sig-d3095991535cd364c7",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1950,7 +2001,8 @@
         "source_variant_id": "sig-8598619f5d0a02dddc",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1987,7 +2039,8 @@
         "source_variant_id": "sig-7f05984b238e74f9ad",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2024,7 +2077,8 @@
         "source_variant_id": "sig-829b15b196a3959b87",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-plus-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2061,7 +2115,8 @@
         "source_variant_id": "sig-74190bd62d9b99d734",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2098,7 +2153,8 @@
         "source_variant_id": "sig-c4a802753664d79a47",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2135,7 +2191,8 @@
         "source_variant_id": "sig-6700b88eab6b7272ef",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2172,7 +2229,8 @@
         "source_variant_id": "sig-e47370d90534bbb773",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2209,7 +2267,8 @@
         "source_variant_id": "sig-c8adeac193fa9d15c9",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2248,7 +2307,8 @@
         "source_variant_id": "sig-29c22a62c7978b7b73",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-v-variant-jetta-sportwagon-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2285,7 +2345,8 @@
         "source_variant_id": "sig-68ac2802c7d15bf646",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2322,7 +2383,8 @@
         "source_variant_id": "sig-319d184f6fff8738cd",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2361,7 +2423,8 @@
         "source_variant_id": "sig-6eaba7b966e2bc1318",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2400,7 +2463,8 @@
         "source_variant_id": "sig-06d2d9067bcb9443f6",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2439,7 +2503,8 @@
         "source_variant_id": "sig-5af50ab75294ba09c3",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2476,7 +2541,8 @@
         "source_variant_id": "sig-8a2e13eee88e7e58f9",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-beetle-1998.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2513,7 +2579,8 @@
         "source_variant_id": "sig-38b7c8f594496bcf5b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2552,7 +2619,8 @@
         "source_variant_id": "sig-f7d2724a91b0f8c92b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2589,7 +2657,8 @@
         "source_variant_id": "sig-6b8f76869a4635734b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2626,7 +2695,8 @@
         "source_variant_id": "sig-da5e5626595788ef0c",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2667,7 +2737,8 @@
         "source_variant_id": "sig-a41cc648d1bd9ac898",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2704,7 +2775,8 @@
         "source_variant_id": "sig-9dbf757d82f61f696e",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2743,7 +2815,8 @@
         "source_variant_id": "sig-833390a9170f1e085f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2782,7 +2855,8 @@
         "source_variant_id": "sig-c0f0c971e54b256964",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2819,7 +2893,8 @@
         "source_variant_id": "sig-48eaec5a72524895cf",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2856,7 +2931,8 @@
         "source_variant_id": "sig-2598af497559f9d452",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2895,7 +2971,8 @@
         "source_variant_id": "sig-9b21cd287b7258771a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2934,7 +3011,8 @@
         "source_variant_id": "sig-637c9fd2393510ff4a",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2973,7 +3051,8 @@
         "source_variant_id": "sig-4b2f7af4d1d347e91a",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3012,7 +3091,8 @@
         "source_variant_id": "sig-b8cae145811f775b61",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3049,7 +3129,8 @@
         "source_variant_id": "sig-d5cbe59659efe4e7ff",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3086,7 +3167,8 @@
         "source_variant_id": "sig-cb7c890f80d59e5782",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-cc-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3125,7 +3207,8 @@
         "source_variant_id": "sig-e66b0467fb880ab420",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3164,7 +3247,8 @@
         "source_variant_id": "sig-010743be1fe62df82c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3201,7 +3285,8 @@
         "source_variant_id": "sig-b7716ccdd2c5f192f7",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3238,7 +3323,8 @@
         "source_variant_id": "sig-2e17d460bd20e03989",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3275,7 +3361,8 @@
         "source_variant_id": "sig-0fb1929082bd050177",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3312,7 +3399,8 @@
         "source_variant_id": "sig-6c33a271fc3dfea970",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-cc-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3351,7 +3439,8 @@
         "source_variant_id": "sig-ef90404c629325d0d2",
         "publication_status": "held_conflict",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3388,7 +3477,8 @@
         "source_variant_id": "sig-c53fa13708233c7979",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3425,7 +3515,8 @@
         "source_variant_id": "sig-3cec5f4109ea50d4e8",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-cc-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3462,7 +3553,8 @@
         "source_variant_id": "sig-d9bde04fce33241e3f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3499,7 +3591,8 @@
         "source_variant_id": "sig-624b04345370e6ba11",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-cc-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3536,7 +3629,8 @@
         "source_variant_id": "sig-d5bd9abdb59810ace0",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3577,7 +3671,8 @@
         "source_variant_id": "sig-99941536265f5f48b9",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3616,7 +3711,8 @@
         "source_variant_id": "sig-5010cbebe4f729fb1f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3655,7 +3751,8 @@
         "source_variant_id": "sig-a50ccabd9380c3ab33",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3696,7 +3793,8 @@
         "source_variant_id": "sig-68bb96ce0216ee9f78",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3733,7 +3831,8 @@
         "source_variant_id": "sig-be601d6c15c81fcc00",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3772,7 +3871,8 @@
         "source_variant_id": "sig-0207d68139be47093e",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3811,7 +3911,8 @@
         "source_variant_id": "sig-ba863e1708c24e9bb2",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3850,7 +3951,8 @@
         "source_variant_id": "sig-56c3e8ad3fc4d9ea74",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-alltrack-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3889,7 +3991,8 @@
         "source_variant_id": "sig-05404c116b4c4b051f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3930,7 +4033,8 @@
         "source_variant_id": "sig-5e91f8f3655238b4bf",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3971,7 +4075,8 @@
         "source_variant_id": "sig-f06473840b55952e70",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4008,7 +4113,8 @@
         "source_variant_id": "sig-5cb8d07152081a29fa",
         "publication_status": "scored",
         "technical_url": "https://www.volkswagen-newsroom.com/en/engine-versions-passat-b6-profile-19551",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4047,7 +4153,8 @@
         "source_variant_id": "sig-e2c470d9b9b7560086",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4086,7 +4193,8 @@
         "source_variant_id": "sig-b47d99ada3793ae88f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-variant-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4123,7 +4231,8 @@
         "source_variant_id": "sig-e52d058ef1a572dd45",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-phaeton-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4160,7 +4269,8 @@
         "source_variant_id": "sig-467bbf63aa89a9e51f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-polo-bluegt-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4197,7 +4307,8 @@
         "source_variant_id": "sig-12e2eef2f21b22a2df",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-polo-gti-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4236,7 +4347,8 @@
         "source_variant_id": "sig-e7e344d16b205d4ba5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-polo-sedan-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4273,7 +4385,8 @@
         "source_variant_id": "sig-1ba470a8845c10d051",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-scirocco-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4310,7 +4423,8 @@
         "source_variant_id": "sig-f04f918cc34ad28690",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-scirocco-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4347,7 +4461,8 @@
         "source_variant_id": "sig-7fef3fae6af171cb6b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-scirocco-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4384,7 +4499,8 @@
         "source_variant_id": "sig-95af72a9d9b8c7cb59",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-sharan-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4421,7 +4537,8 @@
         "source_variant_id": "sig-ef7413d76d13e7c8fa",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-tiguan-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4458,7 +4575,8 @@
         "source_variant_id": "sig-834e1fb112a0c8e336",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-tiguan-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4495,7 +4613,8 @@
         "source_variant_id": "sig-8d06ba00853533f2b4",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-touareg-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4532,7 +4651,8 @@
         "source_variant_id": "sig-86ed591040b2148910",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-touran-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4571,7 +4691,8 @@
         "source_variant_id": "sig-2dbeaba449e5ee0742",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-touran-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4608,7 +4729,8 @@
         "source_variant_id": "sig-c8cba57902424b6121",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-touran-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4645,7 +4767,8 @@
         "source_variant_id": "sig-83b27b56cf455bfaaa",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-crosstouran-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4682,7 +4805,8 @@
         "source_variant_id": "sig-e02bef32368c7f7f89",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-cc-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4719,7 +4843,8 @@
         "source_variant_id": "sig-36a30840c8da84ef12",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vi-3-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4756,7 +4881,8 @@
         "source_variant_id": "sig-e0e9b0453fa7be661e",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-3-doors-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4793,7 +4919,8 @@
         "source_variant_id": "sig-ded351e82cca6bfa8e",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-gti-3-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4830,7 +4957,8 @@
         "source_variant_id": "sig-850abe2c5ec59b59ad",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-golf-vii-5-doors-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4867,7 +4995,8 @@
         "source_variant_id": "sig-0618fe2246e4615826",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-jetta-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4904,7 +5033,8 @@
         "source_variant_id": "sig-ed61185b60664a61ef",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4941,7 +5071,8 @@
         "source_variant_id": "sig-b032e451ac9f5d1883",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4978,7 +5109,8 @@
         "source_variant_id": "sig-384a286a64bbd73b95",
         "publication_status": "scored",
         "technical_url": "https://www.volkswagen-newsroom.com/en/engine-versions-passat-b7-profile-20038",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -5015,7 +5147,8 @@
         "source_variant_id": "sig-bb7af7bf9fc8f90135",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -5052,7 +5185,8 @@
         "source_variant_id": "sig-5f5c86ea193e1569fb",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -5089,7 +5223,8 @@
         "source_variant_id": "sig-5f3f9bf762f3cf7a58",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -5126,7 +5261,8 @@
         "source_variant_id": "sig-af15396d7d3e69fa9f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-passat-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -5163,7 +5299,8 @@
         "source_variant_id": "sig-cc5efb51f78c96430d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-polo-gti-facelift-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -5200,7 +5337,8 @@
         "source_variant_id": "sig-6f33d2bd3b81baf8e5",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-t-cross-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -5237,7 +5375,8 @@
         "source_variant_id": "sig-d2fb4c8f7b90c6d619",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/volkswagen-touran-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

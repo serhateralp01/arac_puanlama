@@ -37,7 +37,8 @@
         "source_variant_id": "sig-984bcf51eee87bc28c",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jeep-cherokee-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-73d35e0a3151935bfc",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jeep-cherokeeliberty-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -111,7 +113,8 @@
         "source_variant_id": "sig-e371466de1542ca5e0",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jeep-cherokee-liberty-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -148,7 +151,8 @@
         "source_variant_id": "sig-3819418e550e66a713",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jeep-compass-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -185,7 +189,8 @@
         "source_variant_id": "sig-4f6521026a28d86e22",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jeep-grand-cherokee-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -222,7 +227,8 @@
         "source_variant_id": "sig-a75070421c6777d2f0",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jeep-patriot-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -259,7 +265,8 @@
         "source_variant_id": "sig-675f6639be72b69101",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jeep-renegade-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -296,7 +303,8 @@
         "source_variant_id": "sig-be4829044ba43aa414",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jeep-renegade-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

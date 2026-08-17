@@ -37,7 +37,8 @@
         "source_variant_id": "sig-31262e5acb54d567d2",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-300c-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-73cd86bbb3005dfaa9",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-pt-cruiser-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -113,7 +115,8 @@
         "source_variant_id": "sig-9565095fe208ef2d5b",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -152,7 +155,8 @@
         "source_variant_id": "sig-b5f7560d4c675042dc",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -191,7 +195,8 @@
         "source_variant_id": "sig-e57c656c5693a5c1a0",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-sedan-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -230,7 +235,8 @@
         "source_variant_id": "sig-aa64c0173534fc66e9",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -269,7 +275,8 @@
         "source_variant_id": "sig-ea71c24d519a124fd5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -308,7 +315,8 @@
         "source_variant_id": "sig-6c5bfdae7cdbab202c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-sedan-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -347,7 +355,8 @@
         "source_variant_id": "sig-b85fedf22e8064e5ae",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -386,7 +395,8 @@
         "source_variant_id": "sig-c173761fa3787f066a",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-convertible-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -425,7 +435,8 @@
         "source_variant_id": "sig-9c5736b912150c0ce0",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-sebring-sedan-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -462,7 +473,8 @@
         "source_variant_id": "sig-08329861f563a35954",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/chrysler-voyager-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

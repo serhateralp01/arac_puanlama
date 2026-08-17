@@ -37,7 +37,8 @@
         "source_variant_id": "sig-eaa2df7804d3472203",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mazda-2-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -75,7 +76,8 @@
         "source_variant_id": "sig-1862edbd48c81a4eb3",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -111,7 +113,8 @@
         "source_variant_id": "p21m-cc5cd0e9349e811d16",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mazda-3-hatchback-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -148,7 +151,8 @@
         "source_variant_id": "sig-9482b01033000b9e35",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mazda-3-axela-hatchback-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -185,7 +189,8 @@
         "source_variant_id": "sig-9fc8ccdcae56ecaa6a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mazda-3-axela-sedan-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -222,7 +227,8 @@
         "source_variant_id": "sig-48fe8831434e1620d7",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mazda-6atenza-wagon-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -259,7 +265,8 @@
         "source_variant_id": "sig-1fee9b6d04d50b9d08",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mazda-6-atenza-wagon-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -297,7 +304,8 @@
         "source_variant_id": "sig-8f85e11f53d22a5c96",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -335,7 +343,8 @@
         "source_variant_id": "sig-fd322546dd9a02f198",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -372,7 +381,8 @@
         "source_variant_id": "sig-75276c97588b1f1764",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mazda-cx-7-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -409,7 +419,8 @@
         "source_variant_id": "sig-f21da9a5584e8af92b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mazda-rx-8-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

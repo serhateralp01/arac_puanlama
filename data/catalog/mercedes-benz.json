@@ -37,7 +37,8 @@
         "source_variant_id": "p21-91611c774abd08127d",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.asrgearboxrepairs.co.uk/9g-tronic-mercedes-9-speed-auto/",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -76,7 +77,8 @@
         "source_variant_id": "sig-8a2a7e9fe10b7e2c73",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w169-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -115,7 +117,8 @@
         "source_variant_id": "sig-791880c4459f09a1d3",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-3-doors-w169-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -152,7 +155,8 @@
         "source_variant_id": "sig-8d841a9b6c8538b90f",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w176-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -189,7 +193,8 @@
         "source_variant_id": "sig-f3c6851c088c2b9274",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-class-w177-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -228,7 +233,8 @@
         "source_variant_id": "sig-2b5a7c5514dede7ec9",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w169-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -267,7 +273,8 @@
         "source_variant_id": "sig-fefb73486ee9478ad2",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-3-doors-w169-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -304,7 +311,8 @@
         "source_variant_id": "sig-0ab17114df7a0d6e86",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-class-sedan-v177-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -341,7 +349,8 @@
         "source_variant_id": "sig-f59edbfe9a7130b1fd",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w176-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -378,7 +387,8 @@
         "source_variant_id": "sig-711c5f2257acab2a6f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w169-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -415,7 +425,8 @@
         "source_variant_id": "sig-08ec99dd3919f43401",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-a-klasse-w176-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -454,7 +465,8 @@
         "source_variant_id": "sig-95c1c352cc70735de7",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-klasse-w245-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -491,7 +503,8 @@
         "source_variant_id": "sig-ded9e950a32d3fbb7e",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-w246-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -528,7 +541,8 @@
         "source_variant_id": "sig-4f9b171a1aef51eb66",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-w246-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -565,7 +579,8 @@
         "source_variant_id": "sig-664a34a46b79d442a8",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-w246-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -604,7 +619,8 @@
         "source_variant_id": "sig-99e163eb3e65812ced",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-klasse-w245-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -641,7 +657,8 @@
         "source_variant_id": "sig-5f244a9d6fa0f6b9cd",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-w246-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -678,7 +695,8 @@
         "source_variant_id": "sig-d095bf275339ac04ae",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -717,7 +735,8 @@
         "source_variant_id": "sig-3205a6e35dbbde9e87",
         "publication_status": "held_incomplete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -756,7 +775,8 @@
         "source_variant_id": "sig-90f0ff501aaf97f645",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -796,7 +816,8 @@
         "source_variant_id": "sig-5a85d065341ec7a202",
         "publication_status": "held_incomplete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-class-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -833,7 +854,8 @@
         "source_variant_id": "sig-8fe2994b9cb977d7a5",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-klasse-w246-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -870,7 +892,8 @@
         "source_variant_id": "sig-82845c47a14d19f83c",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-b-klasse-w245-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -907,7 +930,8 @@
         "source_variant_id": "sig-4e83fa85ba4f6754dc",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -944,7 +968,8 @@
         "source_variant_id": "sig-f97e9f83ebc8ae9787",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -981,7 +1006,8 @@
         "source_variant_id": "sig-2d02ddd2897c6e26be",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1018,7 +1044,8 @@
         "source_variant_id": "sig-fc99cdebe7b5d3ca50",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1057,7 +1084,8 @@
         "source_variant_id": "sig-d368d6b8f1a0db0f29",
         "publication_status": "held_incomplete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1094,7 +1122,8 @@
         "source_variant_id": "sig-2965dd5370e6e34440",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-amg-c-43-4matic-a205-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1131,7 +1160,8 @@
         "source_variant_id": "sig-30b8ec3c5a570fd2c8",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1168,7 +1198,8 @@
         "source_variant_id": "sig-d16a7c8a39b1ac9f42",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-t-modell-w203-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1205,7 +1236,8 @@
         "source_variant_id": "sig-4f0acf3f99ab111e0b",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1242,7 +1274,8 @@
         "source_variant_id": "sig-1bd3ccb6f30a08c67d",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-t-modell-w203-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1279,7 +1312,8 @@
         "source_variant_id": "sig-3a0cbd76c642d40f31",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1316,7 +1350,8 @@
         "source_variant_id": "sig-9a874702605c8a4fd2",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-sportcoupe-c203-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1353,7 +1388,8 @@
         "source_variant_id": "sig-660c96db2be43373ba",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1390,7 +1426,8 @@
         "source_variant_id": "sig-47c138ec199f2ae9d0",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1427,7 +1464,8 @@
         "source_variant_id": "sig-14bedbab1a99868467",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1466,7 +1504,8 @@
         "source_variant_id": "sig-7a113eec95dc6d0aad",
         "publication_status": "held_incomplete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1505,7 +1544,8 @@
         "source_variant_id": "sig-827182a53fe92b2f3e",
         "publication_status": "held_incomplete",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1542,7 +1582,8 @@
         "source_variant_id": "sig-168ee643638899d97b",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1579,7 +1620,8 @@
         "source_variant_id": "sig-f4a59907874448f22b",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-t-modell-w203-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1616,7 +1658,8 @@
         "source_variant_id": "sig-cc4ee5b50a7dfd9fb2",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1653,7 +1696,8 @@
         "source_variant_id": "sig-6b7d339a3147ce7398",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1690,7 +1734,8 @@
         "source_variant_id": "sig-d5c286fe4b82d92d2a",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1727,7 +1772,8 @@
         "source_variant_id": "sig-6be6dd3e90ca06ea11",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-w205-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1764,7 +1810,8 @@
         "source_variant_id": "sig-2354f744595461057b",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1801,7 +1848,8 @@
         "source_variant_id": "sig-40cb4663abfbc805a9",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1838,7 +1886,8 @@
         "source_variant_id": "sig-ddb959bdb47442c694",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1875,7 +1924,8 @@
         "source_variant_id": "sig-a582366fd365339e7d",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-t-modell-amg-s203-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1912,7 +1962,8 @@
         "source_variant_id": "sig-cc05bb4c89e11ee3c5",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-sportcoupe-amg-c203-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1949,7 +2000,8 @@
         "source_variant_id": "sig-59df53db593534cbd5",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1986,7 +2038,8 @@
         "source_variant_id": "sig-d9eee606ba0376c9cd",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2023,7 +2076,8 @@
         "source_variant_id": "sig-522f9fd38b27657f25",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w204-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2060,7 +2114,8 @@
         "source_variant_id": "sig-1978b1d237dd679c0d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w204-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2097,7 +2152,8 @@
         "source_variant_id": "sig-ac7369979999ba1ece",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w202-1993.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2134,7 +2190,8 @@
         "source_variant_id": "sig-7e2ae60282cfacce1f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-cla-c117-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2171,7 +2228,8 @@
         "source_variant_id": "sig-f39caa0ef2c4a0ee89",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clc-w203-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2208,7 +2266,8 @@
         "source_variant_id": "sig-8265313bbcc9d54b75",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clc-w203-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2245,7 +2304,8 @@
         "source_variant_id": "sig-0ae05b1e0a937e5e23",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c209-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2282,7 +2342,8 @@
         "source_variant_id": "sig-33726af2a67690aa0d",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c-209-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2319,7 +2380,8 @@
         "source_variant_id": "sig-e61df3bdd29e1a077f",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c209-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2356,7 +2418,8 @@
         "source_variant_id": "sig-eb18a8aff62c95ed1d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2393,7 +2456,8 @@
         "source_variant_id": "sig-bbaf330a366f60789b",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2430,7 +2494,8 @@
         "source_variant_id": "sig-4a0d5c386449be9ae8",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2467,7 +2532,8 @@
         "source_variant_id": "sig-f1b9e94dc5a42cfa8b",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2504,7 +2570,8 @@
         "source_variant_id": "sig-570cb2cd174b7d46da",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2541,7 +2608,8 @@
         "source_variant_id": "sig-bb0d01dd369b7981cc",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2578,7 +2646,8 @@
         "source_variant_id": "sig-fbd3147b1febaa24a4",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2615,7 +2684,8 @@
         "source_variant_id": "sig-0ef6402a6b50bb8c47",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2652,7 +2722,8 @@
         "source_variant_id": "sig-76dbab072c1a35a6ff",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2689,7 +2760,8 @@
         "source_variant_id": "sig-2e30ce9c14d3041fbb",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2726,7 +2798,8 @@
         "source_variant_id": "sig-006c8291667150e075",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2763,7 +2836,8 @@
         "source_variant_id": "sig-62dd821e322739a8a3",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2800,7 +2874,8 @@
         "source_variant_id": "sig-b4c890d76dfe44895d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2837,7 +2912,8 @@
         "source_variant_id": "sig-4af28c6ba4c721de81",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2874,7 +2950,8 @@
         "source_variant_id": "sig-66283fbf9bd9d3c90d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-coupe-c207-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2911,7 +2988,8 @@
         "source_variant_id": "sig-199c8c7af6ac9501cb",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-cabriolet-a207-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2948,7 +3026,8 @@
         "source_variant_id": "sig-9e93255ecab8cc0e37",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2985,7 +3064,8 @@
         "source_variant_id": "sig-22397545f3c58260e2",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-53-cabrio-a238-2020.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3022,7 +3102,8 @@
         "source_variant_id": "sig-ba6003bed9b24835b5",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3059,7 +3140,8 @@
         "source_variant_id": "sig-d902b7cb8aa0bde234",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s211-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3096,7 +3178,8 @@
         "source_variant_id": "sig-7c6734b5ce874eb4b0",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3133,7 +3216,8 @@
         "source_variant_id": "sig-388eca7fcba9f49b95",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3170,7 +3254,8 @@
         "source_variant_id": "sig-e2107852394a989776",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s211-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3207,7 +3292,8 @@
         "source_variant_id": "sig-132800027ddf7343e1",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3244,7 +3330,8 @@
         "source_variant_id": "sig-d4b5a97531d16ca340",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3281,7 +3368,8 @@
         "source_variant_id": "sig-c8aa90534fa949989c",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3318,7 +3406,8 @@
         "source_variant_id": "sig-c1de71baed740aa463",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3355,7 +3444,8 @@
         "source_variant_id": "sig-ee0554bc84a126e257",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3392,7 +3482,8 @@
         "source_variant_id": "sig-ab10da7cf92724f7ea",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3429,7 +3520,8 @@
         "source_variant_id": "sig-ee03f53b684a1e96f9",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3466,7 +3558,8 @@
         "source_variant_id": "sig-37639613b31b9ec5b6",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3480,7 +3573,7 @@
         "hp": 224,
         "torque_nm": 540.0,
         "displacement_l": 3.0,
-        "fuel": "Benzin",
+        "fuel": "Dizel",
         "drivetrain": "Dört",
         "body_type": null,
         "transmission_type": "TK",
@@ -3493,7 +3586,7 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "spec_implausible"
+        "spec_corrected"
       ],
       "sources": [
         "src-60ed6f3e9c66923020",
@@ -3505,7 +3598,10 @@
         "source_variant_id": "sig-2da1345d7fb0b40cfb",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": [
+          "fuel"
+        ]
       }
     },
     {
@@ -3542,7 +3638,8 @@
         "source_variant_id": "sig-6be962c5703a3bb836",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3579,7 +3676,8 @@
         "source_variant_id": "sig-9d05ce3cac6f738370",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s211-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3616,7 +3714,8 @@
         "source_variant_id": "sig-51920135e10460fbe4",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-gla-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3653,7 +3752,8 @@
         "source_variant_id": "sig-6aa6364c3137a320f0",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-glk-klasse-x204-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3690,7 +3790,8 @@
         "source_variant_id": "sig-9b2b0802a7d109a00b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3727,7 +3828,8 @@
         "source_variant_id": "sig-b4abfa1a93a49b8de3",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w204-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3764,7 +3866,8 @@
         "source_variant_id": "sig-827682d61246fbec83",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3801,7 +3904,8 @@
         "source_variant_id": "sig-6fea04dc35ecf2ac21",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3838,7 +3942,8 @@
         "source_variant_id": "sig-e9089a4d167987ef39",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w204-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3875,7 +3980,8 @@
         "source_variant_id": "sig-34b2394b394d17767e",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3912,7 +4018,8 @@
         "source_variant_id": "sig-9b6ad4192adc94134b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w204-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3949,7 +4056,8 @@
         "source_variant_id": "sig-2b0a39012452731d4c",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-klasse-w203-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3986,7 +4094,8 @@
         "source_variant_id": "sig-1e4b38cd153c817fad",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c-209-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4023,7 +4132,8 @@
         "source_variant_id": "sig-eb95586f64b7522746",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c208-1999.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4060,7 +4170,8 @@
         "source_variant_id": "sig-533f0fab6c677ba7f7",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-clk-c-209-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4097,7 +4208,8 @@
         "source_variant_id": "sig-b06562ef246b8e03c5",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4134,7 +4246,8 @@
         "source_variant_id": "sig-179b943c8a81d48d42",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4171,7 +4284,8 @@
         "source_variant_id": "sig-78442b48eb562e038a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w211-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4208,7 +4322,8 @@
         "source_variant_id": "sig-fd22fb308c4b05430b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4246,7 +4361,8 @@
         "source_variant_id": "sig-f294b4062b36a47a19",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4283,7 +4399,8 @@
         "source_variant_id": "sig-03cfceaeca27ed6cfb",
         "publication_status": "scored",
         "technical_url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/picture/E-280-Saloon---W-211.xhtml?oid=186877688",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4320,7 +4437,8 @@
         "source_variant_id": "sig-d836305a961a95e0bd",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w210-1999.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4357,7 +4475,8 @@
         "source_variant_id": "sig-430473c4e0e85e4031",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-slk-r171-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4394,7 +4513,8 @@
         "source_variant_id": "sig-0dd95351dffb90d9a0",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-slk-r172-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -4431,7 +4551,8 @@
         "source_variant_id": "sig-7bf4ccbb10d8d76aca",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-slk-r171-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

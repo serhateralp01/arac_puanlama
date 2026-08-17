@@ -37,7 +37,8 @@
         "source_variant_id": "sig-1ef2bea853c113d93c",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/lexus-gs-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -75,7 +76,8 @@
         "source_variant_id": "sig-76cc9eb70d8a6aae96",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -112,7 +114,8 @@
         "source_variant_id": "sig-83d2788388a3b4740b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/lexus-is-c-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -149,7 +152,8 @@
         "source_variant_id": "sig-00117e389f8e08bd0a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/lexus-ls-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -187,7 +191,8 @@
         "source_variant_id": "sig-89af3351bf6e5c91b3",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -224,7 +229,8 @@
         "source_variant_id": "sig-0c86752369a7db3357",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/lexus-rx-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

@@ -39,7 +39,8 @@
         "source_variant_id": "sig-79fd9c3907162586b9",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-3-doors-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -78,7 +79,8 @@
         "source_variant_id": "sig-623f17240e2f33a42a",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -117,7 +119,8 @@
         "source_variant_id": "sig-d220ed2ec356540b50",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-5-doors-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -154,7 +157,8 @@
         "source_variant_id": "sig-e3b4f792cc1e0faa34",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-5-doors-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -193,7 +197,8 @@
         "source_variant_id": "sig-ad6f793c955db97d1c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -232,7 +237,8 @@
         "source_variant_id": "sig-b324e6ab17bad542e5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-3-doors-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -271,7 +277,8 @@
         "source_variant_id": "sig-1d3c8f16bb1f1c774f",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -308,7 +315,8 @@
         "source_variant_id": "sig-66ac6ea05d3c94c1f0",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -345,7 +353,8 @@
         "source_variant_id": "sig-efae26cd27d5f00661",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -382,7 +391,8 @@
         "source_variant_id": "sig-32f48c91ca613ddec9",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-5-doors-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -419,7 +429,8 @@
         "source_variant_id": "sig-3de9b7d067f8d6dba9",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-5-doors-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -456,7 +467,8 @@
         "source_variant_id": "sig-4b9d71f611eeca35fb",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -493,7 +505,8 @@
         "source_variant_id": "sig-01bd4b352a0fbf9c74",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -530,7 +543,8 @@
         "source_variant_id": "sig-a44edd2c65ca25fda8",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-accent-4-doors-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -567,7 +581,8 @@
         "source_variant_id": "sig-2d412f8833f9334790",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-coupe-tiburon-1999.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -605,7 +620,8 @@
         "source_variant_id": "sig-b9351dc3b4cc19ae64",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -642,7 +658,8 @@
         "source_variant_id": "sig-9a1acbf0475a8a598d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -679,7 +696,8 @@
         "source_variant_id": "sig-2d15ec0cf6615e12ce",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -718,7 +736,8 @@
         "source_variant_id": "sig-ef40ea1dc8569f207c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-4-doors-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -755,7 +774,8 @@
         "source_variant_id": "sig-eee35332b34f5db2bc",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -792,7 +812,8 @@
         "source_variant_id": "sig-65e90d3b9cee543e54",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -829,7 +850,8 @@
         "source_variant_id": "sig-f3c27ef29e62c068d9",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-elantra-gt-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -866,7 +888,8 @@
         "source_variant_id": "sig-d7474cc096fc484904",
         "publication_status": "scored",
         "technical_url": "https://www.hyundainews.com/releases/1597",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -903,7 +926,8 @@
         "source_variant_id": "sig-e5292d1927df407dce",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-genesis-coupe-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -941,7 +965,8 @@
         "source_variant_id": "sig-23047e093a5f85c044",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -981,7 +1006,8 @@
         "source_variant_id": "p21-866c229bfdd380ccad",
         "publication_status": "candidate_resolved",
         "technical_url": "https://andcetin.com/hyundai-kia-dct-analizi-63/",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1018,7 +1044,8 @@
         "source_variant_id": "sig-55e4e31e82b9137cf4",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-kona-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1055,7 +1082,8 @@
         "source_variant_id": "sig-444a64f09e7c4f94c5",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-matrix-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1094,7 +1122,8 @@
         "source_variant_id": "sig-12c1ea776f8d1b049c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-matrix-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1131,7 +1160,8 @@
         "source_variant_id": "sig-f4980c71f7d56e33f0",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-santa-fe-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1168,7 +1198,8 @@
         "source_variant_id": "sig-f06ab5c3b640b9c84f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-sonata-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1207,7 +1238,8 @@
         "source_variant_id": "sig-dbc9ed051d24a2a42c",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-sonata-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1244,7 +1276,8 @@
         "source_variant_id": "sig-8e2966bd6a0b9b5135",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-tucson-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1281,7 +1314,8 @@
         "source_variant_id": "sig-f6e6ec67c41d417a93",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-tucson-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1318,7 +1352,8 @@
         "source_variant_id": "sig-4e20e7e2ace19b0c42",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-veloster-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1355,7 +1390,8 @@
         "source_variant_id": "sig-d3cfb2b8e2adb797e6",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1392,7 +1428,8 @@
         "source_variant_id": "sig-bdc98b7609ef1c39ec",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1429,7 +1466,8 @@
         "source_variant_id": "sig-c48d05ea0f0917482a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1466,7 +1504,8 @@
         "source_variant_id": "sig-220496b0c6e79618c9",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-wagon-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1503,7 +1542,8 @@
         "source_variant_id": "sig-5a5d5a2b471cb9d09c",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1542,7 +1582,8 @@
         "source_variant_id": "sig-7ec09ce52cfd632d13",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-coupe-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1579,7 +1620,8 @@
         "source_variant_id": "sig-f0a29ab4c05fb055a0",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1616,7 +1658,8 @@
         "source_variant_id": "sig-29cc42ffd05689eade",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-wagon-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1653,7 +1696,8 @@
         "source_variant_id": "sig-33afea4c0e322c2168",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1690,7 +1734,8 @@
         "source_variant_id": "sig-b44387c2617015ca13",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-wagon-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1729,7 +1774,8 @@
         "source_variant_id": "sig-9c144a467ed5772c32",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-estate-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1766,7 +1812,8 @@
         "source_variant_id": "sig-9fbd5701187d3f4d92",
         "publication_status": "held_conflict",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1803,7 +1850,8 @@
         "source_variant_id": "sig-7e98fed755d533fe8b",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-wagon-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1840,7 +1888,8 @@
         "source_variant_id": "sig-b22ed4bee2369a8668",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-coupe-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1880,7 +1929,8 @@
         "source_variant_id": "sig-0d845659b468efc248",
         "publication_status": "held_incomplete",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-n-2020.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1917,7 +1967,8 @@
         "source_variant_id": "sig-72d5d4afe263f6a56b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i30-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1954,7 +2005,8 @@
         "source_variant_id": "sig-157add1b84af984319",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i40-saloon-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1991,7 +2043,8 @@
         "source_variant_id": "sig-14d22d951c939d35b5",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i40-saloon-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2028,7 +2081,8 @@
         "source_variant_id": "sig-ebb4253cc32f691ed2",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i40-tourer-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2065,7 +2119,8 @@
         "source_variant_id": "sig-4e7fdd49cc9e50c86d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-i40-wagon-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2102,7 +2157,8 @@
         "source_variant_id": "sig-8a3a5998e174e9cb90",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-ix20-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2141,7 +2197,8 @@
         "source_variant_id": "sig-4e4ac47cd39e91d3af",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-ix20-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2178,7 +2235,8 @@
         "source_variant_id": "sig-766b9b7b9739bf6b92",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-ix20-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2215,7 +2273,8 @@
         "source_variant_id": "sig-595bbba5c4580a6bcd",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/hyundai-ix35-tucson-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

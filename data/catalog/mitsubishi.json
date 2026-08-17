@@ -37,7 +37,8 @@
         "source_variant_id": "sig-88f2f71c7d3174070c",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mitsubishi-asx-rvr-outlander-sport-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -76,7 +77,8 @@
         "source_variant_id": "sig-ff3c2f661202d037d3",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mitsubishi-carisma-sedan-1995.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -113,7 +115,8 @@
         "source_variant_id": "sig-6b39bfd3c40bc6474b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mitsubishi-galant-1997.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -151,7 +154,8 @@
         "source_variant_id": "sig-9080ce121caa8e0fd2",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -188,7 +192,8 @@
         "source_variant_id": "sig-20f47f46d1d8ca1eba",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mitsubishi-l200-double-cab-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -227,7 +232,8 @@
         "source_variant_id": "sig-04e4d98a6afdf43657",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/mitsubishi-lancer-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -265,7 +271,8 @@
         "source_variant_id": "sig-21a99237c739e6b2c8",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -302,7 +309,8 @@
         "source_variant_id": "sig-8923cd7d16ad7f51ed",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mitsubishi-asx-rvr-outlander-sport-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -339,7 +347,8 @@
         "source_variant_id": "sig-fffa9aafeb79407804",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mitsubishi-outlander-airtrek-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -376,7 +385,8 @@
         "source_variant_id": "sig-dbe7b596e6edacb9c2",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/mitsubishi-pajeromonteroshogun-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

@@ -38,7 +38,8 @@
         "source_variant_id": "sig-39be85c2ce660f9fd4",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

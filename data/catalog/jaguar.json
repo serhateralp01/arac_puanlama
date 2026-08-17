@@ -39,7 +39,8 @@
         "source_variant_id": "sig-0325bd2b1b6f4a7d5a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-s-type-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -76,7 +77,8 @@
         "source_variant_id": "sig-34d6cde3dc6dd17348",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-s-type-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -113,7 +115,8 @@
         "source_variant_id": "sig-758026b93e9b35b9fa",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-s-type-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -150,7 +153,8 @@
         "source_variant_id": "sig-6af436cb1aa2da4cd6",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-x-type-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -187,7 +191,8 @@
         "source_variant_id": "sig-24647912b6ce6a5163",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -226,7 +231,8 @@
         "source_variant_id": "sig-c9cf080500eb228aff",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -263,7 +269,8 @@
         "source_variant_id": "sig-f030307be879e8356c",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -302,7 +309,8 @@
         "source_variant_id": "sig-ac54cf8151ca60f6ba",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -341,7 +349,8 @@
         "source_variant_id": "sig-98d6c75435be7901cb",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-sportbrake-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -380,7 +389,8 @@
         "source_variant_id": "sig-2e11950fb9ed388997",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -419,7 +429,8 @@
         "source_variant_id": "sig-95f0ae2e5b15d0af59",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -458,7 +469,8 @@
         "source_variant_id": "sig-7abab7dc92fafc6bc7",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -497,7 +509,8 @@
         "source_variant_id": "sig-20720935d5a44cf2c5",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-sportbrake-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -534,7 +547,8 @@
         "source_variant_id": "sig-4d62243eb70728da32",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/jaguar-xf-sportbrake-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

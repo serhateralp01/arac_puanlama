@@ -37,7 +37,8 @@
         "source_variant_id": "sig-f2376a477513338741",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/proton-gen-2-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-17c1e71a91b734d68f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/proton-persona-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

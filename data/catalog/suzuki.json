@@ -38,7 +38,8 @@
         "source_variant_id": "sig-d712528a1cee04e663",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -75,7 +76,8 @@
         "source_variant_id": "sig-4ce483c431568b4614",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-grand-vitara-5-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -112,7 +114,8 @@
         "source_variant_id": "sig-5f995421bc106e9fc2",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-kizashi-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -151,7 +154,8 @@
         "source_variant_id": "sig-e0b8ef9b6b41b2a9e9",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-aerio-liana-sedan-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -190,7 +194,8 @@
         "source_variant_id": "sig-3941badabcf9f6d743",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-aerio-liana-hatchback-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -202,7 +207,7 @@
       "years": "2007-2014",
       "specs": {
         "hp": 120,
-        "torque_nm": 320.0,
+        "torque_nm": 156.0,
         "displacement_l": 1.6,
         "fuel": "Benzin",
         "drivetrain": "Önden",
@@ -217,7 +222,7 @@
       "scored_car_id": "suzuki-sx4-1-6",
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "spec_implausible"
+        "spec_corrected"
       ],
       "sources": [
         "market-om-ikinci-el-otomobil-suzuki-sx4-1-6",
@@ -229,7 +234,10 @@
         "source_variant_id": "sig-19ae84c75d2f66a5a4",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": [
+          "torque_nm"
+        ]
       }
     },
     {
@@ -268,7 +276,8 @@
         "source_variant_id": "sig-9ae5fe3aa1b4cfdbd9",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-sedan-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -307,7 +316,8 @@
         "source_variant_id": "sig-0499bccc9eb469d8aa",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-sedan-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -346,7 +356,8 @@
         "source_variant_id": "sig-0c5916b295f96b1da5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -385,7 +396,8 @@
         "source_variant_id": "sig-ade63f0883ff96798a",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -424,7 +436,8 @@
         "source_variant_id": "sig-6bc1836a40d9fd5e92",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -463,7 +476,8 @@
         "source_variant_id": "sig-5d7c01846b44cd3be3",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-sx4-s-cross-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -501,7 +515,8 @@
         "source_variant_id": "sig-0f6719cf54dd2a6275",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -540,7 +555,8 @@
         "source_variant_id": "sig-5ea0e42c6ad8428e93",
         "publication_status": "held_conflict",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-swift-sport-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -577,7 +593,8 @@
         "source_variant_id": "sig-ef8ebbb4a36311c8f3",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/suzuki-vitara-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

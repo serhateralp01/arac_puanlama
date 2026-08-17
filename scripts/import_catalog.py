@@ -264,13 +264,47 @@ def rebuild_label(model_family: str | None, litre, fuel: str, hp: int) -> str:
     return f"{' '.join(parts)} · {hp} bg"
 
 
+# Tek tek doğrulanmış düzeltmeler. Bu beş kayıt spec_implausible denetiminde
+# yakalandı ve her biri WebSearch ile bağımsız teknik özellik kaynaklarından
+# doğrulandı (2026-08-17). Toplu bir kural yerine variant_id ile eşleştirilmiş
+# tek tek düzeltmeler kullanılıyor, çünkü her kaydın bozukluğu farklı bir
+# alanda: bazen yakıt, bazen tork, bazen ikisi birden. Genel bir sezgisel kural
+# burada yanlış kayıtları da düzeltiyormuş gibi davranıp yeni hata üretebilirdi.
+MANUAL_SPEC_CORRECTIONS = {
+    # Mercedes E 320 (W211): "320" rozeti CDI'da da kullanılıyor; 224 bg / 540 Nm
+    # yalnız 3.0 V6 CDI'nin (OM642) rakamları, benzinli E320 V6 bu torku üretmez.
+    "sig-2da1345d7fb0b40cfb": {"fuel": "Dizel"},
+    # Renault Espace 3.0: 180 bg / 400 Nm, 2.958 cc V6 dCi'nin (V9X) rakamları;
+    # benzinli V6 Espace bu değerlere sahip değil.
+    "sig-d4bf02288a234d5016": {"fuel": "Dizel"},
+    # Suzuki SX4 1.6 (M16A benzinli motor): kayıtlı 320 Nm doğru değil, gerçek
+    # değer 156 Nm (aynı hata puanlanmış suzuki-sx4-1-6 kaydında da vardı ve
+    # oradan da düzeltildi).
+    "sig-19ae84c75d2f66a5a4": {"torque_nm": 156.0},
+    # Peugeot 301 1.6 HDi (DV6 motoru): kayıtlı 115 bg / 150 Nm, aslında 1.6 VTi
+    # BENZİNLİ varyantının rakamları (aynı çelişki, aynı hata sınıfı puanlanmış
+    # peugeot-301-1-6-hdi kaydında bulunmuştu). 301'in 115 bg'lik bir HDi
+    # versiyonu hiç üretilmedi; gerçek HDi rakamı 92 bg / 230 Nm.
+    "p21-fe5003dffa372274b4": {"hp": 92, "torque_nm": 230.0},
+    # Ford Fiesta "1.6 · 112 bg": kayıtlı yakıt Dizel ama engine_name alanı
+    # "1.5L Ti-VCT ... (112 HP)" diyor — Ti-VCT, Ford'un benzinli değişken supap
+    # zamanlama teknolojisi, dizelde hiç kullanılmadı. Aynı fiziksel araç
+    # katalogda "EcoSport 1.5 Ti-VCT" olarak da (Benzin, 112 bg, 140 Nm) doğru
+    # kayıtlı; bu kayıt onun bozuk bir kopyası.
+    "sig-7895f79c42c3199673": {"fuel": "Benzin"},
+}
+
+
 def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str | None]:
     """Bir P2.1 varyantından katalog kaydı üretir. Reddedilirse (None, sebep) döner."""
-    hp = v.get("power_hp")
+    fix = MANUAL_SPEC_CORRECTIONS.get(v["variant_id"], {})
+    corrected_fields = sorted(fix.keys())
+
+    hp = fix.get("hp", v.get("power_hp"))
     if not isinstance(hp, int) or not (HP_MIN <= hp <= HP_MAX):
         return None, f"beygir aralık dışı ({hp})"
 
-    fuel = clean(v.get("fuel"))
+    fuel = fix.get("fuel", clean(v.get("fuel")))
     if fuel not in ("Benzin", "Dizel"):
         return None, f"yakıt kapsam dışı ({fuel})"
 
@@ -278,7 +312,7 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
     if not (isinstance(y0, int) and isinstance(y1, int) and 1980 <= y0 <= y1 <= 2030):
         return None, f"yıl aralığı geçersiz ({y0}-{y1})"
 
-    nm = v.get("torque_nm")
+    nm = fix.get("torque_nm", v.get("torque_nm"))
     nm = float(nm) if isinstance(nm, (int, float)) and NM_MIN <= nm <= NM_MAX else None
 
     cc = v.get("displacement_cc")
@@ -326,6 +360,7 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
         "possible_scored_car_ids": [],
         "quality_flags": sorted(set(quality.get(v["variant_id"], []))
                                 | ({"label_corrected"} if rejected_label else set())
+                                | ({"spec_corrected"} if corrected_fields else set())
                                 | ({"spec_implausible"}
                                    if spec_implausible(fuel, hp, nm, litre) else set())),
         "sources": sorted(set(links.get(v["variant_id"], []))),
@@ -336,6 +371,7 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
             "publication_status": clean(v.get("publication_status")),
             "technical_url": clean(v.get("technical_url")),
             "rejected_label": rejected_label,
+            "manually_corrected_fields": corrected_fields or None,
         },
     }
     return entry, None

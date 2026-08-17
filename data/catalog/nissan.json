@@ -37,7 +37,8 @@
         "source_variant_id": "sig-6e3e1d1275f8ac8617",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-370z-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-f75860eb8eefec41a4",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-almera-pulsar-4-doors-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -113,7 +115,8 @@
         "source_variant_id": "sig-249eb81d179bd5046d",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/nissan-almera-pulsar-4-doors-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -153,7 +156,8 @@
         "source_variant_id": "sig-4d18ffb48b32fce61e",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/nissan-almera-pulsar-3-doors-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -192,7 +196,8 @@
         "source_variant_id": "sig-e144795e299ab56d1c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/nissan-almera-pulsar-4-doors-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -232,7 +237,8 @@
         "source_variant_id": "sig-4e20ef8d4af16eb39e",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/nissan-almera-pulsar-3-doors-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -269,7 +275,8 @@
         "source_variant_id": "sig-e7039924eb2cc95a18",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/nissan-altima-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -306,7 +313,8 @@
         "source_variant_id": "sig-31a604c6f130e54b52",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-juke-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -345,7 +353,8 @@
         "source_variant_id": "sig-35fda36780dd4f7528",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/nissan-maxima-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -384,7 +393,8 @@
         "source_variant_id": "sig-a5ee298e20a490dbfd",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/nissan-maxima-1995.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -421,7 +431,8 @@
         "source_variant_id": "sig-0a9d60651850a08511",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-maxima-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -458,7 +469,8 @@
         "source_variant_id": "sig-428d5b9924e37a7e5a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-murano-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -495,7 +507,8 @@
         "source_variant_id": "sig-471ddb74d4ee67bcf1",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-navara-frontier-double-cab-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -532,7 +545,8 @@
         "source_variant_id": "sig-e1391c01f651679516",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-note-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -571,7 +585,8 @@
         "source_variant_id": "sig-5f45e16442497efcd4",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/nissan-versa-note-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -610,7 +625,8 @@
         "source_variant_id": "sig-c447d84f37233e805f",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/nissan-note-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -649,7 +665,8 @@
         "source_variant_id": "sig-f0b7d40c693317035c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/nissan-note-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -686,7 +703,8 @@
         "source_variant_id": "sig-16add99c103b847b41",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-pathfinder-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -723,7 +741,8 @@
         "source_variant_id": "sig-e5a46d784bc9c13287",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-primera-wagon-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -760,7 +779,8 @@
         "source_variant_id": "sig-b07a77af7e65495476",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/nissan-pulsar-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -797,7 +817,8 @@
         "source_variant_id": "sig-69e127b7863d9afa2d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-qashqai-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -834,7 +855,8 @@
         "source_variant_id": "sig-6bd7f83a5cf72ba8b3",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-qashqai-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -870,7 +892,8 @@
         "source_variant_id": "p21m-6b24e66e6233dc2b99",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/nissan-qashqai-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -907,7 +930,8 @@
         "source_variant_id": "sig-2d61d3ececf7657d80",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-qashqai-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -944,7 +968,8 @@
         "source_variant_id": "sig-de4e8c7de6419a9eee",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-teana-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -983,7 +1008,8 @@
         "source_variant_id": "sig-1b8b0dc8626c9aca8c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/nissan-teana-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1020,7 +1046,8 @@
         "source_variant_id": "sig-218a12dbf409d884cc",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-tiida-versa-sedan-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1057,7 +1084,8 @@
         "source_variant_id": "sig-d93f7fa8131aa05590",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-x-trail-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1094,7 +1122,8 @@
         "source_variant_id": "sig-7b5a341312eb17f28f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/nissan-x-trail-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

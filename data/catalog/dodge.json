@@ -37,7 +37,8 @@
         "source_variant_id": "sig-6fa74c5862023b328d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/dodge-caliber-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-6a9a8674ac7f2934d8",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/dodge-journey-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -111,7 +113,8 @@
         "source_variant_id": "sig-1a40c4a206a3294a22",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/dodge-nitro-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

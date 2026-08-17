@@ -37,7 +37,8 @@
         "source_variant_id": "sig-43fa782d8b488d59e0",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-3500feedd633f41711",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -113,7 +115,8 @@
         "source_variant_id": "sig-9f91f0ed50835aaf17",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -152,7 +155,8 @@
         "source_variant_id": "sig-7caea72304f6d77de8",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-auris-3-doors-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -191,7 +195,8 @@
         "source_variant_id": "sig-581fd1798ae1c4c7d1",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -230,7 +235,8 @@
         "source_variant_id": "sig-1425fb30aebd105f76",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-auris-3-doors-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -269,7 +275,8 @@
         "source_variant_id": "sig-c160ce9ba036530620",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -308,7 +315,8 @@
         "source_variant_id": "sig-2e854ff315efa784c1",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-auris-touring-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -345,7 +353,8 @@
         "source_variant_id": "sig-84f060b7ec87bc1d25",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-auris-5-doors-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -382,7 +391,8 @@
         "source_variant_id": "sig-035b901f770850ddff",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -419,7 +429,8 @@
         "source_variant_id": "sig-5b6f4783fe114972e1",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -458,7 +469,8 @@
         "source_variant_id": "sig-527bd9ea794622da81",
         "publication_status": "held_conflict",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-1997.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -497,7 +509,8 @@
         "source_variant_id": "sig-30dd153ffbd6a97ace",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-1997.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -536,7 +549,8 @@
         "source_variant_id": "sig-a87ab5d9709208f1bd",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -575,7 +589,8 @@
         "source_variant_id": "sig-ad8442dd82777ece03",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-liftback-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -614,7 +629,8 @@
         "source_variant_id": "sig-28b94cd15f80ba130a",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -653,7 +669,8 @@
         "source_variant_id": "sig-250c6a9dd06ce0f9b6",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -690,7 +707,8 @@
         "source_variant_id": "sig-e37bf5702a75c8f39f",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -729,7 +747,8 @@
         "source_variant_id": "sig-003f83012ff68fb9d5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-1997.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -768,7 +787,8 @@
         "source_variant_id": "sig-cc7e609a866a5cb92e",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-1997.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -807,7 +827,8 @@
         "source_variant_id": "sig-d6c603e4e5abf7ee74",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -846,7 +867,8 @@
         "source_variant_id": "sig-f17e709f8eebb9b902",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-liftback-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -885,7 +907,8 @@
         "source_variant_id": "sig-c71bdfe5f42008aa72",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-wagon-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -924,7 +947,8 @@
         "source_variant_id": "sig-1a3dab0e686c946119",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-avensis-verso-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -961,7 +985,8 @@
         "source_variant_id": "sig-e0fced00b12fab1312",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-c-hr-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -998,7 +1023,8 @@
         "source_variant_id": "sig-787d44b3bf76f660c0",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-camry-2001.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1035,7 +1061,8 @@
         "source_variant_id": "sig-ab459cc940981b46e6",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-eu-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1072,7 +1099,8 @@
         "source_variant_id": "sig-614a7062f695716e30",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1112,7 +1140,8 @@
         "source_variant_id": "sig-ac36b71d60d6f174d0",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1151,7 +1180,8 @@
         "source_variant_id": "sig-15e929b8461fcf9233",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-wagon-1997.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1190,7 +1220,8 @@
         "source_variant_id": "sig-57fa0a6a4b87565fb3",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-sedan-1997.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1229,7 +1260,8 @@
         "source_variant_id": "sig-68b4ae916a7a795979",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-3-doors-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1268,7 +1300,8 @@
         "source_variant_id": "sig-521ee2e582b8fc52e0",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-sedan-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1307,7 +1340,8 @@
         "source_variant_id": "sig-215248b83f45d7ea36",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-wagon-2000.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1346,7 +1380,8 @@
         "source_variant_id": "sig-8ec1d5f3c86dfd74e0",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-wagon-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1385,7 +1420,8 @@
         "source_variant_id": "sig-56582d5f4ef7f55e77",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1424,7 +1460,8 @@
         "source_variant_id": "sig-9d7c46624a74760d73",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-verso-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1463,7 +1500,8 @@
         "source_variant_id": "sig-e628c64958834d7f6b",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-eu-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1502,7 +1540,8 @@
         "source_variant_id": "sig-e7daea6b9846647688",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-verso-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1541,7 +1580,8 @@
         "source_variant_id": "sig-b9c06b1ca5e1c4bb87",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-altis-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1580,7 +1620,8 @@
         "source_variant_id": "sig-9b77fbaf4af0a26cba",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-verso-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1617,7 +1658,8 @@
         "source_variant_id": "sig-c127793d877992d365",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-corolla-sedan-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1654,7 +1696,8 @@
         "source_variant_id": "sig-ce9b010cac180dc5df",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-gt-86-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1691,7 +1734,8 @@
         "source_variant_id": "sig-8ca0a2ce825f99d4f8",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-land-cruiser-120-5-doors-2003.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1728,7 +1772,8 @@
         "source_variant_id": "sig-675828b7c23a922dff",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-rav4-5-doors-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1765,7 +1810,8 @@
         "source_variant_id": "sig-ec796f9c04dfa35dcc",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-rav4-5-doors-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1803,7 +1849,8 @@
         "source_variant_id": "p21-de075458117ecae524",
         "publication_status": "candidate_resolved",
         "technical_url": "https://homeofengines.co.za/1zr-engine-explained-why-its-one-of-toyotas-most-balanced-powerplants/",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1842,7 +1889,8 @@
         "source_variant_id": "p21-e0187025ec800c8c9e",
         "publication_status": "candidate_resolved",
         "technical_url": "https://hiver.digital/en/toyota-corolla-e120-e150-2002-2010-bulletproof-reliability/",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1883,7 +1931,8 @@
         "source_variant_id": "p21-78733983a8d67fcd7a",
         "publication_status": "candidate_resolved",
         "technical_url": "https://homeofengines.co.za/1zr-engine-explained-why-its-one-of-toyotas-most-balanced-powerplants/",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1924,7 +1973,8 @@
         "source_variant_id": "p21-a3854c1356b311dfdd",
         "publication_status": "candidate_resolved",
         "technical_url": "https://homeofengines.co.za/1zr-engine-explained-why-its-one-of-toyotas-most-balanced-powerplants/",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1961,7 +2011,8 @@
         "source_variant_id": "sig-b8c9f6c7a20bf55487",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/toyota-verso-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2001,7 +2052,8 @@
         "source_variant_id": "sig-2e492e3c01841d5bcf",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-yaris-3-doors-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2040,7 +2092,8 @@
         "source_variant_id": "sig-de6ad314a0007662d5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-yaris-ia-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2079,7 +2132,8 @@
         "source_variant_id": "sig-8d78741f9fc00b73ee",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-yaris-sedan-2018.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2118,7 +2172,8 @@
         "source_variant_id": "sig-f6887afff53a0b640c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/toyota-yaris-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

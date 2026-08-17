@@ -434,6 +434,9 @@ CATALOG_FLAG_TR = {
     "label_corrected":
         "Kaynak verideki ticari ad, aracın yakıt/hacim/tork değerleriyle çelişiyordu "
         "ve atıldı; yukarıdaki ad doğrulanmış alanlardan yeniden kuruldu.",
+    "spec_corrected":
+        "Bu kayıtta güç, tork veya yakıt alanlarından biri kaynak veride yanlıştı; "
+        "bağımsız teknik kaynaklarla doğrulanıp elle düzeltildi.",
     "spec_implausible":
         "Güç, tork ve motor hacmi birbiriyle fiziksel olarak tutarsız; bu üç alandan "
         "en az biri kaynak veride yanlış. Doğrulanmadan bu kayıt puanlanamaz.",

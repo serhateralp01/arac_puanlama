@@ -37,7 +37,8 @@
         "source_variant_id": "sig-6405119b548c507bf9",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/cadillac-bls-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-cbd4fadc2d0d834f78",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/cadillac-cts-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -111,7 +113,8 @@
         "source_variant_id": "sig-f198773a1b577fd71b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/cadillac-srx-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

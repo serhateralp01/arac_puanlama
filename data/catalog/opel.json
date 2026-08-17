@@ -37,7 +37,8 @@
         "source_variant_id": "sig-70ad85f5d486e05342",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-antara-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -76,7 +77,8 @@
         "source_variant_id": "sig-91a254ab41ba4234e9",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-sports-tourer-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -115,7 +117,8 @@
         "source_variant_id": "sig-30e57bbf8091f1e3fa",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -155,7 +158,8 @@
         "source_variant_id": "sig-2cfa068a6f8984eca9",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -194,7 +198,8 @@
         "source_variant_id": "sig-677ab05dff2793c3b2",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -233,7 +238,8 @@
         "source_variant_id": "sig-89b55f550593826df8",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-sports-tourer-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -275,7 +281,8 @@
         "source_variant_id": "sig-f820c256dabd674d9f",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -314,7 +321,8 @@
         "source_variant_id": "sig-0cdc0d799faf363780",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-sport-sedan-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -353,7 +361,8 @@
         "source_variant_id": "sig-44aa1fe5a5eb2ba021",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -392,7 +401,8 @@
         "source_variant_id": "sig-066e7e11fa4fa6c4cf",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -434,7 +444,8 @@
         "source_variant_id": "sig-50242adcb1f819dbc0",
         "publication_status": "held_conflict",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-sports-tourer-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -476,7 +487,8 @@
         "source_variant_id": "sig-ea24e056b15c17724c",
         "publication_status": "held_conflict",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -516,7 +528,8 @@
         "source_variant_id": "sig-dead5c1fe7a89392a5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-sport-sedan-2012.html",
-        "rejected_label": "Astra 1.6 CDTI · 180 bg"
+        "rejected_label": "Astra 1.6 CDTI · 180 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -556,7 +569,8 @@
         "source_variant_id": "sig-2722c72322ac531529",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-sports-tourer-2015.html",
-        "rejected_label": "Astra 1.6 CDTI · 200 bg"
+        "rejected_label": "Astra 1.6 CDTI · 200 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -596,7 +610,8 @@
         "source_variant_id": "sig-4454f8ae38ba46b811",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2015.html",
-        "rejected_label": "Astra 1.6 CDTI · 200 bg"
+        "rejected_label": "Astra 1.6 CDTI · 200 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -636,7 +651,8 @@
         "source_variant_id": "sig-3e3647fb6f4b7c8b1e",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -675,7 +691,8 @@
         "source_variant_id": "sig-a9b0d97887b3b50ca7",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -714,7 +731,8 @@
         "source_variant_id": "sig-2bd05ab5d24d298ddf",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-caravan-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -753,7 +771,8 @@
         "source_variant_id": "sig-069d34037e781c6c37",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-3-doors-gtc-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -792,7 +811,8 @@
         "source_variant_id": "sig-46d22a435b32bcff77",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -831,7 +851,8 @@
         "source_variant_id": "sig-4e6b533fe9131f1a9e",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -870,7 +891,8 @@
         "source_variant_id": "sig-d75c40e087f934a602",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -907,7 +929,8 @@
         "source_variant_id": "sig-d714e09d86ed618c3d",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -947,7 +970,8 @@
         "source_variant_id": "sig-b57b5c1c13e0fc6b4d",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-3-doors-1998.html",
-        "rejected_label": "Astra 1.9 CDTI · 115 bg"
+        "rejected_label": "Astra 1.9 CDTI · 115 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -986,7 +1010,8 @@
         "source_variant_id": "sig-81777262c6953f8266",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1025,7 +1050,8 @@
         "source_variant_id": "sig-d6e074d2e5a3fdab05",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-caravan-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1064,7 +1090,8 @@
         "source_variant_id": "sig-01ba0f7a6a6a4c262b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-3-doors-gtc-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1103,7 +1130,8 @@
         "source_variant_id": "sig-95c79af28b12419dac",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2007.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1142,7 +1170,8 @@
         "source_variant_id": "sig-e1ff7df33584a04370",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1179,7 +1208,8 @@
         "source_variant_id": "sig-b08f5596a76b08c3de",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-3-doors-gtc-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1216,7 +1246,8 @@
         "source_variant_id": "sig-9b5bed014f36f303b7",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1253,7 +1284,8 @@
         "source_variant_id": "sig-33922d384a3b5ab913",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-astra-5-doors-2015.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1289,7 +1321,8 @@
         "source_variant_id": "p21m-d428712afa2da6a8a4",
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/opel-corsa-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1326,7 +1359,8 @@
         "source_variant_id": "sig-aa37e117e231c91821",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-crossland-2020.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1363,7 +1397,8 @@
         "source_variant_id": "sig-46cd73f51041a63dac",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-grandland-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1403,7 +1438,8 @@
         "source_variant_id": "sig-932ac61aa42f27c764",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-sedan-2008.html",
-        "rejected_label": "Insignia 1.6 CDTI · 170 bg"
+        "rejected_label": "Insignia 1.6 CDTI · 170 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1443,7 +1479,8 @@
         "source_variant_id": "sig-4c389744a47bf65f4d",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-hatchback-2008.html",
-        "rejected_label": "Insignia 1.6 CDTI · 170 bg"
+        "rejected_label": "Insignia 1.6 CDTI · 170 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1483,7 +1520,8 @@
         "source_variant_id": "sig-d931553f3ba4a54c9a",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-country-tourer-2013.html",
-        "rejected_label": "Insignia 1.6 CDTI · 170 bg"
+        "rejected_label": "Insignia 1.6 CDTI · 170 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1523,7 +1561,8 @@
         "source_variant_id": "sig-3f9d09f61a6cff480a",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-sedan-2013.html",
-        "rejected_label": "Insignia 1.6 CDTI · 170 bg"
+        "rejected_label": "Insignia 1.6 CDTI · 170 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1563,7 +1602,8 @@
         "source_variant_id": "sig-2c6ef02d3e2241aa95",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-hatchback-2013.html",
-        "rejected_label": "Insignia 1.6 CDTI · 170 bg"
+        "rejected_label": "Insignia 1.6 CDTI · 170 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1603,7 +1643,8 @@
         "source_variant_id": "sig-4bb64c485a25262d4c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-country-tourer-2013.html",
-        "rejected_label": "Insignia 1.6 CDTI · 200 bg"
+        "rejected_label": "Insignia 1.6 CDTI · 200 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1640,7 +1681,8 @@
         "source_variant_id": "sig-309c228d490e1ac9b4",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-grand-sport-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1677,7 +1719,8 @@
         "source_variant_id": "sig-f6ded25b076cb5462c",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-sedan-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1716,7 +1759,8 @@
         "source_variant_id": "sig-3dc0d5161244ad6ea9",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-grand-sport-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1756,7 +1800,8 @@
         "source_variant_id": "sig-811a19ab54d0ddbf35",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-grand-sport-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1793,7 +1838,8 @@
         "source_variant_id": "sig-45b82ca89461baf402",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-sedan-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1832,7 +1878,8 @@
         "source_variant_id": "sig-03407b6f3c87df0b8b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-sedan-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1871,7 +1918,8 @@
         "source_variant_id": "sig-7420602109ad3e57d2",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-sedan-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1910,7 +1958,8 @@
         "source_variant_id": "sig-31ca9a190738f85027",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-sedan-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1949,7 +1998,8 @@
         "source_variant_id": "sig-f6e57853a71c428e5b",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-hatchback-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -1988,7 +2038,8 @@
         "source_variant_id": "sig-3c179888f6fc8099d5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-hatchback-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2027,7 +2078,8 @@
         "source_variant_id": "sig-626d2a1fb679099c32",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-sedan-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2064,7 +2116,8 @@
         "source_variant_id": "sig-575b7fb5550c24a85a",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-insignia-sports-tourer-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2103,7 +2156,8 @@
         "source_variant_id": "sig-1ccc384616da0dc5be",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-meriva-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2142,7 +2196,8 @@
         "source_variant_id": "sig-b50a6da80d9edac166",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-meriva-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2179,7 +2234,8 @@
         "source_variant_id": "sig-4635c9e2fa7c52f152",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-meriva-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2218,7 +2274,8 @@
         "source_variant_id": "sig-2f483018ab92ebd61e",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-meriva-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2257,7 +2314,8 @@
         "source_variant_id": "sig-1724c822a1f62b6e7f",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-meriva-2014.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2296,7 +2354,8 @@
         "source_variant_id": "sig-649a19792dc0db503c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-meriva-2010.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2333,7 +2392,8 @@
         "source_variant_id": "sig-33cab759bf6789cc97",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-mokka-2012.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2372,7 +2432,8 @@
         "source_variant_id": "sig-2487ef7051470b7fce",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-omega-caravan-1999.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2411,7 +2472,8 @@
         "source_variant_id": "sig-2ba631b189ed2af298",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-omega-caravan-1999.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2450,7 +2512,8 @@
         "source_variant_id": "sig-925b2bc9a557784ee5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-omega-caravan-1999.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2489,7 +2552,8 @@
         "source_variant_id": "sig-7e74b527d7b6d65e0f",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-omega-caravan-1999.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2526,7 +2590,8 @@
         "source_variant_id": "sig-de536f18e149966518",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-vectra-caravan-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2566,7 +2631,8 @@
         "source_variant_id": "sig-8b1fdf6a077b6939ad",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-vectra-caravan-2002.html",
-        "rejected_label": "Vectra 1.9 CDTI · 122 bg"
+        "rejected_label": "Vectra 1.9 CDTI · 122 bg",
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2603,7 +2669,8 @@
         "source_variant_id": "sig-8b0d007d77f5721b91",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-vectra-sedan-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2640,7 +2707,8 @@
         "source_variant_id": "sig-be1df9e5c58bde05a3",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-vectra-caravan-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2679,7 +2747,8 @@
         "source_variant_id": "sig-6e8d9ff12e8aab1157",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-vectra-caravan-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2718,7 +2787,8 @@
         "source_variant_id": "sig-7e1f4a6cc66e763705",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-vectra-caravan-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2757,7 +2827,8 @@
         "source_variant_id": "sig-d387ff59ecaa8188b6",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-vectra-caravan-2002.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2796,7 +2867,8 @@
         "source_variant_id": "sig-f2ec1ce649283f4d05",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-vectra-sedan-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2835,7 +2907,8 @@
         "source_variant_id": "sig-bb7c01d417455e0ed6",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-zafira-tourer-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2874,7 +2947,8 @@
         "source_variant_id": "sig-95c5a31bcc5d95297f",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-zafira-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2913,7 +2987,8 @@
         "source_variant_id": "sig-54051606ee5c72b094",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-zafira-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2952,7 +3027,8 @@
         "source_variant_id": "sig-2e1c234eb867934091",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-zafira-tourer-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -2991,7 +3067,8 @@
         "source_variant_id": "sig-5a3e413ad1e7923da5",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-zafira-2016.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3028,7 +3105,8 @@
         "source_variant_id": "sig-e32d5e9255f42e0d83",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-zafira-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3067,7 +3145,8 @@
         "source_variant_id": "sig-e13698ea38f07c438c",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-zafira-tourer-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3106,7 +3185,8 @@
         "source_variant_id": "sig-41f5a56ea4a41655df",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/opel-zafira-tourer-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -3145,7 +3225,8 @@
         "source_variant_id": "sig-82744b69d1250406fd",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/opel-zafira-life-2019.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

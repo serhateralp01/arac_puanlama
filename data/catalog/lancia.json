@@ -39,7 +39,8 @@
         "source_variant_id": "sig-da5f8a69d2a1fa1b3b",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/lancia-delta-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -78,7 +79,8 @@
         "source_variant_id": "sig-e40b9dcee9f847bb8c",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/lancia-delta-2013.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -117,7 +119,8 @@
         "source_variant_id": "sig-2e30f56a9ad23c8759",
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/lancia-delta-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -154,7 +157,8 @@
         "source_variant_id": "sig-d5b90fe39abdc122a9",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/lancia-delta-2008.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

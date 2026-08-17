@@ -38,7 +38,8 @@
         "source_variant_id": "sig-a27669b884368c55dc",
         "publication_status": "scored",
         "technical_url": null,
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -75,7 +76,8 @@
         "source_variant_id": "sig-565a6d700311bb2cdd",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/dacia-duster-2017.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]

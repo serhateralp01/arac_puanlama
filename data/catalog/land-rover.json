@@ -37,7 +37,8 @@
         "source_variant_id": "sig-affe725668652f2d97",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/land-rover-discovery-lr3-2004.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "source_variant_id": "sig-065d900532978c7134",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/land-rover-discovery-lr4-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -111,7 +113,8 @@
         "source_variant_id": "sig-791814296eb39464d3",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/land-rover-freelander-lr2-2006.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -148,7 +151,8 @@
         "source_variant_id": "sig-5431c8ff9c3bf089b8",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/land-rover-range-rover-evoque-coupe-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -185,7 +189,8 @@
         "source_variant_id": "sig-81590dc59bf73e8301",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/land-rover-range-rover-evoque-coupe-2011.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -222,7 +227,8 @@
         "source_variant_id": "sig-fe51382ca7808ebfe5",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/land-rover-range-rover-sport-2005.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     },
     {
@@ -259,7 +265,8 @@
         "source_variant_id": "sig-a09fc45495763d1056",
         "publication_status": "scored",
         "technical_url": "https://www.autoevolution.com/cars/land-rover-range-rover-sport-2009.html",
-        "rejected_label": null
+        "rejected_label": null,
+        "manually_corrected_fields": null
       }
     }
   ]
