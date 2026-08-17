@@ -314,6 +314,11 @@ MANUAL_SPEC_CORRECTIONS = {
     # katalogda "EcoSport 1.5 Ti-VCT" olarak da (Benzin, 112 bg, 140 Nm) doğru
     # kayıtlı; bu kayıt onun bozuk bir kopyası.
     "sig-7895f79c42c3199673": {"fuel": "Benzin"},
+    # Skoda Octavia Scout 2.0 TDI 4x4 (2006-2008): kayıtlı 434 Nm gerçek değil,
+    # BKD motorunun (2026-08-17 WebSearch ile 5 bağımsız kaynakta doğrulandı)
+    # gerçek çıktısı 140 bg / 320 Nm — dosyadaki 5 diğer "Octavia 140 bg" kaydıyla
+    # da birebir örtüşüyor.
+    "sig-321ef56262c4ec8860": {"torque_nm": 320.0, "engine_code": "BKD"},
     # Mercedes 3.0 V6 dizel (OM642) kümesi: "270 CDI" rozeti gerçekte var olmayan
     # bir beygir/yıl bileşimine yapıştırılmıştı (WebSearch ile doğrulandı,
     # 2026-08-17, terfi eden araçlardaki OM651 anakronizmini bulan aynı tur).
@@ -416,7 +421,7 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
             "transmission_name": clean(v.get("transmission_name")),
             "gears": gears,
             "clutch": clean(v.get("clutch")),
-            "engine_code": clean_engine_code(v.get("engine_code")),
+            "engine_code": fix.get("engine_code", clean_engine_code(v.get("engine_code"))),
             "engine_name": clean(v.get("engine_name")),
         },
         "scored_car_id": None,

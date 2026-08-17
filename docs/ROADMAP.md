@@ -1061,6 +1061,29 @@ da denemedi — düşük güvenle bir hüküm vermek, hiç vermemekten kötü.
 **Sonuç.** `validate.py` 0 hata, `smoke_test.js` 68/68, katalog-yalnız sayısı değişmedi.
 Sıradaki grup: Honda 2.0 benzin (K20/K24 vs R20A ayrımı).
 
+### Honda ve VW kümeleri temiz çıktı; Skoda'da bir tork hatası bulundu (2026-08-17)
+
+**Honda 2.0 benzin (9 kayıt) ve VW 2.0 dizel (31 kayıt) tarandı, ikisi de temiz.**
+Honda'da 3 kayıt zaten `engine_code`'la (K20A4/K20A6/R20A) sağlam; geri kalan 6 kaydın
+147-155 bg aralığı, F20B→K20A6 Accord 2.0 hattının bilinen pazar/yıl çeşitliliğiyle
+tutarlı, zorlama bir düzeltme veya işaret gerekmedi. VW'de 110-240 bg arası bütün
+tünler (PD-era ve EA189/EA288) gerçek, iyi belgeli VAG motorlarına denk geliyor ve
+üretim pencereleri örtüştüğü için hiçbir yıl "imkânsız" testinden geçmedi. **Sorun
+bulunmaması da bir sonuçtur** — zorlama bir işaretleme, gereksiz bir düzeltmeden farksız
+bir hata olurdu.
+
+**Skoda'da (94 kayıt tarandı) bir gerçek tork hatası bulundu.** "Octavia Scout 2.0 TDI
+· 140 bg" (2006-2008) kaydı 434 Nm taşıyordu; dosyadaki diğer 5 "Octavia 140 bg"
+kaydının hepsi 320 Nm. WebSearch beş bağımsız kaynakla (auto-data.net, ultimatespecs,
+autodata24 dahil) gerçek değerin 320 Nm (BKD motoru) olduğunu doğruladı — 434 kaynak
+veride bozuk. `torque_nm` düzeltildi, `engine_code: "BKD"` eklendi,
+`MANUAL_SPEC_CORRECTIONS`'a işlendi (ileride yeniden içe aktarmada kaybolmasın diye).
+Aynı taramada 150 bg'lik dört farklı gerçek motor (1.4 TSI/1.6 TDI/1.8T/2.0 TDI) ve
+183 vs 184 bg (aynı motorun bölgesel PS/hp yuvarlama farkı) gibi görünüşte tuhaf ama
+gerçekte doğru kayıtlar da kontrol edildi, dokunulmadı.
+
+**Sonuç.** `validate.py` 0 hata, `smoke_test.js` 68/68.
+
 ---
 
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
