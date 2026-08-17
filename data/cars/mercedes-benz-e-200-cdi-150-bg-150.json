@@ -97,8 +97,8 @@
       "confidence": "orta",
       "sources": [],
       "reasoning": "Güç/ağırlık oranı 93 hp/ton (normalize 25/100), tork/ağırlık oranı 211 Nm/ton (normalize 57/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 33. Karakter düzeltmesi +8 puan uygulandı, gerekçesi: arkadan itiş (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
-      "assessed_at": "2026-08-17",
-      "derivation": "formul"
+      "derivation": "formul",
+      "assessed_at": "2026-08-17"
     }
   }
 }

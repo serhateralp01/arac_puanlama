@@ -16,7 +16,8 @@
     "torque_nm": 400.0,
     "gears": 6,
     "clutch": null,
-    "engine_code": null
+    "engine_code": null,
+    "kerb_weight_kg": 1670
   },
   "price_band_k_try": [
     750,
@@ -26,7 +27,7 @@
   "scores": {
     "motor": 72,
     "trans": 68,
-    "fun": 76,
+    "fun": 66,
     "comf": 73,
     "age": 50,
     "cost": 69,
@@ -39,7 +40,7 @@
     "drivingline_m57_unkillable",
     "transmissionrepairguide_zf6hp26"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. BMW markasının depodaki 29 aracının ortalaması (konfor 70, maliyet 64, likidite 53) çapa alındı. Bu araç markanın tipik güç aralığında (197 bg / marka ortalaması 176 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. BMW markasının depodaki 29 aracının ortalaması (konfor 70, maliyet 64, likidite 53) çapa alındı. Bu araç markanın tipik güç aralığında (197 bg / marka ortalaması 176 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor. `fun` puanı da artık kardeş araçtan kopyalanmıyor: bu araç için gerçek boş ağırlık (kerb_weight_kg) WebSearch ile araştırılıp bulundu ve scripts/compute_fun.py'nin güç/ağırlık formülü çalıştırıldı; gerekçesi evidence.fun alanında yazılı.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
@@ -65,6 +66,14 @@
         "transmissionrepairguide_zf6hp26"
       ],
       "reasoning": "ZF 6HP19 (zf-6hp) şanzıman ailesinin temel puanı 68. Bu aracın trans puanı (68) temel puanla birebir aynı. Ailenin bilinen zaafı: Mekatronik konnektör kovanının (sealing sleeve) sızdırması; karter kaçağı gibi göründüğü için geç fark ediliyor ve seviye düşünce kutuyu bitirebiliyor. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "fun": {
+      "band": "belirgin ama sınırlı keyif",
+      "confidence": "orta",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 118 hp/ton (normalize 53/100), tork/ağırlık oranı 240 Nm/ton (normalize 73/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +2, şanzıman +0) temel puan 60. Karakter düzeltmesi +6 puan uygulandı, gerekçesi: sıralı altı silindir (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
       "assessed_at": "2026-08-17"
     }
   }

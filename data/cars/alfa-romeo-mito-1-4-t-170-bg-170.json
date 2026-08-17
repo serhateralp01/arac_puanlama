@@ -16,7 +16,8 @@
     "torque_nm": 249.0,
     "gears": 6,
     "clutch": null,
-    "engine_code": null
+    "engine_code": null,
+    "kerb_weight_kg": 1220
   },
   "price_band_k_try": [
     764,
@@ -26,7 +27,7 @@
   "scores": {
     "motor": 54,
     "trans": 58,
-    "fun": 83,
+    "fun": 70,
     "comf": 71,
     "age": 50,
     "cost": 50,
@@ -38,7 +39,7 @@
     "asrgearbox_tf80sc",
     "enginecrux_multiair_giulietta"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Alfa Romeo markasının depodaki 4 aracının ortalaması (konfor 68, maliyet 48, likidite 42) çapa alındı. Bu araç markanın tipik güç aralığında (170 bg / marka ortalaması 149 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Alfa Romeo markasının depodaki 4 aracının ortalaması (konfor 68, maliyet 48, likidite 42) çapa alındı. Bu araç markanın tipik güç aralığında (170 bg / marka ortalaması 149 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor. `fun` puanı da artık kardeş araçtan kopyalanmıyor: bu araç için gerçek boş ağırlık (kerb_weight_kg) WebSearch ile araştırılıp bulundu ve scripts/compute_fun.py'nin güç/ağırlık formülü çalıştırıldı; gerekçesi evidence.fun alanında yazılı.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
@@ -63,6 +64,14 @@
         "asrgearbox_tf80sc"
       ],
       "reasoning": "Aisin TF-80SC (aisin-tf80) şanzıman ailesinin temel puanı 58. Bu aracın trans puanı (58) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim valf gövdesi tasarımına bağlı sert vites geçişi ve viteste kayma/devir yükselmesi; 06J ve sonrası seri numaralı kutularda güncellenmiş valf gövdesi bu belirtileri önlüyor. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "fun": {
+      "band": "belirgin ama sınırlı keyif",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 139 hp/ton (normalize 76/100), tork/ağırlık oranı 204 Nm/ton (normalize 53/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 70. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
       "assessed_at": "2026-08-17"
     }
   }

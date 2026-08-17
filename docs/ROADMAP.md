@@ -33,8 +33,8 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynak derinliği (Y-02) | **Bitti.** 403 aracın tamamı "doğrulanmış" (4+ kaynak) — `kaynak-yetersiz` uyarısı 2026-08-17'de tamamen kapandı, bkz. Y-19 |
-| Araç listesi (Y-01) | 154 → 278 → **403 araç** (Y-19 terfi turları). Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
+| Kaynak derinliği (Y-02) | **Bitti.** 400 aracın tamamı "doğrulanmış" (4+ kaynak) — `kaynak-yetersiz` uyarısı 2026-08-17'de tamamen kapandı, bkz. Y-19 |
+| Araç listesi (Y-01) | 154 → 278 → **400 araç** (Y-19 terfi turları). Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
 | Teknik katalog (MK-22) | **1.641 kayıt** (`data/catalog/`, marka başına bir dosya). Olgusal katmandır: güç, tork, çekiş, hacim, gövde, vites sayısı, kavrama tipi, motor kodu ve teknik kaynak adresi taşır; puan taşımaz. 281 kayıt puanlanmış bir araca bağlı, 1.345'i yalnız katalogda ve kendi statik sayfası var. |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
@@ -1351,6 +1351,31 @@ söyleyen **gerçekten dışsal** bir kaynak (teknik künye sayfası) gerektiriy
 Bu, deponun kendi kuralının (CLAUDE.md §1: gerekçesi yazılmamış karar savunulamaz)
 bir uygulaması: yanlış adla puanlanmış 48 araç üretmek, 48 kaydı çelişkili
 bırakmaktan kötü olurdu.
+
+### Yeni terfi edenlerin `fun` puanı hesaplandı; ağırlık araştırması 3 sahte kayıt daha yakaladı (2026-08-17)
+
+**Terfi eden 26 aracın boş ağırlığı araştırıldı** ve `compute_fun.py` çalıştırıldı;
+yani bu araçlar da kardeş-kopya değil, gerçek güç/ağırlık formülünden gelen kanıtlı
+bir `fun` puanı taşıyor (23 araç; kalan 3'ü aşağıdaki sebeple geri alındı).
+
+**Ağırlık aramak, beklenmedik bir denetim aracı çıktı.** Bir aracın gerçek teknik
+künyesine bakmak, ağırlığın yanında rozet/yıl/güç birleşiminin tutarlılığını da
+gösteriyor. Bu turda üç kayıt böyle yakalandı ve **terfileri geri alındı**:
+
+| Kayıt | Sorun |
+|---|---|
+| BMW 530xd · 231 bg (2003-2004) | E60 530xd xDrive dizel ancak Eylül 2005'te üretime girdi |
+| Saab 9-3 2.0 TS · 130 bg | 130 bg Saab'ın **atmosferik** 2.0i'sidir, addaki turbo rozetiyle çelişiyor |
+| Saab 9-3 2.0 Turbo · 154 bg | 154 bg düşük basınçlı 2.0t'dir; "2.0 Turbo" rozeti Saab'ta 185-205 bg motoru anlatır |
+
+Üçü de `rozet_yil_celiskisi` ile kalıcı olarak kapatıldı ve
+`import_catalog.py`'ye işlendi. BMW 530xd, yıl penceresi kontrolünün neden tek
+başına yetmediğinin iyi bir örneği: M57 ailesi depoda 1999-2011 arasında görülüyor,
+yani 2003 pencerenin **içinde** — ama o yılda o gövdede o motorun **xDrive** sürümü
+yoktu. Pencere ailenin ömrünü biliyor, modele özgü donanım takvimini bilmiyor.
+
+**Sonuç.** Araç sayısı 403 → 400 (üç geri alma). Formülle hesaplanan `fun` puanı
+taşıyan araç 261 → 284. `validate.py` 0 hata, `smoke_test.js` 68/68.
 
 ---
 

@@ -371,6 +371,13 @@ BADGE_YEAR_CONFLICTS = {
     # konmadığı için aynı gün ikinci bir terfi turunda sessizce geri geldi;
     # bayrak, o gerilemeyi kalıcı olarak kapatıyor.
     "sig-0ae05b1e0a937e5e23": "CLK 270 CDI · 150 bg (2005-2009): kayıtlı 2.1L hacim OM651'e denk düşüyor ama gerçek CLK 270 CDI 2.7L OM647 taşır; OM651 2008'den önce üretilmedi",
+    # Bu üçü, terfi eden araçlar için boş ağırlık araştırılırken yakalandı
+    # (2026-08-17): ağırlık aranırken aracın gerçek teknik künyesine bakmak,
+    # rozet/yıl/güç birleşiminin gerçek bir ürüne denk gelmediğini de ortaya
+    # çıkardı. Üçü de bir kez terfi etmişti, geri alındı.
+    "sig-8f7380c83df38bce08": "530xd · 231 bg (2003-2004): E60 530xd xDrive dizel ancak Eylül 2005'te üretime girdi; bu yıl/rozet/güç birleşimi gerçek bir ürüne denk gelmiyor",
+    "sig-6d47a90beb68ed075b": "9-3 2.0 TS · 130 bg: 130 bg Saab'ın atmosferik 2.0i motorudur, addaki turbo (TS) rozetiyle çelişiyor",
+    "sig-7c021e9fa2e48b4dcd": "9-3 2.0 Turbo · 154 bg: 154 bg düşük basınçlı 2.0t'dir; \"2.0 Turbo\" rozeti Saab'ta 185-205 bg HOT motoru anlatır",
     # BMW 2.0 benzin kümesi, 2026-08-17: N43B20 (143/170 bg) 2007'den önce,
     # N20B20 turbo (528i'nin 245 bg tünü) 2012'den önce üretilmedi (WebSearch,
     # mymotorlist.com/n43b20 ve carbuzz.com/bmw-n20-engine ile doğrulandı).

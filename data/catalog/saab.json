@@ -305,7 +305,8 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "rozet_yil_celiskisi"
       ],
       "sources": [
         "src-4ffe46b91811d51a21",
@@ -545,7 +546,8 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "rozet_yil_celiskisi"
       ],
       "sources": [
         "src-551266d199fb986e7e",
