@@ -1379,6 +1379,74 @@ taşıyan araç 261 → 284. `validate.py` 0 hata, `smoke_test.js` 68/68.
 
 ---
 
+## Y-20 · Fiyat kaynağı araştırması ve aralık kaydırıcısının onarımı — **araştırma bitti, onarım bitti (2026-08-17)**
+
+### Fiyat: hangi kaynağın kullanılabileceği araştırıldı
+
+**Sorun.** `fiyat-tarihsiz` uyarısı 381 araçla en büyük açık kalem ve bu ortamdan
+kapatılamıyor: `arabam.com`, `sahibinden.com` ve hatta `wikipedia.org` ağ geçidince
+engelli (`EGRESS_BLOCKED`), yalnız arama motoru özetleri geliyor. Bu turda "veriyi
+çek" yerine **"hangi yol hukuken ve pratik olarak açık"** sorusu araştırıldı; sonuç
+`docs/FIYAT-KAYNAK-ARASTIRMASI.md` içinde tam metin olarak duruyor.
+
+**En güçlü aday: TSB Kasko Değer Listesi.** Türkiye Sigorta Birliği'nin yayımladığı
+kasko değer listesi, projenin ihtiyaç duyduğu kırılımı zaten taşıyan tek temiz kaynak:
+satırlar marka ve tip kodunun yanında **motor hacmini, yakıtı ve vitesi** ayırıyor,
+liste ayda bir güncelleniyor ve gün bazlı arşivi sayesinde her değere kalıcı bir tarih
+damgası ile kaynak referansı verilebiliyor. Bu, deponun "kanıt puandan ayrı saklanır"
+ilkesiyle birebir uyumlu. Bedeli, listenin **tek bir değer** vermesi: P25 ve P75
+doğrudan çıkmıyor.
+
+**Tamamlayıcı adım: bant genişliğini ayrı öğrenmek.** Kaggle'daki ilan seviyeli Türkiye
+veri setlerinden P25/medyan ve P75/medyan **oranları** hesaplanabilir. Bu oranlar mutlak
+fiyatın aksine zaman içinde kararlı: bir aracın fiyat dağılımının medyana göre ne kadar
+geniş olduğu liranın değerinden büyük ölçüde bağımsız. Oranlar TSB'den gelen güncel
+çapayla çarpılarak bant üretilir. Bu setlerin kaynağı büyük olasılıkla izinsiz kazıma
+olduğu için **mutlak fiyat olarak kullanılmamalı**, yalnız dağılım şekli için ve kaynağı
+belgede anılarak kullanılmalıdır.
+
+**Elenenler, gerekçeleriyle yazıldı** ki altı ay sonra yeniden tartışılmasın: siteleri
+doğrudan kazımak (iki sitenin de kullanım koşulları otomatik toplamayı açıkça yasaklıyor;
+`sahibinden.com` ayrıca içeriğinin yapay zekâ eğitiminde kullanılmasını da yasaklıyor),
+Cloudflare atlatmayı özellik diye satan hazır aktörler (parayla tutulmuş olması işi meşru
+yapmıyor), GitHub'daki bakımsız kazıyıcılar, TÜİK (adet ve devir yayımlıyor, fiyat değil)
+ve kurumsal fiyatlı sağlayıcılar (INDICATA, Autovista).
+
+**Bu turda veri yazılmadı.** Araştırmanın kendisi çıktı; TSB listesinin toplu indirilebilir
+olup olmadığı ve Kaggle setinin sütun listesi bu ortamdan doğrulanamadı, ikisi de belgenin
+son bölümünde "kendi makinende ilk şu üç şeye bak" diye somut adım olarak duruyor.
+
+### Aralık kaydırıcısı gerçekten sürüklenmiyordu; sebep beklenen yerde değildi
+
+**Bulgu.** Kullanıcı model yılı/beygir/fiyat kaydırıcılarının "kaydırılmadığını"
+bildirdi. Tarayıcıda ölçüldüğünde şikâyet birebir doğrulandı: rayın %60'ı boyunca
+çekilen bir sürükleme, 1990-2020 aralığında değeri yalnızca **1990'dan 1991'e**
+taşıyordu. Yani kaydırıcı tutuluyor, bir adım atıyor, sonra donuyordu.
+
+**İlk şüpheli suçlu değildi.** CSS'teki `pointer-events:none` / thumb'a `auto` numarası
+akla ilk gelen sebepti ve değiştirildi; davranış hiç değişmedi. Asıl sebep
+`30-filtreler.js` içindeydi: `setRange()` her `input` olayında `renderFilters()`
+çağırıyor, o da `fWrap.innerHTML=''` yaparak filtre panelinin bütün DOM'unu siliyordu —
+**kullanıcının o an tuttuğu `<input type=range>` elemanı dahil**. Eleman yok olunca
+tarayıcının sürükleme hedefi kayboluyordu.
+
+**Düzeltme.** `setRange()` artık sürüklemenin sürüp sürmediğini biliyor. Sürerken panel
+yeniden kurulmuyor; yalnız tablo yenileniyor ve o aralığa ait alanlar yerinde
+eşitleniyor (`syncRangeDom`). Sürükleme bitince (`change`) tam yeniden çizim yapılıyor,
+çünkü "kullanılabilir seçenek" kümeleri ancak o zaman güncellenmeli. Denenip gereksiz
+olduğu görülen CSS değişiklikleri geri alındı: düzeltme tek bir gerçek sebebe indi.
+
+**Gerileme testi eklendi.** `smoke_test.js` artık kaydırıcıyı gerçekten sürüklüyor ve
+değerin aralığın en az beşte birini katetmesini şart koşuyor. Elemanın varlığını saymak
+bu hatayı yakalamıyordu — nitekim eski sürümde "altı kaydırıcı var" kontrolü geçiyordu.
+Kontrol sayısı 68 → 69.
+
+Sürükleme, fare ve klavye (ok tuşları) için doğrulandı; rayın kendisine yapılan dokunuş
+bilinçli olarak uçları oynatmıyor, çünkü iki uç üst üste durduğu için raya dokunmak
+yanlış ucu fırlatabilirdi.
+
+---
+
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
 
 **Sorun neydi.** Kaynak biriktirmek ile kaynağı puana çevirmek iki farklı iş ve farklı

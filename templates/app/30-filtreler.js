@@ -40,7 +40,20 @@ function rangePass(c,skip){
 function activeRangeCount(){
  return RANGE_DEFS.filter(d=>RNG[d.k][0]!==null||RNG[d.k][1]!==null).length;
 }
-function setRange(k,i,v){
+/* `live`, kaydırıcı hâlâ sürüklenirken çağrıldığını söyler.
+
+   **Neden gerekli.** Bu işlev eskiden her çağrıda `renderFilters()` çalıştırıyordu;
+   o da `fWrap.innerHTML=''` yaparak filtre panelinin bütün DOM'unu siliyordu — yani
+   **kullanıcının o an parmağıyla tuttuğu `<input type=range>` elemanını**. Eleman
+   yok olunca tarayıcının sürükleme hedefi kayboluyor ve değer ilk adımdan sonra
+   donuyordu: ölçüldüğünde rayın %60'ı boyunca çekilen bir sürükleme 1990'ı yalnız
+   1991 yapıyordu. Kullanıcının "kaydırılmıyor" dediği şey buydu.
+
+   Sürükleme sırasında (`live`) panel yeniden kurulmuyor; yalnız tabloyu yeniliyor ve
+   etkilenen alanların değerini yerinde yamalıyoruz. Sürükleme bitince (`change`)
+   tam yeniden çizim yapılıyor, çünkü seçenek listeleri ve "kullanılabilir değer"
+   kümeleri ancak o zaman güncellenmeli. */
+function setRange(k,i,v,live){
  const [bLo,bHi]=rangeBounds(k);
  if(v===''||v===null||Number.isNaN(v)){RNG[k][i]=null;}
  else{
@@ -50,7 +63,21 @@ function setRange(k,i,v){
   if(i===0&&RNG[k][1]!==null&&n>RNG[k][1])RNG[k][1]=n;
   if(i===1&&RNG[k][0]!==null&&n<RNG[k][0])RNG[k][0]=n;
  }
+ if(live){syncRangeDom(k);updateFilterBadge();render();return;}
  renderFilters();render();
+}
+/* Sürükleme sırasında paneli yeniden kurmadan, o aralığa ait dört alanı
+   (iki sayı kutusu, iki kaydırıcı) mevcut duruma eşitler. Sürüklenen elemanın
+   kendi değerine dokunulmuyor; tarayıcı onu zaten yönetiyor ve üzerine yazmak
+   sürüklemeyi tekrar bozardı. */
+function syncRangeDom(k){
+ const [bLo,bHi]=rangeBounds(k);
+ const lo=RNG[k][0]===null?bLo:RNG[k][0];
+ const hi=RNG[k][1]===null?bHi:RNG[k][1];
+ fWrap.querySelectorAll('[data-rk="'+k+'"]').forEach(el=>{
+  if(el===document.activeElement&&el.type==='range')return;
+  el.value=(+el.dataset.ri===0)?lo:hi;
+ });
 }
 function clearRange(k){RNG[k]=[null,null];renderFilters();render();}
 /* Gövde tipi dört karma model kaydında boş; o kayıtlar birleştirdikleri iki modelin
@@ -168,12 +195,18 @@ function renderFilters(){
 fWrap.addEventListener('input',e=>{
  const t=e.target;
  if(t.type!=='range'||!t.dataset.rk)return;
- setRange(t.dataset.rk,+t.dataset.ri,+t.value);
+ /* Sürükleme sürüyor: paneli yeniden kurma, yoksa tutulan eleman silinir. */
+ setRange(t.dataset.rk,+t.dataset.ri,+t.value,true);
 });
 fWrap.addEventListener('change',e=>{
  const t=e.target;
+ if(t.type==='range'&&t.dataset.rk){
+  /* Sürükleme bitti; artık tam yeniden çizim güvenli. */
+  setRange(t.dataset.rk,+t.dataset.ri,+t.value,false);
+  return;
+ }
  if(!t.classList.contains('rnum'))return;
- setRange(t.dataset.rk,+t.dataset.ri,t.value===''?null:+t.value);
+ setRange(t.dataset.rk,+t.dataset.ri,t.value===''?null:+t.value,false);
 });
 
 /* search */

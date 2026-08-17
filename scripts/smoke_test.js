@@ -275,6 +275,35 @@ async function dumpDebug(label) {
     const sliderCount = await page.locator('.rslider input[type=range]').count();
     check('üç aralık için altı kaydırıcı var', sliderCount === 6, `${sliderCount} kaydırıcı`);
 
+    // Kaydırıcı gerçekten SÜRÜKLENEBİLİYOR mu. Bu kontrol, 2026-08-17'de
+    // bulunan gerileme yüzünden var: `setRange()` her `input` olayında filtre
+    // panelini yeniden kuruyor ve kullanıcının o an tuttuğu elemanı siliyordu,
+    // bu yüzden değer ilk adımdan sonra donuyordu. Elemanın varlığını saymak
+    // bunu yakalamıyor; sürükleyip değerin fareyi takip ettiğini görmek gerek.
+    await page.click('#filtclear');
+    await page.waitForTimeout(150);
+    const yearSlider = page.locator('.rslider input[type=range]').first();
+    const beforeDrag = await yearSlider.inputValue();
+    const sbox = await page.locator('.rslider').first().boundingBox();
+    await page.mouse.move(sbox.x + 4, sbox.y + sbox.height / 2);
+    await page.mouse.down();
+    await page.mouse.move(sbox.x + sbox.width * 0.6, sbox.y + sbox.height / 2, { steps: 12 });
+    await page.mouse.up();
+    await page.waitForTimeout(250);
+    const afterDrag = await yearSlider.inputValue();
+    // Rayın %60'ı boyunca çekilen sürükleme, aralığın en az beşte birini
+    // katetmeli. Bozuk sürümde bu fark 1 birimde kalıyordu.
+    const sMin = Number(await yearSlider.getAttribute('min'));
+    const sMax = Number(await yearSlider.getAttribute('max'));
+    const moved = Number(afterDrag) - Number(beforeDrag);
+    const dragOk = moved >= (sMax - sMin) * 0.2;
+    check('kaydırıcı sürüklendiğinde fareyi takip ediyor', dragOk,
+      `${beforeDrag} → ${afterDrag} (${moved} birim)`);
+    if (!dragOk) await dumpDebug('kaydirici-suruklenmiyor');
+    // Sürükleme bir aralık filtresi bırakıyor; bunu bilerek temizlemiyoruz,
+    // çünkü hemen aşağıdaki "filtreleri temizle" kontrolünün sıfırlayacak bir
+    // şey bulması gerekiyor (düğme, aktif filtre yokken devre dışı kalıyor).
+
     // "Filtreleri temizle" bütün kategorileri birden sıfırlamalı.
     await page.click('#filtclear');
     await page.waitForTimeout(150);

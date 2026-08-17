@@ -239,9 +239,24 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 @media(max-width:640px){.ctrlbar .count{margin-left:0;text-align:left;width:100%}}
 /* ---------- sayısal aralık filtreleri (yıl, beygir, fiyat) ---------- */
 /* Aynı aralık hem yazılabilir iki kutuyla hem de üst üste bindirilmiş iki
-   kaydırıcıyla ayarlanabiliyor. Kaydırıcılar üst üste duruyor; yalnızca
-   düğmeleri (thumb) tıklanabilir bırakılıyor, aradaki ray tıklamayı geçiriyor,
-   böylece iki uç birbirini kilitlemiyor. */
+   kaydırıcıyla ayarlanabiliyor.
+
+   **Sürükleme neden bozulmuştu (2026-08-17).** Kullanıcı kaydırıcıların
+   "kaydırılmadığını" bildirdi. İlk şüpheli bu blokdaki `pointer-events`
+   numarasıydı; ölçüldüğünde suçlu onun olmadığı görüldü. Gerçek sebep
+   `30-filtreler.js` içindeydi: `setRange()` her `input` olayında
+   `renderFilters()` çağırıyor, o da `fWrap.innerHTML=''` yaparak filtre
+   panelinin bütün DOM'unu siliyordu — yani kullanıcının o an tuttuğu
+   `<input type=range>` elemanını. Eleman yok olunca tarayıcının sürükleme
+   hedefi kayboluyor ve değer ilk adımdan sonra donuyordu (ölçüm: rayın %60'ı
+   boyunca çekilen sürükleme 1990'ı yalnızca 1991 yapıyordu). Düzeltme orada
+   yapıldı; bu blok olduğu gibi korundu.
+
+   Buradaki düzen şu: iki kaydırıcı üst üste duruyor, `input`'un kendisi
+   tıklamayı geçiriyor (`pointer-events:none`), yalnızca düğmeleri (thumb)
+   tıklanabilir. Böylece iki uç birbirini kilitlemiyor ve raya yapılan bir
+   dokunuş yanlışlıkla uçlardan birini fırlatmıyor. Ray tek yerde
+   (`.rslider::before`) çiziliyor, iki input'un kendi rayları saydam. */
 .rgroup{align-items:center}
 .rwrap{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .rnum{width:74px;font-family:var(--mono);font-size:11.5px;text-align:center;padding:5px 6px;border:1px solid var(--line2);border-radius:7px;background:var(--panel2);color:var(--ink);-moz-appearance:textfield}
@@ -249,12 +264,19 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .rnum:focus{outline:none;border-color:var(--sage);background:#fff;box-shadow:0 0 0 3px var(--sagebg)}
 .rdash{color:var(--faint);font-family:var(--mono);font-size:11px}
 .runit{font-family:var(--mono);font-size:9.5px;color:var(--faint);min-width:20px}
-.rslider{position:relative;width:180px;height:20px;flex:0 0 auto}
-.rslider input[type=range]{position:absolute;left:0;top:0;width:100%;height:20px;margin:0;background:none;pointer-events:none;-webkit-appearance:none;appearance:none}
-.rslider input[type=range]::-webkit-slider-runnable-track{height:3px;border-radius:3px;background:var(--line2);margin-top:8px}
-.rslider input[type=range]::-moz-range-track{height:3px;border-radius:3px;background:var(--line2)}
-.rslider input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:auto;width:13px;height:13px;border-radius:50%;background:var(--sage);border:2px solid #fff;box-shadow:0 0 0 1px var(--line2);cursor:pointer;margin-top:-5px}
-.rslider input[type=range]::-moz-range-thumb{pointer-events:auto;width:13px;height:13px;border-radius:50%;background:var(--sage);border:2px solid #fff;box-shadow:0 0 0 1px var(--line2);cursor:pointer}
+.rslider{position:relative;width:180px;height:22px;flex:0 0 auto;touch-action:none}
+/* Görünen ray tek bir yerde çiziliyor; iki input'un kendi rayı saydam. */
+.rslider::before{content:"";position:absolute;left:0;right:0;top:50%;height:3px;margin-top:-1.5px;border-radius:3px;background:var(--line2);pointer-events:none}
+.rslider input[type=range]{position:absolute;left:0;top:0;width:100%;height:22px;margin:0;background:none;pointer-events:none;-webkit-appearance:none;appearance:none}
+.rslider input[type=range]:focus{outline:none}
+.rslider input[type=range]:focus-visible::-webkit-slider-thumb{box-shadow:0 0 0 3px var(--sagebg),0 0 0 1px var(--line2)}
+.rslider input[type=range]:focus-visible::-moz-range-thumb{box-shadow:0 0 0 3px var(--sagebg),0 0 0 1px var(--line2)}
+.rslider input[type=range]::-webkit-slider-runnable-track{height:3px;border-radius:3px;background:transparent;margin-top:9.5px}
+.rslider input[type=range]::-moz-range-track{height:3px;border-radius:3px;background:transparent}
+.rslider input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:auto;width:13px;height:13px;border-radius:50%;background:var(--sage);border:2px solid #fff;box-shadow:0 0 0 1px var(--line2);cursor:grab;margin-top:-5px}
+.rslider input[type=range]::-moz-range-thumb{pointer-events:auto;width:13px;height:13px;border-radius:50%;background:var(--sage);border:2px solid #fff;box-shadow:0 0 0 1px var(--line2);cursor:grab}
+.rslider input[type=range]:active::-webkit-slider-thumb{cursor:grabbing}
+.rslider input[type=range]:active::-moz-range-thumb{cursor:grabbing}
 @media(max-width:560px){.rslider{width:100%}}
 
 .legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
@@ -1187,7 +1209,20 @@ function rangePass(c,skip){
 function activeRangeCount(){
  return RANGE_DEFS.filter(d=>RNG[d.k][0]!==null||RNG[d.k][1]!==null).length;
 }
-function setRange(k,i,v){
+/* `live`, kaydırıcı hâlâ sürüklenirken çağrıldığını söyler.
+
+   **Neden gerekli.** Bu işlev eskiden her çağrıda `renderFilters()` çalıştırıyordu;
+   o da `fWrap.innerHTML=''` yaparak filtre panelinin bütün DOM'unu siliyordu — yani
+   **kullanıcının o an parmağıyla tuttuğu `<input type=range>` elemanını**. Eleman
+   yok olunca tarayıcının sürükleme hedefi kayboluyor ve değer ilk adımdan sonra
+   donuyordu: ölçüldüğünde rayın %60'ı boyunca çekilen bir sürükleme 1990'ı yalnız
+   1991 yapıyordu. Kullanıcının "kaydırılmıyor" dediği şey buydu.
+
+   Sürükleme sırasında (`live`) panel yeniden kurulmuyor; yalnız tabloyu yeniliyor ve
+   etkilenen alanların değerini yerinde yamalıyoruz. Sürükleme bitince (`change`)
+   tam yeniden çizim yapılıyor, çünkü seçenek listeleri ve "kullanılabilir değer"
+   kümeleri ancak o zaman güncellenmeli. */
+function setRange(k,i,v,live){
  const [bLo,bHi]=rangeBounds(k);
  if(v===''||v===null||Number.isNaN(v)){RNG[k][i]=null;}
  else{
@@ -1197,7 +1232,21 @@ function setRange(k,i,v){
   if(i===0&&RNG[k][1]!==null&&n>RNG[k][1])RNG[k][1]=n;
   if(i===1&&RNG[k][0]!==null&&n<RNG[k][0])RNG[k][0]=n;
  }
+ if(live){syncRangeDom(k);updateFilterBadge();render();return;}
  renderFilters();render();
+}
+/* Sürükleme sırasında paneli yeniden kurmadan, o aralığa ait dört alanı
+   (iki sayı kutusu, iki kaydırıcı) mevcut duruma eşitler. Sürüklenen elemanın
+   kendi değerine dokunulmuyor; tarayıcı onu zaten yönetiyor ve üzerine yazmak
+   sürüklemeyi tekrar bozardı. */
+function syncRangeDom(k){
+ const [bLo,bHi]=rangeBounds(k);
+ const lo=RNG[k][0]===null?bLo:RNG[k][0];
+ const hi=RNG[k][1]===null?bHi:RNG[k][1];
+ fWrap.querySelectorAll('[data-rk="'+k+'"]').forEach(el=>{
+  if(el===document.activeElement&&el.type==='range')return;
+  el.value=(+el.dataset.ri===0)?lo:hi;
+ });
 }
 function clearRange(k){RNG[k]=[null,null];renderFilters();render();}
 /* Gövde tipi dört karma model kaydında boş; o kayıtlar birleştirdikleri iki modelin
@@ -1315,12 +1364,18 @@ function renderFilters(){
 fWrap.addEventListener('input',e=>{
  const t=e.target;
  if(t.type!=='range'||!t.dataset.rk)return;
- setRange(t.dataset.rk,+t.dataset.ri,+t.value);
+ /* Sürükleme sürüyor: paneli yeniden kurma, yoksa tutulan eleman silinir. */
+ setRange(t.dataset.rk,+t.dataset.ri,+t.value,true);
 });
 fWrap.addEventListener('change',e=>{
  const t=e.target;
+ if(t.type==='range'&&t.dataset.rk){
+  /* Sürükleme bitti; artık tam yeniden çizim güvenli. */
+  setRange(t.dataset.rk,+t.dataset.ri,+t.value,false);
+  return;
+ }
  if(!t.classList.contains('rnum'))return;
- setRange(t.dataset.rk,+t.dataset.ri,t.value===''?null:+t.value);
+ setRange(t.dataset.rk,+t.dataset.ri,t.value===''?null:+t.value,false);
 });
 
 /* search */
