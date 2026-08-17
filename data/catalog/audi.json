@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dcf92ee636099933c8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -72,7 +73,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dffe832f50fe12f278",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -110,7 +112,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-14a9949c0c7cc54271",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -146,7 +149,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dd871a3cf65da10051",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a1-sportback-5-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-sportback-5-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -184,7 +188,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c5c0f75eb4ca648466",
         "publication_status": "held_conflict",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -222,7 +227,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c3f3b53b87e51d0505",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -260,7 +266,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-06e1c7d732c66bdf4f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a1-sportback-5-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-sportback-5-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -298,7 +305,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c8a2029775651d972c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a1-sportback-5-doors-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a1-sportback-5-doors-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -334,7 +342,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cf7216bc6cb2a279c7",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -370,7 +379,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6fd850df00822b48b8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -406,7 +416,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4eb426508d7128179d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -442,7 +453,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3a9d3c8b6ab94b96bb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -478,7 +490,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-382c6575324c025af7",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -514,7 +527,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ced4d539a9313fe963",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -550,7 +564,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cfd53ccba016950618",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -586,7 +601,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c22ce5dfea592b4b70",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -621,7 +637,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "p21m-33f09f214593742338",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -657,7 +674,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-272027ff43e8635a0c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -693,7 +711,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d30d58883ea870c352",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -729,7 +748,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c8d789db1a01572971",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -765,7 +785,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c69952a8524c8f4701",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -801,7 +822,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8d28744f59f52f6aca",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -837,7 +859,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e08238d0007658ecec",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-g-tron-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-g-tron-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -873,7 +896,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-48fc7e16da863f19d0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -909,7 +933,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f06e050b64ca463627",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -945,7 +970,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-38fe3020b90703da4f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -981,7 +1007,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0ad3616a80d20c6e8e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -1017,7 +1044,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f2af4d49003a8f4200",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1055,7 +1083,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b42b234ac4b96af3d0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1093,7 +1122,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4739e921ad2731e7ec",
         "publication_status": "held_conflict",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1129,7 +1159,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2a83e49c34287f643e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-hatchback-3-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -1165,7 +1196,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1ba4cf13af984cd3dd",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1201,7 +1233,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-852a6b36c7e008c082",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1239,7 +1272,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-baab8d095ad88c04b6",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-1996.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-1996.html",
+        "rejected_label": null
       }
     },
     {
@@ -1277,7 +1311,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3db590080423ff6b05",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-1999.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-1999.html",
+        "rejected_label": null
       }
     },
     {
@@ -1313,7 +1348,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1eec452ea38c47a4d8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -1349,7 +1385,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1daf719171eca20448",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1385,7 +1422,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-feefb1e5eacc3607e3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -1421,7 +1459,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9258783ac7594e7d59",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1457,7 +1496,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9cf9936d1483804974",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -1493,7 +1533,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ebabd2ac87b11d1271",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1529,7 +1570,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a05903c3a47e6861e6",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -1567,7 +1609,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a02c126b3468da12d3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sedan-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1603,7 +1646,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8689fed43d947c9857",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -1639,7 +1683,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-59bfffdf7f68c8d4a0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a3-sportback-5-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -1675,7 +1720,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a6566df84d66aa670d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -1711,7 +1757,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cf17ebe3058a324995",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -1747,7 +1794,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3c5dbd9212b1b067ca",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -1783,7 +1831,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-90bd39b1a3eb11f168",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -1819,7 +1868,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-18c1fa312ff9ce1188",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -1855,7 +1905,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f26644c8f1b1b91c6a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1891,7 +1942,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-80cd5a3c6bbe514877",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1927,7 +1979,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-66e2011becb8dba2ea",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1963,7 +2016,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0551797cdeaad2eeba",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a4-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1999,7 +2053,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4b970b31d7b1f871af",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a5-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a5-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -2035,7 +2090,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e7b4a0bc66df6cc33b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a6-1997.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a6-1997.html",
+        "rejected_label": null
       }
     },
     {
@@ -2071,7 +2127,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-250e00ac15cc4b16c7",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2107,7 +2164,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-829098af24f6c8554a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -2143,7 +2201,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ffbef9d39a70948afe",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -2179,7 +2238,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-440af253f54302bfa3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a6-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -2217,7 +2277,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1a2f28c2f6ee7066a8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d4-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d4-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2255,7 +2316,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-64e0ce3cc9d7684615",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -2293,7 +2355,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-206a035d46edfe6323",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3f-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3f-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -2331,7 +2394,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0446bc37e78b6b8b5d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-l-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-l-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2369,7 +2433,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2bff0e60971a5f33c4",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d4-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d4-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2407,7 +2472,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-64229a5c40b0bfdcd1",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d4-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d4-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2445,7 +2511,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a07d642b1eb1ab711c",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d2-1999.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d2-1999.html",
+        "rejected_label": null
       }
     },
     {
@@ -2483,7 +2550,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-471c66e8e652bde647",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -2521,7 +2589,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b5566e508108a79860",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3f-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3f-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -2559,7 +2628,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f9b96ffa998e303ea8",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -2597,7 +2667,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-44088fe32263aed000",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -2635,7 +2706,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cda5438d5e21f7d96a",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3f-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-a8-d3f-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -2671,7 +2743,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ebe14d3715644c3e14",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-q3-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-q3-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -2707,7 +2780,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cf51fe69b232c694a8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-q5-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-q5-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -2745,7 +2819,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e72c5cbabbd6d66c9a",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -2781,7 +2856,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-68da0e55533dca8f98",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -2819,7 +2895,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d9aeaaf0ec53991cfb",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -2855,7 +2932,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0fa044bae437d5fb89",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2891,7 +2969,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-deb58ca9ec360e1b1e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -2927,7 +3006,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0868961300052ceef5",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -2963,7 +3043,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c3347ddebfe5b47b07",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -2999,7 +3080,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bcdbd4671b572719b9",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -3035,7 +3117,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2661095b591b83cba1",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-coupe-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -3071,7 +3154,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a175453a62197d1f34",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -3107,7 +3191,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a4c8835cc2678fd015",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/audi-tt-roadster-2007.html",
+        "rejected_label": null
       }
     }
   ]

@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2a40fc374018641690",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-2008-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-2008-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -72,7 +73,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5493146ce806a9e5b8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -108,7 +110,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-89acde2f8335c86f0f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-3-doors-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-3-doors-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -147,7 +150,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d81eb45d84bea9e949",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-3-doors-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-3-doors-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -185,7 +189,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1cb31ef7710c86f4ea",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-cc-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-cc-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -223,7 +228,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e44ec3dc06f9accf1a",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-sw-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-sw-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -262,7 +268,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-468f02963ec6719bc7",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-3-doors-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-206-3-doors-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -298,7 +305,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c073c513e179ce8181",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-5-doors-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-5-doors-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -336,7 +344,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e591e5b89e5a10da96",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-5-doors-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-5-doors-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -374,7 +383,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-aff480c9e6efca688a",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-3-doors-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-3-doors-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -413,7 +423,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8600258af4e72bb404",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-3-doors-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-3-doors-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -451,7 +462,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a0f1d5d72033ed3ac9",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-cc-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-cc-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -489,7 +501,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-17db5027e249dee764",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-sw-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-207-sw-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -527,7 +540,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c94a1ec73e8697396b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-208-5-doors-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-208-5-doors-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -565,7 +579,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ba431a684691724e4f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-208-5-doors-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-208-5-doors-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -601,7 +616,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-92203be6e448a45a08",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-3008-2020.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-3008-2020.html",
+        "rejected_label": null
       }
     },
     {
@@ -637,7 +653,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-12adae2f75e5d656ee",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-3008-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-3008-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -673,7 +690,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-91217652b17001cbc6",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-301-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-301-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -711,7 +729,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-83efbfb9b3f550d005",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-301-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-301-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -749,7 +768,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-baa41c168d5c54cf76",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-301-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-301-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -785,7 +805,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-43856c7c2a1120d295",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-5-doors-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-5-doors-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -824,7 +845,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2ed5fad32031b8185c",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-5-doors-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-5-doors-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -862,7 +884,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1b7b363ba6c558d2bf",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-sw-2002-1.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-sw-2002-1.html",
+        "rejected_label": null
       }
     },
     {
@@ -900,7 +923,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e193cd7b4c9b33b31a",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-sw-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-sw-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -938,7 +962,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cb7b8f92342f4eae41",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-5-doors-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-5-doors-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -976,7 +1001,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f2437f5c34c2537021",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-sw-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-307-sw-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -1014,7 +1040,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d50b4efac80c6b9cc1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1052,7 +1079,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-89d74a25a15055ea2e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -1090,7 +1118,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-97cf1e9beb4d0b6ddf",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -1128,7 +1157,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-384b331f75031f6571",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -1166,7 +1196,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-37649108e84973ff09",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1204,7 +1235,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-397f872afc85383ada",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -1242,7 +1274,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f68ed58e417fe92911",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -1280,7 +1313,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ee5613856ed377fbf8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -1316,7 +1350,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8a09f62e30f2195698",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -1352,7 +1387,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fecea1772d08af9a97",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1390,7 +1426,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e94ac7abb04a0b316b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-sw-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1428,7 +1465,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-36a8204ac6d6fa34ff",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1466,7 +1504,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a040ab1ccdfb5757fc",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1504,7 +1543,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-09a8988a677b1c4dfd",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-3-doors-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-3-doors-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1542,7 +1582,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bc3267888fbbc10340",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1580,7 +1621,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bcb14ce7e505d9fa6d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1618,7 +1660,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e7f5b9c61a22dfa94b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-3-doors-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-3-doors-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1656,7 +1699,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0df7cc86ac3bf92cc0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-cc-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -1692,7 +1736,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c02ee532250479ee68",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-3-doors-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-3-doors-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1728,7 +1773,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b642668bfe3c1032f1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-308-5-doors-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -1764,7 +1810,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0497215baafe3d011a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html",
+        "rejected_label": null
       }
     },
     {
@@ -1802,7 +1849,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-351e97900863187bbe",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html",
+        "rejected_label": null
       }
     },
     {
@@ -1840,7 +1888,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bd3c71097d3888b115",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-break-1999.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-break-1999.html",
+        "rejected_label": null
       }
     },
     {
@@ -1878,7 +1927,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4c9b26ca06a36380b5",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html",
+        "rejected_label": null
       }
     },
     {
@@ -1916,7 +1966,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2a76a77269f24e2ec7",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-break-1999.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-break-1999.html",
+        "rejected_label": null
       }
     },
     {
@@ -1954,7 +2005,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-388aadf9283cffe8eb",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-1999.html",
+        "rejected_label": null
       }
     },
     {
@@ -1992,7 +2044,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-924cdafae2d841add1",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-coupe-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-406-coupe-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -2030,7 +2083,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7f4e74015f5b2ca85b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-407-sw-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-407-sw-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -2068,7 +2122,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-06948aafc98e87bf2b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-407-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-407-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -2104,7 +2159,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d4264b824b801c848b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-407-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-407-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -2140,7 +2196,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-643344be0319fd76ff",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-5008-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-5008-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -2178,7 +2235,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ce7a109885c9e96da2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2216,7 +2274,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-686d25bb3d067bb1a4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2254,7 +2313,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0bd9c860077f333e59",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -2292,7 +2352,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-887a2e31500ae86db5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -2328,7 +2389,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2f2938208ed654fb51",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2366,7 +2428,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-38f7e055a75f9bf096",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2404,7 +2467,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b7eb77201a6a7fa9b7",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2442,7 +2506,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0dbf9bc67d4a32fa76",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2480,7 +2545,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-20874f0053978ea031",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2518,7 +2584,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9b91c6f683568ac972",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2556,7 +2623,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-68e31c64b7353a7567",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2594,7 +2662,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a6912e5186352f333c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -2632,7 +2701,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-10e46909258e4dc0a8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -2670,7 +2740,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a308c38e681f1e5e4b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -2706,7 +2777,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6ec71853c593cff3b4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2744,7 +2816,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7f28ad4b773f84fa2a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2782,7 +2855,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-eefa145c4ced2b47fb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2820,7 +2894,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-96e26867b88ded5805",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-berline-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2860,7 +2935,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7956ab71bfe1729c71",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2898,7 +2974,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-10fd62d192606e7e47",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-508-sw-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2934,7 +3011,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2bb852edca81a81a7f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -2972,7 +3050,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-042e05fe45226b6bcd",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3010,7 +3089,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-065200c3a2d1f0ed04",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -3048,7 +3128,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f8fed49a3f9414a80f",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3086,7 +3167,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b182d270fe6a94e754",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -3124,7 +3206,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a0b788313bcd138f1c",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3162,7 +3245,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-38915f95f0eec90693",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3200,7 +3284,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e79e44bc7d0677453a",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -3238,7 +3323,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-25539b7fe19d2e80c0",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-607-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3274,7 +3360,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e4cc1df6847f4072c3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-807-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-807-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -3313,7 +3400,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "p21-0a2a111028b6176837",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://au7o.io/known-issues/peugeot-308"
+        "technical_url": "https://au7o.io/known-issues/peugeot-308",
+        "rejected_label": null
       }
     },
     {
@@ -3337,9 +3425,11 @@
         "engine_code": null,
         "engine_name": "DV6"
       },
-      "scored_car_id": "peugeot-301-1-6-hdi",
+      "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "spec_implausible"
+      ],
       "sources": [
         "au7o_peugeot308_known_issues",
         "propeugeotspares_16hdi_egr",
@@ -3350,7 +3440,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "p21-fe5003dffa372274b4",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.araclo.com/blog/otomatik-sanziman-turleri-karsilastirmasi-tam-otomatik-cift-kavramali-ve-cvt-turkiyede-hangi-araclarda-bulunur"
+        "technical_url": "https://www.araclo.com/blog/otomatik-sanziman-turleri-karsilastirmasi-tam-otomatik-cift-kavramali-ve-cvt-turkiyede-hangi-araclarda-bulunur",
+        "rejected_label": null
       }
     },
     {
@@ -3387,7 +3478,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "p21-a6ce2c6d5b23842f75",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.araclo.com/blog/citroen-c5-aircross-1.5-bluehdi-kronik-sorunlari-eksantrik-zinciri-gercegi-ve-kullanici-yorumlari-2026"
+        "technical_url": "https://www.araclo.com/blog/citroen-c5-aircross-1.5-bluehdi-kronik-sorunlari-eksantrik-zinciri-gercegi-ve-kullanici-yorumlari-2026",
+        "rejected_label": null
       }
     },
     {
@@ -3423,7 +3515,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-66856e910cf7bfcc40",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-rcz-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-rcz-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -3461,7 +3554,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4e33ccce9a5aaa45e9",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-rcz-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-rcz-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -3499,7 +3593,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b160cd01f4aaef8f18",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/peugeot-rcz-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/peugeot-rcz-2013.html",
+        "rejected_label": null
       }
     }
   ]

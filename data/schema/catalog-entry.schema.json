@@ -4,7 +4,14 @@
   "title": "Katalog kaydı",
   "description": "Olgusal teknik katalog kaydı (MK-22). Bu katman ölçülebilir alanları taşır; puan, kanıt bloğu veya güvenilirlik yargısı TAŞIMAZ. Bir kayıt deponun kanıt standardından geçtiğinde data/cars/ katmanına terfi eder ve orada puan kazanır.",
   "type": "object",
-  "required": ["id", "name", "brand", "years", "specs", "provenance"],
+  "required": [
+    "id",
+    "name",
+    "brand",
+    "years",
+    "specs",
+    "provenance"
+  ],
   "additionalProperties": false,
   "properties": {
     "id": {
@@ -12,59 +19,180 @@
       "pattern": "^[a-z0-9-]+$",
       "description": "Kalıcı kimlik (CLAUDE.md §4). Marka, model, varyant ve beygirden türetilir; bir kez verildikten sonra değişmez."
     },
-    "name": { "type": "string", "minLength": 2 },
-    "brand": { "type": "string", "minLength": 1 },
-    "model_family": { "type": ["string", "null"] },
-    "generation": { "type": ["string", "null"] },
-    "years": { "type": "string", "pattern": "^\\d{4}-\\d{4}$" },
+    "name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "brand": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model_family": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "generation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "years": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{4}$"
+    },
     "specs": {
       "type": "object",
-      "required": ["hp", "fuel", "drivetrain", "transmission_type"],
+      "required": [
+        "hp",
+        "fuel",
+        "drivetrain",
+        "transmission_type"
+      ],
       "additionalProperties": false,
       "properties": {
-        "hp": { "type": "integer", "minimum": 30, "maximum": 900 },
-        "torque_nm": { "type": ["number", "null"], "minimum": 50, "maximum": 1200 },
-        "displacement_l": { "type": ["number", "null"], "minimum": 0.5, "maximum": 8.0 },
-        "fuel": { "type": "string", "enum": ["Benzin", "Dizel"] },
-        "drivetrain": { "type": "string" },
-        "body_type": { "type": ["string", "null"] },
-        "transmission_type": { "type": "string" },
-        "transmission_name": { "type": ["string", "null"] },
-        "gears": { "type": ["integer", "null"], "minimum": 3, "maximum": 10 },
-        "clutch": { "type": ["string", "null"] },
-        "engine_code": { "type": ["string", "null"] },
-        "engine_name": { "type": ["string", "null"] }
+        "hp": {
+          "type": "integer",
+          "minimum": 30,
+          "maximum": 900
+        },
+        "torque_nm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 50,
+          "maximum": 1200
+        },
+        "displacement_l": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0.5,
+          "maximum": 8.0
+        },
+        "fuel": {
+          "type": "string",
+          "enum": [
+            "Benzin",
+            "Dizel"
+          ]
+        },
+        "drivetrain": {
+          "type": "string"
+        },
+        "body_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "transmission_type": {
+          "type": "string"
+        },
+        "transmission_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "gears": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 3,
+          "maximum": 10
+        },
+        "clutch": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "engine_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "engine_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     },
     "scored_car_id": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Bu katalog kaydı data/cars/ içindeki puanlanmış bir araca karşılık geliyorsa onun kimliği. Doluysa arayüz katalog kaydını ayrı bir satır olarak göstermez."
     },
     "possible_scored_car_ids": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Eşleşme belirsizse (birden çok aday) adaylar burada durur; terfi sırasında elle çözülür."
     },
     "quality_flags": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "P2.1'in kendi kalite sicilinden gelen açık işaretler (ör. generic_transmission_identity, held_conflict). Gizlenmez; terfi sırasında yakalanması için görünür tutulur (MK-22)."
     },
     "sources": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Katalog kaynak kimlikleri (data/catalog/_sources.json). Bu liste puan kanıtı DEĞİLDİR ve doğrulama etiketi üretmez."
     },
     "provenance": {
       "type": "object",
-      "required": ["dataset", "imported_at", "source_variant_id"],
+      "required": [
+        "dataset",
+        "imported_at",
+        "source_variant_id"
+      ],
       "additionalProperties": false,
       "properties": {
-        "dataset": { "type": "string" },
-        "imported_at": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
-        "source_variant_id": { "type": "string" },
-        "publication_status": { "type": ["string", "null"] },
-        "technical_url": { "type": ["string", "null"] }
+        "dataset": {
+          "type": "string"
+        },
+        "imported_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "source_variant_id": {
+          "type": "string"
+        },
+        "publication_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "technical_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rejected_label": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Kaynak verideki etiket, kendisiyle uyumlu üç alana (yakıt, hacim, tork) karşı çelişiyorsa atıldı ve ad doğrulanmış alanlardan yeniden kuruldu. Atılan etiket burada saklanır ki düzeltme geri izlenebilsin."
+        }
       }
     }
   }

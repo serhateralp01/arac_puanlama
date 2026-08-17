@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b6aec8babefb38c94b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-brz-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-brz-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -72,7 +73,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-86aa9fe974cf37d7de",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-forester-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-forester-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -108,7 +110,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-eb6225f02cb4c20490",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-forester-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-forester-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -144,7 +147,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f72071f83fe5ae150f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -182,7 +186,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3012f5c60c4ef5a798",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -220,7 +225,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6b2bd97d672f65b502",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-4-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-4-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -258,7 +264,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2b8418e15b43d55b57",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-5-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-5-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -294,7 +301,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7d8950675bcd980f7f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-impreza-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -330,7 +338,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bcabd37cef38090eb9",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -368,7 +377,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-735f921123d5b1a37b",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -406,7 +416,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dcbe0d6c171f9e6a05",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -444,7 +455,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f86f45ba10a5bae4c6",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -482,7 +494,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-aa92b851d92794c5e1",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -520,7 +533,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ea3d0c5a346c40c51d",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -558,7 +572,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9a1ac11b6984743524",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-wagon-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -594,7 +609,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a7692eb38ea93d9eb3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-legacy-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -630,7 +646,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-46addddccb088a618f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-levorg-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-levorg-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -666,7 +683,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f0bb5c7f8ea4f77a6b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-outback-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-outback-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -702,7 +720,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-541761de8f87258fd5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-outback-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-outback-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -738,7 +757,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9c587fff7967716c7a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-tribeca-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-tribeca-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -774,7 +794,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e12974fc8e5efef7df",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/subaru-xv-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/subaru-xv-2012.html",
+        "rejected_label": null
       }
     }
   ]

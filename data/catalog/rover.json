@@ -37,7 +37,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-20f4dbf87e7a71b29e",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5e37e897f0f1a7cd34",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     },
     {
@@ -111,7 +113,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7fd25889113030e886",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     },
     {
@@ -148,7 +151,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-920f9ed0db31f0285e",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     }
   ]

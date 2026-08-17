@@ -546,6 +546,44 @@ def main() -> int:
                     "arayüz bu bandı gösterirken kırılır",
                 )
 
+    # --- fizik denetimi: beygir/tork/hacim birbirini tutuyor mu ---
+    # Bir motorun gücü, torku ve hacmi bağımsız sayılar değil; aralarındaki oran
+    # yakıt türüne göre dar bir bantta kalıyor. 1.875 kayıt ölçüldüğünde hp/Nm oranı
+    # benzinde 0,54-0,89 (medyan 0,73), dizelde 0,38-0,52 (medyan 0,44) çıktı — iki
+    # bant neredeyse hiç örtüşmüyor, çünkü dizel düşük devirde tork üretir.
+    #
+    # Bu denetim iki gerçek hatayı yakaladı: Peugeot 301 1.6 HDi'nin teknik değerleri
+    # yanlışlıkla benzinli PureTech varyantından alınmıştı (115 bg / 150 Nm, hp/Nm
+    # 0,77 — dizel için imkânsız), Suzuki SX4 1.6'nın torku 320 Nm yazılmıştı (hp/Nm
+    # 0,38 — benzinli için imkânsız). İkisi de düzeltildi. Eşikler ölçülen p1/p99
+    # sınırlarının dışına konuldu ki yalnız gerçek hatalar uyarı üretsin.
+    HP_NM_LIMITS = {"Benzin": (0.48, 1.25), "Dizel": (0.28, 0.62)}
+    for path, car in cars:
+        sp = car.get("specs") or {}
+        hp, nm, lit = sp.get("hp"), sp.get("torque_nm"), sp.get("displacement_l")
+        fuel = sp.get("fuel")
+        if not (hp and nm and fuel in HP_NM_LIMITS):
+            continue
+        lo, hi = HP_NM_LIMITS[fuel]
+        ratio = hp / nm
+        if not (lo <= ratio <= hi):
+            rep.error(
+                path.name, "fizik-disi-oran",
+                f"{fuel.lower()} motorda hp/Nm = {ratio:.2f} ({hp} bg / {nm:.0f} Nm); "
+                f"beklenen aralık {lo}-{hi}. Beygir, tork ya da yakıt alanından biri "
+                "yanlış varyanttan gelmiş olabilir",
+            )
+        if lit:
+            nm_per_l = nm / lit
+            if fuel == "Dizel" and nm_per_l < 95:
+                rep.warn(path.name, "fizik-dusuk-tork",
+                         f"dizel motorda {nm_per_l:.0f} Nm/L çok düşük; tork ya da "
+                         "hacim alanı şüpheli")
+            elif nm_per_l > 260:
+                rep.warn(path.name, "fizik-yuksek-tork",
+                         f"{nm_per_l:.0f} Nm/L olağandışı yüksek; tork ya da hacim "
+                         "alanı şüpheli")
+
     # --- katalog katmanı (MK-22) ---
     # Katalog olgusal bir katmandır ve puan taşımaz. Buradaki denetimin tek işi, o
     # sınırın korunduğunu ve kayıtların şekil olarak sağlam olduğunu doğrulamak.

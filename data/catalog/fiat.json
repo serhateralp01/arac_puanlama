@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-290c04b0cb44708c45",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/fiat-500x-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/fiat-500x-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -72,7 +73,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6ab2d515aa821a32ee",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/fiat-500x-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/fiat-500x-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -110,7 +112,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cd0557cd67279c65d2",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/fiat-brava-1995.html"
+        "technical_url": "https://www.autoevolution.com/cars/fiat-brava-1995.html",
+        "rejected_label": null
       }
     },
     {
@@ -148,7 +151,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-31d954a5b021ce342a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -184,7 +188,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fbff4105c7717395d5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -222,7 +227,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d6dfcece99ba3b86f0",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-1995.html"
+        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-1995.html",
+        "rejected_label": null
       }
     },
     {
@@ -260,7 +266,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-47d92eb1cbf03bf30d",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/fiat-bravo-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -296,7 +303,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-de545438f080f010d3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/fiat-tipo-5-doors-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/fiat-tipo-5-doors-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -332,7 +340,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-41136ed3dc2651df71",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/fiat-tipo-5-doors-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/fiat-tipo-5-doors-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -368,7 +377,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5a2f29012e2bef4ed1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/fiat-freemont-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/fiat-freemont-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -404,7 +414,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c0743a4bc84d40cd22",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/fiat-stilo-5-doors-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/fiat-stilo-5-doors-2004.html",
+        "rejected_label": null
       }
     }
   ]

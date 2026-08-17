@@ -195,11 +195,20 @@ def fuel_conflict(name: str, brand: str, fuel: str) -> bool:
 
     Ölçüldüğünde 1.641 kaydın 25'inde çelişki bulundu: "Opel Astra 1.6 CDTI" ve
     "Renault Megane 1.9 DTi" benzin olarak, "Volvo S60 2.3 T5" ve "Volvo V60 1.6 T4"
-    dizel olarak kayıtlıydı. Çelişki **düzeltilmiyor, işaretleniyor**: hangi alanın
-    yanlış olduğunu söylemek için teknik özellik sayfasına bakmak gerekiyor ve bu
-    ortamda o siteler ağ geçidince engelli. MK-18'in dersi burada bağlayıcı — çapraz
-    doğrulamada bulunan her çelişki, taraf tutmadan önce elle doğrulanır. İşaret
-    kaydı terfiye kapatır ve katalog sayfasında görünür kalır.
+    dizel olarak kayıtlıydı.
+
+    **Hangi alanın yanlış olduğu ölçülerek bulundu.** Çelişkili 25 kaydın hepsinde
+    `fuel`, `displacement_cc`, `torque_nm` ve `engine_name` alanları birbiriyle
+    uyumlu; tek başına ayrışan alan **etiketin kendisi** (`model_variant`):
+
+      "Opel Astra 1.9 CDTI · 115 bg"  → 1796cc, "1.8i 16V", 170 Nm  → atmosferik benzin
+      "Volvo S60 2.3 T5 · 163 bg"     → 2400cc, "2.4L D5",  340 Nm  → dizel
+      "Volvo S60 1.5 T3 · 115 bg"     → 1560cc, 270 Nm @ 115 bg     → Volvo D2 dizeli
+      "Renault Megane 1.9 DTi · 280 bg" → 1798cc, "1.8L 16V (280 HP)" → Megane RS benzin
+
+    Yani üç alan bir yana, etiket bir yana. Doğru düzeltme yakıt alanını değiştirmek
+    değil, **bozuk etiketi atmak**. Bu işlev artık yalnız tespit ediyor; etiketi
+    `rebuild_label()` yeniden kuruyor.
     """
     n = norm(name)
     diesel = any(re.search(p, n) for p in FUEL_TOKENS_DIESEL)
@@ -215,6 +224,44 @@ def fuel_conflict(name: str, brand: str, fuel: str) -> bool:
     if petrol and not diesel:
         return fuel != "Benzin"
     return False
+
+
+# Fizik bantları: validate.py ile aynı ölçümden geliyor (1.875 kayıt).
+# Dizel düşük devirde tork üretir, benzin yüksek devirde güç; hp/Nm oranı bu yüzden
+# yakıt türüne göre dar ve neredeyse örtüşmeyen bantlarda kalıyor.
+HP_NM_LIMITS = {"Benzin": (0.48, 1.25), "Dizel": (0.28, 0.62)}
+
+
+def spec_implausible(fuel: str, hp: int, nm, litre) -> str | None:
+    """Güç/tork/hacim üçlüsü fiziksel olarak tutarlı mı; değilse sebebi döner."""
+    if not nm:
+        return None
+    lo, hi = HP_NM_LIMITS.get(fuel, (0, 99))
+    ratio = hp / nm
+    if not (lo <= ratio <= hi):
+        return f"hp/Nm={ratio:.2f} ({fuel}) beklenen {lo}-{hi} dışında"
+    if litre:
+        per_l = nm / litre
+        if fuel == "Dizel" and per_l < 95:
+            return f"{per_l:.0f} Nm/L dizel için çok düşük"
+        if per_l > 260:
+            return f"{per_l:.0f} Nm/L olağandışı yüksek"
+    return None
+
+
+def rebuild_label(model_family: str | None, litre, fuel: str, hp: int) -> str:
+    """Bozuk etiket yerine, doğrulanmış alanlardan sade bir ad kurar.
+
+    Yalnız üç yönlü uyuşan alanları kullanır: model ailesi, motor hacmi (cc'den),
+    yakıt ve beygir. Üreticinin ticari rozetini (CDTI, T5, DTi) **uydurmaz** — o rozet
+    zaten yanlış olduğu için atılıyor. "Opel Astra 1.9 CDTI · 115 bg" yerine
+    "Opel Astra 1.8 Benzin · 115 bg" yazılır: daha az iddialı ama doğru.
+    """
+    parts = [model_family or "?"]
+    if litre:
+        parts.append(f"{litre:.1f}".rstrip("0").rstrip(".") if litre % 1 else f"{litre:.1f}")
+    parts.append(fuel)
+    return f"{' '.join(parts)} · {hp} bg"
 
 
 def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str | None]:
@@ -246,6 +293,14 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
     variant_label = clean(v.get("model_variant")) or clean(v.get("model_family")) or "?"
     name = f"{brand} {variant_label}".strip()
 
+    # Etiket, kendisiyle uyumlu üç alana (yakıt, hacim, tork) karşı çelişiyorsa
+    # atılır ve doğrulanmış alanlardan yeniden kurulur. Atılan etiket kaybolmuyor,
+    # provenance içinde saklanıyor ki düzeltme geri izlenebilsin.
+    rejected_label = None
+    if fuel_conflict(name, brand, fuel):
+        rejected_label = variant_label
+        name = f"{brand} {rebuild_label(clean(v.get('model_family')), litre, fuel, hp)}"
+
     entry = {
         "id": None,  # aşağıda atanır
         "name": name,
@@ -270,8 +325,9 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
         "scored_car_id": None,
         "possible_scored_car_ids": [],
         "quality_flags": sorted(set(quality.get(v["variant_id"], []))
-                                | ({"fuel_name_conflict"}
-                                   if fuel_conflict(name, brand, fuel) else set())),
+                                | ({"label_corrected"} if rejected_label else set())
+                                | ({"spec_implausible"}
+                                   if spec_implausible(fuel, hp, nm, litre) else set())),
         "sources": sorted(set(links.get(v["variant_id"], []))),
         "provenance": {
             "dataset": DATASET,
@@ -279,6 +335,7 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
             "source_variant_id": v["variant_id"],
             "publication_status": clean(v.get("publication_status")),
             "technical_url": clean(v.get("technical_url")),
+            "rejected_label": rejected_label,
         },
     }
     return entry, None

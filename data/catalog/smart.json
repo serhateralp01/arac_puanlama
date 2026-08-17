@@ -37,7 +37,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b8f2db5dc7d57502a6",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     }
   ]

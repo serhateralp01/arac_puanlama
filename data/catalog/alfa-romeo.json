@@ -37,7 +37,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-336d9210c76575166d",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     },
     {
@@ -73,7 +74,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4d571e3ee767724e60",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -111,7 +113,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5680339888530b5dc9",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-sportwagon-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-sportwagon-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -149,7 +152,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-798f885a6f4830f4c9",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -187,7 +191,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e5519d9c265c29bbf8",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-sportwagon-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-156-sportwagon-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -225,7 +230,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0e4516fef85e3a43c2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-159-sportwagon-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-159-sportwagon-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -261,7 +267,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1b6365d598889192d0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-159-sportwagon-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-159-sportwagon-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -297,7 +304,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e1d80f77590a919e8d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-159-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-159-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -334,7 +342,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4b8a846a0c16804c0f",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     },
     {
@@ -370,7 +379,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-46a3230901786c6827",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-166-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-166-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -408,7 +418,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-960df109072a2c3a49",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-166-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-166-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -446,7 +457,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5fbb541ef62848b96c",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-166-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-166-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -482,7 +494,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cabd92d065dcd55cf4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-quadrifoglio-verde-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-quadrifoglio-verde-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -518,7 +531,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3e4dd486a297546e0c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-gt-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-gt-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -554,7 +568,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-efb898f4c35169b664",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-giulietta-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-giulietta-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -590,7 +605,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5cff1196aa3b7d2b0e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -628,7 +644,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a39c612ec7baf99fa2",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -666,7 +683,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-962cdaf8a1200d20aa",
         "publication_status": "held_conflict",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -704,7 +722,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f0ee6a03f98e40d68e",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -742,7 +761,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e4ede0c6117734f471",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-quadrifoglio-verde-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-quadrifoglio-verde-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -780,7 +800,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-12929fae38f75bf8ba",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-veloce-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/alfa-romeo-mito-veloce-2016.html",
+        "rejected_label": null
       }
     }
   ]

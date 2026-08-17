@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-30a33903338038362e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c-elysee-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c-elysee-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ff67fefc89c21740bb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c-elysee-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c-elysee-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -112,7 +114,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-00fa70944add531788",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c2-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c2-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -150,7 +153,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-74502fc35b0571d42f",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c2-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c2-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -189,7 +193,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9110d2a3712abaa432",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-aircross-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-aircross-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -230,7 +235,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4bb42ce745a5dbbeed",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-aircross-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-aircross-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -271,7 +277,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-13030a1d586ed5ada9",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -309,7 +316,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a4eadc49868f710b26",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-picasso-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-picasso-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -347,7 +355,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5e1684fd7a80cf386b",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-pluriel-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-pluriel-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -385,7 +394,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fa54197df5c9cfba20",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -424,7 +434,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0237bb4f1c719c36d9",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-x-tr-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-x-tr-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -462,7 +473,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-10bde7142f1a37ae6b",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-picasso-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-picasso-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -500,7 +512,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ae69675751411ac192",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -536,7 +549,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bf26e23945e649c607",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c3-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -574,7 +588,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-425c02f3c042afc730",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-cactus-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-cactus-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -614,7 +629,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b080ec8a417462e99b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -652,7 +668,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a5d811c75a0df81c41",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -690,7 +707,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4ffbc308f5f2b1e7e3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -728,7 +746,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f303b70961a4c61f69",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -766,7 +785,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f9cfb5cae99c622401",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -804,7 +824,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-23132ce6a78b054147",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-grand-c4-picasso-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-grand-c4-picasso-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -842,7 +863,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c7e72ca6b828bf468a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -878,7 +900,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ee9280ace9925ff34e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -916,7 +939,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d0aa19f2474c47cd11",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -954,7 +978,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-00fbb04b538bd8bbb4",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-coupe-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-coupe-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -992,7 +1017,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5b741187db57e09f24",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1030,7 +1056,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9624f3d9756720e090",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-coupe-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-coupe-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1068,7 +1095,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-467fe9c33affb23655",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1106,7 +1134,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-983f5e304794cb87d4",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1142,7 +1171,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6b99c0a0c646989878",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-cactus-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-cactus-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -1178,7 +1208,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7732d977c4b95ce2fe",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1216,7 +1247,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6006a496a1131d4785",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1254,7 +1286,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-091523b9971a182e5b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1292,7 +1325,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3747de7f65b5639d03",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1330,7 +1364,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6969aa1262dd8573fe",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1368,7 +1403,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-01a82ffbcd12711011",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1406,7 +1442,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6585d4d43a0ba50f66",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-aircross-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-aircross-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -1444,7 +1481,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c8a91f18f930c1e953",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1482,7 +1520,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cc62253b244a20ea0b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1520,7 +1559,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bf517e54aa375407fd",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1558,7 +1598,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-303c8f1c34c09c4c69",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1596,7 +1637,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a07bce2630ae477c78",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1634,7 +1676,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d2a3ebf47e7954ccd5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-crosstourer-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-crosstourer-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -1670,7 +1713,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-33c87bb4686a97ef28",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -1708,7 +1752,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6758d3a6ea70e9c8ea",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -1746,7 +1791,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2ee5075e8bae73b319",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1784,7 +1830,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-00879855ed0e287af0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1822,7 +1869,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f04f9b77d0cacc271a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1860,7 +1908,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6affc8d8ee294a664d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-tourer-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1898,7 +1947,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f8a4d1bb7735aadbbe",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1936,7 +1986,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4383c96a9741472a37",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -1974,7 +2025,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4cee1e090380a8641d",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -2012,7 +2064,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-beb40ca77478369831",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -2050,7 +2103,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4c84a01d971b3c94d7",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -2088,7 +2142,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-01ebf5ab6a9a34fc51",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -2126,7 +2181,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ac08b7519b1ef54eaf",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -2164,7 +2220,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-eb62201be9b0ec0cb4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -2202,7 +2259,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-87842d58ba5bc649d4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -2240,7 +2298,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c1a0d8d20180d623a9",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-estate-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -2278,7 +2337,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c04c24844c9ab4b6a1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -2316,7 +2376,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3403e05595fee11835",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-liftback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -2354,7 +2415,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d0c34dcd9edf22093b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2390,7 +2452,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-725c95e87deb50a049",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-hatchback-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2426,7 +2489,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-15e15964f6de52e040",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c5-sedan-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2462,7 +2526,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b471a97f6140207fea",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-xsara-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-xsara-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -2498,7 +2563,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a553b6c8ad2c641750",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-ds3-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-ds3-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -2534,7 +2600,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1417e93241248d6ee7",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-ds4-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-ds4-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2570,7 +2637,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d75d7ab323359cae0f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-ds5-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-ds5-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -2606,7 +2674,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a4c162285ea2b4a2f7",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-c4-picasso-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -2642,7 +2711,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-04a61a5988d146a56c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-grand-c4-picasso-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-grand-c4-picasso-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -2681,7 +2751,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-610e0db8c0aefffaa5",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-xantia-break-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-xantia-break-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -2719,7 +2790,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b97d4c2ad431769c46",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/citroen-xsara-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/citroen-xsara-2000.html",
+        "rejected_label": null
       }
     }
   ]

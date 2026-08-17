@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c3cca10da7c6afc50f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dbb7155edacc148251",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -112,7 +114,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ed610fe4be4fead822",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -150,7 +153,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9b935f8c569449563e",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -188,7 +192,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-902e91925189751f22",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sportcombi-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sportcombi-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -226,7 +231,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-725891aefdfdafc2f0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -264,7 +270,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-67b38c826f392c47d5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -302,7 +309,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6d47a90beb68ed075b",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -340,7 +348,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e9969c7d0dc4b2b5e1",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -378,7 +387,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1a5b16eb58d6d053a7",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -416,7 +426,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b6deff85b2e1a30e26",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -454,7 +465,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d62dda2f8588437c12",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -492,7 +504,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-12a97e57a05f54dfcd",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -530,7 +543,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7c021e9fa2e48b4dcd",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -568,7 +582,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-18793818dbd0213835",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -606,7 +621,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2db4a035096ca70f17",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-convertible-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -644,7 +660,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b570d71ee487cb1424",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -682,7 +699,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e6628aae9c6289c6b7",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-coupe-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -720,7 +738,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ee9a628bfd1c048411",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-aero-convertible-1999.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-aero-convertible-1999.html",
+        "rejected_label": null
       }
     },
     {
@@ -756,7 +775,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1dac62e23e226a03f6",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-3-sport-sedan-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -794,7 +814,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-eaacddde938853f9e3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-sportcombi-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-sportcombi-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -832,7 +853,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-365a5b89ee0577c812",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -870,7 +892,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ea9cf4215c736c52d6",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-95-sportcombi-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-95-sportcombi-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -908,7 +931,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-131691214eb678c168",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-1997.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-1997.html",
+        "rejected_label": null
       }
     },
     {
@@ -946,7 +970,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0a287764c9bb20bdc5",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -984,7 +1009,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5b7fc4ae598470383c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1020,7 +1046,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-00108cfc538181a4b5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -1056,7 +1083,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8aee41133aaa1a3081",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/saab-9-5-2001.html",
+        "rejected_label": null
       }
     }
   ]

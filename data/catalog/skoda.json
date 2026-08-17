@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f1c5429276cedabed9",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -72,7 +73,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-54eeebd83fc012fdcb",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-combi-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-combi-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -108,7 +110,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2eea1197836dcf44c8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -144,7 +147,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-637ee11c94643333a4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -180,7 +184,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-50e94ee647276b1d4b",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-combi-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-combi-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -216,7 +221,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f574a7ab6ff6da1904",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-rs-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-rs-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -252,7 +258,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-25ddb50556f2ade856",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-rs-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-fabia-rs-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -288,7 +295,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-252e6f42a6340c58ca",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -326,7 +334,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e86bcfb27824a0b6ce",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -362,7 +371,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1527742d8f96c9251c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -402,7 +412,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-89014f43110c2c5763",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2020.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2020.html",
+        "rejected_label": null
       }
     },
     {
@@ -438,7 +449,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-45512e1415893a05b0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -474,7 +486,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-43cbd4b1796aca17f4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -510,7 +523,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-722efa9f69fa491307",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -548,7 +562,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f055eed52fe8fa8567",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -584,7 +599,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6541ce124fac2dfc64",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -622,7 +638,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6d74431fec070ccc2d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -658,7 +675,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-596725d3e7f88816b8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -695,7 +713,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9e0903e3f943c4bfeb",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     },
     {
@@ -731,7 +750,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b211b12b19de6c75db",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -767,7 +787,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e358ae0bfc37c15750",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -807,7 +828,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a4ec1a6fef52fa9990",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2020.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2020.html",
+        "rejected_label": null
       }
     },
     {
@@ -846,7 +868,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0da6ade5d4579a5817",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2020.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2020.html",
+        "rejected_label": null
       }
     },
     {
@@ -884,7 +907,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-62a53c4a83d6079768",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -922,7 +946,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b288db20af3405cc9e",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -958,7 +983,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6a40396d74ffb9edc3",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -994,7 +1020,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-430c98d4d7bee58a4a",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1030,7 +1057,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-af250c4ab519744e2a",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1066,7 +1094,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-366b4d1b3ea2586ab8",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -1102,7 +1131,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-974f57907e82fa4cd3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1139,7 +1169,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-23aa27253727973317",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     },
     {
@@ -1177,7 +1208,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-094d5b232020b8dfe4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1215,7 +1247,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cde5f7e451e02e73c6",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1251,7 +1284,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-54f25052d84ad41bf7",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1289,7 +1323,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-01c5d8b250d7ea12d8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -1329,7 +1364,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2e2b3554df9dae9e5f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-ii-rs-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-ii-rs-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -1365,7 +1401,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-23b6c0ec3ccb8c6212",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -1403,7 +1440,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-321ef56262c4ec8860",
         "publication_status": "held_conflict",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-scout-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -1442,7 +1480,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-be560c855a4b17a896",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1478,7 +1517,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6bd0d0d2db644ba3ee",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1514,7 +1554,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-61a801f1d015d1214a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-4x4-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-4x4-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1550,7 +1591,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3e68f9e948baf33dd0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-rs-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-rs-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1586,7 +1628,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2c0ece0f5a08359bd2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-rs-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-combi-rs-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1622,7 +1665,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fc820f5b6ad953d1a6",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-octavia-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1658,7 +1702,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-26f88a38b0b7d8f4e0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -1694,7 +1739,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2f612f5aabced0e9fe",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -1732,7 +1778,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a2a1981bffe3165fe8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-spaceback-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-spaceback-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1768,7 +1815,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-36329442a44da9b41f",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -1804,7 +1852,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-11882fc128eb0c242f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-spaceback-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-rapid-spaceback-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1840,7 +1889,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-68ca46fadb5b9b6e89",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-roomster-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-roomster-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1876,7 +1926,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3b2411ad009c85f42c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-scala-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-scala-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -1912,7 +1963,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-40fbbcc967774d3eb8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-scala-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-scala-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -1951,7 +2003,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "p21-57c3c51753f8757e40",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+        "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+        "rejected_label": null
       }
     },
     {
@@ -1990,7 +2043,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "p21-122d7995d5a8c77010",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+        "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+        "rejected_label": null
       }
     },
     {
@@ -2029,7 +2083,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "p21-15462449d5da9cde67",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+        "technical_url": "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+        "rejected_label": null
       }
     },
     {
@@ -2065,7 +2120,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-01c158934f610628f7",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -2103,7 +2159,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e3d7e08ae86e87e5aa",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -2141,7 +2198,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-953fb161de31cd136c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -2179,7 +2237,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-535d02cb1d023a95cc",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -2215,7 +2274,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f78916b87e40d3d68f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2251,7 +2311,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9690e391c58ea6d4cb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -2287,7 +2348,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-92fd6eafcc2a8e88ef",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2323,7 +2385,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-51db3ae81b5541e723",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -2359,7 +2422,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5bf0e6726acdee4a33",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2395,7 +2459,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-80599d0b26ee3ebb4d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-estate-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-estate-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -2431,7 +2496,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3eeed31b6cf22d0445",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -2469,7 +2535,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2e44de68308ac4cf90",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -2506,7 +2573,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1a21dd6db54b756b67",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -2544,7 +2612,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-90d330a86176070af8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -2582,7 +2651,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f34746b445001a69bc",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -2620,7 +2690,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2c4ae8f5cc835c37fe",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -2656,7 +2727,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-afd30eeef23a2e779a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -2692,7 +2764,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-776163c2cc33e132c7",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2728,7 +2801,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dfe5ec1a35c905f203",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -2764,7 +2838,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ad3cb32a262e920970",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-superb-combi-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -2800,7 +2875,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9fc193a4e26ab1193a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/skoda-yeti-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/skoda-yeti-2009.html",
+        "rejected_label": null
       }
     }
   ]

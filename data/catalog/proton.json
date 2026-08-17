@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f2376a477513338741",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/proton-gen-2-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/proton-gen-2-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -72,7 +73,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-17c1e71a91b734d68f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/proton-persona-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/proton-persona-2007.html",
+        "rejected_label": null
       }
     }
   ]

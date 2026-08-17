@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-076cbd980e7b76d135",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/mg-zt-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/mg-zt-2001.html",
+        "rejected_label": null
       }
     }
   ]

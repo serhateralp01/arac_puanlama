@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8291dbeb59e0454534",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/porsche-boxster-986-1996.html"
+        "technical_url": "https://www.autoevolution.com/cars/porsche-boxster-986-1996.html",
+        "rejected_label": null
       }
     },
     {
@@ -72,7 +73,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5b4086f2a9d4c2d4f4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/porsche-cayenne-955-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/porsche-cayenne-955-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -108,7 +110,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5f26d0dd78f8184902",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/porsche-cayenne-957-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/porsche-cayenne-957-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -144,7 +147,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-335662f341dae45bdb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/porsche-cayman-987-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/porsche-cayman-987-2006.html",
+        "rejected_label": null
       }
     }
   ]

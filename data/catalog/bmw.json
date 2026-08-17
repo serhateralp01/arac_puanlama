@@ -38,7 +38,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bf3942f9ee70881544",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-f21-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-f21-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0cf2ef69baa6ba1dbb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-lci-f21-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-lci-f21-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -110,7 +112,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1634c5c8bdb08cc414",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-lci-f20-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-lci-f20-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -146,7 +149,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2c86581102bb647e48",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-lci-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-lci-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -182,7 +186,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9a0c2179e70be6c4d5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-f20-lci-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-f20-lci-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -220,7 +225,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-99d633eb57345cb733",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -258,7 +264,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ec9340873e94479531",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -296,7 +303,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fd5e302ca2232d7dd5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-e81-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-e81-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -334,7 +342,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fb03819eec04befc16",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -372,7 +381,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4efd429085735fbacc",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-f21-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-f21-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -410,7 +420,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-624628bc8d3a5698eb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -448,7 +459,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-be3476cba2e54c8518",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -486,7 +498,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cc026a10e91353d589",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-e81-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-e81-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -524,7 +537,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fd759dabefb67a0e60",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-cabriolet-e88-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-cabriolet-e88-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -562,7 +576,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-419343677a146f0067",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -600,7 +615,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3dae0557bd077f959e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-f21-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-f21-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -638,7 +654,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-12d9fbbed3bab271d0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -676,7 +693,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4ac549b54acbc409b4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-coupe-e82-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-coupe-e82-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -714,7 +732,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-af398aafe56cc6b027",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-e81-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-e81-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -752,7 +771,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0225b451124a16e73c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -790,7 +810,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e9dd39755dec424dac",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-cabriolet-e88-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-cabriolet-e88-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -828,7 +849,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-aa8a48bea5c010137d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -866,7 +888,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-04e43415b56c5c49f6",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -904,7 +927,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d491a9d2236450e397",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-coupe-e82-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-coupe-e82-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -942,7 +966,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2de37f61d21a818ea5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -980,7 +1005,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dd8c3da10caebc478d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-e81-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-e81-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1018,7 +1044,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d1beac478ad4cb0358",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-cabriolet-e88-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-cabriolet-e88-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1056,7 +1083,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5c6012c3901144195f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-coupe-e82-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-coupe-e82-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1092,7 +1120,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1bd563756bae0e5b2c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-f21-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-3-doors-f21-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -1128,7 +1157,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6acdfa5bf8e037989c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1164,7 +1194,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-67b69f64ee0f225963",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1200,7 +1231,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c8f6a37707ab17e39d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-lci-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-lci-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -1236,7 +1268,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-609c42bd370a75e7de",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -1271,7 +1304,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "p21m-18fe593d7d21396c30",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-lci-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-lci-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -1307,7 +1341,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-aae0f258552a2bae87",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-f20-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -1343,7 +1378,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2fd7c01a2dde033e5d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -1379,7 +1415,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-21d587131d8591f79d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1417,7 +1454,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cd9627f0913e8bbdd2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-gran-tourer-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-gran-tourer-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -1455,7 +1493,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b96db8355c9e11dde2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-gran-tourer-f45-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-gran-tourer-f45-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -1493,7 +1532,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-89bba5e4db1e0022ce",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-active-tourer-f45-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-active-tourer-f45-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -1529,7 +1569,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-18152d274d218381f4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1567,7 +1608,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3bb674b3448a29c412",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-active-tourer-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-active-tourer-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -1603,7 +1645,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7df87ec74cb37b0f75",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-convertible-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-convertible-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -1641,7 +1684,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6e9965843feed9e18b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-gran-tourer-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-gran-tourer-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -1677,7 +1721,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3f0d26ad85c9afa0b6",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-f22-lci-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-f22-lci-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -1713,7 +1758,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b7564d1fad19dff795",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-convertible-f23-lci-2017.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-2-series-convertible-f23-lci-2017.html",
+        "rejected_label": null
       }
     },
     {
@@ -1751,7 +1797,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d3df518be750a1dcfe",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -1789,7 +1836,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0b7ea808b0be1c93db",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -1825,7 +1873,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d92c73fd3dc2d3e1e5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -1861,7 +1910,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0741ac94cfa452f0c3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-f31-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-f31-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -1899,7 +1949,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-330ec6673599e7d01f",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -1937,7 +1988,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-255b9fafa4ae63c4ca",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -1975,7 +2027,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e19b7edee3f1a6ba50",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e46-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e46-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -2013,7 +2066,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4ef6dfed8e448f0380",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -2051,7 +2105,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-34b3c8cb5f138ecfc3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -2089,7 +2144,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0d54d19a244baf81cd",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2127,7 +2183,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-898c3d7f03a4fafac8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2163,7 +2220,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-076a75e1d3af277356",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -2199,7 +2257,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0107195390d4f22774",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-f31-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-f31-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -2237,7 +2296,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-627f8101de9ee0b4ba",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -2275,7 +2335,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d21e98f43ba773965e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -2313,7 +2374,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-81fd7cbf14c595f558",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2351,7 +2413,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a8a99912a2ab4bb482",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -2389,7 +2452,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4f754ff06e1778782f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -2427,7 +2491,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fcf29cb98e63050a47",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -2465,7 +2530,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2dc2cb2478dcd51198",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -2503,7 +2569,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d265cb9424b34a3fe7",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e46-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e46-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -2541,7 +2608,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-129ab97a4336334b38",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -2579,7 +2647,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8af87a2813229f1cb9",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -2617,7 +2686,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9d7029ecf5e095d8e5",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e46-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e46-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -2655,7 +2725,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4578d8cbae770e50bf",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e92-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e92-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -2693,7 +2764,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0cf5814e51b5f3ac90",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2731,7 +2803,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-24fa9d3d73583ebd57",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2769,7 +2842,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4034340ca4d12d5803",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2807,7 +2881,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b1afb79de93490ef19",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -2845,7 +2920,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7d07144e1840ae055b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e92-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e92-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2883,7 +2959,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d595270e6a215491fa",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -2921,7 +2998,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b949c398fcc73f5c60",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -2959,7 +3037,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2e554490004d4a41dc",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -2997,7 +3076,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-068f1627c9116af4fd",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3035,7 +3115,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bcd360b2d6bb76f3ca",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3073,7 +3154,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-91f5a0faa120ad20eb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3111,7 +3193,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-97087cd5e4ec438bfd",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e93-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e93-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -3149,7 +3232,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-812d45465b8a228da8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -3187,7 +3271,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dd724fd0731c73a362",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -3225,7 +3310,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a3f1547a6f02e999e1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e93-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e93-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -3261,7 +3347,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f4312548ff41750560",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -3297,7 +3384,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ec14e64f692e261a6e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-f31-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-f31-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -3335,7 +3423,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0ed54cb789bfbed779",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3373,7 +3462,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3fea7402029982b155",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3411,7 +3501,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8eb3d386864bc5a056",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -3449,7 +3540,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b73950fa031e76b279",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -3487,7 +3579,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7893ce7e6d6964cc5f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3525,7 +3618,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e709d50a1d0a81f012",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3563,7 +3657,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-980023bdadaf774e5c",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -3601,7 +3696,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-098174ddf2f8d4f0ce",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -3639,7 +3735,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-abb2442f3cc47074bb",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e46-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e46-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -3677,7 +3774,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e7491aeb6847b56571",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -3715,7 +3813,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5946d6f5e249031b2d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -3753,7 +3852,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3120fb6af199496969",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3791,7 +3891,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-13eede1aa1bd368aed",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -3829,7 +3930,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-40f61aa6d72a759e0d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e92-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e92-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -3867,7 +3969,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-866b53f77bc374423a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e93-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e93-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -3905,7 +4008,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-241ca3efa5da290d84",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -3943,7 +4047,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9cd00fbf7c04930481",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-cabriolet-e46-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -3981,7 +4086,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1ca40844ba1b183ccf",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e46-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-coupe-e46-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -4019,7 +4125,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cb49a0bb60210af6d4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -4057,7 +4164,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8638d26a01536c4a6a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -4095,7 +4203,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-431ab98891b409f8db",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -4133,7 +4242,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-da57863c7dcf69f88e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -4171,7 +4281,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-36e1c7e0171e6cb58c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -4209,7 +4320,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e9a4cd60235c508e10",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -4247,7 +4359,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e11d09705444802da4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e46-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -4285,7 +4398,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4c22afd9f36c99d8b2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -4323,7 +4437,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-157aa9c5226ac0daa6",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -4361,7 +4476,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-20b092098aff3738ac",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -4399,7 +4515,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c9a0e7588982f24e25",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -4437,7 +4554,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-46627b833c8fc494de",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-touring-e91-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -4473,7 +4591,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c817c6bb7365ca1417",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -4509,7 +4628,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b44a4fd3a6d0385cb1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -4545,7 +4665,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-10d2b0cca51035ed9a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -4581,7 +4702,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6f1f564d16c75c488d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -4617,7 +4739,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-efe31751329769fece",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -4653,7 +4776,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-64bd64815f78ea4863",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -4691,7 +4815,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9eb2579577d97ac493",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -4729,7 +4854,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4e6c419faa3cbcf5bb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -4767,7 +4893,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b54dccd5bb07afbbb8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -4805,7 +4932,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c534095f7b153c0152",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -4843,7 +4971,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a47cad7440abee5eed",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -4881,7 +5010,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7f270ab9abc6bd6a02",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -4919,7 +5049,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3b0cc4b2374e24818a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -4957,7 +5088,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3e965774693e2b93f1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -4995,7 +5127,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-35a30dfa4f9f03cc4b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -5033,7 +5166,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-eb7915c7f2009903a8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -5071,7 +5205,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-218d0a6b0a8b9352c5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -5107,7 +5242,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e9711c5a53f9912826",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -5143,7 +5279,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8786450593e713cc2d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -5179,7 +5316,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6a7e887b5e09a109bb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -5217,7 +5355,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5518aa9da3be81db15",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-f11-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-f11-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -5255,7 +5394,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5541936e7e86cdcc4d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-f11-lci-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-f11-lci-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -5291,7 +5431,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ec2f6b3e1a6f3bf6e2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-lci-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-lci-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -5327,7 +5468,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b88ee9065fef07a267",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -5365,7 +5507,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0ad32a2b430c7ae3ba",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -5403,7 +5546,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6bdbf4b9d1cdc6ab8b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -5441,7 +5585,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-524734c79d666545a9",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -5479,7 +5624,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1bc177112baece747f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -5517,7 +5663,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bf43d73ce648c836d3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -5555,7 +5702,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cdb209f020b8f0cc99",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -5593,7 +5741,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c746daa116811ef239",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -5631,7 +5780,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7372cd2d548aa0ffe9",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -5669,7 +5819,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-15482b2712263f3401",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -5707,7 +5858,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d0e2822641368a3ebf",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -5745,7 +5897,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-557cd8d9f6eae46eab",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -5783,7 +5936,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-435018ac8f9922cfbb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -5821,7 +5975,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4911bfe22a07daaa4e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -5859,7 +6014,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-24252852d901723493",
         "publication_status": "held_conflict",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -5897,7 +6053,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dbb2706f424551bab8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -5933,7 +6090,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-463b1c4c0a5a7081ce",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -5969,7 +6127,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5527d794a99d62ccef",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-f11-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-f11-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -6005,7 +6164,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a434f6dd463a564ade",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -6041,7 +6201,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-aedce9836ea9527583",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-f11-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-f11-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -6077,7 +6238,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6a7a82fad6b2459ce4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -6115,7 +6277,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e17657f623835d4a0e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -6153,7 +6316,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2df3f8deeb4adaeef2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -6191,7 +6355,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5e963bbc30ee04bc6a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -6229,7 +6394,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6f2938d39bd0e6f150",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -6267,7 +6433,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1def70e926db25346e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -6305,7 +6472,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-65082823790ea49b5b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -6343,7 +6511,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3bb9915ca3209b0eef",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -6381,7 +6550,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e797772424b6f5c22e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -6419,7 +6589,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fe90a76b2bf6dc0f36",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -6457,7 +6628,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-af397ad5cc047c4397",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -6495,7 +6667,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5b6c7653aac4c1cb58",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -6533,7 +6706,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-221a7299e618789e73",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -6571,7 +6745,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8f7380c83df38bce08",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -6609,7 +6784,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-04e3483c88f95fd25f",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -6647,7 +6823,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b8476e65ed1895d37a",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -6685,7 +6862,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f260a3ad7d4214332d",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-touring-e61-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -6723,7 +6901,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-10dc7df1b9ddfe88a4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -6761,7 +6940,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-61e0408c32ab7e19c2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -6797,7 +6977,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9ab9e89eaac285193a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-gran-turismo-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-gran-turismo-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -6833,7 +7014,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1d6b6234fb2b44a499",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-f10-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -6869,7 +7051,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-81d71914c190b5eec5",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-gran-turismo-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-gran-turismo-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -6905,7 +7088,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7d400b19237d2b7e1d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-gran-turismo-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-gran-turismo-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -6941,7 +7125,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-744163d63f722126fa",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -6977,7 +7162,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-aee710677fae7cfec6",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -7013,7 +7199,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-690b30ca2c4eea4581",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -7049,7 +7236,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0a41fcf89b145147ff",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -7085,7 +7273,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0302a8bc728197b1d2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -7121,7 +7310,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-736afdb728241d1df1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -7159,7 +7349,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b766c2babda8d60fa0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e38-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e38-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -7197,7 +7388,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-887d65cec83eee40e6",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e38-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e38-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -7235,7 +7427,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-af7724820e83bd5367",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e65e66-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e65e66-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -7273,7 +7466,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bad8b65a0e9a46b349",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e65e66-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e65e66-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -7311,7 +7505,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-74b4bd81932d20e45e",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -7347,7 +7542,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6d95a36ff8086895c0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-facelift-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-facelift-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -7385,7 +7581,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a26f137d8454915e4f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e38-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e38-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -7423,7 +7620,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d2494d18de51e9f319",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e65e66-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e65e66-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -7461,7 +7659,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dfe7c406b7669a0f67",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -7497,7 +7696,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-62847f8489cb535534",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -7533,7 +7733,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2f5159d25470ce8185",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-facelift-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-facelift-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -7569,7 +7770,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5273033fd91683d96c",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-facelift-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-facelift-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -7607,7 +7809,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e0190e01a4b19a2cc3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e65e66-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-e65e66-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -7643,7 +7846,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7981e61cf39ecb1b76",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-sedan-e36-1991.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-sedan-e36-1991.html",
+        "rejected_label": null
       }
     },
     {
@@ -7679,7 +7883,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d01c2ff9985b241f24",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-1995.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-1995.html",
+        "rejected_label": null
       }
     },
     {
@@ -7715,7 +7920,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-826094bbbadafbb051",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-1995.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-1995.html",
+        "rejected_label": null
       }
     },
     {
@@ -7751,7 +7957,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d5a6d1c6e0be132386",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -7787,7 +7994,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e59f2fa49dea1a722d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -7823,7 +8031,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d7d94c588281a7e79b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-1995.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-1995.html",
+        "rejected_label": null
       }
     },
     {
@@ -7859,7 +8068,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6950bea44fac314f5f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -7895,7 +8105,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-60bf52b7723cb7b49c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e39-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -7931,7 +8142,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-90ba4429cbe01a3518",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-1998.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-1998.html",
+        "rejected_label": null
       }
     },
     {
@@ -7967,7 +8179,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-663c10db8b64333a8d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -8003,7 +8216,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1573ea4bd84bdc5dcc",
         "publication_status": "scored",
-        "technical_url": "https://www.press.bmwgroup.com/austria/article/detail/T0034593DE/pressemappe%3A-bmw-auf-dem-mondial-de-l-automobile-paris-2000?language=de"
+        "technical_url": "https://www.press.bmwgroup.com/austria/article/detail/T0034593DE/pressemappe%3A-bmw-auf-dem-mondial-de-l-automobile-paris-2000?language=de",
+        "rejected_label": null
       }
     },
     {
@@ -8039,7 +8253,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3663cd0d6a188395f9",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -8075,7 +8290,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1e8ec4c28372c2b892",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -8111,7 +8327,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d4bc02deaea8e5d3cd",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e46-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -8147,7 +8364,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3731e7de1ecf695fbf",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-5-series-e60-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -8183,7 +8401,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6861be11672466de0f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-1-series-e87-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -8219,7 +8438,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-052046562d3bc23832",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -8255,7 +8475,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9f86bcd885bbd833d3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -8291,7 +8512,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-20dcfd4b1cad82b12a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -8327,7 +8549,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-72282aa9579119830d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-e90-2005.html",
+        "rejected_label": null
       }
     },
     {
@@ -8363,7 +8586,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d965210464ffacfb15",
         "publication_status": "scored",
-        "technical_url": "https://www.press.bmwgroup.com/netherlands/article/detail/T0026181NL/eerste-auto-die-voldoet-aan-eu6-norm-2014%3A-bmw-330d-blueperformance?language=nl"
+        "technical_url": "https://www.press.bmwgroup.com/netherlands/article/detail/T0026181NL/eerste-auto-die-voldoet-aan-eu6-norm-2014%3A-bmw-330d-blueperformance?language=nl",
+        "rejected_label": null
       }
     },
     {
@@ -8402,7 +8626,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ea319b8553e2d911f0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-3-series-f30-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -8438,7 +8663,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-83f37bd7f3f8095d04",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-x1-e84-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-x1-e84-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -8474,7 +8700,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d205118c5f754f4aca",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-x1-e84-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-x1-e84-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -8510,7 +8737,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-09a93d75b3ef590bff",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/bmw-x3-f25-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/bmw-x3-f25-2014.html",
+        "rejected_label": null
       }
     }
   ]

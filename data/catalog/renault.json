@@ -35,7 +35,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "p21m-d4d40dfc4a4f7065b6",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/renault-captur-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-captur-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -73,7 +74,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2543ea4d838d22108f",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-5-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-5-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -111,7 +113,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2b6468fd07a6f0f38f",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-gt-5-doors-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-gt-5-doors-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -149,7 +152,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-45cd6ffc8c848f7d00",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-gt-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-gt-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -187,7 +191,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-efdd2d66e522a8e017",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -225,7 +230,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f0e6e9e9e8287e4870",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-5-doors-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-5-doors-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -263,7 +269,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-281032d7a8d3f0f33a",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -301,7 +308,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cad2034159b58c8d89",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-rs-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-rs-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -340,7 +348,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2f9431002b24c8cf8a",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-3-doors-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-3-doors-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -378,7 +387,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0627bdb411f5696817",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-symbol-thalia-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-symbol-thalia-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -416,7 +426,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-81b816e55dc6890a21",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-estate-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -455,7 +466,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-462c5bd3f603be3ed9",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-3-doors-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-3-doors-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -491,7 +503,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1b1cc65c4b9cc48f86",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-3-doors-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-3-doors-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -527,7 +540,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d803ac989d8f4521d2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-gt-5-doors-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-gt-5-doors-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -563,7 +577,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fdbc9917b8c1ca19c8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-clio-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-clio-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -599,7 +614,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2baf6c569fb841e8d9",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-espace-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-espace-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -637,7 +653,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ac60a23b8362b799dd",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-grand-espace-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-espace-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -675,7 +692,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fdff57e91b20e405ab",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-espace-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-espace-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -702,7 +720,8 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "spec_implausible"
       ],
       "sources": [
         "src-4015f43c69454ed7c2",
@@ -713,7 +732,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d4bf02288a234d5016",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-grand-espace-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-espace-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -749,7 +769,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-57fda1037c394ed36d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -787,7 +808,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d8ef64a66ea11bed07",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -823,7 +845,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-42938ee1636bb2175d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -861,7 +884,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8310bfe02f787b9485",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -899,7 +923,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fa12ee54f299ae1b89",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-fluence-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -935,7 +960,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-42c50fef7f9c997787",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -973,7 +999,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-49f5ff18c1ab2f58e1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -1009,7 +1036,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1bab176c00f0fbaef8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-kadjar-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-kadjar-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -1045,7 +1073,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d4f270c7fcef080eb3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-koleos-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-koleos-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1082,7 +1111,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5b1a637206b0e3a50c",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     },
     {
@@ -1120,7 +1150,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-459bd8e895a955801d",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1158,7 +1189,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bdd97398274e0d2510",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1196,7 +1228,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9d254f171fa6010478",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-coupe-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-coupe-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1234,7 +1267,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-52bd35ea3b66cf9f5a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1272,7 +1306,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c81c3ee4ea55e44f45",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1310,7 +1345,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8a1c3fd531d31e1ef4",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -1348,7 +1384,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-087548af765d7e3a3c",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1386,7 +1423,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9711ec3b86d80967b0",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1424,7 +1462,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-86b9cf5bad469567c6",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1462,7 +1501,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6177251ce61c345d03",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1500,7 +1540,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cf19e165918ea50328",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1536,7 +1577,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2e800292889cb7ec2c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2001.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-laguna-estate-2001.html",
+        "rejected_label": null
       }
     },
     {
@@ -1575,7 +1617,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1b9894b2f102cdc6c8",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-latitude-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-latitude-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1611,7 +1654,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-987a88b2c23dac3eeb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-latitude-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-latitude-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1649,7 +1693,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2f72cc0937b8c7c3a1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-latitude-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-latitude-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1687,7 +1732,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-236f986b82e754044a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -1725,7 +1771,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d973cd601d07876765",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -1763,7 +1810,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bb588993d95f83f607",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1801,7 +1849,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dc16f6e4c43898bfc2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1839,7 +1888,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f9f498b956be73ea81",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -1878,7 +1928,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9f717b0bf3c93f7bbe",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2020.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2020.html",
+        "rejected_label": null
       }
     },
     {
@@ -1916,7 +1967,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9d458833e989a3108b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1954,7 +2006,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-145b0fd3fe6185355f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1992,7 +2045,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e58b68b68f1058a0cf",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -2030,7 +2084,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-671ea74e2339b2883f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -2068,7 +2123,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6d039c5d0675244c24",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2106,7 +2162,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7bde7d6b5aea3c6a29",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2146,7 +2203,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7dee9b0b2ad3145314",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2020.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2020.html",
+        "rejected_label": null
       }
     },
     {
@@ -2186,7 +2244,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-66855072871ecd8d2d",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2020.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2020.html",
+        "rejected_label": null
       }
     },
     {
@@ -2227,7 +2286,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-470ea1909f425d3e58",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -2268,7 +2328,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a0bbb20d1e1b7751e1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -2309,7 +2370,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-964357c7f53ca545f3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -2347,7 +2409,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-00b5615af22d06db9b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-gt-5-doors-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-gt-5-doors-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -2385,7 +2448,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-12f4877847ebcc3ff9",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-gt-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-gt-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -2424,7 +2488,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8d79d76bbfdd9a5754",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -2462,7 +2527,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3d811012befd703c51",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2500,7 +2566,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0376b0a61d7f13d4c7",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2538,7 +2605,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d03ef8922022d9867c",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-sedan-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -2576,7 +2644,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8ccae2adaa39cb5b0d",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-gt-5-doors-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-gt-5-doors-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -2614,7 +2683,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c5be6e9328f1fb681c",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -2652,207 +2722,13 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-a5dc0f4579b4807afc",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-gt-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-gt-2016.html",
+        "rejected_label": null
       }
     },
     {
-      "id": "renault-megane-1-9-dti-140-bg-140",
-      "name": "Renault Megane 1.9 DTi · 140 bg",
-      "brand": "Renault",
-      "model_family": "Megane",
-      "generation": null,
-      "years": "2008-2008",
-      "specs": {
-        "hp": 140,
-        "torque_nm": 195.0,
-        "displacement_l": 2.0,
-        "fuel": "Benzin",
-        "drivetrain": "Önden",
-        "body_type": null,
-        "transmission_type": "CVT",
-        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
-        "gears": 7,
-        "clutch": "Kayış/zincir-kasnak",
-        "engine_code": null,
-        "engine_name": "2.0L 16V CVT FWD (140 HP)"
-      },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [],
-      "quality_flags": [
-        "fuel_name_conflict",
-        "generic_transmission_identity"
-      ],
-      "sources": [
-        "src-96b4b0451361b2f378",
-        "tech-om-cars-renault-megane-5-doors-2008-html"
-      ],
-      "provenance": {
-        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
-        "imported_at": "2026-08-15",
-        "source_variant_id": "sig-a8f39aa56d31680513",
-        "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2008.html"
-      }
-    },
-    {
-      "id": "renault-megane-1-9-dti-140-bg-140-2",
-      "name": "Renault Megane 1.9 DTi · 140 bg",
-      "brand": "Renault",
-      "model_family": "Megane",
-      "generation": null,
-      "years": "2008-2015",
-      "specs": {
-        "hp": 140,
-        "torque_nm": 195.0,
-        "displacement_l": 2.0,
-        "fuel": "Benzin",
-        "drivetrain": "Önden",
-        "body_type": "Coupe",
-        "transmission_type": "CVT",
-        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
-        "gears": 7,
-        "clutch": "Kayış/zincir-kasnak",
-        "engine_code": null,
-        "engine_name": "2.0L 16V CVT FWD (140 HP)"
-      },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [],
-      "quality_flags": [
-        "fuel_name_conflict",
-        "generic_transmission_identity"
-      ],
-      "sources": [
-        "src-96b4b0451361b2f378",
-        "tech--com-cars-renault-megane-coupe-2008-html"
-      ],
-      "provenance": {
-        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
-        "imported_at": "2026-08-15",
-        "source_variant_id": "sig-24909823bfe0ae441b",
-        "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-2008.html"
-      }
-    },
-    {
-      "id": "renault-megane-1-9-dti-140-bg-140-3",
-      "name": "Renault Megane 1.9 DTi · 140 bg",
-      "brand": "Renault",
-      "model_family": "Megane",
-      "generation": null,
-      "years": "2009-2014",
-      "specs": {
-        "hp": 140,
-        "torque_nm": 195.0,
-        "displacement_l": 2.0,
-        "fuel": "Benzin",
-        "drivetrain": "Önden",
-        "body_type": "Station Wagon",
-        "transmission_type": "CVT",
-        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
-        "gears": 7,
-        "clutch": "Kayış/zincir-kasnak",
-        "engine_code": null,
-        "engine_name": "2.0L 16V CVT FWD (140 HP)"
-      },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [],
-      "quality_flags": [
-        "fuel_name_conflict",
-        "generic_transmission_identity"
-      ],
-      "sources": [
-        "src-96b4b0451361b2f378",
-        "tech-com-cars-renault-megane-estate-2009-html"
-      ],
-      "provenance": {
-        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
-        "imported_at": "2026-08-15",
-        "source_variant_id": "sig-6288f561bb7336589c",
-        "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2009.html"
-      }
-    },
-    {
-      "id": "renault-megane-1-9-dti-140-bg-140-4",
-      "name": "Renault Megane 1.9 DTi · 140 bg",
-      "brand": "Renault",
-      "model_family": "Megane",
-      "generation": null,
-      "years": "2010-2013",
-      "specs": {
-        "hp": 140,
-        "torque_nm": 195.0,
-        "displacement_l": 2.0,
-        "fuel": "Benzin",
-        "drivetrain": "Önden",
-        "body_type": "Cabrio",
-        "transmission_type": "CVT",
-        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
-        "gears": 7,
-        "clutch": "Kayış/zincir-kasnak",
-        "engine_code": null,
-        "engine_name": "2.0L 16V CVT FWD (140 HP)"
-      },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [],
-      "quality_flags": [
-        "fuel_name_conflict",
-        "generic_transmission_identity"
-      ],
-      "sources": [
-        "src-96b4b0451361b2f378",
-        "tech-rs-renault-megane-coupe-cabrio-2010-html"
-      ],
-      "provenance": {
-        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
-        "imported_at": "2026-08-15",
-        "source_variant_id": "sig-5b10baebc26168b2f0",
-        "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2010.html"
-      }
-    },
-    {
-      "id": "renault-megane-1-9-dti-140-bg-140-5",
-      "name": "Renault Megane 1.9 DTi · 140 bg",
-      "brand": "Renault",
-      "model_family": "Megane",
-      "generation": null,
-      "years": "2014-2014",
-      "specs": {
-        "hp": 140,
-        "torque_nm": 195.0,
-        "displacement_l": 2.0,
-        "fuel": "Benzin",
-        "drivetrain": "Önden",
-        "body_type": "Cabrio",
-        "transmission_type": "CVT",
-        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
-        "gears": 7,
-        "clutch": "Kayış/zincir-kasnak",
-        "engine_code": null,
-        "engine_name": "2.0L 16V CVT FWD (140 HP)"
-      },
-      "scored_car_id": null,
-      "possible_scored_car_ids": [],
-      "quality_flags": [
-        "fuel_name_conflict",
-        "generic_transmission_identity"
-      ],
-      "sources": [
-        "src-96b4b0451361b2f378",
-        "tech-rs-renault-megane-coupe-cabrio-2014-html"
-      ],
-      "provenance": {
-        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
-        "imported_at": "2026-08-15",
-        "source_variant_id": "sig-ae618053580fa802b8",
-        "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2014.html"
-      }
-    },
-    {
-      "id": "renault-megane-1-9-dti-280-bg-280",
-      "name": "Renault Megane 1.9 DTi · 280 bg",
+      "id": "renault-megane-1-8-benzin-280-bg-280",
+      "name": "Renault Megane 1.8 Benzin · 280 bg",
       "brand": "Renault",
       "model_family": "Megane",
       "generation": null,
@@ -2874,8 +2750,8 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "fuel_name_conflict",
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "label_corrected"
       ],
       "sources": [
         "src-05cb5e2e80364b4bd8",
@@ -2886,7 +2762,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-332d447af4b66b4194",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-rs-coupe-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-rs-coupe-2018.html",
+        "rejected_label": "Megane 1.9 DTi · 280 bg"
       }
     },
     {
@@ -2923,7 +2800,208 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4f9d2798dffae1543e",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
+      }
+    },
+    {
+      "id": "renault-megane-2-0-benzin-140-bg-140",
+      "name": "Renault Megane 2.0 Benzin · 140 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2008-2008",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "label_corrected"
+      ],
+      "sources": [
+        "src-96b4b0451361b2f378",
+        "tech-om-cars-renault-megane-5-doors-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-a8f39aa56d31680513",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2008.html",
+        "rejected_label": "Megane 1.9 DTi · 140 bg"
+      }
+    },
+    {
+      "id": "renault-megane-2-0-benzin-140-bg-140-2",
+      "name": "Renault Megane 2.0 Benzin · 140 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2008-2015",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Coupe",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "label_corrected"
+      ],
+      "sources": [
+        "src-96b4b0451361b2f378",
+        "tech--com-cars-renault-megane-coupe-2008-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-24909823bfe0ae441b",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-2008.html",
+        "rejected_label": "Megane 1.9 DTi · 140 bg"
+      }
+    },
+    {
+      "id": "renault-megane-2-0-benzin-140-bg-140-3",
+      "name": "Renault Megane 2.0 Benzin · 140 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2009-2014",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Station Wagon",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "label_corrected"
+      ],
+      "sources": [
+        "src-96b4b0451361b2f378",
+        "tech-com-cars-renault-megane-estate-2009-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-6288f561bb7336589c",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2009.html",
+        "rejected_label": "Megane 1.9 DTi · 140 bg"
+      }
+    },
+    {
+      "id": "renault-megane-2-0-benzin-140-bg-140-4",
+      "name": "Renault Megane 2.0 Benzin · 140 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2010-2013",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "label_corrected"
+      ],
+      "sources": [
+        "src-96b4b0451361b2f378",
+        "tech-rs-renault-megane-coupe-cabrio-2010-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-5b10baebc26168b2f0",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2010.html",
+        "rejected_label": "Megane 1.9 DTi · 140 bg"
+      }
+    },
+    {
+      "id": "renault-megane-2-0-benzin-140-bg-140-5",
+      "name": "Renault Megane 2.0 Benzin · 140 bg",
+      "brand": "Renault",
+      "model_family": "Megane",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 140,
+        "torque_nm": 195.0,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Cabrio",
+        "transmission_type": "CVT",
+        "transmission_name": "1.8L CVT FWD (139 HP) Cvt With 7-Speed Sports Sequential Shift",
+        "gears": 7,
+        "clutch": "Kayış/zincir-kasnak",
+        "engine_code": null,
+        "engine_name": "2.0L 16V CVT FWD (140 HP)"
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity",
+        "label_corrected"
+      ],
+      "sources": [
+        "src-96b4b0451361b2f378",
+        "tech-rs-renault-megane-coupe-cabrio-2014-html"
+      ],
+      "provenance": {
+        "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+        "imported_at": "2026-08-15",
+        "source_variant_id": "sig-ae618053580fa802b8",
+        "publication_status": "candidate_concrete",
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-coupe-cabrio-2014.html",
+        "rejected_label": "Megane 1.9 DTi · 140 bg"
       }
     },
     {
@@ -2959,7 +3037,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-33728c68cba233df2c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -2995,7 +3074,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0cb6b2e006fba196eb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -3031,7 +3111,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-32854f90880310502f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2020.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2020.html",
+        "rejected_label": null
       }
     },
     {
@@ -3067,7 +3148,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-29ed212775b9966e04",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-5-doors-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -3103,7 +3185,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-523164765372e8b705",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-modus-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-modus-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -3141,7 +3224,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-117178594817f1df36",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-modus-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-modus-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -3177,7 +3261,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d09257ff13242bc020",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-megane-estate-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -3216,7 +3301,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "p21-07eb7c5c2f9c6fe2c8",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://otopark.com/forum/threads/hangi-araclarda-hangi-sanziman-bulunuyor-genel-sanziman-bilgileri-dsg-zf-ve-getrag-hakkinda-her-sey.15814/"
+        "technical_url": "https://otopark.com/forum/threads/hangi-araclarda-hangi-sanziman-bulunuyor-genel-sanziman-bilgileri-dsg-zf-ve-getrag-hakkinda-her-sey.15814/",
+        "rejected_label": null
       }
     },
     {
@@ -3252,7 +3338,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b74de3b354e08d072a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -3292,7 +3379,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1060ca6708999a7777",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -3332,7 +3420,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-68035fb5abb491b316",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -3372,7 +3461,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d16ad590cee4b8b078",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -3410,7 +3500,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0a34a662a95fd4d763",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2003.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2003.html",
+        "rejected_label": null
       }
     },
     {
@@ -3448,7 +3539,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-2b1a4768287de0ca90",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-grand-scenic-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -3486,7 +3578,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6e4c4008898c525221",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-scenic-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -3522,7 +3615,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1b5d58adf93feab90d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -3558,7 +3652,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4abf5dabf881e6112a",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -3596,7 +3691,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e6f9e845dbb4027916",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-estate-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-estate-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -3634,7 +3730,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-27de3b94f74b70d228",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -3672,7 +3769,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b766c820960b29f064",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-estate-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-estate-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -3710,7 +3808,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-767808a496ceea2321",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -3750,7 +3849,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-64196c9a17ff1e830e",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -3790,7 +3890,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fcdba8059a8c3823ed",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-estate-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/renault-talisman-estate-2019.html",
+        "rejected_label": null
       }
     }
   ]

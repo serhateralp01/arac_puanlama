@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-75ebb72dc5d68b1ad4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-carens-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-carens-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c040f1aecf1b97dbab",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-carens-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-carens-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -112,7 +114,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4dc90619394ad671b1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-carens-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-carens-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -150,7 +153,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fff3480ff7b44e1fd1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-carnivalsedona-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-carnivalsedona-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -188,7 +192,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-959cc97bd3272cbed0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-carnivalsedona-2002.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-carnivalsedona-2002.html",
+        "rejected_label": null
       }
     },
     {
@@ -224,7 +229,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-95dc50a05bf7d3a966",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-cee-d-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-cee-d-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -259,7 +265,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "p21m-61c943eec36a34ae90",
         "publication_status": "candidate_resolved",
-        "technical_url": "https://www.autoevolution.com/cars/kia-ceed-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-ceed-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -299,7 +306,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ed38d3798c8b95ed54",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/kia-ceed-gt-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-ceed-gt-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -335,7 +343,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-88b5bab495fdd46580",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-cee-d-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-cee-d-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -371,7 +380,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4c2b0a6909e699a61f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-cee-d-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-cee-d-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -407,7 +417,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f53e5117cacd91cdb2",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-forte-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-forte-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -443,7 +454,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-35735762dba2fa7c62",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-sedan-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-sedan-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -481,7 +493,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4c40a850f8a7bdda0f",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-sedan-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-sedan-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -519,7 +532,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e69c858467ec00f4e0",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-hatchback-2004.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-hatchback-2004.html",
+        "rejected_label": null
       }
     },
     {
@@ -557,7 +571,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d428db4adf2f0c328a",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-hatchback-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-cerato-spectra-hatchback-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -593,7 +608,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-dc9395b9a966f5ed91",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-optima-k5-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-optima-k5-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -629,7 +645,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-85ae72a255f6381d35",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-optima-k5-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-optima-k5-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -665,7 +682,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-945c5138c4b68605d0",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-optima-sportswagon-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-optima-sportswagon-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -703,7 +721,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-83af1cdef52e7e6620",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-optima-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-optima-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -739,7 +758,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c6423bcf9e8d0feeb9",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-optima-sportswagon-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-optima-sportswagon-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -775,7 +795,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-794133a9248436ea66",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-rio-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-rio-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -811,7 +832,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-591d8b1f4935cc5503",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-rio-3-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-rio-3-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -849,7 +871,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-02e1b53d27c580d955",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/kia-rio-5-doors-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-rio-5-doors-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -887,7 +910,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-76bff283d77b93ed4c",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/kia-rio-sedan-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-rio-sedan-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -925,7 +949,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-48c147ab044f1483de",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/kia-rio-3-doors-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-rio-3-doors-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -961,7 +986,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-82b36bb684bb7e1e77",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-sorento-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-sorento-2009.html",
+        "rejected_label": null
       }
     },
     {
@@ -997,7 +1023,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7827bc008c5ac1c308",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-soul-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-soul-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1033,7 +1060,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d65bc5bb2217877fea",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-soul-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-soul-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1069,7 +1097,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b1bdb5d97f5a865073",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-soul-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-soul-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -1105,7 +1134,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1bb0fe3dbdf1d7385d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-sportage-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-sportage-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -1141,7 +1171,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f8f4bf46d473bc526d",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-sportage-2010.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-sportage-2010.html",
+        "rejected_label": null
       }
     },
     {
@@ -1177,7 +1208,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e1d7b40c76c027651c",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/kia-venga-2009.html"
+        "technical_url": "https://www.autoevolution.com/cars/kia-venga-2009.html",
+        "rejected_label": null
       }
     }
   ]

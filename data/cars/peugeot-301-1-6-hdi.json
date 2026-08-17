@@ -2,11 +2,11 @@
   "id": "peugeot-301-1-6-hdi",
   "legacy_index": 77,
   "name": "Peugeot 301 1.6 HDi",
-  "tag": "ETG robotlu yarı otomatik · ~92-115 bg",
+  "tag": "ETG robotlu yarı otomatik · 92 bg",
   "brand_group": "Peugeot",
   "years": "2013-2020",
   "specs": {
-    "hp": 115,
+    "hp": 92,
     "displacement_l": 1.6,
     "fuel": "Dizel",
     "drivetrain": "Önden",
@@ -14,9 +14,9 @@
     "transmission_id": "psa-etg",
     "body_type": "Sedan",
     "engine_id": "psa-dv6",
-    "kerb_weight_kg": 1090,
-    "torque_nm": 150,
-    "fuel_consumption_l_100km": 6.4,
+    "kerb_weight_kg": null,
+    "torque_nm": 230,
+    "fuel_consumption_l_100km": 4.1,
     "gears": 6,
     "clutch": "Kuru tek kavrama"
   },
@@ -45,7 +45,7 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js",
-    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: peugeot 301 — 1.6L PureTech 5MT (115 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+    "specs_source": "**Düzeltme (2026-08-17).** Önceki değerler (115 bg, 150 Nm, 6.4 L/100km) yanlış varyanttan alınmıştı: eski provenance kaydının kendisi eşleşmeyi \"peugeot 301 — 1.6L PureTech 5MT (115 HP)\" olarak yazıyordu, yani **benzinli** PureTech varyantından. Bu araç ise dizel 1.6 HDi (engine_id psa-dv6) ve ETG robotlu kutu taşıyor. Hata, fizik denetiminde yakalandı: 115 bg / 150 Nm oranı (hp/Nm 0,77) dizel için imkânsız, çünkü dizellerde bu oran 0,38-0,52 aralığında kalıyor. Peugeot 301'in 115 bg'lik bir HDi versiyonu hiç üretilmedi; 115 bg / 150 Nm tam olarak 1.6 VTi benzinlinin değerleri. Doğru rakamlar (92 bg / 230 Nm / 4,1 L/100km, ETG6 kutuyla) birbirini doğrulayan birden çok teknik özellik kaynağından alındı. Boş ağırlık da aynı yanlış kayıttan geldiği için silindi; doğrulanmadan geri yazılmayacak."
   },
   "evidence": {
     "motor": {

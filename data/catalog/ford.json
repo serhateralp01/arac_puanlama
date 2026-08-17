@@ -36,7 +36,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bd7e0c4d753c9b4a7b",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-b-max-2012.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-b-max-2012.html",
+        "rejected_label": null
       }
     },
     {
@@ -74,7 +75,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-63c0ee607c3dceed96",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-c-max-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-c-max-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -112,7 +114,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6f2495ccec817cb56a",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-c-max-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-c-max-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -150,7 +153,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3659f1ee655e291e93",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-c-max-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-c-max-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -186,7 +190,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-29dbd7d90d6f2783af",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-grand-c-max-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-grand-c-max-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -222,7 +227,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-cef50e20bfcd2d64c6",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-ecosport-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-ecosport-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -258,7 +264,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8a54959b56552b62ad",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-5-doors-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-5-doors-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -297,7 +304,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8546f3239194e3e047",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-5-doors-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-5-doors-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -324,7 +332,8 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "spec_implausible"
       ],
       "sources": [
         "src-567e6a2f8a9ee14b96",
@@ -336,7 +345,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7895f79c42c3199673",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-5-doors-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-5-doors-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -374,7 +384,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-12a0acd3e7ee1e8b08",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-sedan-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-sedan-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -412,7 +423,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3c43ca532da33ccf85",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-5-doors-2013.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-5-doors-2013.html",
+        "rejected_label": null
       }
     },
     {
@@ -450,7 +462,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-64b89a17faf1be72bb",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-focus-5-doors-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-focus-5-doors-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -488,7 +501,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e569050dc2e2503ab3",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-focus-estate-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-focus-estate-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -526,7 +540,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-22db3f970b814c5b49",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-focus-estate-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-focus-estate-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -564,7 +579,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-99d59507f8044f13d8",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-focus-5-doors-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-focus-5-doors-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -602,7 +618,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fd5fca8772fc9cad06",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-focus-estate-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-focus-estate-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -640,7 +657,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d2c7befdab6c12c866",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-focus-sedan-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-focus-sedan-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -678,7 +696,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-378a794a7f410a63f2",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-focus-estate-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-focus-estate-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -714,7 +733,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4af0944e5a89aa7078",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-focus-sedan-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-focus-sedan-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -750,7 +770,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-04242133eca1da741a",
         "publication_status": "scored",
-        "technical_url": "https://www.auto-selection.com/fiche-technique/ford/focus/2008/2-0-tdci-136ch-dpf-titanium-powershift-5p-957932"
+        "technical_url": "https://www.auto-selection.com/fiche-technique/ford/focus/2008/2-0-tdci-136ch-dpf-titanium-powershift-5p-957932",
+        "rejected_label": null
       }
     },
     {
@@ -786,7 +807,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5d0a00d51eb62765a8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-focus-5-doors-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-focus-5-doors-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -822,7 +844,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-3f569b8ac03e1230e4",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-focus-5-doors-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-focus-5-doors-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -858,7 +881,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5f53b8501fc79bf7d0",
         "publication_status": "scored",
-        "technical_url": "https://media.ford.com/content/fordmedia/feu/fr/en/news/2018/04/10/ford-unveils-all-new-focus--most-innovative--dynamic-and-excitin.html"
+        "technical_url": "https://media.ford.com/content/fordmedia/feu/fr/en/news/2018/04/10/ford-unveils-all-new-focus--most-innovative--dynamic-and-excitin.html",
+        "rejected_label": null
       }
     },
     {
@@ -894,7 +918,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8c9b4379c96f8d71fc",
         "publication_status": "scored",
-        "technical_url": "https://media.ford.com/content/fordmedia/feu/fr/en/news/2018/04/10/ford-unveils-all-new-focus--most-innovative--dynamic-and-excitin.html"
+        "technical_url": "https://media.ford.com/content/fordmedia/feu/fr/en/news/2018/04/10/ford-unveils-all-new-focus--most-innovative--dynamic-and-excitin.html",
+        "rejected_label": null
       }
     },
     {
@@ -932,7 +957,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-bd8622f485b6bde516",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -971,7 +997,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-54342a9c7d35cdfe71",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -1009,7 +1036,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ab1fef2897dfb3c5a1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -1047,7 +1075,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-1ab993c879798bcfcc",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1085,7 +1114,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d6aceee1c19f4d1c9d",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1123,7 +1153,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-28523853deb4ca299f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1159,7 +1190,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-550a821e26f64b8fb9",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-galaxy-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -1195,7 +1227,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8f974793b9452acde7",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-kuga-2016.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-kuga-2016.html",
+        "rejected_label": null
       }
     },
     {
@@ -1231,7 +1264,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-411955ee24dcfccec8",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-kuga-2008.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-kuga-2008.html",
+        "rejected_label": null
       }
     },
     {
@@ -1267,7 +1301,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-4df833acdc8ee48adf",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -1305,7 +1340,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-699d77e86624af504f",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-hatchback-2014.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-hatchback-2014.html",
+        "rejected_label": null
       }
     },
     {
@@ -1343,7 +1379,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-34ebd656954b9cd7c1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -1381,7 +1418,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-34b6f0bcfe166cdcae",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -1420,7 +1458,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-40b9e1a1e1e4b24ae9",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2018.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2018.html",
+        "rejected_label": null
       }
     },
     {
@@ -1457,7 +1496,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8ab26bc00ec6e5b8e9",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     },
     {
@@ -1494,7 +1534,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-b2822e72e1ce745718",
         "publication_status": "scored",
-        "technical_url": null
+        "technical_url": null,
+        "rejected_label": null
       }
     },
     {
@@ -1530,7 +1571,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5ce7206aefc3b669c1",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1568,7 +1610,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-827cbc8c34fa9b8f74",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1606,7 +1649,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c1cd68e336e3033bd5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-hatchback-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-hatchback-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1644,7 +1688,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8c183a08694e1331b5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1682,7 +1727,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-c17045bf37b75b4b43",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1720,7 +1766,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-8188cd6956e943cd72",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1758,7 +1805,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-6208e07c75223ee5c7",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1796,7 +1844,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-eb24c2ad9abdf9de76",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2000.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2000.html",
+        "rejected_label": null
       }
     },
     {
@@ -1834,7 +1883,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-0ba5ec10031c68efe1",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-hatchback-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-hatchback-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1872,7 +1922,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-d55dc6dc4ef770639c",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-wagon-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1910,7 +1961,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-5b809088a654324c46",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1948,7 +2000,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-fe0f3e13e450fa1009",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -1986,7 +2039,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-98a832a3637b25481c",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-hatchback-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-hatchback-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -2022,7 +2076,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-ac3ad2b1796adeaed5",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-mondeo-sedan-2007.html",
+        "rejected_label": null
       }
     },
     {
@@ -2058,7 +2113,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-9613318b2133758dcd",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-grand-c-max-2011.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-grand-c-max-2011.html",
+        "rejected_label": null
       }
     },
     {
@@ -2096,7 +2152,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e55ea7d88660133ffe",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2006.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2006.html",
+        "rejected_label": null
       }
     },
     {
@@ -2134,7 +2191,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-725be91ecd68e99017",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -2173,7 +2231,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-f1a304a6e5d3484935",
         "publication_status": "held_incomplete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2019.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2019.html",
+        "rejected_label": null
       }
     },
     {
@@ -2211,7 +2270,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-7554391a11ec3d25ef",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -2249,7 +2309,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-06269c879e01e17375",
         "publication_status": "candidate_concrete",
-        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2015.html",
+        "rejected_label": null
       }
     },
     {
@@ -2287,7 +2348,8 @@
         "imported_at": "2026-08-15",
         "source_variant_id": "sig-e7d51efe711e41b119",
         "publication_status": "scored",
-        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2015.html"
+        "technical_url": "https://www.autoevolution.com/cars/ford-s-max-2015.html",
+        "rejected_label": null
       }
     }
   ]

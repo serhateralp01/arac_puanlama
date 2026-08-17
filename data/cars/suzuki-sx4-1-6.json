@@ -15,7 +15,7 @@
     "body_type": "Hatchback",
     "engine_id": "suzuki-m16a",
     "kerb_weight_kg": 1430,
-    "torque_nm": 320,
+    "torque_nm": 156,
     "fuel_consumption_l_100km": 4.6
   },
   "price_band_k_try": [
@@ -26,7 +26,7 @@
   "scores": {
     "motor": 80,
     "trans": 74,
-    "fun": 32,
+    "fun": 17,
     "comf": 77,
     "age": 37,
     "cost": 68,
@@ -43,7 +43,7 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js",
-    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: suzuki sx4 s cross 2016 present — 1.6L 6AT AWD (120 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+    "specs_source": "**Düzeltme (2026-08-17).** Tork değeri 320 Nm olarak kayıtlıydı ve yanlıştı; 1.6 M16A benzinli motor 156 Nm üretiyor. Hata fizik denetiminde yakalandı: 120 bg / 320 Nm oranı (hp/Nm 0,38) benzinli bir motor için imkânsız, o oran dizel bölgesine düşüyor. Doğru değer birbirini doğrulayan teknik özellik kaynaklarından alındı (1586 cc, 120 bg, 156 Nm). Önceki kayıt: Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: suzuki sx4 s cross 2016 present — 1.6L 6AT AWD (120 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
   },
   "evidence": {
     "motor": {
@@ -79,7 +79,7 @@
       "band": "sürüş keyfi öncelik değil",
       "confidence": "orta",
       "sources": [],
-      "reasoning": "Güç/ağırlık oranı 84 hp/ton (normalize 15/100), tork/ağırlık oranı 224 Nm/ton (normalize 64/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 27. Karakter düzeltmesi +5 puan uygulandı, gerekçesi: doğal emişli yüksek devir karakteri (75 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "reasoning": "Güç/ağırlık oranı 84 hp/ton (normalize 15/100), tork/ağırlık oranı 109 Nm/ton (normalize 1/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 12. Karakter düzeltmesi +5 puan uygulandı, gerekçesi: doğal emişli yüksek devir karakteri (75 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
       "assessed_at": "2026-08-07"
     }
   },
