@@ -1148,6 +1148,39 @@ paylaşan araçlara otomatik yayılıyor).
 **Sonuç: 377 araçtan 377'si "doğrulanmış".** `kismi_kaynak` 11 → 0. `validate.py`
 0 hata, `smoke_test.js` 68/68. 4 yeni kaynak `data/sources.json`'a eklendi.
 
+### Fiyat araştırması engellendi (ağ erişimi), küçük temizlikler yapıldı (2026-08-17)
+
+**Fiyat araştırması denendi, teknik olarak imkânsız çıktı.** Kullanıcı arabam.com/
+sahibinden.com'dan yeni bir fiyat anlık görüntüsü (snapshot) çekmemi istedi.
+`WebFetch` ile üç ayrı otomotiv sitesi (arabam.com, sahibinden.com, arabalar.com.tr)
+ve kontrol amaçlı Wikipedia denendi — **hepsi ağ geçidi tarafından engellendi**
+(`EGRESS_BLOCKED`). `WebSearch` yalnızca arama sonucu özeti veriyor, tekil ilan
+fiyatı değil — `scripts/import_price_snapshot.py`'nin gerektirdiği P25/medyan/P75
+hesaplaması için gereken ham gözlem sayısına ulaşılamıyor. Düşük kaliteli bir tahmin
+(blog yazısı ortalaması) üretip MK-19'un kendi tarihli-kaynaklı-örneklemli
+standardını taklit etmek, hiç fiyat vermemekten kötü olurdu — bu yüzden
+denenmedi, dürüstçe bildirildi.
+
+**Bunun yerine küçük ama gerçek üç temizlik yapıldı.**
+1. `yinelenen-ad`: "Audi A4 1.8T" adını taşıyan 2 farklı araç (150/163 bg) rozete
+   beygir eklenerek ayırt edildi.
+2. `yetim-kaynak`: 3 bağlanmamış kaynaktan 2'si gerçek bir eve sahipti —
+   `otomobilforum_sanziman` (Renault EDC güvenilirliği) `renault-edc-kuru` ailesine,
+   `dhaber_sportage_dct` (Kia Sportage DCT tartışması) `hyundai-7dct` ailesine
+   bağlandı; bu iki aileyi paylaşan 28 araca da yayıldı.
+3. **Kendi hatam, commit edilmeden yakalandı.** İlk denemede bu 28 aracın
+   `sources` alanını "motor ∪ şanzıman" kümesiyle **değiştirdim**, oysa bazı
+   araçlarda motor/şanzıman ailesinin taşımadığı **araca özgü ek kaynaklar**
+   vardı (ör. "sikayetvar_tucson_dct") — bu üzerine yazma onları sildi, yetim
+   kaynak sayısını 3'ten 11'e çıkardı. `validate.py` çıktısında fark edildi,
+   `git checkout` ile geri alındı, düzeltme **ekleyici birleştirme** (mevcut
+   kümeye yeni kaynağı eklemek, değiştirmemek) olarak yeniden yazıldı.
+   `mkt` (genel TR piyasa ortalaması, tek bir araca özgü değil) hâlâ yetim —
+   zorla bir eve bağlamak yanlış bir kesinlik olurdu, öyle bırakıldı.
+
+**Sonuç.** `yinelenen-ad` 1 → 0, `yetim-kaynak` 3 → 1. `validate.py` 0 hata,
+`smoke_test.js` 68/68.
+
 ---
 
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**

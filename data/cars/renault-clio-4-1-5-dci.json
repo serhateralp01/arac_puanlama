@@ -35,6 +35,7 @@
   "sources": [
     "asrgearbox_renault_edc",
     "cararac_k9k",
+    "otomobilforum_sanziman",
     "otopark_sanziman_rehberi",
     "renaultfanclub_edc",
     "sikayetvar_megane_edc",
@@ -62,6 +63,7 @@
       "band": "bilinen risk, kavrama/mekatronik odaklı",
       "confidence": "düşük",
       "sources": [
+        "otomobilforum_sanziman",
         "otopark_sanziman_rehberi",
         "technopat_clio_xtronic"
       ],

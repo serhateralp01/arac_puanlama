@@ -34,6 +34,7 @@
   "sources": [
     "asrgearbox_renault_edc",
     "donanimhaber_renault_12tce",
+    "otomobilforum_sanziman",
     "otopark_sanziman_rehberi",
     "renaultfanclub_edc",
     "renaultfanclub_edc_kronik",
@@ -59,6 +60,7 @@
       "band": "tekrarlayan ama yönetilebilir şikayet",
       "confidence": "orta",
       "sources": [
+        "otomobilforum_sanziman",
         "renaultfanclub_edc",
         "sikayetvar_megane_edc"
       ],

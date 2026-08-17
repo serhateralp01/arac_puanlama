@@ -31,6 +31,7 @@
   "sources": [
     "asrgearbox_renault_edc",
     "cararac_k9k",
+    "otomobilforum_sanziman",
     "otopark_sanziman_rehberi",
     "renaultfanclub_edc",
     "renaultfanclub_edc_kronik",
@@ -57,8 +58,9 @@
       "band": "tekrarlayan ama yönetilebilir şikayet",
       "confidence": "orta",
       "sources": [
-        "sikayetvar_duster_kronik",
-        "renaultfanclub_edc_kronik"
+        "otomobilforum_sanziman",
+        "renaultfanclub_edc_kronik",
+        "sikayetvar_duster_kronik"
       ],
       "reasoning": "EDC (kuru) (renault-edc-kuru) şanzıman ailesinin temel puanı 54. Bu aracın trans puanı (54) temel puanla birebir aynı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",
       "assessed_at": "2026-08-06"

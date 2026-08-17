@@ -35,6 +35,7 @@
     "andcetin_dct_tucson",
     "asrgearbox_hyundai_7dct",
     "carchecker_tucson_tgdi",
+    "dhaber_sportage_dct",
     "trbox"
   ],
   "note": "Aynı nesil (TL) Tucson'un listede zaten kayıtlı dizel-otomatik kardeşinden (hyundai-tucson-1-6-crdi-7dct) farkı, U2 dizel yerine yeni turbolu benzinli Gamma T-GDI motoru. Şanzıman aynı aile: D7UF1/D7UF2 kuru çift kavramalı kutunun T-GDI'ye özel varyantı, listede zaten kayıtlı hyundai-7dct ailesiyle aynı. Türkiye ikinci el piyasasında dizel kadar yaygın değil, bu yüzden liq puanı dizel kardeşinden düşük tutuldu; motor puanı ise dizeldeki DPF/EGR riskinden farklı, daha ölçülü bir yağ tüketimi sorunu taşıdığı için biraz daha yüksek.",
@@ -58,7 +59,8 @@
       "confidence": "orta",
       "sources": [
         "andcetin_dct_tucson",
-        "carchecker_tucson_tgdi"
+        "carchecker_tucson_tgdi",
+        "dhaber_sportage_dct"
       ],
       "reasoning": "7DCT (hyundai-7dct) şanzıman ailesinin temel puanı 46. Bu aracın trans puanı (46) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: kaynaklar, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor; T-GDI'nin daha yüksek torku (265 Nm), dizel kardeşin (320 Nm) torkuna yakın olduğu için kutunun aynı zaaf profilini taşıdığı kabul edildi.",
       "assessed_at": "2026-08-07"

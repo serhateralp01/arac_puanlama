@@ -36,6 +36,7 @@
   "sources": [
     "andcetin_dct_tucson",
     "asrgearbox_hyundai_7dct",
+    "dhaber_sportage_dct",
     "enginedna_d4fb",
     "sikayetvar_tucson_dct",
     "sikayetvar_tucson_kavrama",
@@ -62,8 +63,9 @@
       "band": "bilinen risk, kavrama/mekatronik odaklı",
       "confidence": "orta",
       "sources": [
-        "sikayetvar_tucson_kavrama",
-        "sikayetvar_tucson_dct"
+        "dhaber_sportage_dct",
+        "sikayetvar_tucson_dct",
+        "sikayetvar_tucson_kavrama"
       ],
       "reasoning": "7DCT (hyundai-7dct) şanzıman ailesinin temel puanı 46. Bu aracın trans puanı (46) temel puanla birebir aynı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor: En az bir kaynak, kavrama aşınması veya mekatronik arızasının düşük-orta kilometrede görüldüğünü doğruluyor.",
       "assessed_at": "2026-08-06"

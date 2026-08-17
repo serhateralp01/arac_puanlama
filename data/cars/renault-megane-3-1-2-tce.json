@@ -34,6 +34,7 @@
   "sources": [
     "asrgearbox_renault_edc",
     "donanimhaber_renault_12tce",
+    "otomobilforum_sanziman",
     "otopark_sanziman_rehberi",
     "renaultfanclub_edc",
     "renaultfanclub_edc_kronik",
@@ -61,6 +62,7 @@
       "confidence": "orta",
       "sources": [
         "donanimhaber_renault_12tce",
+        "otomobilforum_sanziman",
         "renaultfanclub_edc_kronik"
       ],
       "reasoning": "EDC (kuru) (renault-edc-kuru) şanzıman ailesinin temel puanı 54. Bu aracın trans puanı (54) temel puanla birebir aynı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor: Kaynaklarda tekrarlayan bir şikayet örüntüsü var (ör. düşük hızda sarsıntı) ama bu felaket bir arıza değil, kutunun kendisi genelde ayakta kalıyor.",

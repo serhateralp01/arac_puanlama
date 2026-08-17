@@ -841,6 +841,7 @@
     ],
     "sources": [
       "asrgearbox_renault_edc",
+      "otomobilforum_sanziman",
       "otopark_sanziman_rehberi",
       "renaultfanclub_edc",
       "sikayetvar_megane_edc"
@@ -938,6 +939,7 @@
     "sources": [
       "andcetin_dct_tucson",
       "asrgearbox_hyundai_7dct",
+      "dhaber_sportage_dct",
       "trbox"
     ],
     "note": "Elektrikli aktüatör kullandığı için tamiri diğer kuru çift kavramalılara göre daha kolay. Soğuk havada kalkışta titreme ve yoğun trafikte ısınma bildiriliyor. [base_score gerekçesi: 35-49 bandının üst sınırı: dry DCT olmasının getirdiği bilinen risk var ama elektrikli aktüatör sayesinde diğer kuru çift kavramalılara göre onarımı nispeten kolay, bu hafifletici bir etken.]"
