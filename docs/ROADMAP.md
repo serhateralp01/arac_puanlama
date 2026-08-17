@@ -24,7 +24,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 64/64 duman testi (statik sayfa, SEO ve katalog kontrolleri dahil) |
-| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 233/378 araç; terfi eden 100 araçtan 71'i bu turda eklendi, 29'u ağırlık araştırması bekliyor — bkz. Y-19). `comf` ve `cost` hâlâ elle veriliyor. |
+| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 261/377 araç; terfi eden 99 aracın tamamı dahil — bkz. Y-19). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi.** 19 araç 2026-08-13 tarihli piyasa gözlemine bağlandı (`price_reference` bloğu: tarih, yöntem, örneklem, sınırlılık). Kalan 259 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
 | Çok ekranlı arayüz: ana ekran, giriş akışı, liste, metodoloji, kaynak öner, iletişim | Çalışıyor |
@@ -976,13 +976,26 @@ hesaplanan puan değişti); aksi halde zaten var olan tarih korunuyor — aynı 
 yeniden çalıştırmak, dokunulmamış araçların değerlendirme tarihini yanlışlıkla "bugün"
 gibi göstermesin diye.
 
-**Durum: 100 terfi edilmiş araçtan 71'i tamamlandı.** Kalan 29'u (Opel, Peugeot, Renault,
-Seat, Toyota, VW, Volvo) için ağırlık araştırması sürüyor; formül yalnızca ağırlığı
-bulunan araca yazıldı, kalanlar dokunulmadan (eski, gerekçesiz kardeş-kopya `fun`
-puanıyla) bırakıldı — yarım kalan araştırma için sahte bir sayı üretmek yerine.
+**Durum: tamamlandı.** İkinci turda kalan 29 araç (Opel, Peugeot, Renault, Seat, Toyota,
+VW, Volvo) için de ağırlık bulundu; terfi eden 99 aracın **tamamında** artık gerçek,
+gerekçeli, `evidence.fun` kanıtlı bir `fun` puanı var — hiçbiri kardeş araçtan
+kopyalanmıyor.
+
+**İkinci turda 4 araç daha aynı rozet-uyuşmazlığı türünden düzeltildi.** Seat Ibiza
+"1.0 EcoTSI · 150 bg" ve "1.6 · 150 bg" ile Volkswagen Golf "1.6 FSi · 130/150 bg" —
+dördü de gerçekte var olmayan motor rozetleriydi (1.0 EcoTSI hiçbir zaman 150 bg
+üretmedi, 1.6 FSI 2017'de VAG kataloğunda yoktu); gerçek motor dördünde de aynı ailenin
+(`vag-ea211`) 1.5 TSI EVO ayarı. Düzeltme sırasında **bir gerçek kopya kayıt daha
+bulundu**: Seat Ibiza'nın iki satırı (eski adlarıyla "1.0 EcoTSI 150 bg" ve
+"1.6 150 bg") düzeltildikten sonra teknik özellikleri birebir aynı çıktı, yalnız yıl
+aralığı farklıydı (2017-2017 vs 2017-2020, biri ötekinin alt kümesi) — aynı P2.1
+eşleştirme zaafının (farklı rozetli kaynak satırları birleştirilmemiş) bir başka örneği.
+Dar yıl aralıklı kayıt silindi, geniş aralıklı kayıt tutuldu, katalogdaki bağlı satır
+yeni kimliğe yönlendirildi.
 
 **Sonuç.** `validate.py` 0 hata, `smoke_test.js` 68/68, `build.py`/`build_pages.py`/
-`build_content.py` yeniden üretildi. Araç sayısı 379 → 378 (bir terfi geri alındığı için).
+`build_content.py` yeniden üretildi. Araç sayısı 379 → 377 (bir terfi geri alındı, bir
+kopya kayıt birleştirildi).
 
 ---
 

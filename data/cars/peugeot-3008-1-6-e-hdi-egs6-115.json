@@ -16,7 +16,8 @@
     "torque_nm": 270.0,
     "gears": 6,
     "clutch": "Kuru tek kavrama",
-    "engine_code": "DV6C"
+    "engine_code": "DV6C",
+    "kerb_weight_kg": 1423
   },
   "price_band_k_try": [
     700,
@@ -26,7 +27,7 @@
   "scores": {
     "motor": 44,
     "trans": 38,
-    "fun": 33,
+    "fun": 12,
     "comf": 70,
     "age": 42,
     "cost": 70,
@@ -38,7 +39,7 @@
     "propeugeotspares_16hdi_egr",
     "trbox"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Peugeot markasının depodaki 18 aracının ortalaması (konfor 73, maliyet 73, likidite 68) çapa alındı. Bu araç markanın tipik güç aralığında (115 bg / marka ortalaması 128 bg). Gövde tipi SUV/MPV. Şanzıman robotlu yarı otomatik (en az yumuşak geçiş). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Peugeot markasının depodaki 18 aracının ortalaması (konfor 73, maliyet 73, likidite 68) çapa alındı. Bu araç markanın tipik güç aralığında (115 bg / marka ortalaması 128 bg). Gövde tipi SUV/MPV. Şanzıman robotlu yarı otomatik (en az yumuşak geçiş). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor. `fun` puanı da artık kardeş araçtan kopyalanmıyor: bu araç için gerçek boş ağırlık (kerb_weight_kg) WebSearch ile araştırılıp bulundu ve scripts/compute_fun.py'nin güç/ağırlık formülü çalıştırıldı; gerekçesi evidence.fun alanında yazılı.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
@@ -73,6 +74,13 @@
       ],
       "reasoning": "Bu aracın model yılı ortalaması 2012.0, yani 2026 itibarıyla yaşı yaklaşık 14.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 29.5. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 42 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
+    },
+    "fun": {
+      "band": "sürüş keyfi öncelik değil",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 81 hp/ton (normalize 12/100), tork/ağırlık oranı 190 Nm/ton (normalize 45/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman -8) temel puan 12. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "assessed_at": "2026-08-17"
     }
   }
 }

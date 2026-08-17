@@ -16,7 +16,8 @@
     "torque_nm": 180.0,
     "gears": null,
     "clutch": "Çelik kayış",
-    "engine_code": "2ZR-FAE"
+    "engine_code": "2ZR-FAE",
+    "kerb_weight_kg": 1500
   },
   "price_band_k_try": [
     800,
@@ -26,7 +27,7 @@
   "scores": {
     "motor": 76,
     "trans": 74,
-    "fun": 28,
+    "fun": 24,
     "comf": 87,
     "age": 48,
     "cost": 77,
@@ -39,7 +40,7 @@
     "slashgear_toyota_cvt_reliability",
     "trbox"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Toyota markasının depodaki 10 aracının ortalaması (konfor 78, maliyet 84, likidite 82) çapa alındı. Bu araç markanın ortalama gücünün üstünde (147 bg / marka ortalaması 126 bg). Gövde tipi MPV. Şanzıman kademesiz (CVT). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Toyota markasının depodaki 10 aracının ortalaması (konfor 78, maliyet 84, likidite 82) çapa alındı. Bu araç markanın ortalama gücünün üstünde (147 bg / marka ortalaması 126 bg). Gövde tipi MPV. Şanzıman kademesiz (CVT). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor. `fun` puanı da artık kardeş araçtan kopyalanmıyor: bu araç için gerçek boş ağırlık (kerb_weight_kg) WebSearch ile araştırılıp bulundu ve scripts/compute_fun.py'nin güç/ağırlık formülü çalıştırıldı; gerekçesi evidence.fun alanında yazılı.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
@@ -75,6 +76,13 @@
       ],
       "reasoning": "Bu aracın model yılı ortalaması 2013.5, yani 2026 itibarıyla yaşı yaklaşık 12.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 26.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 48 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07"
+    },
+    "fun": {
+      "band": "sürüş keyfi öncelik değil",
+      "confidence": "orta",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 98 hp/ton (normalize 31/100), tork/ağırlık oranı 120 Nm/ton (normalize 7/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman -6) temel puan 19. Karakter düzeltmesi +5 puan uygulandı, gerekçesi: doğal emişli yüksek devir karakteri (82 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "assessed_at": "2026-08-17"
     }
   }
 }
