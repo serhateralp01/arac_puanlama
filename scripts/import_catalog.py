@@ -50,6 +50,11 @@ IMPORTED_AT = "2026-08-15"
 PLACEHOLDERS = {
     "belirtilmemiş", "belirtilmemis", "kaynakta belirtilmemiş",
     "kaynakta belirtilmemis", "bilinmiyor", "yok", "none", "",
+    # Bu, gerçek bir kavrama tipi değil — kaynak veride 287 kayıtta bir değer yerine
+    # bir uyarı cümlesi duruyor ("Islak/kuru tipi VIN-kutu koduyla doğrulanmalı").
+    # Yer tutucu gibi temizlenmezse eşleştirmede sahte bir "kavrama tipi" gibi işlem
+    # görüp gerçek kavrama değeriyle asla eşleşmeyen bir anahtar üretir.
+    "islak/kuru tipi vin-kutu koduyla doğrulanmalı",
 }
 
 # MK-15 türü aralık korumaları: birim hatasını ve bozuk kaydı yakalamak için.

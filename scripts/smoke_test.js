@@ -24,6 +24,11 @@ const FILE = 'file://' + path.join(ROOT, 'index.html');
 const DEBUG_DIR = path.join(ROOT, 'scripts', '.smoke-debug');
 const ALWAYS_SCREENSHOT = process.argv.includes('--debug');
 
+// Araç sayısı Y-01/Y-19 turlarında sık değişiyor; sabit bir sayı her turda bu
+// dosyayı elle güncellemeyi gerektirirdi. data/cars/ dizinini sayıp aynı sonucu
+// veriyoruz — test artık veriyle birlikte otomatik güncelleniyor.
+const CAR_COUNT = fs.readdirSync(path.join(ROOT, 'data', 'cars')).filter((f) => f.endsWith('.json')).length;
+
 const checks = [];
 const consoleLog = []; // konsolun tamamı — hata filtrelemeden önce, debug için
 let page; // dumpDebug() içinden erişilebilsin diye üstte tanımlı
@@ -127,7 +132,7 @@ async function dumpDebug(label) {
     if (ALWAYS_SCREENSHOT) await dumpDebug('01-yuklendi');
 
     const rows = await page.locator('#body tr.main').count();
-    check('bütün araçlar listeleniyor', rows === 357, `${rows} satır`);
+    check('bütün araçlar listeleniyor', rows === CAR_COUNT, `${rows} satır (beklenen ${CAR_COUNT})`);
 
     check('JS hatası yok', errors.length === 0, errors.slice(0, 3).join(' | '));
 
@@ -177,8 +182,8 @@ async function dumpDebug(label) {
     await page.click('.nav a[data-route="katki"]');
     await page.waitForTimeout(200);
     const ktCars = await page.locator('#ktCar option').count();
-    // 357 araç + "seçin" + "listede yok" = 359
-    check('form araç listesi veriden doluyor', ktCars === 359, `${ktCars} seçenek`);
+    // araç sayısı + "seçin" + "listede yok" = CAR_COUNT + 2
+    check('form araç listesi veriden doluyor', ktCars === CAR_COUNT + 2, `${ktCars} seçenek (beklenen ${CAR_COUNT + 2})`);
     const ktCrits = await page.locator('#ktCriterion option').count();
     check('form kriter listesi veriden doluyor', ktCrits > 5, `${ktCrits} seçenek`);
     // Uç nokta tanımlı değilken gönderim kapalı olmalı; sessizce başarısız

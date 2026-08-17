@@ -106,7 +106,7 @@
         "engine_code": "CBZB",
         "engine_name": "1.2L TSI"
       },
-      "scored_car_id": null,
+      "scored_car_id": "volkswagen-beetle-1-2-tsi-dsg-105",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -613,7 +613,10 @@
         "engine_name": "1.2 TSI"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "volkswagen-golf-1-2-tsi-105",
+        "volkswagen-golf-1-2-tsi-105-bg-105"
+      ],
       "quality_flags": [],
       "sources": [
         "market--el-otomobil-volkswagen-golf-1-2-tsi",
@@ -651,7 +654,10 @@
         "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "volkswagen-golf-1-2-tsi-105",
+        "volkswagen-golf-1-2-tsi-105-bg-105"
+      ],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -688,7 +694,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "volkswagen-golf-1-2-tsi-105-bg-105",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -727,7 +733,10 @@
         "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "volkswagen-golf-1-2-tsi-105",
+        "volkswagen-golf-1-2-tsi-105-bg-105"
+      ],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -765,7 +774,10 @@
         "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "volkswagen-golf-1-2-tsi-105",
+        "volkswagen-golf-1-2-tsi-105-bg-105"
+      ],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -802,7 +814,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "volkswagen-golf-1-2-tsi-110-bg-110",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -840,7 +852,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI BlueMotion 7AT FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "volkswagen-golf-1-2-tsi-110-bg-110",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

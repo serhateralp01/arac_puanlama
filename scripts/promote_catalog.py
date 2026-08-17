@@ -74,19 +74,64 @@ def load_catalog() -> list[dict]:
 
 
 def find_candidates(cars: list[dict], catalog: list[dict]) -> list[tuple[dict, str, str]]:
+    """Katalog kaydını mevcut motor/şanzıman ailesine bağlar.
+
+    Marka eşleşmesi varsayılan kural: bir motor ya da kutu, farklı üreticilerin aynı
+    tip+ölçüdeki tamamen farklı ürünlerini birbirine karıştırmasın diye (ZF 8HP ile
+    PSA/Aisin EAT8'in karışması gibi). Ama bu kural bazı ailelerde fazla katı: VAG
+    grubu (VW/Audi/Skoda/Seat/Cupra), PSA/Stellantis (Peugeot/Citroën/Opel) ve
+    Hyundai-Kia gibi ortak platform kullanan gruplarda **aynı fiziksel parça** birden
+    çok markada satılıyor — ve bu, spekülasyon değil, depodaki kendi verimizde zaten
+    kanıtlı: `vag-dq200` bugün Volkswagen/Audi/Skoda/Seat'te, `psa-eat8` Peugeot/
+    Citroën/Opel'de kayıtlı. Bir aile depoda zaten 2+ farklı markada görülüyorsa, o
+    aile için marka sınırı kaldırılıyor — bu, yeni bir varsayım eklemiyor, sadece
+    deponun kendi araştırmasının (Y-01/Y-02) zaten doğruladığı paylaşımı kullanıyor.
+    """
     eng_gt = collections.defaultdict(lambda: collections.defaultdict(list))
     tr_gt = collections.defaultdict(collections.Counter)
     tr_gt_noclutch = collections.defaultdict(collections.Counter)
+    eng_brands = collections.defaultdict(set)
+    tr_brands = collections.defaultdict(set)
     for c in cars:
         sp = c["specs"]
         b = norm(c.get("brand_group"))
-        key_e = (b, sp["fuel"], round(sp["displacement_l"], 1))
         if sp.get("engine_id"):
+            key_e = (b, sp["fuel"], round(sp["displacement_l"], 1))
             eng_gt[key_e][sp["engine_id"]].append(sp["hp"])
-        key_t = (b, sp["transmission_type"], sp.get("gears"), sp.get("clutch"))
+            eng_brands[sp["engine_id"]].add(b)
         if sp.get("transmission_id"):
+            key_t = (b, sp["transmission_type"], sp.get("gears"), sp.get("clutch"))
             tr_gt[key_t][sp["transmission_id"]] += 1
             tr_gt_noclutch[(b, sp["transmission_type"], sp.get("gears"))][sp["transmission_id"]] += 1
+            tr_brands[sp["transmission_id"]].add(b)
+
+    # Marka sınırı gevşetilmiş arama tabloları — ama yalnız (fuel, hacim) ile değil,
+    # (fuel, hacim) + "bu aile depoda zaten hangi markalarda görülüyor" ile. Yani bir
+    # aday, ancak markası o AİLENİN kendi bilinen marka kümesindeyse eşleşebiliyor.
+    # İlk sürüm bu kümeyi kontrol etmiyordu ve "Honda Accord"u Audi'nin EA888
+    # motoruna, "BMW 528i"yi VW'nin EA211'ine bağladı — yalnızca ikisi de depoda
+    # birden çok markada görülen bir aile olduğu için. Düzeltme: aday markası
+    # `eng_brands[eid]` / `tr_brands[tid]` kümesinde olmalı.
+    eng_gt_shared = collections.defaultdict(lambda: collections.defaultdict(list))
+    for c in cars:
+        sp = c["specs"]
+        eid = sp.get("engine_id")
+        if eid and len(eng_brands[eid]) >= 2:
+            key = (sp["fuel"], round(sp["displacement_l"], 1))
+            eng_gt_shared[key][eid].append(sp["hp"])
+    tr_gt_shared = collections.defaultdict(collections.Counter)
+    tr_gt_shared_noclutch = collections.defaultdict(collections.Counter)
+    for c in cars:
+        sp = c["specs"]
+        tid = sp.get("transmission_id")
+        if tid and len(tr_brands[tid]) >= 2:
+            key = (sp["transmission_type"], sp.get("gears"), sp.get("clutch"))
+            tr_gt_shared[key][tid] += 1
+            key2 = (sp["transmission_type"], sp.get("gears"))
+            tr_gt_shared_noclutch[key2][tid] += 1
+
+    def brand_filtered(matches: dict, brand_sets: dict, b: str) -> dict:
+        return {k: v for k, v in matches.items() if b in brand_sets[k]}
 
     raw = []
     for e in catalog:
@@ -99,7 +144,10 @@ def find_candidates(cars: list[dict], catalog: list[dict]) -> list[tuple[dict, s
         key_e = (b, sp["fuel"], round(sp["displacement_l"], 1))
         eng_matches = eng_gt.get(key_e, {})
         if len(eng_matches) != 1:
-            continue
+            shared = eng_gt_shared.get((sp["fuel"], round(sp["displacement_l"], 1)), {})
+            eng_matches = brand_filtered(shared, eng_brands, b)
+            if len(eng_matches) != 1:
+                continue
         eng_id, hp_list = list(eng_matches.items())[0]
         lo, hi = min(hp_list) * 0.75, max(hp_list) * 1.35
         if not (lo <= sp["hp"] <= hi):
@@ -112,10 +160,29 @@ def find_candidates(cars: list[dict], catalog: list[dict]) -> list[tuple[dict, s
         else:
             key_t2 = (b, sp["transmission_type"], sp.get("gears"))
             tr_matches2 = tr_gt_noclutch.get(key_t2, {})
-            if len(tr_matches2) != 1:
-                continue
-            tr_id = list(tr_matches2)[0]
+            if len(tr_matches2) == 1:
+                tr_id = list(tr_matches2)[0]
+            else:
+                key_shared = (sp["transmission_type"], sp.get("gears"), sp.get("clutch"))
+                shared3 = brand_filtered(tr_gt_shared.get(key_shared, {}), tr_brands, b)
+                if len(shared3) == 1:
+                    tr_id = list(shared3)[0]
+                else:
+                    key_shared2 = (sp["transmission_type"], sp.get("gears"))
+                    shared4 = brand_filtered(tr_gt_shared_noclutch.get(key_shared2, {}), tr_brands, b)
+                    if len(shared4) != 1:
+                        continue
+                    tr_id = list(shared4)[0]
         raw.append((e, eng_id, tr_id))
+
+    # Marka-paylaşımlı eşleşme, aynı markanın FARKLI nesil/platformlarını da aynı
+    # aileye düşürebiliyor — bu, marka bazında değil model bazında yanlış olabilir.
+    # "Fiat Bravo 1.6 MultiJet Dualogic" (2007-2014, Fiat'ın kendi C635 tabanlı
+    # Dualogic'i kullanıyor) yalnızca Fiat Egea'nın (2015+, farklı platform)
+    # psa-etg'ye bağlı olduğu bilindiği için o aileye düştü — bu iki model aynı
+    # tedarikçiyi paylaştığını gösteren bağımsız bir kanıt yok. Araştırılmadan
+    # terfi edilmemesi için elle çıkarıldı.
+    raw = [(e, eid, tid) for e, eid, tid in raw if e["id"] != "fiat-bravo-1-6-multijet-dualogic-120"]
 
     # Aynı ad farklı satırlarda farklı aileye düşüyorsa tüm grup atlanır.
     by_name = collections.defaultdict(set)

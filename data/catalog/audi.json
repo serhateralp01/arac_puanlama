@@ -25,7 +25,10 @@
         "engine_name": "1.4L TFSI"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "audi-a1-1-4-tfsi-122-bg-122-3",
+        "audi-a1-1-4-tfsi-s-tronic-122"
+      ],
       "quality_flags": [],
       "sources": [
         "market-l-otomobil-audi-a1-1-4-tfsi-s-tronic",
@@ -63,7 +66,10 @@
         "engine_name": "1.4L TFSI 7AT (125 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "audi-a1-1-4-tfsi-122-bg-122-3",
+        "audi-a1-1-4-tfsi-s-tronic-122"
+      ],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -141,7 +147,10 @@
         "engine_name": "1.4L TFSI 7AT (125 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "audi-a1-1-4-tfsi-122-bg-122-3",
+        "audi-a1-1-4-tfsi-s-tronic-122"
+      ],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -377,7 +386,10 @@
         "engine_name": "1.4 TFSI"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "audi-a3-1-4-tfsi-125",
+        "audi-a3-sportback-1-4-tfsi-125-bg-125"
+      ],
       "quality_flags": [],
       "sources": [
         "market--ikinci-el-otomobil-audi-a3-1-4-tfsi",
@@ -490,7 +502,7 @@
         "engine_code": "CDAA",
         "engine_name": "1.8 TFSI"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-a3-1-8-tfsi-160",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -642,7 +654,7 @@
         "engine_code": null,
         "engine_name": "EA211"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-a3-sportback-1-0-tfsi-s-tronic-116",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -832,7 +844,10 @@
         "engine_name": "1.4L TFSI 7AT FWD (125 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "audi-a3-sportback-1-2-tfsi-125-bg-125",
+        "audi-a3-sportback-1-4-tfsi-125-bg-125"
+      ],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -869,7 +884,7 @@
         "engine_code": null,
         "engine_name": "1.4L TFSI 7AT (125 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-a3-sportback-1-4-tfsi-110-bg-110",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -907,7 +922,7 @@
         "engine_code": null,
         "engine_name": "1.4L TFSI 7AT (125 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-a3-sportback-1-4-tfsi-125-bg-125",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -945,7 +960,7 @@
         "engine_code": null,
         "engine_name": "1.4L TFSI 7AT (125 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-a3-sportback-1-4-tfsi-125-bg-125",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -984,7 +999,10 @@
         "engine_name": "1.4L TFSI 7AT FWD (150 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "audi-a3-sportback-1-2-tfsi-125-bg-125",
+        "audi-a3-sportback-1-4-tfsi-125-bg-125"
+      ],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -1021,7 +1039,7 @@
         "engine_code": null,
         "engine_name": "1.4L TFSI 7AT FWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-a3-sportback-1-4-tfsi-150-bg-150",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1059,7 +1077,7 @@
         "engine_code": null,
         "engine_name": "1.4L TFSI 7AT FWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-a3-sportback-1-4-tfsi-150-bg-150",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1753,7 +1771,7 @@
         "engine_code": "AVJ/BFB",
         "engine_name": "1.8 Turbo"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-a4-1-8t-150",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1791,7 +1809,7 @@
         "engine_code": "BFB",
         "engine_name": "1.8 Turbo"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-a4-1-8t-163",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2095,7 +2113,7 @@
         "engine_code": "CJEB",
         "engine_name": "1.8L TFSI CVT FWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-a5-1-8-tfsi-multitronic-170",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2133,7 +2151,7 @@
         "engine_code": "AWT",
         "engine_name": "1.8 Turbo"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-a6-1-8t-150",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2919,7 +2937,7 @@
         "engine_code": null,
         "engine_name": "1.8L TFSI 7AT FWD (180 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-tt-1-8-160-bg-160-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2997,7 +3015,7 @@
         "engine_code": null,
         "engine_name": "1.8L TFSI 7AT FWD (180 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "audi-tt-1-8-180-bg-180-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

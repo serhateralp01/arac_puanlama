@@ -1,0 +1,78 @@
+{
+  "id": "audi-tt-1-8-180-bg-180-2",
+  "name": "Audi TT 1.8 · 180 bg",
+  "tag": "oto: 7 ileri kuru DCT · 180bg",
+  "brand_group": "Audi",
+  "years": "2014-2018",
+  "specs": {
+    "hp": 180,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Cabrio",
+    "engine_id": "vag-ea888",
+    "torque_nm": 250.0,
+    "gears": 7,
+    "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 46,
+    "trans": 38,
+    "fun": 58,
+    "comf": 77,
+    "age": 58,
+    "cost": 80,
+    "liq": 68
+  },
+  "sources": [
+    "andcetin_dq200",
+    "ecotorque_dq200_mechatronic",
+    "enginescope_ea888_gen",
+    "trbox"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Audi TT 1.8 · 160 bg (audi-tt-1-8-160-bg-160-2) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-0fa044bae437d5fb89"
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "enginescope_ea888_gen"
+      ],
+      "reasoning": "EA888 (vag-ea888) motor ailesinin temel puanı 46. Bu aracın motor puanı (46) temel puanla birebir aynı. Ailenin bilinen zaafı: Gen1/Gen2 sürümlerinde triger zinciri gergisi arızası ve zincir uzaması. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dq200",
+        "trbox",
+        "ecotorque_dq200_mechatronic"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim (2012 öncesi) kavrama paketinin aşınması; 2012'de tasarım yenilendi. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2016.0, yani 2026 itibarıyla yaşı yaklaşık 10.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 21.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 58 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

@@ -492,7 +492,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI 7AT FWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-octavia-1-4-tsi-110-bg-110",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -689,7 +689,7 @@
         "engine_code": null,
         "engine_name": "1.5L TSI G-TEC 7AT (130 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-octavia-1-6-fsi-130-bg-130",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

@@ -1,0 +1,78 @@
+{
+  "id": "audi-a6-1-8t-150",
+  "name": "Audi A6 1.8T",
+  "tag": "oto: 5 ileri otomatik · 150bg",
+  "brand_group": "Audi",
+  "years": "2000-2004",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "zf-5hp",
+    "body_type": "Sedan",
+    "engine_id": "vag-ea888",
+    "torque_nm": 210.0,
+    "gears": 5,
+    "clutch": null,
+    "engine_code": "AWT"
+  },
+  "price_band_k_try": [
+    550,
+    800
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 46,
+    "trans": 70,
+    "fun": 66,
+    "comf": 78,
+    "age": 15,
+    "cost": 65,
+    "liq": 60
+  },
+  "sources": [
+    "bimmerfest_zf5hp19",
+    "enginescope_ea888_gen",
+    "transmissionrepair_zf5hp",
+    "transmissionrepairguide_zf5hp19"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Audi A4 B6 1.8T / 2.0 (audi-a4-b6-1-8t-2-0) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-e7b4a0bc66df6cc33b"
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "enginescope_ea888_gen"
+      ],
+      "reasoning": "EA888 (vag-ea888) motor ailesinin temel puanı 46. Bu aracın motor puanı (46) temel puanla birebir aynı. Ailenin bilinen zaafı: Gen1/Gen2 sürümlerinde triger zinciri gergisi arızası ve zincir uzaması. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "bimmerfest_zf5hp19",
+        "transmissionrepair_zf5hp",
+        "transmissionrepairguide_zf5hp19"
+      ],
+      "reasoning": "ZF 5HP19 (zf-5hp) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Ailenin bilinen zaafı: Tork konvertörü türbin mili keçesinin bozulup kilitlenme basıncını tutamaması (P0741); belirtisi mıcır şeridine basmayı andıran titreşim. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2002.0, yani 2026 itibarıyla yaşı yaklaşık 24.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

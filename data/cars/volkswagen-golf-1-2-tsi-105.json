@@ -1,0 +1,78 @@
+{
+  "id": "volkswagen-golf-1-2-tsi-105",
+  "name": "Volkswagen Golf 1.2 TSI",
+  "tag": "oto: 7 ileri kuru DCT · 105bg",
+  "brand_group": "Volkswagen",
+  "years": "2013-2016",
+  "specs": {
+    "hp": 105,
+    "displacement_l": 1.2,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea111-tsi-turbo",
+    "torque_nm": 175.0,
+    "gears": 7,
+    "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+    "engine_code": "CJZA"
+  },
+  "price_band_k_try": [
+    900,
+    1350
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 56,
+    "trans": 38,
+    "fun": 96,
+    "comf": 78,
+    "age": 52,
+    "cost": 54,
+    "liq": 64
+  },
+  "sources": [
+    "andcetin_dq200",
+    "ecotorque_dq200_mechatronic",
+    "enginecrux_ea111_vs_ea211",
+    "trbox"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Volkswagen Beetle 1.2 TSI DSG (volkswagen-beetle-1-2-tsi-dsg-105) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-e8e54c04aaed143154"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "enginecrux_ea111_vs_ea211"
+      ],
+      "reasoning": "EA111 TSI (vag-ea111-tsi-turbo) motor ailesinin temel puanı 56. Bu aracın motor puanı (56) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger zinciri ve gergi sesi, ilerlerse zincir/gergi değişimi gerektiriyor. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dq200",
+        "trbox",
+        "ecotorque_dq200_mechatronic"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim (2012 öncesi) kavrama paketinin aşınması; 2012'de tasarım yenilendi. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2014.5, yani 2026 itibarıyla yaşı yaklaşık 11.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 24.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 52 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}
