@@ -1,0 +1,76 @@
+{
+  "id": "mercedes-benz-c-c-200-cdi-122-bg-122-2",
+  "name": "Mercedes-Benz C C 200 CDI · 122 bg",
+  "tag": "oto: 5 ileri otomatik · 122bg",
+  "brand_group": "Mercedes-Benz",
+  "years": "2000-2001",
+  "specs": {
+    "hp": 122,
+    "displacement_l": 2.1,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "mb-5g-tronic",
+    "body_type": "Station Wagon",
+    "engine_id": "mb-om651",
+    "torque_nm": 270.0,
+    "gears": 5,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    750,
+    1080
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 46,
+    "trans": 80,
+    "fun": 62,
+    "comf": 82,
+    "age": 15,
+    "cost": 74,
+    "liq": 58
+  },
+  "sources": [
+    "enginefinders_om651",
+    "mercedesmedic_722_6_conductor",
+    "minhsautocare_722_6"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Mercedes-Benz C C 200 CDI · 116 bg (mercedes-benz-c-c-200-cdi-116-bg-116-2) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-1bd3ccb6f30a08c67d"
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "enginefinders_om651"
+      ],
+      "reasoning": "OM651 (mb-om651) motor ailesinin temel puanı 46. Bu aracın motor puanı (46) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger zincirinin hızla uzayıp karakteristik tıkırtı sesi çıkarması; gergi arızası felaket boyutunda motor hasarına yol açabiliyor. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "mercedesmedic_722_6_conductor",
+        "minhsautocare_722_6"
+      ],
+      "reasoning": "5G-Tronic (mb-5g-tronic) şanzıman ailesinin temel puanı 80. Bu aracın trans puanı (80) temel puanla birebir aynı. Ailenin bilinen zaafı: İletken plakanın (conductor plate) devir sensörlerinin metal parçacıkla kirlenip yanlış kayma hatası üretmesi; sıcaklık ve seviye sensörlerinde tutarsız değer. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2000.5, yani 2026 itibarıyla yaşı yaklaşık 25.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

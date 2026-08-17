@@ -1,0 +1,80 @@
+{
+  "id": "volvo-v70-d3-geartronic-136",
+  "name": "Volvo V70 D3 Geartronic",
+  "tag": "oto: 6 ileri otomatik · 136bg",
+  "brand_group": "Volvo",
+  "years": "2007-2016",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 2.0,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-geartronic",
+    "body_type": "Station",
+    "engine_id": "volvo-d-20",
+    "torque_nm": 350.0,
+    "gears": 6,
+    "clutch": null,
+    "engine_code": "D5204T"
+  },
+  "price_band_k_try": [
+    700,
+    1050
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 70,
+    "trans": 78,
+    "fun": 80,
+    "comf": 80,
+    "age": 40,
+    "cost": 54,
+    "liq": 36
+  },
+  "sources": [
+    "asrgearbox_tf80sc",
+    "engineexplained_d5244t",
+    "volvoclub_geartronic_reliability",
+    "volvod",
+    "volvoforums_tf71sc_behavior",
+    "volvops"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Volvo S60 2.0 T (volvo-s60-2-0-t) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-52ff1633f8fb2ea812"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "engineexplained_d5244t"
+      ],
+      "reasoning": "D5204T (volvo-d-20) motor ailesinin temel puanı 70. Bu aracın motor puanı (70) temel puanla birebir aynı. Ailenin bilinen zaafı: Enjektör arızası, EGR valfi karbon tıkanması, turbo gecikmesi/arızası. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "asrgearbox_tf80sc",
+        "volvoclub_geartronic_reliability",
+        "volvod"
+      ],
+      "reasoning": "Aisin Geartronic (aisin-geartronic) şanzıman ailesinin temel puanı 78. Bu aracın trans puanı (78) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim valf gövdesi tasarımına bağlı sert vites geçişi ve viteste kayma/devir yükselmesi; 06J ve sonrası seri numaralı kutularda güncellenmiş valf gövdesi bu belirtileri önlüyor. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2011.5, yani 2026 itibarıyla yaşı yaklaşık 14.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 30.4. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 40 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

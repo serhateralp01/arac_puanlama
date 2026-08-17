@@ -1,0 +1,78 @@
+{
+  "id": "renault-captur-ii-1-3-tce-130-edc-130",
+  "name": "Renault Captur II 1.3 TCe 130 EDC",
+  "tag": "oto: 7 ileri ıslak DCT · 130bg",
+  "brand_group": "Renault",
+  "years": "2019-2020",
+  "specs": {
+    "hp": 130,
+    "displacement_l": 1.3,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "getrag-7dct300",
+    "body_type": "SUV",
+    "engine_id": "renault-h5ht",
+    "torque_nm": 240.0,
+    "gears": 7,
+    "clutch": "Islak çift kavrama",
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    700,
+    1050
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 68,
+    "trans": 70,
+    "fun": 17,
+    "comf": 72,
+    "age": 74,
+    "cost": 82,
+    "liq": 76
+  },
+  "sources": [
+    "asrgearbox_getrag_7dct300_kaynak",
+    "go4trans_7dct300",
+    "otopark_1_3tce_islak",
+    "uscarsnew_h5ht"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Renault Captur 1.5 dCi EDC (renault-captur-1-5-dci-edc) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant p21m-d4d40dfc4a4f7065b6"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "uscarsnew_h5ht"
+      ],
+      "reasoning": "H5Ht (renault-h5ht) motor ailesinin temel puanı 68. Bu aracın motor puanı (68) temel puanla birebir aynı. Ailenin bilinen zaafı: Bazı örneklerde arızalı piston/segman kaynaklı erken yağ tüketimi. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "go4trans_7dct300",
+        "otopark_1_3tce_islak",
+        "asrgearbox_getrag_7dct300_kaynak"
+      ],
+      "reasoning": "Getrag 7DCT300 (getrag-7dct300) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Ailenin bilinen zaafı: Islak kavrama muhafazasının fabrika kaynağı boyunca çatlaması; çatladığında kutu kullanılamaz hale geliyor. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2019.5, yani 2026 itibarıyla yaşı yaklaşık 6.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 14.4. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 74 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "renault-grand-scenic-1-5-dci-edc-110",
+  "name": "Renault Grand Scenic 1.5 dCi EDC",
+  "tag": "oto: 6 ileri kuru DCT · 110bg",
+  "brand_group": "Renault",
+  "years": "2013-2016",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "renault-edc-kuru",
+    "body_type": "MPV",
+    "engine_id": "renault-k9k",
+    "torque_nm": 240.0,
+    "gears": 6,
+    "clutch": "Kuru çift kavrama",
+    "engine_code": "K9K"
+  },
+  "price_band_k_try": [
+    650,
+    950
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 58,
+    "trans": 54,
+    "fun": 40,
+    "comf": 83,
+    "age": 52,
+    "cost": 87,
+    "liq": 76
+  },
+  "sources": [
+    "asrgearbox_renault_edc",
+    "cararac_k9k",
+    "otopark_sanziman_rehberi",
+    "renaultfanclub_edc",
+    "sikayetvar_megane_edc"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Renault Fluence 1.5 dCi (renault-fluence-1-5-dci) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-42c50fef7f9c997787"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "cararac_k9k"
+      ],
+      "reasoning": "K9K (renault-k9k) motor ailesinin temel puanı 58. Bu aracın motor puanı (58) temel puanla birebir aynı. Ailenin bilinen zaafı: 150 bin km üstünde biyel kolu yatağı çatlaması; ailenin en ciddi arızası. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "asrgearbox_renault_edc",
+        "otopark_sanziman_rehberi",
+        "renaultfanclub_edc"
+      ],
+      "reasoning": "EDC (kuru) (renault-edc-kuru) şanzıman ailesinin temel puanı 54. Bu aracın trans puanı (54) temel puanla birebir aynı. Ailenin bilinen zaafı: Düşük hızda kalkışta titreme (judder); ısınmış sürtünme plakaları, mekatronik servo hizasızlığı veya eski yazılım kaynaklı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2014.5, yani 2026 itibarıyla yaşı yaklaşık 11.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 24.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 52 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

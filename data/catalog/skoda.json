@@ -24,7 +24,7 @@
         "engine_code": null,
         "engine_name": "1.0L TSI 7AT FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-fabia-1-0-greentec-110-bg-110",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -62,7 +62,7 @@
         "engine_code": null,
         "engine_name": "1.0L TSI 7AT FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-fabia-1-0-greentec-110-bg-110",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -138,7 +138,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI DSG FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-fabia-1-2-tsi-110-bg-110",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -176,7 +176,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI DSG FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-fabia-1-2-tsi-110-bg-110",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -215,7 +215,10 @@
         "engine_name": "1.4L TSI Green Tec 7AT FWD (122 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "skoda-fabia-1-4-tsi-rs-180-bg-180",
+        "skoda-fabia-rs-1-4-tsi-dsg-180"
+      ],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -252,7 +255,7 @@
         "engine_code": "CAVE",
         "engine_name": "1.4 TSI"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-fabia-rs-1-4-tsi-dsg-180",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -368,7 +371,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI DSG FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-octavia-1-2-tsi-105-bg-105-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -397,7 +400,7 @@
         "torque_nm": null,
         "displacement_l": null,
         "fuel": "Benzin",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "Kuru DCT",
         "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
@@ -449,7 +452,10 @@
         "engine_name": "1.4L TSI"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "skoda-octavia-1-4-tsi-122",
+        "skoda-octavia-1-4-tsi-122-bg-122"
+      ],
       "quality_flags": [],
       "sources": [
         "market-ci-el-otomobil-skoda-octavia-1-4-tsi",
@@ -525,7 +531,10 @@
         "engine_name": "1.4L TSI Green Tec 7AT FWD (122 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "skoda-octavia-1-4-tsi-122",
+        "skoda-octavia-1-4-tsi-122-bg-122"
+      ],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -602,7 +611,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI 7AT FWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-octavia-1-4-tsi-140-bg-140",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -640,7 +649,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI 7AT FWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-octavia-1-4-tsi-150-bg-150",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -824,7 +833,7 @@
         "torque_nm": null,
         "displacement_l": null,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "Kuru DCT",
         "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
@@ -866,7 +875,7 @@
         "torque_nm": 400.0,
         "displacement_l": null,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "Kuru DCT",
         "transmission_name": "2.0L TDI 7AT AWD (200 HP) 7-Speed Automatic Dsg",
@@ -996,7 +1005,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-octavia-1-6-105-bg-105-3",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1034,7 +1043,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-octavia-1-6-105-bg-105-3",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1072,7 +1081,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-octavia-1-6-105-bg-105-3",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1110,7 +1119,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-octavia-1-6-115-bg-115",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1334,7 +1343,7 @@
         "torque_nm": 320.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -1454,7 +1463,7 @@
         "torque_nm": 434.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -1573,7 +1582,7 @@
         "torque_nm": 380.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "Kuru DCT",
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
@@ -1735,7 +1744,10 @@
         "engine_name": "1.4L TSI"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "skoda-rapid-1-4-tsi-122-bg-122",
+        "skoda-rapid-1-4-tsi-dsg-122"
+      ],
       "quality_flags": [],
       "sources": [
         "market--el-otomobil-skoda-rapid-1-4-tsi-dsg",
@@ -1773,7 +1785,10 @@
         "engine_name": "1.4L TSI Green Tec 7AT FWD (122 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "skoda-rapid-1-4-tsi-122-bg-122",
+        "skoda-rapid-1-4-tsi-dsg-122"
+      ],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -1851,7 +1866,10 @@
         "engine_name": "1.4L TSI Green Tec 7AT FWD (122 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "skoda-rapid-1-4-tsi-122-bg-122",
+        "skoda-rapid-1-4-tsi-dsg-122"
+      ],
       "quality_flags": [],
       "sources": [
         "src-8181627497eb8c4008",
@@ -1926,7 +1944,7 @@
         "engine_code": "CBZB",
         "engine_name": "1.2L TSI"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-roomster-1-2-tsi-dsg-105",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2002,7 +2020,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (115 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-scala-1-6-tdi-115-bg-115",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2312,7 +2330,7 @@
         "torque_nm": 320.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "Kuru DCT",
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
@@ -2350,7 +2368,7 @@
         "torque_nm": 320.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "Kuru DCT",
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
@@ -2618,7 +2636,7 @@
         "torque_nm": 350.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "Kuru DCT",
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",
@@ -2824,7 +2842,7 @@
         "engine_code": "CDAA",
         "engine_name": "1.8L TSI"
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-superb-1-8-tsi-dsg-160",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2929,7 +2947,7 @@
         "torque_nm": 320.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "SUV",
         "transmission_type": "Kuru DCT",
         "transmission_name": "2.0L TDI 6AT 4x4 (170 HP) 6-Speed Automatic (Dsg)",

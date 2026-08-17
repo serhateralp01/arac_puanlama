@@ -24,7 +24,7 @@
         "engine_code": "D4FD",
         "engine_name": "1.7L CRDi ISG"
       },
-      "scored_car_id": null,
+      "scored_car_id": "kia-carens-1-7-crdi-7dct-141",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -687,7 +687,7 @@
         "engine_code": null,
         "engine_name": "1.6L CRDi 7AT FWD (136 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "kia-optima-1-7-crdi-136-bg-136-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -765,7 +765,7 @@
         "engine_code": null,
         "engine_name": "1.7L CRDi 7AT FWD (141 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "kia-optima-1-7-crdi-141-bg-141-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -990,7 +990,7 @@
         "torque_nm": 436.0,
         "displacement_l": 2.2,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "SUV",
         "transmission_type": "TK",
         "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",
@@ -1075,7 +1075,7 @@
         "engine_code": "D4FB",
         "engine_name": "1.6 CRDi"
       },
-      "scored_car_id": null,
+      "scored_car_id": "kia-soul-1-6-crdi-136",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1180,7 +1180,7 @@
         "torque_nm": 392.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "SUV",
         "transmission_type": "TK",
         "transmission_name": "1.6L 6AT (125 HP) 6-Speed Automatic",

@@ -1,0 +1,80 @@
+{
+  "id": "ford-galaxy-2-0-tdci-163",
+  "name": "Ford Galaxy 2.0 TDCi",
+  "tag": "oto: 6 ileri ıslak DCT · 163bg",
+  "brand_group": "Ford",
+  "years": "2010-2015",
+  "specs": {
+    "hp": 163,
+    "displacement_l": 2.0,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Islak DCT",
+    "transmission_id": "getrag-6dct450",
+    "body_type": "MPV",
+    "engine_id": "ford-duratorq-20",
+    "torque_nm": 340.0,
+    "gears": 6,
+    "clutch": "Islak çift kavrama",
+    "engine_code": "DW10"
+  },
+  "price_band_k_try": [
+    450,
+    700
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 64,
+    "trans": 52,
+    "fun": 48,
+    "comf": 72,
+    "age": 44,
+    "cost": 73,
+    "liq": 70
+  },
+  "sources": [
+    "autodoc_s60_problems",
+    "enginedna_duratorq_20",
+    "greencarcongress_powershift_torque",
+    "kugaownersclub_powershift_faults",
+    "mondps",
+    "volvops"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Ford C-Max 2.0 TDCi (ford-c-max-2-0-tdci-136) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-550a821e26f64b8fb9"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "enginedna_duratorq_20"
+      ],
+      "reasoning": "Duratorq TDCi (ford-duratorq-20) motor ailesinin temel puanı 64. Bu aracın motor puanı (64) temel puanla birebir aynı. Ailenin bilinen zaafı: Kısa mesafe kullanımda DPF tıkanması ve EGR valfi sorunu; en sık bildirilen arıza. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "mondps",
+        "volvops",
+        "greencarcongress_powershift_torque"
+      ],
+      "reasoning": "6DCT450 (getrag-6dct450) şanzıman ailesinin temel puanı 52. Bu aracın trans puanı (52) temel puanla birebir aynı. Ailenin bilinen zaafı: Düşük hızda titreme, sert hızlanmada kavrama kayması, trafikte aşırı ısınma uyarısı, tam güç kaybı. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2012.5, yani 2026 itibarıyla yaşı yaklaşık 13.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 28.6. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 44 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "mercedes-benz-clk-clk-270-cdi-170-bg-170",
+  "name": "Mercedes-Benz CLK CLK 270 CDI · 170 bg",
+  "tag": "oto: 5 ileri otomatik · 170bg",
+  "brand_group": "Mercedes-Benz",
+  "years": "2002-2002",
+  "specs": {
+    "hp": 170,
+    "displacement_l": 2.7,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "mb-5g-tronic",
+    "body_type": null,
+    "engine_id": "mb-om612",
+    "torque_nm": 400.0,
+    "gears": 5,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    900,
+    1250
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 74,
+    "trans": 80,
+    "fun": 50,
+    "comf": 81,
+    "age": 15,
+    "cost": 78,
+    "liq": 80
+  },
+  "sources": [
+    "enginecrux_om612",
+    "mercedesmedic_722_6_conductor",
+    "minhsautocare_722_6"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Mercedes-Benz CLK CLK 270 CDI · 150 bg (mercedes-benz-clk-clk-270-cdi-150-bg-150) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-33726af2a67690aa0d"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "enginecrux_om612"
+      ],
+      "reasoning": "OM612 (mb-om612) motor ailesinin temel puanı 74. Bu aracın motor puanı (74) temel puanla birebir aynı. Ailenin bilinen zaafı: Kam mili aşınması, enjektör/turbo basınç sensörü kablo tesisatının yanması. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "mercedesmedic_722_6_conductor",
+        "minhsautocare_722_6"
+      ],
+      "reasoning": "5G-Tronic (mb-5g-tronic) şanzıman ailesinin temel puanı 80. Bu aracın trans puanı (80) temel puanla birebir aynı. Ailenin bilinen zaafı: İletken plakanın (conductor plate) devir sensörlerinin metal parçacıkla kirlenip yanlış kayma hatası üretmesi; sıcaklık ve seviye sensörlerinde tutarsız değer. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2002.0, yani 2026 itibarıyla yaşı yaklaşık 24.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

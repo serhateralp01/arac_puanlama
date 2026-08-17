@@ -519,7 +519,7 @@
         "torque_nm": 300.0,
         "displacement_l": 2.1,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
@@ -528,7 +528,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-b-b-180-cdi-136-bg-136",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -566,7 +566,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-b-b-180-cdi-136-bg-136",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -635,7 +635,7 @@
         "torque_nm": 350.0,
         "displacement_l": 2.1,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
@@ -644,7 +644,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-b-b-180-cdi-177-bg-177",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -917,7 +917,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-180-120-bg-120",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -955,7 +955,7 @@
         "engine_code": null,
         "engine_name": "C 180 9AT RWD (156 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-180-156-bg-156",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1031,7 +1031,7 @@
         "engine_code": null,
         "engine_name": "C 180 9AT RWD (156 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-180-156-bg-156",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1069,7 +1069,7 @@
         "engine_code": null,
         "engine_name": "C 180 9AT RWD (156 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-180-156-bg-156",
       "possible_scored_car_ids": [],
       "quality_flags": [
         "missing_torque"
@@ -1109,7 +1109,7 @@
         "engine_code": null,
         "engine_name": "C 180 9AT RWD (156 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-180-156-bg-156",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1147,7 +1147,7 @@
         "engine_code": null,
         "engine_name": "220 CDI 5AT RWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-200-cdi-116-bg-116-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1185,7 +1185,7 @@
         "engine_code": null,
         "engine_name": "220 CDI 5AT RWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-200-cdi-116-bg-116-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1223,7 +1223,7 @@
         "engine_code": null,
         "engine_name": "220 CDI 5AT RWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-200-cdi-122-bg-122-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1261,7 +1261,7 @@
         "engine_code": null,
         "engine_name": "220 CDI 5AT RWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-200-cdi-122-bg-122-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1299,7 +1299,7 @@
         "engine_code": null,
         "engine_name": "220 CDI 5AT RWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-200-cdi-143-bg-143-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1337,7 +1337,7 @@
         "engine_code": null,
         "engine_name": "220 CDI 5AT RWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-200-cdi-143-bg-143-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1375,7 +1375,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-200-136-bg-136",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1480,7 +1480,7 @@
         "torque_nm": null,
         "displacement_l": 1.5,
         "fuel": "Benzin",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "350 BlueTEC 9AT (252 HP) 9-Speed Automatic (9G-Tronic)",
@@ -1607,7 +1607,7 @@
         "engine_code": null,
         "engine_name": "220 CDI 5AT RWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-220-cdi-143-bg-143",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1645,7 +1645,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-220-cdi-163-bg-163",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1674,7 +1674,7 @@
         "torque_nm": 400.0,
         "displacement_l": 2.1,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "Station Wagon",
         "transmission_type": "TK",
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
@@ -1683,7 +1683,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-220-cdi-170-bg-170",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1721,7 +1721,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-220-cdi-170-bg-170",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1759,7 +1759,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-220-cdi-170-bg-170",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1797,7 +1797,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-220-cdi-170-bg-170",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1835,7 +1835,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-270-cdi-204-bg-204",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1864,7 +1864,7 @@
         "torque_nm": 500.0,
         "displacement_l": 2.1,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "Station Wagon",
         "transmission_type": "TK",
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
@@ -1873,7 +1873,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c-c-270-cdi-204-bg-204",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1978,7 +1978,7 @@
         "torque_nm": 540.0,
         "displacement_l": 3.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "Station Wagon",
         "transmission_type": "TK",
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
@@ -2101,7 +2101,7 @@
         "engine_code": "M271",
         "engine_name": "1.6 Kompressor"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-c180-kompressor-156",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2215,7 +2215,7 @@
         "engine_code": null,
         "engine_name": "160 BlueEFFICIENCY 5AT RWD (129 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-clc-160-129-bg-129",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2291,7 +2291,7 @@
         "engine_code": null,
         "engine_name": "220 CDI 5AT RWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-clk-clk-270-cdi-150-bg-150",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2329,7 +2329,7 @@
         "engine_code": null,
         "engine_name": "270 CDI 5AT RWD (177 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-clk-clk-270-cdi-170-bg-170",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2405,7 +2405,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-e-200-cdi-136-bg-136",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2443,7 +2443,7 @@
         "engine_code": null,
         "engine_name": "220 CDI 5AT RWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-e-200-cdi-150-bg-150",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2548,7 +2548,7 @@
         "torque_nm": 400.0,
         "displacement_l": 3.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
@@ -2595,7 +2595,7 @@
         "engine_code": null,
         "engine_name": "320 CDI V6 5AT RWD (204 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-e-200-cdi-204-bg-204",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2633,7 +2633,7 @@
         "engine_code": null,
         "engine_name": "220 CDI 5AT RWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-e-200-122-bg-122",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2672,7 +2672,10 @@
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
       "scored_car_id": null,
-      "possible_scored_car_ids": [],
+      "possible_scored_car_ids": [
+        "mercedes-benz-e-200-136-bg-136",
+        "mercedes-benz-e-200-cdi-136-bg-136"
+      ],
       "quality_flags": [],
       "sources": [
         "src-c584039add8b3c069f",
@@ -2861,7 +2864,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-e-220-cdi-170-bg-170-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2899,7 +2902,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-e-220-cdi-170-bg-170-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2937,7 +2940,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-e-220-cdi-170-bg-170-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2975,7 +2978,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-e-220-cdi-170-bg-170-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3013,7 +3016,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-e-220-cdi-170-bg-170-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3042,7 +3045,7 @@
         "torque_nm": 400.0,
         "displacement_l": 1.9,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "Cabrio",
         "transmission_type": "TK",
         "transmission_name": "350 BlueTEC 9AT (252 HP) 9-Speed Automatic (9G-Tronic)",
@@ -3080,7 +3083,7 @@
         "torque_nm": 240.0,
         "displacement_l": 2.6,
         "fuel": "Benzin",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
@@ -3156,7 +3159,7 @@
         "torque_nm": 500.0,
         "displacement_l": 2.1,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
@@ -3346,7 +3349,7 @@
         "torque_nm": 500.0,
         "displacement_l": 2.1,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "Station Wagon",
         "transmission_type": "TK",
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
@@ -3355,7 +3358,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-e-320-cdi-204-bg-204",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3393,7 +3396,7 @@
         "engine_code": null,
         "engine_name": "C 220 CDI 7AT RWD (170 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-e-320-cdi-204-bg-204",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3460,7 +3463,7 @@
         "torque_nm": 620.0,
         "displacement_l": 3.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
@@ -3574,7 +3577,7 @@
         "torque_nm": 540.0,
         "displacement_l": 3.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "200 Kompressor 5AT (184 HP) 5-Speed Automatic",
@@ -3730,7 +3733,7 @@
         "torque_nm": 400.0,
         "displacement_l": 2.1,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "SUV",
         "transmission_type": "TK",
         "transmission_name": "C 220 CDI 7AT RWD (170 HP) 7-Speed Automatic",
@@ -3739,7 +3742,7 @@
         "engine_code": "OM651",
         "engine_name": "220 CDI 4MATIC"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-glk220-cdi-4matic-7at-170",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4081,7 +4084,7 @@
         "engine_code": null,
         "engine_name": "M111"
       },
-      "scored_car_id": null,
+      "scored_car_id": "mercedes-benz-mercedes-clk200-komp-163",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

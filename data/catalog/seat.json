@@ -24,7 +24,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (105 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-altea-1-6-tdi-105-bg-105",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -62,7 +62,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (105 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-altea-1-6-tdi-105-bg-105",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -290,7 +290,7 @@
         "engine_code": null,
         "engine_name": "1.0L TSI 7AT FWD (115 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-ibiza-1-0-ecotsi-150-bg-150",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -366,8 +366,11 @@
         "engine_code": null,
         "engine_name": "1.2L TSI 7AT FWD (110 HP)"
       },
-      "scored_car_id": "seat-ibiza-6j-1-2-tsi-dsg",
-      "possible_scored_car_ids": [],
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "seat-ibiza-1-2-tsi-105-bg-105-2",
+        "seat-ibiza-6j-1-2-tsi-dsg"
+      ],
       "quality_flags": [],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -404,7 +407,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI 7AT FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-ibiza-1-2-tsi-105-bg-105-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -560,7 +563,7 @@
         "engine_code": null,
         "engine_name": "1.5L TSI EVO 7AT FWD (150 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-ibiza-1-6-150-bg-150",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -598,7 +601,7 @@
         "engine_code": null,
         "engine_name": "1.0L TSI 7AT FWD (115 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-leon-1-0-ecotsi-115-bg-115",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -712,7 +715,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI 7AT FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-leon-1-2-tsi-110-bg-110-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -750,7 +753,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI 7AT FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-leon-1-2-tsi-110-bg-110-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -788,7 +791,7 @@
         "engine_code": null,
         "engine_name": "1.2L TSI 7AT FWD (110 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-leon-1-2-tsi-110-bg-110-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -903,7 +906,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (105 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-leon-1-6-tdi-105-bg-105-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -941,7 +944,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (105 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-leon-1-6-tdi-105-bg-105-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -979,7 +982,7 @@
         "engine_code": null,
         "engine_name": "1.6L TDI 7AT FWD (105 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "seat-leon-1-6-tdi-105-bg-105-2",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

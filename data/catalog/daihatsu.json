@@ -54,7 +54,7 @@
         "torque_nm": 140.0,
         "displacement_l": 1.5,
         "fuel": "Benzin",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "SUV",
         "transmission_type": "TK",
         "transmission_name": "4AT",

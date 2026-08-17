@@ -98,6 +98,23 @@ def clean(v):
 REPO_ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)+$")
 
 
+DRIVETRAIN_MAP = {"onden": "Önden", "arkadan": "Arkadan", "dort": "Dört çeker",
+                   "dort ceker": "Dört çeker"}
+
+
+def clean_drivetrain(v):
+    """Çekiş tipini şemanın kabul ettiği üç değere normalize eder.
+
+    Kaynak veri kendi içinde tutarsız: 193 kayıt 'Dört' yazıyor, 4 kayıt 'Dört çeker'
+    yazıyor — aynı şeyi iki farklı dizgeyle. Normalize edilmeden bırakılırsa
+    validate.py'nin gecersiz-deger kuralı bu kayıtları reddediyor.
+    """
+    s = clean(v)
+    if s is None:
+        return None
+    return DRIVETRAIN_MAP.get(norm(s), s)
+
+
 def clean_engine_code(v):
     """Üretici motor kodunu döndürür; depo kimliği sızmışsa None döndürür.
 
@@ -347,7 +364,7 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
             "torque_nm": nm,
             "displacement_l": litre,
             "fuel": fuel,
-            "drivetrain": clean(v.get("drivetrain")) or "Belirtilmemiş",
+            "drivetrain": clean_drivetrain(v.get("drivetrain")) or "Belirtilmemiş",
             "body_type": clean(v.get("body_type")),
             "transmission_type": clean(v.get("transmission_type")) or "Belirtilmemiş",
             "transmission_name": clean(v.get("transmission_name")),

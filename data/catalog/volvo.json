@@ -24,7 +24,7 @@
         "engine_code": "D4164T",
         "engine_name": "1.6D"
       },
-      "scored_car_id": null,
+      "scored_car_id": "volvo-c30-1-6d-109",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -138,7 +138,7 @@
         "engine_code": "D4164T",
         "engine_name": "1.6D"
       },
-      "scored_car_id": null,
+      "scored_car_id": "volvo-s40-1-6d-109",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -571,8 +571,11 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": "volvo-s60-2-0-d-d3-d4",
-      "possible_scored_car_ids": [],
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s60-d3-163"
+      ],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -611,8 +614,11 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": "volvo-s60-2-0-d-d3-d4",
-      "possible_scored_car_ids": [],
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s60-d3-163"
+      ],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -651,8 +657,11 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": "volvo-s60-2-0-d-d3-d4",
-      "possible_scored_car_ids": [],
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s60-d3-163"
+      ],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -691,8 +700,11 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": "volvo-s60-2-0-d-d3-d4",
-      "possible_scored_car_ids": [],
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s60-d3-163"
+      ],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -731,8 +743,11 @@
         "engine_code": null,
         "engine_name": "2.0L D4 6AT (163 HP)"
       },
-      "scored_car_id": "volvo-s60-2-0-d-d3-d4",
-      "possible_scored_car_ids": [],
+      "scored_car_id": null,
+      "possible_scored_car_ids": [
+        "volvo-s60-2-0-d-d3-d4",
+        "volvo-s60-d3-163"
+      ],
       "quality_flags": [
         "generic_transmission_identity"
       ],
@@ -1280,7 +1295,7 @@
         "torque_nm": 420.0,
         "displacement_l": 2.4,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -1321,7 +1336,7 @@
         "torque_nm": 420.0,
         "displacement_l": 2.4,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -1481,7 +1496,7 @@
         "torque_nm": 420.0,
         "displacement_l": 2.4,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -1608,7 +1623,7 @@
         "engine_code": "D5204T2",
         "engine_name": "2.0D"
       },
-      "scored_car_id": null,
+      "scored_car_id": "volvo-s60-d3-163",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2153,7 +2168,7 @@
         "torque_nm": 400.0,
         "displacement_l": 2.4,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -2273,7 +2288,7 @@
         "torque_nm": 441.0,
         "displacement_l": 2.4,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -2431,7 +2446,7 @@
         "torque_nm": 400.0,
         "displacement_l": 3.0,
         "fuel": "Benzin",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -2471,7 +2486,7 @@
         "torque_nm": 400.0,
         "displacement_l": 3.0,
         "fuel": "Benzin",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -2511,7 +2526,7 @@
         "torque_nm": 441.0,
         "displacement_l": 3.0,
         "fuel": "Benzin",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -2551,7 +2566,7 @@
         "torque_nm": 320.0,
         "displacement_l": 3.2,
         "fuel": "Benzin",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "Sedan",
         "transmission_type": "TK",
         "transmission_name": "Geartronic 6AT",
@@ -2913,7 +2928,7 @@
         "engine_code": "D4164T",
         "engine_name": "1.6D"
       },
-      "scored_car_id": null,
+      "scored_car_id": "volvo-v50-1-6d-109",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3301,7 +3316,7 @@
         "torque_nm": 420.0,
         "displacement_l": 2.4,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -3341,7 +3356,7 @@
         "torque_nm": 441.0,
         "displacement_l": 2.4,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -3512,7 +3527,7 @@
         "engine_code": "D5204T",
         "engine_name": "2.0L D3 FWD"
       },
-      "scored_car_id": null,
+      "scored_car_id": "volvo-v70-d3-geartronic-136",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -3579,7 +3594,7 @@
         "torque_nm": 420.0,
         "displacement_l": 2.4,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "SUV",
         "transmission_type": "TK",
         "transmission_name": "Geartronic 6AT",
@@ -3617,7 +3632,7 @@
         "torque_nm": 400.0,
         "displacement_l": 2.4,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "Station Wagon",
         "transmission_type": "TK",
         "transmission_name": "Geartronic 6AT",
@@ -3655,7 +3670,7 @@
         "torque_nm": 420.0,
         "displacement_l": 2.4,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "Station/Crossover",
         "transmission_type": "TK",
         "transmission_name": "Geartronic 6AT",
@@ -3693,7 +3708,7 @@
         "torque_nm": 400.0,
         "displacement_l": 2.4,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "SUV",
         "transmission_type": "TK",
         "transmission_name": "Geartronic 6AT",

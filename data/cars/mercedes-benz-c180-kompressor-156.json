@@ -1,0 +1,76 @@
+{
+  "id": "mercedes-benz-c180-kompressor-156",
+  "name": "Mercedes-Benz C180 Kompressor",
+  "tag": "oto: 5 ileri otomatik · 156bg",
+  "brand_group": "Mercedes-Benz",
+  "years": "2008-2011",
+  "specs": {
+    "hp": 156,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "mb-5g-tronic",
+    "body_type": "Sedan",
+    "engine_id": "mb-m270",
+    "torque_nm": 230.0,
+    "gears": 5,
+    "clutch": null,
+    "engine_code": "M271"
+  },
+  "price_band_k_try": [
+    600,
+    880
+  ],
+  "verification": "partial",
+  "scores": {
+    "motor": 56,
+    "trans": 80,
+    "fun": 54,
+    "comf": 77,
+    "age": 33,
+    "cost": 81,
+    "liq": 64
+  },
+  "sources": [
+    "mercedesassistance_m270",
+    "mercedesmedic_722_6_conductor",
+    "minhsautocare_722_6"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Mercedes C200 CDI (W204) (mercedes-c200-cdi-w204) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-1978b1d237dd679c0d"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "mercedesassistance_m270"
+      ],
+      "reasoning": "M270 (mb-m270) motor ailesinin temel puanı 56. Bu aracın motor puanı (56) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger zincirinin yaklaşık 80.000 mil gibi kısa bir ömre sahip olması, gergi gece basınç kaybıyla soğuk kalkışta tıkırtı sesi. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "mercedesmedic_722_6_conductor",
+        "minhsautocare_722_6"
+      ],
+      "reasoning": "5G-Tronic (mb-5g-tronic) şanzıman ailesinin temel puanı 80. Bu aracın trans puanı (80) temel puanla birebir aynı. Ailenin bilinen zaafı: İletken plakanın (conductor plate) devir sensörlerinin metal parçacıkla kirlenip yanlış kayma hatası üretmesi; sıcaklık ve seviye sensörlerinde tutarsız değer. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2009.5, yani 2026 itibarıyla yaşı yaklaşık 16.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 34.0. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 33 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

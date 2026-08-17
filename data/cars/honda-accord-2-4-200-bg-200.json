@@ -1,0 +1,81 @@
+{
+  "id": "honda-accord-2-4-200-bg-200",
+  "name": "Honda Accord 2.4 · 200 bg",
+  "tag": "oto: 5 ileri otomatik · 200bg",
+  "brand_group": "Honda",
+  "years": "2003-2003",
+  "specs": {
+    "hp": 200,
+    "displacement_l": 2.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "honda-4at-5at",
+    "body_type": null,
+    "engine_id": "honda-k20-k24",
+    "torque_nm": 232.0,
+    "gears": 5,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    450,
+    680
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 78,
+    "trans": 78,
+    "fun": 27,
+    "comf": 73,
+    "age": 15,
+    "cost": 82,
+    "liq": 78
+  },
+  "sources": [
+    "8020automotive_k24",
+    "civic",
+    "honda_tsb_konvertor_titremesi",
+    "hondatech_k24",
+    "slashgear_k20",
+    "truedelta_accord"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Honda Accord 2.4 · 160 bg (honda-accord-2-4-160-bg-160) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-cdd9096415365e2266"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "slashgear_k20",
+        "8020automotive_k24"
+      ],
+      "reasoning": "K20 (honda-k20-k24) motor ailesinin temel puanı 78. Bu aracın motor puanı (78) temel puanla birebir aynı. Ailenin bilinen zaafı: Yüksek kilometrede triger zinciri gergisi arızası. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "civic",
+        "honda_tsb_konvertor_titremesi",
+        "hondatech_k24"
+      ],
+      "reasoning": "Honda 4 ileri otomatik (honda-4at-5at) şanzıman ailesinin temel puanı 78. Bu aracın trans puanı (78) temel puanla birebir aynı. Ailenin bilinen zaafı: Tork konvertörü kilitleme kavramasından 30-95 km/s arasında titreme; üretici bülteni nedenin konvertör arızası değil bozulmuş yağ olduğunu ve kutunun zarar görmediğini belirtiyor. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2003.0, yani 2026 itibarıyla yaşı yaklaşık 23.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

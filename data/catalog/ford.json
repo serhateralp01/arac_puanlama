@@ -182,7 +182,7 @@
         "engine_code": "DW10",
         "engine_name": "2.0 TDCi"
       },
-      "scored_car_id": null,
+      "scored_car_id": "ford-c-max-2-0-tdci-136",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -779,7 +779,7 @@
         "engine_code": "DW10",
         "engine_name": "2.0 TDCi"
       },
-      "scored_car_id": null,
+      "scored_car_id": "ford-focus-2-0-tdci-136",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1081,7 +1081,7 @@
         "torque_nm": 400.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
@@ -1210,7 +1210,7 @@
         "engine_code": "DW10",
         "engine_name": "2.0 TDCi"
       },
-      "scored_car_id": null,
+      "scored_car_id": "ford-galaxy-2-0-tdci-163",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -1277,7 +1277,7 @@
         "torque_nm": 340.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "SUV",
         "transmission_type": "Islak DCT",
         "transmission_name": "PowerShift 6DCT",
@@ -1286,7 +1286,7 @@
         "engine_code": "DW10",
         "engine_name": "2.0 TDCi"
       },
-      "scored_car_id": null,
+      "scored_car_id": "ford-kuga-2-0-tdci-163",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2157,7 +2157,7 @@
         "engine_code": "DW10",
         "engine_name": "2.0 TDCi"
       },
-      "scored_car_id": null,
+      "scored_car_id": "ford-s-max-2-0-tdci-163",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2307,7 +2307,7 @@
         "torque_nm": 400.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": null,
         "transmission_type": "TK",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",

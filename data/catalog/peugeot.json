@@ -657,7 +657,7 @@
         "engine_code": "DV6C",
         "engine_name": "1.6L e-HDi"
       },
-      "scored_car_id": null,
+      "scored_car_id": "peugeot-3008-1-6-e-hdi-egs6-115",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -2240,7 +2240,7 @@
         "engine_code": "DV6C",
         "engine_name": "1.6L e-HDi"
       },
-      "scored_car_id": null,
+      "scored_car_id": "peugeot-5008-1-6-e-hdi-egs6-115",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [

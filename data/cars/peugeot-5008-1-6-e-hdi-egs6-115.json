@@ -1,0 +1,78 @@
+{
+  "id": "peugeot-5008-1-6-e-hdi-egs6-115",
+  "name": "Peugeot 5008 1.6 e-HDi EGS6",
+  "tag": "oto: 6 ileri robotlu yarı otomatik · 115bg",
+  "brand_group": "Peugeot",
+  "years": "2009-2016",
+  "specs": {
+    "hp": 115,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Robot",
+    "transmission_id": "psa-etg",
+    "body_type": "MPV",
+    "engine_id": "psa-dv6",
+    "torque_nm": 240.0,
+    "gears": 6,
+    "clutch": "Kuru tek kavrama",
+    "engine_code": "DV6C"
+  },
+  "price_band_k_try": [
+    700,
+    1000
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 44,
+    "trans": 38,
+    "fun": 33,
+    "comf": 78,
+    "age": 44,
+    "cost": 70,
+    "liq": 64
+  },
+  "sources": [
+    "au7o_peugeot308_known_issues",
+    "ecotorque_psa_etg_aktuator",
+    "propeugeotspares_16hdi_egr",
+    "trbox"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Peugeot 3008 1.6 e-HDi EGS6 (peugeot-3008-1-6-e-hdi-egs6-115) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-643344be0319fd76ff"
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "au7o_peugeot308_known_issues",
+        "propeugeotspares_16hdi_egr"
+      ],
+      "reasoning": "DV6 (psa-dv6) motor ailesinin temel puanı 44. Bu aracın motor puanı (44) temel puanla birebir aynı. Ailenin bilinen zaafı: EGR'de sertleşen karbon/yağ buharı tortusu; bu tortu turbo yağ besleme hattını da tıkayıp turbo yatağını yağsız bırakabiliyor. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "ecotorque_psa_etg_aktuator",
+        "trbox"
+      ],
+      "reasoning": "ETG (psa-etg) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Ailenin bilinen zaafı: Kavrama aktüatörünün arızalanması; sarsıntılı veya yavaş vites geçişi, vites seçememe, viteste/boşta kalma ve 'gearbox faulty' uyarısı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2012.5, yani 2026 itibarıyla yaşı yaklaşık 13.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 28.6. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 44 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

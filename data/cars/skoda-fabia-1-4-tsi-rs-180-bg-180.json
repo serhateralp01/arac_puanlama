@@ -1,0 +1,80 @@
+{
+  "id": "skoda-fabia-1-4-tsi-rs-180-bg-180",
+  "name": "Skoda Fabia 1.4 TSI RS · 180 bg",
+  "tag": "oto: 7 ileri kuru DCT · 180bg",
+  "brand_group": "Skoda",
+  "years": "2010-2010",
+  "specs": {
+    "hp": 180,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea211",
+    "torque_nm": 249.0,
+    "gears": 7,
+    "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    480,
+    720
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 72,
+    "trans": 38,
+    "fun": 31,
+    "comf": 66,
+    "age": 35,
+    "cost": 70,
+    "liq": 48
+  },
+  "sources": [
+    "andcetin_dq200",
+    "ecotorque_dq200_mechatronic",
+    "enginecrux_ea211_14tsi",
+    "oreateai_ea111_vs_ea211",
+    "trbox"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Skoda Fabia 1.2 TSI DSG (skoda-fabia-1-2-tsi-dsg) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-f574a7ab6ff6da1904"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "oreateai_ea111_vs_ea211",
+        "enginecrux_ea211_14tsi"
+      ],
+      "reasoning": "EA211 (vag-ea211) motor ailesinin temel puanı 72. Bu aracın motor puanı (72) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim motorlarda piston segmanı tasarımı ve PCV sistemiyle ilişkili, kısa mesafe kullanımda artan yağ tüketimi. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dq200",
+        "trbox",
+        "ecotorque_dq200_mechatronic"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim (2012 öncesi) kavrama paketinin aşınması; 2012'de tasarım yenilendi. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2010.0, yani 2026 itibarıyla yaşı yaklaşık 16.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 33.1. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 35 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "assessed_at": "2026-08-07"
+    }
+  }
+}

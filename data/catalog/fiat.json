@@ -24,7 +24,7 @@
         "engine_code": "55263624",
         "engine_name": "1.4 MultiAir"
       },
-      "scored_car_id": null,
+      "scored_car_id": "fiat-500x-1-4-multiair-ddct-140",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -53,7 +53,7 @@
         "torque_nm": 350.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "SUV",
         "transmission_type": "TK",
         "transmission_name": "ZF 9HP",
@@ -365,7 +365,7 @@
         "torque_nm": 350.0,
         "displacement_l": 2.0,
         "fuel": "Dizel",
-        "drivetrain": "Dört",
+        "drivetrain": "Dört çeker",
         "body_type": "SUV/MPV",
         "transmission_type": "TK",
         "transmission_name": "62TE 6AT",
