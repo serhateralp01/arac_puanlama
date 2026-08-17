@@ -11,7 +11,7 @@
     "drivetrain": "Dört çeker",
     "transmission_type": "TK",
     "transmission_id": "honda-4at-5at",
-    "body_type": null,
+    "body_type": "Sedan",
     "engine_id": "honda-k20-k24",
     "torque_nm": 218.0,
     "gears": 5,

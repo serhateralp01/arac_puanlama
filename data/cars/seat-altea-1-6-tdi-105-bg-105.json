@@ -11,7 +11,7 @@
     "drivetrain": "Önden",
     "transmission_type": "Kuru DCT",
     "transmission_id": "vag-dq200",
-    "body_type": null,
+    "body_type": "MPV",
     "engine_id": "vag-ea288",
     "torque_nm": 250.0,
     "gears": 7,

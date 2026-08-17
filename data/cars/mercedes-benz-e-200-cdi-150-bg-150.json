@@ -11,7 +11,7 @@
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
     "transmission_id": "mb-5g-tronic",
-    "body_type": null,
+    "body_type": "Sedan",
     "engine_id": "mb-om646",
     "torque_nm": 340.0,
     "gears": 5,

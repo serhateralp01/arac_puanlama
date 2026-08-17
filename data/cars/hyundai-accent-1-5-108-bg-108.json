@@ -11,7 +11,7 @@
     "drivetrain": "Önden",
     "transmission_type": "TK",
     "transmission_id": "hyundai-6at",
-    "body_type": null,
+    "body_type": "Sedan",
     "engine_id": "hyundai-gamma-14",
     "torque_nm": 136.0,
     "gears": 6,

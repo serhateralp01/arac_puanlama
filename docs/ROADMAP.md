@@ -1111,6 +1111,21 @@ Mercedes 3.0 dizel (6 düzeltildi + 5 işaretlendi), BMW 2.0 benzin (7 işaretle
 Octavia Scout (1 düzeltildi), Hyundai i40 (1 düzeltildi) — toplam 20 kayıt dokunuldu,
 geri kalan ~1.183 katalog-yalnız kayıt bu taramadan temiz çıktı.
 
+### Puanlanmış 22 araçta boş gövde tipi dolduruldu (2026-08-17)
+
+**`govde-tipi-yok` uyarısı 26 → 4.** Terfi eden araçların çoğu katalogdan `body_type`
+boş miras almıştı (P2.1 kaynak verisinde bu alan sık boştu); bu, arayüzdeki gövde
+filtresinin o araçlarda çalışmaması demek. 22 kaydın gövde tipi tek ve tartışmasız
+olduğu için dolduruldu (ör. Mercedes B-Serisi → MPV, CLK/CLC → Coupe, Skoda Octavia →
+Hatchback — dosyadaki 9 diğer Octavia kaydıyla aynı kural). **4 kayıt bilinçli olarak
+boş bırakıldı**: bunlar tek bir aracı değil, gövde tipi gerçekten farklı iki modeli
+birlikte temsil eden eski (P2.1 öncesi) birleşik kayıtlar ("Kia Rio / Hyundai i20",
+"Mercedes A/B Serisi", "Peugeot 2008 / 208", "Volvo S40 / V50" — meselā S40 sedan,
+V50 istasyon vagonu). Bu dördüne tek bir gövde tipi yazmak, doğru olanı seçmek değil
+yanlış bir kesinlik uydurmak olurdu.
+
+**Sonuç.** `validate.py` 0 hata, `smoke_test.js` 68/68.
+
 ---
 
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
