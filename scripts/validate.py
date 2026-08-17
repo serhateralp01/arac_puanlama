@@ -276,7 +276,21 @@ def check_evidence_policy(
             continue
         if not (v >= bands[0]["range"][0] or v <= bands[-1]["range"][1]):
             continue
-        crit_sources = (evidence.get(k) or {}).get("sources") or car_sources
+        crit_ev = evidence.get(k) or {}
+        # Formülle hesaplanan kriterler bu kuralın dışında. Kural (docs/PLAN.md M-2)
+        # "iddialı puan iddialı kanıt ister" diyor ve **yargı** puanlarını hedefliyor:
+        # bir motoru tek forum mesajına dayanarak "felaket" ilan etmeyi engellemek
+        # için var. `fun` ve `age` ise kaynak okunarak değil, bütün araçlara aynı
+        # şekilde uygulanan belirlenimci bir formülle hesaplanıyor (MK-06/MK-14/MK-17);
+        # kanıtı tek tek kaynaklar değil, formülün kendisi ve yazılı kalibrasyonu.
+        # Bu ayrım olmadan kural yanlış yere bakıyordu: `compute_fun.py` tasarım gereği
+        # `evidence.fun.sources`'ı boş bırakır, kural da boş listeyi görüp aracın genel
+        # kaynak listesine düşer ve "güç/ağırlık oranı düşük" gibi ölçülmüş bir sonucu,
+        # o oranla hiç ilgisi olmayan motor/şanzıman kaynaklarının seviyesine göre
+        # yargılardı. Ölçülen bir orana forum kaynağı istemek kategorik bir hata.
+        if crit_ev.get("derivation") == "formul":
+            continue
+        crit_sources = crit_ev.get("sources") or car_sources
         if not crit_sources:
             continue
         t = tiers_of(crit_sources)

@@ -1213,6 +1213,34 @@ Kalan 29'un çoğu hâlâ `fun` kaynaklı — kritere özgü bir kural düzeltme
 kontrolden muaf tutmak ya da farklı bir eşik kullanmak) ayrı bir karar, burada
 yapılmadı. `validate.py` 0 hata, `smoke_test.js` 68/68.
 
+### MK-23: formül puanları kaynak-seviyesi denetiminden muaf tutuldu, 29 → 7 (2026-08-17)
+
+**Yukarıda "ayrı bir karar" diye bırakılan iş karara bağlandı.** Kalan 29 uyarının
+22'si `fun` ve `age` kaynaklıydı ve **düzeltilebilir cinsten değildi**: bu iki puanı
+kaynak okuyarak değil belirlenimci bir formül üretiyor (`compute_age.py` TÜV yaş-kusur
+eğrisinden, `compute_fun.py` güç/ağırlık oranından), dolayısıyla bir kaynak bulunsa
+bile o kaynak puanı üretmiyor. Kural, `compute_fun.py`'nin tasarım gereği boş bıraktığı
+`evidence.fun.sources` listesini görüp aracın genel kaynak listesine düşüyor ve
+ölçülmüş bir oranı, o oranla ilgisi olmayan motor/şanzıman kaynaklarının seviyesine
+göre yargılıyordu.
+
+**Çözüm bir alan oldu, kriter adı listesi değil.** `evidence` şemasına `derivation`
+alanı eklendi (`kaynak` | `formul`); iki hesaplama betiği kendi ürettikleri bloklara
+`formul` yazıyor, `validate.py` bu değeri görünce kuralı atlıyor. `if k in ("fun",
+"age")` yazmak daha kısaydı ama muafiyeti hak eden şey kriterin **adı** değil puanın
+**nasıl üretildiği** — bir kriter yarın formülden yargıya geçerse doğru davranış
+kendiliğinden gelmeli. Gerekçenin tamamı `docs/ARCHITECTURE.md` MK-23'te.
+
+**Kuralın hâlâ iş gördüğü bozuk veriyle test edildi** (deponun yerleşik pratiği):
+bir aracın `derivation` alanı `kaynak`'a çevrilip `fun` puanı 95'e (uç bant)
+çekildiğinde kural yeniden ateşledi. İlk test "ateşlemedi" gibi göründü ama sebep
+`grep` desenimin yanlış olmasıydı (kural adı çıktıda araç adından önce geliyor) —
+kod değil test hatalıydı, doğrulanıp geçildi.
+
+**Sonuç.** `c-kaynakla-uc-puan` 29 → 7, kalan 7'nin hepsi gerçek yargı kriteri
+(`motor`, `trans`, `cost`, `liq`) — yani kural gürültüyü bırakıp asıl işine döndü.
+Toplam uyarı 439 → 370. `validate.py` 0 hata, `smoke_test.js` 68/68.
+
 ---
 
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**

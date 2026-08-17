@@ -812,3 +812,52 @@ yer kanıt derinliğidir. İki katmanlı yapı ikisini birden veriyor: katalog k
 motoruna ve kullanıcının "benim arabam listede var mı" sorusuna cevap veriyor, puanlanmış
 katman ise ürünün savunulabilir çekirdeği olarak saf kalıyor. Tek katmanda birleştirmek,
 ya kapsamı ya da güvenilirliği feda etmek zorunda bırakırdı.
+
+---
+
+## MK-23 · Formülle hesaplanan puanlar, kaynak-seviyesi denetiminin dışındadır
+
+**Karar:** Bir kriterin `evidence` bloğu `derivation: "formul"` taşıyorsa,
+`validate.py`'nin "uç puan A veya B kanıt ister" kuralı (`c-kaynakla-uc-puan`) o
+kritere uygulanmaz. Alan yoksa `kaynak` varsayılır, yani kural varsayılan olarak
+uygulanmaya devam eder.
+
+**Sorun neydi.** Kural (docs/PLAN.md M-2) doğru bir refleksten doğdu: bir motoru tek
+bir forum mesajına dayanarak "felaket" ilan etmek, deponun bütün iddiasını çürütür.
+Uç bir puan, iddialı bir puandır ve iddialı kanıt ister. Ama kural bütün kriterlere
+aynı gözle bakıyordu, oysa depodaki puanlar iki farklı cinsten:
+
+- **Yargı puanları** (`motor`, `trans`, `comf`, `cost`, `liq`): kaynaklar okunur,
+  tartılır ve bir hükme varılır. Burada "hangi kaynağa dayanıyor" sorusu kurucu bir
+  sorudur — kanıt zayıfsa hüküm de zayıftır.
+- **Formül puanları** (`age`, `fun`): kaynak okunmaz. `age`, TÜV'ün yaş-kusur
+  eğrisinden (MK-14); `fun`, güç/ağırlık ve tork/ağırlık oranlarından (MK-17)
+  hesaplanır. İkisi de bütün araçlara aynı şekilde uygulanan, aynı girdiye her zaman
+  aynı çıktıyı veren belirlenimci işlemler.
+
+`compute_fun.py` tasarım gereği `evidence.fun.sources`'ı **boş** bırakır, çünkü o
+puanı destekleyen araca özgü bir kaynak yoktur — kanıt, formülün kendisi ve yazılı
+kalibrasyonudur. Kural boş listeyi görünce aracın genel kaynak listesine düşüyor ve
+şu kategorik hatayı yapıyordu: **ölçülmüş bir oranı, o oranla hiç ilgisi olmayan
+kaynakların seviyesine göre yargılamak.** "Bu araç 112 hp/ton üretiyor" cümlesi,
+motorun şanzıman forumunda kaç kişinin şikâyet ettiğinden bağımsız olarak doğrudur.
+Ölçülen bir sayıya forum kaynağı istemek, teraziye tanık istemeye benziyor.
+
+**Ölçüsü.** Kural 40 uyarı üretiyordu; 33'ü `fun` ve `age` kaynaklıydı, yani
+düzeltilemez cinstendi — bir kaynak bulunsa bile o kaynak puanı üretmiyor. Muafiyet
+sonrası 7 uyarı kaldı ve hepsi gerçek yargı kriteri (`motor`, `trans`, `cost`,
+`liq`). Yani kural gürültüyü bırakıp asıl işine döndü.
+
+**Neden bir alan, neden kriter adına bakılmadı.** `if k in ("fun", "age"): continue`
+yazmak daha kısaydı ama yanlış yere bağlanırdı: muafiyeti hak eden şey kriterin
+**adı** değil, puanın **nasıl üretildiği**. Bugün `fun` formülle geliyor; yarın bir
+kriter formülden yargıya (ya da tersine) geçerse, doğru davranış kendiliğinden gelmeli.
+Alanı puanı üreten betiğin kendisi yazıyor, yani etiket ile gerçek arasında bir insan
+adımı yok.
+
+**Riski ve sınırı.** Şema `derivation: "formul"` değerini herhangi bir kritere yazmaya
+izin veriyor; kötüye kullanılırsa bir yargı puanı denetimden kaçırılabilir. Bu bilinçli
+olarak kabul edildi: alanı bugün yalnızca iki betik yazıyor, ikisi de
+`data/cars/*.json`'a doğrudan yazan ve gerekçesi `reasoning` alanında açıkça duran
+betikler. Elle `formul` yazılmış bir yargı puanı, kod incelemesinde `reasoning`
+metninin betiğin imzasını taşımamasından anlaşılır.

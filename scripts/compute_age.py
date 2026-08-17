@@ -122,6 +122,10 @@ def main() -> int:
                 f"scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı "
                 f"çıktıyı üretir."
             ),
+            # Bu puan da kaynak okunarak değil formülle üretildi (TÜV yaş-kusur
+            # eğrisi bütün araçlara aynı şekilde uygulanıyor); bkz. compute_fun.py
+            # içindeki aynı alan ve validate.py'deki kural muafiyeti.
+            "derivation": "formul",
             "assessed_at": "2026-08-07",
         }
         car["evidence"] = evidence

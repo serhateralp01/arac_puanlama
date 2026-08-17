@@ -269,6 +269,11 @@ def main() -> int:
             "confidence": "orta" if reasons else "düşük",
             "sources": [],
             "reasoning": reason_text,
+            # Bu puan kaynak okunarak değil formülle üretildi; kanıtı formülün
+            # kendisi ve yazılı kalibrasyonu. validate.py'nin "uç puan A/B kanıt
+            # ister" kuralı bu yüzden bu kritere uygulanmıyor (o kural yargı
+            # puanlarını hedefliyor, ölçülmüş oranları değil).
+            "derivation": "formul",
             "assessed_at": assessed_at,
         }
         car["evidence"] = evidence

@@ -297,6 +297,13 @@
           "reasoning": {
             "type": "string"
           },
+          "derivation": {
+            "enum": [
+              "kaynak",
+              "formul"
+            ],
+            "description": "Puanın nasıl üretildiği. `kaynak` = kaynaklar okunup elle yargıya varıldı (motor, trans gibi). `formul` = belirlenimci bir betik hesapladı (age → compute_age.py, fun → compute_fun.py); bu durumda kanıt, tek tek kaynaklar değil formülün kendisi ve kalibrasyonudur (bkz. docs/ARCHITECTURE.md MK-06/MK-14/MK-17). Alan yoksa `kaynak` varsayılır."
+          },
           "assessed_at": {
             "type": "string",
             "format": "date"
