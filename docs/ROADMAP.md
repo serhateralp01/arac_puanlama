@@ -1300,6 +1300,58 @@ sessizce geri geldi. `rozet_yil_celiskisi` ile kalıcı olarak kapatıldı.
 statik sayfa 1.737 → 1.763. Yeni araçların gövde tipi elle dolduruldu (17 kayıt).
 `validate.py` 0 hata, `smoke_test.js` 68/68.
 
+**Kalan 1.217 kaydın neden terfi edemediği ölçüldü** (bir sonraki yatırımın nereye
+yapılacağını bu belirliyor):
+
+| Sebep | Kayıt |
+|---|---|
+| Bu marka+hacim+yakıt için depoda motor ailesi yok | 411 |
+| Kovada birden çok motor ailesi var, ayrım yapılamıyor | 291 |
+| Motor geçti, şanzıman ya da yıl elemesinde düştü | 231 |
+| Ad ile kayıt çelişiyor | 119 |
+| Beygir, ailenin bilinen bandının dışında | 86 |
+| Engelleyen kalite bayrağı | 59 |
+| Hibrit (MK-13 kapsam dışı) | 6 |
+
+En büyük kalem (411) yeni motor ailesi araştırması istiyor — yani bu, eşleştirmeyle
+değil Y-02'nin kaynak araştırmasıyla açılacak bir kapı.
+
+### Ad-hacim çelişkisi: yöntem kuruldu, test edildi, **çöktüğü görülüp geri çekildi** (2026-08-17)
+
+**Plan.** Yukarıdaki tablodaki 119 "ad ile kayıt çelişiyor" kaydı en işlenebilir
+grup gibi görünüyordu: daha önce 25 yakıt çelişkisinde ölçülen örüntüde specs doğru,
+ad yanlış çıkmıştı. Aynı MK-18 çapraz doğrulama yöntemi kurulacaktı: kaydın üçüncü
+alanı `specs.engine_name` (ör. "1.6L Ti-VCT 6AT FWD (125 HP)") hakem sayılacak,
+hakem kaydı tutuyorsa ad düzeltilecekti. Yöntem yazıldı, bir de koruma eklendi
+(hakemin beygiri kaydınkiyle tutmalı, yoksa o satır bütün nesle yapıştırılmış genel
+bir aile etiketidir) ve 48 kayıt "adı düzeltilebilir" çıktı.
+
+**Yöntem çöktü: hakem bağımsız değilmiş.** `import_catalog.py`'nin sorgusuna
+bakıldığında `e.engine_name` ile `e.displacement_cc` **aynı `engines` satırından**
+geliyor (`LEFT JOIN engines e ON e.engine_id = v.engine_id`). Yani "iki alan
+birbirini doğruluyor" diye okuduğum şey, tek bir kaydın kendini tekrar etmesiydi.
+Gerçek karşılaştırma iki alan arasında değil **iki tablo arasında**:
+`variants.model_variant` (ad) bir yana, `engines` satırı (hacim + açıklama) öbür yana.
+
+**Somut karşı örnek bulundu.** Yöntem "Hyundai i40 1.7 CRDi Executive" ve "Kia
+Optima 1.7 CRDi" kayıtlarını 1.6'ya çevirmek istiyordu. İkisi de aynı gerçek motoru
+(Hyundai/Kia U2 1.7 CRDi, 136 bg) taşıyor ve bu motorun 1.7 olduğu deponun kendi
+`hyundai-u2-17` ailesinde zaten kayıtlı — yani `engines` satırının sistematik
+yanıldığı, adın doğru olduğu bir durum. Yöntem tam tersini söylüyordu.
+
+**Karar: toplu yeniden adlandırma yapılmadı.** 48 kayıt yanlış adlandırılmadan önce
+durduruldu; hiçbir veri dosyasına yazılmadı. `scripts/fix_catalog_labels.py`
+korundu ama **yazma yeteneği kaldırıldı** — betik artık yalnız çelişkileri türlerine
+göre raporlayan bir çalışma kuyruğu üretiyor, ve başındaki dokümantasyon yöntemin
+neden çöktüğünü anlatıyor ki aynı yola ikinci kez girilmesin. Bu 119 kayıt
+çelişkili ve terfiye kapalı kalıyor; açılmaları, hangi tarafın doğru olduğunu
+söyleyen **gerçekten dışsal** bir kaynak (teknik künye sayfası) gerektiriyor —
+`MANUAL_SPEC_CORRECTIONS` desenindeki gibi kayıt kayıt, alıntılı.
+
+Bu, deponun kendi kuralının (CLAUDE.md §1: gerekçesi yazılmamış karar savunulamaz)
+bir uygulaması: yanlış adla puanlanmış 48 araç üretmek, 48 kaydı çelişkili
+bırakmaktan kötü olurdu.
+
 ---
 
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
