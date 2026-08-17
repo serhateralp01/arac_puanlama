@@ -45,10 +45,14 @@ import glob
 import json
 import pathlib
 import re
+import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 TODAY = "2026-08-17"
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import estimate_judgment_scores as ejs  # noqa: E402
 
 
 def norm(s) -> str:
@@ -291,7 +295,8 @@ def nearest_sibling(cars: list[dict], brand: str, body_type: str | None, year_mi
 
 
 def build_car(e: dict, eng_id: str, tr_id: str, engines: dict, trans: dict,
-              sources: dict, cars: list[dict], used_ids: set[str]) -> dict | None:
+              sources: dict, cars: list[dict], used_ids: set[str],
+              baselines: dict) -> dict | None:
     sp = e["specs"]
     eng = engines[eng_id]
     tr = trans[tr_id]
@@ -308,16 +313,25 @@ def build_car(e: dict, eng_id: str, tr_id: str, engines: dict, trans: dict,
 
     y0, y1 = (int(x) for x in e["years"].split("-"))
     year_mid = (y0 + y1) / 2
+
+    # comf/cost/liq: markanın depodaki (elle değerlendirilmiş) araçlarının
+    # ortalamasından, aracın kendi segment/gövde/şanzıman özellikleriyle sapma
+    # eklenerek tahmin ediliyor (scripts/estimate_judgment_scores.py — Y-19 ikinci
+    # düzeltmesi). Kardeş araçtan kopyalamak yerine bu yöntemin seçilme gerekçesi o
+    # dosyanın başındaki dosya dokümantasyonunda yazılı.
+    judgment_scores, judgment_reasoning = ejs.estimate(
+        {"brand_group": e["brand"], "specs": sp}, baselines)
+    comf, cost, liq = judgment_scores["comf"], judgment_scores["cost"], judgment_scores["liq"]
+
+    # fun, compute_fun.py'nin gerektirdiği kerb_weight_kg katalogda hiç olmadığı
+    # için formülle hesaplanamıyor; en yakın kardeş aracın fun puanı kullanılıyor.
     sib = nearest_sibling(cars, e["brand"], sp.get("body_type"), year_mid)
     if sib:
-        comf, cost, liq = sib["scores"]["comf"], sib["scores"]["cost"], sib["scores"]["liq"]
         fun = sib["scores"]["fun"]
         price = sib["price_band_k_try"]
-        sib_note = f"kardeş araç: {sib['name']} ({sib['id']})"
     else:
-        comf, cost, liq, fun = 60, 55, 45, 50
+        fun = 50
         price = [400, 700]
-        sib_note = "kardeş araç bulunamadı, güvenli varsayılan kullanıldı"
 
     car_sources = sorted(set(eng.get("sources", [])) | set(tr.get("sources", [])))
     n_src = len(car_sources)
@@ -332,12 +346,8 @@ def build_car(e: dict, eng_id: str, tr_id: str, engines: dict, trans: dict,
     }.get(sp["transmission_type"], sp["transmission_type"])
     tag = f"oto: {trans_label} · {sp['hp']}bg"
 
-    # fun, compute_fun.py'nin gerektirdiği kerb_weight_kg P2.1 kataloğunda hiç
-    # bulunmadığı için formülle hesaplanamıyor. Sabit bir sayı yerine (bu, hepsi
-    # aynı "ortalama" görünen 79 araç üretirdi) kardeş aracın fun puanı kullanılıyor
-    # — comf/cost/liq ile aynı tahmin yöntemi. evidence.fun bilinçli olarak
-    # eklenmiyor; bu, depodaki 115/278 aracın zaten içinde bulunduğu, kabul edilmiş
-    # bir durumla aynı (puan var, formül kanıtı yok).
+    # evidence.fun bilinçli olarak eklenmiyor; bu, depodaki 115/278 aracın zaten
+    # içinde bulunduğu, kabul edilmiş bir durumla aynı (puan var, formül kanıtı yok).
     scores = {"motor": m_score, "trans": t_score, "fun": fun, "comf": comf,
               "age": 50, "cost": cost, "liq": liq}
 
@@ -371,10 +381,8 @@ def build_car(e: dict, eng_id: str, tr_id: str, engines: dict, trans: dict,
     note = (
         f"Bu araç {TODAY} tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) "
         f"terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı "
-        f"aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman "
-        f"dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü "
-        f"araştırılmadı; {sib_note} temel alınarak tahmin edildi ve bu tahmin "
-        f"gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu."
+        f"aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve "
+        f"sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. {judgment_reasoning}"
     )
 
     return {
@@ -425,6 +433,11 @@ def main() -> None:
 
     candidates = find_candidates(cars, catalog)
     used_ids = {c["id"] for c in cars}
+    # comf/cost/liq tahmininin çapası yalnız elle değerlendirilmiş (terfi ETMEMİŞ)
+    # araçlardan hesaplanıyor; terfi eden araçların tahminini yeni terfilerin
+    # tahminine çapa yapmak, hatayı turdan tura biriktirirdi.
+    original_only = [c for c in cars if "promote_catalog" not in c.get("provenance", {}).get("method", "")]
+    baselines = ejs.brand_baselines(original_only)
     # Depoda zaten aynı adı taşıyan bir araç varsa (ör. "BMW E36 325i" önceki bir
     # turdan kayıtlıysa) yeni bir kopyasını yazmıyoruz; katalogdaki bu satırın
     # zaten karşılığı depoda var demektir, yalnızca eşleme kaçırılmış olabilir —
@@ -439,7 +452,7 @@ def main() -> None:
         if norm(e["name"]) in existing_names:
             skipped_existing_name += 1
             continue
-        car = build_car(e, eng_id, tr_id, engines, trans, sources, cars, used_ids)
+        car = build_car(e, eng_id, tr_id, engines, trans, sources, cars, used_ids, baselines)
         if car is None:
             skipped_no_score += 1
             continue

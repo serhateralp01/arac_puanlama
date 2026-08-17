@@ -27,10 +27,10 @@
     "motor": 58,
     "trans": 54,
     "fun": 40,
-    "comf": 83,
+    "comf": 77,
     "age": 52,
-    "cost": 87,
-    "liq": 76
+    "cost": 71,
+    "liq": 66
   },
   "sources": [
     "asrgearbox_renault_edc",
@@ -39,7 +39,7 @@
     "renaultfanclub_edc",
     "sikayetvar_megane_edc"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Renault Grand Scenic 1.5 dCi EDC (renault-grand-scenic-1-5-dci-edc-110) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Renault markasının depodaki 23 aracının ortalaması (konfor 77, maliyet 74, likidite 69) çapa alındı. Bu araç markanın tipik güç aralığında (110 bg / marka ortalaması 123 bg). Gövde tipi MPV. Şanzıman kuru çift kavrama (bilinen düşük hız sarsıntısı riski). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",

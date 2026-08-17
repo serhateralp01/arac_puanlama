@@ -27,10 +27,10 @@
     "motor": 72,
     "trans": 38,
     "fun": 31,
-    "comf": 62,
+    "comf": 74,
     "age": 71,
-    "cost": 72,
-    "liq": 66
+    "cost": 66,
+    "liq": 59
   },
   "sources": [
     "andcetin_dq200",
@@ -39,7 +39,7 @@
     "oreateai_ea111_vs_ea211",
     "trbox"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Volkswagen Golf 1.6 FSi · 130 bg (volkswagen-golf-1-6-fsi-130-bg-130) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Volkswagen markasının depodaki 22 aracının ortalaması (konfor 75, maliyet 72, likidite 69) çapa alındı. Bu araç markanın tipik güç aralığında (150 bg / marka ortalaması 140 bg). Gövde tipi Station Wagon. Şanzıman kuru çift kavrama (bilinen düşük hız sarsıntısı riski). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",

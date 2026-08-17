@@ -27,10 +27,10 @@
     "motor": 70,
     "trans": 78,
     "fun": 80,
-    "comf": 80,
+    "comf": 86,
     "age": 44,
-    "cost": 54,
-    "liq": 36
+    "cost": 70,
+    "liq": 54
   },
   "sources": [
     "asrgearbox_tf80sc",
@@ -40,7 +40,7 @@
     "volvoforums_tf71sc_behavior",
     "volvops"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Volvo S60 2.0 T (volvo-s60-2-0-t) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Volvo markasının depodaki 10 aracının ortalaması (konfor 80, maliyet 65, likidite 51) çapa alındı. Bu araç markanın tipik güç aralığında (163 bg / marka ortalaması 151 bg). Gövde tipi Sedan. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",

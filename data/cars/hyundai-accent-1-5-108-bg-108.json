@@ -27,10 +27,10 @@
     "motor": 66,
     "trans": 78,
     "fun": 29,
-    "comf": 76,
+    "comf": 75,
     "age": 42,
-    "cost": 90,
-    "liq": 80
+    "cost": 82,
+    "liq": 73
   },
   "sources": [
     "engineexplained_g4fa",
@@ -38,7 +38,7 @@
     "hyundaiforums_auto",
     "slashgear_gamma14"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Hyundai i30 1.6 CRDi (hyundai-i30-1-6-crdi) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Hyundai markasının depodaki 15 aracının ortalaması (konfor 75, maliyet 78, likidite 73) çapa alındı. Bu araç markanın ortalama gücünün biraz altında (108 bg / marka ortalaması 128 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",

@@ -27,10 +27,10 @@
     "motor": 64,
     "trans": 52,
     "fun": 48,
-    "comf": 72,
+    "comf": 86,
     "age": 44,
-    "cost": 73,
-    "liq": 70
+    "cost": 66,
+    "liq": 67
   },
   "sources": [
     "autodoc_s60_problems",
@@ -40,7 +40,7 @@
     "mondps",
     "volvops"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Ford Galaxy 2.0 TDCi (ford-galaxy-2-0-tdci-163) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Ford markasının depodaki 11 aracının ortalaması (konfor 75, maliyet 71, likidite 66) çapa alındı. Bu araç markanın ortalama gücünün üstünde (163 bg / marka ortalaması 135 bg). Gövde tipi MPV. Şanzıman ıslak çift kavrama. Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",

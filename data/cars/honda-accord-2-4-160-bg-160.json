@@ -27,10 +27,10 @@
     "motor": 78,
     "trans": 78,
     "fun": 27,
-    "comf": 73,
+    "comf": 81,
     "age": 15,
-    "cost": 82,
-    "liq": 78
+    "cost": 73,
+    "liq": 72
   },
   "sources": [
     "8020automotive_k24",
@@ -40,7 +40,7 @@
     "slashgear_k20",
     "truedelta_accord"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Honda Civic 7. Nesil (ES) 1.6/1.7 (honda-civic-7-nesil-es-1-6-1-7) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Honda markasının depodaki 9 aracının ortalaması (konfor 72, maliyet 76, likidite 72) çapa alındı. Bu araç markanın ortalama gücünün üstünde (160 bg / marka ortalaması 139 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",

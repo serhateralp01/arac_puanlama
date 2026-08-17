@@ -27,10 +27,10 @@
     "motor": 76,
     "trans": 62,
     "fun": 20,
-    "comf": 77,
+    "comf": 80,
     "age": 60,
-    "cost": 90,
-    "liq": 92
+    "cost": 74,
+    "liq": 87
   },
   "sources": [
     "autopartswd_fiat_fire",
@@ -39,7 +39,7 @@
     "egeadct",
     "trbox"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Fiat Egea 1.6 E-torQ (fiat-egea-1-6-e-torq) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Fiat markasının depodaki 4 aracının ortalaması (konfor 73, maliyet 85, likidite 86) çapa alındı. Bu araç markanın ortalama gücünün üstünde (140 bg / marka ortalaması 109 bg). Gövde tipi SUV. Şanzıman kuru çift kavrama (bilinen düşük hız sarsıntısı riski). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",

@@ -27,10 +27,10 @@
     "motor": 72,
     "trans": 38,
     "fun": 54,
-    "comf": 79,
+    "comf": 71,
     "age": 63,
-    "cost": 84,
-    "liq": 78
+    "cost": 60,
+    "liq": 66
   },
   "sources": [
     "andcetin_dq200",
@@ -39,7 +39,7 @@
     "oreateai_ea111_vs_ea211",
     "trbox"
   ],
-  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni), motor/şanzıman dışındaki kriterler (sürüş keyfi, konfor, maliyet, likidite, fiyat bandı) araca özgü araştırılmadı; kardeş araç: Seat Leon 1.6 TDI (seat-leon-1-6-tdi) temel alınarak tahmin edildi ve bu tahmin gerekçesizdir — düzeltilmesi gerekiyorsa ilk yapılması gereken iş bu.",
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı hâlâ araca özgü araştırılmadı. Seat markasının depodaki 7 aracının ortalaması (konfor 69, maliyet 71, likidite 67) çapa alındı. Bu araç markanın ortalama gücünün üstünde (150 bg / marka ortalaması 114 bg). Gövde tipi Hatchback. Şanzıman kuru çift kavrama (bilinen düşük hız sarsıntısı riski). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
   "provenance": {
     "added_at": "2026-08-17",
     "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",

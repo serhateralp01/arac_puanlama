@@ -901,9 +901,34 @@ bilinen "CAV" önekiyle eşleşti).
 azaldı: kalan büyük gruplar (BMW 2.0 benzin, Mercedes 3.0 dizel, Honda 2.0 benzin) ya
 gerçekten birden çok aileye bölünüyor ya da kaynak veri kirli (aynı ada birden çok motor
 adı bulaşmış — MK-18 türü bir sorun, tek tek araştırma gerektiriyor). Bundan sonrası
-Y-02'nin "en yüksek kaldıraçlı aileden başla" yöntemiyle tek tek. Terfi eden ~100 aracın
-`comf`/`cost`/`liq`/`fun` tahminleri gerekçesiz — bunları tek tek gerçek değerlendirmeyle
-değiştirmek ayrı bir iş kalemi.
+Y-02'nin "en yüksek kaldıraçlı aileden başla" yöntemiyle tek tek.
+
+### comf/cost/liq: kardeş-araç kopyalaması yerine gerekçeli tahmin (2026-08-17)
+
+**Sorun neydi.** Terfi eden 101 aracın `comf`/`cost`/`liq` puanı en yakın kardeş
+aracın değerinden birebir kopyalanıyordu — aracın kendi segmentine, gövde tipine ya da
+şanzıman tipine hiç bakmıyordu. Kullanıcı bunun düzeltilmesini istedi.
+
+**Yapılan.** `scripts/estimate_judgment_scores.py` yazıldı. Depodaki 278 elle
+değerlendirilmiş (terfi ETMEMİŞ) aracın marka başına ortalama comf/cost/liq'u çıkarılıyor
+— bu, deponun kendi geçmiş kararlarından gelen bir çapa, yeni bir varsayım değil. Sonra
+aracın kendi özellikleri bu ortalamadan **sapma** olarak ekleniyor: markanın kendi
+ortalama beygirine göre üst/alt segment, gövde tipi (Station Wagon/SUV daha konforlu,
+Coupe/Cabrio daha az likit), şanzıman tipi (kuru DCT ve robotlu yarı otomatik daha az
+yumuşak/daha yüksek bakım riski). Her aracın `note` alanına gerçek gerekçe yazıldı: "X
+markasının depodaki N aracının ortalaması Y çapa alındı, bu araç markanın ortalama
+gücünün üstünde/altında, gövde tipi Z, şanzıman W" gibi.
+
+**Kalıcı hale getirildi.** `promote_catalog.py` da bu yöntemi kullanacak şekilde
+güncellendi; bundan sonraki terfi turları artık kardeş-araç kopyalaması değil bu
+gerekçeli tahmini üretecek. Çapa yalnız hiç terfi etmemiş araçlardan hesaplanıyor ki
+hata turdan tura birikmesin.
+
+**Sonuç.** comf/cost/liq artık gerçek çeşitlilik taşıyor (önceden birkaç kopya kümesi,
+şimdi 19-27 benzersiz değer). `validate.py` 0 hata, `smoke_test.js` 68/68. `fun` puanı bu
+turun kapsamı dışında bırakıldı (kullanıcı özellikle comf/cost/liq istedi); hâlâ kardeş
+araçtan geliyor ve `evidence.fun` yok — depodaki 115/278 aracın zaten içinde bulunduğu,
+kabul edilmiş bir durum.
 
 ---
 
