@@ -1913,7 +1913,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "rozet_yil_celiskisi"
+      ],
       "sources": [
         "src-80ced06fd90f4d8ab1",
         "src-cd183cb91425684a44"
@@ -1951,7 +1953,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "rozet_yil_celiskisi"
+      ],
       "sources": [
         "src-80ced06fd90f4d8ab1",
         "src-e8e8f605ba92d5e67d"
@@ -1968,7 +1972,7 @@
     },
     {
       "id": "mercedes-benz-c-c-270-cdi-231-bg-231-3",
-      "name": "Mercedes-Benz C C 270 CDI · 231 bg",
+      "name": "Mercedes-Benz C 350 CDI BlueTEC 4MATIC",
       "brand": "Mercedes-Benz",
       "model_family": "C C 270 CDI",
       "generation": null,
@@ -1989,7 +1993,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "spec_corrected"
+      ],
       "sources": [
         "src-80ced06fd90f4d8ab1",
         "tech-mercedes-benz-c-class-t-modell-2011-html"
@@ -2001,12 +2007,14 @@
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
         "rejected_label": null,
-        "manually_corrected_fields": null
+        "manually_corrected_fields": [
+          "model_variant"
+        ]
       }
     },
     {
       "id": "mercedes-benz-c-c-270-cdi-265-bg-265",
-      "name": "Mercedes-Benz C C 270 CDI · 265 bg",
+      "name": "Mercedes-Benz C 350 CDI BlueTEC",
       "brand": "Mercedes-Benz",
       "model_family": "C C 270 CDI",
       "generation": null,
@@ -2027,7 +2035,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "spec_corrected"
+      ],
       "sources": [
         "src-80ced06fd90f4d8ab1",
         "tech-mercedes-benz-c-class-t-modell-2011-html"
@@ -2039,7 +2049,9 @@
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-c-class-t-modell-2011.html",
         "rejected_label": null,
-        "manually_corrected_fields": null
+        "manually_corrected_fields": [
+          "model_variant"
+        ]
       }
     },
     {
@@ -2371,7 +2383,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "rozet_yil_celiskisi"
+      ],
       "sources": [
         "src-9b570800e1f1ea1b51",
         "src-b380f89e5e0dbace82"
@@ -2561,7 +2575,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "rozet_yil_celiskisi"
+      ],
       "sources": [
         "src-f7251b0516922ff2a4",
         "tech-rs-mercedes-benz-e-klasse-w211-2002-html"
@@ -3248,7 +3264,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "rozet_yil_celiskisi"
+      ],
       "sources": [
         "src-5fff721111ddcd2bcd",
         "src-81475f6e52e0c2b3eb"
@@ -3417,7 +3435,7 @@
     },
     {
       "id": "mercedes-benz-e-320-cdi-231-bg-231",
-      "name": "Mercedes-Benz E 320 CDI · 231 bg",
+      "name": "Mercedes-Benz E 350 CDI",
       "brand": "Mercedes-Benz",
       "model_family": "E 320 CDI",
       "generation": null,
@@ -3438,7 +3456,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "spec_corrected"
+      ],
       "sources": [
         "src-e9e80db80f42d9bb78",
         "tech-es-benz-e-klasse-t-modell-s212-2013-html"
@@ -3450,12 +3470,14 @@
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-t-modell-s212-2013.html",
         "rejected_label": null,
-        "manually_corrected_fields": null
+        "manually_corrected_fields": [
+          "model_variant"
+        ]
       }
     },
     {
       "id": "mercedes-benz-e-320-cdi-252-bg-252",
-      "name": "Mercedes-Benz E 320 CDI · 252 bg",
+      "name": "Mercedes-Benz E 350 BlueTEC",
       "brand": "Mercedes-Benz",
       "model_family": "E 320 CDI",
       "generation": "W212",
@@ -3476,7 +3498,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "spec_corrected"
+      ],
       "sources": [
         "src-e9e80db80f42d9bb78",
         "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
@@ -3488,12 +3512,14 @@
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
         "rejected_label": null,
-        "manually_corrected_fields": null
+        "manually_corrected_fields": [
+          "model_variant"
+        ]
       }
     },
     {
       "id": "mercedes-benz-e-320-cdi-252-bg-252-2",
-      "name": "Mercedes-Benz E 320 CDI · 252 bg",
+      "name": "Mercedes-Benz E 350 BlueTEC",
       "brand": "Mercedes-Benz",
       "model_family": "E 320 CDI",
       "generation": "W212",
@@ -3514,7 +3540,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "spec_corrected"
+      ],
       "sources": [
         "src-e9e80db80f42d9bb78",
         "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
@@ -3526,12 +3554,14 @@
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
         "rejected_label": null,
-        "manually_corrected_fields": null
+        "manually_corrected_fields": [
+          "model_variant"
+        ]
       }
     },
     {
       "id": "mercedes-benz-e-320-cdi-252-bg-252-3",
-      "name": "Mercedes-Benz E 320 CDI · 252 bg",
+      "name": "Mercedes-Benz E 350 BlueTEC",
       "brand": "Mercedes-Benz",
       "model_family": "E 320 CDI",
       "generation": "W212",
@@ -3552,7 +3582,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "spec_corrected"
+      ],
       "sources": [
         "src-e9e80db80f42d9bb78",
         "tech-rs-mercedes-benz-e-klasse-w212-2013-html"
@@ -3564,7 +3596,9 @@
         "publication_status": "candidate_resolved",
         "technical_url": "https://www.autoevolution.com/cars/mercedes-benz-e-klasse-w212-2013.html",
         "rejected_label": null,
-        "manually_corrected_fields": null
+        "manually_corrected_fields": [
+          "model_variant"
+        ]
       }
     },
     {

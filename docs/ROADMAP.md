@@ -997,6 +997,40 @@ yeni kimliğe yönlendirildi.
 `build_content.py` yeniden üretildi. Araç sayısı 379 → 377 (bir terfi geri alındı, bir
 kopya kayıt birleştirildi).
 
+### Katalog katmanında Mercedes 3.0 V6 dizel (OM642) kümesi düzeltildi (2026-08-17)
+
+**"sonra araştırma devam" fazının ilk turu.** `fun` düzeltmesi bitince, önceki turda
+işaretlenmiş "Mercedes 3.0 dizel badge mismatch" grubuna geçildi: `data/catalog/
+mercedes-benz.json`'da hacmi 3.0L olan 13 katalog-only kayıt, rozet metni (ör. "270
+CDI", "E 320 CDI") ile beygir/tork/yıl arasında sistemli bir uyuşmazlık taşıyordu. Bu,
+terfi eden araçlardaki OM651 anakronizmini bulan aynı araştırmanın devamı.
+
+**11 kaydın 6'sı düzeltildi, 5'i düzeltilemedi ve dürüstçe işaretlendi.** OM642 3.0 V6
+dizel 2005'ten önce üretilmedi. 2005 sonrası kayıtlarda rozet gerçek varyanta düzeltildi
+(ör. "C 270 CDI · 231 bg" → gerçeği "C 350 CDI BlueTEC 4MATIC", "E 320 CDI · 252 bg" →
+"E 350 BlueTEC"). 2001-2003 arası 4 kayıt ve bir CLK kaydı (tork/hp uyuşmazlığı çözülemedi)
+için **hiçbir gerçek Mercedes ürünü rozet+beygir+yıl kombinasyonuna denk gelmiyordu** —
+rozet uydurmak, atılan rozetten daha kötü bir hata olurdu, bu yüzden düzeltilmedi. Yeni bir
+`quality_flags` değeri (`rozet_yil_celiskisi`) eklendi ve katalog sayfasında Türkçe
+gerekçesiyle görünüyor (`scripts/build_pages.py`'deki `CATALOG_FLAG_TR` sözlüğü).
+
+**Kendi hatam, commit edilmeden yakalandı.** İlk denemede düzeltmeyi `import_catalog.py`'yi
+kaynak SQLite paketinden sıfırdan yeniden çalıştırarak uyguladım. Bu, hedeflenen 11 kaydı
+doğru düzeltti ama **istenmeyen bir yan etki** yarattı: betiğin kendi iç bağlama mantığı
+(`model_matches`), `promote_catalog.py`'nin bu oturumda kurduğu daha zengin eşleştirmeyi
+(marka paylaşımı, motor kodu öneki, terfi sırasında elle düzeltilen adlar) bilmiyor ve
+Mercedes dosyasındaki `scored_car_id` bağlarının çoğunu sıfırladı — katalogda yalnız
+kalan kayıt sayısı 1.203'ten 1.221'e çıktı. `git diff --stat` ile fark tam yayılmadan
+önce görüldü, hiçbir şey commit edilmedi; `git checkout` ile katalog dosyaları geri
+alındı ve düzeltme bunun yerine **yalnız 11 hedef kaydı elle güncelleyen dar bir yama**
+olarak yeniden yazıldı — `scored_car_id` alanına hiç dokunmadan. Ders: `import_catalog.py`
+artık tek doğruluk kaynağı değil, üstüne `promote_catalog.py`'nin kurduğu bağlar var;
+tam yeniden üretim yerine hedefli yama tercih edilmeli.
+
+**Sonuç.** `validate.py` 0 hata, `smoke_test.js` 68/68, katalog-yalnız sayısı değişmedi
+(1.203). Kalan büyük gruplar: BMW 2.0 benzin (çoklu aile bölünmesi), Honda 2.0 benzin
+(K20/K24 vs R20A ayrımı) — Y-02 yöntemiyle sırayla devam.
+
 ---
 
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**

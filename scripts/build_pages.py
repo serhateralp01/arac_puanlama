@@ -444,6 +444,11 @@ CATALOG_FLAG_TR = {
         "Aracın ticari adı ile kayıtlı yakıt türü çelişiyor (ör. adı dizel rozeti "
         "taşıyan bir araç benzinli olarak kayıtlı). İkisinden biri yanlış; hangisi "
         "olduğu teknik özellik sayfasından doğrulanmadan bu kayıt puanlanamaz.",
+    "rozet_yil_celiskisi":
+        "Rozet, beygir gücü ve üretim yılı birlikte hiçbir gerçek üretici ürününe denk "
+        "gelmiyor (WebSearch ile doğrulandı). Doğru rozeti uydurmak yerine kayıt "
+        "olduğu gibi bırakıldı ve işaretlendi; bu kayıt ek araştırma olmadan "
+        "puanlanamaz.",
 }
 
 
