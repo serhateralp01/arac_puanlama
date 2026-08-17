@@ -16,7 +16,8 @@
     "torque_nm": 250.0,
     "gears": 7,
     "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-    "engine_code": "CDAA"
+    "engine_code": "CDAA",
+    "kerb_weight_kg": 1400
   },
   "price_band_k_try": [
     650,

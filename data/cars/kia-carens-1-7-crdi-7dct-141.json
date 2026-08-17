@@ -16,7 +16,8 @@
     "torque_nm": 340.0,
     "gears": 7,
     "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-    "engine_code": "D4FD"
+    "engine_code": "D4FD",
+    "kerb_weight_kg": 1516
   },
   "price_band_k_try": [
     700,

@@ -16,7 +16,8 @@
     "torque_nm": 320.0,
     "gears": null,
     "clutch": "Çelik zincirli CVT",
-    "engine_code": "CJEB"
+    "engine_code": "CJEB",
+    "kerb_weight_kg": 1530
   },
   "price_band_k_try": [
     780,

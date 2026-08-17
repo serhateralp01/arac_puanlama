@@ -16,7 +16,8 @@
     "torque_nm": 200.0,
     "gears": 7,
     "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-    "engine_code": "CAXC"
+    "engine_code": "CAXC",
+    "kerb_weight_kg": 1250
   },
   "price_band_k_try": [
     650,

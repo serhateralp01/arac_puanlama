@@ -16,7 +16,8 @@
     "torque_nm": 250.0,
     "gears": 7,
     "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
-    "engine_code": null
+    "engine_code": null,
+    "kerb_weight_kg": 1210
   },
   "price_band_k_try": [
     650,

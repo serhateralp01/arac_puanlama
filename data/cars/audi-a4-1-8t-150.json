@@ -16,7 +16,8 @@
     "torque_nm": 210.0,
     "gears": null,
     "clutch": "Çelik zincirli CVT",
-    "engine_code": "AVJ/BFB"
+    "engine_code": "AVJ/BFB",
+    "kerb_weight_kg": 1415
   },
   "price_band_k_try": [
     550,

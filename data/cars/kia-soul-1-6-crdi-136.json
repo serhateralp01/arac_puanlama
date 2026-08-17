@@ -16,7 +16,8 @@
     "torque_nm": 300.0,
     "gears": 6,
     "clutch": null,
-    "engine_code": "D4FB"
+    "engine_code": "D4FB",
+    "kerb_weight_kg": 1350
   },
   "price_band_k_try": [
     700,

@@ -16,7 +16,8 @@
     "torque_nm": 234.0,
     "gears": 5,
     "clutch": null,
-    "engine_code": "K24Z3"
+    "engine_code": "K24Z3",
+    "kerb_weight_kg": 1518
   },
   "price_band_k_try": [
     700,

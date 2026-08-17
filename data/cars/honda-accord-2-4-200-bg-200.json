@@ -16,7 +16,8 @@
     "torque_nm": 232.0,
     "gears": 5,
     "clutch": null,
-    "engine_code": null
+    "engine_code": null,
+    "kerb_weight_kg": 1450
   },
   "price_band_k_try": [
     450,

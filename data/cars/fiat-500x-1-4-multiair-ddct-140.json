@@ -16,7 +16,8 @@
     "torque_nm": 230.0,
     "gears": 6,
     "clutch": "Kuru çift kavrama",
-    "engine_code": "55263624"
+    "engine_code": "55263624",
+    "kerb_weight_kg": 1395
   },
   "price_band_k_try": [
     850,

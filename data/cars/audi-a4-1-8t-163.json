@@ -16,7 +16,8 @@
     "torque_nm": 225.0,
     "gears": null,
     "clutch": "Çelik zincirli CVT",
-    "engine_code": "BFB"
+    "engine_code": "BFB",
+    "kerb_weight_kg": 1430
   },
   "price_band_k_try": [
     650,
