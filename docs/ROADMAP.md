@@ -871,11 +871,39 @@ VAR olan araçlarla (`bmw-e36-325i`, `honda-accord-2-0-cu2`) aynı ada sahipti �
 278 → 357, doğrulanmış araç 345. `validate.py` 0 hata, `smoke_test.js` 68/68 (araç sayısı
 sabitleri güncellendi).
 
-**Kalan iş.** 1.229 katalog kaydı hâlâ yalnız katalogda. `promote_catalog.py` yeniden
-çalıştırılabilir bir araç; her yeni katman turunda (yeni bir motor/şanzıman ailesi
-Y-02'de araştırıldıkça) aynı marka artık o aileye bağlanabilir hale gelip yeni adaylar
-açabilir. Terfi eden 79 aracın `comf`/`cost`/`liq`/`fun` tahminleri gerekçesiz — bunları
-tek tek gerçek değerlendirmeyle değiştirmek ayrı bir iş kalemi.
+### İkinci ve üçüncü tur: paylaşımlı aileler ve motor kodu ayrımı (357 -> 379)
+
+**Marka sınırı, kanıtlanmış paylaşıma göre gevşetildi.** VAG grubu (VW/Audi/Skoda/
+Seat/Cupra) aynı DQ200/EA211/EA888/multitronic'i, PSA grubu (Peugeot/Citroën/Opel) aynı
+EAT8/AL4/ETG'yi paylaşıyor — bu spekülasyon değil, deponun kendi verisinde zaten kanıtlı.
+Bir aile 2+ markada görülüyorsa marka sınırı o aile için kaldırıldı.
+
+**Kendi hatam, commit edilmeden yakalandı.** İlk sürüm bunu güvensiz uyguladı: marka
+kontrolünü tamamen kaldırıp yalnız (yakıt, hacim) eşleştirdi ve "Honda Accord 2.0"u
+Audi'nin EA888 motoruna, "BMW 528i"yi VW'nin EA211'ine bağladı. Düzeltme: aday markası,
+o ailenin depodaki BİLİNEN marka kümesinde olmalı — genel bir varsayım değil, yalnız
+zaten kanıtlı paylaşımı kullanan bir kısıtlama.
+
+Bir aday da elle çıkarıldı: "Fiat Bravo 1.6 MultiJet Dualogic", Fiat Egea'nın psa-etg'ye
+bağlı olması yüzünden markanın bilinen kümesine düştü, ama Bravo farklı bir nesil/
+platform ve bu genelleme araştırılmadan yapılamaz.
+
+**Üçüncü turda motor kodu öneki denendi**, üreticinin kendi kodunun (ör. "K24Z3",
+"M54B25") aynı kovaya düşen birden çok aileyi (BMW 2.0 benzin gibi) ayırmak için
+kullanılması. Getirisi düşük çıktı — çoğu belirsiz kovada `engine_code` alanı ya boş ya
+da bulaşmış veriyle kirli. Bir kayıt açtı (VW Scirocco 1.4 TSI, "CAVD" kodu EA211'in
+bilinen "CAV" önekiyle eşleşti).
+
+**Sonuç.** 357 → 378 → 379 araç. `validate.py` 0 hata, `smoke_test.js` 68/68.
+`smoke_test.js` artık araç sayısını `data/cars/`'dan okuyor, sabit sayı taşımıyor.
+
+**Kalan iş.** 1.202 katalog kaydı hâlâ yalnız katalogda. Kaldıraç belirgin biçimde
+azaldı: kalan büyük gruplar (BMW 2.0 benzin, Mercedes 3.0 dizel, Honda 2.0 benzin) ya
+gerçekten birden çok aileye bölünüyor ya da kaynak veri kirli (aynı ada birden çok motor
+adı bulaşmış — MK-18 türü bir sorun, tek tek araştırma gerektiriyor). Bundan sonrası
+Y-02'nin "en yüksek kaldıraçlı aileden başla" yöntemiyle tek tek. Terfi eden ~100 aracın
+`comf`/`cost`/`liq`/`fun` tahminleri gerekçesiz — bunları tek tek gerçek değerlendirmeyle
+değiştirmek ayrı bir iş kalemi.
 
 ---
 

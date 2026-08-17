@@ -92,6 +92,12 @@ def find_candidates(cars: list[dict], catalog: list[dict]) -> list[tuple[dict, s
     tr_gt_noclutch = collections.defaultdict(collections.Counter)
     eng_brands = collections.defaultdict(set)
     tr_brands = collections.defaultdict(set)
+    # Aynı (marka, yakıt, hacim) kovasına birden çok gerçek aile düşebiliyor (BMW
+    # 2.0 benzin M54/N43/N52/B38 gibi nesiller paylaşıyor). Böyle durumda üreticinin
+    # kendi motor kodu (ör. "K24Z3", "M54B25") en güvenilir ayırt edicidir — ilk üç
+    # karakteri genelde aileyi belirler. Bu tablo yalnız depodaki ARAÇLARIN zaten
+    # taşıdığı gerçek kodlardan kuruluyor, tahmin edilmiyor.
+    eng_code_prefix = collections.defaultdict(set)
     for c in cars:
         sp = c["specs"]
         b = norm(c.get("brand_group"))
@@ -99,6 +105,8 @@ def find_candidates(cars: list[dict], catalog: list[dict]) -> list[tuple[dict, s
             key_e = (b, sp["fuel"], round(sp["displacement_l"], 1))
             eng_gt[key_e][sp["engine_id"]].append(sp["hp"])
             eng_brands[sp["engine_id"]].add(b)
+            if sp.get("engine_code"):
+                eng_code_prefix[sp["engine_id"]].add(sp["engine_code"][:3].upper())
         if sp.get("transmission_id"):
             key_t = (b, sp["transmission_type"], sp.get("gears"), sp.get("clutch"))
             tr_gt[key_t][sp["transmission_id"]] += 1
@@ -143,6 +151,16 @@ def find_candidates(cars: list[dict], catalog: list[dict]) -> list[tuple[dict, s
         b = norm(e["brand"])
         key_e = (b, sp["fuel"], round(sp["displacement_l"], 1))
         eng_matches = eng_gt.get(key_e, {})
+        if len(eng_matches) > 1 and sp.get("engine_code"):
+            # Aynı kovada birden çok gerçek aile var (BMW 2.0 benzin gibi); üreticinin
+            # kendi motor kodu buradaki tek güvenilir ayırt edici. Kod öneki (ilk üç
+            # karakter) yalnız BİR aileye ait bilinen kodlarla eşleşiyorsa o aile
+            # seçiliyor; belirsizlik sürüyorsa (0 ya da 2+ eşleşme) dokunulmuyor.
+            code_pfx = sp["engine_code"][:3].upper()
+            by_code = {eid: hps for eid, hps in eng_matches.items()
+                       if code_pfx in eng_code_prefix.get(eid, set())}
+            if len(by_code) == 1:
+                eng_matches = by_code
         if len(eng_matches) != 1:
             shared = eng_gt_shared.get((sp["fuel"], round(sp["displacement_l"], 1)), {})
             eng_matches = brand_filtered(shared, eng_brands, b)

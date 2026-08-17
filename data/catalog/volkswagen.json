@@ -4384,7 +4384,7 @@
         "engine_code": "CAVD",
         "engine_name": "1.4 TSI Twincharger"
       },
-      "scored_car_id": null,
+      "scored_car_id": "volkswagen-scirocco-1-4-tsi-160",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
@@ -4422,7 +4422,7 @@
         "engine_code": null,
         "engine_name": "1.4L TSI BMT 7AT FWD (122 HP)"
       },
-      "scored_car_id": null,
+      "scored_car_id": "volkswagen-scirocco-1-4-tsi-160",
       "possible_scored_car_ids": [],
       "quality_flags": [],
       "sources": [
