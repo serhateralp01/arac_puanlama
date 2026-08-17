@@ -50,6 +50,9 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 TODAY = "2026-08-17"
+# Aile üretim penceresi kontrolünde verilen tolerans (yıl). Depo bir ailenin bütün
+# üretim dönemini örneklemiş olmayabilir; sınır kesin bir takvim değil makullük testi.
+YEAR_TOLERANCE = 1
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import estimate_judgment_scores as ejs  # noqa: E402
@@ -77,6 +80,78 @@ def load_catalog() -> list[dict]:
     return [e for e in out if not e.get("scored_car_id") and not e.get("possible_scored_car_ids")]
 
 
+# Terfiyi durduran kalite bayrakları. Liste "bayrak varsa dur" değil, **bayrak neyi
+# söylüyorsa ona göre dur** ilkesiyle kuruldu; ilk sürüm herhangi bir bayrağı engel
+# sayıyordu ve bu, 681 kaydı sebepsiz kilitliyordu.
+#
+# ENGELLEYENLER, tek tek gerekçesiyle:
+#   rozet_yil_celiskisi  — rozet+beygir+yıl hiçbir gerçek ürüne denk gelmiyor; hangi
+#                          alanın yanlış olduğu bilinmeden puanlanamaz.
+#   spec_implausible     — güç/tork/hacim fiziksel olarak tutarsız, en az biri yanlış.
+#   fuel_name_conflict   — ad ile yakıt çelişiyor, biri kesinlikle yanlış.
+#   missing_torque       — tork yok; `fun` formülü çalışamaz ve `specs.torque_nm`
+#                          boş kalır. Eksik alanla araç kaydı açmak yerine beklenir.
+#   missing_displacement — hacim yok; motor ailesi eşleştirmesinin ana anahtarı bu.
+#   missing_technical_url— olguların (beygir, tork) teknik künye adresi yok; olgu
+#                          katmanında tolere edilir ama puanlanmış katmana geçerken
+#                          izlenebilirlik aranır.
+#
+# ENGELLEMEYENLER, gerekçesiyle:
+#   generic_transmission_identity — bu bayrak "KAYNAK VERİ kutu modelini çözememiş"
+#       diyor. Ama bu betik kaynağın kutu kimliğini hiç okumuyor: kutuyu deponun
+#       kendi ground-truth tablosundan (marka, şanzıman tipi, vites sayısı, kavrama)
+#       türetiyor ve her adımda **tekil** eşleşme şart koşuyor (`len(matches) == 1`).
+#       Yani kaynağın bilmemesi, deponun bilmediği anlamına gelmiyor; eşleşme
+#       belirsizse zaten bağımsız olarak eleniyor. Bu bayrağı engel saymak, kendi
+#       çözdüğümüz bir soruyu başkası çözemedi diye çözülmemiş saymaktı.
+#   spec_corrected — alan elle doğrulanıp düzeltildi (MANUAL_SPEC_CORRECTIONS), yani
+#       kayıt düzeltmeden ÖNCEKİNDEN daha güvenilir. Engel saymak düzeltmeyi
+#       cezalandırmak olurdu.
+#   label_corrected — etiket, kendisiyle çelişen doğrulanmış alanlardan yeniden
+#       kuruldu. Etiketin atılma sebebi zaten specs'in tutarlı olmasıydı.
+BLOCKING_FLAGS = {
+    "rozet_yil_celiskisi",
+    "spec_implausible",
+    "fuel_name_conflict",
+    "missing_torque",
+    "missing_displacement",
+    "missing_technical_url",
+}
+
+
+def label_spec_conflict(name: str, sp: dict) -> bool:
+    """Katalog adı, kaydın kendi doğrulanmış alanlarıyla çelişiyor mu.
+
+    `import_catalog.py`'deki `fuel_conflict` yalnız **yakıt** çelişkisine bakıyor ve
+    Volvo için yalnız T2-T8 / D2-D5 rozetlerini tanıyor. Terfi denemesinde bunun iki
+    boşluğu görüldü:
+
+      "Volvo S60 2.0 T · 150 bg"  → yakıt Dizel  (düz "T" rozeti listede yok)
+      "Ford Focus 1.5 Ti-VCT"     → kayıt 1.6 L  (hacim çelişkisi hiç bakılmıyordu)
+      "Volvo V40 1.5 · 115 bg"    → kayıt 1.6 L
+
+    Bu kayıtların **specs alanları büyük olasılıkla doğru**, yanlış olan addır — daha
+    önce 25 yakıt çelişkisinde ölçülen örüntünün aynısı. Ama adı bu haliyle puanlanmış
+    katmana taşımak, kullanıcıya "Volvo S60 2.0 T" diye benzinli bir rozet gösterip
+    dizel puanı vermek olurdu. Ad düzeltilene kadar terfi bekletiliyor: yanlış adla
+    doğru puan, doğru adla beklemekten kötü.
+    """
+    n = name.lower()
+    m = re.search(r"(\d\.\d)\s*(?:l\b)?", n)
+    if m and sp.get("displacement_l"):
+        if abs(float(m.group(1)) - float(sp["displacement_l"])) > 0.05:
+            return True
+    # Benzin rozeti taşıyıp dizel kayıtlı olmak (ve tersi). Düz "2.0 T" gibi
+    # Volvo/Saab turbo benzin rozetleri de dahil.
+    petrol_badge = re.search(r"\b\d\.\d\s*t\b|\bt[3-8]\b|tsi|tfsi|thp|vti|ti-?vct|ecoboost", n)
+    diesel_badge = re.search(r"\btdi\b|\bhdi\b|\bcdi\b|\bdci\b|\btdci\b|\bcdti\b|\bcrdi\b|\bjtd|multijet|\bd[2-5]\b", n)
+    if petrol_badge and not diesel_badge and sp.get("fuel") == "Dizel":
+        return True
+    if diesel_badge and not petrol_badge and sp.get("fuel") == "Benzin":
+        return True
+    return False
+
+
 def find_candidates(cars: list[dict], catalog: list[dict]) -> list[tuple[dict, str, str]]:
     """Katalog kaydını mevcut motor/şanzıman ailesine bağlar.
 
@@ -102,9 +177,23 @@ def find_candidates(cars: list[dict], catalog: list[dict]) -> list[tuple[dict, s
     # karakteri genelde aileyi belirler. Bu tablo yalnız depodaki ARAÇLARIN zaten
     # taşıdığı gerçek kodlardan kuruluyor, tahmin edilmiyor.
     eng_code_prefix = collections.defaultdict(set)
+    # Ailenin depoda GÖRÜLDÜĞÜ model yılı aralığı. Bu, dışarıdan getirilen bir
+    # üretim takvimi değil, deponun kendi 377 aracının söylediği şey — yani yeni bir
+    # varsayım eklemiyor, zaten araştırılmış veriyi ikinci kez kullanıyor.
+    eng_years = collections.defaultdict(list)
+    tr_years = collections.defaultdict(list)
     for c in cars:
         sp = c["specs"]
         b = norm(c.get("brand_group"))
+        try:
+            cy0, cy1 = (int(x) for x in c["years"].split("-"))
+        except (ValueError, KeyError):
+            cy0 = cy1 = None
+        if cy0 is not None:
+            if sp.get("engine_id"):
+                eng_years[sp["engine_id"]] += [cy0, cy1]
+            if sp.get("transmission_id"):
+                tr_years[sp["transmission_id"]] += [cy0, cy1]
         if sp.get("engine_id"):
             key_e = (b, sp["fuel"], round(sp["displacement_l"], 1))
             eng_gt[key_e][sp["engine_id"]].append(sp["hp"])
@@ -112,9 +201,10 @@ def find_candidates(cars: list[dict], catalog: list[dict]) -> list[tuple[dict, s
             if sp.get("engine_code"):
                 eng_code_prefix[sp["engine_id"]].add(sp["engine_code"][:3].upper())
         if sp.get("transmission_id"):
-            key_t = (b, sp["transmission_type"], sp.get("gears"), sp.get("clutch"))
+            dt = sp.get("drivetrain")
+            key_t = (b, sp["transmission_type"], sp.get("gears"), sp.get("clutch"), dt)
             tr_gt[key_t][sp["transmission_id"]] += 1
-            tr_gt_noclutch[(b, sp["transmission_type"], sp.get("gears"))][sp["transmission_id"]] += 1
+            tr_gt_noclutch[(b, sp["transmission_type"], sp.get("gears"), dt)][sp["transmission_id"]] += 1
             tr_brands[sp["transmission_id"]].add(b)
 
     # Marka sınırı gevşetilmiş arama tabloları — ama yalnız (fuel, hacim) ile değil,
@@ -137,20 +227,53 @@ def find_candidates(cars: list[dict], catalog: list[dict]) -> list[tuple[dict, s
         sp = c["specs"]
         tid = sp.get("transmission_id")
         if tid and len(tr_brands[tid]) >= 2:
-            key = (sp["transmission_type"], sp.get("gears"), sp.get("clutch"))
+            dt = sp.get("drivetrain")
+            key = (sp["transmission_type"], sp.get("gears"), sp.get("clutch"), dt)
             tr_gt_shared[key][tid] += 1
-            key2 = (sp["transmission_type"], sp.get("gears"))
+            key2 = (sp["transmission_type"], sp.get("gears"), dt)
             tr_gt_shared_noclutch[key2][tid] += 1
 
     def brand_filtered(matches: dict, brand_sets: dict, b: str) -> dict:
         return {k: v for k, v in matches.items() if b in brand_sets[k]}
 
+    def year_ok(family_years: dict, fid: str, y0: int) -> bool:
+        """Adayın model yılı, ailenin depoda görüldüğü dönemle bağdaşıyor mu.
+
+        Bu oturumda aynı hata sınıfı **dört kez** çıktı: 2000 model bir Mercedes'e
+        2008'de üretime giren OM651, 2005 model bir BMW'ye 2007'de çıkan N43, 2009
+        model bir 528i'ye 2012'de çıkan N20, 2004 model bir Seat Toledo'ya 2012'de
+        çıkan EA288 bağlandı. Hepsinde beygir/hacim eşleşmesi doğruydu; yanlış olan
+        tek şey zamandı. Beygir eşleşmesi bir motoru tanımaya yetmiyor, çünkü farklı
+        nesiller aynı gücü üretebiliyor.
+
+        Pencere depodaki kendi araçlarımızdan türetiliyor ve **iki yıl tolerans**
+        veriliyor: depo o ailenin bütün üretim dönemini örneklemiş olmayabilir, bu
+        yüzden sınır kesin bir üretim takvimi gibi değil, bir makullük testi gibi
+        kullanılıyor. Ailenin depoda tek aracı varsa pencere anlamsız derecede dar
+        olacağından kontrol uygulanmıyor.
+        """
+        ys = family_years.get(fid, [])
+        if len(ys) < 4:  # en az iki araç (her araç iki yıl katıyor)
+            return True
+        return (min(ys) - YEAR_TOLERANCE) <= y0 <= (max(ys) + YEAR_TOLERANCE)
+
     raw = []
     for e in catalog:
-        if e["quality_flags"]:
+        if set(e["quality_flags"]) & BLOCKING_FLAGS:
             continue
         sp = e["specs"]
         if not sp.get("displacement_l"):
+            continue
+        # MK-13: elektrikli ve LPG araçlar kalıcı olarak kapsam dışı. Hibrit de aynı
+        # gerekçeyle dışarıda: puanlama yedi kriterin tamamını içten yanmalı bir
+        # motorun ve klasik bir otomatik şanzımanın davranışı üzerine kuruyor;
+        # hibritte hem tahrik zinciri hem arıza örüntüsü (batarya, invertör,
+        # e-CVT) farklı bir konu ve depoda bugüne kadar hiç puanlanmış hibrit yok.
+        # Kaynak veri hibritleri "Benzin" olarak işaretlediği için yakıt alanı bunu
+        # yakalamıyor, addan bakmak gerekiyor.
+        if re.search(r"\b(hybrid|hibrit|plug-?in|phev)\b", e["name"], re.I):
+            continue
+        if label_spec_conflict(e["name"], sp):
             continue
         b = norm(e["brand"])
         key_e = (b, sp["fuel"], round(sp["displacement_l"], 1))
@@ -171,30 +294,46 @@ def find_candidates(cars: list[dict], catalog: list[dict]) -> list[tuple[dict, s
             if len(eng_matches) != 1:
                 continue
         eng_id, hp_list = list(eng_matches.items())[0]
-        lo, hi = min(hp_list) * 0.75, max(hp_list) * 1.35
+        # Bant neden dar. İlk sürüm %75-%135 kullanıyordu ve bu, bir motor neslinin
+        # bittiği yerde ötekinin başladığını göremiyordu: M54 3.0L depoda 231 bg
+        # üretiyor, %135 bandı 312 bg'ye kadar açılıyor ve 306 bg'lik bir "535i"yi
+        # (gerçekte N54 çift turbo) M54'e bağlıyordu — betiğin kendi dokümanında
+        # "ilk sürümde yakalandı" diye yazan hatanın aynısı, ikinci kez. Aynı motor
+        # kodunun aynı hacimdeki gerçek tün farkı %10'u nadiren aşar; bunun ötesi
+        # "aynı motorun başka ayarı" değil "başka motor" demektir.
+        lo, hi = min(hp_list) * 0.85, max(hp_list) * 1.10
         if not (lo <= sp["hp"] <= hi):
             continue
+        try:
+            cand_y0 = int(e["years"].split("-")[0])
+        except (ValueError, KeyError, IndexError):
+            continue
+        if not year_ok(eng_years, eng_id, cand_y0):
+            continue
 
-        key_t = (b, sp["transmission_type"], sp.get("gears"), sp.get("clutch"))
+        dt_c = sp.get("drivetrain")
+        key_t = (b, sp["transmission_type"], sp.get("gears"), sp.get("clutch"), dt_c)
         tr_matches = tr_gt.get(key_t, {})
         if len(tr_matches) == 1:
             tr_id = list(tr_matches)[0]
         else:
-            key_t2 = (b, sp["transmission_type"], sp.get("gears"))
+            key_t2 = (b, sp["transmission_type"], sp.get("gears"), dt_c)
             tr_matches2 = tr_gt_noclutch.get(key_t2, {})
             if len(tr_matches2) == 1:
                 tr_id = list(tr_matches2)[0]
             else:
-                key_shared = (sp["transmission_type"], sp.get("gears"), sp.get("clutch"))
+                key_shared = (sp["transmission_type"], sp.get("gears"), sp.get("clutch"), dt_c)
                 shared3 = brand_filtered(tr_gt_shared.get(key_shared, {}), tr_brands, b)
                 if len(shared3) == 1:
                     tr_id = list(shared3)[0]
                 else:
-                    key_shared2 = (sp["transmission_type"], sp.get("gears"))
+                    key_shared2 = (sp["transmission_type"], sp.get("gears"), dt_c)
                     shared4 = brand_filtered(tr_gt_shared_noclutch.get(key_shared2, {}), tr_brands, b)
                     if len(shared4) != 1:
                         continue
                     tr_id = list(shared4)[0]
+        if not year_ok(tr_years, tr_id, cand_y0):
+            continue
         raw.append((e, eng_id, tr_id))
 
     # Marka-paylaşımlı eşleşme, aynı markanın FARKLI nesil/platformlarını da aynı

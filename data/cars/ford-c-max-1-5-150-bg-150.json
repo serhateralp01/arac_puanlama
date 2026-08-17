@@ -1,0 +1,69 @@
+{
+  "id": "ford-c-max-1-5-150-bg-150",
+  "name": "Ford C-Max 1.5 · 150 bg",
+  "tag": "oto: 6 ileri otomatik · 150bg",
+  "brand_group": "Ford",
+  "years": "2014-2019",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 1.5,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-awf21",
+    "body_type": "MPV",
+    "engine_id": "ford-ecoboost-15",
+    "torque_nm": 240.0,
+    "gears": 6,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    830,
+    1050
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 42,
+    "trans": 72,
+    "fun": 32,
+    "comf": 78,
+    "age": 50,
+    "cost": 73,
+    "liq": 66
+  },
+  "sources": [
+    "akppro_tf81sc",
+    "fordmasterx_ecoboost_wetbelt",
+    "fordwiki_awf21",
+    "whocanfixmycar_mondeo_whatcar"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Ford markasının depodaki 11 aracının ortalaması (konfor 75, maliyet 71, likidite 66) çapa alındı. Bu araç markanın tipik güç aralığında (150 bg / marka ortalaması 135 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-6f2495ccec817cb56a"
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "fordmasterx_ecoboost_wetbelt"
+      ],
+      "reasoning": "EcoBoost (ford-ecoboost-15) motor ailesinin temel puanı 42. Bu aracın motor puanı (42) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ içinde çalışan triger kayışının erken bozulup zamanlama sorununa veya motor arızasına yol açması. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "akppro_tf81sc",
+        "fordwiki_awf21",
+        "whocanfixmycar_mondeo_whatcar"
+      ],
+      "reasoning": "AWF21 (aisin-awf21) şanzıman ailesinin temel puanı 72. Bu aracın trans puanı (72) temel puanla birebir aynı. Ailenin bilinen zaafı: Tork konvertörü kilitleme valfinin bozulması; ailenin bilinen zayıf noktası. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "bmw-5-serisi-525d-197-bg-197-3",
+  "name": "BMW 5 Serisi 525d · 197 bg",
+  "tag": "oto: 6 ileri otomatik · 197bg",
+  "brand_group": "BMW",
+  "years": "2007-2007",
+  "specs": {
+    "hp": 197,
+    "displacement_l": 3.0,
+    "fuel": "Dizel",
+    "drivetrain": "Dört çeker",
+    "transmission_type": "TK",
+    "transmission_id": "zf-6hp",
+    "body_type": "Sedan",
+    "engine_id": "bmw-m57",
+    "torque_nm": 400.0,
+    "gears": 6,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    750,
+    1080
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 72,
+    "trans": 68,
+    "fun": 76,
+    "comf": 73,
+    "age": 50,
+    "cost": 69,
+    "liq": 53
+  },
+  "sources": [
+    "atst_zf6hp_arizalar",
+    "atstservices_zf6hp",
+    "autoclassmagazine_m57_swirlflap",
+    "drivingline_m57_unkillable",
+    "transmissionrepairguide_zf6hp26"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. BMW markasının depodaki 29 aracının ortalaması (konfor 70, maliyet 64, likidite 53) çapa alındı. Bu araç markanın tipik güç aralığında (197 bg / marka ortalaması 176 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-cdb209f020b8f0cc99"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "drivingline_m57_unkillable",
+        "autoclassmagazine_m57_swirlflap"
+      ],
+      "reasoning": "M57 (bmw-m57) motor ailesinin temel puanı 72. Bu aracın motor puanı (72) temel puanla birebir aynı. Ailenin bilinen zaafı: Swirl flap aktüatör arızası ve kanadın kopup silindire girmesi. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "atst_zf6hp_arizalar",
+        "atstservices_zf6hp",
+        "transmissionrepairguide_zf6hp26"
+      ],
+      "reasoning": "ZF 6HP19 (zf-6hp) şanzıman ailesinin temel puanı 68. Bu aracın trans puanı (68) temel puanla birebir aynı. Ailenin bilinen zaafı: Mekatronik konnektör kovanının (sealing sleeve) sızdırması; karter kaçağı gibi göründüğü için geç fark ediliyor ve seviye düşünce kutuyu bitirebiliyor. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    }
+  }
+}

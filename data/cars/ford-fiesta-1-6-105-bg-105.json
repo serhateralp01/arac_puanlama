@@ -1,0 +1,69 @@
+{
+  "id": "ford-fiesta-1-6-105-bg-105",
+  "name": "Ford Fiesta 1.6 · 105 bg",
+  "tag": "oto: 6 ileri kuru DCT · 105bg",
+  "brand_group": "Ford",
+  "years": "2013-2017",
+  "specs": {
+    "hp": 105,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "ford-dps6",
+    "body_type": "Hatchback",
+    "engine_id": "ford-sigma-tivct",
+    "torque_nm": 150.0,
+    "gears": 6,
+    "clutch": "Kuru",
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    750,
+    1080
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 70,
+    "trans": 30,
+    "fun": 37,
+    "comf": 68,
+    "age": 50,
+    "cost": 68,
+    "liq": 65
+  },
+  "sources": [
+    "engineexplained_sigma_tivct",
+    "myenginespecs_ford_tivct",
+    "trbox",
+    "vargas_ford_dps6_uzlasma"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Ford markasının depodaki 11 aracının ortalaması (konfor 75, maliyet 71, likidite 66) çapa alındı. Bu araç markanın ortalama gücünün biraz altında (105 bg / marka ortalaması 135 bg). Gövde tipi Hatchback. Şanzıman kuru çift kavrama (bilinen düşük hız sarsıntısı riski). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-8546f3239194e3e047"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "engineexplained_sigma_tivct",
+        "myenginespecs_ford_tivct"
+      ],
+      "reasoning": "Sigma (ford-sigma-tivct) motor ailesinin temel puanı 70. Bu aracın motor puanı (70) temel puanla birebir aynı. Ailenin bilinen zaafı: Triger kayış gergisi arızası; atlanırsa ağır motor hasarına yol açabiliyor. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "düşük km'de felaket, çoklu kaynak",
+      "confidence": "orta",
+      "sources": [
+        "trbox",
+        "vargas_ford_dps6_uzlasma"
+      ],
+      "reasoning": "DPS6 (ford-dps6) şanzıman ailesinin temel puanı 30. Bu aracın trans puanı (30) temel puanla birebir aynı. Ailenin bilinen zaafı: Kuru kavramanın dur-kalk trafiğinde aşırı ısınıp sürtünme yüzeylerinin camlaşması; kalkışta şiddetli titreme, vitesler arası tereddüt ve kayma. Bu puan 'düşük km'de felaket, çoklu kaynak' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    }
+  }
+}

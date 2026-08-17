@@ -1,0 +1,69 @@
+{
+  "id": "audi-a8-3-0-tdi-233-bg-233",
+  "name": "Audi A8 3.0 TDI · 233 bg",
+  "tag": "oto: 6 ileri otomatik · 233bg",
+  "brand_group": "Audi",
+  "years": "2003-2009",
+  "specs": {
+    "hp": 233,
+    "displacement_l": 3.0,
+    "fuel": "Dizel",
+    "drivetrain": "Dört çeker",
+    "transmission_type": "TK",
+    "transmission_id": "zf-6hp",
+    "body_type": "Sedan",
+    "engine_id": "vag-v6-tdi",
+    "torque_nm": 450.0,
+    "gears": 6,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    852,
+    972
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 66,
+    "trans": 68,
+    "fun": 54,
+    "comf": 87,
+    "age": 50,
+    "cost": 64,
+    "liq": 59
+  },
+  "sources": [
+    "atst_zf6hp_arizalar",
+    "atstservices_zf6hp",
+    "darkside_v6tdi_swirlflap",
+    "transmissionrepairguide_zf6hp26"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Audi markasının depodaki 12 aracının ortalaması (konfor 78, maliyet 64, likidite 59) çapa alındı. Bu araç markanın ortalama gücünün üstünde (233 bg / marka ortalaması 163 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-64e0ce3cc9d7684615"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "darkside_v6tdi_swirlflap"
+      ],
+      "reasoning": "3.0 V6 TDI (vag-v6-tdi) motor ailesinin temel puanı 66. Bu aracın motor puanı (66) temel puanla birebir aynı. Ailenin bilinen zaafı: Emme manifoldu swirl flap aktüatör kolunun kirlenip boşluk yapması ve kırılması. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "atst_zf6hp_arizalar",
+        "atstservices_zf6hp",
+        "transmissionrepairguide_zf6hp26"
+      ],
+      "reasoning": "ZF 6HP19 (zf-6hp) şanzıman ailesinin temel puanı 68. Bu aracın trans puanı (68) temel puanla birebir aynı. Ailenin bilinen zaafı: Mekatronik konnektör kovanının (sealing sleeve) sızdırması; karter kaçağı gibi göründüğü için geç fark ediliyor ve seviye düşünce kutuyu bitirebiliyor. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    }
+  }
+}

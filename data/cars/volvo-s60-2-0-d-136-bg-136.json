@@ -1,0 +1,71 @@
+{
+  "id": "volvo-s60-2-0-d-136-bg-136",
+  "name": "Volvo S60 2.0 D · 136 bg",
+  "tag": "oto: 6 ileri otomatik · 136bg",
+  "brand_group": "Volvo",
+  "years": "2013-2018",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 2.0,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-geartronic",
+    "body_type": "Sedan",
+    "engine_id": "volvo-d-20",
+    "torque_nm": 350.0,
+    "gears": 6,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    550,
+    800
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 70,
+    "trans": 78,
+    "fun": 40,
+    "comf": 83,
+    "age": 50,
+    "cost": 70,
+    "liq": 51
+  },
+  "sources": [
+    "asrgearbox_tf80sc",
+    "engineexplained_d5244t",
+    "volvoclub_geartronic_reliability",
+    "volvod",
+    "volvoforums_tf71sc_behavior",
+    "volvops"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Volvo markasının depodaki 10 aracının ortalaması (konfor 80, maliyet 65, likidite 51) çapa alındı. Bu araç markanın tipik güç aralığında (136 bg / marka ortalaması 151 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-e0b678e4d8103de217"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "engineexplained_d5244t"
+      ],
+      "reasoning": "D5204T (volvo-d-20) motor ailesinin temel puanı 70. Bu aracın motor puanı (70) temel puanla birebir aynı. Ailenin bilinen zaafı: Enjektör arızası, EGR valfi karbon tıkanması, turbo gecikmesi/arızası. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "asrgearbox_tf80sc",
+        "volvoclub_geartronic_reliability",
+        "volvod"
+      ],
+      "reasoning": "Aisin Geartronic (aisin-geartronic) şanzıman ailesinin temel puanı 78. Bu aracın trans puanı (78) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim valf gövdesi tasarımına bağlı sert vites geçişi ve viteste kayma/devir yükselmesi; 06J ve sonrası seri numaralı kutularda güncellenmiş valf gövdesi bu belirtileri önlüyor. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    }
+  }
+}

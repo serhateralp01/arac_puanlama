@@ -308,6 +308,16 @@ MANUAL_SPEC_CORRECTIONS = {
     # WebSearch (auto-data.net, automobile-catalog.com, motoreu.com) gerçek
     # değerin ~330 Nm olduğunu doğruladı (2026-08-17).
     "sig-14d22d951c939d35b5": {"torque_nm": 330.0},
+    # Ford Fiesta 1.6 Ti-VCT otomatik (105 ve 120 bg): kaynak veri şanzımanı "TK"
+    # (tork konvertörü) diyor ama bu neslin Fiesta otomatiği istisnasız 6 ileri
+    # PowerShift **çift kavramalı** kutudur (DPS6/6DCT250, kuru kavrama) —
+    # automobile-catalog.com kayıtları "PowerShift (d-cl. 6)" diye açıkça yazıyor
+    # (2026-08-17 WebSearch). Bu ayrım kozmetik değil: yanlış bırakılırsa terfi
+    # eşleştirmesi kaydı Ford'un sağlam Aisin AWF21 kutusuna bağlıyor ve kullanıcı,
+    # depoda 30 puanla "düşük km'de felaket" bandında duran DPS6'yı taşıyan bir
+    # aracı güvenli sanıyordu.
+    "sig-8546f3239194e3e047": {"transmission_type": "Kuru DCT", "clutch": "Kuru"},
+    "sig-12a0acd3e7ee1e8b08": {"transmission_type": "Kuru DCT", "clutch": "Kuru"},
     # Peugeot 301 1.6 HDi (DV6 motoru): kayıtlı 115 bg / 150 Nm, aslında 1.6 VTi
     # BENZİNLİ varyantının rakamları (aynı çelişki, aynı hata sınıfı puanlanmış
     # peugeot-301-1-6-hdi kaydında bulunmuştu). 301'in 115 bg'lik bir HDi
@@ -355,6 +365,12 @@ BADGE_YEAR_CONFLICTS = {
     "sig-570cb2cd174b7d46da": "E 200 CDI · 190 bg (2002): OM642 2005'ten önce yok, dönemin E200 CDI'ı (OM611) en fazla 122 bg üretiyordu",
     "sig-e2107852394a989776": "E 270 CDI · 224 bg (2003): OM642 2005'ten önce yok, 2003 E-Class'ta 224 bg dizel hiç üretilmedi",
     "sig-e61df3bdd29e1a077f": "CLK 270 CDI · 224 bg (2005-2009): hp gerçek CLK 320 CDI'ya (OM642) yakın ama kayıtlı tork (415 Nm) gerçek CLK 320 CDI'nın (510 Nm) belirgin altında; hangi alanın yanlış olduğu tek başına belirlenemedi",
+    # Bu kayıt 2026-08-17'de bir kez terfi ettirilip geri alınmıştı (kayıtlı hacim
+    # 2.1L OM651'e denk düşüyor ama gerçek CLK 270 CDI 2.7L beş silindirli OM647
+    # taşır ve OM651 2008'den önce üretilmedi). Geri alma sırasında bayrak
+    # konmadığı için aynı gün ikinci bir terfi turunda sessizce geri geldi;
+    # bayrak, o gerilemeyi kalıcı olarak kapatıyor.
+    "sig-0ae05b1e0a937e5e23": "CLK 270 CDI · 150 bg (2005-2009): kayıtlı 2.1L hacim OM651'e denk düşüyor ama gerçek CLK 270 CDI 2.7L OM647 taşır; OM651 2008'den önce üretilmedi",
     # BMW 2.0 benzin kümesi, 2026-08-17: N43B20 (143/170 bg) 2007'den önce,
     # N20B20 turbo (528i'nin 245 bg tünü) 2012'den önce üretilmedi (WebSearch,
     # mymotorlist.com/n43b20 ve carbuzz.com/bmw-n20-engine ile doğrulandı).
@@ -422,10 +438,10 @@ def build_entry(v: dict, quality: dict, links: dict) -> tuple[dict | None, str |
             "fuel": fuel,
             "drivetrain": clean_drivetrain(v.get("drivetrain")) or "Belirtilmemiş",
             "body_type": clean(v.get("body_type")),
-            "transmission_type": clean(v.get("transmission_type")) or "Belirtilmemiş",
+            "transmission_type": fix.get("transmission_type", clean(v.get("transmission_type"))) or "Belirtilmemiş",
             "transmission_name": clean(v.get("transmission_name")),
             "gears": gears,
-            "clutch": clean(v.get("clutch")),
+            "clutch": fix.get("clutch", clean(v.get("clutch"))),
             "engine_code": fix.get("engine_code", clean_engine_code(v.get("engine_code"))),
             "engine_name": clean(v.get("engine_name")),
         },

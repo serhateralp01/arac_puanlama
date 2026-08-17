@@ -1,0 +1,69 @@
+{
+  "id": "hyundai-accent-1-6-128-bg-128",
+  "name": "Hyundai Accent 1.6 · 128 bg",
+  "tag": "oto: 6 ileri otomatik · 128bg",
+  "brand_group": "Hyundai",
+  "years": "2012-2012",
+  "specs": {
+    "hp": 128,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "hyundai-6at",
+    "body_type": "Sedan",
+    "engine_id": "hyundai-u2-16",
+    "torque_nm": 260.0,
+    "gears": 6,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    580,
+    900
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 68,
+    "trans": 78,
+    "fun": 27,
+    "comf": 81,
+    "age": 50,
+    "cost": 83,
+    "liq": 76
+  },
+  "sources": [
+    "enginedna_d4fb",
+    "gearsmag_hyundai_a6",
+    "hyundaiforums_auto",
+    "yourmotorguide_crdi"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Hyundai markasının depodaki 15 aracının ortalaması (konfor 75, maliyet 78, likidite 73) çapa alındı. Bu araç markanın tipik güç aralığında (128 bg / marka ortalaması 128 bg). Gövde tipi Sedan. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-1d3c8f16bb1f1c774f"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "enginedna_d4fb",
+        "yourmotorguide_crdi"
+      ],
+      "reasoning": "U2 (hyundai-u2-16) motor ailesinin temel puanı 68. Bu aracın motor puanı (68) temel puanla birebir aynı. Ailenin bilinen zaafı: DPF'nin kısa mesafede tıkanması, EGR karbon birikimi, zamanla turbo aşınması. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "gearsmag_hyundai_a6",
+        "hyundaiforums_auto"
+      ],
+      "reasoning": "Hyundai 6 ileri tork konvertörü (hyundai-6at) şanzıman ailesinin temel puanı 78. Bu aracın trans puanı (78) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağa karışan metal ve sürtünme tozunun valf gövdesini bozması, aşırı ısınma ve solenoid arızası. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    }
+  }
+}

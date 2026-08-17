@@ -4907,5 +4907,16 @@
     "accessed": "2026-08-17",
     "language": "en",
     "quotes": []
+  },
+  "automobilecatalog_fiesta_powershift": {
+    "id": "automobilecatalog_fiesta_powershift",
+    "claim": "2011-2017 Ford Fiesta 1.6 Ti-VCT otomatik varyantlarının (105 ve 120 bg) şanzımanı 6 ileri PowerShift **çift kavramalı** kutudur (DPS6/6DCT250, kuru kavrama), tork konvertörlü klasik otomatik değil",
+    "publisher": "automobile-catalog.com",
+    "url": "https://www.automobile-catalog.com/car/2014/1817195/ford_fiesta_1_6_ti-vct_trend_powershift.html",
+    "type": "spec-database",
+    "tier": "B",
+    "accessed": "2026-08-17",
+    "language": "en",
+    "quotes": []
   }
 }

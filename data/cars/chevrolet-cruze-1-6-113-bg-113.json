@@ -1,0 +1,69 @@
+{
+  "id": "chevrolet-cruze-1-6-113-bg-113",
+  "name": "Chevrolet Cruze 1.6 · 113 bg",
+  "tag": "oto: 6 ileri otomatik · 113bg",
+  "brand_group": "Chevrolet",
+  "years": "2009-2016",
+  "specs": {
+    "hp": 113,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "gm-aisin-af17",
+    "body_type": "Sedan",
+    "engine_id": "gm-family1-16",
+    "torque_nm": 153.0,
+    "gears": 6,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    550,
+    820
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 62,
+    "trans": 68,
+    "fun": 23,
+    "comf": 85,
+    "age": 50,
+    "cost": 75,
+    "liq": 58
+  },
+  "sources": [
+    "asrgearbox_tf80",
+    "autodoc_astra_j_problems",
+    "gmauthority_family1_phaser",
+    "youcanic_gm_6t40"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Chevrolet markasının depodaki 1 aracının ortalaması (konfor 82, maliyet 73, likidite 58) çapa alındı. Bu araç markanın tipik güç aralığında (113 bg / marka ortalaması 124 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-661e2eebb481e83d67"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "gmauthority_family1_phaser"
+      ],
+      "reasoning": "A16XER (gm-family1-16) motor ailesinin temel puanı 62. Bu aracın motor puanı (62) temel puanla birebir aynı. Ailenin bilinen zaafı: Faz ayarlayıcıların 100.000 km sonrası takırdaması. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "asrgearbox_tf80",
+        "autodoc_astra_j_problems",
+        "youcanic_gm_6t40"
+      ],
+      "reasoning": "AF17 (gm-aisin-af17) şanzıman ailesinin temel puanı 68. Bu aracın trans puanı (68) temel puanla birebir aynı. Ailenin bilinen zaafı: 3-5-R dalgalı plakasının (waved plate) kırılması; kırıldığında tambur kanallarına ve gövdeye zarar veriyor. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    }
+  }
+}

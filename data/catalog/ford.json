@@ -289,19 +289,21 @@
         "fuel": "Benzin",
         "drivetrain": "Önden",
         "body_type": "Hatchback",
-        "transmission_type": "TK",
+        "transmission_type": "Kuru DCT",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
         "gears": 6,
-        "clutch": null,
+        "clutch": "Kuru",
         "engine_code": null,
         "engine_name": "1.6L Ti-VCT 6AT FWD (125 HP)"
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "spec_corrected"
       ],
       "sources": [
+        "automobilecatalog_fiesta_powershift",
         "src-567e6a2f8a9ee14b96",
         "src-c2c93c3f450f37cab2",
         "tech-n-com-cars-ford-fiesta-5-doors-2013-html"
@@ -313,7 +315,10 @@
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-5-doors-2013.html",
         "rejected_label": null,
-        "manually_corrected_fields": null
+        "manually_corrected_fields": [
+          "transmission_type",
+          "clutch"
+        ]
       }
     },
     {
@@ -374,19 +379,21 @@
         "fuel": "Benzin",
         "drivetrain": "Önden",
         "body_type": "Sedan",
-        "transmission_type": "TK",
+        "transmission_type": "Kuru DCT",
         "transmission_name": "2.0L D4 6AT (163 HP) 6-Speed Automatic",
         "gears": 6,
-        "clutch": null,
+        "clutch": "Kuru",
         "engine_code": null,
         "engine_name": "1.6L Ti-VCT 6AT FWD (125 HP)"
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "spec_corrected"
       ],
       "sources": [
+        "automobilecatalog_fiesta_powershift",
         "src-1ca55919a0c1eaced7",
         "src-c2c93c3f450f37cab2"
       ],
@@ -397,7 +404,10 @@
         "publication_status": "candidate_concrete",
         "technical_url": "https://www.autoevolution.com/cars/ford-fiesta-sedan-2011.html",
         "rejected_label": null,
-        "manually_corrected_fields": null
+        "manually_corrected_fields": [
+          "transmission_type",
+          "clutch"
+        ]
       }
     },
     {

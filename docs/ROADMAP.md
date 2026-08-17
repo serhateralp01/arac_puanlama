@@ -33,8 +33,8 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
-| Kaynak derinliği (Y-02) | **Bitti.** 377 araçtan 377'si "doğrulanmış" (4+ kaynak) — `kaynak-yetersiz` uyarısı 2026-08-17'de tamamen kapandı, bkz. Y-19 |
-| Araç listesi (Y-01) | 154 → 278 araç. Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
+| Kaynak derinliği (Y-02) | **Bitti.** 403 aracın tamamı "doğrulanmış" (4+ kaynak) — `kaynak-yetersiz` uyarısı 2026-08-17'de tamamen kapandı, bkz. Y-19 |
+| Araç listesi (Y-01) | 154 → 278 → **403 araç** (Y-19 terfi turları). Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
 | Teknik katalog (MK-22) | **1.641 kayıt** (`data/catalog/`, marka başına bir dosya). Olgusal katmandır: güç, tork, çekiş, hacim, gövde, vites sayısı, kavrama tipi, motor kodu ve teknik kaynak adresi taşır; puan taşımaz. 281 kayıt puanlanmış bir araca bağlı, 1.345'i yalnız katalogda ve kendi statik sayfası var. |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
@@ -1240,6 +1240,65 @@ kod değil test hatalıydı, doğrulanıp geçildi.
 **Sonuç.** `c-kaynakla-uc-puan` 29 → 7, kalan 7'nin hepsi gerçek yargı kriteri
 (`motor`, `trans`, `cost`, `liq`) — yani kural gürültüyü bırakıp asıl işine döndü.
 Toplam uyarı 439 → 370. `validate.py` 0 hata, `smoke_test.js` 68/68.
+
+### Terfi kapısı yeniden kuruldu: 377 → 403 araç, beş yeni koruma (2026-08-17)
+
+**Terfi neden durmuştu.** Katalogdaki 1.243 puanlanmamış kaydın **769'u** hiç
+denenmiyordu, çünkü `promote_catalog.py` "herhangi bir `quality_flags` varsa atla"
+diyordu. Bunların 681'i **yalnızca** `generic_transmission_identity` taşıyordu ve bu
+bayrak "KAYNAK VERİ kutu modelini çözememiş" demek — oysa bu betik kaynağın kutu
+kimliğini hiç okumuyor, kutuyu deponun kendi tablosundan türetiyor ve her adımda
+tekil eşleşme şart koşuyor. Yani kendi çözdüğümüz bir soruyu, başkası çözemedi diye
+çözülmemiş sayıyorduk. Bayrak listesi "bayrak varsa dur"dan "**bayrak neyi söylüyorsa
+ona göre dur**"a çevrildi (`BLOCKING_FLAGS`, her madde tek tek gerekçeli).
+
+**Kapı açılınca beş gerçek hata sınıfı ortaya çıktı — hepsi yazmadan önce yakalandı.**
+İlk kuru çalıştırma 54 aday üretti ve elle denetimde şunlar görüldü:
+
+1. **Anakronizm (bu oturumda dördüncü kez).** 2004-2009 model bir Seat Toledo'ya
+   2012'de üretime giren EA288 ve 2008'de çıkan DQ200 bağlanmıştı. Aynı sınıf hata
+   daha önce OM651 (2000 model Mercedes'e), N43 (2005 model BMW'ye) ve N20 (2009
+   model 528i'ye) ile üç kez çıkmıştı — hepsinde beygir/hacim doğru, yanlış olan tek
+   şey zamandı. Artık **elle değil sistemik** çözülüyor: ailenin depoda görüldüğü
+   model yılı aralığı çıkarılıyor ve aday o pencerenin dışındaysa eleniyor. Pencere
+   dışarıdan bir üretim takvimi değil, deponun kendi 377 aracının söylediği şey.
+2. **Kapsam ihlali.** Altı Toyota Corolla Hybrid aday listesine girmişti. Kaynak veri
+   hibritleri "Benzin" yazdığı için yakıt alanı yakalamıyor. MK-13'ün gerekçesi
+   (puanlama içten yanmalı motor + klasik otomatik davranışı üzerine kurulu) hibrit
+   için de geçerli ve depoda bugüne kadar hiç puanlanmış hibrit yok; addan eleniyor.
+3. **Platform karıştırma (MK-08).** Önden çekişli enine motorlu bir Audi A1, deponun
+   tek `zf-6hp` örneği olan **dört çeker boyuna** A6'dan çıkarımla ZF 6HP'ye
+   bağlanmıştı. Boyuna ve enine kutular aynı tedarikçiden bile olsa farklı fiziksel
+   ünitedir; çekiş tipi artık şanzıman eşleştirme anahtarının parçası.
+4. **Nesil sınırını aşan güç bandı.** "BMW 5 Serisi 535i · 306 bg" M54'e bağlanmıştı —
+   betiğin **kendi dokümantasyonunda** "ilk sürümde yakalandı" diye yazan hatanın
+   aynısı, ikinci kez. Sebep: %75-%135 bandı. M54 3.0L depoda 231 bg üretiyor, üst
+   sınır 312'ye açılıyor ve 306 bg'lik N54 çift turbo içeri giriyordu. Bant %85-%110'a
+   çekildi (aynı motor kodunun aynı hacimdeki gerçek tün farkı %10'u nadiren aşar) ve
+   yıl toleransı 2'den 1'e indirildi; bu ikisi birlikte yanlış eşleşen bütün BMW
+   benzinli adayları (218/230/258/306 bg) eledi, doğru dizel olanları (M57 197/231 bg)
+   bıraktı.
+5. **Ad ile kaydın çelişmesi.** "Volvo S60 2.0 T · 150 bg" yakıtı Dizel kayıtlıydı
+   (düz "T" rozeti mevcut yakıt-çelişki denetiminde yoktu), "Ford Focus 1.5 Ti-VCT"
+   kaydı 1.6 L idi. Bu kayıtların specs alanları büyük olasılıkla doğru, yanlış olan
+   ad — ama o adla terfi etmek kullanıcıya benzinli rozet gösterip dizel puanı vermek
+   olurdu. Ad düzeltilene kadar terfi bekletiliyor.
+
+**Bir de kullanıcıyı doğrudan yanıltacak bir veri hatası bulundu ve düzeltildi.**
+"Ford Fiesta 1.6 · 105 bg" kaydı şanzımanı "TK" (tork konvertörü) diyordu; bu neslin
+Fiesta otomatiği istisnasız 6 ileri **PowerShift çift kavramalı** kutudur (DPS6),
+automobile-catalog.com kayıtlarında "PowerShift (d-cl. 6)" diye açıkça yazılı. Fark
+kozmetik değil: yanlış bırakılsa kayıt Ford'un sağlam Aisin AWF21'ine bağlanacaktı,
+oysa gerçek kutu depoda **30 puanla "düşük km'de felaket" bandında** duran DPS6.
+Düzeltildikten sonra kayıt doğru kutuya (`ford-dps6`) bağlandı.
+
+**Bir gerileme de kapatıldı.** Daha önce terfisi geri alınan "CLK 270 CDI · 150 bg"
+kaydına o sırada bayrak konmamıştı; bayraksız olduğu için aynı gün ikinci turda
+sessizce geri geldi. `rozet_yil_celiskisi` ile kalıcı olarak kapatıldı.
+
+**Sonuç.** 54 ham aday → beş koruma sonrası **26 terfi**. Araç sayısı 377 → 403,
+statik sayfa 1.737 → 1.763. Yeni araçların gövde tipi elle dolduruldu (17 kayıt).
+`validate.py` 0 hata, `smoke_test.js` 68/68.
 
 ---
 

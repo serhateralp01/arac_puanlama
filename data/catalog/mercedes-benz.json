@@ -2305,7 +2305,9 @@
       },
       "scored_car_id": null,
       "possible_scored_car_ids": [],
-      "quality_flags": [],
+      "quality_flags": [
+        "rozet_yil_celiskisi"
+      ],
       "sources": [
         "src-9b570800e1f1ea1b51",
         "src-b380f89e5e0dbace82"

@@ -1,0 +1,69 @@
+{
+  "id": "ford-s-max-2-0-tdci-titanium-140-bg-140",
+  "name": "Ford S-Max 2.0 TDCi Titanium · 140 bg",
+  "tag": "oto: 6 ileri otomatik · 140bg",
+  "brand_group": "Ford",
+  "years": "2006-2014",
+  "specs": {
+    "hp": 140,
+    "displacement_l": 2.0,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-awf21",
+    "body_type": "MPV",
+    "engine_id": "ford-duratorq-20",
+    "torque_nm": 320.0,
+    "gears": 6,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    830,
+    1050
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 64,
+    "trans": 72,
+    "fun": 32,
+    "comf": 78,
+    "age": 50,
+    "cost": 76,
+    "liq": 66
+  },
+  "sources": [
+    "akppro_tf81sc",
+    "enginedna_duratorq_20",
+    "fordwiki_awf21",
+    "whocanfixmycar_mondeo_whatcar"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Ford markasının depodaki 11 aracının ortalaması (konfor 75, maliyet 71, likidite 66) çapa alındı. Bu araç markanın tipik güç aralığında (140 bg / marka ortalaması 135 bg). Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant sig-e55ea7d88660133ffe"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "enginedna_duratorq_20"
+      ],
+      "reasoning": "Duratorq TDCi (ford-duratorq-20) motor ailesinin temel puanı 64. Bu aracın motor puanı (64) temel puanla birebir aynı. Ailenin bilinen zaafı: Kısa mesafe kullanımda DPF tıkanması ve EGR valfi sorunu; en sık bildirilen arıza. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "akppro_tf81sc",
+        "fordwiki_awf21",
+        "whocanfixmycar_mondeo_whatcar"
+      ],
+      "reasoning": "AWF21 (aisin-awf21) şanzıman ailesinin temel puanı 72. Bu aracın trans puanı (72) temel puanla birebir aynı. Ailenin bilinen zaafı: Tork konvertörü kilitleme valfinin bozulması; ailenin bilinen zayıf noktası. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    }
+  }
+}
