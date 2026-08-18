@@ -388,6 +388,27 @@ BADGE_YEAR_CONFLICTS = {
     "sig-5527d794a99d62ccef": "528i · 245 bg (2010): N20B20 turbo 2012'den önce üretilmedi",
     "sig-a434f6dd463a564ade": "528i · 245 bg (2009): N20B20 turbo 2012'den önce üretilmedi",
     "sig-aedce9836ea9527583": "528i · 245 bg (2010): N20B20 turbo 2012'den önce üretilmedi",
+    # Aynı üç gerçek-dışı kombinasyonun P2.1 kaynağındaki İKİNCİ bir satırı,
+    # 2026-08-18'de scripts/promote_catalog.py'nin aday listesinde tekrar
+    # görüldü — farklı bir source_variant_id taşıdığı için yukarıdaki üç
+    # kayıt onu yakalamamıştı. Aynı gerekçeyle burada da işaretlendi (bkz.
+    # docs/ROADMAP.md Y-23): kaynak paketi aynı hatayı birden fazla satırda
+    # tekrarlıyor, bu yüzden bayrak yalnız variant_id'ye değil isim+yıl+bg
+    # birleşimine göre de aranmalı — bu üçü elle bulundu, sistematik bir
+    # ikinci-satır taraması henüz yapılmadı.
+    "sig-1a5b16eb58d6d053a7": "9-3 2.0 TS · 130 bg (2000-2002): 130 bg Saab'ın atmosferik 2.0i motorudur, addaki turbo (TS) rozetiyle çelişiyor",
+    "sig-18793818dbd0213835": "9-3 2.0 Turbo · 154 bg (2000-2002): 154 bg düşük basınçlı 2.0t'dir; \"2.0 Turbo\" rozeti Saab'ta 185-205 bg HOT motoru anlatır",
+    "sig-04e3483c88f95fd25f": "530xd · 231 bg (2004-2004): E60 530xd xDrive dizel ancak Eylül 2005'te üretime girdi; bu yıl/rozet/güç birleşimi gerçek bir ürüne denk gelmiyor",
+    # Yukarıdaki keşfin ardından aynı isim taşıyan bütün katalog kayıtları
+    # sistematik tarandı (isim eşleşmesi, tek tek WebSearch değil — ama yıl/bg
+    # kombinasyonu zaten yukarıda doğrulanmış olduğu için ek doğrulama
+    # gerekmedi): üçüncü isim başına 2-4 arası "kardeş" satır bulundu, hepsi
+    # aynı 2000-2002/2001-2002 anakronik yıl aralığında.
+    "sig-e9969c7d0dc4b2b5e1": "9-3 2.0 TS · 130 bg (2000-2002): yukarıdakiyle aynı isim, üçüncü satır",
+    "sig-a8a99912a2ab4bb482": "318i · 143 bg (2001): N43B20 2007'den önce üretilmedi",
+    "sig-4f754ff06e1778782f": "318i · 143 bg (2002): N43B20 2007'den önce üretilmedi",
+    "sig-8eb3d386864bc5a056": "320i · 170 bg (2001): N43B20 2007'den önce üretilmedi",
+    "sig-b73950fa031e76b279": "320i · 170 bg (2002): N43B20 2007'den önce üretilmedi",
 }
 
 

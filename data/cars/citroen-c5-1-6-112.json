@@ -1,0 +1,69 @@
+{
+  "id": "citroen-c5-1-6-112",
+  "name": "Citroën C5 1.6 e-HDi 112 MCP",
+  "tag": "oto: ? ileri robotlu yarı otomatik · 112bg",
+  "brand_group": "Citroën",
+  "years": "2012-2013",
+  "specs": {
+    "hp": 112,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "Robot",
+    "transmission_id": "psa-etg",
+    "body_type": "Sedan",
+    "engine_id": "psa-dv6",
+    "torque_nm": null,
+    "gears": null,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    550,
+    820
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 44,
+    "trans": 38,
+    "fun": 54,
+    "comf": 65,
+    "age": 50,
+    "cost": 66,
+    "liq": 57
+  },
+  "sources": [
+    "au7o_peugeot308_known_issues",
+    "ecotorque_psa_etg_aktuator",
+    "propeugeotspares_16hdi_egr",
+    "trbox"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Citroën markasının depodaki 13 aracının ortalaması (konfor 70, maliyet 69, likidite 60) çapa alındı. Bu araç markanın tipik güç aralığında (112 bg / marka ortalaması 126 bg). Gövde tipi Sedan. Şanzıman robotlu yarı otomatik (en az yumuşak geçiş). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant 331"
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "au7o_peugeot308_known_issues",
+        "propeugeotspares_16hdi_egr"
+      ],
+      "reasoning": "DV6 (psa-dv6) motor ailesinin temel puanı 44. Bu aracın motor puanı (44) temel puanla birebir aynı. Ailenin bilinen zaafı: EGR'de sertleşen karbon/yağ buharı tortusu; bu tortu turbo yağ besleme hattını da tıkayıp turbo yatağını yağsız bırakabiliyor. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "ecotorque_psa_etg_aktuator",
+        "trbox"
+      ],
+      "reasoning": "ETG (psa-etg) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Ailenin bilinen zaafı: Kavrama aktüatörünün arızalanması; sarsıntılı veya yavaş vites geçişi, vites seçememe, viteste/boşta kalma ve 'gearbox faulty' uyarısı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    }
+  }
+}

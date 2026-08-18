@@ -34,7 +34,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
 | Kaynak derinliği (Y-02) | **Bitti.** 400 aracın tamamı "doğrulanmış" (4+ kaynak) — `kaynak-yetersiz` uyarısı 2026-08-17'de tamamen kapandı, bkz. Y-19 |
-| Araç listesi (Y-01) | 154 → 278 → **400 araç** (Y-19 terfi turları). Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
+| Araç listesi (Y-01) | 154 → 278 → 400 → **406 araç** (Y-19/Y-23 terfi turları). Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
 | Teknik katalog (MK-22) | **1.656 kayıt** (`data/catalog/`, marka başına bir dosya). Olgusal katmandır: güç, tork, çekiş, hacim, gövde, vites sayısı, kavrama tipi, motor kodu ve teknik kaynak adresi taşır; puan taşımaz. 281 kayıt puanlanmış bir araca bağlı, 1.218'i yalnız katalogda ve kendi statik sayfası var — bunun 15'i Y-22'de TSB Kasko Değer Listesi'nden eklendi. |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
@@ -1580,6 +1580,76 @@ dry-run'da mevcut `NEW_ENTRIES` listesini gösterir. Genişletmeyi sürdürmenin
 başka bir TSB baskısını veya başka bir yapılandırılmış listeyi aynı elle-inceleme
 disipliniyle işlemektir — otomatik ayrıştırmanın hacmi büyütmesi değil, incelemenin
 insan tarafından yapılması bu katmanın güvenilirliğini koruyan şey.
+
+---
+
+## Y-23 · Terfi turu: 8 anakronik katalog kaydı bulundu, 6 araç güvenle terfi etti — **bitti (2026-08-18)**
+
+**Bağlam.** Kullanıcı "verileri genişletmek, portföyü genişletmek, bilgileri doğrulamak"
+dedi. `scripts/promote_catalog.py` dry-run çalıştırıldığında 38 aday, bunların 27'si
+depoda zaten aynı adla vardı, geri kalan 11'i incelendi.
+
+**Bulgu: iki tanıdık isim geri geldi.** Aday listesinde `bmw-5-serisi-530xd-231-bg-231-2`
+ve iki Saab kaydı vardı — bunlar bu oturumun DAHA ÖNCEKİ bir turunda (bkz. yukarıdaki
+"Yeni terfi edenlerin fun puanı hesaplandı" bölümü) zamanda-imkânsız eşleşme oldukları
+için puanlı katmandan SİLİNMİŞTİ. Sorun: silme işlemi yalnızca `data/cars/`'daki
+kopyayı kaldırmıştı, bunları besleyen `data/catalog/` satırlarına hiç bayrak
+konmamıştı — yani aynı hatalı eşleşme `promote_catalog.py` bir dahaki sefer
+çalıştığında sessizce GERİ GELEBİLİRDİ. Bu turda önce bu üçü `rozet_yil_celiskisi`
+bayrağıyla işaretlendi (kalıcı engel, bkz. `BLOCKING_FLAGS`).
+
+**Sistematik tarama, üçten sekize çıktı.** Bayraklı satırların "kardeşlerini" (aynı
+`name` alanını taşıyan diğer katalog satırlarını) taradığımda 5 tane daha bulundu:
+`saab-9-3-2-0-ts-130-bg-130-2` ve dört BMW 318i/320i kaydı — hepsi P2.1 veri
+paketinin AYNI gerçek-dışı kombinasyonu farklı `source_variant_id` altında birden
+fazla kez tekrarladığının kanıtı. Sekizi de bayraklandı; `scripts/import_catalog.py`
+içindeki `BADGE_YEAR_CONFLICTS` sözlüğüne de eklendi (yalnız üretilen JSON'a değil,
+kaynağa da yazıldı ki katalog bir daha üretilirse bayrak kaybolmasın).
+
+**Yol boyunca üçüncü bir kusur: `year_ok()`'un ince-örneklem kaçış deliği.**
+`promote_catalog.py`'nin kendi zaman-makullüğü kontrolü, bir aile depoda **2'den az
+araçta** görülüyorsa (`len(ys) < 4`) kontrolü tamamen ATLIYOR ve adayı otomatik geçerli
+sayıyor — "depo o ailenin bütün üretim dönemini örneklemiş olmayabilir" gerekçesiyle
+bilinçli eklenmiş bir esneklik, ama bunun bedelini bu turda somut olarak ödedik:
+"Skoda Superb 1.8 TSI 160 Tiptronic" (2012 model, Y-22'de eklenen bir katalog kaydı)
+`vag-01m`'e eşleşti — bu, depoda TEK bir araçta (1996-2010 model bir Skoda Octavia
+Tour) görülen, **4 ileri** eski nesil bir kutu. 2012 model bir Superb'e 1990'ların
+4 ileri kutusunu bağlamak, bu oturumda dört kez tekrarlayan "zamanda imkânsız eşleşme"
+hatasının BEŞİNCİ örneği olurdu — yalnız bu kez hatayı üreten kendi yazdığım betikti.
+Aynı sebeple "Alfa Romeo MiTo 1.4 T 135 bg (2008)" adayı da elendi: `fca-multiair-14`
+motor ailesi depoda yalnızca 2009 ve sonrasında görülüyor (MultiAir teknolojisi
+MiTo'ya gerçekte 2009-2010'da geldi, 2008 lansmanında değil), aday yalnızca ±1 yıl
+toleransının sınırında kaldığı için otomatik geçti. İkisi de `--write` çalıştırılmadan
+ELLE elendi (betiğin ürettiği 8 adaydan 6'sı yazıldı); ikisi de kalıcı bir
+`rozet_yil_celiskisi` bayrağı ALMADI çünkü bu ortamdan web erişimi olmadığı için iddia
+tam doğrulanamadı — yanlış olduklarına dair güçlü ama kesin olmayan bir sinyal var, bu
+yüzden gelecekte doğrulanana kadar yalnızca katalogda, terfi edilmemiş halde bekliyorlar.
+
+**`year_ok()` kendisi bu turda değiştirilmedi.** Eşiği "2'den az araç" yerine sıkılaştırmak
+(ör. hep uygula, hiç atlamama) muhtemelen bugün GEÇERLİ olan başka eşleşmeleri
+yanlışlıkla reddederdi — deponun 406 aracının çoğu aile başına 1-3 örnekle temsil
+ediliyor. Doğru düzeltme muhtemelen "ailenin TEK örneği varsa pencereyi o örneğin
+kendi yıl aralığına ±1 sabitle" gibi daha ince bir kural, ama bunun başka hangi
+mevcut terfileri etkileyeceği bu turda test edilmedi. Bir sonraki adım olarak
+`docs/ROADMAP.md`'ye not düşüldü, koda dokunulmadı — CLAUDE.md §2: çalışan bir sistemi
+aceleyle değiştirmek yerine önce anlaşılmalı.
+
+**Sonuç.** 6 araç terfi etti: `audi-a8-3-0-tdi-250-bg-250`, `citroen-c5-1-6-115`,
+`citroen-c5-1-6-112`, `citroen-ds4-1-6-112`, `opel-corsa-1-4-90`, `skoda-rapid-1-0-110`
+(dördü Y-22'de TSB'den eklenen katalog kayıtlarının terfisi). 400 → 406 araç. `motor`/
+`trans` puanları MK-16 mekanik miras deseniyle aile kaydından geldi; `comf`/`cost`/`liq`/
+`fun` en yakın kardeş araçtan tahmin edildi ve `note` alanında açıkça "araca özgü
+araştırılmadı" yazıyor — uydurma değil, deponun zaten kullandığı yöntemin otomatikleştirilmiş
+hali. `validate.py` 0 hata (yeni uyarılar `c-kaynakla-uc-puan` +2 ve `govde-tipi-yok` +1,
+ikisi de deponun geri kalanında zaten var olan, kabul edilmiş bir kalıp). `smoke_test.js`
+tam geçti.
+
+**Bitmiş sayılma ölçütü — bir sonraki tur için.** `python3 scripts/promote_catalog.py`
+çalıştırıp "aday" sayısına bakmak: kalan 27 "depoda aynı adla zaten var" satırının
+eşlemesi elle çözülebilir (aynı araç muhtemelen farklı bir id altında zaten var, ama
+`scored_car_id` bağlanmamış). `year_ok()`'un ince-örneklem kuralı sıkılaştırılmadan
+önce mevcut 406 aracın kaçının bu kuralın gevşekliğinden geçtiği taranmalı — bu turda
+üç örnek elle bulundu, sistematik bir tarama yapılmadı.
 
 ---
 

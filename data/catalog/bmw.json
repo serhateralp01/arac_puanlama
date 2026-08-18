@@ -2464,7 +2464,8 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "rozet_yil_celiskisi"
       ],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -2504,7 +2505,8 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "rozet_yil_celiskisi"
       ],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -3581,7 +3583,8 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "rozet_yil_celiskisi"
       ],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -3621,7 +3624,8 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "rozet_yil_celiskisi"
       ],
       "sources": [
         "market-526-550-hp-551-575-hp-576-600-hp-601",
@@ -6960,7 +6964,8 @@
       "scored_car_id": null,
       "possible_scored_car_ids": [],
       "quality_flags": [
-        "generic_transmission_identity"
+        "generic_transmission_identity",
+        "rozet_yil_celiskisi"
       ],
       "sources": [
         "src-dd3dfc2af85bd84d87",

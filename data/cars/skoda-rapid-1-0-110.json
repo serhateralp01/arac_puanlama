@@ -1,0 +1,71 @@
+{
+  "id": "skoda-rapid-1-0-110",
+  "name": "Skoda Rapid Spaceback 1.0 TSI DSG",
+  "tag": "oto: ? ileri kuru DCT · 110bg",
+  "brand_group": "Skoda",
+  "years": "2017-2018",
+  "specs": {
+    "hp": 110,
+    "displacement_l": 1.0,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Hatchback",
+    "engine_id": "vag-ea211",
+    "torque_nm": null,
+    "gears": null,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    600,
+    880
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 72,
+    "trans": 38,
+    "fun": 27,
+    "comf": 72,
+    "age": 50,
+    "cost": 67,
+    "liq": 67
+  },
+  "sources": [
+    "andcetin_dq200",
+    "ecotorque_dq200_mechatronic",
+    "enginecrux_ea211_14tsi",
+    "oreateai_ea111_vs_ea211",
+    "trbox"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Skoda markasının depodaki 15 aracının ortalaması (konfor 76, maliyet 73, likidite 68) çapa alındı. Bu araç markanın tipik güç aralığında (110 bg / marka ortalaması 128 bg). Gövde tipi Hatchback. Şanzıman kuru çift kavrama (bilinen düşük hız sarsıntısı riski). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant 1194"
+  },
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "oreateai_ea111_vs_ea211",
+        "enginecrux_ea211_14tsi"
+      ],
+      "reasoning": "EA211 (vag-ea211) motor ailesinin temel puanı 72. Bu aracın motor puanı (72) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim motorlarda piston segmanı tasarımı ve PCV sistemiyle ilişkili, kısa mesafe kullanımda artan yağ tüketimi. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dq200",
+        "trbox",
+        "ecotorque_dq200_mechatronic"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim (2012 öncesi) kavrama paketinin aşınması; 2012'de tasarım yenilendi. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    }
+  }
+}

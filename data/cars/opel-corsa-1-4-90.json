@@ -1,0 +1,69 @@
+{
+  "id": "opel-corsa-1-4-90",
+  "name": "Opel Corsa 1.4 AT6",
+  "tag": "oto: ? ileri otomatik · 90bg",
+  "brand_group": "Opel",
+  "years": "2016-2019",
+  "specs": {
+    "hp": 90,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "gm-aisin-af17",
+    "body_type": "Hatchback",
+    "engine_id": "gm-a14net",
+    "torque_nm": null,
+    "gears": null,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    880,
+    1200
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 58,
+    "trans": 68,
+    "fun": 29,
+    "comf": 75,
+    "age": 50,
+    "cost": 75,
+    "liq": 66
+  },
+  "sources": [
+    "asrgearbox_tf80",
+    "autodoc_astra_j_problems",
+    "cherishyourcar_a14net",
+    "youcanic_gm_6t40"
+  ],
+  "note": "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Opel markasının depodaki 16 aracının ortalaması (konfor 75, maliyet 71, likidite 63) çapa alındı. Bu araç markanın ortalama gücünün biraz altında (90 bg / marka ortalaması 137 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-17",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant 1234"
+  },
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "cherishyourcar_a14net"
+      ],
+      "reasoning": "A14NET (gm-a14net) motor ailesinin temel puanı 58. Bu aracın motor puanı (58) temel puanla birebir aynı. Ailenin bilinen zaafı: Krank kutusu havalandırma (PCV) arızası, yaygın. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "asrgearbox_tf80",
+        "autodoc_astra_j_problems",
+        "youcanic_gm_6t40"
+      ],
+      "reasoning": "AF17 (gm-aisin-af17) şanzıman ailesinin temel puanı 68. Bu aracın trans puanı (68) temel puanla birebir aynı. Ailenin bilinen zaafı: 3-5-R dalgalı plakasının (waved plate) kırılması; kırıldığında tambur kanallarına ve gövdeye zarar veriyor. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-17"
+    }
+  }
+}
