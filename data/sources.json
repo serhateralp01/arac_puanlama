@@ -4918,5 +4918,20 @@
     "accessed": "2026-08-17",
     "language": "en",
     "quotes": []
+  },
+  "tsb_kasko_degeri_2026_07": {
+    "id": "tsb_kasko_degeri_2026_07",
+    "claim": "Türkiye Sigorta Birliği'nin (TSB) periyodik Kasko Değer Listesi'nin Temmuz 2026 baskısında, 2012-2019 model yılları için marka+tip bazında yayımlanan resmi kasko sigorta değerleri (TL); bu değerler o modelin BUGÜN (2026-07 itibarıyla) sigortalanabilir değerini gösterir, ilan fiyatı ya da gerçekleşen satış fiyatı değildir.",
+    "publisher": "Türkiye Sigorta Birliği (TSB)",
+    "url": "https://tsb.org.tr/",
+    "type": "spec-database",
+    "tier": "A",
+    "accessed": "2026-08-18",
+    "language": "tr",
+    "quotes": [],
+    "retrieval": {
+      "engine": "kullanıcı tarafından depoya elle yapıştırıldı (bu ortamdan tsb.org.tr'ye ağ erişimi yok, bkz. docs/FIYAT-KAYNAK-ARASTIRMASI.md)",
+      "found_at": "2026-08-18"
+    }
   }
 }

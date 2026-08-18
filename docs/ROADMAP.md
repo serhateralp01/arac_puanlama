@@ -25,7 +25,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 64/64 duman testi (statik sayfa, SEO ve katalog kontrolleri dahil) |
 | `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 261/377 araç; terfi eden 99 aracın tamamı dahil — bkz. Y-19). `comf` ve `cost` hâlâ elle veriliyor. |
-| `price` kriteri (MK-19) | **Tarihlendi.** 19 araç 2026-08-13 tarihli piyasa gözlemine bağlandı (`price_reference` bloğu: tarih, yöntem, örneklem, sınırlılık). Kalan 259 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
+| `price` kriteri (MK-19) | **Tarihlendi, iki ayrı kaynakla.** 19 araç 2026-08-13 tarihli arabam.com ilan gözlemine, 10 araç 2026-07 tarihli TSB Kasko Değer Listesi'ne bağlandı (bkz. Y-21). Toplam 29 araçta `price_reference` bloğu (tarih, yöntem, örneklem/kaynak, sınırlılık) var; kalan 371 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
 | Çok ekranlı arayüz: ana ekran, giriş akışı, liste, metodoloji, kaynak öner, iletişim | Çalışıyor |
 | GitHub Pages yayını | Çıktı `index.html` olarak üretiliyor, kök adres siteyi açıyor |
@@ -1444,6 +1444,81 @@ Kontrol sayısı 68 → 69.
 Sürükleme, fare ve klavye (ok tuşları) için doğrulandı; rayın kendisine yapılan dokunuş
 bilinçli olarak uçları oynatmıyor, çünkü iki uç üst üste durduğu için raya dokunmak
 yanlış ucu fırlatabilirdi.
+
+---
+
+## Y-21 · TSB Kasko Değer Listesi'nin araca yazılması — **birinci tur bitti (2026-08-18)**
+
+**Bulgu.** Y-20'de aranan ama bu ortamdan erişilemeyen TSB Kasko Değer Listesi'ne
+kullanıcı kendi makinesinden ulaştı ve ham veriyi depoya elle yapıştırdı: 1.508 satır,
+marka kodu + tip kodu + marka adı + serbest metin tip adı + 2012-2019 model yılları için
+TL cinsinden resmi kasko değeri. Bu, Y-20'nin "kendi makinende doğrula" adımının karşılık
+bulmasıydı ve projenin en büyük açık kalemi olan tarihsiz fiyat bandı sorununu ilk kez
+gerçek, resmi, tarihli bir kaynakla kapatma imkânı verdi.
+
+**Veri nereye kondu.** Ham TSV hiç değiştirilmeden `data/market/tsb-kasko-2026-07.tsv`
+içine, yöntem ve sınırlılıkları anlatan künye `data/market/tsb-kasko-2026-07.json` içine
+yazıldı — `price-snapshots-2026-08.json`'un izlediği örüntünün aynısı (MK-19). Kaynak
+künyesi `data/sources.json`'a `tsb_kasko_degeri_2026_07` kimliğiyle eklendi (tip
+`spec-database`, tier `A`, çünkü resmi bir sektör birliği yayını, tekil anekdot değil).
+
+**Neden bir tür-değil sigorta değeri, ilan fiyatı değil.** `price_reference.price_semantics`
+alanı `"estimate"` olarak işaretlendi; bu, `arabam.com` anlık ilan gözleminin taşıdığı
+`"asking_price_snapshot"`'tan kasıtlı olarak farklı. Kasko değeri pazarlık payı taşımaz ve
+tek bir satıcının iyimserliğini yansıtmaz; bu yüzden ilan fiyatının bir miktar altında
+kalması beklenir. İki kaynak birbirinin yerine geçmiyor, birbirini tamamlıyor.
+
+**Eşleştirme neden bu kadar temkinli tutuldu.** `scripts/import_tsb_kasko.py` yazıldı.
+TSB'nin `Tip Adı` alanı serbest metin (ör. `"3 HB SKY-G 1.5 120 REFLEX 6AT"`); motor
+hacmi, beygir, yakıt ve şanzıman kategorisi regex ile ayrıştırılıyor. Betik geliştirilirken
+canlı veride iki gerçek çakışma yakalandı ve ikisi de bu oturumun daha önce dört kez
+tekrarlayan "zamanda imkânsız eşleşme" hatasıyla aynı aile:
+
+1. Skoda Superb 1.8 TSI için TSB satırı `"TIPTRONIC"` diyordu (torque konvertörlü),
+   ama araç kaydı `"DSG"` (kuru çift kavrama, DQ200) taşıyordu — ikisi farklı fiziksel
+   donanım. Kaba kategori kontrolü (`trans_category()`) eklenip DSG/TCT/S-tronic → DCT,
+   düz "Tiptronic"/"AT"/"EAT" → TK, CVT/Multitronic → CVT, MCP/ETG → Robot ayrımı
+   zorunlu tutulunca bu satır otomatik olarak elendi.
+2. Aynı kontrol, Alfa Romeo MiTo 1.4 170 QV için TSB'nin "TCT" (çift kavrama) rozetli
+   satırını da elimine etti, çünkü araç kaydı `aisin-tf80` (torque konvertörlü) taşıyor;
+   iki kaynağın aynı nominal araç için farklı şanzıman ailesi iddia etmesi, MiTo QV'nin
+   bilinen üretim tarihçesiyle (170 bg QV manuel şanzımanla satıldı) birlikte
+   düşünüldüğünde, satırın atlanması gereken bir çelişki olarak değerlendirildi.
+
+Eşleşme kabulü şu beşinin **hepsini** istiyor: marka, model ailesi adı (aracın isminden
+marka öneki atılıp kalan ilk kelime — "Giulietta", "Octavia" gibi — TSB metninde geçmeli),
+hacim (tam eşleşme), beygir (±3), yakıt ve şanzıman kategorisi. Bulunan yıl değerleri
+aracın kendi üretim yılları aralığına (`years`) kırpılıyor; aralığın dışındaki model
+yılları hiç okunmuyor.
+
+**Sonuç: 400 aracın 10'una tarihli bant yazıldı.** 2012-2019 ile kesişen 289 araçtan
+yalnızca 10'u bu beş koşulun tamamını sağladı — düşük bir oran, ama bilinçli bir seçim:
+TSB listesi geniş olsa da bu projenin sahip olduğu spesifik motor/beygir/şanzıman
+kombinasyonlarının çoğunu içermiyor, ve serbest metinden yanlış eşleştirmek (kanıt
+kirletmek) hiç eşleştirmemekten daha kötü. Yazılan 10 araç:
+`citroen-c4-1-6-thp`, `ford-focus-3-1-6-ti-vct`, `opel-astra-1-4-t-2013`,
+`opel-insignia-1-6-t`, `seat-altea-1-6-tdi-105-bg-105`, `seat-ibiza-6j-1-2-tsi-dsg`,
+`seat-leon-1-6-tdi-105-bg-105-2`, `skoda-octavia-1-4-tsi-122`,
+`skoda-octavia-1-4-tsi-122-bg-122`, `skoda-superb-2-0-tdi`. Yeni bantlar eskilerin
+%10-25 civarında sapmasıyla çıktı — aşırı bir düzeltme değil, mevcut tahminlerin genel
+doğru sırada olduğunun bağımsız bir teyidi. `fiyat-tarihsiz` uyarısı 381 → 371'e indi.
+
+**Bilinçli olarak yapılmayan iş — portföy genişletme.** Kullanıcı ayrıca "portföyü öbür
+listeden ilham alarak genişlet" istedi. `data/catalog/*.json` dosyaları elle
+düzenlenmiyor — `_comment` alanında açıkça yazdığı gibi `scripts/import_catalog.py`
+tarafından P2.1 veri paketinden üretiliyor (MK-22); TSB satırlarından elle yeni katalog
+kaydı uydurmak bu katman sınırını ihlal ederdi. Ayrıca katalogdan puanlı araca terfi
+(`promote_catalog.py`) yalnızca fiyatla değil motor/şanzıman/konfor gibi güvenilirlik
+kanıtıyla da besleniyor; TSB tek başına bunu sağlamıyor. Bu yüzden genişletme bu turda
+yapılmadı; TSB'nin geniş marka/model kapsamı ileride hangi katalog kayıtlarının terfi
+kuyruğunda önceliklendirilebileceğine dair bir ipucu olarak duruyor, ayrı bir tur ister.
+
+**Bitmiş sayılma ölçütü — bir sonraki tur için.** `python3 scripts/import_tsb_kasko.py`
+dry-run'da kaç yeni eşleşme bulduğunu gösterir. Eşleştirme kapsamını genişletmenin en
+güvenli yolu model ailesi token listesini (bugün tek kelime) çok kelimeli isimlere
+(`"C4 CACTUS"`, `"3008"` gibi) genişletmek ve gövde tipini (`body_type`) de TSB metninden
+ayrıştırıp beşinci bir eşleşme koşulu yapmaktır — bu, `opel-astra-1-4-t-2013` gibi
+GTC/sedan/hatchback karışık bantların gövdeye göre daralmasını sağlar.
 
 ---
 

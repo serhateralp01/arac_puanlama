@@ -1,0 +1,17 @@
+{
+  "_comment": "Türkiye Sigorta Birliği'nin (TSB) periyodik Kasko Değer Listesi'nden alınan, marka+tip bazında model yılı kırılımlı resmi sigorta değerleridir. Bu dosya bu ortamdan tsb.org.tr'ye ağ erişimi olmadığı için (bkz. docs/FIYAT-KAYNAK-ARASTIRMASI.md) kullanıcı tarafından depoya elle yapıştırılan ham veriye dayanır; ham TSV dosyası `tsb-kasko-2026-07.tsv` olarak yanında saklanır, hiçbir satır elle değiştirilmedi. Bu dosya arabam.com anlık ilan gözleminden (price-snapshots-2026-08.json) YÖNTEM olarak farklıdır: o dosya İSTENEN İLAN fiyatını, bu dosya ise TSB'nin resmi SİGORTA DEĞERİNİ taşır. Kasko değeri pazarlık payı taşımaz, tek bir sigorta şirketinin değil sektör birliğinin ortak referansıdır; bu yüzden ilan fiyatından sistematik olarak daha muhafazakar (düşük) çıkması beklenir ve iki kaynak birbirinin yerine geçmez.",
+  "as_of": "2026-07-01",
+  "source_id": "tsb_kasko_degeri_2026_07",
+  "price_semantics": "estimate",
+  "method": "TSB'nin Temmuz 2026 kasko değer listesinden marka kodu, tip kodu, marka adı, tip adı ve 2012-2019 model yılları için TL cinsinden kasko değerlerini içeren 1.508 satırlık tablo; 0 değeri o model yılının o tipte üretilmediğini/değerlenmediğini gösterir. Değerler doğrudan TSB yayınından alınmıştır, hiçbir enterpolasyon ya da düzeltme uygulanmadı.",
+  "known_limitations": [
+    "Liste yalnızca 2012-2019 model yıllarını kapsıyor; 2020 ve sonrası model yıllar için bu kaynaktan bant üretilemez.",
+    "Kasko değeri bir sigorta referans değeridir, gerçekleşen alım-satım fiyatı değildir; genelde ikinci el piyasasındaki istenen ilan fiyatının bir miktar altında kalır çünkü pazarlık payı ve satıcı iyimserliği içermez.",
+    "Tip Adı serbest metindir (ör. '3 HB SKY-G 1.5 120 REFLEX 6AT'); motor/şanzıman/yakıt bilgisi bu metinden ayrıştırılarak çıkarıldı (bkz. scripts/import_tsb_kasko.py). Ayrıştırma hatalı olabileceği için eşleştirme yalnızca yüksek güvenirlikli (marka + hacim + beygir + yakıt + şanzıman kategorisi birlikte örtüşen) satırlarda araç kaydına yazıldı; düşük güvenirlikli satırlar atlandı.",
+    "Liste hem manuel hem otomatik şanzımanlı tipleri içeriyor; bu proje yalnızca otomatik vitesli araçları puanladığı için manuel tipler eşleştirmede baştan elendi.",
+    "Bir tip birden fazla model yılında değerlenmişse (ör. 2012-2016), o aralığın min-max değerleri price_band_k_try'ye yazıldı; bu, o tek tipin kendi model yılları arasındaki değer farkını yansıtır, piyasadaki ilan dağılımını değil."
+  ],
+  "raw_file": "tsb-kasko-2026-07.tsv",
+  "columns": ["marka_kodu", "tip_kodu", "marka_adi", "tip_adi", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012"],
+  "row_count": 1508
+}

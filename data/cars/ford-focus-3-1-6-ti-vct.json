@@ -21,8 +21,8 @@
     "clutch": "Kuru çift kavrama"
   },
   "price_band_k_try": [
-    750,
-    1080
+    774,
+    1047
   ],
   "verification": "verified",
   "scores": {
@@ -95,5 +95,17 @@
     "technical_url": "https://www.autoevolution.com/cars/ford-focus-5-doors-2014.html",
     "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
     "linked_at": "2026-08-15"
+  },
+  "price_reference": {
+    "as_of": "2026-07-01",
+    "method": "TSB'nin Temmuz 2026 kasko değer listesinden marka kodu, tip kodu, marka adı, tip adı ve 2012-2019 model yılları için TL cinsinden kasko değerlerini içeren 1.508 satırlık tablo; 0 değeri o model yılının o tipte üretilmediğini/değerlenmediğini gösterir. Değerler doğrudan TSB yayınından alınmıştır, hiçbir enterpolasyon ya da düzeltme uygulanmadı.",
+    "source": "tsb_kasko_degeri_2026_07",
+    "marketplace": "TSB Kasko Değer Listesi",
+    "price_semantics": "estimate",
+    "group_id": "FOCUS III MCA STYLE 1.6 125 4K POWERSHIFT | FOCUS III MCA STYLE 1.6 125 5K POWERSHIFT | FOCUS III MCA TITANIUM 1.6 125 4K POWERSHIFT | FOCUS III MCA TITANIUM 1.6 125 5K POWERSHIFT | FOCUS III MCA TITANIUM 1.6 125 SW POWERSHIFT | FOCUS III MCA TREND X 1.6 125 4K POWERSHIFT | FOCUS III MCA TREND X 1.6 125 5K POWERSHIFT",
+    "observations": 31,
+    "median_try": 895614,
+    "km_median": null,
+    "quality": "tsb_kasko_official_valuation_single_point_per_year"
   }
 }
