@@ -9,6 +9,11 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
+<!-- Kullanıcının elle seçtiği tema (varsa) ilk boyamadan önce uygulanıyor;
+     aksi halde açık temayla boyanıp bir kare sonra koyuya dönme ("yanıp sönme")
+     olurdu. Sistem tercihine otomatik uyum bu betiğe ihtiyaç duymuyor, saf CSS
+     `prefers-color-scheme` ile çözülüyor (bkz. templates/styles.css Y-09). -->
+<script>(function(){try{var t=localStorage.getItem('arac_puan_tema');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Araç Puanlama — ikinci el otomatik araçlar için kaynaklı güvenilirlik karşılaştırması</title>
 <meta name="description" content="__CAR_COUNT__ ikinci el otomatik aracı motor, şanzıman, yaş ve maliyet kriterlerinde karşılaştırın. Her puanın arkasında yazılı gerekçe ve erişilebilir kaynak var; ağırlıkları kendiniz belirleyebilirsiniz.">
@@ -40,6 +45,7 @@
     <a href="#iletisim" data-route="iletisim">İletişim</a>
     <a href="#giris" data-route="giris">Bu nedir?</a>
   </div>
+  <button type="button" class="btn small ghost" id="temaBtn">Koyu tema</button>
 </div></nav>
 
 <div class="wrap">

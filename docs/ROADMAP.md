@@ -23,7 +23,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
 | Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
-| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 64/64 duman testi (statik sayfa, SEO ve katalog kontrolleri dahil) |
+| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 72/72 duman testi (statik sayfa, SEO, katalog ve koyu tema kontrolleri dahil) |
 | `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 261/377 araç; terfi eden 99 aracın tamamı dahil — bkz. Y-19). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi, iki ayrı kaynakla.** 19 araç 2026-08-13 tarihli arabam.com ilan gözlemine, 10 araç 2026-07 tarihli TSB Kasko Değer Listesi'ne bağlandı (bkz. Y-21). Toplam 29 araçta `price_reference` bloğu (tarih, yöntem, örneklem/kaynak, sınırlılık) var; kalan 371 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
@@ -1931,7 +1931,7 @@ ton: Gran Turismo'nun araç açıklamaları — kısa, bilgili, övmeyen, merakl
 
 ---
 
-## Y-09 · Görsel dil: koyu tema ve yumuşak yüzeyler
+## Y-09 · Görsel dil: koyu tema ve yumuşak yüzeyler — **bitti (2026-08-18)**
 
 **Öncelik: düşük-orta. Y-05 ve Y-07 ile birlikte yapılırsa verimli olur.**
 
@@ -1941,12 +1941,51 @@ kültürüne yakın ama ciddiyetini koruyan bir görsel dil oturtulur.
 **Kesin sınırlar (kullanıcının açık talebi):** Süslü veya "eğlenceli" yazı tipi
 kullanılmaz. Dekoratif görsel kullanılmaz. **Emoji kullanılmaz.** Mevcut yazı tipi
 üçlüsü (Archivo, IBM Plex Mono, Newsreader) zaten teknik ve ciddi bir ton veriyor;
-değiştirilmesi için güçlü bir gerekçe gerekir.
+değiştirilmesi için güçlü bir gerekçe gerekir. Bu üç sınırın hepsine uyuldu: tema
+düğmesi düz metin ("Koyu tema"/"Açık tema"), hiçbir yeni görsel veya emoji eklenmedi,
+yazı tipi üçlüsü değişmedi.
 
-**Öneri.** Koyu tema, mevcut açık temanın yerine geçmek yerine onun yanına kurulmalı ve
-kullanıcı seçebilmeli. `templates/styles.css` zaten CSS değişkenleriyle yazıldığı için
-bu, renk değişkenlerinin ikinci bir kümesini tanımlamak kadar basit; yapıyı değiştirmek
-gerekmiyor.
+**Kapsam yalnızca ana uygulamaydı.** `scripts/build_pages.py`'nin ürettiği ~1.775 statik
+SEO sayfası (`arac/`, `katalog/`, `motor/`, `sanziman/`) zaten kendi `PAGE_CSS`'i
+içinde `prefers-color-scheme` ile koyu temayı taşıyordu — muhtemelen Y-11'de fark
+edilmeden kurulmuş. Bu turun konusu yalnızca `templates/` kaynaklı tek sayfalık
+uygulamaydı (`index.html`), onda hiç koyu tema yoktu.
+
+**Yöntem: `:root`'taki değerler açık tema, iki blok onu geçersiz kılıyor.**
+`@media(prefers-color-scheme:dark){:root:not([data-theme="light"])}` sistem tercihine
+JS'siz uyum sağlıyor (CSS ayrıştırma anında uygulanıyor, yanıp sönme olmuyor);
+`:root[data-theme="dark"]` kullanıcının elle seçtiği tercih. Kullanıcı hiç seçim
+yapmadıysa `data-theme` özniteliği hiç yazılmıyor, yani sistem teması canlı izlenmeye
+devam ediyor (işletim sistemi teması değişirse sayfa da JS'siz değişir). Kullanıcı
+düğmeye bastığında seçim `localStorage`'a yazılıyor ve `data-theme` sabitleniyor;
+`<head>`'deki küçük senkron betik bu seçimi ilk boyamadan ÖNCE uyguluyor, aksi halde
+açık temayla boyanıp bir kare sonra koyuya dönme (FOUC) olurdu.
+
+**Yol boyunca bulunan iki bağımsız kusur, aynı işte düzeltildi:**
+1. `.catwrap`/`.catlist`/`.catitem` (katalog sonuçları bloğu, MK-22) hiç tanımlanmamış
+   `--rule`/`--sf`/`--sf2`/`--ink2`/`--ink3` değişkenlerini kullanıyordu. Tanımsız
+   `var()` geçersiz sayıldığı için ilgili özellik (ör. kenarlık) sessizce hiç
+   uygulanmıyordu — koyu temadan bağımsız, önceden var olan bir hata. Zaten var olan
+   gerçek değişkenlere (`--line`, `--panel2`, `--panel`, `--dim`) bağlandı.
+2. `.cmptray` (kıyaslama tepsisi) `background:var(--ink)` kullanıyordu — açık temada
+   `--ink` koyu olduğu için "her zaman koyu bar" görünümü kazara doğru çıkıyordu, ama
+   koyu temada `--ink` açık renge döneceği için bar görünmez olurdu. Sabit bir
+   `--bar` değişkeni eklendi (iki temada da aynı değeri taşıyor), tepsi artık temadan
+   bağımsız olarak koyu kalıyor — tasarımın zaten amaçladığı davranış.
+
+**Radar grafiği (SVG) sabit hex renk yerine `getComputedStyle` ile CSS değişkeni
+okuyor.** Aksi halde grafik açık temanın renklerinde donup kalırdı; artık tema
+değişince yeniden çizilen her radar doğru paleti kullanıyor (bilinen sınır: EKRANDA
+AÇIKKEN tema değiştirilirse o an görünen bir radar kendiliğinden yeniden boyanmıyor,
+ekran yeniden render edilene kadar eski renkte kalıyor — düşük risk, küçük ve kasıtlı
+bir sınırlama, sayfa yenilendiğinde veya ekran değiştirildiğinde kendiliğinden düzeliyor).
+
+**Doğrulama.** Playwright ile ana ekran, araç listesi + filtre paneli + kaydırıcılar,
+kıyaslama ekranı (radar dahil) ve metodoloji ekranı koyu temada ekran görüntüsü
+alınarak elle incelendi; kontrastsız metin veya görünmez kenarlık bulunmadı.
+`smoke_test.js`'e üç kalıcı kontrol eklendi: düğme rengi/etiketi değiştiriyor mu,
+seçim sayfa yenilenince kalıcı mı, açık temaya geri dönülebiliyor mu. Kontrol sayısı
+69 → 72.
 
 ---
 
@@ -1958,21 +1997,20 @@ Biten maddeler: ~~Y-01~~ (liste genişletme — SUV, marka ve 2016+ hedeflerinin
 karşılandı/aşıldı), ~~Y-02~~ (kaynak derinliği — kaynaksız ve tek kaynaklı araç
 kalmadı), ~~Y-03~~ (araştırma hattı), ~~Y-04~~ (form arayüzü; yalnızca uç nokta adresi
 depo sahibini bekliyor), ~~Y-05~~ (yerleşim), ~~Y-06~~ (puanlama şeffaflığı, üç
-katmanın tamamı), ~~Y-07~~ (ana ekran).
+katmanın tamamı), ~~Y-07~~ (ana ekran), ~~Y-09~~ (koyu tema, 2026-08-18).
 
 Sıradaki iş, öncelik sırasıyla:
 
-1. **Y-09 · Koyu tema** — bağımsız, görsel, riski düşük.
-2. **Y-08 · Araç hikayeleri** — sürekli ve parça parça ilerleyebilecek, aceleye gelmeyen
-   iş; 228 araç için yazılacak çok içerik var.
-3. **Y-01'in ötesi (düşük öncelik)** — MG'nin geleneksel yakıtlı modelleri (varsa),
+1. **Y-08 · Araç hikayeleri** — sürekli ve parça parça ilerleyebilecek, aceleye gelmeyen
+   iş; 400 araç için yazılacak çok içerik var.
+2. **Y-01'in ötesi (düşük öncelik)** — MG'nin geleneksel yakıtlı modelleri (varsa),
    Dacia Sandero/Logan gibi robotlu (AMT) şanzımanlı modeller (ayrı bir "Robot" tipi
    bileşen ailesi araştırması gerektiriyor, bu turda ertelendi). Elektrikli/hibrit/LPG
    kalıcı olarak kapsam dışı (MK-13).
-4. **Y-02'nin uzun vadeli hedefi** — ortalamayı 4'e çıkarmak, yani her araca üçüncü ve
+3. **Y-02'nin uzun vadeli hedefi** — ortalamayı 4'e çıkarmak, yani her araca üçüncü ve
    dördüncü bağımsız kaynak. Bileşen bazlı toplu bağlama yöntemi burada işe yaramıyor;
    araç bazında tekil araştırma gerekiyor, bu yüzden yavaş ve pahalı bir iş.
-5. **`evidence` bloğunu kalan üç kriter için genişletmek** (`comf`, `cost`, `liq`) —
+4. **`evidence` bloğunu kalan üç kriter için genişletmek** (`comf`, `cost`, `liq`) —
    `age` (MK-14), `fun` (MK-17) ve `price` (MK-19) artık betiklerden geliyor. `comf`/`cost`
    hâlâ MK-06'nın uygulanmamış kalan formüllerine bağlı (iç hacim/bagaj hacmi, resmi bakım
    tarifesi); `liq` sayım protokolü MK-20'de reddedildi ve doğru biçimiyle yeniden kurulmayı

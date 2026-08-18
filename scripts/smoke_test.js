@@ -86,6 +86,38 @@ async function dumpDebug(label) {
     check('ilk ziyarette giriş ekranı açılıyor', girisOk && listeGizli);
     if (!(girisOk && listeGizli)) await dumpDebug('giris-acilmadi');
 
+    // Koyu tema (Y-09): düğme temayı değiştirmeli, `<html data-theme>` ve gövde
+    // rengi buna göre değişmeli, seçim sayfa yenilense bile kalıcı olmalı ve
+    // orijinal duruma dönünce hiçbir kalıntı bırakmamalı — sonraki bütün
+    // kontroller varsayılan (açık) temayı görmeyi bekliyor.
+    const bgBefore = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
+    const labelBefore = await page.locator('#temaBtn').innerText();
+    await page.click('#temaBtn');
+    await page.waitForTimeout(150);
+    const themeAttr = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
+    const bgAfter = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
+    const labelAfter = await page.locator('#temaBtn').innerText();
+    const themeToggled = themeAttr !== null && bgAfter !== bgBefore && labelAfter !== labelBefore;
+    check('koyu tema düğmesi rengi ve etiketi değiştiriyor', themeToggled,
+      `${labelBefore} → ${labelAfter}, data-theme=${themeAttr}`);
+    if (!themeToggled) await dumpDebug('koyu-tema-degismedi');
+
+    await page.reload();
+    await page.waitForSelector('#temaBtn');
+    const themeAttrAfterReload = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
+    const bgAfterReload = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
+    check('koyu tema seçimi sayfa yenilenince kalıcı', themeAttrAfterReload === themeAttr && bgAfterReload === bgAfter,
+      `data-theme=${themeAttrAfterReload}`);
+
+    // Orijinal (açık) temaya dön ki geri kalan kontroller varsayılan görünümü görsün.
+    await page.click('#temaBtn');
+    await page.waitForTimeout(150);
+    const themeAttrReset = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
+    const bgReset = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
+    check('koyu temadan geri dönülüyor', bgReset === bgBefore, `data-theme=${themeAttrReset}`);
+    // Bu noktadan sonra giriş ekranı hâlâ açık (tema değişimi ekranı değiştirmedi).
+    await page.waitForSelector('.screen[data-screen="giris"].on');
+
     // Giriş akışı bitince ana ekrana gidilmeli (Y-07), doğrudan tabloya değil.
     await page.click('#oskip');
     await page.waitForTimeout(200);

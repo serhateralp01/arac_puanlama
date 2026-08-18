@@ -9,6 +9,11 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
+<!-- Kullanıcının elle seçtiği tema (varsa) ilk boyamadan önce uygulanıyor;
+     aksi halde açık temayla boyanıp bir kare sonra koyuya dönme ("yanıp sönme")
+     olurdu. Sistem tercihine otomatik uyum bu betiğe ihtiyaç duymuyor, saf CSS
+     `prefers-color-scheme` ile çözülüyor (bkz. templates/styles.css Y-09). -->
+<script>(function(){try{var t=localStorage.getItem('arac_puan_tema');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Araç Puanlama — ikinci el otomatik araçlar için kaynaklı güvenilirlik karşılaştırması</title>
 <meta name="description" content="400 ikinci el otomatik aracı motor, şanzıman, yaş ve maliyet kriterlerinde karşılaştırın. Her puanın arkasında yazılı gerekçe ve erişilebilir kaynak var; ağırlıkları kendiniz belirleyebilirsiniz.">
@@ -28,7 +33,37 @@
   --ink:#26292e; --dim:#6a6f75; --faint:#9b9fa5;
   --sage:#5d8f6e; --sagebg:#e9f2eb; --blue:#5b83a8; --bluebg:#e8eff5;
   --amber:#bd8a2c; --amberbg:#f7efdc; --red:#bb6a62; --redbg:#f7e8e6;
+  --hover:#fbfbf8; --bar:#26292e; --topbarbg:rgba(248,247,244,.92);
+  --shadowsm:0 1px 2px rgba(60,55,40,.04); --shadowmd:0 1px 3px rgba(60,55,40,.05);
   --mono:'IBM Plex Mono',monospace; --body:'Archivo',sans-serif; --disp:'Newsreader',serif;
+}
+/* ---------- koyu tema (Y-09) ----------
+   Açık temanın YERİNE değil YANINA kuruldu (kullanıcının açık talebi, bkz.
+   docs/ROADMAP.md Y-09): :root'taki değerler açık tema, aşağıdaki iki blok onu
+   koyu değerlerle geçersiz kılıyor. İki ayrı tetikleyici var ve kasıtlı olarak
+   ikisi de duruyor: sistem tercihine otomatik uyum (`prefers-color-scheme`,
+   hiç JS çalışmasa bile CSS ayrıştırma anında uygulanır, "yanıp sönme" olmaz)
+   ve kullanıcının elle seçtiği tercih (`data-theme`, `01-tema.js` yazıyor,
+   `<head>`'deki senkron betik ilk boyamadan önce uyguluyor). `:not([data-theme=
+   "light"])` şartı, sistem koyuysa ama kullanıcı elle "açık" seçtiyse sistem
+   kuralının kullanıcı seçimini ezmesini engelliyor. */
+@media(prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#15171b; --panel:#1d2025; --panel2:#24272d; --line:#2d3037; --line2:#3a3e46;
+    --ink:#e8e7e2; --dim:#9a9ea5; --faint:#686c73;
+    --sage:#7fb290; --sagebg:#1b2a20; --blue:#8ab0d1; --bluebg:#1c2733;
+    --amber:#d6ac5c; --amberbg:#332a16; --red:#e0958b; --redbg:#332120;
+    --hover:#22252b; --topbarbg:rgba(21,23,27,.88);
+    --shadowsm:0 1px 3px rgba(0,0,0,.32); --shadowmd:0 1px 4px rgba(0,0,0,.36);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15171b; --panel:#1d2025; --panel2:#24272d; --line:#2d3037; --line2:#3a3e46;
+  --ink:#e8e7e2; --dim:#9a9ea5; --faint:#686c73;
+  --sage:#7fb290; --sagebg:#1b2a20; --blue:#8ab0d1; --bluebg:#1c2733;
+  --amber:#d6ac5c; --amberbg:#332a16; --red:#e0958b; --redbg:#332120;
+  --hover:#22252b; --topbarbg:rgba(21,23,27,.88);
+  --shadowsm:0 1px 3px rgba(0,0,0,.32); --shadowmd:0 1px 4px rgba(0,0,0,.36);
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.55;-webkit-font-smoothing:antialiased;padding:0 0 120px;font-size:15px}
@@ -71,14 +106,14 @@ h2 .num{color:var(--sage);font-family:var(--mono);font-size:.46em;vertical-align
 .savemsg.show{opacity:1}
 
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(226px,1fr));gap:12px}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;position:relative;box-shadow:0 1px 2px rgba(60,55,40,.04)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;position:relative;box-shadow:var(--shadowsm)}
 .card.auto{background:linear-gradient(180deg,var(--bluebg),var(--panel) 55%)}
 .card.auto .wbox input{color:var(--blue)}
 .card .t{font-weight:700;font-size:13.5px;margin-bottom:8px;line-height:1.25}
 .card .nb{position:absolute;top:11px;right:13px;font-family:var(--mono);font-size:8.5px;color:var(--blue);letter-spacing:.05em;font-weight:600}
 .wbox{display:flex;align-items:baseline;gap:6px}
 .wbox input{width:54px;font-family:var(--mono);font-weight:600;font-size:21px;color:var(--sage);background:var(--panel2);border:1px solid var(--line);border-radius:9px;text-align:center;padding:4px 0}
-.wbox input:focus{outline:none;border-color:var(--sage);background:#fff}
+.wbox input:focus{outline:none;border-color:var(--sage);background:var(--panel)}
 .wbox small{font-family:var(--mono);font-size:9.5px;color:var(--faint)}
 .card .def{color:var(--dim);font-size:11.5px;line-height:1.46;margin-top:9px}
 .card .inc{color:var(--sage);font-size:10.5px;line-height:1.4;margin-top:8px}
@@ -105,7 +140,7 @@ h2 .num{color:var(--sage);font-family:var(--mono);font-size:.46em;vertical-align
 .note{background:var(--bluebg);border:1px solid #d3dfe9;border-radius:12px;padding:14px 18px;color:var(--dim);font-size:12.6px;margin-top:16px}
 .note b{color:var(--ink)} .note.warn{background:var(--amberbg);border-color:#e9d9b4}
 
-.tablewrap{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--panel);box-shadow:0 1px 3px rgba(60,55,40,.05)}
+.tablewrap{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--panel);box-shadow:var(--shadowmd)}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-height:74vh;overflow-y:auto}
 table{border-collapse:separate;border-spacing:0;width:100%;min-width:1320px}
 thead th{position:sticky;top:0;background:var(--panel2);z-index:3;font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--dim);font-weight:600;padding:11px 5px;text-align:center;border-bottom:1px solid var(--line2);cursor:pointer;user-select:none;white-space:nowrap}
@@ -113,12 +148,12 @@ thead th.lft{text-align:left;padding-left:16px}
 thead th .ww{display:block;color:var(--faint);font-size:8.5px;margin-top:2px;text-transform:none;letter-spacing:0}
 thead th:hover,thead th.sorted{color:var(--sage)}
 tbody tr.main{transition:background .1s}
-tbody tr.main:hover td{background:#fbfbf8}
+tbody tr.main:hover td{background:var(--hover)}
 tbody tr.main.open td{background:var(--sagebg)}
 tbody tr.main.cmp td{background:var(--bluebg)}
 td{padding:9px 5px;text-align:center;font-family:var(--mono);font-size:12px;border-bottom:1px solid var(--line)}
 td.name{text-align:left;padding-left:16px;font-family:var(--body);min-width:228px;cursor:pointer;position:sticky;left:0;background:var(--panel);z-index:2}
-tbody tr.main:hover td.name{background:#fbfbf8}
+tbody tr.main:hover td.name{background:var(--hover)}
 tbody tr.main.open td.name{background:var(--sagebg)}
 tbody tr.main.cmp td.name{background:var(--bluebg)}
 td.name .nm{font-weight:600;font-size:13.5px;display:flex;align-items:center;gap:7px}
@@ -140,7 +175,7 @@ td.pr{font-family:var(--mono);font-size:11.5px;white-space:nowrap}
 td.pr .pin{width:42px;background:transparent;border:1px solid transparent;border-radius:5px;font-family:var(--mono);font-size:11px;text-align:center;padding:3px 0;color:var(--ink);-moz-appearance:textfield}
 td.pr .pin::-webkit-outer-spin-button,td.pr .pin::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
 td.pr .pin:hover{border-color:var(--line2);background:var(--panel2)}
-td.pr .pin:focus{outline:none;border-color:var(--sage);background:#fff}
+td.pr .pin:focus{outline:none;border-color:var(--sage);background:var(--panel)}
 td.pr .dash{color:var(--faint);font-size:10px}
 td.psc{font-family:var(--mono);font-size:12px;color:var(--blue);font-weight:600}
 td.tot{font-family:var(--mono);font-weight:600;font-size:14.5px;cursor:pointer}
@@ -154,7 +189,7 @@ td.cmpcell{width:30px}
 .cmpbtn:disabled{opacity:.3;cursor:default}
 
 tr.detail td{padding:0;border-bottom:1px solid var(--line);position:static}
-.det{background:#fbfbf8;padding:0 20px;max-height:0;overflow:hidden;transition:max-height .32s,padding .32s}
+.det{background:var(--hover);padding:0 20px;max-height:0;overflow:hidden;transition:max-height .32s,padding .32s}
 tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .det-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:24px}
 @media(max-width:900px){.det-grid{grid-template-columns:1fr}}
@@ -190,7 +225,7 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 /* Hazır ayarlar, ağırlık toplamı, arama ve filtreler tablonun hemen üstünde tek
    bir kutuda toplanıyor. Her satır kendi içinde yatayda akıyor ve dar ekranda
    sarıyor; filtre grupları ise ayrı bir katlanabilir panelde. */
-.ctrlbar{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:9px 12px;margin-bottom:12px;box-shadow:0 1px 2px rgba(60,55,40,.04)}
+.ctrlbar{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:9px 12px;margin-bottom:12px;box-shadow:var(--shadowsm)}
 .ctrlrow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;width:100%}
 .ctrlrow+.ctrlrow{margin-top:8px;padding-top:8px;border-top:1px solid var(--line)}
 .ctrlbar .presetrow{margin-bottom:0;flex:1 1 auto}
@@ -261,7 +296,7 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .rwrap{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .rnum{width:74px;font-family:var(--mono);font-size:11.5px;text-align:center;padding:5px 6px;border:1px solid var(--line2);border-radius:7px;background:var(--panel2);color:var(--ink);-moz-appearance:textfield}
 .rnum::-webkit-outer-spin-button,.rnum::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
-.rnum:focus{outline:none;border-color:var(--sage);background:#fff;box-shadow:0 0 0 3px var(--sagebg)}
+.rnum:focus{outline:none;border-color:var(--sage);background:var(--panel);box-shadow:0 0 0 3px var(--sagebg)}
 .rdash{color:var(--faint);font-family:var(--mono);font-size:11px}
 .runit{font-family:var(--mono);font-size:9.5px;color:var(--faint);min-width:20px}
 .rslider{position:relative;width:180px;height:22px;flex:0 0 auto;touch-action:none}
@@ -273,8 +308,8 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .rslider input[type=range]:focus-visible::-moz-range-thumb{box-shadow:0 0 0 3px var(--sagebg),0 0 0 1px var(--line2)}
 .rslider input[type=range]::-webkit-slider-runnable-track{height:3px;border-radius:3px;background:transparent;margin-top:9.5px}
 .rslider input[type=range]::-moz-range-track{height:3px;border-radius:3px;background:transparent}
-.rslider input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:auto;width:13px;height:13px;border-radius:50%;background:var(--sage);border:2px solid #fff;box-shadow:0 0 0 1px var(--line2);cursor:grab;margin-top:-5px}
-.rslider input[type=range]::-moz-range-thumb{pointer-events:auto;width:13px;height:13px;border-radius:50%;background:var(--sage);border:2px solid #fff;box-shadow:0 0 0 1px var(--line2);cursor:grab}
+.rslider input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:auto;width:13px;height:13px;border-radius:50%;background:var(--sage);border:2px solid var(--panel);box-shadow:0 0 0 1px var(--line2);cursor:grab;margin-top:-5px}
+.rslider input[type=range]::-moz-range-thumb{pointer-events:auto;width:13px;height:13px;border-radius:50%;background:var(--sage);border:2px solid var(--panel);box-shadow:0 0 0 1px var(--line2);cursor:grab}
 .rslider input[type=range]:active::-webkit-slider-thumb{cursor:grabbing}
 .rslider input[type=range]:active::-moz-range-thumb{cursor:grabbing}
 @media(max-width:560px){.rslider{width:100%}}
@@ -282,7 +317,7 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
 .legend .sw{display:inline-block;width:13px;height:10px;border-radius:3px;vertical-align:middle;margin-right:5px}
 
-.cmptray{position:fixed;left:0;right:0;bottom:0;background:var(--ink);color:#fff;padding:12px 22px;display:none;align-items:center;gap:14px;z-index:50;box-shadow:0 -4px 16px rgba(0,0,0,.15)}
+.cmptray{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:#fff;padding:12px 22px;display:none;align-items:center;gap:14px;z-index:50;box-shadow:0 -4px 16px rgba(0,0,0,.15)}
 .cmptray.show{display:flex}
 .cmptray .lbl{font-family:var(--mono);font-size:11px;color:#bdbfc4;white-space:nowrap}
 .cmptray .chips{display:flex;flex-wrap:wrap;gap:7px;flex:1}
@@ -320,7 +355,7 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .screen{display:none}
 .screen.on{display:block}
 
-.topbar{position:sticky;top:0;z-index:40;background:rgba(248,247,244,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.topbar{position:sticky;top:0;z-index:40;background:var(--topbarbg);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .topbar .inner{max-width:1560px;margin:0 auto;padding:11px 22px;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
 .brand{font-family:var(--disp);font-weight:600;font-size:17px;letter-spacing:-.01em;color:var(--ink);text-decoration:none;white-space:nowrap}
 .brand .dot{color:var(--sage)}
@@ -385,7 +420,7 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .ktfield .req{color:var(--red)}
 .ktfield input,.ktfield select,.ktfield textarea{width:100%;font-family:var(--body);font-size:13.5px;padding:9px 12px;border:1px solid var(--line2);border-radius:9px;background:var(--panel2);color:var(--ink)}
 .ktfield textarea{resize:vertical;line-height:1.55}
-.ktfield input:focus,.ktfield select:focus,.ktfield textarea:focus{outline:none;border-color:var(--sage);background:#fff;box-shadow:0 0 0 3px var(--sagebg)}
+.ktfield input:focus,.ktfield select:focus,.ktfield textarea:focus{outline:none;border-color:var(--sage);background:var(--panel);box-shadow:0 0 0 3px var(--sagebg)}
 .ktfield input:disabled,.ktfield select:disabled,.ktfield textarea:disabled{opacity:.6}
 .ktfield small{display:block;color:var(--faint);font-size:11.5px;line-height:1.5;margin-top:5px}
 .ktrow{display:grid;grid-template-columns:1fr 1fr;gap:14px}
@@ -446,18 +481,24 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 /* ==== Katalog sonuçları (MK-22) ====
    Puan tablosundan görsel olarak ayrı durması bilinçli: bu araçların puanı yok ve
    kullanıcı ikisini karıştırmamalı. Kenarlık ve soluk zemin, bloğun "asıl liste
-   değil, ek bilgi" olduğunu söylüyor. */
-.catwrap{margin-top:22px;padding:16px 18px;border:1px solid var(--rule);
-  border-radius:10px;background:var(--sf2,rgba(127,127,127,.05))}
+   değil, ek bilgi" olduğunu söylüyor.
+   Not (Y-09 sırasında bulundu): bu blok `--rule`/`--sf`/`--sf2`/`--ink2`/`--ink3`
+   adında hiç tanımlanmamış değişkenler kullanıyordu; tanımsız `var()` geçersiz
+   sayıldığı için ilgili özellik sessizce hiç uygulanmıyordu (ör. kenarlık hiç
+   çizilmiyordu). Koyu tema eklenirken bu, karanlıkta tamamen görünmez bir
+   kenarlığa dönüşürdü; bu yüzden burada zaten var olan gerçek değişkenlere
+   bağlandı. */
+.catwrap{margin-top:22px;padding:16px 18px;border:1px solid var(--line);
+  border-radius:10px;background:var(--panel2)}
 .catwrap .cattitle{margin:0 0 6px;font-size:15px;font-weight:600}
-.catwrap .lede{margin:0 0 12px;font-size:13px;line-height:1.55;color:var(--ink2)}
+.catwrap .lede{margin:0 0 12px;font-size:13px;line-height:1.55;color:var(--dim)}
 .catlist{list-style:none;margin:0;padding:0;display:grid;gap:8px;
   grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
 .catitem{display:flex;flex-direction:column;gap:2px;padding:9px 11px;
-  border:1px solid var(--rule);border-radius:8px;background:var(--sf,transparent)}
+  border:1px solid var(--line);border-radius:8px;background:var(--panel)}
 .catname{font-weight:600;font-size:13.5px;text-decoration:none;color:var(--ink)}
 .catname:hover{text-decoration:underline}
-.catspec{font-size:12px;color:var(--ink3,var(--ink2))}
+.catspec{font-size:12px;color:var(--dim)}
 @media(max-width:600px){.catlist{grid-template-columns:1fr}}
 </style>
 </head>
@@ -475,6 +516,7 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
     <a href="#iletisim" data-route="iletisim">İletişim</a>
     <a href="#giris" data-route="giris">Bu nedir?</a>
   </div>
+  <button type="button" class="btn small ghost" id="temaBtn">Koyu tema</button>
 </div></nav>
 
 <div class="wrap">
@@ -880,6 +922,48 @@ function weakReason(c,k){
   if(k==='liq') return 'Bu araç Türkiye ikinci el piyasasında az bulunuyor; alırken de satarken de daha fazla zaman gerekebilir.';
   return '';
 }
+/* ==== 01-tema.js ==== */
+/* ---------- koyu tema geçişi (Y-09) ----------
+   İlk boyamadan önceki tema seçimi (varsa) templates/index.html'in <head>
+   bölümündeki senkron betik tarafından uygulanıyor (yanıp sönme olmasın diye).
+   Burası yalnızca: (1) düğmenin etiketini geçerli temayla eşitliyor, (2) tıklamada
+   temayı değiştirip localStorage'a yazıyor, (3) kullanıcı hiç seçim yapmadıysa
+   sistem tercihi değiştiğinde etiketi güncel tutuyor. Kullanıcı elle seçene kadar
+   `data-theme` özniteliği hiç yazılmıyor; böylece sistem tercihi CSS'teki
+   `prefers-color-scheme` kuralıyla canlı izlenmeye devam ediyor. */
+const TEMA_KEY = 'arac_puan_tema';
+
+function temaEfektif(){
+  var s = null;
+  try{ s = localStorage.getItem(TEMA_KEY); }catch(e){}
+  if(s === 'light' || s === 'dark') return s;
+  return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+}
+function temaDugmesiniGuncelle(){
+  var btn = document.getElementById('temaBtn');
+  if(!btn) return;
+  btn.textContent = temaEfektif() === 'dark' ? 'Açık tema' : 'Koyu tema';
+}
+function temaDegistir(){
+  var next = temaEfektif() === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  try{ localStorage.setItem(TEMA_KEY, next); }catch(e){}
+  temaDugmesiniGuncelle();
+}
+document.addEventListener('DOMContentLoaded', function(){
+  temaDugmesiniGuncelle();
+  var btn = document.getElementById('temaBtn');
+  if(btn) btn.addEventListener('click', temaDegistir);
+  if(window.matchMedia){
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    var onChange = function(){
+      var secili = null;
+      try{ secili = localStorage.getItem(TEMA_KEY); }catch(e){}
+      if(secili !== 'light' && secili !== 'dark') temaDugmesiniGuncelle();
+    };
+    if(mq.addEventListener) mq.addEventListener('change', onChange);
+  }
+});
 /* ==== 05-yapilandirma.js ==== */
 /* ---------- dışarıya açılan uçların yapılandırması ---------- */
 /* Sitenin dışarıyla konuştuğu iki nokta var: kaynak öneri formunun gönderim uç
@@ -1564,22 +1648,27 @@ function suggestSourceFor(car){
 /* ---------- radar chart (pure SVG) ---------- */
 const RADAR_KEYS=['motor','trans','fun','comf','age','cost','liq'];
 const RADAR_LABELS={motor:'Motor',trans:'Şanzıman',fun:'Keyif',comf:'Kullanım',age:'Yaş',cost:'Maliyet',liq:'Bulunur.'};
+/* Renkler CSS değişkeninden okunuyor, sabit hex değil — böylece koyu temaya
+   geçilince (Y-09) grafik de temayla birlikte değişiyor, ayrı bir JS anahtarı
+   tutmaya gerek kalmıyor. */
+function cssVar(name){return getComputedStyle(document.documentElement).getPropertyValue(name).trim();}
 function radarSVG(carsToPlot,size){
  size=size||260;
  const cx=size/2, cy=size/2, R=size*0.34, n=RADAR_KEYS.length;
- const colors=['#5d8f6e','#5b83a8','#bd8a2c','#bb6a62'];
+ const gridColor=cssVar('--line'), labelColor=cssVar('--dim');
+ const colors=[cssVar('--sage'),cssVar('--blue'),cssVar('--amber'),cssVar('--red')];
  function pt(i,val){const ang=(Math.PI*2*i/n)-Math.PI/2;const r=R*(val/100);return [cx+r*Math.cos(ang),cy+r*Math.sin(ang)];}
  let svg='<svg viewBox="0 0 '+size+' '+size+'" width="100%" height="100%">';
  // grid rings
  [0.25,0.5,0.75,1].forEach(f=>{
   let pts=[];for(let i=0;i<n;i++){const [x,y]=pt(i,100*f);pts.push(x+','+y);}
-  svg+='<polygon points="'+pts.join(' ')+'" fill="none" stroke="#e6e4dc" stroke-width="1"/>';
+  svg+='<polygon points="'+pts.join(' ')+'" fill="none" stroke="'+gridColor+'" stroke-width="1"/>';
  });
  // axes + labels
  for(let i=0;i<n;i++){const [x,y]=pt(i,100);
-  svg+='<line x1="'+cx+'" y1="'+cy+'" x2="'+x+'" y2="'+y+'" stroke="#e6e4dc" stroke-width="1"/>';
+  svg+='<line x1="'+cx+'" y1="'+cy+'" x2="'+x+'" y2="'+y+'" stroke="'+gridColor+'" stroke-width="1"/>';
   const ang=(Math.PI*2*i/n)-Math.PI/2; const lx=cx+(R+18)*Math.cos(ang), ly=cy+(R+18)*Math.sin(ang);
-  svg+='<text x="'+lx+'" y="'+ly+'" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="#6a6f75" text-anchor="middle" dominant-baseline="middle">'+RADAR_LABELS[RADAR_KEYS[i]]+'</text>';
+  svg+='<text x="'+lx+'" y="'+ly+'" font-family="IBM Plex Mono, monospace" font-size="9.5" fill="'+labelColor+'" text-anchor="middle" dominant-baseline="middle">'+RADAR_LABELS[RADAR_KEYS[i]]+'</text>';
  }
  // data polygons
  carsToPlot.forEach((c,ci)=>{
