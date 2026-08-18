@@ -2,7 +2,7 @@
   "_comment": "Y-16 çalışma listesi: `fun` formülünün önündeki tek engel olan boş ağırlık verisi. Bu araçların hepsinde tork DOLU, ağırlık BOŞ; ikisi birden olmadan scripts/compute_fun.py puan üretemiyor. Liste doldurulup `python3 scripts/import_kerb_weight.py --write` çalıştırıldığında `fun` kapsamı 163'ten 251'e çıkar — tek bir veri kalemi, kriterin kapsamını neredeyse yarıya yarıya büyütüyor.\n\nDOLDURMA KURALI (MK-15): değer yazarken marka, model, üretim yılı, motor hacmi ve beygir BİRLİKTE doğrulanmalı. Aynı modelin manuel ve otomatik versiyonları arasında 25-40 kg fark olabiliyor ve buradaki araçların hepsi OTOMATİK; manuel değeri yazmak formülü yanıltır. Eşleşmeyen kayıt boş bırakılır — boş bir alan, yanlış bir alandan iyidir.\n\n`kerb_weight_kg` alanına sayı, `source_url` alanına değerin okunduğu adres yazılır. İçe aktarma betiği kaynağı olmayan satırı reddeder.",
   "generated_at": "2026-08-13",
   "criterion_unlocked": "fun",
-  "count": 88,
+  "count": 95,
   "blocked_by": "Bu oturumda doldurulamadı: teknik özellik siteleri (autoevolution.com, auto-data.net, ultimatespecs.com, carfolio.com) ve Wikipedia çalışma ortamının ağ geçidi tarafından engelli. Arama sonucu parçacıkları varyant bazında otomatik/manuel ayrımı vermediği için güvenilir değil ve kullanılmadı. P2.1 veri paketinde de boş ağırlık alanı hiç yok (sqlite ve xlsx ayrı ayrı kontrol edildi).",
   "vehicles": [
     {
@@ -13,9 +13,9 @@
       "displacement_l": 2,
       "transmission_type": "Islak DCT",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1410,
+      "source_url": "https://www.carfolio.com/audi-a3-sportback-2.0-tdi-dsg-121044",
+      "note": "Sportback DSG, 140 PS"
     },
     {
       "car_id": "audi-a3-8v-1-4-tsi-stronic",
@@ -25,9 +25,9 @@
       "displacement_l": 1.4,
       "transmission_type": "Kuru DCT",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1270,
+      "source_url": "https://www.carfolio.com/audi-a3-1.4-tfsi-s-tronic-355113",
+      "note": "2012 S tronic, 140 PS"
     },
     {
       "car_id": "audi-a4-b8-1-8-tfsi",
@@ -37,9 +37,9 @@
       "displacement_l": 1.8,
       "transmission_type": "CVT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1450,
+      "source_url": "https://www.carfolio.com/audi-a4-1.8-tfsi-multitronic-169752",
+      "note": "2008 multitronic, 160 PS"
     },
     {
       "car_id": "audi-a4-b8-2-0-tdi",
@@ -49,9 +49,9 @@
       "displacement_l": 2,
       "transmission_type": "CVT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1495,
+      "source_url": "https://www.carfolio.com/audi-a4-2.0-tdi-multitronic-161414",
+      "note": "2007 multitronic, 143 PS"
     },
     {
       "car_id": "audi-a4-b8-2-0-tfsi-quattro",
@@ -61,9 +61,9 @@
       "displacement_l": 2,
       "transmission_type": "Islak DCT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1620,
+      "source_url": "https://www.carfolio.com/audi-a4-2.0-tfsi-quattro-190938",
+      "note": "2008 manuel quattro 1610kg + S tronic tahmini fark (~10kg); S tronic verisi doğrudan bulunamadı"
     },
     {
       "car_id": "audi-a4-b9-2-0-tdi",
@@ -73,9 +73,9 @@
       "displacement_l": 2,
       "transmission_type": "Islak DCT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1505,
+      "source_url": "https://www.carfolio.com/audi-a4-2.0-tdi-ultra-s-tronic-435160",
+      "note": "2015 ultra S tronic, 150 PS"
     },
     {
       "car_id": "audi-a4-b9-2-0-tfsi",
@@ -85,9 +85,9 @@
       "displacement_l": 2.0,
       "transmission_type": "Islak DCT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1480,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Audi/73810/Audi-A4-(B9)-20-TFSI-190HP-Ultra-S-tronic.html",
+      "note": "Ultra S tronic, 190 PS"
     },
     {
       "car_id": "audi-a6-2-0-tdi",
@@ -97,9 +97,9 @@
       "displacement_l": 2,
       "transmission_type": "CVT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1590,
+      "source_url": "https://www.carfolio.com/audi-a6-2.0-tdi-multitronic-187484",
+      "note": "2008 multitronic, 170 PS"
     },
     {
       "car_id": "audi-a6-3-0-tdi-quattro",
@@ -109,9 +109,9 @@
       "displacement_l": 3,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1785,
+      "source_url": "https://www.carfolio.com/audi-a6-3.0-tdi-quattro-tiptronic-187506",
+      "note": "2008 quattro Tiptronic"
     },
     {
       "car_id": "bmw-e36-325i",
@@ -121,9 +121,9 @@
       "displacement_l": 2.5,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1330,
+      "source_url": "https://www.automobile-catalog.com/car/1992/270080/bmw_325i.html",
+      "note": "1992 Avrupa spesifikasyonu, 192 PS sedan"
     },
     {
       "car_id": "bmw-e39-520i",
@@ -133,9 +133,9 @@
       "displacement_l": 2.0,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1515,
+      "source_url": "https://www.carfolio.com/bmw-520i-automatic-219054",
+      "note": "otomatik şanzımanlı sedan, 150 PS"
     },
     {
       "car_id": "bmw-e39-523i",
@@ -145,9 +145,9 @@
       "displacement_l": 2.5,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1525,
+      "source_url": "https://www.carfolio.com/bmw-523i-automatic-219010",
+      "note": "1996 otomatik sedan"
     },
     {
       "car_id": "bmw-e39-525d",
@@ -157,9 +157,9 @@
       "displacement_l": 2.5,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1585,
+      "source_url": "https://www.carfolio.com/bmw-525d-automatic-104093",
+      "note": "2002 otomatik sedan, 197 PS"
     },
     {
       "car_id": "bmw-e39-525i",
@@ -169,9 +169,9 @@
       "displacement_l": 2.5,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1605,
+      "source_url": "https://www.carfolio.com/bmw-525i-automatic-104192",
+      "note": "2002 otomatik sedan, 192 PS"
     },
     {
       "car_id": "bmw-e39-528i",
@@ -181,9 +181,9 @@
       "displacement_l": 2.8,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1580,
+      "source_url": "https://www.automobile-catalog.com/car/1998/1507280/bmw_528i_automatic.html",
+      "note": "1998 otomatik, 193 PS"
     },
     {
       "car_id": "bmw-e39-530d",
@@ -193,9 +193,9 @@
       "displacement_l": 3,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1710,
+      "source_url": "https://www.carfolio.com/bmw-530d-automatic-280709",
+      "note": "2000 otomatik sedan, 193 PS"
     },
     {
       "car_id": "bmw-e39-530i",
@@ -205,9 +205,9 @@
       "displacement_l": 3,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1635,
+      "source_url": "https://www.carfolio.com/bmw-530i-automatic-96558",
+      "note": "2002 otomatik sedan, 231 PS"
     },
     {
       "car_id": "bmw-e46-318i",
@@ -217,9 +217,9 @@
       "displacement_l": 1.9,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1395,
+      "source_url": "https://www.carfolio.com/bmw-318i-automatic-74778",
+      "note": "1998 otomatik sedan, 1.9L M43"
     },
     {
       "car_id": "bmw-e46-320d",
@@ -229,9 +229,9 @@
       "displacement_l": 2.0,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1505,
+      "source_url": "https://www.carfolio.com/bmw-320d-automatic-89507",
+      "note": "2001 otomatik sedan, 150 PS"
     },
     {
       "car_id": "bmw-e46-320i",
@@ -241,9 +241,9 @@
       "displacement_l": 2.2,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1500,
+      "source_url": "https://www.carfolio.com/bmw-320i-automatic-74481",
+      "note": "Kasa ağırlığı 2.0->2.2L (M52TU->M54) geçişinde anlamlı değişmedi; manuel sedan (1465kg, 2001, 2.2L) + tork konvertörlü fark ile örtüşüyor"
     },
     {
       "car_id": "bmw-e46-325i",
@@ -253,9 +253,9 @@
       "displacement_l": 2.5,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1520,
+      "source_url": "https://www.carfolio.com/bmw-325i-automatic-280885",
+      "note": "2001 otomatik sedan, 192 PS"
     },
     {
       "car_id": "bmw-e46-330d",
@@ -265,9 +265,9 @@
       "displacement_l": 3,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1630,
+      "source_url": "https://www.carfolio.com/bmw-330d-automatic-107789",
+      "note": "2002 otomatik sedan, 204 PS"
     },
     {
       "car_id": "bmw-e46-330i",
@@ -277,9 +277,9 @@
       "displacement_l": 3,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1540,
+      "source_url": "https://www.carfolio.com/bmw-330i-automatic-280896",
+      "note": "2001 otomatik sedan, 231 PS"
     },
     {
       "car_id": "bmw-e60-520d",
@@ -289,9 +289,9 @@
       "displacement_l": 2.0,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1595,
+      "source_url": "https://www.carfolio.com/bmw-520d-automatic-131340",
+      "note": "2005 otomatik sedan, 163 PS"
     },
     {
       "car_id": "bmw-e87-120d",
@@ -301,9 +301,9 @@
       "displacement_l": 2.0,
       "transmission_type": "TK",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1425,
+      "source_url": "https://www.carfolio.com/bmw-120d-automatic-120736",
+      "note": "2004 otomatik, 163 PS"
     },
     {
       "car_id": "bmw-e90-316i",
@@ -313,9 +313,9 @@
       "displacement_l": 1.8,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1425,
+      "source_url": "https://www.carfolio.com/bmw-316i-184580",
+      "note": "122 PS; kaynakta şanzıman tipi net ayrılmıyor, manuel/otomatik farkı 1420-1425kg aralığında küçük"
     },
     {
       "car_id": "bmw-e90-318d",
@@ -325,9 +325,9 @@
       "displacement_l": 2,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1505,
+      "source_url": "https://www.carfolio.com/bmw-318d-134057",
+      "note": "2005, 122 PS; bu güç seviyesinin otomatikle satılıp satılmadığı bazı kaynaklarda belirsiz — ağırlık manuel sedan verisinden, delta küçük kabul edildi"
     },
     {
       "car_id": "bmw-e90-320d",
@@ -337,9 +337,9 @@
       "displacement_l": 2,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1520,
+      "source_url": "https://www.carfolio.com/bmw-320d-automatic-161744",
+      "note": "2007 otomatik sedan, 177 PS"
     },
     {
       "car_id": "bmw-e90-325i",
@@ -349,9 +349,9 @@
       "displacement_l": 2.5,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1520,
+      "source_url": "https://www.carfolio.com/bmw-325i-automatic-125499",
+      "note": "2005 otomatik sedan, 218 PS"
     },
     {
       "car_id": "bmw-e90-330d",
@@ -361,9 +361,9 @@
       "displacement_l": 3,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1625,
+      "source_url": "https://www.carfolio.com/bmw-330d-automatic-161788",
+      "note": "2007 otomatik sedan, 231 PS"
     },
     {
       "car_id": "bmw-f30-320d",
@@ -373,9 +373,9 @@
       "displacement_l": 2.0,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1595,
+      "source_url": "https://www.carfolio.com/bmw-320d-automatic-256905",
+      "note": "2011 otomatik sedan (RWD, xDrive değil), 184 PS"
     },
     {
       "car_id": "citroen-c3-1-2-puretech-otomatik",
@@ -385,9 +385,9 @@
       "displacement_l": 1.2,
       "transmission_type": "TK",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1165,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Citroen/109736/Citroen-C3-III-PureTech-110-EAT6-Feel.html",
+      "note": "EAT6 otomatik, 110 PS"
     },
     {
       "car_id": "citroen-c4-1-6-thp",
@@ -397,9 +397,9 @@
       "displacement_l": 1.6,
       "transmission_type": "Robot",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1420,
+      "source_url": "https://www.carfolio.com/citroen-c4-1.6-thp-155-376431",
+      "note": "2014, 155/156 PS; kaynakta MCP/EGS ayrımı net değil"
     },
     {
       "car_id": "citroen-c4-1-6-vti",
@@ -409,9 +409,9 @@
       "displacement_l": 1.6,
       "transmission_type": "TK",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1380,
+      "source_url": "https://www.carfolio.com/citroen-c4-1.6-vti-120-automatic-376420",
+      "note": "2014 (C4 II nesli) otomatik, 120 PS; araç kaydı C4 I nesli (2005-2010) için ama aynı motor/güç tünü, kasa ağırlığı yakın kabul edildi"
     },
     {
       "car_id": "citroen-c5-2-0-hdi",
@@ -421,9 +421,9 @@
       "displacement_l": 2,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1609,
+      "source_url": "https://www.carfolio.com/citroen-c5-hdi-160-245443",
+      "note": "2010, C5 II nesli otomatik, 163 PS"
     },
     {
       "car_id": "ford-kuga-1-5-ecoboost-6at",
@@ -445,9 +445,9 @@
       "displacement_l": 1.5,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1140,
+      "source_url": "https://www.carfolio.com/honda-city-automatic-223927",
+      "note": "2010 otomatik, 120 PS"
     },
     {
       "car_id": "honda-civic-fb7-1-6",
@@ -457,9 +457,9 @@
       "displacement_l": 1.6,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1190,
+      "source_url": "https://www.carfolio.com/honda-civic-sedan-1.6-comfort-447172",
+      "note": "2012 manuel 1160kg + tork konvertörlü tahmini fark (~30kg); otomatik verisi bulunamadı"
     },
     {
       "car_id": "hyundai-elantra-1-6-crdi-ad",
@@ -481,9 +481,9 @@
       "displacement_l": 1.6,
       "transmission_type": "Kuru DCT",
       "body_type": "Station Wagon",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1377,
+      "source_url": "https://zeperfs.com/en/fiche12988-kia-ceed-iii-sw-1-6-crdi-dct.htm",
+      "note": "SW (Sportswagon) DCT, 136 PS, DIN ağırlık"
     },
     {
       "car_id": "kia-cerato-1-6",
@@ -493,9 +493,9 @@
       "displacement_l": 1.6,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1226,
+      "source_url": "https://www.carfolio.com/kia-cerato-hatch-1.6-automatic-358644",
+      "note": "2013 hatchback otomatik, 130 PS; araç kaydı sedan olabilir, kasa farkı küçük kabul edildi"
     },
     {
       "car_id": "kia-sportage-1-6-crdi-7dct",
@@ -505,9 +505,9 @@
       "displacement_l": 1.6,
       "transmission_type": "Kuru DCT",
       "body_type": "SUV",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1493,
+      "source_url": "https://www.carfolio.com/kia-sportage-1.6-crdi-811910",
+      "note": "QL nesli, önden çekiş, 136 PS, 7DCT"
     },
     {
       "car_id": "mazda-6-2-0-gh",
@@ -517,9 +517,9 @@
       "displacement_l": 2,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1400,
+      "source_url": "https://www.carfolio.com/mazda-6-2.0-162668",
+      "note": "2007 manuel 1370kg + tork konvertörlü tahmini fark (~30kg); otomatik verisi bulunamadı"
     },
     {
       "car_id": "mercedes-c200-cdi-w203",
@@ -529,9 +529,9 @@
       "displacement_l": 2.2,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1515,
+      "source_url": "https://www.carfolio.com/mercedes-benz-c-200-cdi-77110",
+      "note": "2001, 122 PS"
     },
     {
       "car_id": "mercedes-c200-cdi-w204",
@@ -541,9 +541,9 @@
       "displacement_l": 2.1,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1560,
+      "source_url": "https://www.carfolio.com/mercedes-benz-c-200-cdi-automatic-192478",
+      "note": "2007 otomatik, 136 PS"
     },
     {
       "car_id": "mercedes-c200-kompressor-w203",
@@ -553,9 +553,9 @@
       "displacement_l": 1.8,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1490,
+      "source_url": "https://www.carfolio.com/mercedes-benz-c-200-kompressor-automatic-77154",
+      "note": "2001 otomatik, 163 PS"
     },
     {
       "car_id": "mercedes-c220-cdi-w204",
@@ -565,9 +565,9 @@
       "displacement_l": 2.1,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1610,
+      "source_url": "https://www.carfolio.com/mercedes-benz-c-220-cdi-blueefficiency-automatic-235818",
+      "note": "2011 otomatik, 170 PS"
     },
     {
       "car_id": "mercedes-c220-cdi",
@@ -577,9 +577,9 @@
       "displacement_l": 2.2,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1520,
+      "source_url": "https://www.carfolio.com/mercedes-benz-c-220-cdi-automatic-113025",
+      "note": "2003 otomatik, 150 PS"
     },
     {
       "car_id": "mercedes-c230-m271k",
@@ -589,9 +589,9 @@
       "displacement_l": 1.8,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1510,
+      "source_url": "https://www.carfolio.com/mercedes-benz-c-230-kompressor-118173",
+      "note": "2004 manuel 1490kg + tork konvertörlü tahmini fark (~20kg); otomatik verisi bulunamadı"
     },
     {
       "car_id": "mercedes-c250-cdi-w204",
@@ -601,9 +601,9 @@
       "displacement_l": 2.1,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1615,
+      "source_url": "https://www.carfolio.com/mercedes-benz-c-250-cdi-blueefficiency-automatic-223025",
+      "note": "2009 otomatik, 204 PS"
     },
     {
       "car_id": "mercedes-c270-cdi",
@@ -613,9 +613,9 @@
       "displacement_l": 2.7,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1610,
+      "source_url": "https://www.carfolio.com/mercedes-benz-c-270-cdi-118382",
+      "note": "2004 manuel 1600kg + tork konvertörlü tahmini fark (~10kg, W203 C220 CDI manuel/otomatik farkı örneğinden); otomatik verisi bulunamadı"
     },
     {
       "car_id": "mercedes-clk200-komp",
@@ -625,9 +625,9 @@
       "displacement_l": 1.8,
       "transmission_type": "TK",
       "body_type": "Coupe",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1440,
+      "source_url": "https://www.carfolio.com/mercedes-benz-clk-200-kompressor-coupe-93148",
+      "note": "C208 nesli manuel 1415kg + tahmini fark (~25kg); otomatik verisi bulunamadı"
     },
     {
       "car_id": "mercedes-clk230-komp",
@@ -637,9 +637,9 @@
       "displacement_l": 2.3,
       "transmission_type": "TK",
       "body_type": "Coupe",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1445,
+      "source_url": "https://www.carfolio.com/mercedes-benz-clk-230-kompressor-608355",
+      "note": "2000, 197 PS"
     },
     {
       "car_id": "mercedes-clk270-cdi",
@@ -649,9 +649,9 @@
       "displacement_l": 2.7,
       "transmission_type": "TK",
       "body_type": "Coupe",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1645,
+      "source_url": "https://www.carfolio.com/mercedes-benz-clk-270-cdi-automatic-96514",
+      "note": "2002 otomatik, C209 nesli"
     },
     {
       "car_id": "mercedes-e200-kompressor-w211",
@@ -661,9 +661,9 @@
       "displacement_l": 1.8,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1570,
+      "source_url": "https://www.carfolio.com/mercedes-benz-e-200-kompressor-automatic-107063",
+      "note": "2002 otomatik, 163 PS"
     },
     {
       "car_id": "mercedes-e200-w212",
@@ -673,9 +673,9 @@
       "displacement_l": 1.8,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1615,
+      "source_url": "https://www.carfolio.com/mercedes-benz-e-200-311102",
+      "note": "2013, 184 PS"
     },
     {
       "car_id": "mercedes-e220-cdi-w211",
@@ -685,9 +685,9 @@
       "displacement_l": 2.2,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1635,
+      "source_url": "https://www.carfolio.com/mercedes-benz-e-220-cdi-90904",
+      "note": "2002 manuel 1610kg + tork konvertörlü tahmini fark (~25kg); otomatik verisi bulunamadı"
     },
     {
       "car_id": "mercedes-e250-cdi-w212",
@@ -697,9 +697,9 @@
       "displacement_l": 2.1,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1735,
+      "source_url": "https://www.carfolio.com/mercedes-benz-e-250-cdi-blueefficiency-195921",
+      "note": "2009 otomatik (4MATIC değil), 204 PS"
     },
     {
       "car_id": "mercedes-e270-cdi",
@@ -709,9 +709,9 @@
       "displacement_l": 2.7,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1650,
+      "source_url": "https://www.carfolio.com/mercedes-benz-e-270-cdi-249909",
+      "note": "1999 manuel 1630kg + tork konvertörlü tahmini fark (~20kg); otomatik verisi bulunamadı"
     },
     {
       "car_id": "mercedes-e320-cdi",
@@ -721,9 +721,9 @@
       "displacement_l": 3.2,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1660,
+      "source_url": "https://www.carfolio.com/mercedes-benz-e-320-cdi-249887",
+      "note": "1999, 197 PS"
     },
     {
       "car_id": "mercedes-w202-c200-c220",
@@ -733,9 +733,9 @@
       "displacement_l": 2,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1385,
+      "source_url": "https://www.carfolio.com/mercedes-benz-c-200-6831",
+      "note": "1994 manuel 1365kg + 4 ileri tork konvertörlü tahmini fark (~20kg); otomatik verisi bulunamadı"
     },
     {
       "car_id": "mini-cooper-f56-1-5",
@@ -745,9 +745,9 @@
       "displacement_l": 1.5,
       "transmission_type": "TK",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1190,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Mini/67784/Mini-Mini-F56-Cooper-Auto.html",
+      "note": "F56 otomatik, 136 PS"
     },
     {
       "car_id": "mini-cooper-r56-1-6",
@@ -757,9 +757,9 @@
       "displacement_l": 1.6,
       "transmission_type": "TK",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1190,
+      "source_url": "https://www.carfolio.com/mini-cooper-automatic-216568",
+      "note": "2010 R56 otomatik, 122 PS"
     },
     {
       "car_id": "mini-cooper-s-r56-1-6-turbo",
@@ -769,9 +769,9 @@
       "displacement_l": 1.6,
       "transmission_type": "TK",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1240,
+      "source_url": "https://www.carfolio.com/mini-cooper-s-automatic-216458",
+      "note": "2010 R56 Cooper S otomatik, 175 PS"
     },
     {
       "car_id": "nissan-juke-1-6",
@@ -781,9 +781,9 @@
       "displacement_l": 1.6,
       "transmission_type": "CVT",
       "body_type": "SUV",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1213,
+      "source_url": "https://www.carfolio.com/nissan-juke-1.6-cvt-215325",
+      "note": "2010 CVT, 117 PS"
     },
     {
       "car_id": "nissan-qashqai-1-3-dig-t-cvt",
@@ -793,9 +793,9 @@
       "displacement_l": 1.3,
       "transmission_type": "CVT",
       "body_type": "SUV",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1468,
+      "source_url": "https://www.carfolio.com/nissan-qashqai-1.3-tekna-xtronic-776072",
+      "note": "Xtronic CVT, 140 PS"
     },
     {
       "car_id": "opel-astra-1-6-cdti-2013",
@@ -805,9 +805,9 @@
       "displacement_l": 1.6,
       "transmission_type": "TK",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1503,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Opel/69360/Opel-Astra-J-16-CDTi-136HP-Selective.html",
+      "note": "Selective donanımı, 136 PS; otomatik/manuel ayrımı kaynakta net değil"
     },
     {
       "car_id": "opel-astra-j-1-6-cdti-otomatik",
@@ -817,9 +817,9 @@
       "displacement_l": 1.6,
       "transmission_type": "TK",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1503,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Opel/69360/Opel-Astra-J-16-CDTi-136HP-Selective.html",
+      "note": "Aynı teknik kombinasyon (opel-astra-1-6-cdti-2013 ile), Selective donanımı, 136 PS"
     },
     {
       "car_id": "opel-crossland-x-1-2-puretech",
@@ -829,9 +829,9 @@
       "displacement_l": 1.2,
       "transmission_type": "TK",
       "body_type": "SUV",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1300,
+      "source_url": "https://www.carfolio.com/opel-crossland-x-1.2-di-turbo-561649",
+      "note": "2017 manuel 1274kg + tork konvertörlü tahmini fark (~25kg); otomatik verisi bulunamadı"
     },
     {
       "car_id": "peugeot-2008-1-6-thp",
@@ -853,9 +853,9 @@
       "displacement_l": 1.6,
       "transmission_type": "TK",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1060,
+      "source_url": "https://www.carfolio.com/peugeot-206-1.6-xsi-100760",
+      "note": "2001 manuel 1030kg + tork konvertörlü tahmini fark (~30kg); otomatik verisi bulunamadı"
     },
     {
       "car_id": "renault-clio-5-1-3-tce-edc",
@@ -865,9 +865,9 @@
       "displacement_l": 1.3,
       "transmission_type": "Islak DCT",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1248,
+      "source_url": "https://zeperfs.com/en/fiche8036-renault-clio-v-1-3-tce-edc.htm",
+      "note": "EDC, 130 PS"
     },
     {
       "car_id": "renault-fluence-1-5-dci",
@@ -877,9 +877,9 @@
       "displacement_l": 1.5,
       "transmission_type": "Kuru DCT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1380,
+      "source_url": "https://www.carfolio.com/renault-fluence-dci-110-eco%C2%B2-285494",
+      "note": "2011, 110 PS, EDC"
     },
     {
       "car_id": "renault-megane-4-1-3-tce-edc",
@@ -889,9 +889,9 @@
       "displacement_l": 1.3,
       "transmission_type": "Islak DCT",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1330,
+      "source_url": "https://www.carfolio.com/renault-megane-tce-140-gpf-edc-721116",
+      "note": "2020 hatchback EDC, 140 PS"
     },
     {
       "car_id": "rover-75-2-0",
@@ -901,9 +901,9 @@
       "displacement_l": 2,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1425,
+      "source_url": "https://www.carfolio.com/rover-75-2.0-kv6-79673",
+      "note": "2.0 V6 KV6 benzinli (2.0 CDTI dizeliyle karıştırılmamalı), 150 PS"
     },
     {
       "car_id": "seat-ibiza-1-0-tsi-dsg",
@@ -913,9 +913,9 @@
       "displacement_l": 1.0,
       "transmission_type": "Kuru DCT",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1170,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Seat/109926/Seat-Ibiza-2018-10-EcoTSI-95HP.html",
+      "note": "manuel 1122kg + kuru DSG tahmini fark (~30-45kg); otomatik verisi bulunamadı"
     },
     {
       "car_id": "seat-leon-1-5-tsi",
@@ -925,9 +925,9 @@
       "displacement_l": 1.5,
       "transmission_type": "Kuru DCT",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1330,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Seat/114421/Seat-Leon-3-ST-2017-15-TSI-150HP-DSG-7.html",
+      "note": "ST (Sportstourer) DSG-7, 150 PS"
     },
     {
       "car_id": "seat-leon-1-6-tdi",
@@ -937,9 +937,9 @@
       "displacement_l": 1.6,
       "transmission_type": "Kuru DCT",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1305,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Seat/108015/Seat-Leon-3-ST-2017-16-TDI-115HP.html",
+      "note": "ST (Sportstourer), 115 PS; DSG'li tünü automobile-catalog'da doğrulandı"
     },
     {
       "car_id": "skoda-fabia-1-0-tsi-dsg",
@@ -961,9 +961,9 @@
       "displacement_l": 2.0,
       "transmission_type": "Islak DCT",
       "body_type": "Hatchback",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1335,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Skoda/65327/Skoda-Octavia-3-Combi-20-TDI-CR-150HP.html",
+      "note": "manuel liftback 1330kg ile DSG Combi 1347kg arası; hatchback/liftback DSG ağırlığı bu ikisinin ortası kabul edildi"
     },
     {
       "car_id": "subaru-xv-2-0i-lineartronic",
@@ -973,9 +973,9 @@
       "displacement_l": 2.0,
       "transmission_type": "CVT",
       "body_type": "SUV",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1480,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Subaru/40879/Subaru-XV-20-CVT-Lineartronic-Executive.html",
+      "note": "2012, ilk nesil, 150 PS, Lineartronic CVT"
     },
     {
       "car_id": "toyota-chr-1-2-turbo",
@@ -985,9 +985,9 @@
       "displacement_l": 1.2,
       "transmission_type": "CVT",
       "body_type": "SUV",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1390,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Toyota/113117/Toyota-C-HR-12T.html",
+      "note": "önden çekiş CVT, 116 PS"
     },
     {
       "car_id": "volvo-s60-1-5-t3",
@@ -997,9 +997,9 @@
       "displacement_l": 1.5,
       "transmission_type": "TK",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1625,
+      "source_url": "https://www.carfolio.com/volvo-s60-t3-automatic-453618",
+      "note": "2016 otomatik, 152 PS"
     },
     {
       "car_id": "volvo-s60-2-0-t",
@@ -1009,9 +1009,9 @@
       "displacement_l": 2,
       "transmission_type": "Islak DCT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1490,
+      "source_url": "https://zeperfs.com/en/fiche10686-volvo-s60-ii-2-0-t-powershift.htm",
+      "note": "Powershift (ıslak DCT), 203 PS, DIN ağırlık"
     },
     {
       "car_id": "vw-cc-1-8-tsi-tfsi",
@@ -1021,9 +1021,9 @@
       "displacement_l": 1.8,
       "transmission_type": "Islak DCT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1521,
+      "source_url": "https://www.carfolio.com/volkswagen-cc-1.8-tsi-dsg-266992",
+      "note": "2011, DSG"
     },
     {
       "car_id": "vw-cc-2-0-tdi",
@@ -1033,9 +1033,9 @@
       "displacement_l": 2,
       "transmission_type": "Islak DCT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1492,
+      "source_url": "https://www.carfolio.com/volkswagen-passat-cc-2.0-tdi-dsg-218273",
+      "note": "2010 (Passat CC dönemi), DSG"
     },
     {
       "car_id": "vw-passat-b7-1-8-tsi",
@@ -1045,9 +1045,9 @@
       "displacement_l": 1.8,
       "transmission_type": "Islak DCT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1517,
+      "source_url": "https://www.carfolio.com/volkswagen-passat-1.8-tsi-dsg-266794",
+      "note": "2011, DSG"
     },
     {
       "car_id": "vw-passat-b8-2-0-tdi",
@@ -1057,9 +1057,93 @@
       "displacement_l": 2,
       "transmission_type": "Islak DCT",
       "body_type": "Sedan",
-      "kerb_weight_kg": null,
-      "source_url": null,
-      "note": null
+      "kerb_weight_kg": 1501,
+      "source_url": "https://www.carfolio.com/volkswagen-passat-2.0-tdi-bluemotion-scr-dsg-428417",
+      "note": "2015 sedan, DSG, 150 PS"
+    },
+    {
+      "car_id": "audi-a8-3-0-tdi-250-bg-250",
+      "name": "Audi A8 3.0 TDI · 250 bg",
+      "years": "2010-2013",
+      "hp": 250,
+      "displacement_l": 3.0,
+      "transmission_type": "TK",
+      "body_type": null,
+      "kerb_weight_kg": 1840,
+      "source_url": "https://www.carfolio.com/audi-a8-3.0-tdi-quattro-219142",
+      "note": "2010 quattro 8 ileri otomatik, 250 PS, standart dingil mesafesi"
+    },
+    {
+      "car_id": "opel-vectra-b-1-6-1-8",
+      "name": "Opel Vectra B 1.6/1.8",
+      "years": "1995-2002",
+      "hp": 115,
+      "displacement_l": 1.8,
+      "transmission_type": "TK",
+      "body_type": "Sedan",
+      "kerb_weight_kg": 1240,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Opel/3518/Opel-Vectra-B-18i-16v.html",
+      "note": "1995 manuel sedan 1212kg + tork konvertörlü tahmini fark (~30kg); otomatik verisi bulunamadı"
+    },
+    {
+      "car_id": "peugeot-301-1-6-hdi",
+      "name": "Peugeot 301 1.6 HDi",
+      "years": "2013-2020",
+      "hp": 92,
+      "displacement_l": 1.6,
+      "transmission_type": "Robot",
+      "body_type": "Sedan",
+      "kerb_weight_kg": 1170,
+      "source_url": "https://www.carfolio.com/peugeot-301-1.6-hdi-fap-295196",
+      "note": "2012, 92 PS"
+    },
+    {
+      "car_id": "saab-9-3-9-5-2-0t",
+      "name": "Saab 9-3 / 9-5 2.0t",
+      "years": "1997-2003",
+      "hp": 150,
+      "displacement_l": 2,
+      "transmission_type": "TK",
+      "body_type": "Sedan",
+      "kerb_weight_kg": 1340,
+      "source_url": "https://www.ultimatespecs.com/car-specs/Saab/6026/Saab-9-3-20-t.html",
+      "note": "manuel 1310kg + tork konvertörlü tahmini fark (~30kg); otomatik verisi tutarsız kaynaklarda çelişiyordu"
+    },
+    {
+      "car_id": "bmw-e60-525d-530d",
+      "name": "BMW E60 525d / 530d",
+      "years": "2003-2010",
+      "hp": 197,
+      "displacement_l": 3,
+      "transmission_type": "TK",
+      "body_type": "Sedan",
+      "kerb_weight_kg": 1670,
+      "source_url": "https://www.carfolio.com/bmw-525d-automatic-119801",
+      "note": "525d tünü (197 PS), 2004 otomatik sedan"
+    },
+    {
+      "car_id": "bmw-e87-116i-118i",
+      "name": "BMW E87 116i/118i",
+      "years": "2004-2011",
+      "hp": 143,
+      "displacement_l": 2,
+      "transmission_type": "TK",
+      "body_type": "Hatchback",
+      "kerb_weight_kg": 1375,
+      "source_url": "https://www.carfolio.com/bmw-118i-automatic-131241",
+      "note": "118i tünü (143 PS), 2005 otomatik"
+    },
+    {
+      "car_id": "bmw-e60-525i-530i",
+      "name": "BMW E60 525i / 530i",
+      "years": "2003-2010",
+      "hp": 218,
+      "displacement_l": 2.5,
+      "transmission_type": "TK",
+      "body_type": "Sedan",
+      "kerb_weight_kg": 1570,
+      "source_url": "https://www.carfolio.com/bmw-525i-automatic-125092",
+      "note": "525i tünü (2.5L/218 PS), 2005 otomatik sedan"
     }
   ]
 }

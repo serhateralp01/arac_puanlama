@@ -14,7 +14,7 @@
     "transmission_id": "psa-etg",
     "body_type": "Sedan",
     "engine_id": "psa-dv6",
-    "kerb_weight_kg": null,
+    "kerb_weight_kg": 1170,
     "torque_nm": 230,
     "fuel_consumption_l_100km": 4.1,
     "gears": 6,
@@ -28,7 +28,7 @@
   "scores": {
     "motor": 44,
     "trans": 30,
-    "fun": 25,
+    "fun": 11,
     "comf": 75,
     "age": 60,
     "cost": 87,
@@ -45,7 +45,7 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js",
-    "specs_source": "**Düzeltme (2026-08-17).** Önceki değerler (115 bg, 150 Nm, 6.4 L/100km) yanlış varyanttan alınmıştı: eski provenance kaydının kendisi eşleşmeyi \"peugeot 301 — 1.6L PureTech 5MT (115 HP)\" olarak yazıyordu, yani **benzinli** PureTech varyantından. Bu araç ise dizel 1.6 HDi (engine_id psa-dv6) ve ETG robotlu kutu taşıyor. Hata, fizik denetiminde yakalandı: 115 bg / 150 Nm oranı (hp/Nm 0,77) dizel için imkânsız, çünkü dizellerde bu oran 0,38-0,52 aralığında kalıyor. Peugeot 301'in 115 bg'lik bir HDi versiyonu hiç üretilmedi; 115 bg / 150 Nm tam olarak 1.6 VTi benzinlinin değerleri. Doğru rakamlar (92 bg / 230 Nm / 4,1 L/100km, ETG6 kutuyla) birbirini doğrulayan birden çok teknik özellik kaynağından alındı. Boş ağırlık da aynı yanlış kayıttan geldiği için silindi; doğrulanmadan geri yazılmayacak."
+    "specs_source": "**Düzeltme (2026-08-17).** Önceki değerler (115 bg, 150 Nm, 6.4 L/100km) yanlış varyanttan alınmıştı: eski provenance kaydının kendisi eşleşmeyi \"peugeot 301 — 1.6L PureTech 5MT (115 HP)\" olarak yazıyordu, yani **benzinli** PureTech varyantından. Bu araç ise dizel 1.6 HDi (engine_id psa-dv6) ve ETG robotlu kutu taşıyor. Hata, fizik denetiminde yakalandı: 115 bg / 150 Nm oranı (hp/Nm 0,77) dizel için imkânsız, çünkü dizellerde bu oran 0,38-0,52 aralığında kalıyor. Peugeot 301'in 115 bg'lik bir HDi versiyonu hiç üretilmedi; 115 bg / 150 Nm tam olarak 1.6 VTi benzinlinin değerleri. Doğru rakamlar (92 bg / 230 Nm / 4,1 L/100km, ETG6 kutuyla) birbirini doğrulayan birden çok teknik özellik kaynağından alındı. Boş ağırlık da aynı yanlış kayıttan geldiği için silindi; doğrulanmadan geri yazılmayacak. Boş ağırlık (1170 kg) https://www.carfolio.com/peugeot-301-1.6-hdi-fap-295196 adresinden alındı; eşleme MK-15 kuralına göre beygir (92 bg) ve motor hacmi (1.6 L) birlikte doğrulanarak yapıldı."
   },
   "evidence": {
     "motor": {
@@ -84,9 +84,9 @@
       "band": "sürüş keyfi öncelik değil",
       "confidence": "düşük",
       "sources": [],
-      "reasoning": "Güç/ağırlık oranı 106 hp/ton (normalize 39/100), tork/ağırlık oranı 138 Nm/ton (normalize 16/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman -8) temel puan 25. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
-      "assessed_at": "2026-08-07",
-      "derivation": "formul"
+      "reasoning": "Güç/ağırlık oranı 79 hp/ton (normalize 9/100), tork/ağırlık oranı 197 Nm/ton (normalize 49/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman -8) temel puan 11. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-18"
     }
   },
   "catalog_ref": {

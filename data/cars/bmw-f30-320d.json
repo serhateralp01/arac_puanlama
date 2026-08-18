@@ -13,7 +13,8 @@
     "transmission_id": "zf-8hp",
     "body_type": "Sedan",
     "engine_id": "bmw-n47",
-    "torque_nm": 380
+    "torque_nm": 380,
+    "kerb_weight_kg": 1595
   },
   "price_band_k_try": [
     1120,
@@ -23,7 +24,7 @@
   "scores": {
     "motor": 44,
     "trans": 70,
-    "fun": 58,
+    "fun": 63,
     "comf": 76,
     "age": 48,
     "cost": 68,
@@ -40,7 +41,7 @@
   "provenance": {
     "added_at": "2026-08-07",
     "method": "Y-01 beşinci tur: mevcut motor ailesi (bmw-n47) + yeni şanzıman ailesi (zf-8hp).",
-    "specs_source": "Tork (380 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (184 bg) ve motor hacmi (2.0 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
+    "specs_source": "Tork (380 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (184 bg) ve motor hacmi (2.0 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı. Boş ağırlık (1595 kg) https://www.carfolio.com/bmw-320d-automatic-256905 adresinden alındı; eşleme MK-15 kuralına göre beygir (184 bg) ve motor hacmi (2.0 L) birlikte doğrulanarak yapıldı."
   },
   "evidence": {
     "motor": {
@@ -76,6 +77,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2013.5, yani 2026 itibarıyla yaşı yaklaşık 12.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 26.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 48 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07",
       "derivation": "formul"
+    },
+    "fun": {
+      "band": "nötr",
+      "confidence": "orta",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 115 hp/ton (normalize 50/100), tork/ağırlık oranı 238 Nm/ton (normalize 72/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 55. Karakter düzeltmesi +8 puan uygulandı, gerekçesi: arkadan itiş (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-18"
     }
   },
   "price_reference": {

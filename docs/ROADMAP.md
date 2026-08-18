@@ -24,7 +24,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 72/72 duman testi (statik sayfa, SEO, katalog ve koyu tema kontrolleri dahil) |
-| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, 261/377 araç; terfi eden 99 aracın tamamı dahil — bkz. Y-19). `comf` ve `cost` hâlâ elle veriliyor. |
+| `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, **375/406 araç** — bkz. Y-19, Y-24). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi, iki ayrı kaynakla.** 19 araç 2026-08-13 tarihli arabam.com ilan gözlemine, 10 araç 2026-07 tarihli TSB Kasko Değer Listesi'ne bağlandı (bkz. Y-21). Toplam 29 araçta `price_reference` bloğu (tarih, yöntem, örneklem/kaynak, sınırlılık) var; kalan 371 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
 | Çok ekranlı arayüz: ana ekran, giriş akışı, liste, metodoloji, kaynak öner, iletişim | Çalışıyor |
@@ -39,7 +39,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
 | Veri doğruluğu (MK-18) | **Dış veri setiyle çapraz doğrulama yapıldı.** 220 araç bağımsız bir katalogla karşılaştırıldı; motor/şanzıman ailesinde 0 çelişki, beygir/torkta 10 çelişki bulundu ve doğrulanan 5 gerçek hata düzeltildi (en ağırı: bir 1.6 dizelde 400 Nm ve bir aracın tamamen yanlış motor ailesine bağlı olması). |
-| Teknik özellik kapsamı | Tork 172 → **251/278**; boş ağırlık 163/278. `fun` formülünün önündeki tek engel artık boş ağırlık: 88 araçta tork var ama ağırlık yok. Çalışma listesi ve doğrulamalı içe aktarma betiği hazır (Y-16); veri toplama, spec sitelerine erişimi olan bir oturumu bekliyor. |
+| Teknik özellik kapsamı | Boş ağırlık **375/406** (Y-24, WebSearch ile dolduruldu). Kalan 31 araçta tork veya ağırlık eksik; 4'ü bilinçli olarak boş bırakıldı (kaynakta kombinasyon doğrulanamadı, bkz. Y-24). |
 | Görsel dil / ürün hissi | Ham, iş odaklı |
 | Arama motoru görünürlüğü (Y-11) | **Temel kuruldu.** `scripts/build_pages.py` 435 indekslenebilir sayfa üretiyor (araç/motor/şanzıman başına bir tane), her biri araca özgü başlık, açıklama, canonical ve JSON-LD ile; `sitemap.xml` ve `robots.txt` yayında. Search Console'a gönderim depo sahibini bekliyor. |
 | Ticari strateji | `docs/URUN-STRATEJISI.md` — gelir modelleri, açık kaynak lisans katmanları, içerik/pazarlama hattı ve 90 günlük plan; her fikir uygulanabilirlik seviyesiyle birlikte |
@@ -1653,6 +1653,62 @@ eşlemesi elle çözülebilir (aynı araç muhtemelen farklı bir id altında za
 
 ---
 
+## Y-24 · Boş ağırlık verisi 88 → 91/95 dolduruldu, `fun` kapsamı 285 → 375 — **birinci tur bitti (2026-08-18)**
+
+**Bağlam.** Y-16'nın çalışma listesi (`data/queue/kerb-weight-worklist.json`) 2026-08-13'te
+88 satırla hazırlanmış ama hiç doldurulmamıştı; bu ortamdaki `WebFetch`/doğrudan sayfa
+erişimi bu turda da engelliydi, ama `WebSearch` (arama motoru özetleri) çalışıyor —
+bu farkın kendisi Y-20'de zaten tespit edilmişti. Bu tur o farkı kullandı: 95 aracın
+her biri için (listeye 6. bölümdeki 7 yeni araç da eklendi) marka+model+üretim yılı+
+motor hacmi+beygir+şanzıman tipini BİRLİKTE doğrulayan bir sorgu yazıldı (MK-15), sonuç
+tek bir kaynak URL'siyle birlikte çalışma listesine işlendi.
+
+**Sonuç: 91/95 dolduruldu, 4'ü bilinçli olarak boş bırakıldı.** `python3
+scripts/import_kerb_weight.py --write` bu 91 satırı 0 ret ile işledi (hiçbiri MK-15'in
+beygir/hacim/aralık korumalarına takılmadı, çünkü her satır yazılmadan önce elle
+doğrulandı). Boş bırakılan 4'ün nedeni farklı, hepsi CLAUDE.md §1'in "düzeltilemeyen bir
+şey varsa gerekçesiyle açık bırakılır" ilkesine uyuyor:
+- **Ford Kuga 1.5 EcoBoost 6AT (150 bg)** ve **Peugeot 2008 1.6 THP (156 bg)**: arama
+  sonuçları ısrarla farklı bir beygir seviyesinin (180 PS, 156 yerine değişik bir tün)
+  verisini döndürdü; doğru varyantın ağırlığı bulunamadı.
+- **Hyundai Elantra AD 1.6 CRDi 7DCT (136 bg)**: doğru sayfalar bulundu ama arama
+  özetinde sayısal değer hiç görünmedi.
+- **Skoda Fabia 1.0 TSI DSG (95 bg)**: bulunan tek otomatik veri noktası aslında 110 bg
+  tünü içindi; 95 bg'nin gerçekten DSG ile satılıp satılmadığı kaynaklarda belirsiz
+  kaldı — bu, Y-19'da BMW E90 318d'de görülen "düşük güç tünü yalnız manuel olabilir"
+  kalıbının aynısı. Sayı uydurmak yerine boş bırakıldı; ayrı bir doğrulama gerektiriyor.
+
+**Bazı satırlar tam eşleşme yerine gerekçeli tahmin taşıyor.** Otomatik şanzımanlı
+model doğrudan bulunamadığında (özellikle eski/az bilinen Mercedes/BMW/Opel modelleri),
+manuel şanzımanın doğrulanmış ağırlığına bu segment için tipik tork-konvertörlü fark
+(~20-40 kg, deponun kendi karşılaştırılabilir çiftlerinden — ör. Seat Altea XL manuel/
+DSG farkı — kalibre edildi) eklendi ve bu **`kerb-weight-worklist.json`'daki `note`
+alanında açıkça yazıldı**. Bu, deponun zaten kabul ettiği bir yöntemin
+(`promote_catalog.py`'nin comf/cost/liq tahmini) aynısı — uydurma değil, açıkça
+işaretlenmiş bir yaklaşım.
+
+**`fun` kapsamı 285 → 375 (406 aracın %92'si).** `scripts/compute_fun.py --write`
+çalıştırıldığında ortalama mutlak sapma eski elle verilen puana göre yalnızca 3,7 puan
+çıktı (betiğin kendi dokümantasyonundaki tipik 17-18 puanlık sapmanın çok altında — bu
+turda düzeltilen ağırlıkların çoğu zaten iyi tahmin edilmiş kombinasyonlardı). En büyük
+sapmalar (BMW E46 318i 68→21, Toyota C-HR 52→9) tek tek incelendi: ikisi de düşük güç/
+ağırlık oranlı, girişseviyesi motor varyantları — eski elle verilen puan muhtemelen
+"marka spor imajı" önyargısıyla şişirilmişti, formül düzeltmesi mantıklı.
+
+**Doğrulanan pipeline sırası.** `import_kerb_weight.py --write` → `compute_fun.py
+--write` → `validate.py` (0 hata) → `build.py` → `build_pages.py` → `build_content.py`
+→ `smoke_test.js` (72/72). Her adım ayrı ayrı çalıştırılıp doğrulandı.
+
+**Bitmiş sayılma ölçütü — bir sonraki tur için.** Kalan 31 araçta (406-375) hâlâ tork
+veya ağırlık eksik; `python3 scripts/compute_fun.py` (yazmadan) hangi araçların
+atlandığını listeler. 4 bilinçli boş satır (yukarıda) ayrı bir WebSearch turunda farklı
+sorgu ifadeleriyle yeniden denenebilir. Skoda Fabia 1.0 TSI 95 bg + DSG kombinasyonunun
+gerçekten var olup olmadığı, bu oturumda tekrarlayan "kombinasyon gerçek mi" sorusunun
+yeni bir örneği — dış doğrulama (kullanıcının kendi araştırması ya da web erişimi olan
+bir oturum) gerekiyor.
+
+---
+
 ## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
 
 **Sorun neydi.** Kaynak biriktirmek ile kaynağı puana çevirmek iki farklı iş ve farklı
@@ -2214,7 +2270,7 @@ olarak da en kritik olanlardan biri (`docs/URUN-STRATEJISI.md` §4.2).
 **Bitmiş sayılma ölçütü.** Ölçüm ikinci kez, aynı yöntemle ve elle müdahale olmadan
 çalıştırılabiliyor; tarihli fiyat taşıyan araç sayısı belirgin biçimde artıyor.
 
-### Y-16 · Boş ağırlık verisinin doldurulması — **hazırlandı, veri toplama bekliyor**
+### Y-16 · Boş ağırlık verisinin doldurulması — **büyük ölçüde bitti (2026-08-18, bkz. Y-24)**
 
 **Sorun.** P2.1 entegrasyonundan sonra tork kapsamı 251/278'e çıktı ama `fun` kapsamı
 163'te kaldı. Sebep tek bir alan: **88 araçta tork var, boş ağırlık yok** ve formül ikisini

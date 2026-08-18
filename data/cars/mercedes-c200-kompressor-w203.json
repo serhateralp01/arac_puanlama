@@ -14,7 +14,8 @@
     "body_type": "Sedan",
     "engine_id": "mb-m271",
     "torque_nm": 325,
-    "gears": 5
+    "gears": 5,
+    "kerb_weight_kg": 1490
   },
   "price_band_k_try": [
     420,
@@ -24,7 +25,7 @@
   "scores": {
     "motor": 64,
     "trans": 80,
-    "fun": 66,
+    "fun": 56,
     "comf": 70,
     "age": 15,
     "cost": 68,
@@ -41,7 +42,7 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
-    "specs_source": "Tork (325 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (163 bg) ve motor hacmi (1.8 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
+    "specs_source": "Tork (325 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (163 bg) ve motor hacmi (1.8 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı. Boş ağırlık (1490 kg) https://www.carfolio.com/mercedes-benz-c-200-kompressor-automatic-77154 adresinden alındı; eşleme MK-15 kuralına göre beygir (163 bg) ve motor hacmi (1.8 L) birlikte doğrulanarak yapıldı."
   },
   "evidence": {
     "motor": {
@@ -73,6 +74,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2003.5, yani 2026 itibarıyla yaşı yaklaşık 22.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07",
       "derivation": "formul"
+    },
+    "fun": {
+      "band": "nötr",
+      "confidence": "orta",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 109 hp/ton (normalize 43/100), tork/ağırlık oranı 218 Nm/ton (normalize 61/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 48. Karakter düzeltmesi +8 puan uygulandı, gerekçesi: arkadan itiş (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-18"
     }
   },
   "catalog_ref": {

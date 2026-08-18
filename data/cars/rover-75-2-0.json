@@ -15,7 +15,8 @@
     "body_type": "Sedan",
     "engine_id": "rover-kv6",
     "torque_nm": 185,
-    "gears": 5
+    "gears": 5,
+    "kerb_weight_kg": 1425
   },
   "price_band_k_try": [
     420,
@@ -25,7 +26,7 @@
   "scores": {
     "motor": 56,
     "trans": 44,
-    "fun": 62,
+    "fun": 37,
     "comf": 78,
     "age": 15,
     "cost": 42,
@@ -43,7 +44,7 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js",
-    "specs_source": "Tork (185 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (150 bg) ve motor hacmi (2 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
+    "specs_source": "Tork (185 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (150 bg) ve motor hacmi (2 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı. Boş ağırlık (1425 kg) https://www.carfolio.com/rover-75-2.0-kv6-79673 adresinden alındı; eşleme MK-15 kuralına göre beygir (150 bg) ve motor hacmi (2 L) birlikte doğrulanarak yapıldı."
   },
   "evidence": {
     "motor": {
@@ -77,6 +78,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2002.0, yani 2026 itibarıyla yaşı yaklaşık 24.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07",
       "derivation": "formul"
+    },
+    "fun": {
+      "band": "sönük",
+      "confidence": "orta",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 105 hp/ton (normalize 39/100), tork/ağırlık oranı 130 Nm/ton (normalize 12/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 32. Karakter düzeltmesi +5 puan uygulandı, gerekçesi: doğal emişli yüksek devir karakteri (75 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-18"
     }
   },
   "catalog_ref": {

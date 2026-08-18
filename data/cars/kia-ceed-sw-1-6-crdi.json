@@ -15,7 +15,8 @@
     "engine_id": "hyundai-u2-16",
     "torque_nm": 300,
     "gears": 7,
-    "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı"
+    "clutch": "Islak/kuru tipi VIN-kutu koduyla doğrulanmalı",
+    "kerb_weight_kg": 1377
   },
   "price_band_k_try": [
     700,
@@ -25,7 +26,7 @@
   "scores": {
     "motor": 68,
     "trans": 46,
-    "fun": 48,
+    "fun": 45,
     "comf": 78,
     "age": 65,
     "cost": 76,
@@ -44,7 +45,7 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi.",
-    "specs_source": "Tork (300 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (136 bg) ve motor hacmi (1.6 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
+    "specs_source": "Tork (300 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (136 bg) ve motor hacmi (1.6 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı. Boş ağırlık (1377 kg) https://zeperfs.com/en/fiche12988-kia-ceed-iii-sw-1-6-crdi-dct.htm adresinden alındı; eşleme MK-15 kuralına göre beygir (136 bg) ve motor hacmi (1.6 L) birlikte doğrulanarak yapıldı."
   },
   "evidence": {
     "motor": {
@@ -77,6 +78,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2017.5, yani 2026 itibarıyla yaşı yaklaşık 8.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 18.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 65 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07",
       "derivation": "formul"
+    },
+    "fun": {
+      "band": "sönük",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 99 hp/ton (normalize 32/100), tork/ağırlık oranı 218 Nm/ton (normalize 61/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +6) temel puan 45. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-18"
     }
   },
   "catalog_ref": {

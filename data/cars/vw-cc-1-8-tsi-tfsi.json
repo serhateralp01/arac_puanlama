@@ -14,7 +14,8 @@
     "transmission_id": "vag-dq250",
     "body_type": "Sedan",
     "engine_id": "vag-ea888",
-    "torque_nm": 249
+    "torque_nm": 249,
+    "kerb_weight_kg": 1521
   },
   "price_band_k_try": [
     720,
@@ -24,7 +25,7 @@
   "scores": {
     "motor": 42,
     "trans": 66,
-    "fun": 68,
+    "fun": 41,
     "comf": 72,
     "age": 44,
     "cost": 70,
@@ -43,7 +44,7 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js",
-    "specs_source": "Tork (249 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (160 bg) ve motor hacmi (1.8 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
+    "specs_source": "Tork (249 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (160 bg) ve motor hacmi (1.8 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı. Boş ağırlık (1521 kg) https://www.carfolio.com/volkswagen-cc-1.8-tsi-dsg-266992 adresinden alındı; eşleme MK-15 kuralına göre beygir (160 bg) ve motor hacmi (1.8 L) birlikte doğrulanarak yapıldı."
   },
   "evidence": {
     "motor": {
@@ -75,6 +76,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2012.5, yani 2026 itibarıyla yaşı yaklaşık 13.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 28.6. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 44 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07",
       "derivation": "formul"
+    },
+    "fun": {
+      "band": "sönük",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 105 hp/ton (normalize 39/100), tork/ağırlık oranı 164 Nm/ton (normalize 31/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +4) temel puan 41. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-18"
     }
   }
 }

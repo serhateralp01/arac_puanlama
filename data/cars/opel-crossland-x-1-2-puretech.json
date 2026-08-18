@@ -15,7 +15,8 @@
     "engine_id": "psa-puretech-12",
     "torque_nm": 230,
     "fuel_consumption_l_100km": 5.0,
-    "gears": 8
+    "gears": 8,
+    "kerb_weight_kg": 1300
   },
   "price_band_k_try": [
     750,
@@ -25,7 +26,7 @@
   "scores": {
     "motor": 34,
     "trans": 76,
-    "fun": 50,
+    "fun": 34,
     "comf": 76,
     "age": 69,
     "cost": 58,
@@ -43,7 +44,7 @@
   "provenance": {
     "added_at": "2026-08-06",
     "method": "Sarı/kırmızı çeşitlendirme turu: yeni motor/şanzıman ailesi açılarak eklendi.",
-    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: opel crossland 2020 present — 1.2L Turbo 6AT (130 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: opel crossland 2020 present — 1.2L Turbo 6AT (130 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15). Boş ağırlık (1300 kg) https://www.carfolio.com/opel-crossland-x-1.2-di-turbo-561649 adresinden alındı; eşleme MK-15 kuralına göre beygir (130 bg) ve motor hacmi (1.2 L) birlikte doğrulanarak yapıldı."
   },
   "evidence": {
     "motor": {
@@ -76,6 +77,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2018.5, yani 2026 itibarıyla yaşı yaklaşık 7.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 16.5. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 69 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07",
       "derivation": "formul"
+    },
+    "fun": {
+      "band": "sürüş keyfi öncelik değil",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 100 hp/ton (normalize 33/100), tork/ağırlık oranı 177 Nm/ton (normalize 38/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 34. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-18"
     }
   },
   "catalog_ref": {

@@ -15,7 +15,8 @@
     "body_type": "Sedan",
     "engine_id": "bmw-m54",
     "torque_nm": 300,
-    "gears": 5
+    "gears": 5,
+    "kerb_weight_kg": 1540
   },
   "price_band_k_try": [
     500,
@@ -25,7 +26,7 @@
   "scores": {
     "motor": 78,
     "trans": 40,
-    "fun": 80,
+    "fun": 93,
     "comf": 66,
     "age": 15,
     "cost": 58,
@@ -44,7 +45,7 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js",
-    "specs_source": "Tork (300 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (231 bg) ve motor hacmi (3 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı."
+    "specs_source": "Tork (300 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (231 bg) ve motor hacmi (3 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı. Boş ağırlık (1540 kg) https://www.carfolio.com/bmw-330i-automatic-280896 adresinden alındı; eşleme MK-15 kuralına göre beygir (231 bg) ve motor hacmi (3 L) birlikte doğrulanarak yapıldı."
   },
   "evidence": {
     "motor": {
@@ -80,6 +81,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2002.5, yani 2026 itibarıyla yaşı yaklaşık 23.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.9. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 15 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07",
       "derivation": "formul"
+    },
+    "fun": {
+      "band": "belirgin karakter",
+      "confidence": "orta",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 150 hp/ton (normalize 88/100), tork/ağırlık oranı 195 Nm/ton (normalize 48/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 78. Karakter düzeltmesi +15 puan uygulandı, gerekçesi: arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir karakteri (77 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-18"
     }
   },
   "catalog_ref": {

@@ -15,7 +15,8 @@
     "body_type": "Hatchback",
     "engine_id": "psa-tu5",
     "torque_nm": 142,
-    "fuel_consumption_l_100km": 7.3
+    "fuel_consumption_l_100km": 7.3,
+    "kerb_weight_kg": 1060
   },
   "price_band_k_try": [
     420,
@@ -25,7 +26,7 @@
   "scores": {
     "motor": 62,
     "trans": 40,
-    "fun": 50,
+    "fun": 31,
     "comf": 69,
     "age": 16,
     "cost": 74,
@@ -42,7 +43,7 @@
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js",
-    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: peugeot 206 sedan — 1.6L 16V 4AT (110 HP) . Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: peugeot 206 sedan — 1.6L 16V 4AT (110 HP) . Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15). Boş ağırlık (1060 kg) https://www.carfolio.com/peugeot-206-1.6-xsi-100760 adresinden alındı; eşleme MK-15 kuralına göre beygir (110 bg) ve motor hacmi (1.6 L) birlikte doğrulanarak yapıldı."
   },
   "evidence": {
     "motor": {
@@ -74,6 +75,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2004.5, yani 2026 itibarıyla yaşı yaklaşık 21.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 42.2. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 16 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07",
       "derivation": "formul"
+    },
+    "fun": {
+      "band": "sürüş keyfi öncelik değil",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 104 hp/ton (normalize 37/100), tork/ağırlık oranı 134 Nm/ton (normalize 14/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 31. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-18"
     }
   },
   "catalog_ref": {

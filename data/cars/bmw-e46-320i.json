@@ -13,7 +13,8 @@
     "transmission_id": "zf-5hp",
     "body_type": "Sedan",
     "engine_id": "bmw-m54",
-    "torque_nm": 210
+    "torque_nm": 210,
+    "kerb_weight_kg": 1500
   },
   "price_band_k_try": [
     450,
@@ -23,7 +24,7 @@
   "scores": {
     "motor": 78,
     "trans": 70,
-    "fun": 68,
+    "fun": 55,
     "comf": 68,
     "age": 15,
     "cost": 60,
@@ -42,7 +43,8 @@
     "added_at": "2026-08-06",
     "method": "Motor/şanzıman çeşitlendirme turu: docs/Y01B-MOTOR-CESITLENDIRME.md'deki onaylı 🟢 aday.",
     "corrected_at": "2026-08-13",
-    "correction": "P2.1 çapraz doğrulaması: motor ailesi bmw-n4x -> bmw-m54, hp 150 -> 170, hacim 2.0 -> 2.2, tork alanı 210 Nm olarak dolduruldu. Kaynak: bmwguide_m54b22_e46."
+    "correction": "P2.1 çapraz doğrulaması: motor ailesi bmw-n4x -> bmw-m54, hp 150 -> 170, hacim 2.0 -> 2.2, tork alanı 210 Nm olarak dolduruldu. Kaynak: bmwguide_m54b22_e46.",
+    "specs_source": "Boş ağırlık (1500 kg) https://www.carfolio.com/bmw-320i-automatic-74481 adresinden alındı; eşleme MK-15 kuralına göre beygir (170 bg) ve motor hacmi (2.2 L) birlikte doğrulanarak yapıldı."
   },
   "evidence": {
     "trans": {
@@ -74,6 +76,14 @@
       ],
       "reasoning": "M54 (bmw-m54) motor ailesinin temel puanı 78. Bu aracın motor puanı (78) temel puanla birebir aynı. Bu kayıt daha önce dört silindirli bmw-n4x ailesine bağlıydı ve o ailenin temel puanını (58) taşıyordu; N42/N46'nın zincir kılavuzu aşınması bu motorda bulunmadığı için o puan yalnızca yanlış aile bağlantısının sonucuydu. Doğru aile olan M54, sıralı altı silindirli atmosferik bir tasarım ve kaynaklar ciddi onarım gerekmeden 270.000-450.000 km arası dayandığını bildiriyor. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: yapısal bir tasarım hatası bildirilmiyor, bildirilen kalemler (DISA kelebeği, VANOS conta, yağ ayırıcı) planlanabilir bakım kalemleri.",
       "assessed_at": "2026-08-13"
+    },
+    "fun": {
+      "band": "nötr",
+      "confidence": "orta",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 113 hp/ton (normalize 48/100), tork/ağırlık oranı 140 Nm/ton (normalize 18/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 40. Karakter düzeltmesi +15 puan uygulandı, gerekçesi: arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir karakteri (77 hp/L) (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-18"
     }
   }
 }

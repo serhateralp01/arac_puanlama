@@ -13,7 +13,8 @@
     "transmission_id": "vag-dq200",
     "body_type": "Hatchback",
     "engine_id": "vag-ea211",
-    "torque_nm": 175
+    "torque_nm": 175,
+    "kerb_weight_kg": 1170
   },
   "price_band_k_try": [
     620,
@@ -23,7 +24,7 @@
   "scores": {
     "motor": 72,
     "trans": 38,
-    "fun": 50,
+    "fun": 21,
     "comf": 60,
     "age": 76,
     "cost": 70,
@@ -40,7 +41,7 @@
   "provenance": {
     "added_at": "2026-08-07",
     "method": "Y-01 yedinci tur: bütçe segmenti genişletmesi. Aday autoevolution veri setinden süzüldü (MK-15), motor/şanzıman ailesi elle eşlendi, teknik özellikler veri setinden alındı.",
-    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: seat ibiza 5 doors 2021 present — 1.0L TSI 5MT (95 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15)."
+    "specs_source": "Teknik özellikler (ağırlık, tork, tüketim) autoevolution.com verisinden alındı; eşleşen kayıt: seat ibiza 5 doors 2021 present — 1.0L TSI 5MT (95 HP). Eşleme marka, model, motor hacmi, beygir ve üretim yılı birlikte doğrulanarak yapıldı (MK-15). Boş ağırlık (1170 kg) https://www.ultimatespecs.com/car-specs/Seat/109926/Seat-Ibiza-2018-10-EcoTSI-95HP.html adresinden alındı; eşleme MK-15 kuralına göre beygir (95 bg) ve motor hacmi (1.0 L) birlikte doğrulanarak yapıldı."
   },
   "evidence": {
     "age": {
@@ -52,6 +53,14 @@
       "reasoning": "Bu aracın model yılı ortalaması 2020.0, yani 2026 itibarıyla yaşı yaklaşık 6.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 13.3. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 76 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
       "assessed_at": "2026-08-07",
       "derivation": "formul"
+    },
+    "fun": {
+      "band": "sürüş keyfi öncelik değil",
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 81 hp/ton (normalize 12/100), tork/ağırlık oranı 150 Nm/ton (normalize 23/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +6) temel puan 21. Karakter düzeltmesi uygulanmadı: araç PLAN.md §3.6'nın kabul ettiği beş ölçütten (arkadan itiş, sıralı altı silindir, doğal emişli yüksek devir, sportif şasi, direksiyon geri bildirimi) hiçbirini veri tabanında kayıtlı, doğrulanabilir bir olguyla karşılamıyor. Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-18"
     }
   }
 }
