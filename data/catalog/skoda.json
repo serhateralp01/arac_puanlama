@@ -2976,6 +2976,123 @@
         "rejected_label": null,
         "manually_corrected_fields": null
       }
+    },
+    {
+      "id": "skoda-rapid-1-0-110",
+      "name": "Skoda Rapid Spaceback 1.0 TSI DSG",
+      "brand": "Skoda",
+      "model_family": "Rapid",
+      "generation": null,
+      "years": "2017-2018",
+      "specs": {
+        "hp": 110,
+        "torque_nm": null,
+        "displacement_l": 1.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "DSG7",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "1194",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
+    },
+    {
+      "id": "skoda-octavia-2-0-170",
+      "name": "Skoda Octavia RS 2.0 TDI CR 170 DSG",
+      "brand": "Skoda",
+      "model_family": "Octavia",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 170,
+        "torque_nm": null,
+        "displacement_l": 2.0,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": null,
+        "transmission_type": "Islak DCT",
+        "transmission_name": "DSG6",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "383",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
+    },
+    {
+      "id": "skoda-superb-1-8-160",
+      "name": "Skoda Superb Elegance 1.8 TSI 160 Tiptronic",
+      "brand": "Skoda",
+      "model_family": "Superb",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 160,
+        "torque_nm": null,
+        "displacement_l": 1.8,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan/Liftback",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "373",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
     }
   ]
 }

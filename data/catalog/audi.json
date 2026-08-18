@@ -3297,6 +3297,45 @@
         "rejected_label": null,
         "manually_corrected_fields": null
       }
+    },
+    {
+      "id": "audi-a1-1-6-90",
+      "name": "Audi A1 Sportback 1.6 TDI 90 S tronic",
+      "brand": "Audi",
+      "model_family": "A1",
+      "generation": null,
+      "years": "2012-2015",
+      "specs": {
+        "hp": 90,
+        "torque_nm": null,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Kuru DCT",
+        "transmission_name": "S tronic 7",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "1025",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
     }
   ]
 }

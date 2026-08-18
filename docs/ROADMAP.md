@@ -35,7 +35,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
 | Kaynak derinliği (Y-02) | **Bitti.** 400 aracın tamamı "doğrulanmış" (4+ kaynak) — `kaynak-yetersiz` uyarısı 2026-08-17'de tamamen kapandı, bkz. Y-19 |
 | Araç listesi (Y-01) | 154 → 278 → **400 araç** (Y-19 terfi turları). Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
-| Teknik katalog (MK-22) | **1.641 kayıt** (`data/catalog/`, marka başına bir dosya). Olgusal katmandır: güç, tork, çekiş, hacim, gövde, vites sayısı, kavrama tipi, motor kodu ve teknik kaynak adresi taşır; puan taşımaz. 281 kayıt puanlanmış bir araca bağlı, 1.345'i yalnız katalogda ve kendi statik sayfası var. |
+| Teknik katalog (MK-22) | **1.656 kayıt** (`data/catalog/`, marka başına bir dosya). Olgusal katmandır: güç, tork, çekiş, hacim, gövde, vites sayısı, kavrama tipi, motor kodu ve teknik kaynak adresi taşır; puan taşımaz. 281 kayıt puanlanmış bir araca bağlı, 1.218'i yalnız katalogda ve kendi statik sayfası var — bunun 15'i Y-22'de TSB Kasko Değer Listesi'nden eklendi. |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
 | Veri doğruluğu (MK-18) | **Dış veri setiyle çapraz doğrulama yapıldı.** 220 araç bağımsız bir katalogla karşılaştırıldı; motor/şanzıman ailesinde 0 çelişki, beygir/torkta 10 çelişki bulundu ve doğrulanan 5 gerçek hata düzeltildi (en ağırı: bir 1.6 dizelde 400 Nm ve bir aracın tamamen yanlış motor ailesine bağlı olması). |
@@ -1513,12 +1513,73 @@ kanıtıyla da besleniyor; TSB tek başına bunu sağlamıyor. Bu yüzden geniş
 yapılmadı; TSB'nin geniş marka/model kapsamı ileride hangi katalog kayıtlarının terfi
 kuyruğunda önceliklendirilebileceğine dair bir ipucu olarak duruyor, ayrı bir tur ister.
 
+*Güncelleme:* Kullanıcı katman sınırını bilerek gevşetti ("portföy genişletmene izin
+veriyorum") ve genişletme aynı gün Y-22'de, katalog dosyalarını hâlâ elle değil kod
+aracılığıyla değiştiren bir yöntemle yapıldı — ayrıntı aşağıda.
+
 **Bitmiş sayılma ölçütü — bir sonraki tur için.** `python3 scripts/import_tsb_kasko.py`
 dry-run'da kaç yeni eşleşme bulduğunu gösterir. Eşleştirme kapsamını genişletmenin en
 güvenli yolu model ailesi token listesini (bugün tek kelime) çok kelimeli isimlere
 (`"C4 CACTUS"`, `"3008"` gibi) genişletmek ve gövde tipini (`body_type`) de TSB metninden
 ayrıştırıp beşinci bir eşleşme koşulu yapmaktır — bu, `opel-astra-1-4-t-2013` gibi
 GTC/sedan/hatchback karışık bantların gövdeye göre daralmasını sağlar.
+
+---
+
+## Y-22 · TSB verisiyle katalog portföyünü genişletme — **birinci tur bitti (2026-08-18)**
+
+**Kullanıcı izni.** Y-21, "portföyü genişlet" isteğini bilinçli olarak ertelemişti çünkü
+`data/catalog/*.json` elle düzenlenmiyor ve TSB tek başına terfi için gereken
+güvenilirlik kanıtını sağlamıyor. Kullanıcı "tamam portföy genişletmene izin veriyorum
+ya" diyerek katman sınırını değil, o sınırın YÖNTEMİNİ gevşetti: katalog dosyalarına
+elle JSON yazmak yerine, `data/cars/`'ın ötesinde yeni bir **olgusal** (puansız) katalog
+kaydı üretmenin kod aracılığıyla yapılmasına onay verdi.
+
+**Kapsam neden küçük çıktı.** `import_tsb_kasko.py`'nin ayrıştırıcısı 1.508 satırdan
+yalnızca 76'sının otomatik şanzımanlı olduğunu buldu (listenin çoğu manuel varyant —
+bu proje yalnızca otomatik vitesli araçları kapsıyor, MK ile uyumlu bir eleme). 76 satır,
+aynı teknik kombinasyonun farklı donanım seviyelerini (STYLE/ELEGANCE gibi) birleştirince
+35 benzersiz marka+model+hacim+beygir+yakıt+şanzıman kombinasyonuna indi. Bunların 17'si
+zaten `data/cars/` veya `data/catalog/` içinde vardı (aynı eşleştirme mantığıyla
+doğrulandı), 1'i (Alfa Romeo MiTo 1.4 170 QV + TCT) bu oturumda tekrarlayan
+"zamanda imkânsız eşleşme" ailesinden olduğu için bilinçli olarak atlandı — MiTo QV
+170'in bilinen üretim tarihçesi manuel şanzımanla satıldığını gösteriyor, TSB'nin çift
+kavramalı TCT rozeti bu bilgiyle çelişiyor. Geriye **15 gerçekten yeni** kayıt kaldı.
+
+**Neden elle liste, tam otomasyon değil.** 35 küçük bir sayı olduğu için her biri tek
+tek incelendi: TSB'nin serbest metninde çekiş (önden/arkadan/4x4) ve gövde tipi çoğu
+zaman açık değil; genel bir algoritma yazmak yerine her kaydın çekişi modelin bilinen
+mimarisinden (ör. Peugeot 3008 Mk1 bu motorlarla hiç 4x4 satılmadı → güvenle Önden),
+gövde tipi modelin adından (ör. "DS4" her zaman hatchback, "C5" bu yıllarda sedan)
+elle doğrulandı. Bu liste `scripts/import_tsb_catalog.py` içindeki `NEW_ENTRIES`
+sabitinde duruyor; betiğin kendisi yalnızca bu listeyi id çakışması ve şema sınırları
+için denetleyip mekanik olarak yazıyor — `scripts/import_kerb_weight.py`'nin elle
+hazırlanmış çalışma listesini işlemesiyle aynı desen (MK-15).
+
+**Şanzıman ailesi belirsizliği görünür bırakıldı.** TSB metni kuru/ıslak çift kavrama
+ayrımını hiç vermiyor; bu yüzden DCT kategorisindeki her yeni kayıt torque/hp'ye dayalı
+bilinen mühendislik kuralıyla (düşük tork → kuru, yüksek tork → ıslak — aynı kural bu
+oturumda Seat Altea/Skoda Superb DSG eşleşmelerinde zaten doğrulandı) sınıflandırıldı
+ve `generic_transmission_identity` bayrağıyla işaretlendi. Bu yeni bir istisna değil:
+katalogdaki 1.641 kayıttan 798'i zaten aynı bayrağı taşıyor.
+
+**Sonuç.** 15 yeni katalog kaydı: Opel Crossland X 1.2 Turbo, Opel Corsa 1.4 AT6, VW
+Jetta 2.0 FSI Tiptronic, Opel Mokka X 1.6 CDTI, Skoda Rapid Spaceback 1.0 TSI DSG, Seat
+Ibiza FR 1.4 TSI DSG 150, Citroën C5 1.6 e-HDi (112 ve 115 bg, iki ayrı kayıt), Peugeot
+3008 1.6 HDi (110 ve 112 bg), Citroën DS4 1.6 e-HDi 112 ve 1.6 THP 156, Skoda Octavia RS
+2.0 TDI 170 DSG, Skoda Superb 1.8 TSI 160 Tiptronic (mevcut DSG'li Superb'ten AYRI bir
+kayıt — aynı motor/beygir ama farklı şanzıman ailesi, iki gerçek tarihi varyant), Audi
+A1 Sportback 1.6 TDI 90 S tronic. Katalog kaynak sicili `data/catalog/_sources.json`'a
+`tsb_kasko_degeri_2026_07` eklendi. `katalog_kaydi` 1.641 → 1.656, `yalniz_katalogda`
+1.203 → 1.218. Hiçbiri puanlı araca terfi etmedi — terfi ayrı bir tur ve ayrı bir kanıt
+standardı ister (bkz. `promote_catalog.py`), bu tur yalnızca olgusal varlığı kaydetti.
+
+**Bitmiş sayılma ölçütü — bir sonraki tur için.** `python3 scripts/import_tsb_catalog.py`
+dry-run'da mevcut `NEW_ENTRIES` listesini gösterir. Genişletmeyi sürdürmenin yolu, TSB'nin
+şu an atlanan **manuel** şanzımanlı satırlarını değil (proje kapsamı dışı), gelecekteki
+başka bir TSB baskısını veya başka bir yapılandırılmış listeyi aynı elle-inceleme
+disipliniyle işlemektir — otomatik ayrıştırmanın hacmi büyütmesi değil, incelemenin
+insan tarafından yapılması bu katmanın güvenilirliğini koruyan şey.
 
 ---
 

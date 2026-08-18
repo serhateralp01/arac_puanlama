@@ -3692,6 +3692,84 @@
         "rejected_label": null,
         "manually_corrected_fields": null
       }
+    },
+    {
+      "id": "peugeot-3008-1-6-112",
+      "name": "Peugeot 3008 1.6 HDi 112 Auto6",
+      "brand": "Peugeot",
+      "model_family": "3008",
+      "generation": null,
+      "years": "2012-2013",
+      "specs": {
+        "hp": 112,
+        "torque_nm": null,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "AUTO6R",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "872",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
+    },
+    {
+      "id": "peugeot-3008-1-6-110",
+      "name": "Peugeot 3008 1.6 HDi 110 Auto6",
+      "brand": "Peugeot",
+      "model_family": "3008",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 110,
+        "torque_nm": null,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "AUTO6R",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "849",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
     }
   ]
 }

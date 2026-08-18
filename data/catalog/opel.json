@@ -3228,6 +3228,123 @@
         "rejected_label": null,
         "manually_corrected_fields": null
       }
+    },
+    {
+      "id": "opel-crossland-x-1-2-110",
+      "name": "Opel Crossland X 1.2 Turbo AT6",
+      "brand": "Opel",
+      "model_family": "Crossland X",
+      "generation": null,
+      "years": "2017-2019",
+      "specs": {
+        "hp": 110,
+        "torque_nm": null,
+        "displacement_l": 1.2,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "AT6",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "1313",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
+    },
+    {
+      "id": "opel-corsa-1-4-90",
+      "name": "Opel Corsa 1.4 AT6",
+      "brand": "Opel",
+      "model_family": "Corsa",
+      "generation": null,
+      "years": "2016-2019",
+      "specs": {
+        "hp": 90,
+        "torque_nm": null,
+        "displacement_l": 1.4,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "TK",
+        "transmission_name": "AT6",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "1234",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
+    },
+    {
+      "id": "opel-mokka-x-1-6-136",
+      "name": "Opel Mokka X 1.6 CDTI AT6",
+      "brand": "Opel",
+      "model_family": "Mokka X",
+      "generation": null,
+      "years": "2018-2018",
+      "specs": {
+        "hp": 136,
+        "torque_nm": null,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "SUV",
+        "transmission_type": "TK",
+        "transmission_name": "AT6",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "1342",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
     }
   ]
 }

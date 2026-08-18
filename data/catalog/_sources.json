@@ -10222,6 +10222,13 @@
       "type": "trade-blog",
       "tier": "C"
     },
+    "tsb_kasko_degeri_2026_07": {
+      "id": "tsb_kasko_degeri_2026_07",
+      "publisher": "Türkiye Sigorta Birliği (TSB)",
+      "url": "https://tsb.org.tr/",
+      "type": "spec-database",
+      "tier": "A"
+    },
     "vehiclewise_r9m": {
       "id": "vehiclewise_r9m",
       "publisher": "VehicleWise",

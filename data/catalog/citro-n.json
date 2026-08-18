@@ -2865,6 +2865,162 @@
         "rejected_label": null,
         "manually_corrected_fields": null
       }
+    },
+    {
+      "id": "citroen-c5-1-6-115",
+      "name": "Citroën C5 1.6 e-HDi 115 MCP",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2012-2015",
+      "specs": {
+        "hp": 115,
+        "torque_nm": null,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Robot",
+        "transmission_name": "MCP",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "1022",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
+    },
+    {
+      "id": "citroen-c5-1-6-112",
+      "name": "Citroën C5 1.6 e-HDi 112 MCP",
+      "brand": "Citroën",
+      "model_family": "C5",
+      "generation": null,
+      "years": "2012-2013",
+      "specs": {
+        "hp": 112,
+        "torque_nm": null,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "Robot",
+        "transmission_name": "MCP",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "331",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
+    },
+    {
+      "id": "citroen-ds4-1-6-112",
+      "name": "Citroën DS4 1.6 e-HDi 112 MCP",
+      "brand": "Citroën",
+      "model_family": "DS4",
+      "generation": null,
+      "years": "2012-2012",
+      "specs": {
+        "hp": 112,
+        "torque_nm": null,
+        "displacement_l": 1.6,
+        "fuel": "Dizel",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Robot",
+        "transmission_name": "MCP",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "352",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
+    },
+    {
+      "id": "citroen-ds4-1-6-156",
+      "name": "Citroën DS4 1.6 THP 156 MCP",
+      "brand": "Citroën",
+      "model_family": "DS4",
+      "generation": null,
+      "years": "2012-2013",
+      "specs": {
+        "hp": 156,
+        "torque_nm": null,
+        "displacement_l": 1.6,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Hatchback",
+        "transmission_type": "Robot",
+        "transmission_name": "MCP",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "353",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
     }
   ]
 }

@@ -5390,6 +5390,45 @@
         "rejected_label": null,
         "manually_corrected_fields": null
       }
+    },
+    {
+      "id": "vw-jetta-2-0-150",
+      "name": "VW Jetta 2.0 FSI Tiptronic",
+      "brand": "VW",
+      "model_family": "Jetta",
+      "generation": null,
+      "years": "2014-2014",
+      "specs": {
+        "hp": 150,
+        "torque_nm": null,
+        "displacement_l": 2.0,
+        "fuel": "Benzin",
+        "drivetrain": "Önden",
+        "body_type": "Sedan",
+        "transmission_type": "TK",
+        "transmission_name": "Tiptronic",
+        "gears": null,
+        "clutch": null,
+        "engine_code": null,
+        "engine_name": null
+      },
+      "scored_car_id": null,
+      "possible_scored_car_ids": [],
+      "quality_flags": [
+        "generic_transmission_identity"
+      ],
+      "sources": [
+        "tsb_kasko_degeri_2026_07"
+      ],
+      "provenance": {
+        "dataset": "TSB-KASKO-2026-07",
+        "imported_at": "2026-08-18",
+        "source_variant_id": "1532",
+        "publication_status": "tsb_manual_curation",
+        "technical_url": null,
+        "rejected_label": null,
+        "manually_corrected_fields": null
+      }
     }
   ]
 }
