@@ -1492,7 +1492,7 @@ let searchTerm='';
    sürüklenebilen çift uçlu aralık denetimleri eklendi. RNG nesnesi seçili aralığı,
    RANGE_DEFS ise her aralığın veriden hesaplanan sınırlarını ve okuma işlevini
    tutuyor. null = sınır yok, yani kullanıcı o ucu hiç değiştirmemiş. */
-const RNG={year:[null,null],hp:[null,null],price:[null,null]};
+const RNG={year:[null,null],hp:[null,null],price:[null,null],tot:[null,null],norm:[null,null]};
 const RANGE_DEFS=[
  {k:'year',label:'Model yılı',unit:'',step:1,
   val:c=>parseInt(String(c.y).slice(0,4),10)},
@@ -1502,6 +1502,17 @@ const RANGE_DEFS=[
   /* Aracın fiyat bandının alt ucu kıyaslanıyor: kullanıcı "en fazla 700 bin"
      dediğinde, 700'ün altından başlayan her araç makul biçimde adaydır. */
   val:c=>c.p[0]},
+ /* Puan tabanlı iki alt sınır (kullanıcı isteği): "belli bir değerin altını
+    gösterme". İkisi de mevcut çift uçlu aralık bileşenini aynen kullanıyor;
+    kullanıcı yalnızca alt ucu (minimum) çekmesi bekleniyor, üst uç varsayılan
+    olarak tavanda kalıyor. total()/normOf() geçerli ağırlık ayarına göre
+    hesaplandığı için (bkz. 00-cekirdek.js), ağırlıkları değiştirmek bu iki
+    filtrenin sınırlarını da otomatik olarak yeniden hesaplatır — tıpkı fiyat
+    girildiğinde fiyat filtresinin sınırlarının değişmesi gibi. */
+ {k:'tot',label:'Toplam puan (en az)',unit:'',step:1,
+  val:c=>total(c)},
+ {k:'norm',label:'Normalize puan (en az)',unit:'',step:1,
+  val:c=>normOf(c)},
 ];
 function rangeBounds(k){
  const d=RANGE_DEFS.find(x=>x.k===k);
@@ -1691,6 +1702,69 @@ fWrap.addEventListener('change',e=>{
  if(!t.classList.contains('rnum'))return;
  setRange(t.dataset.rk,+t.dataset.ri,t.value===''?null:+t.value,false);
 });
+
+/* ---------- kaydırıcının tüm çubuğu tıklanabilir/sürüklenebilir olsun ----------
+   İki <input type=range> üst üste bindirilirken (çift uçlu aralık için, bkz.
+   yukarısı) yalnızca thumb'ın pointer-events:auto kalması gerekiyordu (yoksa alt
+   input üstteki elemanı hiç sürüklenemez hale getirirdi). Bunun bedeli, çubuğun
+   geri kalanının (thumb'ın tam üzerine denk gelmeyen her piksel) hiçbir şeye
+   tepki vermemesiydi — kullanıcı çubuğa tıklayıp bekliyor, hiçbir şey olmuyordu.
+   Aşağıdaki dinleyici bunu düzeltiyor: `.rslider` üzerindeki her işaretçi
+   olayını kendisi yorumluyor, tıklanan noktayı bir değere çeviriyor, hangi ucun
+   (min/max) daha yakın olduğuna karar veriyor ve o ucu sürüklüyor — thumb'ın tam
+   pikselini tutturmak gerekmiyor. Fare ve dokunma (mobil) için tek kod yolu. */
+/* Sürükleme sırasında move/up dinleyicileri `document`'a takılıyor —
+   `.rslider`'a değil. `setPointerCapture` daha "doğru" görünüyordu ama
+   `endDrag()` içinde çağrılan `setRange(...,false)` paneli hemen yeniden
+   kuruyor (`renderFilters()` → `fWrap.innerHTML=''`); yakalamayı tutan eleman
+   kendi olay işleyicisi çalışırken DOM'dan siliniyordu ve bu, tarayıcıyı
+   işaretçi olaylarını artık var olmayan bir elemana yönlendirmeye kilitli
+   bırakabiliyordu — sonucu, sayfadaki HİÇBİR düğmenin tıklamaya tepki
+   vermemesiydi (2026-08-19'da duman testinde yakalandı). document üzerindeki
+   dinleyiciler element ömrüne bağlı olmadığı için bu riski taşımıyor. */
+(function(){
+ let drag=null;
+ function valueFromPointer(slider,ev,d,bLo,bHi){
+  const rect=slider.getBoundingClientRect();
+  const ratio=Math.max(0,Math.min(1,(ev.clientX-rect.left)/rect.width));
+  return Math.round((bLo+ratio*(bHi-bLo))/d.step)*d.step;
+ }
+ function onMove(e){
+  if(!drag)return;
+  const stepped=valueFromPointer(drag.slider,e,drag.d,drag.bLo,drag.bHi);
+  setRange(drag.k,drag.idx,stepped,true);
+ }
+ function onUp(){
+  if(!drag)return;
+  const {k,idx}=drag;
+  const val=RNG[k][idx];
+  drag=null;
+  document.removeEventListener('pointermove',onMove);
+  document.removeEventListener('pointerup',onUp);
+  document.removeEventListener('pointercancel',onUp);
+  setRange(k,idx,val,false);
+ }
+ fWrap.addEventListener('pointerdown',e=>{
+  const slider=e.target.closest('.rslider');
+  if(!slider)return;
+  const inputs=slider.querySelectorAll('input[type=range]');
+  if(!inputs.length)return;
+  e.preventDefault();
+  const k=inputs[0].dataset.rk;
+  const d=RANGE_DEFS.find(x=>x.k===k);
+  const [bLo,bHi]=rangeBounds(k);
+  const stepped=valueFromPointer(slider,e,d,bLo,bHi);
+  const lo=RNG[k][0]===null?bLo:RNG[k][0];
+  const hi=RNG[k][1]===null?bHi:RNG[k][1];
+  const idx=Math.abs(stepped-lo)<=Math.abs(stepped-hi)?0:1;
+  drag={k,idx,d,bLo,bHi,slider};
+  inputs[idx].focus({preventScroll:true});
+  document.addEventListener('pointermove',onMove);
+  document.addEventListener('pointerup',onUp);
+  document.addEventListener('pointercancel',onUp);
+  setRange(k,idx,stepped,true);
+ });
+})();
 
 /* search */
 const searchInp=document.getElementById('search'), searchClr=document.getElementById('searchclr');

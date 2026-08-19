@@ -421,7 +421,7 @@ let server; // dumpDebug()'un aksine yalnız en sonda kapatılıyor, üstte tan�
     const rangeBadge = await page.locator('#filtbadge').innerText();
     check('aralık filtresi rozete sayılıyor', rangeBadge.trim() !== '', `rozet "${rangeBadge.trim()}"`);
     const sliderCount = await page.locator('.rslider input[type=range]').count();
-    check('üç aralık için altı kaydırıcı var', sliderCount === 6, `${sliderCount} kaydırıcı`);
+    check('beş aralık için on kaydırıcı var', sliderCount === 10, `${sliderCount} kaydırıcı`);
 
     // Kaydırıcı gerçekten SÜRÜKLENEBİLİYOR mu. Bu kontrol, 2026-08-17'de
     // bulunan gerileme yüzünden var: `setRange()` her `input` olayında filtre
@@ -448,9 +448,54 @@ let server; // dumpDebug()'un aksine yalnız en sonda kapatılıyor, üstte tan�
     check('kaydırıcı sürüklendiğinde fareyi takip ediyor', dragOk,
       `${beforeDrag} → ${afterDrag} (${moved} birim)`);
     if (!dragOk) await dumpDebug('kaydirici-suruklenmiyor');
-    // Sürükleme bir aralık filtresi bırakıyor; bunu bilerek temizlemiyoruz,
-    // çünkü hemen aşağıdaki "filtreleri temizle" kontrolünün sıfırlayacak bir
-    // şey bulması gerekiyor (düğme, aktif filtre yokken devre dışı kalıyor).
+
+    // Çubuğun ORTASINA, thumb'ın tam üzerine denk gelmeden tıklamak da bir
+    // ucu o noktaya taşımalı. Bu kontrol 2026-08-19'da bulunan bir gerilemeyi
+    // kilitliyor: <input type=range>'in gövdesi pointer-events:none idi (iki
+    // ucu üst üste bindirebilmek için), bu yüzden yalnızca birkaç piksellik
+    // thumb tıklanabiliyordu — kullanıcı "kaydırıcılar çalışmıyor" dedi.
+    // Düzeltme, .rslider konteynerinin tamamını dinleyip tıklanan noktayı en
+    // yakın uca atayan bir işaretçi (pointer) sürücüsü ekledi.
+    await page.click('#filtclear');
+    await page.waitForTimeout(150);
+    const priceSliders = page.locator('.rslider').nth(2).locator('input[type=range]');
+    // Beş aralık satırı (önceden üçtü) paneli uzattı; eleman görünür alanın
+    // dışında kalabiliyor ve ham koordinatla tıklamak (page.mouse.click) o
+    // durumda ıskalıyor — bu, uygulamanın değil testin kendi hatasıydı.
+    await page.locator('.rslider').nth(2).scrollIntoViewIfNeeded();
+    const priceBox = await page.locator('.rslider').nth(2).boundingBox();
+    const beforeMidLo = await priceSliders.nth(0).inputValue();
+    const beforeMidHi = await priceSliders.nth(1).inputValue();
+    await page.mouse.click(priceBox.x + priceBox.width * 0.5, priceBox.y + priceBox.height / 2);
+    await page.waitForTimeout(200);
+    const afterMidLo = await priceSliders.nth(0).inputValue();
+    const afterMidHi = await priceSliders.nth(1).inputValue();
+    const midClickOk = afterMidLo !== beforeMidLo || afterMidHi !== beforeMidHi;
+    check('kaydırıcının orta noktasına (thumb dışı) tıklamak da çalışıyor', midClickOk,
+      `alt: ${beforeMidLo}→${afterMidLo}, üst: ${beforeMidHi}→${afterMidHi}`);
+    if (!midClickOk) await dumpDebug('kaydirici-ortasi-calismiyor');
+    await page.click('#filtclear');
+    await page.waitForTimeout(150);
+
+    // Puan tabanlı alt sınır filtreleri (kullanıcı isteği, 2026-08-19): toplam
+    // puan ve normalize puan için "en az" eşiği aynı aralık bileşenini
+    // kullanıyor; alt ucu yükseltince zayıf araçlar listeden düşmeli. Sayı
+    // kutusu üzerinden test ediliyor (kaydırıcı sürükleme zaten yukarıda
+    // ayrıca doğrulandı; <input type=range> Playwright'ın fill()'ini
+    // desteklemiyor).
+    const totMin = page.locator('.rnum[data-rk="tot"][data-ri="0"]');
+    const totBounds = { min: Number(await totMin.getAttribute('min')), max: Number(await totMin.getAttribute('max')) };
+    await totMin.fill(String(Math.round((totBounds.min + totBounds.max) / 2)));
+    await totMin.dispatchEvent('change');
+    await page.waitForTimeout(200);
+    const totFiltered = await page.locator('#body tr.main').count();
+    const totOk = totFiltered > 0 && totFiltered < rows;
+    check('toplam puan alt sınırı listeyi daraltıyor', totOk, `${totFiltered} araç (406'dan)`);
+    // Temizlenmiyor: hemen aşağıdaki "filtreleri temizle" kontrolünün
+    // sıfırlayacak aktif bir filtre bulması gerekiyor (düğme, aktif filtre
+    // yokken devre dışı kalıyor — bu satırı silmek 2026-08-19'da tam da bu
+    // yüzden "buton devre dışı" görünüp tıklamanın sonsuza kadar beklemesine
+    // yol açmıştı).
 
     // "Filtreleri temizle" bütün kategorileri birden sıfırlamalı.
     await page.click('#filtclear');

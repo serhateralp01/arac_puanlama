@@ -23,7 +23,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
 | Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
-| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 90/90 duman testi — artık `file://` yerine süreç içi bir HTTP sunucusu üzerinden çalışıyor (statik sayfa, SEO, katalog, koyu tema, mobil menü, kart görünümü, bütçe girişi, ana ekran kanıt bağlantıları ve tembel ayrıntı yükleme kontrolleri dahil, bkz. Y-25) |
+| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 92/92 duman testi — artık `file://` yerine süreç içi bir HTTP sunucusu üzerinden çalışıyor (statik sayfa, SEO, katalog, koyu tema, mobil menü, kart görünümü, bütçe girişi, ana ekran kanıt bağlantıları, tembel ayrıntı yükleme ve kaydırıcı etkileşimi kontrolleri dahil, bkz. Y-25/Y-26) |
 | `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, **375/406 araç** — bkz. Y-19, Y-24). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi, iki ayrı kaynakla.** 19 araç 2026-08-13 tarihli arabam.com ilan gözlemine, 10 araç 2026-07 tarihli TSB Kasko Değer Listesi'ne bağlandı (bkz. Y-21). Toplam 29 araçta `price_reference` bloğu (tarih, yöntem, örneklem/kaynak, sınırlılık) var; kalan 371 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
@@ -1899,6 +1899,50 @@ değişen bir rozet; sıralamada birinci olan araç altın bir rozetle vurgulan�
 `<a>` etiketlerinde de (yeni kahraman düğmeleri) kullanılabilmesi için
 `text-decoration:none` eklendi — bu, ekran görüntüsüyle yakalanan tek gerçek
 hataydı (düğme altı çizili görünüyordu).
+
+---
+
+## Y-26 · Kaydırıcılar gerçekten sürüklenebilir hale geldi, puan tabanlı alt sınır filtresi eklendi — **bitti (2026-08-19)**
+
+**Bulgu — depo sahibinden.** "Slider'lar çalışmıyor" bildirimi geldi. Ölçülünce
+neden anlaşıldı: liste ekranındaki çift uçlu aralık kaydırıcıları (yıl, beygir,
+fiyat) iki `<input type=range>`'i üst üste bindiriyordu ve bunu yapabilmek için
+ikisinin de gövdesi `pointer-events:none` idi — yalnızca birkaç piksellik thumb
+tıklanabiliyordu. Çubuğun geri kalanına (kullanıcının doğal olarak tıklamayı
+beklediği her yer) dokunmak hiçbir şey yapmıyordu; thumb'ı tam pikselinden
+tutturamayan bir sürükleme de sessizce başarısız oluyordu. Bu, önceki bir
+oturumda zaten var olan bir kusurdu, bu turda yeni bozulmadı — ama kullanıcı
+şimdi denedi ve gerçek bir kullanılamazlık olarak karşılaştı.
+
+**Düzeltme.** `templates/app/30-filtreler.js`'e `.rslider` konteynerinin
+tamamını dinleyen bir işaretçi (pointer) sürücüsü eklendi: tıklanan/sürüklenen
+noktayı bir değere çeviriyor, hangi ucun (min/max) daha yakın olduğuna karar
+veriyor ve o ucu güncelliyor — thumb'ın pikselini tutturmak artık gerekmiyor.
+Fare ve dokunma (mobil) aynı kod yolunu paylaşıyor (Pointer Events API).
+Sürükleme durumu `document` üzerindeki `pointermove`/`pointerup` dinleyicileriyle
+takip ediliyor; ilk denemede `slider.setPointerCapture()` kullanılmıştı ama bu,
+sürükleme bitiminde paneli yeniden kuran `renderFilters()` ile çakışıp bir kez
+sayfadaki HİÇBİR düğmenin tepki vermediği bir kilitlenmeye yol açtı (duman
+testinde yakalandı, gerçek kullanıcıya hiç ulaşmadı) — `document` seviyesinde
+dinleyici ekleyip çıkarmak bu riski taşımıyor.
+
+**Aynı turda eklenen ikinci istek — puan tabanlı alt sınır.** Depo sahibi
+"normalize puanı ve toplamı belli bir değerden az olan araçları gösterme"
+istedi. Var olan çift-uçlu aralık bileşeni (`RANGE_DEFS`) zaten tam bunu
+yapacak şekilde tasarlıydı; `total(c)`/`normOf(c)` okuyan iki yeni giriş
+eklemek yeterli oldu — yeni bir UI deseni icat edilmedi. Kullanıcı yalnızca alt
+ucu çekiyor (üst uç varsayılan tavanda kalıyor), tıpkı "2010 ve öncesi" gibi
+zaten kullanılan diğer filtrelerde olduğu gibi. Ağırlıkları değiştirmek bu iki
+filtrenin sınırlarını da otomatik yeniden hesaplatıyor (fiyat filtresinin fiyat
+girildiğinde yaptığı gibi).
+
+**Doğrulama.** `node scripts/smoke_test.js` 90/90'dan **92/92**'ye çıktı: biri
+çubuğun ortasına (thumb dışına) tıklamanın çalıştığını, biri toplam puan alt
+sınırının listeyi gerçekten daralttığını kilitliyor. Test yazılırken bir kez
+daha aynı "hiçbir düğme tepki vermiyor" durumuyla karşılaşıldı — bu kez neden
+uygulamanın kendisi değil, testin art arda iki kez `#filtclear`'a basıp bir
+sonraki kontrolün aktif filtre bulamamasıydı; düzeltme yalnızca test
+sırasındaydı, gerçek kod değişmedi.
 
 ---
 
