@@ -565,6 +565,12 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .anapathbtn .apt{font-family:var(--body);font-weight:600;font-size:13px;color:var(--ink)}
 .anapathbtn:hover .apt{color:var(--sage)}
 .anapathbtn .apd{font-family:var(--body);font-weight:400;font-size:11.5px;color:var(--dim)}
+.anapath-budget{background:var(--panel);border:1px solid var(--line2);cursor:default}
+.apinput{display:flex;align-items:center;gap:6px;margin-top:9px;flex-wrap:wrap}
+.apinput input{width:88px;font-family:var(--mono);font-size:12.5px;padding:6px 9px;border:1px solid var(--line2);border-radius:8px;background:var(--panel2);color:var(--ink);-moz-appearance:textfield}
+.apinput input::-webkit-outer-spin-button,.apinput input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.apinput input:focus{outline:none;border-color:var(--sage);background:var(--panel)}
+.apinput .runit{font-family:var(--mono);font-size:10.5px;color:var(--faint)}
 .analist{list-style:none;margin:0;padding:0}
 .analist li{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:12.8px}
 .analist li:last-child{border-bottom:none}
@@ -1361,26 +1367,50 @@ function renderAna(){
  statBox.innerHTML=stats.map(([v,l])=>'<div class="methstat"><b>'+v+'</b><span>'+l+'</span></div>').join('');
 
  /* Hazır giriş yolları: üçü de listeye götürür, farkları hangi ağırlık
-    setinin uygulandığı ve listenin nasıl sıralandığı. "Bütçeye göre başla"
-    ağırlıkları değiştirmiyor; yalnızca sıralamayı fiyata çeviriyor, çünkü
-    bütçeyle başlamak isteyen kullanıcı önce en ucuzu görmek istiyor. */
+    setinin uygulandığı ve listenin nasıl sıralandığı. */
  const pathsBox=document.getElementById('anaPaths');
  if(pathsBox){
+  pathsBox.innerHTML='';
   const pathDefs=[
    {t:'Güvenilirlik öncelikli ilk on',d:'Ağırlıklar "Güvenilirlik öncelikli" sete döner, liste toplam puana göre azalan sıralanır.',
     run:()=>{W={...PRESETS.family};syncWeights();sortKey='tot';sortDir=-1;}},
-   {t:'Bütçeye göre başla',d:'Ağırlıklar değişmez, liste en ucuz araçtan başlayarak sıralanır.',
-    run:()=>{sortKey='pband';sortDir=1;}},
    {t:'Sürüş keyfi öncelikli ilk on',d:'Ağırlıklar "Sürüş keyfi öncelikli" sete döner, liste toplam puana göre azalan sıralanır.',
     run:()=>{W={...PRESETS.enthusiast};syncWeights();sortKey='tot';sortDir=-1;}},
   ];
-  pathsBox.innerHTML='';
   pathDefs.forEach(p=>{
    const b=document.createElement('button');b.type='button';b.className='btn anapathbtn';
    b.innerHTML='<span class="apt">'+p.t+'</span><span class="apd">'+p.d+'</span>';
-   b.onclick=()=>{p.run();recalcAll();goTo('liste');};
+   b.onclick=()=>{p.run();if(typeof syncSortSelect==='function')syncSortSelect();recalcAll();goTo('liste');};
    pathsBox.appendChild(b);
   });
+
+  /* Bütçeye göre en iyiler (Y-25 ikinci faz). Eskiden bu yol yalnızca
+     listeyi en ucuzdan sıralıyordu ve kullanıcının girdiği bir sınır yoktu —
+     "bütçeye göre" adını hak etmiyordu, çünkü 5 milyonluk bir araç da
+     "en ucuz" sıralamada bir yerde görünüyordu. Şimdi kullanıcı gerçek bir
+     üst sınır giriyor; ağırlıklar değişmiyor, yalnızca fiyat aralık filtresi
+     (aynı RNG.price mekanizması, liste ekranındaki kaydırıcıyla paylaşılıyor)
+     uygulanıp o sınırın altında kalanlar toplam puana göre sıralanıyor. */
+  const budgetBox=document.createElement('div');
+  budgetBox.className='anapathbtn anapath-budget';
+  budgetBox.innerHTML='<span class="apt">Bütçeye göre en iyiler</span>'
+   +'<span class="apd">Üst sınırınızı girin; o sınırın altında kalan araçlar toplam puana göre sıralanır.</span>'
+   +'<div class="apinput"><input type="number" id="anaBudget" min="0" step="25" placeholder="ör. 700"><span class="runit">bin TL</span>'
+   +'<button type="button" class="btn small" id="anaBudgetGo">Göster</button></div>';
+  pathsBox.appendChild(budgetBox);
+  const budgetInput=budgetBox.querySelector('#anaBudget');
+  const budgetGo=()=>{
+   const v=+budgetInput.value;
+   if(!v||v<=0){budgetInput.focus();return;}
+   setRange('price',1,v,false);
+   sortKey='tot';sortDir=-1;
+   if(typeof syncSortSelect==='function')syncSortSelect();
+   recalcAll();
+   goTo('liste');
+  };
+  budgetBox.querySelector('#anaBudgetGo').onclick=budgetGo;
+  budgetInput.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();budgetGo();}});
+  budgetInput.addEventListener('click',e=>e.stopPropagation());
  }
 
  /* En yüksek puanlı beş araç: şu anki ağırlık ayarına göre. Ayar
@@ -1987,7 +2017,7 @@ function renderTableBody(list,rankMap){
   const tr=document.createElement('tr');tr.className='main'+(cmpSet.includes(c.id)?' cmp':'');tr.dataset.id=c.id;
   const txc='tx-'+c.tx.split(' ')[0];
   let cells='<td class="rank">'+gr+'</td>';
-  cells+='<td class="cmpcell"><button class="cmpbtn'+(cmpSet.includes(c.id)?' on':'')+'" data-cmp="'+c.id+'" '+(cmpSet.length>=4&&!cmpSet.includes(c.id)?'disabled':'')+'>'+(cmpSet.includes(c.id)?'✓':'+')+'</button></td>';
+  cells+='<td class="cmpcell"><button class="cmpbtn'+(cmpSet.includes(c.id)?' on':'')+'" data-cmp="'+c.id+'" title="'+(cmpSet.includes(c.id)?'Kıyaslamadan çıkar':'Kıyaslamaya ekle')+'" '+(cmpSet.length>=4&&!cmpSet.includes(c.id)?'disabled':'')+'>'+(cmpSet.includes(c.id)?'✓':'+')+'</button></td>';
   cells+='<td class="name"><div class="nm">'+c.n+' <span class="chip '+(c.v===true?'v':c.v==='p'?'p':'a')+'">'+(c.v===true?'doğrulanmış':c.v==='p'?'kısmi kaynak':'ön değerlendirme')+'</span></div><div class="tag">'+c.tag+'</div></td>';
   cells+='<td class="spec">'+c.y+'</td><td class="spec">'+c.hp+' bg</td><td class="spec">'+c.disp.toFixed(1)+'</td>';
   cells+='<td><span class="txbadge '+txc+'">'+c.tx+'</span></td>';
@@ -2041,7 +2071,7 @@ function renderCardBody(list,rankMap){
   el.innerHTML=
    '<div class="vctop">'
     +'<span class="vcrank">#'+gr+'</span>'
-    +'<button class="cmpbtn'+(inCmp?' on':'')+'" data-cmp="'+c.id+'" '+(cmpSet.length>=4&&!inCmp?'disabled':'')+'>'+(inCmp?'✓':'+')+'</button>'
+    +'<button class="cmpbtn'+(inCmp?' on':'')+'" data-cmp="'+c.id+'" title="'+(inCmp?'Kıyaslamadan çıkar':'Kıyaslamaya ekle')+'" '+(cmpSet.length>=4&&!inCmp?'disabled':'')+'>'+(inCmp?'✓':'+')+'</button>'
     +'<span class="vctot" style="color:'+colorFor(tt)+'">'+tt.toFixed(1)+'</span>'
    +'</div>'
    +'<div class="vcname">'+c.n+' <span class="chip '+(c.v===true?'v':c.v==='p'?'p':'a')+'">'+(c.v===true?'doğrulanmış':c.v==='p'?'kısmi kaynak':'ön değerlendirme')+'</span></div>'

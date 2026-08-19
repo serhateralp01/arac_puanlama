@@ -23,7 +23,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
 | Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
-| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 87/87 duman testi (statik sayfa, SEO, katalog, koyu tema, mobil menü ve kart görünümü kontrolleri dahil, bkz. Y-25) |
+| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 88/88 duman testi (statik sayfa, SEO, katalog, koyu tema, mobil menü, kart görünümü ve bütçe girişi kontrolleri dahil, bkz. Y-25) |
 | `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, **375/406 araç** — bkz. Y-19, Y-24). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi, iki ayrı kaynakla.** 19 araç 2026-08-13 tarihli arabam.com ilan gözlemine, 10 araç 2026-07 tarihli TSB Kasko Değer Listesi'ne bağlandı (bkz. Y-21). Toplam 29 araçta `price_reference` bloğu (tarih, yöntem, örneklem/kaynak, sınırlılık) var; kalan 371 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
@@ -1709,7 +1709,7 @@ bir oturum) gerekiyor.
 
 ---
 
-## Y-25 · Tasarım denetimi ve kart görünümü: liste ekranı baştan ele alındı — **birinci faz bitti (2026-08-19)**
+## Y-25 · Tasarım denetimi ve kart görünümü: liste ekranı baştan ele alındı — **birinci ve ikinci faz bitti (2026-08-19)**
 
 **Bağlam.** Depo sahibi bu turda açıkça "tasarımsal ögeler kesinlikle değişmeli,
 araç listesinin olduğu site çok daha streamlined ve akıcı olmalı, site genel
@@ -1791,13 +1791,35 @@ yüzden metin tek kelimelik satırlara bölünüyordu — düzeltme, kart ayrın
 viewport'tan bağımsız olarak her zaman tek sütun akıtmak oldu (konteyner
 darlığı bir medya sorgusuyla çözülemez).
 
+**İkinci faz — bütçe girişi gerçek bir sınıra kavuştu (2026-08-19, aynı gün).**
+Ana ekrandaki üç hazır giriş yolundan biri "Bütçeye göre başla" adını
+taşıyordu ama aslında bir bütçe almıyordu; yalnızca listeyi en ucuz araçtan
+başlayarak sıralıyordu. Bu, isminin vaat ettiğini yapmıyordu — 5 milyon TL'lik
+bir araç da "en ucuz" sıralamada bir yerde görünürdü, kullanıcının girdiği bir
+üst sınır yoktu. `templates/app/22-ana.js` içinde bu yol "Bütçeye göre en
+iyiler" olarak yeniden yazıldı: kullanıcı gerçek bir üst sınır (bin TL) giriyor,
+`setRange('price',1,v,false)` çağrısıyla liste ekranındaki fiyat aralık
+filtresiyle **aynı mekanizma** (`RNG.price`) devreye giriyor ve o sınırın
+altında kalan araçlar arasından toplam puana göre en iyiler gösteriliyor.
+Ayrıca kıyaslama düğmelerine (`+`/`✓`, hem kart hem tablo) `title` özniteliği
+eklendi — düğmenin ne yaptığı artık üzerine gelince görünüyor, küçük ama
+denetimin "site kullanıcı dostu değil" bulgusuyla doğrudan ilgili bir eksikti.
+
+**Doğrulama (ikinci faz).** `node scripts/smoke_test.js` 87/87'den **88/88**'e
+çıktı; yeni kontrol bütçe girişinin listeyi gerçekten sınırın altına
+daralttığını VE sonucu toplam puana göre azalan sıraladığını doğruluyor (600
+bin TL sınırıyla 406 araçtan 148'i kaldığı, hepsinin sıralı olduğu ölçüldü).
+Ayrıca gerçek bir tarayıcıda ekran görüntüsüyle görsel doğrulama yapıldı.
+
 **Bitmemiş bırakılanlar — sıradaki turlar için.** Denetim raporu dört fazlık
-bir plan önermişti; yalnızca birinci faz (tasarım/kullanılabilirlik) bu turda
-yapıldı. Faz 2 (sanal/pencereli liste render'ı, veri/kabuk ayrımı — Y-14),
-Faz 3 (bütçe tabanlı onboarding→liste bağlantısı, kıyaslama özelliğinin öne
-çıkarılması), Faz 4 (motor/şanzıman kanıt sayfalarının ana ekranda
-görünürleşmesi) sıradaki turlara bırakıldı; hiçbiri bu turda çalışan hiçbir
-şeyi riske atmadı.
+bir plan önermişti; bu turda birinci faz (tasarım/kullanılabilirlik) ve
+ikinci fazın yalnızca bir maddesi (bütçe girişi) yapıldı. Faz 2'nin geri kalanı
+(sanal/pencereli liste render'ı, veri/kabuk ayrımı — Y-14), Faz 3'ün geri
+kalanı (kıyaslama özelliğinin ana ekranda daha görünür kılınması — şimdilik
+yalnızca düğme etiketleri netleştirildi, ayrı bir tanıtım kartı eklenmedi çünkü
+mevcut kıyaslama tepsisi zaten her zaman görünür bir giriş noktası),
+Faz 4 (motor/şanzıman kanıt sayfalarının ana ekranda görünürleşmesi) sıradaki
+turlara bırakıldı; hiçbiri bu turda çalışan hiçbir şeyi riske atmadı.
 
 ---
 

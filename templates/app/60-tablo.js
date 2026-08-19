@@ -153,7 +153,7 @@ function renderTableBody(list,rankMap){
   const tr=document.createElement('tr');tr.className='main'+(cmpSet.includes(c.id)?' cmp':'');tr.dataset.id=c.id;
   const txc='tx-'+c.tx.split(' ')[0];
   let cells='<td class="rank">'+gr+'</td>';
-  cells+='<td class="cmpcell"><button class="cmpbtn'+(cmpSet.includes(c.id)?' on':'')+'" data-cmp="'+c.id+'" '+(cmpSet.length>=4&&!cmpSet.includes(c.id)?'disabled':'')+'>'+(cmpSet.includes(c.id)?'✓':'+')+'</button></td>';
+  cells+='<td class="cmpcell"><button class="cmpbtn'+(cmpSet.includes(c.id)?' on':'')+'" data-cmp="'+c.id+'" title="'+(cmpSet.includes(c.id)?'Kıyaslamadan çıkar':'Kıyaslamaya ekle')+'" '+(cmpSet.length>=4&&!cmpSet.includes(c.id)?'disabled':'')+'>'+(cmpSet.includes(c.id)?'✓':'+')+'</button></td>';
   cells+='<td class="name"><div class="nm">'+c.n+' <span class="chip '+(c.v===true?'v':c.v==='p'?'p':'a')+'">'+(c.v===true?'doğrulanmış':c.v==='p'?'kısmi kaynak':'ön değerlendirme')+'</span></div><div class="tag">'+c.tag+'</div></td>';
   cells+='<td class="spec">'+c.y+'</td><td class="spec">'+c.hp+' bg</td><td class="spec">'+c.disp.toFixed(1)+'</td>';
   cells+='<td><span class="txbadge '+txc+'">'+c.tx+'</span></td>';
@@ -207,7 +207,7 @@ function renderCardBody(list,rankMap){
   el.innerHTML=
    '<div class="vctop">'
     +'<span class="vcrank">#'+gr+'</span>'
-    +'<button class="cmpbtn'+(inCmp?' on':'')+'" data-cmp="'+c.id+'" '+(cmpSet.length>=4&&!inCmp?'disabled':'')+'>'+(inCmp?'✓':'+')+'</button>'
+    +'<button class="cmpbtn'+(inCmp?' on':'')+'" data-cmp="'+c.id+'" title="'+(inCmp?'Kıyaslamadan çıkar':'Kıyaslamaya ekle')+'" '+(cmpSet.length>=4&&!inCmp?'disabled':'')+'>'+(inCmp?'✓':'+')+'</button>'
     +'<span class="vctot" style="color:'+colorFor(tt)+'">'+tt.toFixed(1)+'</span>'
    +'</div>'
    +'<div class="vcname">'+c.n+' <span class="chip '+(c.v===true?'v':c.v==='p'?'p':'a')+'">'+(c.v===true?'doğrulanmış':c.v==='p'?'kısmi kaynak':'ön değerlendirme')+'</span></div>'

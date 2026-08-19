@@ -24,26 +24,50 @@ function renderAna(){
  statBox.innerHTML=stats.map(([v,l])=>'<div class="methstat"><b>'+v+'</b><span>'+l+'</span></div>').join('');
 
  /* Hazır giriş yolları: üçü de listeye götürür, farkları hangi ağırlık
-    setinin uygulandığı ve listenin nasıl sıralandığı. "Bütçeye göre başla"
-    ağırlıkları değiştirmiyor; yalnızca sıralamayı fiyata çeviriyor, çünkü
-    bütçeyle başlamak isteyen kullanıcı önce en ucuzu görmek istiyor. */
+    setinin uygulandığı ve listenin nasıl sıralandığı. */
  const pathsBox=document.getElementById('anaPaths');
  if(pathsBox){
+  pathsBox.innerHTML='';
   const pathDefs=[
    {t:'Güvenilirlik öncelikli ilk on',d:'Ağırlıklar "Güvenilirlik öncelikli" sete döner, liste toplam puana göre azalan sıralanır.',
     run:()=>{W={...PRESETS.family};syncWeights();sortKey='tot';sortDir=-1;}},
-   {t:'Bütçeye göre başla',d:'Ağırlıklar değişmez, liste en ucuz araçtan başlayarak sıralanır.',
-    run:()=>{sortKey='pband';sortDir=1;}},
    {t:'Sürüş keyfi öncelikli ilk on',d:'Ağırlıklar "Sürüş keyfi öncelikli" sete döner, liste toplam puana göre azalan sıralanır.',
     run:()=>{W={...PRESETS.enthusiast};syncWeights();sortKey='tot';sortDir=-1;}},
   ];
-  pathsBox.innerHTML='';
   pathDefs.forEach(p=>{
    const b=document.createElement('button');b.type='button';b.className='btn anapathbtn';
    b.innerHTML='<span class="apt">'+p.t+'</span><span class="apd">'+p.d+'</span>';
-   b.onclick=()=>{p.run();recalcAll();goTo('liste');};
+   b.onclick=()=>{p.run();if(typeof syncSortSelect==='function')syncSortSelect();recalcAll();goTo('liste');};
    pathsBox.appendChild(b);
   });
+
+  /* Bütçeye göre en iyiler (Y-25 ikinci faz). Eskiden bu yol yalnızca
+     listeyi en ucuzdan sıralıyordu ve kullanıcının girdiği bir sınır yoktu —
+     "bütçeye göre" adını hak etmiyordu, çünkü 5 milyonluk bir araç da
+     "en ucuz" sıralamada bir yerde görünüyordu. Şimdi kullanıcı gerçek bir
+     üst sınır giriyor; ağırlıklar değişmiyor, yalnızca fiyat aralık filtresi
+     (aynı RNG.price mekanizması, liste ekranındaki kaydırıcıyla paylaşılıyor)
+     uygulanıp o sınırın altında kalanlar toplam puana göre sıralanıyor. */
+  const budgetBox=document.createElement('div');
+  budgetBox.className='anapathbtn anapath-budget';
+  budgetBox.innerHTML='<span class="apt">Bütçeye göre en iyiler</span>'
+   +'<span class="apd">Üst sınırınızı girin; o sınırın altında kalan araçlar toplam puana göre sıralanır.</span>'
+   +'<div class="apinput"><input type="number" id="anaBudget" min="0" step="25" placeholder="ör. 700"><span class="runit">bin TL</span>'
+   +'<button type="button" class="btn small" id="anaBudgetGo">Göster</button></div>';
+  pathsBox.appendChild(budgetBox);
+  const budgetInput=budgetBox.querySelector('#anaBudget');
+  const budgetGo=()=>{
+   const v=+budgetInput.value;
+   if(!v||v<=0){budgetInput.focus();return;}
+   setRange('price',1,v,false);
+   sortKey='tot';sortDir=-1;
+   if(typeof syncSortSelect==='function')syncSortSelect();
+   recalcAll();
+   goTo('liste');
+  };
+  budgetBox.querySelector('#anaBudgetGo').onclick=budgetGo;
+  budgetInput.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();budgetGo();}});
+  budgetInput.addEventListener('click',e=>e.stopPropagation());
  }
 
  /* En yüksek puanlı beş araç: şu anki ağırlık ayarına göre. Ayar

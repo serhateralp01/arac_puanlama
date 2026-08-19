@@ -151,6 +151,23 @@ async function dumpDebug(label) {
     const onListeAfterPath = await page.locator('[data-screen="liste"]').isVisible();
     check('hazır giriş yolu listeye götürüyor', onListeAfterPath);
 
+    // Bütçe girişi (Y-25 ikinci faz): eskiden yalnızca "en ucuzdan sırala"
+    // yapıyordu, kullanıcının girdiği bir sınır yoktu. Şimdi gerçek bir üst
+    // sınır alıp o sınırın altında kalan araçları toplam puana göre
+    // sıralaması gerekiyor.
+    await page.click('.nav a[data-route="ana"]');
+    await page.waitForTimeout(150);
+    await page.fill('#anaBudget', '600');
+    await page.click('#anaBudgetGo');
+    await page.waitForTimeout(250);
+    const onListeAfterBudget = await page.locator('[data-screen="liste"]').isVisible();
+    const budgetCardCount = await page.locator('#cardgrid .vcard').count();
+    const budgetTotals = await page.$$eval('#cardgrid .vcard .vctot', (els) => els.map((e) => parseFloat(e.textContent)));
+    const budgetSorted = budgetTotals.every((v, i) => i === 0 || budgetTotals[i - 1] >= v);
+    check('bütçe girişi listeyi sınırın altına daraltıp puana göre sıralıyor',
+      onListeAfterBudget && budgetCardCount > 0 && budgetCardCount < CAR_COUNT && budgetSorted,
+      `${budgetCardCount} araç (406'dan), sıralı=${budgetSorted}`);
+
     // Onboarding artık görüldü sayıldığı için hash'siz bir sonraki ziyaret de
     // doğrudan ana ekrana düşmeli, tekrar giriş akışına değil.
     await page.goto(FILE);
