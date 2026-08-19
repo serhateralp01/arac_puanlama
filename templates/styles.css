@@ -545,6 +545,8 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 .analist li{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:12.8px}
 .analist li:last-child{border-bottom:none}
 .analist .an{font-family:var(--body);color:var(--ink)}
+.analist .an.anlink{text-decoration:none}
+.analist .an.anlink:hover{color:var(--sage);text-decoration:underline}
 .analist .av{font-family:var(--mono);font-weight:600;color:var(--sage)}
 .analist .av.risky{color:var(--red)}
 .anarisk-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}

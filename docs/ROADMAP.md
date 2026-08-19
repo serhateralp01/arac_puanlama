@@ -23,7 +23,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
 | Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
-| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 88/88 duman testi (statik sayfa, SEO, katalog, koyu tema, mobil menü, kart görünümü ve bütçe girişi kontrolleri dahil, bkz. Y-25) |
+| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 89/89 duman testi (statik sayfa, SEO, katalog, koyu tema, mobil menü, kart görünümü, bütçe girişi ve ana ekran kanıt bağlantıları kontrolleri dahil, bkz. Y-25) |
 | `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, **375/406 araç** — bkz. Y-19, Y-24). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi, iki ayrı kaynakla.** 19 araç 2026-08-13 tarihli arabam.com ilan gözlemine, 10 araç 2026-07 tarihli TSB Kasko Değer Listesi'ne bağlandı (bkz. Y-21). Toplam 29 araçta `price_reference` bloğu (tarih, yöntem, örneklem/kaynak, sınırlılık) var; kalan 371 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
@@ -1709,7 +1709,7 @@ bir oturum) gerekiyor.
 
 ---
 
-## Y-25 · Tasarım denetimi ve kart görünümü: liste ekranı baştan ele alındı — **birinci ve ikinci faz bitti (2026-08-19)**
+## Y-25 · Tasarım denetimi ve kart görünümü: liste ekranı baştan ele alındı — **birinci, ikinci ve dördüncü faz bitti (2026-08-19)**
 
 **Bağlam.** Depo sahibi bu turda açıkça "tasarımsal ögeler kesinlikle değişmeli,
 araç listesinin olduğu site çok daha streamlined ve akıcı olmalı, site genel
@@ -1811,15 +1811,37 @@ daralttığını VE sonucu toplam puana göre azalan sıraladığını doğruluy
 bin TL sınırıyla 406 araçtan 148'i kaldığı, hepsinin sıralı olduğu ölçüldü).
 Ayrıca gerçek bir tarayıcıda ekran görüntüsüyle görsel doğrulama yapıldı.
 
+**Dördüncü faz — ana ekran artık kanıt sayfalarına bağlanıyor (2026-08-19,
+aynı gün).** Ana ekranın üç listesi ("en yüksek puanlı beş araç", "en riskli
+motor aileleri", "en riskli şanzıman kutuları") `build_pages.py`'nin ürettiği
+1.781 statik sayfaya hiç bağlanmıyordu; adlar düz metindi, arkasındaki
+kaynaklı arıza kaydına ulaşmanın tek yolu önce liste ekranına gidip aracı
+aramaktı. `DB.riskiest_engines`/`riskiest_transmissions` zaten bileşenin
+kalıcı `id`'sini taşıyordu, o yüzden motor/şanzıman bağlantıları veri
+değişikliği gerektirmeden eklendi. Araç listesi için durum farklıydı: arayüze
+gömülen `cars_runtime` sözlüğünde (`scripts/build.py`) aracın statik sayfa
+dosya adıyla eşleşen kalıcı `id`'si hiç yoktu, yalnızca arayüzün kendi
+ürettiği sayısal indeks vardı (kıyaslama sepeti için, CLAUDE.md §4'ün "kimlikler
+kalıcıdır" ilkesiyle eşleşmiyor). Bu yüzden `cars_runtime`'a `"cid": car["id"]`
+alanı eklendi — yeni bir alan, geriye dönük hiçbir şeyi bozmuyor — ve ana
+ekran artık `arac/<cid>.html` adresine bağlanıyor.
+
+**Doğrulama (dördüncü faz).** Üretilen 15 bağlantının (5 araç + 5 motor + 5
+şanzıman) hepsi gerçek bir tarayıcıda toplanıp dosya sistemine karşı
+denetlendi; hepsi var olan sayfalara işaret ediyor, konsolda hata yok.
+`node scripts/smoke_test.js` 88/88'den **89/89**'a çıktı; yeni kontrol bu
+15 bağlantının dosya sisteminde gerçekten var olduğunu her turda doğruluyor —
+gelecekte bir sayfa adlandırma kuralı değişirse bu kontrol kırılıp haber verir.
+
 **Bitmemiş bırakılanlar — sıradaki turlar için.** Denetim raporu dört fazlık
-bir plan önermişti; bu turda birinci faz (tasarım/kullanılabilirlik) ve
-ikinci fazın yalnızca bir maddesi (bütçe girişi) yapıldı. Faz 2'nin geri kalanı
-(sanal/pencereli liste render'ı, veri/kabuk ayrımı — Y-14), Faz 3'ün geri
-kalanı (kıyaslama özelliğinin ana ekranda daha görünür kılınması — şimdilik
-yalnızca düğme etiketleri netleştirildi, ayrı bir tanıtım kartı eklenmedi çünkü
-mevcut kıyaslama tepsisi zaten her zaman görünür bir giriş noktası),
-Faz 4 (motor/şanzıman kanıt sayfalarının ana ekranda görünürleşmesi) sıradaki
-turlara bırakıldı; hiçbiri bu turda çalışan hiçbir şeyi riske atmadı.
+bir plan önermişti; bu turda birinci faz (tasarım/kullanılabilirlik) tamamen,
+ikinci fazın bir maddesi (bütçe girişi) ve dördüncü faz (kanıt sayfalarının
+ana ekranda görünürleşmesi) yapıldı. Faz 2'nin geri kalanı (sanal/pencereli
+liste render'ı, veri/kabuk ayrımı — Y-14) ve Faz 3'ün geri kalanı (kıyaslama
+özelliğinin ana ekranda ayrı bir tanıtım kartıyla öne çıkarılması — şimdilik
+yalnızca düğme etiketleri netleştirildi, çünkü mevcut kıyaslama tepsisi zaten
+her zaman görünür bir giriş noktası) sıradaki turlara bırakıldı; hiçbiri bu
+turda çalışan hiçbir şeyi riske atmadı.
 
 ---
 

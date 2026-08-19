@@ -144,6 +144,20 @@ async function dumpDebug(label) {
     const anaWidth = await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2);
     check('ana ekranda yatay taşma yok', anaWidth);
 
+    // Ana ekrandaki üç liste artık kanıt sayfalarına bağlanıyor (Y-25 dördüncü
+    // faz): en yüksek puanlı araçlar kendi arac/<cid>.html sayfasına, en riskli
+    // motor/şanzıman aileleri kendi motor|sanziman/<id>.html sayfasına. Önceden
+    // düz metindi; buradaki tek risk href'in var olmayan bir dosyaya işaret
+    // etmesiydi, o yüzden gerçek dosya sistemi karşı kontrol ediliyor.
+    const anaLinkHrefs = await page.$$eval(
+      '#anaTop a.anlink, #anaRiskEngine a.anlink, #anaRiskTrans a.anlink',
+      (els) => els.map((e) => e.getAttribute('href'))
+    );
+    const anaLinksResolve = anaLinkHrefs.length === 15
+      && anaLinkHrefs.every((h) => fs.existsSync(path.join(ROOT, h)));
+    check('ana ekran bağlantıları var olan kanıt sayfalarına gidiyor',
+      anaLinksResolve, `${anaLinkHrefs.length} bağlantı`);
+
     // Hazır giriş yollarından biri: tıklanınca ilgili ağırlık seti uygulanıp
     // listeye götürmeli.
     await page.locator('.anapathbtn').first().click();

@@ -158,6 +158,13 @@ def to_runtime_db(
         s = car["specs"]
         cars_runtime.append(
             {
+                # Arayüzde her araca kendi numaralı bir "id" atanıyor (00-cekirdek.js,
+                # cmpSet ve satır/kart eşlemesi için); bu, build_pages.py'nin ürettiği
+                # statik sayfanın dosya adıyla (data/cars/*.json'daki kalıcı id) aynı
+                # değer değil. Ana ekranın "en yüksek puanlı beş araç" bulgusu bu
+                # statik sayfaya bağlanabilsin diye kalıcı kimlik ayrı bir alanda
+                # (cid) taşınıyor (Y-25 dördüncü faz).
+                "cid": car["id"],
                 "p": car["price_band_k_try"],
                 "y": car["years"],
                 "n": car["name"],

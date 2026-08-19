@@ -71,20 +71,25 @@ function renderAna(){
  }
 
  /* En yüksek puanlı beş araç: şu anki ağırlık ayarına göre. Ayar
-    değiştirildiğinde bu ekrana her dönüşte yeniden hesaplanıyor. */
+    değiştirildiğinde bu ekrana her dönüşte yeniden hesaplanıyor. Ad, aracın
+    kendi statik sayfasına (arac/<cid>.html, build_pages.py'nin ürettiği kanıt
+    sayfası) bağlanıyor — önceden düz metindi (Y-25 dördüncü faz). */
  const topBox=document.getElementById('anaTop');
  if(topBox){
   const ranked=[...CARS].sort((a,b)=>total(b)-total(a)).slice(0,5);
-  topBox.innerHTML=ranked.map(c=>'<li><span class="an">'+c.n+'</span><span class="av">'+total(c).toFixed(1)+'</span></li>').join('');
+  topBox.innerHTML=ranked.map(c=>'<li><a class="an anlink" href="arac/'+c.cid+'.html">'+c.n+'</a><span class="av">'+total(c).toFixed(1)+'</span></li>').join('');
  }
 
  /* Kullanıcının asıl aradığı bilgi: hangi motor/şanzıman beni yakar. Bu
     liste build.py tarafından motor ve şanzıman ailelerinin base_score'undan
     türetilip DB'ye gömülüyor (bkz. scripts/build.py riskiest()); kaynağı
-    bileşen kaydı, çünkü kanıtın aslı orada duruyor. */
+    bileşen kaydı, çünkü kanıtın aslı orada duruyor. Adlar artık build_pages.py
+    tarafından üretilen kanıt sayfasına bağlanıyor (motor/<id>.html,
+    sanziman/<id>.html) — önceden bu bulgu düz metindi, arkasındaki bilinen
+    arıza kaydına ana ekrandan hiç erişilemiyordu (Y-25 dördüncü faz). */
  const riskEngineBox=document.getElementById('anaRiskEngine');
  const riskTransBox=document.getElementById('anaRiskTrans');
- const riskRow=e=>'<li><span class="an">'+e.name+'</span><span class="av risky">'+e.score+'</span></li>';
- if(riskEngineBox)riskEngineBox.innerHTML=DB.riskiest_engines.map(riskRow).join('');
- if(riskTransBox)riskTransBox.innerHTML=DB.riskiest_transmissions.map(riskRow).join('');
+ const riskRow=dir=>e=>'<li><a class="an anlink" href="'+dir+'/'+e.id+'.html">'+e.name+'</a><span class="av risky">'+e.score+'</span></li>';
+ if(riskEngineBox)riskEngineBox.innerHTML=DB.riskiest_engines.map(riskRow('motor')).join('');
+ if(riskTransBox)riskTransBox.innerHTML=DB.riskiest_transmissions.map(riskRow('sanziman')).join('');
 }
