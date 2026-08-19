@@ -81,23 +81,57 @@ function scoreBreakdownHTML(c){
   +(evHtml?'<div class="evwrap">'+evHtml+'</div>':'')+'</div>';
 }
 
+/* ---------- ayrıntı verisinin tembel yüklenmesi (MK-24) ---------- */
+/* `note` (araç açıklaması) ve `evidence` (motor/şanzıman kanıt metni)
+   index.html'e gömülmüyor; 406 araçta ikisi birlikte dosyanın %68'ini
+   oluşturduğu ölçüldü, oysa liste/kart görünümü hiçbirini okumuyor. Bunun
+   yerine build.py'nin ayrıca yazdığı detay.json'dan, yalnızca bir kart/satır
+   İLK KEZ açıldığında, tek seferlik bir fetch() ile çekiliyor; sonucu bütün
+   kartlar paylaşıyor (aynı Promise önbellekte tutuluyor, ikinci bir istek
+   atılmıyor). `file://` olarak açılmış bir kopyada (bkz. docs/DATA-ISSUES.md'ye
+   benzer şekilde katkı formunun da file://'da çalışmaması) tarayıcı bu isteği
+   engeller; o durumda arayüz çökmek yerine hangi bilginin eksik olduğunu
+   açıkça söyler, puan/kanıt sırası/kaynak bağlantıları gibi zaten yerel olan
+   her şeyi eksiksiz göstermeye devam eder. */
+let detailDataPromise=null;
+function loadDetailData(){
+ if(!detailDataPromise){
+  detailDataPromise=fetch('detay.json').then(r=>{
+   if(!r.ok)throw new Error('detay.json http '+r.status);
+   return r.json();
+  }).catch(()=>null);
+ }
+ return detailDataPromise;
+}
+
 /* ---------- ayrıntı panelinin ortak içeriği (tablo satırı + kart, ikisi de kullanır) ---------- */
 /* Bu içerik eskiden 406 aracın hepsi için render() her çalıştığında önceden
    inşa ediliyordu — açılıp açılmayacağına bakılmaksızın. O tek karar 55.007
    DOM düğümü ve 595ms'lik bir render() süresine yol açıyordu (Y-25 denetimi).
    Şimdi bu işlev yalnızca bir araç ilk kez açıldığında bir kez çağrılıyor ve
    sonucu ilgili konteynerin dataset'inde önbelleğe alınıyor. */
-function detailBodyHTML(c){
+function detailBodyHTML(c,detailUnavailable){
  const src=c.r&&c.r.length?'Kaynak: '+c.r.map(x=>'<a href="'+R[x][2]+'" target="_blank" rel="noopener">'+R[x][1]+'</a>').join(' &middot; '):'Bu puanlar kendi teknik değerlendirmeme dayanıyor.';
  const weaks=weakOnes(c);
  let weakHtml='';
  if(weaks.length){weakHtml='<div class="weaklist">';weaks.forEach(w=>{weakHtml+='<div class="weakitem"><b>'+HEAD[w.k]+' ('+w.v+'/100):</b> '+weakReason(c,w.k)+'</div>';});weakHtml+='</div>';}
- return '<div class="det-grid"><div><div class="lead">'+c.note+'</div>'+weakHtml+'<div class="src">'+src+'</div><button type="button" class="btn small ghost sugbtn" data-carid="'+c.id+'">Bu araca kaynak öner</button></div><div class="radarwrap">'+radarSVG([c])+'</div></div>'+scoreBreakdownHTML(c);
+ const leadHtml=c.note
+  ?'<div class="lead">'+c.note+'</div>'
+  :(detailUnavailable?'<div class="lead dim">Bu aracın yazılı açıklaması ve motor/şanzıman kanıt metni bu görünümde yüklenemedi — dosyayı doğrudan diskten açtıysanız bu beklenen bir durum. Puanlar, zayıf halka uyarıları ve kaynaklar aşağıda eksiksiz duruyor; tam açıklama için <a href="https://serhateralp01.github.io/arac_puanlama/#liste" target="_blank" rel="noopener">siteyi çevrimiçi ziyaret edin</a>.</div>':'');
+ return '<div class="det-grid"><div>'+leadHtml+weakHtml+'<div class="src">'+src+'</div><button type="button" class="btn small ghost sugbtn" data-carid="'+c.id+'">Bu araca kaynak öner</button></div><div class="radarwrap">'+radarSVG([c])+'</div></div>'+scoreBreakdownHTML(c);
 }
-function fillDetailOnce(container,c){
- if(container.dataset.built)return;
- container.innerHTML=detailBodyHTML(c);
+async function fillDetailOnce(container,c){
+ if(container.dataset.built||container.dataset.building)return;
+ container.dataset.building='1';
+ container.innerHTML='<div class="detloading">Yükleniyor…</div>';
+ if(c.note===undefined){
+  const data=await loadDetailData();
+  const d=data&&data[c.cid];
+  if(d){c.note=d.note;c.ev=d.ev;}
+ }
+ container.innerHTML=detailBodyHTML(c,c.note===undefined);
  container.dataset.built='1';
+ delete container.dataset.building;
  const btn=container.querySelector('.sugbtn');
  if(btn)btn.onclick=(e)=>{e.stopPropagation();suggestSourceFor(c);};
 }

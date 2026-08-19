@@ -165,6 +165,10 @@ tr.detail.open .det{max-height:640px;padding:16px 20px 20px;overflow-y:auto}
 @media(max-width:900px){.det-grid{grid-template-columns:1fr}}
 .det .lead{font-size:13.4px;color:var(--ink);line-height:1.62;font-family:var(--body);text-align:left;max-width:640px}
 .det .weaklist{margin-top:12px}
+/* ---------- ayrıntı verisinin tembel yüklenmesi (MK-24) ---------- */
+.detloading{padding:20px;font-family:var(--mono);font-size:12px;color:var(--faint);text-align:left}
+.det .lead.dim,.vcdetail .lead.dim{color:var(--dim);font-style:italic}
+.det .lead.dim a,.vcdetail .lead.dim a{color:var(--blue);font-style:normal}
 .det .weakitem{background:var(--redbg);border-radius:9px;padding:9px 12px;font-size:12px;color:var(--red);margin-bottom:6px;text-align:left;font-family:var(--body)}
 .det .weakitem b{font-family:var(--mono)}
 .det .src{margin-top:12px;font-family:var(--mono);font-size:10.5px;color:var(--faint);text-align:left}

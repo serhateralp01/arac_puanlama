@@ -23,12 +23,12 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
 | Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
-| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 89/89 duman testi (statik sayfa, SEO, katalog, koyu tema, mobil menü, kart görünümü, bütçe girişi ve ana ekran kanıt bağlantıları kontrolleri dahil, bkz. Y-25) |
+| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 90/90 duman testi — artık `file://` yerine süreç içi bir HTTP sunucusu üzerinden çalışıyor (statik sayfa, SEO, katalog, koyu tema, mobil menü, kart görünümü, bütçe girişi, ana ekran kanıt bağlantıları ve tembel ayrıntı yükleme kontrolleri dahil, bkz. Y-25) |
 | `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, **375/406 araç** — bkz. Y-19, Y-24). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi, iki ayrı kaynakla.** 19 araç 2026-08-13 tarihli arabam.com ilan gözlemine, 10 araç 2026-07 tarihli TSB Kasko Değer Listesi'ne bağlandı (bkz. Y-21). Toplam 29 araçta `price_reference` bloğu (tarih, yöntem, örneklem/kaynak, sınırlılık) var; kalan 371 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
 | Çok ekranlı arayüz: ana ekran, giriş akışı, liste, metodoloji, kaynak öner, iletişim | Çalışıyor |
-| GitHub Pages yayını | Çıktı `index.html` olarak üretiliyor, kök adres siteyi açıyor |
+| GitHub Pages yayını | Çıktı `index.html` (liste/kart için özet veri) ve `detay.json` (ayrıntı paneli için tembel yüklenen `note`+`evidence`, MK-24) olarak üretiliyor, kök adres siteyi açıyor |
 | Liste ekranı denetim çubuğu (Y-05) | Tamamlandı: ağırlık/arama/filtre tablonun üstünde, filtre paneli katlanabilir |
 | Kaynak öneri formu (Y-04) | Arayüz tamamlandı; gönderim uç noktası ve iletişim adresi tanımlanmayı bekliyor |
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
@@ -1709,7 +1709,7 @@ bir oturum) gerekiyor.
 
 ---
 
-## Y-25 · Tasarım denetimi ve kart görünümü: liste ekranı baştan ele alındı — **birinci, ikinci ve dördüncü faz bitti (2026-08-19)**
+## Y-25 · Tasarım denetimi ve kart görünümü: liste ekranı baştan ele alındı — **birinci, ikinci, dördüncü ve beşinci faz bitti (2026-08-19)**
 
 **Bağlam.** Depo sahibi bu turda açıkça "tasarımsal ögeler kesinlikle değişmeli,
 araç listesinin olduğu site çok daha streamlined ve akıcı olmalı, site genel
@@ -1833,15 +1833,57 @@ denetlendi; hepsi var olan sayfalara işaret ediyor, konsolda hata yok.
 15 bağlantının dosya sisteminde gerçekten var olduğunu her turda doğruluyor —
 gelecekte bir sayfa adlandırma kuralı değişirse bu kontrol kırılıp haber verir.
 
+**Beşinci faz — veri/kabuk ayrımı (Y-14), ölçümle başlayıp mimari karara vardı
+(2026-08-19, aynı gün).** Faz 2'nin en büyük maddesi Y-14'tü ve kendi ön koşulu
+"ölçüm olmadan iyileştirme yapılmaz" diyordu. Ölçüm önce yapıldı:
+`index.html` 2 MB'a ulaşmıştı ve bunun 1,37 MB'ı (%68'i) yalnızca her aracın
+`note` (yazılı açıklama) ve `evidence` (motor/şanzıman kanıt metni) alanlarındaydı
+— liste/kart görünümünün hiç okumadığı, yalnızca bir kartın ayrıntı paneli
+açıldığında görülen içerik. Kalan "gerçekten listeye gerekli" veri (ad, yıl,
+beygir, puanlar, fiyat...) 406 arabada yalnızca 178 KB tutuyordu.
+
+Bu ölçüm, `docs/ARCHITECTURE.md` MK-07'nin ("çıktı tek dosya kalır") kendi
+öngördüğü eşiği doğruladı — MK-07'nin kendisi zaten "veri yükü birkaç
+megabayta çıkana kadar katlanılabilir, o eşiğe yaklaşıldığında doğru çözüm
+dosyayı bölmek değil, veriyi ayrı bir dosyadan istek üzerine yüklemektir"
+diyordu. Bu yüzden serbestçe uygulanmadı, önce MK-24 olarak
+`docs/ARCHITECTURE.md`'ye yazıldı, sonra kodlandı: `scripts/build.py` artık
+`index.html` (665 KB, %67 küçüldü) ile ayrı bir `detay.json` (1,31 MB) üretiyor;
+ikincisi yalnızca bir kart/satır ilk açıldığında tek seferlik `fetch()` ile
+çekiliyor ve sonucu bütün kartlar paylaşıyor.
+
+**`file://` bedeli açıkça kabul edildi, gizlenmedi.** Tarayıcılar `file://`
+kaynağından başka bir dosyaya `fetch()` isteğini engelliyor (GitHub Pages'te,
+gerçek dağıtım kanalında, bu sorun yok — zaten katkı formu da `file://`'da
+çalışmıyor, aynı kısıt Y-04'te de var). `templates/app/60-tablo.js`'teki
+`fillDetailOnce()` bu durumda çökmek yerine `.lead.dim` sınıflı, açıkça ne
+olduğunu söyleyen bir mesaj gösteriyor ("...dosyayı doğrudan diskten
+açtıysanız bu beklenen bir durum...") ve puanlar, zayıf halka uyarıları,
+kaynak bağlantıları gibi zaten yerel olan hiçbir şeyi gizlemiyor.
+
+**Test altyapısı da yeniden kuruldu.** `scripts/smoke_test.js` artık testlerin
+çoğu için `file://` yerine süreç içi, rastgele porta bağlanan bir statik HTTP
+sunucusu kullanıyor — bu gerçek dağıtımı temsil ediyor ve yeni `fetch()`
+davranışının gerçekten çalıştığını doğruluyor. `file://` için ayrı, kasıtlı
+tek bir kontrol duruyor: o senaryonun çökmeden geri düşmesi de doğrulanması
+gereken bir davranış. `node scripts/smoke_test.js` 89/89'dan **90/90**'a çıktı.
+
+**Doğrulama (beşinci faz).** Gerçek bir tarayıcıda hem HTTP hem `file://`
+üzerinden manuel doğrulama yapıldı (ikisi de smoke_test.js'e kalıcı kontrol
+olarak girdi). `python3 scripts/build.py --check`, `build_pages.py --check`
+ve `build_content.py --check` üçü de "güncel" diyor. `validate.py` 0 hata.
+
 **Bitmemiş bırakılanlar — sıradaki turlar için.** Denetim raporu dört fazlık
 bir plan önermişti; bu turda birinci faz (tasarım/kullanılabilirlik) tamamen,
-ikinci fazın bir maddesi (bütçe girişi) ve dördüncü faz (kanıt sayfalarının
-ana ekranda görünürleşmesi) yapıldı. Faz 2'nin geri kalanı (sanal/pencereli
-liste render'ı, veri/kabuk ayrımı — Y-14) ve Faz 3'ün geri kalanı (kıyaslama
-özelliğinin ana ekranda ayrı bir tanıtım kartıyla öne çıkarılması — şimdilik
-yalnızca düğme etiketleri netleştirildi, çünkü mevcut kıyaslama tepsisi zaten
-her zaman görünür bir giriş noktası) sıradaki turlara bırakıldı; hiçbiri bu
-turda çalışan hiçbir şeyi riske atmadı.
+ikinci fazın bir maddesi (bütçe girişi), dördüncü faz (kanıt sayfalarının ana
+ekranda görünürleşmesi) ve Faz 2'nin en büyük maddesi (veri/kabuk ayrımı,
+Y-14) yapıldı. Sanal/pencereli liste render'ı (Faz 2'nin geri kalanı — artık
+daha düşük öncelikli, çünkü asıl ağırlık zaten detay verisindeydi ve o
+çözüldü) ve Faz 3'ün geri kalanı (kıyaslama özelliğinin ana ekranda ayrı bir
+tanıtım kartıyla öne çıkarılması — şimdilik yalnızca düğme etiketleri
+netleştirildi, çünkü mevcut kıyaslama tepsisi zaten her zaman görünür bir
+giriş noktası) sıradaki turlara bırakıldı; hiçbiri bu turda çalışan hiçbir
+şeyi riske atmadı.
 
 ---
 
@@ -2380,18 +2422,27 @@ doğrulanmış oran, son güncelleme) `validate.py --json` çıktısından otoma
 ama üretilmiyor. Ayrıca haftalık zamanlanmış bir iş, `fiyat-bandi-bayat` uyarısı üreten
 araçları listeleyip otomatik konu açabilir — kurulmadı.
 
-### Y-14 · Veri/kabuk ayrımı ve tembel yükleme
+### Y-14 · Veri/kabuk ayrımı ve tembel yükleme — **bitti (2026-08-19, bkz. Y-25 beşinci faz)**
 
-**Sorun.** Tek dosya bugün 1,2 MB ve araç sayısıyla doğrusal büyüyor; 1.000 araçta yaklaşık
-4 MB olur ve mobil bağlantıda kabul edilemez hale gelir. Veri hacminin büyük kısmını 972
-`evidence` bloğunun metinleri oluşturuyor ve bunlar yalnızca detay panelinde okunuyor.
+**Sorun neydi.** Tek dosya 2026-08-19'da 2 MB'a ulaşmıştı ve araç sayısıyla doğrusal
+büyüyordu. Veri hacminin büyük kısmını `evidence` ve `note` bloğunun metinleri
+oluşturuyordu ve bunlar yalnızca detay panelinde okunuyordu.
 
-**Kapsam.** Uygulama kabuğu ile veri ayrılır; liste ekranı için özet veri, detay için tam
-kayıt tembel yüklenir. Duman testine bir performans bütçesi kontrolü eklenir — bugünkü 49
-kontrol sayfanın çalıştığını doğruluyor ama hızını hiç ölçmüyor.
+**Ön koşul karşılandı.** Bu madde "ölçüm olmadan iyileştirme yapılmaz" diyordu. Ölçüm
+yapıldı: `note`+`evidence` toplam dosyanın %68'iydi (1,37 MB / 2 MB), oysa liste/kart
+görünümü ikisini de hiç okumuyordu.
 
-**Ön koşul:** Ölçüm olmadan iyileştirme yapılmaz. Önce gerçek cihazda ölçüm alınır, hedef
-sayı yazılır, sonra iş başlar.
+**Ne yapıldı.** `scripts/build.py` artık iki dosya üretiyor: `index.html` (liste için
+özet veri, 665 KB'a indi) ve `detay.json` (yalnız bir kart/satır ilk açıldığında
+`fetch()` ile çekilen `note`+`evidence`, 1,31 MB). Tam kayıt, gerekçe ve `file://`
+uyumluluk tartışması `docs/ARCHITECTURE.md` MK-24'te ve `docs/ROADMAP.md`'nin Y-25
+kaydının beşinci fazında duruyor.
+
+**Bitmemiş bırakılan.** Performans bütçesi kontrolü (duman testine "X saniyeden hızlı
+olmalı" türünden bir eşik) eklenmedi; bunun yerine gerçek ölçüm sayıları (index.html
+boyutu, detay.json boyutu) Y-25'in beşinci faz kaydına yazıldı. Sabit bir zaman eşiği
+makineye göre değiştiği için gürültülü bir test olurdu; boyut ölçümü daha kararlı bir
+gösterge.
 
 ### Y-15 · Fiyat ölçümünün tekrarlanabilir hale gelmesi
 

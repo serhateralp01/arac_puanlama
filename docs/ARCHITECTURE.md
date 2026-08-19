@@ -247,6 +247,10 @@ verildiğinde tarayıcı yine bütün veriyi indirir. Bu, veri yükü birkaç me
 dosyayı bölmek değil, veriyi ayrı bir dosyadan istek üzerine yüklemektir ve bu
 değişiklik ekran yapısına dokunmadan yapılabilir.
 
+**2026-08-19 güncellemesi:** O eşiğe ulaşıldı (`index.html` 2 MB'a çıktı) ve burada
+öngörülen çözüm birebir uygulandı — bkz. MK-24. Ekran yapısına gerçekten dokunulmadı;
+değişen yalnızca `note`/`evidence` alanlarının nereden okunduğu.
+
 ---
 
 ## MK-08 · Bileşen revizyonu, motor/kutu ailesinin gizli bir boyutudur
@@ -861,3 +865,51 @@ olarak kabul edildi: alanı bugün yalnızca iki betik yazıyor, ikisi de
 `data/cars/*.json`'a doğrudan yazan ve gerekçesi `reasoning` alanında açıkça duran
 betikler. Elle `formul` yazılmış bir yargı puanı, kod incelemesinde `reasoning`
 metninin betiğin imzasını taşımamasından anlaşılır.
+
+## MK-24 · Çıktı ikiye ayrıldı: liste için `index.html`, ayrıntı için ayrı bir `detay.json`
+
+**Karar:** MK-07'nin "çıktı tek dosya kalır" kararı, artık **tam anlamıyla** geçerli
+değil. `index.html` liste/kart görünümünü çizmeye yetecek özet veriyi taşımaya devam
+ediyor, ama her aracın yazılı açıklaması (`note`) ve motor/şanzıman kanıt metni
+(`evidence`) artık ayrı bir dosyada, `detay.json`'da duruyor ve yalnızca bir kart veya
+satır ilk kez açıldığında, tek seferlik bir `fetch()` ile çekiliyor. Bu, Y-14'ün
+("veri/kabuk ayrımı") uygulamaya geçmiş hali.
+
+**Ön koşul karşılandı mı — evet, ölçümle.** Y-14 kaydı "ölçüm olmadan iyileştirme
+yapılmaz" diyordu. 2026-08-19'da `index.html` 2 MB'a ulaşmıştı; ölçüldüğünde bunun
+1,37 MB'ının (%68'i) yalnızca `note`+`evidence` metinlerinden geldiği, geri kalan
+"liste için gerçekten gerekli" alanların (ad, yıl, beygir, puanlar, fiyat...) toplam
+406 arabada yalnızca 178 KB tuttuğu görüldü. Yani dosyanın üçte ikisi, kullanıcıların
+büyük çoğunluğunun (yalnızca gezinen, filtreleyen, karşılaştıran) hiç okumadığı bir
+içerikti. Ayırma sonrası `index.html` 665 KB'a indi (%67 azalma); `detay.json` 1,31 MB
+ve yalnızca bir kart açıldığında iniyor.
+
+**Bu, MK-07'nin gerekçesini geçersiz kılmıyor, tamamlıyor.** MK-07'nin asıl amacı veri
+yükünün ekran başına **tekrarlanmasını** önlemekti (dört ekran, dört kopya değil, tek
+yük). O ilke hâlâ geçerli: `detay.json` da tek bir kopya, bütün kartlar onu paylaşıyor.
+Değişen şey, "tek yük" ile "tek HTTP isteği"nin aynı şey olması gerektiği varsayımı —
+o varsayım hiç yazılı değildi, zımniydi. Liste ekranı hiç dokunmadığı 1,37 MB'ı
+indirmek zorunda kalmasın diye bu iki kavram ayrıldı.
+
+**Bedeli: `file://` üzerinden doğrudan açılan bir kopyada ayrıntı paneli eksik kalır.**
+Tarayıcılar `file://` kaynağından başka bir dosyaya (`detay.json` dahil) `fetch()`
+isteğini varsayılan olarak engelliyor; GitHub Pages'te (gerçek dağıtım kanalı,
+`https://serhateralp01.github.io/arac_puanlama/`) bu sorun yok. Bu, ilk defa
+oluşturulmuş bir kısıt değil: katkı formu da `file://` üzerinden çalışmıyor
+(`docs/ROADMAP.md`, Y-04 kaydı). Karar, bu kısıtı **çökme yerine dürüst bir mesajla**
+sınırlamak: `note`/`evidence` yüklenemediğinde arayüz bunu açıkça söylüyor
+("...dosyayı doğrudan diskten açtıysanız bu beklenen bir durum...") ve puanlar, zayıf
+halka uyarıları, kaynak bağlantıları gibi zaten yerel olan hiçbir şeyi gizlemiyor —
+`scripts/smoke_test.js` bunu ayrı ve kalıcı bir kontrolle doğruluyor.
+
+**Kimlik köprüsü.** `detay.json` aracın numaralı arayüz kimliğiyle değil kalıcı
+`id`'siyle (`cid`, Y-25 dördüncü fazda eklendi) anahtarlanıyor; bu iki dosya ayrı ayrı
+üretilse bile (aynı `scripts/build.py render()` çağrısından çıktıkları için asla ayrı
+üretilmezler, ama ilke olarak) doğru eşleşme kalıcı kimliğe dayanıyor, çalışma zamanı
+sırasına değil.
+
+**Test altyapısı da değişti.** `scripts/smoke_test.js` artık testlerin çoğu için
+`file://` yerine süreç içi bir statik HTTP sunucusu (`http://127.0.0.1:<rastgele
+port>`) kullanıyor, çünkü bu gerçek dağıtımı temsil ediyor ve `fetch()`'in gerçekten
+çalıştığını doğruluyor. `file://` için ayrı, kasıtlı bir kontrol duruyor — o senaryonun
+çökmeden geri düşmesi de doğrulanması gereken bir davranış.

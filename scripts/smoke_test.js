@@ -17,12 +17,39 @@
  */
 const fs = require('fs');
 const path = require('path');
+const http = require('http');
 const { chromium } = require('playwright');
 
 const ROOT = path.resolve(__dirname, '..');
-const FILE = 'file://' + path.join(ROOT, 'index.html');
 const DEBUG_DIR = path.join(ROOT, 'scripts', '.smoke-debug');
 const ALWAYS_SCREENSHOT = process.argv.includes('--debug');
+
+/* ---------- yerel statik sunucu (MK-24) ----------
+ * index.html eskiden tek başına yeterliydi ve testler onu doğrudan file://
+ * ile açıyordu. detay.json'un fetch() ile çekilmesiyle (Y-25 beşinci faz)
+ * file:// artık gerçek üretim koşulunu temsil etmiyor — tarayıcılar file://
+ * kaynağından başka bir dosyaya fetch() isteğini varsayılan olarak
+ * engelliyor, oysa GitHub Pages üzerinde (gerçek dağıtım) bu sorunsuz
+ * çalışıyor. Testlerin çoğu bu yüzden bu süreç içi statik sunucu üzerinden,
+ * gerçek dağıtımı temsil eden http://127.0.0.1 üzerinden çalışıyor; file://
+ * için ayrı ve kasıtlı tek bir kontrol var (aşağıda "detay.json file://
+ * altında..."), çünkü o senaryonun çökmeden zarifçe geri düşmesi de
+ * doğrulanması gereken bir davranış.
+ */
+const MIME = { '.html': 'text/html; charset=utf-8', '.json': 'application/json', '.css': 'text/css', '.xml': 'application/xml', '.txt': 'text/plain' };
+function startServer() {
+  const server = http.createServer((req, res) => {
+    const urlPath = decodeURIComponent(req.url.split('?')[0]);
+    const filePath = path.join(ROOT, urlPath);
+    if (!filePath.startsWith(ROOT)) { res.writeHead(403); res.end(); return; }
+    fs.readFile(filePath, (err, data) => {
+      if (err) { res.writeHead(404); res.end('not found'); return; }
+      res.writeHead(200, { 'Content-Type': MIME[path.extname(filePath)] || 'application/octet-stream' });
+      res.end(data);
+    });
+  });
+  return new Promise((resolve) => server.listen(0, '127.0.0.1', () => resolve(server)));
+}
 
 // Araç sayısı Y-01/Y-19 turlarında sık değişiyor; sabit bir sayı her turda bu
 // dosyayı elle güncellemeyi gerektirirdi. data/cars/ dizinini sayıp aynı sonucu
@@ -52,7 +79,13 @@ async function dumpDebug(label) {
   }
 }
 
+let server; // dumpDebug()'un aksine yalnız en sonda kapatılıyor, üstte tanımlı olması yeterli
+
 (async () => {
+  server = await startServer();
+  const BASE = `http://127.0.0.1:${server.address().port}/`;
+  const FILE = BASE + 'index.html';
+
   // Yerelde önceden kurulu bir Chromium varsa onu kullan; yoksa Playwright'ın
   // kendi indirdiği tarayıcıya düş (CI böyle çalışıyor).
   const launchOpts = process.env.CHROMIUM_PATH
@@ -510,7 +543,7 @@ async function dumpDebug(label) {
     // Bu sayfaların işi arama motorunda görünmek, yani başlık, açıklama ve canonical
     // etiketlerinin gerçekten dolu olması işlevin kendisi; boş bir açıklama sayfayı
     // çalışmaz hale getirmez ama işe yaramaz hale getirir. Bu yüzden denetleniyorlar.
-    const carPage = 'file://' + path.join(ROOT, 'arac', 'vw-passat-b7-1-6-tdi.html');
+    const carPage = BASE + 'arac/vw-passat-b7-1-6-tdi.html';
     await page.goto(carPage);
     const spTitle = await page.title();
     check('araç sayfası araca özgü başlık taşıyor',
@@ -530,7 +563,7 @@ async function dumpDebug(label) {
     const spEv = await page.locator('.ev').count();
     check('araç sayfası puan gerekçelerini gösteriyor', spEv >= 2, `${spEv} gerekçe bloğu`);
 
-    const engPage = 'file://' + path.join(ROOT, 'motor', 'vag-ea189.html');
+    const engPage = BASE + 'motor/vag-ea189.html';
     await page.goto(engPage);
     const engIssues = await page.locator('.issue').count();
     check('motor sayfası bilinen arızaları listeliyor', engIssues >= 1, `${engIssues} arıza`);
@@ -545,7 +578,7 @@ async function dumpDebug(label) {
       : [];
     check('katalog sayfaları üretildi', catFiles.length > 500, `${catFiles.length} sayfa`);
 
-    const catPage = 'file://' + path.join(catDir, catFiles[0]);
+    const catPage = BASE + 'katalog/' + catFiles[0];
     await page.goto(catPage);
     const catTitle = await page.title();
     check('katalog sayfası puanlanmadığını başlıkta söylüyor',
@@ -604,6 +637,31 @@ async function dumpDebug(label) {
     await page.setViewportSize({ width: 1280, height: 800 });
     await page.waitForTimeout(150);
 
+    // detay.json file:// altında yüklenemiyor (MK-24) — tarayıcılar file://
+    // kaynağından başka bir dosyaya fetch() isteğini varsayılan olarak
+    // engelliyor. Bu, GitHub Pages'te (gerçek dağıtım) hiç olmayan ama
+    // depoyu indirip index.html'i doğrudan diskten açan biri için gerçek bir
+    // senaryo. Kritik olan çökmemesi ve neyin eksik olduğunu açıkça
+    // söylemesi; puanlar, zayıf halka uyarıları ve kaynak bağlantıları gibi
+    // zaten yerel olan hiçbir şeyin kaybolmaması.
+    const fileErrors = [];
+    const filePage = await browser.newPage();
+    filePage.on('pageerror', (e) => fileErrors.push(String(e)));
+    await filePage.goto('file://' + path.join(ROOT, 'index.html'));
+    await filePage.evaluate(() => localStorage.setItem('arac_puan_giris_gorundu', '1'));
+    await filePage.goto('file://' + path.join(ROOT, 'index.html') + '#liste');
+    await filePage.waitForSelector('#cardgrid .vcard');
+    const fileCard = filePage.locator('#cardgrid .vcard').first();
+    await fileCard.locator('.vctoggle').click();
+    await filePage.waitForSelector('#cardgrid .vcard .vcdetail .bdtable');
+    const fileLeadIsDim = await fileCard.locator('.vcdetail .lead').evaluate((el) => el.classList.contains('dim'));
+    const fileWeakStillShown = (await fileCard.locator('.vcdetail .weakitem').count()) >= 0; // sayı 0 da olabilir, çökmediği önemli
+    const fileSrcShown = (await fileCard.locator('.vcdetail .src').innerText()).length > 0;
+    check('detay.json file:// altında yüklenemeyince arayüz zarifçe geri düşüyor',
+      fileLeadIsDim && fileWeakStillShown && fileSrcShown && fileErrors.length === 0,
+      `dim=${fileLeadIsDim}, kaynak metni var=${fileSrcShown}, hata=${fileErrors.length}`);
+    await filePage.close();
+
     if (ALWAYS_SCREENSHOT) await dumpDebug('02-tum-kontroller-sonrasi');
   } catch (e) {
     // Beklenmedik bir hata (ör. bir seçici hiç bulunamadı) çıplak bir stack
@@ -611,6 +669,7 @@ async function dumpDebug(label) {
     console.log(`\nBEKLENMEDİK HATA: ${e}`);
     await dumpDebug('beklenmedik-hata');
     await browser.close();
+    server.close();
     process.exit(1);
   }
 
@@ -619,6 +678,7 @@ async function dumpDebug(label) {
     await dumpDebug('basarisiz-kontroller');
   }
   await browser.close();
+  server.close();
 
   console.log(`\n${checks.length - failed.length}/${checks.length} kontrol geçti.`);
   if (failed.length) {

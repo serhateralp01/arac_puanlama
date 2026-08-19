@@ -26,6 +26,12 @@ APP = TEMPLATES / "app"
 # GitHub Pages kök adreste index.html arar; başka bir ad verilirse depo özetini
 # (README) gösterir. Çıktının adı bu yüzden index.html.
 OUTPUT = ROOT / "index.html"
+# Ayrıntı verisi (araç açıklaması + motor/şanzıman kanıt metni) index.html'in
+# dışında, ayrı bir dosyada tutuluyor ve yalnız bir kart/satır ilk kez
+# açıldığında fetch() ile çekiliyor; gerekçesi docs/ARCHITECTURE.md MK-24
+# kaydında (ölçüm: bu tek alan çifti 406 araçta 2 MB'lık dosyanın %68'ini
+# oluşturuyordu, oysa liste/kart görünümü hiçbirini okumuyor).
+DETAIL_OUTPUT = ROOT / "detay.json"
 
 
 def load_data() -> tuple[dict, list[dict], dict, dict, dict]:
@@ -114,11 +120,15 @@ def load_catalog_index() -> list[dict]:
 
 def to_runtime_db(
     criteria: dict, cars: list[dict], sources: dict, engines: dict, transmissions: dict
-) -> dict:
+) -> tuple[dict, dict]:
     """Zengin JSON şemasını tarayıcı kodunun beklediği sade şekle indirger.
 
     Arayüz kodu göçten beri değişmedi; dönüşüm burada yapılıyor ki veri
     dosyaları okunabilir kalsın, UI kodu da yeniden yazılmak zorunda olmasın.
+
+    İki sözlük döndürür: `db` (index.html'e gömülen, listeyi çizmek için
+    yeterli özet veri) ve `detail` (detay.json'a yazılan, yalnız bir aracın
+    ayrıntı paneli açıldığında okunan `note`+`evidence` metinleri, MK-24).
     """
     # Bant örnekleri (ör. "honda-civic-fd6-1-6") kimlikle veriliyor ki
     # data/criteria.json okunurken hangi aracın kastedildiği açık kalsın; arayüzde
@@ -154,6 +164,7 @@ def to_runtime_db(
     verif_map = {"verified": True, "partial": "p", "preliminary": False}
 
     cars_runtime = []
+    detail_runtime = {}
     for car in cars:
         s = car["specs"]
         cars_runtime.append(
@@ -163,7 +174,8 @@ def to_runtime_db(
                 # statik sayfanın dosya adıyla (data/cars/*.json'daki kalıcı id) aynı
                 # değer değil. Ana ekranın "en yüksek puanlı beş araç" bulgusu bu
                 # statik sayfaya bağlanabilsin diye kalıcı kimlik ayrı bir alanda
-                # (cid) taşınıyor (Y-25 dördüncü faz).
+                # (cid) taşınıyor (Y-25 dördüncü faz); aynı cid, aracın ayrıntı
+                # verisini detay.json'da bulmak için de kullanılıyor (MK-24).
                 "cid": car["id"],
                 "p": car["price_band_k_try"],
                 "y": car["years"],
@@ -179,10 +191,16 @@ def to_runtime_db(
                 "v": verif_map[car["verification"]],
                 "r": car["sources"],
                 "s": [car["scores"][k] for k in criteria["scored_order"]],
-                "note": car["note"],
-                "ev": car.get("evidence") or {},
             }
         )
+        # `note` (araç açıklaması) ve `evidence` (motor/şanzıman kanıt metni)
+        # yalnız ayrıntı paneli açıldığında okunuyor, liste/kart görünümü hiç
+        # dokunmuyor; ama 406 araçta ikisi birlikte dosyanın %68'ini oluşturuyor
+        # (MK-24 ölçümü). Bu yüzden index.html'e değil detay.json'a yazılıyor.
+        detail_runtime[car["id"]] = {
+            "note": car["note"],
+            "ev": car.get("evidence") or {},
+        }
 
     # Sayfada yalnızca araçlara bağlanmış kaynaklar listeleniyor; artık hiçbir
     # araca bağlı olmayan kaynaklar arşivde kalır ama sayfaya basılmaz.
@@ -193,7 +211,7 @@ def to_runtime_db(
         if sid in used
     }
 
-    return {
+    db = {
         "cars": cars_runtime,
         "catalog": load_catalog_index(),
         "sources": sources_runtime,
@@ -212,6 +230,7 @@ def to_runtime_db(
         "riskiest_transmissions": riskiest(transmissions),
         "build_stamp": "",  # render() dolduruyor
     }
+    return db, detail_runtime
 
 
 def concat_parts(folder: pathlib.Path, suffix: str) -> str:
@@ -245,11 +264,12 @@ def concat_screens() -> str:
     return "\n".join(chunks)
 
 
-def render() -> str:
+def render() -> tuple[str, str]:
+    """index.html içeriğini ve ayrı detay.json içeriğini birlikte üretir (MK-24)."""
     criteria, cars, sources, engines, transmissions = load_data()
     stamp = f"veri damgası {data_fingerprint(criteria, cars, sources, engines, transmissions)}"
 
-    db = to_runtime_db(criteria, cars, sources, engines, transmissions)
+    db, detail = to_runtime_db(criteria, cars, sources, engines, transmissions)
     db["build_stamp"] = stamp
 
     template = TEMPLATE.read_text(encoding="utf-8")
@@ -264,7 +284,9 @@ def render() -> str:
     html = html.replace("/*__APP__*/", app_js)
     html = html.replace("__CAR_COUNT__", str(len(cars)))
     html = html.replace("__BUILD_STAMP__", stamp)
-    return html
+
+    detail_json = json.dumps(detail, ensure_ascii=False, separators=(",", ":"))
+    return html, detail_json
 
 
 def main() -> int:
@@ -276,20 +298,28 @@ def main() -> int:
     )
     args = ap.parse_args()
 
-    html = render()
+    html, detail_json = render()
     if args.check:
-        current = OUTPUT.read_text(encoding="utf-8") if OUTPUT.exists() else ""
-        if current != html:
+        current_html = OUTPUT.read_text(encoding="utf-8") if OUTPUT.exists() else ""
+        current_detail = DETAIL_OUTPUT.read_text(encoding="utf-8") if DETAIL_OUTPUT.exists() else ""
+        stale = []
+        if current_html != html:
+            stale.append(str(OUTPUT.relative_to(ROOT)))
+        if current_detail != detail_json:
+            stale.append(str(DETAIL_OUTPUT.relative_to(ROOT)))
+        if stale:
             print(
-                "index.html veriyle uyumsuz. `python3 scripts/build.py` çalıştırın.",
+                f"{', '.join(stale)} veriyle uyumsuz. `python3 scripts/build.py` çalıştırın.",
                 file=sys.stderr,
             )
             return 1
-        print("index.html güncel.")
+        print("index.html ve detay.json güncel.")
         return 0
 
     OUTPUT.write_text(html, encoding="utf-8")
+    DETAIL_OUTPUT.write_text(detail_json, encoding="utf-8")
     print(f"{OUTPUT.relative_to(ROOT)} yazıldı ({len(html):,} bayt).")
+    print(f"{DETAIL_OUTPUT.relative_to(ROOT)} yazıldı ({len(detail_json):,} bayt).")
     return 0
 
 
