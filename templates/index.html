@@ -35,7 +35,13 @@
 
 <nav class="topbar"><div class="inner">
   <a class="brand" href="#ana">Araç Puanlama<span class="dot">.</span></a>
-  <div class="nav">
+  <!-- Dar ekranda .nav tam genişlikte bir menü sütununa dönüşüp sayfanın
+       üçte birini kaplıyordu (Y-25). Bu düğme yalnızca dar ekranda görünür
+       (bkz. styles.css) ve .nav'ı bir açılır panele çeviriyor. -->
+  <button type="button" class="navtoggle" id="navToggle" aria-expanded="false" aria-controls="navPanel" aria-label="Menüyü aç">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav" id="navPanel">
     <a href="#ana" data-route="ana">Ana Sayfa</a>
     <a href="#liste" data-route="liste">Araç listesi</a>
     <a href="#kiyaslama" data-route="kiyaslama">Kıyaslama<span class="cnt" id="navCmpCount"></span></a>
@@ -44,8 +50,8 @@
     <a href="#katki" data-route="katki">Kaynak öner</a>
     <a href="#iletisim" data-route="iletisim">İletişim</a>
     <a href="#giris" data-route="giris">Bu nedir?</a>
+    <button type="button" class="btn small ghost" id="temaBtn">Koyu tema</button>
   </div>
-  <button type="button" class="btn small ghost" id="temaBtn">Koyu tema</button>
 </div></nav>
 
 <div class="wrap">

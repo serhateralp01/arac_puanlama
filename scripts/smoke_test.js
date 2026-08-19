@@ -158,13 +158,65 @@ async function dumpDebug(label) {
     const directToAna = await page.locator('[data-screen="ana"]').isVisible();
     check('tekrar ziyarette hash yokken doğrudan ana ekrana gidiliyor', directToAna);
 
-    // Bundan sonrası liste ekranında geçiyor.
+    // Bundan sonrası liste ekranında geçiyor. Kart görünümü artık varsayılan
+    // (Y-25); önce onu doğruluyoruz, sonra ikinci sekme olan tabloya geçip
+    // geri kalan bütün kontrolleri (aşağıdaki gibi) orada sürdürüyoruz —
+    // çünkü tablo, sütun bazlı doğrulamalar için daha uygun bir yüzey.
     await page.goto(FILE + '#liste');
-    await page.waitForSelector('#body tr.main');
+    await page.waitForSelector('#cardgrid .vcard');
     if (ALWAYS_SCREENSHOT) await dumpDebug('01-yuklendi');
 
+    // ---------- kart görünümü (Y-25) ----------
+    const cardViewOnByDefault = (await page.locator('#listeScreen.view-kart').count()) === 1;
+    check('liste ekranı kart görünümüyle açılıyor', cardViewOnByDefault);
+    const cardRows = await page.locator('#cardgrid .vcard').count();
+    check('bütün araçlar kart olarak listeleniyor', cardRows === CAR_COUNT, `${cardRows} kart (beklenen ${CAR_COUNT})`);
+    const tableHiddenInCardView = !(await page.locator('#tablewrap').isVisible());
+    check('kart görünümündeyken tablo gizli', tableHiddenInCardView);
+
+    // Ayrıntı içeriği eskiden 406 aracın hepsi için önceden inşa ediliyordu
+    // (55.007 DOM düğümü, 595ms). Şimdi bir kart ilk kez açılana kadar
+    // .vcdetail boş kalmalı; bu, o performans düzeltmesinin kalıcı kanıtı.
+    const firstCard = page.locator('#cardgrid .vcard').first();
+    const detailEmptyBeforeOpen = (await firstCard.locator('.vcdetail').innerHTML()) === '';
+    check('kart ayrıntısı açılana kadar boş (tembel oluşturma)', detailEmptyBeforeOpen);
+    await firstCard.locator('.vctoggle').click();
+    await page.waitForTimeout(150);
+    const detailFilledAfterOpen = (await firstCard.locator('.vcdetail .bdtable').count()) === 1;
+    check('kart ayrıntısı ilk tıklamada dolduruluyor', detailFilledAfterOpen);
+
+    // Fiyat, puanların aksine arayüzden düzenlenebilen tek alan (CLAUDE.md §6);
+    // bu istisna kart görünümünde de geçerli olmalı.
+    const cardPriceEditable = (await firstCard.locator('.vcprice .pin').count()) === 2;
+    check('kart üzerinde fiyat aralığı düzenlenebiliyor', cardPriceEditable);
+
+    // Kartlarda sütun başlığı yok; aynı işi gören açılır sıralama menüsü var.
+    const sortSelVisible = await page.locator('#sortWrap').isVisible();
+    check('sıralama seçimi kart görünümünde görünür', sortSelVisible);
+    await page.selectOption('#sortSel', 'name');
+    await page.waitForTimeout(150);
+    const namesAfterSort = await page.locator('#cardgrid .vcname').allInnerTexts();
+    const namesSorted = namesAfterSort.slice(1).every((t, i) => namesAfterSort[i].localeCompare(t, 'tr') <= 0);
+    check('isme göre sıralama kartları alfabetik diziyor', namesSorted);
+    await page.selectOption('#sortSel', 'tot');
+    await page.waitForTimeout(150);
+
+    // Görünüm düğmesi tabloya geçirmeli ve tercih localStorage'da kalıcı olmalı.
+    await page.click('#viewToggle [data-view="tablo"]');
+    await page.waitForSelector('#body tr.main');
+    const onTableViewNow = (await page.locator('#listeScreen.view-tablo').count()) === 1;
+    check('görünüm düğmesi tabloya geçiriyor', onTableViewNow);
+    await page.reload();
+    await page.waitForTimeout(200);
+    const tableViewPersisted = (await page.locator('#listeScreen.view-tablo').count()) === 1;
+    check('görünüm tercihi sayfa yenilenince kalıcı', tableViewPersisted);
+
+    // ---------- tablo görünümü (ikinci sekme, Y-25) ----------
+    await page.goto(FILE + '#liste');
+    await page.waitForSelector('#body tr.main');
+
     const rows = await page.locator('#body tr.main').count();
-    check('bütün araçlar listeleniyor', rows === CAR_COUNT, `${rows} satır (beklenen ${CAR_COUNT})`);
+    check('bütün araçlar tabloda listeleniyor', rows === CAR_COUNT, `${rows} satır (beklenen ${CAR_COUNT})`);
 
     check('JS hatası yok', errors.length === 0, errors.slice(0, 3).join(' | '));
 
@@ -377,8 +429,11 @@ async function dumpDebug(label) {
     const catAfterClear = await page.locator('#catwrap .catitem').count();
     check('arama temizlenince katalog bloğu kapanıyor', catAfterClear === 0);
 
-    // Kıyaslama
-    await page.locator('.cmpbtn').first().click();
+    // Kıyaslama. İki görünüm de her render()'da inşa edildiği için gizli
+    // kalan kart görünümünde de aynı sınıfta düğmeler var (Y-25); testin
+    // görünürdeki (tablo) düğmeye tıkladığından emin olmak için #body ile
+    // sınırlandırılıyor.
+    await page.locator('#body .cmpbtn').first().click();
     await page.waitForTimeout(200);
     const trayOk = await page.locator('#cmptray.show').isVisible();
     check('kıyaslama tepsisi açılıyor', trayOk);
@@ -402,7 +457,7 @@ async function dumpDebug(label) {
     // ilk araç hâlâ orada olmalı.
     await page.click('.nav a[data-route="liste"]');
     await page.waitForTimeout(200);
-    await page.locator('.cmpbtn').nth(1).click();
+    await page.locator('#body .cmpbtn').nth(1).click();
     await page.waitForTimeout(200);
     await page.click('.nav a[data-route="kiyaslama"]');
     await page.waitForTimeout(250);
@@ -475,6 +530,48 @@ async function dumpDebug(label) {
     const catOverflow = await page.evaluate(
       () => document.documentElement.scrollWidth <= window.innerWidth + 1);
     check('katalog sayfasında yatay taşma yok', catOverflow);
+
+    // Dar ekranda menü artık bir açılır panele dönüşüyor (Y-25). Önceki
+    // sürümde .nav tam genişlikte açık duruyordu, ekranın ~%32'sini kaplıyor
+    // ve yarı saydam olduğu için altındaki içeriği okunaksız hale getiriyordu.
+    // Bu kontrol, viewport'u geçici olarak daraltıp geri büyüterek çalışır;
+    // sonraki hiçbir kontrolün göremeyeceği bir yan etki bırakmaz.
+    await page.goto(FILE);
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.waitForTimeout(150);
+    const toggleVisible = await page.locator('#navToggle').isVisible();
+    const panelHiddenAtStart = !(await page.locator('#navPanel').evaluate((el) => el.classList.contains('open')));
+    check('dar ekranda menü düğmesi görünür ve panel kapalı başlıyor',
+      toggleVisible && panelHiddenAtStart);
+    const navHeightBefore = await page.locator('.topbar').evaluate((el) => el.getBoundingClientRect().height);
+    check('dar ekranda kapalı menü üstbaşlığı 70px altında kalıyor',
+      navHeightBefore < 70, `${navHeightBefore.toFixed(0)}px`);
+    await page.click('#navToggle');
+    await page.waitForTimeout(200);
+    const panelOpenNow = await page.locator('#navPanel').evaluate((el) => el.classList.contains('open'));
+    check('menü düğmesi panele açıyor', panelOpenNow);
+    await page.click('#navPanel a[data-route="liste"]');
+    await page.waitForTimeout(250);
+    const panelClosedAfterNav = !(await page.locator('#navPanel').evaluate((el) => el.classList.contains('open')));
+    const routedToListe = (await page.evaluate(() => location.hash)) === '#liste';
+    check('bir bağlantıya tıklayınca menü kapanıp doğru ekrana gidiyor',
+      panelClosedAfterNav && routedToListe);
+
+    // Kart görünümü denetimin asıl hedefiydi (Y-25): dar ekranda yatayda
+    // kaymadan, tek sütun halinde okunabilir olmalı. Görünüm tercihi önceki
+    // adımlarda 'tablo' olarak kalmıştı; burada kasıtlı olarak karta dönülüyor.
+    // Adres zaten #liste'de duruyor; goto() aynı URL'ye gidince tarayıcı
+    // bunu belge içi bir gezinme sayıp sayfayı yeniden yüklemeyebilir, bu
+    // yüzden reload() kullanılıyor.
+    await page.evaluate(() => localStorage.setItem('arac_puan_gorunum', 'kart'));
+    await page.reload();
+    await page.waitForSelector('#cardgrid .vcard');
+    const listeOverflow = await page.evaluate(
+      () => document.documentElement.scrollWidth <= window.innerWidth + 1);
+    check('dar ekranda kart görünümünde yatay taşma yok', listeOverflow);
+
+    await page.setViewportSize({ width: 1280, height: 800 });
+    await page.waitForTimeout(150);
 
     if (ALWAYS_SCREENSHOT) await dumpDebug('02-tum-kontroller-sonrasi');
   } catch (e) {

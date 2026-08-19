@@ -16,14 +16,14 @@ ister; güncellenmezse ilk işlevini kaybeder.
 
 ---
 
-## Durum özeti (son güncelleme: 2026-08-17)
+## Durum özeti (son güncelleme: 2026-08-19)
 
 | Katman | Durum |
 |---|---|
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
 | Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
 | Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
-| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 72/72 duman testi (statik sayfa, SEO, katalog ve koyu tema kontrolleri dahil) |
+| Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 87/87 duman testi (statik sayfa, SEO, katalog, koyu tema, mobil menü ve kart görünümü kontrolleri dahil, bkz. Y-25) |
 | `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, **375/406 araç** — bkz. Y-19, Y-24). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi, iki ayrı kaynakla.** 19 araç 2026-08-13 tarihli arabam.com ilan gözlemine, 10 araç 2026-07 tarihli TSB Kasko Değer Listesi'ne bağlandı (bkz. Y-21). Toplam 29 araçta `price_reference` bloğu (tarih, yöntem, örneklem/kaynak, sınırlılık) var; kalan 371 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
 | `liq` kriteri (MK-20) | **Ölçülemedi, gerekçesi yazıldı.** Elimizdeki 2.071 ilan gözlemi sorgu başına 50 ile sınırlı olduğu için sağdan sansürlü; en likit araçlar tavanda birbirine karışıyor. Doğru protokol, ilanları çekmek değil sorgu sonucundaki toplam ilan sayısını kaydetmek. |
@@ -40,7 +40,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
 | Veri doğruluğu (MK-18) | **Dış veri setiyle çapraz doğrulama yapıldı.** 220 araç bağımsız bir katalogla karşılaştırıldı; motor/şanzıman ailesinde 0 çelişki, beygir/torkta 10 çelişki bulundu ve doğrulanan 5 gerçek hata düzeltildi (en ağırı: bir 1.6 dizelde 400 Nm ve bir aracın tamamen yanlış motor ailesine bağlı olması). |
 | Teknik özellik kapsamı | Boş ağırlık **375/406** (Y-24, WebSearch ile dolduruldu). Kalan 31 araçta tork veya ağırlık eksik; 4'ü bilinçli olarak boş bırakıldı (kaynakta kombinasyon doğrulanamadı, bkz. Y-24). |
-| Görsel dil / ürün hissi | Ham, iş odaklı |
+| Görsel dil / ürün hissi | Koyu tema (Y-09) ve kart görünümü (Y-25) ile birlikte kullanıcı yüzeyi büyük ölçüde yenilendi; liste ekranı artık taranabilir kartlarla açılıyor, mobil menü açılır panele döndü. Denetim raporunun önerdiği dört fazdan yalnızca birincisi (tasarım/kullanılabilirlik) tamamlandı. |
 | Arama motoru görünürlüğü (Y-11) | **Temel kuruldu.** `scripts/build_pages.py` 435 indekslenebilir sayfa üretiyor (araç/motor/şanzıman başına bir tane), her biri araca özgü başlık, açıklama, canonical ve JSON-LD ile; `sitemap.xml` ve `robots.txt` yayında. Search Console'a gönderim depo sahibini bekliyor. |
 | Ticari strateji | `docs/URUN-STRATEJISI.md` — gelir modelleri, açık kaynak lisans katmanları, içerik/pazarlama hattı ve 90 günlük plan; her fikir uygulanabilirlik seviyesiyle birlikte |
 
@@ -1706,6 +1706,98 @@ sorgu ifadeleriyle yeniden denenebilir. Skoda Fabia 1.0 TSI 95 bg + DSG kombinas
 gerçekten var olup olmadığı, bu oturumda tekrarlayan "kombinasyon gerçek mi" sorusunun
 yeni bir örneği — dış doğrulama (kullanıcının kendi araştırması ya da web erişimi olan
 bir oturum) gerekiyor.
+
+---
+
+## Y-25 · Tasarım denetimi ve kart görünümü: liste ekranı baştan ele alındı — **birinci faz bitti (2026-08-19)**
+
+**Bağlam.** Depo sahibi bu turda açıkça "tasarımsal ögeler kesinlikle değişmeli,
+araç listesinin olduğu site çok daha streamlined ve akıcı olmalı, site genel
+olarak hiç kullanıcı dostu değil" dedi ve ardından "çözmeye başla her şeyi;
+tasarım ve frontend bu projenin her şeyi, iş kaliteli olmalı" diyerek tam
+kapsamlı bir düzeltme turunu onayladı. Önce `docs/` içindeki mevcut kayıtlar
+(ARCHITECTURE, URUN-STRATEJISI, PLAN) okunup projenin kendi öz-eleştirisi
+çıkarıldı, sonra gerçek DOM ölçümleriyle (Playwright, `scrollWidth`, düğüm
+sayısı, `performance.now()`) bağımsız bir denetim yapıldı. İki bulgu diğerlerinden
+ayrıştı: mobil menü ekranın üçte birini kaplayıp yarı saydamlığıyla altındaki
+içeriği okunaksız kılıyordu, ve liste ekranı 15 sütunlu bir tabloyla açılıp
+406 aracın hepsi için ayrıntı satırını önceden inşa ediyordu — tek bir
+`render()` çağrısı 55.007 DOM düğümü üretip 595ms sürüyordu.
+
+**Birinci faz kapsamı — dört değişiklik.**
+
+**1) Mobil menü artık açılır bir panel (dar ekran, ≤860px).** Önceden `.nav`
+dar ekranda tam genişlikte açık bir sütuna dönüşüyor, sekiz bağlantı+tema
+düğmesini üst üste diziyor ve toplam ~270px (844px'lik bir ekranın %32'si)
+kaplıyordu. Artık üç çizgili bir düğme (`#navToggle`) bu listeyi bir açılır
+panele (`#navPanel`, `.open` sınıfıyla) çeviriyor; kapalıyken üstbaşlık 59px'te
+kalıyor. Panel bir bağlantıya tıklanınca, panelin dışına tıklanınca veya Esc'e
+basılınca kapanıyor. Yalnızca CSS medya sorgusu ve `templates/app/10-yonlendirici.js`
+içindeki `startNavToggle()` işlevi; masaüstü düzenine hiç dokunmadı.
+
+**2) Liste ekranında kart görünümü varsayılan oldu, tablo ikinci sekme.**
+`templates/app/60-tablo.js` yeniden yazıldı: `computeList()` filtre+sıralama
+mantığını iki görünüm için ortaklaştırıyor ve sıra numarasını artık
+`ranked.indexOf(c)` ile değil (406 satırlık listede O(n²) karşılaştırma) önceden
+kurulmuş bir `Map`'le (O(n)) buluyor. Her kart; sırası, kıyaslama düğmesi,
+renk kodlu toplam puanı (`colorFor()`, tablodakiyle aynı fonksiyon), adı ve
+doğrulama rozetini üstte gösteriyor; altında sekiz kriterin hepsi kompakt birer
+çubuk olarak duruyor (zayıf halka — `WEAK_THR` altı — kırmızı vurgulu); en altta
+yıl/beygir/şanzıman rozeti ve düzenlenebilir fiyat aralığı var. Görünüm tercihi
+`localStorage` (`arac_puan_gorunum`) ile kalıcı; `#viewToggle` düğmeleriyle
+değiştiriliyor.
+
+**3) Ayrıntı içeriği artık tembel — hem kartta hem tabloda.** Eskiden
+`scoreBreakdownHTML()` + `radarSVG()` + zayıf halka listesi + kaynaklar her
+aracın satırı için `render()` her çalıştığında önceden inşa ediliyordu, açılıp
+açılmayacağına bakılmaksızın. Bu, denetimdeki 55 bin düğümün tek başına en
+büyük kaynağıydı. Şimdi bu içerik `detailBodyHTML(c)` işlevinde toplandı ve
+yalnızca bir kart veya satır ilk kez açıldığında bir kez çağrılıp konteynerin
+`dataset.built` bayrağıyla önbelleğe alınıyor. Karar gereği hem tablo hem kart
+görünümü her `render()` çağrısında birlikte inşa ediliyor (yalnızca aktif olan
+CSS ile gösteriliyor) — bu, ilk tasarımda denenen "yalnız görüneni inşa et"
+yaklaşımından vazgeçildiği anlamına geliyor, çünkü o yaklaşım gizli kalan
+görünümde eski/tıklanamaz kıyaslama düğmeleri bırakıyordu ve zaten pahalı olan
+kısım (ayrıntı içeriği) tembel olduğu için iki özet listeyi birden inşa etmenin
+maliyeti kabul edilebilir kaldı.
+
+**4) "Bir cümlelik otomatik özet" fikri kasıtlı olarak terk edildi.** İlk
+tasarımda her kartın altında `note` alanının ilk cümlesinden üretilen bir
+özet vardı. Gerçek veri üzerinde denenince, terfi edilmiş ~120 aracın `note`
+alanının "Bu araç 2026-08-17 tarihinde `data/catalog/`'dan terfi ettirildi..."
+gibi bir köken cümlesiyle başladığı görüldü — ilk cümleyi almak filoyla %30'u
+için anlamsız veya yanıltıcı bir özet üretirdi. Bunun yerine zaten var olan ve
+kanıta dayalı `weakOnes()`/`weakReason()` mekanizması (bir kriterin neden düşük
+puan aldığını doğal dilde açıklıyor) kartın "nelere dikkat" katmanı olarak
+kullanıldı; hiçbir yeni metin üretilmedi. CLAUDE.md §4'ün "kanıt puandan ayrı
+saklanır" ilkesiyle çelişecek bir kısayol alınmadı.
+
+**Yan değişiklikler.** Liste ekranının 1067 karakterlik `.lede` paragrafı bir
+`<details>` açılır bloğuna alındı; ilk görünen yalnızca iki cümlelik bir özet.
+Not metni ("sağdaki iki sütun...") artık yalnız tablo görünümündeyken görünüyor
+(`.tableonly`, `#listeScreen.view-kart` altında gizleniyor); kart görünümü bu
+kavramı hiç göstermiyor (plan gereği "normalize puan" kart görünümünden
+kaldırıldı, tabloda ve CSV dışa aktarımında duruyor).
+
+**Doğrulama.** `python3 scripts/validate.py` (0 hata) → `scripts/build.py` →
+`scripts/build_pages.py` → `scripts/build_content.py` →
+`node scripts/smoke_test.js` (87/87, önceki turdan 76/76'ydı — 11 yeni kontrol
+eklendi: kart varsayılan görünüm, tembel ayrıntı, kart üzerinde fiyat düzenleme,
+sıralama seçimi, görünüm geçişi ve kalıcılığı, dar ekranda kart taşması yok).
+Ayrıca gerçek bir tarayıcıda ekran görüntüsüyle görsel doğrulama yapıldı;
+ilk denemede kart ayrıntı panelinin `det-grid`'i viewport genişliğine göre
+kırılıyordu ama kartın kendi konteyneri (~300px) viewport'tan çok dardı, bu
+yüzden metin tek kelimelik satırlara bölünüyordu — düzeltme, kart ayrıntısını
+viewport'tan bağımsız olarak her zaman tek sütun akıtmak oldu (konteyner
+darlığı bir medya sorgusuyla çözülemez).
+
+**Bitmemiş bırakılanlar — sıradaki turlar için.** Denetim raporu dört fazlık
+bir plan önermişti; yalnızca birinci faz (tasarım/kullanılabilirlik) bu turda
+yapıldı. Faz 2 (sanal/pencereli liste render'ı, veri/kabuk ayrımı — Y-14),
+Faz 3 (bütçe tabanlı onboarding→liste bağlantısı, kıyaslama özelliğinin öne
+çıkarılması), Faz 4 (motor/şanzıman kanıt sayfalarının ana ekranda
+görünürleşmesi) sıradaki turlara bırakıldı; hiçbiri bu turda çalışan hiçbir
+şeyi riske atmadı.
 
 ---
 

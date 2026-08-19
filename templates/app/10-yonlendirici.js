@@ -51,3 +51,23 @@ function startRouter(){
 function markOnboardingSeen(){
  try{localStorage.setItem(ONBOARD_KEY,'1');}catch(e){}
 }
+
+/* ---------- dar ekranda açılır menü (Y-25) ---------- */
+function startNavToggle(){
+ const btn=document.getElementById('navToggle');
+ const panel=document.getElementById('navPanel');
+ if(!btn||!panel)return;
+ function setOpen(open){
+  panel.classList.toggle('open',open);
+  btn.setAttribute('aria-expanded',open?'true':'false');
+  btn.setAttribute('aria-label',open?'Menüyü kapat':'Menüyü aç');
+ }
+ btn.addEventListener('click',()=>setOpen(!panel.classList.contains('open')));
+ /* Bir bağlantıya tıklayınca (rota değişse de değişmese de) panel kapanmalı;
+    aksi halde kullanıcı her ekran değişiminde menüyü elle kapatmak zorunda kalır. */
+ panel.querySelectorAll('a[data-route]').forEach(a=>a.addEventListener('click',()=>setOpen(false)));
+ document.addEventListener('click',(e)=>{
+  if(panel.classList.contains('open')&&!panel.contains(e.target)&&e.target!==btn&&!btn.contains(e.target))setOpen(false);
+ });
+ document.addEventListener('keydown',(e)=>{if(e.key==='Escape')setOpen(false);});
+}

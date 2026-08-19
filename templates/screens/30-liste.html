@@ -1,7 +1,11 @@
-<section class="screen" data-screen="liste">
+<section class="screen" data-screen="liste" id="listeScreen">
   <div class="screenhead">
     <h2>Araç Listesi</h2>
-    <p class="lede">Bu tablo, Türkiye ikinci el piyasasında bulunan <b>__CAR_COUNT__ araç, motor ve şanzıman kombinasyonunu</b> karşılaştırıyor. Tablonun hemen üstündeki çubuk iki işi bir arada yapıyor: soldaki hazır ayarlar kriterlerin ağırlığını değiştirir ve puanlar anında yeniden hesaplanır, sağdaki arama kutusu ile "Filtreler" düğmesi ise listeyi daraltır. Filtre paneli yer kaplamasın diye katlanmış duruyor; düğmeye bastığınızda açılır ve bir sonraki ziyaretinizde onu bıraktığınız durumda bulursunuz. Arama kutusuna model adı, yakıt tipi, motor hacmi veya marka yazabilirsiniz. Her filtre kategorisinde birden fazla seçeneği aynı anda işaretleyebilirsiniz; örneğin şanzıman filtresinde hem "Islak DCT" hem "Kuru DCT" seçerseniz ikisine de sahip araçlar birlikte listelenir. Filtreler birbirine bağlı çalışıyor: bir kategoriyi daralttığınızda diğer kategorilerdeki seçenekler yalnızca o daralmış listede gerçekten bulunan değerleri gösterir. Sayfa açıldığında hiçbir filtre aktif değildir, yani bütün araçlar görünür. Bir aracı kıyaslamaya eklemek için satırın solundaki artı işaretine tıklayın.</p>
+    <p class="lede"><b>__CAR_COUNT__ araç, motor ve şanzıman kombinasyonu</b> aşağıda kart olarak listeleniyor; her kartın üstünde toplam puan, altında yedi kriterin tek tek dağılımı var. Bir karta tıklayarak kaynağını, kırılımını ve grafiğini görebilirsiniz.</p>
+    <details class="ledemore">
+      <summary>Sayfa nasıl çalışıyor, ayrıntılı anlatım</summary>
+      <p>Kartların hemen üstündeki çubuk iki işi bir arada yapıyor: soldaki hazır ayarlar kriterlerin ağırlığını değiştirir ve puanlar anında yeniden hesaplanır, sağdaki arama kutusu ile "Filtreler" düğmesi ise listeyi daraltır. Filtre paneli yer kaplamasın diye katlanmış duruyor; düğmeye bastığınızda açılır ve bir sonraki ziyaretinizde onu bıraktığınız durumda bulursunuz. Arama kutusuna model adı, yakıt tipi, motor hacmi veya marka yazabilirsiniz. Her filtre kategorisinde birden fazla seçeneği aynı anda işaretleyebilirsiniz; örneğin şanzıman filtresinde hem "Islak DCT" hem "Kuru DCT" seçerseniz ikisine de sahip araçlar birlikte listelenir. Filtreler birbirine bağlı çalışıyor: bir kategoriyi daralttığınızda diğer kategorilerdeki seçenekler yalnızca o daralmış listede gerçekten bulunan değerleri gösterir. Sayfa açıldığında hiçbir filtre aktif değildir, yani bütün araçlar görünür. Bir aracı kıyaslamaya eklemek için kartın veya satırın üzerindeki artı işaretine tıklayın. Kartlar yerine sütun sütun karşılaştırma tercih ederseniz sağ üstteki "Tablo" düğmesiyle klasik tabloya geçebilirsiniz; tercihiniz sonraki ziyaretinizde de hatırlanır.</p>
+    </details>
   </div>
 
   <!-- Denetim çubuğu tablonun hemen üstünde duruyor (Y-05). Ağırlık ayarları ve
@@ -12,6 +16,12 @@
     <div class="ctrlrow">
       <div class="presetrow" id="presets"></div>
       <div id="sumbox" class="sumbox"></div>
+      <!-- Kart görünümü artık varsayılan (Y-25); tablo ikinci sırada, tercih
+           localStorage'da tutuluyor. -->
+      <div class="viewtoggle" id="viewToggle">
+        <button type="button" class="btn small" data-view="kart">Kartlar</button>
+        <button type="button" class="btn small" data-view="tablo">Tablo</button>
+      </div>
     </div>
 
     <div class="ctrlrow">
@@ -19,6 +29,14 @@
       <button type="button" class="btn filttoggle" id="filttoggle" aria-expanded="false" aria-controls="filterpanel">Filtreler<span class="fbadge" id="filtbadge"></span></button>
       <button type="button" class="btn ghost small" id="filtclear">Filtreleri temizle</button>
       <button type="button" class="btn filttoggle" id="krittoggle" aria-expanded="false" aria-controls="kritpanel">Kriterleri düzenle</button>
+      <!-- Tabloda sütun başlığına tıklayarak sıralanır; kartlarda sütun
+           olmadığı için aynı işi gören bir açılır menü var (yalnız kart
+           görünümünde görünür, bkz. styles.css .view-tablo #sortWrap). -->
+      <div class="sortwrap" id="sortWrap">
+        <label class="flabel" for="sortSel">Sırala</label>
+        <select id="sortSel" class="sortsel"></select>
+        <button type="button" class="btn small ghost" id="sortDirBtn">Azalan ↓</button>
+      </div>
       <div class="count" id="count"></div>
     </div>
 
@@ -37,20 +55,23 @@
     </div>
   </div>
 
-  <div class="tablewrap"><div class="scroll"><table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table></div></div>
+  <div id="viewArea">
+    <div id="cardgrid" class="cardgrid"></div>
+    <div class="tablewrap" id="tablewrap"><div class="scroll"><table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table></div></div>
+  </div>
   <div class="legend">
     <span><span class="sw" style="background:var(--sage)"></span>72 ve üzeri: çok iyi</span>
     <span><span class="sw" style="background:#c9a34e"></span>64-71: sağlam</span>
     <span><span class="sw" style="background:var(--amber)"></span>58-63: orta</span>
     <span><span class="sw" style="background:var(--red)"></span>58 altı: riskli</span>
-    <span><span class="sw" style="background:var(--redbg);border:1px solid var(--red)"></span>tek hücre kırmızı: 35 altı, zayıf halka</span>
+    <span><span class="sw" style="background:var(--redbg);border:1px solid var(--red)"></span>kırmızı vurgulu kriter: 35 altı, zayıf halka</span>
     <span><span class="txbadge tx-TK">TK</span> tork konvertörü</span>
     <span><span class="txbadge tx-Islak">Islak DCT</span> ıslak çift kavrama</span>
     <span><span class="txbadge tx-Kuru">Kuru DCT</span> kuru çift kavrama</span>
     <span><span class="txbadge tx-CVT">CVT</span> kademesiz</span>
     <span><span class="txbadge tx-Robot">Robot</span> robotlu yarı otomatik</span>
   </div>
-  <div class="note">Fiyat sütunundaki rakamlar bin TL cinsinden yaklaşık değerlerdir ve ikinci el piyasa ortalamalarına dayanır; tek tek ilanlardan alınmadıkları için yalnızca fikir vermek içindir ve satın almadan önce sahibinden.com ile arabam.com üzerinden doğrulanmalıdır. Bu rakamları değiştirebilirsiniz; değiştirdiğinizde fiyat puanı ve toplam puan anında yeniden hesaplanır. Sağdaki iki sütundan ilki ham toplam puanı, ikincisi ise listenin en iyisine 100 ve en kötüsüne 0 verilerek yeniden ölçeklenmiş normalize puanı gösterir.</div>
+  <div class="note">Fiyat alanındaki rakamlar bin TL cinsinden yaklaşık değerlerdir ve ikinci el piyasa ortalamalarına dayanır; tek tek ilanlardan alınmadıkları için yalnızca fikir vermek içindir ve satın almadan önce sahibinden.com ile arabam.com üzerinden doğrulanmalıdır. Bu rakamları hem kart hem tablo görünümünde değiştirebilirsiniz; değiştirdiğinizde fiyat puanı ve toplam puan anında yeniden hesaplanır. <span class="tableonly">Tablodaki sağdaki iki sütundan ilki ham toplam puanı, ikincisi ise listenin en iyisine 100 ve en kötüsüne 0 verilerek yeniden ölçeklenmiş normalize puanı gösterir; kart görünümü yalnızca ham toplam puanı gösterir.</span></div>
   <!-- Katalogda olup henüz puanlanmamış araçlar (MK-22). Yalnız arama
        yapıldığında dolar; boşken hiç yer kaplamaz. -->
   <div id="catwrap" class="catwrap" style="display:none"></div>
