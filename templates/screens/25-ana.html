@@ -1,25 +1,30 @@
 <section class="screen" data-screen="ana">
-  <div class="screenhead">
-    <h2>Nereden Başlamalı</h2>
-    <p class="lede">Giriş akışından sonra kullanıcı doğrudan __CAR_COUNT__ satırlık tabloya düşmesin diye bu ekran araya girdi. Aşağıdaki sayılar veriden hesaplanıyor, elle yazılmıyor; siz bu sayfayı her açtığınızda o anki veri durumunu görürsünüz.</p>
+  <div class="anahero">
+    <div class="anahero-text">
+      <h2>Hangi otomatik ikinci el araç size uyar?</h2>
+      <p class="lede"><b>__CAR_COUNT__ araç, motor ve şanzıman kombinasyonu</b> yedi kriterle karşılaştırılıyor; her puanın kaynağı yazılı duruyor ve ağırlıkları siz belirlersiniz. Aşağıdaki sayılar veriden hesaplanıyor, elle yazılmıyor.</p>
+      <div class="anahero-cta">
+        <a href="#liste" class="btn primary">Araç listesine git</a>
+        <a href="#metodoloji" class="btn ghost">Nasıl puanlıyoruz</a>
+      </div>
+    </div>
+    <div id="anaStats" class="methstats"></div>
   </div>
 
-  <div id="anaStats" class="methstats"></div>
-
   <div class="anagrid">
-    <div class="anacard">
+    <div class="anacard anacard-sage">
       <h3>Hazır giriş yolları</h3>
       <p>Üçü de sizi araç listesine götürür; farkları hangi ağırlık setinin uygulandığı ve listenin nasıl sıralandığıdır. Listeye vardığınızda ağırlıkları kendiniz de değiştirebilirsiniz.</p>
       <div class="anapaths" id="anaPaths"></div>
     </div>
 
-    <div class="anacard">
+    <div class="anacard anacard-blue">
       <h3>En yüksek puanlı beş araç</h3>
       <p>Şu anki ağırlık ayarına göre hesaplanan toplam puana göre sıralanıyor. Ayarı değiştirmek isterseniz <a href="#liste">araç listesi ekranındaki</a> "Kriterleri düzenle" panelinden yapabilirsiniz.</p>
       <ol class="analist" id="anaTop"></ol>
     </div>
 
-    <div class="anacard anacard-wide">
+    <div class="anacard anacard-amber anacard-wide">
       <h3>Hangi motor ve şanzıman beni yakar</h3>
       <p>Kullanıcının asıl aradığı bilgi genelde bu: hangi bileşen listede en düşük temel puana sahip. Bu puanlar motor ailesi veya şanzıman kutusu düzeyinde araştırılıyor ve aynı bileşeni paylaşan her araca aynı şekilde uygulanıyor. Ayrıntı için <a href="#metodoloji">nasıl puanladığımızı</a> okuyun.</p>
       <div class="anarisk-grid">

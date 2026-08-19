@@ -240,7 +240,7 @@ function renderCardBody(list,rankMap){
   el.dataset.id=c.id;
   el.innerHTML=
    '<div class="vctop">'
-    +'<span class="vcrank">#'+gr+'</span>'
+    +'<span class="vcrank'+(gr===1?' top1':'')+'">#'+gr+'</span>'
     +'<button class="cmpbtn'+(inCmp?' on':'')+'" data-cmp="'+c.id+'" title="'+(inCmp?'Kıyaslamadan çıkar':'Kıyaslamaya ekle')+'" '+(cmpSet.length>=4&&!inCmp?'disabled':'')+'>'+(inCmp?'✓':'+')+'</button>'
     +'<span class="vctot" style="color:'+colorFor(tt)+'">'+tt.toFixed(1)+'</span>'
    +'</div>'

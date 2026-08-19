@@ -1709,7 +1709,7 @@ bir oturum) gerekiyor.
 
 ---
 
-## Y-25 · Tasarım denetimi ve kart görünümü: liste ekranı baştan ele alındı — **birinci, ikinci, dördüncü ve beşinci faz bitti (2026-08-19)**
+## Y-25 · Tasarım denetimi ve kart görünümü: liste ekranı baştan ele alındı — **beş faz + görsel tazeleme bitti (2026-08-19)**
 
 **Bağlam.** Depo sahibi bu turda açıkça "tasarımsal ögeler kesinlikle değişmeli,
 araç listesinin olduğu site çok daha streamlined ve akıcı olmalı, site genel
@@ -1884,6 +1884,21 @@ tanıtım kartıyla öne çıkarılması — şimdilik yalnızca düğme etiketl
 netleştirildi, çünkü mevcut kıyaslama tepsisi zaten her zaman görünür bir
 giriş noktası) sıradaki turlara bırakıldı; hiçbiri bu turda çalışan hiçbir
 şeyi riske atmadı.
+
+**Görsel tazeleme (2026-08-19, aynı gün).** Önceki dört fazın hepsi yapıya
+(kart görünümü, mobil menü, bütçe girişi, kanıt bağlantıları) dokundu ama
+görsel dile hiç dokunmamıştı — renkler, gölgeler, tipografi ağırlığı aynı
+kalmıştı. Bu turda: ana ekran artık yumuşak bir gradyan zemin, iri bir başlık
+ve iki eylem düğmesiyle gerçek bir "kahraman" bölümü; üç özet kartı renk
+kodlu üst kenarlıkla ayrılıyor ve üstüne gelince hafifçe kalkıyor; liste ve
+kıyaslama ekranlarındaki toplam puan artık düz metin değil, rengi puana göre
+değişen bir rozet; sıralamada birinci olan araç altın bir rozetle vurgulanıyor;
+üst menü çubuğu ve kartlar daha derin, iki katmanlı bir gölge kullanıyor
+(`--shadowlg`). Hem açık hem koyu temada, hem masaüstü hem mobilde denendi.
+`node scripts/smoke_test.js` 90/90 geçmeye devam ediyor; `.btn` sınıfının artık
+`<a>` etiketlerinde de (yeni kahraman düğmeleri) kullanılabilmesi için
+`text-decoration:none` eklendi — bu, ekran görüntüsüyle yakalanan tek gerçek
+hataydı (düğme altı çizili görünüyordu).
 
 ---
 

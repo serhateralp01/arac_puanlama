@@ -5,7 +5,7 @@ function renderCompare(){
  empty.style.display='none';area.classList.add('show');
  const cars=cmpSet.map(id=>CARS[id]);
  let html='<div class="cmpcards">';
- cars.forEach(c=>{html+='<div class="cmpcard"><div class="nm">'+c.n+'</div><div class="tag">'+c.tag+'</div><div class="spec">'+c.y+' &middot; '+c.hp+' bg &middot; '+c.disp.toFixed(1)+'L</div><div class="price">'+c.p[0]+'&ndash;'+c.p[1]+' bin TL</div><div style="margin-top:8px;font-family:var(--mono);font-weight:600;font-size:18px;color:'+colorFor(total(c))+'">'+total(c).toFixed(1)+' puan</div></div>';});
+ cars.forEach(c=>{html+='<div class="cmpcard"><div class="nm">'+c.n+'</div><div class="tag">'+c.tag+'</div><div class="spec">'+c.y+' &middot; '+c.hp+' bg &middot; '+c.disp.toFixed(1)+'L</div><div class="price">'+c.p[0]+'&ndash;'+c.p[1]+' bin TL</div><div class="vctot cmptot" style="color:'+colorFor(total(c))+'">'+total(c).toFixed(1)+'</div><div class="cmptotlbl">toplam puan</div></div>';});
  html+='</div>';
  html+='<div class="radarwrap cmpradarbig">'+radarSVG(cars,420)+'</div>';
  // legend for radar colors
