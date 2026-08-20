@@ -4977,5 +4977,82 @@
     "accessed": "2026-08-20",
     "language": "en",
     "quotes": []
+  },
+  "enginescope_a16xht_lspi": {
+    "id": "enginescope_a16xht_lspi",
+    "claim": "GM/Opel 1.6 SIDI Turbo (A16XHT) motorunda düşük devirli erken ateşleme (LSPI) nedeniyle nadir ama yıkıcı 4. piston arızası görüldüğü; GM'nin 2015 sonuna kadar garanti kapsamında onardığı, sonra %50 maliyet paylaşımına geçtiği; 2017'de bütün SIDI motorları için Dexos 1 Gen 2 yağ zorunluluğu getiren bir bülten (17-E-3319) yayınladığı",
+    "publisher": "EngineScope",
+    "url": "https://enginescope.gr/blog/opel-engines-to-avoid/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-20",
+    "language": "en",
+    "quotes": []
+  },
+  "automaniac_a16xht_spec": {
+    "id": "automaniac_a16xht_spec",
+    "claim": "A16XHT motor kodunun 1598cc, 170 bg ('Eco Turbo' yapılandırması) olduğu ve Opel Insignia'da (2013 faselift sonrası) kullanıldığı",
+    "publisher": "AutoManiac",
+    "url": "https://www.automaniac.org/engine/opel/1305/opel--general-motors-1598cc-petrol-1.6-a16xht-16v-170hp",
+    "type": "spec-database",
+    "tier": "C",
+    "accessed": "2026-08-20",
+    "language": "en",
+    "quotes": []
+  },
+  "insigniadrivers_16turbo_at_broken": {
+    "id": "insigniadrivers_16turbo_at_broken",
+    "claim": "Insignia sürücü forumunda 1.6 SIDI Turbo otomatik vitesli bir aracın motor arızası vakasının tartışıldığı; sorunun özellikle otomatik şanzımanlı örneklerde bildirildiği",
+    "publisher": "Insignia Drivers UK Forum",
+    "url": "https://insignia-drivers.uk/forum/insignia-ownership-technical-workshop/engine-drive-train-transmission/12187-about-broken-engine-1-6-turbo-at",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-20",
+    "language": "en",
+    "quotes": []
+  },
+  "engineexplained_b37_reliability": {
+    "id": "engineexplained_b37_reliability",
+    "claim": "BMW B37 1.5 dizel motorun selefi N47/N57'nin kronik triger zinciri sorununu taşımadığı, garanti başvuru oranının sektör ortalamasının altında (%2-3) olduğu; üç silindirli yapının bazı devirlerde titreşim yarattığı, ancak 2017 sonrası üretimde bu sorunun BMW'nin revizyonuyla azaldığı",
+    "publisher": "EngineExplained",
+    "url": "https://www.engineexplained.com/bmw-b37-engine-review-oil-and-reliability-insights/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-20",
+    "language": "en",
+    "quotes": []
+  },
+  "progaragelab_b37_bulletins": {
+    "id": "progaragelab_b37_bulletins",
+    "claim": "BMW B37 motorunda enjektör tıkanması veya yakıt pompası arızasının performans kaybına yol açabildiği, EGR/DPF sorunlarının diğer dizel motorlarla ortak olduğu; kısa mesafe kullanımda düzenli izlenmesi gerektiği",
+    "publisher": "ProGarageLab",
+    "url": "https://progaragelab.com/engine-bmw-b37-service-bulletins-and-reliability-stats/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-20",
+    "language": "en",
+    "quotes": []
+  },
+  "enginescope_n13_caution": {
+    "id": "enginescope_n13_caution",
+    "claim": "BMW N13 1.6 turbo motorun üç imza arızasının aşınan triger zinciri, valf kapağındaki çatlak PCV zarı ve arızalanan elektrikli soğutma suyu pompası olduğu; motorun şanzıman tarafında konumlanan zincirin plastik kılavuzlar ve hidrolik gergiyle birlikte 80.000-130.000 km aralığında soğuk kalkışta çatırtı sesi verdiği, göz ardı edilirse diş atlayıp supap-piston temasına yol açabildiği",
+    "publisher": "EngineScope",
+    "url": "https://enginescope.gr/engine/bmw-n13/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-20",
+    "language": "en",
+    "quotes": []
+  },
+  "myenginespecs_n13_problems": {
+    "id": "myenginespecs_n13_problems",
+    "claim": "BMW N13 motorunun triger zinciri, PCV zarı ve elektrikli su pompası dışında turbo arızalarının da güç kaybına yol açabildiği; düzenli yağ değişimi ve zincire erken müdahale ile motorun makul bir kilometreye ulaşabildiği",
+    "publisher": "MyEngineSpecs",
+    "url": "https://myenginespecs.com/bmw/bmw-n13-engine-problems-common-issues-and-consequences/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-20",
+    "language": "en",
+    "quotes": []
   }
 }

@@ -1,0 +1,89 @@
+{
+  "id": "bmw-f20-116i-n13-136",
+  "name": "BMW 116i (F20) 1.6 Turbo",
+  "tag": "oto: 8 ileri otomatik · 136bg",
+  "brand_group": "BMW",
+  "years": "2011-2015",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "zf-8hp",
+    "body_type": "Hatchback",
+    "engine_id": "bmw-n13",
+    "torque_nm": 220,
+    "gears": 8,
+    "engine_code": "N13B16A"
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 40,
+    "trans": 70,
+    "fun": 40,
+    "comf": 70,
+    "age": 50,
+    "cost": 68,
+    "liq": 56
+  },
+  "sources": [
+    "enginescope_n13_caution",
+    "myenginespecs_n13_problems",
+    "otoclubturkiye_zf8hp30",
+    "ultrayol_f30_kronik"
+  ],
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "enginescope_n13_caution",
+        "myenginespecs_n13_problems"
+      ],
+      "reasoning": "N13 (bmw-n13) motor ailesinin temel puanı 40. Bu aracın motor puanı (40) temel puanla birebir aynı. Ailenin bilinen zaafı: Motorun şanzıman tarafında konumlanan triger zinciri, plastik kılavuzlar ve hidrolik gergiyle birlikte 80.000-130.000 km aralığında soğuk kalkışta çatırtı sesi veriyor; göz ardı edilirse zincir diş atlayıp supap-piston temasına, yani motorun tamamen ölmesine yol açabiliyor. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "ultrayol_f30_kronik",
+        "otoclubturkiye_zf8hp30"
+      ],
+      "reasoning": "ZF 8HP30 (zf-8hp) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ soğutucusunun (ısı eşanjörü) çatlayıp soğutma sıvısının şanzıman yağına karışması. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "comf": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "BMW markasının depodaki 30 aracının ortalaması (konfor 70, maliyet 64, likidite 53) çapa alındı. Bu araç markanın ortalama gücünün biraz altında (136 bg / marka ortalaması 179 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "cost": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "BMW markasının depodaki 30 aracının ortalaması (konfor 70, maliyet 64, likidite 53) çapa alındı. Bu araç markanın ortalama gücünün biraz altında (136 bg / marka ortalaması 179 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "liq": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "BMW markasının depodaki 30 aracının ortalaması (konfor 70, maliyet 64, likidite 53) çapa alındı. Bu araç markanın ortalama gücünün biraz altında (136 bg / marka ortalaması 179 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    }
+  },
+  "note": "BMW-PSA ortak girişiminin (Prince ailesi) dört silindirli 1.6 turbo benzinlisi; F20'de üç silindirli B38'in 2015 faseliftiyle gelmesinden önceki standart girişi motoru. Üretim penceresi 2011-2015 olarak işaretlendi çünkü kullanıcının belirttiği '2015' yılı hem N13'ün son üretim yılına hem B38'in ilk üretim yılına denk düşüyor — bu ilan bazında motor koduyla (N13 vs B38) doğrulanmadan kesinleştirilemeyecek bir sınır durumu, dürüstçe not edildi.",
+  "provenance": {
+    "added_at": "2026-08-20",
+    "method": "depo sahibinin sahibinden ilan taramasından getirdiği aday listesi (Y-29) — elle araştırıldı, WebSearch",
+    "specs_source": "depo sahibinin verdiği ilan taraması + WebSearch doğrulaması"
+  }
+}

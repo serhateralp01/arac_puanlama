@@ -1,0 +1,89 @@
+{
+  "id": "opel-mokka-1-6-cdti-136",
+  "name": "Opel Mokka 1.6 CDTI",
+  "tag": "oto: 6 ileri otomatik · 136bg",
+  "brand_group": "Opel",
+  "years": "2013-2016",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "gm-aisin-af17",
+    "body_type": "SUV",
+    "engine_id": "gm-a16dth",
+    "torque_nm": 320,
+    "gears": 6,
+    "engine_code": "B16DTH"
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 44,
+    "trans": 68,
+    "fun": 34,
+    "comf": 83,
+    "age": 50,
+    "cost": 76,
+    "liq": 68
+  },
+  "sources": [
+    "asrgearbox_tf80",
+    "autodoc_astra_j_problems",
+    "stargarage_a16dth_chain",
+    "youcanic_gm_6t40"
+  ],
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "stargarage_a16dth_chain"
+      ],
+      "reasoning": "A16DTH (gm-a16dth) motor ailesinin temel puanı 44. Bu aracın motor puanı (44) temel puanla birebir aynı. Ailenin bilinen zaafı: Contasız triger zinciri gergisi nedeniyle soğuk kalkışta yağ basıncı gecikmesi, zamanla zincir aşınması; ilerlemiş vakalarda motor arızası. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "asrgearbox_tf80",
+        "autodoc_astra_j_problems",
+        "youcanic_gm_6t40"
+      ],
+      "reasoning": "AF17 (gm-aisin-af17) şanzıman ailesinin temel puanı 68. Bu aracın trans puanı (68) temel puanla birebir aynı. Ailenin bilinen zaafı: 3-5-R dalgalı plakasının (waved plate) kırılması; kırıldığında tambur kanallarına ve gövdeye zarar veriyor. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "comf": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Opel markasının depodaki 16 aracının ortalaması (konfor 75, maliyet 71, likidite 63) çapa alındı. Bu araç markanın tipik güç aralığında (136 bg / marka ortalaması 137 bg). Gövde tipi SUV. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "cost": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Opel markasının depodaki 16 aracının ortalaması (konfor 75, maliyet 71, likidite 63) çapa alındı. Bu araç markanın tipik güç aralığında (136 bg / marka ortalaması 137 bg). Gövde tipi SUV. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "liq": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Opel markasının depodaki 16 aracının ortalaması (konfor 75, maliyet 71, likidite 63) çapa alındı. Bu araç markanın tipik güç aralığında (136 bg / marka ortalaması 137 bg). Gövde tipi SUV. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    }
+  },
+  "note": "Depoda ilk kez kayıtlı bir Opel Mokka; aynı A16DTH/B16DTH dizel ailesini Astra/Insignia kardeşleriyle paylaşıyor. Şanzıman parça numarası araştırmasında '6T45/6RUW' kodu bulundu — bu, depodaki gm-aisin-af17 kaydının kapsadığı GM 6T30 ile aynı Aisin AF17 tabanlı ailenin farklı tork kapasiteli bir varyantı; iki kod da aynı temel mimariyi paylaşıyor, bu yüzden ayrı bir şanzıman ailesi açılmadı.",
+  "provenance": {
+    "added_at": "2026-08-20",
+    "method": "depo sahibinin sahibinden ilan taramasından getirdiği aday listesi (Y-29) — elle araştırıldı, WebSearch",
+    "specs_source": "depo sahibinin verdiği ilan taraması + WebSearch doğrulaması"
+  }
+}

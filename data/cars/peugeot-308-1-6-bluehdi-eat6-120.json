@@ -1,0 +1,89 @@
+{
+  "id": "peugeot-308-1-6-bluehdi-eat6-120",
+  "name": "Peugeot 308 1.6 BlueHDi EAT6",
+  "tag": "oto: 6 ileri otomatik · 120bg",
+  "brand_group": "Peugeot",
+  "years": "2015-2018",
+  "specs": {
+    "hp": 120,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-eat6",
+    "body_type": "Hatchback",
+    "engine_id": "psa-dv6",
+    "torque_nm": 300,
+    "gears": 6,
+    "engine_code": "DV6FC BlueHDi"
+  },
+  "price_band_k_try": [
+    880,
+    1069
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 44,
+    "trans": 72,
+    "fun": 37,
+    "comf": 76,
+    "age": 50,
+    "cost": 78,
+    "liq": 71
+  },
+  "sources": [
+    "asrgearbox_eat6",
+    "au7o_peugeot308_known_issues",
+    "propeugeotspares_16hdi_egr",
+    "trbox"
+  ],
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "au7o_peugeot308_known_issues",
+        "propeugeotspares_16hdi_egr"
+      ],
+      "reasoning": "DV6 (psa-dv6) motor ailesinin temel puanı 44. Bu aracın motor puanı (44) temel puanla birebir aynı. Ailenin bilinen zaafı: EGR'de sertleşen karbon/yağ buharı tortusu; bu tortu turbo yağ besleme hattını da tıkayıp turbo yatağını yağsız bırakabiliyor. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "trbox",
+        "asrgearbox_eat6"
+      ],
+      "reasoning": "EAT6 (aisin-eat6) şanzıman ailesinin temel puanı 72. Bu aracın trans puanı (72) temel puanla birebir aynı. Ailenin bilinen zaafı: Valf gövdesi tortu birikimi veya eski TCU yazılımından kaynaklanan sert/vuruntulu vites geçişi (özellikle 1.-2. vites arası). Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "comf": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Peugeot markasının depodaki 18 aracının ortalaması (konfor 73, maliyet 73, likidite 68) çapa alındı. Bu araç markanın tipik güç aralığında (120 bg / marka ortalaması 128 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "cost": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Peugeot markasının depodaki 18 aracının ortalaması (konfor 73, maliyet 73, likidite 68) çapa alındı. Bu araç markanın tipik güç aralığında (120 bg / marka ortalaması 128 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "liq": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Peugeot markasının depodaki 18 aracının ortalaması (konfor 73, maliyet 73, likidite 68) çapa alındı. Bu araç markanın tipik güç aralığında (120 bg / marka ortalaması 128 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    }
+  },
+  "note": "PSA'nın DV6 ailesinin BlueHDi/EAT6 kombinasyonu; aynı motor+şanzıman eşleşmesi depoda Opel Grandland X 1.6 CDTI EAT6 kaydında zaten var — bu kayıt aynı aileyi PSA'nın kendi markasında, farklı gövde tipinde taşıyor. DV6FC, ailenin BlueHDi (SCR öncesi, sadeleştirilmiş EGR) neslidir; ailenin genel zaafı (turbo yağ açlığı, EGR tıkanması) aynen geçerli.",
+  "provenance": {
+    "added_at": "2026-08-20",
+    "method": "depo sahibinin sahibinden ilan taramasından getirdiği aday listesi (Y-29) — elle araştırıldı, WebSearch",
+    "specs_source": "depo sahibinin verdiği ilan taraması + WebSearch doğrulaması"
+  }
+}

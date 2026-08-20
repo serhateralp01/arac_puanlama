@@ -1,0 +1,89 @@
+{
+  "id": "opel-astra-k-1-6-cdti-136",
+  "name": "Opel Astra K 1.6 CDTI",
+  "tag": "oto: 6 ileri otomatik · 136bg",
+  "brand_group": "Opel",
+  "years": "2016-2017",
+  "specs": {
+    "hp": 136,
+    "displacement_l": 1.6,
+    "fuel": "Dizel",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-af40",
+    "body_type": "Hatchback",
+    "engine_id": "gm-a16dth",
+    "torque_nm": 320,
+    "gears": 6,
+    "engine_code": "B16DTH"
+  },
+  "price_band_k_try": [
+    624,
+    946
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 44,
+    "trans": 58,
+    "fun": 16,
+    "comf": 78,
+    "age": 50,
+    "cost": 76,
+    "liq": 66
+  },
+  "sources": [
+    "asrgearbox_af40",
+    "bobistheoilguy_af40_valf",
+    "insigniateam_af40",
+    "stargarage_a16dth_chain"
+  ],
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "stargarage_a16dth_chain"
+      ],
+      "reasoning": "A16DTH (gm-a16dth) motor ailesinin temel puanı 44. Bu aracın motor puanı (44) temel puanla birebir aynı. Ailenin bilinen zaafı: Contasız triger zinciri gergisi nedeniyle soğuk kalkışta yağ basıncı gecikmesi, zamanla zincir aşınması; ilerlemiş vakalarda motor arızası. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "insigniateam_af40",
+        "asrgearbox_af40",
+        "bobistheoilguy_af40_valf"
+      ],
+      "reasoning": "Aisin AF40-6 (aisin-af40) şanzıman ailesinin temel puanı 58. Bu aracın trans puanı (58) temel puanla birebir aynı. Ailenin bilinen zaafı: Valf gövdesi (hidrolik beyin) kaynaklı, soğukken düşük viteste uzun kalma, orta hız kilitlenmesinde hafif titreşim ve yavaşlarken sert darbe hissi. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "comf": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Opel markasının depodaki 16 aracının ortalaması (konfor 75, maliyet 71, likidite 63) çapa alındı. Bu araç markanın tipik güç aralığında (136 bg / marka ortalaması 137 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "cost": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Opel markasının depodaki 16 aracının ortalaması (konfor 75, maliyet 71, likidite 63) çapa alındı. Bu araç markanın tipik güç aralığında (136 bg / marka ortalaması 137 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "liq": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Opel markasının depodaki 16 aracının ortalaması (konfor 75, maliyet 71, likidite 63) çapa alındı. Bu araç markanın tipik güç aralığında (136 bg / marka ortalaması 137 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    }
+  },
+  "note": "Depoda zaten kayıtlı Astra J 1.6 CDTI Otomatik'in bir nesil sonrası; aynı A16DTH/B16DTH motor ailesini taşıyor ama Astra K nesli farklı bir kasa/şanzıman kalibrasyonu. Şanzıman AF40-6 (Aisin TF-80SC) — WebSearch ile doğrulandı, Astra J'nin kaydındaki aisin-af40 ile aynı aile.",
+  "provenance": {
+    "added_at": "2026-08-20",
+    "method": "depo sahibinin sahibinden ilan taramasından getirdiği aday listesi (Y-29) — elle araştırıldı, WebSearch",
+    "specs_source": "depo sahibinin verdiği ilan taraması + WebSearch doğrulaması"
+  }
+}

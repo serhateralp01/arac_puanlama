@@ -7,17 +7,19 @@ hangi taslağın kullanılacağına insan karar verir. Yeniden üretmek için:
 
     python3 scripts/build_content.py
 
-**Toplam: 315 arıza kaydı için taslak, 158 dosyada.**
+**Toplam: 321 arıza kaydı için taslak, 161 dosyada.**
 
 ## Motor aileleri
 
 - [Alfa Romeo Twin Spark](motor/alfa-twinspark.md) — 2 kayıt
+- [BMW B37](motor/bmw-b37.md) — 2 kayıt
 - [BMW B38](motor/bmw-b38.md) — 1 kayıt
 - [BMW M43](motor/bmw-m43.md) — 2 kayıt
 - [BMW M47](motor/bmw-m47.md) — 4 kayıt
 - [BMW M52](motor/bmw-m52.md) — 2 kayıt
 - [BMW M54](motor/bmw-m54.md) — 2 kayıt
 - [BMW M57](motor/bmw-m57.md) — 2 kayıt
+- [BMW N13](motor/bmw-n13.md) — 2 kayıt
 - [BMW N20](motor/bmw-n20.md) — 1 kayıt
 - [BMW N43](motor/bmw-n43.md) — 1 kayıt
 - [BMW N47](motor/bmw-n47.md) — 1 kayıt
@@ -39,6 +41,7 @@ hangi taslağın kullanılacağına insan karar verir. Yeniden üretmek için:
 - [General Motors A14NET](motor/gm-a14net.md) — 2 kayıt
 - [General Motors A16DTH](motor/gm-a16dth.md) — 1 kayıt
 - [General Motors A16LET](motor/gm-a16let.md) — 2 kayıt
+- [General Motors A16XHT](motor/gm-a16xht.md) — 2 kayıt
 - [General Motors A20DTH](motor/gm-a20dth.md) — 2 kayıt
 - [General Motors A20NET](motor/gm-a20net.md) — 2 kayıt
 - [General Motors X18XE](motor/gm-ecotec-18.md) — 1 kayıt

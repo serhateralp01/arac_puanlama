@@ -1,0 +1,89 @@
+{
+  "id": "bmw-f20-116d-1-5",
+  "name": "BMW 116d (F20) 1.5",
+  "tag": "oto: 8 ileri otomatik · 116bg",
+  "brand_group": "BMW",
+  "years": "2015-2019",
+  "specs": {
+    "hp": 116,
+    "displacement_l": 1.5,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "transmission_id": "zf-8hp",
+    "body_type": "Hatchback",
+    "engine_id": "bmw-b37",
+    "torque_nm": 270,
+    "gears": 8,
+    "engine_code": "B37"
+  },
+  "price_band_k_try": [
+    750,
+    1100
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 62,
+    "trans": 70,
+    "fun": 40,
+    "comf": 67,
+    "age": 50,
+    "cost": 74,
+    "liq": 53
+  },
+  "sources": [
+    "engineexplained_b37_reliability",
+    "otoclubturkiye_zf8hp30",
+    "progaragelab_b37_bulletins",
+    "ultrayol_f30_kronik"
+  ],
+  "evidence": {
+    "motor": {
+      "band": "orta risk, izlenmesi gereken kalem var",
+      "confidence": "orta",
+      "sources": [
+        "engineexplained_b37_reliability",
+        "progaragelab_b37_bulletins"
+      ],
+      "reasoning": "B37 (bmw-b37) motor ailesinin temel puanı 62. Bu aracın motor puanı (62) temel puanla birebir aynı. Ailenin bilinen zaafı: Üç silindirli yapı belirli devirlerde titreşim yaratıyor; 2017 öncesi üretimde daha belirgin, sonrasında BMW'nin revizyonuyla büyük ölçüde azaldı. Bu puan 'orta risk, izlenmesi gereken kalem var' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "ultrayol_f30_kronik",
+        "otoclubturkiye_zf8hp30"
+      ],
+      "reasoning": "ZF 8HP30 (zf-8hp) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Ailenin bilinen zaafı: Yağ soğutucusunun (ısı eşanjörü) çatlayıp soğutma sıvısının şanzıman yağına karışması. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "comf": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "BMW markasının depodaki 30 aracının ortalaması (konfor 70, maliyet 64, likidite 53) çapa alındı. Bu araç markanın ortalama gücünün belirgin altında (giriş segmenti) (116 bg / marka ortalaması 179 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "cost": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "BMW markasının depodaki 30 aracının ortalaması (konfor 70, maliyet 64, likidite 53) çapa alındı. Bu araç markanın ortalama gücünün belirgin altında (giriş segmenti) (116 bg / marka ortalaması 179 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "liq": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "BMW markasının depodaki 30 aracının ortalaması (konfor 70, maliyet 64, likidite 53) çapa alındı. Bu araç markanın ortalama gücünün belirgin altında (giriş segmenti) (116 bg / marka ortalaması 179 bg). Gövde tipi Hatchback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Dizel motor, TR piyasasında genelde benzinliye göre işletme maliyetini hafif iyileştiriyor. Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    }
+  },
+  "note": "BMW'nin N47 dizel ailesinin (bkz. bmw-n47/bmw-n57 kayıtları) yerini alan üç silindirli B37; iki bağımsız kaynak bu ailenin N47/N57'nin kronik triger zinciri tasarım hatasını taşımadığını doğruluyor. F20 1-Serisi'nde ZF 8HP Steptronic 2011'den itibaren opsiyonel; 2015 model yılı bu opsiyonu kapsıyor.",
+  "provenance": {
+    "added_at": "2026-08-20",
+    "method": "depo sahibinin sahibinden ilan taramasından getirdiği aday listesi (Y-29) — elle araştırıldı, WebSearch",
+    "specs_source": "depo sahibinin verdiği ilan taraması + WebSearch doğrulaması"
+  }
+}

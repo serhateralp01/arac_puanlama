@@ -2092,6 +2092,67 @@ gerçek üretim verisiyle (WebSearch, bu ortamda WebFetch hâlâ engelli)
 doğrulanarak, Y-27'deki BMW N57/730d turunda izlenen adım adım yöntemle
 puanlanmalı.
 
+---
+
+## Y-29 · Depo sahibinin kendi ilan taramasından getirdiği 8 adayın araştırılması — **bitti (2026-08-20)**
+
+**Bulgu — depo sahibinden.** Depo sahibi kendi sahibinden.com taramasından
+kalan 8 aracı bir tablo halinde getirdi ve her birinin özel olarak
+araştırılmasını, paket/donanım düzeylerine bakılmasını, hangisinin bu
+fiyatlara en mantıklı olduğunun (en az arıza çıkaran, arızalandığında da
+parçası bol olan) belirlenmesini istedi. Bu, Y-28'in tersine bir tur: orada
+kaynak aramadan kapsam bulundu, burada tek tek 8 aracın kaynaklı araştırması
+yapıldı.
+
+**Yöntem.** Her aracın motor kodu önce depoda zaten var olup olmadığı
+açısından kontrol edildi. Dört aracın motoru **zaten depoda kayıtlıydı**
+(psa-dv6, gm-a16dth x3, vag-ea211) — bunlar için yalnızca o spesifik
+beygir/yıl kombinasyonunun gerçekten var olduğu WebSearch ile doğrulandı. Üç
+aracın motoru **depoda hiç yoktu** ve sıfırdan araştırıldı: GM/Opel'in
+doğrudan enjeksiyonlu 1.6 SIDI Turbo benzinlisi (A16XHT), BMW'nin üç
+silindirli 1.5 dizeli (B37) ve BMW-PSA ortak girişiminin 1.6 turbo benzinlisi
+(N13). Sekizinci aday — "Opel Insignia 1.6 CDTI, 2015-2017, 136 bg" —
+depoda **zaten birebir kayıtlıydı** (`opel-insignia-1-6-cdti`, 2014-2017,
+136 bg, aynı motor); bu yüzden tekrar eklenmedi.
+
+**Yeni motor aileleri.**
+- **GM A16XHT (1.6 SIDI Turbo)** — base_score 40. GM'nin kendi garanti
+  uzatması ve 2017'de bütün SIDI motorları için Dexos 1 Gen 2 yağ zorunluluğu
+  getiren bülteniyle doğrulanan, düşük devirli erken ateşleme (LSPI)
+  kaynaklı nadir ama yıkıcı 4. piston arızası; koşullu bir risk (doğru yağ ve
+  makul oktanla azalıyor), bu yüzden A16DTH'nin (44) hemen altında tutuldu.
+- **BMW B37 (1.5 üç silindirli dizel)** — base_score 62. N47/N57'nin kronik
+  triger zinciri tasarım hatasını taşımıyor; iki bağımsız kaynak garanti
+  başvuru oranının sektör ortalamasının altında (%2-3) olduğunu doğruluyor.
+  Depodaki en temiz dizel motor kayıtlarından biri.
+- **BMW N13 (1.6 turbo benzinli, BMW-PSA Prince ailesi)** — base_score 40.
+  N47/N57 ile aynı temel mimari zaafı (motorun şanzıman tarafında konumlanan
+  triger zinciri) paylaşıyor; 80.000-130.000 km aralığında çatırtı sesiyle
+  kendini gösteriyor, göz ardı edilirse motor ölür.
+
+**Sonuç — karşılaştırmalı önerinin özeti.** En güvenilir seçim **BMW 116d
+(F20) 1.5** (motor 62): kronik bir tasarım hatası yok, garanti verisiyle
+doğrulanmış düşük arıza oranı. Motor açısından en riskli iki seçim GM'nin
+SIDI Turbo'su ve BMW N13 (ikisi de 40): biri koşullu ama yıkıcı bir piston
+arızası, diğeri N47/N57 ailesinin bilinen zincir zaafını taşıyor. Şanzıman
+tarafında en zayıf halka VW CC'nin DQ200'ü (trans 38, 2012 öncesi üretimde
+kavrama aşınması riski — üretim tarihi ilan bazında kontrol edilmeli). Parça
+bolluğu açısından (depoda ayrıca kaynaklanmadı, genel pazar bilgisi): VW/GM
+ailelerinin parça ve servis ağı Türkiye'de BMW'nin niş motorlarına (B37,
+N13) göre belirgin biçimde daha geniş.
+
+**Doğrulama.** `python3 scripts/validate.py`: 0 hata (416 araç, 108 motor
+ailesi). `node scripts/smoke_test.js` çalıştırıldı.
+
+**Bitmemiş bırakılanlar.** VW CC 1.4 TSI'nin motor kodu (CZCA/CZDA) ilan
+bazında doğrulanmadan kesinleştirilemedi, `note` alanına dürüstçe yazıldı.
+BMW 116i (F20) N13'ün üretim penceresi (2011-2015) B38'in ilk üretim yılıyla
+çakışıyor; bu araç motor koduyla (N13 vs B38) doğrulanmadan sınır durumda
+kalıyor. Fiyat bantlarının çoğu, `estimate_judgment_scores.py`'nin otomatik
+kardeş araç seçiminden geldi; VW CC'de bu seçim (yıl olarak daha yakın olan
+Jetta'yı, aynı nameplate'ten daha yakın olan CC'lere tercih etmesi) elle
+düzeltildi — aynı sapma diğer 6 araçta da tek tek kontrol edilmeli.
+
 **Sorun neydi.** Kaynak biriktirmek ile kaynağı puana çevirmek iki farklı iş ve farklı
 yetenek istiyor. Birincisi geniş ama sığ bir tarama (çok sayıda aday kaynak bul),
 ikincisi dar ama derin bir yargı (bu kaynak hangi iddiayı destekliyor, hangi banda

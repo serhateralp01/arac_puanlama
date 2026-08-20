@@ -1,0 +1,93 @@
+{
+  "id": "opel-insignia-1-6-sidi-turbo-170",
+  "name": "Opel Insignia 1.6 SIDI Turbo",
+  "tag": "oto: 6 ileri otomatik · 170bg",
+  "brand_group": "Opel",
+  "years": "2013-2017",
+  "specs": {
+    "hp": 170,
+    "displacement_l": 1.6,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "aisin-af40",
+    "body_type": "Sedan",
+    "engine_id": "gm-a16xht",
+    "torque_nm": 280,
+    "gears": 6,
+    "engine_code": "A16XHT"
+  },
+  "price_band_k_try": [
+    700,
+    1050
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 40,
+    "trans": 58,
+    "fun": 30,
+    "comf": 87,
+    "age": 50,
+    "cost": 68,
+    "liq": 66
+  },
+  "sources": [
+    "asrgearbox_af40",
+    "automaniac_a16xht_spec",
+    "bobistheoilguy_af40_valf",
+    "enginescope_a16xht_lspi",
+    "insigniadrivers_16turbo_at_broken",
+    "insigniateam_af40"
+  ],
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "enginescope_a16xht_lspi",
+        "automaniac_a16xht_spec",
+        "insigniadrivers_16turbo_at_broken"
+      ],
+      "reasoning": "A16XHT (gm-a16xht) motor ailesinin temel puanı 40. Bu aracın motor puanı (40) temel puanla birebir aynı. Ailenin bilinen zaafı: Düşük devirli erken ateşleme (LSPI) nedeniyle nadir ama yıkıcı 4. piston arızası; GM 2017'de bütün SIDI motorları için Dexos 1 Gen 2 yağ zorunluluğu getiren bir bülten yayınladı. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "trans": {
+      "band": "tekrarlayan ama yönetilebilir şikayet",
+      "confidence": "orta",
+      "sources": [
+        "insigniateam_af40",
+        "asrgearbox_af40",
+        "bobistheoilguy_af40_valf"
+      ],
+      "reasoning": "Aisin AF40-6 (aisin-af40) şanzıman ailesinin temel puanı 58. Bu aracın trans puanı (58) temel puanla birebir aynı. Ailenin bilinen zaafı: Valf gövdesi (hidrolik beyin) kaynaklı, soğukken düşük viteste uzun kalma, orta hız kilitlenmesinde hafif titreşim ve yavaşlarken sert darbe hissi. Bu puan 'tekrarlayan ama yönetilebilir şikayet' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "comf": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Opel markasının depodaki 16 aracının ortalaması (konfor 75, maliyet 71, likidite 63) çapa alındı. Bu araç markanın ortalama gücünün üstünde (170 bg / marka ortalaması 137 bg). Gövde tipi Sedan. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "cost": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Opel markasının depodaki 16 aracının ortalaması (konfor 75, maliyet 71, likidite 63) çapa alındı. Bu araç markanın ortalama gücünün üstünde (170 bg / marka ortalaması 137 bg). Gövde tipi Sedan. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "liq": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Opel markasının depodaki 16 aracının ortalaması (konfor 75, maliyet 71, likidite 63) çapa alındı. Bu araç markanın ortalama gücünün üstünde (170 bg / marka ortalaması 137 bg). Gövde tipi Sedan. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+      "assessed_at": "2026-08-20"
+    }
+  },
+  "note": "GM/Opel'in doğrudan enjeksiyonlu 1.6 SIDI Turbo benzinlisi, eski port enjeksiyonlu A16LET'in halefi (bkz. opel-insignia-1-6-t kaydının notu, halefin piston riskine zaten atıfta bulunuyordu — bu kayıt o riski kendi motor ailesiyle ayrı ve kaynaklı biçimde tutuyor). Şanzıman AF40-6 (Aisin TF-80SC), 2013 faseliftinden itibaren Insignia'nın 2.0 CDTI/2.0 Turbo kardeşleriyle aynı kutu ailesi.",
+  "provenance": {
+    "added_at": "2026-08-20",
+    "method": "depo sahibinin sahibinden ilan taramasından getirdiği aday listesi (Y-29) — elle araştırıldı, WebSearch",
+    "specs_source": "depo sahibinin verdiği ilan taraması + WebSearch doğrulaması"
+  }
+}

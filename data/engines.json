@@ -4265,5 +4265,134 @@
       "bimmerai_n57_guide"
     ],
     "note": "N47'nin altı silindirli kardeşi; aynı jenerasyonda geliştirildi ve triger zincirinin motorun arka (şanzıman) tarafında olması dahil temel mimariyi paylaşıyor. Bu yüzden aynı kalıcı tasarım hatasını taşıyor, ama üç bağımsız kaynak N57'de zincir arızalarının N47'ye göre daha seyrek bildirildiğini doğruluyor: N57 hiçbir zaman N47'nin en sorunlu erken varyantındaki 'işlenmiş eleman' tasarımını taşımadı, ayrıca altı silindirin düşük devirde çalışması ve daha büyük yağ kapasitesi motoru daha az zorluyor. [base_score gerekçesi: 35-49 (bilinen risk) bandının üst yarısında, N47'nin 38 puanının üzerinde: aynı temel tasarım hatası (arka triger zinciri) doğrulanmış durumda, bu yüzden 50'nin üzerine çıkarılmadı; ama üç kaynak da N57'nin N47'den daha az sıklıkta arızalandığını bağımsız olarak doğruluyor, bu yüzden N47 ile aynı puanda tutulmadı."
+  },
+  "gm-a16xht": {
+    "id": "gm-a16xht",
+    "names": [
+      "A16XHT",
+      "1.6 SIDI Turbo",
+      "Ecotec 1.6 Turbo Eco"
+    ],
+    "supplier": "General Motors",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 40,
+    "maintenance": "Dexos 1 Gen 2 yağ standardına birebir uyulmalı, düşük kaliteli/düşük oktanlı yakıttan kaçınılmalı; doğrudan enjeksiyonun getirdiği emme supabı karbon birikimi için periyodik temizlik (walnut blasting) düşünülmeli.",
+    "known_issues": [
+      {
+        "issue": "Düşük devirli erken ateşleme (LSPI) nedeniyle nadir ama yıkıcı 4. piston arızası; GM 2017'de bütün SIDI motorları için Dexos 1 Gen 2 yağ zorunluluğu getiren bir bülten yayınladı",
+        "onset_km": null,
+        "frequency": "nadir",
+        "severity": "motor ölür",
+        "sources": [
+          "enginescope_a16xht_lspi",
+          "insigniadrivers_16turbo_at_broken"
+        ]
+      },
+      {
+        "issue": "Doğrudan enjeksiyon nedeniyle emme supaplarında karbon birikimi; rölanti bozukluğu, güç kaybı ve yakıt tüketimi artışı olarak ortaya çıkıyor",
+        "onset_km": 60000,
+        "frequency": "yaygın",
+        "severity": "orta",
+        "sources": [
+          "enginescope_a16xht_lspi"
+        ]
+      }
+    ],
+    "sources": [
+      "enginescope_a16xht_lspi",
+      "automaniac_a16xht_spec",
+      "insigniadrivers_16turbo_at_broken"
+    ],
+    "note": "Opel Insignia'nın (2013 faselift sonrası) 1.6 SIDI Turbo benzinlisi; GM'nin doğrudan enjeksiyonlu 'Medium Gasoline Engine' ailesinin ilk üyesi, aynı hacimdeki eski A16LET'in (port enjeksiyonlu) halefi. Piston arızası riski gerçek ve GM'nin kendi garanti uzatması ve yağ bülteniyle doğrulanmış durumda, ama koşullu: doğru yağ (Dexos 1 Gen 2) ve makul oktanla risk belirgin biçimde azalıyor; bildirilen vakaların çoğu düşük yakıt kalitesinin yaygın olduğu pazarlardan geliyor. [base_score gerekçesi: 35-49 (yüksek risk) bandının alt yarısında: piston arızası nadir ama motoru bitiren bir arıza, bu yüzden A16DTH'nin (44) altında tutuldu; yine de GM'nin kendi yağ bülteniyle riskin azaltılabilir olduğu belgeli olduğu için 0-34 bandına düşürülmedi.]"
+  },
+  "bmw-b37": {
+    "id": "bmw-b37",
+    "names": [
+      "B37",
+      "B37C15A",
+      "1.5d"
+    ],
+    "supplier": "BMW",
+    "fuel": "Dizel",
+    "displacements_l": [
+      1.5
+    ],
+    "cylinders": 3,
+    "aspiration": "Turbo",
+    "base_score": 62,
+    "maintenance": "Üreticinin önerdiği aralıktan daha sık (10.000 km'de bir) yağ değişimi önerilir; şehir içi kısa mesafe kullanımda EGR/DPF izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Üç silindirli yapı belirli devirlerde titreşim yaratıyor; 2017 öncesi üretimde daha belirgin, sonrasında BMW'nin revizyonuyla büyük ölçüde azaldı",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "engineexplained_b37_reliability"
+        ]
+      },
+      {
+        "issue": "Enjektör tıkanması veya yakıt pompası arızası performans kaybına yol açabiliyor; EGR/DPF kısa mesafe kullanımda tıkanabiliyor (diğer dizellerle ortak bir zaaf)",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "progaragelab_b37_bulletins"
+        ]
+      }
+    ],
+    "sources": [
+      "engineexplained_b37_reliability",
+      "progaragelab_b37_bulletins"
+    ],
+    "note": "BMW'nin üç silindirli 1.5 dizeli; N47/N57'nin kronik triger zinciri tasarım hatasını taşımıyor, bu ailedeki temiz bir sayfa. İki bağımsız kaynak garanti başvuru oranının sektör ortalamasının altında olduğunu doğruluyor; bilinen zaaflar (titreşim, enjektör/EGR) motoru bitiren değil konfor/bakım düzeyinde kalemler. [base_score gerekçesi: 50-64 (orta risk) bandının üst sınırında: gerçek bir tasarım hatası belgeli değil, ama diğer tüm dizellerle ortak EGR/DPF zaafı ve titreşim şikayeti '85-100 neredeyse arızasız' bandına çıkmasını engelliyor.]"
+  },
+  "bmw-n13": {
+    "id": "bmw-n13",
+    "names": [
+      "N13",
+      "N13B16A",
+      "1.6 Turbo"
+    ],
+    "supplier": "BMW",
+    "fuel": "Benzin",
+    "displacements_l": [
+      1.6
+    ],
+    "cylinders": 4,
+    "aspiration": "Turbo",
+    "base_score": 40,
+    "maintenance": "80.000 km sonrası soğuk kalkışta triger zinciri sesi dikkatle dinlenmeli; erken belirti varsa gecikmeden zincir değişimi yapılmalı. Elektrikli su pompası sınırlı ömürlü bir parça olarak izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Motorun şanzıman tarafında konumlanan triger zinciri, plastik kılavuzlar ve hidrolik gergiyle birlikte 80.000-130.000 km aralığında soğuk kalkışta çatırtı sesi veriyor; göz ardı edilirse zincir diş atlayıp supap-piston temasına, yani motorun tamamen ölmesine yol açabiliyor",
+        "onset_km": 80000,
+        "frequency": "yaygın",
+        "severity": "motor ölür",
+        "sources": [
+          "enginescope_n13_caution",
+          "myenginespecs_n13_problems"
+        ]
+      },
+      {
+        "issue": "Valf kapağındaki PCV zarı çatlayabiliyor, elektrikli soğutma suyu pompası sınırlı ömürlü bir parça; ikisi de arızalandığında değişim gerektiriyor",
+        "onset_km": null,
+        "frequency": "orta",
+        "severity": "orta",
+        "sources": [
+          "enginescope_n13_caution"
+        ]
+      }
+    ],
+    "sources": [
+      "enginescope_n13_caution",
+      "myenginespecs_n13_problems"
+    ],
+    "note": "BMW-PSA ortak girişiminin (Prince ailesi) 1.6 turbo benzinlisi; BMW'nin kendi üç silindirli B38'inden önceki, dört silindirli 1-Serisi/3-Serisi girişi motoru. İki bağımsız kaynak, motorun şanzıman tarafında konumlanan triger zincirinin — N47/N57 dizellerindeki mimariyle aynı temel zaafı paylaşarak — 80.000 km sonrası aşınmaya başladığını ve göz ardı edilirse motoru bitirebildiğini doğruluyor. [base_score gerekçesi: 35-49 (yüksek risk) bandının alt yarısında: zincir arızası N47/N57 kadar yaygın belgelenmemiş olsa da aynı yıkıcı sonucu (motor ölür) taşıyor, bu yüzden A16DTH (44) ile aynı bandın altında, GM'nin SIDI Turbo'suyla (40) aynı seviyede tutuldu.]"
   }
 }

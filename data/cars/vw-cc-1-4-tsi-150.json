@@ -1,0 +1,91 @@
+{
+  "id": "vw-cc-1-4-tsi-150",
+  "name": "Volkswagen CC 1.4 TSI",
+  "tag": "oto: 7 ileri kuru DCT · 150bg",
+  "brand_group": "Volkswagen",
+  "years": "2013-2015",
+  "specs": {
+    "hp": 150,
+    "displacement_l": 1.4,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "Kuru DCT",
+    "transmission_id": "vag-dq200",
+    "body_type": "Sedan",
+    "engine_id": "vag-ea211",
+    "torque_nm": 250,
+    "gears": 7,
+    "engine_code": "EA211 1.4 TSI (CZDA/CZCA — kesin kod doğrulanamadı)"
+  },
+  "price_band_k_try": [
+    650,
+    970
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 72,
+    "trans": 38,
+    "fun": 33,
+    "comf": 74,
+    "age": 50,
+    "cost": 66,
+    "liq": 68
+  },
+  "sources": [
+    "andcetin_dq200",
+    "ecotorque_dq200_mechatronic",
+    "enginecrux_ea211_14tsi",
+    "oreateai_ea111_vs_ea211",
+    "trbox"
+  ],
+  "evidence": {
+    "motor": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [
+        "oreateai_ea111_vs_ea211",
+        "enginecrux_ea211_14tsi"
+      ],
+      "reasoning": "EA211 (vag-ea211) motor ailesinin temel puanı 72. Bu aracın motor puanı (72) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim motorlarda piston segmanı tasarımı ve PCV sistemiyle ilişkili, kısa mesafe kullanımda artan yağ tüketimi. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "trans": {
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
+      "confidence": "orta",
+      "sources": [
+        "andcetin_dq200",
+        "trbox",
+        "ecotorque_dq200_mechatronic"
+      ],
+      "reasoning": "DQ200 (vag-dq200) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Ailenin bilinen zaafı: Erken üretim (2012 öncesi) kavrama paketinin aşınması; 2012'de tasarım yenilendi. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "comf": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Fiyat bandı, `scripts/estimate_judgment_scores.py`'nin otomatik kardeş araç seçiminin (VW Jetta, yalnızca yıl olarak daha yakın olduğu için seçildi) yanılttığı bir noktada elle düzeltildi: depoda zaten VW CC 1.8 TSI/TFSI (720-1050 bin TL) ve VW CC 2.0 TDI (780-1150 bin TL) kayıtlı, ikisi de aynı nameplate ve gövde. Bu araç ailenin en düşük hacimli/en düşük beygirli üyesi olduğu için o iki bandın biraz altına (650-970 bin TL) yerleştirildi. Konfor/likidite tahmini yine de markanın depodaki 22 aracının ortalamasından (konfor 75, maliyet 72, likidite 69) türetildi; bu araç markanın tipik güç aralığında (150 bg / marka ortalaması 140 bg), gövde tipi Sedan, şanzıman kuru çift kavrama (bilinen düşük hız sarsıntısı riski).",
+      "assessed_at": "2026-08-20"
+    },
+    "cost": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Fiyat bandı, `scripts/estimate_judgment_scores.py`'nin otomatik kardeş araç seçiminin (VW Jetta, yalnızca yıl olarak daha yakın olduğu için seçildi) yanılttığı bir noktada elle düzeltildi: depoda zaten VW CC 1.8 TSI/TFSI (720-1050 bin TL) ve VW CC 2.0 TDI (780-1150 bin TL) kayıtlı, ikisi de aynı nameplate ve gövde. Bu araç ailenin en düşük hacimli/en düşük beygirli üyesi olduğu için o iki bandın biraz altına (650-970 bin TL) yerleştirildi. Konfor/likidite tahmini yine de markanın depodaki 22 aracının ortalamasından (konfor 75, maliyet 72, likidite 69) türetildi; bu araç markanın tipik güç aralığında (150 bg / marka ortalaması 140 bg), gövde tipi Sedan, şanzıman kuru çift kavrama (bilinen düşük hız sarsıntısı riski).",
+      "assessed_at": "2026-08-20"
+    },
+    "liq": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Fiyat bandı, `scripts/estimate_judgment_scores.py`'nin otomatik kardeş araç seçiminin (VW Jetta, yalnızca yıl olarak daha yakın olduğu için seçildi) yanılttığı bir noktada elle düzeltildi: depoda zaten VW CC 1.8 TSI/TFSI (720-1050 bin TL) ve VW CC 2.0 TDI (780-1150 bin TL) kayıtlı, ikisi de aynı nameplate ve gövde. Bu araç ailenin en düşük hacimli/en düşük beygirli üyesi olduğu için o iki bandın biraz altına (650-970 bin TL) yerleştirildi. Konfor/likidite tahmini yine de markanın depodaki 22 aracının ortalamasından (konfor 75, maliyet 72, likidite 69) türetildi; bu araç markanın tipik güç aralığında (150 bg / marka ortalaması 140 bg), gövde tipi Sedan, şanzıman kuru çift kavrama (bilinen düşük hız sarsıntısı riski).",
+      "assessed_at": "2026-08-20"
+    }
+  },
+  "note": "VW CC'nin (B7 faselift) en küçük hacimli motor seçeneği; WebSearch ile 158-160 bg / 250 Nm spesifikasyonu doğrulandı (kullanıcının verdiği 150 bg'ye çok yakın, muhtemelen bölgesel/yuvarlama farkı). Motor kodu dürüstçe belirsiz bırakıldı: EA211 1.4 TSI ailesinde bu güç seviyesi hem CZCA (2013'ten) hem CZDA (2014'ten, ACT silindir devre dışı bırakma özellikli) kodlarıyla üretildi; bu CC örneğinin hangisini taşıdığı ilan bazında (şasi numarasıyla) doğrulanmadan kesinleştirilemez. Motor puanı yine de EA211 ailesinin genel puanına dayanıyor, kod belirsizliği bunu etkilemiyor.",
+  "provenance": {
+    "added_at": "2026-08-20",
+    "method": "depo sahibinin sahibinden ilan taramasından getirdiği aday listesi (Y-29) — elle araştırıldı, WebSearch",
+    "specs_source": "depo sahibinin verdiği ilan taraması + WebSearch doğrulaması"
+  }
+}
