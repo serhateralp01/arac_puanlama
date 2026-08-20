@@ -3076,7 +3076,7 @@
         "engine_code": null,
         "engine_name": null
       },
-      "scored_car_id": null,
+      "scored_car_id": "skoda-superb-1-8-160",
       "possible_scored_car_ids": [],
       "quality_flags": [
         "generic_transmission_identity"

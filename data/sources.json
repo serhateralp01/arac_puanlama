@@ -4933,5 +4933,49 @@
       "engine": "kullanıcı tarafından depoya elle yapıştırıldı (bu ortamdan tsb.org.tr'ye ağ erişimi yok, bkz. docs/FIYAT-KAYNAK-ARASTIRMASI.md)",
       "found_at": "2026-08-18"
     }
+  },
+  "apexautoparts_n57_guide": {
+    "id": "apexautoparts_n57_guide",
+    "claim": "BMW N57 dizel motorunda en sık bildirilen arızaların triger zinciri aşınması, swirl flap arızası, EGR/DPF tıkanması, enjektör keçe sızıntıları ve yüksek kilometrede turbo aşınması olduğu",
+    "publisher": "Apex Auto Parts",
+    "url": "https://www.apexautoparts.co.uk/blog/N57-engine-problems-reliability-repair-guide",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-20",
+    "language": "en",
+    "quotes": []
+  },
+  "bimmerai_n57_guide": {
+    "id": "bimmerai_n57_guide",
+    "claim": "N57'nin düzenli bakımla (yağ değişimi, EGR/DPF temizliği) 150.000-250.000 mil arası sorunsuz gidebildiği, bazı örneklerin 300.000 mili aştığı; iyi bakılmadığında ise tanınmış BMW dizel sorunlarının (triger zinciri, swirl flap) ortaya çıktığı",
+    "publisher": "Bimmer.AI",
+    "url": "https://bimmer.ai/bmw-engines/n57/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-20",
+    "language": "en",
+    "quotes": []
+  },
+  "timingchaingatwick_n47_n57_shared": {
+    "id": "timingchaingatwick_n47_n57_shared",
+    "claim": "N57'nin triger zincirini N47 ile paylaştığı; ancak N47'nin en sorunlu varyantındaki 'işlenmiş eleman' (machined element) tasarımını hiç taşımadığı için zincir arızalarının N47'ye göre daha az sıklıkla bildirildiği; altı silindirli N57'nin düşük devirde çalışması ve daha büyük yağ kapasitesinin de bunu açıklayabileceği",
+    "publisher": "Timing Chain Gatwick",
+    "url": "https://timingchaingatwick.co.uk/bmw-b47-vs-n47-timing-chain/",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-20",
+    "language": "en",
+    "quotes": []
+  },
+  "justanswer_730d_n57_chain": {
+    "id": "justanswer_730d_n57_chain",
+    "claim": "BMW 730d (N57 motorlu) örneklerinde triger zincirinin koptuğu ve bunun yüksek işçilik maliyetli bir motor onarımına yol açtığı vakaların bildirildiği",
+    "publisher": "JustAnswer",
+    "url": "https://www.justanswer.com/bmw/6fyve-bmw-730d-730-series-n57-engines-timing-chains.html",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-20",
+    "language": "en",
+    "quotes": []
   }
 }

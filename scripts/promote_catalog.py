@@ -41,6 +41,7 @@ from __future__ import annotations
 
 import argparse
 import collections
+import datetime
 import glob
 import json
 import pathlib
@@ -49,7 +50,11 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-TODAY = "2026-08-17"
+# Önceden sabit bir metin dizesiydi ("2026-08-17") ve betik her çalıştırıldığında
+# o günün tarihi yerine son düzenleme tarihini yazıyordu; terfi kayıtlarının
+# `assessed_at`/`added_at` alanları bu yüzden yanlış tarih taşıyordu. Artık
+# gerçek çalıştırma gününü okuyor.
+TODAY = datetime.date.today().isoformat()
 # Aile üretim penceresi kontrolünde verilen tolerans (yıl). Depo bir ailenin bütün
 # üretim dönemini örneklemiş olmayabilir; sınır kesin bir takvim değil makullük testi.
 YEAR_TOLERANCE = 1
@@ -558,6 +563,33 @@ def build_car(e: dict, eng_id: str, tr_id: str, engines: dict, trans: dict,
     }
 
 
+def link_catalog_entries(promoted_catalog_ids: dict[str, str]) -> None:
+    """Terfi eden katalog kayıtlarının `scored_car_id` alanını doldurup dosyaya geri yazar.
+
+    Katalog `data/catalog/*.json` dosyaları marka başına ayrı ve `entries`
+    listesi içinde tutuluyor; bu yüzden `load_catalog()`'un dümdüz listesi
+    üzerinden geri yazamıyoruz, kaynak dosyayı tekrar açıp ilgili kaydı
+    bulmamız gerekiyor. Yalnızca eşleşme bulunan dosyalar diske yazılır.
+    """
+    remaining = set(promoted_catalog_ids)
+    for path in sorted((DATA / "catalog").glob("*.json")):
+        if path.name == "_sources.json":
+            continue
+        doc = json.loads(path.read_text(encoding="utf-8"))
+        changed = False
+        for entry in doc.get("entries", []):
+            car_id = promoted_catalog_ids.get(entry.get("id"))
+            if car_id and not entry.get("scored_car_id"):
+                entry["scored_car_id"] = car_id
+                changed = True
+                remaining.discard(entry["id"])
+        if changed:
+            path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if remaining:
+        print(f"uyarı: {len(remaining)} terfi eden kayıt katalog dosyalarında bulunamadı: "
+              f"{sorted(remaining)}", file=sys.stderr)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--write", action="store_true")
@@ -585,6 +617,12 @@ def main() -> None:
     written = 0
     skipped_no_score = 0
     skipped_existing_name = 0
+    # Terfi eden her katalog kaydının id'sini yeni araç id'sine eşliyoruz; aşağıda
+    # bu eşleme, katalog dosyalarındaki `scored_car_id` alanını doldurmak için
+    # kullanılıyor. Bu adım eksik olursa terfi eden kayıt hem puanlanmış araç
+    # listesinde hem "yalnız katalogda" listesinde birden görünür (bkz. Y-27:
+    # bu tam olarak BMW 730d terfisinde elle fark edilip elle düzeltilmişti).
+    promoted_catalog_ids: dict[str, str] = {}
     for e, eng_id, tr_id in candidates:
         if args.limit and written >= args.limit:
             break
@@ -598,8 +636,12 @@ def main() -> None:
         path = DATA / "cars" / f"{car['id']}.json"
         if args.write:
             path.write_text(json.dumps(car, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            promoted_catalog_ids[e["id"]] = car["id"]
         written += 1
         cars.append(car)  # sonraki nearest_sibling aramalarında da görünsün
+
+    if args.write and promoted_catalog_ids:
+        link_catalog_entries(promoted_catalog_ids)
 
     print(f"aday: {len(candidates)} | terfi edilen: {written} | "
           f"puanı olmadığı için atlanan: {skipped_no_score} | "

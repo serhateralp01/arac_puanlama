@@ -1,0 +1,115 @@
+{
+  "id": "bmw-f01-730d-258",
+  "name": "BMW 7 Serisi 730d (F01 LCI)",
+  "tag": "N57 3.0d 258 bg · ZF 8HP TK",
+  "brand_group": "BMW",
+  "years": "2012-2015",
+  "specs": {
+    "hp": 258,
+    "displacement_l": 3.0,
+    "fuel": "Dizel",
+    "drivetrain": "Arkadan",
+    "transmission_type": "TK",
+    "body_type": "Sedan",
+    "kerb_weight_kg": 1915,
+    "torque_nm": 560,
+    "fuel_consumption_l_100km": 5.6,
+    "engine_id": "bmw-n57",
+    "transmission_id": "zf-8hp",
+    "gears": 8,
+    "clutch": null,
+    "engine_code": "N57D30"
+  },
+  "price_band_k_try": [
+    700,
+    1400
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 46,
+    "trans": 70,
+    "fun": 86,
+    "comf": 79,
+    "age": 48,
+    "cost": 58,
+    "liq": 35
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "timingchaingatwick_n47_n57_shared",
+        "justanswer_730d_n57_chain",
+        "apexautoparts_n57_guide",
+        "bimmerai_n57_guide"
+      ],
+      "reasoning": "N57 (bmw-n57) motor ailesinin temel puanı 46; bu araç için ek bir sapma uygulanmadı. Ailenin bilinen zaafı, kardeş motor N47 ile paylaştığı arka triger zinciri tasarımı — zincirin zamanla uzayıp kopma riski taşıması ve onarımın motor sökümü gerektirmesi. Üç bağımsız kaynak bu riskin N47'ye göre daha seyrek gerçekleştiğini doğruluyor, bu yüzden puan N47'nin 38'inin üzerinde ama yine de '35-49 yüksek risk, tanımlı bir tasarım hatası var' bandında kaldı.",
+      "derivation": "kaynak",
+      "assessed_at": "2026-08-20"
+    },
+    "trans": {
+      "band": "sağlam, bilinen küçük bakım kalemi var",
+      "confidence": "orta",
+      "sources": [],
+      "reasoning": "ZF 8HP (zf-8hp) şanzıman ailesinin temel puanı 70; bu araç için ek bir sapma uygulanmadı. Kaynaklar depodaki diğer ZF 8HP'li araçlarla (bkz. data/transmissions.json) paylaşılıyor, MK-16 gereği otomatik miras alınıyor.",
+      "derivation": "kaynak",
+      "assessed_at": "2026-08-20"
+    },
+    "comf": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Segment karşılaştırmasıyla elle verildi: 7 Serisi, depodaki 5 Serisi örneklerinden (comf 66-73) daha büyük kabin, daha uzun dingil mesafesi ve daha zengin standart konfor donanımıyla üst sınıfta; kaynaklı bir anket verisi yok, bu yüzden güven düşük işaretlendi.",
+      "assessed_at": "2026-08-20"
+    },
+    "cost": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Segment karşılaştırmasıyla elle verildi: 3.0 litrelik motor, büyük lastik/fren ölçüleri ve amiral gemisi yedek parça fiyatlandırması nedeniyle depodaki 5 Serisi 525d/530d örneklerinden (cost 66-70) düşük tutuldu; kaynaklı bir bakım maliyeti verisi yok, güven düşük işaretlendi.",
+      "assessed_at": "2026-08-20"
+    },
+    "liq": {
+      "band": null,
+      "confidence": "düşük",
+      "sources": [],
+      "reasoning": "Segment karşılaştırmasıyla elle verildi: 7 Serisi Türkiye ikinci el pazarında 5 Serisi'ne göre çok daha düşük hacimli, niş bir segment; depodaki 5 Serisi örneklerinin (liq 44-56) belirgin altında tutuldu. Ölçülmüş bir ilan sayımı yok (bkz. docs/ARCHITECTURE.md MK-20), güven düşük işaretlendi.",
+      "assessed_at": "2026-08-20"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2013.5, yani 2026 itibarıyla yaşı yaklaşık 12.5 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 26.7. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 48 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-07"
+    },
+    "fun": {
+      "band": "belirgin karakter",
+      "confidence": "orta",
+      "sources": [],
+      "reasoning": "Güç/ağırlık oranı 135 hp/ton (normalize 71/100), tork/ağırlık oranı 292 Nm/ton (normalize 100/100); ikisinin %75/%25 ağırlıklı ortalaması (tork payı düşük tutuldu; gerekçesi bütün araçlara aynı şekilde uygulanan sabit bir metodoloji kararı, bkz. docs/ARCHITECTURE.md MK-17) ve çekiş tipi/şanzıman tepkisi düzeltmeleriyle (çekiş +0, şanzıman +0) temel puan 78. Karakter düzeltmesi +8 puan uygulandı, gerekçesi: arkadan itiş (±15 puanla sınırlı). Puan elle verilmedi; scripts/compute_fun.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir. Formülün kendisi elle verilmiş puanlara karşı test edildi (docs/ARCHITECTURE.md ilgili MK kaydına bakınız); sportif şasi kurulumu ve direksiyon geri bildirimi verisi eksik olduğu için sezgi payı beklenenden (PLAN.md §3: ~%35) yüksek kalabilir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-20"
+    }
+  },
+  "sources": [
+    "timingchaingatwick_n47_n57_shared",
+    "justanswer_730d_n57_chain",
+    "apexautoparts_n57_guide",
+    "bimmerai_n57_guide"
+  ],
+  "note": "F01 kasa 7 Serisi'nin 2012 orta ömür yenilemesi (LCI) sonrası 730d'si; N57 3.0 litre dizel motoru ZF'nin 8 ileri tork konvertörlü kutusuyla eşleniyor. Motor, kardeş model N47'nin en bilinen zaafını (arka triger zinciri) paylaşıyor ama kaynaklar bu riskin N57'de daha seyrek gerçekleştiğini gösteriyor. Amiral gemisi konumu konforu artırırken sahip olma maliyetini ve — Türkiye'de düşük satış hacmi nedeniyle — satılabilirliği aşağı çekiyor.",
+  "catalog_ref": {
+    "catalog_ids": [
+      "bmw-7-serisi-730d-258-bg-258"
+    ],
+    "generation": "F01",
+    "technical_url": "https://www.autoevolution.com/cars/bmw-7-series-f01-02-facelift-2012.html",
+    "dataset": "ARAC-P2.1-PRICE-EXPANSION-2026-08",
+    "linked_at": "2026-08-20"
+  }
+}

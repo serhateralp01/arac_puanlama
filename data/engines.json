@@ -4219,5 +4219,51 @@
       "carchecker_tucson_tgdi"
     ],
     "note": "Hyundai-Kia'nın atmosferik Gamma ailesinden (hyundai-gamma16-mpi, hyundai-gamma16-gdi) farklı, turbolu ve doğrudan enfeksiyonlu bir motor; Tucson TL ve Sportage QL'nin 177 beygirlik versiyonunda kullanılıyor. Aynı motor ailesinin şanzımanı (D7UF1 kuru çift kavramalı) listede zaten kayıtlı `hyundai-7dct` ailesiyle aynı; dizel U2 motoruyla paylaşılan D7UF2'nin T-GDI'ye özel varyantı. [base_score gerekçesi: 50-64 (orta risk) bandının ortası: tek kaynak (C) erken üretimde tekrarlayan ama üretici tarafından zamanla iyileştirilmiş, motoru komple bitirmeyen bir risk örüntüsü bildiriyor; hyundai-u2-16'nın (68) biraz altında tutuldu çünkü bu ailenin yalnızca tek ve C seviyesi bir kaynağı var, U2'nin iki kaynağına karşı.]"
+  },
+  "bmw-n57": {
+    "id": "bmw-n57",
+    "names": [
+      "N57",
+      "N57D30",
+      "N57S"
+    ],
+    "supplier": "BMW",
+    "fuel": "Dizel",
+    "displacements_l": [
+      3
+    ],
+    "cylinders": 6,
+    "aspiration": "Turbo",
+    "base_score": 46,
+    "maintenance": "Triger zinciri sesi erken fark edilmeli; zincir N47 ile aynı biçimde motorun arka (şanzıman) tarafında olduğu için değişim motorun sökülmesini gerektiriyor. EGR/DPF sistemleri kısa mesafe kullanımda düzenli izlenmeli.",
+    "known_issues": [
+      {
+        "issue": "Triger zincirinin motorun arka tarafında konumlanması nedeniyle zaman içinde uzayıp kopma riski taşıması; N47 ile aynı temel zincir tasarımını paylaşıyor",
+        "onset_km": null,
+        "frequency": "seyrek",
+        "severity": "motor ölür",
+        "sources": [
+          "timingchaingatwick_n47_n57_shared",
+          "justanswer_730d_n57_chain"
+        ]
+      },
+      {
+        "issue": "Swirl flap arızası, EGR/DPF tıkanması ve enjektör keçe sızıntıları",
+        "onset_km": null,
+        "frequency": "sık",
+        "severity": "orta",
+        "sources": [
+          "apexautoparts_n57_guide",
+          "bimmerai_n57_guide"
+        ]
+      }
+    ],
+    "sources": [
+      "timingchaingatwick_n47_n57_shared",
+      "justanswer_730d_n57_chain",
+      "apexautoparts_n57_guide",
+      "bimmerai_n57_guide"
+    ],
+    "note": "N47'nin altı silindirli kardeşi; aynı jenerasyonda geliştirildi ve triger zincirinin motorun arka (şanzıman) tarafında olması dahil temel mimariyi paylaşıyor. Bu yüzden aynı kalıcı tasarım hatasını taşıyor, ama üç bağımsız kaynak N57'de zincir arızalarının N47'ye göre daha seyrek bildirildiğini doğruluyor: N57 hiçbir zaman N47'nin en sorunlu erken varyantındaki 'işlenmiş eleman' tasarımını taşımadı, ayrıca altı silindirin düşük devirde çalışması ve daha büyük yağ kapasitesi motoru daha az zorluyor. [base_score gerekçesi: 35-49 (bilinen risk) bandının üst yarısında, N47'nin 38 puanının üzerinde: aynı temel tasarım hatası (arka triger zinciri) doğrulanmış durumda, bu yüzden 50'nin üzerine çıkarılmadı; ama üç kaynak da N57'nin N47'den daha az sıklıkta arızalandığını bağımsız olarak doğruluyor, bu yüzden N47 ile aynı puanda tutulmadı."
   }
 }

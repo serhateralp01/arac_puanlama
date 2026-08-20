@@ -28,7 +28,7 @@
     "trans": 38,
     "fun": 58,
     "comf": 62,
-    "age": 50,
+    "age": 42,
     "cost": 66,
     "liq": 57
   },
@@ -64,6 +64,16 @@
       ],
       "reasoning": "ETG (psa-etg) şanzıman ailesinin temel puanı 38. Bu aracın trans puanı (38) temel puanla birebir aynı. Ailenin bilinen zaafı: Kavrama aktüatörünün arızalanması; sarsıntılı veya yavaş vites geçişi, vites seçememe, viteste/boşta kalma ve 'gearbox faulty' uyarısı. Bu puan 'bilinen risk, kavrama/mekatronik odaklı' bandına giriyor.",
       "assessed_at": "2026-08-17"
+    },
+    "age": {
+      "band": "TÜV yaş-kusur eğrisinden hesaplandı",
+      "confidence": "yüksek",
+      "sources": [
+        "tuv_report_yas_kusur_egrisi"
+      ],
+      "reasoning": "Bu aracın model yılı ortalaması 2012.0, yani 2026 itibarıyla yaşı yaklaşık 14.0 yıl. TÜV'ün yaklaşık 9,5 milyon muayeneye dayanan yaş-kusur eğrisine göre bu yaştaki bir araçta ciddi kusur bulunma olasılığı yüzde 29.5. Bu oran, TÜV'ün kendi uç bantları çapa alınarak (yüzde 6,45 kusur = 90 puan, yüzde 40,3 kusur = 20 puan) 42 puana çevrildi. Puan elle verilmedi; scripts/compute_age.py tarafından hesaplandı ve aynı girdi her zaman aynı çıktıyı üretir.",
+      "derivation": "formul",
+      "assessed_at": "2026-08-07"
     }
   }
 }

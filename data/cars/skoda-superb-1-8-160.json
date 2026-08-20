@@ -1,0 +1,69 @@
+{
+  "id": "skoda-superb-1-8-160",
+  "name": "Skoda Superb Elegance 1.8 TSI 160 Tiptronic",
+  "tag": "oto: ? ileri otomatik · 160bg",
+  "brand_group": "Skoda",
+  "years": "2012-2012",
+  "specs": {
+    "hp": 160,
+    "displacement_l": 1.8,
+    "fuel": "Benzin",
+    "drivetrain": "Önden",
+    "transmission_type": "TK",
+    "transmission_id": "vag-01m",
+    "body_type": "Sedan/Liftback",
+    "engine_id": "vag-ea888",
+    "torque_nm": null,
+    "gears": null,
+    "clutch": null,
+    "engine_code": null
+  },
+  "price_band_k_try": [
+    480,
+    720
+  ],
+  "verification": "verified",
+  "scores": {
+    "motor": 46,
+    "trans": 66,
+    "fun": 48,
+    "comf": 87,
+    "age": 50,
+    "cost": 70,
+    "liq": 71
+  },
+  "sources": [
+    "enginescope_ea888_gen",
+    "gearboxlist_01m",
+    "go4trans_01m",
+    "youcanic_vw_01m_limp"
+  ],
+  "note": "Bu araç 2026-08-20 tarihinde `data/catalog/`'dan (MK-22, P2.1 veri paketi) terfi ettirildi (`scripts/promote_catalog.py`). Motor ve şanzıman puanı aile kaydından miras alındı (MK-16 mekanik miras deseni). Fiyat bandı ve sürüş keyfi (fun) hâlâ araca özgü araştırılmadı. Skoda markasının depodaki 15 aracının ortalaması (konfor 76, maliyet 73, likidite 68) çapa alındı. Bu araç markanın ortalama gücünün üstünde (160 bg / marka ortalaması 128 bg). Gövde tipi Sedan/Liftback. Şanzıman tork konvertörü (yumuşak, olgun teknoloji). Bu üç kriter (konfor, maliyet, likidite) depoda hiçbir zaman kaynak zinciriyle verilmiyor; bu tahmin de öyle — ama artık kardeş araca değil, aracın kendi ölçülebilir özelliklerine (segment, gövde, şanzıman) dayanıyor.",
+  "provenance": {
+    "added_at": "2026-08-20",
+    "method": "scripts/promote_catalog.py — katalog terfi (Y-19/MK-22/MK-16)",
+    "specs_source": "data/catalog/, P2.1 kaynak varyant 373"
+  },
+  "evidence": {
+    "motor": {
+      "band": "yüksek risk, tanımlı bir tasarım hatası var",
+      "confidence": "orta",
+      "sources": [
+        "enginescope_ea888_gen"
+      ],
+      "reasoning": "EA888 (vag-ea888) motor ailesinin temel puanı 46. Bu aracın motor puanı (46) temel puanla birebir aynı. Ailenin bilinen zaafı: Gen1/Gen2 sürümlerinde triger zinciri gergisi arızası ve zincir uzaması. Bu puan 'yüksek risk, tanımlı bir tasarım hatası var' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    },
+    "trans": {
+      "band": "yönetilebilir bakım kalemi",
+      "confidence": "orta",
+      "sources": [
+        "gearboxlist_01m",
+        "go4trans_01m",
+        "youcanic_vw_01m_limp"
+      ],
+      "reasoning": "01M (vag-01m) şanzıman ailesinin temel puanı 66. Bu aracın trans puanı (66) temel puanla birebir aynı. Ailenin bilinen zaafı: Selenoid kablo tesisatı ve hız sensörü arızası; selenoidlerin kirlenerek tıkanması. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor.",
+      "assessed_at": "2026-08-20"
+    }
+  }
+}

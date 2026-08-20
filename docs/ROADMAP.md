@@ -16,13 +16,13 @@ ister; güncellenmezse ilk işlevini kaybeder.
 
 ---
 
-## Durum özeti (son güncelleme: 2026-08-19)
+## Durum özeti (son güncelleme: 2026-08-20)
 
 | Katman | Durum |
 |---|---|
 | Veri mimarisi (araç / motor / şanzıman / kaynak ayrımı) | Tamamlandı |
 | Şanzıman kutusu kayıtları | 53 kutu (`data/transmissions.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
-| Motor ailesi kayıtları | 104 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor |
+| Motor ailesi kayıtları | 105 aile (`data/engines.json`), hepsi temel puanlı, kaynaklı ve yapılandırılmış `known_issues` taşıyor — Y-27'de BMW N57 eklendi |
 | Denetim hattı (`validate.py`, `consistency.py`, `smoke_test.js`) | Çalışıyor, 0 hata, 92/92 duman testi — artık `file://` yerine süreç içi bir HTTP sunucusu üzerinden çalışıyor (statik sayfa, SEO, katalog, koyu tema, mobil menü, kart görünümü, bütçe girişi, ana ekran kanıt bağlantıları, tembel ayrıntı yükleme ve kaydırıcı etkileşimi kontrolleri dahil, bkz. Y-25/Y-26) |
 | `age` ve `fun` kriterleri (MK-06) | Formüle bağlandı: `age` → `scripts/compute_age.py` (MK-14), `fun` → `scripts/compute_fun.py` (MK-17, **375/406 araç** — bkz. Y-19, Y-24). `comf` ve `cost` hâlâ elle veriliyor. |
 | `price` kriteri (MK-19) | **Tarihlendi, iki ayrı kaynakla.** 19 araç 2026-08-13 tarihli arabam.com ilan gözlemine, 10 araç 2026-07 tarihli TSB Kasko Değer Listesi'ne bağlandı (bkz. Y-21). Toplam 29 araçta `price_reference` bloğu (tarih, yöntem, örneklem/kaynak, sınırlılık) var; kalan 371 araç hâlâ tarihsiz tahmin ve denetimde `fiyat-tarihsiz` uyarısı üretiyor. |
@@ -34,8 +34,8 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
 | Kaynak derinliği (Y-02) | **Bitti.** 400 aracın tamamı "doğrulanmış" (4+ kaynak) — `kaynak-yetersiz` uyarısı 2026-08-17'de tamamen kapandı, bkz. Y-19 |
-| Araç listesi (Y-01) | 154 → 278 → 400 → **406 araç** (Y-19/Y-23 terfi turları). Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon), odak artık sayısal hedeften ziyade popüler marka/modellerin motor çeşitliliği, sürüyor |
-| Teknik katalog (MK-22) | **1.656 kayıt** (`data/catalog/`, marka başına bir dosya). Olgusal katmandır: güç, tork, çekiş, hacim, gövde, vites sayısı, kavrama tipi, motor kodu ve teknik kaynak adresi taşır; puan taşımaz. 281 kayıt puanlanmış bir araca bağlı, 1.218'i yalnız katalogda ve kendi statik sayfası var — bunun 15'i Y-22'de TSB Kasko Değer Listesi'nden eklendi. |
+| Araç listesi (Y-01) | 154 → 278 → 400 → 406 → **409 araç** (Y-19/Y-23/Y-27 terfi turları). Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon); Y-27'de portföy büyütme talebiyle 3 araç daha eklendi (2'si katalogdan otomatik terfi, 1'i elle araştırılan yeni bir motor ailesiyle — BMW N57/730d), odak artık sayısal hedeften ziyade "sahibinden'de olup depoda olmayan" gerçek marka/model boşlukları, sürüyor |
+| Teknik katalog (MK-22) | **1.656 kayıt** (`data/catalog/`, marka başına bir dosya). Olgusal katmandır: güç, tork, çekiş, hacim, gövde, vites sayısı, kavrama tipi, motor kodu ve teknik kaynak adresi taşır; puan taşımaz. 283 kayıt puanlanmış bir araca bağlı, 1.215'i yalnız katalogda ve kendi statik sayfası var — bunun 15'i Y-22'de TSB Kasko Değer Listesi'nden eklendi. Y-27'de `promote_catalog.py`'nin terfi ettirdiği kaydın kaynak katalog satırını `scored_car_id` ile geri bağlamadığı bir betik hatası bulunup düzeltildi. |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
 | Veri doğruluğu (MK-18) | **Dış veri setiyle çapraz doğrulama yapıldı.** 220 araç bağımsız bir katalogla karşılaştırıldı; motor/şanzıman ailesinde 0 çelişki, beygir/torkta 10 çelişki bulundu ve doğrulanan 5 gerçek hata düzeltildi (en ağırı: bir 1.6 dizelde 400 Nm ve bir aracın tamamen yanlış motor ailesine bağlı olması). |
@@ -1946,7 +1946,87 @@ sırasındaydı, gerçek kod değişmedi.
 
 ---
 
-## Y-03 · İki aşamalı kaynak araştırma hattı kur — **bitti**
+## Y-27 · Araç portföyünü büyütme: BMW N57 motor ailesi, 730d ve iki otomatik terfi — **birinci tur bitti (2026-08-20)**
+
+**Bulgu — depo sahibinden.** "gpt'nin dümdüz basit bir aramayla önerdiği nerdeyse
+hiçbir araba, marka model kombinasyon yok, araç portföyümüz felaket sınırlı; baya
+büyütmeliyiz, sahibinden'deki tüm kombinasyonları görmeliyim" istendi. Bu, tek
+oturumda bitirilemeyecek bir istek: bu depodaki kalite çıtası (4+ bağımsız kaynak,
+uydurma vergi/güvenilirlik verisi yasağı, Y-23'ün öğrettiği anakronizm dikkati)
+her yeni araca gerçek araştırma süresi harcatıyor. Bu tur, o büyümenin **ilk
+adımını** atıyor ve aynı zamanda büyümeyi ucuzlatan iki mekanik iyileştirme
+yapıyor.
+
+**Ağ erişimi sınırlaması — dürüst kayıt.** sahibinden.com'a doğrudan erişim bu
+çalışma ortamında engelli (WebFetch her denemede `EGRESS_BLOCKED` döndürdü, üç
+farklı harici teknik özellik/vergi sitesinde de aynı sonuç alındı). Bu yüzden
+"sahibinden'i canlı tara" birebir uygulanamadı; onun yerine iki alternatif yol
+izlendi.
+
+**1. Yol — katalogdan ücretsiz terfi.** `scripts/promote_catalog.py`, depoda
+zaten puanlanmış motor/şanzıman ailelerine güvenle bağlanabilen 1.215 "yalnız
+katalogda" kaydı otomatik tarıyor. Bu turda çalıştırılınca (`--write`) iki yeni
+araç sıfır elle araştırmayla terfi etti: **Alfa Romeo MiTo 1.4 T · 135 bg** (EA111
+motor ailesi, motor puanı 46) ve **Skoda Superb 1.8 TSI · 160 bg** (EA888 motor
+ailesi, motor puanı 46; vag-01m şanzıman, puan 66). `comf`/`cost`/`liq`,
+deponun zaten kullandığı yöntemle (marka içi en yakın kardeş aracın puanına göre
+tahmin, `confidence: "düşük"`, kaynak boş) dürüstçe düşük güvenle işaretlendi.
+
+**Bu yolda bulunan ve düzeltilen bir betik hatası.** `promote_catalog.py`
+içindeki `TODAY` sabiti `"2026-08-17"` olarak donmuştu — betik hangi gün
+çalıştırılırsa çalıştırılsın terfi kayıtlarına o sabit tarihi yazıyordu.
+`datetime.date.today().isoformat()` ile değiştirildi; bu turda üretilen iki
+dosyanın tarihi (betik düzeltmeden ÖNCE yazıldıkları için) elle `2026-08-20`'ye
+düzeltildi, çünkü isimden eşleşen kayıt dedup'ı script'i yeniden çalıştırmakla
+düzeltilemiyordu.
+
+**Bu yolda bulunan ikinci, daha önemli betik hatası.** `promote_catalog.py`
+terfi ettirdiği araç kaydını yazıyordu ama katalogdaki kaynak satırın
+`scored_car_id` alanını hiç doldurmuyordu — yani terfi eden bir kayıt hem
+"puanlanmış araç" hem "yalnız katalogda" listesinde birden görünüyordu (bu,
+BMW 730d eklenirken elle fark edilip elle düzeltilmişti, ama otomatik terfi
+eden iki kayıtta unutulmuştu). Betiğe `link_catalog_entries()` fonksiyonu
+eklendi: `--write` sonunda terfi eden her katalog id'sini kaynak dosyasında
+bulup `scored_car_id`'yi dolduruyor. Bu turun iki otomatik terfisi ve BMW 730d
+için katalog kayıtları elle/otomatik tutarlı hale getirildi; bundan sonraki her
+`--write` çalıştırması bu adımı kendiliğinden yapacak.
+
+**2. Yol — elle araştırma: BMW N57 + 730d (F01).** Katalogda karşılığı olmayan,
+gerçekten eksik bir motor ailesi elle araştırıldı: **BMW N57** (3.0 dizel, altı
+silindir), N47'nin altı silindirli kardeşi. Dört bağımsız kaynak (iki forum, iki
+teknik blog) N57'nin N47 ile aynı temel tasarım hatasını (triger zincirinin
+motorun şanzıman tarafında olması) taşıdığını ama zincir arızalarının N47'ye göre
+daha seyrek bildirildiğini doğruladı; `base_score` bu yüzden N47'nin 38 puanının
+üzerinde ama "bilinen risk" bandının tavanının (49) altında, 46 olarak
+kalibre edildi — gerekçe motor kaydının `note` alanında tam cümlelerle yazılı.
+Bu aileye bağlı ilk araç olarak **BMW 730d (F01), 258 bg** eklendi; `comf`/`cost`/
+`liq` depodaki 5 serisi araçlarıyla segment karşılaştırması yapılarak (bayrak
+modeli için daha yüksek konfor, daha büyük/pahalı segment için daha düşük
+maliyet puanı, Türkiye pazarında niş kalan bir gövde için belirgin biçimde düşük
+likidite) düşük güvenle verildi.
+
+**Doğrulama.** `python3 scripts/validate.py` 0 hata; `python3
+scripts/consistency.py` yeni bir çelişki bayrağı üretmedi. Tam üretim hattı
+(`build.py` → `build_pages.py` → `build_content.py`) yeniden çalıştırıldı: araç
+sayısı **406 → 409**, motor ailesi sayısı **104 → 105**. `node
+scripts/smoke_test.js` **92/92** kontrolü geçti, yeni araçlar hiçbir mevcut
+kontrolü bozmadı.
+
+**Kapsam düzeltmesi — önceki turun yanlış negatifleri.** Bu turda fark edildi:
+daha önce "eksik" sayılan Citroën C4/C5 ve BMW 1-Serisi ailelerinin depoda
+zaten kısmi karşılığı var; bunlar gerçek boşluk değil, önceki bir turun kaba
+marka-düzeyi sezgisinin yanlış negatifiydi. Gerçekten eksik olduğu doğrulanan
+aileler: **Audi A7, BMW 6-Serisi, Mercedes CLA/CLS/S-Serisi**, ve ticari
+tabanlı yolcu araçları (**Ford Connect, Fiat Doblo, VW Caddy**).
+
+**Bitmemiş bırakılanlar — dürüst kayıt.** Bu tur, "sahibinden'deki tüm
+kombinasyonlar" hedefinin küçük bir kesridir; bu depronun kalite çıtasında bu
+hedefe ulaşmak tek oturumda bitmez, çok turlu bir çalışma gerektirir. Yukarıdaki
+5 gerçek boşluk (Audi A7, BMW 6-Serisi, Mercedes CLA/CLS/S-Serisi, ticari tabanlı
+yolcu araçları) bir sonraki turun aday listesidir. Ayrıca zaten kısmi kapsamı
+olan ailelerin (Citroën C4/C5, BMW 1-Serisi) hangi TRIM'lerinin gerçekten eksik
+olduğu, marka-düzeyi sezginin artık güvenilmez kanıtlanmasından sonra tek tek
+yeniden denetlenmeli.
 
 **Sorun neydi.** Kaynak biriktirmek ile kaynağı puana çevirmek iki farklı iş ve farklı
 yetenek istiyor. Birincisi geniş ama sığ bir tarama (çok sayıda aday kaynak bul),

@@ -7,7 +7,7 @@ hangi taslağın kullanılacağına insan karar verir. Yeniden üretmek için:
 
     python3 scripts/build_content.py
 
-**Toplam: 313 arıza kaydı için taslak, 157 dosyada.**
+**Toplam: 315 arıza kaydı için taslak, 158 dosyada.**
 
 ## Motor aileleri
 
@@ -23,6 +23,7 @@ hangi taslağın kullanılacağına insan karar verir. Yeniden üretmek için:
 - [BMW N47](motor/bmw-n47.md) — 1 kayıt
 - [BMW N42](motor/bmw-n4x.md) — 2 kayıt
 - [BMW N52](motor/bmw-n52.md) — 2 kayıt
+- [BMW N57](motor/bmw-n57.md) — 2 kayıt
 - [Fiat E.torQ](motor/fca-etorq-16.md) — 1 kayıt
 - [Fiat FIRE](motor/fca-fire-14.md) — 2 kayıt
 - [Fiat / Alfa Romeo 1.9 JTDm](motor/fca-jtd-19.md) — 2 kayıt
