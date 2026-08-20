@@ -34,7 +34,7 @@ ister; güncellenmezse ilk işlevini kaybeder.
 | Ana ekran (Y-07) | Tamamlandı: veri kapsamı özeti, hazır giriş yolları, en riskli bileşenler |
 | Araştırma kuyruğu (Y-03) | Tamamlandı: `data/queue/`, şema, iki aşamalı akış, bir tur uçtan uca çalıştırıldı |
 | Kaynak derinliği (Y-02) | **Bitti.** 400 aracın tamamı "doğrulanmış" (4+ kaynak) — `kaynak-yetersiz` uyarısı 2026-08-17'de tamamen kapandı, bkz. Y-19 |
-| Araç listesi (Y-01) | 154 → 278 → 400 → 406 → **409 araç** (Y-19/Y-23/Y-27 terfi turları). Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon); Y-27'de portföy büyütme talebiyle 3 araç daha eklendi (2'si katalogdan otomatik terfi, 1'i elle araştırılan yeni bir motor ailesiyle — BMW N57/730d), odak artık sayısal hedeften ziyade "sahibinden'de olup depoda olmayan" gerçek marka/model boşlukları, sürüyor |
+| Araç listesi (Y-01) | 154 → 278 → 400 → 406 → **409 araç** (Y-19/Y-23/Y-27 terfi turları). Birinci dalgada **SUV 1 → 30 (hedefi aştı), marka 5/5 (hedefe ulaştı), 2016+ 5 → 42 (hedefi (40) aştı)**; ikinci dalga 300-900 bin TL bandında marka-model-motor-şanzıman çeşitliliğini artırıyor (228→278, 50 kombinasyon); Y-27'de portföy büyütme talebiyle 3 araç daha eklendi (2'si katalogdan otomatik terfi, 1'i elle araştırılan yeni bir motor ailesiyle — BMW N57/730d); Y-28'de depo sahibinin "C/D (+B) segmentine odaklan, E/F'ye, MPV'ye, ticariye gitme, 1,5 milyonu aşma" talimatıyla `data/queue/portfolio-expansion-bcd-worklist.json` üretildi — **877 aday trim, 301 grup**, henüz puanlanmadı, sıradaki turların çalışma listesi |
 | Teknik katalog (MK-22) | **1.656 kayıt** (`data/catalog/`, marka başına bir dosya). Olgusal katmandır: güç, tork, çekiş, hacim, gövde, vites sayısı, kavrama tipi, motor kodu ve teknik kaynak adresi taşır; puan taşımaz. 283 kayıt puanlanmış bir araca bağlı, 1.215'i yalnız katalogda ve kendi statik sayfası var — bunun 15'i Y-22'de TSB Kasko Değer Listesi'nden eklendi. Y-27'de `promote_catalog.py`'nin terfi ettirdiği kaydın kaynak katalog satırını `scored_car_id` ile geri bağlamadığı bir betik hatası bulunup düzeltildi. |
 | Kapsam sınırı | **Elektrikli, hibrit ve LPG'li araçlar kalıcı olarak kapsam dışı (MK-13)** |
 | Puanlama şeffaflığı (Y-06) | **Bitti.** Bilimsel temel, kanıt zinciri, arayüz katmanı (kriter paneli artık liste ekranında, "neden bu puan" dökümü) tamamlandı |
@@ -2027,6 +2027,70 @@ yolcu araçları) bir sonraki turun aday listesidir. Ayrıca zaten kısmi kapsam
 olan ailelerin (Citroën C4/C5, BMW 1-Serisi) hangi TRIM'lerinin gerçekten eksik
 olduğu, marka-düzeyi sezginin artık güvenilmez kanıtlanmasından sonra tek tek
 yeniden denetlenmeli.
+
+---
+
+## Y-28 · Portföy genişletmenin kapsamını bulma turu: C/D (+ B) segmentine odaklı 877 aday — **kapsam bulma bitti (2026-08-20), terfi sürüyor**
+
+**Bulgu — depo sahibinden.** Y-27'nin ardından açık bir yön verildi: genişleme
+E/F segmentine (5-Serisi, E-Sınıfı, A6/A8, 7-Serisi ve dengi büyük SUV'lar)
+gitmemeli, ticari tabanlı yolcu araçlarına ve MPV'ye hiç gitmemeli, C/D
+segmentine odaklanmalı (B segmenti de eklenebilir), ve hiçbir aracın fiyatı
+1,5 milyon TL'yi aşmamalı. Ayrıca açık bir sıra verildi: **önce bütün
+portföyün kapsamını bul, kaynak bulma işini sonraya bırak.**
+
+**Neden "önce bul" ayrı bir adım.** Bu depoda bir aracın puanlanması demek
+motor/şanzıman ailesinin dört bağımsız kaynakla (ya da en azından ikiyle)
+doğrulanmış olması demek (MK-02/MK-16); 877 adayın hepsini bu turda kaynaklamak
+mümkün değil. Ama "hangi araçların eksik olduğunu bilmek" ayrı, kanıt
+gerektirmeyen bir iştir — depodaki 1.656 kayıtlık teknik katalog (MK-22) zaten
+P2.1 veri paketinden gelen gerçek, olgusal teknik özellikler taşıyor. Bu tur bu
+ayrımı kullandı: **uydurma yapmadan**, yalnızca depoda zaten duran gerçek
+verinin üzerinden "hangi C/D/B segmenti aracı hâlâ katalogda ama puanlı
+listede yok" sorusuna kesin bir sayı verdi.
+
+**Yöntem.** Katalogdaki 430 farklı (marka, model ailesi) çiftinin her biri elle
+B/C/D/E/F/MPV/TICARI/SKIP segmentlerinden birine atandı (yaygın, tartışmasız
+segment sınıflandırması — VW Golf/Toyota Corolla gibi ailelerin C segmenti
+olduğu, VW Passat/BMW 3-Serisi gibi ailelerin D segmenti olduğu, 5-Serisi/
+E-Sınıfı gibi ailelerin E segmenti olduğu genel otomotiv bilgisi, kaynak
+gerektirmeyen bir sınıflandırma). Bu haritayla, `scripts/promote_catalog.py`'nin
+zaten yüklediği katalog + araç verisi üzerinden, **puanlanmamış VE B/C/D
+segmentinde VE depoda aynı adla zaten kayıtlı bir aracı olmayan** katalog
+kayıtları filtrelendi; marka+model ailesi+nesil kırılımında gruplandı.
+
+**Sonuç — `data/queue/portfolio-expansion-bcd-worklist.json`.** 301 grup, 877
+trim. Segmentlere göre dağılım: B 40 grup/95 trim, C 143 grup/379 trim, D 118
+grup/403 trim. Her grup, o gruptaki motor ailesinin (marka+yakıt+hacim kovası)
+depoda **zaten var olup olmadığını** (`any_engine_bucket_known`) taşıyor: 92
+grup (338 trim) depoda zaten kayıtlı bir motor kovasına düşüyor — bu, sıfırdan
+motor araştırması gerektirmediği için bir sonraki turların önceliği olmalı; en
+büyükleri Volvo S60 (28 trim), Renault Megane (28), BMW 3-Serisi E46/E90/E91
+(46 trim toplam), Saab 9-3 (15), Honda Civic (12), Toyota Avensis (12).
+Kalan 209 grup (539 trim) sıfırdan motor ailesi araştırması gerektiriyor.
+Bu sayı, `promote_catalog.py`'nin kendi güvenli otomatik eşleştiricisinin
+bulduğu adaylarla (32 toplam, hepsi zaten depoda isimle eşleşiyordu — bkz.
+Y-27'nin "ücretsiz terfi" kapısının artık kapalı olduğu bulgusu) karıştırılmamalı;
+bu worklist **motor kovası** düzeyinde eşleşiyor, `promote_catalog.py`'nin
+katı eşleştiricisi ise **isim+beygir aralığı+yıl** düzeyinde, çok daha sıkı bir
+koşul arıyor — worklist'teki her satır yine de tek tek elle doğrulanmalı
+(Y-23'ün anakronizm dersi burada da geçerli).
+
+**Fiyat tavanı — dürüst kayıt.** Katalog kayıtlarında fiyat alanı hiç yok (MK-22:
+katalog olgusal teknik veridir, puan veya fiyat taşımaz), bu yüzden 1,5 milyon
+TL tavanı bu census aşamasında **uygulanamadı**. Bunun yerine worklist'in
+`_comment` alanına açıkça yazıldı: her araç terfi ederken (nearest-sibling
+yöntemiyle fiyat aldığı an) tavan elle denetlenmeli, aşan varsa terfi
+durdurulmalı ya da fiyat elle düşürülmeli.
+
+**Bitmemiş bırakılanlar.** Bu tur bilinçli olarak **yalnızca kapsamı buldu**;
+worklist'teki 877 satırdan hiçbiri bu turda puanlanmadı, depo sahibinin kendi
+isteğiyle ("kaynak bulamayabilirsin ama önce bütün portföyü bul, sonra kaynak
+buluruz"). Sıradaki iş: worklist'in `any_engine_bucket_known: true` grupları
+büyükten küçüğe ele alınıp, her grubun her trimindeki beygir/yıl kombinasyonu
+gerçek üretim verisiyle (WebSearch, bu ortamda WebFetch hâlâ engelli)
+doğrulanarak, Y-27'deki BMW N57/730d turunda izlenen adım adım yöntemle
+puanlanmalı.
 
 **Sorun neydi.** Kaynak biriktirmek ile kaynağı puana çevirmek iki farklı iş ve farklı
 yetenek istiyor. Birincisi geniş ama sığ bir tarama (çok sayıda aday kaynak bul),
