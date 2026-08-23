@@ -5175,5 +5175,27 @@
     "language": "en",
     "quotes": [],
     "id": "whatbreaks_e39"
+  },
+  "hubauer_e39_525d_getriebe": {
+    "claim": "BMW yedek parça kataloğunda E39 525d sedan otomatiğin (fabrika model kodu DL01) şanzıman bölümünün de A5S360R / A5S390R başlığı altında listelendiği; yani E39'un M57 dizel sürümlerinin tamamının GM kaynaklı kutu kullandığı",
+    "publisher": "Hubauer (BMW ETK parça kataloğu aynası)",
+    "url": "https://www.hubauer-shop.de/en/carparts/5er-parts-catalog/limousine-5er/dl01-e39-m57/525da-saloon-automatic-transmission-dl01/dl01-240830-automat/",
+    "type": "spec-database",
+    "tier": "B",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "hubauer_e39_525d_getriebe"
+  },
+  "bmwfans_e39_525d_getriebe": {
+    "claim": "Bağımsız ikinci bir BMW parça kataloğunun da E39 525d M57 için otomatik şanzımanı A5S360R / A5S390R olarak listelediği",
+    "publisher": "bmwfans.info (BMW parça kataloğu)",
+    "url": "http://bmwfans.info/parts-catalog/E39-Touring/Europe/525d-M57/feb2003/browse/automatic_transmission/automatic_transmission_a5s360r_a5s390r",
+    "type": "spec-database",
+    "tier": "B",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "bmwfans_e39_525d_getriebe"
   }
 }

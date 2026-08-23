@@ -2,7 +2,7 @@
   "id": "bmw-e39-525d",
   "legacy_index": 9,
   "name": "BMW E39 525d",
-  "tag": "oto: ZF 5 ileri (TK) · ~163hp",
+  "tag": "oto: GM 5L40-E (TK) · ~163hp",
   "brand_group": "BMW",
   "years": "2000-2003",
   "specs": {
@@ -11,7 +11,7 @@
     "fuel": "Dizel",
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
-    "transmission_id": "zf-5hp",
+    "transmission_id": "gm-5l40e",
     "body_type": "Sedan",
     "engine_id": "bmw-m57",
     "torque_nm": 350,
@@ -24,7 +24,7 @@
   "verification": "verified",
   "scores": {
     "motor": 80,
-    "trans": 70,
+    "trans": 42,
     "fun": 57,
     "comf": 68,
     "age": 15,
@@ -33,20 +33,42 @@
   },
   "sources": [
     "autoclassmagazine_m57_swirlflap",
+    "axleaddict_gm5l40e",
+    "batransmissions_5l40e",
     "bimmerfest_zf5hp19",
+    "bimmerforums_530d_tork_siniri",
+    "bmwfans_e39_525d_getriebe",
     "drivingline_m57_unkillable",
     "e39",
+    "e46fanatics_5l40e_tcc",
+    "gearboxlist_5l40e",
+    "hubauer_e39_525d_getriebe",
     "m57",
+    "solsticeforum_gm5l40e",
+    "sonnax_5l40e_geri_vites",
     "transmissionrepair_zf5hp",
     "transmissionrepairguide_zf5hp19",
     "tuv"
   ],
-  "note": "530d ile aynı sağlam M57 ailesinden gelen 2.5 litrelik dizel; torku biraz daha az ama yakıt tüketimi daha iyi. ZF otomatikle geliyor. Aracın yaşı ve büyük gövdesi toplam puanı aşağı çekiyor.",
+  "note": "530d ile aynı sağlam M57 ailesinden gelen 2.5 litrelik dizel; torku biraz daha az ama yakıt tüketimi daha iyi. ZF otomatikle geliyor. Aracın yaşı ve büyük gövdesi toplam puanı aşağı çekiyor. Şanzıman notu: bu aracın otomatiği ZF değil GM 5L40-E'dir (BMW kodu A5S360R / A5S390R). Kutunun kendisi 530d'dekiyle aynıdır, ama 525d'nin 350 Nm torku kutunun derecelendirmesinin altında kaldığı için burada 530d'de bulunmayan bir güvenlik payı var. Bu, aynı kutuyu taşıyan iki araçtan 525d'yi uzun ömür açısından daha rahat bir seçim yapıyor.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js",
-    "specs_source": "Tork (350 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (163 bg) ve motor hacmi (2.5 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı. Boş ağırlık (1585 kg) https://www.carfolio.com/bmw-525d-automatic-104093 adresinden alındı; eşleme MK-15 kuralına göre beygir (163 bg) ve motor hacmi (2.5 L) birlikte doğrulanarak yapıldı."
+    "specs_source": "Tork (350 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (163 bg) ve motor hacmi (2.5 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı. Boş ağırlık (1585 kg) https://www.carfolio.com/bmw-525d-automatic-104093 adresinden alındı; eşleme MK-15 kuralına göre beygir (163 bg) ve motor hacmi (2.5 L) birlikte doğrulanarak yapıldı.",
+    "corrections": [
+      {
+        "date": "2026-08-23",
+        "field": "specs.transmission_id",
+        "from": "zf-5hp",
+        "to": "gm-5l40e",
+        "reason": "E39'un M57 dizel sürümlerinin tamamı GM kaynaklı A5S360R / A5S390R kutu kullanıyor; kayıt aracı yanlışlıkla ZF ailesine bağlıyor ve trans puanını 70'te tutuyordu. Aynı hata bmw-e39-530d'de de vardı ve aynı turda düzeltildi (bkz. docs/ROADMAP.md Y-30).",
+        "sources": [
+          "hubauer_e39_525d_getriebe",
+          "bmwfans_e39_525d_getriebe"
+        ]
+      }
+    ]
   },
   "evidence": {
     "motor": {
@@ -61,15 +83,21 @@
       "assessed_at": "2026-08-06"
     },
     "trans": {
-      "band": "yönetilebilir bakım kalemi",
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
       "confidence": "yüksek",
       "sources": [
-        "e39",
-        "m57",
-        "tuv"
+        "hubauer_e39_525d_getriebe",
+        "bmwfans_e39_525d_getriebe",
+        "gearboxlist_5l40e",
+        "sonnax_5l40e_geri_vites",
+        "e46fanatics_5l40e_tcc",
+        "batransmissions_5l40e",
+        "solsticeforum_gm5l40e",
+        "axleaddict_gm5l40e"
       ],
-      "reasoning": "ZF 5HP19 (zf-5hp) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
-      "assessed_at": "2026-08-06"
+      "reasoning": "Bu kayıt 2026-08-23'te, kardeşi bmw-e39-530d ile aynı turda düzeltildi: araç önceden ZF 5HP ailesine (zf-5hp, temel puan 70) bağlıydı ve bu yanlıştı. İki bağımsız BMW parça kataloğu, E39 525d otomatiğin (fabrika model kodu DL01) şanzıman bölümünü A5S360R / A5S390R başlığı altında listeliyor; bu kodlar GM 5L40-E'nin BMW adlandırmasıdır. Doğru aile gm-5l40e (temel puan 40). Puan temel puanın iki puan üstünde, 42'de tutuldu ve bunun gerekçesi 530d'ninkinin tam tersidir: bu motorun torku 350 Nm, kutunun derecelendirmesi ise 360 veya 390 Nm, yani burada gerçek bir pay var. Aynı kutu 530d'de 390 Nm ile sınırda çalışırken 525d'de sınırın altında çalışıyor; kutunun bilinen arıza noktaları (TCC solenoidi, tork konvertörü, valf gövdesi çapraz kaçakları) aynı kaldığı için puan yine 35-49 bandında.",
+      "derivation": "kaynak",
+      "assessed_at": "2026-08-23"
     },
     "age": {
       "band": "TÜV yaş-kusur eğrisinden hesaplandı",

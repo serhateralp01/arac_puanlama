@@ -2812,9 +2812,20 @@ olduğunu üreticinin kendi kararıyla gösteriyor.
 `consistency.py` çıktısında `gm-5l40e` grubu 5 araca çıktı ve grup içi puan yayılımı 2'ye
 düştü; düzeltmeden önce bu araç kendi ailesinden 30 puan uzakta duruyordu.
 
-**Bu düzeltmenin açtığı sıradaki iş.** Aynı hatanın kardeşleri kontrol edilmeli:
+**İkinci düzeltme: `bmw-e39-525d`.** Aynı turda kardeş kayıt da kontrol edildi ve aynı
+hatayı taşıdığı görüldü. İki bağımsız katalog (Hubauer ve bmwfans.info), E39 525d otomatiğin
+fabrika model kodu **DL01** altında şanzımanını yine A5S360R / A5S390R olarak listeliyor;
+yani E39'un M57'li dizel sürümlerinin **tamamı** GM kutu kullanıyor. `bmw-e39-525d` de
+`gm-5l40e`'ye bağlandı, `trans` puanı 70 → **42** oldu. Bu araçta puanın temel puanın iki
+puan **üstünde** tutulmasının gerekçesi 530d'ninkinin tam tersidir: 525d'nin torku 350 Nm,
+kutunun derecelendirmesi 360 veya 390 Nm, yani burada gerçek bir güvenlik payı var. Aynı
+kutu, iki araçta iki farklı risk seviyesinde çalışıyor ve puanların bunu göstermesi gerekiyordu.
+
+**Bu düzeltmenin açtığı sıradaki iş.** Aynı hatanın kalan kardeşleri kontrol edilmeli:
 `bmw-e39-520d` ve `bmw-e39-520i` hâlâ `zf-5hp`'ye bağlı, `bmw-e39-523i` ve `bmw-e39-528i`
-ise `gm-5l40e`'ye. E39'da 528i'nin 09/1999'dan sonra GM kutuya geçtiği, 530i ve 525i'nin
+ise `gm-5l40e`'ye. `bmw-e39-520d` özellikle şüpheli, çünkü hem M47 dizeldir (yani GM kutu
+beklenir) hem de E39 520d'nin birçok pazarda yalnızca manuel satıldığı bilinir; kaydın
+otomatik olarak durması ayrıca doğrulanmalı. E39'da 528i'nin 09/1999'dan sonra GM kutuya geçtiği, 530i ve 525i'nin
 ise 03/2001'e kadar GM, sonrasında ZF kullandığı bulundu. Yani bu kayıtların doğruluğu
 üretim tarihine bağlı ve depo bugün üretim tarihi ayrımı tutmuyor. Bu, tek tek araçlar
 düzeltilerek değil, `years` alanının şanzıman seçimini etkilediği durumlar için bir kural
