@@ -2,7 +2,7 @@
   "id": "bmw-e39-530d",
   "legacy_index": 6,
   "name": "BMW E39 530d",
-  "tag": "oto: ZF 5 ileri (TK) · ~184-193hp",
+  "tag": "oto: GM 5L40-E (TK) · ~184-193hp",
   "brand_group": "BMW",
   "years": "1999-2003",
   "specs": {
@@ -11,7 +11,7 @@
     "fuel": "Dizel",
     "drivetrain": "Arkadan",
     "transmission_type": "TK",
-    "transmission_id": "zf-5hp",
+    "transmission_id": "gm-5l40e",
     "body_type": "Sedan",
     "engine_id": "bmw-m57",
     "torque_nm": 410,
@@ -25,7 +25,7 @@
   "verification": "verified",
   "scores": {
     "motor": 80,
-    "trans": 70,
+    "trans": 38,
     "fun": 68,
     "comf": 66,
     "age": 15,
@@ -34,21 +34,46 @@
   },
   "sources": [
     "autoclassmagazine_m57_swirlflap",
-    "bimmerfest_zf5hp19",
+    "autodata_e39_530d_184",
+    "axleaddict_gm5l40e",
+    "batransmissions_5l40e",
+    "bimmercat_e39_530d_getriebe",
+    "bimmerforums_530d_tork_siniri",
+    "classicsworld_e39_alim_rehberi",
     "drivingline_m57_unkillable",
     "e39",
     "e39c",
+    "e46fanatics_5l40e_tcc",
+    "euroracingparts_m57",
+    "garageracer_m57_kasnak",
+    "gearboxlist_5l40e",
+    "hubauer_e39_530d_getriebe",
     "m57",
-    "transmissionrepair_zf5hp",
-    "transmissionrepairguide_zf5hp19",
-    "tuv"
+    "solsticeforum_gm5l40e",
+    "sonnax_5l40e_geri_vites",
+    "tuv",
+    "whatbreaks_e39"
   ],
-  "note": "M57 dizel motoru çok sağlam, torku bol ve araç arkadan itişli olduğu için sürmesi keyifli. Otomatiği ZF yapımı 5 ileri tork konvertörlü kutu; eski bir tasarım olsa da bakımı yapılmışsa sorun çıkarmıyor. Puanını aşağı çeken şey aracın yaşı ve büyük gövdesinin herkes için kolay kullanılmaması. Alacaksanız soğutma sistemi yenilenmiş bir örnek seçin.",
+  "note": "M57 dizel motoru bu listedeki en sağlam gruplardan biri: dökme demir blok, common-rail enjeksiyon ve arkadan itiş birleşince hem uzun ömürlü hem sürmesi keyifli bir araç çıkıyor. Aracın gerçek zayıf noktası motor değil şanzımandır. E39 530d'nin otomatiği ZF değil GM 5L40-E'dir (BMW kodu A5S360R / A5S390R) ve bu kutunun derecelendirilmiş azami torku motorun ürettiği torkun tam kendisidir, yani hiç pay yoktur. BMW'nin otomatik sürümde motoru manuelin 410 Nm'si yerine 390 Nm'de tutması bunun kanıtı. Bunun pratik sonucu şudur: yazılım yükseltmesi (chip/stage) yapılmış bir örnek almak kutuyu doğrudan riske atar, çünkü kazanılan torkun gideceği yer yoktur. Almadan önce şanzıman etiketinden kutunun 360R mı 390R mı olduğuna ve DDE'nin stok yazılım taşıyıp taşımadığına bakılmalı; ayrıca soğutma sistemi (plastik genleşme kabı, hortumlar, termostat gövdesi) ve kriko takozu/eşik pası bu yaştaki her E39'da ayrıca kontrol edilmelidir.",
   "provenance": {
     "imported_from": "legacy/arac-puanlama-v1.html",
     "imported_at": "2026-08-04",
     "method": "scripts/import_legacy.js",
-    "specs_source": "Tork (410 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (193 bg) ve motor hacmi (3 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı. Boş ağırlık (1710 kg) https://www.carfolio.com/bmw-530d-automatic-280709 adresinden alındı; eşleme MK-15 kuralına göre beygir (193 bg) ve motor hacmi (3 L) birlikte doğrulanarak yapıldı."
+    "specs_source": "Tork (410 Nm) 2026-08-13 tarihli P2.1 veri paketinden alındı; eşleme MK-15 kuralına göre marka, model, beygir (193 bg) ve motor hacmi (3 L) birlikte doğrulanarak yapıldı, uyuşmayan kayıtlar boş bırakıldı. Boş ağırlık (1710 kg) https://www.carfolio.com/bmw-530d-automatic-280709 adresinden alındı; eşleme MK-15 kuralına göre beygir (193 bg) ve motor hacmi (3 L) birlikte doğrulanarak yapıldı.",
+    "corrections": [
+      {
+        "date": "2026-08-23",
+        "field": "specs.transmission_id",
+        "from": "zf-5hp",
+        "to": "gm-5l40e",
+        "reason": "Kayıt, aracı ZF 5HP ailesine bağlıyordu. İki bağımsız BMW parça kataloğu (Hubauer ve Bimmercat), E39 530d sedan otomatiğin fabrika model kodu DL81 altında şanzımanı A5S360R / A5S390R olarak listeliyor; bu kodlar GM 5L40-E'nin BMW adlandırmasıdır. E39'da genel kural, dizel motorların GM, benzinlilerin ZF kutu kullanmasıdır. Hata `trans` puanını 70 olarak bırakıyordu; düzeltmeyle puan 38'e indi.",
+        "sources": [
+          "hubauer_e39_530d_getriebe",
+          "bimmercat_e39_530d_getriebe",
+          "bimmerforums_530d_tork_siniri"
+        ]
+      }
+    ]
   },
   "evidence": {
     "motor": {
@@ -58,22 +83,33 @@
         "e39",
         "m57",
         "e39c",
-        "tuv"
+        "tuv",
+        "euroracingparts_m57",
+        "drivingline_m57_unkillable",
+        "garageracer_m57_kasnak",
+        "autoclassmagazine_m57_swirlflap"
       ],
-      "reasoning": "M57 (bmw-m57) motor ailesinin temel puanı 72. Bu aracın motor puanı (80), temel puandan 8 puan yukarı sapıyor (bu farkın kayıtlı bir gerekçesi yoksa küçük bir değerlendirme payı olarak kabul ediliyor, ±15 puan sınırı içinde). Ailenin bilinen zaafı: Swirl flap aktüatör arızası ve kanadın kopup silindire girmesi. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: En az bir kaynakta rutin ama planlanabilir bir bakım kalemi bildiriliyor (conta, filtre gibi); motoru komple bitiren bir tasarım hatası yok.",
-      "assessed_at": "2026-08-06"
+      "reasoning": "M57 (bmw-m57) motor ailesinin temel puanı 72. Bu aracın motor puanı (80), temel puandan 8 puan yukarı sapıyor ve bu sapmanın gerekçesi 2026-08-23'te kaynaklandı: M57'nin dökme demir bloğu ve iç aksamı, kaynaklarda BMW'nin ürettiği en sağlam gruplar arasında anılıyor ve bakımı yapılmış örneklerin 500.000 km'yi aşabildiği bildiriliyor. Ailenin bilinen zaafları blokta değil çevre parçalarda toplanıyor: emme manifoldundaki girdap kanatçıklarının (swirl flap) kopup silindire girmesi, krank kasnağındaki kauçuk şeridin yaklaşık 300.000 km'de çatlaması ve EGR/turbo tarafındaki tıkanmalar. Bu puan 'sağlam, bilinen küçük bakım kalemi var' bandına giriyor: rutin ama planlanabilir bakım kalemleri bildiriliyor, motoru komple bitiren bir tasarım hatası yok. Not: M57'nin triger zinciri motorun arka (volan) tarafındadır; zincir işi gerektiğinde şanzımanın inmesi gerekir, yani ucuz bir kalem değildir.",
+      "derivation": "kaynak",
+      "assessed_at": "2026-08-23"
     },
     "trans": {
-      "band": "yönetilebilir bakım kalemi",
+      "band": "bilinen risk, kavrama/mekatronik odaklı",
       "confidence": "yüksek",
       "sources": [
-        "e39",
-        "m57",
-        "e39c",
-        "tuv"
+        "hubauer_e39_530d_getriebe",
+        "bimmercat_e39_530d_getriebe",
+        "gearboxlist_5l40e",
+        "bimmerforums_530d_tork_siniri",
+        "sonnax_5l40e_geri_vites",
+        "e46fanatics_5l40e_tcc",
+        "batransmissions_5l40e",
+        "solsticeforum_gm5l40e",
+        "axleaddict_gm5l40e"
       ],
-      "reasoning": "ZF 5HP19 (zf-5hp) şanzıman ailesinin temel puanı 70. Bu aracın trans puanı (70) temel puanla birebir aynı. Bu puan 'yönetilebilir bakım kalemi' bandına giriyor: Kutu sağlam ama düzenli bir bakım kalemi (ör. periyodik yağ değişimi) bildiriliyor; bu kalem atlanmazsa sorun çıkmıyor.",
-      "assessed_at": "2026-08-06"
+      "reasoning": "Bu kayıt 2026-08-23'te düzeltildi: araç önceden ZF 5HP ailesine (zf-5hp, temel puan 70) bağlıydı ve bu yanlıştı. İki bağımsız BMW parça kataloğu, E39 530d sedan otomatiğin (fabrika model kodu DL81) şanzıman bölümünü A5S360R / A5S390R başlığı altında listeliyor; bu iki kod GM 5L40-E kutusunun BMW adlandırmasıdır, dolayısıyla aracın doğru şanzıman ailesi gm-5l40e (temel puan 40). Puan temel puanın iki puan altına, 38'e çekildi ve bunun somut bir gerekçesi var: BMW'nin adlandırma kuralında A5S 390R'deki 390 sayısı kutunun azami giriş torkudur ve bu aracın motoru tam olarak 390 Nm üretir, yani kutu pay bırakmadan derecelendirme sınırında çalışır. BMW'nin motoru manuel sürümdeki 410 Nm yerine otomatikte 390 Nm'de tutması da sınırlayıcı bileşenin motor değil kutu olduğunu gösteriyor; 1999 başı üretimde kutunun 360 Nm derecelendirilmiş A5S360R sürümü olma ihtimali ayrıca var ve bu durumda motor kutunun derecelendirmesini aşar. Bu puan '35-49 (bilinen risk, kavrama/mekatronik odaklı)' bandına giriyor: TCC solenoidi arızası, tork konvertörü aşınması ve valf gövdesindeki çapraz kaçaklar geri vites kaybına ve sürüşün tamamen kesilmesine yol açabiliyor ve bunlar düşük-orta kilometrede görülen belgelenmiş arızalardır.",
+      "derivation": "kaynak",
+      "assessed_at": "2026-08-23"
     },
     "age": {
       "band": "TÜV yaş-kusur eğrisinden hesaplandı",

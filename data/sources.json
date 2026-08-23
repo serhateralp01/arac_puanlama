@@ -5054,5 +5054,126 @@
     "accessed": "2026-08-20",
     "language": "en",
     "quotes": []
+  },
+  "hubauer_e39_530d_getriebe": {
+    "claim": "BMW yedek parça kataloğunda E39 530d sedan otomatik (fabrika model kodu DL81) şanzıman bölümünün A5S360R / A5S390R başlığı altında listelendiği; yani 530d'nin otomatik kutusunun ZF değil GM kaynaklı olduğu",
+    "publisher": "Hubauer (BMW ETK parça kataloğu aynası)",
+    "url": "https://www.hubauer-shop.de/en/carparts/5er-parts-catalog/limousine-5er/dl81-e39-m57/530da-saloon-automatic-transmission-dl81/dl81-241889-automat/",
+    "type": "spec-database",
+    "tier": "B",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "hubauer_e39_530d_getriebe"
+  },
+  "bimmercat_e39_530d_getriebe": {
+    "claim": "Bağımsız ikinci bir BMW parça kataloğunda da E39 530d sedanın otomatik şanzıman bölümünün A5S360R / A5S390R olarak listelendiği",
+    "publisher": "Bimmercat (BMW parça kataloğu)",
+    "url": "https://bimmercat.com/bmw/en/search/selectCar/E39/Lim/BMW+530d/ECE/24_1889",
+    "type": "spec-database",
+    "tier": "B",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "bimmercat_e39_530d_getriebe"
+  },
+  "gearboxlist_5l40e": {
+    "claim": "GM 5L40-E kutusunun teknik künyesinde azami giriş torkunun yaklaşık 340 Nm olarak verildiği ve kutunun 4.000 lb (1.814 kg) azami ağırlıktaki araçlar için tasarlandığı; BMW'nin yüksek torklu uygulamalarında 150.000-200.000 km bandında arıza bildirildiği",
+    "publisher": "GearboxList",
+    "url": "https://gearboxlist.com/gm/5l40/",
+    "type": "spec-database",
+    "tier": "B",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "gearboxlist_5l40e"
+  },
+  "bimmerforums_530d_tork_siniri": {
+    "claim": "BMW'nin E39 530d'nin motorunu bilerek düşük torka ayarladığı, çünkü GM otomatik kutunun ilk sürümünün 360 Nm, sonraki sürümünün 390 Nm ile derecelendirildiği; manuel Getrag kutunun aynı torku sorunsuz taşıdığı ve yazılım yükseltmesinin (remap) otomatik kutunun ömrünü kaçınılmaz olarak kısalttığı",
+    "publisher": "BimmerForums UK",
+    "url": "https://www.bimmerforums.co.uk/threads/e39-530d-remap-by-amd-tuning-many-torques.299713/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "bimmerforums_530d_tork_siniri"
+  },
+  "sonnax_5l40e_geri_vites": {
+    "claim": "5L40-E/5L50-E ailesinde geri vites kaybı ve tork konvertörü kilitlenme (TCC) şikayetlerinin pompa yüzeyi, TCC solenoidi, TCC regülatör yuvası, çarpılmış valf gövdesi yüzeyi veya geri vites kilitleme valfindeki çapraz kaçaklardan kaynaklandığı",
+    "publisher": "Sonnax (şanzıman parça üreticisi teknik bülteni)",
+    "url": "https://www.sonnax.com/tech_resources/132-5l40e-5l50-e-isolating-concerns-re-loss-of-reverse-or-tcc",
+    "type": "manufacturer-doc",
+    "tier": "B",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "sonnax_5l40e_geri_vites"
+  },
+  "e46fanatics_5l40e_tcc": {
+    "claim": "GM 5L40E (A5S360R / A5S390R) kutularında TCC solenoidi arızasının arkadan itişli araçlarda geri viteste hareketsizliğe yol açtığı ve bu solenoidin kutu sökülmeden değiştirilebildiği; erken belirtisinin sabit yüksek hızda mıcıra basmayı andıran hafif titreşim olduğu",
+    "publisher": "E46Fanatics",
+    "url": "https://www.e46fanatics.com/threads/diy-replacing-tcc-solenoid-on-gm-5l40e-a5s-360r-a5s-390r-fix-gm-no-reverse.893453/",
+    "type": "forum",
+    "tier": "C",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "e46fanatics_5l40e_tcc"
+  },
+  "autodata_e39_530d_184": {
+    "claim": "E39 530d'nin ilk sürümünün 2.926 cc hacimle 184 bg (135 kW) güç ve 1.750-3.000 d/dk arasında 390 Nm tork ürettiği; 09/2000 makyajıyla bu değerlerin 193 bg / 410 Nm'ye çıktığı",
+    "publisher": "auto-data.net",
+    "url": "https://www.auto-data.net/en/bmw-5-series-e39-530d-184hp-9637",
+    "type": "spec-database",
+    "tier": "B",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "autodata_e39_530d_184"
+  },
+  "euroracingparts_m57": {
+    "claim": "M57'nin dökme demir blok, Bosch common-rail enjeksiyon ve turboya dayanan tasarımının yüksek tork ve termal yüke dayanmasını sağladığı; blok ve iç aksamın BMW'nin ürettiği en sağlam gruplardan sayıldığı, zayıflıkların çevre parçalarda toplandığı ve düzgün bakımla 500.000 km'yi aşabildiği",
+    "publisher": "Euro Racing Parts",
+    "url": "https://www.euroracingparts.fr/en/blogs/guide-dachat-pour-bmw/fiabilite-du-moteur-bmw-m57-en-occasion-notre-guide-detaille",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "euroracingparts_m57"
+  },
+  "garageracer_m57_kasnak": {
+    "claim": "M57'de krank kasnağının iki metal parça arasındaki kauçuk şeridin dizel titreşimiyle çatlayıp koptuğu ve kasnağın fırlayabildiği, bunun tipik olarak 300.000 km civarında değiştirilmesi gereken bir kalem olduğu; M57'nin triger zincirinin motorun arkasında (volan tarafında) bulunduğu",
+    "publisher": "Garage Racer",
+    "url": "https://www.garage-racer.com.ua/en/post/motorobzor-m57-4",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "garageracer_m57_kasnak"
+  },
+  "classicsworld_e39_alim_rehberi": {
+    "claim": "E39'da pasın kriko takozları, eşikler (özellikle arka uç), çamurluk kenarları, bagaj kapağı kilit çevresi, yakıt doldurma kapağı içi ve arka çamurluk panelinde toplandığı; eşiklerdeki pasın plastik marşpiyel kapağının altında gizlenebildiği",
+    "publisher": "Classics World",
+    "url": "https://classicsworld.co.uk/guides/bmw-5-series-e39-buyers-guide/",
+    "type": "trade-press",
+    "tier": "B",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "classicsworld_e39_alim_rehberi"
+  },
+  "whatbreaks_e39": {
+    "claim": "E39'da soğutma sisteminin sistemik bir zaaf olduğu; genleşme kabı, hortumlar ve termostat gövdesinin plastik olması nedeniyle 20 yılı aşan araçlarda gevrekleşip habersiz patladığı",
+    "publisher": "what-breaks.com",
+    "url": "https://what-breaks.com/bmw/5er-e39",
+    "type": "trade-blog",
+    "tier": "C",
+    "accessed": "2026-08-23",
+    "language": "en",
+    "quotes": [],
+    "id": "whatbreaks_e39"
   }
 }

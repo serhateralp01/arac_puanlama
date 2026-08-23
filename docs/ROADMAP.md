@@ -2779,6 +2779,49 @@ yönde çalışıyordu.
 kaydetmektir; bu hem çok daha ucuz hem sansürsüz. `docs/PLAN.md` §3.7'deki protokol bu
 düzeltmeyle güncellenmeli ve ölçüm tarihiyle birlikte `data/market/` altına yazılmalı.
 
+## Y-30 · BMW E39 530d'nin şanzıman ailesi yanlış kayıtlıydı, düzeltildi — **bitti (2026-08-23)**
+
+**Sorun.** `bmw-e39-530d` kaydı aracı ZF 5HP ailesine (`zf-5hp`, temel puan 70) bağlıyordu
+ve bu yanlıştı. Hata, depo sahibinin somut bir 1999 model 530d'yi satın almayı
+değerlendirirken sorduğu "bu araçta hangi kutu var" sorusu üzerine yapılan araştırmada
+ortaya çıktı. Yanlışlık zararsız bir etiket meselesi değildi: `trans` puanını 70 olarak
+tutuyordu, oysa doğru aile 40 temel puanlı `gm-5l40e` idi. Yani depo, bu aracın en riskli
+bileşenini en güvenli bileşenlerinden biriymiş gibi gösteriyordu.
+
+**Kanıt.** İki bağımsız BMW yedek parça kataloğu (Hubauer ve Bimmercat), E39 530d sedan
+otomatiğin fabrika model kodu **DL81** altında şanzıman bölümünü **A5S360R / A5S390R**
+başlığıyla listeliyor. Bu iki kod, GM 5L40-E kutusunun BMW adlandırmasıdır. E39'da geçerli
+genel kural şudur: dizel motorlar GM, benzinliler ZF kutu kullanır. Ayrıca BMW'nin
+adlandırma kuralında `A5S 390R` içindeki 390 sayısı kutunun azami giriş torkudur ve bu
+motorun ürettiği tork tam olarak 390 Nm'dir; BMW aynı motoru manuel sürümde 410 Nm'ye
+bırakırken otomatikte 390 Nm'de tutmuştur. Bu, sınırlayıcı bileşenin motor değil kutu
+olduğunu üreticinin kendi kararıyla gösteriyor.
+
+**Ne yapıldı.**
+
+- `specs.transmission_id` `zf-5hp` → `gm-5l40e` olarak düzeltildi, `tag` alanı da güncellendi.
+- `scores.trans` 70 → **38**. Puan, ailenin temel puanının (40) iki puan altında tutuldu;
+  gerekçesi kayda yazıldı: bu uygulamada kutu, derecelendirme sınırında pay bırakmadan
+  çalışıyor ve 1999 başı üretimde 360 Nm derecelendirilmiş `A5S360R` sürümü olma ihtimali var.
+- `evidence.trans` ve `evidence.motor` yeniden yazıldı, ZF kaynakları çıkarıldı.
+- Yapılan düzeltme `provenance.corrections` altına eskisi, yenisi ve gerekçesiyle işlendi;
+  böylece kaydın neden değiştiği altı ay sonra da okunabilir kalıyor.
+- 11 yeni kaynak eklendi (`data/sources.json`, 399 → 410) ve hepsi bu araca bağlandı.
+
+**Sonuç.** `validate.py` 0 hata (uyarı sayısı 413'te sabit kaldı), `smoke_test.js` 92/92.
+`consistency.py` çıktısında `gm-5l40e` grubu 5 araca çıktı ve grup içi puan yayılımı 2'ye
+düştü; düzeltmeden önce bu araç kendi ailesinden 30 puan uzakta duruyordu.
+
+**Bu düzeltmenin açtığı sıradaki iş.** Aynı hatanın kardeşleri kontrol edilmeli:
+`bmw-e39-520d` ve `bmw-e39-520i` hâlâ `zf-5hp`'ye bağlı, `bmw-e39-523i` ve `bmw-e39-528i`
+ise `gm-5l40e`'ye. E39'da 528i'nin 09/1999'dan sonra GM kutuya geçtiği, 530i ve 525i'nin
+ise 03/2001'e kadar GM, sonrasında ZF kullandığı bulundu. Yani bu kayıtların doğruluğu
+üretim tarihine bağlı ve depo bugün üretim tarihi ayrımı tutmuyor. Bu, tek tek araçlar
+düzeltilerek değil, `years` alanının şanzıman seçimini etkilediği durumlar için bir kural
+tanımlanarak çözülmeli. Ayrıca `data/criteria.json` içinde `fun` kriterinin 85-100 bandı
+örnek olarak `bmw-e39-530d`'yi gösteriyor ama bu aracın `fun` puanı 68; bu tutarsızlık da
+bu turda dokunulmadan bırakıldı.
+
 ---
 
 ## Değişmeyen kurallar
